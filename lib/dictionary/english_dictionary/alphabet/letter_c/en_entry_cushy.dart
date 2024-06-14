@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many see teaching as a cushy job, but it comes with its challenges."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر کەس مامۆستایەتی بە کارێکی ئاسان دەبینن، بەڵام سەختی خۆی هەیە."),
+                            "زۆر کەس مامۆستایەتی بە کارێکی ئاسان دەبینن، بەڵام سەختی خۆی ھەیە."),
                   ],
                 ),
               ),

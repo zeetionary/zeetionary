@@ -693,7 +693,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "I go to the gym every day."),
-                    ExampleSentenceKurdish(text: "هەموو ڕۆژ دەچم بۆ جیم."),
+                    ExampleSentenceKurdish(text: "ھەموو ڕۆژ دەچم بۆ جیم."),
                   ],
                 ),
               ),
@@ -830,7 +830,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The situation has been deteriorating for the past few days."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "دۆخەکە لە ماوەی چەند ڕۆژی داهاتوودا خراپتر بووە."),
+                                    "دۆخەکە لە ماوەی چەند ڕۆژی داھاتوودا خراپتر بووە."),
                           ],
                         ),
                       ),
@@ -1046,7 +1046,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Memories of happy days on the hills never fade."),
                     ExampleSentenceKurdish(
                         text:
-                            "یادەوەرییەکانی ڕۆژە خۆشەکان لەسەر گردەکان هەرگیز کاڵ نابنەوە."),
+                            "یادەوەرییەکانی ڕۆژە خۆشەکان لەسەر گردەکان ھەرگیز کاڵ نابنەوە."),
                   ],
                 ),
               ),
@@ -1096,7 +1096,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Did you have a good day?"),
-                    ExampleSentenceKurdish(text: "ڕۆژێکی خۆشت هەبوو؟"),
+                    ExampleSentenceKurdish(text: "ڕۆژێکی خۆشت ھەبوو؟"),
                   ],
                 ),
               ),
@@ -1175,7 +1175,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He was the biggest star in Hollywood in those days."),
                     ExampleSentenceKurdish(
-                        text: "لەو ماوەدا گەورەترین ئەستێرەی هۆڵیوود بوو."),
+                        text: "لەو ماوەدا گەورەترین ئەستێرەی ھۆڵیوود بوو."),
                   ],
                 ),
               ),
@@ -1229,7 +1229,7 @@ class KurdishMeaning extends StatelessWidget {
                             "That was in the bad old days of rampant inflation."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوە لە ماوەی خراپی هەڵاوسانی ئابووری بەرز بوو."),
+                            "ئەوە لە ماوەی خراپی ھەڵاوسانی ئابووری بەرز بوو."),
                   ],
                 ),
               ),
@@ -1257,7 +1257,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Dickens gives us a vivid picture of poverty in Queen Victoria's day."),
                     ExampleSentenceKurdish(
                         text:
-                            "دیکنز وێنایەکی ڕوونی هەژاریمان پێدەدات لە سەردەمی شاژن ڤیکتۆریادا پێدەدات."),
+                            "دیکنز وێنایەکی ڕوونی ھەژاریمان پێدەدات لە سەردەمی شاژن ڤیکتۆریادا پێدەدات."),
                   ],
                 ),
               ),
@@ -1286,7 +1286,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I have many happy memories from my student days."),
                     ExampleSentenceKurdish(
-                        text: "یادەوەری زۆری خۆشم هەیە لە ماوەی خوێندکاریمدا."),
+                        text: "یادەوەری زۆری خۆشم ھەیە لە ماوەی خوێندکاریمدا."),
                   ],
                 ),
               ),

@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) بۆکسێک کە لەسەر کۆمپیوتەرێک دەردەکەوێت و لە بەکارهێنەر دەپرسێت کە دواتر چی دەکات یان یان زانیاری بدات"),
+                  "١. (ناو) بۆکسێک کە لەسەر کۆمپیوتەرێک دەردەکەوێت و لە بەکارھێنەر دەپرسێت کە دواتر چی دەکات یان یان زانیاری بدات"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Select an option from the dialog box."),
                     ExampleSentenceKurdish(
-                        text: "هەڵبژاردەیەک لە سندووقی دیالۆگەکە هەڵبژێرە."),
+                        text: "ھەڵبژاردەیەک لە سندووقی دیالۆگەکە ھەڵبژێرە."),
                   ],
                 ),
               ),

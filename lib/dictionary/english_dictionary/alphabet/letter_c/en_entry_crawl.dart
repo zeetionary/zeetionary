@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) خشانی مێروو، جاڵجاڵۆکە، هتد لەسەر لاقەکانی"),
+              text: "٢. (کردار) خشانی مێروو، جاڵجاڵۆکە، ھتد لەسەر لاقەکانی"),
           Row(
             children: [
               const Expanded(
@@ -419,14 +419,14 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (کردار) جوڵان زۆر بە هێواشی"),
+          const DefinitionKurdish(text: "٣. (کردار) جوڵان زۆر بە ھێواشی"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "The weeks crawled by."),
-                    ExampleSentenceKurdish(text: "هەفتەکان تێپەڕین."),
+                    ExampleSentenceKurdish(text: "ھەفتەکان تێپەڕین."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The traffic was crawling along."),
-                    ExampleSentenceKurdish(text: "هاتووچۆ بۆ پێشەوە دەچوو."),
+                    ExampleSentenceKurdish(text: "ھاتووچۆ بۆ پێشەوە دەچوو."),
                   ],
                 ),
               ),
@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) نزیکبوون لە کەسێکی دەسەڵاتدار، بەتایبەتی کە بۆ بەدەستهێنانی شتێکە"),
+                  "٤. (کردار) نزیکبوون لە کەسێکی دەسەڵاتدار، بەتایبەتی کە بۆ بەدەستھێنانی شتێکە"),
           Row(
             children: [
               const Expanded(
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She's always crawling to the boss."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە کلکەسووتەیەتی بە لای سەرپەرشتیارەکەدا."),
+                        text: "ھەمیشە کلکەسووتەیەتی بە لای سەرپەرشتیارەکەدا."),
                   ],
                 ),
               ),
@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The traffic slowed to a crawl."),
                     ExampleSentenceKurdish(
-                        text: "هاتووچۆ خاوبوویەوە بۆ هێواشییەکی کەم."),
+                        text: "ھاتووچۆ خاوبوویەوە بۆ ھێواشییەکی کەم."),
                   ],
                 ),
               ),
@@ -533,7 +533,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The traffic was moving at a slow crawl."),
                     ExampleSentenceKurdish(
-                        text: "هاتووچۆ بە خێراییەکی هێواش دەچوو."),
+                        text: "ھاتووچۆ بە خێراییەکی ھێواش دەچوو."),
                   ],
                 ),
               ),
@@ -564,7 +564,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She can do the crawl, backstroke, and breaststroke, which is amazing for someone so young."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانێت باسکەمەلە، پشتەمەلە، و بۆقەمەلە، کە سەرنجڕاکێشە بۆ کەسێکی وەها گەنج."),
+                            "دەتوانێت باسکەمەلە، پشتەمەلە، و بۆقەمەلە، کە سەرنجڕاکێشە بۆ کەسێکی وەھا گەنج."),
                   ],
                 ),
               ),

@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) پەیوەندی هەبوون لە نێوان دوو شتدا کە کاریگەری لە یەکدی بکەن"),
+                  "١. (کردار) پەیوەندی ھەبوون لە نێوان دوو شتدا کە کاریگەری لە یەکدی بکەن"),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A high-fat diet correlates with a greater risk of heart disease."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژەمە خۆراکییەکی پڕ لە چەوری پەیوەندی بە مەترسی زیاتری نەخۆشی دڵ هەیە."),
+                            "ژەمە خۆراکییەکی پڕ لە چەوری پەیوەندی بە مەترسی زیاتری نەخۆشی دڵ ھەیە."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The average speed of the vehicles correlates closely with the severity of the accident caused."),
                     ExampleSentenceKurdish(
                         text:
-                            "تێکڕای خێرایی ئۆتۆمبێلەکان کاریگەری نزیکی هەیە لەگەڵ سەختی ئەو ڕووداوەی درووست بووە."),
+                            "تێکڕای خێرایی ئۆتۆمبێلەکان کاریگەری نزیکی ھەیە لەگەڵ سەختی ئەو ڕووداوەی درووست بووە."),
                   ],
                 ),
               ),
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) پیشاندانی ئەوەی پەیوەندی نزیک هەیە لە نێوان دوو یان زیاتر لە چەند ڕاستییەک، ئامارێک، هتد"),
+                  "٢. (کردار) پیشاندانی ئەوەی پەیوەندی نزیک ھەیە لە نێوان دوو یان زیاتر لە چەند ڕاستییەک، ئامارێک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Researchers are trying to correlate the two sets of figures."),
                     ExampleSentenceKurdish(
                         text:
-                            "لێکۆڵەران هەوڵ دەدەن دوو کۆمەڵە ئامارەکە پێکەوە ببەستنەوە."),
+                            "لێکۆڵەران ھەوڵ دەدەن دوو کۆمەڵە ئامارەکە پێکەوە ببەستنەوە."),
                   ],
                 ),
               ),
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Property values are negatively correlated to the tax rate."),
                     ExampleSentenceKurdish(
                       text:
-                          "نرخی خانووبەرە بە شێوەی نەرێنی پەیوەندی هەیە لەگەڵ ڕێژەی باجدان.",
+                          "نرخی خانووبەرە بە شێوەی نەرێنی پەیوەندی ھەیە لەگەڵ ڕێژەی باجدان.",
                       note:
                           "یەکێکیان چۆن بگۆڕێت ئەوی دیکە بە پێچەوانەوە دەگۆڕێت.",
                     ),
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) ڕاستییەک، ئامارێک، هتد کە پەیوەندی لەگەڵ یەکێکی دیکە هەیە"),
+                  "٣. (ناو) ڕاستییەک، ئامارێک، ھتد کە پەیوەندی لەگەڵ یەکێکی دیکە ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Drug use is a significant correlate of crime."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەکارهێنانی مادەی هۆشبەر پێکبەندێکە لەگەڵ تاواندا."),
+                            "بەکارھێنانی مادەی ھۆشبەر پێکبەندێکە لەگەڵ تاواندا."),
                   ],
                 ),
               ),

@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) زیادبوونی جۆش‌وخرۆشی، مەترسی، کردار، هتد یان ئەو ساتەی زیادکردنەکە ڕوودەدات"),
+                  "٢. (ناو) زیادبوونی جۆش‌وخرۆشی، مەترسی، کردار، ھتد یان ئەو ساتەی زیادکردنەکە ڕوودەدات"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There has been a rising crescendo of violence in the region."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵکشکانێکی بەردەوام لە توندوتیژی لە هەرێمەکە ڕوویداوە."),
+                            "ھەڵکشکانێکی بەردەوام لە توندوتیژی لە ھەرێمەکە ڕوویداوە."),
                   ],
                 ),
               ),

@@ -205,7 +205,7 @@ class EnglishEntrycoolheaded extends StatelessWidget {
                                             "Even the most cool-headed individuals can be thrown into a mild panic at the prospect of organizing a wedding."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنانەت کەسانی تەواو لەسەرەخۆش دەکرێت بکەونە کەمێک شڵەژاوییەوە لە چاوەڕوانی ئامادەکردنی بۆنەیەکی هاوسەرگیریدا."),
+                                            "تەنانەت کەسانی تەواو لەسەرەخۆش دەکرێت بکەونە کەمێک شڵەژاوییەوە لە چاوەڕوانی ئامادەکردنی بۆنەیەکی ھاوسەرگیریدا."),
                                   ],
                                 ),
                               ),

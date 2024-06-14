@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "All the officials are crooked."),
-                    ExampleSentenceKurdish(text: "هەموو بەرپرسەکان ناڕاستگۆن."),
+                    ExampleSentenceKurdish(text: "ھەموو بەرپرسەکان ناڕاستگۆن."),
                   ],
                 ),
               ),

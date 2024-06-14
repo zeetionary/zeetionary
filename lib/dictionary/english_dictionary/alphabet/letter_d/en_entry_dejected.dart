@@ -404,9 +404,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەمبار، ناڕەحەت، دەستەوئەژنۆ، کز، مات، ماتەمین، دڵپڕ، کۆلیل، دڵتەنگ، مەلوول، خەفەتبار، لێوبەبار،	ناهومێد، بێ‌هیوا، دڵسارد
+کوردی: خەمبار، ناڕەحەت، دەستەوئەژنۆ، کز، مات، ماتەمین، دڵپڕ، کۆلیل، دڵتەنگ، مەلوول، خەفەتبار، لێوبەبار،	ناھومێد، بێ‌ھیوا، دڵسارد
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) بێزار و بێ‌هیوا"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) بێزار و بێ‌ھیوا"),
           Row(
             children: [
               const Expanded(
@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They were thoroughly dejected and miserable."),
                     ExampleSentenceKurdish(
-                        text: "تەواو خەمبار و هەناسەسارد بوون."),
+                        text: "تەواو خەمبار و ھەناسەسارد بوون."),
                   ],
                 ),
               ),

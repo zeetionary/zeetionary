@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەست هەڵگرتن، دەستکێشانەوە
+کوردی: دەست ھەڵگرتن، دەستکێشانەوە
 """),
           const DefinitionKurdish(text: "١. (کردار) وەستان لە کردنی شتێک"),
           Row(
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The high winds are expected to desist tomorrow."),
                     ExampleSentenceKurdish(
-                        text: "بایە بەهێزەکان پێشبینی دەکرێن سبەی نەمێنن."),
+                        text: "بایە بەھێزەکان پێشبینی دەکرێن سبەی نەمێنن."),
                   ],
                 ),
               ),

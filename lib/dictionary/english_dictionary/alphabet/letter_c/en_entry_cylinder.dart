@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) شێوەیەکی ناوبۆش کە لایەکانی ڕێکن و دوو سەری خڕی هەیە، یان شتێک کە ئەم شێوەیەی هەیە"),
+                  "١. (ناو) شێوەیەکی ناوبۆش کە لایەکانی ڕێکن و دوو سەری خڕی ھەیە، یان شتێک کە ئەم شێوەیەی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Deep-sea divers carry cylinders of oxygen on their backs."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەلەوانانی ناو قوڵاییەکان بوتڵە ئۆکسجین لەسەر پشتیان هەڵدەگرن."),
+                            "مەلەوانانی ناو قوڵاییەکان بوتڵە ئۆکسجین لەسەر پشتیان ھەڵدەگرن."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All our aircraft carry at least one oxygen cylinder for emergency use on board."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو فڕۆکەکانمان بەلایەنی کەمەوە یەک بوتڵە ئۆکسجین هەڵدەگرن بۆ بەکارهێنانی لەناکاو لەسەر فڕۆکەکە."),
+                            "ھەموو فڕۆکەکانمان بەلایەنی کەمەوە یەک بوتڵە ئۆکسجین ھەڵدەگرن بۆ بەکارھێنانی لەناکاو لەسەر فڕۆکەکە."),
                   ],
                 ),
               ),

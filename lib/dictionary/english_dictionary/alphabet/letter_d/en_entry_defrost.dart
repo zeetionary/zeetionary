@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) لێکردنەوەی سەهۆڵ لە بەفرگر"),
+              text: "٢. (کردار) لێکردنەوەی سەھۆڵ لە بەفرگر"),
           Row(
             children: [
               const Expanded(
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "When you get a build-up of ice in your freezer, you know it's time to defrost it."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە کۆبوونەوەی زۆری سەهۆڵت هەیە لە بەفرگرەکەت دەزانیت کاتی لێکردنەوەی بەفرەکەیە."),
+                            "کە کۆبوونەوەی زۆری سەھۆڵت ھەیە لە بەفرگرەکەت دەزانیت کاتی لێکردنەوەی بەفرەکەیە."),
                   ],
                 ),
               ),

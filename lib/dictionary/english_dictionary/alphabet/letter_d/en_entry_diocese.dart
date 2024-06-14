@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: مەڵبەندی (ژێر دەسەڵاتی) سەرقەشە یان ئۆسقۆف، سەرقەشەنشین
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) ناوچەیەک کە قەشەیەکی باڵا تێیدا دەسەڵاتی هەیە"),
+              text: "١. (ناو) ناوچەیەک کە قەشەیەکی باڵا تێیدا دەسەڵاتی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There are fifty churches in the diocese."),
                     ExampleSentenceKurdish(
-                        text: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا هەیە."),
+                        text: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا ھەیە."),
                   ],
                 ),
               ),

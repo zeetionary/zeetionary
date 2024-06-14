@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شاراوە، نادیار، حەشاردراو، نەلەبەرچاو، داپۆشراو، نهێنی، نەتەنی، پەنامەکی، نائاشکرا، بە دزی‌یەوە، بێ‌تەقەوڕەقە، لە بنەوە، حەشارگە، پەنا، جێ‌پەنا، کون، داڵدە، نهێنگە
+کوردی: شاراوە، نادیار، حەشاردراو، نەلەبەرچاو، داپۆشراو، نھێنی، نەتەنی، پەنامەکی، نائاشکرا، بە دزی‌یەوە، بێ‌تەقەوڕەقە، لە بنەوە، حەشارگە، پەنا، جێ‌پەنا، کون، داڵدە، نھێنگە
 2	بێشە(ڵان)
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) نهێنی یان شاراوە"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) نھێنی یان شاراوە"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Every measure, both overt and covert, is being taken against terrorists."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو هەنگاوێک، چی ئاشکرا یان نهێنی، دژ بە تیرۆریستان دەگیردرێتە بەر."),
+                            "ھەموو ھەنگاوێک، چی ئاشکرا یان نھێنی، دژ بە تیرۆریستان دەگیردرێتە بەر."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The fox disappeared into the covert."),
                     ExampleSentenceKurdish(
-                        text: "ڕێوییەکە ونبووە ناو نهێنگەکە."),
+                        text: "ڕێوییەکە ونبووە ناو نھێنگەکە."),
                   ],
                 ),
               ),

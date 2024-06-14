@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In an emergency decree, the government banned all rallies."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە دەستووری باری نائاساییدا، حکومەت هەموو ڕێپێوانێکی قەدەغە کرد."),
+                            "لە دەستووری باری نائاساییدا، حکومەت ھەموو ڕێپێوانێکی قەدەغە کرد."),
                   ],
                 ),
               ),
@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The general will rule by decree until a general election."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژەنەڕاڵەکە بە دەستوور سەرکردایەتی دەکات تاوەکو هەڵبژاردنی گشتی."),
+                            "ژەنەڕاڵەکە بە دەستوور سەرکردایەتی دەکات تاوەکو ھەڵبژاردنی گشتی."),
                   ],
                 ),
               ),

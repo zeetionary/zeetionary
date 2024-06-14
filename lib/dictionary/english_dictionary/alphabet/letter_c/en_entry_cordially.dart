@@ -195,7 +195,7 @@ class EnglishEntrycordially extends StatelessWidget {
 کوردی:  گەرم‌وگوڕانە، لە دڵەوە، بە گەرمی
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵکار) بەشێوەیەکی خۆش و هاوڕێیانە"),
+                              text: "١. (ھاوەڵکار) بەشێوەیەکی خۆش و ھاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycordially extends StatelessWidget {
                                             "You are cordially invited to a celebration for Mr Michael Brown on his retirement."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دڵەوە بانگهێشت کراویت بۆ ئاهەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە."),
+                                            "لە دڵەوە بانگھێشت کراویت بۆ ئاھەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە."),
                                   ],
                                 ),
                               ),

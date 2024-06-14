@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He commanded them to go out and make disciples of all nations."),
                     ExampleSentenceKurdish(
                         text:
-                            "فەرمانی پێکردن بچن و مرید لە هەموو نەتەوەکانەوە باوەڕ پێ‌بهێنن."),
+                            "فەرمانی پێکردن بچن و مرید لە ھەموو نەتەوەکانەوە باوەڕ پێ‌بھێنن."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) یەکێک لە شوێنکەوتووانی عیسای مەسیح کە هێشتا لەسەر زەوی بوو"),
+                  "٢. (ناو) یەکێک لە شوێنکەوتووانی عیسای مەسیح کە ھێشتا لەسەر زەوی بوو"),
           // const DividerSentences(),
           Row(
             children: [

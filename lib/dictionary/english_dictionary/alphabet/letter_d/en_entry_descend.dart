@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هاتنە خوار، نزم بوون، داکەوتن، دابەزین
+کوردی: ھاتنە خوار، نزم بوون، داکەوتن، دابەزین
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دابەزین؛ ڕۆشتن لە بەرزییەوە بۆ نزمی"),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She descended the stairs slowly."),
                     ExampleSentenceKurdish(
-                        text: "بەهێواشی بە پلەکانەکاندا هاتە خوارەوە."),
+                        text: "بەھێواشی بە پلەکانەکاندا ھاتە خوارەوە."),
                   ],
                 ),
               ),

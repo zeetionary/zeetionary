@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سووسمار، نەهەنگ (ی ڕووبار یان چۆم)، تیمساح
+کوردی: سووسمار، نەھەنگ (ی ڕووبار یان چۆم)، تیمساح
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) تیمساح؛ خشۆکێکی گەورە کە پێستێکی ڕەقی هەیە و لە ناوچە گەرم و شێدارەکانی جیهان لە نزیک ڕووبار و دەریاچەکاندا دەژی؛ پێستی تیمساح کە دەکرێتە چەرم"),
+                  "١. (ناو) تیمساح؛ خشۆکێکی گەورە کە پێستێکی ڕەقی ھەیە و لە ناوچە گەرم و شێدارەکانی جیھان لە نزیک ڕووبار و دەریاچەکاندا دەژی؛ پێستی تیمساح کە دەکرێتە چەرم"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He lost an arm to a crocodile."),
                     ExampleSentenceKurdish(
-                        text: "باڵێکی بەهۆی تیمساحەوە لەدەستدا."),
+                        text: "باڵێکی بەھۆی تیمساحەوە لەدەستدا."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Humans, dogs, elephants and dolphins are all mammals, but birds, fish and crocodiles are not."),
                     ExampleSentenceKurdish(
                         text:
-                            "مرۆڤ و سەگ و فیل و دۆڵفین هەموویان شیردەرن، بەڵام باڵندە و ماسی و تەیمساح شیردەر نین."),
+                            "مرۆڤ و سەگ و فیل و دۆڵفین ھەموویان شیردەرن، بەڵام باڵندە و ماسی و تەیمساح شیردەر نین."),
                   ],
                 ),
               ),

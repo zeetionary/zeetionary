@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We deprecate this use of company funds for political purposes."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەواو دژی بەکارهێنانی پارەی کۆمپانیاین بۆ مەبەستی سیاسی."),
+                            "تەواو دژی بەکارھێنانی پارەی کۆمپانیاین بۆ مەبەستی سیاسی."),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) وتنی ئەوەی شتێک گرنگی و بەهای نییە"),
+              text: "٢. (کردار) وتنی ئەوەی شتێک گرنگی و بەھای نییە"),
           const AlsoEnglishckb(word: "ھەروەھا: depreciate"),
           Row(
             children: [
@@ -447,8 +447,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He always deprecates my achievements."),
                     ExampleSentenceKurdish(
-                      text: "هەمیشە لە دەستکەوتەکانم کەمدەکاتەوە.",
-                      note: "هەروەها: هەمیشە دەستکەوتەکانم بێ نرخ دەکات",
+                      text: "ھەمیشە لە دەستکەوتەکانم کەمدەکاتەوە.",
+                      note: "ھەروەھا: ھەمیشە دەستکەوتەکانم بێ نرخ دەکات",
                     ),
                   ],
                 ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) شتێک کە چی تر باش نییە بەکاربهێندرێت بەهۆی ئەوەی دانەیەکی تازەتر شوێنی گرتووەتەوە"),
+                  "٣. (کردار) شتێک کە چی تر باش نییە بەکاربھێندرێت بەھۆی ئەوەی دانەیەکی تازەتر شوێنی گرتووەتەوە"),
           const DividerSentences(),
           Row(
             children: [

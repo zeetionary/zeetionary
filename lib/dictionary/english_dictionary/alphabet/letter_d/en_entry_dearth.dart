@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was a dearth of reliable information on the subject."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەماسی زانیاری باوەڕپێکراو هەبوو لەسەر بابەتەکە."),
+                            "کەماسی زانیاری باوەڕپێکراو ھەبوو لەسەر بابەتەکە."),
                   ],
                 ),
               ),

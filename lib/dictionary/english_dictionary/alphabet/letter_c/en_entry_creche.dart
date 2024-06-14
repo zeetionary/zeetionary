@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Younger children can be left in the crèche."),
                     ExampleSentenceKurdish(
-                        text: "منداڵانی بچووک دەکرێت لە دایەنگەکە جێبهێڵدرێن."),
+                        text: "منداڵانی بچووک دەکرێت لە دایەنگەکە جێبھێڵدرێن."),
                   ],
                 ),
               ),

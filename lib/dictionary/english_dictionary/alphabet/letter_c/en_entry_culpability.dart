@@ -14,7 +14,8 @@ class EnglishEntryculpability extends StatefulWidget {
   const EnglishEntryculpability({super.key});
 
   @override
-  State<EnglishEntryculpability> createState() => _EnglishEntryculpabilityState();
+  State<EnglishEntryculpability> createState() =>
+      _EnglishEntryculpabilityState();
 }
 
 class _EnglishEntryculpabilityState extends State<EnglishEntryculpability> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("After the accident, the company refused to accept culpability."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "After the accident, the company refused to accept culpability."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakculpabilitys3(String languageCode) async {
@@ -330,9 +332,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەمتەرخەمی، خەتاباری، گوناهبارێتی، کۆتایی‌کردن، درێخی‌کردن،	لەسەرکۆنەهاتوویی
+کوردی: کەمتەرخەمی، خەتاباری، گوناھبارێتی، کۆتایی‌کردن، درێخی‌کردن،	لەسەرکۆنەھاتوویی
 """),
-          const DefinitionKurdish(text: "١. (ناو) بەرپرس و شایەنی لۆمە بۆ کردنی شتێک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) بەرپرس و شایەنی لۆمە بۆ کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +344,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The punishment should be proportionate to the gravity of the offence and the degree of culpability of the offender."),
-                    ExampleSentenceKurdish(text: "سزاکە دەبێت هاوڕێژە بێت لەگەڵ سەختی تاوانەکە و ئاستی بەرپرسیارییەتی تاوانبارەکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سزاکە دەبێت ھاوڕێژە بێت لەگەڵ سەختی تاوانەکە و ئاستی بەرپرسیارییەتی تاوانبارەکە."),
                   ],
                 ),
               ),
@@ -360,30 +365,31 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "After the accident, the company refused to accept culpability."),
-          ExampleSentenceKurdish(
-          text: "لە دوای ڕووداوەکە کۆمپانیاکە ڕەتیکردەوە بەرپرسیارییەتی هەڵبگرێت."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakculpabilitys2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakculpabilitys2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "After the accident, the company refused to accept culpability."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە دوای ڕووداوەکە کۆمپانیاکە ڕەتیکردەوە بەرپرسیارییەتی ھەڵبگرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakculpabilitys2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakculpabilitys2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی ئەنجامێک کە هێز و گرنگی شتێک زیاد دەکات هەر زیاتر لە شتێکی بۆ زیاد دەکرێت"),
+                  "١. (ھاوەڵناو) ھەبوونی ئەنجامێک کە ھێز و گرنگی شتێک زیاد دەکات ھەر زیاتر لە شتێکی بۆ زیاد دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The evolution of human life was a gradual, cumulative process."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەرەسەندنی ژیانی مرۆڤ پڕۆسەیەکی هێواش و خڕەوەبوو بوو."),
+                            "پەرەسەندنی ژیانی مرۆڤ پڕۆسەیەکی ھێواش و خڕەوەبوو بوو."),
                   ],
                 ),
               ),

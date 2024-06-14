@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تەرخان کردن، تایبەت پێدان
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) تەرخانکردنی کات، سەرنج، هتد بۆ شتێک"),
+              text: "١. (کردار) تەرخانکردنی کات، سەرنج، ھتد بۆ شتێک"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I could only devote two hours a day to the work."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەمتوانی تەنها دوو کاتژمێر لە ڕۆژێکدا تەرخان بکەم بۆ کارەکە."),
+                            "دەمتوانی تەنھا دوو کاتژمێر لە ڕۆژێکدا تەرخان بکەم بۆ کارەکە."),
                   ],
                 ),
               ),

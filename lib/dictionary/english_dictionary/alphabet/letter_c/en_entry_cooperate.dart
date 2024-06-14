@@ -193,7 +193,7 @@ class EnglishEntrycooperate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوکاری کردن، یارمەتی دان
+کوردی: ھاوکاری کردن، یارمەتی دان
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
@@ -265,7 +265,7 @@ class EnglishEntrycooperate extends StatelessWidget {
                                             "Their captors told them they would be killed unless they cooperated."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دیل‌گرەکانیان پێیان گوتن دەکوژرێن مەگەر ئەوەی هاوکار بن."),
+                                            "دیل‌گرەکانیان پێیان گوتن دەکوژرێن مەگەر ئەوەی ھاوکار بن."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntrycooperate extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He refused to cooperate."),
                                     ExampleSentenceKurdish(
-                                        text: "ڕەتیکردەوە هاریکار بێت."),
+                                        text: "ڕەتیکردەوە ھاریکار بێت."),
                                   ],
                                 ),
                               ),

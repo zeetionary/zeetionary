@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەژار، دەس‌تەنگ، نەدار، فەقیر، بەلەنگاز،	بێ، بێ‌بەری لە، بێ‌بەش لە
+کوردی: ھەژار، دەس‌تەنگ، نەدار، فەقیر، بەلەنگاز،	بێ، بێ‌بەری لە، بێ‌بەش لە
 """),
           const DefinitionKurdish(
               text:
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "When he died, his family was left completely destitute."),
                     ExampleSentenceKurdish(
-                        text: "کە مرد، خێزانەکەی تەواو هەژار مایەوە."),
+                        text: "کە مرد، خێزانەکەی تەواو ھەژار مایەوە."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The war left her completely destitute."),
                     ExampleSentenceKurdish(
-                        text: "جەنگەکە تەواو بە هەژاری جێیهێشت."),
+                        text: "جەنگەکە تەواو بە ھەژاری جێیھێشت."),
                   ],
                 ),
               ),
@@ -466,7 +466,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسانی هەژار"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسانی ھەژار"),
           // const DividerSentences(),
           Row(
             children: [
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The charity helps the destitute with food."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکخراوە خێرخوازییەکە بە خواردن یارمەتی هەژاران دەدات."),
+                            "ڕێکخراوە خێرخوازییەکە بە خواردن یارمەتی ھەژاران دەدات."),
                   ],
                 ),
               ),
@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They seem destitute of ordinary human feelings."),
                     ExampleSentenceKurdish(
-                        text: "وادیارن بێ‌بەری بن لە هەستی مرۆڤی ئاسایی."),
+                        text: "وادیارن بێ‌بەری بن لە ھەستی مرۆڤی ئاسایی."),
                   ],
                 ),
               ),

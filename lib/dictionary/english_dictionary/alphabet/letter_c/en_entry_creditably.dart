@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "They very creditably tried to help."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر بە نیەت‌پاکییەوە هەوڵیان دا یارمەتی پێشکەش بکەن."),
+                            "زۆر بە نیەت‌پاکییەوە ھەوڵیان دا یارمەتی پێشکەش بکەن."),
                   ],
                 ),
               ),

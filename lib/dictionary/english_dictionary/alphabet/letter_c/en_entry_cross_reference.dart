@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cross references refer you to information in other parts of the dictionary."),
                     ExampleSentenceKurdish(
                         text:
-                            "نێردەکان دەتنێرن بۆ زانیاری لە بەشەکانی دیکەی فەرهەنگەکە."),
+                            "نێردەکان دەتنێرن بۆ زانیاری لە بەشەکانی دیکەی فەرھەنگەکە."),
                   ],
                 ),
               ),

@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵس‌وکەوت، (چۆنیەتی) جووڵانەوە،	سەودا، مامەلە، ئاڵ‌ووێر،	ڕێک‌کەوتن،	دابەش‌کردنەوە، بڵاوکردنەوە، (لە پەڕێن‌دا) دەست، نۆرە، بڕ، ئەندازە، زۆر، گەلێ، یەکجار
+کوردی: ھەڵس‌وکەوت، (چۆنیەتی) جووڵانەوە،	سەودا، مامەلە، ئاڵ‌ووێر،	ڕێک‌کەوتن،	دابەش‌کردنەوە، بڵاوکردنەوە، (لە پەڕێن‌دا) دەست، نۆرە، بڕ، ئەندازە، زۆر، گەلێ، یەکجار
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پێدانی کارد بە یاریزانان لە یاری کارددا"),
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) کڕین و فرۆشتنی مادەی هۆشبەر"),
+              text: "٢. (کردار) کڕین و فرۆشتنی مادەی ھۆشبەر"),
           Row(
             children: [
               const Expanded(
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can often see people dealing openly on the streets."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرجار خەڵکی دەبینیت بە ئاشكرایی لەسەر شەقامەکان مادەی هۆشبەر دەفرۆشن."),
+                            "زۆرجار خەڵکی دەبینیت بە ئاشكرایی لەسەر شەقامەکان مادەی ھۆشبەر دەفرۆشن."),
                   ],
                 ),
               ),
@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was sent to jail for dealing drugs to his friends."),
                     ExampleSentenceKurdish(
                         text:
-                            "نێردرا بۆ زیندان بۆ فرۆشتنی مادەی هۆشبەر بە هاوڕێکانی."),
+                            "نێردرا بۆ زیندان بۆ فرۆشتنی مادەی ھۆشبەر بە ھاوڕێکانی."),
                   ],
                 ),
               ),
@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) ڕێککەوتنێک، بە تایبەتی هی بازرگانی، لەسەر مەرجی دیاریکراو بۆ کڕین و کردنی شتێک"),
+                  "٣. (ناو) ڕێککەوتنێک، بە تایبەتی ھی بازرگانی، لەسەر مەرجی دیاریکراو بۆ کڕین و کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She is travelling to New York to seal the deal (= conclude it)."),
                     ExampleSentenceKurdish(
                         text:
-                            "گەشت دەکات بۆ نیویۆرک بۆ کۆتایی هێنان بە ڕێککەوتنەکە."),
+                            "گەشت دەکات بۆ نیویۆرک بۆ کۆتایی ھێنان بە ڕێککەوتنەکە."),
                   ],
                 ),
               ),
@@ -492,7 +492,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I'll make a deal with you—I'll work evenings if you'll work weekends."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێککەوتنێکت لەگەڵ دەکەم ـ من ئێواران کار دەکەم ئەگەر تۆ کۆتایی هەفتان کار بکەیت."),
+                            "ڕێککەوتنێکت لەگەڵ دەکەم ـ من ئێواران کار دەکەم ئەگەر تۆ کۆتایی ھەفتان کار بکەیت."),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He is trying to cut a deal (= make one) with the rebels."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵ دەدات لەگەڵ یاخیبووان ڕێککەوتنێک بکات."),
+                        text: "ھەوڵ دەدات لەگەڵ یاخیبووان ڕێککەوتنێک بکات."),
                   ],
                 ),
               ),
@@ -549,7 +549,7 @@ class KurdishMeaning extends StatelessWidget {
                             "If elected, the party has promised a new deal (= better and fairer treatment) for teachers."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەر هەڵبژێردرێن، پارتەکە بەڵێنی مامەڵەیەکی باشتری لەگەڵ مامۆستایان داوە."),
+                            "ئەگەر ھەڵبژێردرێن، پارتەکە بەڵێنی مامەڵەیەکی باشتری لەگەڵ مامۆستایان داوە."),
                   ],
                 ),
               ),
@@ -604,7 +604,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We tried to ensure that everyone got a fair deal."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵمان دڵنیایی بکەینەوە کە هەموان مامەڵەیەکی یەکسانیان لەگەڵ کراوە."),
+                            "ھەوڵمان دڵنیایی بکەینەوە کە ھەموان مامەڵەیەکی یەکسانیان لەگەڵ کراوە."),
                   ],
                 ),
               ),

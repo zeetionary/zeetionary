@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆشنبیر، ڕووناکبیر،	پەروەردەکراو، بەخێوکراو، ڕاهێنراو،	داچێنراو، کێڵراو، چەقێنراو، چێنراو، چێندراو
+کوردی: ڕۆشنبیر، ڕووناکبیر،	پەروەردەکراو، بەخێوکراو، ڕاھێنراو،	داچێنراو، کێڵراو، چەقێنراو، چێنراو، چێندراو
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) کەسانی ڕۆشنبیر کە توانای تێگەشتن لە هونەر، ئەدەب، هتد ـیان هەیە"),
+                  "١. (ھاوەڵناو) کەسانی ڕۆشنبیر کە توانای تێگەشتن لە ھونەر، ئەدەب، ھتد ـیان ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He spoke with a cultured accent."),
                     ExampleSentenceKurdish(
-                        text: "بە لەهجەیەکی ڕۆشنبیرانە قسەی دەکرد."),
+                        text: "بە لەھجەیەکی ڕۆشنبیرانە قسەی دەکرد."),
                   ],
                 ),
               ),

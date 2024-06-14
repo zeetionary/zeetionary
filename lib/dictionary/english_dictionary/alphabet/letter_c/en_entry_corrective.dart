@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We need to take corrective action to halt this country's decline."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێویستیمان بە هەنگاوی ڕاستکەرەوە هەیە بۆ وەستاندنی داتەپینی ئەم وڵاتە."),
+                            "پێویستیمان بە ھەنگاوی ڕاستکەرەوە ھەیە بۆ وەستاندنی داتەپینی ئەم وڵاتە."),
                   ],
                 ),
               ),

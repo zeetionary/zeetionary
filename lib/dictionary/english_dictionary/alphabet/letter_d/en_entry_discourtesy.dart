@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They felt they had been treated with discourtesy."),
                     ExampleSentenceKurdish(
                         text:
-                            "وایان هەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە."),
+                            "وایان ھەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Being late is a discourtesy to your colleagues."),
                     ExampleSentenceKurdish(
-                        text: "درەنگ کەوتن بێڕێزییە بە هاوکارەکانت."),
+                        text: "درەنگ کەوتن بێڕێزییە بە ھاوکارەکانت."),
                   ],
                 ),
               ),

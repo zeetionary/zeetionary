@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The police demarcated the city into eighteen geographical divisions."),
                     ExampleSentenceKurdish(
-                        text: "پۆلیس شارەکەی کرد بە هەشت یەکەی جوگرافییەوە."),
+                        text: "پۆلیس شارەکەی کرد بە ھەشت یەکەی جوگرافییەوە."),
                   ],
                 ),
               ),

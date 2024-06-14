@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شەیتان، ئەهریمەن،	شەیتان، دێو، گیان یان ڕۆحی خراپ، ڕۆحی پیس،	مرۆڤی خراپ یا دەروون‌ڕەش، بنیادەمی پیس،	مرۆڤ، بنیادەم،	ناجسن، بەدڕەسەن، بەچکەی شەیتان
+کوردی: شەیتان، ئەھریمەن،	شەیتان، دێو، گیان یان ڕۆحی خراپ، ڕۆحی پیس،	مرۆڤی خراپ یا دەروون‌ڕەش، بنیادەمی پیس،	مرۆڤ، بنیادەم،	ناجسن، بەدڕەسەن، بەچکەی شەیتان
 """),
           const DefinitionKurdish(text: "١. (ناو) شەیتان"),
           Row(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His strong left-wing views make him the devil incarnate to more extreme Conservatives."),
                     ExampleSentenceKurdish(
                         text:
-                            "دیدە بەهێزە چەپڕەوەکانی لەلای ڕاستڕەوە توندەکان دەیکات بە شەیتان."),
+                            "دیدە بەھێزە چەپڕەوەکانی لەلای ڕاستڕەوە توندەکان دەیکات بە شەیتان."),
                   ],
                 ),
               ),
@@ -557,7 +557,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) بۆ قسەکردن لەسەر کەسێک و دەربڕینێکی شتێک کە هەتە لەسەری"),
+                  "٤. (ناو) بۆ قسەکردن لەسەر کەسێک و دەربڕینێکی شتێک کە ھەتە لەسەری"),
           const DividerSentences(),
           Row(
             children: [

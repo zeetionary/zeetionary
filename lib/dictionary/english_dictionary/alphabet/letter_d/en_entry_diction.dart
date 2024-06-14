@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شێوەی دەربڕین، شێوازی قسەکردن یان وتن، شێواز،	هەڵبژاردن یان بەکارهێنانی وشەکان، وشەبەندی، تێک‌هەڵکێشانی وشەکان
+کوردی: شێوەی دەربڕین، شێوازی قسەکردن یان وتن، شێواز،	ھەڵبژاردن یان بەکارھێنانی وشەکان، وشەبەندی، تێک‌ھەڵکێشانی وشەکان
 """),
           const DefinitionKurdish(text: "١. (ناو) شێوازی خوێندنەوەی وشە"),
           Row(

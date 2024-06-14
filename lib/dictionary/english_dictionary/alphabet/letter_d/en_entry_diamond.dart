@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئەڵماس، ڕووژە،	لەبزینە،	یاریگای بەیسبۆڵ، جەواهێرات،	(پەڕێن) خشت، لەبزینە، دینار
+کوردی: ئەڵماس، ڕووژە،	لەبزینە،	یاریگای بەیسبۆڵ، جەواھێرات،	(پەڕێن) خشت، لەبزینە، دینار
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) مادەیەکی گران‌بەهای کاربۆنی پوخت کە سەختترین تەنی زانراوە"),
+                  "١. (ناو) مادەیەکی گران‌بەھای کاربۆنی پوخت کە سەختترین تەنی زانراوە"),
           Row(
             children: [
               const Expanded(
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) شێوەیەک کە چوار لای یەکسانی هەیە بە هەمان درێژی و و گۆشەکانی ٩٠ نین"),
+                  "٢. (ناو) شێوەیەک کە چوار لای یەکسانی ھەیە بە ھەمان درێژی و و گۆشەکانی ٩٠ نین"),
           // const DividerSentences(),
           Row(
             children: [

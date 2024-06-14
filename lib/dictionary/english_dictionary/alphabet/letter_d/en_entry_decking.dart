@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The decking was designed to be slip-resistant, making it safe for children and pets to play on."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەکۆکە وەها دیزاین کرا ژە دژ بە خزان بێت و وای لێ بکات سەلامەت بێت بۆ منداڵان و ئاژەڵان کە یاری لەسەر بکەن."),
+                            "سەکۆکە وەھا دیزاین کرا ژە دژ بە خزان بێت و وای لێ بکات سەلامەت بێت بۆ منداڵان و ئاژەڵان کە یاری لەسەر بکەن."),
                   ],
                 ),
               ),

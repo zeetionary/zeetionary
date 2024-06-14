@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە زۆر گرنگە چونکە دۆخێک لە داهاتوودا پشتی پێ دەبەستێت"),
+                  "٢. (ھاوەڵکار) بەشێوەیەک کە زۆر گرنگە چونکە دۆخێک لە داھاتوودا پشتی پێ دەبەستێت"),
           Row(
             children: [
               const Expanded(
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is critically important that we have the best intelligence about threats to our national security."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر گرنگە کە باشترین زانیاریمان هەبێت سەبارەت بە هەڕەشەکان بۆ ئاسایشی نیشتیمانیمان."),
+                            "زۆر گرنگە کە باشترین زانیاریمان ھەبێت سەبارەت بە ھەڕەشەکان بۆ ئاسایشی نیشتیمانیمان."),
                   ],
                 ),
               ),
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵکار) بەشێوەیەک کە گرنگ و نادیارە، و ئەگەری هەیە ترسناک بێت"),
+                  "٣. (ھاوەڵکار) بەشێوەیەک کە گرنگ و نادیارە، و ئەگەری ھەیە ترسناک بێت"),
           Row(
             children: [
               const Expanded(
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They were both critically injured in the accident."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەردووکیان بە سەختی بریندار بوون لە ڕووداوەکەدا."),
+                            "ھەردووکیان بە سەختی بریندار بوون لە ڕووداوەکەدا."),
                   ],
                 ),
               ),

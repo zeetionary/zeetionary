@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پیس، چڵکن، دژوێن، چەپەڵ، ناخاوێن، قوڕاوی، پۆخڵ، گەمار، کخە، گڵاو، پیس‌کەرەوە،	ناحەز، سووک، هەرزە، ناشیرین، پیس، شەرماوی، ساردوسووک، شپرزە،	(هەوا) ناخۆش، ناساز، باهاتوو، ئاڵۆز، خراپ،	(ڕەنگ) تەڵخ، لێڵ، مات، مردوو، چڵکن، یەکجار، گەلێ
+کوردی: پیس، چڵکن، دژوێن، چەپەڵ، ناخاوێن، قوڕاوی، پۆخڵ، گەمار، کخە، گڵاو، پیس‌کەرەوە،	ناحەز، سووک، ھەرزە، ناشیرین، پیس، شەرماوی، ساردوسووک، شپرزە،	(ھەوا) ناخۆش، ناساز، باھاتوو، ئاڵۆز، خراپ،	(ڕەنگ) تەڵخ، لێڵ، مات، مردوو، چڵکن، یەکجار، گەلێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پیس"),
           Row(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "My thumb had left a dirty mark on the paper."),
                     ExampleSentenceKurdish(
-                        text: "پەنجەم نیشانەیەکی پیسی لەسەر پەڕەکە جێهێشتبوو."),
+                        text: "پەنجەم نیشانەیەکی پیسی لەسەر پەڕەکە جێھێشتبوو."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Try not to get too dirty!"),
-                    ExampleSentenceKurdish(text: "هەوڵ بدە زۆر پیس نەبیت."),
+                    ExampleSentenceKurdish(text: "ھەوڵ بدە زۆر پیس نەبیت."),
                   ],
                 ),
               ),
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I always get given the dirty jobs (= jobs that make you become dirty)."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە ئیشە پیسەکانم پێدەدرێت."),
+                        text: "ھەمیشە ئیشە پیسەکانم پێدەدرێت."),
                   ],
                 ),
               ),
@@ -530,7 +530,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Everything in the room was incredibly dirty."),
                     ExampleSentenceKurdish(
-                        text: "هەموو شتێک لە ژوورەکە تەواو پیس بوو."),
+                        text: "ھەموو شتێک لە ژوورەکە تەواو پیس بوو."),
                   ],
                 ),
               ),
@@ -559,7 +559,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He's got a dirty mind (= he often thinks about sex)."),
-                    ExampleSentenceKurdish(text: "مێشکێکی حیزی هەیە."),
+                    ExampleSentenceKurdish(text: "مێشکێکی حیزی ھەیە."),
                   ],
                 ),
               ),
@@ -618,7 +618,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Has he been corrupted by watching all these dirty movies?"),
                     ExampleSentenceKurdish(
                         text:
-                            "تێکچووە بەم هەموو سەیرکردنی ئەم هەموو فیلمە نابەجێیانە؟"),
+                            "تێکچووە بەم ھەموو سەیرکردنی ئەم ھەموو فیلمە نابەجێیانە؟"),
                   ],
                 ),
               ),
@@ -672,7 +672,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They discovered her dirty little secret."),
                     ExampleSentenceKurdish(
-                        text: "نهێنییە خراپەکەییان دۆزییەوە."),
+                        text: "نھێنییە خراپەکەییان دۆزییەوە."),
                   ],
                 ),
               ),

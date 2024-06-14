@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -533,10 +535,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: زاڵ، سوار، چێر، بەهێز، بەسەرداشکاوە، بەسەردابوو، لەسەرتر، سەرکەوتوو، باوسەندوو، دەس‌ڕۆیشتوو، سەردەست، باڵادەست، دەسەڵات‌دار، دەسەڵات‌خواز، بەدەسەڵات، دەس‌دار، دەس‌ڕۆیشتوو،	گرنگ، سەرەکی، بنەڕەتی، بنچینەیی،	دەرکەوتە، دیار،	(زیندەناسی) زاڵ، دەرکەوتوو،	ژێنی زاڵ یان دەرکەوتوو،	(ژینگەناسی) جۆرێکی زاڵ
+کوردی: زاڵ، سوار، چێر، بەھێز، بەسەرداشکاوە، بەسەردابوو، لەسەرتر، سەرکەوتوو، باوسەندوو، دەس‌ڕۆیشتوو، سەردەست، باڵادەست، دەسەڵات‌دار، دەسەڵات‌خواز، بەدەسەڵات، دەس‌دار، دەس‌ڕۆیشتوو،	گرنگ، سەرەکی، بنەڕەتی، بنچینەیی،	دەرکەوتە، دیار،	(زیندەناسی) زاڵ، دەرکەوتوو،	ژێنی زاڵ یان دەرکەوتوو،	(ژینگەناسی) جۆرێکی زاڵ
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) بەهێزتر، گرنگتر، یان دیارتر لە شتی دیکە"),
+              text: "١. (ھاوەڵناو) بەھێزتر، گرنگتر، یان دیارتر لە شتی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -547,7 +549,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The firm has achieved a dominant position in the world market."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە پێگەیەکی بەهێزی بەدەستهێناوە لە بازاڕی جیهاندا."),
+                            "کۆمپانیاکە پێگەیەکی بەھێزی بەدەستھێناوە لە بازاڕی جیھاندا."),
                   ],
                 ),
               ),
@@ -606,7 +608,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Banks have a dominant role in most countries' economies."),
                     ExampleSentenceKurdish(
                         text:
-                            "بانکەکان ڕۆڵێکی دیاریان هەیە لە ئابووری وڵاتەکەدا."),
+                            "بانکەکان ڕۆڵێکی دیاریان ھەیە لە ئابووری وڵاتەکەدا."),
                   ],
                 ),
               ),
@@ -1212,7 +1214,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1237,7 +1239,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
+    videoId: 'yRmOWcWdQAo',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1262,7 +1264,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K-CrEi0ymMg?t=',
+    videoId: 'K-CrEi0ymMg',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1287,7 +1289,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3C9wZf88y4Q?t=',
+    videoId: '3C9wZf88y4Q',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1312,7 +1314,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0pAz6LTdTrw?t=',
+    videoId: '0pAz6LTdTrw',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1337,7 +1339,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v1desDduz5M?t=',
+    videoId: 'v1desDduz5M',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1362,7 +1364,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a7wC2M0b5u0?t=',
+    videoId: 'a7wC2M0b5u0',
     startSeconds: 1465,
     autoPlay: true,
     params: const YoutubePlayerParams(

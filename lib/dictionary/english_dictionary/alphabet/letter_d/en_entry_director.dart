@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەڕێوەبەر، کارگێڕ، بگێڕ، سەرپەرشت، چاودێر، بەرپرس،	ئەندامی دەستەی بەڕێوەبەرایەتی کارێ،	دەرهێنەر
+کوردی: بەڕێوەبەر، کارگێڕ، بگێڕ، سەرپەرشت، چاودێر، بەرپرس،	ئەندامی دەستەی بەڕێوەبەرایەتی کارێ،	دەرھێنەر
 """),
           const DefinitionKurdish(
               text:
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) دەرهێنەری فیلم یان شانۆیەک کە بە ئەکتەرەکان و ستافەکە دەڵێت چی بکەن"),
+                  "٢. (ناو) دەرھێنەری فیلم یان شانۆیەک کە بە ئەکتەرەکان و ستافەکە دەڵێت چی بکەن"),
           // const DividerSentences(),
           Row(
             children: [
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was an opportunity to meet the cast and director backstage."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەلێک هەبوو بۆ بینینی ئەکتەرەکان و دەرهێنەر لە پشتەوەی پەردە."),
+                            "ھەلێک ھەبوو بۆ بینینی ئەکتەرەکان و دەرھێنەر لە پشتەوەی پەردە."),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Are there any actors or directors you would particularly like to work with?"),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ ئەکتەر یان دەرهێنەرێک هەیە کە بەتایبەتی بتەوێت لەگەڵی کاربکەیت؟"),
+                            "ھیچ ئەکتەر یان دەرھێنەرێک ھەیە کە بەتایبەتی بتەوێت لەگەڵی کاربکەیت؟"),
                   ],
                 ),
               ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) کەسێک کە بەرپرسی چالاکییەکی دیاریکراوە لە بەشێکی کۆمپانیایەک، کۆلێژێک، هتد"),
+                  "٣. (ناو) کەسێک کە بەرپرسی چالاکییەکی دیاریکراوە لە بەشێکی کۆمپانیایەک، کۆلێژێک، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -544,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was artistic director of the city's photography festival."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەڕێوەبەری هونەری فیستیڤاڵی وێنەگری شارەکە بوو."),
+                            "بەڕێوەبەری ھونەری فیستیڤاڵی وێنەگری شارەکە بوو."),
                   ],
                 ),
               ),

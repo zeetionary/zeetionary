@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەچارەهاتوو، لەدەرمان‌هاتوو، دەرمان دەکرێ
+کوردی: لەچارەھاتوو، لەدەرمان‌ھاتوو، دەرمان دەکرێ
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) نەخۆشییەک کە دەکرێت چارەسەر بکرێت"),
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Most skin cancers are curable if treated early."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرینەی شێرپەنجەی پێست لەچارەهاتووە ئەگەر زوو چارەسەر بکرێت."),
+                            "زۆرینەی شێرپەنجەی پێست لەچارەھاتووە ئەگەر زوو چارەسەر بکرێت."),
                   ],
                 ),
               ),

@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەقەدیەک، بەرامبەر، گونجاو لەگەڵ،	(بیرکاری) هاوتا،	یەک‌کەوتوو، ڕێک‌کەوتوو، سازاو، گونجاو،	لێکچوو، هاوشێوە
+کوردی: بەقەدیەک، بەرامبەر، گونجاو لەگەڵ،	(بیرکاری) ھاوتا،	یەک‌کەوتوو، ڕێک‌کەوتوو، سازاو، گونجاو،	لێکچوو، ھاوشێوە
 """),
           const DefinitionKurdish(
               text:
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Profits have risen by 15 per cent compared with the corresponding period last year."),
                     ExampleSentenceKurdish(
                         text:
-                            "قازانج بە ١٥ لە سەد بەرزبووەتەوە بەراورد بە هەمان ماوەی ساڵی ڕابردوو."),
+                            "قازانج بە ١٥ لە سەد بەرزبووەتەوە بەراورد بە ھەمان ماوەی ساڵی ڕابردوو."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Fewer houses are available, but there is no corresponding decrease in demand."),
                     ExampleSentenceKurdish(
                         text:
-                            "خانووی کەمتر بەردەستن، بەڵام کەمبوونی هاوشێوە لە خواستدا نییە."),
+                            "خانووی کەمتر بەردەستن، بەڵام کەمبوونی ھاوشێوە لە خواستدا نییە."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Give each picture a number corresponding to its position on the page."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک بدە بە هەر وێنەیەک کە گونجاوە لەگەڵ شوێنی لەسەر پەڕەکە."),
+                            "ژمارەیەک بدە بە ھەر وێنەیەک کە گونجاوە لەگەڵ شوێنی لەسەر پەڕەکە."),
                   ],
                 ),
               ),

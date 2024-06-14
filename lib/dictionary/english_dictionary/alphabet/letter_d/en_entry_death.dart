@@ -700,7 +700,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He suffered a slow and painful death."),
                     ExampleSentenceKurdish(
-                        text: "تووشی مەرگێکی هێواش و بەئازار بوو."),
+                        text: "تووشی مەرگێکی ھێواش و بەئازار بوو."),
                   ],
                 ),
               ),
@@ -811,7 +811,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "How far would they go to avenge the death of their friend?"),
                             ExampleSentenceKurdish(
                                 text:
-                                    "تا چەند دەچن بۆ تۆڵەکردنەوەی مەرگی هاوڕێکەیان؟"),
+                                    "تا چەند دەچن بۆ تۆڵەکردنەوەی مەرگی ھاوڕێکەیان؟"),
                           ],
                         ),
                       ),
@@ -865,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Obesity is a leading cause of preventable deaths."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "قەڵەوی هۆکاری سەرەکی مردنی پێشپێگیراوە."),
+                                    "قەڵەوی ھۆکاری سەرەکی مردنی پێشپێگیراوە."),
                           ],
                         ),
                       ),
@@ -1035,7 +1035,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Police are trying to establish the cause of death."),
                     ExampleSentenceKurdish(
-                        text: "پۆلیس هەوڵ دەدەن هۆکاری مردن دیاری بکەن."),
+                        text: "پۆلیس ھەوڵ دەدەن ھۆکاری مردن دیاری بکەن."),
                   ],
                 ),
               ),
@@ -1063,7 +1063,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The disease can cause death unless the patient is treated promptly."),
                     ExampleSentenceKurdish(
                         text:
-                            "نەخۆشییەکە دەکرێت ببێتە هۆکاری مردن مەگەر ئەوەی نەخۆشەکە بەزووی چارەسەر بکرێت."),
+                            "نەخۆشییەکە دەکرێت ببێتە ھۆکاری مردن مەگەر ئەوەی نەخۆشەکە بەزووی چارەسەر بکرێت."),
                   ],
                 ),
               ),
@@ -1089,7 +1089,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Do you believe in life after death?"),
                     ExampleSentenceKurdish(
-                        text: "باوەڕت بە ژیانی دوای مردن هەیە؟"),
+                        text: "باوەڕت بە ژیانی دوای مردن ھەیە؟"),
                   ],
                 ),
               ),
@@ -1167,7 +1167,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Four prisoners were under sentence of death."),
                     ExampleSentenceKurdish(
-                        text: "چوار زیندانی سزای مەرگیان هەبوو."),
+                        text: "چوار زیندانی سزای مەرگیان ھەبوو."),
                   ],
                 ),
               ),
@@ -1224,7 +1224,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This process becomes irreversible and leads to cell death."),
                     ExampleSentenceKurdish(
                         text:
-                            "پڕۆسەکە هەڵنەوەشاوە دەبێت و دەبێتە هۆکاری مردنی خانە."),
+                            "پڕۆسەکە ھەڵنەوەشاوە دەبێت و دەبێتە ھۆکاری مردنی خانە."),
                   ],
                 ),
               ),
@@ -1243,7 +1243,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) کۆتایی یان لەناوچوونی هەمیشەیی شتێک"),
+              text: "٤. (ناو) کۆتایی یان لەناوچوونی ھەمیشەیی شتێک"),
           Row(
             children: [
               const Expanded(

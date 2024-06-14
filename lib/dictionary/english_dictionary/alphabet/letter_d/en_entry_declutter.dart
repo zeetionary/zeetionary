@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) سڕینەوەی ئەو شتانەی کە بەکاریان ناهێنیت بۆ ئەوەی جێگای زیاترت هەبێت و بە ئاسانی شت بدۆزیتەوە کە پێویستت پێیانە"),
+                  "١. (کردار) سڕینەوەی ئەو شتانەی کە بەکاریان ناھێنیت بۆ ئەوەی جێگای زیاترت ھەبێت و بە ئاسانی شت بدۆزیتەوە کە پێویستت پێیانە"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Moving is a good opportunity to declutter."),
                     ExampleSentenceKurdish(
-                        text: "شوێن گۆڕین هەلێکی باشە بۆ پاککردنەوە."),
+                        text: "شوێن گۆڕین ھەلێکی باشە بۆ پاککردنەوە."),
                   ],
                 ),
               ),
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Declutter one room at a time."),
-                    ExampleSentenceKurdish(text: "هەر جارە و ژوورێک پاکبکەوە."),
+                    ExampleSentenceKurdish(text: "ھەر جارە و ژوورێک پاکبکەوە."),
                   ],
                 ),
               ),

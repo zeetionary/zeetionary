@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some people feel pressured to conform to the ideals of the cult of youth."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک کەس هەست بە فشار دەکەن لە شوێنکەوتنی نموونەکانی ڕێبازی گەنجان."),
+                            "ھەندێک کەس ھەست بە فشار دەکەن لە شوێنکەوتنی نموونەکانی ڕێبازی گەنجان."),
                   ],
                 ),
               ),
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) گرووپێکی بچووک لە خەڵکی کە باوەڕی ئایینی توندیان هەیە و سەر بە هیچ ئایینێکی ناسراو نین"),
+                  "٢. (ناو) گرووپێکی بچووک لە خەڵکی کە باوەڕی ئایینی توندیان ھەیە و سەر بە ھیچ ئایینێکی ناسراو نین"),
           Row(
             children: [
               const Expanded(

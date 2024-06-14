@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەسێک کە کاری لێدانی میوزیکی بەناوبانگە لەسەر تەلەفیزیۆن، ڕادیۆ، یانەیەک، ئاهەنگێک، هتد"),
+                  "١. (ناو) کەسێک کە کاری لێدانی میوزیکی بەناوبانگە لەسەر تەلەفیزیۆن، ڕادیۆ، یانەیەک، ئاھەنگێک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The disc jockey played the latest hits at the party."),
                     ExampleSentenceKurdish(
                         text:
-                            "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاهەنگەکە لێدا."),
+                            "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاھەنگەکە لێدا."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The disc jockey at the club kept the crowd dancing."),
                     ExampleSentenceKurdish(
-                        text: "دی‌جەیی یانەکە جەماوەرەکەی لە سەمادا هێشتەوە."),
+                        text: "دی‌جەیی یانەکە جەماوەرەکەی لە سەمادا ھێشتەوە."),
                   ],
                 ),
               ),

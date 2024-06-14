@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەستکردن بە سەرلێشێواوی و نیگەرانی کە ڕەنگە کەسێک تووشی ببێت کاتێک سەردانی وڵاتێکی تر دەکات یان ئەزموونی شێوازێکی جیاواز لە ژیان دەکات کە زۆر جیاوازە لەوەی کە ڕاهاتووە پێی"),
+                  "١. (ناو) ھەستکردن بە سەرلێشێواوی و نیگەرانی کە ڕەنگە کەسێک تووشی ببێت کاتێک سەردانی وڵاتێکی تر دەکات یان ئەزموونی شێوازێکی جیاواز لە ژیان دەکات کە زۆر جیاوازە لەوەی کە ڕاھاتووە پێی"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He had never left his village before so arriving in the capital was a big culture shock."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرگیز پێشووتر گوندەکەی جێنەهێشتبوو بۆیە گەشتن بە پایتەخت گورزێکی کەلتووری گەورە بوو."),
+                            "ھەرگیز پێشووتر گوندەکەی جێنەھێشتبوو بۆیە گەشتن بە پایتەخت گورزێکی کەلتووری گەورە بوو."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She experienced great culture shock when she first came to Europe."),
                     ExampleSentenceKurdish(
                         text:
-                            "تووشی شۆکی کەلتووری گەورە بوو کە یەکەمجار هات بۆ ئەورووپا."),
+                            "تووشی شۆکی کەلتووری گەورە بوو کە یەکەمجار ھات بۆ ئەورووپا."),
                   ],
                 ),
               ),

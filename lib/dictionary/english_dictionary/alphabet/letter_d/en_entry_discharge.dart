@@ -572,11 +572,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەتاڵ‌کردن، داگرتن، خاڵی‌کردن، دابەزاندن، واڵاکردن،	جێبەجێ‌کردن، ڕاپەڕاندن، کردن (ی ئەرک)،	دانەوە، پێدانەوە،	خستن، تێگرتن، تەقاندن، هاویشتن،	مۆڵەت‌پێدان، ناردنەوە،	چوونەدەرەوە،	دەرکردن، هاویشتنە دەرەوە، خستنەدەرەوە، شتی دەردراو، مەتریاڵی دەرهاویژراو، دەرهاویشتە،	بەتاڵ‌کردنی بارگەی ئێلیکتریکی،	(برین) چڵک، زووخاو، زووخ، کێم، هەو، زنچک، زڵزڵە، گڤرت، شژ،	(زیندانی) ئازادی، بەربوون، بەردان، بەڕەڵاکردن
+کوردی: بەتاڵ‌کردن، داگرتن، خاڵی‌کردن، دابەزاندن، واڵاکردن،	جێبەجێ‌کردن، ڕاپەڕاندن، کردن (ی ئەرک)،	دانەوە، پێدانەوە،	خستن، تێگرتن، تەقاندن، ھاویشتن،	مۆڵەت‌پێدان، ناردنەوە،	چوونەدەرەوە،	دەرکردن، ھاویشتنە دەرەوە، خستنەدەرەوە، شتی دەردراو، مەتریاڵی دەرھاویژراو، دەرھاویشتە،	بەتاڵ‌کردنی بارگەی ئێلیکتریکی،	(برین) چڵک، زووخاو، زووخ، کێم، ھەو، زنچک، زڵزڵە، گڤرت، شژ،	(زیندانی) ئازادی، بەربوون، بەردان، بەڕەڵاکردن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) پێدانی مۆڵەتی فەرمی بە کەسێک بۆ جێهێشتنی پۆلیس یان هێزە چەکدارەکان؛ دەرکردنی کەسێک"),
+                  "١. (کردار) پێدانی مۆڵەتی فەرمی بە کەسێک بۆ جێھێشتنی پۆلیس یان ھێزە چەکدارەکان؛ دەرکردنی کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -615,7 +615,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She was discharged from the police force for bad conduct."),
                     ExampleSentenceKurdish(
-                        text: "لە هێزی پۆلیس دەرکرا بۆ مامەڵەی خراپ."),
+                        text: "لە ھێزی پۆلیس دەرکرا بۆ مامەڵەی خراپ."),
                   ],
                 ),
               ),
@@ -665,7 +665,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبهێڵێت بەهۆی ئەوەی تەندرووستی باشە"),
+                  "٢. (کردار) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبھێڵێت بەھۆی ئەوەی تەندرووستی باشە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -706,7 +706,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All the people involved in the accident have now been discharged from hospital."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ئەو کەسانەی لە ڕووداوەکە بەژداربوون ئێستا لە نەخۆشخانە دەرکراون."),
+                            "ھەموو ئەو کەسانەی لە ڕووداوەکە بەژداربوون ئێستا لە نەخۆشخانە دەرکراون."),
                   ],
                 ),
               ),
@@ -736,7 +736,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She had discharged herself against medical advice."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە پێچەوانەی ئامۆژگاریی پزیشکییەوە نەخۆشخانەی جێهێشتبوو."),
+                            "بە پێچەوانەی ئامۆژگاریی پزیشکییەوە نەخۆشخانەی جێھێشتبوو."),
                   ],
                 ),
               ),
@@ -755,7 +755,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) ڕێگادان بە کەسێک کە دادگا یان زیندان جێبهێڵێت"),
+              text: "٣. (کردار) ڕێگادان بە کەسێک کە دادگا یان زیندان جێبھێڵێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -906,7 +906,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (کردار) هاتنە دەرەوەی شلەی وەک کێم لە جەستەوە"),
+              text: "٦. (کردار) ھاتنە دەرەوەی شلەی وەک کێم لە جەستەوە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -934,7 +934,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٧. (کردار) دەردانی وزە یان هێز"),
+          const DefinitionKurdish(text: "٧. (کردار) دەردانی وزە یان ھێز"),
           // const DividerSentences(),
           Row(
             children: [
@@ -946,7 +946,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Lightning is caused by clouds discharging electricity."),
                     ExampleSentenceKurdish(
                         text:
-                            "برووسکە درووست دەبێت کە هەورەکان کارەبا درووست دەکەن."),
+                            "برووسکە درووست دەبێت کە ھەورەکان کارەبا درووست دەکەن."),
                   ],
                 ),
               ),
@@ -966,7 +966,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٨. (کردار) کردنی هەر شتێک کە پێویستە بۆ ئەنجامدانی ئەرکێک"),
+                  "٨. (کردار) کردنی ھەر شتێک کە پێویستە بۆ ئەنجامدانی ئەرکێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1121,7 +1121,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A ban on the discharge of toxic waste will soon be implemented."),
                     ExampleSentenceKurdish(
                         text:
-                            "قەدەغەیەک لەسەر ڕژاندنی پاشەڕۆی ژەهراوی بەزووی دەخرێتە بواری جێبەجێکردنەوە."),
+                            "قەدەغەیەک لەسەر ڕژاندنی پاشەڕۆی ژەھراوی بەزووی دەخرێتە بواری جێبەجێکردنەوە."),
                   ],
                 ),
               ),
@@ -1182,7 +1182,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The storm produced a loud thunder with each electrical discharge."),
                     ExampleSentenceKurdish(
                         text:
-                            "زریانەکە برووسکەیەکی بەرزی درووست دەکرد لەگەڵ هەر چەخماخەیەکی کارەبایی."),
+                            "زریانەکە برووسکەیەکی بەرزی درووست دەکرد لەگەڵ ھەر چەخماخەیەکی کارەبایی."),
                   ],
                 ),
               ),
@@ -1202,7 +1202,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٢. (ناو) مۆڵەتدان یان دەرکردنی کەسێک لە هێزی پۆلیس یان سوپا"),
+                  "١٢. (ناو) مۆڵەتدان یان دەرکردنی کەسێک لە ھێزی پۆلیس یان سوپا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1213,7 +1213,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The illness resulted in his discharge from the army."),
                     ExampleSentenceKurdish(
-                        text: "نەخۆشییەکە درووست بوو بەهۆی دەرکردنی لە سوپا."),
+                        text: "نەخۆشییەکە درووست بوو بەھۆی دەرکردنی لە سوپا."),
                   ],
                 ),
               ),
@@ -1242,7 +1242,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "His quick discharge came as a surprise to everyone."),
                     ExampleSentenceKurdish(
-                        text: "دەرکردنی خێرای سوپرایز بوو بۆ هەموان."),
+                        text: "دەرکردنی خێرای سوپرایز بوو بۆ ھەموان."),
                   ],
                 ),
               ),
@@ -1262,7 +1262,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٣. (ناو) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبهێڵێت بەهۆی ئەوەی تەندرووستە"),
+                  "١٣. (ناو) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبھێڵێت بەھۆی ئەوەی تەندرووستە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1293,7 +1293,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٤. (ناو) ڕێگادان بە کەسێک کە زیندان یان دادگا جێبهێڵێت"),
+              text: "١٤. (ناو) ڕێگادان بە کەسێک کە زیندان یان دادگا جێبھێڵێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1364,7 +1364,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The gun had an accidental discharge when it fell."),
                     ExampleSentenceKurdish(
-                        text: "چەکەکە تەقاندنێکی بەڕێکەوتی هەبوو کە کەوت."),
+                        text: "چەکەکە تەقاندنێکی بەڕێکەوتی ھەبوو کە کەوت."),
                   ],
                 ),
               ),

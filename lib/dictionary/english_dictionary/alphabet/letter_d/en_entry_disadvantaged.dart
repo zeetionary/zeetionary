@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەژار، دەستەنگ، نەدار، بەش‌بڕاو، بێ‌بەش، هەژاران، دەستەنگان، نەداران، بەش‌بڕاوان، بێ‌بەشان
+کوردی: ھەژار، دەستەنگ، نەدار، بەش‌بڕاو، بێ‌بەش، ھەژاران، دەستەنگان، نەداران، بەش‌بڕاوان، بێ‌بەشان
 """),
           const DefinitionKurdish(
               text:
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A new educational programme has been set up for economically disadvantaged children."),
                     ExampleSentenceKurdish(
                         text:
-                            "پڕۆگرامێکی تازەی خوێندن درووستکراوە بۆ منداڵانی ئابووری هەژار."),
+                            "پڕۆگرامێکی تازەی خوێندن درووستکراوە بۆ منداڵانی ئابووری ھەژار."),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                             "These measures are intended to help the disadvantaged."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم هەنگاوانە ئامانج لێیانە سوود بە نەداران بگەیەنێت."),
+                            "ئەم ھەنگاوانە ئامانج لێیانە سوود بە نەداران بگەیەنێت."),
                   ],
                 ),
               ),

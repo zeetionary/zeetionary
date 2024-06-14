@@ -408,11 +408,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لاساری کردن، یاخیبوون، گوێنەدان، سەرکێشی کردن، ملهوڕی کردن، عینادی کردن
+کوردی: لاساری کردن، یاخیبوون، گوێنەدان، سەرکێشی کردن، ملھوڕی کردن، عینادی کردن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) ڕەتکردنەوەی ئەوەی گوێڕایەڵ بیت یان ڕێز بگریت لە کەسێکی دەسەڵاتدار، یاسایەک، هتد"),
+                  "١. (کردار) ڕەتکردنەوەی ئەوەی گوێڕایەڵ بیت یان ڕێز بگریت لە کەسێکی دەسەڵاتدار، یاسایەک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -528,7 +528,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) کە ئاسان نابێت باس بکرێت، ڕوونکردنەوەی بۆ بدرێت، ڕوون بکرێتەوە، هتد"),
+                  "٢. (کردار) کە ئاسان نابێت باس بکرێت، ڕوونکردنەوەی بۆ بدرێت، ڕوون بکرێتەوە، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "His face was so odd that it defies description."),
                     ExampleSentenceKurdish(
-                        text: "ڕووخساری هێندە نامۆ بوو کە لە باسکردن نایەت."),
+                        text: "ڕووخساری ھێندە نامۆ بوو کە لە باسکردن نایەت."),
                   ],
                 ),
               ),

@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بڕێکی کەم، نەختێ، تۆزقاڵێ، نیسکێ، بڕێ،	کۆد یان هێڵی مۆرس،	(ئۆتۆمبێل) داشبۆرد،	هێرش، هوروژم، تێ‌ڕژان، هەڵمەت،	پەلە، تاو، پڕتاو،	هێڵی تیرک، کشتەک، هەنج، بەندەک (ـ)،	وزە، چالاکی، جم‌وجۆڵ، گوڕ،	دەنگی لێک‌کەوتن، دەنگی پیاکێشان، دنگە، دەنگی شڵەقانەوە، شڵقە
+کوردی: بڕێکی کەم، نەختێ، تۆزقاڵێ، نیسکێ، بڕێ،	کۆد یان ھێڵی مۆرس،	(ئۆتۆمبێل) داشبۆرد،	ھێرش، ھوروژم، تێ‌ڕژان، ھەڵمەت،	پەلە، تاو، پڕتاو،	ھێڵی تیرک، کشتەک، ھەنج، بەندەک (ـ)،	وزە، چالاکی، جم‌وجۆڵ، گوڕ،	دەنگی لێک‌کەوتن، دەنگی پیاکێشان، دنگە، دەنگی شڵەقانەوە، شڵقە
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕۆشتنە شوێنێک بەخێرایی و لەناکاو"),
@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
                             "When the doors opened, there was a mad dash for seats."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە دەرگاکان کرانەوە، تێڕژانێکی شێتانە هەبوو بۆ کورسییەکان."),
+                            "کە دەرگاکان کرانەوە، تێڕژانێکی شێتانە ھەبوو بۆ کورسییەکان."),
                   ],
                 ),
               ),
@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He jumped off the bus and made a dash for the nearest bar."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە پاسەکە هەڵبەزییە خوارەوە و بەرەو نزیکترین باڕ بۆی دەرچوو."),
+                            "لە پاسەکە ھەڵبەزییە خوارەوە و بەرەو نزیکترین باڕ بۆی دەرچوو."),
                   ],
                 ),
               ),
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کردنی شتێک بە خێرایی بەهۆی ئەوەی کاتی پێویستت نیەی"),
+                  "٢. (ناو) کردنی شتێک بە خێرایی بەھۆی ئەوەی کاتی پێویستت نیەی"),
           Row(
             children: [
               const Expanded(
@@ -624,7 +624,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The use of a dash can add emphasis to a sentence."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەکارهێنانی داش دەکرێت جەختکردنەوە بۆ ڕستە زیاد بکات."),
+                            "بەکارھێنانی داش دەکرێت جەختکردنەوە بۆ ڕستە زیاد بکات."),
                   ],
                 ),
               ),
@@ -654,7 +654,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is broadcast in Morse code, the series of dots and dashes historically used to transmit information."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە کۆدی مۆرس پەخش دەکرێت، ئەو زنجیرەیە لە خاڵ و داش کە لە مێژوودا بەکارهێندراوە بۆ ناردنی زانیاری."),
+                            "بە کۆدی مۆرس پەخش دەکرێت، ئەو زنجیرەیە لە خاڵ و داش کە لە مێژوودا بەکارھێندراوە بۆ ناردنی زانیاری."),
                   ],
                 ),
               ),
@@ -711,7 +711,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He brought youthful energy, dash and charisma to the department."),
                     ExampleSentenceKurdish(
                         text:
-                            "وزەی گەنجانە و گوڕوتین و کاریزمای هێنا بۆ بەشەکە."),
+                            "وزەی گەنجانە و گوڕوتین و کاریزمای ھێنا بۆ بەشەکە."),
                   ],
                 ),
               ),

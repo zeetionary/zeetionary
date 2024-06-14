@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تاوانبارکراو، گوناهبارکراو، گومان‌لێ‌کراو،	شکات‌لێ‌کراو، پاشمار، سکاڵالێ‌کراو
+کوردی: تاوانبارکراو، گوناھبارکراو، گومان‌لێ‌کراو،	شکات‌لێ‌کراو، پاشمار، سکاڵالێ‌کراو
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسی تۆمەتبار لە دانیشتنی دادگادا"),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Several witnesses gave evidence for the defendant."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک شایەتحاڵ گەواهییان بۆ تاوانبارکراوەکە دا."),
+                            "ژمارەیەک شایەتحاڵ گەواھییان بۆ تاوانبارکراوەکە دا."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The jury found the defendant guilty on all counts."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەستەی دادوەران تاوانبارکراوەکەیان بە بەرپرسی هەموو تاوانەکان دانا."),
+                            "دەستەی دادوەران تاوانبارکراوەکەیان بە بەرپرسی ھەموو تاوانەکان دانا."),
                   ],
                 ),
               ),

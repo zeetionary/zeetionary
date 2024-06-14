@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چڕەبەندان، شلووق، قەرەباڵغ، پڕئاپۆرە، جمەلێ‌هاتوو، پڕشانەچرکێ، کەلەکەبڕێ، بە شانەترنجێ، چێوکوت، جەنجاڵ، تێ‌ڕژاو
+کوردی: چڕەبەندان، شلووق، قەرەباڵغ، پڕئاپۆرە، جمەلێ‌ھاتوو، پڕشانەچرکێ، کەلەکەبڕێ، بە شانەترنجێ، چێوکوت، جەنجاڵ، تێ‌ڕژاو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قەرەباڵغ"),
           Row(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The main beach can get really crowded in summer."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەنارە سەرەکییەکە دەکرێت تەواو قەرەباڵغ بێت لە هاویندا."),
+                            "کەنارە سەرەکییەکە دەکرێت تەواو قەرەباڵغ بێت لە ھاویندا."),
                   ],
                 ),
               ),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We have a very crowded schedule."),
                     ExampleSentenceKurdish(
-                        text: "خشتەیەکی زۆر جەنجاڵمان هەیە."),
+                        text: "خشتەیەکی زۆر جەنجاڵمان ھەیە."),
                   ],
                 ),
               ),

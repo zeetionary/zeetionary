@@ -196,7 +196,7 @@ class EnglishEntrycoolly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵکار) بەشێوەیەک کە هاوڕێیانە یان بەجۆشەوە نییە"),
+                                  "١. (ھاوەڵکار) بەشێوەیەک کە ھاوڕێیانە یان بەجۆشەوە نییە"),
                           Row(
                             children: [
                               const Expanded(

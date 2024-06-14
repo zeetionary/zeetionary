@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "For the past century we have witnessed the disappearance of many species of plants and animals from our planet."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە سەدەی ڕابردوودا لەناوچوونی ژمارەیەکی زۆر لە ڕووەک و ئاژەڵمان دیوە لە هەسارەکەمان."),
+                            "لە سەدەی ڕابردوودا لەناوچوونی ژمارەیەکی زۆر لە ڕووەک و ئاژەڵمان دیوە لە ھەسارەکەمان."),
                   ],
                 ),
               ),

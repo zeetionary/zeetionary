@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Firefighters face danger every day."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاگرکوژێنرەوەکان هەموو ڕۆژێک ڕووبەڕووی مەترسی دەبنەوە."),
+                            "ئاگرکوژێنرەوەکان ھەموو ڕۆژێک ڕووبەڕووی مەترسی دەبنەوە."),
                   ],
                 ),
               ),
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Children's lives are in danger every time they cross this road."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژیانی منداڵان لە مەترسیدایە هەر کاتێک لەم شەقامە دەپەڕنەوە."),
+                            "ژیانی منداڵان لە مەترسیدایە ھەر کاتێک لەم شەقامە دەپەڕنەوە."),
                   ],
                 ),
               ),
@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He recognized the danger signs and gave up smoking."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە ئاماژەکانی کرد و وازی لە جگەرەکێشان هێنا."),
+                            "ھەستی بە ئاماژەکانی کرد و وازی لە جگەرەکێشان ھێنا."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There is no danger of a bush fire now."),
                     ExampleSentenceKurdish(
-                        text: "ئێستا هیچ مەترسی ئاگری دەوەن نییە."),
+                        text: "ئێستا ھیچ مەترسی ئاگری دەوەن نییە."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They reminded residents of the potential dangers of living so near an active volcano."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەترسییە ڕێتێچووەکانی ژیانیان لە زۆر نزیک لە گڕکانێکی چالاک بەبیری هاوڵاتیان هێنایەوە."),
+                            "مەترسییە ڕێتێچووەکانی ژیانیان لە زۆر نزیک لە گڕکانێکی چالاک بەبیری ھاوڵاتیان ھێنایەوە."),
                   ],
                 ),
               ),
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are many hidden dangers for small children in the home."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر مەترسی شاراوە بۆ منداڵی بچووک لە ماڵەوەدا هەیە."),
+                            "زۆر مەترسی شاراوە بۆ منداڵی بچووک لە ماڵەوەدا ھەیە."),
                   ],
                 ),
               ),

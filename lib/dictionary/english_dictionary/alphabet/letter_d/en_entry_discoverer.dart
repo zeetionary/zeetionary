@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They were the discoverers of the structure of DNA."),
                     ExampleSentenceKurdish(
-                        text: "دۆزەرەوەی پێکهاتەی دی‌ئێن‌ئەی بوون."),
+                        text: "دۆزەرەوەی پێکھاتەی دی‌ئێن‌ئەی بوون."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I was the lucky discoverer of a very valuable painting."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو بەبەختە بووم کە کە تابلۆیەکی زۆر گرانبەهام دۆزییەوە."),
+                            "ئەو بەبەختە بووم کە کە تابلۆیەکی زۆر گرانبەھام دۆزییەوە."),
                   ],
                 ),
               ),

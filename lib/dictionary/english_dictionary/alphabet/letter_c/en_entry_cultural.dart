@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چاندی، فەرهەنگی، کولتووری
+کوردی: چاندی، فەرھەنگی، کولتووری
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) پەیوەندیدار بە کەلتووری کۆمەڵگە یان گرووپێکی دیاریکراو، یان نەریت، باوەڕ، هتد ـەکانیان"),
+                  "١. (ھاوەڵناو) پەیوەندیدار بە کەلتووری کۆمەڵگە یان گرووپێکی دیاریکراو، یان نەریت، باوەڕ، ھتد ـەکانیان"),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His character represents the traditional cultural values of China."),
                     ExampleSentenceKurdish(
                         text:
-                            "کارەکتەرەکەی بەها کەلتوورییە نەریتییەکانی چین وێنا دەکات."),
+                            "کارەکتەرەکەی بەھا کەلتوورییە نەریتییەکانی چین وێنا دەکات."),
                   ],
                 ),
               ),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) پەیوەندیدار میوزیک، وێژە و هونەر"),
+              text: "٢. (ھاوەڵناو) پەیوەندیدار میوزیک، وێژە و ھونەر"),
           Row(
             children: [
               const Expanded(

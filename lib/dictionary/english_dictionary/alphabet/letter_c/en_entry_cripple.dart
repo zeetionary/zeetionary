@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The pilot tried to land his crippled plane."),
                     ExampleSentenceKurdish(
                         text:
-                            "فڕۆکەوانەکە هەوڵیدا فڕۆکە تێکشکاوەکەی بنیشێنێتەوە."),
+                            "فڕۆکەوانەکە ھەوڵیدا فڕۆکە تێکشکاوەکەی بنیشێنێتەوە."),
                   ],
                 ),
               ),

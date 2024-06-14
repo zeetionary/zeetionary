@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کاسەی سەر؛ ئەو پێکهاتە ئێسکییەی کە سەر پێکدێنێت و مێشک دەپارێزێت"),
+                  "١. (ناو) کاسەی سەر؛ ئەو پێکھاتە ئێسکییەی کە سەر پێکدێنێت و مێشک دەپارێزێت"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cranium is made up of several bones fused together."),
                     ExampleSentenceKurdish(
                         text:
-                            "کاسەی سەر لە ژمارەیەک ئێسک پێکهاتووە کە پێکەوە لکاون."),
+                            "کاسەی سەر لە ژمارەیەک ئێسک پێکھاتووە کە پێکەوە لکاون."),
                   ],
                 ),
               ),

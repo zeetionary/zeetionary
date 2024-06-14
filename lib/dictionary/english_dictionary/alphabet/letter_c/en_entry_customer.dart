@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کڕیار(ی هەمیشەیی)، بکڕ، سەنیار، مشتەری،	مرۆ، کەس، بنیادەم
+کوردی: کڕیار(ی ھەمیشەیی)، بکڕ، سەنیار، مشتەری،	مرۆ، کەس، بنیادەم
 """),
           const DefinitionKurdish(
               text:
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They know me—I'm a regular customer."),
                     ExampleSentenceKurdish(
-                        text: "دەمناسن، کڕیارێکی هەمیشەییم."),
+                        text: "دەمناسن، کڕیارێکی ھەمیشەییم."),
                   ],
                 ),
               ),
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The firm has excellent customer relations."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە پەیوەندیی نایابی لەگەڵ کڕیاراندا هەیە."),
+                            "کۆمپانیاکە پەیوەندیی نایابی لەگەڵ کڕیاراندا ھەیە."),
                   ],
                 ),
               ),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) لە دوای هاوەڵناوێک بەکاردێت بۆ باسکردنی کەسێک یان شتێکی دیاریکراو"),
+                  "٢. (ناو) لە دوای ھاوەڵناوێک بەکاردێت بۆ باسکردنی کەسێک یان شتێکی دیاریکراو"),
           Row(
             children: [
               const Expanded(
@@ -460,7 +460,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The team desperately need a win, and that will make them very difficult customers."),
                     ExampleSentenceKurdish(
                         text:
-                            "تیمەکە بێهوودانە پێویستی بە بردنەوەیەکە، و ئەوە دەیانکات بە کەسانی سەخت."),
+                            "تیمەکە بێھوودانە پێویستی بە بردنەوەیەکە، و ئەوە دەیانکات بە کەسانی سەخت."),
                   ],
                 ),
               ),

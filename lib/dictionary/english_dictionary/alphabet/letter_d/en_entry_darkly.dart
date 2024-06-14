@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) بەشێوەیەکی هەڕەشەئامێز یان ناخۆش"),
+              text: "١. (ھاوەڵکار) بەشێوەیەکی ھەڕەشەئامێز یان ناخۆش"),
           Row(
             children: [
               const Expanded(
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He hinted darkly that all was not well."),
                     ExampleSentenceKurdish(
-                        text: "خەمگینانە ئاماژەی دا کە هەموو شتێک باش نییە."),
+                        text: "خەمگینانە ئاماژەی دا کە ھەموو شتێک باش نییە."),
                   ],
                 ),
               ),

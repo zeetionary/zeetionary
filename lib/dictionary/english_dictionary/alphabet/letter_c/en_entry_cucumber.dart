@@ -330,9 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (میوە) خەیار، هاروێ، ئاروو
+کوردی: (میوە) خەیار، ھاروێ، ئاروو
 """),
-          const DefinitionKurdish(text: "١. (ناو) سەوزەیەکی درێژ کە توێکڵەکەی سەوزی تاریکە و لەناوەوە سەوزی ڕۆشنە و زۆرجار بە خاوی دەخورێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) سەوزەیەکی درێژ کە توێکڵەکەی سەوزی تاریکە و لەناوەوە سەوزی ڕۆشنە و زۆرجار بە خاوی دەخورێت"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Cucumbers are usually sliced and eaten raw in salads."),
-                    ExampleSentenceKurdish(text: "خەیار زۆرجار قاژ دەکرێت و بە خاوی لە زەڵاتەدا دەخورێت."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "خەیار زۆرجار قاژ دەکرێت و بە خاوی لە زەڵاتەدا دەخورێت."),
                   ],
                 ),
               ),

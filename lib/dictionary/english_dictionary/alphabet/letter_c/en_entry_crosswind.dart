@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Strong crosswinds blew the plane off course."),
                     ExampleSentenceKurdish(
-                        text: "پەرچەبای بەهێز فڕۆکەکەیان لە ڕێڕەوەکەی لادا."),
+                        text: "پەرچەبای بەھێز فڕۆکەکەیان لە ڕێڕەوەکەی لادا."),
                   ],
                 ),
               ),

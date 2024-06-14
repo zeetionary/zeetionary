@@ -332,10 +332,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هات‌وچۆنەهێشتن، نەهێشتنی هام‌وشۆ،	قانوون یان زاگۆنی هات‌وچۆبڕینەوە
+کوردی: ھات‌وچۆنەھێشتن، نەھێشتنی ھام‌وشۆ،	قانوون یان زاگۆنی ھات‌وچۆبڕینەوە
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) قەدەغەی هاتووچۆ لە دوای کاتێکی دیاریکراوەوە"),
+              text: "١. (ناو) قەدەغەی ھاتووچۆ لە دوای کاتێکی دیاریکراوەوە"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The army imposed a dusk-to-dawn curfew."),
                     ExampleSentenceKurdish(
                         text:
-                            "سوپا قەدەغەی هاتووچۆ لە تاریکانەوە (مەغریب) تا بەرەبەیان ڕاگەیاند."),
+                            "سوپا قەدەغەی ھاتووچۆ لە تاریکانەوە (مەغریب) تا بەرەبەیان ڕاگەیاند."),
                   ],
                 ),
               ),
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You must get home before curfew."),
                     ExampleSentenceKurdish(
-                        text: "دەبێت پێش ماوەی قەدەغەی هاتووچۆ بێیتەوە."),
+                        text: "دەبێت پێش ماوەی قەدەغەی ھاتووچۆ بێیتەوە."),
                   ],
                 ),
               ),

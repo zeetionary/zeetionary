@@ -413,11 +413,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەڵا، تەڵەزگە، ڕووداوی ناخۆش، کۆست، مەینەتی، نەهامەتی، کارەسات، بێ‌بەختی، بەدبەختی، لێ‌قەوماوی، ڕۆژەڕەشی، کڵۆڵی، قوڕبەسەری،	تێ‌شکان، شکست،	نافەرمی مایەی ئابڕووچوون یان تێ‌شکان
+کوردی: بەڵا، تەڵەزگە، ڕووداوی ناخۆش، کۆست، مەینەتی، نەھامەتی، کارەسات، بێ‌بەختی، بەدبەختی، لێ‌قەوماوی، ڕۆژەڕەشی، کڵۆڵی، قوڕبەسەری،	تێ‌شکان، شکست،	نافەرمی مایەی ئابڕووچوون یان تێ‌شکان
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کارەسات؛ ڕووداوێکی خراپی وەک لافاو یان ئاگر کە خەڵکێکی زۆر دەکوژێت و دەبێتە هۆکاری زیانی گەورە"),
+                  "١. (ناو) کارەسات؛ ڕووداوێکی خراپی وەک لافاو یان ئاگر کە خەڵکێکی زۆر دەکوژێت و دەبێتە ھۆکاری زیانی گەورە"),
           Row(
             children: [
               const Expanded(
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Thousands died in the disaster."),
-                    ExampleSentenceKurdish(text: "هەزاران لە کارەساتەکە مردن."),
+                    ExampleSentenceKurdish(text: "ھەزاران لە کارەساتەکە مردن."),
                   ],
                 ),
               ),
@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They provided more than £2.3 billion in disaster relief."),
                     ExampleSentenceKurdish(
                         text:
-                            "زیاتر لە ٢,٣ ملیۆن پاوەندیان بۆ بەهاناوەهاتنی کارەساتەکە دابینکرد."),
+                            "زیاتر لە ٢,٣ ملیۆن پاوەندیان بۆ بەھاناوەھاتنی کارەساتەکە دابینکرد."),
                   ],
                 ),
               ),
@@ -543,7 +543,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "In a disaster everyone needs to keep calm."),
                     ExampleSentenceKurdish(
-                        text: "لە کارەساتێکدا هەموان دەبێت هێمنی بپارێزن."),
+                        text: "لە کارەساتێکدا ھەموان دەبێت ھێمنی بپارێزن."),
                   ],
                 ),
               ),
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) دۆخێکی زۆر خراپ کە دەبێتە هۆکاری کێشە"),
+              text: "٢. (ناو) دۆخێکی زۆر خراپ کە دەبێتە ھۆکاری کێشە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -574,7 +574,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Losing your job doesn't have to be such a disaster."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەدەستدانی کارەکەت پێویست ناکات هێندە نەهامەتی بێت."),
+                            "لەدەستدانی کارەکەت پێویست ناکات ھێندە نەھامەتی بێت."),
                   ],
                 ),
               ),
@@ -631,7 +631,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Archie has to act quickly to avert disaster."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئارچی پێویست بوو زوو هەنگاو بنێت بۆ دووربوون لە کارەسات."),
+                            "ئارچی پێویست بوو زوو ھەنگاو بنێت بۆ دووربوون لە کارەسات."),
                   ],
                 ),
               ),
@@ -659,7 +659,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Many business partnerships end in disaster."),
                     ExampleSentenceKurdish(
-                        text: "زۆر هاوبەشی بازرگانی بە کارەسات کۆتایی دێت."),
+                        text: "زۆر ھاوبەشی بازرگانی بە کارەسات کۆتایی دێت."),
                   ],
                 ),
               ),

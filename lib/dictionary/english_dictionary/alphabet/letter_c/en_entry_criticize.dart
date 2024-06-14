@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All you ever do is criticize!"),
                     ExampleSentenceKurdish(
-                        text: "ئەوەی هەمیشە دەیکەیت ڕەخنەگرتنە."),
+                        text: "ئەوەی ھەمیشە دەیکەیت ڕەخنەگرتنە."),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) هەڵسەنگاندنی لایەنە باش و خراپەکانی کەسێک/شتێک"),
+                  "٢. (کردار) ھەڵسەنگاندنی لایەنە باش و خراپەکانی کەسێک/شتێک"),
           Row(
             children: [
               const Expanded(
@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We were taught how to criticize poems."),
                     ExampleSentenceKurdish(
-                        text: "فێرکراین چۆن هۆنراوە هەڵبسەنگێنین."),
+                        text: "فێرکراین چۆن ھۆنراوە ھەڵبسەنگێنین."),
                   ],
                 ),
               ),

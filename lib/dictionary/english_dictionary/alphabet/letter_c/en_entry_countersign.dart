@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: مۆرسەلماندن، باوەڕی‌پێدان بە ئیمزا، ئیمزای دووەم،	وشەی نهێنی، وشەی تێپەڕین
+کوردی: مۆرسەلماندن، باوەڕی‌پێدان بە ئیمزا، ئیمزای دووەم،	وشەی نھێنی، وشەی تێپەڕین
 """),
           const DefinitionKurdish(
               text:
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All orders must be countersigned by one of the directors."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە."),
+                            "ھەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە."),
                   ],
                 ),
               ),

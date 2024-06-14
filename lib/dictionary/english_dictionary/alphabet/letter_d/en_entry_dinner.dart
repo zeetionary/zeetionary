@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
                             "As I'm single, I tend to go out to dinner (= eat in a restaurant) a lot."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەو پێیەی سینگڵم، مەیلی ئەوەم هەیە زۆر لە دەرەوە (لە چێشتخانە) نان بخۆم."),
+                            "بەو پێیەی سینگڵم، مەیلی ئەوەم ھەیە زۆر لە دەرەوە (لە چێشتخانە) نان بخۆم."),
                   ],
                 ),
               ),
@@ -530,7 +530,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Let's invite them to dinner tomorrow."),
                     ExampleSentenceKurdish(
-                        text: "با سبەی بانگهێشتی شێویان بکەین."),
+                        text: "با سبەی بانگھێشتی شێویان بکەین."),
                   ],
                 ),
               ),
@@ -637,7 +637,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "I never eat a big dinner."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز نانی زۆری ئێوارە ناخۆم."),
+                        text: "ھەرگیز نانی زۆری ئێوارە ناخۆم."),
                   ],
                 ),
               ),

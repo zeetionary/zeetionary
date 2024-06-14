@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: زمانەی هەوا، پاشەوانە یا دەمەوانەی هەوا، زمانەی دەنگ‌بڕ
+کوردی: زمانەی ھەوا، پاشەوانە یا دەمەوانەی ھەوا، زمانەی دەنگ‌بڕ
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) پارچە کانزایەک کە کۆنترۆڵی تینی ئاگرێک دەکات بە ڕێگەدان بە هەوای زۆر یان کەم"),
+                  "١. (ناو) پارچە کانزایەک کە کۆنترۆڵی تینی ئاگرێک دەکات بە ڕێگەدان بە ھەوای زۆر یان کەم"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Some fireplaces have no need for a damper."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک ئاگردان پێویستیان بە دەمەوانەی هەوا نییە."),
+                            "ھەندێک ئاگردان پێویستیان بە دەمەوانەی ھەوا نییە."),
                   ],
                 ),
               ),
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) ئامێرێک کە هەزە کەم دەکاتەوە"),
+              text: "٢. (ناو) ئامێرێک کە ھەزە کەم دەکاتەوە"),
           Row(
             children: [
               const Expanded(
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The new model has new springs and dampers and a sports exhaust."),
                     ExampleSentenceKurdish(
                         text:
-                            "جۆرە تازەکە سپرینگی تازە و زمانەی دەنگ‌بڕ و ئەکسۆزی وەرزشی هەیە."),
+                            "جۆرە تازەکە سپرینگی تازە و زمانەی دەنگ‌بڕ و ئەکسۆزی وەرزشی ھەیە."),
                   ],
                 ),
               ),
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) شتێک کە لە خۆشی، سەرکەوتن، هتد کەمدەکاتەوە"),
+              text: "٣. (ناو) شتێک کە لە خۆشی، سەرکەوتن، ھتد کەمدەکاتەوە"),
           Row(
             children: [
               const Expanded(
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Lily isn't letting motherhood put a damper on her social life."),
                     ExampleSentenceKurdish(
                         text:
-                            "لیلی ناهێڵێت دایکایەتی لە ژیانی کۆمەڵایەتیی کەمبکاتەوە."),
+                            "لیلی ناھێڵێت دایکایەتی لە ژیانی کۆمەڵایەتیی کەمبکاتەوە."),
                   ],
                 ),
               ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Both the kids were sick while we were in Boston, so that put a damper on things."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەردوو منداڵەکە نەخۆش بوون کە لە بۆستن بووین، بۆیە ئەوە ماتەمی خستە سەر شتەکان."),
+                            "ھەردوو منداڵەکە نەخۆش بوون کە لە بۆستن بووین، بۆیە ئەوە ماتەمی خستە سەر شتەکان."),
                   ],
                 ),
               ),

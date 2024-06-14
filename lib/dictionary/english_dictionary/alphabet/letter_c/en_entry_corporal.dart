@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئەفسەرێکی پلە نزم لە هێزی مارێنزی ئەمریکی یان هێزی ئاسمانی ئاسمانی بەریتانیا"),
+                  "١. (ناو) ئەفسەرێکی پلە نزم لە ھێزی مارێنزی ئەمریکی یان ھێزی ئاسمانی ئاسمانی بەریتانیا"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The corporal oversaw the training of new recruits in the army."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەفسەرەکە سەرپەرشتی ڕاهێنانی تازە وەرگیراوانی سوپای دەکرد."),
+                            "ئەفسەرەکە سەرپەرشتی ڕاھێنانی تازە وەرگیراوانی سوپای دەکرد."),
                   ],
                 ),
               ),

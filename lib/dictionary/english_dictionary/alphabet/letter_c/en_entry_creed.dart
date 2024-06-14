@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("What is his political creed?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("What is his political creed?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeds3(String languageCode) async {
@@ -332,7 +333,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ڕێباز، بیروباوەڕ، باوەڕ، دەزگا یان سیستمی باوەڕی دینی، کۆمەڵە باوەڕێکی بنەڕەتی، ئاڕمانج
 """),
-          const DefinitionKurdish(text: "١. (ناو) کۆمەڵێک لە بنەما و باوەڕی ئایینی "),
+          const DefinitionKurdish(
+              text: "١. (ناو) کۆمەڵێک لە بنەما و باوەڕی ئایینی "),
           Row(
             children: [
               const Expanded(
@@ -341,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "We welcome people of all races, colours and creeds."),
-                    ExampleSentenceKurdish(text: "پێشوازی لە خەڵکی هەموو ڕەگەز و ڕەنگ و ڕێبازێک دەکەین."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پێشوازی لە خەڵکی ھەموو ڕەگەز و ڕەنگ و ڕێبازێک دەکەین."),
                   ],
                 ),
               ),
@@ -360,30 +364,28 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "What is his political creed?"),
-          ExampleSentenceKurdish(
-          text: "دیدی سیاسیی چییە؟"),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcreeds2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcreeds2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "What is his political creed?"),
+                    ExampleSentenceKurdish(text: "دیدی سیاسیی چییە؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeds2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeds2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

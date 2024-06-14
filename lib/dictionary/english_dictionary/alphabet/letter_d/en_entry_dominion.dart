@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -543,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Man has dominion over the natural world."),
                     ExampleSentenceKurdish(
-                        text: "مرۆڤ کۆنترۆڵی بەسەر ژیانی سرووشتیدا هەیە."),
+                        text: "مرۆڤ کۆنترۆڵی بەسەر ژیانی سرووشتیدا ھەیە."),
                   ],
                 ),
               ),
@@ -572,7 +574,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Soon the whole country was under his sole dominion."),
                     ExampleSentenceKurdish(
-                        text: "هەرزوو تەواوی وڵاتەکە لەژێر دەسەڵاتیدا بوو."),
+                        text: "ھەرزوو تەواوی وڵاتەکە لەژێر دەسەڵاتیدا بوو."),
                   ],
                 ),
               ),
@@ -1203,7 +1205,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kbdJqkKQCzc?t=',
+    videoId: 'kbdJqkKQCzc',
     startSeconds: 462,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1228,7 +1230,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YVDJqipoohc?t=',
+    videoId: 'YVDJqipoohc',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1253,7 +1255,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TJ9S66EBoh8?t=',
+    videoId: 'TJ9S66EBoh8',
     startSeconds: 937,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1278,7 +1280,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wJa5Ch0O4BI?t=',
+    videoId: 'wJa5Ch0O4BI',
     startSeconds: 1969,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1303,7 +1305,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    videoId: 'E2rtQFAibEA',
     startSeconds: 4550,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1328,7 +1330,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BOdca_kJimE?t=',
+    videoId: 'BOdca_kJimE',
     startSeconds: 1075,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1353,7 +1355,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pv-c70rrKZI?t=',
+    videoId: 'pv-c70rrKZI',
     startSeconds: 751,
     autoPlay: true,
     params: const YoutubePlayerParams(

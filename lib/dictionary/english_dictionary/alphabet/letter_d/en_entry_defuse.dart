@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) هێوردکردنەوە/دامرکاندنەوەی دۆخێک لەوەی خراپتر بێت بەوەی تووڕەیی کەم بکەیتەوە"),
+                  "١. (کردار) ھێوردکردنەوە/دامرکاندنەوەی دۆخێک لەوەی خراپتر بێت بەوەی تووڕەیی کەم بکەیتەوە"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "These latest measures should help to defuse the situation."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم هەنگاوانەی کۆتایی دەبێت دۆخەکە هێوردبکەنەوە."),
+                            "ئەم ھەنگاوانەی کۆتایی دەبێت دۆخەکە ھێوردبکەنەوە."),
                   ],
                 ),
               ),

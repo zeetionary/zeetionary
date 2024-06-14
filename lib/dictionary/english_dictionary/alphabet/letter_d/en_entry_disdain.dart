@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سووکایەتی، بێ‌ڕێزی‌پێ‌کردن، بەهێچ‌دانان،	ڕق‌لێ‌بوون، بێزکردنەوە، بێزاری، بی‌ڕێزی، بێ‌حورمەتی، سووکایەتی
+کوردی: سووکایەتی، بێ‌ڕێزی‌پێ‌کردن، بەھێچ‌دانان،	ڕق‌لێ‌بوون، بێزکردنەوە، بێزاری، بی‌ڕێزی، بێ‌حورمەتی، سووکایەتی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئەو هەستەی کە کەسێک/شتێک هێندە باش نییە کە شایەنی ڕێز بێت"),
+                  "١. (ناو) ئەو ھەستەی کە کەسێک/شتێک ھێندە باش نییە کە شایەنی ڕێز بێت"),
           Row(
             children: [
               const Expanded(
@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He disdained all people less well educated than himself."),
                     ExampleSentenceKurdish(
                         text:
-                            "بێزی دەکردەوە لە هەموو ئەو کەسانەی کەمتر لە خۆی خوێندەوار بوون."),
+                            "بێزی دەکردەوە لە ھەموو ئەو کەسانەی کەمتر لە خۆی خوێندەوار بوون."),
                   ],
                 ),
               ),
@@ -526,7 +526,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) ڕەتکردنەوەی ئەوەی شتێک بکەیت بەهۆی ئەوەی پێتوایە لە خوار پێگەی خۆتە"),
+                  "٣. (کردار) ڕەتکردنەوەی ئەوەی شتێک بکەیت بەھۆی ئەوەی پێتوایە لە خوار پێگەی خۆتە"),
           // const DividerSentences(),
           Row(
             children: [

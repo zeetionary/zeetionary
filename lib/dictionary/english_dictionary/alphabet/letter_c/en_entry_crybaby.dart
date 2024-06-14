@@ -332,14 +332,14 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە زۆر دەگری، بەتایبەتی بەبێ هۆکار"),
+              text: "١. (ناو) کەسێک کە زۆر دەگری، بەتایبەتی بەبێ ھۆکار"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Don't be such a crybaby."),
-                    ExampleSentenceKurdish(text: "هێندە گرینۆک مەبە."),
+                    ExampleSentenceKurdish(text: "ھێندە گرینۆک مەبە."),
                   ],
                 ),
               ),

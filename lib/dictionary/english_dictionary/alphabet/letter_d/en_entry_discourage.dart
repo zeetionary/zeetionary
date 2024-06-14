@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) هەوڵدان بۆ ڕێگری لە شتێک یان ئەوەی کەسێک شتێک بکات"),
+                  "١. (کردار) ھەوڵدان بۆ ڕێگری لە شتێک یان ئەوەی کەسێک شتێک بکات"),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I leave a light on when I'm out to discourage burglars."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە لە دەرەوەم ڕۆشناییەک بە کراوەیی دەهێڵمەوە بۆ ساردکردنەوەی دز."),
+                            "کە لە دەرەوەم ڕۆشناییەک بە کراوەیی دەھێڵمەوە بۆ ساردکردنەوەی دز."),
                   ],
                 ),
               ),
@@ -452,7 +452,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His parents tried to discourage him from being an actor."),
                     ExampleSentenceKurdish(
                         text:
-                            "دایبابی هەوڵیان دا ساردی بکەنەوە لەوەی ببێت بە ئەکتەر."),
+                            "دایبابی ھەوڵیان دا ساردی بکەنەوە لەوەی ببێت بە ئەکتەر."),
                   ],
                 ),
               ),
@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "We tried to discourage him from resigning."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵماندا پەشیمانی بکەینەوە لە دەست لەکارکێشانەوە."),
+                            "ھەوڵماندا پەشیمانی بکەینەوە لە دەست لەکارکێشانەوە."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Don't be discouraged by the first failure—try again!"),
                     ExampleSentenceKurdish(
-                        text: "دامەڕووخێ بە یەکەم شکست ـ دووبارە هەوڵ بدەوە."),
+                        text: "دامەڕووخێ بە یەکەم شکست ـ دووبارە ھەوڵ بدەوە."),
                   ],
                 ),
               ),
@@ -566,7 +566,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The weather discouraged people from attending."),
                     ExampleSentenceKurdish(
-                        text: "کەشوهەوا خەڵکی سارد کردەوە لە بەژداری."),
+                        text: "کەشوھەوا خەڵکی سارد کردەوە لە بەژداری."),
                   ],
                 ),
               ),
@@ -592,7 +592,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "I'm not easily discouraged."),
-                    ExampleSentenceKurdish(text: "بە ئاسانی بێ‌هیوا نابم."),
+                    ExampleSentenceKurdish(text: "بە ئاسانی بێ‌ھیوا نابم."),
                   ],
                 ),
               ),

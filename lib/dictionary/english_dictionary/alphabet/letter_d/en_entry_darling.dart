@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆشەویست، بەردەوک، ئازیز، لەبەردڵان، دەلال، جوان، دڵڕفێن،	(خوازە) جوان، فریشتە،	(لە بانگ‌کردن‌دا) خۆشەویستم، ئازیزەکەم، گیانەکەم
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) بۆ ناوهێنانی کەسێک کە خۆشت دەوێت"),
+              text: "١. (ناو) بۆ ناوھێنانی کەسێک کە خۆشت دەوێت"),
           Row(
             children: [
               const Expanded(
@@ -384,14 +384,14 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) کەسێک کە ڕووخۆش و میهرەبانە"),
+          const DefinitionKurdish(text: "٢. (ناو) کەسێک کە ڕووخۆش و میھرەبانە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "You are a darling, Hugo."),
-                    ExampleSentenceKurdish(text: "تۆ فریشتەیت هوگۆ."),
+                    ExampleSentenceKurdish(text: "تۆ فریشتەیت ھوگۆ."),
                   ],
                 ),
               ),
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She is the darling of the newspapers and can do no wrong."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئازیزی ڕۆژنامەکانە و ڕێی تێ ناچێت هیچ هەڵەیەک بکات."),
+                            "ئازیزی ڕۆژنامەکانە و ڕێی تێ ناچێت ھیچ ھەڵەیەک بکات."),
                   ],
                 ),
               ),

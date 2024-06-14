@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The invitation required a dinner jacket for the dinner."),
                     ExampleSentenceKurdish(
                         text:
-                            "میهرەجانەکە پێویستی بە چاکەتێکی شێوان بوو بۆ نانی ئێوارە."),
+                            "میھرەجانەکە پێویستی بە چاکەتێکی شێوان بوو بۆ نانی ئێوارە."),
                   ],
                 ),
               ),

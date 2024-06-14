@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) جۆرە تەزوویەکی کارەبا کە تەنها بە یەک ئاراستەدا دەچێت"),
+                  "١. (ناو) جۆرە تەزوویەکی کارەبا کە تەنھا بە یەک ئاراستەدا دەچێت"),
           Row(
             children: [
               const Expanded(

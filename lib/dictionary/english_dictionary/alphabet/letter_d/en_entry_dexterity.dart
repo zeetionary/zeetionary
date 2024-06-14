@@ -404,10 +404,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شارەزایی، زیرەکی، دەس‌ڕاهاتوویی، دەس‌چابوکی، تەڕدەسی، ڕەقاسی، وەستایی، دەس‌سووکی
+کوردی: شارەزایی، زیرەکی، دەس‌ڕاھاتوویی، دەس‌چابوکی، تەڕدەسی، ڕەقاسی، وەستایی، دەس‌سووکی
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) شارەزایی لە بەکارهێنانی دەست و مێشک"),
+              text: "١. (ناو) شارەزایی لە بەکارھێنانی دەست و مێشک"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You need good manual dexterity to be a dentist."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاهاتوویی هەیە."),
+                            "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاھاتوویی ھەیە."),
                   ],
                 ),
               ),

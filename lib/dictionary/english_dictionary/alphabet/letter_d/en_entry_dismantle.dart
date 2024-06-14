@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) هەڵوەشاندنەوە"),
+          const DefinitionKurdish(text: "١. (کردار) ھەڵوەشاندنەوە"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I had to dismantle the engine in order to repair it."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێویست بوو بزوێنەرەکە هەڵبوەشێنمەوە بۆ ئەوەی چاکی بکەمەوە."),
+                            "پێویست بوو بزوێنەرەکە ھەڵبوەشێنمەوە بۆ ئەوەی چاکی بکەمەوە."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The steel mill was dismantled piece by piece."),
                     ExampleSentenceKurdish(
-                        text: "کارگەی پۆڵاکە بەش‌بەش هەڵوەشێدرایەوە."),
+                        text: "کارگەی پۆڵاکە بەش‌بەش ھەڵوەشێدرایەوە."),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) بە پلان هەڵوەشاندنەوەی دامەزراوەیەک کەم کەم"),
+              text: "٢. (کردار) بە پلان ھەڵوەشاندنەوەی دامەزراوەیەک کەم کەم"),
           // const DividerSentences(),
           Row(
             children: [
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government was in the process of dismantling the state-owned industries."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت لە پڕۆسەی هەڵوەشاندنەوەی پیشەسازییەکانی سەربە دەوڵەت بوو."),
+                            "حکومەت لە پڕۆسەی ھەڵوەشاندنەوەی پیشەسازییەکانی سەربە دەوڵەت بوو."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You need to sharpen your abilities to dismantle his excuses."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت تواناکانت بەهێز بکەیت بۆ پووچکردنەوەی بیانووەکانی."),
+                            "دەبێت تواناکانت بەھێز بکەیت بۆ پووچکردنەوەی بیانووەکانی."),
                   ],
                 ),
               ),

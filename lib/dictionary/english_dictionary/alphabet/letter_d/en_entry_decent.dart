@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەڕێز، بەئابڕوو، بەشەرم، بەڕێزانە، بەئابڕووانە، بەڕەوشتانە، بەئەدەبانە،	لێوەشاو، لێهاتوو،	بەجێ، ژیرانە، پەسندکراو، ئاقڵانە، بەڕێ‌وجێ،	خۆداپۆشیو، پۆشتە، ڕێک‌وپێک، پاک‌وخاوێن،	باش، چاک
+کوردی: بەڕێز، بەئابڕوو، بەشەرم، بەڕێزانە، بەئابڕووانە، بەڕەوشتانە، بەئەدەبانە،	لێوەشاو، لێھاتوو،	بەجێ، ژیرانە، پەسندکراو، ئاقڵانە، بەڕێ‌وجێ،	خۆداپۆشیو، پۆشتە، ڕێک‌وپێک، پاک‌وخاوێن،	باش، چاک
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ستاندارد یان خاسیەتێکی باش"),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I just want to get a decent job with decent pay."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها دەمەوێت کارێکی شایستە بە مووچەیەکی شایستە وەربگرم."),
+                            "تەنھا دەمەوێت کارێکی شایستە بە مووچەیەکی شایستە وەربگرم."),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I need a decent night's sleep."),
                     ExampleSentenceKurdish(
-                        text: "پێویستیم بە خەوێکی باشی شەوانە هەیە."),
+                        text: "پێویستیم بە خەوێکی باشی شەوانە ھەیە."),
                   ],
                 ),
               ),
@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Everyone said he was a decent sort of guy."),
                     ExampleSentenceKurdish(
-                        text: "هەموان گوتیان کە پیاوێکی بەڕێز بوو."),
+                        text: "ھەموان گوتیان کە پیاوێکی بەڕێز بوو."),
                   ],
                 ),
               ),
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She ought to have waited for a decent interval before getting married again."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبوو بۆ ماوەیەکی گونجاو چاوەڕوان بووبایە پێش ئەوەی دووبارە هاوسەرگیری بکاتەوە."),
+                            "دەبوو بۆ ماوەیەکی گونجاو چاوەڕوان بووبایە پێش ئەوەی دووبارە ھاوسەرگیری بکاتەوە."),
                   ],
                 ),
               ),
@@ -555,7 +555,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ھاوەڵناو) پۆشینی هێندە جل کە ئاسایی بێت کەسێک بتبینێت"),
+                  "٤. (ھاوەڵناو) پۆشینی ھێندە جل کە ئاسایی بێت کەسێک بتبینێت"),
           Row(
             children: [
               const Expanded(

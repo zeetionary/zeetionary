@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) خشتەیەکی بچووکی دارین، تەختەیی، هتد کە ژمارەی جیاواز لە خاڵ لەسەر هەر لایەکیەتی و لە یاری شانسدا بەکاردێت"),
+                  "١. (ناو) خشتەیەکی بچووکی دارین، تەختەیی، ھتد کە ژمارەی جیاواز لە خاڵ لەسەر ھەر لایەکیەتی و لە یاری شانسدا بەکاردێت"),
           Row(
             children: [
               const Expanded(
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) بڕینی گۆشت، سەوزە، هتد بە شێوەی چوارگۆشە"),
+              text: "٣. (کردار) بڕینی گۆشت، سەوزە، ھتد بە شێوەی چوارگۆشە"),
           // const DividerSentences(),
           Row(
             children: [

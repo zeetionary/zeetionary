@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He was the only person who behaved decently towards her."),
                     ExampleSentenceKurdish(
-                        text: "تەنها کەس بوو بەڕێزانە مامەڵەی لەگەڵ کرد."),
+                        text: "تەنھا کەس بوو بەڕێزانە مامەڵەی لەگەڵ کرد."),
                   ],
                 ),
               ),
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I escaped from the party as soon as was decently possible."),
                     ExampleSentenceKurdish(
-                        text: "ئاهەنگەکەم جێهێشت هەرچەند زوو کە گونجا."),
+                        text: "ئاھەنگەکەم جێھێشت ھەرچەند زوو کە گونجا."),
                   ],
                 ),
               ),

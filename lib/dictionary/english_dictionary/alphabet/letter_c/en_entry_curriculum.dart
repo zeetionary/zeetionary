@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وانەنامە، بەرنامە، بەرنامەی خوێندن (خوێندنگا، کۆلێژ و هتد)
+کوردی: وانەنامە، بەرنامە، بەرنامەی خوێندن (خوێندنگا، کۆلێژ و ھتد)
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) تەواوی ئەو بابەتانەی لە کۆرسێکدا هەن یان بەشێکن لە خوێندنی قوتابخانە، کۆلێژ، هتد"),
+                  "١. (ناو) تەواوی ئەو بابەتانەی لە کۆرسێکدا ھەن یان بەشێکن لە خوێندنی قوتابخانە، کۆلێژ، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The school curriculum should be as broad as possible."),
                     ExampleSentenceKurdish(
                         text:
-                            "وانەنامەی خوێندنگاکە دەکرێت هەتا بکرێت فراوان بێت."),
+                            "وانەنامەی خوێندنگاکە دەکرێت ھەتا بکرێت فراوان بێت."),
                   ],
                 ),
               ),

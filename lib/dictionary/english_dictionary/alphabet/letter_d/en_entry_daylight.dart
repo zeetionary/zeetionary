@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆژ، ڕووناکایی ڕۆژ، ڕوشنایی ڕۆژ،	گزنگ، بەرەبەیانی، شەبەق، دەرکەوتن یان هەڵاتنی ڕۆژ،	(خوازە) ڕۆژی ڕوون، ڕۆژی ڕووناک
+کوردی: ڕۆژ، ڕووناکایی ڕۆژ، ڕوشنایی ڕۆژ،	گزنگ، بەرەبەیانی، شەبەق، دەرکەوتن یان ھەڵاتنی ڕۆژ،	(خوازە) ڕۆژی ڕوون، ڕۆژی ڕووناک
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕۆشنایی خۆر لە ڕۆژدا"),
           Row(
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The street looks very different in daylight."),
                     ExampleSentenceKurdish(
-                        text: "شەقامەکە لە بەر هەتاودا زۆر جیاوازە."),
+                        text: "شەقامەکە لە بەر ھەتاودا زۆر جیاوازە."),
                   ],
                 ),
               ),

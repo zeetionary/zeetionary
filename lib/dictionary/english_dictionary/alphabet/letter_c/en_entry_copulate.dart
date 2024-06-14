@@ -206,7 +206,7 @@ class EnglishEntrycopulate extends StatelessWidget {
                                             "Birds copulate during mating season to fertilize eggs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی هێلکە."),
+                                            "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی ھێلکە."),
                                   ],
                                 ),
                               ),

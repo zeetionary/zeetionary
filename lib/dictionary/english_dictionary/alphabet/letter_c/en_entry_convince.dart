@@ -323,7 +323,7 @@ class EnglishEntryconvince extends StatelessWidget {
                                             "I've been trying to convince him to see a doctor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵم داوە ڕازی بکەم کە دکتۆرێک ببینێت."),
+                                            "ھەوڵم داوە ڕازی بکەم کە دکتۆرێک ببینێت."),
                                   ],
                                 ),
                               ),

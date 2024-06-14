@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکتڕبڕ، هاوبڕ، چەپ‌وڕاستی، خاچ‌واری، یەکبڕ، بەشێوەیەکی یەکتربڕ، هاوبڕانە، هێڵە چەپ‌وڕاست یان یەکتربڕەکان، نەخشی چەپ‌وڕاستی
+کوردی: یەکتڕبڕ، ھاوبڕ، چەپ‌وڕاستی، خاچ‌واری، یەکبڕ، بەشێوەیەکی یەکتربڕ، ھاوبڕانە، ھێڵە چەپ‌وڕاست یان یەکتربڕەکان، نەخشی چەپ‌وڕاستی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) درووستکردنی شێوەیەک کە ژمارەیەک ڕاستەهێڵی تێدایە کە یەکتری دەبڕن"),
+                  "١. (کردار) درووستکردنی شێوەیەک کە ژمارەیەک ڕاستەھێڵی تێدایە کە یەکتری دەبڕن"),
           Row(
             children: [
               const Expanded(
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) شێوەیەک لە ژمارەیەک ڕاستەهێڵ کە یەکتر دەبڕن"),
+              text: "٢. (ناو) شێوەیەک لە ژمارەیەک ڕاستەھێڵ کە یەکتر دەبڕن"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) بە ژمارەیەک لە ڕاستەهێڵەوە کە یەکتری دەبڕن"),
+              text: "٣. (ھاوەڵناو) بە ژمارەیەک لە ڕاستەھێڵەوە کە یەکتری دەبڕن"),
           Row(
             children: [
               const Expanded(

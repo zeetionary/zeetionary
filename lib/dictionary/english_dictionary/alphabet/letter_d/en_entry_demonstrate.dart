@@ -518,7 +518,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Let me demonstrate to you some of the difficulties we are facing."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێگام پێبدە هەندێک لەو سەختییانەت پێ پیشان بدەم کە ڕووبەڕووی دەبینەوە."),
+                            "ڕێگام پێبدە ھەندێک لەو سەختییانەت پێ پیشان بدەم کە ڕووبەڕووی دەبینەوە."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) بە کردار پیشاندانی ئەوەی کە چی خاسیەتێک، هەستێک، یان باوەڕێکت هەیە"),
+                  "٢. (کردار) بە کردار پیشاندانی ئەوەی کە چی خاسیەتێک، ھەستێک، یان باوەڕێکت ھەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -548,7 +548,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The team demonstrated breathtaking skills."),
                     ExampleSentenceKurdish(
-                        text: "تیمەکە شارەزایی سەرسوڕهێنەرانەیان پیشاندا."),
+                        text: "تیمەکە شارەزایی سەرسوڕھێنەرانەیان پیشاندا."),
                   ],
                 ),
               ),

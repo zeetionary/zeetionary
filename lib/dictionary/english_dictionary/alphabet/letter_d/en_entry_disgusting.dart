@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He has some rather disgusting habits."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک خووی تا ڕادەیەک قێزەونی هەیە."),
+                        text: "ھەندێک خووی تا ڕادەیەک قێزەونی ھەیە."),
                   ],
                 ),
               ),

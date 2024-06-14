@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پۆلیسی نهێنی، تاوان‌دۆز
+کوردی: پۆلیسی نھێنی، تاوان‌دۆز
 """),
           const DefinitionKurdish(
               text:
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Sherlock Holmes was Conan Doyle's fictional detective."),
                     ExampleSentenceKurdish(
-                        text: "شێرلۆک هۆڵمز لێکۆڵەری خەیاڵی کۆنان دۆیڵ بوو."),
+                        text: "شێرلۆک ھۆڵمز لێکۆڵەری خەیاڵی کۆنان دۆیڵ بوو."),
                   ],
                 ),
               ),

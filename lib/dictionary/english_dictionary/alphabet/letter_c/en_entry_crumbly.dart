@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وشک، زووشکاو، (زوو)هەڵوەریو، تورت، ناسک
+کوردی: وشک، زووشکاو، (زوو)ھەڵوەریو، تورت، ناسک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە بە ئاسانی ورد دەبێت"),
           Row(
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The cake should have a light and crumbly texture."),
                     ExampleSentenceKurdish(
-                        text: "کێکەکە دەبێت ڕەنگێکی ڕۆشن و وشکی هەبێت."),
+                        text: "کێکەکە دەبێت ڕەنگێکی ڕۆشن و وشکی ھەبێت."),
                   ],
                 ),
               ),

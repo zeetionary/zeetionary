@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تاوان،	گوناهـ، سووچ، هەڵە، چەوتی، شاشی
+کوردی: تاوان،	گوناھـ، سووچ، ھەڵە، چەوتی، شاشی
 """),
           const DefinitionKurdish(text: "١. (ناو) کاری تاوانکاری و یاساشکاندن"),
           Row(
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This month's figures show an increase in violent crime."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئامارەکانی ئەم مانگە هەڵکشان لە تاوانی توندوتیژی پیشان دەدەن."),
+                            "ئامارەکانی ئەم مانگە ھەڵکشان لە تاوانی توندوتیژی پیشان دەدەن."),
                   ],
                 ),
               ),
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There needs to be a partnership between police and public in the fight against crime."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت هەماهەنگی لەنێوان پۆلیس و خەڵکیدا هەبێت بۆ وەستاندنی تاوان."),
+                            "دەبێت ھەماھەنگی لەنێوان پۆلیس و خەڵکیدا ھەبێت بۆ وەستاندنی تاوان."),
                   ],
                 ),
               ),
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Stores spend more and more on crime prevention every year."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆگاکان هەموو ساڵێک پارەی زیاتر و زیاتر خەرج دەکەن لە ڕێگریکردن لە تاواندا."),
+                            "کۆگاکان ھەموو ساڵێک پارەی زیاتر و زیاتر خەرج دەکەن لە ڕێگریکردن لە تاواندا."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) تاوانێک کە دەکرێت بەپێی یاسا سزای هەبێت"),
+              text: "٢. (ناو) تاوانێک کە دەکرێت بەپێی یاسا سزای ھەبێت"),
           Row(
             children: [
               const Expanded(
@@ -490,7 +490,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There is no proof that she committed a crime (= did something illegal)."),
                     ExampleSentenceKurdish(
-                        text: "هیچ بەڵگەیەک نییە کە تاوانی ئەنجام دابێت."),
+                        text: "ھیچ بەڵگەیەک نییە کە تاوانی ئەنجام دابێت."),
                   ],
                 ),
               ),
@@ -563,7 +563,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) شتێک کە پێتوایە لە ڕووی ئەخلاقییەوە هەڵەیە، یان هەڵەیەکی گەورەیە"),
+                  "٣. (ناو) شتێک کە پێتوایە لە ڕووی ئەخلاقییەوە ھەڵەیە، یان ھەڵەیەکی گەورەیە"),
           Row(
             children: [
               const Expanded(
@@ -572,7 +572,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It's a crime to waste so much money."),
                     ExampleSentenceKurdish(
-                        text: "گوناهە هێندە پارە بەفیڕۆ بدەیت."),
+                        text: "گوناھە ھێندە پارە بەفیڕۆ بدەیت."),
                   ],
                 ),
               ),

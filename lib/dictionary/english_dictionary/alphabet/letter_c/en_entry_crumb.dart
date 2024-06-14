@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ورکەنان، ڕێزەنان،	وردە، ورکە،	هەویری نێوەڕاستی نان،	ڕێزە، تۆزقاڵ، نیسکێ،	مرۆی قێزەون و بی‌نرخ، هیچ‌وپووچ
+کوردی: ورکەنان، ڕێزەنان،	وردە، ورکە،	ھەویری نێوەڕاستی نان،	ڕێزە، تۆزقاڵ، نیسکێ،	مرۆی قێزەون و بی‌نرخ، ھیچ‌وپووچ
 """),
           const DefinitionKurdish(
               text:
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She stood up and brushed the crumbs from her sweater."),
                     ExampleSentenceKurdish(
-                        text: "هەستایە سەرپێ و وردەکەی لە بلووزەکەی کردەوە."),
+                        text: "ھەستایە سەرپێ و وردەکەی لە بلووزەکەی کردەوە."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He didn't even leave any crumbs on his plate."),
                     ExampleSentenceKurdish(
-                        text: "تەنانەت هیچ وردەشی لەسەر دەورییەکەی جێنەهێشت."),
+                        text: "تەنانەت ھیچ وردەشی لەسەر دەورییەکەی جێنەھێشت."),
                   ],
                 ),
               ),

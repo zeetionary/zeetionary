@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ورد، بەسەرنج، وردبین، موودەرکێش، تیژ
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) کە توانای هەیە بڕیار لە کوالێتی شتێک بدات"),
+              text: "١. (ھاوەڵناو) کە توانای ھەیە بڕیار لە کوالێتی شتێک بدات"),
           Row(
             children: [
               const Expanded(

@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -545,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دابەشاندن، دابەش‌کردن، بەش‌کردن، پارڤەکر(د)ن، دەستە(دەستە)کردن، پۆلاندن، بەشاندن، بەش‌بەش‌کردن، کەرت(کەرت)کردن، قاش‌کردن،	کەرت، بەش، پشک، پار،	کێشە، دژایەتی، جیاوازی، ناتەبایی، ناسازی، من‌وتۆیی، کەلێن، کەلەبەر، دووبەرەکایەتی،	(بەتایبەت لە پارلێمانی بریتانیادا) دەنگ‌دان،	سنوور، هێڵی جیاکردنەوە، جیاکار،	(سەربازی) لەشکر، سپا
+کوردی: دابەشاندن، دابەش‌کردن، بەش‌کردن، پارڤەکر(د)ن، دەستە(دەستە)کردن، پۆلاندن، بەشاندن، بەش‌بەش‌کردن، کەرت(کەرت)کردن، قاش‌کردن،	کەرت، بەش، پشک، پار،	کێشە، دژایەتی، جیاوازی، ناتەبایی، ناسازی، من‌وتۆیی، کەلێن، کەلەبەر، دووبەرەکایەتی،	(بەتایبەت لە پارلێمانی بریتانیادا) دەنگ‌دان،	سنوور، ھێڵی جیاکردنەوە، جیاکار،	(سەربازی) لەشکر، سپا
 """),
           const DefinitionKurdish(text: "١. (ناو) پڕۆسەی دابەشکردن"),
           Row(
@@ -676,7 +678,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We choose peace over hatred and division."),
                     ExampleSentenceKurdish(
-                        text: "ئاشتیمان هەڵبژارد بەسەر ڕق و دووبەرەکایەتی."),
+                        text: "ئاشتیمان ھەڵبژارد بەسەر ڕق و دووبەرەکایەتی."),
                   ],
                 ),
               ),
@@ -705,7 +707,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There are deep divisions in the party over the war."),
                     ExampleSentenceKurdish(
-                        text: "دووبەرەکی قووڵ لە پارتکەدا هەیە دژ بە جەنگەکە."),
+                        text: "دووبەرەکی قووڵ لە پارتکەدا ھەیە دژ بە جەنگەکە."),
                   ],
                 ),
               ),
@@ -764,7 +766,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He has tried to sow division among the people."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵیداوە دووبەرەکی درووست بکات لەناو خەڵکەکەدا."),
+                            "ھەوڵیداوە دووبەرەکی درووست بکات لەناو خەڵکەکەدا."),
                   ],
                 ),
               ),
@@ -882,7 +884,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Nagpur is the most eastern division in the state."),
                     ExampleSentenceKurdish(
-                        text: "ناگپوور ڕۆژهەڵاتترین بەشی ویلایەتەکەیە."),
+                        text: "ناگپوور ڕۆژھەڵاتترین بەشی ویلایەتەکەیە."),
                   ],
                 ),
               ),
@@ -960,7 +962,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٨. (ناو) هێڵێک کە شتێک دابەش دەکات"),
+          const DefinitionKurdish(text: "٨. (ناو) ھێڵێک کە شتێک دابەش دەکات"),
           // const DividerSentences(),
           Row(
             children: [
@@ -972,7 +974,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A hedge forms the division between their land and ours."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەرژینێکی دەوەن زەوییەکەیان لە هی ئێمە جیادەکاتەوە."),
+                            "پەرژینێکی دەوەن زەوییەکەیان لە ھی ئێمە جیادەکاتەوە."),
                   ],
                 ),
               ),
@@ -1002,7 +1004,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Sometimes there is no simple division between good and evil."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک کات هیچ جیاکەرەوەیەکی سادە نییە لە نێوان باش و خراپدا."),
+                            "ھەندێک کات ھیچ جیاکەرەوەیەکی سادە نییە لە نێوان باش و خراپدا."),
                   ],
                 ),
               ),
@@ -1282,7 +1284,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LAOoF2gyQaA?t=',
+    videoId: 'LAOoF2gyQaA',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1307,7 +1309,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1185,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1332,7 +1334,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1357,7 +1359,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5ljluGA4dQU?t=',
+    videoId: '5ljluGA4dQU',
     startSeconds: 817,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1382,7 +1384,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 438,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1407,7 +1409,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    videoId: 'Cln0J87vulU',
     startSeconds: 472,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1432,7 +1434,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJNtfyq3TDE?t=',
+    videoId: 'LJNtfyq3TDE',
     startSeconds: 499,
     autoPlay: true,
     params: const YoutubePlayerParams(

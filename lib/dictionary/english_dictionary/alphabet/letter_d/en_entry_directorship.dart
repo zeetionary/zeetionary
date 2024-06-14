@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His directorship has come under fierce attack."),
                     ExampleSentenceKurdish(
-                        text: "بەڕێوەبەرێتییەکەی تووشی هێرشی توند بووبوو."),
+                        text: "بەڕێوەبەرێتییەکەی تووشی ھێرشی توند بووبوو."),
                   ],
                 ),
               ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She has held a number of directorships."),
                     ExampleSentenceKurdish(
-                        text: "ژمارەیەک پێگەی بەڕێوەبەری هەبووە."),
+                        text: "ژمارەیەک پێگەی بەڕێوەبەری ھەبووە."),
                   ],
                 ),
               ),

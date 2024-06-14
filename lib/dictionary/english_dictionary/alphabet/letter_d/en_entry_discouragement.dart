@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێدی، بێ‌هیوایی، هیوابڕاوی، دڵساری، دڵساردکردنەوە، چاوترسێن‌کردن، ورەدابەزاندن،	شتی دڵساردکەرەوە،	نەهێشتن، بەرگرتن، ڕێ‌گرتن، پێش‌گرتن، پێشگیری،	تێ‌شکان، سەرنەکەوتن
+کوردی: ناھومێدی، بێ‌ھیوایی، ھیوابڕاوی، دڵساری، دڵساردکردنەوە، چاوترسێن‌کردن، ورەدابەزاندن،	شتی دڵساردکەرەوە،	نەھێشتن، بەرگرتن، ڕێ‌گرتن، پێش‌گرتن، پێشگیری،	تێ‌شکان، سەرنەکەوتن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەستی ئەوەی کە چی دیکە ورە و جۆش و خرۆشی کردنی کارێکت نییە"),
+                  "١. (ناو) ھەستی ئەوەی کە چی دیکە ورە و جۆش و خرۆشی کردنی کارێکت نییە"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The team felt discouragement after losing the game."),
                     ExampleSentenceKurdish(
                         text:
-                            "تیمەکە هەستی بە بێ‌هیوایی دەکرد لە دوای دۆڕاندنی یارییەکە."),
+                            "تیمەکە ھەستی بە بێ‌ھیوایی دەکرد لە دوای دۆڕاندنی یارییەکە."),
                   ],
                 ),
               ),
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) هەوڵدان بۆ وەستاندنی شتێک"),
+          const DefinitionKurdish(text: "٢. (ناو) ھەوڵدان بۆ وەستاندنی شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government's discouragement affected the turnout at the protest."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێشگیریی حکومەت کاریگەری لەسەر بەژداربوون لە خۆپیشاندانەکە هەبوو."),
+                            "پێشگیریی حکومەت کاریگەری لەسەر بەژداربوون لە خۆپیشاندانەکە ھەبوو."),
                   ],
                 ),
               ),
@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) شتێک کە متمانە و جۆش و خرۆشیت سەبارەت بە کردنی شتێک ناهێڵێت"),
+                  "٣. (ناو) شتێک کە متمانە و جۆش و خرۆشیت سەبارەت بە کردنی شتێک ناھێڵێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Despite all these discouragements, she refused to give up."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەڕای ئەم هەموو ساردکەرەوەیە، ڕەتیکردەوە وازبهێنێت."),
+                            "سەرەڕای ئەم ھەموو ساردکەرەوەیە، ڕەتیکردەوە وازبھێنێت."),
                   ],
                 ),
               ),

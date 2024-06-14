@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: تێگەیشتن، دۆزینەوە، داهێنان، حاڵی بوون
+// کوردی: تێگەیشتن، دۆزینەوە، داھێنان، حاڵی بوون
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) دۆزینەوەی شتێک بۆ یەکەمجار"),
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Cook is credited with discovering Hawaii."),
                     ExampleSentenceKurdish(
-                        text: "کووک بە دۆزەرەوەی هاوایی دادەنرێت."),
+                        text: "کووک بە دۆزەرەوەی ھاوایی دادەنرێت."),
                   ],
                 ),
               ),
@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Scientists around the world are working to discover a cure for AIDS."),
                     ExampleSentenceKurdish(
                         text:
-                            "زاناکان لە جیهاندا هەوڵ دەدەن چارەسەرێک بۆ ئایدز بدۆزنەوە."),
+                            "زاناکان لە جیھاندا ھەوڵ دەدەن چارەسەرێک بۆ ئایدز بدۆزنەوە."),
                   ],
                 ),
               ),
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Researchers are hoping to discover new way to purify water."),
                     ExampleSentenceKurdish(
                         text:
-                            "لێکۆڵەران بەهیوای دۆزینەوەی ڕێگای تازەن بۆ پاککردنەوەی ئاو."),
+                            "لێکۆڵەران بەھیوای دۆزینەوەی ڕێگای تازەن بۆ پاککردنەوەی ئاو."),
                   ],
                 ),
               ),
@@ -576,7 +576,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Police discovered a large stash of drugs while searching the house."),
                     ExampleSentenceKurdish(
                         text:
-                            "پۆلیس بڕێکی زۆر لە مادەی هۆشبەری دۆزییەوە لەکاتی گەڕانی خانووەکە."),
+                            "پۆلیس بڕێکی زۆر لە مادەی ھۆشبەری دۆزییەوە لەکاتی گەڕانی خانووەکە."),
                   ],
                 ),
               ),
@@ -748,7 +748,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We never did discover why she gave up her job."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز نەمانزانی بۆچی وازی لە کارەکەی هێنا."),
+                        text: "ھەرگیز نەمانزانی بۆچی وازی لە کارەکەی ھێنا."),
                   ],
                 ),
               ),
@@ -768,7 +768,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) بوون بە یەکەم کەس کە بزانیت کەسێک لە گۆرانی گوتن، نمایش کردن، هتد باشە"),
+                  "٤. (کردار) بوون بە یەکەم کەس کە بزانیت کەسێک لە گۆرانی گوتن، نمایش کردن، ھتد باشە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -780,7 +780,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The singer was discovered while still at school."),
                     ExampleSentenceKurdish(
                         text:
-                            "گۆرانیبێژەکە تواناکانی زانرا لە کاتێکدا هێشتا لە قوتابخانە بوو."),
+                            "گۆرانیبێژەکە تواناکانی زانرا لە کاتێکدا ھێشتا لە قوتابخانە بوو."),
                   ],
                 ),
               ),

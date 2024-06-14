@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیاکردنەوە، لێ(ک)کردنەوە، لێک‌دابڕاندن، لێک‌هەڵپچڕاندن، هاڤی‌بوون، جیابوونەوە، جیایی، جودایی،	بێ‌لایەنی، سەربەخۆیی، لانەگری،	کەمتەرخەمی، گوێ‌پێ‌نەدان،	خۆکێشانەوە،	دەستە، پۆل، کۆمەڵ (کەشتی، سەرباز و هتد)
+کوردی: جیاکردنەوە، لێ(ک)کردنەوە، لێک‌دابڕاندن، لێک‌ھەڵپچڕاندن، ھاڤی‌بوون، جیابوونەوە، جیایی، جودایی،	بێ‌لایەنی، سەربەخۆیی، لانەگری،	کەمتەرخەمی، گوێ‌پێ‌نەدان،	خۆکێشانەوە،	دەستە، پۆل، کۆمەڵ (کەشتی، سەرباز و ھتد)
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) بەژدارنەبوو لە شتێک چی بە کەسی یان  نەبوونی هەست بۆی"),
+                  "١. (ناو) بەژدارنەبوو لە شتێک چی بە کەسی یان  نەبوونی ھەست بۆی"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She felt a sense of detachment from what was going on."),
                     ExampleSentenceKurdish(
-                        text: "هەستێکی دابڕاوی هەبوو بۆ ئەوەی کە ڕووی دەدا."),
+                        text: "ھەستێکی دابڕاوی ھەبوو بۆ ئەوەی کە ڕووی دەدا."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She watched with complete detachment as the others made all the preparations."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە گوێ‌پێ‌نەدانی تەواوە سەیری دەکرد کە ئەوانی دیکە هەموو ئامادەکارییەکانیان دەکرد."),
+                            "بە گوێ‌پێ‌نەدانی تەواوە سەیری دەکرد کە ئەوانی دیکە ھەموو ئامادەکارییەکانیان دەکرد."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) کاریگەرنەبوون بە کەسانی دیکە و هەستەکانی خۆت"),
+              text: "٢. (ناو) کاریگەرنەبوون بە کەسانی دیکە و ھەستەکانی خۆت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "A detachment of marines was left to guard the site."),
                     ExampleSentenceKurdish(
-                        text: "پۆلێک مارێنز هێڵدرانەوە بۆ بەرگری لە شوێنەکە."),
+                        text: "پۆلێک مارێنز ھێڵدرانەوە بۆ بەرگری لە شوێنەکە."),
                   ],
                 ),
               ),

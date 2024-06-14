@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) گوتن بە کەسێک کە ئەوەی پێیوایە ڕاستە لەڕاستیدا هەڵەیە"),
+                  "١. (کردار) گوتن بە کەسێک کە ئەوەی پێیوایە ڕاستە لەڕاستیدا ھەڵەیە"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He thought that all women liked children, but she soon disabused him of that idea."),
                     ExampleSentenceKurdish(
                         text:
-                            "وای بیردەکردەوە کە هەموو ژنان حەزیان لە منداڵە، بەڵام ئەو هەر زوو خستییە هەڵەوە لەسەر ئەو بیرۆکە."),
+                            "وای بیردەکردەوە کە ھەموو ژنان حەزیان لە منداڵە، بەڵام ئەو ھەر زوو خستییە ھەڵەوە لەسەر ئەو بیرۆکە."),
                   ],
                 ),
               ),

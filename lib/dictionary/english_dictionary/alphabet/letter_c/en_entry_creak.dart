@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She heard a floorboard creak upstairs."),
                     ExampleSentenceKurdish(
                         text:
-                            "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەهات."),
+                            "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەھات."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He stood up, his bones creaking."),
                     ExampleSentenceKurdish(
-                        text: "هەستایە سەر پێ و ئێسکەکانی جەڕەیان دەهات."),
+                        text: "ھەستایە سەر پێ و ئێسکەکانی جەڕەیان دەھات."),
                   ],
                 ),
               ),
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The door creaked on its hinges."),
                     ExampleSentenceKurdish(
-                        text: "دەرگاکە لە گێژەنەکانیەوە جیڕەی دەهات."),
+                        text: "دەرگاکە لە گێژەنەکانیەوە جیڕەی دەھات."),
                   ],
                 ),
               ),

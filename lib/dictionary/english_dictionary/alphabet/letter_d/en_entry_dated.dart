@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This drama series is supposedly modern yet its characters live in a dated world."),
                     ExampleSentenceKurdish(
                         text:
-                            "زنجیرە درامایەکە بە حساب سەردەمییانە بەڵام کارەکتەرەکانی لە جیهانێکی کۆنەباودا دەژین."),
+                            "زنجیرە درامایەکە بە حساب سەردەمییانە بەڵام کارەکتەرەکانی لە جیھانێکی کۆنەباودا دەژین."),
                   ],
                 ),
               ),

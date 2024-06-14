@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Choosing the furniture and decor for their new home was an exciting project."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵبژاردنی کەلوپەل و دیکۆری ماڵە تازەکەیان پڕۆژەیەکی بەجۆش بوو."),
+                            "ھەڵبژاردنی کەلوپەل و دیکۆری ماڵە تازەکەیان پڕۆژەیەکی بەجۆش بوو."),
                   ],
                 ),
               ),

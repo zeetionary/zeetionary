@@ -332,7 +332,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: کەوان‌خاچی، پۆڵاکەوان، کەوانی خاچی یان تفەنگی
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەوانێک کە کە لەسەر دارێکی گەورەتر دادەنرێت و تیری بچووکی قورس دەهاوێژێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەوانێک کە کە لەسەر دارێکی گەورەتر دادەنرێت و تیری بچووکی قورس دەھاوێژێت"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The hunter used a crossbow to hunt deer in the forest."),
-                    ExampleSentenceKurdish(text: "ڕاوچییەکە کەوانێکی بەکاردەهێنا بۆ ڕاوکردنی ئاسک لە دارستانەکەدا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕاوچییەکە کەوانێکی بەکاردەھێنا بۆ ڕاوکردنی ئاسک لە دارستانەکەدا."),
                   ],
                 ),
               ),

@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All his hopes began to crumble away."),
                     ExampleSentenceKurdish(
-                        text: "هەموو هیواکانی دەستیان بە داڕووخان کرد."),
+                        text: "ھەموو ھیواکانی دەستیان بە داڕووخان کرد."),
                   ],
                 ),
               ),

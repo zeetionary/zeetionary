@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: لەسەلماندن‌هاتووانە، بە شێوەیێ کە بسەلمێنرێ
+// کوردی: لەسەلماندن‌ھاتووانە، بە شێوەیێ کە بسەلمێنرێ
 // """),
           const DefinitionKurdish(
               text:
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "That's demonstrably untrue!"),
                     ExampleSentenceKurdish(
-                        text: "ئەوە لەسەلماندن‌هاتووانە ناڕستە!"),
+                        text: "ئەوە لەسەلماندن‌ھاتووانە ناڕستە!"),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرێمە ئارکتیکەکانی ئەمریکای باکوور و ئەورووپا و زۆرێک لە ڕووسیا لەسەلماندن‌هاتووانە گەرمتر دەبن."),
+                            "ھەرێمە ئارکتیکەکانی ئەمریکای باکوور و ئەورووپا و زۆرێک لە ڕووسیا لەسەلماندن‌ھاتووانە گەرمتر دەبن."),
                   ],
                 ),
               ),

@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "More people are choosing cremation rather than burial."),
                     ExampleSentenceKurdish(
-                        text: "خەڵکی زیاتر سووتاندن هەڵدەبژێرن وەک لە ناشتن."),
+                        text: "خەڵکی زیاتر سووتاندن ھەڵدەبژێرن وەک لە ناشتن."),
                   ],
                 ),
               ),

@@ -459,11 +459,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئازیز، خۆشەویست، لەبەردڵان، ژیکەڵە، دەلال، جوان، نازدار،	(لە نامەدا) خۆشەویست، بەڕێز، ئازیز، هێژا، گران، گرانبایی، زۆربڕ،	مرۆی ژیکەڵە، لەبەردڵان،	(لە بانگ‌کردن‌دا) گیانەکەم! دنیاودینەکەم! خۆشەویستەکەم! ئازیزەکەم! کەس‌وکارەکەم! گیانی‌گیان! ئاخ! بەزیادم نەکرد! ئەح!
+کوردی: ئازیز، خۆشەویست، لەبەردڵان، ژیکەڵە، دەلال، جوان، نازدار،	(لە نامەدا) خۆشەویست، بەڕێز، ئازیز، ھێژا، گران، گرانبایی، زۆربڕ،	مرۆی ژیکەڵە، لەبەردڵان،	(لە بانگ‌کردن‌دا) گیانەکەم! دنیاودینەکەم! خۆشەویستەکەم! ئازیزەکەم! کەس‌وکارەکەم! گیانی‌گیان! ئاخ! بەزیادم نەکرد! ئەح!
 """),
           const DefinitionKurdish(
               text:
-                  "١. (هاوەڵناو) لە نامەیەکدا لە پێش ناوی ئەو کەسە بەکاردێت کە نامەکەی بۆ دەنێریت"),
+                  "١. (ھاوەڵناو) لە نامەیەکدا لە پێش ناوی ئەو کەسە بەکاردێت کە نامەکەی بۆ دەنێریت"),
           Row(
             children: [
               const Expanded(
@@ -498,7 +498,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He's one of my dearest friends."),
                     ExampleSentenceKurdish(
-                        text: "یەکێک لە ئازیترین هاوڕێکانمە."),
+                        text: "یەکێک لە ئازیترین ھاوڕێکانمە."),
                   ],
                 ),
               ),
@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "They lost everything that was dear to them."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ئەو شتانەیان لەدەستدا کە خۆشەویست بوو لایان."),
+                            "ھەموو ئەو شتانەیان لەدەستدا کە خۆشەویست بوو لایان."),
                   ],
                 ),
               ),
@@ -569,7 +569,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) بۆ بانگکردنی کەسێک بە ڕێزەوە یان هاوڕێیانە"),
+              text: "٣. (ھاوەڵناو) بۆ بانگکردنی کەسێک بە ڕێزەوە یان ھاوڕێیانە"),
           Row(
             children: [
               const Expanded(
@@ -605,7 +605,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Everything's so dear now, isn't it?"),
                     ExampleSentenceKurdish(
-                        text: "هەموو شتێک ئێستا زۆر گرانە، وانییە؟"),
+                        text: "ھەموو شتێک ئێستا زۆر گرانە، وانییە؟"),
                   ],
                 ),
               ),
@@ -632,7 +632,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There was a shortage of potatoes, and they became dear."),
                     ExampleSentenceKurdish(
-                        text: "کەمی پەتاتە هەبوو، و زۆر گران بوو."),
+                        text: "کەمی پەتاتە ھەبوو، و زۆر گران بوو."),
                   ],
                 ),
               ),
@@ -652,7 +652,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (سەرسوڕمان) بۆ پیشاندانی سەرسامی، نیگەرانی، بێزاری، هتد"),
+                  "٥. (سەرسوڕمان) بۆ پیشاندانی سەرسامی، نیگەرانی، بێزاری، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -703,14 +703,14 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٦. (ناو) کەسێکی میهرەبان"),
+          const DefinitionKurdish(text: "٦. (ناو) کەسێکی میھرەبان"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Isn't he a dear?"),
-                    ExampleSentenceKurdish(text: "میهرەبان نییە؟"),
+                    ExampleSentenceKurdish(text: "میھرەبان نییە؟"),
                   ],
                 ),
               ),
@@ -808,7 +808,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٨. (ناو) بەکاردێت لەکاتی قسەکردن بەشێوەیەکی هاوڕێیانە، بەتایبەتی لەکاتی قسەکردنی کەسێکی گەورە لەگەڵ کەسێکی بچووک"),
+                  "٨. (ناو) بەکاردێت لەکاتی قسەکردن بەشێوەیەکی ھاوڕێیانە، بەتایبەتی لەکاتی قسەکردنی کەسێکی گەورە لەگەڵ کەسێکی بچووک"),
           Row(
             children: [
               const Expanded(
@@ -844,7 +844,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The art of trading relies on knowing when to buy cheap and sell dear."),
                     ExampleSentenceKurdish(
                         text:
-                            "هونەری بازرگانی پشت بە زانینی ئەوە دەبەستێت چۆن بکڕیت بە هەرزان و بفرۆشیت بە گران."),
+                            "ھونەری بازرگانی پشت بە زانینی ئەوە دەبەستێت چۆن بکڕیت بە ھەرزان و بفرۆشیت بە گران."),
                   ],
                 ),
               ),

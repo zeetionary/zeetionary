@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The antique shop was filled with all sorts of curios."),
                     ExampleSentenceKurdish(
                         text:
-                            "فرۆشگا ئەنتیکەکە پڕبوو لە هەموو جۆرە دانسقەیەک."),
+                            "فرۆشگا ئەنتیکەکە پڕبوو لە ھەموو جۆرە دانسقەیەک."),
                   ],
                 ),
               ),

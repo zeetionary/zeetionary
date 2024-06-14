@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئاژەڵێکی کێوی گەورەی ئەمریکی کە لە خێزانی پشیلەکانە کە فەرووی خۆڵەمێشی یان قاوەیی زەردباوی هەیە"),
+                  "١. (ناو) ئاژەڵێکی کێوی گەورەی ئەمریکی کە لە خێزانی پشیلەکانە کە فەرووی خۆڵەمێشی یان قاوەیی زەردباوی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ژنێکی بەتەمەن کە بە شوێن پەیوەندی سێکسییەوەیە لەگەڵ پیاوێکی زۆر گەنجتر"),
-          const AlsoEnglishckb(word: "هەروەها: puma"),
+          const AlsoEnglishckb(word: "ھەروەھا: puma"),
           Row(
             children: [
               const Expanded(

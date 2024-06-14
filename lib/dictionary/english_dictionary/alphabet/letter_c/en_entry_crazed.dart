@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شێت، دەلوو،	دین، ڕق‌هەستاو، تووڕە، سوورەوەبوو،	شێتانە
+کوردی: شێت، دەلوو،	دین، ڕق‌ھەستاو، تووڕە، سوورەوەبوو،	شێتانە
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) پڕ لە هەست و بەبێ کۆنترۆڵ"),
+              text: "١. (ھاوەڵناو) پڕ لە ھەست و بەبێ کۆنترۆڵ"),
           Row(
             children: [
               const Expanded(
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He became crazed with anger."),
-                    ExampleSentenceKurdish(text: "لە تووڕەییدا ڕق‌هەستاو بوو."),
+                    ExampleSentenceKurdish(text: "لە تووڕەییدا ڕق‌ھەستاو بوو."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The ancient vase is still in one piece but finely crazed all over."),
                     ExampleSentenceKurdish(
                         text:
-                            "گوڵدانە کۆنەکە هێشتا یەک پارچەیە بەڵام هەمووی درزی باریکە."),
+                            "گوڵدانە کۆنەکە ھێشتا یەک پارچەیە بەڵام ھەمووی درزی باریکە."),
                   ],
                 ),
               ),

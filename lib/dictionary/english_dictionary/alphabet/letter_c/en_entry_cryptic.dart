@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نهێنی، نەهێنی، سڕاوی، ڕازاوی، نادیار، ڕەمزی، شاراوە
+کوردی: نھێنی، نەھێنی، سڕاوی، ڕازاوی، نادیار، ڕەمزی، شاراوە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە واتایەکی شاراوە یان سەخت بۆ تێگەشتن"),

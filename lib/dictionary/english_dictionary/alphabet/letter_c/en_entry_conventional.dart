@@ -275,7 +275,7 @@ class EnglishEntryconventional extends StatelessWidget {
                                             "You can use a microwave or cook it in a conventional oven."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت مایکرۆوەیڤێک بەکاربهێنیت یان بە فڕنی ئاسایی لێی بنێیت."),
+                                            "دەتوانیت مایکرۆوەیڤێک بەکاربھێنیت یان بە فڕنی ئاسایی لێی بنێیت."),
                                   ],
                                 ),
                               ),
@@ -335,7 +335,7 @@ class EnglishEntryconventional extends StatelessWidget {
                                             "Raising such a large amount of money from conventional sources would be difficult."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆکردنەوەی پارەیەکی وەها زۆر بە ڕێگا باوەکان سەخت دەبێت."),
+                                            "کۆکردنەوەی پارەیەکی وەھا زۆر بە ڕێگا باوەکان سەخت دەبێت."),
                                   ],
                                 ),
                               ),
@@ -357,7 +357,7 @@ class EnglishEntryconventional extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) شێوازەکانی چارەسەری تەندرووستی بە دەرمانی ڕۆژئاوایی، وەک بەکارهێنانی دەوای دەستکرد و نەشتەرگەری"),
+                                  "٣. (ھاوەڵناو) شێوازەکانی چارەسەری تەندرووستی بە دەرمانی ڕۆژئاوایی، وەک بەکارھێنانی دەوای دەستکرد و نەشتەرگەری"),
                           Row(
                             children: [
                               const Expanded(
@@ -400,7 +400,7 @@ class EnglishEntryconventional extends StatelessWidget {
                                             "A conventional war would still cause unacceptable devastation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جەنگێکی نا ئەتۆمی هێشتا کاولکاری قەبووڵ‌نەکراو لێدەکەوێتەوە."),
+                                            "جەنگێکی نا ئەتۆمی ھێشتا کاولکاری قەبووڵ‌نەکراو لێدەکەوێتەوە."),
                                   ],
                                 ),
                               ),

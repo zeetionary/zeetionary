@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Five polie officers were dismissed for dishonesty and misconduct."),
                     ExampleSentenceKurdish(
-                        text: "پێنج پۆلیس دەرکران بۆ ناڕاستی و کاری هەڵە."),
+                        text: "پێنج پۆلیس دەرکران بۆ ناڕاستی و کاری ھەڵە."),
                   ],
                 ),
               ),

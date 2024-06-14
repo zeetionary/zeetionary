@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئێستاکانێ، هەرئێستا، جارێ، نووکە، جارێکانێ
+کوردی: ئێستاکانێ، ھەرئێستا، جارێ، نووکە، جارێکانێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە ئێستادا"),
           Row(
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All the options are currently available."),
                     ExampleSentenceKurdish(
-                        text: "هەموو هەڵبژاردەکان لە ئێستادا بەردەستن."),
+                        text: "ھەموو ھەڵبژاردەکان لە ئێستادا بەردەستن."),
                   ],
                 ),
               ),

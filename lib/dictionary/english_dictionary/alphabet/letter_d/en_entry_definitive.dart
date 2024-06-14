@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکلایی‌یەوەبوو، مسۆگەر، بڕاوە، گومان‌لێ‌نەکراو، بێ‌ئەملاوئەولا، کۆتایی‌پێ‌هاتوو، بێ‌چەندوچۆن
+کوردی: یەکلایی‌یەوەبوو، مسۆگەر، بڕاوە، گومان‌لێ‌نەکراو، بێ‌ئەملاوئەولا، کۆتایی‌پێ‌ھاتوو، بێ‌چەندوچۆن
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کۆتا؛ کە چی دیکە ناگۆڕێت"),

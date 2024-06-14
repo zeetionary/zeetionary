@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بیابان، دەشت، چۆڵگە، چۆڵەوانی، ئاران، چۆڵەوار، ئیشکارۆ،	(خوازە) شوێنی کە هیچ چالاکی‌یەکی لێ‌نەبێ، وێرانە، چۆڵگە،	بیابانی، دەشتی، وشک، بێ‌شیناوەرد، بێ‌ئاو و گیا،	چۆڵ، چۆڵ‌وهۆڵ
+کوردی: بیابان، دەشت، چۆڵگە، چۆڵەوانی، ئاران، چۆڵەوار، ئیشکارۆ،	(خوازە) شوێنی کە ھیچ چالاکی‌یەکی لێ‌نەبێ، وێرانە، چۆڵگە،	بیابانی، دەشتی، وشک، بێ‌شیناوەرد، بێ‌ئاو و گیا،	چۆڵ، چۆڵ‌وھۆڵ
 """),
           const DefinitionKurdish(
               text:
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) جێهێشتنی کەسێک بەبێ یارمەتی و پشتگیری"),
+              text: "٢. (کردار) جێھێشتنی کەسێک بەبێ یارمەتی و پشتگیری"),
           const DividerSentences(),
           Row(
             children: [
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She was deserted by her husband."),
-                    ExampleSentenceKurdish(text: "هاوسەرەکەی جێیهێشت."),
+                    ExampleSentenceKurdish(text: "ھاوسەرەکەی جێیھێشت."),
                   ],
                 ),
               ),
@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Don’t worry—I won’t desert you."),
                     ExampleSentenceKurdish(
-                        text: "نیگەران مەبە ـ بەجێت ناهێڵم."),
+                        text: "نیگەران مەبە ـ بەجێت ناھێڵم."),
                   ],
                 ),
               ),
@@ -525,7 +525,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) ڕۆشتن لە شوێنێک و جێهێشتنی بە بەتاڵی"),
+              text: "٣. (کردار) ڕۆشتن لە شوێنێک و جێھێشتنی بە بەتاڵی"),
           Row(
             children: [
               const Expanded(
@@ -551,7 +551,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (کردار) جێهێشتنی سوپا بەبێ مۆڵەت"),
+          const DefinitionKurdish(text: "٤. (کردار) جێھێشتنی سوپا بەبێ مۆڵەت"),
           Row(
             children: [
               const Expanded(
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Large numbers of soldiers deserted as defeat became inevitable."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەکی زۆر سەرباز هەڵهاتن لە شکست تەواو ڕوون بوویەوە."),
+                            "ژمارەیەکی زۆر سەرباز ھەڵھاتن لە شکست تەواو ڕوون بوویەوە."),
                   ],
                 ),
               ),
@@ -590,7 +590,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The soldiers had deserted the US army to fight for Mexico."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەربازەکان سوپای ئەمریکایان جێهێشت بۆ شەڕکردن بۆ مەکسیک."),
+                            "سەربازەکان سوپای ئەمریکایان جێھێشت بۆ شەڕکردن بۆ مەکسیک."),
                   ],
                 ),
               ),
@@ -609,7 +609,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (کردار) جێهێشتنی دامەزراوەیەک یان وەستان لە چالاکییەک"),
+              text: "٥. (کردار) جێھێشتنی دامەزراوەیەک یان وەستان لە چالاکییەک"),
           Row(
             children: [
               const Expanded(
@@ -645,7 +645,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Why did you desert teaching for politics?"),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆچی وازت لە مامۆستایەتی هێنا لە پێناو سیاسەتدا؟"),
+                            "بۆچی وازت لە مامۆستایەتی ھێنا لە پێناو سیاسەتدا؟"),
                   ],
                 ),
               ),

@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەر گیانلەبەرێک کە جەستەیەکی نەرمی هەبێت کە دابەش بووبێت بەسەر چەند بەشێکدا و توێکڵێکی دەرەوەی ڕەقی هەبێت. زۆرینەیان لە ئاودا دەژین."),
+                  "١. (ناو) ھەر گیانلەبەرێک کە جەستەیەکی نەرمی ھەبێت کە دابەش بووبێت بەسەر چەند بەشێکدا و توێکڵێکی دەرەوەی ڕەقی ھەبێت. زۆرینەیان لە ئاودا دەژین."),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The crab is a common crustacean found along the shore."),
                     ExampleSentenceKurdish(
-                        text: "قرژاڵ توێکڵدارێکی باوە کە لە کەنارەکاندا هەیە."),
+                        text: "قرژاڵ توێکڵدارێکی باوە کە لە کەنارەکاندا ھەیە."),
                   ],
                 ),
               ),

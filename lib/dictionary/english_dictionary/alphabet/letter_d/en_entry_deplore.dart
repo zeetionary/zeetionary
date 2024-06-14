@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (کردار) سەرزەنشتکردنی شتێک بەهۆی ئەوەی خراپە"),
+              text: "١. (کردار) سەرزەنشتکردنی شتێک بەھۆی ئەوەی خراپە"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Like everyone else, I deplore and condemn this killing."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەک هەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم."),
+                            "وەک ھەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He deplored the fact that these criminals were treated by many as heroes and martyrs."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو ڕاستییەی شەرمەزار کرد کە ئەم تاوانبارانە وەک پاڵەوان و شەهید مامەڵەیان لەگەڵ کرا."),
+                            "ئەو ڕاستییەی شەرمەزار کرد کە ئەم تاوانبارانە وەک پاڵەوان و شەھید مامەڵەیان لەگەڵ کرا."),
                   ],
                 ),
               ),

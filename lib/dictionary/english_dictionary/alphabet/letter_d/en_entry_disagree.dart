@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دژایەتی کردن، ناکۆک بوون
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) هەبوونی ناکۆکی و بۆچوونی جیاواز لەسەر شتێک"),
+              text: "١. (کردار) ھەبوونی ناکۆکی و بۆچوونی جیاواز لەسەر شتێک"),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Even friends disagree sometimes."),
                     ExampleSentenceKurdish(
-                        text: "تەنانەت هاوڕێیانیش هەندێک جار ناکۆکن."),
+                        text: "تەنانەت ھاوڕێیانیش ھەندێک جار ناکۆکن."),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I had to respectfully disagree with my colleague."),
                     ExampleSentenceKurdish(
-                        text: "پێویست بوو بەڕێزەوە ناکۆک بم لەگەڵ هاوکارەکەم."),
+                        text: "پێویست بوو بەڕێزەوە ناکۆک بم لەگەڵ ھاوکارەکەم."),
                   ],
                 ),
               ),
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Jack and Robert disagree about everything."),
                     ExampleSentenceKurdish(
-                        text: "جاک و ڕۆبێرت لەسەر هەموو شت ناکۆکن."),
+                        text: "جاک و ڕۆبێرت لەسەر ھەموو شت ناکۆکن."),
                   ],
                 ),
               ),

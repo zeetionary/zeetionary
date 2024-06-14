@@ -402,10 +402,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەربازی هەڵاتوو یان ڕاکردوو
+کوردی: سەربازی ھەڵاتوو یان ڕاکردوو
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە بەبێ مۆڵەت لە سوپا هەڵهاتووە"),
+              text: "١. (ناو) کەسێک کە بەبێ مۆڵەت لە سوپا ھەڵھاتووە"),
           Row(
             children: [
               const Expanded(
@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was convicted of hiding deserters."),
                     ExampleSentenceKurdish(
-                        text: "تاوانبارکرا بە شاردنەوەی هەڵهاتووان."),
+                        text: "تاوانبارکرا بە شاردنەوەی ھەڵھاتووان."),
                   ],
                 ),
               ),

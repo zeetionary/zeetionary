@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دژایەتی، بەرهەڵستی
+کوردی: دژایەتی، بەرھەڵستی
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دەربڕینی بۆچوون کە جیاوازە لەوەی پەسەندکراوە"),
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Voices of dissent began to rise against the authority in the 1950s and 1960s."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەنگی ناڕەزایەتی دەستیان بە هەڵبڕین کرد دژ بە دەسەڵات لە ساڵانی ١٩٥٠ ـیەکان و ١٩٦٠ ـەکان."),
+                            "دەنگی ناڕەزایەتی دەستیان بە ھەڵبڕین کرد دژ بە دەسەڵات لە ساڵانی ١٩٥٠ ـیەکان و ١٩٦٠ ـەکان."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Stability only exists in the country because dissent has been suppressed."),
                     ExampleSentenceKurdish(
                         text:
-                            "جێگیری لە وڵاتەکەدا بوونی هەیە تەنها لەبەر ئەوەی دەنگی ناڕەزایی کپ کراوە."),
+                            "جێگیری لە وڵاتەکەدا بوونی ھەیە تەنھا لەبەر ئەوەی دەنگی ناڕەزایی کپ کراوە."),
                   ],
                 ),
               ),
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Only two ministers dissented from the official view."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها دوو وەزیر ناڕەزاییان دژ بە دیدە سیاسییەکە دەربڕی."),
+                            "تەنھا دوو وەزیر ناڕەزاییان دژ بە دیدە سیاسییەکە دەربڕی."),
                   ],
                 ),
               ),
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There were a few dissenting voices, but the vast majority supported the plan."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک دەنگی ناڕەزایی هەیە، بەڵام زۆرینە لەگەڵ پلانەکەن."),
+                            "ھەندێک دەنگی ناڕەزایی ھەیە، بەڵام زۆرینە لەگەڵ پلانەکەن."),
                   ],
                 ),
               ),
@@ -1097,7 +1097,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ShztTxOS8YE?t=',
+    videoId: 'ShztTxOS8YE',
     startSeconds: 367,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1122,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g0amdIcZt5I?t=',
+    videoId: 'g0amdIcZt5I',
     startSeconds: 624,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1147,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xX0ozxrZlEQ?t=',
+    videoId: 'xX0ozxrZlEQ',
     startSeconds: 652,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1172,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ii3Avr8SqiM?t=',
+    videoId: 'Ii3Avr8SqiM',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1197,7 +1197,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oL0umpPPe-8?t=',
+    videoId: 'oL0umpPPe-8',
     startSeconds: 614,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1222,7 +1222,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jaCkZvrDtC8?t=',
+    videoId: 'jaCkZvrDtC8',
     startSeconds: 533,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1247,7 +1247,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MykMQfmLIro?t=',
+    videoId: 'MykMQfmLIro',
     startSeconds: 993,
     autoPlay: true,
     params: const YoutubePlayerParams(

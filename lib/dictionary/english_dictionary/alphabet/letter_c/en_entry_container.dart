@@ -295,7 +295,7 @@ class EnglishEntrycontainer extends StatelessWidget {
                                             "The crane lifted the container off the ship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە هەڵکێشا."),
+                                            "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا."),
                                   ],
                                 ),
                               ),

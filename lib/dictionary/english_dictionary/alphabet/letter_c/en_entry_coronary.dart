@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Regular exercise reduces the risk of coronary heart disease."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕاهێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە."),
+                            "ڕاھێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە."),
                   ],
                 ),
               ),
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وەستانی سوڕی خوێن لە خوێنبەرێکدا کە خوێن بۆ دڵ دەگوازێتەوە"),
-          const AlsoEnglishckb(word: "هەروەها: coronary thrombosis"),
+          const AlsoEnglishckb(word: "ھەروەھا: coronary thrombosis"),
           Row(
             children: [
               const Expanded(

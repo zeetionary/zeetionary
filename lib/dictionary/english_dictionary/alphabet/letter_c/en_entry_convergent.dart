@@ -192,7 +192,7 @@ class EnglishEntryconvergent extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەک‌گرەوە، یەک‌گیر، هاوگر، سەریەک‌هآتە,	لێک‌نزیک، پێک‌نزیک، پێک‌گەیشتوو، سەریەک‌کەوتوو، سەریەکچوو، جەمسەرگیر، یەکترگیر
+کوردی: یەک‌گرەوە، یەک‌گیر، ھاوگر، سەریەک‌ھآتە,	لێک‌نزیک، پێک‌نزیک، پێک‌گەیشتوو، سەریەک‌کەوتوو، سەریەکچوو، جەمسەرگیر، یەکترگیر
 """),
                           const DefinitionKurdish(
                               text:
@@ -207,7 +207,7 @@ class EnglishEntryconvergent extends StatelessWidget {
                                             "The rays become more convergent as they leave the lens."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تیشکەکان لێک نزیکدەبنەوە کە هاوێنەکە جێدێڵن."),
+                                            "تیشکەکان لێک نزیکدەبنەوە کە ھاوێنەکە جێدێڵن."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntryconvergent extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) بوون بە یەک یان هاوشێوە"),
+                              text: "٢. (ھاوەڵناو) بوون بە یەک یان ھاوشێوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntryconvergent extends StatelessWidget {
                                             "The two countries have convergent views on regional and international issues."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو وڵاتەکە بۆچوونی هاوشێوەیان هەیە لە بابەتە هەرێمی و نێودەوڵەتییەکاندا."),
+                                            "دوو وڵاتەکە بۆچوونی ھاوشێوەیان ھەیە لە بابەتە ھەرێمی و نێودەوڵەتییەکاندا."),
                                   ],
                                 ),
                               ),

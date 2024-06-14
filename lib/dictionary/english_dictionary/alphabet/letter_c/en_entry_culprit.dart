@@ -333,10 +333,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەتابار، گوناهبار، گوناهکار، تاوانبار، بناسکار، گومان‌لێ‌کراو، تاوانکار
+کوردی: خەتابار، گوناھبار، گوناھکار، تاوانبار، بناسکار، گومان‌لێ‌کراو، تاوانکار
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە شتێکی کردووە کە هەڵە یان نایاساییە"),
+              text: "١. (ناو) کەسێک کە شتێکی کردووە کە ھەڵە یان نایاساییە"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Police hope the public will help them to find the culprits."),
                     ExampleSentenceKurdish(
                         text:
-                            "پۆلیس بەهیوایە خەڵکی یارمەتییان بدەن لە دۆزینەوەی تاوانبارەکان."),
+                            "پۆلیس بەھیوایە خەڵکی یارمەتییان بدەن لە دۆزینەوەی تاوانبارەکان."),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The main culprit in the current crisis seems to be modern farming techniques."),
                     ExampleSentenceKurdish(
                         text:
-                            "هۆکاری سەرەکی قەیرانەکەی ئێستا  وا پێدەچێت کە تەکنیکە سەردەمییەکانی جوتیاری بێت."),
+                            "ھۆکاری سەرەکی قەیرانەکەی ئێستا  وا پێدەچێت کە تەکنیکە سەردەمییەکانی جوتیاری بێت."),
                   ],
                 ),
               ),
@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Children in this country are getting much too fat, and sugar and sweets are the main culprits."),
                     ExampleSentenceKurdish(
                         text:
-                            "منداڵانی ئەم وڵاتە زۆر قەڵەو دەبن، و شەکر و شیرینی هۆکارە سەرەکییەکانن."),
+                            "منداڵانی ئەم وڵاتە زۆر قەڵەو دەبن، و شەکر و شیرینی ھۆکارە سەرەکییەکانن."),
                   ],
                 ),
               ),

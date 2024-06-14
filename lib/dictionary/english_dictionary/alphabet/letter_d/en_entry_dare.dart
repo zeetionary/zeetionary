@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەرەنگاری، لەڕووداوێستان، بەگژداچوونەوە، پڕکێشی، بەرامبەروێستان
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) هێندە زیرەک و بوێر کە شتێک بکەیت"),
+              text: "١. (ھاوەڵناو) ھێندە زیرەک و بوێر کە شتێک بکەیت"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She said it as loudly as she dared."),
-                    ExampleSentenceKurdish(text: "هەتا توانی بە بەرزی گوتی."),
+                    ExampleSentenceKurdish(text: "ھەتا توانی بە بەرزی گوتی."),
                   ],
                 ),
               ),
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She dared not breathe a word of it to anybody."),
                     ExampleSentenceKurdish(
-                        text: "بوێری ئەوەی نەکرد یەک قسە لای هیچ کەسێک بکات."),
+                        text: "بوێری ئەوەی نەکرد یەک قسە لای ھیچ کەسێک بکات."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "I hardly dared breathe."),
                     ExampleSentenceKurdish(
-                        text: "بە ئەستەم بوێری هەناسەدانم هەبوو."),
+                        text: "بە ئەستەم بوێری ھەناسەدانم ھەبوو."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) ڕازیکردنی کەسێک بۆ کردنی شتێکی مەترسیدار، سەخت، یان شەرمهێنەر بۆ ئەوەی پیشانی بدات کە ناترسێت"),
+                  "٢. (کردار) ڕازیکردنی کەسێک بۆ کردنی شتێکی مەترسیدار، سەخت، یان شەرمھێنەر بۆ ئەوەی پیشانی بدات کە ناترسێت"),
           Row(
             children: [
               const Expanded(
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Some of the older boys had dared him to do it."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک لە کوڕە بەتەمەنەکان تەحەدایان کردبوو کە بیکات."),
+                            "ھەندێک لە کوڕە بەتەمەنەکان تەحەدایان کردبوو کە بیکات."),
                   ],
                 ),
               ),
@@ -500,7 +500,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) شتێکی مەترسیدار، سەخت، یان شەرمهێنەر کە هەوڵ دەدەیت وا لە کەسێک بکەیت بیکات، بۆ ئەوەی بزانیت کە دەیکات"),
+                  "٣. (ناو) شتێکی مەترسیدار، سەخت، یان شەرمھێنەر کە ھەوڵ دەدەیت وا لە کەسێک بکەیت بیکات، بۆ ئەوەی بزانیت کە دەیکات"),
           Row(
             children: [
               const Expanded(

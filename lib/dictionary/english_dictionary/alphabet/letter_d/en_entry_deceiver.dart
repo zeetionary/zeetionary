@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It could be difficult to detect a lie, especially from a well-practised deceiver."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەکرێت سەخت بێت هەست بە درۆیەک بکەیت، بە تایبەتی لە تەڵەکەبازێکی باش ڕاهاتووەوە."),
+                            "دەکرێت سەخت بێت ھەست بە درۆیەک بکەیت، بە تایبەتی لە تەڵەکەبازێکی باش ڕاھاتووەوە."),
                   ],
                 ),
               ),

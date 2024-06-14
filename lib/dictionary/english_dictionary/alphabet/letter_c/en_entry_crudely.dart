@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ڕەوشتانە، هەرزانە، بە بێ‌ڕەوشتی یان بێ‌ئەدەبی‌یەوە،	بە شێوەیێکی خاو یان پوختەنەکراو،	بە شێوەیێکی ناشارەزایانە یان ناشی‌یآنە، سەرسەرەکی‌یانە
+کوردی: بێ‌ڕەوشتانە، ھەرزانە، بە بێ‌ڕەوشتی یان بێ‌ئەدەبی‌یەوە،	بە شێوەیێکی خاو یان پوختەنەکراو،	بە شێوەیێکی ناشارەزایانە یان ناشی‌یآنە، سەرسەرەکی‌یانە
 """),
           const DefinitionKurdish(
               text:
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The hut was crudely built, with a thatched roof."),
                     ExampleSentenceKurdish(
                         text:
-                            "کوخەکە بە سادەیی بنیات نرابوو بە سەربانێکی هەڵاش‌پۆشەوە."),
+                            "کوخەکە بە سادەیی بنیات نرابوو بە سەربانێکی ھەڵاش‌پۆشەوە."),
                   ],
                 ),
               ),
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She yelled at a passing driver who had crudely propositioned her."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاواری کرد بەسەر شۆفێرە تێپەڕبووەکەدا کە بێ‌ڕێزانە داوای سێکسی لێکرد."),
+                            "ھاواری کرد بەسەر شۆفێرە تێپەڕبووەکەدا کە بێ‌ڕێزانە داوای سێکسی لێکرد."),
                   ],
                 ),
               ),

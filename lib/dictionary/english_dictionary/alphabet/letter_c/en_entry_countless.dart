@@ -330,10 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ژمار، بێ‌هەژمار، بێ‌ئەندازە، لەژمارەنەهاتوو، زۆر، بێ‌شومار، لە ژمارە بەدەر، یەکجار زۆر، بێژمار
+کوردی: بێ‌ژمار، بێ‌ھەژمار، بێ‌ئەندازە، لەژمارەنەھاتوو، زۆر، بێ‌شومار، لە ژمارە بەدەر، یەکجار زۆر، بێژمار
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) زۆرجار؛ هێندە زۆر کە ژمارە ناکرێت"),
+              text: "١. (ھاوەڵناو) زۆرجار؛ ھێندە زۆر کە ژمارە ناکرێت"),
           Row(
             children: [
               const Expanded(
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The new treatment could save Emma's life and the lives of countless others."),
                     ExampleSentenceKurdish(
                         text:
-                            "چارەسەرە تازەکە دەکرێت ژیانی ئێما و چەندینی دیکە لەژمارەنەهاتوو ڕزگار بکات."),
+                            "چارەسەرە تازەکە دەکرێت ژیانی ئێما و چەندینی دیکە لەژمارەنەھاتوو ڕزگار بکات."),
                   ],
                 ),
               ),

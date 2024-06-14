@@ -404,10 +404,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بڵاوبوونەوە، تەنینەوە، وەشان، داگرتن، پەل‌هاویشتن،	لێچوون، دزەکردن،	تێکەڵ‌بوون،	درێژدادڕی، درێژنووسی، زۆرلێ‌وتن
+کوردی: بڵاوبوونەوە، تەنینەوە، وەشان، داگرتن، پەل‌ھاویشتن،	لێچوون، دزەکردن،	تێکەڵ‌بوون،	درێژدادڕی، درێژنووسی، زۆرلێ‌وتن
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) بڵاوکردنەوەی شتێک بە هەموو ئاراستەکاندا"),
+              text: "١. (ناو) بڵاوکردنەوەی شتێک بە ھەموو ئاراستەکاندا"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Powerful global institutions drive the diffusion of new technologies."),
                     ExampleSentenceKurdish(
                         text:
-                            "دامەزراوە جیهانییە بەهێزەکان ڕابەرایەتی بڵاوبوونەوەی تەکنەلۆژیای تازە دەکەن."),
+                            "دامەزراوە جیھانییە بەھێزەکان ڕابەرایەتی بڵاوبوونەوەی تەکنەلۆژیای تازە دەکەن."),
                   ],
                 ),
               ),

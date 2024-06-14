@@ -418,10 +418,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرگری، بەربەستی، بەرەڤانی، بەرگەگری، خۆڕاگری، لەسەرخۆکردنەوە، پشتیوانی،	کەرەسەی بەرگری،	پارێزەر، ئەولەکار، بەرەڤان‌کار،	بیانوو، پەڵپ، بەهانە،	(وەرزش) بەرگری، هێڵی بەرگری، یاریزانی هێڵی بەرگری 
+کوردی: بەرگری، بەربەستی، بەرەڤانی، بەرگەگری، خۆڕاگری، لەسەرخۆکردنەوە، پشتیوانی،	کەرەسەی بەرگری،	پارێزەر، ئەولەکار، بەرەڤان‌کار،	بیانوو، پەڵپ، بەھانە،	(وەرزش) بەرگری، ھێڵی بەرگری، یاریزانی ھێڵی بەرگری 
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کاری پاراستنی کەسێک/شتێک لە هێرش، ڕەخنە، هتد"),
+              text: "١. (ناو) کاری پاراستنی کەسێک/شتێک لە ھێرش، ڕەخنە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -460,7 +460,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I have to say in her defence that she knew nothing about it beforehand."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەک برگرییەک لێی دەبێت بڵێم پێشوەختە هیچی نەزانی."),
+                            "وەک برگرییەک لێی دەبێت بڵێم پێشوەختە ھیچی نەزانی."),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He paid tribute to all those who had died in defence of their country."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێزی نا لە هەموو ئەوانەی کە لە بەرگری وڵاتەکەیاندا گیانیان بەخت کردبوو."),
+                            "ڕێزی نا لە ھەموو ئەوانەی کە لە بەرگری وڵاتەکەیاندا گیانیان بەخت کردبوو."),
                   ],
                 ),
               ),
@@ -569,7 +569,7 @@ class KurdishMeaning extends StatelessWidget {
                             "At this point the country had no effective air defences."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەم قۆناغەدا وڵاتەکە هیچ بەرگرییەکی ئاسمانی کاریگەری نەبوو."),
+                            "لەم قۆناغەدا وڵاتەکە ھیچ بەرگرییەکی ئاسمانی کاریگەری نەبوو."),
                   ],
                 ),
               ),
@@ -597,7 +597,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The town walls were built as a defence against enemy attacks."),
                     ExampleSentenceKurdish(
                         text:
-                            "شووراکانی بیناکە وەک بەرگرییەک دژ بە هێرشەکانی دوژمن بنیات نران."),
+                            "شووراکانی بیناکە وەک بەرگرییەک دژ بە ھێرشەکانی دوژمن بنیات نران."),
                   ],
                 ),
               ),
@@ -625,7 +625,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The body has natural defence mechanisms to protect it from disease."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەش میکانیزمی سرووشتی بەرگری هەیە دژ بە نەخۆشی."),
+                            "لەش میکانیزمی سرووشتی بەرگری ھەیە دژ بە نەخۆشی."),
                   ],
                 ),
               ),

@@ -847,7 +847,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەرج، خەرج‌وبار، تێچوون، بەخت، مەزاخ،	بەها، نرخ، بایی
+کوردی: خەرج، خەرج‌وبار، تێچوون، بەخت، مەزاخ،	بەھا، نرخ، بایی
 """),
           const DefinitionKurdish(
               text:
@@ -890,7 +890,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You could buy a used car at a fraction of the cost of a new one."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانیت ئۆتۆمبێلێکی بەکارهێنراو بە تێچوویەکی کەمی یەکێکی تازە بکڕیت."),
+                            "دەتوانیت ئۆتۆمبێلێکی بەکارھێنراو بە تێچوویەکی کەمی یەکێکی تازە بکڕیت."),
                   ],
                 ),
               ),
@@ -921,7 +921,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "We did not even make enough money to cover the cost of the food."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "تەنانەت هێندە پارەی پێویستمان پەیدا نەکرد کە تێچووی خۆراک بکەین."),
+                                    "تەنانەت ھێندە پارەی پێویستمان پەیدا نەکرد کە تێچووی خۆراک بکەین."),
                           ],
                         ),
                       ),
@@ -949,7 +949,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The plan had to be abandoned on grounds of cost."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "پلانەکە دەبوو وازی لێبهێنرێت بە هۆکای تێچووەکەی."),
+                                    "پلانەکە دەبوو وازی لێبھێنرێت بە ھۆکای تێچووەکەی."),
                           ],
                         ),
                       ),
@@ -1119,7 +1119,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The use of cheap labour helped to keep costs down."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەکارهێنانی دەستی کاری هەرزان یارمەتیدەر بوو لە هێشتنەوەی نرخەکان بە کەمی."),
+                            "بەکارھێنانی دەستی کاری ھەرزان یارمەتیدەر بوو لە ھێشتنەوەی نرخەکان بە کەمی."),
                   ],
                 ),
               ),
@@ -1147,7 +1147,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Reducing costs means we can keep prices as low as possible."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمکردنەوەی خەرجییەکان واتا دەتوانین نرخەکان تا بکرێت بە نزمی بهێڵینەوە."),
+                            "کەمکردنەوەی خەرجییەکان واتا دەتوانین نرخەکان تا بکرێت بە نزمی بھێڵینەوە."),
                   ],
                 ),
               ),
@@ -1193,7 +1193,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) هەوڵدان، لەدەستدان، یان زیان کە پێویستە بۆ بەدەستهێنانی شتێک"),
+                  "٣. (ناو) ھەوڵدان، لەدەستدان، یان زیان کە پێویستە بۆ بەدەستھێنانی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -1229,7 +1229,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Victory came at a high cost."),
                     ExampleSentenceKurdish(
-                        text: "سەرکەوتن بە قوربانییەکی زۆر بەدەستهات."),
+                        text: "سەرکەوتن بە قوربانییەکی زۆر بەدەستھات."),
                   ],
                 ),
               ),
@@ -1318,7 +1318,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The victory was achieved at great cost to the country's infrastructure."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "سەرکەوتن بەدەستهێنرا بە تێچوویەکی زۆری ژێرخانی وڵاتەکە."),
+                                    "سەرکەوتن بەدەستھێنرا بە تێچوویەکی زۆری ژێرخانی وڵاتەکە."),
                           ],
                         ),
                       ),
@@ -1378,7 +1378,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Both sides incurred costs of over £50 000."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەردوو لایان تێچووی سەروو ٥٠٠٠٠ پاوەندیان کەوتە ئەستۆ."),
+                            "ھەردوو لایان تێچووی سەروو ٥٠٠٠٠ پاوەندیان کەوتە ئەستۆ."),
                   ],
                 ),
               ),
@@ -1512,7 +1512,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Don't use too much of it—it cost a lot of money."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "زۆری لێ بەکارمەهێنە، پارەی زۆری تێدەچێت."),
+                                    "زۆری لێ بەکارمەھێنە، پارەی زۆری تێدەچێت."),
                           ],
                         ),
                       ),
@@ -1539,7 +1539,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "All these reforms will cost money (= be expensive)."),
                             ExampleSentenceKurdish(
-                                text: "هەموو چاکسازییانە پارەی تێدەچێت."),
+                                text: "ھەموو چاکسازییانە پارەی تێدەچێت."),
                           ],
                         ),
                       ),
@@ -1644,7 +1644,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (کردار) بوون بە هۆکاری لەدەستدانی شتێک"),
+              text: "٦. (کردار) بوون بە ھۆکاری لەدەستدانی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -1653,7 +1653,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "That one mistake almost cost him his life."),
                     ExampleSentenceKurdish(
-                        text: "ئەو تاکە هەڵە بەنزیکەیی ژیانی بسەنێت."),
+                        text: "ئەو تاکە ھەڵە بەنزیکەیی ژیانی بسەنێت."),
                   ],
                 ),
               ),
@@ -1736,7 +1736,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Such behaviour could cost you your place in the team."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەو هەڵسوکەوتە دەکرێت پێگەت لە تیمەکە کۆتایی پێبهێنێت."),
+                                    "ئەو ھەڵسوکەوتە دەکرێت پێگەت لە تیمەکە کۆتایی پێبھێنێت."),
                           ],
                         ),
                       ),
@@ -1764,7 +1764,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The closure of the factory is likely to cost 1 000 jobs."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "داخرانی کارگەکە ئەگەری هەیە ١٠٠٠ هەلی کار لەدەستبدات."),
+                                    "داخرانی کارگەکە ئەگەری ھەیە ١٠٠٠ ھەلی کار لەدەستبدات."),
                           ],
                         ),
                       ),
@@ -1791,7 +1791,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "The war has cost the lives of countless civilians."),
                             ExampleSentenceKurdish(
-                                text: "جەنگەکە ژیانی هاوڵاتییانی زۆری تێچووە."),
+                                text: "جەنگەکە ژیانی ھاوڵاتییانی زۆری تێچووە."),
                           ],
                         ),
                       ),
@@ -1814,7 +1814,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٧. (کردار) بوون بەهۆی هەوڵدانێک یان کردنی شتێکی ناخۆش"),
+              text: "٧. (کردار) بوون بەھۆی ھەوڵدانێک یان کردنی شتێکی ناخۆش"),
           Row(
             children: [
               const Expanded(
@@ -1823,7 +1823,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The accident cost me a visit to the doctor."),
                     ExampleSentenceKurdish(
-                        text: "ڕووداوەکە بوو بەهۆی سەردانێکم بۆ لای دکتۆر."),
+                        text: "ڕووداوەکە بوو بەھۆی سەردانێکم بۆ لای دکتۆر."),
                   ],
                 ),
               ),
@@ -1850,7 +1850,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Financial worries cost her many sleepless nights."),
                     ExampleSentenceKurdish(
-                        text: "نیگەرانی دارایی بوو بەهۆی زۆر شەوی بێداریی."),
+                        text: "نیگەرانی دارایی بوو بەھۆی زۆر شەوی بێداریی."),
                   ],
                 ),
               ),
@@ -1877,7 +1877,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She would never know how much it cost him to tell her."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز نازانێت چەندی تێدەچێت کە پێی بڵێت."),
+                        text: "ھەرگیز نازانێت چەندی تێدەچێت کە پێی بڵێت."),
                   ],
                 ),
               ),

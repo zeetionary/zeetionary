@@ -207,7 +207,7 @@ class EnglishEntrycooking extends StatelessWidget {
                                             "My husband does all the cooking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوسەرەکەم هەموو کاری چێشتلێنان دەکات."),
+                                            "ھاوسەرەکەم ھەموو کاری چێشتلێنان دەکات."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycooking extends StatelessWidget {
                                             "We always use olive oil for cooking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە ڕۆزی زەیتوون بۆ چێشتلێنان بەکاردێنین."),
+                                            "ھەمیشە ڕۆزی زەیتوون بۆ چێشتلێنان بەکاردێنین."),
                                   ],
                                 ),
                               ),

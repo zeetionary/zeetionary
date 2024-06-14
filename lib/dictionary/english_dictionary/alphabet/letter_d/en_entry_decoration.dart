@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جوان‌کردن، ڕازاندنەوە، خەمڵاندن، ماڵ‌ڕاخستن، نەخشاندن، کەل‌وپەل یان شتی ڕازاندنەوە، شت‌ومەکی جوان‌کردن،	میداڵ یان نیشان (ی شانازی)،	ڕەنگ‌کردن (ی خانووبەرە، لێدانی کاغەز بە دیوار، میچ و هتد بۆ جوانی)، نەخش‌ونیگار، شت‌ومەکی جوان‌کردن یان ڕازاندنەوە، جوانەمەنی
+کوردی: جوان‌کردن، ڕازاندنەوە، خەمڵاندن، ماڵ‌ڕاخستن، نەخشاندن، کەل‌وپەل یان شتی ڕازاندنەوە، شت‌ومەکی جوان‌کردن،	میداڵ یان نیشان (ی شانازی)،	ڕەنگ‌کردن (ی خانووبەرە، لێدانی کاغەز بە دیوار، میچ و ھتد بۆ جوانی)، نەخش‌ونیگار، شت‌ومەکی جوان‌کردن یان ڕازاندنەوە، جوانەمەنی
 """),
           const DefinitionKurdish(
               text:
@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Halloween decorations hung from every corner."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕازاندنەوەی هاڵۆوین لە هەموو سوچێک شۆڕبووبوونەوە."),
+                            "ڕازاندنەوەی ھاڵۆوین لە ھەموو سوچێک شۆڕبووبوونەوە."),
                   ],
                 ),
               ),
@@ -487,7 +487,7 @@ class KurdishMeaning extends StatelessWidget {
                             "An Oscar was given for the art direction and set decoration."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەڵاتاتێکی ئۆسکار درا بۆ دەرهێنانی هونەری و ڕازاندنەوەی سەرشانۆکە."),
+                            "خەڵاتاتێکی ئۆسکار درا بۆ دەرھێنانی ھونەری و ڕازاندنەوەی سەرشانۆکە."),
                   ],
                 ),
               ),

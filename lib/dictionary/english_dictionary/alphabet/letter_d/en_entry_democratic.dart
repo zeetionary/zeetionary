@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) پەیوەندیدار بە دیموکراسی؛ کە لەلایەن نوێنەرانی هەڵبژێردراوەوە بەڕێوەدەبردرێت"),
+                  "١. (ھاوەڵناو) پەیوەندیدار بە دیموکراسی؛ کە لەلایەن نوێنەرانی ھەڵبژێردراوەوە بەڕێوەدەبردرێت"),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Exercise your democratic right to vote."),
                     ExampleSentenceKurdish(
-                        text: "مافی دیموکراسییانەی دەنگدانت بەکاربهێنە."),
+                        text: "مافی دیموکراسییانەی دەنگدانت بەکاربھێنە."),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They have a fairly democratic form of government."),
                     ExampleSentenceKurdish(
                         text:
-                            "جۆرێکی تاڕادەیەک دیموکراسییانەی حکومەتیان هەیە."),
+                            "جۆرێکی تاڕادەیەک دیموکراسییانەی حکومەتیان ھەیە."),
                   ],
                 ),
               ),
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) پەیوەندیدار بەو بنەمایەی کە هەموو ئەندامان مافی یەکسانیان هەیە لە بەڕێوەبردنی ڕێکخراوێک، هتد"),
+                  "٢. (ھاوەڵناو) پەیوەندیدار بەو بنەمایەی کە ھەموو ئەندامان مافی یەکسانیان ھەیە لە بەڕێوەبردنی ڕێکخراوێک، ھتد"),
           const DividerSentences(),
           Row(
             children: [
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) پشتبەستوو بەو بنەمایەی کە هەموو ئەندامانی کۆمەڵگا یەکسانن نەک گرنگ بن بەپێی پارە یان چینی کۆمەڵایەتی"),
+                  "٣. (ھاوەڵناو) پشتبەستوو بەو بنەمایەی کە ھەموو ئەندامانی کۆمەڵگا یەکسانن نەک گرنگ بن بەپێی پارە یان چینی کۆمەڵایەتی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -546,7 +546,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In a democratic society, people vote to choose their leaders."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە کۆمەڵگایەکی دیموکراسییانەدا خەڵکی سەرکردەکانیان هەڵدەبژێرن."),
+                            "لە کۆمەڵگایەکی دیموکراسییانەدا خەڵکی سەرکردەکانیان ھەڵدەبژێرن."),
                   ],
                 ),
               ),
@@ -574,7 +574,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government proposed democratic reforms to improve voting rights."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت چاکسازی دیموکراسییانەی پێشنیارکرد بۆ بەهێزکردنی مافی دەنگدان."),
+                            "حکومەت چاکسازی دیموکراسییانەی پێشنیارکرد بۆ بەھێزکردنی مافی دەنگدان."),
                   ],
                 ),
               ),

@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The carpenter attached a crosspiece to each side of the frame to give extra support to the roof."),
                     ExampleSentenceKurdish(
                         text:
-                            "دارتاشەکە چوارباڵییەکی بەست لە هەر لایەکی چوارچێوەکە بۆ پێدانی پاڵپشتی زیاتر بە سەربانەکە."),
+                            "دارتاشەکە چوارباڵییەکی بەست لە ھەر لایەکی چوارچێوەکە بۆ پێدانی پاڵپشتی زیاتر بە سەربانەکە."),
                   ],
                 ),
               ),

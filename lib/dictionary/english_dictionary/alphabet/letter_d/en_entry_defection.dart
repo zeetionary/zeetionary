@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەڕانەوە، هەڵگەڕانەوە، وازهێنان، دەس‌هەڵگرتن، چۆڵ‌کردن، بەجێ‌هێشتن، بادانەوە،	پەیمان‌شکێنی، بێ‌بەڵێنی،	پەنابەرێتی،	ڕاکردن، هەڵاتن، چوونەنێو دوژمنەوە،	نەبوون، کەمی، کەم‌وکووڕی، ناتەواوی
+کوردی: گەڕانەوە، ھەڵگەڕانەوە، وازھێنان، دەس‌ھەڵگرتن، چۆڵ‌کردن، بەجێ‌ھێشتن، بادانەوە،	پەیمان‌شکێنی، بێ‌بەڵێنی،	پەنابەرێتی،	ڕاکردن، ھەڵاتن، چوونەنێو دوژمنەوە،	نەبوون، کەمی، کەم‌وکووڕی، ناتەواوی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کاری جێهێشتنی پارتێکی سیاسی، وڵاتێک، هتد بۆ پەیوەندیکردن بە یەکێکی دیکەوە"),
+                  "١. (ناو) کاری جێھێشتنی پارتێکی سیاسی، وڵاتێک، ھتد بۆ پەیوەندیکردن بە یەکێکی دیکەوە"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There have been several defections from the ruling party."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک هەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە."),
+                            "ژمارەیەک ھەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Recent changes in policy have resulted in large-scale defection from the party."),
                     ExampleSentenceKurdish(
                         text:
-                            "گۆڕانە تازەکان لە سیاسەتدا بووە بەهۆی هەڵگەڕانەوەی گەورە لە پارتەکە."),
+                            "گۆڕانە تازەکان لە سیاسەتدا بووە بەھۆی ھەڵگەڕانەوەی گەورە لە پارتەکە."),
                   ],
                 ),
               ),

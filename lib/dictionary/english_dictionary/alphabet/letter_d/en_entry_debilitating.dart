@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لاوازکەر، هێز(لێ)بڕ، سست‌کەر، هێزچن، پەک‌خەر، لەبن‌هێنەر، لەنێوبەر، هەڵتەکێنەر
+کوردی: لاوازکەر، ھێز(لێ)بڕ، سست‌کەر، ھێزچن، پەک‌خەر، لەبن‌ھێنەر، لەنێوبەر، ھەڵتەکێنەر
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە لاشە و دەروونی کەسێک لاواز دەکات"),
@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) کەو وڵاتێک، دامەزراوەیەک، هتد لاواز دەکات"),
+              text: "٢. (ھاوەڵناو) کەو وڵاتێک، دامەزراوەیەک، ھتد لاواز دەکات"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The economy is now strengthening after a long and debilitating recession."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئابووری لە ئێستادا بەهێز دەبێت لە دوای قەیرانێکی درێژ و سستکەر."),
+                            "ئابووری لە ئێستادا بەھێز دەبێت لە دوای قەیرانێکی درێژ و سستکەر."),
                   ],
                 ),
               ),

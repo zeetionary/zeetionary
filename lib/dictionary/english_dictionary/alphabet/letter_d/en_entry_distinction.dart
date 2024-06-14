@@ -129,6 +129,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -140,6 +141,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -542,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیاوازی، لایەنی جیاکردنەوە، لێک‌هەڵاواردن، جیاکاری، فەرق، جهێرەنگی،	دیاری‌کردن، لێک‌کردنەوە، جیاکردنەوە،	ئیمتیاز، باشی، چاکی، لایەنی دیار، لەسەرتربوون، بەسەرداشکانەوە،	ناو، سەرنێو، شانازی، سەربەرزی،	پلە، نمرە، پایە، شان، ڕێزە،	ئاشکرایی، ڕوونی، دیاربوون، ڕۆهنی
+کوردی: جیاوازی، لایەنی جیاکردنەوە، لێک‌ھەڵاواردن، جیاکاری، فەرق، جھێرەنگی،	دیاری‌کردن، لێک‌کردنەوە، جیاکردنەوە،	ئیمتیاز، باشی، چاکی، لایەنی دیار، لەسەرتربوون، بەسەرداشکانەوە،	ناو، سەرنێو، شانازی، سەربەرزی،	پلە، نمرە، پایە، شان، ڕێزە،	ئاشکرایی، ڕوونی، دیاربوون، ڕۆھنی
 """),
           const DefinitionKurdish(
               text:
@@ -557,7 +559,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Philosophers did not use to make a distinction between arts and science."),
                     ExampleSentenceKurdish(
                         text:
-                            "فەیلەسووفان جاران جیاوازییان لە نێوان هونەر و زانست نە دەکرد."),
+                            "فەیلەسووفان جاران جیاوازییان لە نێوان ھونەر و زانست نە دەکرد."),
                   ],
                 ),
               ),
@@ -616,7 +618,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Cultural distinctions lie at the heart of these issues."),
                     ExampleSentenceKurdish(
                         text:
-                            "جیاوازیی کەلتووری لە کرۆکی ئەم بابەتانەدا هەیە."),
+                            "جیاوازیی کەلتووری لە کرۆکی ئەم بابەتانەدا ھەیە."),
                   ],
                 ),
               ),
@@ -708,7 +710,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She tends to blur the distinctions between family and friends."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "مەیکی ئەوەی هەیە کە جیاوازی نێوان خێزان و هاوڕێ کاڵ بکاتەوە."),
+                                    "مەیکی ئەوەی ھەیە کە جیاوازی نێوان خێزان و ھاوڕێ کاڵ بکاتەوە."),
                           ],
                         ),
                       ),
@@ -772,7 +774,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All groups are entitled to this money without distinction."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو گرووپەکان مافیان بەسەر ئەم پارەوە هەیە بەبێ جیاوازی."),
+                            "ھەموو گرووپەکان مافیان بەسەر ئەم پارەوە ھەیە بەبێ جیاوازی."),
                   ],
                 ),
               ),
@@ -802,7 +804,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She had the distinction of being the first woman to fly the Atlantic."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو تایبەتییەی هەبوو کە یەکەم ژن بوو بەسەر زەریای ئەتڵەسیدا بفڕێت."),
+                            "ئەو تایبەتییەی ھەبوو کە یەکەم ژن بوو بەسەر زەریای ئەتڵەسیدا بفڕێت."),
                   ],
                 ),
               ),
@@ -832,7 +834,7 @@ class KurdishMeaning extends StatelessWidget {
                             "New York does not have the nation's oldest subway system; that distinction belongs to Boston."),
                     ExampleSentenceKurdish(
                         text:
-                            "نیویۆرک کۆنترین سیستەمی شەمەندەفەری ژێرزەوی نییە؛ ئەو شانازییە هی بۆستنە."),
+                            "نیویۆرک کۆنترین سیستەمی شەمەندەفەری ژێرزەوی نییە؛ ئەو شانازییە ھی بۆستنە."),
                   ],
                 ),
               ),
@@ -889,7 +891,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He served with distinction in the First World War."),
                     ExampleSentenceKurdish(
-                        text: "بە ئیمتیازەوە لە جەنگی یەکەمی جیهان جەنگا."),
+                        text: "بە ئیمتیازەوە لە جەنگی یەکەمی جیھان جەنگا."),
                   ],
                 ),
               ),
@@ -1258,7 +1260,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
+    videoId: 'VS6tnF31zr4',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1283,7 +1285,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K-CrEi0ymMg?t=',
+    videoId: 'K-CrEi0ymMg',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1308,7 +1310,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GkgXRyScubI?t=',
+    videoId: 'GkgXRyScubI',
     startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1333,7 +1335,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    videoId: 'b_rjBWmc1iQ',
     startSeconds: 2345,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1358,7 +1360,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TyZSBqQ813c?t=',
+    videoId: 'TyZSBqQ813c',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1383,7 +1385,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F2xv4fba65U?t=',
+    videoId: 'F2xv4fba65U',
     startSeconds: 484,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1408,7 +1410,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G0SpzIIHEaE?t=',
+    videoId: 'G0SpzIIHEaE',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(

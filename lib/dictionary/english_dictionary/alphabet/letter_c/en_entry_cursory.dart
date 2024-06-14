@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرسەرەکی، سەرپۆرتی، سەرپێیی، بەپەلە، بەهەشتاو، بێ‌سەرنج‌پێدان
+کوردی: سەرسەرەکی، سەرپۆرتی، سەرپێیی، بەپەلە، بەھەشتاو، بێ‌سەرنج‌پێدان
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کردن بە خێرایی و بەبێ بیرکردنەوەی زۆر"),

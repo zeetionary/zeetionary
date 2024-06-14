@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The exhibition gives local artists an opportunity to display their work."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێشانگاکە هەلێک بە هونەرمەندە خۆجێییەکان دەدات کە کارەکانیان نمایش بکەن."),
+                            "پێشانگاکە ھەلێک بە ھونەرمەندە خۆجێییەکان دەدات کە کارەکانیان نمایش بکەن."),
                   ],
                 ),
               ),
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She displayed her bruises for all to see."),
                     ExampleSentenceKurdish(
-                        text: "شین‌بوونەوەکانیی پیشانی هەموان دا کە بیبینن."),
+                        text: "شین‌بوونەوەکانیی پیشانی ھەموان دا کە بیبینن."),
                   ],
                 ),
               ),
@@ -544,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) پیشاندانی خاسیەتێک، هەستێک، شارەزاییەک، یان ڕەفتارێک"),
+                  "٢. (کردار) پیشاندانی خاسیەتێک، ھەستێک، شارەزاییەک، یان ڕەفتارێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -555,7 +555,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I have rarely seen her display any sign of emotion."),
                     ExampleSentenceKurdish(
-                        text: "بە دەگمەن دیومە هیچ هەستێک پیشان بدات."),
+                        text: "بە دەگمەن دیومە ھیچ ھەستێک پیشان بدات."),
                   ],
                 ),
               ),
@@ -614,7 +614,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many animals in stressful conditions display this behaviour."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر ئاژەڵ کە لە دۆخی پڕگوشاریدا ئەم هەڵسوکەوتە پیشان دەدەن."),
+                            "زۆر ئاژەڵ کە لە دۆخی پڕگوشاریدا ئەم ھەڵسوکەوتە پیشان دەدەن."),
                   ],
                 ),
               ),
@@ -644,7 +644,7 @@ class KurdishMeaning extends StatelessWidget {
                             "From 1811 until his death in 1820, George III displayed symptoms of insanity."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە ساڵی ١٨١١ تاوەکو مەرگی لە ١٨٢٩ جۆرجی سێیەم نیشانەکانی شێتیی هەبوو."),
+                            "لە ساڵی ١٨١١ تاوەکو مەرگی لە ١٨٢٩ جۆرجی سێیەم نیشانەکانی شێتیی ھەبوو."),
                   ],
                 ),
               ),
@@ -701,7 +701,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A group of artists will be displaying their skills to the students."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمەڵێک هونەرمەند تواناکانیان پیشانی خوێندکاران دەدەن."),
+                            "کۆمەڵێک ھونەرمەند تواناکانیان پیشانی خوێندکاران دەدەن."),
                   ],
                 ),
               ),
@@ -731,7 +731,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Giant screens displayed images of cheering crowds."),
                     ExampleSentenceKurdish(
                         text:
-                            "شاشەی زەبەلاح وێنەی جەماوەرە هیوابەخشەکەیان پیشان دەدا."),
+                            "شاشەی زەبەلاح وێنەی جەماوەرە ھیوابەخشەکەیان پیشان دەدا."),
                   ],
                 ),
               ),
@@ -763,7 +763,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The medals can be seen in a display cabinet on the first floor."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەدالیاکان لە کابینەیەکی پیشان‌داندا دەبینرێن لە نهۆمی یەکەم."),
+                            "مەدالیاکان لە کابینەیەکی پیشان‌داندا دەبینرێن لە نھۆمی یەکەم."),
                   ],
                 ),
               ),
@@ -823,7 +823,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The museum has a display of old medical instruments."),
                     ExampleSentenceKurdish(
                         text:
-                            "مۆزەخانەکە پێشانگایەکی کەرەستە کۆنە پزیشکییەکانی هەیە."),
+                            "مۆزەخانەکە پێشانگایەکی کەرەستە کۆنە پزیشکییەکانی ھەیە."),
                   ],
                 ),
               ),
@@ -960,7 +960,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (ناو) دۆخێک کە تێیدا خاسیەتێک، هەستێک، توانایەک، هتد پیشان دەدەیت"),
+                  "٦. (ناو) دۆخێک کە تێیدا خاسیەتێک، ھەستێک، توانایەک، ھتد پیشان دەدەیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -972,7 +972,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There may be specific events which trigger aggressive displays in your dog."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕەنگە بۆنەی دیاریکراو هەبێت ببێتە هۆی پیشاندانی توندوتیژی لە سەگەکەتدا."),
+                            "ڕەنگە بۆنەی دیاریکراو ھەبێت ببێتە ھۆی پیشاندانی توندوتیژی لە سەگەکەتدا."),
                   ],
                 ),
               ),
@@ -1002,7 +1002,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Despite his outward display of friendliness, I sensed he was concealing something."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەڕای نمایشی دۆستانەی ڕووکەشی، هەستم کرد کە شتێکی دەشاردەوە."),
+                            "سەرەڕای نمایشی دۆستانەی ڕووکەشی، ھەستم کرد کە شتێکی دەشاردەوە."),
                   ],
                 ),
               ),
@@ -1032,7 +1032,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I witnessed a rare display of affection between them."),
                     ExampleSentenceKurdish(
                         text:
-                            "چاوم بە پیشاندانێکی دەگمەنی هەست و سۆز کەوت لە نێوانیاندا."),
+                            "چاوم بە پیشاندانێکی دەگمەنی ھەست و سۆز کەوت لە نێوانیاندا."),
                   ],
                 ),
               ),
@@ -1181,7 +1181,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BxWw8AO4ZmI?t=',
+    videoId: 'BxWw8AO4ZmI',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1206,7 +1206,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 1656,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1231,7 +1231,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1256,7 +1256,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1281,7 +1281,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P8m-KThvtxA?t=',
+    videoId: 'P8m-KThvtxA',
     startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1306,7 +1306,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1331,7 +1331,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 1592,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: فریو دان، سەرقاڵ کردن، هەڵخەڵەتاندن
+کوردی: فریو دان، سەرقاڵ کردن، ھەڵخەڵەتاندن
 """),
           const DefinitionKurdish(text: "١. (کردار) فریودان"),
           Row(

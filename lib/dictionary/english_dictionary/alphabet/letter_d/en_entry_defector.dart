@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەنابەر، پەناخواز،	هەڵاتوو
+کوردی: پەنابەر، پەناخواز،	ھەڵاتوو
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەسێک کە پارتێکی سیاسی، وڵاتێک، هتد جێدەهێڵێت بۆ چوونەناو یەکێک کە زۆرجار بە دوژمن دادەنرێت "),
+                  "١. (ناو) کەسێک کە پارتێکی سیاسی، وڵاتێک، ھتد جێدەھێڵێت بۆ چوونەناو یەکێک کە زۆرجار بە دوژمن دادەنرێت "),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She was one of many Communist Party defectors."),
                     ExampleSentenceKurdish(
                         text:
-                            "یەکێک بوو لە ژمارەیەکی زۆر لە هەڵهاتووەکانی پارتی کۆمیونیست."),
+                            "یەکێک بوو لە ژمارەیەکی زۆر لە ھەڵھاتووەکانی پارتی کۆمیونیست."),
                   ],
                 ),
               ),
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was no way to know whether the defectors would fight for the opposition."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ ڕێگایەک نەبوو بۆ زانینی ئەوەی کە ئایا هەڵهاتووەکان شەڕ بۆ ئۆپۆزسیۆن دەکەن."),
+                            "ھیچ ڕێگایەک نەبوو بۆ زانینی ئەوەی کە ئایا ھەڵھاتووەکان شەڕ بۆ ئۆپۆزسیۆن دەکەن."),
                   ],
                 ),
               ),

@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A large portrait was hanging crookedly on the wall."),
                     ExampleSentenceKurdish(
                         text:
-                            "وێنەیەکی گەورە بە لاری لەسەر دیوارەکە هەڵواسرابوو."),
+                            "وێنەیەکی گەورە بە لاری لەسەر دیوارەکە ھەڵواسرابوو."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Officials can act crookedly."),
                     ExampleSentenceKurdish(
-                        text: "بەرپرسان دەکرێت بە ناڕاستگۆیانە هەنگاو بنێن."),
+                        text: "بەرپرسان دەکرێت بە ناڕاستگۆیانە ھەنگاو بنێن."),
                   ],
                 ),
               ),

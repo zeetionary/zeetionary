@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) دانانی بۆیە، وێنە، هتد لەسەر دیوار و بنبانی ژوورێک یان خانوویەک"),
+                  "٢. (کردار) دانانی بۆیە، وێنە، ھتد لەسەر دیوار و بنبانی ژوورێک یان خانوویەک"),
           Row(
             children: [
               const Expanded(
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The sitting room needs decorating."),
                     ExampleSentenceKurdish(
-                        text: "ژووری دانیشتنەکە پێویستی بە ڕازاندنەوە هەیە."),
+                        text: "ژووری دانیشتنەکە پێویستی بە ڕازاندنەوە ھەیە."),
                   ],
                 ),
               ),
@@ -541,7 +541,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She was decorated for her efforts during the war."),
                     ExampleSentenceKurdish(
-                        text: "خەڵات کرا بۆ هەوڵەکانی لە دەمی جەنگەکەدا."),
+                        text: "خەڵات کرا بۆ ھەوڵەکانی لە دەمی جەنگەکەدا."),
                   ],
                 ),
               ),

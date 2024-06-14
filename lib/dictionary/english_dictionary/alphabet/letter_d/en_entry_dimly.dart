@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I did remember, but only dimly."),
                     ExampleSentenceKurdish(
-                        text: "لەبیرممە، بەڵام تەنها کەمێک."),
+                        text: "لەبیرممە، بەڵام تەنھا کەمێک."),
                   ],
                 ),
               ),

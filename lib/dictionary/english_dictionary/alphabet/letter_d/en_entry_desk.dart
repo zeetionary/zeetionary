@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) مێزێک کە لە کاتی نووسین، خوێندنەوە، کارکردن، هتد بەکاردێت"),
+                  "١. (ناو) مێزێک کە لە کاتی نووسین، خوێندنەوە، کارکردن، ھتد بەکاردێت"),
           Row(
             children: [
               const Expanded(
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He got up from his desk and went to the window."),
                     ExampleSentenceKurdish(
-                        text: "لە مێزەکەی هەستا و چووە لای پەنجەرەکە."),
+                        text: "لە مێزەکەی ھەستا و چووە لای پەنجەرەکە."),
                   ],
                 ),
               ),
@@ -528,7 +528,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) شوێنێک کە زانیاری وەردەگریت یان خزمەتگوزاریت پێدەدرێت دەکرێیت لە فڕۆکەخانە، هوتێل، هتد"),
+                  "٢. (ناو) شوێنێک کە زانیاری وەردەگریت یان خزمەتگوزاریت پێدەدرێت دەکرێیت لە فڕۆکەخانە، ھوتێل، ھتد"),
           const DividerSentences(),
           Row(
             children: [
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There was a long queue at the check-in desk."),
                     ExampleSentenceKurdish(
-                        text: "ڕیزێکی درێژ لە مێزی پشکنینەکە هەبوو."),
+                        text: "ڕیزێکی درێژ لە مێزی پشکنینەکە ھەبوو."),
                   ],
                 ),
               ),

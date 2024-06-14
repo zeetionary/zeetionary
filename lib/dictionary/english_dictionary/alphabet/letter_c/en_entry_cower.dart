@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) خۆصەمانەوە یان چوونە دواوە بەهۆی ئەوەی دەترسیت"),
+              text: "١. (ناو) خۆصەمانەوە یان چوونە دواوە بەھۆی ئەوەی دەترسیت"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A gun went off and people cowered behind walls and under tables."),
                     ExampleSentenceKurdish(
                         text:
-                            "چەکێک تەقەی هات و خەڵکی لە پشتەوەی دیوارەکان و ژێر مێزەکان خۆیان مەڵاسدا."),
+                            "چەکێک تەقەی ھات و خەڵکی لە پشتەوەی دیوارەکان و ژێر مێزەکان خۆیان مەڵاسدا."),
                   ],
                 ),
               ),

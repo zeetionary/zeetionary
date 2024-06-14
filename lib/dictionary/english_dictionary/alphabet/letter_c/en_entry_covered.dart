@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: داپۆشراو بە، داگرتوو (توێژاڵ)،	بەمیچ، میچدار، سەرگیراو، سەرداپۆشراو
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) هەبوونی چینێک یان ڕێژەیەک لە شتێک لەسەری"),
+              text: "١. (ھاوەڵناو) ھەبوونی چینێک یان ڕێژەیەک لە شتێک لەسەری"),
           Row(
             children: [
               const Expanded(
@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) هەبوونی سەربانێک"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھەبوونی سەربانێک"),
           Row(
             children: [
               const Expanded(
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The town's covered bridge was built in the 19th century and is still in use today."),
                     ExampleSentenceKurdish(
                         text:
-                            "پردە داخراوەکەی شارۆچکەکە لە سەدەی نۆزدەیەم درووستکرا و هێشتا تا ئەم ڕۆژە لە کاردایە."),
+                            "پردە داخراوەکەی شارۆچکەکە لە سەدەی نۆزدەیەم درووستکرا و ھێشتا تا ئەم ڕۆژە لە کاردایە."),
                   ],
                 ),
               ),

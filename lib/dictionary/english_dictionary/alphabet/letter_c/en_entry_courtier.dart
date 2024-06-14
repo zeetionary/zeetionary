@@ -330,10 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یار یان هاوڕێ، دەرباری، پاشمیر، بەردەست
+کوردی: یار یان ھاوڕێ، دەرباری، پاشمیر، بەردەست
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە لە کۆشکی شاهانەیی کاردەکات"),
+              text: "١. (ناو) کەسێک کە لە کۆشکی شاھانەیی کاردەکات"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many of the courtiers were strongly wedded to traditional ways of doing things."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرێک لە بەردەستەکان بە توندی ڕادەهێنران بە ڕێگا نەریتییەکانی کردنی شتەکان."),
+                            "زۆرێک لە بەردەستەکان بە توندی ڕادەھێنران بە ڕێگا نەریتییەکانی کردنی شتەکان."),
                   ],
                 ),
               ),

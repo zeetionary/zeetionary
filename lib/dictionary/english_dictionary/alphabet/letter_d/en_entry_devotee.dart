@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He is a great devotee of the prime minister."),
                     ExampleSentenceKurdish(
-                        text: "هەوادارێکی سەرسەختی سەرۆک وەزیرانە."),
+                        text: "ھەوادارێکی سەرسەختی سەرۆک وەزیرانە."),
                   ],
                 ),
               ),

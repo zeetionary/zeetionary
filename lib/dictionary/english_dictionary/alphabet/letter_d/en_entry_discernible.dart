@@ -404,10 +404,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شیاوی لێک‌کردنەوە، دیار، لەتێگەیشتن‌هآتوو، پێی‌دەزانرێ، هەستپێکراو،	دیار، ئاشکرا
+کوردی: شیاوی لێک‌کردنەوە، دیار، لەتێگەیشتن‌ھآتوو، پێی‌دەزانرێ، ھەستپێکراو،	دیار، ئاشکرا
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) کە دەکرێت بناسرێتەوە یان تێگەشتن هەبێت بۆی"),
+              text: "١. (ھاوەڵناو) کە دەکرێت بناسرێتەوە یان تێگەشتن ھەبێت بۆی"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is often no discernible difference between rival brands."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرجار هیچ جیاوازی هەستپێکراو نییە لە نێوان براندە ڕکابەرەکاندا."),
+                            "زۆرجار ھیچ جیاوازی ھەستپێکراو نییە لە نێوان براندە ڕکابەرەکاندا."),
                   ],
                 ),
               ),

@@ -15,7 +15,8 @@ class EnglishEntrydrastically extends StatefulWidget {
   const EnglishEntrydrastically({super.key});
 
   @override
-  State<EnglishEntrydrastically> createState() => _EnglishEntrydrasticallyState();
+  State<EnglishEntrydrastically> createState() =>
+      _EnglishEntrydrasticallyState();
 }
 
 class _EnglishEntrydrasticallyState extends State<EnglishEntrydrastically> {
@@ -128,6 +129,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +141,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -349,8 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Output has been drastically reduced."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Output has been drastically reduced."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdrasticallys2(String languageCode) async {
@@ -358,7 +361,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Things have started to go drastically wrong."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Things have started to go drastically wrong."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdrasticallys3(String languageCode) async {
@@ -532,16 +536,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: توند، بە توندی
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی هەیە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵکار) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی ھەیە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Output has been drastically reduced."),
-                    ExampleSentenceKurdish(text: "ڕێژەی بەرهەمهێنان بە ئاستێکی زۆر دابەزیوە."),
+                        text: "Output has been drastically reduced."),
+                    ExampleSentenceKurdish(
+                        text: "ڕێژەی بەرھەمھێنان بە ئاستێکی زۆر دابەزیوە."),
                   ],
                 ),
               ),
@@ -566,8 +572,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Things have started to go drastically wrong."),
-                    ExampleSentenceKurdish(text: "شتەکان بە ئاستێکی گەورە دەستیان کردووە بەوەی هەڵە دەربچن."),
+                    ExampleSentenceEnglish(
+                        text: "Things have started to go drastically wrong."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شتەکان بە ئاستێکی گەورە دەستیان کردووە بەوەی ھەڵە دەربچن."),
                   ],
                 ),
               ),
@@ -1186,7 +1195,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    videoId: 'hS2x1zl4rn0',
     startSeconds: 774,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1220,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YRhqMWUH2Ig?t=',
+    videoId: 'YRhqMWUH2Ig',
     startSeconds: 1424,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1236,7 +1245,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NHiqsrYkcuk?t=',
+    videoId: 'NHiqsrYkcuk',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1261,7 +1270,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xcaeyJTx4Co?t=',
+    videoId: 'xcaeyJTx4Co',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1286,7 +1295,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 3374,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1311,7 +1320,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wao0_uB4Zw4?t=',
+    videoId: 'Wao0_uB4Zw4',
     startSeconds: 2501,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1336,7 +1345,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 800,
     autoPlay: true,
     params: const YoutubePlayerParams(

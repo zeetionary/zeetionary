@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕەهەند، دووری، ئەندازە،	(خوازە) ڕەهەند، لایەن، ئالی، بەرینایی، بەربڵاوی، فراوانی، بەرفرەهی، گەورەیی
+کوردی: ڕەھەند، دووری، ئەندازە،	(خوازە) ڕەھەند، لایەن، ئالی، بەرینایی، بەربڵاوی، فراوانی، بەرفرەھی، گەورەیی
 """),
           const DefinitionKurdish(
               text:
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The fourth dimension, time, is also finite in extent."),
                     ExampleSentenceKurdish(
                         text:
-                            "چوارەم ڕەهەند، کات، هەروەها بێ کۆتاییە لە بڕدا."),
+                            "چوارەم ڕەھەند، کات، ھەروەھا بێ کۆتاییە لە بڕدا."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The images can be viewed in three dimensions using these special glasses."),
                     ExampleSentenceKurdish(
                         text:
-                            "وێنەکان دەکرێت بە سێ ڕەهەندی پیشان بدرێن بە بەکارهێانی ئەم شووشە تایبەتانە."),
+                            "وێنەکان دەکرێت بە سێ ڕەھەندی پیشان بدرێن بە بەکارھێانی ئەم شووشە تایبەتانە."),
                   ],
                 ),
               ),

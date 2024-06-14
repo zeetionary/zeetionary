@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -349,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cleaning the oven is sheer drudgery."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Cleaning the oven is sheer drudgery."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdrudgerys2(String languageCode) async {
@@ -539,9 +541,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Cleaning the oven is sheer drudgery."),
-                    ExampleSentenceKurdish(text: "پاککردنەوەی فڕنەکە زەحمەتکێشی تەواوە."),
+                        text: "Cleaning the oven is sheer drudgery."),
+                    ExampleSentenceKurdish(
+                        text: "پاککردنەوەی فڕنەکە زەحمەتکێشی تەواوە."),
                   ],
                 ),
               ),
@@ -1187,7 +1189,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_wuykzfFzE?t=',
+    videoId: 'a_wuykzfFzE',
     startSeconds: 579,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1214,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tlezBUdD53w?t=',
+    videoId: 'tlezBUdD53w',
     startSeconds: 105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1237,7 +1239,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/20TAkcy3aBY?t=',
+    videoId: '20TAkcy3aBY',
     startSeconds: 373,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1262,7 +1264,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LxBV7cg8j1o?t=',
+    videoId: 'LxBV7cg8j1o',
     startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1287,7 +1289,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vh_d31rWt2o?t=',
+    videoId: 'Vh_d31rWt2o',
     startSeconds: 476,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1312,7 +1314,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/42KzmvSX5RU?t=',
+    videoId: '42KzmvSX5RU',
     startSeconds: 1455,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1337,7 +1339,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h_o-WCll7Fs?t=',
+    videoId: 'h_o-WCll7Fs',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(

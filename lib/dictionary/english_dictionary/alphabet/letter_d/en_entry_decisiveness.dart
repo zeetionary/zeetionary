@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "All her decisiveness disappeared when she met Mark."),
                     ExampleSentenceKurdish(
-                        text: "هەموو سووربوونی نەما کە مارکی بینی."),
+                        text: "ھەموو سووربوونی نەما کە مارکی بینی."),
                   ],
                 ),
               ),

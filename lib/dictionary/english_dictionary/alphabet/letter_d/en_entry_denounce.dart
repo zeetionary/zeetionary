@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many people denounced their neighbours to the secret police."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر کەس هەواڵیان لە دراوسێکانیان دا بە پۆلیسی نهێنی."),
+                            "زۆر کەس ھەواڵیان لە دراوسێکانیان دا بە پۆلیسی نھێنی."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Someone in the village must have denounced them to the authorities."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەسێک لە گوندەکە دەبێت هەواڵی لێیان دابێت بە حکومەت."),
+                            "کەسێک لە گوندەکە دەبێت ھەواڵی لێیان دابێت بە حکومەت."),
                   ],
                 ),
               ),

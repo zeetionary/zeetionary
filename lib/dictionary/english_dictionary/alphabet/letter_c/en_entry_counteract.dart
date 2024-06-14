@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "These exercises aim to counteract the effects of stress and tension."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم ڕاهێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە."),
+                            "ئەم ڕاھێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە."),
                   ],
                 ),
               ),

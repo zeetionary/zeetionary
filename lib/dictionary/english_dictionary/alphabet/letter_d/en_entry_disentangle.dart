@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) جیاکردنەوەی بیرۆکە، مشتومڕ، هتد کە تێکەڵ بوونە"),
+                  "١. (کردار) جیاکردنەوەی بیرۆکە، مشتومڕ، ھتد کە تێکەڵ بوونە"),
           Row(
             children: [
               const Expanded(
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is important to disentangle all the factors that may be causing your stress."),
                     ExampleSentenceKurdish(
                         text:
-                            "گرنگە کە هەموو ئەو هۆکارانە جیابکەیتەوە کە دەبنە هۆکاری گوشار لەسەرت."),
+                            "گرنگە کە ھەموو ئەو ھۆکارانە جیابکەیتەوە کە دەبنە ھۆکاری گوشار لەسەرت."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) هەڵوەشانەوەی شتێک کە تێکەڵی یەک بووە"),
+              text: "٢. (کردار) ھەڵوەشانەوەی شتێک کە تێکەڵی یەک بووە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He tried to disentangle his fingers from her hair."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵیدا پەنجەکانی لە قژی جیابکاتەوە."),
+                        text: "ھەوڵیدا پەنجەکانی لە قژی جیابکاتەوە."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She has just disentangled herself from a painful relationship."),
                     ExampleSentenceKurdish(
                         text:
-                            "خوازراو تازەگی خۆی لە پەیوەندییەکی بەئازار دەرهێنابوو."),
+                            "خوازراو تازەگی خۆی لە پەیوەندییەکی بەئازار دەرھێنابوو."),
                   ],
                 ),
               ),
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) نەهێشتنی گرێ و تێکهەڵچوون لە شتێکدا"),
+              text: "٣. (کردار) نەھێشتنی گرێ و تێکھەڵچوون لە شتێکدا"),
           // const DividerSentences(),
           Row(
             children: [

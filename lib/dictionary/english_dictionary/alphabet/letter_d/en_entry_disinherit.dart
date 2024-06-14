@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He threatened to disinherit his eldest son."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات."),
+                            "ھەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات."),
                   ],
                 ),
               ),

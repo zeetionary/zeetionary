@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کوولەکەسەوزە؛ سەوەزەیەک کە توێکڵێکی سەوزی تۆخی هەیە و ناوەکەی سپییە"),
+                  "١. (ناو) کوولەکەسەوزە؛ سەوەزەیەک کە توێکڵێکی سەوزی تۆخی ھەیە و ناوەکەی سپییە"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Slice each courgette down the middle and remove the flesh."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە."),
+                            "ھەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە."),
                   ],
                 ),
               ),

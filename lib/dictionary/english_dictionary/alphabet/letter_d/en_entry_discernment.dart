@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He shows great discernment in his choice of friends."),
                     ExampleSentenceKurdish(
                         text:
-                            "تێگەشتووی زۆر پیشان دەدات لە هەڵبژاردنی هاوڕێکانیدا."),
+                            "تێگەشتووی زۆر پیشان دەدات لە ھەڵبژاردنی ھاوڕێکانیدا."),
                   ],
                 ),
               ),
@@ -1076,7 +1076,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIhttps://youtu.be/1KgSp94nCZw',
+    videoId: 'PUT_VI1KgSp94nCZw',
     startSeconds: 782,
     autoPlay: true,
     params: const YoutubePlayerParams(

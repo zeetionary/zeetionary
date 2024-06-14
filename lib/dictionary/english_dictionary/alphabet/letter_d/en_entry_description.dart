@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "In the bay were boats of every description."),
                     ExampleSentenceKurdish(
-                        text: "لە کەنداوەکە بەلەمی هەموو جۆرێکی لێ بوو."),
+                        text: "لە کەنداوەکە بەلەمی ھەموو جۆرێکی لێ بوو."),
                   ],
                 ),
               ),
@@ -536,7 +536,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Their money came from trade of some description."),
                     ExampleSentenceKurdish(
-                        text: "پارەکەیان لە هەندێک جۆری بازرگانییەوە دەهات."),
+                        text: "پارەکەیان لە ھەندێک جۆری بازرگانییەوە دەھات."),
                   ],
                 ),
               ),

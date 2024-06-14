@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "His art was deeply personal."),
-                    ExampleSentenceKurdish(text: "هونەرەکەی زۆر کەسی بوو."),
+                    ExampleSentenceKurdish(text: "ھونەرەکەی زۆر کەسی بوو."),
                   ],
                 ),
               ),
@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "I deeply regret my error."),
-                    ExampleSentenceKurdish(text: "زۆر بەداخەوەم بۆ هەڵەکەم."),
+                    ExampleSentenceKurdish(text: "زۆر بەداخەوەم بۆ ھەڵەکەم."),
                   ],
                 ),
               ),
@@ -438,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) لەگەڵ هەندێک کرداردا بەکاردێت بۆ گوتنی ئەوەی شتێک بەشێوەیەکی زۆر تەواو دەکرێت"),
+                  "٢. (ھاوەڵکار) لەگەڵ ھەندێک کرداردا بەکاردێت بۆ گوتنی ئەوەی شتێک بەشێوەیەکی زۆر تەواو دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Leila sighed deeply and said, ‘I know’."),
                     ExampleSentenceKurdish(
-                        text: "لەیلا بە قووڵی هەناسەی دایەوە و گوتی 'دەزانم'."),
+                        text: "لەیلا بە قووڵی ھەناسەی دایەوە و گوتی 'دەزانم'."),
                   ],
                 ),
               ),

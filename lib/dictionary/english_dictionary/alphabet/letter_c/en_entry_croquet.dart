@@ -330,9 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) یارییەک کە تێیدا یاریزانان دەسکێک بەکاردێنن بۆ لێدان لە تۆپ و هەڵدانی بەناو ژمارەیەک ئەڵقەی کەوانەیی"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) یارییەک کە تێیدا یاریزانان دەسکێک بەکاردێنن بۆ لێدان لە تۆپ و ھەڵدانی بەناو ژمارەیەک ئەڵقەی کەوانەیی"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The children enjoyed playing croquet on sunny afternoons."),
-                    ExampleSentenceKurdish(text: "منداڵەکان چێژیان دەبینی لە نیوەڕوانی خۆرەتاودا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "منداڵەکان چێژیان دەبینی لە نیوەڕوانی خۆرەتاودا."),
                   ],
                 ),
               ),

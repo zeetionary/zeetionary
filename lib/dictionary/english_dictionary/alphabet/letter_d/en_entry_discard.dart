@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He had discarded his jacket because of the heat."),
                     ExampleSentenceKurdish(
-                        text: "چاکەتەکەی بەهۆی گەرمییەکەوە فڕێدابوو."),
+                        text: "چاکەتەکەی بەھۆی گەرمییەکەوە فڕێدابوو."),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She could now discard all thought of promotion."),
                     ExampleSentenceKurdish(
                         text:
-                            "(بەکارهێنانی خوازراوی) ئێستا دەیتوانی هەموو بیرکردنەوەیەکی پلەبەرزکردنەوە وەلابنێیت."),
+                            "(بەکارھێنانی خوازراوی) ئێستا دەیتوانی ھەموو بیرکردنەوەیەکی پلەبەرزکردنەوە وەلابنێیت."),
                   ],
                 ),
               ),

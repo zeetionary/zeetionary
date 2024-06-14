@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The heat hit us as soon as we disembarked the plane."),
                     ExampleSentenceKurdish(
                         text:
-                            "تیشکی خۆرەکە لێمانی دا هەرکە لە فڕۆکەکە دابەزین."),
+                            "تیشکی خۆرەکە لێمانی دا ھەرکە لە فڕۆکەکە دابەزین."),
                   ],
                 ),
               ),

@@ -331,9 +331,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: توڵە، تووتک، کودی، بەچکە، بێچوو، تێژک (شێر، ڕێوی، ورچ و هتد)،	شێرەمناڵ
+کوردی: توڵە، تووتک، کودی، بەچکە، بێچوو، تێژک (شێر، ڕێوی، ورچ و ھتد)،	شێرەمناڵ
 """),
-          const DefinitionKurdish(text: "١. (ناو) بەچکە ورچ، شێر، ڕێوی، هتد"),
+          const DefinitionKurdish(text: "١. (ناو) بەچکە ورچ، شێر، ڕێوی، ھتد"),
           Row(
             children: [
               const Expanded(

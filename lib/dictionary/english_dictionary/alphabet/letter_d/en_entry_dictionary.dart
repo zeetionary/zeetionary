@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: فەرهەنگ، وشەنامە، قامووس
+کوردی: فەرھەنگ، وشەنامە، قامووس
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کتێب یان سەرچاوەیەکی ئەلیکترۆنی کە وشەی تێدایە کە بە ڕیزبەندی ئەلفبێ ڕیزکراون و واتاکانیان ڕوونکراوەتەوە، یان هاوواتایەک لە زمانێکی دیکەدا دەدات بە دەستەوە"),
+                  "١. (ناو) کتێب یان سەرچاوەیەکی ئەلیکترۆنی کە وشەی تێدایە کە بە ڕیزبەندی ئەلفبێ ڕیزکراون و واتاکانیان ڕوونکراوەتەوە، یان ھاوواتایەک لە زمانێکی دیکەدا دەدات بە دەستەوە"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "If you don't know the meaning of a word, look it up in the dictionary."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەر واتای وشەیەک نازانیت، لە فەرهەنگەکە بۆی بگەڕێ."),
+                            "ئەگەر واتای وشەیەک نازانیت، لە فەرھەنگەکە بۆی بگەڕێ."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I couldn't find the word in the dictionary."),
                     ExampleSentenceKurdish(
-                        text: "وشەکەم لە فەرهەنگەکە نەدۆزییەوە."),
+                        text: "وشەکەم لە فەرھەنگەکە نەدۆزییەوە."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You need a dictionary to understand what he's saying half the time."),
                     ExampleSentenceKurdish(
                         text:
-                            "نیوەی کاتەکان پێویستیت بە فەرهەنگێکە بۆ تێگەشتن لەوەی کە دەیڵێت."),
+                            "نیوەی کاتەکان پێویستیت بە فەرھەنگێکە بۆ تێگەشتن لەوەی کە دەیڵێت."),
                   ],
                 ),
               ),

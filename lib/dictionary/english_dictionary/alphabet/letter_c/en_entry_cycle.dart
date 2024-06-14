@@ -453,7 +453,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) دووبارەکردنەوەی زنجیرەیەک ڕووداو بە ژمارەیەکی زۆر و هەمان ڕیزبەندی"),
+                  "٢. (ناو) دووبارەکردنەوەی زنجیرەیەک ڕووداو بە ژمارەیەکی زۆر و ھەمان ڕیزبەندی"),
           Row(
             children: [
               const Expanded(
@@ -463,7 +463,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Every business goes through cycles."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو بازرگانییەک بە ژمارەیەک سووڕدا تێدەپەڕێت."),
+                            "ھەموو بازرگانییەک بە ژمارەیەک سووڕدا تێدەپەڕێت."),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Life is a natural cycle, just like the changing seasons."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژیان سووڕێکی سرووشتییە، هەر وەکو گۆڕانی وەرزەکان."),
+                            "ژیان سووڕێکی سرووشتییە، ھەر وەکو گۆڕانی وەرزەکان."),
                   ],
                 ),
               ),
@@ -683,7 +683,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He cycles ten miles to and from work every day."),
                     ExampleSentenceKurdish(
-                        text: "هەموو ڕۆژێک ١٠ میل پاسکیل دەڕانێت بۆ سەر کار."),
+                        text: "ھەموو ڕۆژێک ١٠ میل پاسکیل دەڕانێت بۆ سەر کار."),
                   ],
                 ),
               ),

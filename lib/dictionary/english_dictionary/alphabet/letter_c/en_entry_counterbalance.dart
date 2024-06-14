@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پارسەنگ، هۆکاری هاوسەنگی یان هاوکێشی، هاوسەنگە،	هاوسەنگی، هاوکێشی
+کوردی: پارسەنگ، ھۆکاری ھاوسەنگی یان ھاوکێشی، ھاوسەنگە،	ھاوسەنگی، ھاوکێشی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەبوونی کاریگەرییەک کە یەکسانە بە شتێک بەڵام دژیەتی"),
+                  "١. (ناو) ھەبوونی کاریگەرییەک کە یەکسانە بە شتێک بەڵام دژیەتی"),
           Row(
             children: [
               const Expanded(
@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The fact that he cannot see is more than counterbalanced by his heightened perception of sound and touch."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوەی کە ناتوانێت ببیستێت زیاتر لە ئاستی خۆی قەرەبوو بووە بە هەستی بەرزی دەنگ و دەستلێدان."),
+                            "ئەوەی کە ناتوانێت ببیستێت زیاتر لە ئاستی خۆی قەرەبوو بووە بە ھەستی بەرزی دەنگ و دەستلێدان."),
                   ],
                 ),
               ),
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Parents' natural desire to protect their children should be counterbalanced by the child's need for independence."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئارەزووی دایبابان بۆ پاراستنی منداڵەکانیان دەبێت هاوسەنگ بێت لەگەڵ پێویستی منداڵ بۆ مانەوە بە سەربەخۆیی."),
+                            "ئارەزووی دایبابان بۆ پاراستنی منداڵەکانیان دەبێت ھاوسەنگ بێت لەگەڵ پێویستی منداڵ بۆ مانەوە بە سەربەخۆیی."),
                   ],
                 ),
               ),
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) شتێک کە کاریگەرییەکی هاوتا بەڵام پێچەوانەی هەیە بۆ شتێک و دەکرێت بەکاربێت بۆ سنووردارکردنی لایەنە خراپەکانی"),
+                  "٢. (ناو) شتێک کە کاریگەرییەکی ھاوتا بەڵام پێچەوانەی ھەیە بۆ شتێک و دەکرێت بەکاربێت بۆ سنووردارکردنی لایەنە خراپەکانی"),
           Row(
             children: [
               const Expanded(
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A cool salad is a perfect counterbalance to the hot days of summer."),
                     ExampleSentenceKurdish(
                         text:
-                            "زەڵاتەیەکی سارد پارسەنگێکی تەواوە بۆ ڕۆژە گەرمەکانی هاوین."),
+                            "زەڵاتەیەکی سارد پارسەنگێکی تەواوە بۆ ڕۆژە گەرمەکانی ھاوین."),
                   ],
                 ),
               ),

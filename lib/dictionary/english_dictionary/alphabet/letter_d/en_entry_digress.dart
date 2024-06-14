@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "To digress for a moment, I would like to remind you that there will be no classes next week."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ کەمێک لادان لە بابەت، دەمەوێت بیرتانی بهێنمەوە کە هەفتەی داهاتوو وانە نابێت."),
+                            "بۆ کەمێک لادان لە بابەت، دەمەوێت بیرتانی بھێنمەوە کە ھەفتەی داھاتوو وانە نابێت."),
                   ],
                 ),
               ),

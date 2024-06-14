@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەردە،	لۆ، توێژاڵ، توێ، بەرگ، ڕووپۆش، پارێزە، دیوار،	دوایی، کۆتایی، دووماهی
+کوردی: پەردە،	لۆ، توێژاڵ، توێ، بەرگ، ڕووپۆش، پارێزە، دیوار،	دوایی، کۆتایی، دووماھی
 """),
           const DefinitionKurdish(text: "١. (ناو) پەردەی سەر پەنجەرە"),
           Row(
@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was ten in the morning but the curtains were still drawn (= closed)."),
                     ExampleSentenceKurdish(
                         text:
-                            "کاتژمێر دەی بەیانی بوو بەڵام پەردەکان هێشتا داخراو بوون."),
+                            "کاتژمێر دەی بەیانی بوو بەڵام پەردەکان ھێشتا داخراو بوون."),
                   ],
                 ),
               ),
@@ -440,7 +440,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She pulled back the curtains, and sunlight streamed in."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "پەردەکانی کردەوە و تیشكی خۆر هاتە ژوورەوە."),
+                                    "پەردەکانی کردەوە و تیشكی خۆر ھاتە ژوورەوە."),
                           ],
                         ),
                       ),
@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) پەردەیەک کە لە ژوورێک یان بە دەوری جێ‌خەوێکدا هەڵدەواسرێت وەک پارێزەرێک"),
+                  "٣. (ناو) پەردەیەک کە لە ژوورێک یان بە دەوری جێ‌خەوێکدا ھەڵدەواسرێت وەک پارێزەرێک"),
           Row(
             children: [
               const Expanded(
@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He took a bag from a shelf behind some curtains."),
                     ExampleSentenceKurdish(
-                        text: "لە ڕەفەی پشتەوەی هەندێک پەردەوە جانتایەکی برد."),
+                        text: "لە ڕەفەی پشتەوەی ھەندێک پەردەوە جانتایەکی برد."),
                   ],
                 ),
               ),
@@ -579,7 +579,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The audience was waiting for the curtain to rise (= for the play to begin)."),
                     ExampleSentenceKurdish(
                         text:
-                            "بینەران وەستابوون بۆ ئەوەی پەردەکان هەڵبدرێنەوە."),
+                            "بینەران وەستابوون بۆ ئەوەی پەردەکان ھەڵبدرێنەوە."),
                   ],
                 ),
               ),
@@ -606,7 +606,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There was tremendous applause when the curtain came down (= the play ended)."),
                     ExampleSentenceKurdish(
-                        text: "چەپڵە ڕێزانێکی زۆر هەبوو کە پەردەکە دادرایەوە."),
+                        text: "چەپڵە ڕێزانێکی زۆر ھەبوو کە پەردەکە دادرایەوە."),
                   ],
                 ),
               ),
@@ -688,7 +688,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They could see nothing through the curtain of smoke (/rain)."),
                     ExampleSentenceKurdish(
-                        text: "نەیان دەتوانی هیچ ببینن بە تۆپەڵە دووکەڵەکەدا."),
+                        text: "نەیان دەتوانی ھیچ ببینن بە تۆپەڵە دووکەڵەکەدا."),
                   ],
                 ),
               ),

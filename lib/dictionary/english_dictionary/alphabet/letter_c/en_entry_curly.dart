@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "I wish my hair was curly."),
-                    ExampleSentenceKurdish(text: "بەهیوام قژم لوول بایە."),
+                    ExampleSentenceKurdish(text: "بەھیوام قژم لوول بایە."),
                   ],
                 ),
               ),
@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She wished she had naturally curly hair."),
                     ExampleSentenceKurdish(
-                        text: "ئاواتەخوازبوو قژی سرووشتی لوولی هەبایە."),
+                        text: "ئاواتەخوازبوو قژی سرووشتی لوولی ھەبایە."),
                   ],
                 ),
               ),
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Your hair’s gone all curly!"),
-                    ExampleSentenceKurdish(text: "قژم هەمووی لوول بووە!"),
+                    ExampleSentenceKurdish(text: "قژم ھەمووی لوول بووە!"),
                   ],
                 ),
               ),

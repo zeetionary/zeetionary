@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I loathe and detest racism in any form."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە هەموو جۆرێک ڕقم لێیە و بێزم دێتەوە لە ڕەگەزپەرستی."),
+                            "بە ھەموو جۆرێک ڕقم لێیە و بێزم دێتەوە لە ڕەگەزپەرستی."),
                   ],
                 ),
               ),

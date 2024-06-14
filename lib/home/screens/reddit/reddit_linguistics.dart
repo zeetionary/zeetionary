@@ -238,6 +238,8 @@ class _RedditLinguisticsState extends ConsumerState<RedditLinguistics> {
                             children: [
                               Card(
                                 margin: const EdgeInsets.all(8.0),
+                                color:
+                                    Theme.of(context).scaffoldBackgroundColor,
                                 child: ListTile(
                                   title: Text(
                                     post['title'],

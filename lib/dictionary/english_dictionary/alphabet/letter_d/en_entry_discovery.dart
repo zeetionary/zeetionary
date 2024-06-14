@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The film takes us on a journey of discovery to different parts of the globe."),
                     ExampleSentenceKurdish(
                         text:
-                            "فیلمەکە بە گەشتێکی دۆزینەوەدا دەمانبا بۆ بەشە جیاوازەکانی جیهان."),
+                            "فیلمەکە بە گەشتێکی دۆزینەوەدا دەمانبا بۆ بەشە جیاوازەکانی جیھان."),
                   ],
                 ),
               ),

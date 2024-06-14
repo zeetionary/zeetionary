@@ -339,10 +339,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەم‌بوونەوە، داشکان، هاتنەخوارێ، داچوون، داکەوتن، داقنین، تیاچوون، نەمان، نزمەوەبوون، فاق‌دان، فشەڵ‌هێنان، پاش‌داچوون، دانەدواوە، لێژبوونەوە، داخزان، دابەزین، پووکانەوە، پووچانەوە
+کوردی: کەم‌بوونەوە، داشکان، ھاتنەخوارێ، داچوون، داکەوتن، داقنین، تیاچوون، نەمان، نزمەوەبوون، فاق‌دان، فشەڵ‌ھێنان، پاش‌داچوون، دانەدواوە، لێژبوونەوە، داخزان، دابەزین، پووکانەوە، پووچانەوە
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) کەمبوون، بچووکبوون، لاوازبوون، هتد"),
+              text: "١. (کردار) کەمبوون، بچووکبوون، لاوازبوون، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We politely declined her invitation."),
                     ExampleSentenceKurdish(
-                        text: "بەڕێزەوە بانگهێشتەکەیمان ڕەتکردەوە."),
+                        text: "بەڕێزەوە بانگھێشتەکەیمان ڕەتکردەوە."),
                   ],
                 ),
               ),
@@ -561,7 +561,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) دابەزینی بەردەوامی بەها، ژمارە، کوالێتی، هتد ـی شتێک"),
+                  "٣. (ناو) دابەزینی بەردەوامی بەھا، ژمارە، کوالێتی، ھتد ـی شتێک"),
           Row(
             children: [
               const Expanded(

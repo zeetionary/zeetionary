@@ -208,7 +208,7 @@ class EnglishEntrycoordinator extends StatelessWidget {
                                             "The campaign needs an effective coordinator."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمپینەکە پێویستی بە ڕێکخەرێکی کارا هەیە."),
+                                            "کەمپینەکە پێویستی بە ڕێکخەرێکی کارا ھەیە."),
                                   ],
                                 ),
                               ),

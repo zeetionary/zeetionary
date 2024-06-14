@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هێڵیک یان سنوورێک کە دوو شت جیادەکاتەوە، بۆ نموونە جۆری کار، گرووپی خەڵکی یان پارچە زەوی"),
+                  "١. (ناو) ھێڵیک یان سنوورێک کە دوو شت جیادەکاتەوە، بۆ نموونە جۆری کار، گرووپی خەڵکی یان پارچە زەوی"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was hard to draw clear lines of demarcation between work and leisure."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەخت بوو هێڵێکی جیاکەرەوە لە نێوان کار و دەس‌بەتاڵی."),
+                            "سەخت بوو ھێڵێکی جیاکەرەوە لە نێوان کار و دەس‌بەتاڵی."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The river serves as the line of demarcation (= the line showing the separation) between the two countries."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووبارەکە ڕۆڵی هێڵی جیاکەرەوەی نێوان دوو وڵاتەکە دەبینێت."),
+                            "ڕووبارەکە ڕۆڵی ھێڵی جیاکەرەوەی نێوان دوو وڵاتەکە دەبینێت."),
                   ],
                 ),
               ),

@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: شێو کردن، کشت‌وکاڵ کردن، کێڵان
 // """),
           const DefinitionKurdish(
-              text: "١. (کردار) ئامادەکردن و بەکارهێنانی زەوی بۆ چاندن"),
+              text: "١. (کردار) ئامادەکردن و بەکارھێنانی زەوی بۆ چاندن"),
           Row(
             children: [
               const Expanded(
@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The land around here has never been cultivated."),
                     ExampleSentenceKurdish(
-                        text: "زەوی ئێرە هەرگیز نەکێڵدراوە."),
+                        text: "زەوی ئێرە ھەرگیز نەکێڵدراوە."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) هەوڵدان بۆ بەدەستهێنانی هاوڕێیەتی یان پشتگیری کەسێک"),
+                  "٣. (کردار) ھەوڵدان بۆ بەدەستھێنانی ھاوڕێیەتی یان پشتگیری کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He purposely tried to cultivate good relations with the press."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەمەبستەوە هەوڵیدا پەیوەندی باش لەگەڵ میدیادا درووست بکات."),
+                            "بەمەبستەوە ھەوڵیدا پەیوەندی باش لەگەڵ میدیادا درووست بکات."),
                   ],
                 ),
               ),
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It helps if you go out of your way to cultivate the local people."),
                     ExampleSentenceKurdish(
                         text:
-                            "باش دەبێت ئەگەر هەوڵ بدەیت خەڵکە خۆجێییەکە بناسیت."),
+                            "باش دەبێت ئەگەر ھەوڵ بدەیت خەڵکە خۆجێییەکە بناسیت."),
                   ],
                 ),
               ),

@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ئاو لێ گرتن، ویشک کردن
 // """),
           const DefinitionKurdish(
-              text: "١. (کردار) نەهێشتنی ئاو لە خواردندا بۆ پاراستنی"),
+              text: "١. (کردار) نەھێشتنی ئاو لە خواردندا بۆ پاراستنی"),
           Row(
             children: [
               const Expanded(

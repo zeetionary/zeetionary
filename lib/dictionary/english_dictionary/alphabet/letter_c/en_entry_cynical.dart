@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی باوەڕ بەوەی کە خەڵکی تەنها بۆ سوودی خۆیان کاردەکەن و هۆکاری دڵسۆزی و باشەیان نییە"),
+                  "١. (ھاوەڵناو) ھەبوونی باوەڕ بەوەی کە خەڵکی تەنھا بۆ سوودی خۆیان کاردەکەن و ھۆکاری دڵسۆزی و باشەیان نییە"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Do you have to be so cynical about everything?"),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت هێندە بەدگومان بیت سەبارەت بە هەموو شتێک؟"),
+                            "دەبێت ھێندە بەدگومان بیت سەبارەت بە ھەموو شتێک؟"),
                   ],
                 ),
               ),
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I'm a bit cynical about the benefits of the plan."),
                     ExampleSentenceKurdish(
-                        text: "کەمێک بێ‌هیوام سەبارەت بە سوودەکانی پلانەکە."),
+                        text: "کەمێک بێ‌ھیوام سەبارەت بە سوودەکانی پلانەکە."),
                   ],
                 ),
               ),

@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵکار) بەشێوەی تایبەت و هاوڕێیانە"),
+              text: "٢. (ھاوەڵکار) بەشێوەی تایبەت و ھاوڕێیانە"),
           Row(
             children: [
               const Expanded(
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is claimed that the drug companies ‘coexist very cosily indeed’ with the public health authorities."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگوترێت کە کۆمپانیا دەرمانییەکان 'لە ڕاستیدا زۆرباش هەڵدەکەن' لەگەڵ بەرپرسە تەندرووستییەکان."),
+                            "ئەگوترێت کە کۆمپانیا دەرمانییەکان 'لە ڕاستیدا زۆرباش ھەڵدەکەن' لەگەڵ بەرپرسە تەندرووستییەکان."),
                   ],
                 ),
               ),

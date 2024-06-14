@@ -330,11 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاهەنگی تاج‌لەسەرنان،	لەسەرتەخت‌دانان
+کوردی: ئاھەنگی تاج‌لەسەرنان،	لەسەرتەخت‌دانان
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) بە فەرمی دانانی تاجی شاهانە لەسەر پاشایەک یان شاژنێک"),
+                  "١. (ناو) بە فەرمی دانانی تاجی شاھانە لەسەر پاشایەک یان شاژنێک"),
           Row(
             children: [
               const Expanded(

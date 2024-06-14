@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) سەگێک کە لاشە و گوێی درێژ و لاقی کورت هەیە"),
+              text: "١. (ناو) سەگێک کە لاشە و گوێی درێژ و لاقی کورت ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Dachshunds are known for their playful nature."),
                     ExampleSentenceKurdish(
-                        text: "پێ‌کوڵەکان ناسراون بۆ سرووشتی هاروهاجییان."),
+                        text: "پێ‌کوڵەکان ناسراون بۆ سرووشتی ھاروھاجییان."),
                   ],
                 ),
               ),

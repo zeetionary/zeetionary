@@ -405,9 +405,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کاولی، وێرانی، خاپووری، وێرانە، کاولە، خاپوورە، جێگای وێران، وێرانستان، کەلاوە،	وێران‌کردن، خاپووراندن، کاولاندن، بەقوڕگرتن،	هەناسەساردی، قوڕبەسەری، بێچارەیی، لێ‌قەوماوی، کڵۆڵی،	خەم، پەژارە، خەفەت، کزی، دڵتەنگی، پەرێشانی، ناڕەحەتی
+کوردی: کاولی، وێرانی، خاپووری، وێرانە، کاولە، خاپوورە، جێگای وێران، وێرانستان، کەلاوە،	وێران‌کردن، خاپووراندن، کاولاندن، بەقوڕگرتن،	ھەناسەساردی، قوڕبەسەری، بێچارەیی، لێ‌قەوماوی، کڵۆڵی،	خەم، پەژارە، خەفەت، کزی، دڵتەنگی، پەرێشانی، ناڕەحەتی
 """),
-          const DefinitionKurdish(text: "١. (ناو) هەستی تەنهایی و بێزاری"),
+          const DefinitionKurdish(text: "١. (ناو) ھەستی تەنھایی و بێزاری"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Her death left him with a terrible sense of desolation."),
                     ExampleSentenceKurdish(
-                        text: "مردنەکەی خستییە هەستێکی خراپی تاسەبارییەوە."),
+                        text: "مردنەکەی خستییە ھەستێکی خراپی تاسەبارییەوە."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She was racked by a feeling of utter desolation."),
                     ExampleSentenceKurdish(
-                        text: "تووشی هەستێکی تەواو لە هەناسەساردی بوو."),
+                        text: "تووشی ھەستێکی تەواو لە ھەناسەساردی بوو."),
                   ],
                 ),
               ),

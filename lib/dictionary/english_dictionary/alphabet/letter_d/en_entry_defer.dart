@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The department deferred the decision for six months."),
                     ExampleSentenceKurdish(
-                        text: "بەشەکە بڕیارەکەی بۆ هەفتەیەک دواخست."),
+                        text: "بەشەکە بڕیارەکەی بۆ ھەفتەیەک دواخست."),
                   ],
                 ),
               ),

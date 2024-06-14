@@ -207,7 +207,7 @@ class EnglishEntrycoolness extends StatelessWidget {
                                             "There's a slight coolness in the air - do you think it's going to rain?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمێک فێنکی لە کەشەکەدا هەیە، پێت وایە باران ببارێت؟"),
+                                            "کەمێک فێنکی لە کەشەکەدا ھەیە، پێت وایە باران ببارێت؟"),
                                   ],
                                 ),
                               ),
@@ -254,7 +254,7 @@ class EnglishEntrycoolness extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) هێمنی و لەسەرەخۆیی"),
+                              text: "٣. (ناو) ھێمنی و لەسەرەخۆیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -294,7 +294,7 @@ class EnglishEntrycoolness extends StatelessWidget {
                                             "I noticed a certain coolness between them."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستم بە سارد و سڕییەکی دیاریکراو لە نێوانیاندا کرد."),
+                                            "ھەستم بە سارد و سڕییەکی دیاریکراو لە نێوانیاندا کرد."),
                                   ],
                                 ),
                               ),

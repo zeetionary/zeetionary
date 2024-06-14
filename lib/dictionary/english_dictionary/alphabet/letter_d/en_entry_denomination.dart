@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناونان، ناولێنان، نێولەسەردانان، ناو،	دەستایین، تیرە، گروپ یان کۆمەڵێکی دینی،	یەکە، یەکینە،	نرخ، بایی،	ژێرەی هاوبەش، هاوژێرە
+کوردی: ناونان، ناولێنان، نێولەسەردانان، ناو،	دەستایین، تیرە، گروپ یان کۆمەڵێکی دینی،	یەکە، یەکینە،	نرخ، بایی،	ژێرەی ھاوبەش، ھاوژێرە
 """),
           const DefinitionKurdish(text: "١. (ناو) لقێکی کڵێسای مەسیحییەت"),
           Row(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Christians of all denominations attended the conference."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەسیحی هەموو گرووپە جیاوازەکان بەژداری کۆنفرانسەکە بوون."),
+                            "مەسیحی ھەموو گرووپە جیاوازەکان بەژداری کۆنفرانسەکە بوون."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It always takes time to get used to the different denominations of coins when you go to a foreign country."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە کاتی دەوێت بۆ ئەوەی ڕابێیت بە یەکە جیاوازەکانی دراو لە کاتی چوون بۆ وڵاتێکی بیانی."),
+                            "ھەمیشە کاتی دەوێت بۆ ئەوەی ڕابێیت بە یەکە جیاوازەکانی دراو لە کاتی چوون بۆ وڵاتێکی بیانی."),
                   ],
                 ),
               ),

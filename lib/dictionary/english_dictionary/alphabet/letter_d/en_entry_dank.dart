@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The cold dank air made him shiver."),
                     ExampleSentenceKurdish(
-                        text: "هەوا ساردە شێ‌دارەکە خستییە لەرزە."),
+                        text: "ھەوا ساردە شێ‌دارەکە خستییە لەرزە."),
                   ],
                 ),
               ),

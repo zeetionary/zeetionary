@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The assailant struck the victim over the head with a cosh."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا."),
+                            "ھێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا."),
                   ],
                 ),
               ),

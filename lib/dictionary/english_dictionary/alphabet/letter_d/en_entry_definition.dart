@@ -411,11 +411,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پێناسە، ناساندن، پێ‌ناسین، لێکدانەوە(ی بەوردی)، باس‌کردن،	دیاری‌کردن، دەس‌نیشان‌کردن، سنووردانان،	ئاشکرایی، دیاربوون،	(دەنگ، ڕووناکی و هتد) ڕوونی، شەقی، زوڵاڵی، سافی
+کوردی: پێناسە، ناساندن، پێ‌ناسین، لێکدانەوە(ی بەوردی)، باس‌کردن،	دیاری‌کردن، دەس‌نیشان‌کردن، سنووردانان،	ئاشکرایی، دیاربوون،	(دەنگ، ڕووناکی و ھتد) ڕوونی، شەقی، زوڵاڵی، سافی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ڕوونکردنەوەی واتای وشەیەک یان زاراوەیەک، بەتایبەتی لە فەرهەنگێکدا"),
+                  "١. (ناو) ڕوونکردنەوەی واتای وشەیەک یان زاراوەیەک، بەتایبەتی لە فەرھەنگێکدا"),
           Row(
             children: [
               const Expanded(
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The dictionary provides clear, simple definitions."),
                     ExampleSentenceKurdish(
-                        text: "فەرهەنگەکە واتای ڕوون و سادە دەدات بەدەستەوە."),
+                        text: "فەرھەنگەکە واتای ڕوون و سادە دەدات بەدەستەوە."),
                   ],
                 ),
               ),
@@ -596,7 +596,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The term ‘partner’ requires careful definition."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەستەواژەی 'هاوسەر' پێویستی بە ناساندنی بەوریایی هەیە."),
+                            "دەستەواژەی 'ھاوسەر' پێویستی بە ناساندنی بەوریایی ھەیە."),
                   ],
                 ),
               ),

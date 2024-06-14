@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was hoping for some lively political discourse at the meeting."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەهیوای ژمارەیەک وتووێژی سیاسی بەگوڕ بوو لە چاوپێکەوتنەکە."),
+                            "بەھیوای ژمارەیەک وتووێژی سیاسی بەگوڕ بوو لە چاوپێکەوتنەکە."),
                   ],
                 ),
               ),
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // skipped_meaning
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ناو) بەکارهێنانی زمان بۆ گفتوگۆ بە قسە یان نووسین"),
+          // const DefinitionKurdish(text: "٢. (ناو) بەکارھێنانی زمان بۆ گفتوگۆ بە قسە یان نووسین"),
           // // const DividerSentences(),
           // Row(
           //   children: [

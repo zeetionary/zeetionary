@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was deaf to my requests for help."),
                     ExampleSentenceKurdish(
-                        text: "کەڕ بوو لە بەرامبەر هەوڵەکانم بۆ یارمەتی."),
+                        text: "کەڕ بوو لە بەرامبەر ھەوڵەکانم بۆ یارمەتی."),
                   ],
                 ),
               ),

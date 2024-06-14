@@ -14,7 +14,8 @@ class EnglishEntrycrashlanding extends StatefulWidget {
   const EnglishEntrycrashlanding({super.key});
 
   @override
-  State<EnglishEntrycrashlanding> createState() => _EnglishEntrycrashlandingState();
+  State<EnglishEntrycrashlanding> createState() =>
+      _EnglishEntrycrashlandingState();
 }
 
 class _EnglishEntrycrashlandingState extends State<EnglishEntrycrashlanding> {
@@ -330,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) نیشتنەوەی ناچاری"),
           Row(
@@ -341,7 +342,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The pilot attempted a crash-landing on the beach."),
-                    ExampleSentenceKurdish(text: "فڕۆکەوانەکە هەوڵی نیشتنەوەی ناچاری دا لە کەناراوەکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "فڕۆکەوانەکە ھەوڵی نیشتنەوەی ناچاری دا لە کەناراوەکە."),
                   ],
                 ),
               ),

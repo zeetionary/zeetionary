@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I strongly disapprove of underage drinking."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە تەواوی دژ بە خواردنەوەی کەسانی خوار هەرزەکارم."),
+                            "بە تەواوی دژ بە خواردنەوەی کەسانی خوار ھەرزەکارم."),
                   ],
                 ),
               ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) بەفەرمی ڕەتکردنەوەی ئەوەی ڕازی بیت بە پلانێک، داوایەک، هتد"),
+                  "٢. (کردار) بەفەرمی ڕەتکردنەوەی ئەوەی ڕازی بیت بە پلانێک، داوایەک، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Parents should get the option to approve or disapprove a child's online purchase."),
                     ExampleSentenceKurdish(
                         text:
-                            "دایبابان دەبێت هەڵبژاردەی ئەوەیان پێبدرێت کە ڕازین یان دژی کڕینی ئۆنلاینی منداڵێکن."),
+                            "دایبابان دەبێت ھەڵبژاردەی ئەوەیان پێبدرێت کە ڕازین یان دژی کڕینی ئۆنلاینی منداڵێکن."),
                   ],
                 ),
               ),

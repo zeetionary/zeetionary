@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەیام‌نێر، هەواڵ‌نێر،	نامەنووس
+کوردی: پەیام‌نێر، ھەواڵ‌نێر،	نامەنووس
 """),
           const DefinitionKurdish(
               text:
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Now, a report from our Hong Kong correspondent."),
                     ExampleSentenceKurdish(
-                        text: "ئێستا، ڕاپۆرتێک لە پەیامنێری هۆنگ کۆنگمانەوە."),
+                        text: "ئێستا، ڕاپۆرتێک لە پەیامنێری ھۆنگ کۆنگمانەوە."),
                   ],
                 ),
               ),
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I'm a terrible correspondent - I never seem to get the time to write."),
                     ExampleSentenceKurdish(
                         text:
-                            "نامەنووسێکی خراپم، هەرگیز کاتم بەردەست نابێت بۆ نووسین."),
+                            "نامەنووسێکی خراپم، ھەرگیز کاتم بەردەست نابێت بۆ نووسین."),
                   ],
                 ),
               ),

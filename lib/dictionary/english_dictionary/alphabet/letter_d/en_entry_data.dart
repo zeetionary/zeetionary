@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Table 2 provides data for southeast Nebraska."),
                     ExampleSentenceKurdish(
                         text:
-                            "خشتەی ٢ داتای باشووری ڕۆژهەڵاتی نیبراسکا پیشان دەدات."),
+                            "خشتەی ٢ داتای باشووری ڕۆژھەڵاتی نیبراسکا پیشان دەدات."),
                   ],
                 ),
               ),
@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Multiple data collection methods were used."),
                     ExampleSentenceKurdish(
-                        text: "ژمارەیەک شێوازی کۆکردنەوەی داتا بەکارهاتن."),
+                        text: "ژمارەیەک شێوازی کۆکردنەوەی داتا بەکارھاتن."),
                   ],
                 ),
               ),
@@ -514,7 +514,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All this data is stored on hundreds of servers in San Francisco."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو داتایە لە سەدان سێرڤەر لە سان فرانسیسکۆ کۆگا کراون."),
+                            "ھەموو داتایە لە سەدان سێرڤەر لە سان فرانسیسکۆ کۆگا کراون."),
                   ],
                 ),
               ),

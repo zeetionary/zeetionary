@@ -408,11 +408,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەیاندن، هێنان، پێدان، دان، دانەدەس، بەدەستەوەدان، بەدەستەوەدانی نامە و بوخچەی پۆستی،	(وتار و...) کردن، وتن، دەربڕین، شێوەی دەربڕین، ڕاوێژ،	مناڵ‌بوون،	ڕزگاری، ئازادی، نەجات،	بەدەستەوەدان،	خستن، هاویشتن، هەڵدان (بەتایبەت تۆپی کریکێت)،	شێوازی هاویشتن
+کوردی: گەیاندن، ھێنان، پێدان، دان، دانەدەس، بەدەستەوەدان، بەدەستەوەدانی نامە و بوخچەی پۆستی،	(وتار و...) کردن، وتن، دەربڕین، شێوەی دەربڕین، ڕاوێژ،	مناڵ‌بوون،	ڕزگاری، ئازادی، نەجات،	بەدەستەوەدان،	خستن، ھاویشتن، ھەڵدان (بەتایبەت تۆپی کریکێت)،	شێوازی ھاویشتن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گواستنەوەی کەلوپەل، نامە، هتد لە شوێنێکەوە بۆ یەکێکی دیکە"),
+                  "١. (ناو) گواستنەوەی کەلوپەل، نامە، ھتد لە شوێنێکەوە بۆ یەکێکی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She had a very easy delivery with her second child."),
                     ExampleSentenceKurdish(
                         text:
-                            "منداڵبوونێکی ئاسانی هەبوو لەگەڵ منداڵی دووەمدا."),
+                            "منداڵبوونێکی ئاسانی ھەبوو لەگەڵ منداڵی دووەمدا."),
                   ],
                 ),
               ),
@@ -557,7 +557,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) شێوازی ئەوەی کە کەسێک قسەکات، گۆرانی دەڵێت، هتد لە شوێنێکی گشتیدا"),
+                  "٤. (ناو) شێوازی ئەوەی کە کەسێک قسەکات، گۆرانی دەڵێت، ھتد لە شوێنێکی گشتیدا"),
           const DividerSentences(),
           Row(
             children: [
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The beautiful poetry was ruined by her poor delivery."),
                     ExampleSentenceKurdish(
-                        text: "هۆنراوە جوانەکە وێرانکرا بە دەربڕینە خراپەکەی."),
+                        text: "ھۆنراوە جوانەکە وێرانکرا بە دەربڕینە خراپەکەی."),
                   ],
                 ),
               ),

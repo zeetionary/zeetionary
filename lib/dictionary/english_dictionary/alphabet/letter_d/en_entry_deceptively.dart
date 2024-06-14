@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: فریودەرانە، لەخشتەبەرانە، خەڵەتێنەرانە
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) بە ئاستێکی کەمتر لەوەی هەیە"),
+              text: "١. (ھاوەڵکار) بە ئاستێکی کەمتر لەوەی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵکار) بە ئاستێکی زیاتر لەوەی هەیە"),
+              text: "٢. (ھاوەڵکار) بە ئاستێکی زیاتر لەوەی ھەیە"),
           Row(
             children: [
               const Expanded(

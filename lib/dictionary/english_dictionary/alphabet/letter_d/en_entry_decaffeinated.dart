@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو، هاوەڵناو) خواردنەوەیەکی بێ کافین"),
+              text: "١. (ناو، ھاوەڵناو) خواردنەوەیەکی بێ کافین"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cafe offers a variety of decaffeinated drinks for those who prefer to avoid caffeine."),
                     ExampleSentenceKurdish(
                         text:
-                            "قاوەخانەکە ژمارەیەک خواردنەوەی بێ کافینی هەیە بۆ ژمارەیەک لەو کەسانەی کە وایان پێ باشە کە لە کافین دوور بن."),
+                            "قاوەخانەکە ژمارەیەک خواردنەوەی بێ کافینی ھەیە بۆ ژمارەیەک لەو کەسانەی کە وایان پێ باشە کە لە کافین دوور بن."),
                   ],
                 ),
               ),

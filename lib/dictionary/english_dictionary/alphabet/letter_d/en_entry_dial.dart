@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) پێوەرێک کە پلەی گەرمی، خێرایی، کات، بڕ، هتد دەخوێنێتەوە"),
+                  "١. (ناو) پێوەرێک کە پلەی گەرمی، خێرایی، کات، بڕ، ھتد دەخوێنێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Check the tyre pressure on the dial."),
                     ExampleSentenceKurdish(
-                        text: "لەسەر پێوەرەکە هەوای تایەکە بپشکنە."),
+                        text: "لەسەر پێوەرەکە ھەوای تایەکە بپشکنە."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He turned the dial carefully to avoid mistakes."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە وریایی ژمارەگری تەلەفۆنەکەی سوڕاند بۆ ئەوەی هەڵە نەکات."),
+                            "بە وریایی ژمارەگری تەلەفۆنەکەی سوڕاند بۆ ئەوەی ھەڵە نەکات."),
                   ],
                 ),
               ),
@@ -530,7 +530,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) بەکارهێنانی موبایلێک یان ژمارەگری تەلەفۆنێک بۆ پەیوەندی کردن"),
+                  "٣. (کردار) بەکارھێنانی موبایلێک یان ژمارەگری تەلەفۆنێک بۆ پەیوەندی کردن"),
           const DividerSentences(),
           Row(
             children: [

@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاگەیاندن، ڕاگەهاندن، بانگ، بانگ‌ڕاهێشتن، دانەزانین، ئاگادارکردنەوە، بانگەواز،	دەربڕین، ئاشکراکردن، وتن، ڕاگەیاندن‌نامە، ئاگاداری، داخویانی، بەیان‌نامە،	ئاگانامە، ڕاگەیاندن‌نامە (باج و هتد)
+کوردی: ڕاگەیاندن، ڕاگەھاندن، بانگ، بانگ‌ڕاھێشتن، دانەزانین، ئاگادارکردنەوە، بانگەواز،	دەربڕین، ئاشکراکردن، وتن، ڕاگەیاندن‌نامە، ئاگاداری، داخویانی، بەیان‌نامە،	ئاگانامە، ڕاگەیاندن‌نامە (باج و ھتد)
 """),
           const DefinitionKurdish(
               text:
@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All four countries have adopted the declaration against hunting these rare animals."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر چوار وڵاتەکە ڕازی بوونە بە بەیاننامەیەک دژ بە ڕاوکردنی ئەم ئاژەڵە دەگمەنانە."),
+                            "ھەر چوار وڵاتەکە ڕازی بوونە بە بەیاننامەیەک دژ بە ڕاوکردنی ئەم ئاژەڵە دەگمەنانە."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) لێدوانێکی نووسراو یان گوتراو، بەتایبەتی سەبارەت بەوەی کە خەڵکی هەست یان باوەڕیان چۆنە"),
+                  "٢. (ناو) لێدوانێکی نووسراو یان گوتراو، بەتایبەتی سەبارەت بەوەی کە خەڵکی ھەست یان باوەڕیان چۆنە"),
           Row(
             children: [
               const Expanded(
@@ -466,7 +466,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Russian leader received a ringing declaration of support yesterday."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرۆکی ڕووسیا دوێنێ بەیانێکی بەهێزی پشتیوانی پێگەشت."),
+                            "سەرۆکی ڕووسیا دوێنێ بەیانێکی بەھێزی پشتیوانی پێگەشت."),
                   ],
                 ),
               ),
@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We were asked to sign a declaration to the effect that we were UK citizens."),
                     ExampleSentenceKurdish(
                         text:
-                            "داوامان لێکرا ڕاگەیاندنامەیەک واژۆ بکەین بەو واتایەی کە هاوڵاتی بەریتانیاین."),
+                            "داوامان لێکرا ڕاگەیاندنامەیەک واژۆ بکەین بەو واتایەی کە ھاوڵاتی بەریتانیاین."),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
                             "False declaration of hours worked may lead to dismissal."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە هەڵە ڕاگەیاندنی کاتژمێرەکانی کارکردن ڕەنگە ببێتە هۆکاری دەرکردن."),
+                            "بە ھەڵە ڕاگەیاندنی کاتژمێرەکانی کارکردن ڕەنگە ببێتە ھۆکاری دەرکردن."),
                   ],
                 ),
               ),
@@ -543,7 +543,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) ڕاگەیاندنی ئەنجامی هەڵبژاردن"),
+              text: "٤. (ناو) ڕاگەیاندنی ئەنجامی ھەڵبژاردن"),
           Row(
             children: [
               const Expanded(

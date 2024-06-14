@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کێڵراو، چێنراو، تووپێوەکراو، ڕوێنراو، شێوبڕاو، کێڵگە،	ڕووناکبیر، ڕۆشنبیر، بەکەماڵ، ڕەوشت‌بەرز، پەروەردەکراو، ڕاهێنراو
+کوردی: کێڵراو، چێنراو، تووپێوەکراو، ڕوێنراو، شێوبڕاو، کێڵگە،	ڕووناکبیر، ڕۆشنبیر، بەکەماڵ، ڕەوشت‌بەرز، پەروەردەکراو، ڕاھێنراو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کەسێکی ڕۆشنبیر"),
           Row(

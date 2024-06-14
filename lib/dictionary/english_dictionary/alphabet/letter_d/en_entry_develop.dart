@@ -692,11 +692,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەرە پێدان، گەشە پێدان، پێکهێنان
+کوردی: پەرە پێدان، گەشە پێدان، پێکھێنان
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) گەشەکردن و بەرەوپێشچوون، گەورەتر بوون، پێشکەوتووتر بوون، هتد بە تێپەڕبوونی کات"),
+                  "١. (کردار) گەشەکردن و بەرەوپێشچوون، گەورەتر بوون، پێشکەوتووتر بوون، ھتد بە تێپەڕبوونی کات"),
           Row(
             children: [
               const Expanded(
@@ -736,7 +736,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Some children develop more slowly than others."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک منداڵ هێواشتر گەشە دەکەن وەک لەوانی دیکە."),
+                            "ھەندێک منداڵ ھێواشتر گەشە دەکەن وەک لەوانی دیکە."),
                   ],
                 ),
               ),
@@ -858,7 +858,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "She developed the company from nothing."),
                             ExampleSentenceKurdish(
-                                text: "کۆمپانیاکەی لە هیچەوە پەرەپێدا."),
+                                text: "کۆمپانیاکەی لە ھیچەوە پەرەپێدا."),
                           ],
                         ),
                       ),
@@ -923,7 +923,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He is trying hard to develop a loving relationship with his daughter."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە ڕژدی هەوڵ دەدات کە پەیوەندییەکی خۆشەویستانە لەگەڵ کچەکەی درووست بکات بکات."),
+                            "بە ڕژدی ھەوڵ دەدات کە پەیوەندییەکی خۆشەویستانە لەگەڵ کچەکەی درووست بکات بکات."),
                   ],
                 ),
               ),
@@ -973,7 +973,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) پەرەپێدانی بیرۆکەیەک، بەرهەمێک، هتد و سەرخستنی"),
+                  "٣. (کردار) پەرەپێدانی بیرۆکەیەک، بەرھەمێک، ھتد و سەرخستنی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1042,7 +1042,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We are developing products for different parts of the industry."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەرهەم گەشە پێدەدەین بۆ بەشە جیاوازەکانی پیشەسازی."),
+                            "بەرھەم گەشە پێدەدەین بۆ بەشە جیاوازەکانی پیشەسازی."),
                   ],
                 ),
               ),
@@ -1061,7 +1061,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (کردار) هەبوونی شتێک، وەک نەخۆشییەک یان کێشەیەک"),
+              text: "٤. (کردار) ھەبوونی شتێک، وەک نەخۆشییەک یان کێشەیەک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1202,7 +1202,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "We need more time to see how things develop before we take action."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "پێویستیمان بە کاتی زیاترە کە ببینین چۆن شتەکان تەشەنە دەکەن پێش ئەوەی هەنگاو بنێین."),
+                                    "پێویستیمان بە کاتی زیاترە کە ببینین چۆن شتەکان تەشەنە دەکەن پێش ئەوەی ھەنگاو بنێین."),
                           ],
                         ),
                       ),
@@ -1284,7 +1284,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (کردار) بنیادنانی خانوو، کارگە، هتد ـی تازە لەسەر خاکێک کە پێشووتر بەکار نەدەهات"),
+                  "٦. (کردار) بنیادنانی خانوو، کارگە، ھتد ـی تازە لەسەر خاکێک کە پێشووتر بەکار نەدەھات"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1326,7 +1326,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A lot of residents in town feel that it would be tragic if the land were developed for residential use."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر هاوڵاتی هەست دەکەن تراژیدیا دەبێت ئەگەر خاکەکە بۆ بەکارهێنانی نیشتەجێبوون گەشەی پێ بدرێت."),
+                            "زۆر ھاوڵاتی ھەست دەکەن تراژیدیا دەبێت ئەگەر خاکەکە بۆ بەکارھێنانی نیشتەجێبوون گەشەی پێ بدرێت."),
                   ],
                 ),
               ),
@@ -1355,7 +1355,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The company is developing a chain of hotels."),
                     ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە زنجیرە هوتێلێک درووست دەکات."),
+                        text: "کۆمپانیاکە زنجیرە ھوتێلێک درووست دەکات."),
                   ],
                 ),
               ),
@@ -1462,7 +1462,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٩. (کردار) زیادکردنی وردەکاریی زیاتر بۆ چیرۆکێک، بیرۆکەیەک، هتد"),
+                  "٩. (کردار) زیادکردنی وردەکاریی زیاتر بۆ چیرۆکێک، بیرۆکەیەک، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1474,7 +1474,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She develops the theme more fully in her later books."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە پەرتووکەکانی داهاتووی زیاتر مژارەکە بەرەوپێش دەبات."),
+                            "لە پەرتووکەکانی داھاتووی زیاتر مژارەکە بەرەوپێش دەبات."),
                   ],
                 ),
               ),

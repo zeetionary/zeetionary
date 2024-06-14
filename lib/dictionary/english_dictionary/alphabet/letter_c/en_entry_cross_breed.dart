@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Cross-breeds often exhibit a combination of traits from both parent species."),
                     ExampleSentenceKurdish(
                         text:
-                            "دووڕەگەکان زۆرجار تێکەڵەیەک لە خاسیەتەکانی هەر دوو باوان پیشان دەدەن."),
+                            "دووڕەگەکان زۆرجار تێکەڵەیەک لە خاسیەتەکانی ھەر دوو باوان پیشان دەدەن."),
                   ],
                 ),
               ),
@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) بەرهەمهێنانی ئاژەڵێکی دووڕەگە"),
+              text: "٢. (کردار) بەرھەمھێنانی ئاژەڵێکی دووڕەگە"),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was no scientific evidence that lambs and goats could crossbreed."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ بەڵگەیەکی زانستی نەبوو کە بەرخ و بزن بتوانن دووڕەگە بەرهەمبهێنن."),
+                            "ھیچ بەڵگەیەکی زانستی نەبوو کە بەرخ و بزن بتوانن دووڕەگە بەرھەمبھێنن."),
                   ],
                 ),
               ),

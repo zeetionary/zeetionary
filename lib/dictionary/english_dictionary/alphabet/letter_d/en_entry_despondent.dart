@@ -405,9 +405,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێد، دڵسارد، دڵساردانە،	دڵتەنگ، مات، کز، خەمبار، پەژارەبار
+کوردی: ناھومێد، دڵسارد، دڵساردانە،	دڵتەنگ، مات، کز، خەمبار، پەژارەبار
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) خەمبار و بێ‌هیوا"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) خەمبار و بێ‌ھیوا"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There are times when it is hard not to feel despondent."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک کات هەیە کە زەحمەتە دڵتەنگ نەبیت."),
+                        text: "ھەندێک کات ھەیە کە زەحمەتە دڵتەنگ نەبیت."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Patients often feel despondent."),
                     ExampleSentenceKurdish(
-                        text: "نەخۆشان زۆرجار هەست بە خەفەتباری دەکەن."),
+                        text: "نەخۆشان زۆرجار ھەست بە خەفەتباری دەکەن."),
                   ],
                 ),
               ),

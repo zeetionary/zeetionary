@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) کەسێک کە لە مۆزەخانەیەک، پێشانگایەکی هونەری، هتد بەرپرس و چاودێری کەرەستە و کارە هونەرییەکانە"),
+                  "١. (ھاوەڵناو) کەسێک کە لە مۆزەخانەیەک، پێشانگایەکی ھونەری، ھتد بەرپرس و چاودێری کەرەستە و کارە ھونەرییەکانە"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The museum curator carefully cataloged each new artifact."),
                     ExampleSentenceKurdish(
                         text:
-                            "مۆزەوانەکە بە وریاییەوە هەموو دەسکارێکی تازەی پێڕست دەکرد."),
+                            "مۆزەوانەکە بە وریاییەوە ھەموو دەسکارێکی تازەی پێڕست دەکرد."),
                   ],
                 ),
               ),

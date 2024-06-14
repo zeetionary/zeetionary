@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناخۆش‌ویستن، ڕق‌لێ‌بوون، قین‌لێ‌بوون، چاوپێ‌هەڵنەهاتن
+کوردی: ناخۆش‌ویستن، ڕق‌لێ‌بوون، قین‌لێ‌بوون، چاوپێ‌ھەڵنەھاتن
 """),
           const DefinitionKurdish(text: "١. (کردار) حەزنەکردن لە شتێک"),
           Row(
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Why do you dislike him so much?"),
-                    ExampleSentenceKurdish(text: "بۆچی هێندە ڕقت لێیەتی؟"),
+                    ExampleSentenceKurdish(text: "بۆچی ھێندە ڕقت لێیەتی؟"),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There are very few foods that I actively dislike."),
                     ExampleSentenceKurdish(
-                        text: "کەم خواردن هەیە کە بەڕشتی ڕقم لێی بێت."),
+                        text: "کەم خواردن ھەیە کە بەڕشتی ڕقم لێی بێت."),
                   ],
                 ),
               ),
@@ -623,7 +623,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He did not try to hide his dislike of his boss."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵی نەدا ڕقی بۆ سەرپەرشتیارەکەی بشارێتەوە."),
+                        text: "ھەوڵی نەدا ڕقی بۆ سەرپەرشتیارەکەی بشارێتەوە."),
                   ],
                 ),
               ),
@@ -709,7 +709,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She had a deep dislike for Robert's wife."),
                     ExampleSentenceKurdish(
-                        text: "ڕقێکی زۆری هەبوو بۆ ژنەکەی ڕۆبێرت."),
+                        text: "ڕقێکی زۆری ھەبوو بۆ ژنەکەی ڕۆبێرت."),
                   ],
                 ),
               ),
@@ -738,7 +738,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I've told you all my likes and dislikes."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ئەو شتانەم پێ گوتووی کە حەزم پێیانە یان نا."),
+                            "ھەموو ئەو شتانەم پێ گوتووی کە حەزم پێیانە یان نا."),
                   ],
                 ),
               ),

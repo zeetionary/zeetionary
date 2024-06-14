@@ -334,11 +334,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەڕان یان سەفەر (بە کەشتی)،	خاڵی یەکتربڕ، چوارڕێ‌یانە، دوڕیانە، هاوبڕە، هاوبڕگە،	شوێنی پەڕینەوە (بەتایبەت سەر شەقام)،	سەرسنوور
+کوردی: گەڕان یان سەفەر (بە کەشتی)،	خاڵی یەکتربڕ، چوارڕێ‌یانە، دوڕیانە، ھاوبڕە، ھاوبڕگە،	شوێنی پەڕینەوە (بەتایبەت سەر شەقام)،	سەرسنوور
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) شوێنێک کە لێیەوە دەتوانیت بە سەلامەتی لە ڕووبارێک، ڕێگایەک، هتد بپەڕیتەوە، یان لە وڵاتکەوە بۆ یەکێکی دیکە"),
+                  "١. (ناو) شوێنێک کە لێیەوە دەتوانیت بە سەلامەتی لە ڕووبارێک، ڕێگایەک، ھتد بپەڕیتەوە، یان لە وڵاتکەوە بۆ یەکێکی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "You can only make the crossing in good weather."),
                     ExampleSentenceKurdish(
-                        text: "تەنها لە کەشی باشدا دەتوانیت گەشتەکە بکەیت."),
+                        text: "تەنھا لە کەشی باشدا دەتوانیت گەشتەکە بکەیت."),
                   ],
                 ),
               ),

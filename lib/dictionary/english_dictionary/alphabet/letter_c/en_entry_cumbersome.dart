@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قورس، پڕئەرک، مایەی زەحمەت، هەراسان‌کەر، دەس‌وپێگر، گەورە و قورس، زلە، ناقۆڵا، نالەبار، ناهەموار، بارناخۆش، تەکان‌نەدراو، ئاڵۆز، کەم‌جم‌وجۆڵ، چەقیو، گران‌هەڵگیراو،	هێواش، خاو،	ئاڵۆز، پێچەڵاوپێچ
+کوردی: قورس، پڕئەرک، مایەی زەحمەت، ھەراسان‌کەر، دەس‌وپێگر، گەورە و قورس، زلە، ناقۆڵا، نالەبار، ناھەموار، بارناخۆش، تەکان‌نەدراو، ئاڵۆز، کەم‌جم‌وجۆڵ، چەقیو، گران‌ھەڵگیراو،	ھێواش، خاو،	ئاڵۆز، پێچەڵاوپێچ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قوورس و گەورە"),
           Row(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cumbersome package was too heavy for one person to lift."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاکێجەکە گەورەکە زۆر قورس بوو کە یەک کەس هەڵیبگرێت."),
+                            "پاکێجەکە گەورەکە زۆر قورس بوو کە یەک کەس ھەڵیبگرێت."),
                   ],
                 ),
               ),

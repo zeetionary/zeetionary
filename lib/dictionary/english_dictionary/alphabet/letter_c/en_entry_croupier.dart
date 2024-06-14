@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He trained for months to become a skilled croupier."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ چەندین ڕاهێنانی کرد بۆ بوون بە میزگێڕێکی شارەزا."),
+                            "بۆ چەندین ڕاھێنانی کرد بۆ بوون بە میزگێڕێکی شارەزا."),
                   ],
                 ),
               ),

@@ -196,7 +196,7 @@ class EnglishEntrycordial extends StatelessWidget {
 کوردی: خۆش، دۆستانە، گەرم، گەرم‌وگوڕ، توند، قووڵ، لە دڵەوە،	شەربەت، خۆشاو، شیراو،	دەرمانی تام‌شیرین
 """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) خۆش و هاوڕێیانە"),
+                              text: "١. (ھاوەڵناو) خۆش و ھاوڕێیانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntrycordial extends StatelessWidget {
                                             "The government wisely maintained cordial relations with the Russians."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت ژیرانە پەیوەندی گەرموگوڕی هێشتەوە لەگەڵ ڕووسەکاندا."),
+                                            "حکومەت ژیرانە پەیوەندی گەرموگوڕی ھێشتەوە لەگەڵ ڕووسەکاندا."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycordial extends StatelessWidget {
                                             "In the summer, it's nice to relax with a tall glass of chilled lemon cordial."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هاویندا خۆشە بحەسێیتەوە بە گڵاسێکی درێژ لە شەربەتی میوەی کەلەتەزێن."),
+                                            "لە ھاویندا خۆشە بحەسێیتەوە بە گڵاسێکی درێژ لە شەربەتی میوەی کەلەتەزێن."),
                                   ],
                                 ),
                               ),

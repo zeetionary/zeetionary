@@ -633,7 +633,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرهەم، بەروبۆ، بەروبوو، بەربێڵ، بەرجفت، ڕێژان، ئاژار، داهات، هاورد، حاسڵ،	دەستە، گروپ، کۆمەڵ، تاقم،	زنجیرە، لیزگە، خێزەرە، ڕێچکە،	چیکڵدانە، گورچوو، جیکەڵدانە، کاسینۆک، هێڕک، چکڵانە،	شێلاق، تاژان، جەڵدە،	دەسک یان قوڵفەی شێلاق،	قژی کورت، سەری تاشراو
+کوردی: بەرھەم، بەروبۆ، بەروبوو، بەربێڵ، بەرجفت، ڕێژان، ئاژار، داھات، ھاورد، حاسڵ،	دەستە، گروپ، کۆمەڵ، تاقم،	زنجیرە، لیزگە، خێزەرە، ڕێچکە،	چیکڵدانە، گورچوو، جیکەڵدانە، کاسینۆک، ھێڕک، چکڵانە،	شێلاق، تاژان، جەڵدە،	دەسک یان قوڵفەی شێلاق،	قژی کورت، سەری تاشراو
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕووەکێک کە بۆ ڕێژەیەکی زۆر دەچێندرێت"),
@@ -760,7 +760,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Rice is a staple crop for more than half of the world's population."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "برنج بەروبوویەکی سەرەتاییە بۆ زیاتر لە نیوەی دانیشتووانی جیهان."),
+                                    "برنج بەروبوویەکی سەرەتاییە بۆ زیاتر لە نیوەی دانیشتووانی جیھان."),
                           ],
                         ),
                       ),
@@ -795,7 +795,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Australia's wheat crop is likely to be lower than forecast this year."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەرهەمی گەنمی ئوسترالیا ئەگەری هەیە کەمتر بێت لەوەی ئەمساڵ پێشبینی کراوە."),
+                            "بەرھەمی گەنمی ئوسترالیا ئەگەری ھەیە کەمتر بێت لەوەی ئەمساڵ پێشبینی کراوە."),
                   ],
                 ),
               ),
@@ -822,7 +822,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We are looking forward to a bumper crop (= a very large one)."),
                     ExampleSentenceKurdish(
-                        text: "ئەمساڵ چاوەڕێی بەرهەمێکی زۆر دەکەین."),
+                        text: "ئەمساڵ چاوەڕێی بەرھەمێکی زۆر دەکەین."),
                   ],
                 ),
               ),
@@ -848,7 +848,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We had a very good crop of apples last year."),
                     ExampleSentenceKurdish(
-                        text: "ساڵی پار بەرهەمێکی باشی گەنممان هەبوو."),
+                        text: "ساڵی پار بەرھەمێکی باشی گەنممان ھەبوو."),
                   ],
                 ),
               ),
@@ -867,7 +867,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) کۆمەڵە کەسێک کە شتێک لە هەمان کاتدا دەکەن"),
+              text: "٣. (ناو) کۆمەڵە کەسێک کە شتێک لە ھەمان کاتدا دەکەن"),
           Row(
             children: [
               const Expanded(
@@ -991,7 +991,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He cropped the photo so that only the face remained."),
                     ExampleSentenceKurdish(
                         text:
-                            "وێنەکەی بڕی بەشێوەیەک کە تەنها ڕووخساری مایەوە."),
+                            "وێنەکەی بڕی بەشێوەیەک کە تەنھا ڕووخساری مایەوە."),
                   ],
                 ),
               ),
@@ -1020,7 +1020,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The horses were quietly cropping the grass."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەسپەکان بە هێمنی لە ناو سەوزەگیاکەدا دەلەوەڕین."),
+                            "ئەسپەکان بە ھێمنی لە ناو سەوزەگیاکەدا دەلەوەڕین."),
                   ],
                 ),
               ),
@@ -1038,7 +1038,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٩. (کردار) هەبوونی بەروبووم"),
+          const DefinitionKurdish(text: "٩. (کردار) ھەبوونی بەروبووم"),
           Row(
             children: [
               const Expanded(
@@ -1047,7 +1047,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The potatoes cropped well this year."),
                     ExampleSentenceKurdish(
-                        text: "پەتاتەکە ئەمساڵ بەرهەمی باشی بوو."),
+                        text: "پەتاتەکە ئەمساڵ بەرھەمی باشی بوو."),
                   ],
                 ),
               ),
@@ -1066,7 +1066,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٠. (کردار) بەکارهێنانی زەوی بۆ بەروبووم"),
+              text: "١٠. (کردار) بەکارھێنانی زەوی بۆ بەروبووم"),
           Row(
             children: [
               const Expanded(

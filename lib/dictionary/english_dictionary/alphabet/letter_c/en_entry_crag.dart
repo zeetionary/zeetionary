@@ -330,9 +330,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (کێو) هەڵدێر، هەزاربەهەزار، هەڵەت، ما، کەمەر، ڕەوەز، کەژ، زەردوماهی، کەڕا، زنار، هەڵەمووت
+کوردی: (کێو) ھەڵدێر، ھەزاربەھەزار، ھەڵەت، ما، کەمەر، ڕەوەز، کەژ، زەردوماھی، کەڕا، زنار، ھەڵەمووت
 """),
-          const DefinitionKurdish(text: "١. (ناو) کێوێکی بەرزی سەخت و هەڵدێر"),
+          const DefinitionKurdish(text: "١. (ناو) کێوێکی بەرزی سەخت و ھەڵدێر"),
           Row(
             children: [
               const Expanded(

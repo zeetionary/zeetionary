@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) بڵاوکردنەوەی شتێکی وەک بۆیە، قوڕ، هتد بەسەر شتێکی تردا"),
+                  "١. (کردار) بڵاوکردنەوەی شتێکی وەک بۆیە، قوڕ، ھتد بەسەر شتێکی تردا"),
           Row(
             children: [
               const Expanded(
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They used spray paint to daub slogans on the walls."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆیەیەکی سپرەییان بەکارهێنا بۆ هەڵسوانی سلۆگان لەسەر دیوارەکە."),
+                            "بۆیەیەکی سپرەییان بەکارھێنا بۆ ھەڵسوانی سلۆگان لەسەر دیوارەکە."),
                   ],
                 ),
               ),
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) تێکەڵەیەکی قوڕ کە لە ڕابردوودا بەکاردەهات بۆ درووستکردنی دیوار"),
+                  "٢. (ناو) تێکەڵەیەکی قوڕ کە لە ڕابردوودا بەکاردەھات بۆ درووستکردنی دیوار"),
           Row(
             children: [
               const Expanded(

@@ -5487,7 +5487,7 @@ final Map<String, String> wordRoutes = {
   "duty-free": "/english-duty-free", // فففف duty-free
   "duvet": "/english-duvet",
   "DVD": "/english-dvd", // فففف DVD
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "DVT": "/english-deep-vein-thrombosis",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

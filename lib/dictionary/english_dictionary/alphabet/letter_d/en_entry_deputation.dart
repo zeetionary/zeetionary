@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The mayor agreed to receive a deputation of local residents."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرۆک شارەوانییەکە پێشوازیی لە شاندێکی هاوڵاتییە خۆجێیەکان کرد."),
+                            "سەرۆک شارەوانییەکە پێشوازیی لە شاندێکی ھاوڵاتییە خۆجێیەکان کرد."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Both sides in the dispute sent deputations to the prime minister's office."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەردوو لایەنی ناکۆکییەکە شاندیان نارد بۆ ئۆفیسی سەرۆک وەزیران."),
+                            "ھەردوو لایەنی ناکۆکییەکە شاندیان نارد بۆ ئۆفیسی سەرۆک وەزیران."),
                   ],
                 ),
               ),

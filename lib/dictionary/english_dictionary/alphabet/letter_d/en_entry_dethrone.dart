@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The world champion was dethroned by a young Swedish challenger."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاڵەوانە جیهانییەکە لەلایەن ڕکابەرێکی سویدییەوە شکستی پێهێنرا."),
+                            "پاڵەوانە جیھانییەکە لەلایەن ڕکابەرێکی سویدییەوە شکستی پێھێنرا."),
                   ],
                 ),
               ),

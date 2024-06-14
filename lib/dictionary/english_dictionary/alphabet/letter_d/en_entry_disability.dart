@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەک‌کەوتوویی، لاکەوتەیی، کەمەندامی، کەم‌ئەندامی، نوقسانی، سەقەتی، کۆچیلی،	گرفت، عەیب، لەکارکەوتوویی، لەدەس‌نەهاتن، پێ‌نەکران، نەتوانین، بێ‌دەسەڵاتی، دەستەوسانی،	(ماف) لێنەهاتوویی، بەکارنەهاتوویی، لێنەوەشاوەیی
+کوردی: پەک‌کەوتوویی، لاکەوتەیی، کەمەندامی، کەم‌ئەندامی، نوقسانی، سەقەتی، کۆچیلی،	گرفت، عەیب، لەکارکەوتوویی، لەدەس‌نەھاتن، پێ‌نەکران، نەتوانین، بێ‌دەسەڵاتی، دەستەوسانی،	(ماف) لێنەھاتوویی، بەکارنەھاتوویی، لێنەوەشاوەیی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەمئەندامی؛ دۆخێکی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ هەندێک کەس شتانێک بکەن کە زۆر کەس دەتوانن بیکەن"),
+                  "١. (ناو) کەمئەندامی؛ دۆخێکی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ ھەندێک کەس شتانێک بکەن کە زۆر کەس دەتوانن بیکەن"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We know some people with disabilities may require additional support to participate."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەزانین هەندێک کەسی کەمئەندام ڕەنگە پێویستیان بە پشتگیری زیاتر بێت بۆ بەژداری."),
+                            "دەزانین ھەندێک کەسی کەمئەندام ڕەنگە پێویستیان بە پشتگیری زیاتر بێت بۆ بەژداری."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He has a permanent disability which prevents him from working as a labourer."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمئەندامییەکی هەمیشەیی هەیە کە ڕێگای لێدەگرێت کار بکات وەک کرێکارێک."),
+                            "کەمئەندامییەکی ھەمیشەیی ھەیە کە ڕێگای لێدەگرێت کار بکات وەک کرێکارێک."),
                   ],
                 ),
               ),
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) دۆخی هەبوونی کەمئەندامی"),
+          const DefinitionKurdish(text: "٢. (ناو) دۆخی ھەبوونی کەمئەندامی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He qualifies for help on the grounds of disability."),
                     ExampleSentenceKurdish(
-                        text: "شایستەی یارمەتی دەبێت بە هۆکاری کەمئەندامی."),
+                        text: "شایستەی یارمەتی دەبێت بە ھۆکاری کەمئەندامی."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The programme offers support to people living with disability."),
                     ExampleSentenceKurdish(
                         text:
-                            "پڕۆگرامەکە یارمەتی پێشکەش بەو کەسانە دەکات کە کەمئەندامییان هەیە."),
+                            "پڕۆگرامەکە یارمەتی پێشکەش بەو کەسانە دەکات کە کەمئەندامییان ھەیە."),
                   ],
                 ),
               ),

@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The car was found to have defective brakes."),
                     ExampleSentenceKurdish(
-                        text: "زانرا ئۆتۆمبێلەکە وەستێنەری کێشەداری هەیە."),
+                        text: "زانرا ئۆتۆمبێلەکە وەستێنەری کێشەداری ھەیە."),
                   ],
                 ),
               ),
@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) هەبوونی کێشەیەک لە ئەندامی جەستەدا یان لە شێوازی کارکردنیدا"),
+                  "٢. (ھاوەڵناو) ھەبوونی کێشەیەک لە ئەندامی جەستەدا یان لە شێوازی کارکردنیدا"),
           Row(
             children: [
               const Expanded(
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Her hearing was found to be slightly defective."),
                     ExampleSentenceKurdish(
-                        text: "بیستنی وابینرا کە کەمێک کێشەی هەبێت."),
+                        text: "بیستنی وابینرا کە کەمێک کێشەی ھەبێت."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His vision is severely defective."),
                     ExampleSentenceKurdish(
-                        text: "بینایی وابینرا تەواو کێشەی هەبێت."),
+                        text: "بینایی وابینرا تەواو کێشەی ھەبێت."),
                   ],
                 ),
               ),

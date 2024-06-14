@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She described her son as a cuddly child who loved bedtime stories."),
                     ExampleSentenceKurdish(
                         text:
-                            "کوڕەکەی وەها باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو."),
+                            "کوڕەکەی وەھا باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو."),
                   ],
                 ),
               ),

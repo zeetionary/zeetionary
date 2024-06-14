@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) جیهانی ئینتەرنێت؛ ئینتەرنێت کە سەیر دەکرێت وەک جیهانێکی خەیاڵی کە تێیدا کۆمپیوتەرەکان لە پەیوەندیدا دەبن"),
+                  "١. (ناو) جیھانی ئینتەرنێت؛ ئینتەرنێت کە سەیر دەکرێت وەک جیھانێکی خەیاڵی کە تێیدا کۆمپیوتەرەکان لە پەیوەندیدا دەبن"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many more business functions will move into cyberspace."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەکی زۆری زیاتر لە کاری بازرگانی دەچنە ناو جیهانی ئینتەرنێت."),
+                            "ژمارەیەکی زۆری زیاتر لە کاری بازرگانی دەچنە ناو جیھانی ئینتەرنێت."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can find the answer to almost any question in cyberspace."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانیت وەڵامی تا ڕادەیەک هەموو پرسیارێک لە جیهانی ئینتەرنێتدا بدۆزیتەوە."),
+                            "دەتوانیت وەڵامی تا ڕادەیەک ھەموو پرسیارێک لە جیھانی ئینتەرنێتدا بدۆزیتەوە."),
                   ],
                 ),
               ),

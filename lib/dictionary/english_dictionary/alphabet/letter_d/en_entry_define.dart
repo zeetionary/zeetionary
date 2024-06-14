@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Life imprisonment is defined as 60 years under state law."),
                     ExampleSentenceKurdish(
                         text:
-                            "زیندانی هەتاهەتایی بە ٦٠ ساڵ دیاریکراوە بەپێی یاسای وڵات."),
+                            "زیندانی ھەتاھەتایی بە ٦٠ ساڵ دیاریکراوە بەپێی یاسای وڵات."),
                   ],
                 ),
               ),
@@ -564,7 +564,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "It is difficult to define what makes him so popular."),
                     ExampleSentenceKurdish(
-                        text: "سەختە دیاری بکرێت چی وەها بەناوبانگی دەکات."),
+                        text: "سەختە دیاری بکرێت چی وەھا بەناوبانگی دەکات."),
                   ],
                 ),
               ),

@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دروستی، ڕاستی، ڕاست‌بوون
 """),
-          const DefinitionKurdish(text: "١. (ناو) ڕاستبوون، بەبێ هەڵە"),
+          const DefinitionKurdish(text: "١. (ناو) ڕاستبوون، بەبێ ھەڵە"),
           Row(
             children: [
               const Expanded(
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He speaks with such correctness that it sometimes sounds very formal."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێندە بە ئاگاییەوە قسە دەکات کە هەندێک جار فەرمی دیارە."),
+                            "ھێندە بە ئاگاییەوە قسە دەکات کە ھەندێک جار فەرمی دیارە."),
                   ],
                 ),
               ),

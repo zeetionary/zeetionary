@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێد کردن، دڵسارد کردن، بێ هیوا کردن
+کوردی: ناھومێد کردن، دڵسارد کردن، بێ ھیوا کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) نائومێدکردن"),
           Row(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her decision to cancel the concert is bound to disappoint her fans."),
                     ExampleSentenceKurdish(
                         text:
-                            "بڕیارەکەیان بۆ هەڵوەشاندنەوەی کۆنسێرتەکە بەدڵنیاییەوە هەوادارانی نائومێد دەکات."),
+                            "بڕیارەکەیان بۆ ھەڵوەشاندنەوەی کۆنسێرتەکە بەدڵنیاییەوە ھەوادارانی نائومێد دەکات."),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) ڕێگرتن لەوەی شتێک کە کەسێک هیوای بۆ دەخوازێت ببێت بە ڕاستی"),
+                  "٢. (کردار) ڕێگرتن لەوەی شتێک کە کەسێک ھیوای بۆ دەخوازێت ببێت بە ڕاستی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -536,7 +536,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The new government had soon disappointed the hopes of many of its supporters."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەتە تازەکە هەرزوو هیوای زۆرێک لە هەوادارەکانی خەفاند."),
+                            "حکومەتە تازەکە ھەرزوو ھیوای زۆرێک لە ھەوادارەکانی خەفاند."),
                   ],
                 ),
               ),
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           //           ExampleSentenceEnglish(text: "If he agrees to the deal he will disappoint the expectations of many colleagues."),
-          //           ExampleSentenceKurdish(text: "ئەگەر بە ڕێکەوتنەکە ڕازی ببێت ئەوا پێشبینی زۆرێک لە هاوکارەکانی ."),
+          //           ExampleSentenceKurdish(text: "ئەگەر بە ڕێکەوتنەکە ڕازی ببێت ئەوا پێشبینی زۆرێک لە ھاوکارەکانی ."),
           //         ],
           //       ),
           //     ),

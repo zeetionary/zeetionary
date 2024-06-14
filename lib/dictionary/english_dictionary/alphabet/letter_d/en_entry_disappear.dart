@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The plane disappeared behind a cloud."),
                     ExampleSentenceKurdish(
-                        text: "فڕۆکەکە لەپشتی هەورێکەوە ونبوو."),
+                        text: "فڕۆکەکە لەپشتی ھەورێکەوە ونبوو."),
                   ],
                 ),
               ),
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The problem won't just disappear."),
-                    ExampleSentenceKurdish(text: "کێشەکە هەروا چارە نابێت."),
+                    ExampleSentenceKurdish(text: "کێشەکە ھەروا چارە نابێت."),
                   ],
                 ),
               ),
@@ -656,7 +656,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I can never find a pen in this house. They disappear as soon as I buy them."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرگیز ناتوانم پێنووسێک لەم ماڵەدا بدۆزمەوە. وندەبن هەرکە دەیانکڕم."),
+                            "ھەرگیز ناتوانم پێنووسێک لەم ماڵەدا بدۆزمەوە. وندەبن ھەرکە دەیانکڕم."),
                   ],
                 ),
               ),
@@ -686,7 +686,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The plane mysteriously disappeared over the Indian Ocean."),
                     ExampleSentenceKurdish(
                         text:
-                            "فڕۆکەکە بەشێوەیەکی نهێنی لەسەر زەریای هندی ونبوو."),
+                            "فڕۆکەکە بەشێوەیەکی نھێنی لەسەر زەریای ھندی ونبوو."),
                   ],
                 ),
               ),
@@ -735,7 +735,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) کوشتن یان هێشتنەوەی کەسێک بەبێ دادگایی لە زیندان، بەزۆری بۆ هۆکاری سیاسی"),
+                  "٤. (کردار) کوشتن یان ھێشتنەوەی کەسێک بەبێ دادگایی لە زیندان، بەزۆری بۆ ھۆکاری سیاسی"),
           // const DividerSentences(),
           Row(
             children: [

@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: باهۆز، گێژەڵووکە، گەردەلوول، زەمەن، گیژەبا، باگێژە، باگرد، زڤرک
+کوردی: باھۆز، گێژەڵووکە، گەردەلوول، زەمەن، گیژەبا، باگێژە، باگرد، زڤرک
 """),
           const DefinitionKurdish(
               text:
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The cyclone struck the village late last night."),
                     ExampleSentenceKurdish(
-                        text: "باهۆزەکە شەوی ڕابردوو لە گوندەکەی دا."),
+                        text: "باھۆزەکە شەوی ڕابردوو لە گوندەکەی دا."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The islands have been devastated by cyclones in recent months."),
                     ExampleSentenceKurdish(
                         text:
-                            "دوورگەکان لە چەند مانگی پێشوودا وێرانبوونە بە باهۆز."),
+                            "دوورگەکان لە چەند مانگی پێشوودا وێرانبوونە بە باھۆز."),
                   ],
                 ),
               ),

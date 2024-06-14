@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He discerned a certain coldness in their welcome."),
                     ExampleSentenceKurdish(
-                        text: "هەستی بە جۆرە ساردییەک کرد لە خێراتنەکەی."),
+                        text: "ھەستی بە جۆرە ساردییەک کرد لە خێراتنەکەی."),
                   ],
                 ),
               ),
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: " I quickly discerned that something was wrong."),
                     ExampleSentenceKurdish(
-                        text: "بەخێرایی زەنیم کە شتێک هەڵەیە."),
+                        text: "بەخێرایی زەنیم کە شتێک ھەڵەیە."),
                   ],
                 ),
               ),

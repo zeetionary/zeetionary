@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The weather was disagreeably hot."),
                     ExampleSentenceKurdish(
-                        text: "هاوڕێکەی ناسازانە مقەی دەهات."),
+                        text: "ھاوڕێکەی ناسازانە مقەی دەھات."),
                   ],
                 ),
               ),

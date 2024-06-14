@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گریمان، فەڕز کردن، خەیاڵ کردن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) هەبوونی بۆچوونێکی دیاریکراو لەسەر کەسێک/شتێک"),
+              text: "١. (کردار) ھەبوونی بۆچوونێکی دیاریکراو لەسەر کەسێک/شتێک"),
           Row(
             children: [
               const Expanded(
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I deem it an honour to be invited."),
                     ExampleSentenceKurdish(
-                        text: "بە شانازییەکم دانا کە بانگهێشت کرابم."),
+                        text: "بە شانازییەکم دانا کە بانگھێشت کرابم."),
                   ],
                 ),
               ),
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They would take any action deemed necessary."),
                     ExampleSentenceKurdish(
-                        text: "هەر هەنگاوێک دەنێن کە بە پێویست ببینرێت."),
+                        text: "ھەر ھەنگاوێک دەنێن کە بە پێویست ببینرێت."),
                   ],
                 ),
               ),

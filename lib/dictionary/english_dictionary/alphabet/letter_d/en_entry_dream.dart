@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -551,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەون، خەو،	ئاوات، هیوا، خەیاڵ، خەون‌وخەیاڵ
+کوردی: خەون، خەو،	ئاوات، ھیوا، خەیاڵ، خەون‌وخەیاڵ
 """),
           const DefinitionKurdish(text: "١. (ناو) خەوبینین لەکاتی خەودا"),
           Row(
@@ -592,7 +594,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I thought someone came into the bedroom, but it was just a dream."),
                     ExampleSentenceKurdish(
                         text:
-                            "وام بیرکردەوە کەسێک هاتە ژووری خەوەکەم، بەڵام تەنها خەونێک بوو."),
+                            "وام بیرکردەوە کەسێک ھاتە ژووری خەوەکەم، بەڵام تەنھا خەونێک بوو."),
                   ],
                 ),
               ),
@@ -622,7 +624,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Don't think about it. You'll only give yourself bad dreams."),
                     ExampleSentenceKurdish(
                         text:
-                            "بیری لێ مەکەرەوە، تەنها خەونی خراپ بە خۆت دەدەیت."),
+                            "بیری لێ مەکەرەوە، تەنھا خەونی خراپ بە خۆت دەدەیت."),
                   ],
                 ),
               ),
@@ -652,7 +654,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I had a dream that we were getting married at the airport."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەونی ئەوەم دی کە لە فڕۆکەخانەکە هاوسەرگیریمان دەکرد."),
+                            "خەونی ئەوەم دی کە لە فڕۆکەخانەکە ھاوسەرگیریمان دەکرد."),
                   ],
                 ),
               ),
@@ -680,7 +682,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His dead mother appeared to him in a dream."),
                     ExampleSentenceKurdish(
-                        text: "دایکە کۆچکردووەکەی هاتە لای لە خەونێکدا."),
+                        text: "دایکە کۆچکردووەکەی ھاتە لای لە خەونێکدا."),
                   ],
                 ),
               ),
@@ -698,7 +700,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) هیوا و ئاواتێک کە هەتە"),
+          const DefinitionKurdish(text: "٢. (ناو) ھیوا و ئاواتێک کە ھەتە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -770,7 +772,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "If I win, it will be a dream come true."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەگەر ببەمەوە، بەدیهاتنی ئاواتێک دەبێت."),
+                                    "ئەگەر ببەمەوە، بەدیھاتنی ئاواتێک دەبێت."),
                           ],
                         ),
                       ),
@@ -800,7 +802,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "It was the end of all my hopes and dreams."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەوە کۆتایی هەموو هیوا و خەونەکانم بوو."),
+                                    "ئەوە کۆتایی ھەموو ھیوا و خەونەکانم بوو."),
                           ],
                         ),
                       ),
@@ -830,7 +832,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The chance to study in Australia had always been a dream for her."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "شانسی خوێندن لە ئوسترالیا هەمیشە خەونێکی بووە."),
+                                    "شانسی خوێندن لە ئوسترالیا ھەمیشە خەونێکی بووە."),
                           ],
                         ),
                       ),
@@ -860,7 +862,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "He left his job to pursue his dream of opening a restaurant."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کارەکەی جێهێشت بۆ بەدیهێنانی خەونی کردنەوەی چێشتخانەیەک."),
+                                    "کارەکەی جێھێشت بۆ بەدیھێنانی خەونی کردنەوەی چێشتخانەیەک."),
                           ],
                         ),
                       ),
@@ -924,7 +926,7 @@ class KurdishMeaning extends StatelessWidget {
                             "As if slowly emerging from a dream, she raised her head."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەک ئەوەی بەهێواشی لە خەیاڵ دەربچێت، سەری بەرزکردەوە."),
+                            "وەک ئەوەی بەھێواشی لە خەیاڵ دەربچێت، سەری بەرزکردەوە."),
                   ],
                 ),
               ),
@@ -1064,7 +1066,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Did it really happen or did I just dream it?"),
                     ExampleSentenceKurdish(
-                        text: "بەڕاستی ڕوویدا یان تەنها خەونم پێوە بینی؟"),
+                        text: "بەڕاستی ڕوویدا یان تەنھا خەونم پێوە بینی؟"),
                   ],
                 ),
               ),
@@ -1095,7 +1097,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was the kind of trip most of us only dream about."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو جۆرە گەشتانە بوو کە زۆرینەمان تەنها خەونی پێوە دەبینین."),
+                            "ئەو جۆرە گەشتانە بوو کە زۆرینەمان تەنھا خەونی پێوە دەبینین."),
                   ],
                 ),
               ),
@@ -1182,7 +1184,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I never dreamt (that) I’d actually get the job."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرگیز خەونم بەوەوە نەبینی کە بەڕاستی ئەو کارە وەردەگرم."),
+                            "ھەرگیز خەونم بەوەوە نەبینی کە بەڕاستی ئەو کارە وەردەگرم."),
                   ],
                 ),
               ),
@@ -1303,7 +1305,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CZJvBfoHDk0?t=',
+    videoId: 'CZJvBfoHDk0',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1328,7 +1330,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
+    videoId: 'e09xig209cQ',
     startSeconds: 756,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1353,7 +1355,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 647,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1378,7 +1380,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 1512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1403,7 +1405,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dfuPBC-v5NE?t=',
+    videoId: 'dfuPBC-v5NE',
     startSeconds: 1020,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1428,7 +1430,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GNf1MAMK6ak?t=',
+    videoId: 'GNf1MAMK6ak',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1453,7 +1455,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hYE5Lipyh_Q?t=',
+    videoId: 'hYE5Lipyh_Q',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(

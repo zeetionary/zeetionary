@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاڵقە، کەمە، چەمەرە،	ئەگریجە، قژی ئاڵقەئاڵقە، ئاڵقەی قژ، فڕ، لوول، قژی فڕ یان لوول،	پێچ، باهەڵدران، لوول‌هەڵدران، پێچ‌خواردن
+کوردی: ئاڵقە، کەمە، چەمەرە،	ئەگریجە، قژی ئاڵقەئاڵقە، ئاڵقەی قژ، فڕ، لوول، قژی فڕ یان لوول،	پێچ، باھەڵدران، لوول‌ھەڵدران، پێچ‌خواردن
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لوولبوون یان وابکەیت شتێک لوول بێت"),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A new baby will automatically curl its fingers around any object it touches."),
                     ExampleSentenceKurdish(
                         text:
-                            "منداڵی ساوا ڕاستەوخۆ پەنجەکانی لوول دەکات بە دەوری هەر شتیکدا کە دەستی لێبدات."),
+                            "منداڵی ساوا ڕاستەوخۆ پەنجەکانی لوول دەکات بە دەوری ھەر شتیکدا کە دەستی لێبدات."),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (ناو) هەندێک قژی لوول"),
+          const DefinitionKurdish(text: "٤. (ناو) ھەندێک قژی لوول"),
           Row(
             children: [
               const Expanded(
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She has beautiful blonde curls."),
                     ExampleSentenceKurdish(
-                        text: "قژێکی لوولی زەردی جوانی هەیە."),
+                        text: "قژێکی لوولی زەردی جوانی ھەیە."),
                   ],
                 ),
               ),
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "His hair had a natural curl."),
-                    ExampleSentenceKurdish(text: "قژی لوولییەکی سرووشتی هەیە."),
+                    ExampleSentenceKurdish(text: "قژی لوولییەکی سرووشتی ھەیە."),
                   ],
                 ),
               ),

@@ -947,7 +947,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I want to do a course in art and design."),
                     ExampleSentenceKurdish(
-                        text: "دەمەوێت کۆرسێکی هونەر و دیزاین ئەنجام بدەم."),
+                        text: "دەمەوێت کۆرسێکی ھونەر و دیزاین ئەنجام بدەم."),
                   ],
                 ),
               ),
@@ -1006,7 +1006,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "I enrolled in a ten-week online course."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بەژداری کۆرسێکی دە هەفتەیی ئۆنلاینم کرد."),
+                                    "بەژداری کۆرسێکی دە ھەفتەیی ئۆنلاینم کرد."),
                           ],
                         ),
                       ),
@@ -1034,7 +1034,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The college runs specialist language courses."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کۆلێژەکە کۆرسی شارەزاییانەی زمانی هەیە."),
+                                    "کۆلێژەکە کۆرسی شارەزاییانەی زمانی ھەیە."),
                           ],
                         ),
                       ),
@@ -1067,7 +1067,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "What degree course did you choose?"),
                     ExampleSentenceKurdish(
-                        text: "چی کۆرسێکی بڕوانامەت هەڵبژارد؟"),
+                        text: "چی کۆرسێکی بڕوانامەت ھەڵبژارد؟"),
                   ],
                 ),
               ),
@@ -1151,7 +1151,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He spends every weekend out on the golf course."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو کۆتاییەکی هەفتە لە گۆڕەپانی گۆڵفەکە بەسەر دەبات."),
+                            "ھەموو کۆتاییەکی ھەفتە لە گۆڕەپانی گۆڵفەکە بەسەر دەبات."),
                   ],
                 ),
               ),
@@ -1180,7 +1180,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Only ten yachts completed the course."),
                     ExampleSentenceKurdish(
-                        text: "تەنها دە یەخت مەوداکەیان تەواوکرد."),
+                        text: "تەنھا دە یەخت مەوداکەیان تەواوکرد."),
                   ],
                 ),
               ),
@@ -1208,7 +1208,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We had chicken for our main course."),
                     ExampleSentenceKurdish(
-                        text: "بۆ بەشی سەرەکیمان مریشکمان هەبوو."),
+                        text: "بۆ بەشی سەرەکیمان مریشکمان ھەبوو."),
                   ],
                 ),
               ),
@@ -1293,7 +1293,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The president appears likely to change course on some key issues."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرۆک وادەردەکەوێت ئەگەری هەبێت ڕەوتی بگۆڕێت لەسەر هەندێک بابەتی گرنگ."),
+                            "سەرۆک وادەردەکەوێت ئەگەری ھەبێت ڕەوتی بگۆڕێت لەسەر ھەندێک بابەتی گرنگ."),
                   ],
                 ),
               ),
@@ -1352,7 +1352,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Her career followed a similar course to her sister's."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کارەکەی بە ڕێڕەوێکی هاوشێوەی خوشکەکەیدا چوو."),
+                                    "کارەکەی بە ڕێڕەوێکی ھاوشێوەی خوشکەکەیدا چوو."),
                           ],
                         ),
                       ),
@@ -1380,7 +1380,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "It is time to chart a new course in defence policy."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کاتی ئەوە هاتووە ڕێڕەوێکی تازە لە سیاسەتی بەرگریدا دابڕێژین."),
+                                    "کاتی ئەوە ھاتووە ڕێڕەوێکی تازە لە سیاسەتی بەرگریدا دابڕێژین."),
                           ],
                         ),
                       ),
@@ -1408,7 +1408,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The president was urged to change course before it was too late."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "سەرۆک هاندرا ڕێڕەوەکەی بگۆڕێت پێش ئەوەی زۆر درەنگ بێت."),
+                                    "سەرۆک ھاندرا ڕێڕەوەکەی بگۆڕێت پێش ئەوەی زۆر درەنگ بێت."),
                           ],
                         ),
                       ),
@@ -1436,7 +1436,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "They were obliged to steer a course between the interests of the two groups."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ناچاربوون ڕێڕەوێک لە نێوان بەرژەوەندی هەردوو گرووپەکەدا بگرنە بەر."),
+                                    "ناچاربوون ڕێڕەوێک لە نێوان بەرژەوەندی ھەردوو گرووپەکەدا بگرنە بەر."),
                           ],
                         ),
                       ),
@@ -1520,7 +1520,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The wisest course would be to say nothing."),
                     ExampleSentenceKurdish(
-                        text: "باشترین ڕێگا ئەوەیە هیچ نەڵێیت."),
+                        text: "باشترین ڕێگا ئەوەیە ھیچ نەڵێیت."),
                   ],
                 ),
               ),

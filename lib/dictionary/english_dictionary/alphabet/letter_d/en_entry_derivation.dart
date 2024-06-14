@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داڕشتن، (لێ)وەرگرتن، لێ‌بوونەوە،	بنەڕەت، ماک، ڕیشە، ڕەگ، ڕەچەڵەک، بنەچەک، سەرچاوە، ژێدەر، بناوان،	یەکەمین شێوە و واتای وشە،	وشەی داڕێژراو،	ئەنجام‌گیری، بۆ دەرکەوتن،	دەرکێشان، دەرهێنان، هەڵێنجان
+کوردی: داڕشتن، (لێ)وەرگرتن، لێ‌بوونەوە،	بنەڕەت، ماک، ڕیشە، ڕەگ، ڕەچەڵەک، بنەچەک، سەرچاوە، ژێدەر، بناوان،	یەکەمین شێوە و واتای وشە،	وشەی داڕێژراو،	ئەنجام‌گیری، بۆ دەرکەوتن،	دەرکێشان، دەرھێنان، ھەڵێنجان
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بنەچەی شتێک، بەتایبەتی وشەیەک"),
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Does anyone know the derivation of the word “OK”?"),
                     ExampleSentenceKurdish(
-                        text: "هیچ کەس بنەچەی وشەی 'OK' دەزانێت؟"),
+                        text: "ھیچ کەس بنەچەی وشەی 'OK' دەزانێت؟"),
                   ],
                 ),
               ),

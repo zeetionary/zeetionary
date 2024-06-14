@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She cutely tries to gain his trust."),
                     ExampleSentenceKurdish(
-                        text: "زیرەکانە هەوڵ دەدات متمانەی بەدەستبهێنێت."),
+                        text: "زیرەکانە ھەوڵ دەدات متمانەی بەدەستبھێنێت."),
                   ],
                 ),
               ),

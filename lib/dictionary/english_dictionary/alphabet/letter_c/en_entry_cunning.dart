@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی توانای بەدەستخستنی ئەوەی دەتەوێت بە زیرەکی، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
+                  "١. (ھاوەڵناو) ھەبوونی توانای بەدەستخستنی ئەوەی دەتەوێت بە زیرەکی، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
           Row(
             children: [
               const Expanded(
@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It took energy and cunning just to survive."),
                     ExampleSentenceKurdish(
-                        text: "تەنها ڕزگاربوون پێویستی بە وزە و زۆرزانی بوو."),
+                        text: "تەنھا ڕزگاربوون پێویستی بە وزە و زۆرزانی بوو."),
                   ],
                 ),
               ),
@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She used low cunning (= dishonest behaviour) to get what she wanted."),
                     ExampleSentenceKurdish(
-                        text: "زۆرزانی بەکارهێنا بۆ دەستخستنی ئەوەی دەیویست."),
+                        text: "زۆرزانی بەکارھێنا بۆ دەستخستنی ئەوەی دەیویست."),
                   ],
                 ),
               ),

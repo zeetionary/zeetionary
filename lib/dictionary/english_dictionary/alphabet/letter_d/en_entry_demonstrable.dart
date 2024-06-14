@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەسەلماندن‌هاتوو، دەسەلمێنرێ، دیار، بەرچاو، لەبەرچاو
+کوردی: لەسەلماندن‌ھاتوو، دەسەلمێنرێ، دیار، بەرچاو، لەبەرچاو
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دەکرێت ببینرێت یان بسەلمێندرێت"),
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is no demonstrable link between the two events."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ پەیوەندییەکی بینراو نییە لە نێوان دوو ڕووداوەکەدا."),
+                            "ھیچ پەیوەندییەکی بینراو نییە لە نێوان دوو ڕووداوەکەدا."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The report contains numerous demonstrable errors."),
                     ExampleSentenceKurdish(
-                        text: "ڕاپۆرتەکە هەڵەی بەرچاوی زۆر لەخۆدەگرێت ."),
+                        text: "ڕاپۆرتەکە ھەڵەی بەرچاوی زۆر لەخۆدەگرێت ."),
                   ],
                 ),
               ),

@@ -196,7 +196,7 @@ class EnglishEntrycoopt extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) کردنی کەسێک بە ئەندامی گرووپێک، لیژنەیەک، هتد بە ڕازیبوونی هەموو ئەندامانی دیکە"),
+                                  "١. (کردار) کردنی کەسێک بە ئەندامی گرووپێک، لیژنەیەک، ھتد بە ڕازیبوونی ھەموو ئەندامانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycoopt extends StatelessWidget {
                                         text:
                                             "She was co-opted onto the board."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵبژێردرایە ناو دەستەکە."),
+                                        text: "ھەڵبژێردرایە ناو دەستەکە."),
                                   ],
                                 ),
                               ),
@@ -226,7 +226,7 @@ class EnglishEntrycoopt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) گۆڕینی شتێک/کەسێک و پێدانی ئەرکێکی دیکە پێی؛ بردنی بیرۆکەی کەسێک و بەکارهێنانی بۆ مەبەستی خۆت"),
+                                  "٢. (کردار) گۆڕینی شتێک/کەسێک و پێدانی ئەرکێکی دیکە پێی؛ بردنی بیرۆکەی کەسێک و بەکارھێنانی بۆ مەبەستی خۆت"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntrycoopt extends StatelessWidget {
                                             "Politicians have been trying to co-opt the movement without embracing its values."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سیاسییەکان لە هەوڵدابوونە بۆ بەکارهێنانی بزووتنەوەکە بەبێ ڕێزنان لە بەهاکانی."),
+                                            "سیاسییەکان لە ھەوڵدابوونە بۆ بەکارھێنانی بزووتنەوەکە بەبێ ڕێزنان لە بەھاکانی."),
                                   ],
                                 ),
                               ),

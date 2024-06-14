@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قاڵمەقاڵم، هەرا، دەنگ‌وهەرا، دەنگەدەنگ، قاووقیژ، هەراوهوریا
+کوردی: قاڵمەقاڵم، ھەرا، دەنگ‌وھەرا، دەنگەدەنگ، قاووقیژ، ھەراوھوریا
 """),
           const DefinitionKurdish(
               text:
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We couldn’t hear ourselves speak above the din."),
                     ExampleSentenceKurdish(
-                        text: "گوێمان لە خۆمان نەبوو بەهۆی قاڵەقاڵەکەوە."),
+                        text: "گوێمان لە خۆمان نەبوو بەھۆی قاڵەقاڵەکەوە."),
                   ],
                 ),
               ),

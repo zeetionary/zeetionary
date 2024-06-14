@@ -191,7 +191,7 @@ class EnglishEntrycopycat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لاسایی‌کەرەوە، چاولێکەر، لێ‌هەڵگرەوە
+کوردی: لاسایی‌کەرەوە، چاولێکەر، لێ‌ھەڵگرەوە
 """),
                           const DefinitionKurdish(
                               text:
@@ -206,7 +206,7 @@ class EnglishEntrycopycat extends StatelessWidget {
                                             "Whether it is the original attacker or a copycat, he must be caught soon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئایا کە هێرشکارە سەرەکییەکەیە یان لاسایی‌کەرەوەیەک، دەبێت زوو بگیرێت."),
+                                            "ئایا کە ھێرشکارە سەرەکییەکەیە یان لاسایی‌کەرەوەیەک، دەبێت زوو بگیرێت."),
                                   ],
                                 ),
                               ),

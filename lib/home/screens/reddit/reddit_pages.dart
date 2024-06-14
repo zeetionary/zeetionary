@@ -172,8 +172,9 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
-                        color:
-                            Theme.of(context).highlightColor.withOpacity(0.08),
+                        color: Theme.of(context)
+                            .scaffoldBackgroundColor
+                            .withOpacity(0.08),
                         border: Border.all(
                           color:
                               Theme.of(context).primaryColor.withOpacity(0.3),
@@ -352,6 +353,8 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                             children: [
                               Card(
                                 margin: const EdgeInsets.all(8.0),
+                                color:
+                                    Theme.of(context).scaffoldBackgroundColor,
                                 child: ListTile(
                                   title: Text(
                                     post['title'],
@@ -633,6 +636,7 @@ class RedditComments extends ConsumerWidget {
                       ),
                       child: Card(
                         margin: const EdgeInsets.all(8.0),
+                        color: Theme.of(context).scaffoldBackgroundColor,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Column(

@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) بوتڵێکی شووشە کە شەراب و مادە کحولییەکانی دیکەی تێدەکرێت و سەرێکی هەیە کە بە تەواوی دەیبەستێت"),
+                  "١. (ناو) بوتڵێکی شووشە کە شەراب و مادە کحولییەکانی دیکەی تێدەکرێت و سەرێکی ھەیە کە بە تەواوی دەیبەستێت"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The waiter brought a decanter of red wine to the table."),
                     ExampleSentenceKurdish(
-                        text: "گارسۆنەکە تۆنگەمەییەکی هێنا بۆ سەر مێزەکە."),
+                        text: "گارسۆنەکە تۆنگەمەییەکی ھێنا بۆ سەر مێزەکە."),
                   ],
                 ),
               ),

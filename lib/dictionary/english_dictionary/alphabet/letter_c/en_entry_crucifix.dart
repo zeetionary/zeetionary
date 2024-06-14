@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هێمایەکی پێغەمبەر عیسا بەسەر خاچەوە کە وەک سمبولی ئایینی مەسیحییەت بەکاردێت"),
+                  "١. (ناو) ھێمایەکی پێغەمبەر عیسا بەسەر خاچەوە کە وەک سمبولی ئایینی مەسیحییەت بەکاردێت"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She always wears a small gold crucifix round her neck."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە خاچێکی بچووکی ئاڵتوونی لە ملی دەبەستێت."),
+                        text: "ھەمیشە خاچێکی بچووکی ئاڵتوونی لە ملی دەبەستێت."),
                   ],
                 ),
               ),

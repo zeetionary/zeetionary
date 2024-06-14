@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He defiantly denies having done anything wrong."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە توندی ڕەتیدەکاتەوە کە هیچ شتێکی هەڵەی کردبێت."),
+                            "بە توندی ڕەتیدەکاتەوە کە ھیچ شتێکی ھەڵەی کردبێت."),
                   ],
                 ),
               ),

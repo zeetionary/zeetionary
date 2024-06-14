@@ -330,11 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌تام، هەزاربارە، ناسەرنج‌ڕاکێش
+کوردی: بێ‌تام، ھەزاربارە، ناسەرنج‌ڕاکێش
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) شتێک کە زۆر بەکارهاتووە سەرنجڕاکێش یان پێکەنیناوی نییە"),
+                  "١. (ھاوەڵناو) شتێک کە زۆر بەکارھاتووە سەرنجڕاکێش یان پێکەنیناوی نییە"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I couldn't watch the whole movie - it was just too corny."),
                     ExampleSentenceKurdish(
                         text:
-                            "نەمتوانی سەیری تەواوی فیلمەکە بکەم، زۆر هەزاربارە بوو."),
+                            "نەمتوانی سەیری تەواوی فیلمەکە بکەم، زۆر ھەزاربارە بوو."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I know it sounds corny, but it really was love at first sight!"),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەزانم هەزاربارە دیارە بەڵام هەر لە یەکەم نیگاوە خۆشەویستی بوو."),
+                            "ئەزانم ھەزاربارە دیارە بەڵام ھەر لە یەکەم نیگاوە خۆشەویستی بوو."),
                   ],
                 ),
               ),

@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئەکتەرێک کە لەگەڵ یەکێکی دیکە لە فیلمێکدا دەردەکەوێت لە کاتێکدا هەردووکیان هەمان گرنگیان هەیە"),
+                  "١. (ناو) ئەکتەرێک کە لەگەڵ یەکێکی دیکە لە فیلمێکدا دەردەکەوێت لە کاتێکدا ھەردووکیان ھەمان گرنگیان ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و هەمپبرێی بۆگارتن."),
+                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن."),
                   ],
                 ),
               ),
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) دەرکەوتن وەک ئەکتەرێکی سەرەکی هاوشان لەگەڵ یەکێکی دیکەدا"),
+                  "٢. (کردار) دەرکەوتن وەک ئەکتەرێکی سەرەکی ھاوشان لەگەڵ یەکێکی دیکەدا"),
           Row(
             children: [
               const Expanded(
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) هەبوونی دوو ئەکتەری سەرەکی"),
+              text: "٣. (کردار) ھەبوونی دوو ئەکتەری سەرەکی"),
           Row(
             children: [
               const Expanded(
@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The movie co-stars Jennifer Aniston and Jason Sudeikis."),
                     ExampleSentenceKurdish(
                         text:
-                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی هەیە."),
+                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی ھەیە."),
                   ],
                 ),
               ),

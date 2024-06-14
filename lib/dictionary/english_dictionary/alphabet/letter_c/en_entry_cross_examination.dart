@@ -14,10 +14,12 @@ class EnglishEntrycrossexamination extends StatefulWidget {
   const EnglishEntrycrossexamination({super.key});
 
   @override
-  State<EnglishEntrycrossexamination> createState() => _EnglishEntrycrossexaminationState();
+  State<EnglishEntrycrossexamination> createState() =>
+      _EnglishEntrycrossexaminationState();
 }
 
-class _EnglishEntrycrossexaminationState extends State<EnglishEntrycrossexamination> {
+class _EnglishEntrycrossexaminationState
+    extends State<EnglishEntrycrossexamination> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -330,9 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) ل‌ێپێچینەوەی توند لە کەسێک سەبارەت بەو وەڵامانەی کە پێشوەختە داویانە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) ل‌ێپێچینەوەی توند لە کەسێک سەبارەت بەو وەڵامانەی کە پێشوەختە داویانە"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +345,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He broke down under cross-examination and admitted his part in the assault."),
-                    ExampleSentenceKurdish(text: "لەژێر لێ‌پێچینەوەدا کۆڵی دا و دانی نا بە تێوەگلانی لە هێرشەکەدا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لەژێر لێ‌پێچینەوەدا کۆڵی دا و دانی نا بە تێوەگلانی لە ھێرشەکەدا."),
                   ],
                 ),
               ),

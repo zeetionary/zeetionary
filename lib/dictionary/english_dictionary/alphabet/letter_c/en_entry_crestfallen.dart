@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەناسەسارد، دڵسارد، وەڕەز، جاڕز، ناڕەحەت، عاجز، بێزراو، دڵتەنگ، لێوبەبار، خەمبار 
+کوردی: ھەناسەسارد، دڵسارد، وەڕەز، جاڕز، ناڕەحەت، عاجز، بێزراو، دڵتەنگ، لێوبەبار، خەمبار 
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دڵتەنگ و بێ‌هیوا بەهۆی ئەوەی شکستهێناوە و چاوەڕوان نەبوویت"),
+                  "١. (ناو) دڵتەنگ و بێ‌ھیوا بەھۆی ئەوەی شکستھێناوە و چاوەڕوان نەبوویت"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Mrs Clark looked quite crestfallen all of a sudden."),
                     ExampleSentenceKurdish(
-                        text: "خاتوو کلارک لەناکاو زۆر هەناسەسارد دیار بوو."),
+                        text: "خاتوو کلارک لەناکاو زۆر ھەناسەسارد دیار بوو."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He looked crestfallen at their decision."),
                     ExampleSentenceKurdish(
-                        text: "بێ‌هیوا دیاربوو بە بڕیارەکەیان."),
+                        text: "بێ‌ھیوا دیاربوو بە بڕیارەکەیان."),
                   ],
                 ),
               ),

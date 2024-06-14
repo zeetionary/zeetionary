@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -1117,7 +1119,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کێشان، ڕاکێشان،	نێوکێشی، پشک‌هەڵخستن، پشک، بەخت‌تاقی‌کردنەوە،	(یاری یان پێشبڕکێ) بەرامبەر، بەقەدیەک، یەکسان، ئەنجامی بەرامبەر،	جێی‌سەرنج،	مژ(لێدان)،	بڕەپارەی وەرگیراو بە چەک
+کوردی: کێشان، ڕاکێشان،	نێوکێشی، پشک‌ھەڵخستن، پشک، بەخت‌تاقی‌کردنەوە،	(یاری یان پێشبڕکێ) بەرامبەر، بەقەدیەک، یەکسان، ئەنجامی بەرامبەر،	جێی‌سەرنج،	مژ(لێدان)،	بڕەپارەی وەرگیراو بە چەک
 """),
           const DefinitionKurdish(
               text: "١. (کردار) کێشانی وێنەیەکی شتێک بە پێنووس یان تەباشیر"),
@@ -1213,7 +1215,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The report drew a grim picture of inefficiency and corruption."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕاپۆرتەکە وێنەیەکی خەمناکی  لێنەهاتوویی و گەندەڵی پیشان دەدات."),
+                            "ڕاپۆرتەکە وێنەیەکی خەمناکی  لێنەھاتوویی و گەندەڵی پیشان دەدات."),
                   ],
                 ),
               ),
@@ -1233,7 +1235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) هەبوونی بیرکردنەوەیەکی دیاریکراو لە دوای ئەوەی کە لێکۆڵینەوەت لە شتێک کردووە یان بیرت لێکردووەتەوە"),
+                  "٣. (کردار) ھەبوونی بیرکردنەوەیەکی دیاریکراو لە دوای ئەوەی کە لێکۆڵینەوەت لە شتێک کردووە یان بیرت لێکردووەتەوە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1303,7 +1305,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We can draw some lessons for the future from this accident."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەم وانەیەوە دەکرێت ژمارەیەک وانە بۆ داهاتوو وەربگرین."),
+                            "لەم وانەیەوە دەکرێت ژمارەیەک وانە بۆ داھاتوو وەربگرین."),
                   ],
                 ),
               ),
@@ -1334,7 +1336,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He attempted to draw a contrast between himself and the prime minister."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵیدا بەراوردکارییەک لە نێوان خۆی و سەرۆک وەزیراندا بکات."),
+                            "ھەوڵیدا بەراوردکارییەک لە نێوان خۆی و سەرۆک وەزیراندا بکات."),
                   ],
                 ),
               ),
@@ -1384,7 +1386,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (کردار) درووستکردنی/هێنانە بوونی کاردانەوەیەک یان وەڵامێک"),
+                  "٥. (کردار) درووستکردنی/ھێنانە بوونی کاردانەوەیەک یان وەڵامێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1454,7 +1456,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The reforms drew widespread support from voters."),
                     ExampleSentenceKurdish(
                         text:
-                            "چاکسازییەکان پشتیوانی بەرفروانی دەنگدەرانی هەبوو."),
+                            "چاکسازییەکان پشتیوانی بەرفروانی دەنگدەرانی ھەبوو."),
                   ],
                 ),
               ),
@@ -1485,7 +1487,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Our aim is to draw attention to the plight of these children."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئامانجمان ئەوەیە سەرنج بهێنینە سەر دۆخی خراپی ئەم منداڵانە."),
+                            "ئامانجمان ئەوەیە سەرنج بھێنینە سەر دۆخی خراپی ئەم منداڵانە."),
                   ],
                 ),
               ),
@@ -1629,7 +1631,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The course draws students from all over the country."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆرسەکە خوێندکاری لە هەموو وڵاتەکەوە کۆکردووەتەوە."),
+                            "کۆرسەکە خوێندکاری لە ھەموو وڵاتەکەوە کۆکردووەتەوە."),
                   ],
                 ),
               ),
@@ -1659,7 +1661,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was increasingly drawn to the idea of making short films."),
                     ExampleSentenceKurdish(
                         text:
-                            "زیاتر و زیاتر حەزی کرد بە بیرۆکەی بەرهەمهێنانی کورتە فیلم."),
+                            "زیاتر و زیاتر حەزی کرد بە بیرۆکەی بەرھەمھێنانی کورتە فیلم."),
                   ],
                 ),
               ),
@@ -1688,7 +1690,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The train drew into the station."),
                     ExampleSentenceKurdish(
-                        text: "شەمەندەفەرەکە هاتە ناو وێستگەکە."),
+                        text: "شەمەندەفەرەکە ھاتە ناو وێستگەکە."),
                   ],
                 ),
               ),
@@ -1716,7 +1718,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Their car drew alongside ours."),
                     ExampleSentenceKurdish(
-                        text: "ئۆتۆمبێلەکەیان هاتە تەنیشت ئەوەی ئێمە."),
+                        text: "ئۆتۆمبێلەکەیان ھاتە تەنیشت ئەوەی ئێمە."),
                   ],
                 ),
               ),
@@ -1792,7 +1794,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٩. (کردار) جوڵاندنی شتێک/کەسێک بە ڕاکێشانی بە هێواشی"),
+              text: "٩. (کردار) جوڵاندنی شتێک/کەسێک بە ڕاکێشانی بە ھێواشی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1886,7 +1888,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I tried to draw him aside (= for example where I could talk to him privately)."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵمدا ڕایکێشمەوە کەنارەوە."),
+                        text: "ھەوڵمدا ڕایکێشمەوە کەنارەوە."),
                   ],
                 ),
               ),
@@ -1905,7 +1907,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١١. (کردار) بەستن یان کردنەوەی پەردە، هتد"),
+              text: "١١. (کردار) بەستن یان کردنەوەی پەردە، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1973,7 +1975,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She drew back the curtains and let the sunlight in."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەردەکانی کردەوە و هێشتی هەتاوەکە بێتە ژوورەوە."),
+                            "پەردەکانی کردەوە و ھێشتی ھەتاوەکە بێتە ژوورەوە."),
                   ],
                 ),
               ),
@@ -1993,7 +1995,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٢. (کردار) دەرهێنانی چەک یان شمشیر بۆ هێرشکردنە سەر کەسێک"),
+                  "١٢. (کردار) دەرھێنانی چەک یان شمشیر بۆ ھێرشکردنە سەر کەسێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2029,7 +2031,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He came towards them with his sword drawn."),
                     ExampleSentenceKurdish(
-                        text: "بەرەو ڕوویان هات بە شمشێر ڕاکێشراوی."),
+                        text: "بەرەو ڕوویان ھات بە شمشێر ڕاکێشراوی."),
                   ],
                 ),
               ),
@@ -2060,7 +2062,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Spielberg refused to be drawn on his next movie."),
                     ExampleSentenceKurdish(
                         text:
-                            "سپیڵبێرگ ڕەتیکردەوە بدركیندرێت لەسەر فیلمی داهاتووی."),
+                            "سپیڵبێرگ ڕەتیکردەوە بدركیندرێت لەسەر فیلمی داھاتووی."),
                   ],
                 ),
               ),
@@ -2088,7 +2090,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "We drew for partners."),
-                    ExampleSentenceKurdish(text: "ڕاکێشانیان بۆ هاوبەش کرد."),
+                    ExampleSentenceKurdish(text: "ڕاکێشانیان بۆ ھاوبەش کرد."),
                   ],
                 ),
               ),
@@ -2195,7 +2197,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٥. (کردار) تەواوبوونی یارییەک بەبێ بردنەوەی هیچ لایەک"),
+              text: "١٥. (کردار) تەواوبوونی یارییەک بەبێ بردنەوەی ھیچ لایەک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2254,7 +2256,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٦. (کردار) ڕاکێشانی پارە لە بانکێک یان هەژمارێک"),
+              text: "١٦. (کردار) ڕاکێشانی پارە لە بانکێک یان ھەژمارێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2290,7 +2292,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Can I draw £80 out of my account?"),
                     ExampleSentenceKurdish(
-                        text: "دەکرێت ٨٠ پاوەند لە هەژمارەکەم ڕابکێشم؟"),
+                        text: "دەکرێت ٨٠ پاوەند لە ھەژمارەکەم ڕابکێشم؟"),
                   ],
                 ),
               ),
@@ -2318,7 +2320,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The cheque was drawn on his personal account."),
                     ExampleSentenceKurdish(
-                        text: "چەکەکە لە هەژماری کەسیی ڕاکێشرا."),
+                        text: "چەکەکە لە ھەژماری کەسیی ڕاکێشرا."),
                   ],
                 ),
               ),
@@ -2337,7 +2339,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٧. (کردار) دەرهێنانی گاس یان شلە لە شوێنێک"),
+              text: "١٧. (کردار) دەرھێنانی گاس یان شلە لە شوێنێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2365,7 +2367,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "١٨. (کردار) هەڵمژینی دووکەڵ یان هەوا"),
+          const DefinitionKurdish(text: "١٨. (کردار) ھەڵمژینی دووکەڵ یان ھەوا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2377,7 +2379,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She breathed deeply, drawing in the fresh mountain air."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە قووڵی هەناسەی دا و هەوا پاکەکەی چیاکانی هەڵمژی."),
+                            "بە قووڵی ھەناسەی دا و ھەوا پاکەکەی چیاکانی ھەڵمژی."),
                   ],
                 ),
               ),
@@ -2397,7 +2399,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٩. (ناو) ئەوەی کە شتێک هەڵبژێریت، بۆ نموونە براوی خەڵاتێک یان ئەو تیمانەی کە دژ بە یەکدی یاری دەکەن لە پاڵەوانێتییەکدا؛ پاڵەوانێتییەک کە بەژداربووەکانی بەم شێوەیە هەڵدەبژێردرێت"),
+                  "١٩. (ناو) ئەوەی کە شتێک ھەڵبژێریت، بۆ نموونە براوی خەڵاتێک یان ئەو تیمانەی کە دژ بە یەکدی یاری دەکەن لە پاڵەوانێتییەکدا؛ پاڵەوانێتییەک کە بەژداربووەکانی بەم شێوەیە ھەڵدەبژێردرێت"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: drawing"),
           Row(
@@ -2409,7 +2411,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The draw for the raffle takes place on Saturday."),
                     ExampleSentenceKurdish(
-                        text: "هەڵبژاردنی تیروپشکەکە ڕۆژی یەکشەممە دەبێت."),
+                        text: "ھەڵبژاردنی تیروپشکەکە ڕۆژی یەکشەممە دەبێت."),
                   ],
                 ),
               ),
@@ -2438,7 +2440,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I’m now going to call on the President to make the draw."),
                     ExampleSentenceKurdish(
-                        text: "ئێستاش داوا لە سەرۆک دەکەم هەڵبژاردنەکە بکات."),
+                        text: "ئێستاش داوا لە سەرۆک دەکەم ھەڵبژاردنەکە بکات."),
                   ],
                 ),
               ),
@@ -2468,7 +2470,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The match ended in a two-all draw."),
                     ExampleSentenceKurdish(
                         text:
-                            "یارییەکە کۆتایی هات بە دوو (خاڵ/گۆڵ) بۆ هەر لایەک."),
+                            "یارییەکە کۆتایی ھات بە دوو (خاڵ/گۆڵ) بۆ ھەر لایەک."),
                   ],
                 ),
               ),
@@ -2517,7 +2519,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢١. (ناو) یارییەکی وەرزشی یان ژمارەیەک یاری کە تیمەکان یان یاریزانەکان بە ڕاکێشان هەڵدەبژێردرێن"),
+                  "٢١. (ناو) یارییەکی وەرزشی یان ژمارەیەک یاری کە تیمەکان یان یاریزانەکان بە ڕاکێشان ھەڵدەبژێردرێن"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2529,7 +2531,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Liverpool have an away draw against Manchester United."),
                     ExampleSentenceKurdish(
                         text:
-                            "لیڤەرپوول یارییەکی دەرەوەی یاریگای خۆی لەگەڵ مانچیستەر یونایتید هەیە."),
+                            "لیڤەرپوول یارییەکی دەرەوەی یاریگای خۆی لەگەڵ مانچیستەر یونایتید ھەیە."),
                   ],
                 ),
               ),
@@ -3595,7 +3597,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_spuxXnul0U?t=',
+    videoId: '_spuxXnul0U',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3620,7 +3622,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    videoId: 'ozsgl_sLnHQ',
     startSeconds: 1998,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3645,7 +3647,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EdQxtsTwHHs?t=',
+    videoId: 'EdQxtsTwHHs',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3670,7 +3672,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
+    videoId: 'omcNGrnt7Sg',
     startSeconds: 1274,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3695,7 +3697,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/62opaXeyWZY?t=',
+    videoId: '62opaXeyWZY',
     startSeconds: 1411,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3720,7 +3722,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3745,7 +3747,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7j5ul4XBjAI?t=',
+    videoId: '7j5ul4XBjAI',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(

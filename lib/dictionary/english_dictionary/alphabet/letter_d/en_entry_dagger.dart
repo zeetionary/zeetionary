@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Each man was armed with both sword and dagger."),
                     ExampleSentenceKurdish(
-                        text: "هەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو."),
+                        text: "ھەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو."),
                   ],
                 ),
               ),

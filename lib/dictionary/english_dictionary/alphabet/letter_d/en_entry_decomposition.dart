@@ -332,10 +332,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێک‌کردنەوە، لێک‌هەڵوەشاندن، پارچەپارچەبوون، داوەشان، دابەش‌بوون، شی‌بوونەوە، لێک‌بوونەوە، لێک‌هەڵوەشان،	بۆگەن‌بوون، بۆن‌گرتن، خراپ‌بوون، گەنین، پوان، دافەوتان، دافەتران، داڕزان، داوەشان
+کوردی: لێک‌کردنەوە، لێک‌ھەڵوەشاندن، پارچەپارچەبوون، داوەشان، دابەش‌بوون، شی‌بوونەوە، لێک‌بوونەوە، لێک‌ھەڵوەشان،	بۆگەن‌بوون، بۆن‌گرتن، خراپ‌بوون، گەنین، پوان، دافەوتان، دافەتران، داڕزان، داوەشان
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) پڕۆسەی شیبوونەوە بە هۆکاری سرووشتی"),
+              text: "١. (ناو) پڕۆسەی شیبوونەوە بە ھۆکاری سرووشتی"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The corpse was in an advanced stage of decomposition."),
                     ExampleSentenceKurdish(
-                        text: "تەرمەکە لە قۆناغی خێرای هەڵوەشانەوە بوو."),
+                        text: "تەرمەکە لە قۆناغی خێرای ھەڵوەشانەوە بوو."),
                   ],
                 ),
               ),
@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هەڵوەشاندنەوەی شتێک بۆ بەشی بچووکتر یان سادەتر"),
+              text: "٢. (ناو) ھەڵوەشاندنەوەی شتێک بۆ بەشی بچووکتر یان سادەتر"),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous."),
                     ExampleSentenceKurdish(
                         text:
-                            "تێکەڵەیەک لە هایدرۆجین بەدەست دێت لە شیکردنەوەی ئاو لەگەڵ کاربۆن و فسفۆڕ."),
+                            "تێکەڵەیەک لە ھایدرۆجین بەدەست دێت لە شیکردنەوەی ئاو لەگەڵ کاربۆن و فسفۆڕ."),
                   ],
                 ),
               ),

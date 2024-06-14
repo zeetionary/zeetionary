@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "We hold diametrically opposed views."),
-                    ExampleSentenceKurdish(text: "دیدی تەواو دژبەیەکمان هەیە."),
+                    ExampleSentenceKurdish(text: "دیدی تەواو دژبەیەکمان ھەیە."),
                   ],
                 ),
               ),

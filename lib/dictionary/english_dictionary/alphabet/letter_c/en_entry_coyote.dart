@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The only sound is the howl of coyote and the whisper of the wind."),
                     ExampleSentenceKurdish(
-                        text: "تەنها دەنگ لوورەی گورگی بچووک و خشەی بایە."),
+                        text: "تەنھا دەنگ لوورەی گورگی بچووک و خشەی بایە."),
                   ],
                 ),
               ),

@@ -194,7 +194,7 @@ class EnglishEntrycoop extends StatelessWidget {
 // کوردی:
 // """),
                           const DefinitionKurdish(
-                              text: "١. (ناو) قەفەزی مریشک، هتد"),
+                              text: "١. (ناو) قەفەزی مریشک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycoop extends StatelessWidget {
                                             "She collected the eggs from the coop every morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو بەیانییەک هێلکەکانی لە کولانەکە کۆدەکردەوە."),
+                                            "ھەموو بەیانییەک ھێلکەکانی لە کولانەکە کۆدەکردەوە."),
                                   ],
                                 ),
                               ),

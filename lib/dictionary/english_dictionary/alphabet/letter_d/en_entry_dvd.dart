@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -282,7 +284,7 @@ class TTSUK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakDVD("en-GB"""),
+      onPressed: () => speakDVD("en-GB" ""),
     );
   }
 }
@@ -332,7 +334,7 @@ class TTSUS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakDVD("en-US"""),
+      onPressed: () => speakDVD("en-US" ""),
     );
   }
 }
@@ -349,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Let's just stay in and watch a DVD."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Let's just stay in and watch a DVD."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakDVDs2(String languageCode) async {
@@ -358,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Is it available on DVD yet?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Is it available on DVD yet?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakDVDs3(String languageCode) async {
@@ -530,18 +533,21 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: """١. (ناو) پەپکێک کە لە سەری زانیاریی زۆر، بەتایبەتی فیلم، دەکرێت هەڵبگیردرێت"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) پەپکێک کە لە سەری زانیاریی زۆر، بەتایبەتی فیلم، دەکرێت ھەڵبگیردرێت"""),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: """Let's just stay in and watch a DVD."""),
+                    ExampleSentenceKurdish(
                         text:
-                            """Let's just stay in and watch a DVD."""),
-                    ExampleSentenceKurdish(text: """با لە ماڵەوە بمێنینەوە و سەیری دی‌ڤی‌دی بکەین."""),
+                            """با لە ماڵەوە بمێنینەوە و سەیری دی‌ڤی‌دی بکەین."""),
                   ],
                 ),
               ),
@@ -549,10 +555,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakDVDs1("en-GB"""),
+                    onPressed: () => speakDVDs1("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakDVDs1("en-US"""),
+                    onPressed: () => speakDVDs1("en-US" ""),
                   ),
                 ],
               ),
@@ -566,8 +572,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """Is it available on DVD yet?"""),
-                    ExampleSentenceKurdish(text: """لەسەر دی‌ڤی‌دی  بەردەستە ئێستا؟"""),
+                    ExampleSentenceEnglish(
+                        text: """Is it available on DVD yet?"""),
+                    ExampleSentenceKurdish(
+                        text: """لەسەر دی‌ڤی‌دی  بەردەستە ئێستا؟"""),
                   ],
                 ),
               ),
@@ -575,10 +583,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakDVDs2("en-GB"""),
+                    onPressed: () => speakDVDs2("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakDVDs2("en-US"""),
+                    onPressed: () => speakDVDs2("en-US" ""),
                   ),
                 ],
               ),
@@ -1186,7 +1194,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ccneE_gkSAs?t=',
+    videoId: 'ccneE_gkSAs',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1219,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Tdgpxpp6kdg?t=',
+    videoId: 'Tdgpxpp6kdg',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1236,7 +1244,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ecH3OU0R4ls',
+    videoId: 'ecH3OU0R4ls',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1261,7 +1269,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ecH3OU0R4ls?t=',
+    videoId: 'ecH3OU0R4ls',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1286,7 +1294,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zHHxue-8e9w?t=',
+    videoId: 'zHHxue-8e9w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1311,7 +1319,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aDTKER_SfS0?t=',
+    videoId: 'aDTKER_SfS0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1336,7 +1344,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BvHCpWixZRA?t=',
+    videoId: 'BvHCpWixZRA',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(

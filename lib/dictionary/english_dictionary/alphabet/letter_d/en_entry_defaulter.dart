@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: (دادگا) لایەنی نەهاتوو یان ئامادەنەبوو،	(پێشبڕکێ) نەیاری نەهاتوو یان ئامادەنەبوو،	قەرزنەدەرەوە، نەدەرەوە،	کەمتەرخەم، خەتابار، گوناهبار،	سەربازی خەتابار یان گوناهبار
+// کوردی: (دادگا) لایەنی نەھاتوو یان ئامادەنەبوو،	(پێشبڕکێ) نەیاری نەھاتوو یان ئامادەنەبوو،	قەرزنەدەرەوە، نەدەرەوە،	کەمتەرخەم، خەتابار، گوناھبار،	سەربازی خەتابار یان گوناھبار
 // """),
           const DefinitionKurdish(
               text:
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The names of credit card defaulters are referred to credit rating agencies."),
                     ExampleSentenceKurdish(
                         text:
-                            "ناوی قەرزنەدەرەوەکان دەنێردرێت بۆ ئاژانسە هەڵسەنگێنەرەکانی قەرزکاران."),
+                            "ناوی قەرزنەدەرەوەکان دەنێردرێت بۆ ئاژانسە ھەڵسەنگێنەرەکانی قەرزکاران."),
                   ],
                 ),
               ),

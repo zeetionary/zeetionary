@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خراپەکاری، خراپە، سووچ،	کەمتەرخەمی، کەم‌کاری، درێخی،	نەدانەوەی قەرزی دواکەوتوو
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) ڕەفتاری خراپ و تاوانکاری، بەتایبەتی هی گەنجان"),
+              text: "١. (ناو) ڕەفتاری خراپ و تاوانکاری، بەتایبەتی ھی گەنجان"),
           Row(
             children: [
               const Expanded(
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The company had a poor environmental record and a history of tax delinquency."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە تۆمارێکی خراپی ژینگەیی هەیە لەگەڵ مێژوویەک لە درەنگکەوتن لە باج."),
+                            "کۆمپانیاکە تۆمارێکی خراپی ژینگەیی ھەیە لەگەڵ مێژوویەک لە درەنگکەوتن لە باج."),
                   ],
                 ),
               ),

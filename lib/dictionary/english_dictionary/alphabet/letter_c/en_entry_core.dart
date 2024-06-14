@@ -217,7 +217,7 @@ class EnglishEntrycore extends StatelessWidget {
                                             "Dutch paintings form the core of the collection."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تابلۆ هۆڵەندییەکان ناوەندی کۆمەڵەکە پێکدێنن."),
+                                            "تابلۆ ھۆڵەندییەکان ناوەندی کۆمەڵەکە پێکدێنن."),
                                   ],
                                 ),
                               ),
@@ -322,7 +322,7 @@ class EnglishEntrycore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) چەقی هەندێک میوە کە تۆوەکەی تێدایە"),
+                                  "٣. (ناو) چەقی ھەندێک میوە کە تۆوەکەی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -364,7 +364,7 @@ class EnglishEntrycore extends StatelessWidget {
                                             "Your posture will improve as your core becomes stronger."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قیافەت باشتر دەبێت کە ماسولکەی ناوەندیت بەهێزتر دەبێت."),
+                                            "قیافەت باشتر دەبێت کە ماسولکەی ناوەندیت بەھێزتر دەبێت."),
                                   ],
                                 ),
                               ),
@@ -453,7 +453,7 @@ class EnglishEntrycore extends StatelessWidget {
                                             "The use of new technology is core to our strategy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکارهێنانی تەکنەلۆژیای تازە گرنگترینە بۆ ستراتیژیمان."),
+                                            "بەکارھێنانی تەکنەلۆژیای تازە گرنگترینە بۆ ستراتیژیمان."),
                                   ],
                                 ),
                               ),
@@ -473,7 +473,7 @@ class EnglishEntrycore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ھاوەڵناو) بۆ باسکردنی گرنگترین یان چەقی باوەڕ، هتد ـی کەسێک یان گرووپێک"),
+                                  "٧. (ھاوەڵناو) بۆ باسکردنی گرنگترین یان چەقی باوەڕ، ھتد ـی کەسێک یان گرووپێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -484,7 +484,7 @@ class EnglishEntrycore extends StatelessWidget {
                                             "The party is losing touch with its core values."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارتە پەیوەندی لەدەست دەدات لەگەڵ بەها بنەڕەتییەکانی."),
+                                            "پارتە پەیوەندی لەدەست دەدات لەگەڵ بەھا بنەڕەتییەکانی."),
                                   ],
                                 ),
                               ),
@@ -545,7 +545,7 @@ class EnglishEntrycore extends StatelessWidget {
                                             "Peel and core the pears before cooking them."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرمێکان پاک بکە و ناوەکەیان دەربێنە پێش لێنانیان."),
+                                            "ھەرمێکان پاک بکە و ناوەکەیان دەربێنە پێش لێنانیان."),
                                   ],
                                 ),
                               ),

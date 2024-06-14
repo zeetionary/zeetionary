@@ -195,7 +195,7 @@ class EnglishEntrycooker extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئامێرێکی گەورە بۆ خواردن لێنان کە فڕن و چاوی گازی یان کارەبایی لەسەرەوە هەیە"),
+                                  "١. (ناو) ئامێرێکی گەورە بۆ خواردن لێنان کە فڕن و چاوی گازی یان کارەبایی لەسەرەوە ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycooker extends StatelessWidget {
                                             "She set the house on fire by leaving a chip pan on the cooker."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاگری لە خانووەکە بەردا بە جێهێشتنی تاوەیەک لەسەر غازەکە."),
+                                            "ئاگری لە خانووەکە بەردا بە جێھێشتنی تاوەیەک لەسەر غازەکە."),
                                   ],
                                 ),
                               ),

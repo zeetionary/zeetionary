@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەستووری کوشتن، فەرمانی هەڵواسین یان لەداردان
+کوردی: دەستووری کوشتن، فەرمانی ھەڵواسین یان لەداردان
 """),
           const DefinitionKurdish(
               text:
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The king refused to sign the death warrant for his old friend."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاشا ڕەتیکردەوە سزای مەرگی هاوڕێ کۆنەکەی واژۆ بکات."),
+                            "پاشا ڕەتیکردەوە سزای مەرگی ھاوڕێ کۆنەکەی واژۆ بکات."),
                   ],
                 ),
               ),

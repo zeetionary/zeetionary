@@ -405,9 +405,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەجێ‌هێشتن، وازلێ‌هێنان، وەلانان، چۆڵ‌کردن، تەرک(کردن)،	نەکردن، هەڵاتن، سەربازی‌نەکردن، نەچوونەوە سەربازی،	(ماف) بەجێ‌هێشتنی هاوسەر، بەجێ‌هێشتنی ماڵ، تەرکەماڵ 
+کوردی: بەجێ‌ھێشتن، وازلێ‌ھێنان، وەلانان، چۆڵ‌کردن، تەرک(کردن)،	نەکردن، ھەڵاتن، سەربازی‌نەکردن، نەچوونەوە سەربازی،	(ماف) بەجێ‌ھێشتنی ھاوسەر، بەجێ‌ھێشتنی ماڵ، تەرکەماڵ 
 """),
-          const DefinitionKurdish(text: "١. (ناو) جێهێشتنی سوپا بەبێ مۆڵەت"),
+          const DefinitionKurdish(text: "١. (ناو) جێھێشتنی سوپا بەبێ مۆڵەت"),
           Row(
             children: [
               const Expanded(
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The army was badly affected by desertions."),
                     ExampleSentenceKurdish(
-                        text: "سوپاکە خراپ کاریگەر بوو بە هەڵهاتن."),
+                        text: "سوپاکە خراپ کاریگەر بوو بە ھەڵھاتن."),
                   ],
                 ),
               ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) جێهێشتنی کەسێک بەبێ یارمەتی و پشتیوانی"),
+              text: "٢. (ناو) جێھێشتنی کەسێک بەبێ یارمەتی و پشتیوانی"),
           const DividerSentences(),
           Row(
             children: [
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She felt betrayed by her husband's desertion."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە خیانەت‌لێکراوی کرد بە ڕۆشتنی هاوسەرەکەی."),
+                            "ھەستی بە خیانەت‌لێکراوی کرد بە ڕۆشتنی ھاوسەرەکەی."),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Industrialization led to the growth of cities and the desertion of villages."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەپیشەسازی‌بوون بوو بە هۆکاری گەشەی شارەکان وچۆڵکردنی گوندەکان."),
+                            "بەپیشەسازی‌بوون بوو بە ھۆکاری گەشەی شارەکان وچۆڵکردنی گوندەکان."),
                   ],
                 ),
               ),

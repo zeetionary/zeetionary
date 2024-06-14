@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crew acted courageously in staying with the ship until all the passengers had been taken to safety."),
                     ExampleSentenceKurdish(
                         text:
-                            "تاقمەکە بوێرانە مامەڵەیان کرد لەگەڵ مانەوە لە کەشتییەکە تاوەکو هەموو گەشتیارەکان بردرانە سەلامەتی."),
+                            "تاقمەکە بوێرانە مامەڵەیان کرد لەگەڵ مانەوە لە کەشتییەکە تاوەکو ھەموو گەشتیارەکان بردرانە سەلامەتی."),
                   ],
                 ),
               ),

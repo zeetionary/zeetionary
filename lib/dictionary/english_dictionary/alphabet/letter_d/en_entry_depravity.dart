@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خراپی، لادان، ڕێ‌هەڵەکردن، بەدئاکاری، داچوون، لەڕێ‌دەرچوون، هەرزەیی
+کوردی: خراپی، لادان، ڕێ‌ھەڵەکردن، بەدئاکاری، داچوون، لەڕێ‌دەرچوون، ھەرزەیی
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بێئەخلاقی، یان کارێکی لەو شێوەیە"),

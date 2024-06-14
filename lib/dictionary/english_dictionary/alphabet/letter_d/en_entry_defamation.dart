@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (ماف) بوختان، قسەبۆهەڵبەستن، تۆمەت، هەڵبەستە، ناووناتۆرە، قسە،	ئابڕووبردن، ئەتک، سووک‌کردن، ناوزڕاندن، خراپەوتن
+کوردی: (ماف) بوختان، قسەبۆھەڵبەستن، تۆمەت، ھەڵبەستە، ناووناتۆرە، قسە،	ئابڕووبردن، ئەتک، سووک‌کردن، ناوزڕاندن، خراپەوتن
 """),
           const DefinitionKurdish(
               text:

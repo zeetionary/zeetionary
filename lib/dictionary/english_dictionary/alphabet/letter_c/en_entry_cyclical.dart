@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سووڕی، خولی، گەڕی، خولەکی، سووڕەکی،	(کیمیا) ئاڵقەیی، بازنەیی
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) زۆر دووبارەبوو بە هەمان زنجیرە"),
+              text: "١. (ھاوەڵناو) زۆر دووبارەبوو بە ھەمان زنجیرە"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Economic activity often follows a cyclical pattern."),
                     ExampleSentenceKurdish(
                         text:
-                            "چالاکی ئابووری زۆرجار بە هەمان شێوەی زنجیرەیی دەچێت."),
+                            "چالاکی ئابووری زۆرجار بە ھەمان شێوەی زنجیرەیی دەچێت."),
                   ],
                 ),
               ),

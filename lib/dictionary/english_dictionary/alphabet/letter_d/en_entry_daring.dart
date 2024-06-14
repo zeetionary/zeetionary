@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are plenty of activities at the resort for the less daring."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەکی زۆر چالاکی هەیە لە سەیرانگاکە بۆ کەسانی کەم بوێر."),
+                            "ژمارەیەکی زۆر چالاکی ھەیە لە سەیرانگاکە بۆ کەسانی کەم بوێر."),
                   ],
                 ),
               ),

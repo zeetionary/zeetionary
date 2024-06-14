@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێهاتوویی، لێوەشاوەیی،	بەشەرمی،	ڕەوشت، ماقووڵی، ئەدەب، گەورەیی، ڕێ‌وشوێن، داب‌ودەستوور، دەستوور
+کوردی: لێھاتوویی، لێوەشاوەیی،	بەشەرمی،	ڕەوشت، ماقووڵی، ئەدەب، گەورەیی، ڕێ‌وشوێن، داب‌ودەستوور، دەستوور
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەڵسوکەوتی بەڕێزانە کە لەگەڵ ستانداردە ئەخلاقییەکان یەکدەگرێتەوە و ڕێز بۆ کەسانی دیکە پیشان دەدات"),
+                  "١. (ناو) ھەڵسوکەوتی بەڕێزانە کە لەگەڵ ستانداردە ئەخلاقییەکان یەکدەگرێتەوە و ڕێز بۆ کەسانی دیکە پیشان دەدات"),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Have you no sense of decency?"),
-                    ExampleSentenceKurdish(text: "هیچ ئەدەبت نییە؟"),
+                    ExampleSentenceKurdish(text: "ھیچ ئەدەبت نییە؟"),
                   ],
                 ),
               ),
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He might have had the decency to apologize."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەکرا هێندە ڕەوشتی هەبایە کە دەوای لێبوردنی کردبا."),
+                            "دەکرا ھێندە ڕەوشتی ھەبایە کە دەوای لێبوردنی کردبا."),
                   ],
                 ),
               ),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) شێوازی هەڵسوکەوتی پەسەندکراوی کۆمەڵگا"),
+              text: "٢. (ناو) شێوازی ھەڵسوکەوتی پەسەندکراوی کۆمەڵگا"),
           Row(
             children: [
               const Expanded(

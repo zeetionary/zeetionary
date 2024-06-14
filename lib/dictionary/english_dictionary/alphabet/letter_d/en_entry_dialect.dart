@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) شێوەیەکی زمان کە لە ناوچەیەک قسەی پێ دەکرێت و دەکرێت ڕێزمان، وشە، و گۆکردنی جیاواز بێت لە هەمان زمان لە شوێنەکانی دیکە"),
+                  "١. (ناو) شێوەیەکی زمان کە لە ناوچەیەک قسەی پێ دەکرێت و دەکرێت ڕێزمان، وشە، و گۆکردنی جیاواز بێت لە ھەمان زمان لە شوێنەکانی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All languages and dialects change over time."),
                     ExampleSentenceKurdish(
-                        text: "هەموو زمان و شێوەزارەکان بەپێی کات دەگۆڕێن."),
+                        text: "ھەموو زمان و شێوەزارەکان بەپێی کات دەگۆڕێن."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The poet uses a variety of Scots dialect words and expressions."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵبەستوانەکە ژمارەیەک لە وشە و دەربڕینی سکۆتلەندی بەکاردێنێت."),
+                            "ھەڵبەستوانەکە ژمارەیەک لە وشە و دەربڕینی سکۆتلەندی بەکاردێنێت."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The poem is written in northern dialect."),
                     ExampleSentenceKurdish(
-                        text: "هەڵبەستەکە بە شێوەزاری باکوور نووسراوە."),
+                        text: "ھەڵبەستەکە بە شێوەزاری باکوور نووسراوە."),
                   ],
                 ),
               ),

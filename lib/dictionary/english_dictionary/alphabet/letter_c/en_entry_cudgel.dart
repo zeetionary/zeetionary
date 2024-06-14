@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The guard wielded a cudgel to fend off attackers."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاسەوانەکە تێڵایەکی هەڵگرت بۆ دوورخستنەوەی هێرشکارەکان."),
+                            "پاسەوانەکە تێڵایەکی ھەڵگرت بۆ دوورخستنەوەی ھێرشکارەکان."),
                   ],
                 ),
               ),

@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "These are not cowardly people, but they are cautious."),
                     ExampleSentenceKurdish(
-                        text: "کەسانی ترسنۆک نیین، بەڵکو بە هۆشیارن."),
+                        text: "کەسانی ترسنۆک نیین، بەڵکو بە ھۆشیارن."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This was a particularly brutal and cowardly attack."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمە بە تایبەت هێرشێکی دڕندانە و ترسنۆکانە بوو."),
+                            "ئەمە بە تایبەت ھێرشێکی دڕندانە و ترسنۆکانە بوو."),
                   ],
                 ),
               ),
@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It was cowardly not to own up to the mistake."),
                     ExampleSentenceKurdish(
-                        text: "ترسنۆکانە بوو کە دان بە هەڵەکەدا نەنێت."),
+                        text: "ترسنۆکانە بوو کە دان بە ھەڵەکەدا نەنێت."),
                   ],
                 ),
               ),

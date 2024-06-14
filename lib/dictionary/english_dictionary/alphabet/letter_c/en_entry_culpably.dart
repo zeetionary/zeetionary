@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They haven't actually done anything culpably wrong."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەڕاستیدا هیچ شتێکیان نەکردووە بەرپرسیارانە هەڵە بێت."),
+                            "لەڕاستیدا ھیچ شتێکیان نەکردووە بەرپرسیارانە ھەڵە بێت."),
                   ],
                 ),
               ),

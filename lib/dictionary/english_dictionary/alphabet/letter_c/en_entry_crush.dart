@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The car was completely crushed under the truck."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئۆتۆمبێلەکە بە تەواوی لەژێر بارهەڵگرەکەدا تلیقا."),
+                            "ئۆتۆمبێلەکە بە تەواوی لەژێر بارھەڵگرەکەدا تلیقا."),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) شکاندن بۆ پارچەی بچووک یان کردن بە هاڕاوە"),
+              text: "٢. (کردار) شکاندن بۆ پارچەی بچووک یان کردن بە ھاڕاوە"),
           Row(
             children: [
               const Expanded(
@@ -664,7 +664,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (کردار) بەکارهێنانی ڕێگای توندوتیژانە بۆ بەزاندنی کەسێک"),
+                  "٥. (کردار) بەکارھێنانی ڕێگای توندوتیژانە بۆ بەزاندنی کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -701,7 +701,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Attempts to crush serious popular unrest led to civil war."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵەکان بۆ دامرکاندنەوەی پشێوەی ڕای گشتی گەشت بە شەڕی ناوخۆ."),
+                            "ھەوڵەکان بۆ دامرکاندنەوەی پشێوەی ڕای گشتی گەشت بە شەڕی ناوخۆ."),
                   ],
                 ),
               ),
@@ -731,7 +731,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She felt completely crushed by the teacher's criticism."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەواو هەستی بە تێکشکاوی کرد بەهۆی سەرزەنشتی مامۆستاکەی."),
+                            "تەواو ھەستی بە تێکشکاوی کرد بەھۆی سەرزەنشتی مامۆستاکەی."),
                   ],
                 ),
               ),
@@ -789,7 +789,7 @@ class KurdishMeaning extends StatelessWidget {
                             "66 fans died in the crush on the steps of the stadium."),
                     ExampleSentenceKurdish(
                         text:
-                            "٦٦ هاندەر مردن لە جەنجاڵیدا لەسەر پلەکانی یاریگاکە."),
+                            "٦٦ ھاندەر مردن لە جەنجاڵیدا لەسەر پلەکانی یاریگاکە."),
                   ],
                 ),
               ),
@@ -809,7 +809,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٨. (کردار) هەستێکی خۆشەویستی کە بۆ کەسێکت هەیە و زۆر ناخایەنێت؛ کەسێک کە ئەم جۆرە خۆشەویستییە هەیە بۆی"),
+                  "٨. (کردار) ھەستێکی خۆشەویستی کە بۆ کەسێکت ھەیە و زۆر ناخایەنێت؛ کەسێک کە ئەم جۆرە خۆشەویستییە ھەیە بۆی"),
           Row(
             children: [
               const Expanded(
@@ -819,7 +819,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "It's only a schoolgirl crush, it'll pass."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها  دڵدارییە بۆ کچە قوتابییەک، زوو تێدەپەڕێت."),
+                            "تەنھا  دڵدارییە بۆ کچە قوتابییەک، زوو تێدەپەڕێت."),
                   ],
                 ),
               ),
@@ -844,7 +844,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "I had a huge crush on her."),
                     ExampleSentenceKurdish(
-                        text: "ئەویندارییەکی زۆرم بۆی هەبوو."),
+                        text: "ئەویندارییەکی زۆرم بۆی ھەبوو."),
                   ],
                 ),
               ),

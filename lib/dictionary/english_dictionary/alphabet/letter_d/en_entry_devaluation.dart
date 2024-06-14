@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هاتنەخوارەوەی بایەخی پارەی فەرمی، داشکانی نرخی بەرامبەری،	کەم‌بوونەوە، هاتنەخوارەوە، داشکان
+کوردی: ھاتنەخوارەوەی بایەخی پارەی فەرمی، داشکانی نرخی بەرامبەری،	کەم‌بوونەوە، ھاتنەخوارەوە، داشکان
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) داشکانی بەهای دراوی وڵاتێک کە لەگەڵ دراوی وڵاتێکی دیکە دەگۆڕدرێتەوە"),
+                  "١. (ناو) داشکانی بەھای دراوی وڵاتێک کە لەگەڵ دراوی وڵاتێکی دیکە دەگۆڕدرێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بێ‌بەهاکردنی شتێک یان پیشاندانی بە کەمتر گرنگ وەک لەوەی هەیە"),
+                  "٢. (ناو) بێ‌بەھاکردنی شتێک یان پیشاندانی بە کەمتر گرنگ وەک لەوەی ھەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The existence of slavery represents a devaluation of human life."),
                     ExampleSentenceKurdish(
                         text:
-                            "بوونی کۆیلایەتی بێ‌بەهایی ژیانی مرۆڤ پیشان دەدات."),
+                            "بوونی کۆیلایەتی بێ‌بەھایی ژیانی مرۆڤ پیشان دەدات."),
                   ],
                 ),
               ),

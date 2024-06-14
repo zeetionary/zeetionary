@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) پیشان نەدانی پشتگیری بۆ هاوڕێکانت، خێزانت، وڵاتەکەت، هتد"),
+                  "١. (ناو) پیشان نەدانی پشتگیری بۆ ھاوڕێکانت، خێزانت، وڵاتەکەت، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She felt guilty of disloyalty to her dead husband."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە توانی بێ‌وەفایی دەکرد بەرامبەر هاوژینە کۆچکردووەکەی."),
+                            "ھەستی بە توانی بێ‌وەفایی دەکرد بەرامبەر ھاوژینە کۆچکردووەکەی."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her friend's disloyalty was hurtful."),
                     ExampleSentenceKurdish(
-                        text: "بێ‌وەفایی هاوڕێکەی بەئازار بوو."),
+                        text: "بێ‌وەفایی ھاوڕێکەی بەئازار بوو."),
                   ],
                 ),
               ),

@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I dreamt of evil creatures who were trying to catch me."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەوم بە زیندەوەری دڕندەوە بینی کە هەوڵیان دەدا بمگرن."),
+                            "خەوم بە زیندەوەری دڕندەوە بینی کە ھەوڵیان دەدا بمگرن."),
                   ],
                 ),
               ),
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We share this planet with all living creatures and have a duty to preserve its riches."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم هەسارەمان لەگەڵ هەموو گیانلەبەرە زیندووەکان هەیە و ئەرکی ئەوەمان هەیە سەرچاوەکانی بپارێزین."),
+                            "ئەم ھەسارەمان لەگەڵ ھەموو گیانلەبەرە زیندووەکان ھەیە و ئەرکی ئەوەمان ھەیە سەرچاوەکانی بپارێزین."),
                   ],
                 ),
               ),

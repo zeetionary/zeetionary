@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was destined for a military career, like his father before him."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە چارەی نووسرابوو کاری سەربازی هەبێت وەک باوکی لە پێش خۆی."),
+                            "لە چارەی نووسرابوو کاری سەربازی ھەبێت وەک باوکی لە پێش خۆی."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We seem destined never to meet."),
                     ExampleSentenceKurdish(
-                        text: "لە چارەمانە هەرگیز یەک نەبینین."),
+                        text: "لە چارەمانە ھەرگیز یەک نەبینین."),
                   ],
                 ),
               ),
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Customs officers have seized nearly a ton of heroin destined for New York."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەفسەرانی گومرک نزیکەی تەنێک هیرۆینیان لە ڕێگا بۆ نیویۆرک دەستبەسەردا گرت."),
+                            "ئەفسەرانی گومرک نزیکەی تەنێک ھیرۆینیان لە ڕێگا بۆ نیویۆرک دەستبەسەردا گرت."),
                   ],
                 ),
               ),

@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Dogs have more to offer than just cuteness and companionship."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەگ زیاتر لە جوانی و هاوڕێیەتی هەیە کە بیبەخشێت."),
+                            "سەگ زیاتر لە جوانی و ھاوڕێیەتی ھەیە کە بیبەخشێت."),
                   ],
                 ),
               ),

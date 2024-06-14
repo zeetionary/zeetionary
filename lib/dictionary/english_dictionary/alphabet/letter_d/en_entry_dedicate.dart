@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He dedicated his life to helping the poor."),
                     ExampleSentenceKurdish(
-                        text: "ژیان بۆ یارمەتیدانی هەژاران تەرخان کرد."),
+                        text: "ژیان بۆ یارمەتیدانی ھەژاران تەرخان کرد."),
                   ],
                 ),
               ),

@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I need to pay off all my debts."),
                     ExampleSentenceKurdish(
-                        text: "دەبێت هەموو قەرزەکانم بدەمەوە."),
+                        text: "دەبێت ھەموو قەرزەکانم بدەمەوە."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I've finally cleared all my debts."),
                     ExampleSentenceKurdish(
-                        text: "لەکۆتاییدا هەموو قەرزەکانمم داوەتەوە."),
+                        text: "لەکۆتاییدا ھەموو قەرزەکانمم داوەتەوە."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We were poor but we never got into debt."),
                     ExampleSentenceKurdish(
-                        text: "هەژار بووین بەڵام هەرگیز نەکەوتینە قەرزاری."),
+                        text: "ھەژار بووین بەڵام ھەرگیز نەکەوتینە قەرزاری."),
                   ],
                 ),
               ),
@@ -498,7 +498,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) مەمنوون بوونی کەسێک بەهۆی ئەوەی یارمەتی داویت یان میهرەبان بووە لەگەڵت"),
+                  "٣. (ناو) مەمنوون بوونی کەسێک بەھۆی ئەوەی یارمەتی داویت یان میھرەبان بووە لەگەڵت"),
           Row(
             children: [
               const Expanded(

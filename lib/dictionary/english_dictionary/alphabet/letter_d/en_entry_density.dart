@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The area has a high/low population density."),
                     ExampleSentenceKurdish(
-                        text: "ناوچەکە چڕی دانیشتووانی بەرز/نزمی هەیە."),
+                        text: "ناوچەکە چڕی دانیشتووانی بەرز/نزمی ھەیە."),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ڕێژەی خەستی تەنێکی ڕەق، شل، گاز کە بە بارستایی بۆ هەر یەکەیەکی قەبارە دەپێورێت"),
+                  "٢. (ناو) ڕێژەی خەستی تەنێکی ڕەق، شل، گاز کە بە بارستایی بۆ ھەر یەکەیەکی قەبارە دەپێورێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Vitamin D deficiency causes a loss of bone density."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمی ڤیتامین دی دەبێت بە هۆکاری لەدەستدانی چڕی ماسولکە."),
+                            "کەمی ڤیتامین دی دەبێت بە ھۆکاری لەدەستدانی چڕی ماسولکە."),
                   ],
                 ),
               ),

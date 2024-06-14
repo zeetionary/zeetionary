@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لادان لەسەر هێڵ، لەهێڵ‌دەرچوون، لەڕێ‌دەرچوون (شەمەندەفەر)،	تێکچوون
+کوردی: لادان لەسەر ھێڵ، لەھێڵ‌دەرچوون، لەڕێ‌دەرچوون (شەمەندەفەر)،	تێکچوون
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دەرچوونی شەمەندەفەر لەسەر سکەکەی"),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Poor planning caused the project’s derailment."),
                     ExampleSentenceKurdish(
                         text:
-                            "پلانادانانی خراپ بوو بە هۆکاری بەلاڕێداچوونی پڕۆژەکە."),
+                            "پلانادانانی خراپ بوو بە ھۆکاری بەلاڕێداچوونی پڕۆژەکە."),
                   ],
                 ),
               ),

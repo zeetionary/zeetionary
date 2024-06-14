@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕەهەندی، سەربە دووری، سەربە ئەندازە
+کوردی: ڕەھەندی، سەربە دووری، سەربە ئەندازە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە ئەندازە"),
           Row(
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I have my own 3D printer, but the dimensional accuracy isn't good enough."),
                     ExampleSentenceKurdish(
                         text:
-                            "پرینتەری سێ دووری خۆم هەیە، بەڵام درووستی ئەندازەکەی زۆر باش نییە."),
+                            "پرینتەری سێ دووری خۆم ھەیە، بەڵام درووستی ئەندازەکەی زۆر باش نییە."),
                   ],
                 ),
               ),
@@ -467,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // skipped_meaning
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) هەبوونی ژمارەیەکی زۆر جیاواز لە خاسیەت و تایبەتمەندی کە وا دەکات ڕاستی بن"),
+          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھەبوونی ژمارەیەکی زۆر جیاواز لە خاسیەت و تایبەتمەندی کە وا دەکات ڕاستی بن"),
           // // const DividerSentences(),
           // Row(
           //   children: [
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           //           ExampleSentenceEnglish(text: "I would say all the characters are strong, dimensional, fully-imagined women."),
-          //           ExampleSentenceKurdish(text: "پێموایە هەموو کارەکتەرەکان بەهێز، ."),
+          //           ExampleSentenceKurdish(text: "پێموایە ھەموو کارەکتەرەکان بەھێز، ."),
           //         ],
           //       ),
           //     ),

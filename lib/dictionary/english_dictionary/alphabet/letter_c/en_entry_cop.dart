@@ -255,7 +255,7 @@ class EnglishEntrycop extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) بەسەرهاتن یان وەرگرتنی شتێک"),
+                              text: "٢. (کردار) بەسەرھاتن یان وەرگرتنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -381,7 +381,7 @@ class EnglishEntrycop extends StatelessWidget {
                                             "Cop hold of that, would you - I can't carry both myself."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە بگرە، دەیگریت؟ ناتوانم خۆم هەردووکیان هەڵبگرم."),
+                                            "ئەمە بگرە، دەیگریت؟ ناتوانم خۆم ھەردووکیان ھەڵبگرم."),
                                   ],
                                 ),
                               ),

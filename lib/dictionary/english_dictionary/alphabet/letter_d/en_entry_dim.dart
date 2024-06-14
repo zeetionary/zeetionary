@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تاریک، تار، بێ‌شەوق، بێ‌ڕووناکی، بێ‌ڕۆشنایی،	(شەوق) کز، کەم،	(چاو) کەم‌سۆما، کز، لێڵ، چاک‌نەدیتوو،	لێڵ، ڕوون نییە، نامەعلووم، نادیار، تەماوی،	گێژ، کەم‌هۆش، گەمژە، حەپە
+کوردی: تاریک، تار، بێ‌شەوق، بێ‌ڕووناکی، بێ‌ڕۆشنایی،	(شەوق) کز، کەم،	(چاو) کەم‌سۆما، کز، لێڵ، چاک‌نەدیتوو،	لێڵ، ڕوون نییە، نامەعلووم، نادیار، تەماوی،	گێژ، کەم‌ھۆش، گەمژە، حەپە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ڕۆشن نییە"),
           Row(
@@ -501,7 +501,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) شوێنێک کە ناتوانی باش ببینیت بەهۆی ئەوەی کە ڕۆشنایی زۆر نییە"),
+                  "٢. (ھاوەڵناو) شوێنێک کە ناتوانی باش ببینیت بەھۆی ئەوەی کە ڕۆشنایی زۆر نییە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The room was dim because the curtains were half drawn."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژوورەکە کز بوو بەهۆی ئەوەی پەردەکان بە نیوە لادرابوون."),
+                            "ژوورەکە کز بوو بەھۆی ئەوەی پەردەکان بە نیوە لادرابوون."),
                   ],
                 ),
               ),
@@ -559,7 +559,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) شێوەیەک کە ناتوانیت باش بیبینیت بەهۆی ئەوەی ڕۆشنایی زۆر نییە"),
+                  "٣. (ھاوەڵناو) شێوەیەک کە ناتوانیت باش بیبینیت بەھۆی ئەوەی ڕۆشنایی زۆر نییە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -625,7 +625,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She had a dim recollection of the visit."),
                     ExampleSentenceKurdish(
-                        text: "بیرەوەرییەکی لاوازی سەردانەکەی هەبوو."),
+                        text: "بیرەوەرییەکی لاوازی سەردانەکەی ھەبوو."),
                   ],
                 ),
               ),
@@ -679,7 +679,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He seems incredibly dim sometimes!"),
                     ExampleSentenceKurdish(
-                        text: "هەندێک جار لەڕادەبەدەر گێژە!"),
+                        text: "ھەندێک جار لەڕادەبەدەر گێژە!"),
                   ],
                 ),
               ),
@@ -698,7 +698,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٧. (ھاوەڵناو) کە هیچ هۆکارێک نادات بۆ هەبوونی هیوا"),
+              text: "٧. (ھاوەڵناو) کە ھیچ ھۆکارێک نادات بۆ ھەبوونی ھیوا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -708,7 +708,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her future career prospects look dim."),
                     ExampleSentenceKurdish(
-                        text: "ئاسۆی کاری داهاتووی کز دیارە."),
+                        text: "ئاسۆی کاری داھاتووی کز دیارە."),
                   ],
                 ),
               ),
@@ -738,7 +738,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The lights in the theatre dimmed as the curtain rose."),
                     ExampleSentenceKurdish(
                         text:
-                            "لایتەکانی هۆڵی شانۆکە کزبوون کە پەردەکە بەرزبوویەوە."),
+                            "لایتەکانی ھۆڵی شانۆکە کزبوون کە پەردەکە بەرزبوویەوە."),
                   ],
                 ),
               ),
@@ -785,7 +785,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٩. (کردار) کاڵبوونەوەی هەست یان شتێک"),
+          const DefinitionKurdish(text: "٩. (کردار) کاڵبوونەوەی ھەست یان شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -797,7 +797,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her passion for dancing never dimmed over the years."),
                     ExampleSentenceKurdish(
                         text:
-                            "خولیای بۆ سەما بە درێژایی ساڵان هەرگیز کاڵ نەبوویەوە."),
+                            "خولیای بۆ سەما بە درێژایی ساڵان ھەرگیز کاڵ نەبوویەوە."),
                   ],
                 ),
               ),

@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چین‌دار، ئوتوکراو، قەدکراو، دەق‌دراو،	ناسک، قرپ، قرچ، تورت، وشک،	برژاو،	تازە، تەڕوتازە (میوە و سەوزە)،	کورتە،	سارد و وشک (هەوا)،	بڕا، شێلگیر، بەبڕشت، پتەو، یەکلایی‌کەرەوە،	(قژ) فڕ، لوول،	(وێنە یان پلانێ) شەق، ڕوون، دیار، ئاشکرا
+کوردی: چین‌دار، ئوتوکراو، قەدکراو، دەق‌دراو،	ناسک، قرپ، قرچ، تورت، وشک،	برژاو،	تازە، تەڕوتازە (میوە و سەوزە)،	کورتە،	سارد و وشک (ھەوا)،	بڕا، شێلگیر، بەبڕشت، پتەو، یەکلایی‌کەرەوە،	(قژ) فڕ، لوول،	(وێنە یان پلانێ) شەق، ڕوون، دیار، ئاشکرا
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) وشک و ڕەق و خۆش"),
           const AlsoEnglishckb(word: "ھەروەھا: crispy"),
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Bake until the pastry is golden and crisp."),
                     ExampleSentenceKurdish(
                         text:
-                            "بیبرژێنە تاوەکو هەویرەکە ئاڵتوونی و خرمدار دەبێت."),
+                            "بیبرژێنە تاوەکو ھەویرەکە ئاڵتوونی و خرمدار دەبێت."),
                   ],
                 ),
               ),
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crisp apple had a satisfying crunch with every bite."),
                     ExampleSentenceKurdish(
                         text:
-                            "سێوە تازەکە خرمەیەکی خۆشی هەبوو لەگەڵ هەر گازێکدا."),
+                            "سێوە تازەکە خرمەیەکی خۆشی ھەبوو لەگەڵ ھەر گازێکدا."),
                   ],
                 ),
               ),
@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (ھاوەڵناو) گەڵا، بەفر، هتد کە ڕەق و وشکن و دەنگی قرچەقرچ دەردەکەن"),
+                  "٥. (ھاوەڵناو) گەڵا، بەفر، ھتد کە ڕەق و وشکن و دەنگی قرچەقرچ دەردەکەن"),
           Row(
             children: [
               const Expanded(
@@ -523,7 +523,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Her answer was crisp, and she gave no details."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەڵامەکەی یەکلایی‌کەرەوە بوو و هیچ وردەکارییەکی نەگووت."),
+                            "وەڵامەکەی یەکلایی‌کەرەوە بوو و ھیچ وردەکارییەکی نەگووت."),
                   ],
                 ),
               ),

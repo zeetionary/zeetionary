@@ -895,7 +895,8 @@ class KurdishVocabulary extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+      padding:
+          const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0, bottom: 8.0),
       child: GestureDetector(
         // Wrap Text with GestureDetector
         onLongPress: () {
@@ -1582,7 +1583,8 @@ class EnglishMeaningConst extends ConsumerWidget {
 
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10.0),
+        padding: const EdgeInsets.only(
+            left: 8.0, right: 8.0, top: 18.0, bottom: 8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -2034,7 +2036,8 @@ class DatabaseUtils {
     }).toList();
   }
 
-  RichText highlightText(String text, String keyword, WidgetRef ref) {
+  RichText highlightText(
+      String text, String keyword, WidgetRef ref, BuildContext context) {
     final textSize = ref.watch(textSizeProvider);
     List<TextSpan> spans = [];
     int start = 0;
@@ -2043,7 +2046,10 @@ class DatabaseUtils {
     while (index != -1) {
       if (index > start) {
         spans.add(TextSpan(
-            style: TextStyle(fontSize: textSize + 1),
+            style: TextStyle(
+              fontSize: textSize + 1,
+              color: Theme.of(context).primaryColor,
+            ),
             text: text.substring(start, index)));
       }
       spans.add(TextSpan(
@@ -2059,17 +2065,24 @@ class DatabaseUtils {
     if (start < text.length) {
       spans.add(
         TextSpan(
-          style: TextStyle(fontSize: textSize + 1),
+          style: TextStyle(
+            fontSize: textSize + 1,
+            color: Theme.of(context).primaryColor,
+          ),
           text: text.substring(start),
         ),
       );
     }
 
     return RichText(
-        text: TextSpan(
-      style: TextStyle(fontSize: textSize + 1),
-      children: spans,
-    ));
+      text: TextSpan(
+        style: TextStyle(
+          fontSize: textSize + 1,
+          color: Theme.of(context).primaryColor,
+        ),
+        children: spans,
+      ),
+    );
   }
 }
 

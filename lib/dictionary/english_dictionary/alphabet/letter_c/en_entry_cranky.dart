@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She's a member of a group that promotes cranky ideas about food and exercise."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەندامی گرووپێکە کە بیرۆکەی نامۆ بڵاودەکاتەوە سەبارەت بە خواردن و ڕاهێنان."),
+                            "ئەندامی گرووپێکە کە بیرۆکەی نامۆ بڵاودەکاتەوە سەبارەت بە خواردن و ڕاھێنان."),
                   ],
                 ),
               ),

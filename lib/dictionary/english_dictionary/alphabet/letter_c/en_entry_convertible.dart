@@ -192,11 +192,11 @@ class EnglishEntryconvertible extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەگۆڕین‌هاتوو، دەگۆڕێت، ئۆتۆمبێلی سەر(یان میچ)قەدکراو، ئۆتۆمبێلی میچ‌نووشتاو
+کوردی: لەگۆڕین‌ھاتوو، دەگۆڕێت، ئۆتۆمبێلی سەر(یان میچ)قەدکراو، ئۆتۆمبێلی میچ‌نووشتاو
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) کە دەکرێت بگۆڕێت بۆ جۆر یان بەکارهێنانێکی دیکە"),
+                                  "١. (ھاوەڵناو) کە دەکرێت بگۆڕێت بۆ جۆر یان بەکارھێنانێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -229,7 +229,7 @@ class EnglishEntryconvertible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو، ناو) ئۆتۆمبێلێک کە سەرەکەی دەکرێت دابخرێت و هەڵبدرێتەوە"),
+                                  "٢. (ھاوەڵناو، ناو) ئۆتۆمبێلێک کە سەرەکەی دەکرێت دابخرێت و ھەڵبدرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntryconvertible extends StatelessWidget {
                                             "She drove her white convertible Mercedes with the roof down."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مارسیدزە سپییە میچ‌نووشتاوەکەی بە سەری هەڵدراوەوە لێدەخوڕی."),
+                                            "مارسیدزە سپییە میچ‌نووشتاوەکەی بە سەری ھەڵدراوەوە لێدەخوڕی."),
                                   ],
                                 ),
                               ),

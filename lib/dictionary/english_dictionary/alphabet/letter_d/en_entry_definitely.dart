@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵکار) شێوەیەکی دڵنیاییکردنەوەی ئەوەی کە شتێک ڕاستە و هیچ گومانی لەسەر نییە"),
+                  "١. (ھاوەڵکار) شێوەیەکی دڵنیاییکردنەوەی ئەوەی کە شتێک ڕاستە و ھیچ گومانی لەسەر نییە"),
           Row(
             children: [
               const Expanded(
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some old people want help; others most definitely do not."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک کەسی بەتەمەن یارمەتییان دەوێت؛ ئەوانی دیکە بەدڵنیاییەوە نایانەوێت."),
+                            "ھەندێک کەسی بەتەمەن یارمەتییان دەوێت؛ ئەوانی دیکە بەدڵنیاییەوە نایانەوێت."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The date of the move has not been definitely decided yet (= it may change)."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکەوتی جوڵەکە هێشتا بە دڵنیایی بڕیاری لەسەر نەدراوە."),
+                            "ڕێکەوتی جوڵەکە ھێشتا بە دڵنیایی بڕیاری لەسەر نەدراوە."),
                   ],
                 ),
               ),

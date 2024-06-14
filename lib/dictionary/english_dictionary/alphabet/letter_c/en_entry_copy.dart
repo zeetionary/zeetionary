@@ -714,11 +714,11 @@ class EnglishEntrycopy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کۆپی، ڕوونووس، نوسخە، لێ‌هەڵگیراوە، ڕایش، ڕووە، ڕووگیراوە، فۆتۆکۆپی،	(کتێب) دانە، بەرگ، نوسخە،	(ڕۆژنامە) دانە، ژمارە، دەنک، دانە،	بابەت، مژار، نڤیسار (ڕۆژنامە و کۆڤار)،	ئاگاداری
+کوردی: کۆپی، ڕوونووس، نوسخە، لێ‌ھەڵگیراوە، ڕایش، ڕووە، ڕووگیراوە، فۆتۆکۆپی،	(کتێب) دانە، بەرگ، نوسخە،	(ڕۆژنامە) دانە، ژمارە، دەنک، دانە،	بابەت، مژار، نڤیسار (ڕۆژنامە و کۆڤار)،	ئاگاداری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) شتێک کە هەمان شتە لەگەڵ شتێکی دیکەدا لە شێوەدا"),
+                                  "١. (ناو) شتێک کە ھەمان شتە لەگەڵ شتێکی دیکەدا لە شێوەدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -757,7 +757,7 @@ class EnglishEntrycopy extends StatelessWidget {
                                             "He made careful copies of all the documents he found in the library."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەبەرگیراوەی هەموو بەڵگەنامەکانی درووستکرد کە لە کتێبخانەکەدا دۆزییەوە."),
+                                            "لەبەرگیراوەی ھەموو بەڵگەنامەکانی درووستکرد کە لە کتێبخانەکەدا دۆزییەوە."),
                                   ],
                                 ),
                               ),
@@ -842,7 +842,7 @@ class EnglishEntrycopy extends StatelessWidget {
                                             "The book sold 20 000 copies within two weeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کتێبەکە ٢٠٠٠٠ دانەی لێ فرۆشرا لە دوو هەفتەدا."),
+                                            "کتێبەکە ٢٠٠٠٠ دانەی لێ فرۆشرا لە دوو ھەفتەدا."),
                                   ],
                                 ),
                               ),
@@ -870,7 +870,7 @@ class EnglishEntrycopy extends StatelessWidget {
                                             "There are a limited number of copies still available."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەکی دیاریکراو لە کۆپی هێشتا بەردەستە."),
+                                            "ژمارەیەکی دیاریکراو لە کۆپی ھێشتا بەردەستە."),
                                   ],
                                 ),
                               ),
@@ -890,7 +890,7 @@ class EnglishEntrycopy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) بابەتی نووسراو کە بۆ ئەوەیە لە ڕۆژنامەیەک، گۆڤارێک، هتد بڵاوبکرێتەوە"),
+                                  "٣. (ناو) بابەتی نووسراو کە بۆ ئەوەیە لە ڕۆژنامەیەک، گۆڤارێک، ھتد بڵاوبکرێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1017,7 +1017,7 @@ class EnglishEntrycopy extends StatelessWidget {
                                             "The product has been widely copied by other manufacturers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەمەکە بە بەرفراوانی لەلایەن بەرهەمهێنەرەکانی دیکەوە کۆپیکراوە."),
+                                            "بەرھەمەکە بە بەرفراوانی لەلایەن بەرھەمھێنەرەکانی دیکەوە کۆپیکراوە."),
                                   ],
                                 ),
                               ),
@@ -1104,7 +1104,7 @@ class EnglishEntrycopy extends StatelessWidget {
                                             "You do not have to copy down every word in a lecture."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویست ناکات هەموو وشەیەکی وانەیەک بنووسیتەوە."),
+                                            "پێویست ناکات ھەموو وشەیەکی وانەیەک بنووسیتەوە."),
                                   ],
                                 ),
                               ),
@@ -1124,7 +1124,7 @@ class EnglishEntrycopy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) درووستکردنی کۆپییەکی تەواوی وشانێکی داتایەک، پڕۆگرامێک، هتد بۆ ئەوەی دووبارە بەکاریبێنیتەوە"),
+                                  "٧. (کردار) درووستکردنی کۆپییەکی تەواوی وشانێکی داتایەک، پڕۆگرامێک، ھتد بۆ ئەوەی دووبارە بەکاریبێنیتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1221,7 +1221,7 @@ class EnglishEntrycopy extends StatelessWidget {
                                             "She copies everything her sister does."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لاسایی هەر شتێک دەکاتەوە خوشکەکەی دەیکات."),
+                                            "لاسایی ھەر شتێک دەکاتەوە خوشکەکەی دەیکات."),
                                   ],
                                 ),
                               ),

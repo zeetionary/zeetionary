@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (بریتانیا) ستان، پارێزگا، ئەیالەت،	خەڵکی ستان،	ناوچە، هەرێم، دەڤەر
+کوردی: (بریتانیا) ستان، پارێزگا، ئەیالەت،	خەڵکی ستان،	ناوچە، ھەرێم، دەڤەر
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) یەکێک لەو ناوچانەی کە هەندێک وڵات بەسەریدا دابەشکراوە و حکومەتی خۆجێیی خۆی هەیە"),
+                  "١. (ناو) یەکێک لەو ناوچانەی کە ھەندێک وڵات بەسەریدا دابەشکراوە و حکومەتی خۆجێیی خۆی ھەیە"),
           Row(
             children: [
               const Expanded(

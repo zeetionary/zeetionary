@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) زۆر بچووک یان بێ‌بەها کە شایەنی بیرکردنەوە نییە"),
+                  "١. (ھاوەڵناو) زۆر بچووک یان بێ‌بەھا کە شایەنی بیرکردنەوە نییە"),
           Row(
             children: [
               const Expanded(
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "They offered us a derisory £50 a week."),
                     ExampleSentenceKurdish(
                         text:
-                            "٥٠ پاوەند گاڵتەجاڕانەیان بۆ هەفتەیەکیان پێمان پێشکەس کرد."),
+                            "٥٠ پاوەند گاڵتەجاڕانەیان بۆ ھەفتەیەکیان پێمان پێشکەس کرد."),
                   ],
                 ),
               ),

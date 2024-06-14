@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: نزم کردن، هاتنەخوار، داکەوتن
+// کوردی: نزم کردن، ھاتنەخوار، داکەوتن
 // """),
           const DefinitionKurdish(
               text:
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Important natural habitats have been degraded by development."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژینگەی سرووشتیی گرنگ بەهۆی بەرەوپێشچوونەوە زیانیان پێگەشتووە."),
+                            "ژینگەی سرووشتیی گرنگ بەھۆی بەرەوپێشچوونەوە زیانیان پێگەشتووە."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The bacteria will degrade hydrocarbons."),
                     ExampleSentenceKurdish(
-                        text: "بەکتریا هایدرۆکاربۆن شیدەکاتەوە."),
+                        text: "بەکتریا ھایدرۆکاربۆن شیدەکاتەوە."),
                   ],
                 ),
               ),

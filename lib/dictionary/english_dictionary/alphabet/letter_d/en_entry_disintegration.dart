@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شی‌بوونەوە، لێک‌هەڵوەشان، هەڵوەشانەوە، پارچەپارچەبوون، پووان، (پرش و) بڵاوبوونەوە، لێک‌بوونەوە، وردوخاش‌بوون، لەت‌وکوت‌بوون
+کوردی: شی‌بوونەوە، لێک‌ھەڵوەشان، ھەڵوەشانەوە، پارچەپارچەبوون، پووان، (پرش و) بڵاوبوونەوە، لێک‌بوونەوە، وردوخاش‌بوون، لەت‌وکوت‌بوون
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دۆخی لەدەستدانی بەهێزی و یەکگرتووی و کەم کەم هەڵوەشانەوە"),
+                  "١. (ناو) دۆخی لەدەستدانی بەھێزی و یەکگرتووی و کەم کەم ھەڵوەشانەوە"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "These terrorists are trying to bring about a disintegration of the state."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم تیرۆریستانە هەوڵی هەڵوەشاندنەوەی وڵاتەکە دەدەن."),
+                            "ئەم تیرۆریستانە ھەوڵی ھەڵوەشاندنەوەی وڵاتەکە دەدەن."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Children leaving to find work in the cities might lead to family disintegration."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕۆشتنی منداڵان بۆ شار بۆ دۆزینەوەی کار ڕەنگە ببێتە هۆکاری هەڵوەشاندنەوەی خێزان."),
+                            "ڕۆشتنی منداڵان بۆ شار بۆ دۆزینەوەی کار ڕەنگە ببێتە ھۆکاری ھەڵوەشاندنەوەی خێزان."),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The explosion caused the aircraft's disintegration."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەقینەوەکە بوو بە هۆکاری پارچەپارچەبوونی فڕۆکەکە."),
+                            "تەقینەوەکە بوو بە ھۆکاری پارچەپارچەبوونی فڕۆکەکە."),
                   ],
                 ),
               ),

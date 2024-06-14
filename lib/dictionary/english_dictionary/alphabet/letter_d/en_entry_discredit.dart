@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This was a blatant attempt to discredit this company."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمە هەوڵێکی ئاشکرا بوو بۆ ناوزڕاندنی ئەم کۆمپانیایە."),
+                            "ئەمە ھەوڵێکی ئاشکرا بوو بۆ ناوزڕاندنی ئەم کۆمپانیایە."),
                   ],
                 ),
               ),
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Violent football fans bring discredit on the teams they support."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوادارە توندوتیژەکانی تۆپی پێ مایەی ئابڕووچوونن بۆ ئەو تیمەی پشتگیری دەکەن."),
+                            "ھەوادارە توندوتیژەکانی تۆپی پێ مایەی ئابڕووچوونن بۆ ئەو تیمەی پشتگیری دەکەن."),
                   ],
                 ),
               ),
@@ -664,7 +664,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They were a discredit to their country."),
                     ExampleSentenceKurdish(
-                        text: "شەرمهێنەر بوون بۆ وڵاتەکەیان."),
+                        text: "شەرمھێنەر بوون بۆ وڵاتەکەیان."),
                   ],
                 ),
               ),

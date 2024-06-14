@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Lowering interest rates could have disastrous consequences for the economy."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمکردنەوەی ڕێژەی سوو دەکرا لێکەوتەی کارەساتباری هەبا بۆ ئابووری."),
+                            "کەمکردنەوەی ڕێژەی سوو دەکرا لێکەوتەی کارەساتباری ھەبا بۆ ئابووری."),
                   ],
                 ),
               ),

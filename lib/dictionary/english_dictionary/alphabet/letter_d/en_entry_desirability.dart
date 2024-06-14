@@ -407,10 +407,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: باش‌بوون، خۆشی، چاکێتی،	بایەخ، بەها،	قازانج،	پێویستی،	(لەباری سێکسی‌یەوە) سەرنج‌ڕاکێشی، لەباری، جوانی، سێکسی‌بوون
+کوردی: باش‌بوون، خۆشی، چاکێتی،	بایەخ، بەھا،	قازانج،	پێویستی،	(لەباری سێکسی‌یەوە) سەرنج‌ڕاکێشی، لەباری، جوانی، سێکسی‌بوون
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) خاسیەتی شایەنی ئەوەی کە هەبێت"),
+              text: "١. (ناو) خاسیەتی شایەنی ئەوەی کە ھەبێت"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "No one questions the desirability of cheaper fares."),
                     ExampleSentenceKurdish(
-                        text: "هیچ کەس گومانی نییە لە باشی کرێی کەمتر."),
+                        text: "ھیچ کەس گومانی نییە لە باشی کرێی کەمتر."),
                   ],
                 ),
               ),

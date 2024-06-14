@@ -11,642 +11,644 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrycypress extends StatefulWidget {
-const EnglishEntrycypress({super.key});
+  const EnglishEntrycypress({super.key});
 
-@override
-State<EnglishEntrycypress> createState() => _EnglishEntrycypressState();
+  @override
+  State<EnglishEntrycypress> createState() => _EnglishEntrycypressState();
 }
 
 class _EnglishEntrycypressState extends State<EnglishEntrycypress> {
-@override
-Widget build(BuildContext context) {
-  return DefaultTabController(
-    length: 3,
-    child: Scaffold(
-      appBar: const ZeetionaryAppbar(),
-      body: NestedScrollView(
-        headerSliverBuilder: (context, innerBoxIsScrolled) {
-          return [
-            const SliverAppBar(
-              pinned: true,
-              floating: true,
-              expandedHeight: 220.0,
-              flexibleSpace: FlexibleSpaceBar(
-                background: EntryAndIPA(),
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
               ),
-              automaticallyImplyLeading: false,
-              bottom: TabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-            ),
-          ];
-        },
-        body: TabBarView(
-          children: [
-            const EnglishMeaning(),
-            KurdishMeaning(),
-            const YoutubeVideos(),
-          ],
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
+            ],
+          ),
         ),
       ),
-    ),
-  );
-}
+    );
+  }
 }
 
 class EntryAndIPA extends StatelessWidget {
-const EntryAndIPA({
-  super.key,
-});
+  const EntryAndIPA({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const SingleChildScrollView(
-    child: Column(
-      children: [
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                TitleOfEntry(),
-              ],
-            ),
-            // TitleOfEntryAlso(),
-            IpaUK(),
-            IpaUS(),
-          ],
-        ),
-      ],
-    ),
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 class TitleOfEntry extends StatelessWidget {
-const TitleOfEntry({
-  super.key,
-});
+  const TitleOfEntry({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const EntryTitle(word: "cypress");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "cypress");
+  }
 }
 
 class TitleOfEntryAlso extends StatelessWidget {
-const TitleOfEntryAlso({
-  super.key,
-});
+  const TitleOfEntryAlso({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const AlsoEnglish(word: "also: cypress");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: cypress");
+  }
 }
 
 class IpaUK extends StatelessWidget {
-const IpaUK({
-  super.key,
-});
+  const IpaUK({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return Row(
-    children: [
-      TTSUK(),
-      const IpaUKtext(),
-    ],
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUK(),
+        const IpaUKtext(),
+      ],
+    );
+  }
 }
 
 class IpaUKtext extends StatelessWidget {
-const IpaUKtext({
-  super.key,
-});
+  const IpaUKtext({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const IPAofEnglish(text: "IpaUK: /ˈsaɪprəs/");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈsaɪprəs/");
+  }
 }
 
 class TTSUK extends StatelessWidget {
-TTSUK({
-  super.key,
-});
+  TTSUK({
+    super.key,
+  });
 
-final FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
 
-Future<void> speakcypress(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("cypress"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypress(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("cypress"); // DOPSUM: CHANGE TEXT
+  }
 
-@override
-Widget build(BuildContext context) {
-  return CustomIconButtonBritish(
-    onPressed: () => speakcypress("en-GB"),
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakcypress("en-GB"),
+    );
+  }
 }
 
 class IpaUS extends StatelessWidget {
-const IpaUS({
-  super.key,
-});
+  const IpaUS({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return Row(
-    children: [
-      TTSUS(),
-      const IpaUStext(),
-    ],
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUS(),
+        const IpaUStext(),
+      ],
+    );
+  }
 }
 
 class IpaUStext extends StatelessWidget {
-const IpaUStext({
-  super.key,
-});
+  const IpaUStext({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const IPAofEnglish(text: "IpaUS: /ˈsaɪprəs/");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈsaɪprəs/");
+  }
 }
 
 class TTSUS extends StatelessWidget {
-TTSUS({
-  super.key,
-});
+  TTSUS({
+    super.key,
+  });
 
-final FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
 
-Future<void> speakcypress(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("cypress"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypress(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("cypress"); // DOPSUM: CHANGE TEXT
+  }
 
-@override
-Widget build(BuildContext context) {
-  return CustomIconButtonAmerican(
-    onPressed: () => speakcypress("en-US"),
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcypress("en-US"),
+    );
+  }
 }
 
 class KurdishMeaning extends StatelessWidget {
-KurdishMeaning({
-  super.key,
-});
+  KurdishMeaning({
+    super.key,
+  });
 
-final FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
 
-Future<void> speakcypresss1(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak(
-      "The cemetery was surrounded by a row of tall cypress trees."); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The cemetery was surrounded by a row of tall cypress trees."); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss2(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss200"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss200"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss3(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss300"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss300"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss4(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss400"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss400"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss5(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss500"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss500"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss6(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss600"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss600"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss7(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss700"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss700"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss8(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss800"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss800"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss9(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss900"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss900"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss10(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss1000"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss1000"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss11(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss1100"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss1100"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss12(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss1200"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss1200"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakcypresss13(String languageCode) async {
-  // DOPSUM: CHANGE speakcypress
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakcypresss1300"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakcypresss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcypress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcypresss1300"); // DOPSUM: CHANGE TEXT
+  }
 
-@override
-Widget build(BuildContext context) {
-  return SingleChildScrollView(
-    // DOPSUM: KURDISH MEANING
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.end,
-      children: [
-        const DividerDefinition(),
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
 //         const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-        const DefinitionKurdish(text: "١. (ناو) دارێکی بەرزی هەمیشە سەوز"),
-        Row(
-          children: [
-            const Expanded(
-              child: Column(
+          const DefinitionKurdish(text: "١. (ناو) دارێکی بەرزی ھەمیشە سەوز"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The cemetery was surrounded by a row of tall cypress trees."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "گۆڕستانەکە دەوردرابوو بە ڕیزێک لە درەختی سایپرسی درێژ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "cypress", please follow LX instructions
+              Column(
                 children: [
-                  ExampleSentenceEnglish(
-                      text:
-                          "The cemetery was surrounded by a row of tall cypress trees."),
-                  ExampleSentenceKurdish(text: "گۆڕستانەکە دەوردرابوو بە ڕیزێک لە درەختی سایپرسی درێژ."),
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcypresss1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcypresss1("en-US"),
+                  ),
                 ],
               ),
-            ),
-            const CustomSizedBoxForTTS(), // With short examples define "cypress", please follow LX instructions
-            Column(
-              children: [
-                CustomIconButtonBritish(
-                  onPressed: () => speakcypresss1("en-GB"),
-                ),
-                CustomIconButtonAmerican(
-                  onPressed: () => speakcypresss1("en-US"),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
-  );
-}
+            ],
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 // DOPSUM: ENGLISH MEANING
 
 class EnglishMeaning extends StatefulWidget {
-const EnglishMeaning({super.key});
+  const EnglishMeaning({super.key});
 
-@override
-State<EnglishMeaning> createState() => _EnglishMeaningState();
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
 }
 
 class _EnglishMeaningState extends State<EnglishMeaning> {
-FlutterTts flutterTts = FlutterTts();
-bool isSpeaking = false;
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
-Future<void> startSpeaking(
-    String languageCode, EnglishMeaningConst englishMeaningConst) async {
-  // Extract text from EnglishMeaningConst and store it in textToSpeak
-  String textToSpeak = """
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
 ${englishMeaningConst.text}
 """;
 
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.speak(textToSpeak);
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
 
-  // Update the state to reflect that TTS is in progress
-  setState(() {
-    isSpeaking = true;
-  });
-}
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
 
 // Function to stop TTS
-Future<void> stopSpeaking() async {
-  await flutterTts.stop();
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
 
-  // Update the state to reflect that TTS is stopped
-  setState(() {
-    isSpeaking = false;
-  });
-}
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
 
 // Create an instance of EnglishMeaningConst with the desired text
-final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-  text: """
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Noun: cypress (derived forms: cypresses)
 1. Wood of any of various cypress trees especially of the genus Cupressus
  
 2. Any of numerous evergreen conifers of the genus Cupressus of north temperate regions having dark scalelike leaves and rounded cones (= cypress tree)
 """,
-);
-
-@override
-Widget build(BuildContext context) {
-  return SingleChildScrollView(
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const DividerDefinition(),
-        // Using the EnglishButtonTTS class
-        EnglishButtonTTS(
-          onBritishPressed: (languageCode) =>
-              startSpeaking(languageCode, englishMeaningConst),
-          onAmericanPressed: (languageCode) =>
-              startSpeaking(languageCode, englishMeaningConst),
-          onStopPressed: stopSpeaking,
-        ),
-        // Speaker icon for American English
-        englishMeaningConst,
-      ],
-    ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
+  }
 }
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedend extends StatelessWidget {
-YoutubeEmbeddedend({super.key});
+  YoutubeEmbeddedend({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: '1oa6VziZH78',
-  startSeconds: 33,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignEnd(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: '1oa6VziZH78',
+    startSeconds: 33,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedone extends StatelessWidget {
-YoutubeEmbeddedone({super.key});
+  YoutubeEmbeddedone({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'EobMnSpjfTU',
-  startSeconds: 584,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'EobMnSpjfTU',
+    startSeconds: 584,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-YoutubeEmbeddedtwo({super.key});
+  YoutubeEmbeddedtwo({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'l0MF_AdmPLY',
-  startSeconds: 632,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'l0MF_AdmPLY',
+    startSeconds: 632,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-YoutubeEmbeddedthree({super.key});
+  YoutubeEmbeddedthree({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'XWZ-iA3HMOU',
-  startSeconds: 654,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'XWZ-iA3HMOU',
+    startSeconds: 654,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-YoutubeEmbeddedfour({super.key});
+  YoutubeEmbeddedfour({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: '5n74aCMnGpg',
-  startSeconds: 179,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: '5n74aCMnGpg',
+    startSeconds: 179,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-YoutubeEmbeddedfive({super.key});
+  YoutubeEmbeddedfive({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'XZIBjIJv9oQ',
-  startSeconds: 74,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'XZIBjIJv9oQ',
+    startSeconds: 74,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-YoutubeEmbeddedsix({super.key});
+  YoutubeEmbeddedsix({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'LQ6EXYXF58Q',
-  startSeconds: 634,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'LQ6EXYXF58Q',
+    startSeconds: 634,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeVideos extends StatelessWidget {
-const YoutubeVideos({
-  super.key,
-});
+  const YoutubeVideos({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return YouTubeScroller(
-    children: [
-      YoutubeEmbeddedone(),
-      YoutubeEmbeddedtwo(),
-      YoutubeEmbeddedthree(),
-      YoutubeEmbeddedfour(),
-      YoutubeEmbeddedfive(),
-      YoutubeEmbeddedsix(),
-      // YoutubeEmbeddedseven(),
-      // YoutubeEmbeddedeight(),
-      // YoutubeEmbeddednine(),
-      // YoutubeEmbeddedten(),
-      // YoutubeEmbeddedeleven(),
-      // YoutubeEmbeddedtwelve(),
-      // YoutubeEmbeddedthirteen(),
-      // YoutubeEmbeddeddfourteen(),
-      // YoutubeEmbeddedfifteen(),
-      // YoutubeEmbeddeddsixteen(),
-      // YoutubeEmbeddeddseventeen(),
-      // YoutubeEmbeddeddeighteen(),
-      // YoutubeEmbeddeddnineteen(),
-      // YoutubeEmbeddedtwenty(),
-      // YoutubeEmbeddedmulti(),
-      YoutubeEmbeddedend(),
-    ],
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        YoutubeEmbeddedfive(),
+        YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
 }
 
 // end WORD_WEB

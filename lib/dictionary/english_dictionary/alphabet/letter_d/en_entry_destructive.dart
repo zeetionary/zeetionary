@@ -407,10 +407,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێکدەر، داڕمێنەر، هەڵتەکێنەر، وێران‌کەر، ڕووخێنەر، داڕووخێنەر، لەنێوبەر، مایەی فەوتاندن یان تیابردن، فەوتێنەر، زیان‌گەیێن، کوژەر، بکوژ،	خراپ، لایەنی خراپەی زۆرە، نابنیات‌نەر، ڕووخێنەر: 
+کوردی: تێکدەر، داڕمێنەر، ھەڵتەکێنەر، وێران‌کەر، ڕووخێنەر، داڕووخێنەر، لەنێوبەر، مایەی فەوتاندن یان تیابردن، فەوتێنەر، زیان‌گەیێن، کوژەر، بکوژ،	خراپ، لایەنی خراپەی زۆرە، نابنیات‌نەر، ڕووخێنەر: 
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) کە دەبێتە هۆکاری وێرانی و زیان"),
+              text: "١. (ھاوەڵناو) کە دەبێتە ھۆکاری وێرانی و زیان"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The war demonstrated the destructive power of modern weapons."),
                     ExampleSentenceKurdish(
                         text:
-                            "جەنگەکە هێزی وێرانکەری چەکی سەردەمیانەی پیشاندا."),
+                            "جەنگەکە ھێزی وێرانکەری چەکی سەردەمیانەی پیشاندا."),
                   ],
                 ),
               ),

@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هۆشیاری، ئاگاداری، وردبوونەوە، سەرنج‌پێ‌دان، دووربینی، ژیری، ئاقڵی، تێگەیشتوویی،	بۆچوون، ڕا، پێ‌باش‌بوون، بە چاک‌زانین،	ئازادی بڕیاردان، سەرپشکی، دەسەڵات، توانایی بڕیاردان،	سڕپۆشی، ڕازپۆشی
+کوردی: ھۆشیاری، ئاگاداری، وردبوونەوە، سەرنج‌پێ‌دان، دووربینی، ژیری، ئاقڵی، تێگەیشتوویی،	بۆچوون، ڕا، پێ‌باش‌بوون، بە چاک‌زانین،	ئازادی بڕیاردان، سەرپشکی، دەسەڵات، توانایی بڕیاردان،	سڕپۆشی، ڕازپۆشی
 """),
           const DefinitionKurdish(
               text:
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I'll leave it up to you to use your discretion."),
                     ExampleSentenceKurdish(
-                        text: "بۆ ئێوەی جێدێڵم کە دەسەڵاتی خۆتان بەکاربهێنن."),
+                        text: "بۆ ئێوەی جێدێڵم کە دەسەڵاتی خۆتان بەکاربھێنن."),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She has considerable discretion as to how the money is spent."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەسەڵاتی زۆری هەیە بەسەر ئەوەی پارەکە چۆن خەرج دەکرێت."),
+                            "دەسەڵاتی زۆری ھەیە بەسەر ئەوەی پارەکە چۆن خەرج دەکرێت."),
                   ],
                 ),
               ),
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The president used his executive discretion to pardon the two men."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرۆکەکە دەسەڵاتی سەرۆکایەتیی بەکارهێنا بۆ بەخشینی دوو کەس."),
+                            "سەرۆکەکە دەسەڵاتی سەرۆکایەتیی بەکارھێنا بۆ بەخشینی دوو کەس."),
                   ],
                 ),
               ),
@@ -531,7 +531,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) وریایی لەوەی دەیکەیت یان دەیڵێیت بۆ ئەوەی شتێک بە نهێنی بهێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
+                  "٢. (ناو) وریایی لەوەی دەیکەیت یان دەیڵێیت بۆ ئەوەی شتێک بە نھێنی بھێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -543,7 +543,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This is confidential, but I know that I can rely on your discretion."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمە نهێنییە، بەڵام دەزانم دەتوانم متمانە بە هۆشیاریت بکەم."),
+                            "ئەمە نھێنییە، بەڵام دەزانم دەتوانم متمانە بە ھۆشیاریت بکەم."),
                   ],
                 ),
               ),
@@ -573,7 +573,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Use the utmost discretion when you talk to her."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوپەڕی هۆشیاری بەکاربهێنە کە قسەی لەگەڵ دەکەیت."),
+                            "ئەوپەڕی ھۆشیاری بەکاربھێنە کە قسەی لەگەڵ دەکەیت."),
                   ],
                 ),
               ),

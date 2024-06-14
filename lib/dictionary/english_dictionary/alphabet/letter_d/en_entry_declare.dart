@@ -531,7 +531,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He will probably have to declare bankruptcy."),
                     ExampleSentenceKurdish(
-                        text: "ئەگەری هەیە ناچاربێت مایەپووچی ڕابگەیەنێت."),
+                        text: "ئەگەری ھەیە ناچاربێت مایەپووچی ڕابگەیەنێت."),
                   ],
                 ),
               ),
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Neither side was able to declare victory."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هیچ لایەنێکیان نەیدەتوانی سەرکەوتن ڕابگەنێت."),
+                                    "ھیچ لایەنێکیان نەیدەتوانی سەرکەوتن ڕابگەنێت."),
                           ],
                         ),
                       ),
@@ -617,7 +617,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The court declared that strike action was illegal."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "دادگا ڕایگەیاند هەڵمەتی مانگرتنەکە نایاسایی بوو."),
+                                    "دادگا ڕایگەیاند ھەڵمەتی مانگرتنەکە نایاسایی بوو."),
                           ],
                         ),
                       ),
@@ -645,7 +645,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "In the end, they were both declared winners of the tournament."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "لە کۆتاییدا هەردووکیان بە براوەی پاڵەوانێتییەکە دانران."),
+                                    "لە کۆتاییدا ھەردووکیان بە براوەی پاڵەوانێتییەکە دانران."),
                           ],
                         ),
                       ),
@@ -759,7 +759,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He declared his true feelings to her."),
                     ExampleSentenceKurdish(
-                        text: "هەستە ڕاستەقینەکانیی بۆی ڕاگەیاند."),
+                        text: "ھەستە ڕاستەقینەکانیی بۆی ڕاگەیاند."),
                   ],
                 ),
               ),
@@ -789,7 +789,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Only two candidates have declared themselves so far."),
                     ExampleSentenceKurdish(
-                        text: "تەنها دوو بەربژێر تا ئێستا خۆیان ڕاگەیاندووە."),
+                        text: "تەنھا دوو بەربژێر تا ئێستا خۆیان ڕاگەیاندووە."),
                   ],
                 ),
               ),
@@ -846,7 +846,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All income must be declared."),
                     ExampleSentenceKurdish(
-                        text: "هەموو داهاتێک دەبێت ڕابگەیەندرێت."),
+                        text: "ھەموو داھاتێک دەبێت ڕابگەیەندرێت."),
                   ],
                 ),
               ),
@@ -874,7 +874,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Do you have anything to declare?"),
-                    ExampleSentenceKurdish(text: "هیچ شتێکت پێیە ڕایبگەیەنیت؟"),
+                    ExampleSentenceKurdish(text: "ھیچ شتێکت پێیە ڕایبگەیەنیت؟"),
                   ],
                 ),
               ),

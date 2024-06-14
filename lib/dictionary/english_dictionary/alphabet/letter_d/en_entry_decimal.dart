@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (هاوەڵناو) سەر بە ژمارە دە، یان ژماردن بە دەیان"),
+              text: "١. (ھاوەڵناو) سەر بە ژمارە دە، یان ژماردن بە دەیان"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "If you calculate the result to two decimal places (= give two numbers after the decimal point, as in 3.65), that should minimize any possible errors."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری هەر هەڵەیەک کەم بکاتەوە."),
+                            "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری ھەر ھەڵەیەک کەم بکاتەوە."),
                   ],
                 ),
               ),

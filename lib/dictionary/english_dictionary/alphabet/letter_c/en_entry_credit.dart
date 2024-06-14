@@ -837,7 +837,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: باوەڕ، بایەخ،	مۆڵەت، ماوە، دەرفەت، وادە،	سەرجەم ئەو پارەی کەوا لە حسابی بانکی کەسێ دایە،	قەرز،	خاوەن‌قەرز، قەرزدەر، ستوونی خاوەن‌قەرز، لای ڕاست،	لێ‌ڕابینین، ڕاپەڕموون،	شانازی،	ئابڕوو، ناوبانگ، بڕەوی، متمانەیی،	پیاهەڵوتن، پەسن‌دان، ستایشت،	پەسندکردن،	مایەی شانازی، جێگای سەربەرزی،	یەکەی خوێندن (لە کۆلێژ یان زانکۆ)
+کوردی: باوەڕ، بایەخ،	مۆڵەت، ماوە، دەرفەت، وادە،	سەرجەم ئەو پارەی کەوا لە حسابی بانکی کەسێ دایە،	قەرز،	خاوەن‌قەرز، قەرزدەر، ستوونی خاوەن‌قەرز، لای ڕاست،	لێ‌ڕابینین، ڕاپەڕموون،	شانازی،	ئابڕوو، ناوبانگ، بڕەوی، متمانەیی،	پیاھەڵوتن، پەسن‌دان، ستایشت،	پەسندکردن،	مایەی شانازی، جێگای سەربەرزی،	یەکەی خوێندن (لە کۆلێژ یان زانکۆ)
 """),
           const DefinitionKurdish(
               text:
@@ -904,7 +904,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The credit crisis is far from over."),
                     ExampleSentenceKurdish(
-                        text: "کێشەی قەرزەکە کۆتایی نەهاتووە."),
+                        text: "کێشەی قەرزەکە کۆتایی نەھاتووە."),
                   ],
                 ),
               ),
@@ -979,7 +979,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) هەبوونی متمانەی ئەوەی کە قەرز دەگەڕێیتەوە"),
+              text: "٣. (ناو) ھەبوونی متمانەی ئەوەی کە قەرز دەگەڕێیتەوە"),
           Row(
             children: [
               const Expanded(
@@ -988,7 +988,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her credit isn't good anywhere now."),
                     ExampleSentenceKurdish(
-                        text: "لە ئێستادا متمانەی هیچ باش نییە."),
+                        text: "لە ئێستادا متمانەی ھیچ باش نییە."),
                   ],
                 ),
               ),
@@ -1007,7 +1007,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) ئەو پارەیەی کە لە هەژماری بانکی"),
+              text: "٤. (ناو) ئەو پارەیەی کە لە ھەژماری بانکی"),
           Row(
             children: [
               const Expanded(
@@ -1016,7 +1016,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You have a credit balance of £250."),
                     ExampleSentenceKurdish(
-                        text: "باڵانسی هەژماری بانکی ٢٥٠ پاوەندت هەیە."),
+                        text: "باڵانسی ھەژماری بانکی ٢٥٠ پاوەندت ھەیە."),
                   ],
                 ),
               ),
@@ -1040,7 +1040,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "My account is in credit."),
-                    ExampleSentenceKurdish(text: "هەژمارەکەم پارەی تێدایە."),
+                    ExampleSentenceKurdish(text: "ھەژمارەکەم پارەی تێدایە."),
                   ],
                 ),
               ),
@@ -1059,7 +1059,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (ناو) بڕە پارەیەک کە دەخرێتە هەژمارێکی بانکییەوە"),
+              text: "٥. (ناو) بڕە پارەیەک کە دەخرێتە ھەژمارێکی بانکییەوە"),
           Row(
             children: [
               const Expanded(
@@ -1070,7 +1070,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You'll be paid by direct credit into your bank account."),
                     ExampleSentenceKurdish(
                         text:
-                            "پارەت پێ دەدرێت بە زیادکردنی ڕاستەوخۆ بۆ سەر هەژمارە بانکییەکەت."),
+                            "پارەت پێ دەدرێت بە زیادکردنی ڕاستەوخۆ بۆ سەر ھەژمارە بانکییەکەت."),
                   ],
                 ),
               ),
@@ -1089,7 +1089,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (ناو) مافی بەکارهێنانی شتێک کە پێشتر پارەت بۆ داوە"),
+              text: "٦. (ناو) مافی بەکارھێنانی شتێک کە پێشتر پارەت بۆ داوە"),
           Row(
             children: [
               const Expanded(
@@ -1118,7 +1118,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٧. (ناو) بڕە پارەیەک کە کەسێک مافی بە سەرەوە هەیە بە هۆکارێکی دیاریکراو؛ بڕە پارەیەک کە نایدەیت"),
+                  "٧. (ناو) بڕە پارەیەک کە کەسێک مافی بە سەرەوە ھەیە بە ھۆکارێکی دیاریکراو؛ بڕە پارەیەک کە نایدەیت"),
           Row(
             children: [
               const Expanded(
@@ -1129,7 +1129,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The child tax credit is subject to strict income limitations."),
                     ExampleSentenceKurdish(
                         text:
-                            "پارەی باجی منداڵ پەیوەستە بە سنوورداری توندی داهاتەوە."),
+                            "پارەی باجی منداڵ پەیوەستە بە سنوورداری توندی داھاتەوە."),
                   ],
                 ),
               ),
@@ -1186,7 +1186,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We did all the work and she gets all the credit!"),
                     ExampleSentenceKurdish(
                         text:
-                            "ئێمە هەموو کارەکەمان کرد و ئەو هەموو ستایشەکە وەردەگرێت."),
+                            "ئێمە ھەموو کارەکەمان کرد و ئەو ھەموو ستایشەکە وەردەگرێت."),
                   ],
                 ),
               ),
@@ -1217,7 +1217,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "I can't take all the credit for the show's success—it was a team effort."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ناتوانم ستایش بۆ هەموو سەرکەوتنی پڕۆگرامەکە وەربگرم، هەوڵی تیمێک بوو."),
+                                    "ناتوانم ستایش بۆ ھەموو سەرکەوتنی پڕۆگرامەکە وەربگرم، ھەوڵی تیمێک بوو."),
                           ],
                         ),
                       ),
@@ -1272,7 +1272,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text: "Why should he get all the credit?"),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بۆچی دەبێت ئەو هەموو ستایشەکە وەربگرێت؟"),
+                                    "بۆچی دەبێت ئەو ھەموو ستایشەکە وەربگرێت؟"),
                           ],
                         ),
                       ),
@@ -1349,7 +1349,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٠. (ناو) ناوهێنانی کەسێک کە کاری کردووە لە پڕۆژەیەکدا، بۆ نموونە فیلمێک یان پڕۆگرامێکی تەلەفیزیۆنی"),
+                  "١٠. (ناو) ناوھێنانی کەسێک کە کاری کردووە لە پڕۆژەیەکدا، بۆ نموونە فیلمێک یان پڕۆگرامێکی تەلەفیزیۆنی"),
           Row(
             children: [
               const Expanded(
@@ -1407,7 +1407,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١١. (کردار) زیادکردنی بڕە پارەیەک بۆ هەژماری بانکی کەسێک"),
+              text: "١١. (کردار) زیادکردنی بڕە پارەیەک بۆ ھەژماری بانکی کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -1416,7 +1416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They credited my account two days later."),
                     ExampleSentenceKurdish(
-                        text: "دوای دوو ڕۆژ هەژمارەکەمیان پڕکردەوە."),
+                        text: "دوای دوو ڕۆژ ھەژمارەکەمیان پڕکردەوە."),
                   ],
                 ),
               ),
@@ -1444,7 +1444,7 @@ class KurdishMeaning extends StatelessWidget {
                       note: "Or: £50 000 has been credited to your account.",
                     ),
                     ExampleSentenceKurdish(
-                        text: "هەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە."),
+                        text: "ھەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە."),
                   ],
                 ),
               ),
@@ -1501,7 +1501,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She has been wrongly credited as the author."),
                     ExampleSentenceKurdish(
-                        text: "بە هەڵە وەک نووسەر ناوی هێنراوە."),
+                        text: "بە ھەڵە وەک نووسەر ناوی ھێنراوە."),
                   ],
                 ),
               ),
@@ -1532,7 +1532,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The company is credited with inventing the industrial robot."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کۆمپانیاکە پەسن دەدرێت بە داهێنانی ڕۆبۆتی پیشەسازی."),
+                                    "کۆمپانیاکە پەسن دەدرێت بە داھێنانی ڕۆبۆتی پیشەسازی."),
                           ],
                         ),
                       ),
@@ -1584,7 +1584,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٣. (کردار) باوەڕکردن بەوەی کەسێک یان شتێک خاسیەتێک یان تایبەتمەندییەکی هەیە"),
+                  "١٣. (کردار) باوەڕکردن بەوەی کەسێک یان شتێک خاسیەتێک یان تایبەتمەندییەکی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -1612,7 +1612,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٤. (کردار) باوەڕبوون بەوەی کەسێک یان شتێک لە جۆرێکی دیاریکراوە یان خاسیەتێکی دیاریکراوی هەیە"),
+                  "١٤. (کردار) باوەڕبوون بەوەی کەسێک یان شتێک لە جۆرێکی دیاریکراوە یان خاسیەتێکی دیاریکراوی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -1623,7 +1623,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cheetah is generally credited as the world's fastest animal."),
                     ExampleSentenceKurdish(
                         text:
-                            "چیتا بەشێوەیەکی گشتی بە خێراترین ئاژەڵی جیهان دادەنرێت."),
+                            "چیتا بەشێوەیەکی گشتی بە خێراترین ئاژەڵی جیھان دادەنرێت."),
                   ],
                 ),
               ),

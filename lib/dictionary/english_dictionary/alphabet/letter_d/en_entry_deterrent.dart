@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی:  شتی پێشگیری‌کەر یا ڕێ(لێ)گر، هۆکاری گێڕەوە یا پێشگیری‌کەر، کۆسپ، ڕێگر، ئاستەنگ
+// کوردی:  شتی پێشگیری‌کەر یا ڕێ(لێ)گر، ھۆکاری گێڕەوە یا پێشگیری‌کەر، کۆسپ، ڕێگر، ئاستەنگ
 // """),
           const DefinitionKurdish(
               text:
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Hopefully his punishment will act as a deterrent to others."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیوادارانە سزاکەی وەک ساردکەرەوەیەک دەبێت بۆ ئەوانی دیکە."),
+                            "ھیوادارانە سزاکەی وەک ساردکەرەوەیەک دەبێت بۆ ئەوانی دیکە."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The bodies of executed criminals were hung on the city gates as a deterrent."),
                     ExampleSentenceKurdish(
                         text:
-                            "جەستەی تاوانبارە کوژراوەکان لەسەر دەروازەی شارەکە هەڵواسران وەک ترسێنەرێک."),
+                            "جەستەی تاوانبارە کوژراوەکان لەسەر دەروازەی شارەکە ھەڵواسران وەک ترسێنەرێک."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is no effective deterrent for these young criminals."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ ترسێنەرێکی کاریگەر نییە بۆ ئەم تاوانبارە گەنجانە."),
+                            "ھیچ ترسێنەرێکی کاریگەر نییە بۆ ئەم تاوانبارە گەنجانە."),
                   ],
                 ),
               ),

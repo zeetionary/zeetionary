@@ -836,7 +836,7 @@ class EnglishEntrycool extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: فێنک، فێنکایی، سارد، ساردکە، هوونک،	ئارام، لەسەرەخۆ، کەمتەرخەم، ساردوسڕ،	بێ‌شەرم، ڕوودار، بێ‌حەیا، بێ‌شەرمانە،	هەوای فێنک، فێنکایی،	شوێن و جێی فێنک،	ئارامی، هێمنی، لەسەرەخۆیی
+کوردی: فێنک، فێنکایی، سارد، ساردکە، ھوونک،	ئارام، لەسەرەخۆ، کەمتەرخەم، ساردوسڕ،	بێ‌شەرم، ڕوودار، بێ‌حەیا، بێ‌شەرمانە،	ھەوای فێنک، فێنکایی،	شوێن و جێی فێنک،	ئارامی، ھێمنی، لەسەرەخۆیی
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) فێنک؛ نە سارد و نە گەرم"),
@@ -850,7 +850,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "Cooler weather is forecast for the weekend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەشی فێنکتر بۆ کۆتایی هەفتە پێشبینی دەکرێت."),
+                                            "کەشی فێنکتر بۆ کۆتایی ھەفتە پێشبینی دەکرێت."),
                                   ],
                                 ),
                               ),
@@ -934,7 +934,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "Store lemons in a cool dry place."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لیمۆ لە شوێنێکی فێنکی وشکدا هەڵبگرە."),
+                                            "لیمۆ لە شوێنێکی فێنکی وشکدا ھەڵبگرە."),
                                   ],
                                 ),
                               ),
@@ -954,7 +954,7 @@ class EnglishEntrycool extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) جلێک کە بە فێنکی دەیهێڵێتەوە"),
+                                  "٢. (ھاوەڵناو) جلێک کە بە فێنکی دەیھێڵێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -965,7 +965,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "Wear light, cool clothing but try to avoid shorts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جلی سووکی فێنک لەبەربکە بەڵام هەوڵ بدە لە شۆرت بەدوور بە."),
+                                            "جلی سووکی فێنک لەبەربکە بەڵام ھەوڵ بدە لە شۆرت بەدوور بە."),
                                   ],
                                 ),
                               ),
@@ -995,7 +995,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "The bedroom was painted a lovely cool blue."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژووری نووستنەکە بۆیەیەکی شینی جوانی هێورکەرەوە کرابوو."),
+                                            "ژووری نووستنەکە بۆیەیەکی شینی جوانی ھێورکەرەوە کرابوو."),
                                   ],
                                 ),
                               ),
@@ -1015,7 +1015,7 @@ class EnglishEntrycool extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) بۆ وتنی ئەوەی سەرسامی بە کەسێک یان شتێک کە بەدڵتە بەهۆی ئەوەی جوان و جیاوازن"),
+                                  "٤. (ھاوەڵناو) بۆ وتنی ئەوەی سەرسامی بە کەسێک یان شتێک کە بەدڵتە بەھۆی ئەوەی جوان و جیاوازن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1112,7 +1112,7 @@ class EnglishEntrycool extends StatelessWidget {
                                                     "She has lots of cool ideas."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "زۆر بیرۆکەی جوانی هەیە."),
+                                                    "زۆر بیرۆکەی جوانی ھەیە."),
                                           ],
                                         ),
                                       ),
@@ -1179,7 +1179,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "We had such a cool time with Ed and his friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاتێکی بەچێژمان لەگەڵ ئێد و هاوڕێکانی هەبوو."),
+                                            "کاتێکی بەچێژمان لەگەڵ ئێد و ھاوڕێکانی ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -1207,7 +1207,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "I really hope you can come—it'd be so cool!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر بە هیوام بێیت، زۆر ناوازە دەبێت."),
+                                            "زۆر بە ھیوام بێیت، زۆر ناوازە دەبێت."),
                                   ],
                                 ),
                               ),
@@ -1350,7 +1350,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "Just stay cool and don't panic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها لەسەرەخۆ بمێنەوە و مەپەشۆکێ."),
+                                            "تەنھا لەسەرەخۆ بمێنەوە و مەپەشۆکێ."),
                                   ],
                                 ),
                               ),
@@ -1377,7 +1377,7 @@ class EnglishEntrycool extends StatelessWidget {
                                         text:
                                             "He has a cool head (= he stays calm in an emergency)."),
                                     ExampleSentenceKurdish(
-                                        text: "مێشکێکی لەسەرەخۆی هەیە."),
+                                        text: "مێشکێکی لەسەرەخۆی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1405,7 +1405,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "He forced himself to count to ten and act cool."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆری لە خۆی کرد تاوەکو دە بژمێرێت و هێمنانە ڕەفتار بکات."),
+                                            "زۆری لە خۆی کرد تاوەکو دە بژمێرێت و ھێمنانە ڕەفتار بکات."),
                                   ],
                                 ),
                               ),
@@ -1425,7 +1425,7 @@ class EnglishEntrycool extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ھاوەڵناو) سارد و سڕ؛ بەشێوەیەک کە هاوڕێیانە و گەرموگوڕ نییە"),
+                                  "٨. (ھاوەڵناو) سارد و سڕ؛ بەشێوەیەک کە ھاوڕێیانە و گەرموگوڕ نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -1464,7 +1464,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "He has been cool towards me ever since we had that argument."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سارد و سڕ بووە لەگەڵم لەوەتەی ئەو مشتومڕەمان هەبوو."),
+                                            "سارد و سڕ بووە لەگەڵم لەوەتەی ئەو مشتومڕەمان ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -1495,7 +1495,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "The car cost a cool thirty thousand."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکە سی هەزار دۆلەری قەبەی تێدەچێت."),
+                                            "ئۆتۆمبێلەکە سی ھەزار دۆلەری قەبەی تێدەچێت."),
                                   ],
                                 ),
                               ),
@@ -1552,7 +1552,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "Melt the chocolate and allow it to cool slightly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چکلێتەکە بتاوێنەوە و بهێڵە کەمێک فێنک بێتەوە."),
+                                            "چکلێتەکە بتاوێنەوە و بھێڵە کەمێک فێنک بێتەوە."),
                                   ],
                                 ),
                               ),
@@ -1600,7 +1600,7 @@ class EnglishEntrycool extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (کردار) هێوربوونەوە، ئارام بوونەوە، کەمتر بەجۆش"),
+                                  "١١. (کردار) ھێوربوونەوە، ئارام بوونەوە، کەمتر بەجۆش"),
                           Row(
                             children: [
                               const Expanded(
@@ -1611,7 +1611,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "I think we should wait until tempers have cooled."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێموایە دەبێت چاوەڕێ بین تاوەکو تووڕەییەکان هێور دەبنەوە."),
+                                            "پێموایە دەبێت چاوەڕێ بین تاوەکو تووڕەییەکان ھێور دەبنەوە."),
                                   ],
                                 ),
                               ),
@@ -1686,7 +1686,7 @@ class EnglishEntrycool extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٢. (ناو) هەوا یان شوێنی فێنک"),
+                              text: "١٢. (ناو) ھەوا یان شوێنی فێنک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1756,7 +1756,7 @@ class EnglishEntrycool extends StatelessWidget {
                                             "He really lost his cool when he heard about what happened."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواو هێمنی خۆی لەدەستدا کە زانی چی ڕوویداوە."),
+                                            "تەواو ھێمنی خۆی لەدەستدا کە زانی چی ڕوویداوە."),
                                   ],
                                 ),
                               ),

@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The man was sitting on an upturned beer crate."),
                     ExampleSentenceKurdish(
                         text:
-                            "پیاوەکە لەسەر سنووقە بیرەیەکی هەڵگەڕاوە دانیشتبوو."),
+                            "پیاوەکە لەسەر سنووقە بیرەیەکی ھەڵگەڕاوە دانیشتبوو."),
                   ],
                 ),
               ),
@@ -460,7 +460,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Any extra parts will have to be crated and shipped separately."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر بەشێکی زیادە دەبێت لە سنووق بخرێت و بە جیا بگوازرێتەوە."),
+                            "ھەر بەشێکی زیادە دەبێت لە سنووق بخرێت و بە جیا بگوازرێتەوە."),
                   ],
                 ),
               ),

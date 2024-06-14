@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) کەمکردنەوەی دەسەڵاتی گرووپێک یان دامەزراوەیەک بە نەهێشتنی سەرکردەکانی"),
+                  "٢. (کردار) کەمکردنەوەی دەسەڵاتی گرووپێک یان دامەزراوەیەک بە نەھێشتنی سەرکردەکانی"),
           Row(
             children: [
               const Expanded(

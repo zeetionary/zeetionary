@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەمپەر، کۆسپ، تەگەرە (بۆ سەرکەوتن)،	کەم‌وکوڕی، گرفت، کێشە، ئاستەنگ، عەیب، خاڵی لاوازی،	بارودۆخی شپرزە یان ناخۆش، ڕەوشی خراپ، هەل‌ومەرجی نالەبار،	زیان، زەرەر، خەسار
+کوردی: لەمپەر، کۆسپ، تەگەرە (بۆ سەرکەوتن)،	کەم‌وکوڕی، گرفت، کێشە، ئاستەنگ، عەیب، خاڵی لاوازی،	بارودۆخی شپرزە یان ناخۆش، ڕەوشی خراپ، ھەل‌ومەرجی نالەبار،	زیان، زەرەر، خەسار
 """),
           const DefinitionKurdish(
               text:
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Some pension plans may disadvantage women."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک پلانی مووچەی خانەشینی ڕەنگە زیان بە ژنان بگەیەنێت."),
+                            "ھەندێک پلانی مووچەی خانەشینی ڕەنگە زیان بە ژنان بگەیەنێت."),
                   ],
                 ),
               ),
@@ -541,7 +541,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Each plan has its own advantages and disadvantages."),
                     ExampleSentenceKurdish(
-                        text: "هەر پلانێک سوود و زیانی خۆی هەیە."),
+                        text: "ھەر پلانێک سوود و زیانی خۆی ھەیە."),
                   ],
                 ),
               ),
@@ -569,7 +569,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There are disadvantages to the plan."),
                     ExampleSentenceKurdish(
-                        text: "هیچ گرفتێک لە پلانەکەدا نییە."),
+                        text: "ھیچ گرفتێک لە پلانەکەدا نییە."),
                   ],
                 ),
               ),

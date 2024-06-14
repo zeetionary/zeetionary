@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: برژاو (نان)،	پێستەپێستە، توێ‌توێ، توێژاڵ‌توێژاڵ،	ڕووگرژ، مڕومۆچ، توند، ئاڵەتی، هەڵتۆز، ڕووتاڵ، کۆنەپەرست
+کوردی: برژاو (نان)،	پێستەپێستە، توێ‌توێ، توێژاڵ‌توێژاڵ،	ڕووگرژ، مڕومۆچ، توند، ئاڵەتی، ھەڵتۆز، ڕووتاڵ، کۆنەپەرست
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) هەبوونی ڕوویەکی دەرەوە کە سەختە"),
+              text: "١. (ھاوەڵناو) ھەبوونی ڕوویەکی دەرەوە کە سەختە"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crusty old man yelled at the kids to get off his lawn."),
                     ExampleSentenceKurdish(
                         text:
-                            "پیاوە ڕووتاڵەکە هاواری کرد بەسەر منداڵەکاندا بۆ ئەوەی لەسەر چیمەنەکەی لاچن."),
+                            "پیاوە ڕووتاڵەکە ھاواری کرد بەسەر منداڵەکاندا بۆ ئەوەی لەسەر چیمەنەکەی لاچن."),
                   ],
                 ),
               ),

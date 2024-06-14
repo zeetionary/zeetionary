@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He used crayons to draw the picture."),
                     ExampleSentenceKurdish(
-                        text: "پێنووسی ڕەنگی بەکارهێنا بۆ کێشانی وێنەکە."),
+                        text: "پێنووسی ڕەنگی بەکارھێنا بۆ کێشانی وێنەکە."),
                   ],
                 ),
               ),

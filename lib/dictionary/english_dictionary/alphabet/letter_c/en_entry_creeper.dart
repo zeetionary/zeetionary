@@ -330,11 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕووەکی پیاهەڵچوو، گیاهەڵچوو یان خشۆک
+کوردی: ڕووەکی پیاھەڵچوو، گیاھەڵچوو یان خشۆک
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ڕووەکێک کە بەسەر زەویدا گەشە دەکات یان بە دیواردا هەڵدەگژێت، زۆرجار بە دەوری ڕووەکی دیکەدا"),
+                  "١. (ناو) ڕووەکێک کە بەسەر زەویدا گەشە دەکات یان بە دیواردا ھەڵدەگژێت، زۆرجار بە دەوری ڕووەکی دیکەدا"),
           Row(
             children: [
               const Expanded(

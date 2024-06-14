@@ -335,9 +335,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شەبەق، بەرەبەیان، گەردوگەڵا، گەردوگوڵ،	سەرەتا، دەسپێک، بەرایی، گزینگ، 	دەرکەوتن، سەرهەڵدان، پەیدابوون
+کوردی: شەبەق، بەرەبەیان، گەردوگەڵا، گەردوگوڵ،	سەرەتا، دەسپێک، بەرایی، گزینگ، 	دەرکەوتن، سەرھەڵدان، پەیدابوون
 """),
-          const DefinitionKurdish(text: "١. (ناو) کاتی ڕۆژ کە خۆر هەڵدێت"),
+          const DefinitionKurdish(text: "١. (ناو) کاتی ڕۆژ کە خۆر ھەڵدێت"),
           Row(
             children: [
               const Expanded(
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We arrived in Sydney as dawn broke (= as the first light could be seen)."),
                     ExampleSentenceKurdish(
-                        text: "گەشتینە سیدنی لەگەڵ خۆرهەڵاتندا."),
+                        text: "گەشتینە سیدنی لەگەڵ خۆرھەڵاتندا."),
                   ],
                 ),
               ),
@@ -533,7 +533,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Slowly the awful truth dawned."),
                     ExampleSentenceKurdish(
-                        text: "بەهێواشی ڕاستییە تاڵەکە ڕوونبوویەوە."),
+                        text: "بەھێواشی ڕاستییە تاڵەکە ڕوونبوویەوە."),
                   ],
                 ),
               ),

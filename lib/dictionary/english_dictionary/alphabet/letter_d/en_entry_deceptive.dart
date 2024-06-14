@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: فریودەر، لەخشتەبەر، هەڵفریوێنەر، خەڵەتێنەر، فێڵاوی، بەهەڵەدابەر
+کوردی: فریودەر، لەخشتەبەر، ھەڵفریوێنەر، خەڵەتێنەر، فێڵاوی، بەھەڵەدابەر
 """),
           const DefinitionKurdish(
               text:

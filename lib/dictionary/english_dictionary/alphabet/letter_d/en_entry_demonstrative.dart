@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەرم(وگوڕ)، بەسۆز، دڵسۆز،	سەلمێنەر،	دەربڕ، نیشان‌دەر، پیشان‌دەر، دەرخەر،	(ڕێزمان) نیشانە، ئاماژە،ئاوەڵناو یان جێناوی نیشانە
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) پیشاندانی هەستەکان بە کراوەیی"),
+              text: "١. (ھاوەڵناو) پیشاندانی ھەستەکان بە کراوەیی"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some people are more demonstrative than others."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک کەس زیاتر هەستەکانیان دەردەخەن وەک لەوانی دیکە."),
+                            "ھەندێک کەس زیاتر ھەستەکانیان دەردەخەن وەک لەوانی دیکە."),
                   ],
                 ),
               ),

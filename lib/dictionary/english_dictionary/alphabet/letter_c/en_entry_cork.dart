@@ -193,7 +193,7 @@ class EnglishEntrycork extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تۆپەوانە، چێوپەمە، تەپەدۆر، هەودەل، سەرەشووشە، سەرەبوتڵ
+کوردی: تۆپەوانە، چێوپەمە، تەپەدۆر، ھەودەل، سەرەشووشە، سەرەبوتڵ
 """),
                           const DefinitionKurdish(
                               text:
@@ -208,7 +208,7 @@ class EnglishEntrycork extends StatelessWidget {
                                             "Cork tiles are often used in music studios because they absorb sound well."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناسکەخشتی تەپەدۆر زۆرجار لە ستۆدیۆی میوزیکی بەکاردێت چونکە باش دەنگ هەڵدەمژن."),
+                                            "ناسکەخشتی تەپەدۆر زۆرجار لە ستۆدیۆی میوزیکی بەکاردێت چونکە باش دەنگ ھەڵدەمژن."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycork extends StatelessWidget {
                                             "I can't get the cork out of the bottle - can you try?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم تۆپەوانەکە لە بوتڵەکە دەربکەم، دەتوانیت هەوڵ بدەیت؟"),
+                                            "ناتوانم تۆپەوانەکە لە بوتڵەکە دەربکەم، دەتوانیت ھەوڵ بدەیت؟"),
                                   ],
                                 ),
                               ),

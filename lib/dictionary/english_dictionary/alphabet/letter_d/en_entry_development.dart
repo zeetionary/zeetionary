@@ -420,11 +420,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەشە، هەڵدان، پەرە، گەورەبوون، گووران، فراژی، پێ‌گەیشتن، گەشەسەندن، ڕسکان، پەرەسەندن،	(فیلم) ڕۆشن‌کردنەوە، شۆردنەوە، شتنەوە،	پێشکەوتن، پێشڤەچوون،	بەرهەم، دەسکەوت،	ڕووداو، بوویەر،	بەرهەمی نوێ،	داهێنان،	ناوچەی تازەدروس‌کراو یان تازەپەرەسەندوو
+کوردی: گەشە، ھەڵدان، پەرە، گەورەبوون، گووران، فراژی، پێ‌گەیشتن، گەشەسەندن، ڕسکان، پەرەسەندن،	(فیلم) ڕۆشن‌کردنەوە، شۆردنەوە، شتنەوە،	پێشکەوتن، پێشڤەچوون،	بەرھەم، دەسکەوت،	ڕووداو، بوویەر،	بەرھەمی نوێ،	داھێنان،	ناوچەی تازەدروس‌کراو یان تازەپەرەسەندوو
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گەشەی هێواشێ شتێک بە شێوەیەک کە بەرەوپێشتر، بەهێزتر، هتد ببێت"),
+                  "١. (ناو) گەشەی ھێواشێ شتێک بە شێوەیەک کە بەرەوپێشتر، بەھێزتر، ھتد ببێت"),
           Row(
             children: [
               const Expanded(
@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The company can offer a number of opportunities for career development."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە ژمارەیەک هەلی گەشەپێدانی کار پێشکەش دەکات."),
+                            "کۆمپانیاکە ژمارەیەک ھەلی گەشەپێدانی کار پێشکەش دەکات."),
                   ],
                 ),
               ),
@@ -554,7 +554,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Education stimulates the development of rational thinking."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەروەردە و خوێندن هانی گەشەی بیرکردنەوەی ئاقڵانە دەدات."),
+                            "پەروەردە و خوێندن ھانی گەشەی بیرکردنەوەی ئاقڵانە دەدات."),
                   ],
                 ),
               ),
@@ -604,7 +604,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) گەشەی ئابووری وڵاتێک یان هەرێمێک بە زیادکردنی چالاکیی بازرگانی"),
+                  "٣. (ناو) گەشەی ئابووری وڵاتێک یان ھەرێمێک بە زیادکردنی چالاکیی بازرگانی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -616,7 +616,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Increased tourism will promote job creation and economic development."),
                     ExampleSentenceKurdish(
                         text:
-                            "گەشتیاریی زیاتر هەلی کار دەڕەخسێنێت و گەشەی ئابووری زیاد دەکات."),
+                            "گەشتیاریی زیاتر ھەلی کار دەڕەخسێنێت و گەشەی ئابووری زیاد دەکات."),
                   ],
                 ),
               ),
@@ -646,7 +646,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He described women as the backbone of rural development worldwide."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژنی وەک بڕبڕەی پشتی گەشەی دێهات لە جیهاندا ناسان."),
+                            "ژنی وەک بڕبڕەی پشتی گەشەی دێھات لە جیھاندا ناسان."),
                   ],
                 ),
               ),
@@ -675,7 +675,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Pete is head of product development."),
                     ExampleSentenceKurdish(
-                        text: "پیت سەرپەرشتی گەشەپێدانی بەرهەمەکانە."),
+                        text: "پیت سەرپەرشتی گەشەپێدانی بەرھەمەکانە."),
                   ],
                 ),
               ),
@@ -705,7 +705,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A more powerful version of this electric bus is currently in development."),
                     ExampleSentenceKurdish(
                         text:
-                            "جۆرێکی بەهێزتری ئەم پاسە کارەباییە ئێستا لە گەشەپێداندایە."),
+                            "جۆرێکی بەھێزتری ئەم پاسە کارەباییە ئێستا لە گەشەپێداندایە."),
                   ],
                 ),
               ),
@@ -753,7 +753,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) ڕووداو یان قۆناغێکی تازە کە ئەگەری هەیە گۆڕانکاری بکات لەوەی چی لە دۆخێکی بەردەوامدا ڕوودەدات"),
+                  "٤. (ناو) ڕووداو یان قۆناغێکی تازە کە ئەگەری ھەیە گۆڕانکاری بکات لەوەی چی لە دۆخێکی بەردەوامدا ڕوودەدات"),
           // const DividerSentences(),
           Row(
             children: [
@@ -763,7 +763,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Have there been any further developments?"),
                     ExampleSentenceKurdish(
-                        text: "هیچ پەرەسەندنی زیاتر هەبووە؟"),
+                        text: "ھیچ پەرەسەندنی زیاتر ھەبووە؟"),
                   ],
                 ),
               ),
@@ -821,7 +821,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There have been some interesting new developments in the case."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک پەرەسەندنی تازەی سەرنجڕاکێش هەبووە لە کەیسەکەدا."),
+                            "ھەندێک پەرەسەندنی تازەی سەرنجڕاکێش ھەبووە لە کەیسەکەدا."),
                   ],
                 ),
               ),
@@ -900,7 +900,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (ناو) پڕۆسەی بەکارهێنانی پارچە زەوییەک، ڤە تایبەتی بۆ قازانجکردن لێی بە بنیادنان لەسەری"),
+                  "٦. (ناو) پڕۆسەی بەکارھێنانی پارچە زەوییەک، ڤە تایبەتی بۆ قازانجکردن لێی بە بنیادنان لەسەری"),
           // const DividerSentences(),
           Row(
             children: [
@@ -938,7 +938,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He bought the land for development."),
                     ExampleSentenceKurdish(
-                        text: "زەوییەکەی بۆ وەبەرهێنان کڕی."),
+                        text: "زەوییەکەی بۆ وەبەرھێنان کڕی."),
                   ],
                 ),
               ),

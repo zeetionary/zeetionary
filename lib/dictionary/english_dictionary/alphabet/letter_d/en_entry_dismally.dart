@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The party performed dismally in the election."),
                     ExampleSentenceKurdish(
-                        text: "پارتەکە شکستخواردووانە لە هەڵبژاردنەکە دەرچوو."),
+                        text: "پارتەکە شکستخواردووانە لە ھەڵبژاردنەکە دەرچوو."),
                   ],
                 ),
               ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I tried not to laugh but failed dismally (= was completely unsuccessful)."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵم دا پێنەکەنم بەڵام تەواو شکستم هێنا."),
+                        text: "ھەوڵم دا پێنەکەنم بەڵام تەواو شکستم ھێنا."),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی پیشان دەدا، یان دەبێتە هۆکاری"),
+                  "٢. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی پیشان دەدا، یان دەبێتە ھۆکاری"),
           // const DividerSentences(),
           Row(
             children: [

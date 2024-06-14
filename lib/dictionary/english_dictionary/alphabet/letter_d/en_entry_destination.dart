@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "My steps slowed down as I neared my destination."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەنگاوەکانم هێواش بوونەوە کە نزیکی شوێنی مەبەستم بوومەوە."),
+                            "ھەنگاوەکانم ھێواش بوونەوە کە نزیکی شوێنی مەبەستم بوومەوە."),
                   ],
                 ),
               ),

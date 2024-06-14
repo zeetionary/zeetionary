@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هۆشیارانە، ئاگادارانە، بە پارێزەوە، بە وریاییەوە، ژیرانە
+کوردی: ھۆشیارانە، ئاگادارانە، بە پارێزەوە، بە وریاییەوە، ژیرانە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵکار) بە وریایی بۆ ئەوەی شتێک بە نهێنی بهێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
+                  "١. (ھاوەڵکار) بە وریایی بۆ ئەوەی شتێک بە نھێنی بھێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She coughed discreetly to announce her presence."),
                     ExampleSentenceKurdish(
-                        text: "بە وریاییەوە کۆکەی کرد بۆ ڕاگەیاندنی هاتنی."),
+                        text: "بە وریاییەوە کۆکەی کرد بۆ ڕاگەیاندنی ھاتنی."),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She very discreetly corrected him about his mistake."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر بە وریاییەوە ڕاستیکردەوە سەبارەت بە هەڵەکەی."),
+                            "زۆر بە وریاییەوە ڕاستیکردەوە سەبارەت بە ھەڵەکەی."),
                   ],
                 ),
               ),

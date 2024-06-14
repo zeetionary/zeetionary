@@ -413,10 +413,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پیاڵە، کۆتک، کاس، بایە، تاسولکە، جام، قاپ،	ئایەرە، لیوان،	جام یان کاس (لە پێشبڕکێ، خەڵات و هتد)،	خواردنەوە،	پڕپیاڵەیێ،	شاخ، کەڵەشاخ (بۆ خوێن‌گرتن)،	بەش، پشک،	(ڕووەک‌ناسی) کاسە، کڵاوە، پیاڵە، جام
+کوردی: پیاڵە، کۆتک، کاس، بایە، تاسولکە، جام، قاپ،	ئایەرە، لیوان،	جام یان کاس (لە پێشبڕکێ، خەڵات و ھتد)،	خواردنەوە،	پڕپیاڵەیێ،	شاخ، کەڵەشاخ (بۆ خوێن‌گرتن)،	بەش، پشک،	(ڕووەک‌ناسی) کاسە، کڵاوە، پیاڵە، جام
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، هتد"),
+              text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She was so thirsty that she drained her cup."),
                     ExampleSentenceKurdish(
-                        text: "هێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد."),
+                        text: "ھێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد."),
                   ],
                 ),
               ),
@@ -638,7 +638,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They lost to Portugal in the World Cup quarter finals."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە چارەکی کۆتاییدا لە جامی جیهانی دۆڕاندیان بەرامبەر پرتوگال."),
+                            "لە چارەکی کۆتاییدا لە جامی جیھانی دۆڕاندیان بەرامبەر پرتوگال."),
                   ],
                 ),
               ),
@@ -666,7 +666,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The team are ready for next week's World Cup clash with Italy."),
                     ExampleSentenceKurdish(
                         text:
-                            "تیمەکە ئامادەیە بۆ ڕووبەڕووبوونەوەی هەفتەی داهاتووی جامی جیهانی بەرامبەر ئیتالیا."),
+                            "تیمەکە ئامادەیە بۆ ڕووبەڕووبوونەوەی ھەفتەی داھاتووی جامی جیھانی بەرامبەر ئیتالیا."),
                   ],
                 ),
               ),
@@ -714,7 +714,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٦. (ناو) شتێک کە شێوەی کوپێکی هەیە"),
+          const DefinitionKurdish(text: "٦. (ناو) شتێک کە شێوەی کوپێکی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -723,7 +723,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Evenly fill the cups with the batter."),
                     ExampleSentenceKurdish(
-                        text: "بە یەکسانی کوپەکان پڕ بکە لە هەویر."),
+                        text: "بە یەکسانی کوپەکان پڕ بکە لە ھەویر."),
                   ],
                 ),
               ),
@@ -782,7 +782,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She held the bird gently in cupped hands."),
                     ExampleSentenceKurdish(
                         text:
-                            "باڵندەکەی بەهێمنی گرت لە شێوەی دەستی وەک دەفرێک."),
+                            "باڵندەکەی بەھێمنی گرت لە شێوەی دەستی وەک دەفرێک."),
                   ],
                 ),
               ),

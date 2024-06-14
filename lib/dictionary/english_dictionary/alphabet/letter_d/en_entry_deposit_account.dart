@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) بانکێک کە سوو دەبەخشێت لەو پارەی تێیدەخرێت و زۆرجار پارەی بۆ ماوەیەکی زۆر تێدا دەهێڵیتەوە"),
+                  "١. (ناو) بانکێک کە سوو دەبەخشێت لەو پارەی تێیدەخرێت و زۆرجار پارەی بۆ ماوەیەکی زۆر تێدا دەھێڵیتەوە"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He opened a deposit account to save money."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەژمارێکی خەواندنی کردەوە بۆ پاشەکەوتکردنی پارە."),
+                            "ھەژمارێکی خەواندنی کردەوە بۆ پاشەکەوتکردنی پارە."),
                   ],
                 ),
               ),

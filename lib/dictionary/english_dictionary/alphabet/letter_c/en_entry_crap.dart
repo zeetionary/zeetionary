@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گوو، پیسایی،	هەڵیت‌وپڵیت، قسەی قۆڕ، شڕم‌وبڕم،	خراپۆکە، گەن‌وگووژاڵ، بازاڕی، بێ‌بایەخ، هیچەکە، خراپ، بێ‌نرخ، خڵتەوخاڵ، ئاشاخە، لاف، فڵتەفڵت
+کوردی: گوو، پیسایی،	ھەڵیت‌وپڵیت، قسەی قۆڕ، شڕم‌وبڕم،	خراپۆکە، گەن‌وگووژاڵ، بازاڕی، بێ‌بایەخ، ھیچەکە، خراپ، بێ‌نرخ، خڵتەوخاڵ، ئاشاخە، لاف، فڵتەفڵت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر خراپ"),
           Row(
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بیرۆکە و قسە و بیر و باوەڕ کە پێت وایە ڕاست نیین یان هیچن"),
+                  "٢. (ناو) بیرۆکە و قسە و بیر و باوەڕ کە پێت وایە ڕاست نیین یان ھیچن"),
           Row(
             children: [
               const Expanded(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "He's so full of crap."),
-                    ExampleSentenceKurdish(text: "پڕ لە هەڵیت‌وپەڵیتە."),
+                    ExampleSentenceKurdish(text: "پڕ لە ھەڵیت‌وپەڵیتە."),
                   ],
                 ),
               ),
@@ -453,7 +453,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I won’t put up with any old crap."),
                     ExampleSentenceKurdish(
-                        text: "بەرگەی هیچ فڵتەفڵتی تر ناگرم."),
+                        text: "بەرگەی ھیچ فڵتەفڵتی تر ناگرم."),
                   ],
                 ),
               ),

@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کاردێکی پلاستیکی بچووک کە دەتوانیت بەکاریبهێنیت بۆ پارەدان بۆ کەلوپەل و خزمەتگوزاری و دواتر پارەکەی بدەیت"),
+                  "١. (ناو) کاردێکی پلاستیکی بچووک کە دەتوانیت بەکاریبھێنیت بۆ پارەدان بۆ کەلوپەل و خزمەتگوزاری و دواتر پارەکەی بدەیت"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All major credit cards are accepted at our hotels."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو کرێدیت کاردە ناسراوەکان لە هوتێلەکانمان پەسەند دەکرێن."),
+                            "ھەموو کرێدیت کاردە ناسراوەکان لە ھوتێلەکانمان پەسەند دەکرێن."),
                   ],
                 ),
               ),

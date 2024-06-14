@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: فروفێڵ، تەڵەکەبازی، لەخشتەبردن، خەڵەتاندن، گزەونی، فێڵ‌لێ‌کردن، قەلەودەلە، فریودان، تەفرە، هەڵفریواندن، دەسبڕی، دهۆ، فێڵ، تەڵەکە، درۆ، دەلەسە، درۆ و دەلەسە، چاووڕاو
+کوردی: فروفێڵ، تەڵەکەبازی، لەخشتەبردن، خەڵەتاندن، گزەونی، فێڵ‌لێ‌کردن، قەلەودەلە، فریودان، تەفرە، ھەڵفریواندن، دەسبڕی، دھۆ، فێڵ، تەڵەکە، درۆ، دەلەسە، درۆ و دەلەسە، چاووڕاو
 """),
           const DefinitionKurdish(
               text:
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She failed to see through his deception."),
                     ExampleSentenceKurdish(
-                        text: "شکستی هێنا لەوەی هەست بە تەڵەکەبازییەکەی بکات."),
+                        text: "شکستی ھێنا لەوەی ھەست بە تەڵەکەبازییەکەی بکات."),
                   ],
                 ),
               ),
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His elaborate deception fooled everyone."),
                     ExampleSentenceKurdish(
-                        text: "فێڵە چڕوپڕەکەی هەموانی خەڵەتاند."),
+                        text: "فێڵە چڕوپڕەکەی ھەموانی خەڵەتاند."),
                   ],
                 ),
               ),

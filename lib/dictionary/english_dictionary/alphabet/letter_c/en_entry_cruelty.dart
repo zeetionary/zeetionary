@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her stepmother showed her nothing but cruelty."),
                     ExampleSentenceKurdish(
-                        text: "زڕ-دایکی جگە لە دڕندەیی هیچی پێنەدا."),
+                        text: "زڕ-دایکی جگە لە دڕندەیی ھیچی پێنەدا."),
                   ],
                 ),
               ),
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She was shocked to see such cruelty."),
                     ExampleSentenceKurdish(
-                        text: "شۆک بوو بە بینینی دڕندەیی وەها."),
+                        text: "شۆک بوو بە بینینی دڕندەیی وەھا."),
                   ],
                 ),
               ),
@@ -458,7 +458,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Frightening cruelties were inflicted on child factory workers well into the 19th century."),
                     ExampleSentenceKurdish(
                         text:
-                            "دڕندەیی سامناک بەسەر منداڵانی کرێکارانی کارگەکان دەهێنرا تاوەکو سەدەی نۆزدە."),
+                            "دڕندەیی سامناک بەسەر منداڵانی کرێکارانی کارگەکان دەھێنرا تاوەکو سەدەی نۆزدە."),
                   ],
                 ),
               ),

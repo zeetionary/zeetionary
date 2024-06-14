@@ -330,10 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تەلان، لێژ، پڕهەڵدێر، زنارزنار، سەخت، کێودار، هەڵەمووتاوی، هەڵەتاوی، ناڕێک،	پیاوانە (دەم‌وچاو)
+کوردی: تەلان، لێژ، پڕھەڵدێر، زنارزنار، سەخت، کێودار، ھەڵەمووتاوی، ھەڵەتاوی، ناڕێک،	پیاوانە (دەم‌وچاو)
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) هەبوونی کێو و بەرزایی زۆر"),
+              text: "١. (ھاوەڵناو) ھەبوونی کێو و بەرزایی زۆر"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The island is a mixture of high mountains, craggy coastline, sandy beaches and deep blue sea."),
                     ExampleSentenceKurdish(
                         text:
-                            "دوورگەکە تێکەڵەیەکە لە چیای بەرز، هێڵی کەناری کێودار، کەناراوی خۆڵاوی، و دەریای شینی قووڵە."),
+                            "دوورگەکە تێکەڵەیەکە لە چیای بەرز، ھێڵی کەناری کێودار، کەناراوی خۆڵاوی، و دەریای شینی قووڵە."),
                   ],
                 ),
               ),

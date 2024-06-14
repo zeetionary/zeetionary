@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هێڵێکی ڕاست لە لایەکی بازنەیەک یان هەر شتێکی خڕ بۆ هەر لایەکی دیکە کە بە چەقدا تێپەڕێت"),
+                  "١. (ناو) ھێڵێکی ڕاست لە لایەکی بازنەیەک یان ھەر شتێکی خڕ بۆ ھەر لایەکی دیکە کە بە چەقدا تێپەڕێت"),
           Row(
             children: [
               const Expanded(
@@ -474,7 +474,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The tubes have an internal diameter of 2 mm."),
                     ExampleSentenceKurdish(
-                        text: "بۆریچکەکان تیرەی ناوەکی ٢ میلیمەتریان هەیە."),
+                        text: "بۆریچکەکان تیرەی ناوەکی ٢ میلیمەتریان ھەیە."),
                   ],
                 ),
               ),

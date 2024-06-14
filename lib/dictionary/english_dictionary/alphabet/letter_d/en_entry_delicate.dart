@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناسک، نەرم، نازدار، نیان، جوان،	هەستیار، تیژ،	بەڕەوشت، بەئەدەب،	قرپ، قرچ، تورت، زووشکاو،	ورد، باریک،	لاواز، کز، بێ‌هێز، ناسک،	(ڕەنگ) کەم‌ڕەنگ، ڕۆشن، گەش،	نیان، ئارام، مەند، نەرم، هێدی، ئەهۆن،	خۆش، بەمەزە، بەلەزەت
+کوردی: ناسک، نەرم، نازدار، نیان، جوان،	ھەستیار، تیژ،	بەڕەوشت، بەئەدەب،	قرپ، قرچ، تورت، زووشکاو،	ورد، باریک،	لاواز، کز، بێ‌ھێز، ناسک،	(ڕەنگ) کەم‌ڕەنگ، ڕۆشن، گەش،	نیان، ئارام، مەند، نەرم، ھێدی، ئەھۆن،	خۆش، بەمەزە، بەلەزەت
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ئاسانی زیانی پێدەگات و دەشکێت"),
@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The eye is one of the most delicate organs of the body."),
                     ExampleSentenceKurdish(
-                        text: "چاو یەکێکە لە هەرە ناسکترین ئەندامەکانی جەستە."),
+                        text: "چاو یەکێکە لە ھەرە ناسکترین ئەندامەکانی جەستە."),
                   ],
                 ),
               ),
@@ -452,7 +452,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Babies have very delicate skin."),
                     ExampleSentenceKurdish(
-                        text: "منداڵان جەستەی زۆر هەستیاریان هەیە."),
+                        text: "منداڵان جەستەی زۆر ھەستیاریان ھەیە."),
                   ],
                 ),
               ),
@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His health had always been delicate."),
                     ExampleSentenceKurdish(
-                        text: "تەندرووستی هەمیشە لاواز بووە."),
+                        text: "تەندرووستی ھەمیشە لاواز بووە."),
                   ],
                 ),
               ),
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She has a delicate constitution and has to be careful with what she eats."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەندرووستییەکی زۆر لاوازی هەیە و دەبێت وریا بێت کە چی دەخوات."),
+                            "تەندرووستییەکی زۆر لاوازی ھەیە و دەبێت وریا بێت کە چی دەخوات."),
                   ],
                 ),
               ),
@@ -554,7 +554,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (هاوەڵناو) بچووک و هەبوونی شێوەی جوان"),
+              text: "٣. (ھاوەڵناو) بچووک و ھەبوونی شێوەی جوان"),
           // const DividerSentences(),
           Row(
             children: [
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Weather-forecasters have extremely delicate equipment which helps them predict what the weather is going to be like."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێشبینیکارانی کەشووهەوا ئامێری زۆر هەستیاریان پێیە کە یارمەتییان دەدات لەوەی کە کەشووهەوا چۆن دەبێت."),
+                            "پێشبینیکارانی کەشووھەوا ئامێری زۆر ھەستیاریان پێیە کە یارمەتییان دەدات لەوەی کە کەشووھەوا چۆن دەبێت."),
                   ],
                 ),
               ),
@@ -615,7 +615,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (ھاوەڵناو) کە پێویستیان بە مامەڵەی وریا و هەستیار هەیە، یان مامەڵەی وریا و هەستیار ]یشان دەدەن"),
+                  "٥. (ھاوەڵناو) کە پێویستیان بە مامەڵەی وریا و ھەستیار ھەیە، یان مامەڵەی وریا و ھەستیار ]یشان دەدەن"),
           // const DividerSentences(),
           Row(
             children: [
@@ -627,7 +627,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The delicate surgical operation took five hours."),
                     ExampleSentenceKurdish(
                         text:
-                            "پڕۆسە هەستیارە نەشتەرگەرییەکە پێنج کاتژمێری خایاند."),
+                            "پڕۆسە ھەستیارە نەشتەرگەرییەکە پێنج کاتژمێری خایاند."),
                   ],
                 ),
               ),
@@ -653,7 +653,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "This is a somewhat delicate subject."),
                     ExampleSentenceKurdish(
-                        text: "ئەمە بابەتێکی تاڕادەیەک هەستیارە."),
+                        text: "ئەمە بابەتێکی تاڕادەیەک ھەستیارە."),
                   ],
                 ),
               ),

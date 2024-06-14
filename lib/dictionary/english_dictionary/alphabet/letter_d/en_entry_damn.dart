@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەعنەت، نەفرەت، جنێو، سخێف، ناونیتکە، حەح! ئەح! بەزیادم نەکرد! ئەهـ! تەیڕیم
+کوردی: لەعنەت، نەفرەت، جنێو، سخێف، ناونیتکە، حەح! ئەح! بەزیادم نەکرد! ئەھـ! تەیڕیم
 """),
           const DefinitionKurdish(
               text:
@@ -521,7 +521,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Oh damn! I forgot he was coming."),
                     ExampleSentenceKurdish(
-                        text: "ئاه نەفرەت! بیرم چوو ئەو دێت."),
+                        text: "ئاھ نەفرەت! بیرم چوو ئەو دێت."),
                   ],
                 ),
               ),
@@ -650,7 +650,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It's none of your damn business!"),
                     ExampleSentenceKurdish(
-                        text: "هیچ پەیوەندییەکی لەعنەتی بە تۆوە نییە!"),
+                        text: "ھیچ پەیوەندییەکی لەعنەتی بە تۆوە نییە!"),
                   ],
                 ),
               ),
@@ -727,7 +727,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Damn you! I'm not going to let you bully me."),
                     ExampleSentenceKurdish(
-                        text: "بە نەفرەت بیت! ناهێڵم ببیت بە کەڵەگا لێم."),
+                        text: "بە نەفرەت بیت! ناھێڵم ببیت بە کەڵەگا لێم."),
                   ],
                 ),
               ),
@@ -811,7 +811,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The film was damned by the critics for its mindless violence."),
                     ExampleSentenceKurdish(
                         text:
-                            "فیلمەکە لەلایەن ڕەخنەگرانەوە ڕەخنەی لێ گیردرا بۆ توندوتیژی بێ هەستانەی."),
+                            "فیلمەکە لەلایەن ڕەخنەگرانەوە ڕەخنەی لێ گیردرا بۆ توندوتیژی بێ ھەستانەی."),
                   ],
                 ),
               ),
@@ -837,7 +837,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Don't be so damn silly!"),
-                    ExampleSentenceKurdish(text: "هێندە لەعنەتی گەمژە مەبە!"),
+                    ExampleSentenceKurdish(text: "ھێندە لەعنەتی گەمژە مەبە!"),
                   ],
                 ),
               ),
@@ -862,7 +862,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "What a damn stupid question!"),
-                    ExampleSentenceKurdish(text: "چی پرسیارێکی هیچی گەمژانە!"),
+                    ExampleSentenceKurdish(text: "چی پرسیارێکی ھیچی گەمژانە!"),
                   ],
                 ),
               ),
@@ -915,7 +915,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I'm damn sure she had no idea."),
                     ExampleSentenceKurdish(
-                        text: "تەواو دڵنیام لەوەی هیچ نازانێت."),
+                        text: "تەواو دڵنیام لەوەی ھیچ نازانێت."),
                   ],
                 ),
               ),

@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سووک، چەپەڵ، سووک‌وتڕۆ، پیس، ڕووڕەش، هیچ‌وپووچ، ناحەز، بێزراوی، نائاکارانە، جێی‌سەرکۆنە، ڕشێنەرەوە
+کوردی: سووک، چەپەڵ، سووک‌وتڕۆ، پیس، ڕووڕەش، ھیچ‌وپووچ، ناحەز، بێزراوی، نائاکارانە، جێی‌سەرکۆنە، ڕشێنەرەوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ"),
           Row(
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Police have condemned the theft from an elderly widow as despicable."),
                     ExampleSentenceKurdish(
                         text:
-                            "پۆلیس دزییەکەیان لە بێوەژنە پیرەکە بە قێزەون ناوهێناوە."),
+                            "پۆلیس دزییەکەیان لە بێوەژنە پیرەکە بە قێزەون ناوھێناوە."),
                   ],
                 ),
               ),
@@ -473,7 +473,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "To fail was considered despicable."),
                     ExampleSentenceKurdish(
-                        text: "شکستهێنان بە بێزراوی دادەنرا."),
+                        text: "شکستھێنان بە بێزراوی دادەنرا."),
                   ],
                 ),
               ),

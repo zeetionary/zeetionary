@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نەخۆشییەکی دژواری قوڕگ کە دەبێتە هۆکاری سەختی لە هەناسەدان"),
+                  "١. (ناو) نەخۆشییەکی دژواری قوڕگ کە دەبێتە ھۆکاری سەختی لە ھەناسەدان"),
           Row(
             children: [
               const Expanded(

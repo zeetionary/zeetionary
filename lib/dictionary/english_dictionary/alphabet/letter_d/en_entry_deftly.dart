@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I threw her a towel which she deftly caught."),
                     ExampleSentenceKurdish(
-                        text: "خاولییەکم بۆ هاویشت کە شارەزایانە گرتییەوە."),
+                        text: "خاولییەکم بۆ ھاویشت کە شارەزایانە گرتییەوە."),
                   ],
                 ),
               ),

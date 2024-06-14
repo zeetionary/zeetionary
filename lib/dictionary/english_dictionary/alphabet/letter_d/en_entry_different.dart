@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It's slightly different to what I'm used to."),
                     ExampleSentenceKurdish(
-                        text: "کەمێکی جیاوازە لەوەی پێی ڕاهاتووم."),
+                        text: "کەمێکی جیاوازە لەوەی پێی ڕاھاتووم."),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                             "People often give very different accounts of the same event."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەڵکی زۆرجار گێڕانەوەی جیاوازی هەمان ڕووداو دەدەن."),
+                            "خەڵکی زۆرجار گێڕانەوەی جیاوازی ھەمان ڕووداو دەدەن."),
                   ],
                 ),
               ),
@@ -601,7 +601,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Each chapter deals with a different type of business."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر بەشێک باس لە جۆرێکی جیاوازی بازرگانی دەکات."),
+                            "ھەر بەشێک باس لە جۆرێکی جیاوازی بازرگانی دەکات."),
                   ],
                 ),
               ),
@@ -750,7 +750,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "I looked it up in three different dictionaries."),
                             ExampleSentenceKurdish(
-                                text: "لە سێ فەرهەنگی جیاواز بۆی گەڕام."),
+                                text: "لە سێ فەرھەنگی جیاواز بۆی گەڕام."),
                           ],
                         ),
                       ),
@@ -778,7 +778,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "We come from different worlds."),
                             ExampleSentenceKurdish(
-                                text: "سەر بە جیهانی جیاوازین."),
+                                text: "سەر بە جیھانی جیاوازین."),
                           ],
                         ),
                       ),
@@ -813,7 +813,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her methods are different, but no less effective for that."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێگاکانی نامۆن، بەڵام بەهۆی ئەوە هیچ کەمتر کاریگەر نین."),
+                            "ڕێگاکانی نامۆن، بەڵام بەھۆی ئەوە ھیچ کەمتر کاریگەر نین."),
                   ],
                 ),
               ),

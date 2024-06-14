@@ -193,7 +193,7 @@ class EnglishEntryconvoluted extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێچ‌دراو، لوول‌دراو، بادراو، هەڵپێچراو، پڕچین، پێچاوپێچ، پێچ‌پێچ، بەپێچ‌وپەنا، پێچەڵاوپێچ، خواروخێچی، قەف‌وپێچاوی، چرچ‌ولۆچ، لارەولار، دەورپێچ، قەدقەد، لاسەرلا، چرچ، پۆت، خوز،	ئاڵۆز، تێگەیشتن سەخت، دژوار
+کوردی: پێچ‌دراو، لوول‌دراو، بادراو، ھەڵپێچراو، پڕچین، پێچاوپێچ، پێچ‌پێچ، بەپێچ‌وپەنا، پێچەڵاوپێچ، خواروخێچی، قەف‌وپێچاوی، چرچ‌ولۆچ، لارەولار، دەورپێچ، قەدقەد، لاسەرلا، چرچ، پۆت، خوز،	ئاڵۆز، تێگەیشتن سەخت، دژوار
 """),
                           const DefinitionKurdish(
                               text:
@@ -266,7 +266,7 @@ class EnglishEntryconvoluted extends StatelessWidget {
                                             "Due to road closures, we had to take a very convoluted route to reach our destination."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهۆی داخرانی ڕێگاکان، پێویست بوو ڕێگایەکی زۆر پێچاوپێچ بگرینە بەر بۆ گەشتن بە شوێنەکەمان."),
+                                            "بەھۆی داخرانی ڕێگاکان، پێویست بوو ڕێگایەکی زۆر پێچاوپێچ بگرینە بەر بۆ گەشتن بە شوێنەکەمان."),
                                   ],
                                 ),
                               ),

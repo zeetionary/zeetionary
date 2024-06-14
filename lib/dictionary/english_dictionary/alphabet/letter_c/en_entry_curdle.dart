@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەستن، هەڵبەستن، دەڵەمە کردن
+کوردی: بەستن، ھەڵبەستن، دەڵەمە کردن
 """),
           const DefinitionKurdish(
               text:
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The milk curdled after being left out of the fridge."),
                     ExampleSentenceKurdish(
                         text:
-                            "شیرەکە مەیی لە دوای ئەوەی لە ساردکەرەوەکە هێڵدرایەوە."),
+                            "شیرەکە مەیی لە دوای ئەوەی لە ساردکەرەوەکە ھێڵدرایەوە."),
                   ],
                 ),
               ),

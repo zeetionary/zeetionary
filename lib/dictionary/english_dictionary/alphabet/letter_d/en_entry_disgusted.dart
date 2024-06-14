@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I was disgusted at/by the sight."),
-                    ExampleSentenceKurdish(text: "بێزم هاتەوە بە دیمەنەکە."),
+                    ExampleSentenceKurdish(text: "بێزم ھاتەوە بە دیمەنەکە."),
                   ],
                 ),
               ),
@@ -472,7 +472,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He was disgusted to see such awful living conditions."),
                     ExampleSentenceKurdish(
-                        text: "قینی هاتەوە کە دۆخی ژیانی خراپی وەهای بینی."),
+                        text: "قینی ھاتەوە کە دۆخی ژیانی خراپی وەھای بینی."),
                   ],
                 ),
               ),

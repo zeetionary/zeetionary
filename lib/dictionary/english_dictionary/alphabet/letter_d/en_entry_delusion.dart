@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەیاڵ، بیروبۆچوونی فشە و قۆڕ، وڕینە، خەیاڵ‌بردنەوە، خەیاڵی خاو یان پڕوپووچ، دڵخۆشی لەخۆڕایی،	هەڵفریواندن، لەڕێ‌دەرکردن، ڕێ‌پێ‌هەڵەکردن، بەهەڵەدابردن، لەخشتەبردن، فریودان
+کوردی: خەیاڵ، بیروبۆچوونی فشە و قۆڕ، وڕینە، خەیاڵ‌بردنەوە، خەیاڵی خاو یان پڕوپووچ، دڵخۆشی لەخۆڕایی،	ھەڵفریواندن، لەڕێ‌دەرکردن، ڕێ‌پێ‌ھەڵەکردن، بەھەڵەدابردن، لەخشتەبردن، فریودان
 """),
           const DefinitionKurdish(
               text: "١. (ناو) باوەڕی ناڕاست بە خۆت و ئەو دۆخەی تێیدایت"),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Love can be nothing but a delusion."),
                     ExampleSentenceKurdish(
-                        text: "خۆشەویستی دەکرێت هیچ نەبێت جگە لە وڕێنە."),
+                        text: "خۆشەویستی دەکرێت ھیچ نەبێت جگە لە وڕێنە."),
                   ],
                 ),
               ),
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "My mother had a tremendous capacity for delusion."),
                     ExampleSentenceKurdish(
-                        text: "دایکم توانایەکی زۆری بۆ خۆخەڵەتاندن هەیە."),
+                        text: "دایکم توانایەکی زۆری بۆ خۆخەڵەتاندن ھەیە."),
                   ],
                 ),
               ),

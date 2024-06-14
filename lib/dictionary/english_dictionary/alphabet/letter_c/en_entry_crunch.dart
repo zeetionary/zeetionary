@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خرم‌وهۆڕ، خرمەخرم، خرمە، کرمەکرم، خرچەخرچ
+کوردی: خرم‌وھۆڕ، خرمەخرم، خرمە، کرمەکرم، خرچەخرچ
 """),
           const DefinitionKurdish(
               text:
@@ -523,7 +523,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The snow crunched under our feet."),
                     ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەی دەهات لەژێر پێماندا."),
+                        text: "بەفرەکە کرپەی دەھات لەژێر پێماندا."),
                   ],
                 ),
               ),

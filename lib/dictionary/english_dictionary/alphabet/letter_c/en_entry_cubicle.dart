@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I don’t even know my colleague in the next cubicle."),
                     ExampleSentenceKurdish(
-                        text: "تەنانەت هاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم."),
+                        text: "تەنانەت ھاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم."),
                   ],
                 ),
               ),

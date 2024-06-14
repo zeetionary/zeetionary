@@ -207,7 +207,7 @@ class EnglishEntrycoral extends StatelessWidget {
                                             "The coral necklace was a gift from her grandmother and held sentimental value."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ملوانکە مەرجانەکە دیارییەک بوو لە داپیرەیەوە و بەهای سۆزداری هەبوو."),
+                                            "ملوانکە مەرجانەکە دیارییەک بوو لە داپیرەیەوە و بەھای سۆزداری ھەبوو."),
                                   ],
                                 ),
                               ),

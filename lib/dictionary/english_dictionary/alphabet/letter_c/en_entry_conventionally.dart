@@ -207,7 +207,7 @@ class EnglishEntryconventionally extends StatelessWidget {
                                             "Though not conventionally pretty، she dressed with flair."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەرچی بەپێی ئەوەی باوە جوان نەبوو، بەڵام بە بەهرەوە جلی دەپۆشی."),
+                                            "ئەگەرچی بەپێی ئەوەی باوە جوان نەبوو، بەڵام بە بەھرەوە جلی دەپۆشی."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntryconventionally extends StatelessWidget {
                                             "Not all conventionally grown fruits are vulnerable to pests."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو جۆرە میوە ئاسایی چێندراوەکان لاواز نین بە مەگەز."),
+                                            "ھەموو جۆرە میوە ئاسایی چێندراوەکان لاواز نین بە مەگەز."),
                                   ],
                                 ),
                               ),

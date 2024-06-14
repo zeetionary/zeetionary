@@ -329,7 +329,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەردوون، جیهان، گێتی
+کوردی: گەردوون، جیھان، گێتی
 """),
           const DefinitionKurdish(
               text:

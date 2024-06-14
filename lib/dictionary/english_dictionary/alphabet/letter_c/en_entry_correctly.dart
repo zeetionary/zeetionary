@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە دروستی، بە ڕاستی
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) بەشێوەیەک کە ڕاستە؛ بێ هەڵەیە"),
+              text: "١. (ھاوەڵکار) بەشێوەیەک کە ڕاستە؛ بێ ھەڵەیە"),
           Row(
             children: [
               const Expanded(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "If I remember correctly, he was still the prime minister at that point."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەر بە درووستی بیرم بێتەوە، لەو کاتەدا هێشتا سەرۆک وەزیران بوو."),
+                            "ئەگەر بە درووستی بیرم بێتەوە، لەو کاتەدا ھێشتا سەرۆک وەزیران بوو."),
                   ],
                 ),
               ),
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We're making sure everything is done correctly."),
                     ExampleSentenceKurdish(
                         text:
-                            "دڵنیایی ئەوە دەکەین کە هەموو شتێک بە گونجاوی دەکرێت."),
+                            "دڵنیایی ئەوە دەکەین کە ھەموو شتێک بە گونجاوی دەکرێت."),
                   ],
                 ),
               ),

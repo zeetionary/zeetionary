@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Plastic tends to discolour with age."),
                     ExampleSentenceKurdish(
                         text:
-                            "پلاستیک مەیلی هەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت."),
+                            "پلاستیک مەیلی ھەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت."),
                   ],
                 ),
               ),

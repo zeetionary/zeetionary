@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ناوچەیەک کە حکومەت و یاسای خۆی هەیە یان لە ڕابردوودا هەیبووە"),
+                  "١. (ناو) ناوچەیەک کە حکومەت و یاسای خۆی ھەیە یان لە ڕابردوودا ھەیبووە"),
           Row(
             children: [
               const Expanded(
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ناوچەی دەرەوەی شارەکان کە کێڵگە، دارستان، هتدی لێیە"),
+                  "٢. (ناو) ناوچەی دەرەوەی شارەکان کە کێڵگە، دارستان، ھتدی لێیە"),
           Row(
             children: [
               const Expanded(
@@ -553,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The country air should do you good."),
                     ExampleSentenceKurdish(
-                        text: "هەوای دەرەوەی شار دەکرێت باش بێت بۆت."),
+                        text: "ھەوای دەرەوەی شار دەکرێت باش بێت بۆت."),
                   ],
                 ),
               ),
@@ -610,7 +610,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Explore Thomas Hardy country."),
                     ExampleSentenceKurdish(
-                        text: "بگەڕێ بە زێدی تۆماس هاردیدا."),
+                        text: "بگەڕێ بە زێدی تۆماس ھاردیدا."),
                   ],
                 ),
               ),
@@ -637,7 +637,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They have the support of most of the country."),
                     ExampleSentenceKurdish(
-                        text: "پشتیوانی تەواوی وڵاتەکەیان هەیە."),
+                        text: "پشتیوانی تەواوی وڵاتەکەیان ھەیە."),
                   ],
                 ),
               ),

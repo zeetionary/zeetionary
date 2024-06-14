@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مرۆڤی پایەبەرز، بنیادەمی گەورە یان بەشەوکەت
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە پێگەیەکی گرنگی هەیە"),
+              text: "١. (ناو) کەسێک کە پێگەیەکی گرنگی ھەیە"),
           Row(
             children: [
               const Expanded(

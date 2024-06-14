@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Her mood darkened at the news."),
-                    ExampleSentenceKurdish(text: "کەشی بە هەواڵەکە تێکچوو."),
+                    ExampleSentenceKurdish(text: "کەشی بە ھەواڵەکە تێکچوو."),
                   ],
                 ),
               ),

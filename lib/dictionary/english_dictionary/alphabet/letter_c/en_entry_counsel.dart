@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He is there to give you counsel on all matters."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەوێیە بۆ ئەوەی ڕاوێژت لەسەر هەموو بابەتەکان پێبدات."),
+                            "لەوێیە بۆ ئەوەی ڕاوێژت لەسەر ھەموو بابەتەکان پێبدات."),
                   ],
                 ),
               ),

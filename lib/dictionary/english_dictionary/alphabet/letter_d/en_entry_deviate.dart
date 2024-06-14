@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He never deviated from his original plan."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز لە پلانەکەی سەرەتای لاینەدا."),
+                        text: "ھەرگیز لە پلانەکەی سەرەتای لاینەدا."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The bus had to deviate from its usual route because of a road closure."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاسەکە پێویست بوو لە ڕێگای هەمیشەیی لابدا بەهۆی داخرانی ڕێگاوە."),
+                            "پاسەکە پێویست بوو لە ڕێگای ھەمیشەیی لابدا بەھۆی داخرانی ڕێگاوە."),
                   ],
                 ),
               ),

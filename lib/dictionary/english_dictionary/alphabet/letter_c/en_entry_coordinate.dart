@@ -196,7 +196,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: (ڕێزمان) هاوپلە،	(بیرکاری) کۆئۆردینیت،	(کیمیا) کۆئۆردینیت،	هاوتەراز، هاوسەنگ، هاوپلە، هاوڕێک، هاوپایە، هاڕێک، کۆئۆردینیت، دەست
+// کوردی: (ڕێزمان) ھاوپلە،	(بیرکاری) کۆئۆردینیت،	(کیمیا) کۆئۆردینیت،	ھاوتەراز، ھاوسەنگ، ھاوپلە، ھاوڕێک، ھاوپایە، ھاڕێک، کۆئۆردینیت، دەست
 // """),
                           const DefinitionKurdish(
                               text:
@@ -239,7 +239,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
                                             "We try to coordinate our activities with those of other groups."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ دەدەین چالاکییەکانمان ڕێکبخەین لەگەڵ ئەوانەی گرووپەکانی دیکەدا."),
+                                            "ھەوڵ دەدەین چالاکییەکانمان ڕێکبخەین لەگەڵ ئەوانەی گرووپەکانی دیکەدا."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
                                             "The brain helps coordinate movements so we can walk and run."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مێشک هەوڵ دەدات جوڵە ڕێکبخات بۆ ئەوەی بتوانین ڕێ بکەین ڕا بکەین."),
+                                            "مێشک ھەوڵ دەدات جوڵە ڕێکبخات بۆ ئەوەی بتوانین ڕێ بکەین ڕا بکەین."),
                                   ],
                                 ),
                               ),
@@ -321,7 +321,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ئەو دوو ژمارەیەی کە خاڵێک لەسەر نەخشە دیاری دەکەن بەپێی بازنەکانی پانی و هێڵەکانی درێژی"),
+                                  "٤. (ناو) ئەو دوو ژمارەیەی کە خاڵێک لەسەر نەخشە دیاری دەکەن بەپێی بازنەکانی پانی و ھێڵەکانی درێژی"),
                           Row(
                             children: [
                               const Expanded(
@@ -360,7 +360,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
                                             "The pilot had been given the wrong co-ordinates."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فڕۆکەوانەکە پلەی هەڵەی پێدرابوو."),
+                                            "فڕۆکەوانەکە پلەی ھەڵەی پێدرابوو."),
                                   ],
                                 ),
                               ),

@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سپاردە، ئەسپاردە، ئەمانەتی، ئەمانەت،	بارمتە، گرێو،	پێشەکی،	نیشتن،	لۆ، توێژاڵ،	(مەی و هتد) خڵتە، دۆرد
+کوردی: سپاردە، ئەسپاردە، ئەمانەتی، ئەمانەت،	بارمتە، گرێو،	پێشەکی،	نیشتن،	لۆ، توێژاڵ،	(مەی و ھتد) خڵتە، دۆرد
 """),
           const DefinitionKurdish(
               text:
@@ -486,7 +486,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They'll probably ask you to leave a deposit."),
                     ExampleSentenceKurdish(
-                        text: "ئەگەری هەیە داوات لێ بکەن بڕێک پارە بخەوێنیت."),
+                        text: "ئەگەری ھەیە داوات لێ بکەن بڕێک پارە بخەوێنیت."),
                   ],
                 ),
               ),
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) بڕە پارەیەک کە دەخرێتە هەژمارێکی بانکییەوە"),
+              text: "٣. (ناو) بڕە پارەیەک کە دەخرێتە ھەژمارێکی بانکییەوە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She made a deposit of £60 into her account."),
                     ExampleSentenceKurdish(
-                        text: "٦٠ پاوەندی خستە هەژمارەکەیەوە."),
+                        text: "٦٠ پاوەندی خستە ھەژمارەکەیەوە."),
                   ],
                 ),
               ),
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All the other candidates lost their deposits."),
                     ExampleSentenceKurdish(
-                        text: "هەموو کاندیدەکانی دیکە بارمتەکانیان لەدەستدا."),
+                        text: "ھەموو کاندیدەکانی دیکە بارمتەکانیان لەدەستدا."),
                   ],
                 ),
               ),
@@ -594,7 +594,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (کردار) دانانی پارە لە هەژماری بانکی"),
+              text: "٥. (کردار) دانانی پارە لە ھەژماری بانکی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -605,7 +605,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Millions were deposited in Swiss bank accounts."),
                     ExampleSentenceKurdish(
-                        text: "ملیۆنان خرایە هەژمارە بانکییەکانی سویسراوە."),
+                        text: "ملیۆنان خرایە ھەژمارە بانکییەکانی سویسراوە."),
                   ],
                 ),
               ),
@@ -633,7 +633,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can withdraw and deposit money in any of our branches."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانیت پارە ڕابکێشیت و بخەوێنیت لە هەر یەکێک لە لقەکانمان."),
+                            "دەتوانیت پارە ڕابکێشیت و بخەوێنیت لە ھەر یەکێک لە لقەکانمان."),
                   ],
                 ),
               ),

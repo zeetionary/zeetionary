@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "After a few minutes our eyes got used to the darkness."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە دوای چەند خولەکێک چاوەکانمان ڕاهات بە تاریکییەکە."),
+                            "لە دوای چەند خولەکێک چاوەکانمان ڕاھات بە تاریکییەکە."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The sun went down and darkness fell (= it became night)."),
-                    ExampleSentenceKurdish(text: "خۆرئاوابوو و تاریکی داهات."),
+                    ExampleSentenceKurdish(text: "خۆرئاوابوو و تاریکی داھات."),
                   ],
                 ),
               ),
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is an extra hour of darkness on winter mornings."),
                     ExampleSentenceKurdish(
                         text:
-                            "کاتژمێرێکی زیاتر تاریکی هەیە لە بەیانیان زستاندا."),
+                            "کاتژمێرێکی زیاتر تاریکی ھەیە لە بەیانیان زستاندا."),
                   ],
                 ),
               ),

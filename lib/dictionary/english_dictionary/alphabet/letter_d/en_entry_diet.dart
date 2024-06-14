@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It is important to eat a balanced diet."),
                     ExampleSentenceKurdish(
-                        text: "گرنگە کە سیستەمێکی خۆراکی هاوسەنگت هەبێت."),
+                        text: "گرنگە کە سیستەمێکی خۆراکی ھاوسەنگت ھەبێت."),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was told to change her diet and quit smoking."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێی گوترا جۆری خۆراکی بگۆڕێت و واز لە جگەرەکێشان بهێنێت."),
+                            "پێی گوترا جۆری خۆراکی بگۆڕێت و واز لە جگەرەکێشان بھێنێت."),
                   ],
                 ),
               ),
@@ -561,7 +561,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کۆمەڵێکی سنووردار لە خواردن کە دەیانخۆیت بۆ هۆکاری تەندرووستی یان کێش دابەزاندن"),
+                  "٢. (ناو) کۆمەڵێکی سنووردار لە خواردن کە دەیانخۆیت بۆ ھۆکاری تەندرووستی یان کێش دابەزاندن"),
           Row(
             children: [
               const Expanded(
@@ -628,7 +628,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She is trying to lose weight through diet and exercise."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵ دەدات کێش دابەزێنێت بە پارێز و ڕاهێنان."),
+                        text: "ھەوڵ دەدات کێش دابەزێنێت بە پارێز و ڕاھێنان."),
                   ],
                 ),
               ),
@@ -647,7 +647,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) ڕێژەیەکی زۆر لە هەندێک چالاکیی سنووردار"),
+              text: "٣. (ناو) ڕێژەیەکی زۆر لە ھەندێک چالاکیی سنووردار"),
           // const DividerSentences(),
           Row(
             children: [
@@ -689,7 +689,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She's always dieting but she never seems to lose any weight."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە پارێز دەکات بەڵام هەرگیز هیچ کێش لەدەست نادات."),
+                            "ھەمیشە پارێز دەکات بەڵام ھەرگیز ھیچ کێش لەدەست نادات."),
                   ],
                 ),
               ),

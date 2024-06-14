@@ -970,7 +970,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There's a direct train to Leeds (= it may stop at other stations but you do not have to change trains)."),
                     ExampleSentenceKurdish(
-                        text: "شەمەندەفەری ڕاستەوخۆ هەیە بۆ لیدز."),
+                        text: "شەمەندەفەری ڕاستەوخۆ ھەیە بۆ لیدز."),
                   ],
                 ),
               ),
@@ -1089,7 +1089,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "There's a direct train connecting the airport and the city."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "شەمەندەفەرێکی ڕاستەوخۆ هەیە کە فڕۆکەخانەکە و شارەکە پێکەوە دەبەستێت."),
+                                    "شەمەندەفەرێکی ڕاستەوخۆ ھەیە کە فڕۆکەخانەکە و شارەکە پێکەوە دەبەستێت."),
                           ],
                         ),
                       ),
@@ -1119,7 +1119,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The bombers scored direct hits on two ships."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بۆمبهاوێژەکان لێدانی ڕاستەوخۆیان دا لە کەشتی."),
+                                    "بۆمبھاوێژەکان لێدانی ڕاستەوخۆیان دا لە کەشتی."),
                           ],
                         ),
                       ),
@@ -1184,7 +1184,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There is a direct connection between these two phenomena."),
                     ExampleSentenceKurdish(
-                        text: "پەیوەندیی ڕاستەوخۆ هەیە لەنێوان دوو دیاردەکە."),
+                        text: "پەیوەندیی ڕاستەوخۆ ھەیە لەنێوان دوو دیاردەکە."),
                   ],
                 ),
               ),
@@ -1247,7 +1247,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "He was cleared of any direct involvement in the case."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بێبەری کرا لە هەر تێوەگلانێکی ڕاستەوخۆ لە کەیسەکەدا."),
+                                    "بێبەری کرا لە ھەر تێوەگلانێکی ڕاستەوخۆ لە کەیسەکەدا."),
                           ],
                         ),
                       ),
@@ -1277,7 +1277,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Participation in sport brings many benefits, both direct and indirect."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بەژداری کردن لە وەرزشدا زۆر سوودی هەیە، چی ڕاستەوخۆ یان ناڕاستەوخۆ."),
+                                    "بەژداری کردن لە وەرزشدا زۆر سوودی ھەیە، چی ڕاستەوخۆ یان ناڕاستەوخۆ."),
                           ],
                         ),
                       ),
@@ -1307,7 +1307,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "You only get the disease through direct contact with contaminated blood."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "نەخۆشییەکە دەگریت تەنها بە بەرکەوتنی ڕاستەوخۆ لەگەڵ خوێنی پیس."),
+                                    "نەخۆشییەکە دەگریت تەنھا بە بەرکەوتنی ڕاستەوخۆ لەگەڵ خوێنی پیس."),
                           ],
                         ),
                       ),
@@ -1331,7 +1331,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) بەبێ هیچ شتێک لە نێوان سەرچاوەی گەرمی یان ڕۆشنایی"),
+                  "٣. (ھاوەڵناو) بەبێ ھیچ شتێک لە نێوان سەرچاوەی گەرمی یان ڕۆشنایی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1393,7 +1393,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ھاوەڵناو) گوتنی ڕاستەوخۆی ئەوەی دەتەوێت بە ڕوونی کە هەموان تێبگەن"),
+                  "٤. (ھاوەڵناو) گوتنی ڕاستەوخۆی ئەوەی دەتەوێت بە ڕوونی کە ھەموان تێبگەن"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1519,7 +1519,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is no direct evidence for the beneficial effects of these herbs."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ بەڵگەی درووست نییە بۆ کاریگەرییە بەسوودەکانی ئەم ڕووەکە."),
+                            "ھیچ بەڵگەی درووست نییە بۆ کاریگەرییە بەسوودەکانی ئەم ڕووەکە."),
                   ],
                 ),
               ),
@@ -1549,7 +1549,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This information has a direct bearing on (= is closely connected with) the case."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم زانیارییە پەیوەندی ڕاستەوخۆی هەیە لەگەڵ کەیسەکە."),
+                            "ئەم زانیارییە پەیوەندی ڕاستەوخۆی ھەیە لەگەڵ کەیسەکە."),
                   ],
                 ),
               ),
@@ -1579,7 +1579,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was no direct proof of his personal involvement."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ بەڵگەی ڕاستەوخۆ نییە سەبارەت بە تێوەگلانی کەسیی."),
+                            "ھیچ بەڵگەی ڕاستەوخۆ نییە سەبارەت بە تێوەگلانی کەسیی."),
                   ],
                 ),
               ),
@@ -1697,7 +1697,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "A police officer was directing traffic."),
                     ExampleSentenceKurdish(
-                        text: "ئەفسەرێکی پۆلیس هاتووچۆی ڕێکدەخست."),
+                        text: "ئەفسەرێکی پۆلیس ھاتووچۆی ڕێکدەخست."),
                   ],
                 ),
               ),
@@ -1813,7 +1813,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٩. (کردار) بوون بە دەرهێنەری فیلم، شانۆ، هتد"),
+              text: "٩. (کردار) بوون بە دەرھێنەری فیلم، شانۆ، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1823,7 +1823,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She prefers to act rather than direct."),
                     ExampleSentenceKurdish(
-                        text: "پێی خۆشە نواندن بکات نەک دەرهێنان."),
+                        text: "پێی خۆشە نواندن بکات نەک دەرھێنان."),
                   ],
                 ),
               ),
@@ -1850,7 +1850,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He directed the school play."),
-                    ExampleSentenceKurdish(text: "شانۆی قوتابخانەکەی دەرهێنا."),
+                    ExampleSentenceKurdish(text: "شانۆی قوتابخانەکەی دەرھێنا."),
                   ],
                 ),
               ),
@@ -1880,7 +1880,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The film was written and directed by Sofia Coppola."),
                     ExampleSentenceKurdish(
                         text:
-                            "فیلمەکە لەلایەن سۆفیا کۆپۆلاوە نووسرا و دەرهێنرا."),
+                            "فیلمەکە لەلایەن سۆفیا کۆپۆلاوە نووسرا و دەرھێنرا."),
                   ],
                 ),
               ),
@@ -1939,7 +1939,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All our efforts should be directed towards helping those who need it."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو هەوڵەکانت دەبێت ڕوو لەوانە بن کە پێویستیان پێیەتی."),
+                            "ھەموو ھەوڵەکانت دەبێت ڕوو لەوانە بن کە پێویستیان پێیەتی."),
                   ],
                 ),
               ),
@@ -2174,7 +2174,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Direct any complaints to the Customer Services department."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر ڕەخنەیەک بگەیەنن بە بەشی خزمەتگوزاری بەکارهێنەران."),
+                            "ھەر ڕەخنەیەک بگەیەنن بە بەشی خزمەتگوزاری بەکارھێنەران."),
                   ],
                 ),
               ),
@@ -2202,7 +2202,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "We flew direct to Hong Kong."),
-                    ExampleSentenceKurdish(text: "ڕاستەوخۆ بۆ هۆنگ کۆنگ فڕین."),
+                    ExampleSentenceKurdish(text: "ڕاستەوخۆ بۆ ھۆنگ کۆنگ فڕین."),
                   ],
                 ),
               ),
@@ -2232,7 +2232,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can now fly direct from Birmingham airport."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانیت ڕاستەوخۆ لە فڕۆکەخانەی بێرمینگهامەوە بفڕیت."),
+                            "دەتوانیت ڕاستەوخۆ لە فڕۆکەخانەی بێرمینگھامەوە بفڕیت."),
                   ],
                 ),
               ),
@@ -2252,7 +2252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٥. (کردار) بەبێ لەخۆگرتنی کەسانی دیکە، یان ئەوەی هیچ کەس/شتێک لە نێواندا بێت"),
+                  "١٥. (کردار) بەبێ لەخۆگرتنی کەسانی دیکە، یان ئەوەی ھیچ کەس/شتێک لە نێواندا بێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2292,7 +2292,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Customers can buy produce direct from the farmer."),
                     ExampleSentenceKurdish(
                         text:
-                            "کڕیاران دەتوانن ڕاستەوخۆ بەرهەم لە جوتیارەکە بکڕن."),
+                            "کڕیاران دەتوانن ڕاستەوخۆ بەرھەم لە جوتیارەکە بکڕن."),
                   ],
                 ),
               ),

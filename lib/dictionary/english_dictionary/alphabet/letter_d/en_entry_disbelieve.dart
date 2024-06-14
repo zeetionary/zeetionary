@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Why should I disbelieve her story?"),
                     ExampleSentenceKurdish(
-                        text: "بۆچی دەبێت گومانم لە چیرۆکەکە هەبێت؟"),
+                        text: "بۆچی دەبێت گومانم لە چیرۆکەکە ھەبێت؟"),
                   ],
                 ),
               ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We have no reason to disbelieve the information."),
                     ExampleSentenceKurdish(
-                        text: "هیچ هۆکارمان نییە گومان لە زانیارییەکە بکەین."),
+                        text: "ھیچ ھۆکارمان نییە گومان لە زانیارییەکە بکەین."),
                   ],
                 ),
               ),

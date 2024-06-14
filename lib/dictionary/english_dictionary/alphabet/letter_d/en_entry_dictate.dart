@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They are in no position to dictate terms (= tell other people what to do)."),
                     ExampleSentenceKurdish(
-                        text: "لە هیچ دۆخێکدا نین کە مەرج بسەپێنن."),
+                        text: "لە ھیچ دۆخێکدا نین کە مەرج بسەپێنن."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "What right do they have to dictate how we live our lives?"),
                     ExampleSentenceKurdish(
                         text:
-                            "چی مافێکیان هەیە کە بڕیار بدەن چۆن ژیانی خۆمان دەژین؟"),
+                            "چی مافێکیان ھەیە کە بڕیار بدەن چۆن ژیانی خۆمان دەژین؟"),
                   ],
                 ),
               ),

@@ -440,7 +440,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بەشێک لە دانیشتوان کە سەر بە هەمان تەمەن، ڕەگەز، هتد ــن"),
+                  "٢. (ناو) بەشێک لە دانیشتوان کە سەر بە ھەمان تەمەن، ڕەگەز، ھتد ــن"),
           const DividerSentences(),
           Row(
             children: [
@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) پەیوەندیدار بە دانیشتوان و گرووپە جیاوازەکانی"),
-          const AlsoEnglishckb(word: "هەروەها: demographical"),
+          const AlsoEnglishckb(word: "ھەروەھا: demographical"),
           Row(
             children: [
               const Expanded(

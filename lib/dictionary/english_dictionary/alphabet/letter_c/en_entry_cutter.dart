@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەزگا یان ئامرازی بڕین، تیغ، تیغە، بڕینگەر، بڕە(ک)، بڕەڕ،	بەلەم یان گەمی هات‌وچۆ (نێوان کەشتی و کەنار)
+کوردی: دەزگا یان ئامرازی بڕین، تیغ، تیغە، بڕینگەر، بڕە(ک)، بڕەڕ،	بەلەم یان گەمی ھات‌وچۆ (نێوان کەشتی و کەنار)
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک یان شتێک کە شت دەبڕێت"),
           const DividerSentences(),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "This cutter has a six-inch blade."),
                     ExampleSentenceKurdish(
-                        text: "ئەم کەتەرە دەمێکی شەش ئینجی هەیە."),
+                        text: "ئەم کەتەرە دەمێکی شەش ئینجی ھەیە."),
                   ],
                 ),
               ),

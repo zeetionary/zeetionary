@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Nazis used racist propaganda in an attempt to demonize the Jews."),
                     ExampleSentenceKurdish(
                         text:
-                            "نازییەکان پڕووپاگەندەی ڕەگەزپەرستیان بەکاردەهێنا بۆ ناشرینکردنی جولەکەکان."),
+                            "نازییەکان پڕووپاگەندەی ڕەگەزپەرستیان بەکاردەھێنا بۆ ناشرینکردنی جولەکەکان."),
                   ],
                 ),
               ),

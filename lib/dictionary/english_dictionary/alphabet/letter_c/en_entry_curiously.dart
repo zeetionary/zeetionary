@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "‘Are you really an artist?’ Sara asked curiously."),
                     ExampleSentenceKurdish(
-                        text: "سارا بە تاسەوە 'پرسی بەڕاستی هونەرمەندیت؟'"),
+                        text: "سارا بە تاسەوە 'پرسی بەڕاستی ھونەرمەندیت؟'"),
                   ],
                 ),
               ),
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Curiously enough, a year later exactly the same thing happened again."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەشێوەیەکی سەیر، دوای ساڵێک ڕێک هەمان شت ڕوویدایەوە."),
+                            "بەشێوەیەکی سەیر، دوای ساڵێک ڕێک ھەمان شت ڕوویدایەوە."),
                   ],
                 ),
               ),

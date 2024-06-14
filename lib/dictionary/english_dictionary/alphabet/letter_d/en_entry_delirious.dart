@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: وڕینەکەر، وڕینەبێژ، هاتەران‌وپاتەران‌کەر، تووشی وڕینەهاتوو،	(خوازە) شاگەشکە، ورووژاو، هەژیو
+// کوردی: وڕینەکەر، وڕینەبێژ، ھاتەران‌وپاتەران‌کەر، تووشی وڕینەھاتوو،	(خوازە) شاگەشکە، ورووژاو، ھەژیو
 // """),
           const DefinitionKurdish(
               text:

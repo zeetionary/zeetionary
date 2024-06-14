@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He devoured half of his burger in one bite."),
                     ExampleSentenceKurdish(
-                        text: "نیوەی لەفەکەی بە یەک قەپ هەڵلووشی."),
+                        text: "نیوەی لەفەکەی بە یەک قەپ ھەڵلووشی."),
                   ],
                 ),
               ),
@@ -504,7 +504,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She devoured everything she could lay her hands on: books, magazines and newspapers."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر شتێکی دەخوویندەوە کە دەستی پێ بگات: کتێب، گۆڤار، ڕۆژنامە."),
+                            "ھەر شتێکی دەخوویندەوە کە دەستی پێ بگات: کتێب، گۆڤار، ڕۆژنامە."),
                   ],
                 ),
               ),

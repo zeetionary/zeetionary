@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پێ‌سپاردنی دەسەڵات، ڕاگوێستنی هێز و دەسەڵات،	(زیندەناسی) پووکانەوە،	ڕاگوێستنی قانوونی
+کوردی: پێ‌سپاردنی دەسەڵات، ڕاگوێستنی ھێز و دەسەڵات،	(زیندەناسی) پووکانەوە،	ڕاگوێستنی قانوونی
 """),
           const DefinitionKurdish(
               text:

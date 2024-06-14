@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وڕینە، گلتە، ڕاوان، لافە، هۆڕاوە، قسەبەیەکادان، هاتەران‌وپاتەران،	شێتی،	شاگەشکەیی، ورووژان، هەژان، هەڵچوون
+کوردی: وڕینە، گلتە، ڕاوان، لافە، ھۆڕاوە، قسەبەیەکادان، ھاتەران‌وپاتەران،	شێتی،	شاگەشکەیی، ورووژان، ھەژان، ھەڵچوون
 """),
           const DefinitionKurdish(
               text:
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I've never seen such delirium at a football game before."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرگیز خرۆشاوی وەهام لە یارییەکی تۆپی‌پێدا نەدیوە."),
+                            "ھەرگیز خرۆشاوی وەھام لە یارییەکی تۆپی‌پێدا نەدیوە."),
                   ],
                 ),
               ),

@@ -412,10 +412,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گرفت، گیر، گیروگرفت،	سەختی، تەنگی، گرانی، دژواری، چەتوونی، ئاستەنگی، پڕئەرکی، زەحمەت، کاری سەخت،	ئیراد، گێرەوکێشە، دەرد، گێچەڵ، قۆرت، کێشە، دەردەسەری،	تەنگانە، زۆربۆهاتن، گیر (پارە)
+کوردی: گرفت، گیر، گیروگرفت،	سەختی، تەنگی، گرانی، دژواری، چەتوونی، ئاستەنگی، پڕئەرکی، زەحمەت، کاری سەخت،	ئیراد، گێرەوکێشە، دەرد، گێچەڵ، قۆرت، کێشە، دەردەسەری،	تەنگانە، زۆربۆھاتن، گیر (پارە)
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کێشەیەک؛ شتێک کە دەبێتە هۆکاری کێشە"),
+              text: "١. (ناو) کێشەیەک؛ شتێک کە دەبێتە ھۆکاری کێشە"),
           Row(
             children: [
               const Expanded(
@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They encountered numerous difficulties while making the film."),
                     ExampleSentenceKurdish(
                         text:
-                            "تووشی ژمارەیەک سەختی بوو لە کاتی بەرهەمهێنانی فیلمەکە."),
+                            "تووشی ژمارەیەک سەختی بوو لە کاتی بەرھەمھێنانی فیلمەکە."),
                   ],
                 ),
               ),
@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I'm having difficulty with the engine."),
-                    ExampleSentenceKurdish(text: "کێشەم لە بزوێنەرەکەدا هەیە."),
+                    ExampleSentenceKurdish(text: "کێشەم لە بزوێنەرەکەدا ھەیە."),
                   ],
                 ),
               ),
@@ -569,7 +569,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I had considerable difficulty (in) persuading her to leave."),
                     ExampleSentenceKurdish(
-                        text: "ناڕەحەتی زۆرم هەبوو لە ڕازیکردنی کە بچێت."),
+                        text: "ناڕەحەتی زۆرم ھەبوو لە ڕازیکردنی کە بچێت."),
                   ],
                 ),
               ),
@@ -598,7 +598,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I had no difficulty (in) making myself understood."),
                     ExampleSentenceKurdish(
-                        text: "هیچ سەختیم نەبوو لەوەی خۆم تێ بگەیەنم."),
+                        text: "ھیچ سەختیم نەبوو لەوەی خۆم تێ بگەیەنم."),
                   ],
                 ),
               ),
@@ -626,7 +626,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He spoke slowly and with great difficulty."),
                     ExampleSentenceKurdish(
-                        text: "بە هێواشی و ناڕەحەتیی زۆرەوە قسەی کرد."),
+                        text: "بە ھێواشی و ناڕەحەتیی زۆرەوە قسەی کرد."),
                   ],
                 ),
               ),
@@ -682,7 +682,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The games have varying levels of difficulty."),
                     ExampleSentenceKurdish(
-                        text: "یارییەکان ئاستی جیاواز لە سەختییان هەیە."),
+                        text: "یارییەکان ئاستی جیاواز لە سەختییان ھەیە."),
                   ],
                 ),
               ),
@@ -710,7 +710,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Both roles had a high degree of difficulty."),
                     ExampleSentenceKurdish(
-                        text: "هەردوو ئەرکەکە ئاستێکی بەرز لە سەختییان هەبوو."),
+                        text: "ھەردوو ئەرکەکە ئاستێکی بەرز لە سەختییان ھەبوو."),
                   ],
                 ),
               ),

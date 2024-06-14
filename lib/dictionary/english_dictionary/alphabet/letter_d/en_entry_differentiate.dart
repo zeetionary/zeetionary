@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She can just differentiate between light and dark."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانێت تەنها جیاوازی لە نێوان ڕۆشنایی و تاریکیدا بکات."),
+                            "دەتوانێت تەنھا جیاوازی لە نێوان ڕۆشنایی و تاریکیدا بکات."),
                   ],
                 ),
               ),

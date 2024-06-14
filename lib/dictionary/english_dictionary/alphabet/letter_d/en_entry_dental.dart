@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I had some very expensive dental treatment recently - but it'll save me problems in the future."),
                     ExampleSentenceKurdish(
                         text:
-                            "تازەگی هەندێک چارەسەری ددانی گرانبەهام هەبوو، بەڵام لە داهاتوودا لە کێشە دوورم دەخاتەوە."),
+                            "تازەگی ھەندێک چارەسەری ددانی گرانبەھام ھەبوو، بەڵام لە داھاتوودا لە کێشە دوورم دەخاتەوە."),
                   ],
                 ),
               ),

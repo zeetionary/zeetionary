@@ -340,10 +340,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئافراندن، دروست کردن، بەدیهێنان، ساز کردن
+کوردی: ئافراندن، دروست کردن، بەدیھێنان، ساز کردن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) درووستکردن یان هێنانەبوونی شتێک"),
+              text: "١. (کردار) درووستکردن یان ھێنانەبوونی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The government plans to create more jobs for young people."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "حکومەت پلانی هەیە کاری زیاتر بۆ کەسانی گەنج بڕەخسێنێت."),
+                                    "حکومەت پلانی ھەیە کاری زیاتر بۆ کەسانی گەنج بڕەخسێنێت."),
                           ],
                         ),
                       ),
@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "The Bible says that God created the world."),
                             ExampleSentenceKurdish(
-                                text: "ئینجیل دەڵێت خودا جیهانی درووستکرد."),
+                                text: "ئینجیل دەڵێت خودا جیھانی درووستکرد."),
                           ],
                         ),
                       ),
@@ -519,7 +519,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) بوون بە هۆکاری هەستێکی تایبەت"),
+              text: "٢. (کردار) بوون بە ھۆکاری ھەستێکی تایبەت"),
           Row(
             children: [
               const Expanded(
@@ -530,7 +530,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The company is trying to create a young energetic image."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە هەوڵ دەدات وێنایەکی کارا و گەنجانە درووست بکات."),
+                            "کۆمپانیاکە ھەوڵ دەدات وێنایەکی کارا و گەنجانە درووست بکات."),
                   ],
                 ),
               ),
@@ -558,7 +558,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The announcement only succeeded in creating confusion."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕاگەیاندنەکە تەنها بوو بە هۆی درووستکردنی سەرلێ‌شێواوی."),
+                            "ڕاگەیاندنەکە تەنھا بوو بە ھۆی درووستکردنی سەرلێ‌شێواوی."),
                   ],
                 ),
               ),
@@ -586,7 +586,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They've painted it red to create a feeling of warmth."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە سوور بۆیەیان کردووە بۆ ئەوەی هەستی گەرم‌وگوڕی درووست بکات."),
+                            "بە سوور بۆیەیان کردووە بۆ ئەوەی ھەستی گەرم‌وگوڕی درووست بکات."),
                   ],
                 ),
               ),

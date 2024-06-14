@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government is attempting to solve the debt crisis through spending cuts."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت هەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی."),
+                            "حکومەت ھەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی."),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The business is still in crisis but it has survived the worst of the recession."),
                     ExampleSentenceKurdish(
                         text:
-                            "بازرگانییەکە هێشتا ڕووبەڕووی تەنگژەکە دەبێتەوە بەڵام زۆرینەی قەیرانەکەی تێپەڕاندووە."),
+                            "بازرگانییەکە ھێشتا ڕووبەڕووی تەنگژەکە دەبێتەوە بەڵام زۆرینەی قەیرانەکەی تێپەڕاندووە."),
                   ],
                 ),
               ),
@@ -461,7 +461,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Their marriage has reached crisis point."),
                     ExampleSentenceKurdish(
-                        text: "هاوسەرگیرییەکەیان گەشتووە بە خراپترین خاڵ."),
+                        text: "ھاوسەرگیرییەکەیان گەشتووە بە خراپترین خاڵ."),
                   ],
                 ),
               ),

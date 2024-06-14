@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕزێنەر، داخورێنەر، ژەنگ(پێ)هەڵێنەر، داخۆر،	بەزیان، ماڵ‌وێرانکەر، خراپ، موزیڕ
+کوردی: ڕزێنەر، داخورێنەر، ژەنگ(پێ)ھەڵێنەر، داخۆر،	بەزیان، ماڵ‌وێرانکەر، خراپ، موزیڕ
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی خاسیەتی ڕزاندنی هەیە بە کارلێکی کیمیایی"),
+                  "١. (ھاوەڵناو) ھەبوونی خاسیەتی ڕزاندنی ھەیە بە کارلێکی کیمیایی"),
           Row(
             children: [
               const Expanded(
@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) هەبوونی خاسیەتی کۆتایی هێنان بە شتێک"),
+              text: "٢. (ھاوەڵناو) ھەبوونی خاسیەتی کۆتایی ھێنان بە شتێک"),
           Row(
             children: [
               const Expanded(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Unemployment is having a corrosive effect on our economy."),
                     ExampleSentenceKurdish(
                         text:
-                            "بێ‌کاری کاریگەری وێرانکەری هەیە لەسەر ئابووریمان."),
+                            "بێ‌کاری کاریگەری وێرانکەری ھەیە لەسەر ئابووریمان."),
                   ],
                 ),
               ),

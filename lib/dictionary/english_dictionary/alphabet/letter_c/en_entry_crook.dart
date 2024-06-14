@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "These politicians are just a bunch of crooks."),
                     ExampleSentenceKurdish(
-                        text: "ئەم سیاسییانە تەنها چەند کەسێکی تەڵەکەبازن."),
+                        text: "ئەم سیاسییانە تەنھا چەند کەسێکی تەڵەکەبازن."),
                   ],
                 ),
               ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The shepherd used his crook to guide the sheep."),
                     ExampleSentenceKurdish(
                         text:
-                            "شوانەکە گۆچانەکەی بەکارهێنا بۆ ڕێبەری کردنی مەڕەکانی."),
+                            "شوانەکە گۆچانەکەی بەکارھێنا بۆ ڕێبەری کردنی مەڕەکانی."),
                   ],
                 ),
               ),
@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "I’m feeling a bit crook."),
-                    ExampleSentenceKurdish(text: "هەست بە کەمێک نەخۆشی دەکەم."),
+                    ExampleSentenceKurdish(text: "ھەست بە کەمێک نەخۆشی دەکەم."),
                   ],
                 ),
               ),
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Everybody thinks horse racing is crook anyway."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرچۆنێک بێت هەمووان وابیردەکەنەوە پێشبڕکێی ئەسپسواری خراپە."),
+                            "ھەرچۆنێک بێت ھەمووان وابیردەکەنەوە پێشبڕکێی ئەسپسواری خراپە."),
                   ],
                 ),
               ),

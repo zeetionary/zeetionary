@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لادێیی، دێ‌نشین، هاونیشتیمانی
+کوردی: لادێیی، دێ‌نشین، ھاونیشتیمانی
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە لە هەمان وڵاتی کەسێکی دیکە دەژی"),
+              text: "١. (ناو) کەسێک کە لە ھەمان وڵاتی کەسێکی دیکە دەژی"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The champion looks set to play his fellow countryman in the final."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاڵەوانەکە وا بڕیارە یاری لەگەڵ هاونیشتیمانییەکەی بکات لە کۆتاییدا."),
+                            "پاڵەوانەکە وا بڕیارە یاری لەگەڵ ھاونیشتیمانییەکەی بکات لە کۆتاییدا."),
                   ],
                 ),
               ),

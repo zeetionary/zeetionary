@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نەخۆشییەک کە بە هێواشی دەبێتە هۆکاری لەدەستدانی کۆنترۆڵی هێواش بەسەر مێشک و جەستەدا، و بە مردن کۆتایی دێت"),
+                  "١. (ناو) نەخۆشییەک کە بە ھێواشی دەبێتە ھۆکاری لەدەستدانی کۆنترۆڵی ھێواش بەسەر مێشک و جەستەدا، و بە مردن کۆتایی دێت"),
           Row(
             children: [
               const Expanded(
@@ -358,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There is no cure for Creutzfeldt-Jakob disease, and it is always fatal."),
                     ExampleSentenceKurdish(
-                        text: "هیچ چارەسەرێک بۆ CJD نییە و هەمیشە کوشندەیە."),
+                        text: "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە."),
                   ],
                 ),
               ),

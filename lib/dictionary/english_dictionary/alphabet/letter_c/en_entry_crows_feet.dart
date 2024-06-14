@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Using sunscreen can help prevent crow's feet from forming."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەکارهێنانی دژەخۆر دەکرێت یارمەتیدەر بێت دژ بە درووستبوونی لۆچی چاو."),
+                            "بەکارھێنانی دژەخۆر دەکرێت یارمەتیدەر بێت دژ بە درووستبوونی لۆچی چاو."),
                   ],
                 ),
               ),

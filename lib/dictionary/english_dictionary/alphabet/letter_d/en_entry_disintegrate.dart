@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) لەدەستدانی بەهێزی و یەکپارچەیی و کەم کەم شیبوونەوە"),
+                  "٢. (کردار) لەدەستدانی بەھێزی و یەکپارچەیی و کەم کەم شیبوونەوە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The authority of the central government was rapidly disintegrating."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەسەڵاتی حکومەتی ناوەندی بە خێرایی هەڵدەوەشاوە."),
+                            "دەسەڵاتی حکومەتی ناوەندی بە خێرایی ھەڵدەوەشاوە."),
                   ],
                 ),
               ),

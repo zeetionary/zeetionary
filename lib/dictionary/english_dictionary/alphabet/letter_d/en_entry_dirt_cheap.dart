@@ -401,16 +401,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: مفت، یەکجار هەرزان، خۆڕایی
+کوردی: مفت، یەکجار ھەرزان، خۆڕایی
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو هەرزان"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو ھەرزان"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "It was dirt cheap."),
-                    ExampleSentenceKurdish(text: "تەواو هەرزان بوو."),
+                    ExampleSentenceKurdish(text: "تەواو ھەرزان بوو."),
                   ],
                 ),
               ),
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "I got it dirt cheap."),
-                    ExampleSentenceKurdish(text: "تەواو هەرزان دەستم کەوت."),
+                    ExampleSentenceKurdish(text: "تەواو ھەرزان دەستم کەوت."),
                   ],
                 ),
               ),

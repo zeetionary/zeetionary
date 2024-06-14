@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: جیاوازی دانان، جیا کردنەوە، هەڵبژاردن، فەرق دانان
+// کوردی: جیاوازی دانان، جیا کردنەوە، ھەڵبژاردن، فەرق دانان
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) جیاوازیکردنی نێوان خەڵکی و شتەکان"),

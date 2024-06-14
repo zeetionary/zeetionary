@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //         const KurdishVocabulary(text: """
-// کوردی: شیرەمەنی‌فرۆشی، سپیایی‌فرۆشی، فرۆشتنی بەرهەمەکانی شیر
+// کوردی: شیرەمەنی‌فرۆشی، سپیایی‌فرۆشی، فرۆشتنی بەرھەمەکانی شیر
 // 2	کۆمپانی شیرەمەنی
 // 3	دووکانی شیرفرۆشی
 // """),
-          const DefinitionKurdish(text: "١. (ناو) بەرهەمە شیرەمەنییەکان"),
+          const DefinitionKurdish(text: "١. (ناو) بەرھەمە شیرەمەنییەکان"),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I'm trying to cut down on dairy products, which is difficult because I adore cheese."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵ دەدەم بەرهەمە شیرەمەنییەکان کەم بکەنوە، کە سەختە بۆم چونکە حەز بە پەنیر دەکەم."),
+                            "ھەوڵ دەدەم بەرھەمە شیرەمەنییەکان کەم بکەنوە، کە سەختە بۆم چونکە حەز بە پەنیر دەکەم."),
                   ],
                 ),
               ),
@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) پەیوەندیدار بە بەرهەمهێنانی شیر نەک گۆشت"),
+              text: "٣. (ھاوەڵناو) پەیوەندیدار بە بەرھەمھێنانی شیر نەک گۆشت"),
           Row(
             children: [
               const Expanded(

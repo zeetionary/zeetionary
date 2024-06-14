@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This is a serious dilution of their election promises."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمە لاوازکردنێکی جدی بەڵێنەکانی هەڵبژاردنیانە."),
+                            "ئەمە لاوازکردنێکی جدی بەڵێنەکانی ھەڵبژاردنیانە."),
                   ],
                 ),
               ),

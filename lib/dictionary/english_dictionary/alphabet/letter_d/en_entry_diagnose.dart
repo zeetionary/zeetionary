@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناسینی نەخۆشی، دیاری کردن، ناسین
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) دیاری کردنی نەخۆشییەک یان هۆکارەکەی"),
+              text: "١. (کردار) دیاری کردنی نەخۆشییەک یان ھۆکارەکەی"),
           Row(
             children: [
               const Expanded(

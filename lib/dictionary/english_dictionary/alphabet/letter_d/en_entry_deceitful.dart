@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He never struck me as deceitful before."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز پێشووتر وەک فێڵباز نەهاتە پێش چاوم."),
+                        text: "ھەرگیز پێشووتر وەک فێڵباز نەھاتە پێش چاوم."),
                   ],
                 ),
               ),

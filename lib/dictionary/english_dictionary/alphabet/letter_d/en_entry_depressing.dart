@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەماوی، ناڕەحەت‌کەر، دڵتەنگ‌کەر، دڵساردکەرەوە، ناهومێدکەر
+کوردی: خەماوی، ناڕەحەت‌کەر، دڵتەنگ‌کەر، دڵساردکەرەوە، ناھومێدکەر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دڵتەنگت دەکات"),
           Row(
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We found it a deeply depressing experience."),
                     ExampleSentenceKurdish(
-                        text: "بە ئەزموونێکی زۆر ناهومێدکەر بینیم."),
+                        text: "بە ئەزموونێکی زۆر ناھومێدکەر بینیم."),
                   ],
                 ),
               ),

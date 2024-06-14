@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Measles can cause deafness and blindness."),
                     ExampleSentenceKurdish(
-                        text: "سووڕێژە دەکرێت ببێتە هۆکاری کەڕی و کوێری."),
+                        text: "سووڕێژە دەکرێت ببێتە ھۆکاری کەڕی و کوێری."),
                   ],
                 ),
               ),
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There has been a deliberate deafness to women's complaints of harassment."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەڕییەکی بە ئەنقەست هەبووە لە بەرامبەر سکاڵای توندوتیژی لە ژنانەوە ."),
+                            "کەڕییەکی بە ئەنقەست ھەبووە لە بەرامبەر سکاڵای توندوتیژی لە ژنانەوە ."),
                   ],
                 ),
               ),

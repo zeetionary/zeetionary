@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We have six desks in this room, so we're a little cramped."),
                     ExampleSentenceKurdish(
                         text:
-                            "شەش کەسین لەم ژوورەدا، بۆیە کەمێک کێشەی تەنگیمان هەیە."),
+                            "شەش کەسین لەم ژوورەدا، بۆیە کەمێک کێشەی تەنگیمان ھەیە."),
                   ],
                 ),
               ),
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I have a very cramped schedule."),
-                    ExampleSentenceKurdish(text: "خشتەیەکی زۆر جەنجاڵم هەیە."),
+                    ExampleSentenceKurdish(text: "خشتەیەکی زۆر جەنجاڵم ھەیە."),
                   ],
                 ),
               ),

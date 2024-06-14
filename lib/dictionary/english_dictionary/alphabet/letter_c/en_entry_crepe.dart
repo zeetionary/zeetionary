@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) قوماشێکی تەنک کە لە لۆکە یان ئاوریشم درووستکراوە و هێڵی بچووکی تێدایە"),
+                  "١. (ناو) قوماشێکی تەنک کە لە لۆکە یان ئاوریشم درووستکراوە و ھێڵی بچووکی تێدایە"),
           Row(
             children: [
               const Expanded(
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) جۆرە لاستیکێک کە ڕوویەکی توندی هەیە و بەکاردێت بۆ درووستکردنی ناوکەفی پێڵاو"),
+                  "٢. (ناو) جۆرە لاستیکێک کە ڕوویەکی توندی ھەیە و بەکاردێت بۆ درووستکردنی ناوکەفی پێڵاو"),
           Row(
             children: [
               const Expanded(

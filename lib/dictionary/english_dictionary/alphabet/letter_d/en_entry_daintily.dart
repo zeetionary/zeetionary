@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She blew her nose as daintily as possible."),
                     ExampleSentenceKurdish(
-                        text: "هەتا توانی بە وریایی لووتی پاککردەوە."),
+                        text: "ھەتا توانی بە وریایی لووتی پاککردەوە."),
                   ],
                 ),
               ),

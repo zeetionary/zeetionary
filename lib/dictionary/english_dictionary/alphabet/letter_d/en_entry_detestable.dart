@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All terrorist crime is detestable, whoever the victims."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو کارێکی تیرۆریستی بێزراوە، هەرکێیەک قوربانییەکە بێت."),
+                            "ھەموو کارێکی تیرۆریستی بێزراوە، ھەرکێیەک قوربانییەکە بێت."),
                   ],
                 ),
               ),

@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The metric system decimalizes measurements for ease of use."),
                     ExampleSentenceKurdish(
                         text:
-                            "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارهێنان."),
+                            "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارھێنان."),
                   ],
                 ),
               ),

@@ -408,9 +408,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (توند) سێڵاو، لافاو، لێمشت، لەهی، بارانی بەخوڕەم، باران و لەنگێزە، بارانی قورس، شەستەباران،	(خوازە) ڕێژنە، لێشاو، لافاو، لۆدە
+کوردی: (توند) سێڵاو، لافاو، لێمشت، لەھی، بارانی بەخوڕەم، باران و لەنگێزە، بارانی قورس، شەستەباران،	(خوازە) ڕێژنە، لێشاو، لافاو، لۆدە
 """),
-          const DefinitionKurdish(text: "١. (ناو) لافاوێکی بەهێز"),
+          const DefinitionKurdish(text: "١. (ناو) لافاوێکی بەھێز"),
           Row(
             children: [
               const Expanded(
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ڕێژەیەکی زۆر لە شت کە لە هەمان کاتدا ڕوودەدەن یان دەگەن"),
+                  "٢. (ناو) ڕێژەیەکی زۆر لە شت کە لە ھەمان کاتدا ڕوودەدەن یان دەگەن"),
           const DividerSentences(),
           Row(
             children: [
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) ناردنی ڕێژەیەکی زۆر لە شت لە هەمان کاتدا"),
+              text: "٣. (کردار) ناردنی ڕێژەیەکی زۆر لە شت لە ھەمان کاتدا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was deluged with phone calls from friends and colleagues."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەوتە بەر لێشاوی پەیوەندی تەلەفۆنی لە هاوڕێ و هاوکارەکانی."),
+                            "کەوتە بەر لێشاوی پەیوەندی تەلەفۆنی لە ھاوڕێ و ھاوکارەکانی."),
                   ],
                 ),
               ),

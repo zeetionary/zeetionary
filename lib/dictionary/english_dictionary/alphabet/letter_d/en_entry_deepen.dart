@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قووڵ کردن، قووڵ بوون، تێکقووپان
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) زیادبوونی شتێک، بۆ نموونە هەستێک"),
+              text: "١. (کردار) زیادبوونی شتێک، بۆ نموونە ھەستێک"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Their friendship soon deepened into love."),
                     ExampleSentenceKurdish(
-                        text: "هاوڕێیەتییەکەیان زوو قووڵبوویەوە بۆ خۆشەویستی."),
+                        text: "ھاوڕێیەتییەکەیان زوو قووڵبوویەوە بۆ خۆشەویستی."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There were plans to deepen a stretch of the river."),
                     ExampleSentenceKurdish(
-                        text: "پلان هەبوو بەشێکی ئاوەکە قووڵ بکرێتەوە."),
+                        text: "پلان ھەبوو بەشێکی ئاوەکە قووڵ بکرێتەوە."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (کردار) بەهێزکردنی زانیاری و تێگەشتنت بۆ شتێک"),
+              text: "٤. (کردار) بەھێزکردنی زانیاری و تێگەشتنت بۆ شتێک"),
           Row(
             children: [
               const Expanded(

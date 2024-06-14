@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -358,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Talk to me before you do anything drastic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Talk to me before you do anything drastic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdrastics3(String languageCode) async {
@@ -530,9 +533,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بنەڕەتی، بنچینەیی، بنگەهی، توند، ڕشت، سەخت، ئاستەم، توندوتیژ
+کوردی: بنەڕەتی، بنچینەیی، بنگەھی، توند، ڕشت، سەخت، ئاستەم، توندوتیژ
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی هەیە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -541,7 +546,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The government is threatening to take drastic action."),
-                    ExampleSentenceKurdish(text: "حکومەت هەڕەشەی ئەوە دەکات کە هەنگاوی توند بنێت."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "حکومەت ھەڕەشەی ئەوە دەکات کە ھەنگاوی توند بنێت."),
                   ],
                 ),
               ),
@@ -566,8 +573,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Talk to me before you do anything drastic."),
-                    ExampleSentenceKurdish(text: "قسەم لەگەڵ بکە پێش ئەوەی هەر شتێکی بنچینەیی بکەیت."),
+                    ExampleSentenceEnglish(
+                        text: "Talk to me before you do anything drastic."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "قسەم لەگەڵ بکە پێش ئەوەی ھەر شتێکی بنچینەیی بکەیت."),
                   ],
                 ),
               ),
@@ -1187,7 +1197,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bl5630CeYFs?t=',
+    videoId: 'Bl5630CeYFs',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1222,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QWz07MktCKg?t=',
+    videoId: 'QWz07MktCKg',
     startSeconds: 378,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1237,7 +1247,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 1474,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1262,7 +1272,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ath19iRctCk',
+    videoId: 'ath19iRctCk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1287,7 +1297,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ath19iRctCk?t=',
+    videoId: 'ath19iRctCk',
     startSeconds: 768,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1312,7 +1322,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OJGxH_VWQFU?t=',
+    videoId: 'OJGxH_VWQFU',
     startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1337,7 +1347,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h42QVfrUVFw?t=',
+    videoId: 'h42QVfrUVFw',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(

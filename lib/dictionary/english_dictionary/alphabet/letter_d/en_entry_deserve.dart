@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "You deserve a rest after all that hard work."),
                     ExampleSentenceKurdish(
                         text:
-                            "شایانی حەسانەوەیەکی لە دوای ئەو هەموو کارە سەختە."),
+                            "شایانی حەسانەوەیەکی لە دوای ئەو ھەموو کارە سەختە."),
                   ],
                 ),
               ),
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "One player in particular deserves a mention."),
                     ExampleSentenceKurdish(
-                        text: "یاریزانێک بەتایبەتی شایەنی ناوهێنانە."),
+                        text: "یاریزانێک بەتایبەتی شایەنی ناوھێنانە."),
                   ],
                 ),
               ),

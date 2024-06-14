@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناسکی، نەرمی، نیانی، نازداری، جوانی،	هەستیاری، تیژی،	وردبوونەوە، خوردبوونەوە، سەرنج‌پێ‌دان،	ڕەوشت، ئەدەب،	ئارامی، مەندی، نیانی، لەسەرەخۆیی،	خۆشی، لەززەت، مەزە، شتی خۆش، چێشتی خۆش
+کوردی: ناسکی، نەرمی، نیانی، نازداری، جوانی،	ھەستیاری، تیژی،	وردبوونەوە، خوردبوونەوە، سەرنج‌پێ‌دان،	ڕەوشت، ئەدەب،	ئارامی، مەندی، نیانی، لەسەرەخۆیی،	خۆشی، لەززەت، مەزە، شتی خۆش، چێشتی خۆش
 """),
           const DefinitionKurdish(text: "١. (ناو) ناسکی"),
           Row(
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The eggs of this bird are considered a great delicacy."),
                     ExampleSentenceKurdish(
-                        text: "هێلکەی ئەم باڵندەیە بە زۆر ناسکی ناسراون."),
+                        text: "ھێلکەی ئەم باڵندەیە بە زۆر ناسکی ناسراون."),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) کردن بە وریایی و هێواشی"),
+          const DefinitionKurdish(text: "٢. (ناو) کردن بە وریایی و ھێواشی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) هەڵسوکەوتی زۆر وریایانە لە دۆخێکی هەستیاردا"),
+              text: "٣. (ناو) ھەڵسوکەوتی زۆر وریایانە لە دۆخێکی ھەستیاردا"),
           const DividerSentences(),
           Row(
             children: [
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She handled the situation with great sensitivity and delicacy."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە هەستیاری و لەسەرەخۆیی مامەڵەی لەگەڵ دۆخەکە کرد."),
+                            "بە ھەستیاری و لەسەرەخۆیی مامەڵەی لەگەڵ دۆخەکە کرد."),
                   ],
                 ),
               ),
@@ -526,7 +526,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (ناو) هەستیاری دۆخێک"),
+          const DefinitionKurdish(text: "٤. (ناو) ھەستیاری دۆخێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I need to talk to you about a matter of some delicacy."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت قسەت لەگەڵ بکەم لەسەر بابەتێکی کەمێک هەستیار."),
+                            "دەبێت قسەت لەگەڵ بکەم لەسەر بابەتێکی کەمێک ھەستیار."),
                   ],
                 ),
               ),
@@ -570,7 +570,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In some parts of the world, sheep's eyes are considered a great delicacy."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە هەندێک ناوچەی جیهان، چاوی مەڕ بە چێشتێکی زۆر خۆش دادەنرێت."),
+                            "لە ھەندێک ناوچەی جیھان، چاوی مەڕ بە چێشتێکی زۆر خۆش دادەنرێت."),
                   ],
                 ),
               ),

@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خوداگرتن، خوداگرتوویی، خوداگیری، نەفرەت، نەفرەتی هەمیشەیی، لەعنەت، بەڵای خودایی، لەعنەتی خودا
+کوردی: خوداگرتن، خوداگرتوویی، خوداگیری، نەفرەت، نەفرەتی ھەمیشەیی، لەعنەت، بەڵای خودایی، لەعنەتی خودا
 """),
           const DefinitionKurdish(text: "١. (ناو) بوون لە دۆزەخ"),
           Row(
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He believed that he would be condemned to eternal damnation for what he had done."),
                     ExampleSentenceKurdish(
                         text:
-                            "باوەڕی وابوو بۆ هەمیشەیی بەر لەعنەتی دۆزەخ دەکەوێت بۆ ئەوەی کردوویەتی."),
+                            "باوەڕی وابوو بۆ ھەمیشەیی بەر لەعنەتی دۆزەخ دەکەوێت بۆ ئەوەی کردوویەتی."),
                   ],
                 ),
               ),

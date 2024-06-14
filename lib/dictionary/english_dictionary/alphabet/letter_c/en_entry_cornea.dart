@@ -207,7 +207,7 @@ class EnglishEntrycornea extends StatelessWidget {
                                             "The cornea is highly sensitive and contains many nerve endings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆرنیا زۆر هەستیارە و ژمارەیەکی زۆر سەرە دەمار لەخۆدەگرێت."),
+                                            "کۆرنیا زۆر ھەستیارە و ژمارەیەکی زۆر سەرە دەمار لەخۆدەگرێت."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycornea extends StatelessWidget {
                                             "Damage to the cornea can result in blurred vision or other vision problems."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زیان گەشتن بە کۆرنیا دەکرێت ببێتە هۆی بینایی تەڵخ و کێشەکانی دیکەی بینایی."),
+                                            "زیان گەشتن بە کۆرنیا دەکرێت ببێتە ھۆی بینایی تەڵخ و کێشەکانی دیکەی بینایی."),
                                   ],
                                 ),
                               ),

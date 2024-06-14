@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She still darns the holes in her socks."),
                     ExampleSentenceKurdish(
-                        text: "هێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە."),
+                        text: "ھێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She runs her finger over the darn to check its smoothness."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەنجەی دەهێنێت بەسەر دوورینەوەکەدا بۆ پشکنینی لووسیەکەی."),
+                            "پەنجەی دەھێنێت بەسەر دوورینەوەکەدا بۆ پشکنینی لووسیەکەی."),
                   ],
                 ),
               ),
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "You had a darn good try."),
-                    ExampleSentenceKurdish(text: "هەوڵێکی زۆر باشت دا."),
+                    ExampleSentenceKurdish(text: "ھەوڵێکی زۆر باشت دا."),
                   ],
                 ),
               ),

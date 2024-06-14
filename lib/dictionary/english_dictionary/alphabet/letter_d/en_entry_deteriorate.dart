@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They had to cope with deteriorating weather conditions."),
                     ExampleSentenceKurdish(
-                        text: "پێویست بوو بەرگەی دۆخی خراپتری کەشوهەوا بگرن."),
+                        text: "پێویست بوو بەرگەی دۆخی خراپتری کەشوھەوا بگرن."),
                   ],
                 ),
               ),

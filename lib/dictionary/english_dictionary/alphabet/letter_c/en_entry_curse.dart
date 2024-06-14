@@ -341,7 +341,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) وشەیەکی ناشرین یان  کە هەندێک کەس بەکاریدێنن کە تووڕەن"),
+                  "١. (ناو) وشەیەکی ناشرین یان  کە ھەندێک کەس بەکاریدێنن کە تووڕەن"),
           Row(
             children: [
               const Expanded(
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) وشەیەک یان دەستەواژەیەک کە هێزی سیحری هەیە بۆ ئەوەی شتێکی خراپ ڕووبدات"),
+                  "٢. (ناو) وشەیەک یان دەستەواژەیەک کە ھێزی سیحری ھەیە بۆ ئەوەی شتێکی خراپ ڕووبدات"),
           Row(
             children: [
               const Expanded(
@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He hit his head as he stood up and cursed loudly."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە هەستا ئێشی بە سەری گەیاند و بە دەنگی بەرز دەستی بە جنێودان کرد."),
+                            "کە ھەستا ئێشی بە سەری گەیاند و بە دەنگی بەرز دەستی بە جنێودان کرد."),
                   ],
                 ),
               ),
@@ -492,7 +492,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was cursing and screaming at me just because I was late."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاواری دەکرد بە سەرمدا و جنێوی پێم دەدا تەنها بەهۆی ئەوەی درەنگ کەوتبووم."),
+                            "ھاواری دەکرد بە سەرمدا و جنێوی پێم دەدا تەنھا بەھۆی ئەوەی درەنگ کەوتبووم."),
                   ],
                 ),
               ),
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (کردار) بەکارهێنانی سیحر بۆ زیان گەیاندن "),
+              text: "٦. (کردار) بەکارھێنانی سیحر بۆ زیان گەیاندن "),
           Row(
             children: [
               const Expanded(

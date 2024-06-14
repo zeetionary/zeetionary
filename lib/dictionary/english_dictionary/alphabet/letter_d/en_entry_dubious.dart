@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -282,7 +284,7 @@ class TTSUK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdubious("en-GB"""),
+      onPressed: () => speakdubious("en-GB" ""),
     );
   }
 }
@@ -332,7 +334,7 @@ class TTSUS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdubious("en-US"""),
+      onPressed: () => speakdubious("en-US" ""),
     );
   }
 }
@@ -358,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Kate looked dubious, but did as she was asked."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Kate looked dubious, but did as she was asked."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdubiouss3(String languageCode) async {
@@ -366,7 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The man who sold it to him was known to be of dubious character."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The man who sold it to him was known to be of dubious character."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdubiouss4(String languageCode) async {
@@ -532,16 +536,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: گومان‌بار، گومان‌لێ‌کراو، گوماناوی، جێی‌شک، گومان‌لەسەر، لێ‌ڕانەبینراو، دوودڵ، دڕدۆنگ، بەشک، لێڵ، تەماوی، ناڕوون، نامەعلووم، نادیار،	(خوازە) سست، لێ‌ڕانەبینراو، باوەپێ‌نەکراو، نادڵنیا
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی گومان سەبارەت بە شتێک"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵناو) ھەبوونی گومان سەبارەت بە شتێک"""),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: """I was rather dubious about the whole idea."""),
+                    ExampleSentenceKurdish(
                         text:
-                            """I was rather dubious about the whole idea."""),
-                    ExampleSentenceKurdish(text: """کەمێک گوماناوی بووم سەبارەت بە تەواوی پلانەکە."""),
+                            """کەمێک گوماناوی بووم سەبارەت بە تەواوی پلانەکە."""),
                   ],
                 ),
               ),
@@ -549,10 +555,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdubiouss1("en-GB"""),
+                    onPressed: () => speakdubiouss1("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouss1("en-US"""),
+                    onPressed: () => speakdubiouss1("en-US" ""),
                   ),
                 ],
               ),
@@ -566,8 +572,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """Kate looked dubious, but did as she was asked."""),
-                    ExampleSentenceKurdish(text: """کەیت بەگومان بوو، بەڵام ئەوەی کرد کە داوای لێکرا."""),
+                    ExampleSentenceEnglish(
+                        text:
+                            """Kate looked dubious, but did as she was asked."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """کەیت بەگومان بوو، بەڵام ئەوەی کرد کە داوای لێکرا."""),
                   ],
                 ),
               ),
@@ -575,10 +585,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdubiouss2("en-GB"""),
+                    onPressed: () => speakdubiouss2("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouss2("en-US"""),
+                    onPressed: () => speakdubiouss2("en-US" ""),
                   ),
                 ],
               ),
@@ -592,8 +602,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """The man who sold it to him was known to be of dubious character."""),
-                    ExampleSentenceKurdish(text: """ئەو پیاوەی کە پێی فرۆشت بۆ کەسایەتیی تەڵەکەبازیی ناسراوبوو."""),
+                    ExampleSentenceEnglish(
+                        text:
+                            """The man who sold it to him was known to be of dubious character."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """ئەو پیاوەی کە پێی فرۆشت بۆ کەسایەتیی تەڵەکەبازیی ناسراوبوو."""),
                   ],
                 ),
               ),
@@ -601,10 +615,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdubiouss3("en-GB"""),
+                    onPressed: () => speakdubiouss3("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouss3("en-US"""),
+                    onPressed: () => speakdubiouss3("en-US" ""),
                   ),
                 ],
               ),
@@ -1193,7 +1207,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/USL6P8haroY?t=',
+    videoId: 'USL6P8haroY',
     startSeconds: 412,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1218,7 +1232,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GR66FBUvZ88?t=',
+    videoId: 'GR66FBUvZ88',
     startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1243,7 +1257,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    videoId: '4IaOeVgZ-wc',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1268,7 +1282,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DgTJ3-WMAWY?t=',
+    videoId: 'DgTJ3-WMAWY',
     startSeconds: 531,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1293,7 +1307,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bkgre8Re8Tc?t=',
+    videoId: 'bkgre8Re8Tc',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1318,7 +1332,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NG4Ws74RV04?t=',
+    videoId: 'NG4Ws74RV04',
     startSeconds: 1535,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1343,7 +1357,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BriBDiBxaMY?t=',
+    videoId: 'BriBDiBxaMY',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(

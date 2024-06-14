@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -543,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) کۆنترۆڵ کردن یان هەبوونی کاریگەری زۆر لەسەر کەسێک/شتێک"),
+                  "١. (کردار) کۆنترۆڵ کردن یان ھەبوونی کاریگەری زۆر لەسەر کەسێک/شتێک"),
           Row(
             children: [
               const Expanded(
@@ -554,7 +556,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She always says a lot in meetings, but she doesn't dominate."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە زۆر دەڵێت لە چاوپێکەوتنەکاندا، بەڵام قۆرخیان ناکات."),
+                            "ھەمیشە زۆر دەڵێت لە چاوپێکەوتنەکاندا، بەڵام قۆرخیان ناکات."),
                   ],
                 ),
               ),
@@ -582,7 +584,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He tended to dominate the conversation."),
                     ExampleSentenceKurdish(
-                        text: "مەیلی ئەوەی هەبوو کە گفتوگۆکە بۆ خۆی ببات."),
+                        text: "مەیلی ئەوەی ھەبوو کە گفتوگۆکە بۆ خۆی ببات."),
                   ],
                 ),
               ),
@@ -640,7 +642,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In the 1960s American styles dominated the art world."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە ساڵانی ١٩٦٠ ـەکاندا ستایڵی ئەمریکی جیهانی هونەریان کۆنترۆڵ کردبوو."),
+                            "لە ساڵانی ١٩٦٠ ـەکاندا ستایڵی ئەمریکی جیھانی ھونەریان کۆنترۆڵ کردبوو."),
                   ],
                 ),
               ),
@@ -697,7 +699,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The train crash dominated the news."),
                     ExampleSentenceKurdish(
-                        text: "تێکشکانی شەمەندەفەرەکە هەواڵەکانی گرت."),
+                        text: "تێکشکانی شەمەندەفەرەکە ھەواڵەکانی گرت."),
                   ],
                 ),
               ),
@@ -725,7 +727,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He dominates every scene he's in."),
                     ExampleSentenceKurdish(
-                        text: "هەر دیمەنێک بۆ خۆی دەبات کە تێیدا بێت."),
+                        text: "ھەر دیمەنێک بۆ خۆی دەبات کە تێیدا بێت."),
                   ],
                 ),
               ),
@@ -754,7 +756,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The elections continue to dominate the headlines."),
                     ExampleSentenceKurdish(
-                        text: "هەڵبژاردنەکان بەردەوامن لە گرتنی سەردێڕەکان."),
+                        text: "ھەڵبژاردنەکان بەردەوامن لە گرتنی سەردێڕەکان."),
                   ],
                 ),
               ),
@@ -1238,7 +1240,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 1172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1263,7 +1265,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bg_tJvCA8zw?t=',
+    videoId: 'Bg_tJvCA8zw',
     startSeconds: 295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1288,7 +1290,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jw2wn4JYakY?t=',
+    videoId: 'Jw2wn4JYakY',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1313,7 +1315,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nsnyl8llfH4?t=',
+    videoId: 'nsnyl8llfH4',
     startSeconds: 554,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1338,7 +1340,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C6cX0wQP5NA?t=',
+    videoId: 'C6cX0wQP5NA',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1363,7 +1365,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gR9izDp89c0?t=',
+    videoId: 'gR9izDp89c0',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1388,7 +1390,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z56j06plUgs?t=',
+    videoId: 'z56j06plUgs',
     startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(

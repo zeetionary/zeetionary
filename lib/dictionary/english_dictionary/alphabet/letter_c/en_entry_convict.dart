@@ -193,7 +193,7 @@ class EnglishEntryconvict extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: خەتابار، گوناهبار، تاوانبار، زیندانی، مەحکووم، سزالەسەر
+کوردی: خەتابار، گوناھبار، تاوانبار، زیندانی، مەحکووم، سزالەسەر
 """),
                           const DefinitionKurdish(
                               text:
@@ -293,7 +293,7 @@ class EnglishEntryconvict extends StatelessWidget {
                                             "The novel begins with Pip’s meeting with an escaped convict from the prison ship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆمانەکە دەست پێدەکات بە بینینی پیپ لەگەڵ تاوانبارێکی هەڵهاتوو لە زیندانییە کەشتییە."),
+                                            "ڕۆمانەکە دەست پێدەکات بە بینینی پیپ لەگەڵ تاوانبارێکی ھەڵھاتوو لە زیندانییە کەشتییە."),
                                   ],
                                 ),
                               ),

@@ -688,7 +688,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ژماردن، هێژمارتن، حساب‌کردن، ژمارە، ڕەنووس، حساب، حسێب،	کێشە، دۆز،	بابەت، بڕگە، بابەتی تاوانباری،	لایەن، ئالی، لا، بوار
+کوردی: ژماردن، ھێژمارتن، حساب‌کردن، ژمارە، ڕەنووس، حساب، حسێب،	کێشە، دۆز،	بابەت، بڕگە، بابەتی تاوانباری،	لایەن، ئالی، لا، بوار
 """),
           const DefinitionKurdish(text: "١. (کردار) ژماردن بە ڕیزبەندی"),
           Row(
@@ -753,7 +753,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We counted up to fifty, then set off to look for our friends."),
                     ExampleSentenceKurdish(
                         text:
-                            "تاوەکو چلمان ژمارد و دواتر چووین بۆ گەڕان بۆ هاوڕێکانمان."),
+                            "تاوەکو چلمان ژمارد و دواتر چووین بۆ گەڕان بۆ ھاوڕێکانمان."),
                   ],
                 ),
               ),
@@ -773,7 +773,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) دۆزینەوەی ژمارەی تەواوی خەڵکی، شت، هتد لە گرووپێکدا"),
+                  "٢. (کردار) دۆزینەوەی ژمارەی تەواوی خەڵکی، شت، ھتد لە گرووپێکدا"),
           Row(
             children: [
               const Expanded(
@@ -782,7 +782,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They're still counting votes in Texas."),
                     ExampleSentenceKurdish(
-                        text: "هێشتا دەنگەکان دەژمێرن لە تێکساس."),
+                        text: "ھێشتا دەنگەکان دەژمێرن لە تێکساس."),
                   ],
                 ),
               ),
@@ -869,7 +869,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We have invited 50 people, not counting the children."),
                     ExampleSentenceKurdish(
                         text:
-                            "٥٠ کەسمان بانگهێشت کردووە، بەبێ حسابکردنی منداڵەکان."),
+                            "٥٠ کەسمان بانگھێشت کردووە، بەبێ حسابکردنی منداڵەکان."),
                   ],
                 ),
               ),
@@ -926,7 +926,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is going to be a close election, so every vote counts."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵبژاردنێکی داخراو دەبێت، بۆیە هەموو دەنگێک حسابە."),
+                            "ھەڵبژاردنێکی داخراو دەبێت، بۆیە ھەموو دەنگێک حسابە."),
                   ],
                 ),
               ),
@@ -952,7 +952,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Every point in this game counts."),
                     ExampleSentenceKurdish(
-                        text: "هەموو خاڵێک لەم یارییەدا گرنگە."),
+                        text: "ھەموو خاڵێک لەم یارییەدا گرنگە."),
                   ],
                 ),
               ),
@@ -980,7 +980,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The fact that she had apologized counted for nothing with him."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوەی کە داوای لێبووردنی کرد هیچ لای گرنگ نەبوو."),
+                            "ئەوەی کە داوای لێبووردنی کرد ھیچ لای گرنگ نەبوو."),
                   ],
                 ),
               ),
@@ -1009,7 +1009,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Don't go over that line or your throw won't count."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەسەر ئەو هێڵەدا مەچۆ ئەگەرنا هەڵدانەکەت حساب نابێت."),
+                            "بەسەر ئەو ھێڵەدا مەچۆ ئەگەرنا ھەڵدانەکەت حساب نابێت."),
                   ],
                 ),
               ),
@@ -1065,7 +1065,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I count him among my closest friends."),
                     ExampleSentenceKurdish(
-                        text: "وەک باشترین هاوڕێکانم سەیری ئەکەم."),
+                        text: "وەک باشترین ھاوڕێکانم سەیری ئەکەم."),
                   ],
                 ),
               ),
@@ -1148,7 +1148,7 @@ class KurdishMeaning extends StatelessWidget {
                             "If the election result is close, there will be a second count."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەر ئەنجامی هەڵبژاردنەکە نزیک بێت، ژماردنەوەیەکی دیکە دەبێت."),
+                            "ئەگەر ئەنجامی ھەڵبژاردنەکە نزیک بێت، ژماردنەوەیەکی دیکە دەبێت."),
                   ],
                 ),
               ),
@@ -1204,7 +1204,7 @@ class KurdishMeaning extends StatelessWidget {
                             "By my count there are eight tracks here that aren't on the band's three albums."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە ژماردن من، هەشت گۆرانی لێرەن کە لە سێ ئەلبوومی باندەکە نین."),
+                            "بە ژماردن من، ھەشت گۆرانی لێرەن کە لە سێ ئەلبوومی باندەکە نین."),
                   ],
                 ),
               ),
@@ -1258,7 +1258,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "On the count of three, take one step forward."),
                     ExampleSentenceKurdish(
-                        text: "بە ژماردن تاوەکو سێ، هەنگاوێک بۆ پێشەوە بنێ."),
+                        text: "بە ژماردن تاوەکو سێ، ھەنگاوێک بۆ پێشەوە بنێ."),
                   ],
                 ),
               ),
@@ -1314,7 +1314,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They were found guilty on all counts."),
                     ExampleSentenceKurdish(
-                        text: "بە تاوانباری هەموو تاوانەکان دانران."),
+                        text: "بە تاوانباری ھەموو تاوانەکان دانران."),
                   ],
                 ),
               ),
@@ -1342,7 +1342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I disagree with you on both counts."),
                     ExampleSentenceKurdish(
-                        text: "لە هەردوو خاڵەکەدا لەگەڵت ناکۆکم."),
+                        text: "لە ھەردوو خاڵەکەدا لەگەڵت ناکۆکم."),
                   ],
                 ),
               ),

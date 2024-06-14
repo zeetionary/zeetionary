@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was strongly disinclined to believe anything that she said."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەواو بێ‌مەیل بوو لە باوەڕکردن بە هەر شتێک کە دەیگوت."),
+                            "تەواو بێ‌مەیل بوو لە باوەڕکردن بە ھەر شتێک کە دەیگوت."),
                   ],
                 ),
               ),

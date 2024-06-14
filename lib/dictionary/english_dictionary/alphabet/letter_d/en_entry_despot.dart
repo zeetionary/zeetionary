@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: حاکم یان حوکم‌ڕانی زۆردار، دەسەڵات‌داری زاڵم، ملهوڕ، سەرکوتکار، دەسەڵات‌داری سەرەڕۆ (و بەزەبروزەنگ)، خوێن‌ڕێژ
+کوردی: حاکم یان حوکم‌ڕانی زۆردار، دەسەڵات‌داری زاڵم، ملھوڕ، سەرکوتکار، دەسەڵات‌داری سەرەڕۆ (و بەزەبروزەنگ)، خوێن‌ڕێژ
 """),
           const DefinitionKurdish(
               text:

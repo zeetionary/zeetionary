@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وێرانی، کاولی، خاپووری، کامباخی، تێکچوویی، وێران‌کردن، کاول‌کردن، تێکدان، خاپوورکردن، داڕماندن، داڕووخاندن، تەخت‌وپەخت‌کردن، هەڵتەکاندن، بەقوڕگرتن، داربەسەر بەردەوەنەهێشتن، تیاچوون، لەنێوچوون، نەمان، سڕانەوە،	مایەی تیاچوون
+کوردی: وێرانی، کاولی، خاپووری، کامباخی، تێکچوویی، وێران‌کردن، کاول‌کردن، تێکدان، خاپوورکردن، داڕماندن، داڕووخاندن، تەخت‌وپەخت‌کردن، ھەڵتەکاندن، بەقوڕگرتن، داربەسەر بەردەوەنەھێشتن، تیاچوون، لەنێوچوون، نەمان، سڕانەوە،	مایەی تیاچوون
 """),
           const DefinitionKurdish(text: "١. (ناو) لەناوبردنی شتێک"),
           Row(
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He had miraculously survived the destruction of the spacecraft."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرسوڕهێنەرانە لە مووشەکە ئاسمانییەکە ڕزگاری بوو."),
+                            "سەرسوڕھێنەرانە لە مووشەکە ئاسمانییەکە ڕزگاری بوو."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The earthquake caused loss of life and property destruction."),
                     ExampleSentenceKurdish(
                         text:
-                            "بومەلەرزەکە بوو بەهۆی ژمارەیەکی زۆر لە لەناوچوونی گیانی و مادی."),
+                            "بومەلەرزەکە بوو بەھۆی ژمارەیەکی زۆر لە لەناوچوونی گیانی و مادی."),
                   ],
                 ),
               ),

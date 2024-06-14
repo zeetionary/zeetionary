@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can move the cursor either by using the mouse or by using the arrow keys on the keyboard."),
                     ExampleSentenceKurdish(
                         text:
-                            "جێنیشاندەرەکە دەجوڵێنیت یان بە جوڵاندنی ماوسەکە یان بە بەکارهێنانی دووگمەی تیرەکان لەسەر کیبۆردەکە."),
+                            "جێنیشاندەرەکە دەجوڵێنیت یان بە جوڵاندنی ماوسەکە یان بە بەکارھێنانی دووگمەی تیرەکان لەسەر کیبۆردەکە."),
                   ],
                 ),
               ),

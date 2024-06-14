@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەهەموو گرنگ‌تر، هەرەگرنگانە، بەشێوەیەکی هەرەگرنگ
+کوردی: لەھەموو گرنگ‌تر، ھەرەگرنگانە، بەشێوەیەکی ھەرەگرنگ
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە تەواو گرنگە"),
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The plants need light and, crucially, a flow of cool air."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش هەواگۆڕکێی هەوای فێنک هەیە."),
+                            "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش ھەواگۆڕکێی ھەوای فێنک ھەیە."),
                   ],
                 ),
               ),

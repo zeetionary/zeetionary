@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەم‌بوونەوە، چۆڕەلێ‌هاتن، تەواوبوون،	خاڵی‌کردن، بەتاڵ‌کردن، هەڵچۆڕاندن،	خوێن‌گرتن
+کوردی: کەم‌بوونەوە، چۆڕەلێ‌ھاتن، تەواوبوون،	خاڵی‌کردن، بەتاڵ‌کردن، ھەڵچۆڕاندن،	خوێن‌گرتن
 """),
           const DefinitionKurdish(
               text:
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Increased expenditure has caused a depletion in our funds."),
                     ExampleSentenceKurdish(
-                        text: "خەرجی زۆرمان بووە بەهۆی نەمانی بودجەمان."),
+                        text: "خەرجی زۆرمان بووە بەھۆی نەمانی بودجەمان."),
                   ],
                 ),
               ),

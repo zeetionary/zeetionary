@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The artist had depicted her lying on a bed."),
                     ExampleSentenceKurdish(
                         text:
-                            "هونەرکارەکە وێنای کرد بەوەی لەسەر جێخەوێک ڕاکشاوە."),
+                            "ھونەرکارەکە وێنای کرد بەوەی لەسەر جێخەوێک ڕاکشاوە."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The carving clearly depicts a dragon inside a circle."),
                     ExampleSentenceKurdish(
                         text:
-                            "داتاشین بەڕوونی ئەژدیهایەک لەناو بازنەیەکدا پیشان دەدات."),
+                            "داتاشین بەڕوونی ئەژدیھایەک لەناو بازنەیەکدا پیشان دەدات."),
                   ],
                 ),
               ),

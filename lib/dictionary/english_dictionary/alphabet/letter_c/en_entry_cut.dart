@@ -1007,7 +1007,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بڕین، دابڕین، بڕیار، بڕشت،	پارچە، کوت، بڕ، پل، لەت،	بەش، کەرت، پشک،	کون (بە شتێکی تیژ تێ‌کرابێ)،	برین، زام، ڕێش،	کەم‌بوونەوە، داکشان، هاتنەخوارەوە، دابەزین،	سانسۆر، لابردن، قرتاندن، پەڕاندن،	لێدان، پیاکێشان،	بڕگە، بەر، بڕشت، تراش، بڕاو، لەت‌کراوە، قرتاو،	تاشراو، هەڵکەنراو، داتاشراو،	ورد، لەت‌لەت، تیکەتیکە، پارچەپارچە،	کەمەوبوو، داشکاو 5خەساو، خەسێنراو، یەختەکراو،	بڕگەبڕگە، ددانەددانە،	کورتەوەکراو، قرتێنراو، پەڕێنراو، لابراو
+کوردی: بڕین، دابڕین، بڕیار، بڕشت،	پارچە، کوت، بڕ، پل، لەت،	بەش، کەرت، پشک،	کون (بە شتێکی تیژ تێ‌کرابێ)،	برین، زام، ڕێش،	کەم‌بوونەوە، داکشان، ھاتنەخوارەوە، دابەزین،	سانسۆر، لابردن، قرتاندن، پەڕاندن،	لێدان، پیاکێشان،	بڕگە، بەر، بڕشت، تراش، بڕاو، لەت‌کراوە، قرتاو،	تاشراو، ھەڵکەنراو، داتاشراو،	ورد، لەت‌لەت، تیکەتیکە، پارچەپارچە،	کەمەوبوو، داشکاو 5خەساو، خەسێنراو، یەختەکراو،	بڕگەبڕگە، ددانەددانە،	کورتەوەکراو، قرتێنراو، پەڕێنراو، لابراو
 """),
           const DefinitionKurdish(text: "١. (کردار) بڕینی شتێک"),
           Row(
@@ -1075,7 +1075,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Sometimes people experiencing distress cut themselves (= deliberately)."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هەندێک جار ئەو کەسانەی هەست بە خەفەت دەکەن خۆیان زامدار دەکەن."),
+                                    "ھەندێک جار ئەو کەسانەی ھەست بە خەفەت دەکەن خۆیان زامدار دەکەن."),
                           ],
                         ),
                       ),
@@ -1129,7 +1129,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She picked up the knife and cut into the meat."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "چەقۆکەی هەڵگرت و دەستی بە بڕینی مریشکەکە کرد."),
+                                    "چەقۆکەی ھەڵگرت و دەستی بە بڕینی مریشکەکە کرد."),
                           ],
                         ),
                       ),
@@ -1157,7 +1157,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "You need a powerful saw to cut through metal."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "پێویستیت بە مشارێکی بەهێزە بۆ ئەوەی کانزاکە ببڕیت."),
+                                    "پێویستیت بە مشارێکی بەھێزە بۆ ئەوەی کانزاکە ببڕیت."),
                           ],
                         ),
                       ),
@@ -1449,7 +1449,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (کردار) لابردنی شتێک یان بەشێکی بە چەقۆیەک، هتد"),
+              text: "٤. (کردار) لابردنی شتێک یان بەشێکی بە چەقۆیەک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -1512,7 +1512,7 @@ class KurdishMeaning extends StatelessWidget {
                           "also: I cut a piece of birthday cake for them all.",
                     ),
                     ExampleSentenceKurdish(
-                        text: "پارچەیەکم لە کێکی لەدایکبوون بڕی بۆ هەموویان."),
+                        text: "پارچەیەکم لە کێکی لەدایکبوون بڕی بۆ ھەموویان."),
                   ],
                 ),
               ),
@@ -1557,7 +1557,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (کردار) درووستکردنی شتێک بە داتاشین یان لێبڕین لێی بە چەقۆ، هتد"),
+                  "٥. (کردار) درووستکردنی شتێک بە داتاشین یان لێبڕین لێی بە چەقۆ، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -1592,7 +1592,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The climbers cut steps in the ice."),
                     ExampleSentenceKurdish(
-                        text: "شاخەوانان جێ هەنگاویان دەکردەوە لە سەهۆڵەکە."),
+                        text: "شاخەوانان جێ ھەنگاویان دەکردەوە لە سەھۆڵەکە."),
                   ],
                 ),
               ),
@@ -1865,7 +1865,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٩. (کردار) ڕێگەدان بەوەی کە کەسێک لە شوێنێک هەڵبێت بە بڕینی حەبلێک، شتێک، هتد کە ڕێگری لێ دەکات"),
+                  "٩. (کردار) ڕێگەدان بەوەی کە کەسێک لە شوێنێک ھەڵبێت بە بڕینی حەبلێک، شتێک، ھتد کە ڕێگری لێ دەکات"),
           Row(
             children: [
               const Expanded(
@@ -1876,7 +1876,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The injured driver had to be cut from the wreckage."),
                     ExampleSentenceKurdish(
                         text:
-                            "شۆفێرە بریندارەکە دەبوو لە لەت‌وکوتەکە دەربهێندرێت."),
+                            "شۆفێرە بریندارەکە دەبوو لە لەت‌وکوتەکە دەربھێندرێت."),
                   ],
                 ),
               ),
@@ -2041,7 +2041,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٤. (کردار) بە تەواوی کۆتاییهێنان بە پەیوەندی یان گفتوگۆ لەگەڵ کەسێک"),
+                  "١٤. (کردار) بە تەواوی کۆتاییھێنان بە پەیوەندی یان گفتوگۆ لەگەڵ کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -2051,7 +2051,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She has cut all ties with her family."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو پەیوەندییەکانی لەگەڵ خێزانەکەی کۆتایی پێهێناوە."),
+                            "ھەموو پەیوەندییەکانی لەگەڵ خێزانەکەی کۆتایی پێھێناوە."),
                   ],
                 ),
               ),
@@ -2135,7 +2135,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "The director shouted ‘Cut!’"),
                     ExampleSentenceKurdish(
-                        text: "دەرهێنەرەکە هاواری کرد 'بوەستن!'"),
+                        text: "دەرھێنەرەکە ھاواری کرد 'بوەستن!'"),
                   ],
                 ),
               ),
@@ -2190,7 +2190,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "He's always cutting class."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە لە وانەکان دووردەکەوێتەوە."),
+                        text: "ھەمیشە لە وانەکان دووردەکەوێتەوە."),
                   ],
                 ),
               ),
@@ -2299,7 +2299,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Clean the cut and cover it to prevent infection."),
                     ExampleSentenceKurdish(
                         text:
-                            "برینەکە پاک بکەوە بۆ ئەوەی لە هەوکردن بیپارێزی."),
+                            "برینەکە پاک بکەوە بۆ ئەوەی لە ھەوکردن بیپارێزی."),
                   ],
                 ),
               ),
@@ -2328,7 +2328,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "He has a small cut on his finger."),
                             ExampleSentenceKurdish(
-                                text: "برینێکی بچووک لەسەر پەنجەی هەیە."),
+                                text: "برینێکی بچووک لەسەر پەنجەی ھەیە."),
                           ],
                         ),
                       ),
@@ -2356,7 +2356,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "One man was attacked and suffered cuts to his face."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "پیاوێک هێرشی کرایە سەر و برینێکی بەرکەوت لەسەر ڕووخساری."),
+                                    "پیاوێک ھێرشی کرایە سەر و برینێکی بەرکەوت لەسەر ڕووخساری."),
                           ],
                         ),
                       ),
@@ -2411,7 +2411,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She suffered only minor cuts and grazes as a result of the accident."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "تەنها تووشی برینی بچووک و داڕووشان بوویەوە لە ئەنجامی ڕووداوەکە."),
+                                    "تەنھا تووشی برینی بچووک و داڕووشان بوویەوە لە ئەنجامی ڕووداوەکە."),
                           ],
                         ),
                       ),
@@ -2526,7 +2526,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The cuts will come into effect next May."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمکردنەوەکان ئایاری داهاتوو دەچنە قۆناغی جێبەجێکردنەوە."),
+                            "کەمکردنەوەکان ئایاری داھاتوو دەچنە قۆناغی جێبەجێکردنەوە."),
                   ],
                 ),
               ),
@@ -2572,7 +2572,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢٥. (ناو) دیزاین و شێوازی جلێک بەهۆی شێوەی بڕینی"),
+              text: "٢٥. (ناو) دیزاین و شێوازی جلێک بەھۆی شێوەی بڕینی"),
           Row(
             children: [
               const Expanded(
@@ -2583,7 +2583,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Despite its simplicity, the dress stood out due to its elegant cut."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەڕای سادەییەکەی، جلەکە بەرچاو کەوت بەهۆی دیزاینە شۆخەکەی."),
+                            "سەرەڕای سادەییەکەی، جلەکە بەرچاو کەوت بەھۆی دیزاینە شۆخەکەی."),
                   ],
                 ),
               ),
@@ -2683,7 +2683,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢٧. (ناو) بڕینی فیلمێک، شانۆیەک، پارچە نووسینێک، هتد"),
+              text: "٢٧. (ناو) بڕینی فیلمێک، شانۆیەک، پارچە نووسینێک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -2694,7 +2694,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The director objected to the cuts ordered by the censor."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەرهێنەرەک وەستایەوە دژ بەو بڕینانەی کە لەلایەن چاودێرەکەوە بڕیاری لێدرا."),
+                            "دەرھێنەرەک وەستایەوە دژ بەو بڕینانەی کە لەلایەن چاودێرەکەوە بڕیاری لێدرا."),
                   ],
                 ),
               ),
@@ -2752,7 +2752,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We're working on the first cut of next year's budget."),
                     ExampleSentenceKurdish(
                         text:
-                            "کار لەسەر یەکەم وەشانی بودجەی ساڵی داهاتوو دەکەین."),
+                            "کار لەسەر یەکەم وەشانی بودجەی ساڵی داھاتوو دەکەین."),
                   ],
                 ),
               ),

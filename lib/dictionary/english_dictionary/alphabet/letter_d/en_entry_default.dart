@@ -335,10 +335,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: (دادگا، پێشبڕکێ و هتد) نەچوونەوە، نەبوون، ئامادەنەبوون،	(قەرز) نەدانەوە، پێ‌نەدانەوە،	کەمتەرخەمی، جێبەجێ‌نەکردن، درێخی،	نەبوون،	(کۆمپیوتەر) پێش‌هەڵبژاردە، دیفۆڵت
+// کوردی: (دادگا، پێشبڕکێ و ھتد) نەچوونەوە، نەبوون، ئامادەنەبوون،	(قەرز) نەدانەوە، پێ‌نەدانەوە،	کەمتەرخەمی، جێبەجێ‌نەکردن، درێخی،	نەبوون،	(کۆمپیوتەر) پێش‌ھەڵبژاردە، دیفۆڵت
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) ئەوەی کە ڕوودەدات ئەگەر هیچ گۆڕانکارییەک نەکەیت"),
+              text: "١. (ناو) ئەوەی کە ڕوودەدات ئەگەر ھیچ گۆڕانکارییەک نەکەیت"),
           Row(
             children: [
               const Expanded(
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The default option is to save your work every five minutes."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵبژاردەی دیفۆڵت ئەوەیە کە کارەکەت هەر پێنج خولەکێک پاشەکەوت بکەیت."),
+                            "ھەڵبژاردەی دیفۆڵت ئەوەیە کە کارەکەت ھەر پێنج خولەکێک پاشەکەوت بکەیت."),
                   ],
                 ),
               ),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) شکستهێنان لە کردنی شتێک کە دەبێت بەپێی یاسا بکرێت، بەتایبەتی دانەوەی قەرز"),
+                  "٢. (ناو) شکستھێنان لە کردنی شتێک کە دەبێت بەپێی یاسا بکرێت، بەتایبەتی دانەوەی قەرز"),
           Row(
             children: [
               const Expanded(
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) شکستهێنان لە کردنی شتێک کە بەپێی یاسا دەبێت بیکەیت، بەتایبەتی لە دانەوەی قەرزدا"),
+                  "٣. (کردار) شکستھێنان لە کردنی شتێک کە بەپێی یاسا دەبێت بیکەیت، بەتایبەتی لە دانەوەی قەرزدا"),
           Row(
             children: [
               const Expanded(
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) ڕوودان بەبێ ئەوەی هیچ هەڵبژاردەیەک یان گۆڕانکارییەک ناکەیت"),
+                  "٤. (کردار) ڕوودان بەبێ ئەوەی ھیچ ھەڵبژاردەیەک یان گۆڕانکارییەک ناکەیت"),
           Row(
             children: [
               const Expanded(
@@ -489,7 +489,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The program defaults to the standard style each time you open it."),
                     ExampleSentenceKurdish(
                         text:
-                            "پڕۆگرامەکە دەگەڕێتەوە سەر ستایڵی ستاندارد هەرکاتێک دەیکەیتەوە."),
+                            "پڕۆگرامەکە دەگەڕێتەوە سەر ستایڵی ستاندارد ھەرکاتێک دەیکەیتەوە."),
                   ],
                 ),
               ),

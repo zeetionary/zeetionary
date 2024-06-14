@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) بردنەوە دژ بە کەسێک لە جەنگ، ڕکابەری، یاری وەرزشی، هتد"),
+                  "١. (کردار) بردنەوە دژ بە کەسێک لە جەنگ، ڕکابەری، یاری وەرزشی، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The goal is to defeat the enemy by whatever means possible."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئامانجەکە تێکشکاندنی دوژمنە بە هەر ڕێگایەک پێویست بکات."),
+                            "ئامانجەکە تێکشکاندنی دوژمنە بە ھەر ڕێگایەک پێویست بکات."),
                   ],
                 ),
               ),
@@ -547,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Writing down your password so you remember it defeats the purpose of having a password."),
                     ExampleSentenceKurdish(
                         text:
-                            "نووسینی تێپەڕەوشەیەک بۆ ئەوەی بەبیرت بێتەوە مەبەستی هەبوونی تێپەڕەوشە ناهێڵێت."),
+                            "نووسینی تێپەڕەوشەیەک بۆ ئەوەی بەبیرت بێتەوە مەبەستی ھەبوونی تێپەڕەوشە ناھێڵێت."),
                   ],
                 ),
               ),
@@ -573,7 +573,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "Question 6 defeated us."),
                     ExampleSentenceKurdish(
-                        text: "پرسیاری شەش شکستی پێ هێناین."),
+                        text: "پرسیاری شەش شکستی پێ ھێناین."),
                   ],
                 ),
               ),
@@ -592,7 +592,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) شکستهێنان لە بردنەوە یان سەرکەوتن"),
+              text: "٤. (ناو) شکستھێنان لە بردنەوە یان سەرکەوتن"),
           Row(
             children: [
               const Expanded(
@@ -602,7 +602,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The party faces defeat in the election."),
                     ExampleSentenceKurdish(
                         text:
-                            "پارتەکە لە هەڵبژاردنەکەدا ڕووبەڕووی شکست دەبێتەوە."),
+                            "پارتەکە لە ھەڵبژاردنەکەدا ڕووبەڕووی شکست دەبێتەوە."),
                   ],
                 ),
               ),
@@ -630,7 +630,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The world champion has only had two defeats in 20 fights."),
                     ExampleSentenceKurdish(
                         text:
-                            "پاڵەوانە نێودەوڵەتییەکە تەنها دوو شکستی هەبووە لە ٢٠ ڕووبەڕووبوونەوەدا."),
+                            "پاڵەوانە نێودەوڵەتییەکە تەنھا دوو شکستی ھەبووە لە ٢٠ ڕووبەڕووبوونەوەدا."),
                   ],
                 ),
               ),
@@ -686,7 +686,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The army inflicted a heavy defeat on rebel forces."),
                     ExampleSentenceKurdish(
                         text:
-                            "سوپا شکستێکی گەورەی هێنا بەسەر هێزە یاخیبووەکاندا."),
+                            "سوپا شکستێکی گەورەی ھێنا بەسەر ھێزە یاخیبووەکاندا."),
                   ],
                 ),
               ),

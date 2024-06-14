@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) داتای ڕێکخراو لەسەر کۆمپیوتەرێک کە دەکرێت سەیر بکرێت و بە شێوازی جیاواز بەکاربهێندرێت"),
+                  "١. (ناو) داتای ڕێکخراو لەسەر کۆمپیوتەرێک کە دەکرێت سەیر بکرێت و بە شێوازی جیاواز بەکاربھێندرێت"),
           Row(
             children: [
               const Expanded(

@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) کۆتایی هاتن بە ئەنجامێکی دیاریکراو یان لە خاڵێکی دیاریکراودا"),
+                  "١. (کردار) کۆتایی ھاتن بە ئەنجامێکی دیاریکراو یان لە خاڵێکی دیاریکراودا"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Months of hard work culminated in success."),
                     ExampleSentenceKurdish(
                         text:
-                            "چەندین مانگ لە کاری سەخت بە سەرکەوتن کۆتایی هات."),
+                            "چەندین مانگ لە کاری سەخت بە سەرکەوتن کۆتایی ھات."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Their summer tour will culminate at a spectacular concert in London."),
                     ExampleSentenceKurdish(
                         text:
-                            "گەشتی هاوینەیان بە کۆنسێرتێکی ناوازە لە لەندەن کۆتایی دێت."),
+                            "گەشتی ھاوینەیان بە کۆنسێرتێکی ناوازە لە لەندەن کۆتایی دێت."),
                   ],
                 ),
               ),

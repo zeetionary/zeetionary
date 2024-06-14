@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەسێک کە کاری کڕین و فرۆشتنی بەرهەمێکی دیارکراوە"),
+                  "١. (ناو) کەسێک کە کاری کڕین و فرۆشتنی بەرھەمێکی دیارکراوە"),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Always buy from a reputable dealer."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە لە فرۆشیارێکی بەمتمانە شت بکڕە."),
+                        text: "ھەمیشە لە فرۆشیارێکی بەمتمانە شت بکڕە."),
                   ],
                 ),
               ),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) کەسێک کە مادەی هۆشبەر دەفرۆشێت"),
+              text: "٢. (ناو) کەسێک کە مادەی ھۆشبەر دەفرۆشێت"),
           Row(
             children: [
               const Expanded(
@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His dealer persuaded him to try heroin."),
                     ExampleSentenceKurdish(
-                        text: "قاچاخچییەکەی ڕازیکرد کە هیرۆین یاقی بکاتەوە."),
+                        text: "قاچاخچییەکەی ڕازیکرد کە ھیرۆین یاقی بکاتەوە."),
                   ],
                 ),
               ),

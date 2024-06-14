@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هیوابڕ، دڵساردکەرەوە، ناهومێدکەر، دڵ‌ناخۆش‌کەر، مایەی دڵ‌شکستی،	ناخۆش، شپرزە، نالەبار 
+کوردی: ھیوابڕ، دڵساردکەرەوە، ناھومێدکەر، دڵ‌ناخۆش‌کەر، مایەی دڵ‌شکستی،	ناخۆش، شپرزە، نالەبار 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە جێگەی نائومێدییە"),
           Row(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The team has had a disappointing start to the season."),
                     ExampleSentenceKurdish(
                         text:
-                            "تیمەکە سەرەتایەکی نائومێدکەریان هەبووە لە وەرزەکەدا."),
+                            "تیمەکە سەرەتایەکی نائومێدکەریان ھەبووە لە وەرزەکەدا."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The choices made on election day will always be disappointing to a significant number of voters."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو بڕیارانەی لە ڕۆژی هەڵبژاردن ئەدرێن زۆرجار نائومێدکەر دەبن بۆ زۆر کەس."),
+                            "ئەو بڕیارانەی لە ڕۆژی ھەڵبژاردن ئەدرێن زۆرجار نائومێدکەر دەبن بۆ زۆر کەس."),
                   ],
                 ),
               ),

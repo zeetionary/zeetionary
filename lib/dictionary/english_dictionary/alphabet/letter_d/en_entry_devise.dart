@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A new system has been devised to control traffic in the city."),
                     ExampleSentenceKurdish(
                         text:
-                            "سیستەمێکی تازە داڕێژراوە بۆ کۆنترۆڵکردنی هاتووچۆ لە شارەکەدا."),
+                            "سیستەمێکی تازە داڕێژراوە بۆ کۆنترۆڵکردنی ھاتووچۆ لە شارەکەدا."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Scientists have devised a method of recycling the contaminated oil."),
                     ExampleSentenceKurdish(
                         text:
-                            "زاناکان ڕێگایەکیان داڕشتووە بۆ دووبارە بەکارهێنانەوەی نەوتە پیسبووەکە."),
+                            "زاناکان ڕێگایەکیان داڕشتووە بۆ دووبارە بەکارھێنانەوەی نەوتە پیسبووەکە."),
                   ],
                 ),
               ),

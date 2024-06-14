@@ -234,7 +234,7 @@ class EnglishEntrycopulation extends StatelessWidget {
                                             "All the while, the petty business of life continues - eating, drinking, copulation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو کات، کاری بێهوودەی ژیان بەردەوام دەبێت لە خواردن و خواردنەوە و جووتبووندا."),
+                                            "ھەموو کات، کاری بێھوودەی ژیان بەردەوام دەبێت لە خواردن و خواردنەوە و جووتبووندا."),
                                   ],
                                 ),
                               ),

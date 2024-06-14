@@ -329,7 +329,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هێرە، سەرلێو(ار)، سەلەندە،	نەخش و گەچ‌بڕی بن‌میچ 
+کوردی: ھێرە، سەرلێو(ار)، سەلەندە،	نەخش و گەچ‌بڕی بن‌میچ 
 """),
           const DefinitionKurdish(
               text:

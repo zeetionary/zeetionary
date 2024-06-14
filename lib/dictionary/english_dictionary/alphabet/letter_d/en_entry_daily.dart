@@ -337,10 +337,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆژانە، هەرڕۆژ، هەرڕۆژە، ڕۆژبەڕۆژ، ڕۆژەڤ، هەموو ڕۆژێ دەردەچێ، هەموو ڕۆژێکی حەوتوو 
+کوردی: ڕۆژانە، ھەرڕۆژ، ھەرڕۆژە، ڕۆژبەڕۆژ، ڕۆژەڤ، ھەموو ڕۆژێ دەردەچێ، ھەموو ڕۆژێکی حەوتوو 
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) کە هەموو ڕۆژێک ڕوودەدات"),
+              text: "١. (ھاوەڵناو) کە ھەموو ڕۆژێک ڕوودەدات"),
           Row(
             children: [
               const Expanded(
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Many people still read a daily newspaper."),
                     ExampleSentenceKurdish(
-                        text: "زۆر کەس هێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە."),
+                        text: "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە."),
                   ],
                 ),
               ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "There are daily flights from Dublin to Barcelona."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "گەشتی ڕۆژانە هەیە لە دبلنەوە بۆ بارشەلۆنە."),
+                                    "گەشتی ڕۆژانە ھەیە لە دبلنەوە بۆ بارشەلۆنە."),
                           ],
                         ),
                       ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ھاوەڵکار) هەموو ڕۆژێک"),
+          const DefinitionKurdish(text: "٣. (ھاوەڵکار) ھەموو ڕۆژێک"),
           Row(
             children: [
               const Expanded(
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) ڕۆژنامەیەک کە هەموو ڕۆژێک جگە لە یەکشەممان بڵاودەکرێتەوە"),
+                  "٤. (ناو) ڕۆژنامەیەک کە ھەموو ڕۆژێک جگە لە یەکشەممان بڵاودەکرێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -576,7 +576,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The story was in all the dailies."),
                     ExampleSentenceKurdish(
-                        text: "بابەتەکە لەسەر هەموو ڕۆژنامە ڕۆژانەییەکان بوو."),
+                        text: "بابەتەکە لەسەر ھەموو ڕۆژنامە ڕۆژانەییەکان بوو."),
                   ],
                 ),
               ),

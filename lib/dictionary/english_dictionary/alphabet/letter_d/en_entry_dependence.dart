@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Our relationship was based on mutual dependence."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەیوەدیمان پشتی بە پشت‌پێ‌بەستنی هاوبەش دەبەست."),
+                            "پەیوەدیمان پشتی بە پشت‌پێ‌بەستنی ھاوبەش دەبەست."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Gradually her dependence on alcohol became obvious to everyone."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەم کەم ئاڵوودەییەکەی بە کحوول ئاشکرا بوو بۆ هەموان."),
+                            "کەم کەم ئاڵوودەییەکەی بە کحوول ئاشکرا بوو بۆ ھەموان."),
                   ],
                 ),
               ),

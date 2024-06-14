@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The headphones were useless due to their crazily tangled wires."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێدفۆنەکە بێ‌سوود بوو بەهۆی لێک‌ئاڵانی ئاڵۆزی وایەرەکانی."),
+                            "ھێدفۆنەکە بێ‌سوود بوو بەھۆی لێک‌ئاڵانی ئاڵۆزی وایەرەکانی."),
                   ],
                 ),
               ),
@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "She's crazily talented."),
-                    ExampleSentenceKurdish(text: "ئێجگار بەهرەمەندە."),
+                    ExampleSentenceKurdish(text: "ئێجگار بەھرەمەندە."),
                   ],
                 ),
               ),
@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The actors have to scream crazily."),
                     ExampleSentenceKurdish(
-                        text: "ئەکتەرەکان دەبێت شێتانە هاوار بکەن."),
+                        text: "ئەکتەرەکان دەبێت شێتانە ھاوار بکەن."),
                   ],
                 ),
               ),

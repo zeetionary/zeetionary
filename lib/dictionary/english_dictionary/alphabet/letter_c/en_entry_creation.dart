@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئافراندن، سازان، خوڵقاندن، ئافەرینشت، دروست‌کردن، سازاندن، دروست‌بوون، پێکهاتن، هێنانەدی، چێ‌کردن، پێکهێنان، ڕەخساندن،	مەخلووقات، ئافەریدەکان، دروس‌کراوەکان، جەهان، جیهان، گێتی، دنیا، بوون،	داهێنان، تازەگەری،	بەرهەم‌هێنان
+کوردی: ئافراندن، سازان، خوڵقاندن، ئافەرینشت، دروست‌کردن، سازاندن، دروست‌بوون، پێکھاتن، ھێنانەدی، چێ‌کردن، پێکھێنان، ڕەخساندن،	مەخلووقات، ئافەریدەکان، دروس‌کراوەکان، جەھان، جیھان، گێتی، دنیا، بوون،	داھێنان، تازەگەری،	بەرھەم‌ھێنان
 """),
           const DefinitionKurdish(
               text:
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The reforms led to the creation of 220 jobs."),
                     ExampleSentenceKurdish(
-                        text: "چاکسازییەکان بوون بەهۆی ڕەخساندنی ٢٢٠ کار."),
+                        text: "چاکسازییەکان بوون بەھۆی ڕەخساندنی ٢٢٠ کار."),
                   ],
                 ),
               ),
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "What an amazing creation (= a very unusual and new piece of clothing) you’re wearing!"),
                     ExampleSentenceKurdish(
-                        text: "چی درووستکراوێکی سەرسووڕهێنەرت پۆشیوە!"),
+                        text: "چی درووستکراوێکی سەرسووڕھێنەرت پۆشیوە!"),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) درووستکردنی جیهان لەلایەن خوداوە؛ جیهان و گیانلەبەرەکانی"),
+                  "٣. (ناو) درووستکردنی جیھان لەلایەن خوداوە؛ جیھان و گیانلەبەرەکانی"),
           Row(
             children: [
               const Expanded(

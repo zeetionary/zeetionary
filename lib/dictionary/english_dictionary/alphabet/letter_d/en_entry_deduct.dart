@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Ten points will be deducted for a wrong answer."),
                     ExampleSentenceKurdish(
-                        text: "دە خاڵ کەم دەکرێتەوە بۆ وەڵامێکی هەڵە."),
+                        text: "دە خاڵ کەم دەکرێتەوە بۆ وەڵامێکی ھەڵە."),
                   ],
                 ),
               ),

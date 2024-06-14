@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەم کردنەوە، کەم بوون، داشکاندن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) بچووک بوون، لاوازبوون، هتد"),
+              text: "١. (کردار) بچووک بوون، لاوازبوون، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I don't wish to diminish the importance of their contribution."),
                     ExampleSentenceKurdish(
-                        text: "نامەوێت لە گرنگی هەوڵەکانیان کەم بکەمەوە."),
+                        text: "نامەوێت لە گرنگی ھەوڵەکانیان کەم بکەمەوە."),
                   ],
                 ),
               ),

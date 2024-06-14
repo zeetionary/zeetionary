@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It has been customary for the chair to be re-elected for a second year."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوە بووە بە نەریتێک کە سەرۆک بۆ ساڵی دووەم دووبارە هەڵبژێردرێتەوە."),
+                            "ئەوە بووە بە نەریتێک کە سەرۆک بۆ ساڵی دووەم دووبارە ھەڵبژێردرێتەوە."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She worked with her customary thoroughness."),
                     ExampleSentenceKurdish(
-                        text: "بە وردیی هەمیشەییەوە کاری کرد."),
+                        text: "بە وردیی ھەمیشەییەوە کاری کرد."),
                   ],
                 ),
               ),

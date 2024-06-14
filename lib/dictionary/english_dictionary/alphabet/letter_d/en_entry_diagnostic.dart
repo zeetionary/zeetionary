@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Get a low-cost car diagnostic tool to identify the fault."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئامرازێکی هەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە."),
+                            "ئامرازێکی ھەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He has specific conditions which are diagnostic of AIDS."),
                     ExampleSentenceKurdish(
                         text:
-                            "حاڵەتی دیاریکراوی هەیە کە دەستنیشانکەری ئایدزن."),
+                            "حاڵەتی دیاریکراوی ھەیە کە دەستنیشانکەری ئایدزن."),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The model is a useful diagnostic tool to determine what has the most impact on employees' performance."),
                     ExampleSentenceKurdish(
                         text:
-                            "نموونەکە ڕێگایەکی دەستنیشانکەری بەسوودە بۆ دیاریکردنی ئەوەی چی زۆرترین کاریگەری هەیە لەسەر ئاستی کارمەند."),
+                            "نموونەکە ڕێگایەکی دەستنیشانکەری بەسوودە بۆ دیاریکردنی ئەوەی چی زۆرترین کاریگەری ھەیە لەسەر ئاستی کارمەند."),
                   ],
                 ),
               ),

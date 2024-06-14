@@ -406,10 +406,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خراپەکار، خەتابار، خەتاکار، سووچبار، گوناهبار,	(قەرز و هتد) بەدواکەوتوو، درەنگ‌کردوو، بەدواخراو، لاوی خراپەکار
+کوردی: خراپەکار، خەتابار، خەتاکار، سووچبار، گوناھبار,	(قەرز و ھتد) بەدواکەوتوو، درەنگ‌کردوو، بەدواخراو، لاوی خراپەکار
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) گەنجێکی سەرەڕۆ کە خولیای تاوانی هەیە"),
+              text: "١. (ناو) گەنجێکی سەرەڕۆ کە خولیای تاوانی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Teenage delinquents often skip school and cause trouble."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرزەکارە سەرەڕۆکان زۆرجار ناچنە قوتابخانە و کێشە درووست دەکەن."),
+                            "ھەرزەکارە سەرەڕۆکان زۆرجار ناچنە قوتابخانە و کێشە درووست دەکەن."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) کە حەزی بە ئەنجامدانی تاوان هەیە"),
+              text: "٣. (ھاوەڵناو) کە حەزی بە ئەنجامدانی تاوان ھەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They are carrying out research on the causes of delinquent behaviour among young people."),
                     ExampleSentenceKurdish(
                         text:
-                            "توێژینەوەیەک ئەنجام دەدەن لەسەر هۆکارەکانی هەڵسوکەوتی سەرەڕۆیانە لەنێوان گەنجاندا."),
+                            "توێژینەوەیەک ئەنجام دەدەن لەسەر ھۆکارەکانی ھەڵسوکەوتی سەرەڕۆیانە لەنێوان گەنجاندا."),
                   ],
                 ),
               ),

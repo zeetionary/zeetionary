@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They bought most of their groceries at the cut-price store."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرینەی سەوزە و میوەکانیان لە فرۆشگایەنی هەڕاجی کڕی."),
+                            "زۆرینەی سەوزە و میوەکانیان لە فرۆشگایەنی ھەڕاجی کڕی."),
                   ],
                 ),
               ),

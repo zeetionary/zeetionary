@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کوڕنش، بۆداهاتنەوە، خۆدانەواندن
+کوردی: کوڕنش، بۆداھاتنەوە، خۆدانەواندن
 """),
           const DefinitionKurdish(
               text:

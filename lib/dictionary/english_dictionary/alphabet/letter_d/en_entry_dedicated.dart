@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەربەست، پێبەند، خۆبەستە،	(کۆمپیوتەر) تایبەتی 
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) هەوڵدانی زۆر بۆ شتێک چونکە زۆر گرنگە بۆت"),
+              text: "١. (ھاوەڵناو) ھەوڵدانی زۆر بۆ شتێک چونکە زۆر گرنگە بۆت"),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The charity is dedicated to serving young people with special needs."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکخراوە خێرخوازییەکە تەرخانکراوە بۆ خزمەتی ئەو کەسە گەنجانەی پێداویستی تایبەتیان هەیە."),
+                            "ڕێکخراوە خێرخوازییەکە تەرخانکراوە بۆ خزمەتی ئەو کەسە گەنجانەی پێداویستی تایبەتیان ھەیە."),
                   ],
                 ),
               ),
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The movement obviously still has its dedicated followers."),
                     ExampleSentenceKurdish(
                         text:
-                            "بزووتنەوەکە بە ئاشکرایی هێشتا شوێنکەوتووی خۆبەستەی خۆی هەیە."),
+                            "بزووتنەوەکە بە ئاشکرایی ھێشتا شوێنکەوتووی خۆبەستەی خۆی ھەیە."),
                   ],
                 ),
               ),
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) کە تەنها بۆ یەک جۆرە بەکاردێت"),
+              text: "٢. (ھاوەڵناو) کە تەنھا بۆ یەک جۆرە بەکاردێت"),
           Row(
             children: [
               const Expanded(
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Software is exported through a dedicated satellite link."),
                     ExampleSentenceKurdish(
                         text:
-                            "نەرمامێر هەناردە دەکرێت لە ڕێگەی سەتەلایتێکی پێکەوەبەستی تەرخانکراو."),
+                            "نەرمامێر ھەناردە دەکرێت لە ڕێگەی سەتەلایتێکی پێکەوەبەستی تەرخانکراو."),
                   ],
                 ),
               ),

@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) جوڵان بە هێواشی و لەسەرخۆیی و وریایی، چونکە ناتەوێت کەس بتبینێت یان گوێی لێت بێت"),
+                  "١. (کردار) جوڵان بە ھێواشی و لەسەرخۆیی و وریایی، چونکە ناتەوێت کەس بتبینێت یان گوێی لێت بێت"),
           Row(
             children: [
               const Expanded(
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I crept up the stairs, trying not to wake my parents."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و هەوڵمدا دایک و باوکم هەڵنەسێنم."),
+                            "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و ھەوڵمدا دایک و باوکم ھەڵنەسێنم."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "She crept up behind me."),
-                    ExampleSentenceKurdish(text: "بەبێ خشپە لە دوامەوە هات."),
+                    ExampleSentenceKurdish(text: "بەبێ خشپە لە دوامەوە ھات."),
                   ],
                 ),
               ),
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) زۆر هێواش جوڵان یان گەشەکردن"),
+              text: "٣. (کردار) زۆر ھێواش جوڵان یان گەشەکردن"),
           Row(
             children: [
               const Expanded(
@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "A slight feeling of suspicion crept over me."),
                     ExampleSentenceKurdish(
-                        text: "کەمێک هەستی گومان بە سەرمدا زاڵ بوو."),
+                        text: "کەمێک ھەستی گومان بە سەرمدا زاڵ بوو."),
                   ],
                 ),
               ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) زۆر هاوڕێیانە و دۆست لەگەڵ کەسێکی دەسەڵاتدار کە کارت پێی هەیە"),
+                  "٤. (کردار) زۆر ھاوڕێیانە و دۆست لەگەڵ کەسێکی دەسەڵاتدار کە کارت پێی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -486,7 +486,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He's always creeping to the boss."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە بە دەوری بەڕێوبەرەکەدا خۆی بادەدات."),
+                        text: "ھەمیشە بە دەوری بەڕێوبەرەکەدا خۆی بادەدات."),
                   ],
                 ),
               ),
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "He's a nasty little creep!"),
-                    ExampleSentenceKurdish(text: "سووکێکی هیچی قێزەونە."),
+                    ExampleSentenceKurdish(text: "سووکێکی ھیچی قێزەونە."),
                   ],
                 ),
               ),
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We need to prevent this slow creep of costs."),
                     ExampleSentenceKurdish(
-                        text: "دەبێت ڕێگری لەم زیادبوونە هێواشەی تێچوو بکەین."),
+                        text: "دەبێت ڕێگری لەم زیادبوونە ھێواشەی تێچوو بکەین."),
                   ],
                 ),
               ),

@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She coxed for her college for three seasons."),
                     ExampleSentenceKurdish(
-                        text: "بۆ سێ وەرز سووکان‌داری بۆ هاوڕێکەی کرد."),
+                        text: "بۆ سێ وەرز سووکان‌داری بۆ ھاوڕێکەی کرد."),
                   ],
                 ),
               ),

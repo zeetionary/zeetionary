@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کاری لێکدراو) پشتبەستن بە کەسێک/شتێک و هەبوونی متمانە پێیان"),
+                  "١. (کاری لێکدراو) پشتبەستن بە کەسێک/شتێک و ھەبوونی متمانە پێیان"),
           Row(
             children: [
               const Expanded(
@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You can depend on his coming in on Sunday."),
                     ExampleSentenceKurdish(
-                        text: "دەتوانیت دڵنیابیت لە هاتنی بۆ یەکشەممە."),
+                        text: "دەتوانیت دڵنیابیت لە ھاتنی بۆ یەکشەممە."),
                   ],
                 ),
               ),
@@ -652,7 +652,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It would depend on the circumstances."),
                     ExampleSentenceKurdish(
-                        text: "پشت بە هەلومەرجەکە دەبەستێت."),
+                        text: "پشت بە ھەلومەرجەکە دەبەستێت."),
                   ],
                 ),
               ),

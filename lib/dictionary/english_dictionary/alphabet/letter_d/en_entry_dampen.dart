@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) کپکردنەوەی هەستێک یان کاردانەوەیەک"),
+              text: "٢. (کردار) کپکردنەوەی ھەستێک یان کاردانەوەیەک"),
           Row(
             children: [
               const Expanded(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                             "None of the setbacks could dampen his enthusiasm for the project."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ یەکێک لە بەربەستەکان نەیاندەتوانی جۆشوخرۆشی بۆ پڕۆژەکە کەم بکەنەوە."),
+                            "ھیچ یەکێک لە بەربەستەکان نەیاندەتوانی جۆشوخرۆشی بۆ پڕۆژەکە کەم بکەنەوە."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She wasn't going to let anything dampen her spirits today."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێگای نەدەدا هیچ شتێک بۆ ئەمڕۆ ڕۆحییەتی دابمرکێنێتەوە."),
+                            "ڕێگای نەدەدا ھیچ شتێک بۆ ئەمڕۆ ڕۆحییەتی دابمرکێنێتەوە."),
                   ],
                 ),
               ),

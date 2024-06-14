@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Mexico City is one of the most densely populated cities in the world (= a lot of people live close together there)."),
                     ExampleSentenceKurdish(
                         text:
-                            "شاری مەکسیکۆ سیتی یەکێکە لە هەرە زۆرترین چڕی دانیشتووانی جیهانی هەیە."),
+                            "شاری مەکسیکۆ سیتی یەکێکە لە ھەرە زۆرترین چڕی دانیشتووانی جیھانی ھەیە."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His books tend to be densely written (= contain a lot of information and ideas and are difficult to understand)."),
                     ExampleSentenceKurdish(
                         text:
-                            "کتێبەکانی مەیلی ئەوەیان هەیە بە چڕوپڕی بنووسرێن."),
+                            "کتێبەکانی مەیلی ئەوەیان ھەیە بە چڕوپڕی بنووسرێن."),
                   ],
                 ),
               ),

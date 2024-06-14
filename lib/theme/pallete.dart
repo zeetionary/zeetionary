@@ -9,7 +9,7 @@ final themeNotifierProvider =
 
 class Pallete {
   // Colors
-  static const blackColor = Color.fromARGB(255, 7, 7, 7); // primary color
+  static const blackColor = Color.fromARGB(255, 13, 13, 13); // primary color
   static const greyColor = Color.fromRGBO(26, 39, 45, 1); // secondary color
   static const drawerColor = Colors.black;
   static const whiteColor = Colors.white;

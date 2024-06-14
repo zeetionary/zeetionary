@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They would like crockery and cutlery as wedding presents."),
                     ExampleSentenceKurdish(
                         text:
-                            "حەزیان بە قاپ‌وقاچاخ و کەوچک و کاردە وەک دیاری هاوسەرگیری."),
+                            "حەزیان بە قاپ‌وقاچاخ و کەوچک و کاردە وەک دیاری ھاوسەرگیری."),
                   ],
                 ),
               ),

@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قۆختە، کۆختە، کاز، خانوچکە، خانووی هاوینەهەواری
+کوردی: قۆختە، کۆختە، کاز، خانوچکە، خانووی ھاوینەھەواری
 """),
           const DefinitionKurdish(
               text: "١. (ناو) خانوویەکی بچووک، بەتایبەتی لە دەرەوەی شار"),
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We rented a cottage for a week."),
                     ExampleSentenceKurdish(
-                        text: "کۆختەیەکمان بۆ هەفتەیەک بە کرێ گرت."),
+                        text: "کۆختەیەکمان بۆ ھەفتەیەک بە کرێ گرت."),
                   ],
                 ),
               ),

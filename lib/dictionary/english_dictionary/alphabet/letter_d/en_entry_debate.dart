@@ -646,7 +646,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The theatre's future is a subject of lively public debate."),
                     ExampleSentenceKurdish(
-                        text: "هۆڵی شانۆکە بابەتی دیبەیتی گەرمی گشتییە."),
+                        text: "ھۆڵی شانۆکە بابەتی دیبەیتی گەرمی گشتییە."),
                   ],
                 ),
               ),
@@ -674,7 +674,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There has been heated debate about whether the film should be allowed."),
                     ExampleSentenceKurdish(
                         text:
-                            "مشتومڕی گەرم هەبووە سەبارەت بەوەی ئایا ڕێگا بە فیلمەکە بدرێت."),
+                            "مشتومڕی گەرم ھەبووە سەبارەت بەوەی ئایا ڕێگا بە فیلمەکە بدرێت."),
                   ],
                 ),
               ),
@@ -700,7 +700,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The issue is still under debate."),
                     ExampleSentenceKurdish(
-                        text: "بابەتەکە هێشتا لە باسکردندایە."),
+                        text: "بابەتەکە ھێشتا لە باسکردندایە."),
                   ],
                 ),
               ),
@@ -731,7 +731,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Politicians will be debating the bill later this week."),
                     ExampleSentenceKurdish(
                         text:
-                            "سیاسییەکان کۆتایی ئەم هەفتەیە گەنگەشەی ئەمە دەکەن."),
+                            "سیاسییەکان کۆتایی ئەم ھەفتەیە گەنگەشەی ئەمە دەکەن."),
                   ],
                 ),
               ),
@@ -786,7 +786,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The question of the origin of the universe is still hotly debated (= strongly argued about) by scientists."),
                     ExampleSentenceKurdish(
                         text:
-                            "بابەتی بنەچەی گەردوون هێشتا بە گەرمی لەلایەن زانایانەوە گەنگەشە دەکرێت."),
+                            "بابەتی بنەچەی گەردوون ھێشتا بە گەرمی لەلایەن زانایانەوە گەنگەشە دەکرێت."),
                   ],
                 ),
               ),
@@ -817,7 +817,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She debated with herself for a while, and then picked up the phone."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ ماوەیەک ڕاوێژی لەگەڵ خۆی کرد و دواتر موبایلەکەی هەڵگرت."),
+                            "بۆ ماوەیەک ڕاوێژی لەگەڵ خۆی کرد و دواتر موبایلەکەی ھەڵگرت."),
                   ],
                 ),
               ),

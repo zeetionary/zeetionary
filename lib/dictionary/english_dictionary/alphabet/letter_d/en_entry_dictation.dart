@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I wrote some letters at his dictation."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک نامەم لەگەڵ قسەکردنی ئەو نووسی."),
+                        text: "ھەندێک نامەم لەگەڵ قسەکردنی ئەو نووسی."),
                   ],
                 ),
               ),

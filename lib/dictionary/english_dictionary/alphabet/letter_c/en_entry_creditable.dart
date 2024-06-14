@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەپەسن‌هاتوو، جێی‌باوەڕ، جێی‌متمانە، بەبایەخ، باوەڕپێکراو، جێی‌پەسند
+کوردی: لەپەسن‌ھاتوو، جێی‌باوەڕ، جێی‌متمانە، بەبایەخ، باوەڕپێکراو، جێی‌پەسند
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لە ئاستێکی باش کە شایەنی ستایشە"),

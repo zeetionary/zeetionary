@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناقایلی، ناڕەزایەتی، بێزاری، ناڕازێتی
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) هەستی دڵتەنگی لەبەر ئەوەی ڕازی نیت بە دۆخێک"),
+              text: "١. (ناو) ھەستی دڵتەنگی لەبەر ئەوەی ڕازی نیت بە دۆخێک"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are a wide variety of popular discontents which need discussing."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەکی زۆر جیاواز لە ناڕەزایەتی هەیە کە دەبێت باس بکرێن."),
+                            "ژمارەیەکی زۆر جیاواز لە ناڕەزایەتی ھەیە کە دەبێت باس بکرێن."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Overcrowded conditions will only fuel discontent among prisoners."),
                     ExampleSentenceKurdish(
                         text:
-                            "دۆخی قەرەباڵغی تەنها دەبێتە هۆکاری ناڕەزایەتی لە نێوان زیندانییەکاندا."),
+                            "دۆخی قەرەباڵغی تەنھا دەبێتە ھۆکاری ناڕەزایەتی لە نێوان زیندانییەکاندا."),
                   ],
                 ),
               ),

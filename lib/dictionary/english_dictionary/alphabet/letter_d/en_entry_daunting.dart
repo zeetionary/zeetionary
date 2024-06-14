@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) کە وا لە کەسێک دەکات دوودڵ بێت و کەمتر متمانەی هەبێت بە کردنی شتێک"),
+                  "١. (ھاوەڵناو) کە وا لە کەسێک دەکات دوودڵ بێت و کەمتر متمانەی ھەبێت بە کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She has the daunting task of cooking for 20 people every day."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەرکی ترسێنەری چێشتلێنانی ڕۆژانەی بۆ ٢٠ کەس هەیە."),
+                            "ئەرکی ترسێنەری چێشتلێنانی ڕۆژانەی بۆ ٢٠ کەس ھەیە."),
                   ],
                 ),
               ),

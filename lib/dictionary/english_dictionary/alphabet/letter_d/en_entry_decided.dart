@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She had a decided advantage over her opponent."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەپێشینەییەکی ئاشكرای بەسەر ڕکابەرەکەیدا هەبوو."),
+                            "لەپێشینەییەکی ئاشكرای بەسەر ڕکابەرەکەیدا ھەبوو."),
                   ],
                 ),
               ),
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He walked with a decided limp."),
                     ExampleSentenceKurdish(
-                        text: "هاتەژوورەوە بە شەلییەکی ئاشكراوە."),
+                        text: "ھاتەژوورەوە بە شەلییەکی ئاشكراوە."),
                   ],
                 ),
               ),
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) هەبوونی بۆچوونی بەهێز"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھەبوونی بۆچوونی بەھێز"),
           Row(
             children: [
               const Expanded(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was a very decided young woman, eager to do some good in the world."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژنێکی گەنجی زۆر شێلگیر بوو، بەپەرۆش بوو بۆ ئەوەی چەند کارێکی باش لە جیهاندا بکات."),
+                            "ژنێکی گەنجی زۆر شێلگیر بوو، بەپەرۆش بوو بۆ ئەوەی چەند کارێکی باش لە جیھاندا بکات."),
                   ],
                 ),
               ),

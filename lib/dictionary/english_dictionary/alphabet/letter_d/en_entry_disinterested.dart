@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) ئەوەی کە کاریگەر نییە بە هەستی کەسی، یان ئەوەی کە ڕەنگە هەندێک سوودی هەبێت بۆت"),
+                  "١. (ھاوەڵناو) ئەوەی کە کاریگەر نییە بە ھەستی کەسی، یان ئەوەی کە ڕەنگە ھەندێک سوودی ھەبێت بۆت"),
           Row(
             children: [
               const Expanded(
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I was merely a disinterested spectator in the whole affair."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە تەواوی بابەتەکە تەنها چاودێرێکی بێلایەن بووم."),
+                            "لە تەواوی بابەتەکە تەنھا چاودێرێکی بێلایەن بووم."),
                   ],
                 ),
               ),

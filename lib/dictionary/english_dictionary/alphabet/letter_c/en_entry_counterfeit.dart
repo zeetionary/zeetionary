@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قەڵب، ساختە، درۆزنە، چروک، فرت‌وفێڵاوی، زڕک،	هەڵبەستن، ساختەکاری، گزی، فرت‌وفێڵ، فروفێڵ
+کوردی: قەڵب، ساختە، درۆزنە، چروک، فرت‌وفێڵاوی، زڕک،	ھەڵبەستن، ساختەکاری، گزی، فرت‌وفێڵ، فروفێڵ
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) شتێک کە ساختەیە و کۆپی شتێکی دیکەیە"),

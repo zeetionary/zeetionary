@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: بلووری کردن، شکڵ پێدان
 // """),
           const DefinitionKurdish(
-              text: "١. (کردار) وابکەیت بیرۆکە، باوەڕ، هتد ڕوون و جێگیر بێت"),
+              text: "١. (کردار) وابکەیت بیرۆکە، باوەڕ، ھتد ڕوون و جێگیر بێت"),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The final chapter crystallizes all the main issues."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆتا بەش هەموو بابەتە سەرەکییەکان ڕوون دەکاتەوە*."),
+                            "کۆتا بەش ھەموو بابەتە سەرەکییەکان ڕوون دەکاتەوە*."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The salt crystallizes as the water evaporates."),
                     ExampleSentenceKurdish(
                         text:
-                            "خوێیەکە دەبێت بە کریستاڵ کە ئاوەکە بە هەڵم دەبێت."),
+                            "خوێیەکە دەبێت بە کریستاڵ کە ئاوەکە بە ھەڵم دەبێت."),
                   ],
                 ),
               ),

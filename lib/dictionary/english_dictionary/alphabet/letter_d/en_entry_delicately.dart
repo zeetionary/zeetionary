@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The artist spent hours on the delicately carved chair."),
                     ExampleSentenceKurdish(
                         text:
-                            "هونەرکارەکە چەندین کاتژمێری بەسەر برد بە کورسییە بەوریایی داتاشراوەکەوە."),
+                            "ھونەرکارەکە چەندین کاتژمێری بەسەر برد بە کورسییە بەوریایی داتاشراوەکەوە."),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵکار) بە هەستیاری و بەبێ ئازاردانی هەستی کەس"),
+              text: "٣. (ھاوەڵکار) بە ھەستیاری و بەبێ ئازاردانی ھەستی کەس"),
           const DividerSentences(),
           Row(
             children: [
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "This matter needs to be delicately handled."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم بابەتە دەبێت بە هەستیارییەوە مامەڵەی لەگەڵ بکرێت."),
+                            "ئەم بابەتە دەبێت بە ھەستیارییەوە مامەڵەی لەگەڵ بکرێت."),
                   ],
                 ),
               ),

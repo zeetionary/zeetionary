@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: هەڵسەنگاندن یان نرخاندنی تێچوون
+// کوردی: ھەڵسەنگاندن یان نرخاندنی تێچوون
 // """),
           const DefinitionKurdish(text: "١. (ناو) خەمڵاندنی تێچووی شتێک"),
           Row(
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You'd better do some costings."),
                     ExampleSentenceKurdish(
-                        text: "باشترە هەندێک نرخاندن بکەیت."),
+                        text: "باشترە ھەندێک نرخاندن بکەیت."),
                   ],
                 ),
               ),

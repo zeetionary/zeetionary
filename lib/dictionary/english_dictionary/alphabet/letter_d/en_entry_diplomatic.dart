@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەربە دیپڵۆماسی، دیپڵۆماتیک،	زیرەکانە، بەجێ، لێهاتووانە، ورد، سیاسەتوانانە، هەڵسەنگێنراو، لێکەوەدراو، کارزان، لێزان، شارەزا، بەتەگبیر، بەمشوور، بەسیاسەت
+کوردی: سەربە دیپڵۆماسی، دیپڵۆماتیک،	زیرەکانە، بەجێ، لێھاتووانە، ورد، سیاسەتوانانە، ھەڵسەنگێنراو، لێکەوەدراو، کارزان، لێزان، شارەزا، بەتەگبیر، بەمشوور، بەسیاسەت
 """),
           const DefinitionKurdish(
               text:
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Attempts are being made to settle the dispute by diplomatic means."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵ دەدرێت کێشەکە بە ڕێگای دیپلۆماسی چارەسەر بکرێت."),
+                            "ھەوڵ دەدرێت کێشەکە بە ڕێگای دیپلۆماسی چارەسەر بکرێت."),
                   ],
                 ),
               ),
@@ -438,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) هەبوونی توانای مامەڵە لەگەڵ خەڵکی لە دۆخی سەختدا"),
+                  "٢. (ھاوەڵناو) ھەبوونی توانای مامەڵە لەگەڵ خەڵکی لە دۆخی سەختدا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You could try being a little more diplomatic this time."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم جارە دەتوانیت هەوڵ بدەیت کەمێک سیاسییانە بیت."),
+                            "ئەم جارە دەتوانیت ھەوڵ بدەیت کەمێک سیاسییانە بیت."),
                   ],
                 ),
               ),

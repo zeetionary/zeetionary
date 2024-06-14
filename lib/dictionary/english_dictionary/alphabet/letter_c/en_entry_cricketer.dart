@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He is a talented cricketer who has represented his country in many matches."),
                     ExampleSentenceKurdish(
                         text:
-                            "یاریزانێکی لێهاتووی کریکێتە کە لە زۆر یاریدا نوێنەرایەتی وڵاتەکەی کردووە."),
+                            "یاریزانێکی لێھاتووی کریکێتە کە لە زۆر یاریدا نوێنەرایەتی وڵاتەکەی کردووە."),
                   ],
                 ),
               ),

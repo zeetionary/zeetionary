@@ -411,9 +411,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پوختە، کورتە، کورتەی قانوونی ڕۆم، لە سەردەمی، ڕێکخرا.	(کیمیا) ماک یان تێکەڵەیێ لە ئەنجامی هەرس
+کوردی: پوختە، کورتە، کورتەی قانوونی ڕۆم، لە سەردەمی، ڕێکخرا.	(کیمیا) ماک یان تێکەڵەیێ لە ئەنجامی ھەرس
 """),
-          const DefinitionKurdish(text: "١. (کردار) هەرسکردنی خۆراک"),
+          const DefinitionKurdish(text: "١. (کردار) ھەرسکردنی خۆراک"),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Humans cannot digest plants such as grass."),
                     ExampleSentenceKurdish(
-                        text: "مرۆڤ ناتوانێت ڕووەکی وەک گیا هەرس بکات."),
+                        text: "مرۆڤ ناتوانێت ڕووەکی وەک گیا ھەرس بکات."),
                   ],
                 ),
               ),
@@ -452,7 +452,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You should allow a little time after a meal for the food to digest."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت کەمێک کات بدەیت بۆ خواردن لە دوای ژەمێک بۆ ئەوەی هەرس ببێت."),
+                            "دەبێت کەمێک کات بدەیت بۆ خواردن لە دوای ژەمێک بۆ ئەوەی ھەرس ببێت."),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He has to avoid fat because his body can't digest it."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت لە چەوری بەدوور ببێت چونکە جەستەی ناتوانێت هەرسی بکات."),
+                            "دەبێت لە چەوری بەدوور ببێت چونکە جەستەی ناتوانێت ھەرسی بکات."),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some foods are digested more easily than others."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک خواردن ئاسانتر هەرس دەبن وەک ئەوانی دیکە."),
+                            "ھەندێک خواردن ئاسانتر ھەرس دەبن وەک ئەوانی دیکە."),
                   ],
                 ),
               ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) شیکردنەوە یان دەرهێنانی مادەی بەسوود لە مادەیەک بە گەرمی، ئەنزیم، یان توێنەر"),
+                  "٢. (کردار) شیکردنەوە یان دەرھێنانی مادەی بەسوود لە مادەیەک بە گەرمی، ئەنزیم، یان توێنەر"),
           // const DividerSentences(),
           Row(
             children: [
@@ -544,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The plant uses anaerobic bacteria to digest organic material and release methane gas."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووەکەکە بەکتریای هەوانەویست بەکاردێنێت بۆ شیکردنەوەی مادە ئەندامییەکان و دەردانی گازی میسان."),
+                            "ڕووەکەکە بەکتریای ھەوانەویست بەکاردێنێت بۆ شیکردنەوەی مادە ئەندامییەکان و دەردانی گازی میسان."),
                   ],
                 ),
               ),
@@ -633,7 +633,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The news was hard to digest."),
                     ExampleSentenceKurdish(
-                        text: "هەواڵەکە سەخت بوو بۆ تێگەشتن."),
+                        text: "ھەواڵەکە سەخت بوو بۆ تێگەشتن."),
                   ],
                 ),
               ),

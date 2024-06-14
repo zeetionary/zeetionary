@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The train had comfortable couchettes for passengers."),
                     ExampleSentenceKurdish(
                         text:
-                            "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران هەبوو."),
+                            "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران ھەبوو."),
                   ],
                 ),
               ),

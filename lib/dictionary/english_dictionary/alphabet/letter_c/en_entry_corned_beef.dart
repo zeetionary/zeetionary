@@ -195,7 +195,7 @@ class EnglishEntrycornedbeef extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گۆشتی مانگا کە لێنراوە و پارێزراوە بە بەکارهێنانی خوێ، و بەزۆری لە قووتوودا دەفرۆشرێت"),
+                                  "١. (ناو) گۆشتی مانگا کە لێنراوە و پارێزراوە بە بەکارھێنانی خوێ، و بەزۆری لە قووتوودا دەفرۆشرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,8 @@ class EnglishEntrycornedbeef extends StatelessWidget {
                                         text:
                                             "Corned beef sandwiches are a popular lunch option in many delis."),
                                     ExampleSentenceKurdish(
-                                        text: "لەفەی گۆشتی لە قووتووکراو هەڵبژاردەیەکی باوی خواردنی نیوەڕۆن لە زۆر فرۆشگادا."),
+                                        text:
+                                            "لەفەی گۆشتی لە قووتووکراو ھەڵبژاردەیەکی باوی خواردنی نیوەڕۆن لە زۆر فرۆشگادا."),
                                   ],
                                 ),
                               ),

@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێدی، دڵساری، دڵ‌شکستی، دڵ‌شکاوی، تێ‌شکاوی، کزی، ماتی، دڵپڕی، دڵتەنگی، خەمباری، ناڕەحەتی،	مایەی ناڕەحەتی یان ناهومێدی
+کوردی: ناھومێدی، دڵساری، دڵ‌شکستی، دڵ‌شکاوی، تێ‌شکاوی، کزی، ماتی، دڵپڕی، دڵتەنگی، خەمباری، ناڕەحەتی،	مایەی ناڕەحەتی یان ناھومێدی
 """),
           const DefinitionKurdish(text: "١. (ناو) نائومێدی"),
           Row(
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I always felt I was a disappointment to my father."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە وام هەستکرد کە نائومێدی بووم بۆ باوکم."),
+                        text: "ھەمیشە وام ھەستکرد کە نائومێدی بووم بۆ باوکم."),
                   ],
                 ),
               ),

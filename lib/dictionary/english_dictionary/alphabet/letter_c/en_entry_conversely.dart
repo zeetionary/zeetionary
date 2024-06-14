@@ -206,7 +206,7 @@ class EnglishEntryconversely extends StatelessWidget {
                                             "You can add the fluid to the powder, or, conversely, the powder to the fluid."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت شلەکە بۆ هاڕاوەکە زیاد بکەیت، یان بە پێچەوانەوە، هاڕاوەکە بۆ شلەکە زیاد بکەیت."),
+                                            "دەتوانیت شلەکە بۆ ھاڕاوەکە زیاد بکەیت، یان بە پێچەوانەوە، ھاڕاوەکە بۆ شلەکە زیاد بکەیت."),
                                   ],
                                 ),
                               ),

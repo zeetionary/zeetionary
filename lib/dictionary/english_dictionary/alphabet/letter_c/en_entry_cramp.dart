@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Tighter trade restrictions might cramp economic growth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Tighter trade restrictions might cramp economic growth."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcramps3(String languageCode) async {
@@ -332,16 +333,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: جەمام، گیرانی بازۆڵە و ماسوولکە، بەگیروێستان، کۆڵنج، گیران، دڵەکزە، ژانەسک 
 """),
-          const DefinitionKurdish(text: "١. (ناو) ئازارێکی لەناکاو کە تووشی دەبیت کاتێک ماسولکەکانی بەشێکی دیاریکراوی جەستەت گرژ دەبن، بەزۆری بەهۆی سەرما یان زۆر وەرزشکردنەوە دروست دەبێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) ئازارێکی لەناکاو کە تووشی دەبیت کاتێک ماسولکەکانی بەشێکی دیاریکراوی جەستەت گرژ دەبن، بەزۆری بەھۆی سەرما یان زۆر وەرزشکردنەوە دروست دەبێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "I was beginning to get cramp in my leg."),
-                    ExampleSentenceKurdish(text: "ژانێک لە لاقمدا درووست بووە."),
+                        text: "I was beginning to get cramp in my leg."),
+                    ExampleSentenceKurdish(
+                        text: "ژانێک لە لاقمدا درووست بووە."),
                   ],
                 ),
               ),
@@ -359,32 +362,33 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) وەستاندنی گەشە یان بەرەوپێشچوونی شتێک"),
+          const DefinitionKurdish(
+              text: "٢. (کردار) وەستاندنی گەشە یان بەرەوپێشچوونی شتێک"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Tighter trade restrictions might cramp economic growth."),
-          ExampleSentenceKurdish(
-          text: "ڕێکاری توندتر ڕەنگە گەشەی ئابووری بوەستێن."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcramps2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcramps2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Tighter trade restrictions might cramp economic growth."),
+                    ExampleSentenceKurdish(
+                        text: "ڕێکاری توندتر ڕەنگە گەشەی ئابووری بوەستێن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcramps2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcramps2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

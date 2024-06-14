@@ -417,11 +417,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەس‌لەگیان‌بەرداو، چارەنەماو، بێچارە، زۆربۆهاتوو، گیرکردوو، ناچار، داماو،	لە حەیبەتا، لە ڕووی ناچاری‌یەوە یان داماوی‌یەوە،	مەترسی‌دار، پڕمەترسی،	یەکجار خراپ، زۆر، شپرزە، سەخت، ئاستەم، توند، توندوتیژ، بەزەبروزەنگ، بێ‌بەزەیی‌یانە، توندوتیژانە،	چاولەدەس، موحتاج، حەوەجێ‌تێ‌کەوتوو،	هیوابڕاو، دڵسارد، دەس‌شواردوو، دلساردانە، لە حەیبەت،	(تێکۆشان) بێ‌ئەنجام، بێهوودە
+کوردی: دەس‌لەگیان‌بەرداو، چارەنەماو، بێچارە، زۆربۆھاتوو، گیرکردوو، ناچار، داماو،	لە حەیبەتا، لە ڕووی ناچاری‌یەوە یان داماوی‌یەوە،	مەترسی‌دار، پڕمەترسی،	یەکجار خراپ، زۆر، شپرزە، سەخت، ئاستەم، توند، توندوتیژ، بەزەبروزەنگ، بێ‌بەزەیی‌یانە، توندوتیژانە،	چاولەدەس، موحتاج، حەوەجێ‌تێ‌کەوتوو،	ھیوابڕاو، دڵسارد، دەس‌شواردوو، دلساردانە، لە حەیبەت،	(تێکۆشان) بێ‌ئەنجام، بێھوودە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) بێ‌هیوا و ئامادەیی بۆ کردنی هەر شتێک بەبێ گرنگیدان بە مەترسی"),
+                  "١. (ھاوەڵناو) بێ‌ھیوا و ئامادەیی بۆ کردنی ھەر شتێک بەبێ گرنگیدان بە مەترسی"),
           Row(
             children: [
               const Expanded(
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The prisoners grew increasingly desperate."),
                     ExampleSentenceKurdish(
-                        text: "زیندانییەکان کەم‌کەم هیوابڕاو بوون."),
+                        text: "زیندانییەکان کەم‌کەم ھیوابڕاو بوون."),
                   ],
                 ),
               ),
@@ -490,7 +490,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I heard sounds of a desperate struggle in the next room."),
                     ExampleSentenceKurdish(
                         text:
-                            "گوێم لە دەنگی هەوڵدانێکی ناچاری بوو لە ژوورەکەی دیکە."),
+                            "گوێم لە دەنگی ھەوڵدانێکی ناچاری بوو لە ژوورەکەی دیکە."),
                   ],
                 ),
               ),
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "She felt utterly desperate."),
                     ExampleSentenceKurdish(
-                        text: "تەواو هەستی بە بێهوودەیی دەکرد."),
+                        text: "تەواو ھەستی بە بێھوودەیی دەکرد."),
                   ],
                 ),
               ),
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) کارێک کە هیوای سەرکەوتنی کەمە"),
+              text: "٢. (ھاوەڵناو) کارێک کە ھیوای سەرکەوتنی کەمە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -603,7 +603,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He made a desperate bid for freedom."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵێکی بێهوودەی دا بۆ سەرکەوتن."),
+                        text: "ھەوڵێکی بێھوودەی دا بۆ سەرکەوتن."),
                   ],
                 ),
               ),
@@ -631,7 +631,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She clung to the edge in a desperate attempt to save herself."),
                     ExampleSentenceKurdish(
                         text:
-                            "خۆی بە قەراغەکەدا ڕاگرت لە هەوڵێکی بێهوودەدا بۆ ڕزگارکردنی خۆی."),
+                            "خۆی بە قەراغەکەدا ڕاگرت لە ھەوڵێکی بێھوودەدا بۆ ڕزگارکردنی خۆی."),
                   ],
                 ),
               ),
@@ -659,7 +659,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Doctors were fighting a desperate battle to save the little girl's life."),
                     ExampleSentenceKurdish(
                         text:
-                            "پزیشکان لە هەوڵێکی بێهوودەدا هەوڵیان دەدا ژیانی کچە بچووکەکە ڕزگاربکەن."),
+                            "پزیشکان لە ھەوڵێکی بێھوودەدا ھەوڵیان دەدا ژیانی کچە بچووکەکە ڕزگاربکەن."),
                   ],
                 ),
               ),
@@ -713,7 +713,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was so desperate for a job he would have done anything."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر چاولەدەست بوو بۆ کارێک کە هەموو شتێکی دەکرد."),
+                            "زۆر چاولەدەست بوو بۆ کارێک کە ھەموو شتێکی دەکرد."),
                   ],
                 ),
               ),
@@ -817,7 +817,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He had died in desperate poverty."),
-                    ExampleSentenceKurdish(text: "لە هەژارییەکی سەختدا مرد."),
+                    ExampleSentenceKurdish(text: "لە ھەژارییەکی سەختدا مرد."),
                   ],
                 ),
               ),

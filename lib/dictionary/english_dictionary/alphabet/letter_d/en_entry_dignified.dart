@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەسام، گەورە، بەشەوکەت، بەهەیبەت، مەند، قورس، خۆگرتوو، بەڕێز، بەڕێزانە
+کوردی: بەسام، گەورە، بەشەوکەت، بەھەیبەت، مەند، قورس، خۆگرتوو، بەڕێز، بەڕێزانە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لەسەرخۆ و جدی و شایەنی ڕێز"),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She tried to look as dignified as possible in the circumstances."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵیدا هەرچەندە دەکرێت بەهەیبەت دەربکەوێت لە هەلومەرجەکەدا."),
+                            "ھەوڵیدا ھەرچەندە دەکرێت بەھەیبەت دەربکەوێت لە ھەلومەرجەکەدا."),
                   ],
                 ),
               ),

@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: هەڵسوکەوت کردن، سووک کردن
+// کوردی: ھەڵسوکەوت کردن، سووک کردن
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) کردنی شتێک کە وادەکات خەڵکی کەمتر ڕێزیان بۆت هەبێت"),
+                  "١. (کردار) کردنی شتێک کە وادەکات خەڵکی کەمتر ڕێزیان بۆت ھەبێت"),
           Row(
             children: [
               const Expanded(
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "Such images demean women."),
                     ExampleSentenceKurdish(
-                        text: "وێنەی وەها سوکایەتی بە ژنان دەکات."),
+                        text: "وێنەی وەھا سوکایەتی بە ژنان دەکات."),
                   ],
                 ),
               ),
@@ -474,7 +474,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Behaviour like this demeans politics."),
                     ExampleSentenceKurdish(
-                        text: "ڕەفتاری وەها زیان بە سیاسەت دەگەیەنێت."),
+                        text: "ڕەفتاری وەھا زیان بە سیاسەت دەگەیەنێت."),
                   ],
                 ),
               ),
@@ -503,7 +503,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The entire family was demeaned by his behaviour."),
                     ExampleSentenceKurdish(
-                        text: "تەواوی خێزانەکە سووک بوون بە هەڵسوکەوتی."),
+                        text: "تەواوی خێزانەکە سووک بوون بە ھەڵسوکەوتی."),
                   ],
                 ),
               ),

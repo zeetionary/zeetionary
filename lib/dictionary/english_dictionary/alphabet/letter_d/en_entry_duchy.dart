@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -282,7 +284,7 @@ class TTSUK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakduchy("en-GB"""),
+      onPressed: () => speakduchy("en-GB" ""),
     );
   }
 }
@@ -332,7 +334,7 @@ class TTSUS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakduchy("en-US"""),
+      onPressed: () => speakduchy("en-US" ""),
     );
   }
 }
@@ -532,7 +534,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: دوک‌نشین، ناوچەی ژێردەسەڵاتی دوک یان دوشێس
 // """),
-          const DefinitionKurdish(text: """١. (ناو) ناوچەیەک کە پیاوێک یان ژنێک تێیدا دەسەڵاتی هەیە کە وەک میر یان بەگ وایە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) ناوچەیەک کە پیاوێک یان ژنێک تێیدا دەسەڵاتی ھەیە کە وەک میر یان بەگ وایە"""),
           Row(
             children: [
               const Expanded(
@@ -541,7 +545,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             """The Duchy of Cornwall was established in 1337."""),
-                    ExampleSentenceKurdish(text: """دیوک‌نشینی کۆرنوۆڵ لە ساڵی ١٣٣٧ دامەزرا."""),
+                    ExampleSentenceKurdish(
+                        text: """دیوک‌نشینی کۆرنوۆڵ لە ساڵی ١٣٣٧ دامەزرا."""),
                   ],
                 ),
               ),
@@ -549,10 +554,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakduchys1("en-GB"""),
+                    onPressed: () => speakduchys1("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakduchys1("en-US"""),
+                    onPressed: () => speakduchys1("en-US" ""),
                   ),
                 ],
               ),
@@ -1186,7 +1191,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZqSONHVilTM?t=',
+    videoId: 'ZqSONHVilTM',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1216,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/36erMl7IgRo?t=',
+    videoId: '36erMl7IgRo',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1236,7 +1241,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z3uvnwBMTdY?t=',
+    videoId: 'z3uvnwBMTdY',
     startSeconds: 9861,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1261,7 +1266,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/36FZowtrSTk?t=',
+    videoId: '36FZowtrSTk',
     startSeconds: 314,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1286,7 +1291,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gdsa1gBOTDk?t=',
+    videoId: 'gdsa1gBOTDk',
     startSeconds: 405,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1311,7 +1316,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/muK7iDXR7J4?t=',
+    videoId: 'muK7iDXR7J4',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1336,7 +1341,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KuBuJAA6MNk?t=',
+    videoId: 'KuBuJAA6MNk',
     startSeconds: 798,
     autoPlay: true,
     params: const YoutubePlayerParams(

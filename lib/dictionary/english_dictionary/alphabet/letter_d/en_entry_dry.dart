@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -720,7 +722,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وشک، تورت، کزر، کوێر (کانی)، زەها،	کەم‌باران، بێ‌ئاو، وشک،	(مانگا) بێ‌شیر، وشک‌کردوو، بێ‌دەم‌ودۆ،	(نان) بێ‌کەرە، وشک،	ڕەق، وشکەوەبوو، ڕەقەوەبوو،	(خواردنەوە) تاڵ، شیرین نییە، مزر،	تینوو، تهنی، تینوێتی‌هێنەر، تینووتی دێنێ،	ناخۆش، وشک، ماندووکەر، وەڕەزکەر،	سارد، وشک، ساردوسڕ،	ئاشکرا، دیار، بەرچاو
+کوردی: وشک، تورت، کزر، کوێر (کانی)، زەھا،	کەم‌باران، بێ‌ئاو، وشک،	(مانگا) بێ‌شیر، وشک‌کردوو، بێ‌دەم‌ودۆ،	(نان) بێ‌کەرە، وشک،	ڕەق، وشکەوەبوو، ڕەقەوەبوو،	(خواردنەوە) تاڵ، شیرین نییە، مزر،	تینوو، تھنی، تینوێتی‌ھێنەر، تینووتی دێنێ،	ناخۆش، وشک، ماندووکەر، وەڕەزکەر،	سارد، وشک، ساردوسڕ،	ئاشکرا، دیار، بەرچاو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) وشک"),
           Row(
@@ -757,7 +759,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Store onions in a cool dry place."),
                     ExampleSentenceKurdish(
-                        text: "پیاز لە شوێنێکی وشکی سارد هەڵبگرە."),
+                        text: "پیاز لە شوێنێکی وشکی سارد ھەڵبگرە."),
                   ],
                 ),
               ),
@@ -813,7 +815,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Some plants grow better in dry soil."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک ڕووەک لە خاکی وشكدا باشتر گەشە دەکەن."),
+                        text: "ھەندێک ڕووەک لە خاکی وشكدا باشتر گەشە دەکەن."),
                   ],
                 ),
               ),
@@ -872,7 +874,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "It was summer and the rivers were dry (= had no water in them)."),
                     ExampleSentenceKurdish(
-                        text: "هاوین بوو و ڕووبارەکان وشک بوون."),
+                        text: "ھاوین بوو و ڕووبارەکان وشک بوون."),
                   ],
                 ),
               ),
@@ -925,7 +927,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "Ruth felt her mouth go dry."),
                     ExampleSentenceKurdish(
-                        text: "ڕووس هەستی دەکرد دەمی وشکدەبوو."),
+                        text: "ڕووس ھەستی دەکرد دەمی وشکدەبوو."),
                   ],
                 ),
               ),
@@ -953,7 +955,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I hope it stays dry for our picnic."),
                     ExampleSentenceKurdish(
-                        text: "هیوادارم کەم‌باران بێت بۆ سەفرەکەمان."),
+                        text: "ھیوادارم کەم‌باران بێت بۆ سەفرەکەمان."),
                   ],
                 ),
               ),
@@ -983,7 +985,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is every prospect of the weather remaining dry this week."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو پێشبینییەک دەکرێت کەشووهەوا ئەم هەفتەیە بێ‌باران بمێنێتەوە."),
+                            "ھەموو پێشبینییەک دەکرێت کەشووھەوا ئەم ھەفتەیە بێ‌باران بمێنێتەوە."),
                   ],
                 ),
               ),
@@ -1067,7 +1069,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He had a dry hacking cough all night."),
                     ExampleSentenceKurdish(
-                        text: "تەواوی شەوەکە کۆکەڕەشەیەکی وشکی هەبوو."),
+                        text: "تەواوی شەوەکە کۆکەڕەشەیەکی وشکی ھەبوو."),
                   ],
                 ),
               ),
@@ -1087,7 +1089,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (ھاوەڵناو) نانێک کە بە تەنها دەخوردرێت بەبێ پەنیر، دۆشاو، هتد"),
+                  "٥. (ھاوەڵناو) نانێک کە بە تەنھا دەخوردرێت بەبێ پەنیر، دۆشاو، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1099,7 +1101,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Breakfast consisted of dry bread and a cup of tea."),
                     ExampleSentenceKurdish(
                         text:
-                            "نانی بەیانی لە نانەوشکە و پیاڵەیەک چا پێکهاتبوو."),
+                            "نانی بەیانی لە نانەوشکە و پیاڵەیەک چا پێکھاتبوو."),
                   ],
                 ),
               ),
@@ -1175,7 +1177,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٨. (ھاوەڵناو) بەبێ پیشاندانی هەست و سۆز"),
+              text: "٨. (ھاوەڵناو) بەبێ پیشاندانی ھەست و سۆز"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1382,7 +1384,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He did the laundry and hung it out to dry."),
                     ExampleSentenceKurdish(
-                        text: "جلەکانی شووشت و هەڵیواسین تاوەکو وشکببنەوە."),
+                        text: "جلەکانی شووشت و ھەڵیواسین تاوەکو وشکببنەوە."),
                   ],
                 ),
               ),
@@ -1410,7 +1412,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Be careful. The paint hasn't dried yet."),
                     ExampleSentenceKurdish(
-                        text: "وریابە. بۆیەکە هێشتا وشک نەبووەتەوە."),
+                        text: "وریابە. بۆیەکە ھێشتا وشک نەبووەتەوە."),
                   ],
                 ),
               ),
@@ -1467,7 +1469,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Use this towel to dry your hands."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم خاولییە بەکاربهێنە بۆ وشککردنەوەی دەستەکانت."),
+                            "ئەم خاولییە بەکاربھێنە بۆ وشککردنەوەی دەستەکانت."),
                   ],
                 ),
               ),
@@ -1986,7 +1988,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rOqUiXhECos?t=',
+    videoId: 'rOqUiXhECos',
     startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2011,7 +2013,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kGg44zdgHYM?t=',
+    videoId: 'kGg44zdgHYM',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2036,7 +2038,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    videoId: 'h4CyhQqAPpk',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2061,7 +2063,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    videoId: '47MNn4bsmSw',
     startSeconds: 4716,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2086,7 +2088,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dThvyim4tbU?t=',
+    videoId: 'dThvyim4tbU',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2111,7 +2113,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J4hQFL5ICxY?t=',
+    videoId: 'J4hQFL5ICxY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2136,7 +2138,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iKv4oc2zbeA?t=',
+    videoId: 'iKv4oc2zbeA',
     startSeconds: 2058,
     autoPlay: true,
     params: const YoutubePlayerParams(

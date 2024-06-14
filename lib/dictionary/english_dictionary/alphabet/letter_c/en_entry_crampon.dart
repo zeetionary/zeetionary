@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قولاپ، قەڵانگ،	سەهۆڵبڕ
+کوردی: قولاپ، قەڵانگ،	سەھۆڵبڕ
 """),
           const DefinitionKurdish(
               text:
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The mountaineer strapped on his crampons before beginning the ascent."),
                     ExampleSentenceKurdish(
                         text:
-                            "شاخەوانەکە سەهۆڵبڕەکەی بەست پێش ئەوەی سەرکەوتنەکەی دەست‌پێ بکات."),
+                            "شاخەوانەکە سەھۆڵبڕەکەی بەست پێش ئەوەی سەرکەوتنەکەی دەست‌پێ بکات."),
                   ],
                 ),
               ),

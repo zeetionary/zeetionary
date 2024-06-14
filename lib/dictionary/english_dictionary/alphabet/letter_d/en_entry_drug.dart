@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -538,11 +540,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەرمان، دەوا،	بەنگ، مادەی سڕکەر، مادەی هۆش‌بەر یان بێهۆش‌کەر،	(خوازە) فێربوون، گێرۆدەیی
+کوردی: دەرمان، دەوا،	بەنگ، مادەی سڕکەر، مادەی ھۆش‌بەر یان بێھۆش‌کەر،	(خوازە) فێربوون، گێرۆدەیی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) مادەیەکی نایاسایی بەکاریدەهێنن بۆ کاریگەرییە دەروونی و جەستەییەکانی"),
+                  "١. (ناو) مادەیەکی نایاسایی بەکاریدەھێنن بۆ کاریگەرییە دەروونی و جەستەییەکانی"),
           Row(
             children: [
               const Expanded(
@@ -551,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He does not smoke or take drugs."),
                     ExampleSentenceKurdish(
-                        text: "جگەرە و مادەی هۆشبەر ناکێشێت."),
+                        text: "جگەرە و مادەی ھۆشبەر ناکێشێت."),
                   ],
                 ),
               ),
@@ -579,7 +581,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was charged with possessing drugs."),
                     ExampleSentenceKurdish(
-                        text: "بە هەبوونی مادەی هۆشبەر تاوانبار کرا."),
+                        text: "بە ھەبوونی مادەی ھۆشبەر تاوانبار کرا."),
                   ],
                 ),
               ),
@@ -608,7 +610,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She looked like she was on drugs (= had taken drugs)."),
                     ExampleSentenceKurdish(
-                        text: "وادیاربوو کە مادەی هۆشبەری کێشابێت."),
+                        text: "وادیاربوو کە مادەی ھۆشبەری کێشابێت."),
                   ],
                 ),
               ),
@@ -696,7 +698,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Patients need to inject the drug every two weeks."),
                     ExampleSentenceKurdish(
                         text:
-                            "نەخۆشان دەبێت هەر دوو هەفتە جارێک دەرمانەکە بەکاربهێنن."),
+                            "نەخۆشان دەبێت ھەر دوو ھەفتە جارێک دەرمانەکە بەکاربھێنن."),
                   ],
                 ),
               ),
@@ -716,7 +718,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) پێدانی دەرمانێک بە کەسێک/ئاژەڵێک کە لەهۆشیان دەخات یان ئاستیان بەرز دەکات"),
+                  "٣. (کردار) پێدانی دەرمانێک بە کەسێک/ئاژەڵێک کە لەھۆشیان دەخات یان ئاستیان بەرز دەکات"),
           const DividerSentences(),
           Row(
             children: [
@@ -775,7 +777,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) زیادکردنی دەرمانێک بۆ خواردنی کەسێک کە لەهۆشی دەخات یان دەیخەوێنێت"),
+                  "٤. (کردار) زیادکردنی دەرمانێک بۆ خواردنی کەسێک کە لەھۆشی دەخات یان دەیخەوێنێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1228,7 +1230,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eWdCJm9q1bw?t=',
+    videoId: 'eWdCJm9q1bw',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1253,7 +1255,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BvBQVvuP-BY?t=',
+    videoId: 'BvBQVvuP-BY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1278,7 +1280,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xoyLYumj7tI?t=',
+    videoId: 'xoyLYumj7tI',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1303,7 +1305,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HpKFL1IP8rk?t=',
+    videoId: 'HpKFL1IP8rk',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1328,7 +1330,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HpKFL1IP8rk?t=',
+    videoId: 'HpKFL1IP8rk',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1353,7 +1355,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SJw8sJAH8eY?t=',
+    videoId: 'SJw8sJAH8eY',
     startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1378,7 +1380,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9F85WRUO06Q?t=',
+    videoId: '9F85WRUO06Q',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

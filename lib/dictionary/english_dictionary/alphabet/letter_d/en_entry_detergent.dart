@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خاوێنکەر، پاک‌کەرەوە
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) شلە یان هاڕاوە کە پیسی پاک دەکاتەوە"),
+              text: "١. (ناو) شلە یان ھاڕاوە کە پیسی پاک دەکاتەوە"),
           Row(
             children: [
               const Expanded(

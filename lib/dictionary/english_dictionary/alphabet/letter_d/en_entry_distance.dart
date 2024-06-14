@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -622,7 +624,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The wind carries pollen over considerable distances."),
                     ExampleSentenceKurdish(
-                        text: "با هەڵاڵە بەسەر مەودای بەرچاودا دەبات."),
+                        text: "با ھەڵاڵە بەسەر مەودای بەرچاودا دەبات."),
                   ],
                 ),
               ),
@@ -652,7 +654,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The beach is within walking distance of my house (= you can walk there easily)."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەنارەکە هێندەی دووری بەپێ‌چوون دوورە لە ماڵەکەمەوە."),
+                            "کەنارەکە ھێندەی دووری بەپێ‌چوون دوورە لە ماڵەکەمەوە."),
                   ],
                 ),
               ),
@@ -738,7 +740,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They don't see their family because of geographical distance."),
                     ExampleSentenceKurdish(
-                        text: "خێزانەکەیان نابینن بەهۆی دووری جوگرافییەوە."),
+                        text: "خێزانەکەیان نابینن بەھۆی دووری جوگرافییەوە."),
                   ],
                 ),
               ),
@@ -768,7 +770,7 @@ class KurdishMeaning extends StatelessWidget {
                             "No time or distance can limit this type of friendship."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ کات یان مەودایەک ئەم جۆرە هاوڕێیەتییە سنووردار ناکات."),
+                            "ھیچ کات یان مەودایەک ئەم جۆرە ھاوڕێیەتییە سنووردار ناکات."),
                   ],
                 ),
               ),
@@ -799,7 +801,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "You'll never get the ball in from that distance."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز لەو دوورییەوە تۆپەکە تێناخەیت."),
+                        text: "ھەرگیز لەو دوورییەوە تۆپەکە تێناخەیت."),
                   ],
                 ),
               ),
@@ -859,7 +861,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Visitors can only view the painting from a distance of three metres."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەردانکەران دەتوانن تابلۆکە ببینن تەنها لە دووری سێ مەترەوە."),
+                            "سەردانکەران دەتوانن تابلۆکە ببینن تەنھا لە دووری سێ مەترەوە."),
                   ],
                 ),
               ),
@@ -889,7 +891,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The distance between fashion and art remains as great as ever."),
                     ExampleSentenceKurdish(
-                        text: "مەودای نێوان فاشن و هونەر وەک هەمیشە زۆرە."),
+                        text: "مەودای نێوان فاشن و ھونەر وەک ھەمیشە زۆرە."),
                   ],
                 ),
               ),
@@ -919,7 +921,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government is keen to put some distance between itself and these events (= show that there is no connection between them)."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت مەیلی هەیە هەندێک مەودا بخاتە نێوان خۆی و ئەم ڕووداوانەوە."),
+                            "حکومەت مەیلی ھەیە ھەندێک مەودا بخاتە نێوان خۆی و ئەم ڕووداوانەوە."),
                   ],
                 ),
               ),
@@ -969,7 +971,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (ناو) دۆخێک کە تێیدا کەمی هەستی هاوڕێیەتی یان پەیوەندیی نزیک هەیە لە نێوان دوو کەس یان گرووپدا"),
+                  "٥. (ناو) دۆخێک کە تێیدا کەمی ھەستی ھاوڕێیەتی یان پەیوەندیی نزیک ھەیە لە نێوان دوو کەس یان گرووپدا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1011,7 +1013,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was a growing distance between the two sides of the family."),
                     ExampleSentenceKurdish(
                         text:
-                            "دابڕانێکی تەشەنەکردوو هەبوو لە نێوان دوو لایەنەکەی خێزانەکەدا."),
+                            "دابڕانێکی تەشەنەکردوو ھەبوو لە نێوان دوو لایەنەکەی خێزانەکەدا."),
                   ],
                 ),
               ),
@@ -1042,7 +1044,7 @@ class KurdishMeaning extends StatelessWidget {
                             "When he retired, he tried to distance himself from politics."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە خانەنشین بوو هەوڵیدا خۆی لە سیاسەت دووربخاتەوە."),
+                            "کە خانەنشین بوو ھەوڵیدا خۆی لە سیاسەت دووربخاتەوە."),
                   ],
                 ),
               ),
@@ -1072,7 +1074,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The company has tried to distance itself from the remarks made by some of its employees."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە هەوڵیداوە خۆی بێبەری بکات لەو لێدوانانەی کە لەلایەن هەندێک کارمەندییەوە دراوە."),
+                            "کۆمپانیاکە ھەوڵیداوە خۆی بێبەری بکات لەو لێدوانانەی کە لەلایەن ھەندێک کارمەندییەوە دراوە."),
                   ],
                 ),
               ),
@@ -1092,7 +1094,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٧. (کردار) دوورخستنەوەی کەسێک/شتێک لە کەسێک/شتێک یان ئەوەی پەیوەندیی نێوانیان نەهێڵیت"),
+                  "٧. (کردار) دوورخستنەوەی کەسێک/شتێک لە کەسێک/شتێک یان ئەوەی پەیوەندیی نێوانیان نەھێڵیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1104,7 +1106,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her mother wished to distance her from the rough village children."),
                     ExampleSentenceKurdish(
                         text:
-                            "دایکی هەوڵیدا دووری بخاتەوە لە منداڵە توندوتیژەکانی گوند."),
+                            "دایکی ھەوڵیدا دووری بخاتەوە لە منداڵە توندوتیژەکانی گوند."),
                   ],
                 ),
               ),
@@ -1307,7 +1309,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
+    videoId: 'Kou7ur5xt_4',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1332,7 +1334,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1357,7 +1359,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 523,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1382,7 +1384,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1353,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1407,7 +1409,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1432,7 +1434,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MPS2fwRMFgM?t=',
+    videoId: 'MPS2fwRMFgM',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1457,7 +1459,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F-Z3qNeZyTU',
+    videoId: 'F-Z3qNeZyTU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

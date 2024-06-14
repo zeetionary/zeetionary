@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نوێنەر؛ کەسێک کە هەڵبژێردراوە بۆ ئەوەی نوێنەرایەتی بۆچوونەکانی گرووپێک بکات و بڕیار لە جێگایان بدات"),
+                  "١. (ناو) نوێنەر؛ کەسێک کە ھەڵبژێردراوە بۆ ئەوەی نوێنەرایەتی بۆچوونەکانی گرووپێک بکات و بڕیار لە جێگایان بدات"),
           Row(
             children: [
               const Expanded(
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) پێدانی بەشێک لە دەسەڵات، کار، یان هێز بە کەسێک کە لە پێگەیەکی نزمتر لە خۆتە"),
+                  "٣. (کردار) پێدانی بەشێک لە دەسەڵات، کار، یان ھێز بە کەسێک کە لە پێگەیەکی نزمتر لە خۆتە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -543,7 +543,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Some managers find it difficult to delegate."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک بەڕێوەبەر بە سەختی دەبینن کە ڕاگواستن بکەن."),
+                            "ھەندێک بەڕێوەبەر بە سەختی دەبینن کە ڕاگواستن بکەن."),
                   ],
                 ),
               ),
@@ -569,7 +569,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I delegate to my assistant whenever possible."),
                     ExampleSentenceKurdish(
-                        text: "هەرکاتێک بکرێت دەسەڵات بە یاریدەدەرەکەم دەدەم."),
+                        text: "ھەرکاتێک بکرێت دەسەڵات بە یاریدەدەرەکەم دەدەم."),
                   ],
                 ),
               ),
@@ -588,7 +588,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (کردار) هەڵبژاردنی کەسێک بۆ کردنی شتێک"),
+              text: "٤. (کردار) ھەڵبژاردنی کەسێک بۆ کردنی شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -599,7 +599,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I've been delegated to organize the Christmas party."),
                     ExampleSentenceKurdish(
-                        text: "دەستنیشانکراوم بۆ ڕێکخستنی ئاهەنگەکەی کریسمس."),
+                        text: "دەستنیشانکراوم بۆ ڕێکخستنی ئاھەنگەکەی کریسمس."),
                   ],
                 ),
               ),

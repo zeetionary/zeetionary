@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Ministry refused to reveal any more details of the attack."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەزارەتەکە ڕەتیکردەوە هیچ وردەکارییەکی دیکە ئاشکرا بکات."),
+                            "وەزارەتەکە ڕەتیکردەوە ھیچ وردەکارییەکی دیکە ئاشکرا بکات."),
                   ],
                 ),
               ),
@@ -461,7 +461,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Tell me the main points now; leave the details till later."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئێستا خاڵە سەرەکییەکانم پێ بڵێ؛ وردەکارییەکان بۆ دواتر جێبهێڵە."),
+                            "ئێستا خاڵە سەرەکییەکانم پێ بڵێ؛ وردەکارییەکان بۆ دواتر جێبھێڵە."),
                   ],
                 ),
               ),
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The finer details of the plan have still to be worked out."),
                     ExampleSentenceKurdish(
                         text:
-                            "وردەکارییە بچووکەکانی پلانەکە هێشتا باسیان لێوە دەکرا."),
+                            "وردەکارییە بچووکەکانی پلانەکە ھێشتا باسیان لێوە دەکرا."),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "These are all relatively minor details."),
                     ExampleSentenceKurdish(
-                        text: "هەموویان تاڕادەیەک وردەکاری بچووکن."),
+                        text: "ھەموویان تاڕادەیەک وردەکاری بچووکن."),
                   ],
                 ),
               ),
@@ -539,7 +539,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ڕاستی یان خاسیەتەکانی شتێک کە هەموویان پێکەوە ناودێنیت"),
+                  "٢. (ناو) ڕاستی یان خاسیەتەکانی شتێک کە ھەموویان پێکەوە ناودێنیت"),
           const DividerSentences(),
           Row(
             children: [
@@ -580,7 +580,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Ensure that your diagrams contain the appropriate level of detail."),
                     ExampleSentenceKurdish(
                         text:
-                            "دڵنیابەرەوە کە هێڵکارییەکانت ئاستی گونجاوی وردەکاری لەخۆدەگرن."),
+                            "دڵنیابەرەوە کە ھێڵکارییەکانت ئاستی گونجاوی وردەکاری لەخۆدەگرن."),
                   ],
                 ),
               ),
@@ -638,7 +638,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The making of the movie is explored in minute detail."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەرهەمهێنانی فیلمەکە بە وردەکاریی وردەوە باسی لێوە دەکرێت."),
+                            "بەرھەمھێنانی فیلمەکە بە وردەکاریی وردەوە باسی لێوە دەکرێت."),
                   ],
                 ),
               ),
@@ -746,7 +746,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They didn't give any details about the game."),
                     ExampleSentenceKurdish(
-                        text: "هیچ زانیارییەکیان نەدا لەسەر یارییەکە."),
+                        text: "ھیچ زانیارییەکیان نەدا لەسەر یارییەکە."),
                   ],
                 ),
               ),
@@ -766,7 +766,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) پێدانی لیستێکی زانیاری یان هەموو زانیاریی بەردەست لەسەر شتێک"),
+                  "٤. (کردار) پێدانی لیستێکی زانیاری یان ھەموو زانیاریی بەردەست لەسەر شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -806,7 +806,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Of the factors detailed above, supply and demand are the primary forces behind interest rate levels."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەو فاکتەرانەی لە سەرەوە باسکراون، دابینکردن و خواست لە هۆکارە سەرەکییەکانی ئاستی گۆڕانی سووە."),
+                            "لەو فاکتەرانەی لە سەرەوە باسکراون، دابینکردن و خواست لە ھۆکارە سەرەکییەکانی ئاستی گۆڕانی سووە."),
                   ],
                 ),
               ),
@@ -838,7 +838,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Several of the men were detailed to form a search party."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک لە پیاوەکان فەرمانیان پێکرا کە گرووپێکی گەڕان پێکبهێنن."),
+                            "ژمارەیەک لە پیاوەکان فەرمانیان پێکرا کە گرووپێکی گەڕان پێکبھێنن."),
                   ],
                 ),
               ),

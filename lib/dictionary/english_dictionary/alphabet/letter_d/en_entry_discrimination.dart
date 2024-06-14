@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێگەیشتن، لێک‌کردنەوە، جیاکردنەوە، ناسینەوە، زانین، ناسین،	جیاوازی‌دانان، هەڵاواردن، فەرق‌خستن
+کوردی: تێگەیشتن، لێک‌کردنەوە، جیاکردنەوە، ناسینەوە، زانین، ناسین،	جیاوازی‌دانان، ھەڵاواردن، فەرق‌خستن
 """),
           const DefinitionKurdish(
               text:
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) توانای بڕیاردانی ئەوەی چی باشە، درووستە، هتد"),
+              text: "٢. (ناو) توانای بڕیاردانی ئەوەی چی باشە، درووستە، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He showed great discrimination in his choice of friends."),
                     ExampleSentenceKurdish(
-                        text: "تێگەشتنی زۆری پیشاندا لە هەڵبژاردنی هاوڕێکانی."),
+                        text: "تێگەشتنی زۆری پیشاندا لە ھەڵبژاردنی ھاوڕێکانی."),
                   ],
                 ),
               ),
@@ -607,7 +607,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Young children find it difficult to make fine discriminations."),
                     ExampleSentenceKurdish(
                         text:
-                            "منداڵانی گەنج بە سەختی دەبینن هەڵاواردنی باش بکەن."),
+                            "منداڵانی گەنج بە سەختی دەبینن ھەڵاواردنی باش بکەن."),
                   ],
                 ),
               ),
@@ -636,7 +636,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "It takes a lot of experience to make such fine discriminations."),
                     ExampleSentenceKurdish(
-                        text: "ئەزموونی دەوێت جیاکردنەوەی وەها باش بکەیت."),
+                        text: "ئەزموونی دەوێت جیاکردنەوەی وەھا باش بکەیت."),
                   ],
                 ),
               ),

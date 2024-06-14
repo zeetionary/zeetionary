@@ -333,9 +333,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەندیل، قۆڵ، باسک، باسکە، میل، کرەنک، دەسک، دەسکەلار، دەسکەتەوەر، لاقە (شێوەی لاقی هەیە)،	کەسێکی سەیر
+کوردی: ھەندیل، قۆڵ، باسک، باسکە، میل، کرەنک، دەسک، دەسکەلار، دەسکەتەوەر، لاقە (شێوەی لاقی ھەیە)،	کەسێکی سەیر
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەسێک کە بیرۆکەی نامۆی هەیە"),
+          const DefinitionKurdish(text: "١. (ناو) کەسێک کە بیرۆکەی نامۆی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Everybody—apart from a few cranks like me—will be content."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمووان، جگە لە کەسانی جاڕزی وەک من، ڕازی دەبێت."),
+                            "ھەمووان، جگە لە کەسانی جاڕزی وەک من، ڕازی دەبێت."),
                   ],
                 ),
               ),
@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The toy had a crank that, when turned, made the music play."),
                     ExampleSentenceKurdish(
                         text:
-                            "یارییە منداڵانەکە دەسکێکی هەبوو کە سووڕ دەدرا میوزیکەکەی لێدەدا."),
+                            "یارییە منداڵانەکە دەسکێکی ھەبوو کە سووڕ دەدرا میوزیکەکەی لێدەدا."),
                   ],
                 ),
               ),
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (کردار) بەکارهێنانی دەسک بۆ درووستکردنی جووڵە"),
+              text: "٤. (کردار) بەکارھێنانی دەسک بۆ درووستکردنی جووڵە"),
           Row(
             children: [
               const Expanded(
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He has a limited time to crank the reforms into action."),
                     ExampleSentenceKurdish(
                         text:
-                            "(بەکارهێنانی خوازراوی) کاتی کەمی هەبووە بۆ خستنەگەڕی چاکسازییەکان."),
+                            "(بەکارھێنانی خوازراوی) کاتی کەمی ھەبووە بۆ خستنەگەڕی چاکسازییەکان."),
                   ],
                 ),
               ),

@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "How could everything go so disastrously wrong?"),
                     ExampleSentenceKurdish(
                         text:
-                            "چۆن کرا کە هەموو شتێک ئاوا کارەساتبارانە بە هەڵە ڕووبدات؟"),
+                            "چۆن کرا کە ھەموو شتێک ئاوا کارەساتبارانە بە ھەڵە ڕووبدات؟"),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Their love affair ended disastrously."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەیوەندییە خۆشەویستییەکەیان بەخراپی کۆتایی هات."),
+                            "پەیوەندییە خۆشەویستییەکەیان بەخراپی کۆتایی ھات."),
                   ],
                 ),
               ),

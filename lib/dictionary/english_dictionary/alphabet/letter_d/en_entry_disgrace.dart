@@ -412,11 +412,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ئابڕوویی، ئابڕووچوویی، شوورەیی، ناوزڕاوی، سووکی، ڕووڕەشی، ڕووسیاباری، شوورەیی، نەنگ، عەیب، مایەی ئابڕووچوون، مایەی شوورەیی یا شەرم،	بێ‌مەیلی، ساردوسڕ، تووڕەیی، ڕق‌هەستاوی
+کوردی: بێ‌ئابڕوویی، ئابڕووچوویی، شوورەیی، ناوزڕاوی، سووکی، ڕووڕەشی، ڕووسیاباری، شوورەیی، نەنگ، عەیب، مایەی ئابڕووچوون، مایەی شوورەیی یا شەرم،	بێ‌مەیلی، ساردوسڕ، تووڕەیی، ڕق‌ھەستاوی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) لەدەستدانی ڕێز و پەسەندبوون لای کەسانی دیکە بەهۆی خراۆی ڕەفتار"),
+                  "١. (ناو) لەدەستدانی ڕێز و پەسەندبوون لای کەسانی دیکە بەھۆی خراۆی ڕەفتار"),
           Row(
             children: [
               const Expanded(
@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Her behaviour has brought disgrace on her family."),
                     ExampleSentenceKurdish(
-                        text: "هەڵسوکەوتی شەرمی هێناوە بۆ خانەوادەکەی."),
+                        text: "ھەڵسوکەوتی شەرمی ھێناوە بۆ خانەوادەکەی."),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There is no disgrace in being poor."),
                     ExampleSentenceKurdish(
-                        text: "هیچ شەرمێک نییە لە هەژاربووندا."),
+                        text: "ھیچ شەرمێک نییە لە ھەژاربووندا."),
                   ],
                 ),
               ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) شتێک کە هێندە خراپە کە کەسانی پەیوەندیدار پێوەی دەبێت هەست بە شەرم بکەن"),
+                  "٢. (ناو) شتێک کە ھێندە خراپە کە کەسانی پەیوەندیدار پێوەی دەبێت ھەست بە شەرم بکەن"),
           // const DividerSentences(),
           Row(
             children: [
@@ -600,7 +600,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "That sort of behaviour is a disgrace to the legal profession."),
                     ExampleSentenceKurdish(
-                        text: "هەڵسوکەوتی وەها شەرمە بۆ کاری یاسایی."),
+                        text: "ھەڵسوکەوتی وەھا شەرمە بۆ کاری یاسایی."),
                   ],
                 ),
               ),

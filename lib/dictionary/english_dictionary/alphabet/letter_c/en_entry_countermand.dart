@@ -330,10 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵوەشاندنەوە، بەتاڵ‌کردنەوە، پووچەڵ‌کردنەوە، شکاندن
+کوردی: ھەڵوەشاندنەوە، بەتاڵ‌کردنەوە، پووچەڵ‌کردنەوە، شکاندن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) هەڵوەشاندنەوەی بڕیارێک کە دراوە"),
+              text: "١. (کردار) ھەڵوەشاندنەوەی بڕیارێک کە دراوە"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He appeared to be countermanding orders as fast as they were given."),
                     ExampleSentenceKurdish(
                         text:
-                            "وا دەردەکەوت کە فەرمانەکان بشکێنێت هەرکە دەدران."),
+                            "وا دەردەکەوت کە فەرمانەکان بشکێنێت ھەرکە دەدران."),
                   ],
                 ),
               ),

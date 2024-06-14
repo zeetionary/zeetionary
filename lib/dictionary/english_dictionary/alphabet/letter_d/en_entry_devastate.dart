@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The news of his death will devastate her."),
                     ExampleSentenceKurdish(
-                        text: "هەواڵی مردنەکەی دەیڕووخێنێت."),
+                        text: "ھەواڵی مردنەکەی دەیڕووخێنێت."),
                   ],
                 ),
               ),

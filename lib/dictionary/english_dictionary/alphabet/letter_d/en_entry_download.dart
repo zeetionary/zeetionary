@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -349,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You can download the app for free."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You can download the app for free."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownloads2(String languageCode) async {
@@ -358,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The series is now available to download."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The series is now available to download."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownloads3(String languageCode) async {
@@ -366,7 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("If you download pictures from the internet, check the terms of use."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If you download pictures from the internet, check the terms of use."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownloads4(String languageCode) async {
@@ -374,7 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This book is available as a free download."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This book is available as a free download."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownloads5(String languageCode) async {
@@ -382,7 +387,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This song is on track to set a record for the most downloads in one day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This song is on track to set a record for the most downloads in one day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownloads6(String languageCode) async {
@@ -530,18 +536,20 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) هێنانی داتا لە کۆمپیوتەرێکی دیکەوە، زۆرجار بە ئینتەرنێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) ھێنانی داتا لە کۆمپیوتەرێکی دیکەوە، زۆرجار بە ئینتەرنێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "You can download the app for free."),
-                    ExampleSentenceKurdish(text: "دەتوانیت ئەپەکە بێ‌بەرامبەر دابگریت."),
+                        text: "You can download the app for free."),
+                    ExampleSentenceKurdish(
+                        text: "دەتوانیت ئەپەکە بێ‌بەرامبەر دابگریت."),
                   ],
                 ),
               ),
@@ -566,8 +574,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The series is now available to download."),
-                    ExampleSentenceKurdish(text: "زنجیرەکە ئێستا بەردەستە بۆ دابەزاندن."),
+                    ExampleSentenceEnglish(
+                        text: "The series is now available to download."),
+                    ExampleSentenceKurdish(
+                        text: "زنجیرەکە ئێستا بەردەستە بۆ دابەزاندن."),
                   ],
                 ),
               ),
@@ -592,8 +602,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "If you download pictures from the internet, check the terms of use."),
-                    ExampleSentenceKurdish(text: "ئەگەر وێنەت دابەزاند لە ئینتەرنێتەوە، سەیری مەرجەکانی بەکارهێنان بکە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "If you download pictures from the internet, check the terms of use."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەگەر وێنەت دابەزاند لە ئینتەرنێتەوە، سەیری مەرجەکانی بەکارھێنان بکە."),
                   ],
                 ),
               ),
@@ -611,15 +625,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) زانیاری کە لە ئینتەرنێتەوە دادەگریت"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) زانیاری کە لە ئینتەرنێتەوە دادەگریت"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "This book is available as a free download."),
-                    ExampleSentenceKurdish(text: "کتێبەکە وەک دابەزاندنی بێبەرامبەر بەردەستە."),
+                    ExampleSentenceEnglish(
+                        text: "This book is available as a free download."),
+                    ExampleSentenceKurdish(
+                        text: "کتێبەکە وەک دابەزاندنی بێبەرامبەر بەردەستە."),
                   ],
                 ),
               ),
@@ -644,8 +661,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "This song is on track to set a record for the most downloads in one day."),
-                    ExampleSentenceKurdish(text: "گۆرانییەکە لەسەر هێڵە بۆ تۆمارکردنی ڕیکۆرد بۆ زۆرترین دابەزاندن لە ڕۆژێکدا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "This song is on track to set a record for the most downloads in one day."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "گۆرانییەکە لەسەر ھێڵە بۆ تۆمارکردنی ڕیکۆرد بۆ زۆرترین دابەزاندن لە ڕۆژێکدا."),
                   ],
                 ),
               ),
@@ -1192,7 +1213,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1217,7 +1238,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 1221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1242,7 +1263,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KPnJvpfTL-s?t=',
+    videoId: 'KPnJvpfTL-s',
     startSeconds: 234,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1267,7 +1288,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1292,7 +1313,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LxdoC2sG1i4?t=',
+    videoId: 'LxdoC2sG1i4',
     startSeconds: 634,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1317,7 +1338,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g9QneAV4fVo?t=',
+    videoId: 'g9QneAV4fVo',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1342,7 +1363,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8CUUFpRYtN4?t=',
+    videoId: '8CUUFpRYtN4',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He's a principal dancer with the Royal Ballet."),
                     ExampleSentenceKurdish(
-                        text: "سەماکارێکی سەرەکییە لە بالێی شاهانە."),
+                        text: "سەماکارێکی سەرەکییە لە بالێی شاھانە."),
                   ],
                 ),
               ),

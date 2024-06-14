@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێزاری، ڕق‌لێ‌بوون، قین‌لێ‌بوون، نەفرین، ناخۆش‌ویستن،	دڵ‌پێکاهاتن، دڵ‌تێکەڵ‌هاتن، حاڵەتی ڕشانەوە یان پەرۆش‌کردن
+کوردی: بێزاری، ڕق‌لێ‌بوون، قین‌لێ‌بوون، نەفرین، ناخۆش‌ویستن،	دڵ‌پێکاھاتن، دڵ‌تێکەڵ‌ھاتن، حاڵەتی ڕشانەوە یان پەرۆش‌کردن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ڕقێکی بەهێز بۆ کەسێک/شتێک کە پێتوایە پەسەند نییە، یان بۆ شتێک کە بۆنی، شێوەی، هتد ناشرینە"),
+                  "١. (ناو) ڕقێکی بەھێز بۆ کەسێک/شتێک کە پێتوایە پەسەند نییە، یان بۆ شتێک کە بۆنی، شێوەی، ھتد ناشرینە"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I can only feel disgust for these criminals."),
                     ExampleSentenceKurdish(
-                        text: "تەنها هەست بە ڕق دەکەم بۆ ئەم تاوانکارانە."),
+                        text: "تەنھا ھەست بە ڕق دەکەم بۆ ئەم تاوانکارانە."),
                   ],
                 ),
               ),
@@ -526,7 +526,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) کە شتێکی ناخۆش و بێزراو وات لێ دەکات هەست بە شۆک بکەیت"),
+                  "٢. (کردار) کە شتێکی ناخۆش و بێزراو وات لێ دەکات ھەست بە شۆک بکەیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Doesn't all this violence on TV disgust you?"),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم هەموو توندوتیژییە لەسەر تەلەفیزیۆن بێزت ناهێنێتەوە؟"),
+                            "ئەم ھەموو توندوتیژییە لەسەر تەلەفیزیۆن بێزت ناھێنێتەوە؟"),
                   ],
                 ),
               ),

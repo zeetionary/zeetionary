@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) پارچە مادەیەکی بچووک و کە ژمارەیەکی زۆر ڕووی تەختی هەیە کە بە سرووشتی درووست دەبن کە مادەکە ڕەق دەبێت"),
+                  "١. (ناو) پارچە مادەیەکی بچووک و کە ژمارەیەکی زۆر ڕووی تەختی ھەیە کە بە سرووشتی درووست دەبن کە مادەکە ڕەق دەبێت"),
           Row(
             children: [
               const Expanded(
@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The crystal sparkled in the sunlight."),
                     ExampleSentenceKurdish(
-                        text: "کریستاڵەکە لە پێش هەتاوەکەدا دەگەشایەوە."),
+                        text: "کریستاڵەکە لە پێش ھەتاوەکەدا دەگەشایەوە."),
                   ],
                 ),
               ),
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crystal formed slowly over time in the cave."),
                     ExampleSentenceKurdish(
                         text:
-                            "کریستاڵەکە بەهێواشی بە تێپەڕبوونی لە ئەشکەوتەکەدا درووست بوو."),
+                            "کریستاڵەکە بەھێواشی بە تێپەڕبوونی لە ئەشکەوتەکەدا درووست بوو."),
                   ],
                 ),
               ),
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Every table had been set with fine china and crystal."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو مێزێک ئامادە کرابوو بە قاپ‌وقاچاخ و کریستاڵی جوان."),
+                            "ھەموو مێزێک ئامادە کرابوو بە قاپ‌وقاچاخ و کریستاڵی جوان."),
                   ],
                 ),
               ),
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) مادەیەکی نائەندامی کە هەندێک کەس باوەڕیان وایە تەندرووستی و خۆشبەختی دێنێت"),
+                  "٤. (ناو) مادەیەکی نائەندامی کە ھەندێک کەس باوەڕیان وایە تەندرووستی و خۆشبەختی دێنێت"),
           Row(
             children: [
               const Expanded(
@@ -467,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She claims that Smoky Quartz is a powerful healing crystal."),
                     ExampleSentenceKurdish(
                         text:
-                            "بانگەشەی ئەوە دەکات کە کوارتزەکە مادەیەکی بەهێزی ساڕێژکارە."),
+                            "بانگەشەی ئەوە دەکات کە کوارتزەکە مادەیەکی بەھێزی ساڕێژکارە."),
                   ],
                 ),
               ),

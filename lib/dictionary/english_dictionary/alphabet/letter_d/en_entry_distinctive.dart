@@ -129,6 +129,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -140,6 +141,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -532,11 +534,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیاواز، فەرق‌هەبوو، جودا، جیا، دیار، جیاکەرەوە، دیاری‌کەر، جیاکار،	تایبەتی، پیشان‌دەر، دەرخەر 
+کوردی: جیاواز، فەرق‌ھەبوو، جودا، جیا، دیار، جیاکەرەوە، دیاری‌کەر، جیاکار،	تایبەتی، پیشان‌دەر، دەرخەر 
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی خاسیەتێک یان تایبەتمەندییەک کە وا دەکات شتێک جیاواز بێت و بە ئاسانی ببینرێت"),
+                  "١. (ھاوەڵناو) ھەبوونی خاسیەتێک یان تایبەتمەندییەک کە وا دەکات شتێک جیاواز بێت و بە ئاسانی ببینرێت"),
           Row(
             children: [
               const Expanded(
@@ -547,7 +549,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The male bird has distinctive white markings on its head."),
                     ExampleSentenceKurdish(
                         text:
-                            "باڵندە نێرینەکە خاڵی جیاکەرەوەی سپی هەیە لەسەر سەری."),
+                            "باڵندە نێرینەکە خاڵی جیاکەرەوەی سپی ھەیە لەسەر سەری."),
                   ],
                 ),
               ),
@@ -577,7 +579,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Each district of the city has its own distinctive character."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر گەڕەکێکی شارەکە خاسیەتی جیاکەرەوەی خۆی هەیە."),
+                            "ھەر گەڕەکێکی شارەکە خاسیەتی جیاکەرەوەی خۆی ھەیە."),
                   ],
                 ),
               ),
@@ -1200,7 +1202,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/05gCLHlpzTU?t=',
+    videoId: '05gCLHlpzTU',
     startSeconds: 932,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1225,7 +1227,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gv4Af83KFrE?t=',
+    videoId: 'Gv4Af83KFrE',
     startSeconds: 1129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1250,7 +1252,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cee6883w2Nk?t=',
+    videoId: 'cee6883w2Nk',
     startSeconds: 611,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1275,7 +1277,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-r_l-cTcWsE?t=',
+    videoId: '-r_l-cTcWsE',
     startSeconds: 373,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1300,7 +1302,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KT18KJouHWg?t=',
+    videoId: 'KT18KJouHWg',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1325,7 +1327,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6DYgImG1CKo?t=',
+    videoId: '6DYgImG1CKo',
     startSeconds: 451,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1350,7 +1352,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
+    videoId: 'H1KP4ztKK0A',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(

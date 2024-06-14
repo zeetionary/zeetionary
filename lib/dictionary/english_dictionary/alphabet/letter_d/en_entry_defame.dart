@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) زیان گەیاندن بە کەسێک بە گوتنی شتی خراپ یان هەڵە لەسەری"),
+                  "١. (کردار) زیان گەیاندن بە کەسێک بە گوتنی شتی خراپ یان ھەڵە لەسەری"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The newspaper denies any intention to defame the senator’s reputation."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕۆژنامەکە نکۆڵی لە هەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات."),
+                            "ڕۆژنامەکە نکۆڵی لە ھەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات."),
                   ],
                 ),
               ),

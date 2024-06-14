@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ڕوویەکی درێژی تەخت کە لەسەری شت دەفرۆشرێت یان کاری بازرگانی لە فرۆشگایەک، بانکێک، هتد دەکرێت"),
+                  "١. (ناو) ڕوویەکی درێژی تەخت کە لەسەری شت دەفرۆشرێت یان کاری بازرگانی لە فرۆشگایەک، بانکێک، ھتد دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) زارێکی بچووک کە لە هەندێک یاری سەر تەختەدا بەکاردێت بۆ خاڵ گرتن"),
+                  "٣. (ناو) زارێکی بچووک کە لە ھەندێک یاری سەر تەختەدا بەکاردێت بۆ خاڵ گرتن"),
           Row(
             children: [
               const Expanded(
@@ -516,7 +516,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (ناو) وەڵامێک بۆ کەسێک/شتێک کە دژ بە بیرۆکە، پێگە، هتد ــیانە"),
+                  "٦. (ناو) وەڵامێک بۆ کەسێک/شتێک کە دژ بە بیرۆکە، پێگە، ھتد ــیانە"),
           Row(
             children: [
               const Expanded(
@@ -547,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٧. (کردار) وەڵامدانەوەی کەسێک بە هەوڵدان بۆ سەلماندنی ئەوەی وتوویەتی ناڕاستە"),
+                  "٧. (کردار) وەڵامدانەوەی کەسێک بە ھەوڵدان بۆ سەلماندنی ئەوەی وتوویەتی ناڕاستە"),
           Row(
             children: [
               const Expanded(
@@ -558,7 +558,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I tried to argue but he countered that the plans were not yet finished."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵمدا مناقەشە بکەم، بەڵام وەڵامی دایەوە بەوەی پلانەکان هێشتا تەواو نەبووبوون."),
+                            "ھەوڵمدا مناقەشە بکەم، بەڵام وەڵامی دایەوە بەوەی پلانەکان ھێشتا تەواو نەبووبوون."),
                   ],
                 ),
               ),

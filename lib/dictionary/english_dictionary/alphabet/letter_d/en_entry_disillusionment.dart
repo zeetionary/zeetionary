@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێدی، دڵ‌ساردی، تێ‌شکاوی، دڵ‌شکستی، باڵ‌شکاوی، بێ‌هیوایی
+کوردی: ناھومێدی، دڵ‌ساردی، تێ‌شکاوی، دڵ‌شکستی، باڵ‌شکاوی، بێ‌ھیوایی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دۆخی ئەوەی نائومێدیت بەهۆی ئەوەی ئەو کەسەی بەهای هەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەها دیارن"),
+                  "١. (ناو) دۆخی ئەوەی نائومێدیت بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There is widespread disillusionment with the present government."),
                     ExampleSentenceKurdish(
-                        text: "نائومێدی زۆر بەم حکومەتەی ئێستا هەیە."),
+                        text: "نائومێدی زۆر بەم حکومەتەی ئێستا ھەیە."),
                   ],
                 ),
               ),

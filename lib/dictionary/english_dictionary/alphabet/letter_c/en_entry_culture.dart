@@ -341,11 +341,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چاند، فەرهەنگ، کولتوور، ڕۆشنبیری، ڕووناکبیری، هونەر و ئەدەبیات پێکەوە،	ڕاهێنان، بارهێنان، پەروەردە(کردن)، بەخێوکردن، پەروەراندن
+کوردی: چاند، فەرھەنگ، کولتوور، ڕۆشنبیری، ڕووناکبیری، ھونەر و ئەدەبیات پێکەوە،	ڕاھێنان، بارھێنان، پەروەردە(کردن)، بەخێوکردن، پەروەراندن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نەریت و باوەڕ، هونەر، شێوازی ژیان و شێوازی ڕێکخستنی کۆمەڵایەتی وڵاتێک یان گرووپێکی دیاریکراو"),
+                  "١. (ناو) نەریت و باوەڕ، ھونەر، شێوازی ژیان و شێوازی ڕێکخستنی کۆمەڵایەتی وڵاتێک یان گرووپێکی دیاریکراو"),
           Row(
             children: [
               const Expanded(
@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "These ideas have always been central to Western culture."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەم بیرۆکانە هەمیشە سەرەکی بوونە لە چاندی ڕۆژئاوادا."),
+                                    "ئەم بیرۆکانە ھەمیشە سەرەکی بوونە لە چاندی ڕۆژئاوادا."),
                           ],
                         ),
                       ),
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) وڵاتێک، گرووپێک، هتد کە باوەڕ، هتد ـی خۆی هەیە"),
+              text: "٢. (ناو) وڵاتێک، گرووپێک، ھتد کە باوەڕ، ھتد ـی خۆی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In some cultures children have an important place."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە هەندێک کەلتووردا منداڵان پێگەی تایبەتیان هەیە."),
+                            "لە ھەندێک کەلتووردا منداڵان پێگەی تایبەتیان ھەیە."),
                   ],
                 ),
               ),
@@ -551,7 +551,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) هونەر، میوزیک، ئەدەب، هتد پێکەوە"),
+              text: "٣. (ناو) ھونەر، میوزیک، ئەدەب، ھتد پێکەوە"),
           Row(
             children: [
               const Expanded(
@@ -673,7 +673,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The company promotes a culture of innovation."),
                     ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە فەرهەنگی نوێگەری بڵاودەکاتەوە."),
+                        text: "کۆمپانیاکە فەرھەنگی نوێگەری بڵاودەکاتەوە."),
                   ],
                 ),
               ),

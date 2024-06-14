@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بن‌بەست، کۆسپ، بێ‌سەرەدەر، گرێ،	هەڵوەستە، گرێ، گیر، ڕاوێستان، لایێ‌بەلادانەکەوتن
+کوردی: بن‌بەست، کۆسپ، بێ‌سەرەدەر، گرێ،	ھەڵوەستە، گرێ، گیر، ڕاوێستان، لایێ‌بەلادانەکەوتن
 """),
           const DefinitionKurdish(
               text:
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The negotiations ended in (a) deadlock."),
                     ExampleSentenceKurdish(
-                        text: "دانوستانەکان بە بێ‌دەرەتان کۆتایی هات."),
+                        text: "دانوستانەکان بە بێ‌دەرەتان کۆتایی ھات."),
                   ],
                 ),
               ),

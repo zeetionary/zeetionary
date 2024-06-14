@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I hope people will be courageous enough to speak out against this injustice."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیوادارم خەڵکی هێندە بوێر بن دژی نادادییەکەی بەدەنگ بێن."),
+                            "ھیوادارم خەڵکی ھێندە بوێر بن دژی نادادییەکەی بەدەنگ بێن."),
                   ],
                 ),
               ),

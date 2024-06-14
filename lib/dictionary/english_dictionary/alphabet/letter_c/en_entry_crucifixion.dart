@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کارێکی هونەری کە لەخاچدانی پێغەمبەر عیسا پیشان دەدات"),
+                  "٢. (ناو) کارێکی ھونەری کە لەخاچدانی پێغەمبەر عیسا پیشان دەدات"),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many famous artists have created masterpieces depicting the crucifixion."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر هونەرمەندی بەناوبانگ شاکارێکیان درووستکردووە کە لەخاچدانی عیسا پیشان دەدات."),
+                            "زۆر ھونەرمەندی بەناوبانگ شاکارێکیان درووستکردووە کە لەخاچدانی عیسا پیشان دەدات."),
                   ],
                 ),
               ),

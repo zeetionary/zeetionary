@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Urban development corporations often work in partnership with local authorities."),
                     ExampleSentenceKurdish(
                         text:
-                            "دامەزراوەکانی گەشەپێدانی شار زۆرجار کار دەکەن بە هاوبەشی لەگەڵ بەرپرسە ناوخۆییەکان."),
+                            "دامەزراوەکانی گەشەپێدانی شار زۆرجار کار دەکەن بە ھاوبەشی لەگەڵ بەرپرسە ناوخۆییەکان."),
                   ],
                 ),
               ),
@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) کۆمەڵە کەسێک کە هەڵبژێردراون بۆ بەڕێوەبردنی شارێک و دابینکردنی خزمەتگوزاری"),
+                  "٣. (ناو) کۆمەڵە کەسێک کە ھەڵبژێردراون بۆ بەڕێوەبردنی شارێک و دابینکردنی خزمەتگوزاری"),
           Row(
             children: [
               const Expanded(

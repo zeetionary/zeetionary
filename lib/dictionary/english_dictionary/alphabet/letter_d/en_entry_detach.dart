@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیا کردن، هاوێر کردن، لێکردنەوە
+کوردی: جیا کردن، ھاوێر کردن، لێکردنەوە
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لێکردنەوەی شتێک لە یەکێکی گەورەتر"),
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Detach the coupon and return it as soon as possible."),
                     ExampleSentenceKurdish(
                         text:
-                            "کوپۆنەکە لێبکەوە هەرچەندە زوو دەکرێت بیگەڕێنەوە."),
+                            "کوپۆنەکە لێبکەوە ھەرچەندە زوو دەکرێت بیگەڕێنەوە."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) جێهێشتنی یان جیاکردنەوەی شتێک لە خۆت"),
+              text: "٢. (کردار) جێھێشتنی یان جیاکردنەوەی شتێک لە خۆت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She detached herself from his embrace."),
-                    ExampleSentenceKurdish(text: "خۆی لە باوەشی دەرهێنا."),
+                    ExampleSentenceKurdish(text: "خۆی لە باوەشی دەرھێنا."),
                   ],
                 ),
               ),
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I tried to detach myself from the reality of these terrible events."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵم دا خۆم دابڕێنم لە ڕاستییەتی ئەم ڕووداوە ناخۆشانە."),
+                            "ھەوڵم دا خۆم دابڕێنم لە ڕاستییەتی ئەم ڕووداوە ناخۆشانە."),
                   ],
                 ),
               ),

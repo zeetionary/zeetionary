@@ -129,6 +129,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -140,6 +141,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -359,7 +361,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There was a small dresser in the corner of the room."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was a small dresser in the corner of the room."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdressers3(String languageCode) async {
@@ -367,7 +370,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was always a very stylish dresser."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was always a very stylish dresser."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdressers4(String languageCode) async {
@@ -533,7 +537,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: برین‌پێچ، دوانۆژدار، دوانەشتەرگەر،	(شانۆگەری) یاریدەدەری جل‌وبەرگ، جل‌پۆش، جل‌لەبەرکەر،	میزی خۆجوان‌کردن،	میزی چێشت‌خانە
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەلوپەلێکی ناوماڵ کە کە لە سەرەوە ڕەفی هەیە و لە خوارەوە دۆڵابی هەیە، بەکاردێت بۆ هەڵگرتنی پیاڵە، دەوری، هتد"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەلوپەلێکی ناوماڵ کە کە لە سەرەوە ڕەفی ھەیە و لە خوارەوە دۆڵابی ھەیە، بەکاردێت بۆ ھەڵگرتنی پیاڵە، دەوری، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -542,7 +548,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "I put the kettle on and took two cups and saucers down from the dresser."),
-                    ExampleSentenceKurdish(text: "کترییەکەم خستە سەر و دوو کووپ و ژێرپیاڵەم لە میزی چێشتخانەکە دەرکرد."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کترییەکەم خستە سەر و دوو کووپ و ژێرپیاڵەم لە میزی چێشتخانەکە دەرکرد."),
                   ],
                 ),
               ),
@@ -567,8 +575,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "There was a small dresser in the corner of the room."),
-                    ExampleSentenceKurdish(text: "میزێکی بچووکتر لە سووچی ژوورەکە هەبوو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "There was a small dresser in the corner of the room."),
+                    ExampleSentenceKurdish(
+                        text: "میزێکی بچووکتر لە سووچی ژوورەکە ھەبوو."),
                   ],
                 ),
               ),
@@ -601,21 +612,25 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                 ],
                 onTap: () {
-                  Routemaster.of(context).push("/english-dresser/chest-of-drawers");
+                  Routemaster.of(context)
+                      .push("/english-dresser/chest-of-drawers");
                 },
               ),
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) کەسێک کە جل لەبەر دەکات بەو جۆرەی باسکراوە"),
+          const DefinitionKurdish(
+              text: "٣. (ناو) کەسێک کە جل لەبەر دەکات بەو جۆرەی باسکراوە"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She was always a very stylish dresser."),
-                    ExampleSentenceKurdish(text: "هەمیشە جل‌پۆشێکی زۆر بەستایل بوو."),
+                    ExampleSentenceEnglish(
+                        text: "She was always a very stylish dresser."),
+                    ExampleSentenceKurdish(
+                        text: "ھەمیشە جل‌پۆشێکی زۆر بەستایل بوو."),
                   ],
                 ),
               ),
@@ -1217,7 +1232,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1242,7 +1257,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gjySnrspD7E?t=',
+    videoId: 'gjySnrspD7E',
     startSeconds: 3165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1267,7 +1282,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KkF5e-mAObo?t=',
+    videoId: 'KkF5e-mAObo',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1292,7 +1307,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v_pjQkiXOng?t=',
+    videoId: 'v_pjQkiXOng',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1317,7 +1332,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bnnRIrxGGX8?t=',
+    videoId: 'bnnRIrxGGX8',
     startSeconds: 1554,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1342,7 +1357,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8dvfhJYnNVY?t=',
+    videoId: '8dvfhJYnNVY',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1367,7 +1382,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/srvEPJtkX7M',
+    videoId: 'srvEPJtkX7M',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

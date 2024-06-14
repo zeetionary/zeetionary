@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: دیپڵۆمات، نوێنەری ڕامیاری یان سیاسی،	مرۆی لێهاتوو یان زیرەک، مرۆی سیاسەتوان، مرۆی کارزان
+// کوردی: دیپڵۆمات، نوێنەری ڕامیاری یان سیاسی،	مرۆی لێھاتوو یان زیرەک، مرۆی سیاسەتوان، مرۆی کارزان
 // """),
           const DefinitionKurdish(
               text:
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A Western diplomat in Islamabad confirmed the news."),
                     ExampleSentenceKurdish(
                         text:
-                            "دیپلۆماتێکی ڕۆژئاوایی لە ئیسلام ئاباد هەواڵەکەی پشتڕاست کردەوە."),
+                            "دیپلۆماتێکی ڕۆژئاوایی لە ئیسلام ئاباد ھەواڵەکەی پشتڕاست کردەوە."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "People look to the two diplomats for solutions to global issues."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەڵکی چاویان لە دوو دیپلۆماتەکەەی بۆ چارەسەری کێشە جیهانییەکان."),
+                            "خەڵکی چاویان لە دوو دیپلۆماتەکەەی بۆ چارەسەری کێشە جیھانییەکان."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You’ll need to be a real diplomat to persuade them to come to some agreement."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت شارەزایەکی تەواو بیت بۆ ڕازیکردنیان کە بگەن بە هەندێک ڕێکەوتن."),
+                            "دەبێت شارەزایەکی تەواو بیت بۆ ڕازیکردنیان کە بگەن بە ھەندێک ڕێکەوتن."),
                   ],
                 ),
               ),

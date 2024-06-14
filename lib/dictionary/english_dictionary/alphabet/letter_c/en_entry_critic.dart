@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕەخنەگر، هەڵسەنگێنەر، ڕەخنەساز،	بەئیراد، عەیب‌گر، واڵاگر 
+کوردی: ڕەخنەگر، ھەڵسەنگێنەر، ڕەخنەساز،	بەئیراد، عەیب‌گر، واڵاگر 
 """),
           const DefinitionKurdish(
               text:
@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She has become one of the ruling party's most outspoken critics."),
                     ExampleSentenceKurdish(
                         text:
-                            "بووە بە یەکێک لە هەرە زووڵاڵترین ڕەخنەگرەکانی پارتی دەسەڵاتدار."),
+                            "بووە بە یەکێک لە ھەرە زووڵاڵترین ڕەخنەگرەکانی پارتی دەسەڵاتدار."),
                   ],
                 ),
               ),
@@ -463,7 +463,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Critics point out that poverty still exists."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ڕەخنەگران ئەوە پیشان دەدەن کە هەژاری هێشتا بوونی هەیە."),
+                                    "ڕەخنەگران ئەوە پیشان دەدەن کە ھەژاری ھێشتا بوونی ھەیە."),
                           ],
                         ),
                       ),

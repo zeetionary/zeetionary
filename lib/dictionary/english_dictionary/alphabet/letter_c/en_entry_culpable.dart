@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەتابار، تاوانکار، گوناهکار، تاوانبار، گوناهبار،	شایانی سەرکۆنە و بەسەرداهاتن
+کوردی: خەتابار، تاوانکار، گوناھکار، تاوانبار، گوناھبار،	شایانی سەرکۆنە و بەسەرداھاتن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) بەرپرس یان شایەنی سەرزەنشت بۆ کردنی کارێکی هەڵە"),
+                  "١. (ھاوەڵناو) بەرپرس یان شایەنی سەرزەنشت بۆ کردنی کارێکی ھەڵە"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The accident was the result of a culpable failure to consider the risks involved."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووداوەکە ئەنجامی شکستهێنانێکی بەرپرس بوو لە لەبەرچاوگرتنی ئەو مەترسییانەی هەبوو."),
+                            "ڕووداوەکە ئەنجامی شکستھێنانێکی بەرپرس بوو لە لەبەرچاوگرتنی ئەو مەترسییانەی ھەبوو."),
                   ],
                 ),
               ),

@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناخۆش، تاڵ، ناپەسند، نالەبار،	(هەوا) ناخۆش، خراپ، ناساز، ناسازگار، نالەبار،	گرژ، ڕووتاڵ، مۆن، مڕومۆچ، بەدخوو
+کوردی: ناخۆش، تاڵ، ناپەسند، نالەبار،	(ھەوا) ناخۆش، خراپ، ناساز، ناسازگار، نالەبار،	گرژ، ڕووتاڵ، مۆن، مڕومۆچ، بەدخوو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە خۆش نییە"),
           Row(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He had the disagreeable job of identifying the body."),
                     ExampleSentenceKurdish(
-                        text: "کاری ناخۆشی ناسینەوەی تەرمەکەی هەبوو."),
+                        text: "کاری ناخۆشی ناسینەوەی تەرمەکەی ھەبوو."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was one of the most disagreeable experiences she had ever had."),
                     ExampleSentenceKurdish(
                         text:
-                            "یەکێک لە ناخۆشترین ئەزموونەکان بوو کە هەیبووبوو."),
+                            "یەکێک لە ناخۆشترین ئەزموونەکان بوو کە ھەیبووبوو."),
                   ],
                 ),
               ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Are you always as disagreeable as this when you don’t get what you want?"),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە ئاوا ڕووتاڵیت کە ئەوەت نابێت کە دەتەوێت؟"),
+                            "ھەمیشە ئاوا ڕووتاڵیت کە ئەوەت نابێت کە دەتەوێت؟"),
                   ],
                 ),
               ),

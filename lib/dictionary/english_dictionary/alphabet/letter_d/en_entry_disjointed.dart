@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The novel suffers from a disjointed plot and insignificant characters."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری هەیە لەگەڵ کارەکتەری ناگرنگ."),
+                            "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری ھەیە لەگەڵ کارەکتەری ناگرنگ."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The evidence is disjointed and sometimes contradictory."),
                     ExampleSentenceKurdish(
-                        text: "بەڵگەکە شێواو و هەندێک جار بەخودناکۆکە."),
+                        text: "بەڵگەکە شێواو و ھەندێک جار بەخودناکۆکە."),
                   ],
                 ),
               ),

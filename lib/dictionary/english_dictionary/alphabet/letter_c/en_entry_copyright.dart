@@ -197,11 +197,11 @@ class EnglishEntrycopyright extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: مافی بڵاوکردنەوە، مافی وەشان، مافی لێ‌هەڵگرتنەوە، مافی چاپ و دانان
+کوردی: مافی بڵاوکردنەوە، مافی وەشان، مافی لێ‌ھەڵگرتنەوە، مافی چاپ و دانان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەبوونی مافی بڵاوکردنەوەی شتێک بە شێوەی یاسایی"),
+                                  "١. (ناو) ھەبوونی مافی بڵاوکردنەوەی شتێک بە شێوەی یاسایی"),
                           Row(
                             children: [
                               const Expanded(
@@ -382,7 +382,7 @@ class EnglishEntrycopyright extends StatelessWidget {
                                             "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر بەرهەمێک لەلایەن نووسەرێکەوە مافی بەرگرتنەوەی بۆ وەربگیرێت، پاراستنەکە تاوەکو ٧٠ ساڵ دوای مردنی بەردەوام دەبێت."),
+                                            "ئەگەر بەرھەمێک لەلایەن نووسەرێکەوە مافی بەرگرتنەوەی بۆ وەربگیرێت، پاراستنەکە تاوەکو ٧٠ ساڵ دوای مردنی بەردەوام دەبێت."),
                                   ],
                                 ),
                               ),

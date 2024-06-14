@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵبەزینەوە، باز، پەڕین، قەڵەمباز،	تیر، تەخش، تیرۆچکە،	چزوو، کالەگ، چووزە،	(خەیاتی) ساسۆن، (یاری) دارت، تیرتیرێن، تیرێن
+کوردی: ھەڵبەزینەوە، باز، پەڕین، قەڵەمباز،	تیر، تەخش، تیرۆچکە،	چزوو، کالەگ، چووزە،	(خەیاتی) ساسۆن، (یاری) دارت، تیرتیرێن، تیرێن
 """),
           const DefinitionKurdish(
               text:
@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The tribesmen used poisoned darts to hunt in the jungle."),
                     ExampleSentenceKurdish(
                         text:
-                            "پیاوانی تیرەکە دارتی ژەهراوییان بەکاردەهێنا بۆ ڕاوکردن لە جەنگەڵەکە."),
+                            "پیاوانی تیرەکە دارتی ژەھراوییان بەکاردەھێنا بۆ ڕاوکردن لە جەنگەڵەکە."),
                   ],
                 ),
               ),
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She made a dart for the door."),
-                    ExampleSentenceKurdish(text: "هەڵبەزی بەرەو دەرگاکە."),
+                    ExampleSentenceKurdish(text: "ھەڵبەزی بەرەو دەرگاکە."),
                   ],
                 ),
               ),
@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) هەستکردنێکی لەناکاو بە هەستێکی توند"),
+              text: "٤. (ناو) ھەستکردنێکی لەناکاو بە ھەستێکی توند"),
           Row(
             children: [
               const Expanded(
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Nina felt a sudden dart of panic."),
                     ExampleSentenceKurdish(
-                        text: "نینا تووشی هەستێکی لەناکاوی ترس بوو."),
+                        text: "نینا تووشی ھەستێکی لەناکاوی ترس بوو."),
                   ],
                 ),
               ),

@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (سەر)پشتی کەشتی،	تەرک، عەرز،	(پاس) نهۆم، مەرتەبە،	دەستەپەڕ، بەستە، دەست،	دێک (پارچەیێ لە دەزگایێ کە بۆ لێدانی کاسێتی موسیقا و هتد بەکاردێنرێ)،	(نافەرمی، ئەمریکا) بەستەی بەنگ
+کوردی: (سەر)پشتی کەشتی،	تەرک، عەرز،	(پاس) نھۆم، مەرتەبە،	دەستەپەڕ، بەستە، دەست،	دێک (پارچەیێ لە دەزگایێ کە بۆ لێدانی کاسێتی موسیقا و ھتد بەکاردێنرێ)،	(نافەرمی، ئەمریکا) بەستەی بەنگ
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەشی سەرەوەی کەشتی یان بەلەم"),
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                             " I was the only person on deck at that time of night."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها کەس بووم لەسەر پشتی کەشتییەکە لەو کاتەی شەودا."),
+                            "تەنھا کەس بووم لەسەر پشتی کەشتییەکە لەو کاتەی شەودا."),
                   ],
                 ),
               ),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) یەکێک لە نهۆمەکانی کەشتییەک یان بەلەمێک"),
+              text: "٢. (ناو) یەکێک لە نھۆمەکانی کەشتییەک یان بەلەمێک"),
           Row(
             children: [
               const Expanded(
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We sat on the top deck of the bus."),
                     ExampleSentenceKurdish(
-                        text: "لەسەر نهۆمی سەرەوەی پاسەکە دانیشتبووین."),
+                        text: "لەسەر نھۆمی سەرەوەی پاسەکە دانیشتبووین."),
                   ],
                 ),
               ),

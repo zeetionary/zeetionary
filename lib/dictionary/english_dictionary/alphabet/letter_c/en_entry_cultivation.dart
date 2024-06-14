@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کێڵان، چاندن، چاند، وەرزین، وەرزاندن، داچەندن، ڕواندن، ڕوواندن، ناشتن، کشت، جووت‌کردن، گایاری،	پەروەردە، ڕووناکبیری، ڕۆشنبیری،	دۆستایەتی
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کێڵان؛ ئامادەکردن و بەکارهێنانی زەوی بۆ چاندن"),
+              text: "١. (ناو) کێڵان؛ ئامادەکردن و بەکارھێنانی زەوی بۆ چاندن"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The cultivation of wheat required the most fertile lands."),
                     ExampleSentenceKurdish(
-                        text: "چاندنی دانەوێڵە پێویستی بە بەپیتترین خاک هەیە."),
+                        text: "چاندنی دانەوێڵە پێویستی بە بەپیتترین خاک ھەیە."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "For the cultivation of friends we need above all time for conversation."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ درووستکردنی هاوڕێیەتی زیاتر لە هەر شتێک پێویستیمان بە کاتە بە کاتە گفتوگۆکردن."),
+                            "بۆ درووستکردنی ھاوڕێیەتی زیاتر لە ھەر شتێک پێویستیمان بە کاتە بە کاتە گفتوگۆکردن."),
                   ],
                 ),
               ),

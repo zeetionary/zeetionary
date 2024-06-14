@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نەخۆشییەک کە تووشی مرۆڤ، ئاژەڵان، یان ڕووەک دەبێت و زۆرجار بەهۆی تووشبوونەوەیە"),
+                  "١. (ناو) نەخۆشییەک کە تووشی مرۆڤ، ئاژەڵان، یان ڕووەک دەبێت و زۆرجار بەھۆی تووشبوونەوەیە"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In 19th century England, infectious diseases were the principal cause of death."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان هۆکاری سەرەکیی مردن بوون."),
+                            "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان ھۆکاری سەرەکیی مردن بوون."),
                   ],
                 ),
               ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It is not known what causes the disease."),
                     ExampleSentenceKurdish(
-                        text: "نەزانراوە چی دەبێتە هۆکاری نەخۆشییەکە."),
+                        text: "نەزانراوە چی دەبێتە ھۆکاری نەخۆشییەکە."),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) شتێک کە هەڵەیە لە کەسێکدا، کۆمەڵگەیەکدا، هتد"),
+              text: "٢. (ناو) شتێک کە ھەڵەیە لە کەسێکدا، کۆمەڵگەیەکدا، ھتد"),
           // const DividerSentences(),
           Row(
             children: [

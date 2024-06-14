@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Prices are rising so fast that people can't afford detached houses."),
                     ExampleSentenceKurdish(
                         text:
-                            "نرخەکان هێندە خێرا بەرزدەبنەوە کە خەڵکی ناتوانن تێچووی خانووی تەنیاکەوتوو بدەن."),
+                            "نرخەکان ھێندە خێرا بەرزدەبنەوە کە خەڵکی ناتوانن تێچووی خانووی تەنیاکەوتوو بدەن."),
                   ],
                 ),
               ),
@@ -440,7 +440,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) پیشان نەدانی هەست"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) پیشان نەدانی ھەست"),
           // const DividerSentences(),
           Row(
             children: [
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She spoke in a normal, detached tone."),
                     ExampleSentenceKurdish(
-                        text: "بە تۆنێکی ئاسایی بە‌هەستانە قسەی کرد."),
+                        text: "بە تۆنێکی ئاسایی بە‌ھەستانە قسەی کرد."),
                   ],
                 ),
               ),
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She tries to remain emotionally detached from her patients."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵیدا لە ڕووی سۆزەوە دابڕاو بێت لە نەخۆشەکانی."),
+                            "ھەوڵیدا لە ڕووی سۆزەوە دابڕاو بێت لە نەخۆشەکانی."),
                   ],
                 ),
               ),

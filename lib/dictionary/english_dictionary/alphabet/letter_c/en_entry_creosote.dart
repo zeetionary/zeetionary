@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆنەخەڵووز،	ڕۆنی قەتران، جەوهەری قیر
+کوردی: ڕۆنەخەڵووز،	ڕۆنی قەتران، جەوھەری قیر
 """),
           const DefinitionKurdish(
               text:
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The strong smell of creosote filled the air around the factory."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆنی بەهێزی ڕۆنەخەڵووز هەوای دەوری کارگەکەی تەنیبوو."),
+                            "بۆنی بەھێزی ڕۆنەخەڵووز ھەوای دەوری کارگەکەی تەنیبوو."),
                   ],
                 ),
               ),

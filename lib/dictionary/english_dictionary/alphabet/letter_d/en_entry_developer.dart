@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆمپانیا یان دامەزراوەی پەرەسەندن،	(کۆمپانیا یان کەسێ کە ئەم کارە دەکا) سازوفرۆش، دروس‌کردن و فرۆشتن (خانووبەرە و هتد)،	(وێنەگری) دەرمانی شتنەوە یان ڕۆشن‌کردنەوە
+کوردی: کۆمپانیا یان دامەزراوەی پەرەسەندن،	(کۆمپانیا یان کەسێ کە ئەم کارە دەکا) سازوفرۆش، دروس‌کردن و فرۆشتن (خانووبەرە و ھتد)،	(وێنەگری) دەرمانی شتنەوە یان ڕۆشن‌کردنەوە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەسێک کە زەوی یان بینا دەکڕێت بۆ درووستکردنی خانووی تازە یان باشترکردنی هی کۆنە بۆ ئەوەی قازانجی لێ بکات"),
+                  "١. (ناو) کەسێک کە زەوی یان بینا دەکڕێت بۆ درووستکردنی خانووی تازە یان باشترکردنی ھی کۆنە بۆ ئەوەی قازانجی لێ بکات"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A local developer is planning to build a supermarket on the site."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەبەرهێنەرێکی ناوخۆیی پلانی هەیە سوپەرمارکێتێک لە شوێنەکە درووست بکات."),
+                            "وەبەرھێنەرێکی ناوخۆیی پلانی ھەیە سوپەرمارکێتێک لە شوێنەکە درووست بکات."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The flats are being built by a private developer."),
                     ExampleSentenceKurdish(
                         text:
-                            "شووقەکان لەلایەن وەبەرهێنەرێکی کەرتی تایبەتەوە درووست دەکرێن."),
+                            "شووقەکان لەلایەن وەبەرھێنەرێکی کەرتی تایبەتەوە درووست دەکرێن."),
                   ],
                 ),
               ),
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) کەسێک کە بەرهەمی تازە دیزاین و درووست دەکات"),
+              text: "٢. (ناو) کەسێک کە بەرھەمی تازە دیزاین و درووست دەکات"),
           // const DividerSentences(),
           Row(
             children: [

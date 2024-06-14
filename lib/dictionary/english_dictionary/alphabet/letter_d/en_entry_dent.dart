@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "It seemed that nothing could dent his confidence."),
                     ExampleSentenceKurdish(
-                        text: "وادیاربوو هیچ ورەی نەڕووخێنێت."),
+                        text: "وادیاربوو ھیچ ورەی نەڕووخێنێت."),
                   ],
                 ),
               ),

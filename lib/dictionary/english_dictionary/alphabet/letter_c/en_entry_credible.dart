@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It seems barely credible that anyone could have walked so far in a day."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە ئەستەم باوەڕپێکراوە کە هیچ کەس بتوانێت هێندە لە ڕۆژێکدا ببڕێت."),
+                            "بە ئەستەم باوەڕپێکراوە کە ھیچ کەس بتوانێت ھێندە لە ڕۆژێکدا ببڕێت."),
                   ],
                 ),
               ),
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "It seemed to be a credible account of events."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەها دەردەکەوێت گێڕانەوەیەکی باوەڕپێکراوی ڕووداوەکان بێت."),
+                            "وەھا دەردەکەوێت گێڕانەوەیەکی باوەڕپێکراوی ڕووداوەکان بێت."),
                   ],
                 ),
               ),
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) کە دەکرێت پەسەنف بکرێت بەهۆی ئەوەی دەکرێت سەرکەوتوو بێت"),
+                  "٢. (ھاوەڵناو) کە دەکرێت پەسەنف بکرێت بەھۆی ئەوەی دەکرێت سەرکەوتوو بێت"),
           Row(
             children: [
               const Expanded(
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Community service is seen as the only credible alternative to imprisonment."),
                     ExampleSentenceKurdish(
                         text:
-                            "خزمەتی کۆمەڵگە وەک تەنها جێگرەوەی پەسەمدکراوی زیندانی دەبینرێت."),
+                            "خزمەتی کۆمەڵگە وەک تەنھا جێگرەوەی پەسەمدکراوی زیندانی دەبینرێت."),
                   ],
                 ),
               ),

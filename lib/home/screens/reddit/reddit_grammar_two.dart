@@ -234,11 +234,12 @@ class _RedditGrammarTwoState extends ConsumerState<RedditGrammarTwo> {
                                 const BorderRadius.all(Radius.circular(8.0)),
                           ),
                           child: Column(
-                            crossAxisAlignment: CrossAxisAlignment
-                                .start, // Aligns children to the start
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Card(
                                 margin: const EdgeInsets.all(8.0),
+                                color:
+                                    Theme.of(context).scaffoldBackgroundColor,
                                 child: ListTile(
                                   title: Text(
                                     post['title'],

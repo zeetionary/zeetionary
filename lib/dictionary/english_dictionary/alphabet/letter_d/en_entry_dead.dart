@@ -669,7 +669,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: مردوو، گیان‌دەرچوو، نازیندوو، بێ‌گیان، بێ‌جان، بێ‌ڕۆح، تیاچوو، مردوو،	لەباوکەوتوو، کۆن،	(گژوگیا و هتد) وشک، وشک‌هەڵگەڕاو،	کوژاوە، دامردوو، داکوژاو، دامرکاو، ناچالاک،	وەڕەس‌کەر، عاجزکەر، ناخۆش، دڵتەنگ،	بێ‌جم‌وجۆڵ، بێ‌چالاکی، کڕ، مات، سرەوتوو، داکوژاو،	بەکارهێنراو، لەکارکراو،	تەواوبوو، دوایی‌پێ‌هاتوو،	تەواو، دروست، ڕەبەق،	تەزیو، سڕ، کەسیرە(کەوتوو)، هەڵوەریو،	ماندوو، شەکەت، هیلاک، لەکارکەوتوو، پەک‌کەوتوو، خراپ‌بوو،	(دەنگ) گیراو، نووساو، دەرنەهاتوو،	(ڕەنگ) سارد، ناگەش، ناڕۆشن، تەڵخ، مات،	گیراو، بەستراو،	ڕاستەوخۆ، سەرڕاست، ڕاست،	کت‌وپڕ، لە ناکاو.	بە تەواوەتی، بە گشتی،	بنیادەمی مردوو، مەیت،	بێ‌دەنگی
+کوردی: مردوو، گیان‌دەرچوو، نازیندوو، بێ‌گیان، بێ‌جان، بێ‌ڕۆح، تیاچوو، مردوو،	لەباوکەوتوو، کۆن،	(گژوگیا و ھتد) وشک، وشک‌ھەڵگەڕاو،	کوژاوە، دامردوو، داکوژاو، دامرکاو، ناچالاک،	وەڕەس‌کەر، عاجزکەر، ناخۆش، دڵتەنگ،	بێ‌جم‌وجۆڵ، بێ‌چالاکی، کڕ، مات، سرەوتوو، داکوژاو،	بەکارھێنراو، لەکارکراو،	تەواوبوو، دوایی‌پێ‌ھاتوو،	تەواو، دروست، ڕەبەق،	تەزیو، سڕ، کەسیرە(کەوتوو)، ھەڵوەریو،	ماندوو، شەکەت، ھیلاک، لەکارکەوتوو، پەک‌کەوتوو، خراپ‌بوو،	(دەنگ) گیراو، نووساو، دەرنەھاتوو،	(ڕەنگ) سارد، ناگەش، ناڕۆشن، تەڵخ، مات،	گیراو، بەستراو،	ڕاستەوخۆ، سەرڕاست، ڕاست،	کت‌وپڕ، لە ناکاو.	بە تەواوەتی، بە گشتی،	بنیادەمی مردوو، مەیت،	بێ‌دەنگی
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) مردوو"),
           Row(
@@ -791,7 +791,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "He dropped dead (= died suddenly) last week."),
                             ExampleSentenceKurdish(
-                                text: "هەفتەی ڕابردوو لەناکاو مرد."),
+                                text: "ھەفتەی ڕابردوو لەناکاو مرد."),
                           ],
                         ),
                       ),
@@ -845,7 +845,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text: "His wife lay dead beside him."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هاوژینەکەی بە مردووی لە تەنیشتی کەوتووە."),
+                                    "ھاوژینەکەی بە مردووی لە تەنیشتی کەوتووە."),
                           ],
                         ),
                       ),
@@ -871,7 +871,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "She had been struck dead by lightning."),
                             ExampleSentenceKurdish(
-                                text: "بە هەورەبرووسکە گیانی لەدەستدا."),
+                                text: "بە ھەورەبرووسکە گیانی لەدەستدا."),
                           ],
                         ),
                       ),
@@ -922,7 +922,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) کوژاوە بەهۆی نەبوونی بارگاوی"),
+              text: "٢. (ھاوەڵناو) کوژاوە بەھۆی نەبوونی بارگاوی"),
           Row(
             children: [
               const Expanded(
@@ -1010,7 +1010,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Unfortunately racism is not yet dead."),
                     ExampleSentenceKurdish(
-                        text: "بەداخەوە ڕەگەزپەرست هێشتا مردوو نییە."),
+                        text: "بەداخەوە ڕەگەزپەرست ھێشتا مردوو نییە."),
                   ],
                 ),
               ),
@@ -1037,7 +1037,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Is the Western a dead art form?"),
                     ExampleSentenceKurdish(
-                        text: "ئایا ڕۆژئاوایی جۆرە هونەرێکی مردووە؟"),
+                        text: "ئایا ڕۆژئاوایی جۆرە ھونەرێکی مردووە؟"),
                   ],
                 ),
               ),
@@ -1056,7 +1056,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (ھاوەڵناو) کۆتایی هاتوو؛ کە چی دیکە بەکارنایەت"),
+              text: "٥. (ھاوەڵناو) کۆتایی ھاتوو؛ کە چی دیکە بەکارنایەت"),
           Row(
             children: [
               const Expanded(
@@ -1095,7 +1095,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There were no theatres, no cinemas, no coffee. It was dead as anything."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ شانۆ، هیچ سینەما، هیچ قاوەخانە نەبوو. زۆر ئارام بوو وەک هەموو شتێک."),
+                            "ھیچ شانۆ، ھیچ سینەما، ھیچ قاوەخانە نەبوو. زۆر ئارام بوو وەک ھەموو شتێک."),
                   ],
                 ),
               ),
@@ -1154,7 +1154,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She felt dead on her feet and didn't have the energy to question them further."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە پێیەکانیدا هەستی بە شەکەتی دەکرد و وزەی ئەوەی نەبوو چیتر پرسیاریان لێ بکات."),
+                            "لە پێیەکانیدا ھەستی بە شەکەتی دەکرد و وزەی ئەوەی نەبوو چیتر پرسیاریان لێ بکات."),
                   ],
                 ),
               ),
@@ -1173,7 +1173,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٩. (ھاوەڵناو) نەبوونی توانای هەستکردن بەهۆی سەرما، هتد"),
+              text: "٩. (ھاوەڵناو) نەبوونی توانای ھەستکردن بەھۆی سەرما، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -1200,7 +1200,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٠. (ھاوەڵناو) نەتوانینی هەستکردن یان تێگەشتن لە هەستەکان"),
+                  "١٠. (ھاوەڵناو) نەتوانینی ھەستکردن یان تێگەشتن لە ھەستەکان"),
           Row(
             children: [
               const Expanded(
@@ -1209,7 +1209,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was dead to all feelings of pity."),
                     ExampleSentenceKurdish(
-                        text: "دابڕاو بوو لە هەموو هەستێکی بەزەیی."),
+                        text: "دابڕاو بوو لە ھەموو ھەستێکی بەزەیی."),
                   ],
                 ),
               ),
@@ -1227,7 +1227,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "١١. (ھاوەڵناو) بێ‌هەست"),
+          const DefinitionKurdish(text: "١١. (ھاوەڵناو) بێ‌ھەست"),
           Row(
             children: [
               const Expanded(
@@ -1319,7 +1319,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The dead and wounded in that one attack amounted to 6 000."),
                     ExampleSentenceKurdish(
                         text:
-                            "مردووان و برینداران لەو تاکە هێرشەدا گەشتە ٦٠٠٠."),
+                            "مردووان و برینداران لەو تاکە ھێرشەدا گەشتە ٦٠٠٠."),
                   ],
                 ),
               ),
@@ -1348,7 +1348,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Christians believe that God raised Jesus from the dead."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەسیحییەکان باوەڕیان وایە خودا عیسای لە مردوویەتی هێنایەوە."),
+                            "مەسیحییەکان باوەڕیان وایە خودا عیسای لە مردوویەتی ھێنایەوە."),
                   ],
                 ),
               ),
@@ -1504,7 +1504,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You were dead lucky to get that job."),
                     ExampleSentenceKurdish(
-                        text: "زۆر بە بەخت بوویت لە بەدەستهێنانی ئەو کارە."),
+                        text: "زۆر بە بەخت بوویت لە بەدەستھێنانی ئەو کارە."),
                   ],
                 ),
               ),

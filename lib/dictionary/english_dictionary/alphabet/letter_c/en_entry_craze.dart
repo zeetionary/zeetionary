@@ -331,11 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵڵا، داب، باو،	کەف‌وکوڵ، تین‌وگوڕ، تین‌وتاو، تاووتین،	شێتی
+کوردی: ھەڵڵا، داب، باو،	کەف‌وکوڵ، تین‌وگوڕ، تین‌وتاو، تاووتین،	شێتی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) جۆش‌وخرۆشییەکی کاتی کە ژمارەیەک خەڵکی زۆر هەیانە"),
+                  "١. (ناو) جۆش‌وخرۆشییەکی کاتی کە ژمارەیەک خەڵکی زۆر ھەیانە"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Is this interest in health foods just a passing craze?"),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم حەزە بۆ خواردنی تەندرووستی تەنها کەف‌وکوڵێکی بۆماوەییە؟"),
+                            "ئەم حەزە بۆ خواردنی تەندرووستی تەنھا کەف‌وکوڵێکی بۆماوەییە؟"),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The princess started a craze for huge earrings."),
                     ExampleSentenceKurdish(
                         text:
-                            "شازادە خاتوونەکە هەڵڵایەکی بۆ گوارەی گەورە دەستپێکرد."),
+                            "شازادە خاتوونەکە ھەڵڵایەکی بۆ گوارەی گەورە دەستپێکرد."),
                   ],
                 ),
               ),

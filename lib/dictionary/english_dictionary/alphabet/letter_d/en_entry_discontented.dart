@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He felt discontented with the way his life had turned out."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە ناڕەزامەندی دەکرد بەو ئاقارەی ژیانی پێیدا دەچوو."),
+                            "ھەستی بە ناڕەزامەندی دەکرد بەو ئاقارەی ژیانی پێیدا دەچوو."),
                   ],
                 ),
               ),

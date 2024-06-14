@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) هەبوونی شارەزایی"),
+          const DefinitionKurdish(text: "٢. (ناو) ھەبوونی شارەزایی"),
           Row(
             children: [
               const Expanded(
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Government has already shown a deftness that has surprised politicians in both parties."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت پێشوەختە شارەزایی وەهای پیشانداوە کە سیاسەتمەدارانی هەردوو پارتەکەی سەرسامکردووە."),
+                            "حکومەت پێشوەختە شارەزایی وەھای پیشانداوە کە سیاسەتمەدارانی ھەردوو پارتەکەی سەرسامکردووە."),
                   ],
                 ),
               ),

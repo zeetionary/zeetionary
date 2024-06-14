@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Some argue that money has debased football."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک کەس باوەڕیان وایە پارە تۆپی پێی عەیبدار کردووە."),
+                            "ھەندێک کەس باوەڕیان وایە پارە تۆپی پێی عەیبدار کردووە."),
                   ],
                 ),
               ),

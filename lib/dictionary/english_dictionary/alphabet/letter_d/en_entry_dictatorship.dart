@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "These men had all lived under dictatorship."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم پیاوانە هەموویان لە دەسەڵاتی زۆردارانەدا ژیاون."),
+                            "ئەم پیاوانە ھەموویان لە دەسەڵاتی زۆردارانەدا ژیاون."),
                   ],
                 ),
               ),
@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some of these countries are democracies and some are dictatorships."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک لەم وڵاتانە دیموکراسین و هەندێکیان دیکتاتۆرییەتن."),
+                            "ھەندێک لەم وڵاتانە دیموکراسین و ھەندێکیان دیکتاتۆرییەتن."),
                   ],
                 ),
               ),

@@ -207,7 +207,7 @@ class EnglishEntryconveyor extends StatelessWidget {
                                             "The products are labelled as they pass by on the conveyor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەمەکان ناویان لێدەدرێت کە لەسەر قایشە گوازەرەوەکەوە تێدەپەڕن."),
+                                            "بەرھەمەکان ناویان لێدەدرێت کە لەسەر قایشە گوازەرەوەکەوە تێدەپەڕن."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntryconveyor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک یان شتێک کە شتێک هەڵدەگرێت یان ئاشکرای دەکات"),
+                                  "٢. (ناو) کەسێک یان شتێک کە شتێک ھەڵدەگرێت یان ئاشکرای دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -237,7 +237,7 @@ class EnglishEntryconveyor extends StatelessWidget {
                                         text:
                                             "Words are conveyors of meaning."),
                                     ExampleSentenceKurdish(
-                                        text: "وشە هەڵگری واتایە."),
+                                        text: "وشە ھەڵگری واتایە."),
                                   ],
                                 ),
                               ),

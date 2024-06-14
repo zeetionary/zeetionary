@@ -405,9 +405,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێدی، دڵساردی،	دڵتەنگی، ماتی، کزی، خەم، خەفەت، پەژارە
+کوردی: ناھومێدی، دڵساردی،	دڵتەنگی، ماتی، کزی، خەم، خەفەت، پەژارە
 """),
-          const DefinitionKurdish(text: "١. (ناو) هەستی دڵتەنگی و بێ‌هیوایی"),
+          const DefinitionKurdish(text: "١. (ناو) ھەستی دڵتەنگی و بێ‌ھیوایی"),
           Row(
             children: [
               const Expanded(
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Life's not all gloom and despondency."),
                     ExampleSentenceKurdish(
-                        text: "ژیان هەموو پەژارەیی و خەفەتباری نییە."),
+                        text: "ژیان ھەموو پەژارەیی و خەفەتباری نییە."),
                   ],
                 ),
               ),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "A mood of despondency had set in."),
                     ExampleSentenceKurdish(
-                        text: "کەشێکی خەفەتباری هاتبووە ئاراوە."),
+                        text: "کەشێکی خەفەتباری ھاتبووە ئاراوە."),
                   ],
                 ),
               ),

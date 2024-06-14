@@ -216,7 +216,7 @@ class EnglishEntryconvert extends StatelessWidget {
                                             "They took just nine months to convert the building."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها نۆ مانگیان پێویست بوو بۆ گۆڕینی بیناکە."),
+                                            "تەنھا نۆ مانگیان پێویست بوو بۆ گۆڕینی بیناکە."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntryconvert extends StatelessWidget {
                                             "Japan was at the time still converting from an agricultural economy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەوکاتەدا ژاپۆن هێشتا لە دەمی گۆڕانکاری لە ئابووری کشتووکاڵییەوە بوو."),
+                                            "لەوکاتەدا ژاپۆن ھێشتا لە دەمی گۆڕانکاری لە ئابووری کشتووکاڵییەوە بوو."),
                                   ],
                                 ),
                               ),
@@ -320,7 +320,7 @@ class EnglishEntryconvert extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) هەبوونی توانای گۆڕان لە جۆرێک، مەبەستێک، یان سیستەمێک بۆ یەکێکی دیکە"),
+                                  "٢. (کردار) ھەبوونی توانای گۆڕان لە جۆرێک، مەبەستێک، یان سیستەمێک بۆ یەکێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -361,7 +361,7 @@ class EnglishEntryconvert extends StatelessWidget {
                                             "She converted to Judaism to marry him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باوەڕی بە جودایزم هێنا بۆ هاوسەرگیری لەگەڵی."),
+                                            "باوەڕی بە جودایزم ھێنا بۆ ھاوسەرگیری لەگەڵی."),
                                   ],
                                 ),
                               ),
@@ -417,7 +417,7 @@ class EnglishEntryconvert extends StatelessWidget {
                                             "She was soon converted to the socialist cause."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زوو باوەڕی هێنا بە دۆزە کۆمەڵایەتییەکە."),
+                                            "زوو باوەڕی ھێنا بە دۆزە کۆمەڵایەتییەکە."),
                                   ],
                                 ),
                               ),
@@ -436,7 +436,7 @@ class EnglishEntryconvert extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) گۆڕینی خوویەک، بۆچوونێک، هتد"),
+                              text: "٤. (کردار) گۆڕینی خوویەک، بۆچوونێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -474,7 +474,7 @@ class EnglishEntryconvert extends StatelessWidget {
                                             "I didn't use to like opera but my husband has converted me."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزم بە ئۆپێرا نەبوو بەڵام هاوژینەکەم گۆڕیمی."),
+                                            "حەزم بە ئۆپێرا نەبوو بەڵام ھاوژینەکەم گۆڕیمی."),
                                   ],
                                 ),
                               ),

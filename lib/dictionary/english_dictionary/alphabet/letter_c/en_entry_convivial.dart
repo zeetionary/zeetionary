@@ -196,7 +196,7 @@ class EnglishEntryconvivial extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) کەسایەتی و کەشێکی هاوڕێیانە و دڵشاد"),
+                                  "١. (ھاوەڵناو) کەسایەتی و کەشێکی ھاوڕێیانە و دڵشاد"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntryconvivial extends StatelessWidget {
                                             "The talks ended on a convivial note."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گفتوگۆکان بە تێبینییەکی دۆستانە کۆتاییان هات."),
+                                            "گفتوگۆکان بە تێبینییەکی دۆستانە کۆتاییان ھات."),
                                   ],
                                 ),
                               ),

@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێچارە، دەس‌پێ‌نەکراوە، بێ‌گوناهـ، بێ‌بەرگری، بێ‌پەنا، گوناح، بێ‌دەسەڵات
+کوردی: بێچارە، دەس‌پێ‌نەکراوە، بێ‌گوناھـ، بێ‌بەرگری، بێ‌پەنا، گوناح، بێ‌دەسەڵات
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لاواز؛ کە توانای بەرگری لە خۆی نییە"),
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The village is defenceless against attack."),
-                    ExampleSentenceKurdish(text: "گوندەکە لاوازە دژ بە هێرش."),
+                    ExampleSentenceKurdish(text: "گوندەکە لاوازە دژ بە ھێرش."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "How could anyone steal from a poor defenceless old lady?"),
                     ExampleSentenceKurdish(
                         text:
-                            "چۆن کەسێکی دەتوانێت دزی ژنێکی بەتەمەنی هەژاری لاواز بکات؟"),
+                            "چۆن کەسێکی دەتوانێت دزی ژنێکی بەتەمەنی ھەژاری لاواز بکات؟"),
                   ],
                 ),
               ),
@@ -473,7 +473,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She felt utterly defenceless."),
-                    ExampleSentenceKurdish(text: "تەواو هەستی بە بێ‌هێزی کرد."),
+                    ExampleSentenceKurdish(text: "تەواو ھەستی بە بێ‌ھێزی کرد."),
                   ],
                 ),
               ),

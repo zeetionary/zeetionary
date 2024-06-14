@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He's always behaved courteously toward my family."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە بەڕێزەوە مامەڵەی لەگەڵ خێزانەکەم کردووە."),
+                            "ھەمیشە بەڕێزەوە مامەڵەی لەگەڵ خێزانەکەم کردووە."),
                   ],
                 ),
               ),

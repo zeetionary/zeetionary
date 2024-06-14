@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) هێڵێکی ڕێک کە درووستی دەکەیت لەکاتی قەدکردنی پەڕە یان جلوبەرگ"),
+                  "٢. (ناو) ھێڵێکی ڕێک کە درووستی دەکەیت لەکاتی قەدکردنی پەڕە یان جلوبەرگ"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) هێڵێکی سەر جەستە، بەتایبەتی لە ڕووخساردا"),
+              text: "٣. (ناو) ھێڵێکی سەر جەستە، بەتایبەتی لە ڕووخساردا"),
           Row(
             children: [
               const Expanded(
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She had lots of deep creases at the corners of her eyes."),
                     ExampleSentenceKurdish(
-                        text: "ژمارەیەکی زۆر چرچی هەبوو لە سووچی چاوەکانیدا."),
+                        text: "ژمارەیەکی زۆر چرچی ھەبوو لە سووچی چاوەکانیدا."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) درووستکردنی هێڵ لەسەر پەڕە یان جلوبەرگ بە قەدکردن یان پەستان خستنە سەری"),
+                  "٤. (کردار) درووستکردنی ھێڵ لەسەر پەڕە یان جلوبەرگ بە قەدکردن یان پەستان خستنە سەری"),
           Row(
             children: [
               const Expanded(

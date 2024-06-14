@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێتی، دەلوویی، بێ‌ئەقڵ، نالۆژیکی، نائەقڵانی، ناعەقڵانی، ناژیرانە، بێ‌واتا
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) ڕەفتار و هەڵسوکەوتی گەمژانە و نائەقڵانی"),
+              text: "١. (ناو) ڕەفتار و ھەڵسوکەوتی گەمژانە و نائەقڵانی"),
           Row(
             children: [
               const Expanded(
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I get tired of all the craziness in Hollywood."),
                     ExampleSentenceKurdish(
-                        text: "بێزار دەبم لەو هەموو نائەقڵانییەی هۆڵیوود."),
+                        text: "بێزار دەبم لەو ھەموو نائەقڵانییەی ھۆڵیوود."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I tried to keep him out of the craziness of the celebrity world."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵم دا واز لە هەموو جەنجاڵییەکی ژیانی ناودارەکان بهێنم."),
+                            "ھەوڵم دا واز لە ھەموو جەنجاڵییەکی ژیانی ناودارەکان بھێنم."),
                   ],
                 ),
               ),

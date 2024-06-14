@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) لێکردنەوەی سەهۆڵ لە شتێک"),
+          const DefinitionKurdish(text: "١. (کردار) لێکردنەوەی سەھۆڵ لە شتێک"),
           Row(
             children: [
               const Expanded(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I de-ice the car windows every morning in winter."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو بەیانییەک لە زستاناندا پەنجەرەی ئۆتۆمبێلەکە پاکدەکەمەوە."),
+                            "ھەموو بەیانییەک لە زستاناندا پەنجەرەی ئۆتۆمبێلەکە پاکدەکەمەوە."),
                   ],
                 ),
               ),

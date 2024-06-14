@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The skins can be left on the potatoes for extra crispness."),
                     ExampleSentenceKurdish(
                         text:
-                            "توێکڵەکە دەکرێت لەسەر پەتاتەکە بهێڵدرێت بۆ خرمەی زیاتر."),
+                            "توێکڵەکە دەکرێت لەسەر پەتاتەکە بھێڵدرێت بۆ خرمەی زیاتر."),
                   ],
                 ),
               ),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) ڕوون و تیژ بەشێوەیەک کە ئاسان دەبینرێت یان هەستی پێ دەکرێت"),
+                  "٣. (ناو) ڕوون و تیژ بەشێوەیەک کە ئاسان دەبینرێت یان ھەستی پێ دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The day darkened to night and they inhaled the slight crispness of the air."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕۆژەکە تاریکی کرد بۆ شەو و کەمێک سەرمای کەشەکەیان هەڵمژی."),
+                            "ڕۆژەکە تاریکی کرد بۆ شەو و کەمێک سەرمای کەشەکەیان ھەڵمژی."),
                   ],
                 ),
               ),
@@ -487,7 +487,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "His writing lacks the crispness it once had."),
                     ExampleSentenceKurdish(
                         text:
-                            "نووسینەکانی ئەو کاریگەرییەیان نییە کە جاران هەیان بوو."),
+                            "نووسینەکانی ئەو کاریگەرییەیان نییە کە جاران ھەیان بوو."),
                   ],
                 ),
               ),

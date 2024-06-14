@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گۆڕانی ژمارەی لەدایکبوون، مردن، نەخۆشی، هتد لە کۆمەڵگایەکدا"),
+                  "١. (ناو) گۆڕانی ژمارەی لەدایکبوون، مردن، نەخۆشی، ھتد لە کۆمەڵگایەکدا"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The increase in the number of young people leaving to work in the cities has had a dramatic impact on the demography of the villages."),
                     ExampleSentenceKurdish(
                         text:
-                            "زیادبوونی ڕێژەی جێهێشتنی لەلایەن گەنجانەوە بۆ کارکردن لە شارەکاندا کاریگەرییەکی گەورەی لەسەر دیمۆگرافیای گوندەکان هەبووە."),
+                            "زیادبوونی ڕێژەی جێھێشتنی لەلایەن گەنجانەوە بۆ کارکردن لە شارەکاندا کاریگەرییەکی گەورەی لەسەر دیمۆگرافیای گوندەکان ھەبووە."),
                   ],
                 ),
               ),

@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is deplorable there is no legal protection for these children."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوەی هیچ پاراستنێکی یاسایی بۆ ئەم منداڵانە نییە دڵتەزێنە."),
+                            "ئەوەی ھیچ پاراستنێکی یاسایی بۆ ئەم منداڵانە نییە دڵتەزێنە."),
                   ],
                 ),
               ),

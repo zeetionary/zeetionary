@@ -195,7 +195,7 @@ class EnglishEntrycorduroy extends StatelessWidget {
 // """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) جۆرە قوماشێکی نەرمی بەهێزی لۆکە کە شێوەی هێڵی بەرزبووی لەسەرە و بەکاردێت بۆ درووستکردنی جل"),
+                                  "١. (ناو) جۆرە قوماشێکی نەرمی بەھێزی لۆکە کە شێوەی ھێڵی بەرزبووی لەسەرە و بەکاردێت بۆ درووستکردنی جل"),
                           Row(
                             children: [
                               const Expanded(

@@ -426,7 +426,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Have you discussed the problem with anyone?"),
                     ExampleSentenceKurdish(
-                        text: "کێشەکەت لەگەڵ هیچ کەس باس کردووە؟"),
+                        text: "کێشەکەت لەگەڵ ھیچ کەس باس کردووە؟"),
                   ],
                 ),
               ),
@@ -757,7 +757,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The article discusses how teachers can use technology in their classrooms."),
                     ExampleSentenceKurdish(
                         text:
-                            "وتارەکە باس لەوە دەکات کە چۆن مامۆستایان دەتوانن تەکنەلۆژیا لە پۆلەکاندا بەکاربهێنن."),
+                            "وتارەکە باس لەوە دەکات کە چۆن مامۆستایان دەتوانن تەکنەلۆژیا لە پۆلەکاندا بەکاربھێنن."),
                   ],
                 ),
               ),

@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کۆمەڵە کەسێک کە هەڵدەبژێردرێن بۆ بەڕێوەبردنی ناوچەیەک"),
+                  "١. (ناو) کۆمەڵە کەسێک کە ھەڵدەبژێردرێن بۆ بەڕێوەبردنی ناوچەیەک"),
           Row(
             children: [
               const Expanded(
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The decision still has to be ratified by the full council."),
                     ExampleSentenceKurdish(
                         text:
-                            "بڕیارەکە هێشتا دەبێت پەسەند بکرێت لەلایەن هەموو ئەنجوومەنەکەوە."),
+                            "بڕیارەکە ھێشتا دەبێت پەسەند بکرێت لەلایەن ھەموو ئەنجوومەنەکەوە."),
                   ],
                 ),
               ),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He won a seat on the council in the election."),
                     ExampleSentenceKurdish(
                         text:
-                            "کورسییەکی لە ئەنجوومەنەکە بردەوە لە هەڵبژاردندا."),
+                            "کورسییەکی لە ئەنجوومەنەکە بردەوە لە ھەڵبژاردندا."),
                   ],
                 ),
               ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Residents have complained to the council about the noise."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاوڵاتییەکان گازەندەیان لای ئەنجوومەنەکە کردووە سەبارەت بە ژاوەژاوەکە."),
+                            "ھاوڵاتییەکان گازەندەیان لای ئەنجوومەنەکە کردووە سەبارەت بە ژاوەژاوەکە."),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) گرووپێ کەس کە هەڵبژێردراون بۆ ڕاوێکاری، یاسادانان، توێژینەوە، هتد"),
+                  "٣. (ناو) گرووپێ کەس کە ھەڵبژێردراون بۆ ڕاوێکاری، یاسادانان، توێژینەوە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are plans to establish a funding council for higher education."),
                     ExampleSentenceKurdish(
                         text:
-                            "پلان هەیە دیوانێکی خەرجی بۆ خوێندنی باڵا درووست بکرێت."),
+                            "پلان ھەیە دیوانێکی خەرجی بۆ خوێندنی باڵا درووست بکرێت."),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The Arts Council gives grants for local projects."),
                     ExampleSentenceKurdish(
-                        text: "دەستە هونەرییەکە مۆڵەت بۆ پڕۆژەی خۆجێیی دەدات."),
+                        text: "دەستە ھونەرییەکە مۆڵەت بۆ پڕۆژەی خۆجێیی دەدات."),
                   ],
                 ),
               ),

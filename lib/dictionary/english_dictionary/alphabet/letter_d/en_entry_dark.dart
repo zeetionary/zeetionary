@@ -963,7 +963,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تاریک، ئەنگوستەچاو، زەنگ، بێ‌شەوق، تار، ناڕۆشن،	(ڕەنگ) تۆخ، توند، تێر، پڕڕەنگ،	(پێست، قژ و هتد) سەوزە، ڕەشتاڵە، مەیلەوڕەش، ڕەشباو.	ڕەش،	نهێنی، پەنامەکی،	تێگەیشتن‌سەخت، شاراوە، تەماوی، نادیار، لێڵ، ڕوون نییە، نامەعلووم،	خەماوی، مایەی خەمباری، دڵتەنگ‌کەر، خەفەتاوی، جێی‌خەم،	خراپ، ترسناک، شەیتانی، پیس،	نەناسراو،	تاریکی، تاری، ناڕۆشنی،	ئاوابوون، خۆراوابوون، شەوداهاتن،	ڕەشی،	(وێنەکێشی) سێبەر،	ڕەنگی تۆخ یان توند،	نەزانی، نائاگاداری، بێ‌خەبەری،	شاراوەیی، نادیاری، نهێنی‌بوون، پشت‌پەردە 
+کوردی: تاریک، ئەنگوستەچاو، زەنگ، بێ‌شەوق، تار، ناڕۆشن،	(ڕەنگ) تۆخ، توند، تێر، پڕڕەنگ،	(پێست، قژ و ھتد) سەوزە، ڕەشتاڵە، مەیلەوڕەش، ڕەشباو.	ڕەش،	نھێنی، پەنامەکی،	تێگەیشتن‌سەخت، شاراوە، تەماوی، نادیار، لێڵ، ڕوون نییە، نامەعلووم،	خەماوی، مایەی خەمباری، دڵتەنگ‌کەر، خەفەتاوی، جێی‌خەم،	خراپ، ترسناک، شەیتانی، پیس،	نەناسراو،	تاریکی، تاری، ناڕۆشنی،	ئاوابوون، خۆراوابوون، شەوداھاتن،	ڕەشی،	(وێنەکێشی) سێبەر،	ڕەنگی تۆخ یان توند،	نەزانی، نائاگاداری، بێ‌خەبەری،	شاراوەیی، نادیاری، نھێنی‌بوون، پشت‌پەردە 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تاریک"),
           Row(
@@ -974,7 +974,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "What time does it get dark in summer?"),
                     ExampleSentenceKurdish(
-                        text: "کاتژمێر چەند لە هاویندا تاریک دادێت؟"),
+                        text: "کاتژمێر چەند لە ھاویندا تاریک دادێت؟"),
                   ],
                 ),
               ),
@@ -1029,7 +1029,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "The sky was still dark."),
                             ExampleSentenceKurdish(
-                                text: "ئاسمان هێشتا تاریک بوو."),
+                                text: "ئاسمان ھێشتا تاریک بوو."),
                           ],
                         ),
                       ),
@@ -1055,7 +1055,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "The sky was still dark."),
                             ExampleSentenceKurdish(
-                                text: "ئاسمان هێشتا تاریک بوو."),
+                                text: "ئاسمان ھێشتا تاریک بوو."),
                           ],
                         ),
                       ),
@@ -1082,7 +1082,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text: "Use lights to illuminate dark corners."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ڕۆشنایی بەکاربهێنە بۆ ڕۆشنکردنەوەی سووچە تاریکەکان."),
+                                    "ڕۆشنایی بەکاربھێنە بۆ ڕۆشنکردنەوەی سووچە تاریکەکان."),
                           ],
                         ),
                       ),
@@ -1140,7 +1140,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "She has dark hair."),
-                    ExampleSentenceKurdish(text: "قژێکی تاریکی هەیە."),
+                    ExampleSentenceKurdish(text: "قژێکی تاریکی ھەیە."),
                   ],
                 ),
               ),
@@ -1184,7 +1184,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ھاوەڵناو) هەبوونی ڕەنگی تاریک"),
+          const DefinitionKurdish(text: "٣. (ھاوەڵناو) ھەبوونی ڕەنگی تاریک"),
           Row(
             children: [
               const Expanded(
@@ -1221,7 +1221,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The dark clouds in the sky meant that a storm was coming."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەورە تاریکەکان لە ئاسماندا واتای ئەوە بوون کە زریانێک بەڕێوەیە."),
+                            "ھەورە تاریکەکان لە ئاسماندا واتای ئەوە بوون کە زریانێک بەڕێوەیە."),
                   ],
                 ),
               ),
@@ -1271,7 +1271,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Sue has long dark hair."),
-                    ExampleSentenceKurdish(text: "قژی درێژی ڕەشی هەیە."),
+                    ExampleSentenceKurdish(text: "قژی درێژی ڕەشی ھەیە."),
                   ],
                 ),
               ),
@@ -1299,7 +1299,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Even if you have dark skin, you still need protection from the sun."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەرچی پێستی تاریکت هەیە، هێشتا پێویستیت بە پارێزەر لە خۆر هەیە."),
+                            "ئەگەرچی پێستی تاریکت ھەیە، ھێشتا پێویستیت بە پارێزەر لە خۆر ھەیە."),
                   ],
                 ),
               ),
@@ -1318,7 +1318,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (ھاوەڵناو) کەسێک کە قژ، چاو، هتد ـی ڕەشی هەیە"),
+              text: "٥. (ھاوەڵناو) کەسێک کە قژ، چاو، ھتد ـی ڕەشی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -1353,7 +1353,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There are no dark secrets in our family."),
                     ExampleSentenceKurdish(
-                        text: "هیچ نهێنییەکی شاراوە لە ماڵماندا نییە."),
+                        text: "ھیچ نھێنییەکی شاراوە لە ماڵماندا نییە."),
                   ],
                 ),
               ),
@@ -1380,7 +1380,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There was a darker side to his nature."),
                     ExampleSentenceKurdish(
-                        text: "لایەنێکی شەیتانی هەبوو لە سرووشتیدا."),
+                        text: "لایەنێکی شەیتانی ھەبوو لە سرووشتیدا."),
                   ],
                 ),
               ),
@@ -1424,7 +1424,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٨. (ھاوەڵناو) ناخۆش و بێ‌هیوا"),
+          const DefinitionKurdish(text: "٨. (ھاوەڵناو) ناخۆش و بێ‌ھیوا"),
           Row(
             children: [
               const Expanded(
@@ -1433,7 +1433,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The film is a dark vision of the future."),
                     ExampleSentenceKurdish(
-                        text: "فیلمەکە وێنایەکی تاریکی داهاتووە."),
+                        text: "فیلمەکە وێنایەکی تاریکی داھاتووە."),
                   ],
                 ),
               ),
@@ -1487,7 +1487,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All the lights went out and we were left in the dark."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو لایتەکان کوژانەوە و لە تاریکییەکە ماینەوە."),
+                            "ھەموو لایتەکان کوژانەوە و لە تاریکییەکە ماینەوە."),
                   ],
                 ),
               ),
@@ -1512,7 +1512,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I hate getting up in the dark."),
-                    ExampleSentenceKurdish(text: "ڕقم لێیە لە تاریکتدا هەستم."),
+                    ExampleSentenceKurdish(text: "ڕقم لێیە لە تاریکتدا ھەستم."),
                   ],
                 ),
               ),
@@ -1540,7 +1540,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We could just make out some figures in the gathering dark."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەمانتوانی تەنها شێوەی چەند کەسێک بناسینەوە لە تاریکییەکەدا."),
+                            "دەمانتوانی تەنھا شێوەی چەند کەسێک بناسینەوە لە تاریکییەکەدا."),
                   ],
                 ),
               ),

@@ -231,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I found it hidden in the back of a cupboard."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I found it hidden in the back of a cupboard."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcupboards3(String languageCode) async {
@@ -333,16 +334,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دۆڵاب، کومێد، قەفەسە، کابینێت
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەلوپەلێکی ناوماڵ کە بەکاردێت بۆ هەڵگرتنی قاپ‌وقاچاخ، کەلوپەل، خواردن، هتد"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەلوپەلێکی ناوماڵ کە بەکاردێت بۆ ھەڵگرتنی قاپ‌وقاچاخ، کەلوپەل، خواردن، ھتد"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "There's plenty of food in the cupboards."),
-                    ExampleSentenceKurdish(text: "خواردنێکی زۆر هەیە لە کەوانتەرەکەدا."),
+                        text: "There's plenty of food in the cupboards."),
+                    ExampleSentenceKurdish(
+                        text: "خواردنێکی زۆر ھەیە لە کەوانتەرەکەدا."),
                   ],
                 ),
               ),
@@ -361,30 +364,29 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "I found it hidden in the back of a cupboard."),
-          ExampleSentenceKurdish(
-          text: "دۆزیمەوە شاردرابوویەوە لە پشتەوەی دۆڵابەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcupboards2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcupboards2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I found it hidden in the back of a cupboard."),
+                    ExampleSentenceKurdish(
+                        text: "دۆزیمەوە شاردرابوویەوە لە پشتەوەی دۆڵابەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcupboards2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcupboards2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
           Column(

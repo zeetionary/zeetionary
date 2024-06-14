@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) پەپکێک بۆ کۆگاکردنی زانیاری لەسەر کۆمپیوتەر کە دەسووڕێتەوە بۆ ئەوەی هەموو زانیارییەکانی ناو پەپکەکە دەربکات"),
+                  "١. (ناو) پەپکێک بۆ کۆگاکردنی زانیاری لەسەر کۆمپیوتەر کە دەسووڕێتەوە بۆ ئەوەی ھەموو زانیارییەکانی ناو پەپکەکە دەربکات"),
           const AlsoEnglishckb(word: "ھەروەھا: magnetic disk"),
           Row(
             children: [
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "Each disk holds 700 MB."),
                     ExampleSentenceKurdish(
-                        text: "هەر دیسکێک ٧٠٠ مێگابایت دەگرێت."),
+                        text: "ھەر دیسکێک ٧٠٠ مێگابایت دەگرێت."),
                   ],
                 ),
               ),

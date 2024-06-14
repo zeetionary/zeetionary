@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I felt warm and cosy sitting by the fire."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستم بە گەرمی و ئاسوودەیی دەکرد لە نزیک ئاگرەکە."),
+                            "ھەستم بە گەرمی و ئاسوودەیی دەکرد لە نزیک ئاگرەکە."),
                   ],
                 ),
               ),
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) هاوڕێیانە و تایبەت"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھاوڕێیانە و تایبەت"),
           Row(
             children: [
               const Expanded(
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He called his friend for a cosy chat to catch up on each other's lives."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەیوەندی بە هاوڕێکەیەوە کرد بۆ گفتوگۆیەکی دۆستانە و ئاگاداربوون لە ژیانی یەکدی."),
+                            "پەیوەندی بە ھاوڕێکەیەوە کرد بۆ گفتوگۆیەکی دۆستانە و ئاگاداربوون لە ژیانی یەکدی."),
                   ],
                 ),
               ),
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The firm has a cosy relationship with the Ministry of Defence."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە پەیوەندییەکی خۆیانەی هەیە لەگەڵ وەزیری بەرگریدا."),
+                            "کۆمپانیاکە پەیوەندییەکی خۆیانەی ھەیە لەگەڵ وەزیری بەرگریدا."),
                   ],
                 ),
               ),
@@ -453,7 +453,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) داپۆشەرێک کە دەدرێت بەسەر پیاڵەی چای یان هێلکەی کوڵاودا بۆ گەرم هێشتنەوەی"),
+                  "٤. (ناو) داپۆشەرێک کە دەدرێت بەسەر پیاڵەی چای یان ھێلکەی کوڵاودا بۆ گەرم ھێشتنەوەی"),
           Row(
             children: [
               const Expanded(

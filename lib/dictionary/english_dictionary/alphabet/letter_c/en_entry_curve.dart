@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (بیرکاری، هێڵ) چەماوە، هێڵی چەمیو،	چەماوی، چەم، نووچی، داهاتنەوە، کەوانی، کەچی، چەوتی،	(ڕێگا) پێچ،	هێڵێکی بەردەوام بە بێ‌گۆشە
+کوردی: (بیرکاری، ھێڵ) چەماوە، ھێڵی چەمیو،	چەماوی، چەم، نووچی، داھاتنەوە، کەوانی، کەچی، چەوتی،	(ڕێگا) پێچ،	ھێڵێکی بەردەوام بە بێ‌گۆشە
 """),
           const DefinitionKurdish(text: "١. (ناو) چەماوە"),
           Row(
@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The pattern was made up of straight lines and curves."),
                     ExampleSentenceKurdish(
-                        text: "شێوەکە لە ڕاستەهێڵ و چەماوە پێکهاتبوو."),
+                        text: "شێوەکە لە ڕاستەھێڵ و چەماوە پێکھاتبوو."),
                   ],
                 ),
               ),
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text: "He slowed down to negotiate the curve."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هێواش بوویەوە بۆ تێپەڕین بە چەماوەکەدا."),
+                                    "ھێواش بوویەوە بۆ تێپەڕین بە چەماوەکەدا."),
                           ],
                         ),
                       ),

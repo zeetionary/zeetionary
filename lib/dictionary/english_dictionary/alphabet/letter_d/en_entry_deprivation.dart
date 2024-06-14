@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌بەشی، بێ‌بەرێتی، بێ‌بەهرەیی، بێ‌پاری، بێ‌بەهرەکردن، بەش‌بڕاوی، نەبوونی، هەژاری، دەستەنگی، نەداری، فەقیری،	لەدەس‌دان، لەکیس‌چوون،	لابردن، لەسەرکارلادان، لادان، دەرکردن
+کوردی: بێ‌بەشی، بێ‌بەرێتی، بێ‌بەھرەیی، بێ‌پاری، بێ‌بەھرەکردن، بەش‌بڕاوی، نەبوونی، ھەژاری، دەستەنگی، نەداری، فەقیری،	لەدەس‌دان، لەکیس‌چوون،	لابردن، لەسەرکارلادان، لادان، دەرکردن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نەبوونی شتێک کە پێویستتە، بۆ نموونە خواردن. خەو، پارە، هتد"),
+                  "١. (ناو) نەبوونی شتێک کە پێویستتە، بۆ نموونە خواردن. خەو، پارە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There were food shortages and other deprivations during the Civil War."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمی خۆراک و نەبوونی دیکە هەبوون لەماوی جەنگەکە."),
+                            "کەمی خۆراک و نەبوونی دیکە ھەبوون لەماوی جەنگەکە."),
                   ],
                 ),
               ),

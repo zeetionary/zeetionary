@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات وا هەست دەکەیت سەرزەنشت دەکرێیت"),
+                  "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات وا ھەست دەکەیت سەرزەنشت دەکرێیت"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "‘I couldn't help it,’ he said defensively."),
                     ExampleSentenceKurdish(
-                        text: "بە خۆپارێزانە گوتی 'نەمدەتوانی هیچ بکەم'."),
+                        text: "بە خۆپارێزانە گوتی 'نەمدەتوانی ھیچ بکەم'."),
                   ],
                 ),
               ),
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە پاراستنی کەسێک/شتێک دژ بە هێرش لەخۆدەگرێت"),
+                  "٢. (ھاوەڵکار) بەشێوەیەک کە پاراستنی کەسێک/شتێک دژ بە ھێرش لەخۆدەگرێت"),
           Row(
             children: [
               const Expanded(
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The English fought defensively while the Normans repeatedly charged."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئینگلیزەکان  لە دۆخی بەرگریدا شەڕیان دەکرد لەکاتێکدا نۆرمانەکان بەردەوام هێرشیان دەکرد."),
+                            "ئینگلیزەکان  لە دۆخی بەرگریدا شەڕیان دەکرد لەکاتێکدا نۆرمانەکان بەردەوام ھێرشیان دەکرد."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) بەشێوەیەک کە هەوڵ دەدەیت ڕێگری لە تیمەکەی دیکە بکەیت لەوەی گۆڵ بکەن"),
+                  "٣. (ھاوەڵناو) بەشێوەیەک کە ھەوڵ دەدەیت ڕێگری لە تیمەکەی دیکە بکەیت لەوەی گۆڵ بکەن"),
           Row(
             children: [
               const Expanded(

@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕاوێژکار، ڕاوێژگەر، شیرەتڤان، شێورمەند،	پارێزەر،	مافزان، مافەوان
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە ڕاهێنانی پێکراوە بۆ پێدانی ڕاوێژ"),
+              text: "١. (ناو) کەسێک کە ڕاھێنانی پێکراوە بۆ پێدانی ڕاوێژ"),
           Row(
             children: [
               const Expanded(

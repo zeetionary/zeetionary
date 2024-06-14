@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "At first I thought he was deranged."),
                     ExampleSentenceKurdish(
-                        text: "لە سەرەتادا وام هەستکرد تێکچووە."),
+                        text: "لە سەرەتادا وام ھەستکرد تێکچووە."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Deranged with panic, I ran back and forth."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەوەی لە ترسدا خەڵەفاو بووم بە ڕاکردن هاتووچۆم بوو."),
+                            "بەوەی لە ترسدا خەڵەفاو بووم بە ڕاکردن ھاتووچۆم بوو."),
                   ],
                 ),
               ),

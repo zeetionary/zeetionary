@@ -633,7 +633,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تاج،	پاتشایەتی، تاج‌وتەخت، تەخت‌وتاج،	تاجەگوڵ،	نیشان یان دروشمی تاج،	بەڕێوەبەرایەتی یان هێز و دەسەڵاتی شا یان شاژن،	سەرناوی قارەمانی،	خەڵات،	نووک، سەر، بەشی سەرەوە، سەرکەل، تەوق، نووچکە، تەپڵ،	تاجی ددان، ڕووپۆشی ددان،	ترۆپک، دوند، لووتکە
+کوردی: تاج،	پاتشایەتی، تاج‌وتەخت، تەخت‌وتاج،	تاجەگوڵ،	نیشان یان دروشمی تاج،	بەڕێوەبەرایەتی یان ھێز و دەسەڵاتی شا یان شاژن،	سەرناوی قارەمانی،	خەڵات،	نووک، سەر، بەشی سەرەوە، سەرکەل، تەوق، نووچکە، تەپڵ،	تاجی ددان، ڕووپۆشی ددان،	ترۆپک، دوند، لووتکە
 """),
           const DefinitionKurdish(text: "١. (ناو) تاجی پاشا و شاژن"),
           Row(
@@ -664,7 +664,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) حکومەتی وڵاتێک کە پاشا یان شاژنێکی هەیە"),
+              text: "٢. (ناو) حکومەتی وڵاتێک کە پاشا یان شاژنێکی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -727,7 +727,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He succeeded to the crown of Spain."),
                     ExampleSentenceKurdish(
-                        text: "چووە سەر تەختی شاهانەی ئیسپانیا."),
+                        text: "چووە سەر تەختی شاھانەی ئیسپانیا."),
                   ],
                 ),
               ),
@@ -784,7 +784,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The princess wore a crown of roses at the party."),
                     ExampleSentenceKurdish(
                         text:
-                            "شازادە خاتوون تاجەگوڵینەیەکی لەسەر کرد لە ئاهەنگەکە."),
+                            "شازادە خاتوون تاجەگوڵینەیەکی لەسەر کرد لە ئاھەنگەکە."),
                   ],
                 ),
               ),
@@ -928,7 +928,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Nests were built high in the crowns of trees."),
                     ExampleSentenceKurdish(
-                        text: "هێلانە بەرز لە ترۆپکی دارەکان درووستکران."),
+                        text: "ھێلانە بەرز لە ترۆپکی دارەکان درووستکران."),
                   ],
                 ),
               ),
@@ -1032,7 +1032,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٢. (کردار) داپۆشین یان پێکهێنانی بەشی سەرەوە شتێک"),
+              text: "١٢. (کردار) داپۆشین یان پێکھێنانی بەشی سەرەوە شتێک"),
           Row(
             children: [
               const Expanded(
@@ -1071,7 +1071,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Their efforts were finally crowned with success."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵەکانیان لە کۆتاییدا بە سەرکەوتن پاداشت درایەوە."),
+                            "ھەوڵەکانیان لە کۆتاییدا بە سەرکەوتن پاداشت درایەوە."),
                   ],
                 ),
               ),

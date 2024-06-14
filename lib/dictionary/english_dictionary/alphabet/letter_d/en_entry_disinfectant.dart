@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Hospitals use strong disinfectants for cleaning."),
                     ExampleSentenceKurdish(
                         text:
-                            "نەخۆشخانەکان دژە بەکتریای بەهێز بەکاردەهێنن بۆ پاککردنەوە."),
+                            "نەخۆشخانەکان دژە بەکتریای بەھێز بەکاردەھێنن بۆ پاککردنەوە."),
                   ],
                 ),
               ),

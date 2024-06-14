@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Vitamin deficiency in the diet can cause illness."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە هۆکاری نەخۆشی."),
+                            "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە ھۆکاری نەخۆشی."),
                   ],
                 ),
               ),
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) هەڵە یان لاوازی لە شتێکدا کە وادەکات کەمتر سەرکەوتوو بێت"),
+                  "٢. (ھاوەڵناو) ھەڵە یان لاوازی لە شتێکدا کە وادەکات کەمتر سەرکەوتوو بێت"),
           Row(
             children: [
               const Expanded(

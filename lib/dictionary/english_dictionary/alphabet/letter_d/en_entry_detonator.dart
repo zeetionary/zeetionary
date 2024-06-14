@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: (بۆمب و هتد) پڵیتەی تەقاندنەوە، پێ‌تەقێنە
+// کوردی: (بۆمب و ھتد) پڵیتەی تەقاندنەوە، پێ‌تەقێنە
 // """),
           const DefinitionKurdish(
               text:

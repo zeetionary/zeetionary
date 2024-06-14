@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بەرگری کردن، لایەنگری کردن، پاراستن
 """),
-          const DefinitionKurdish(text: "١. (کردار) پاراستنی کەسێک لە هێرش"),
+          const DefinitionKurdish(text: "١. (کردار) پاراستنی کەسێک لە ھێرش"),
           Row(
             children: [
               const Expanded(
@@ -459,7 +459,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Troops have been sent to defend the borders."),
                     ExampleSentenceKurdish(
-                        text: "هێز نێردراوە تاوەکو بەرگری لە سنوورەکان بکەن."),
+                        text: "ھێز نێردراوە تاوەکو بەرگری لە سنوورەکان بکەن."),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All our officers are trained to defend themselves against knife attacks."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەواوی ئەفسەرەکانمان ڕاهێنراون بەرگری لە خۆیان بکەن دژ بە هێرشی چەقۆ."),
+                            "تەواوی ئەفسەرەکانمان ڕاھێنراون بەرگری لە خۆیان بکەن دژ بە ھێرشی چەقۆ."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) پاراستنی شتێک کە بەهای هەیە لات و دەیپارێزیت"),
+              text: "٢. (کردار) پاراستنی شتێک کە بەھای ھەیە لات و دەیپارێزیت"),
           Row(
             children: [
               const Expanded(
@@ -549,7 +549,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The organization works to defend human rights wherever they are threatened."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکخراوەکە کار بۆ بەرگریکردن لە مافەکانی مرۆڤ دەکات لە هەر شوێنێک هەڕەشەیان لەسەر بێت."),
+                            "ڕێکخراوەکە کار بۆ بەرگریکردن لە مافەکانی مرۆڤ دەکات لە ھەر شوێنێک ھەڕەشەیان لەسەر بێت."),
                   ],
                 ),
               ),
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Freedom must always be defended."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە دەبێت بەرگری لە ئازادی بکرێت."),
+                        text: "ھەمیشە دەبێت بەرگری لە ئازادی بکرێت."),
                   ],
                 ),
               ),
@@ -603,7 +603,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The ruling class will always defend its own interests."),
                     ExampleSentenceKurdish(
                         text:
-                            "چینی دەسەڵاتدار هەمیشە بەرگری لە بەرژەوەندییەکانی خۆی دەکات.."),
+                            "چینی دەسەڵاتدار ھەمیشە بەرگری لە بەرژەوەندییەکانی خۆی دەکات.."),
                   ],
                 ),
               ),
@@ -631,7 +631,7 @@ class KurdishMeaning extends StatelessWidget {
                             "People must be vigilant in defending civil liberties regardless of external threats."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەڵک دەبێت وریا بن لە بەرگریکردن لە ئازادییە مەدەنییەکان بەبێ گوێدانە هەڕەشە دەرەکییەکان."),
+                            "خەڵک دەبێت وریا بن لە بەرگریکردن لە ئازادییە مەدەنییەکان بەبێ گوێدانە ھەڕەشە دەرەکییەکان."),
                   ],
                 ),
               ),
@@ -651,7 +651,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) نووسین یان قسەکردن بۆ بەرگری لە کەسێک/شتێک کە هەڕەشەی لێکراوە"),
+                  "٣. (کردار) نووسین یان قسەکردن بۆ بەرگری لە کەسێک/شتێک کە ھەڕەشەی لێکراوە"),
           Row(
             children: [
               const Expanded(
@@ -742,7 +742,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The article seeks to defend him against charges of hypocrisy."),
                     ExampleSentenceKurdish(
                         text:
-                            "وتارەکە هەوڵ دەدات بەرگری لێ بکات لە تۆمەتەکانی دووڕووی."),
+                            "وتارەکە ھەوڵ دەدات بەرگری لێ بکات لە تۆمەتەکانی دووڕووی."),
                   ],
                 ),
               ),
@@ -770,7 +770,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her colleagues united in defending her from further personal attacks."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاوکارەکانی یەکیان گرت بۆ بەرگری لێی لە هێرشی کەسی زیاتر."),
+                            "ھاوکارەکانی یەکیان گرت بۆ بەرگری لێی لە ھێرشی کەسی زیاتر."),
                   ],
                 ),
               ),
@@ -846,7 +846,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (کردار) بەژداری کردن لە پاڵەوانێتییەک کە جاری پێشووتر بردتەوە و هەوڵ دەدەیت دووبارە بیبەیتەوە"),
+                  "٥. (کردار) بەژداری کردن لە پاڵەوانێتییەک کە جاری پێشووتر بردتەوە و ھەوڵ دەدەیت دووبارە بیبەیتەوە"),
           Row(
             children: [
               const Expanded(
@@ -882,7 +882,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She will be defending her title at next month's championships."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەرگری لە پاڵەوانێتییەکەی دەکات لە پاڵەوانێتی مانگی داهاتوودا."),
+                            "بەرگری لە پاڵەوانێتییەکەی دەکات لە پاڵەوانێتی مانگی داھاتوودا."),
                   ],
                 ),
               ),
@@ -910,7 +910,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He intends to defend his seat in the next election."),
                     ExampleSentenceKurdish(
                         text:
-                            "نیازی هەیە کورسییەکەی بپارێزێت لە هەڵبژاردنی دواتردا."),
+                            "نیازی ھەیە کورسییەکەی بپارێزێت لە ھەڵبژاردنی دواتردا."),
                   ],
                 ),
               ),

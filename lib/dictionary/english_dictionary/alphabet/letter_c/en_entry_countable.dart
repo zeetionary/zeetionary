@@ -329,7 +329,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ژمێراو، بژمێر، لەژماردن‌هاتوو
+کوردی: ژمێراو، بژمێر، لەژماردن‌ھاتوو
 """),
           const DefinitionKurdish(
               text:
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Certain nouns may be countable in English and uncountable in another language, or vice versa."),
                     ExampleSentenceKurdish(
                         text:
-                            "ناوی دیاریکراو هەن کە دەکرێت ژمێردراو بن لە ئینگلیزیدا و نەژمێردراو بن لە زمانێکی دیکەدا، و بە پێچەوانەوە."),
+                            "ناوی دیاریکراو ھەن کە دەکرێت ژمێردراو بن لە ئینگلیزیدا و نەژمێردراو بن لە زمانێکی دیکەدا، و بە پێچەوانەوە."),
                   ],
                 ),
               ),

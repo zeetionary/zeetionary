@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (دەست) کارد و چنگاڵ، کەرەسەی بڕین، کەوچک و چنگاڵ، کارد
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەوچک، چەقۆ، چنگاڵ، هتد بۆ خواردن"),
+              text: "١. (ناو) کەوچک، چەقۆ، چنگاڵ، ھتد بۆ خواردن"),
           Row(
             children: [
               const Expanded(

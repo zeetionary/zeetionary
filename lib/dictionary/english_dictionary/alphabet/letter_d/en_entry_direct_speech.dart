@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Only direct speech should go inside inverted commas."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها قسەی ڕاستەوخۆ دەبێت لەناو کۆمای هەڵگەڕاوە بێت."),
+                            "تەنھا قسەی ڕاستەوخۆ دەبێت لەناو کۆمای ھەڵگەڕاوە بێت."),
                   ],
                 ),
               ),

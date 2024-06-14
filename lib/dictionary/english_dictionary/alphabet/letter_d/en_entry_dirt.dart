@@ -411,11 +411,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پیسی، چڵکنی، دژوێنی، ناخاوێنی، پۆخڵی، گەماری، گڵاوی،	خۆڵ، گڵ، قوڕ،	قسەی ناحەز، نهێنی، قسەی ساردوسووک، ناونیتکە، خراپەوتن، زەم‌کردن، پاشملە،	نافەرمی گوو، پیسایی، پیسی
+کوردی: پیسی، چڵکنی، دژوێنی، ناخاوێنی، پۆخڵی، گەماری، گڵاوی،	خۆڵ، گڵ، قوڕ،	قسەی ناحەز، نھێنی، قسەی ساردوسووک، ناونیتکە، خراپەوتن، زەم‌کردن، پاشملە،	نافەرمی گوو، پیسایی، پیسی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەر مادەیەک کە شتێک پیس دەکات، بۆ نموونە تۆز، خۆڵ، قوڕ"),
+                  "١. (ناو) ھەر مادەیەک کە شتێک پیس دەکات، بۆ نموونە تۆز، خۆڵ، قوڕ"),
           Row(
             children: [
               const Expanded(
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He picked up a handful of dirt and threw it at them."),
                     ExampleSentenceKurdish(
-                        text: "پڕ بە مشتی خۆڵی هەڵگرت و تێی هاویشتن."),
+                        text: "پڕ بە مشتی خۆڵی ھەڵگرت و تێی ھاویشتن."),
                   ],
                 ),
               ),
@@ -651,7 +651,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Do you have any dirt on the new guy?"),
                     ExampleSentenceKurdish(
-                        text: "هیچ نهێنییەکی ئەو کابرا تازە دەزانی؟"),
+                        text: "ھیچ نھێنییەکی ئەو کابرا تازە دەزانی؟"),
                   ],
                 ),
               ),
@@ -679,7 +679,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He could dig up so much dirt on her."),
                     ExampleSentenceKurdish(
-                        text: "دەیتوانی زۆر مەلەفی هەڵبداتەوە."),
+                        text: "دەیتوانی زۆر مەلەفی ھەڵبداتەوە."),
                   ],
                 ),
               ),

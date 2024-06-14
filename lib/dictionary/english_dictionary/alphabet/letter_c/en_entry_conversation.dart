@@ -195,11 +195,11 @@ class EnglishEntryconversation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: قسەکردن، پەیڤین، دوان، دوو، دراو، قسە، دەمەتەقێ، ئاخافتن، هاوپرسی، هاوبێژی، وت‌ووێژ، دان‌وستان
+کوردی: قسەکردن، پەیڤین، دوان، دوو، دراو، قسە، دەمەتەقێ، ئاخافتن، ھاوپرسی، ھاوبێژی، وت‌ووێژ، دان‌وستان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گفتوگۆیەکی نافەرمی کە ژمارەیەک کەس یان تەنها دوو کەس لەخۆدەگرێت"),
+                                  "١. (ناو) گفتوگۆیەکی نافەرمی کە ژمارەیەک کەس یان تەنھا دوو کەس لەخۆدەگرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,7 +210,7 @@ class EnglishEntryconversation extends StatelessWidget {
                                             "The main topic of conversation was the likely outcome of the election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بابەتی سەرەکیی گفتوگۆکە ئەنجامی پێشبینیکراوی هەڵبژاردنەکە بوو."),
+                                            "بابەتی سەرەکیی گفتوگۆکە ئەنجامی پێشبینیکراوی ھەڵبژاردنەکە بوو."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntryconversation extends StatelessWidget {
                                             "I had a long conversation with her the other day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو ڕۆژە گفتوگۆیەکی درێژم لەگەڵیدا هەبوو."),
+                                            "ئەو ڕۆژە گفتوگۆیەکی درێژم لەگەڵیدا ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntryconversation extends StatelessWidget {
                                             "She was engaged in conversation with a colleague."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گفتوگۆیەکی لەگەڵ هاوکارێکی هەبوو."),
+                                            "گفتوگۆیەکی لەگەڵ ھاوکارێکی ھەبوو."),
                                   ],
                                 ),
                               ),

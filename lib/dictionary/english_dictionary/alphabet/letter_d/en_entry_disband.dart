@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They set about disbanding the terrorist groups."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەستیان بە هەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد."),
+                            "دەستیان بە ھەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد."),
                   ],
                 ),
               ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The committee formally disbanded in August."),
                     ExampleSentenceKurdish(
-                        text: "لیژنەکە بە فەرمی لە ئابدا هەڵوەشایەوە."),
+                        text: "لیژنەکە بە فەرمی لە ئابدا ھەڵوەشایەوە."),
                   ],
                 ),
               ),

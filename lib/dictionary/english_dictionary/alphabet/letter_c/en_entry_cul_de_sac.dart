@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "This particular brand of socialism had entered a cul-de-sac (= could make no further progress)."),
                     ExampleSentenceKurdish(
-                        text: "ئەم شێوازە لە سۆشیاڵیزم ناگات بە هیچ ئاقارێک."),
+                        text: "ئەم شێوازە لە سۆشیاڵیزم ناگات بە ھیچ ئاقارێک."),
                   ],
                 ),
               ),

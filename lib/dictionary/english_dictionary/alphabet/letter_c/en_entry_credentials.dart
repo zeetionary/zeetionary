@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لێوەشاوەیی،	باوەڕنامە،	بەڵگەنامە
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) توانا و ڕاهێنان و ئەزموونی کردنی شتێک"),
+              text: "١. (ناو) توانا و ڕاھێنان و ئەزموونی کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She has impeccable credentials as a researcher."),
                     ExampleSentenceKurdish(
-                        text: "وەک توێژەر لێووەشایی بێ‌خەوشی هەیە."),
+                        text: "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He has all the credentials for the job."),
                     ExampleSentenceKurdish(
-                        text: "هەموو تایبەتمەندییەکانی کارەکەی هەیە."),
+                        text: "ھەموو تایبەتمەندییەکانی کارەکەی ھەیە."),
                   ],
                 ),
               ),

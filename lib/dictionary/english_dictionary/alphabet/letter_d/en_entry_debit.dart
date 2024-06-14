@@ -333,10 +333,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: لێ‌هەڵگرتن، لێ‌دەرهێنان،	قەرز،	حیسابی قەرزەکان
+// کوردی: لێ‌ھەڵگرتن، لێ‌دەرھێنان،	قەرز،	حیسابی قەرزەکان
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) بڕی ئەو پارەیەی کە لە هەژمارێکی بانکی دەرکراوە"),
+              text: "١. (ناو) بڕی ئەو پارەیەی کە لە ھەژمارێکی بانکی دەرکراوە"),
           // const DefinitionKurdish(text: "١. (ناو) نووسراوێک لە بانکێک یان تۆمارێکی دیکەی دارایی کە بڕی پارەی قەرزکراو و خەرجکراوی تێدایە"),
           Row(
             children: [
@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The total debits on the account were £2 000 last month."),
                     ExampleSentenceKurdish(
                         text:
-                            "دێبیتی گشتی لەسەر هەژمارەکە ٢٠٠٠ پاوەند بوو بۆ مانگی ڕابردوو."),
+                            "دێبیتی گشتی لەسەر ھەژمارەکە ٢٠٠٠ پاوەند بوو بۆ مانگی ڕابردوو."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The account was in debit at the end of the month (= more money had been spent than was in the account at that time)."),
                     ExampleSentenceKurdish(
-                        text: "هەژمارەکە لەکۆتایی مانگدا لە قەرزدا بوو."),
+                        text: "ھەژمارەکە لەکۆتایی مانگدا لە قەرزدا بوو."),
                   ],
                 ),
               ),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) دەرهێنانی پارە لە هەژمارێکی بانکی"),
+              text: "٢. (کردار) دەرھێنانی پارە لە ھەژمارێکی بانکی"),
           Row(
             children: [
               const Expanded(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The money will be debited from your account each month."),
                     ExampleSentenceKurdish(
-                        text: "پارەکە هەموو مانگێک لە هەژمارەکەت ڕادەکێشرێت."),
+                        text: "پارەکە ھەموو مانگێک لە ھەژمارەکەت ڕادەکێشرێت."),
                   ],
                 ),
               ),
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The bank debited the money from my account."),
                     ExampleSentenceKurdish(
-                        text: "بانکەکە پارەکەی لە هەژمارەکەم ڕاکێشا."),
+                        text: "بانکەکە پارەکەی لە ھەژمارەکەم ڕاکێشا."),
                   ],
                 ),
               ),

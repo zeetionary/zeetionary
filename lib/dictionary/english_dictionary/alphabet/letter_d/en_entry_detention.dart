@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گل‌دانەوە، دەس‌بەسەرکردن، گرتن، بەند(کردن)، ڕاگرتن، هێشتنەوە، زیندانی‌کردن،	زیندان، گرتووخانە، بەندی‌خانە، بەند
+کوردی: گل‌دانەوە، دەس‌بەسەرکردن، گرتن، بەند(کردن)، ڕاگرتن، ھێشتنەوە، زیندانی‌کردن،	زیندان، گرتووخانە، بەندی‌خانە، بەند
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دۆخی لە بەندیدا بوون، بەتایبەتی لە زیندا"),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was held in detention from 1991 to 2001."),
                     ExampleSentenceKurdish(
-                        text: "لە زینداندا هێڵدرایەوە لە ١٩٩١ تاوەکو ٢٠٠١."),
+                        text: "لە زینداندا ھێڵدرایەوە لە ١٩٩١ تاوەکو ٢٠٠١."),
                   ],
                 ),
               ),

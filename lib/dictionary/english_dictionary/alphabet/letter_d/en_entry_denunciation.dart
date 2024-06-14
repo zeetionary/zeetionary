@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناپەسندکردن، ڕووڕەش‌کردن، سووک‌کردن، شەرمەزارکردن، داڕزاندن،	تاوانبارکردن، گوناهبارکردن، گومانبارکردن،	ئاگادار (وریا)کردنەوە،	ڕەخنە،	زەم‌کردن، ناوزڕاندن
+کوردی: ناپەسندکردن، ڕووڕەش‌کردن، سووک‌کردن، شەرمەزارکردن، داڕزاندن،	تاوانبارکردن، گوناھبارکردن، گومانبارکردن،	ئاگادار (وریا)کردنەوە،	ڕەخنە،	زەم‌کردن، ناوزڕاندن
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سەرزەنشتکردنی توندی کەسێک/شتێک بە گشتی"),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All parties joined in bitter denunciation of the terrorists."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو پارتەکان یەکیان گرت لە سەرکۆنەی توندی تیرۆریستان."),
+                            "ھەموو پارتەکان یەکیان گرت لە سەرکۆنەی توندی تیرۆریستان."),
                   ],
                 ),
               ),

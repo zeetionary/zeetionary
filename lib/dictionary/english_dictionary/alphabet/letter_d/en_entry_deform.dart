@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The pressure had caused the wall to deform and buckle."),
                     ExampleSentenceKurdish(
                         text:
-                            "فشارەکە بووبوو هۆکاری ئەوەی دیوارەکە تێکبچێت و زیانیان پێ بگات."),
+                            "فشارەکە بووبوو ھۆکاری ئەوەی دیوارەکە تێکبچێت و زیانیان پێ بگات."),
                   ],
                 ),
               ),

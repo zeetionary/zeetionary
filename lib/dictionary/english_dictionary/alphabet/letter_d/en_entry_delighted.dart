@@ -472,7 +472,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She was delighted by the news of the wedding."),
                     ExampleSentenceKurdish(
-                        text: "خۆشحاڵ بووم بە هەواڵی هاوسەرگیرییەکە."),
+                        text: "خۆشحاڵ بووم بە ھەواڵی ھاوسەرگیرییەکە."),
                   ],
                 ),
               ),

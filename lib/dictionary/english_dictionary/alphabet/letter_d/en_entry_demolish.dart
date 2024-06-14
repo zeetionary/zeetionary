@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The factory is due to be demolished next year."),
                     ExampleSentenceKurdish(
-                        text: "کارگەکە ساڵی داهاتوو دەڕووخێندرێت."),
+                        text: "کارگەکە ساڵی داھاتوو دەڕووخێندرێت."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The old slums are being demolished to make way for a new housing project."),
                     ExampleSentenceKurdish(
                         text:
-                            "گەڕەکە هەژارنشینەکان دەڕووخێندرێن بۆ درووستکردنی شوێن بۆ پڕۆژەی خانووبەرە."),
+                            "گەڕەکە ھەژارنشینەکان دەڕووخێندرێن بۆ درووستکردنی شوێن بۆ پڕۆژەی خانووبەرە."),
                   ],
                 ),
               ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) پیشاندانی ئەوەی بیرۆکەیەک یان بیردۆزێک تەواو هەڵەیە"),
+                  "٢. (کردار) پیشاندانی ئەوەی بیرۆکەیەک یان بیردۆزێک تەواو ھەڵەیە"),
           const DividerSentences(),
           Row(
             children: [
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) بە تەواوی شکستهێنان بە کەسێک بە ئاسانی و تەواوی"),
+                  "٣. (کردار) بە تەواوی شکستھێنان بە کەسێک بە ئاسانی و تەواوی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -539,7 +539,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They demolished New Zealand 44–6 in the final."),
                     ExampleSentenceKurdish(
-                        text: "لە یاری کۆتاییدا ٤٤-٦ نیوزلەندایان شکستپێهێنا."),
+                        text: "لە یاری کۆتاییدا ٤٤-٦ نیوزلەندایان شکستپێھێنا."),
                   ],
                 ),
               ),
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The children demolished their chips."),
                     ExampleSentenceKurdish(
-                        text: "منداڵەکان چیپسەکانیان هەڵلووشی."),
+                        text: "منداڵەکان چیپسەکانیان ھەڵلووشی."),
                   ],
                 ),
               ),

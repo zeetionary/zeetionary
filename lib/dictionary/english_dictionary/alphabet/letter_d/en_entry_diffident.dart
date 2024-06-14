@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: باوەڕبەخۆنەبوو، لەخۆڕانەدیتوو، لەخۆڕانەپەڕموو، بێ‌باوەڕبەخۆ، تەریک،	دوودڵ، دڕدۆنگ، نادڵنیا، کەم‌ڕوو، لەڕووهەڵ‌نەهاتوو، لاتەریک، شەرم‌دار، شەرمێون، ترسەنۆک
+کوردی: باوەڕبەخۆنەبوو، لەخۆڕانەدیتوو، لەخۆڕانەپەڕموو، بێ‌باوەڕبەخۆ، تەریک،	دوودڵ، دڕدۆنگ، نادڵنیا، کەم‌ڕوو، لەڕووھەڵ‌نەھاتوو، لاتەریک، شەرم‌دار، شەرمێون، ترسەنۆک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نەبوونی متمانە بە خۆت"),
           Row(
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She felt diffident about speaking in public."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە لەخۆڕانەدیتووی دەکرد سەبارەت بە قسەکردن لەناو خەڵکیدا."),
+                            "ھەستی بە لەخۆڕانەدیتووی دەکرد سەبارەت بە قسەکردن لەناو خەڵکیدا."),
                   ],
                 ),
               ),

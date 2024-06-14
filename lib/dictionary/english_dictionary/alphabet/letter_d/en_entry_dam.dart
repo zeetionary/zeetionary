@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The dam has been breached and there is a danger of flooding."),
                     ExampleSentenceKurdish(
-                        text: "بەنداوەکە سەرڕێژ بووە و مەترسی لافاو هەیە."),
+                        text: "بەنداوەکە سەرڕێژ بووە و مەترسی لافاو ھەیە."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) دەریاچەیەکی دەستکرد کە باران و ئاوی بەهار تێیدا کۆدەکرێتەوە"),
+                  "٢. (ناو) دەریاچەیەکی دەستکرد کە باران و ئاوی بەھار تێیدا کۆدەکرێتەوە"),
           Row(
             children: [
               const Expanded(

@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He got a crick in the neck from sleeping in an awkward position."),
                     ExampleSentenceKurdish(
                         text:
-                            "تووشی کۆڵنجی مل بوو بەهۆی خەوتن لەسەر لایەکی ناڕێک."),
+                            "تووشی کۆڵنجی مل بوو بەھۆی خەوتن لەسەر لایەکی ناڕێک."),
                   ],
                 ),
               ),

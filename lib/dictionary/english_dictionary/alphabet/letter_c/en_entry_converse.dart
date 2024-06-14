@@ -198,7 +198,7 @@ class EnglishEntryconverse extends StatelessWidget {
 کوردی: قسەکردن، پەیڤین، دووان، دەمەتەقێ، ئاخافتن، پێچەوانە، دژ، بەرڤاژی، ئاوەژوو، شتی ئاوەژوو
 """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) هەبوونی گفتوگۆیەک لەگەڵ کەسێک"),
+                              text: "١. (کردار) ھەبوونی گفتوگۆیەک لەگەڵ کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -296,7 +296,7 @@ class EnglishEntryconverse extends StatelessWidget {
                                             "However, the converse of this theory may also be true."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەروەها پێچەوانەی ئەم چیرۆکەش دەکرێت ڕاست بێت."),
+                                            "ھەروەھا پێچەوانەی ئەم چیرۆکەش دەکرێت ڕاست بێت."),
                                   ],
                                 ),
                               ),
@@ -326,7 +326,7 @@ class EnglishEntryconverse extends StatelessWidget {
                                             "Building new roads increases traffic and the converse is equally true: reducing the number and size of roads means less traffic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بنیاتنانی ڕێگای تازە هاتووچۆ زیاد دەکات و پێچەوانەکەشی بە هەمان شێوە ڕاستە: کەمکردنەوەی ژمارە و قەبارەی ڕێگاکان واتا هاتووچۆی کەم."),
+                                            "بنیاتنانی ڕێگای تازە ھاتووچۆ زیاد دەکات و پێچەوانەکەشی بە ھەمان شێوە ڕاستە: کەمکردنەوەی ژمارە و قەبارەی ڕێگاکان واتا ھاتووچۆی کەم."),
                                   ],
                                 ),
                               ),

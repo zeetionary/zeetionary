@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her husband had been deceiving her for years."),
                     ExampleSentenceKurdish(
-                        text: "هاوسەرەکەی چەندین ساڵە دەیخەڵەتێنێت."),
+                        text: "ھاوسەرەکەی چەندین ساڵە دەیخەڵەتێنێت."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She deceived him into handing over all his savings."),
                     ExampleSentenceKurdish(
                         text:
-                            "فریوی دا بەوەی هەموو پارەی پاشەکەوتکراوی پێبدا."),
+                            "فریوی دا بەوەی ھەموو پارەی پاشەکەوتکراوی پێبدا."),
                   ],
                 ),
               ),
@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) وا لە کەسێک کردن کە تێگەشتنێکی هەڵەی هەبێت سەبارەت بە کەسێک یان شتێک"),
+                  "٣. (کردار) وا لە کەسێک کردن کە تێگەشتنێکی ھەڵەی ھەبێت سەبارەت بە کەسێک یان شتێک"),
           Row(
             children: [
               const Expanded(
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Unless my eyes deceive me, that's his wife."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەگەر ئەوەی چاوەکانم هەڵەیان پێکردبم، ئەوە ژنەکەیەتی."),
+                            "مەگەر ئەوەی چاوەکانم ھەڵەیان پێکردبم، ئەوە ژنەکەیەتی."),
                   ],
                 ),
               ),

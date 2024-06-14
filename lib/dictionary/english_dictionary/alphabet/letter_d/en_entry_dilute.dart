@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
                             "These measures are designed to dilute public fears about the product's safety."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم هەنگاوانە دانراون بۆ لاوازکردنی ترسی خەڵکی لەسەر سەلامەتی بەرهەمەکە."),
+                            "ئەم ھەنگاوانە دانراون بۆ لاوازکردنی ترسی خەڵکی لەسەر سەلامەتی بەرھەمەکە."),
                   ],
                 ),
               ),

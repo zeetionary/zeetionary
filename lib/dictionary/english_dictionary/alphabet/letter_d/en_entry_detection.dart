@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Many problems escape detection."),
-                    ExampleSentenceKurdish(text: "زۆر کێشە هەست پێ ناکرێن."),
+                    ExampleSentenceKurdish(text: "زۆر کێشە ھەست پێ ناکرێن."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Last year the detection rate for car theft was just 13 per cent."),
                     ExampleSentenceKurdish(
                         text:
-                            "ساڵی ڕابردوو دۆزینەوەی ئۆتۆمبێل دزین (لەلایەن پۆلیسەوە) تەنها ١٣ لە سەد بوو."),
+                            "ساڵی ڕابردوو دۆزینەوەی ئۆتۆمبێل دزین (لەلایەن پۆلیسەوە) تەنھا ١٣ لە سەد بوو."),
                   ],
                 ),
               ),

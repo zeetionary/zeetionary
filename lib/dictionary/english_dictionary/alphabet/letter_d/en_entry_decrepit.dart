@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پیر، فەرتووت، زورهان، شندۆک، زەلیل، پەڕپووت، ڕەندۆڵ، بەساڵاچوو،	شڕ، کۆن، شەق‌وشڕ، چەپەرەشڕ، (خانووبەرە) ڕوولە کاول‌بوون، کاولە، ڕوولە ڕووخان
+کوردی: پیر، فەرتووت، زورھان، شندۆک، زەلیل، پەڕپووت، ڕەندۆڵ، بەساڵاچوو،	شڕ، کۆن، شەق‌وشڕ، چەپەرەشڕ، (خانووبەرە) ڕوولە کاول‌بوون، کاولە، ڕوولە ڕووخان
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر کۆن و لە دۆخێکی خراپ"),
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I'm feeling old and decrepit."),
                     ExampleSentenceKurdish(
-                        text: "هەست بە پیری و بەساڵاچووی دەکەم."),
+                        text: "ھەست بە پیری و بەساڵاچووی دەکەم."),
                   ],
                 ),
               ),

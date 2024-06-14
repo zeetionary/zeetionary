@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The navy deployed a destroyer to the region."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێزی دەریایی کەشتییەکی شەڕکەری نارد بۆ هەرێمەکە."),
+                            "ھێزی دەریایی کەشتییەکی شەڕکەری نارد بۆ ھەرێمەکە."),
                   ],
                 ),
               ),

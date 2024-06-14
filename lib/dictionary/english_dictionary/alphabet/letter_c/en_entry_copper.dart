@@ -267,7 +267,7 @@ class EnglishEntrycopper extends StatelessWidget {
                                         text:
                                             "One of the properties of copper is that it conducts heat and electricity very well."),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها چەند فلسێکم پێدا."),
+                                        text: "تەنھا چەند فلسێکم پێدا."),
                                   ],
                                 ),
                               ),

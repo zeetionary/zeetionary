@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "This move could be seriously detrimental to the economy."),
                     ExampleSentenceKurdish(
-                        text: "ئەم هەنگاوە دەکرێت زیانبەخش بێت بۆ ئابووری."),
+                        text: "ئەم ھەنگاوە دەکرێت زیانبەخش بێت بۆ ئابووری."),
                   ],
                 ),
               ),

@@ -29,8 +29,8 @@ class EnglishEntrycopout extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Not turning up was just a cop-out."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Not turning up was just a cop-out."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcopouts2(String languageCode) async {
@@ -191,7 +191,7 @@ class EnglishEntrycopout extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خۆدزینەوە لە شتێک"),
@@ -204,7 +204,8 @@ class EnglishEntrycopout extends StatelessWidget {
                                         text:
                                             "Not turning up was just a cop-out."),
                                     ExampleSentenceKurdish(
-                                        text: "ئامادەنەبوون تەنها خۆدزینەوەیەک بوو."),
+                                        text:
+                                            "ئامادەنەبوون تەنھا خۆدزینەوەیەک بوو."),
                                   ],
                                 ),
                               ),

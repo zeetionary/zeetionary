@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The opposition to her plan made her more determined than ever."),
                     ExampleSentenceKurdish(
                         text:
-                            "دژبەری بۆ پلانەکەت زیاتر لە هەمیشە شێتگیری کرد."),
+                            "دژبەری بۆ پلانەکەت زیاتر لە ھەمیشە شێتگیری کرد."),
                   ],
                 ),
               ),
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) پیشاندانی ویستی بەهێز بۆ کردنی شتێک"),
+              text: "٢. (ھاوەڵناو) پیشاندانی ویستی بەھێز بۆ کردنی شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I made a determined effort to stop smoking."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵێکی بەهێزم دا کە لە جگەرەکێشان بوەستم."),
+                        text: "ھەوڵێکی بەھێزم دا کە لە جگەرەکێشان بوەستم."),
                   ],
                 ),
               ),
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The proposal had been dropped in the face of determined opposition."),
                     ExampleSentenceKurdish(
-                        text: "پێشنیارەکە وازلێهێنرا بەهۆی دژبەری توند بۆی."),
+                        text: "پێشنیارەکە وازلێھێنرا بەھۆی دژبەری توند بۆی."),
                   ],
                 ),
               ),

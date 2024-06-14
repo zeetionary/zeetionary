@@ -407,10 +407,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێدی، بێ‌هیوایی، دڵساردی، مایەی دڵساردی
+کوردی: ناھومێدی، بێ‌ھیوایی، دڵساردی، مایەی دڵساردی
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) هەستی لەدەستدانی هەموو هیوایەک"),
+              text: "١. (ناو) ھەستی لەدەستدانی ھەموو ھیوایەک"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She uttered a cry of despair."),
-                    ExampleSentenceKurdish(text: "هاوارێکی بێ‌هیوایی کرد."),
+                    ExampleSentenceKurdish(text: "ھاوارێکی بێ‌ھیوایی کرد."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He gave up the struggle in despair."),
                     ExampleSentenceKurdish(
-                        text: "لە بێ‌هیواییدا کۆڵی لە تەقەڵالەدا."),
+                        text: "لە بێ‌ھیواییدا کۆڵی لە تەقەڵالەدا."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He fell into despair over his failure as a husband."),
                     ExampleSentenceKurdish(
-                        text: "بەهۆی شکستی وەک هاوژینێک کەوتە ناو بێ‌هیوایی."),
+                        text: "بەھۆی شکستی وەک ھاوژینێک کەوتە ناو بێ‌ھیوایی."),
                   ],
                 ),
               ),
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) لەدەستدانی هیوا"),
+          const DefinitionKurdish(text: "٢. (کردار) لەدەستدانی ھیوا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -504,7 +504,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Don't despair! We'll think of a way out of this."),
                     ExampleSentenceKurdish(
-                        text: "هیوابڕاو مەبە! ڕێگایەکی ڕزگاربوون دەدۆزینەوە."),
+                        text: "ھیوابڕاو مەبە! ڕێگایەکی ڕزگاربوون دەدۆزینەوە."),
                   ],
                 ),
               ),
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They'd almost despaired of ever having children."),
                     ExampleSentenceKurdish(
                         text:
-                            "تاڕادەیەک بە تەواوی هوابڕاو بوون لەوەی هەرگیز منداڵیان ببێت."),
+                            "تاڕادەیەک بە تەواوی ھوابڕاو بوون لەوەی ھەرگیز منداڵیان ببێت."),
                   ],
                 ),
               ),

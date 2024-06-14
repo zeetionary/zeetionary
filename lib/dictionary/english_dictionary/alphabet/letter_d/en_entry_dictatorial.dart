@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دیکتاتۆری، زۆردار، سەرەڕۆ، ملهوڕ،	زۆردارانە، دەستووردەرانە
+کوردی: دیکتاتۆری، زۆردار، سەرەڕۆ، ملھوڕ،	زۆردارانە، دەستووردەرانە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پەیوەندیدار بە دەسەڵاتدارێکی دیکتاتۆر"),
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He still remembers the dictatorial reign of Stalin's last years."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێشتا کۆتا ساڵەکانی ماوەی دیکتاتۆریەتیی ستالینی لەبیرە."),
+                            "ھێشتا کۆتا ساڵەکانی ماوەی دیکتاتۆریەتیی ستالینی لەبیرە."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The military leader gradually assumed more and more dictatorial powers."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرکردە سەرکوتکارەکە کەم کەم دەسەڵاتی زیاتری بەدەستهێنا."),
+                            "سەرکردە سەرکوتکارەکە کەم کەم دەسەڵاتی زیاتری بەدەستھێنا."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) بەکارهێنانی دەسەڵات بەشێوەیەکی خراپ کە بە خەڵکی بڵێیت چی بکەن بەبێ ئەوەی گوێیان لێ بگریت"),
+                  "٢. (ھاوەڵناو) بەکارھێنانی دەسەڵات بەشێوەیەکی خراپ کە بە خەڵکی بڵێیت چی بکەن بەبێ ئەوەی گوێیان لێ بگریت"),
           // const DividerSentences(),
           Row(
             children: [

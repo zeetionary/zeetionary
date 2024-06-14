@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Water freezes at 32 degrees Fahrenheit (32°F) or zero/nought degrees Celsius (0°C)."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاو لە پلەی ٣٢ پلەی فەهرنایت یان سفری سیلیزی دەیبەستێت."),
+                            "ئاو لە پلەی ٣٢ پلەی فەھرنایت یان سفری سیلیزی دەیبەستێت."),
                   ],
                 ),
               ),
@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Last weekend temperatures reached 40 degrees."),
                     ExampleSentenceKurdish(
-                        text: "پلەکانی گەرمی هەفتەی پێشوو گەشتن بە ٤٠ پلە."),
+                        text: "پلەکانی گەرمی ھەفتەی پێشوو گەشتن بە ٤٠ پلە."),
                   ],
                 ),
               ),
@@ -597,7 +597,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her job demands a high degree of skill."),
                     ExampleSentenceKurdish(
-                        text: "کارەکەی پێویستی بە ئاستێکی زۆری شارەزایی هەیە."),
+                        text: "کارەکەی پێویستی بە ئاستێکی زۆری شارەزایی ھەیە."),
                   ],
                 ),
               ),
@@ -623,7 +623,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I agree with you to a certain degree."),
                     ExampleSentenceKurdish(
-                        text: "بە ئاستی جیاواز لەگەڵت هاوڕام."),
+                        text: "بە ئاستی جیاواز لەگەڵت ھاوڕام."),
                   ],
                 ),
               ),
@@ -708,7 +708,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "My brother has a master's degree from Harvard."),
                     ExampleSentenceKurdish(
-                        text: "براکەم بڕوانامەی ماستەری هەیە لە هارڤارد."),
+                        text: "براکەم بڕوانامەی ماستەری ھەیە لە ھارڤارد."),
                   ],
                 ),
               ),
@@ -734,7 +734,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She's pursuing a degree in biochemistry."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵ بۆ بڕوانامەیەک دەدات لە زیندە کیمیادا."),
+                        text: "ھەوڵ بۆ بڕوانامەیەک دەدات لە زیندە کیمیادا."),
                   ],
                 ),
               ),
@@ -762,7 +762,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She earned a joint degree in Spanish and Psychology."),
                     ExampleSentenceKurdish(
                         text:
-                            "بڕوانامەیەکی هاوبەشی لە ئیسپانی و دەروونناسی هێنا."),
+                            "بڕوانامەیەکی ھاوبەشی لە ئیسپانی و دەروونناسی ھێنا."),
                   ],
                 ),
               ),
@@ -792,7 +792,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I'm hoping to do a chemistry degree."),
                     ExampleSentenceKurdish(
-                        text: "هیوادارم کۆرسێکی کیمیا بخوێنم."),
+                        text: "ھیوادارم کۆرسێکی کیمیا بخوێنم."),
                   ],
                 ),
               ),

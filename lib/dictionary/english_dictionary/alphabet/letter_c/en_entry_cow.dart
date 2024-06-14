@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We had several chickens and a dairy cow on our farm."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک مریشک و مانگایەکی شیردەرمان هەبوو لە کێڵگەکەمان."),
+                            "ژمارەیەک مریشک و مانگایەکی شیردەرمان ھەبوو لە کێڵگەکەمان."),
                   ],
                 ),
               ),
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Most of these ranchers own only own a bull and about twenty cows."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرێک لەم ئاژەڵدارانە تەنها یەک نێرەگا و نزیکەی ٢٠ مانگایان هەیە."),
+                            "زۆرێک لەم ئاژەڵدارانە تەنھا یەک نێرەگا و نزیکەی ٢٠ مانگایان ھەیە."),
                   ],
                 ),
               ),
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) مێینەی فیل، نەهەنگ، و هەندێک شیردەری گەورەی دیکە"),
+                  "٢. (ناو) مێینەی فیل، نەھەنگ، و ھەندێک شیردەری گەورەی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She felt hurt when she overheard someone refer to her as a cow."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە دڵشکان کرد کە گوێی لە کەسێک بوو بە دەڵەقۆڕ ناویهێنا."),
+                            "ھەستی بە دڵشکان کرد کە گوێی لە کەسێک بوو بە دەڵەقۆڕ ناویھێنا."),
                   ],
                 ),
               ),

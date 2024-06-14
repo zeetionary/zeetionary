@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەڵەیەک لە شتێک یان شێوازی درووستکردنی کە واتای ئەوەیە کێشەی هەیە"),
+                  "١. (ناو) ھەڵەیەک لە شتێک یان شێوازی درووستکردنی کە واتای ئەوەیە کێشەی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The photograph shows slight defects due to age."),
                     ExampleSentenceKurdish(
-                        text: "وێنەکە کەمێک عەیبی تێدایە بەهۆی تەمەنەوە."),
+                        text: "وێنەکە کەمێک عەیبی تێدایە بەھۆی تەمەنەوە."),
                   ],
                 ),
               ),
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The book contains serious defects."),
-                    ExampleSentenceKurdish(text: "کتێبەکە هەڵەی سەختی تێدایە."),
+                    ExampleSentenceKurdish(text: "کتێبەکە ھەڵەی سەختی تێدایە."),
                   ],
                 ),
               ),
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The inspector found defects in the aircraft's construction."),
                     ExampleSentenceKurdish(
                         text:
-                            "پشکنەرەکە هەڵەی دۆزییەوە لە درووستکردنی فڕۆکەکەدا."),
+                            "پشکنەرەکە ھەڵەی دۆزییەوە لە درووستکردنی فڕۆکەکەدا."),
                   ],
                 ),
               ),
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The child had a mild heart defect."),
                     ExampleSentenceKurdish(
-                        text: "منداڵەکە کێشەیەکی بچووکی دڵی هەیە."),
+                        text: "منداڵەکە کێشەیەکی بچووکی دڵی ھەیە."),
                   ],
                 ),
               ),
@@ -487,7 +487,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He has a congenital heart defect."),
-                    ExampleSentenceKurdish(text: "کێشەیەکی زگماکی دڵی هەیە."),
+                    ExampleSentenceKurdish(text: "کێشەیەکی زگماکی دڵی ھەیە."),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The drug is widely known to cause birth defects."),
                     ExampleSentenceKurdish(
                         text:
-                            "مادەکە بەشێوەیەکی بەرفراوان ناسراوە بەوەی کە ببێتە هۆکاری کێشەی منداڵبوون."),
+                            "مادەکە بەشێوەیەکی بەرفراوان ناسراوە بەوەی کە ببێتە ھۆکاری کێشەی منداڵبوون."),
                   ],
                 ),
               ),
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) جێهێشتنی پارتێکی سیاسی، وڵاتێک، هتد و پەیوەندی کردن بە یەکێکی دیکەوە کە بە دوژمن دادەنرێت"),
+                  "٣. (کردار) جێھێشتنی پارتێکی سیاسی، وڵاتێک، ھتد و پەیوەندی کردن بە یەکێکی دیکەوە کە بە دوژمن دادەنرێت"),
           Row(
             children: [
               const Expanded(
@@ -546,7 +546,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She defected from the party just days before the election."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها چەند ڕۆژێک پێش هەڵبژاردن پارتەکەی جێهێشت."),
+                            "تەنھا چەند ڕۆژێک پێش ھەڵبژاردن پارتەکەی جێھێشت."),
                   ],
                 ),
               ),
@@ -574,7 +574,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A number of writers and musicians defected from the Soviet Union to the West in the 1960s."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک نووسەر و میوزیکژەن یەکێتی سۆڤیەتیان بۆ وڵاتانی ڕۆژئاوا جێهێشت لە ساڵانی ١٩٦٠ ـەکان."),
+                            "ژمارەیەک نووسەر و میوزیکژەن یەکێتی سۆڤیەتیان بۆ وڵاتانی ڕۆژئاوا جێھێشت لە ساڵانی ١٩٦٠ ـەکان."),
                   ],
                 ),
               ),

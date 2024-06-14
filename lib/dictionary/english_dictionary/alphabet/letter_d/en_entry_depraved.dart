@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خراپ، لاداو، خریایی، بێ‌ئەخلاق، ڕێ‌هەڵەکردوو، گومڕا، داچوو، لەڕێ‌دەرچوو
+کوردی: خراپ، لاداو، خریایی، بێ‌ئەخلاق، ڕێ‌ھەڵەکردوو، گومڕا، داچوو، لەڕێ‌دەرچوو
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە لە ڕووی ئەخلاقییەوە خراپە"),

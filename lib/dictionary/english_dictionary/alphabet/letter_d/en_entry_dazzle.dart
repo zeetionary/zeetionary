@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) نەبینینی توانای بینین بۆ ماوەیەک بەهۆی ڕۆشناییەکی بەهێزەوە"),
+                  "١. (کردار) نەبینینی توانای بینین بۆ ماوەیەک بەھۆی ڕۆشناییەکی بەھێزەوە"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He was momentarily dazzled by the strong sunlight."),
                     ExampleSentenceKurdish(
-                        text: "بۆ کەمێک شەوارەی کرد بە تیشکە خۆرە بەهێزەکە."),
+                        text: "بۆ کەمێک شەوارەی کرد بە تیشکە خۆرە بەھێزەکە."),
                   ],
                 ),
               ),
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) سەرسامکردنی کەسێک بە ئاستێکی زۆر بە شارەزایی، جوانی، هتد"),
+                  "٢. (کردار) سەرسامکردنی کەسێک بە ئاستێکی زۆر بە شارەزایی، جوانی، ھتد"),
           Row(
             children: [
               const Expanded(

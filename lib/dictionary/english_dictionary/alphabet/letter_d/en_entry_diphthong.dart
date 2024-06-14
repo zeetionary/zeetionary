@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Regional accents may alter the diphthong in \"fire\"."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەکسێنتە هەرێمییەکان ڕەنگە دووبزوێنەی 'fire' بگۆڕن."),
+                            "ئەکسێنتە ھەرێمییەکان ڕەنگە دووبزوێنەی 'fire' بگۆڕن."),
                   ],
                 ),
               ),

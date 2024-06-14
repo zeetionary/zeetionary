@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (ڕێگا و هتد) پێچەڵاوپێچ، لاڕێ، ناڕاست، خواروخێچ،	فێڵاوی، زۆڵ، ناڕاست، نادروست، فریودەرانە، تەفرەدەرانە، لەخشتەبەرانە
+کوردی: (ڕێگا و ھتد) پێچەڵاوپێچ، لاڕێ، ناڕاست، خواروخێچ،	فێڵاوی، زۆڵ، ناڕاست، نادروست، فریودەرانە، تەفرەدەرانە، لەخشتەبەرانە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بەشێوەی فێڵاوی و لەخشتەبەرانە"),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He's as devious as a politician needs to be."),
                     ExampleSentenceKurdish(
-                        text: "هێندەی سیاسەتمەدارێک فێڵبازە."),
+                        text: "ھێندەی سیاسەتمەدارێک فێڵبازە."),
                   ],
                 ),
               ),

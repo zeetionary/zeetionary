@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I had a sore throat and could only croak."),
                     ExampleSentenceKurdish(
-                        text: "ئاوسانی قوڕگم هەبوو تەنها دەمتوانی بقرخێنم."),
+                        text: "ئاوسانی قوڕگم ھەبوو تەنھا دەمتوانی بقرخێنم."),
                   ],
                 ),
               ),
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are other countries I'd like to visit before I croak."),
                     ExampleSentenceKurdish(
                         text:
-                            "وڵاتی دیکە هەیە دەمەوێت سەردانی بکەم پێش ئەوەی بمرم."),
+                            "وڵاتی دیکە ھەیە دەمەوێت سەردانی بکەم پێش ئەوەی بمرم."),
                   ],
                 ),
               ),
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The frog crawled out with a croak."),
                     ExampleSentenceKurdish(
-                        text: "بۆقەکە بە قیڕەقیڕێکەوە هەڵبەزییە دەرەوە."),
+                        text: "بۆقەکە بە قیڕەقیڕێکەوە ھەڵبەزییە دەرەوە."),
                   ],
                 ),
               ),

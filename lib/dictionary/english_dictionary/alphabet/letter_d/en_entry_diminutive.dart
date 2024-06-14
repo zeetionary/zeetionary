@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She was a diminutive figure beside her husband."),
                     ExampleSentenceKurdish(
-                        text: "هەیکەلێکی بچووک بوو لە تەنیشت هاوسەرەکەی."),
+                        text: "ھەیکەلێکی بچووک بوو لە تەنیشت ھاوسەرەکەی."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He exercised frequently, trying to add strength to his diminutive body."),
                     ExampleSentenceKurdish(
                         text:
-                            "زوو زوو ڕاهێنانی دەکرد بەوەی هەوڵی دەدا هێز بۆ جەستە بچووکەکەی زیاد بکات."),
+                            "زوو زوو ڕاھێنانی دەکرد بەوەی ھەوڵی دەدا ھێز بۆ جەستە بچووکەکەی زیاد بکات."),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The findings do not support previous studies on gender differences in parental use of diminutives with young children."),
                     ExampleSentenceKurdish(
                         text:
-                            "دۆزینەوەکان پشتگیری توێژینەوە کۆنەکان ناکەن لەوەی کە جیاوازیی ڕەگەزی لە نێوان دایباباندا هەبووبێت بۆ وشەی چکۆلێنراو بۆ منداڵان."),
+                            "دۆزینەوەکان پشتگیری توێژینەوە کۆنەکان ناکەن لەوەی کە جیاوازیی ڕەگەزی لە نێوان دایباباندا ھەبووبێت بۆ وشەی چکۆلێنراو بۆ منداڵان."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her friends call her Margaret, never using diminutives such as Maggie."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاوڕێکانی پێی دەڵێن مارگرێت، هەرگیز کورتکراوەکانی وەک ماگی بەکارناهێنن."),
+                            "ھاوڕێکانی پێی دەڵێن مارگرێت، ھەرگیز کورتکراوەکانی وەک ماگی بەکارناھێنن."),
                   ],
                 ),
               ),

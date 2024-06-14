@@ -333,10 +333,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیهانی، گەردوونی، هەمەڕەنگ،	جیهان‌گیر، جیهان‌داگر، جیهان‌گرەوە، جیهان‌نیشتمان،	بنیادەمی بەئەزموون، دنیادیتوو 
+کوردی: جیھانی، گەردوونی، ھەمەڕەنگ،	جیھان‌گیر، جیھان‌داگر، جیھان‌گرەوە، جیھان‌نیشتمان،	بنیادەمی بەئەزموون، دنیادیتوو 
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) پێکهاتوو لە خەڵکی جۆراوجۆر"),
+              text: "١. (ھاوەڵناو) پێکھاتوو لە خەڵکی جۆراوجۆر"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Jamaica is a very cosmopolitan island."),
                     ExampleSentenceKurdish(
-                        text: "جامایکا دوورگەیەکی زۆر هەمەڕەنگە."),
+                        text: "جامایکا دوورگەیەکی زۆر ھەمەڕەنگە."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She liked the cosmopolitan atmosphere of the city."),
                     ExampleSentenceKurdish(
-                        text: "حەزی بە کەشی جیهان‌گیری شارەکە بوو."),
+                        text: "حەزی بە کەشی جیھان‌گیری شارەکە بوو."),
                   ],
                 ),
               ),
@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) هەبوونی ئەزموونی بەرفراوان لە زۆر وڵاتی جیاوازەوە"),
+                  "٢. (ھاوەڵناو) ھەبوونی ئەزموونی بەرفراوان لە زۆر وڵاتی جیاوازەوە"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) کە لە هەموو جیهاندا هەیە، بۆ نموونە ئاژەڵێک یان ڕووەکێک"),
+                  "٣. (ھاوەڵناو) کە لە ھەموو جیھاندا ھەیە، بۆ نموونە ئاژەڵێک یان ڕووەکێک"),
           Row(
             children: [
               const Expanded(
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Sea urchins are cosmopolitan in their distribution."),
                     ExampleSentenceKurdish(
-                        text: "ژیشکی دەریا لە دابەشبوونیاندا جیهان‌گیرن."),
+                        text: "ژیشکی دەریا لە دابەشبوونیاندا جیھان‌گیرن."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ناو) کەسێک کە ئەزموونی زۆری لە زۆر وڵاتی جیهانەوە هەیە"),
+                  "٤. (ناو) کەسێک کە ئەزموونی زۆری لە زۆر وڵاتی جیھانەوە ھەیە"),
           Row(
             children: [
               const Expanded(

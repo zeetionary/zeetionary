@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (دەنگ) قرچە، قرچەقرچ، قرچ‌وهۆڕ، شریخەشریخ، شەقەشەق
+کوردی: (دەنگ) قرچە، قرچەقرچ، قرچ‌وھۆڕ، شریخەشریخ، شەقەشەق
 """),
           const DefinitionKurdish(
               text:
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) دەنگی قرچەقرچ، هتد"),
+          const DefinitionKurdish(text: "٢. (ناو) دەنگی قرچەقرچ، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The planes arrived with a crackle of gunfire."),
                     ExampleSentenceKurdish(
-                        text: "فڕۆکە بە زرمەزرمی تەقەوە هاتن."),
+                        text: "فڕۆکە بە زرمەزرمی تەقەوە ھاتن."),
                   ],
                 ),
               ),

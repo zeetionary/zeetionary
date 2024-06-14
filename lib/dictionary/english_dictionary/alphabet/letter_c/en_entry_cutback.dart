@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There have been substantial staff cutbacks in order to save money."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێژەیەکی زۆر کەمکردنەوە لە ستافدا هەبووە بۆ گەڕاندنەوەی پارە."),
+                            "ڕێژەیەکی زۆر کەمکردنەوە لە ستافدا ھەبووە بۆ گەڕاندنەوەی پارە."),
                   ],
                 ),
               ),

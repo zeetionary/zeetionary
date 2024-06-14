@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "He left the hotel surrounded by crowds of journalists."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هوتێلەکەی جێهێشت کە بە ژمارەیەک لە ڕۆژنامەنووس دەوردرابوو."),
+                                    "ھوتێلەکەی جێھێشت کە بە ژمارەیەک لە ڕۆژنامەنووس دەوردرابوو."),
                           ],
                         ),
                       ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Bob introduced her to some of the usual crowd (= people who often meet each other)."),
                     ExampleSentenceKurdish(
-                        text: "بۆب ناساندی بە هەندێک لە کۆمەڵە ئاشناکان."),
+                        text: "بۆب ناساندی بە ھەندێک لە کۆمەڵە ئاشناکان."),
                   ],
                 ),
               ),
@@ -549,7 +549,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "They were a bit of a motley crowd."),
-                    ExampleSentenceKurdish(text: "دەستەیەکی هەمەڕەنگ بوون."),
+                    ExampleSentenceKurdish(text: "دەستەیەکی ھەمەڕەنگ بوون."),
                   ],
                 ),
               ),
@@ -574,7 +574,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He got in with the wrong crowd."),
-                    ExampleSentenceKurdish(text: "چووە ناو گرووپێکی هەڵەوە."),
+                    ExampleSentenceKurdish(text: "چووە ناو گرووپێکی ھەڵەوە."),
                   ],
                 ),
               ),
@@ -603,7 +603,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We all like to think we stand out from the crowd (= are different from and better than other people)."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئێمە هەموومان حەز دەکەین وا بیربکەینەوە کە جیاوازین خەڵکە ڕەجاڵەکە."),
+                            "ئێمە ھەموومان حەز دەکەین وا بیربکەینەوە کە جیاوازین خەڵکە ڕەجاڵەکە."),
                   ],
                 ),
               ),
@@ -658,7 +658,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Thousands of people crowded the narrow streets."),
                     ExampleSentenceKurdish(
-                        text: "هەزاران کەس شەقامە تەسکەکانیان پڕکرد."),
+                        text: "ھەزاران کەس شەقامە تەسکەکانیان پڕکرد."),
                   ],
                 ),
               ),
@@ -678,7 +678,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (کردار) پڕکردنی مێشکت بۆ ئەوەی بیر لە هیچی دیکە نەکەیتەوە"),
+                  "٥. (کردار) پڕکردنی مێشکت بۆ ئەوەی بیر لە ھیچی دیکە نەکەیتەوە"),
           Row(
             children: [
               const Expanded(

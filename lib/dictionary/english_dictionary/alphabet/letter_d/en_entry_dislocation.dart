@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەجێ‌چوون، وەرگەڕان، خەلیان،	هەڵوەشان، تێکچوون، شڵەژان، شێوان
+کوردی: لەجێ‌چوون، وەرگەڕان، خەلیان،	ھەڵوەشان، تێکچوون، شڵەژان، شێوان
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دەرچوونی ئێسکێک لە ذوێنی ئاسایی خۆی"),

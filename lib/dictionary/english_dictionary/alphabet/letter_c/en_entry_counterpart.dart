@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هاوتا، چوون، ڕوونووس، دەق، وێنە، وەکوویەک، وەک‌یەک، هاوشێوە، هاوتا، هاوجووت، لێکچوو
+کوردی: ھاوتا، چوون، ڕوونووس، دەق، وێنە، وەکوویەک، وەک‌یەک، ھاوشێوە، ھاوتا، ھاوجووت، لێکچوو
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک یان شتێک کە هاوتای یەکێکی دیکەیە"),
+              text: "١. (ناو) کەسێک یان شتێک کە ھاوتای یەکێکی دیکەیە"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Foreign Minister held talks with his Chinese counterpart."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەزیری دەرەوە گفتوگۆی کرد لەگەڵ هاوتا چینییەکەی."),
+                            "وەزیری دەرەوە گفتوگۆی کرد لەگەڵ ھاوتا چینییەکەی."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Women soldiers will join their male counterparts at the army base."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژنە سەربازەکان پەیوەندی بە هاوتا پیاوەکانیانەوە دەکەن لە بنکە سەربازییەکە."),
+                            "ژنە سەربازەکان پەیوەندی بە ھاوتا پیاوەکانیانەوە دەکەن لە بنکە سەربازییەکە."),
                   ],
                 ),
               ),

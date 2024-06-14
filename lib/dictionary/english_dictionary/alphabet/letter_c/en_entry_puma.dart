@@ -334,8 +334,8 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئاژەڵێکی کێوی گەورەی ئەمریکی کە لە خێزانی پشیلەکانە کە فەرووی خۆڵەمێشی یان قاوەیی زەردباوی هەیە"),
-          const AlsoEnglishckb(word: "هەروەها: cougar"),
+                  "١. (ناو) ئاژەڵێکی کێوی گەورەی ئەمریکی کە لە خێزانی پشیلەکانە کە فەرووی خۆڵەمێشی یان قاوەیی زەردباوی ھەیە"),
+          const AlsoEnglishckb(word: "ھەروەھا: cougar"),
           Row(
             children: [
               const Expanded(

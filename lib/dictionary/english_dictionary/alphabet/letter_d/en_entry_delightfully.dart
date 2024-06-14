@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The hotel is delightfully situated on the edge of the lake."),
                     ExampleSentenceKurdish(
                         text:
-                            "هوتێلەکە بە شێوەیەکی خۆش کەتووەتە سەر قەراغی دەریاچەیەک."),
+                            "ھوتێلەکە بە شێوەیەکی خۆش کەتووەتە سەر قەراغی دەریاچەیەک."),
                   ],
                 ),
               ),

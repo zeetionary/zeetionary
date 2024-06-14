@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بە شێوەیەکی هەڵسەنگێنراو، لێکدراوانە، زیرەکانە، سیاسی‌یانە، لێزانانە
+کوردی: بە شێوەیەکی ھەڵسەنگێنراو، لێکدراوانە، زیرەکانە، سیاسی‌یانە، لێزانانە
 """),
           const DefinitionKurdish(
               text:
@@ -438,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە هەبوونی توانای مامەڵە لەگەڵ خەڵکی لە دۆخی سەختدا پیشان دەدات"),
+                  "٢. (ھاوەڵکار) بەشێوەیەک کە ھەبوونی توانای مامەڵە لەگەڵ خەڵکی لە دۆخی سەختدا پیشان دەدات"),
           // const DividerSentences(),
           Row(
             children: [
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He had to choose his words diplomatically."),
                     ExampleSentenceKurdish(
-                        text: "دەبوو سیاسییانە وشەکانی هەڵبژێرێت."),
+                        text: "دەبوو سیاسییانە وشەکانی ھەڵبژێرێت."),
                   ],
                 ),
               ),

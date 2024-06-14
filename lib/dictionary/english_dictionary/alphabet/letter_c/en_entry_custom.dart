@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داب، ڕەسم، ئاسا، نەریت، هۆرتە، یاسا، کەڤنەشۆپ، کەلەپوور، عورف، دەستوور، ڕێ‌وشوێن (کۆمەڵایەتی)،	پیشە، عادەت، خوو،	کڕین، سەندن،	کڕیار، مشتەری، کڕیاران،	ڕاسپاردەیی، کەسانە،	کەسانەدروو، تایبەت‌دروو
+کوردی: داب، ڕەسم، ئاسا، نەریت، ھۆرتە، یاسا، کەڤنەشۆپ، کەلەپوور، عورف، دەستوور، ڕێ‌وشوێن (کۆمەڵایەتی)،	پیشە، عادەت، خوو،	کڕین، سەندن،	کڕیار، مشتەری، کڕیاران،	ڕاسپاردەیی، کەسانە،	کەسانەدروو، تایبەت‌دروو
 """),
           const DefinitionKurdish(
               text:
@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                             "According to custom, one son inherited all the family property."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەپێی داب و نەریت، یەک کوڕ هەموو سامانی خێزانەکەی وەردەگرت."),
+                            "بەپێی داب و نەریت، یەک کوڕ ھەموو سامانی خێزانەکەی وەردەگرت."),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "It is the custom in that country for women to marry young."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەوە ئادابێکە لە وڵاتەکەدا بۆ ژنان کە بە گەنجی هاوسەرگیری بکەن."),
+                                    "ئەوە ئادابێکە لە وڵاتەکەدا بۆ ژنان کە بە گەنجی ھاوسەرگیری بکەن."),
                           ],
                         ),
                       ),
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The custom died out in the nineteenth century."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "نەریتەکە لە سەدەی نۆزدەیەمدا کۆتایی هات."),
+                                    "نەریتەکە لە سەدەی نۆزدەیەمدا کۆتایی ھات."),
                           ],
                         ),
                       ),
@@ -521,7 +521,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "These customs still prevail in remote areas."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەم نەریتانە هێشتا باون لە ناوچە دوورەدەستەکاندا."),
+                                    "ئەم نەریتانە ھێشتا باون لە ناوچە دوورەدەستەکاندا."),
                           ],
                         ),
                       ),
@@ -552,7 +552,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It was her custom to rise early."),
                     ExampleSentenceKurdish(
-                        text: "ئەوە خوویەکی بوو کە زوو لە خەو هەستێت."),
+                        text: "ئەوە خوویەکی بوو کە زوو لە خەو ھەستێت."),
                   ],
                 ),
               ),
@@ -578,7 +578,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "As was his custom, he knocked three times."),
                     ExampleSentenceKurdish(
-                        text: "وەک خووی هەمیشەیی، سێ جار لە دەرگای دا."),
+                        text: "وەک خووی ھەمیشەیی، سێ جار لە دەرگای دا."),
                   ],
                 ),
               ),
@@ -608,7 +608,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Thank you for your custom. Please call again."),
                     ExampleSentenceKurdish(
-                        text: "سوپاس بۆ هەڵبژاردنمان. تکایە پەیوەندی بکەوە."),
+                        text: "سوپاس بۆ ھەڵبژاردنمان. تکایە پەیوەندی بکەوە."),
                   ],
                 ),
               ),
@@ -656,7 +656,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ھاوەڵناو) دیزاین کراو و بەکارهێنراو بۆ هۆکارێکی تایبەت"),
+                  "٤. (ھاوەڵناو) دیزاین کراو و بەکارھێنراو بۆ ھۆکارێکی تایبەت"),
           Row(
             children: [
               const Expanded(

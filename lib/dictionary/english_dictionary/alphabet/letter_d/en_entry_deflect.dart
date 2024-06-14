@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All attempts to deflect attention from his private life have failed."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو هەوڵەکان بۆ لادانی سەرنج لەسەر ژیانی کەسیی شکستی هێناوە."),
+                            "ھەموو ھەوڵەکان بۆ لادانی سەرنج لەسەر ژیانی کەسیی شکستی ھێناوە."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She sought to deflect criticism by blaming her family."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵیدا خۆی لە ڕەخنە بدزێتەوە بە لۆمەکردنی خێزانەکەی."),
+                            "ھەوڵیدا خۆی لە ڕەخنە بدزێتەوە بە لۆمەکردنی خێزانەکەی."),
                   ],
                 ),
               ),
@@ -566,7 +566,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government is seeking to deflect attention away from this problem."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت هەوڵ دەدات سەرنج لەسەر ئەم کێشەیە لابدات."),
+                            "حکومەت ھەوڵ دەدات سەرنج لەسەر ئەم کێشەیە لابدات."),
                   ],
                 ),
               ),

@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، هاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان،	نەهێشتن، لابردن، پێش‌گرتن
+کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، ھاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان،	نەھێشتن، لابردن، پێش‌گرتن
 """),
           const DefinitionKurdish(text: "١. (ناو) دامرکاندنەوەی شتێک" ""),
           Row(
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The city spends £9 million a year on air pollution abatement."),
                     ExampleSentenceKurdish(
                         text:
-                            "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەهەوا."),
+                            "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا."),
                   ],
                 ),
               ),

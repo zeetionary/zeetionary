@@ -194,10 +194,10 @@ class EnglishEntryconverge extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: بەرەو یەکبوون، هاو خاڵ بوون
+// کوردی: بەرەو یەکبوون، ھاو خاڵ بوون
 // """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) گەشتن بە هەمان خاڵ"),
+                              text: "١. (کردار) گەشتن بە ھەمان خاڵ"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconverge extends StatelessWidget {
                                             "Thousands of supporters converged on London for the rally."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە."),
+                                            "ھەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntryconverge extends StatelessWidget {
                                             "There was a signpost where the two paths converged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیشانەڕێیەک هەبوو لەو دوو شوێنەی دوو ڕێگاکە بە یەکدی دەگەشتن."),
+                                            "نیشانەڕێیەک ھەبوو لەو دوو شوێنەی دوو ڕێگاکە بە یەکدی دەگەشتن."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntryconverge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بوون بە یەک یان هاوشێوەبوونی بیرۆکە، سیاسەت، ئامانج، هتد"),
+                                  "٣. (کردار) بوون بە یەک یان ھاوشێوەبوونی بیرۆکە، سیاسەت، ئامانج، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -297,7 +297,7 @@ class EnglishEntryconverge extends StatelessWidget {
                                             "The aims of the two developments can and should converge."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامانجی هەردوو گەشەپێدانەکە دەکرێت و دەبێت یەکبن."),
+                                            "ئامانجی ھەردوو گەشەپێدانەکە دەکرێت و دەبێت یەکبن."),
                                   ],
                                 ),
                               ),

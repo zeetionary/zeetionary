@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(text: "She's my cousin."),
                     ExampleSentenceKurdish(
                       text: "ئامۆزامە.",
-                      note: "هەروەها: خاڵۆزامە؛ پورزامە",
+                      note: "ھەروەھا: خاڵۆزامە؛ پورزامە",
                     ),
                   ],
                 ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceKurdish(
                       text: "ئەمە ڕیچاردی ئامۆزامە.",
                       note:
-                          "هەروەها: ئەمە ڕیچاردی خاڵۆزامە؛ ئەمە ڕیچاردی پوورزامە",
+                          "ھەروەھا: ئەمە ڕیچاردی خاڵۆزامە؛ ئەمە ڕیچاردی پوورزامە",
                     ),
                   ],
                 ),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کەسێک کە سەر بە هەمان خێزانە لەگەڵت بەڵام خزمی دووری یەکن"),
+                  "٢. (ناو) کەسێک کە سەر بە ھەمان خێزانە لەگەڵت بەڵام خزمی دووری یەکن"),
           Row(
             children: [
               const Expanded(

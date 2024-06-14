@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کۆتایی یان شکستی کۆمپانیایەک، بیرۆکەیەک، دامەزراوەیەک، هتد"),
+                  "١. (ناو) کۆتایی یان شکستی کۆمپانیایەک، بیرۆکەیەک، دامەزراوەیەک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The war brought about the industry's sudden demise."),
                     ExampleSentenceKurdish(
-                        text: "جەنگەکە پووکانەی لەناکاوی پیشەسازییەکەی هێنا."),
+                        text: "جەنگەکە پووکانەی لەناکاوی پیشەسازییەکەی ھێنا."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Much has been written about the circumstances surrounding her demise."),
                     ExampleSentenceKurdish(
-                        text: "زۆر شت گوتراوە سەبارەت بە هەلومەرجەکانی مردنی."),
+                        text: "زۆر شت گوتراوە سەبارەت بە ھەلومەرجەکانی مردنی."),
                   ],
                 ),
               ),

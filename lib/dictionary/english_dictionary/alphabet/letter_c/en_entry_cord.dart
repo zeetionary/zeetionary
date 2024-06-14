@@ -199,7 +199,7 @@ class EnglishEntrycord extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) تەلێکی بەهێزی ئەستوور یان حەبلێکی باریک"),
+                                  "١. (ناو) تەلێکی بەھێزی ئەستوور یان حەبلێکی باریک"),
                           Row(
                             children: [
                               const Expanded(
@@ -210,7 +210,7 @@ class EnglishEntrycord extends StatelessWidget {
                                             "You need a piece of thick cord about two feet long."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستیت بە تەلێکی ئەستوور هەیە کە نزیکەی دوو پێ درێژ بێت."),
+                                            "پێویستیت بە تەلێکی ئەستوور ھەیە کە نزیکەی دوو پێ درێژ بێت."),
                                   ],
                                 ),
                               ),
@@ -327,7 +327,7 @@ class EnglishEntrycord extends StatelessWidget {
                                             "The baby was still attached to its mother by the cord."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵەکە هێشتا بە دڕکە پەتکی بەسترابوو بە دایکییەوە."),
+                                            "منداڵەکە ھێشتا بە دڕکە پەتکی بەسترابوو بە دایکییەوە."),
                                   ],
                                 ),
                               ),

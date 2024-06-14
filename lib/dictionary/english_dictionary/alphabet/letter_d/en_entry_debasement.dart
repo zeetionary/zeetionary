@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: سووکایەتی‌پێ‌کردن، بێ‌ڕێزی(پێ)کردن، بێ‌بایەخ‌کردن، سووکی، نزمی
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەمکردنەوەی بەها و نرخی شتێک"),
+              text: "١. (ناو) کەمکردنەوەی بەھا و نرخی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He considered advertising a debasement of his art."),
                     ExampleSentenceKurdish(
-                        text: "ڕیکلامی بە کەمکردنەوەی هونەرەکەی دادەنا."),
+                        text: "ڕیکلامی بە کەمکردنەوەی ھونەرەکەی دادەنا."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Currency debasement means that the more dollars there are in circulation, the less each dollar is worth."),
                     ExampleSentenceKurdish(
                         text:
-                            "سوککردنی پارە واتە هەرچەندە دۆلاری زیاتر لە بازاڕدا بێت هێندە هەر دۆلارێک نرخی کەمترە."),
+                            "سوککردنی پارە واتە ھەرچەندە دۆلاری زیاتر لە بازاڕدا بێت ھێندە ھەر دۆلارێک نرخی کەمترە."),
                   ],
                 ),
               ),

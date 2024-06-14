@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بە دڵتەنگی‌یەوە,	دڵساردانە، هیوابڕاوانە، ناهومێدانە
+کوردی: بە دڵتەنگی‌یەوە,	دڵساردانە، ھیوابڕاوانە، ناھومێدانە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی و بێ‌هیوایی پیشان دەدات"),
+                  "١. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی و بێ‌ھیوایی پیشان دەدات"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She sat despondently, saying nothing."),
                     ExampleSentenceKurdish(
-                        text: "بە پەژارەوە دانیشتبوو و هیچی نەدەگوت."),
+                        text: "بە پەژارەوە دانیشتبوو و ھیچی نەدەگوت."),
                   ],
                 ),
               ),

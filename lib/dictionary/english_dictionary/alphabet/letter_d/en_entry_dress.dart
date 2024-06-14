@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -643,7 +645,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He has no dress sense (= no idea of how to dress well)."),
                     ExampleSentenceKurdish(
-                        text: "هیچ سەلیقەی جل لەبەرکردنی نییە."),
+                        text: "ھیچ سەلیقەی جل لەبەرکردنی نییە."),
                   ],
                 ),
               ),
@@ -673,7 +675,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We were allowed to wear casual dress on Fridays."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێگەمان پێدەدرا لە ڕۆژانی هەینیدا جلێکی ئاسایی لەبەر بکەین."),
+                            "ڕێگەمان پێدەدرا لە ڕۆژانی ھەینیدا جلێکی ئاسایی لەبەر بکەین."),
                   ],
                 ),
               ),
@@ -725,7 +727,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Get up and get dressed!"),
-                    ExampleSentenceKurdish(text: "هەستە و خۆت بپۆشە!"),
+                    ExampleSentenceKurdish(text: "ھەستە و خۆت بپۆشە!"),
                   ],
                 ),
               ),
@@ -782,7 +784,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You're old enough to dress yourself now."),
                     ExampleSentenceKurdish(
-                        text: "ئێستا هێندە گەورەیت کە خۆت جل لەبەربکەیت."),
+                        text: "ئێستا ھێندە گەورەیت کە خۆت جل لەبەربکەیت."),
                   ],
                 ),
               ),
@@ -810,7 +812,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her mother always dressed them identically."),
                     ExampleSentenceKurdish(
-                        text: "دایکی هەمیشە وەک یەک جلی لەبەر دەکردن."),
+                        text: "دایکی ھەمیشە وەک یەک جلی لەبەر دەکردن."),
                   ],
                 ),
               ),
@@ -840,7 +842,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "All staff are expected to dress appropriately."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ستافەکە چاوەڕوانییان لێدەکرێت بە گونجاوی جل لەبەر بکەن."),
+                            "ھەموو ستافەکە چاوەڕوانییان لێدەکرێت بە گونجاوی جل لەبەر بکەن."),
                   ],
                 ),
               ),
@@ -896,7 +898,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She always dressed entirely in black."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە بە تەواوی ڕەشی لەبەردەکرد."),
+                        text: "ھەمیشە بە تەواوی ڕەشی لەبەردەکرد."),
                   ],
                 ),
               ),
@@ -924,7 +926,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Susan always dresses very elegantly."),
                     ExampleSentenceKurdish(
-                        text: "سوزان هەمیشە زۆر کەشخانە جل لەبەر دەکات."),
+                        text: "سوزان ھەمیشە زۆر کەشخانە جل لەبەر دەکات."),
                   ],
                 ),
               ),
@@ -984,7 +986,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He dresses many of Hollywood's most famous young stars."),
                     ExampleSentenceKurdish(
                         text:
-                            "جل بۆ زۆرێک لە ناسراوترین ئەستێرە گەنجەکانی هۆڵیوود دابین دەکات."),
+                            "جل بۆ زۆرێک لە ناسراوترین ئەستێرە گەنجەکانی ھۆڵیوود دابین دەکات."),
                   ],
                 ),
               ),
@@ -1307,7 +1309,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/USJAwgvHY6w?t=',
+    videoId: 'USJAwgvHY6w',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1332,7 +1334,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3wiy-nW6hbI?t=',
+    videoId: '3wiy-nW6hbI',
     startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1357,7 +1359,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g_qdccA9z_E?t=',
+    videoId: 'g_qdccA9z_E',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1382,7 +1384,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7y1SJxEd49g?t=',
+    videoId: '7y1SJxEd49g',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1407,7 +1409,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ND5_ZFdzwuo?t=',
+    videoId: 'ND5_ZFdzwuo',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1432,7 +1434,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p0jt4n92ZMY?t=',
+    videoId: 'p0jt4n92ZMY',
     startSeconds: 268,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1457,7 +1459,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BoF1RKZeJhk?t=',
+    videoId: 'BoF1RKZeJhk',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(

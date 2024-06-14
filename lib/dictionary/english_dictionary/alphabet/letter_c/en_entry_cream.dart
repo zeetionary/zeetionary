@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرشیر، توێشکە، توێژ(اڵ)، سەرتوێ، قەیماخ،	کرێم (دەم‌وچاو)،	مەڵهەم، مەرهەم،	ڕەنگی سپی مەیلەو زەرد،	هەڵبژاردە، سەرتۆپ، سەرگوڵ، باشترین بەش،	غوڕابی توێشکەدار
+کوردی: سەرشیر، توێشکە، توێژ(اڵ)، سەرتوێ، قەیماخ،	کرێم (دەم‌وچاو)،	مەڵھەم، مەرھەم،	ڕەنگی سپی مەیلەو زەرد،	ھەڵبژاردە، سەرتۆپ، سەرگوڵ، باشترین بەش،	غوڕابی توێشکەدار
 """),
           const DefinitionKurdish(
               text:
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We had strawberries and cream for dessert."),
                     ExampleSentenceKurdish(
-                        text: "بۆ شیرینی تووفەڕەنگی و کرێممان هەبوو."),
+                        text: "بۆ شیرینی تووفەڕەنگی و کرێممان ھەبوو."),
                   ],
                 ),
               ),
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Put a little antiseptic cream on the grazed skin."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک کرێمی خاوێنکەر بخە سەر پێستە ڕووشاوەکە."),
+                        text: "ھەندێک کرێمی خاوێنکەر بخە سەر پێستە ڕووشاوەکە."),
                   ],
                 ),
               ),
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Do you have this blouse in cream?"),
                     ExampleSentenceKurdish(
-                        text: "ئەم بلووزەت بە ڕەنگی کرێمی هەیە."),
+                        text: "ئەم بلووزەت بە ڕەنگی کرێمی ھەیە."),
                   ],
                 ),
               ),

@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بەشێکی کۆمپیوتەرێک، هتد کە کە زانیاری و ئامار پیشان دەدات لەسەر ئەوەی ئامێرەکە، پڕۆگرامێک، هتد چۆن کار دەکات، و دەتوانیت بەکاریبهێنیت بۆ کۆنترۆڵکردنی"),
+                  "٢. (ناو) بەشێکی کۆمپیوتەرێک، ھتد کە کە زانیاری و ئامار پیشان دەدات لەسەر ئەوەی ئامێرەکە، پڕۆگرامێک، ھتد چۆن کار دەکات، و دەتوانیت بەکاریبھێنیت بۆ کۆنترۆڵکردنی"),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The app has a new dashboard to limit your app usage."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەپەکە داشبۆردێکی تازەی هەیە بۆ سنووردارکردنی بەکارهێنانی ئەپەکە."),
+                            "ئەپەکە داشبۆردێکی تازەی ھەیە بۆ سنووردارکردنی بەکارھێنانی ئەپەکە."),
                   ],
                 ),
               ),

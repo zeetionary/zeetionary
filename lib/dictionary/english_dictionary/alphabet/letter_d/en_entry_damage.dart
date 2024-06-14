@@ -797,7 +797,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The accident caused no permanent damage."),
                     ExampleSentenceKurdish(
-                        text: "ڕووداوەکە هیچ زیانێکی هەمیشەیی درووست نەکرد."),
+                        text: "ڕووداوەکە ھیچ زیانێکی ھەمیشەیی درووست نەکرد."),
                   ],
                 ),
               ),
@@ -856,7 +856,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The earthquake caused damage to property estimated at £6 billion."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بومەلەرزەکە زیانی مادی بە بەهای ٦ ملیار پاوەند درووست کرد."),
+                                    "بومەلەرزەکە زیانی مادی بە بەھای ٦ ملیار پاوەند درووست کرد."),
                           ],
                         ),
                       ),
@@ -1054,7 +1054,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Don't try to apologize—the damage is done."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵ مەدە داوای لێبووردن بکەیت، زیانەکە گەشتووە."),
+                            "ھەوڵ مەدە داوای لێبووردن بکەیت، زیانەکە گەشتووە."),
                   ],
                 ),
               ),
@@ -1082,7 +1082,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The incident did permanent damage to relations between the two countries."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووداوەکە زیانی هەمیشەیی گەیاند بە پەیوەندی نێوان دوو وڵاتەکە."),
+                            "ڕووداوەکە زیانی ھەمیشەیی گەیاند بە پەیوەندی نێوان دوو وڵاتەکە."),
                   ],
                 ),
               ),
@@ -1139,7 +1139,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They intend to sue for damages."),
                     ExampleSentenceKurdish(
-                        text: "نیازیان هەیە سکاڵا بۆ قەرەبوو تۆمار بکەن."),
+                        text: "نیازیان ھەیە سکاڵا بۆ قەرەبوو تۆمار بکەن."),
                   ],
                 ),
               ),
@@ -1252,7 +1252,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Our car was damaged beyond repair in the crash."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئۆۆتمبێلەکەمان هێندە بەر زیان کەوت لە ڕووداوەکەدا کە چاکنەدەکرایەوە."),
+                            "ئۆۆتمبێلەکەمان ھێندە بەر زیان کەوت لە ڕووداوەکەدا کە چاکنەدەکرایەوە."),
                   ],
                 ),
               ),
@@ -1280,7 +1280,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She fears the allegations could permanently damage her reputation."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەترسێت کە تۆمەتەکان بۆ هەمیشەیی ناوبانگی لەکەدار بکەن."),
+                            "دەترسێت کە تۆمەتەکان بۆ ھەمیشەیی ناوبانگی لەکەدار بکەن."),
                   ],
                 ),
               ),

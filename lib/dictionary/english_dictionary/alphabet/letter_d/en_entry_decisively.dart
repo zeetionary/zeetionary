@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: شێلگیرانە، لێ‌بڕاوانە
 // """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) بەشێوەیەک کە بۆ داهاتووی شتێک گرنگە"),
+              text: "١. (ھاوەڵکار) بەشێوەیەک کە بۆ داھاتووی شتێک گرنگە"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Congress must act decisively against this threat."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆنگرێس دەبێت دەستبەجێ هەنگاو دژی ئەم مەترسییە بنێت."),
+                            "کۆنگرێس دەبێت دەستبەجێ ھەنگاو دژی ئەم مەترسییە بنێت."),
                   ],
                 ),
               ),

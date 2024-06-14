@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێد، هیوابڕاو، دڵسارد، ناکام، دڵشکاو، کز، ناڕەحەت، مات، بەخەم، خەمبار، دڵتەنگ،	(هیوا) نامراد، دڵ‌شکست، بڕاو، چوو، هیواڕۆ، پووچەوەبوو 
+کوردی: ناھومێد، ھیوابڕاو، دڵسارد، ناکام، دڵشکاو، کز، ناڕەحەت، مات، بەخەم، خەمبار، دڵتەنگ،	(ھیوا) نامراد، دڵ‌شکست، بڕاو، چوو، ھیواڕۆ، پووچەوەبوو 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نائومێد"),
           Row(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The singer has promised to refund any disappointed fans."),
                     ExampleSentenceKurdish(
                         text:
-                            "گۆرانیبێژەکە بەڵێنی داوە قەرەبووی هەر هەوادارێکی نائوومێد بکاتەوە."),
+                            "گۆرانیبێژەکە بەڵێنی داوە قەرەبووی ھەر ھەوادارێکی نائوومێد بکاتەوە."),
                   ],
                 ),
               ),

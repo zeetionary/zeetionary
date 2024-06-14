@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She has always craved excitement."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە حەزی بە جۆش‌وخرۆشی بووە."),
+                        text: "ھەمیشە حەزی بە جۆش‌وخرۆشی بووە."),
                   ],
                 ),
               ),
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They craved to return to their homeland."),
                     ExampleSentenceKurdish(
-                        text: "بە هیوابوون بگەڕێنەوە بۆ نیشتیمانیان."),
+                        text: "بە ھیوابوون بگەڕێنەوە بۆ نیشتیمانیان."),
                   ],
                 ),
               ),

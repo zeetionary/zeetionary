@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They could find no independent corroboration that he was telling the truth."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ سەرچاوەیەکی سەربەخۆیان نەدۆزییەوە بۆ ئەوەی کە ڕاستییەکە دەڵێت."),
+                            "ھیچ سەرچاوەیەکی سەربەخۆیان نەدۆزییەوە بۆ ئەوەی کە ڕاستییەکە دەڵێت."),
                   ],
                 ),
               ),

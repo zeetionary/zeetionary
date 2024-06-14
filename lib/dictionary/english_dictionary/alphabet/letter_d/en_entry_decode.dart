@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I struggled to decode all the jargon he used."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەقەڵام بوو لە تێگەشتن لەو هەموو زمانە بازاڕییەی بەکاریهێنابوو."),
+                            "تەقەڵام بوو لە تێگەشتن لەو ھەموو زمانە بازاڕییەی بەکاریھێنابوو."),
                   ],
                 ),
               ),

@@ -235,7 +235,7 @@ class EnglishEntrycornflour extends StatelessWidget {
                                             "Stir in the cornflour paste to thicken the sauce."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەویری ئاردە گەنمەشامییەکە تێک بدە بۆ خەستکردنەوەی سۆسەکە."),
+                                            "ھەویری ئاردە گەنمەشامییەکە تێک بدە بۆ خەستکردنەوەی سۆسەکە."),
                                   ],
                                 ),
                               ),

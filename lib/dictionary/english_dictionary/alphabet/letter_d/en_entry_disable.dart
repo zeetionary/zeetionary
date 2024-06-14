@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) بۆ هەمیشە زیان گەیاندن بە کەسێک کە ئیتر نەتوانێت بەشێکی جەستەی بەکاربێنێت یان ڕێ بکات"),
+                  "١. (کردار) بۆ ھەمیشە زیان گەیاندن بە کەسێک کە ئیتر نەتوانێت بەشێکی جەستەی بەکاربێنێت یان ڕێ بکات"),
           Row(
             children: [
               const Expanded(
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This weapons system will destroy or disable any incoming missile."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم سیستەمی چەکە هەر مووشەکێکی هاتوو لەناودەبات یان ناچالاکی دەکات."),
+                            "ئەم سیستەمی چەکە ھەر مووشەکێکی ھاتوو لەناودەبات یان ناچالاکی دەکات."),
                   ],
                 ),
               ),

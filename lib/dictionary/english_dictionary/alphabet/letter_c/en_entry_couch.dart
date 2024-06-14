@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) تەختێکی ڕاکشان کە وەک جێخەوێک وایە و زۆرجار لە ئۆفیسی پزیشکدا هەیە"),
+                  "٢. (ناو) تەختێکی ڕاکشان کە وەک جێخەوێک وایە و زۆرجار لە ئۆفیسی پزیشکدا ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He spends several hours a week on the dentist's couch."),
                     ExampleSentenceKurdish(
                         text:
-                            "چەند کاتژمێرێک لە هەفتەیەلدا بەسەر دەبات لەسەر تەختی پزیشکە ددانەکە."),
+                            "چەند کاتژمێرێک لە ھەفتەیەلدا بەسەر دەبات لەسەر تەختی پزیشکە ددانەکە."),
                   ],
                 ),
               ),

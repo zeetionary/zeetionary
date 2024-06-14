@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەندەڵی، فەساد، خراپ‌بوون، بەرتیل‌خۆری،	لادان، خریایی، لەڕێ‌دەرچوون،	هەڵوەشانەوە، تێکچوون، شێواندن، چەواشەکردن، دەسکاری(کردن)،	فەوتاندن، تیابردن، لەنێوبردن،	بۆگەن‌بوون، گەنین، ڕزین، داقنین، پووان، داڕزان
+کوردی: گەندەڵی، فەساد، خراپ‌بوون، بەرتیل‌خۆری،	لادان، خریایی، لەڕێ‌دەرچوون،	ھەڵوەشانەوە، تێکچوون، شێواندن، چەواشەکردن، دەسکاری(کردن)،	فەوتاندن، تیابردن، لەنێوبردن،	بۆگەن‌بوون، گەنین، ڕزین، داقنین، پووان، داڕزان
 """),
           const DefinitionKurdish(text: "١. (ناو) گەندەڵی"),
           Row(
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She was brought down by a corruption scandal."),
                     ExampleSentenceKurdish(
-                        text: "بە ئابڕووچوونێکی گەندەڵی کۆتایی پێهات."),
+                        text: "بە ئابڕووچوونێکی گەندەڵی کۆتایی پێھات."),
                   ],
                 ),
               ),
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There were allegations of bribery and corruption."),
                     ExampleSentenceKurdish(
-                        text: "تۆمەتی بەرتیلخۆری و گەندەڵی هەبوو."),
+                        text: "تۆمەتی بەرتیلخۆری و گەندەڵی ھەبوو."),
                   ],
                 ),
               ),
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) گۆڕینی کەسێک لە باشەوە بۆ خراپ بەشێوەیەک کە ڕەفتاری نەشیاوی هەبێت"),
+                  "٢. (ناو) گۆڕینی کەسێک لە باشەوە بۆ خراپ بەشێوەیەک کە ڕەفتاری نەشیاوی ھەبێت"),
           Row(
             children: [
               const Expanded(
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He claimed that sex and violence on TV led to the corruption of young people."),
                     ExampleSentenceKurdish(
                         text:
-                            "بانگەشەی ئەوەی دەکرد و سێکس و توندوتیژی لەسەر تەلەفیزیۆن دەبوو هۆکاری لەڕێ‌دەرچوونی کەسانی گەنج."),
+                            "بانگەشەی ئەوەی دەکرد و سێکس و توندوتیژی لەسەر تەلەفیزیۆن دەبوو ھۆکاری لەڕێ‌دەرچوونی کەسانی گەنج."),
                   ],
                 ),
               ),
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A failure of a hard disk can cause unrecoverable data corruption."),
                     ExampleSentenceKurdish(
                         text:
-                            "شکستێک لە هارد دیسکەکە دەکرێت ببێتە هۆی خراپبوونی چاکنەبووەوەی داتا."),
+                            "شکستێک لە ھارد دیسکەکە دەکرێت ببێتە ھۆی خراپبوونی چاکنەبووەوەی داتا."),
                   ],
                 ),
               ),

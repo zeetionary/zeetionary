@@ -266,7 +266,7 @@ class EnglishEntryconvulsion extends StatelessWidget {
                                             "The political convulsions in the region led to widespread unrest and protests."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شڵەقانی سیاسی لە هەرێمەکە بوو بەهۆی ئاژاوە و خۆپیشاندانی بەرفراوان."),
+                                            "شڵەقانی سیاسی لە ھەرێمەکە بوو بەھۆی ئاژاوە و خۆپیشاندانی بەرفراوان."),
                                   ],
                                 ),
                               ),

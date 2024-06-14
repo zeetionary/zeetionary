@@ -336,10 +336,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هاوشان بوون، ڕێک بوون، بەرامبەر بوون، یەکسان بوون، وێکچوون، نامەگۆڕینەوە، پەیوەندی کردن
+کوردی: ھاوشان بوون، ڕێک بوون، بەرامبەر بوون، یەکسان بوون، وێکچوون، نامەگۆڕینەوە، پەیوەندی کردن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) بوون بە هەمان شت لەگەڵ شتێکی دیکەکەدا"),
+              text: "١. (کردار) بوون بە ھەمان شت لەگەڵ شتێکی دیکەکەدا"),
           Row(
             children: [
               const Expanded(
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Check that this number corresponds with the one on the document."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "دڵنیابەرەوە ئەم ژمارە هاوتایە لەگەڵ لەگەڵ ئەوەی سەر بەڵگەنامەکە."),
+                                    "دڵنیابەرەوە ئەم ژمارە ھاوتایە لەگەڵ لەگەڵ ئەوەی سەر بەڵگەنامەکە."),
                           ],
                         ),
                       ),
@@ -463,7 +463,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Wages did not rise to correspond with the price increases brought about by the wars."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کرێ بەرزنەبووەوە بۆ هاوشانبوون لەگەڵ بەرزبوونەوەی نرخ بەهۆی جەنگەوە."),
+                                    "کرێ بەرزنەبووەوە بۆ ھاوشانبوون لەگەڵ بەرزبوونەوەی نرخ بەھۆی جەنگەوە."),
                           ],
                         ),
                       ),
@@ -486,7 +486,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) بوون بە هەمان شت یان نزیک لە شتێک"),
+              text: "٢. (کردار) بوون بە ھەمان شت یان نزیک لە شتێک"),
           Row(
             children: [
               const Expanded(
@@ -497,7 +497,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The word corresponds roughly in meaning to our ‘homesickness’."),
                     ExampleSentenceKurdish(
                         text:
-                            "وشەکە لە واتادا تا ڕادەیەک هاوتایە لەگەڵ 'homesickness' ـی خۆمان."),
+                            "وشەکە لە واتادا تا ڕادەیەک ھاوتایە لەگەڵ 'homesickness' ـی خۆمان."),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) نووسین بۆ کەسێک بە نامە یان ئیمەیڵ، هتد بۆ کەسێک و بەدەست گەشتنی نامە یان ئیمەیڵ، هتد لێیانەوە"),
+                  "٣. (کردار) نووسین بۆ کەسێک بە نامە یان ئیمەیڵ، ھتد بۆ کەسێک و بەدەست گەشتنی نامە یان ئیمەیڵ، ھتد لێیانەوە"),
           Row(
             children: [
               const Expanded(
@@ -554,7 +554,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I have corresponded with him in the past."),
                     ExampleSentenceKurdish(
-                        text: "لە ڕابردوودا پەیوەندیم لەگەڵی هەبووە."),
+                        text: "لە ڕابردوودا پەیوەندیم لەگەڵی ھەبووە."),
                   ],
                 ),
               ),

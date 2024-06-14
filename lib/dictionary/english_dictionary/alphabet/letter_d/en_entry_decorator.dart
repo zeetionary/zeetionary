@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کەسێک کە کاری ڕازاندنەوەی ناوماڵە بە هەڵبژاردنی کەلوپەل، ڕەنگ، ڕایەخ، هتد"),
+                  "٢. (ناو) کەسێک کە کاری ڕازاندنەوەی ناوماڵە بە ھەڵبژاردنی کەلوپەل، ڕەنگ، ڕایەخ، ھتد"),
           Row(
             children: [
               const Expanded(

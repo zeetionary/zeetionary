@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دڵسارد، بێ‌هیوا، تێر، بێزراو
+کوردی: دڵسارد، بێ‌ھیوا، تێر، بێزراو
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە چی دیکە بەجۆش نیت بۆ کەسێک/شتێک"),

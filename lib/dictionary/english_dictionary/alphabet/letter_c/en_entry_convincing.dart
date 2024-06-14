@@ -234,7 +234,7 @@ class EnglishEntryconvincing extends StatelessWidget {
                                             "He was far from convincing as a leader."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک سەرکردەیەک هیچ بەدەگەر/بەبڕشت نەبوو."),
+                                            "وەک سەرکردەیەک ھیچ بەدەگەر/بەبڕشت نەبوو."),
                                   ],
                                 ),
                               ),

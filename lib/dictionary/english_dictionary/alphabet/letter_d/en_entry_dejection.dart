@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەمباری، ناڕەحەتی، دەستەوئەژنۆیی، کزی، ماتەمینی، ماتی، دڵتەنگی،	خەفەت، خەم، کۆڤان، پەژارە، ماتەم،	ناهومێدی، بێ‌هیوایی، دڵساردی
+کوردی: خەمباری، ناڕەحەتی، دەستەوئەژنۆیی، کزی، ماتەمینی، ماتی، دڵتەنگی،	خەفەت، خەم، کۆڤان، پەژارە، ماتەم،	ناھومێدی، بێ‌ھیوایی، دڵساردی
 """),
           const DefinitionKurdish(text: "١. (ناو) خەمباری و بێزاری"),
           Row(
@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She made no effort to hide her dejection."),
                     ExampleSentenceKurdish(
-                        text: "هیچ هەوڵێکی نەدا بێزارییەکەی بشارێتەوە."),
+                        text: "ھیچ ھەوڵێکی نەدا بێزارییەکەی بشارێتەوە."),
                   ],
                 ),
               ),

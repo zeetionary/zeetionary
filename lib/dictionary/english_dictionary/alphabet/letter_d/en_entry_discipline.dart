@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The school has a reputation for high standards of discipline."),
                     ExampleSentenceKurdish(
                         text:
-                            "قوتابخانەکە ناوبانگی بۆ ستانداردی بەرز هەیە بۆ تەنێکردن."),
+                            "قوتابخانەکە ناوبانگی بۆ ستانداردی بەرز ھەیە بۆ تەنێکردن."),
                   ],
                 ),
               ),
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) ڕێگای ڕاهێنانی مێشک و جەستەت یان کۆنترۆڵکردنی ڕەفتارت"),
+                  "٣. (ناو) ڕێگای ڕاھێنانی مێشک و جەستەت یان کۆنترۆڵکردنی ڕەفتارت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -536,7 +536,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) توانای کۆنترۆڵکردنی ڕەفتارت یان شێوازی ژیان، کار، هتد"),
+                  "٣. (ناو) توانای کۆنترۆڵکردنی ڕەفتارت یان شێوازی ژیان، کار، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -638,7 +638,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The officers were disciplined for using racist language."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەفسەرەکان سزادران بۆ بەکارهێنانی زمانی ڕەگەزپەرستانە."),
+                            "ئەفسەرەکان سزادران بۆ بەکارھێنانی زمانی ڕەگەزپەرستانە."),
                   ],
                 ),
               ),
@@ -668,7 +668,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Should unions discipline members who take unofficial action?"),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت سەندیکاکان ئەو ئەندامانە سزا بدەن کە هەنگاوی نافەرمی دەنێن؟"),
+                            "دەبێت سەندیکاکان ئەو ئەندامانە سزا بدەن کە ھەنگاوی نافەرمی دەنێن؟"),
                   ],
                 ),
               ),
@@ -688,7 +688,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (کردار) ڕاهێنانی کەسێک، بەتایبەتی منداڵێک، کە پابەندی یاسا بێت و شێوازی ڕەفتاری کۆنترۆڵ بکەیت"),
+                  "٦. (کردار) ڕاھێنانی کەسێک، بەتایبەتی منداڵێک، کە پابەندی یاسا بێت و شێوازی ڕەفتاری کۆنترۆڵ بکەیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -760,7 +760,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He disciplined himself to exercise at least three times a week."),
                     ExampleSentenceKurdish(
                         text:
-                            "خۆی ڕاهێنا کە بەلایەنی کەمەوە سێ جار لە هەفتەیەکدا ڕاهێنان بکات."),
+                            "خۆی ڕاھێنا کە بەلایەنی کەمەوە سێ جار لە ھەفتەیەکدا ڕاھێنان بکات."),
                   ],
                 ),
               ),

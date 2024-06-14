@@ -36,7 +36,7 @@ class _DictionaryScreenKurdishState
     "کوردس‌ تان",
     "کورد س‌تان",
     "ھائی کوردی",
-    "هائی عەرەبی",
+    "ھائی عەرەبی",
     "دەست‌پێ‌کردن",
     "دەستپێکردن",
     "دەستپێ‌کردن",
@@ -51,7 +51,7 @@ class _DictionaryScreenKurdishState
     "پێنج",
     "شەش",
     "حەوت",
-    "‌هەشت",
+    "‌ھەشت",
   ];
 
   List<String> filteredWords = [];
@@ -289,9 +289,9 @@ class _DictionaryScreenKurdishState
   }
 
   String normalizeKurdishH(String input) {
-    // Replace all occurrences of ھ with ه
+    // Replace all occurrences of ھ with ھ
     // https://chat.openai.com/c/3be92bde-854c-4f40-8617-179f3b7602ca
-    return input.replaceAll('ھ', 'ه');
+    return input.replaceAll('ھ', 'ھ');
   }
 
   int _countConsecutiveMatches(String word, String query) {
@@ -518,8 +518,7 @@ class KurdishDictionary extends StatelessWidget {
           onTap: () {
             onTapWord(words[index]);
           },
-          onKurdishFavourite: () => onKurdishFavourite(
-              words[index]),
+          onKurdishFavourite: () => onKurdishFavourite(words[index]),
           isKurdishFavouriteed: kurdishfavourites.contains(words[index]),
         );
       },

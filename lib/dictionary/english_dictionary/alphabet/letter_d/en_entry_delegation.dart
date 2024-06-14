@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گرووپێک کەس کە نوێنەری دیدەکانی دامەزراوەیەک، وڵاتێک، هتد"),
+                  "١. (ناو) گرووپێک کەس کە نوێنەری دیدەکانی دامەزراوەیەک، وڵاتێک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -498,7 +498,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) پێدانی ئەرک و بەرپرسیاریەتی کە زۆرجار هی خۆتە"),
+              text: "٢. (ناو) پێدانی ئەرک و بەرپرسیاریەتی کە زۆرجار ھی خۆتە"),
           const DividerSentences(),
           Row(
             children: [
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All managers should learn effective delegation."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو بەڕێوەبەرەکان دەبێت فێری پێ‌ڕاسپاردنی کاریگەر ببن."),
+                            "ھەموو بەڕێوەبەرەکان دەبێت فێری پێ‌ڕاسپاردنی کاریگەر ببن."),
                   ],
                 ),
               ),

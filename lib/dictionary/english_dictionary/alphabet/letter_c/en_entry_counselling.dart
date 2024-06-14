@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many of the victims of the tragedy still need counselling."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرێک لە قوربانییانی تراژیدیاکە هێشتا پێویستیان بە ڕاوێژ هەیە."),
+                            "زۆرێک لە قوربانییانی تراژیدیاکە ھێشتا پێویستیان بە ڕاوێژ ھەیە."),
                   ],
                 ),
               ),

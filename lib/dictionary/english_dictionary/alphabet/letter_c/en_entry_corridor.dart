@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ڕێگایەکی درێژ و باریکی بینایەک کە دەرگای لە هەردوو لاوە تێدایە بۆ ناو ژووری دیکە"),
+                  "١. (ناو) ڕێگایەکی درێژ و باریکی بینایەک کە دەرگای لە ھەردوو لاوە تێدایە بۆ ناو ژووری دیکە"),
           Row(
             children: [
               const Expanded(
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "UN troops will secure the land corridor so that food supplies can reach the trapped civilians."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەربازانی نەتەوە یەکگرووەکان ڕێڕەوی زەمینی دەستەبەر دەکەن بۆ ئەوەی ئازووقەی خۆراک بگات بە هاوڵاتییە گیرخواردووەکان."),
+                            "سەربازانی نەتەوە یەکگرووەکان ڕێڕەوی زەمینی دەستەبەر دەکەن بۆ ئەوەی ئازووقەی خۆراک بگات بە ھاوڵاتییە گیرخواردووەکان."),
                   ],
                 ),
               ),

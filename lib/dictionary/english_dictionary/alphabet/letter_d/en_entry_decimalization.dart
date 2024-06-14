@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government announced plans for the decimalization of the currency."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت ڕایگەیاند پلانی هەیە بۆ بە دەیانکردنی دراو."),
+                            "حکومەت ڕایگەیاند پلانی ھەیە بۆ بە دەیانکردنی دراو."),
                   ],
                 ),
               ),

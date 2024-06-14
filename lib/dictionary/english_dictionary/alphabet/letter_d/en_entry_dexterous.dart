@@ -403,10 +403,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شارەزا، کارزان، سەردەرچوو، زیرەک، دەس‌ڕاهاتوو، دەس‌ڕەقاس، دەس‌چابوک، تەڕدەس، چالاک، دەس‌سووک، وەستایانە
+کوردی: شارەزا، کارزان، سەردەرچوو، زیرەک، دەس‌ڕاھاتوو، دەس‌ڕەقاس، دەس‌چابوک، تەڕدەس، چالاک، دەس‌سووک، وەستایانە
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) شارەزا، بەتایبەتی لە بەکارهێنانی دەستدا"),
+              text: "١. (ھاوەڵناو) شارەزا، بەتایبەتی لە بەکارھێنانی دەستدا"),
           Row(
             children: [
               const Expanded(
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She was lively and dexterous intellectually."),
                     ExampleSentenceKurdish(
-                        text: "لەلایەنی هزرییەوە چالاک و شارەزا بوو."),
+                        text: "لەلایەنی ھزرییەوە چالاک و شارەزا بوو."),
                   ],
                 ),
               ),

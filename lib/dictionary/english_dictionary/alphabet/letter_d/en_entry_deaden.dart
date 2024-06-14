@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) کپکردنی دەنگ، هەست، هتد"),
+          const DefinitionKurdish(text: "١. (ناو) کپکردنی دەنگ، ھەست، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The wood panelling in the rooms deadened any noise from outside."),
                     ExampleSentenceKurdish(
                         text:
-                            "دانانی پانێڵی تەختەیی لە ژوورەکان هەموو ژاوەژاوێکی دەرەوەی کپکردووە."),
+                            "دانانی پانێڵی تەختەیی لە ژوورەکان ھەموو ژاوەژاوێکی دەرەوەی کپکردووە."),
                   ],
                 ),
               ),

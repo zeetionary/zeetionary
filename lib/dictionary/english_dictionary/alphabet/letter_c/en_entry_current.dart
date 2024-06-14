@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: برەو، باو، داب،	هەنووکە، (کاتی) ئێستا، ڕۆژانە، ڕۆژ، ڕۆژەڤ ، ئێستاکانێ،	لەگەڕ(دابوون)، دەساودەس‌کردوو، ڕەوندە، دەس‌کردوو (پارە)،	ڕەوندی، ڕۆین، ڕەوەن، ڕەوندە، خوڕ، ڕەوان،	ڕۆین یان ڕۆیشتنی ئاو، لێشاو،	کۆڕان، تەوژم،	تەزوو (با، ئێلیکتریسیتە)،	ڕەوت، ڕەوڕەوە
+کوردی: برەو، باو، داب،	ھەنووکە، (کاتی) ئێستا، ڕۆژانە، ڕۆژ، ڕۆژەڤ ، ئێستاکانێ،	لەگەڕ(دابوون)، دەساودەس‌کردوو، ڕەوندە، دەس‌کردوو (پارە)،	ڕەوندی، ڕۆین، ڕەوەن، ڕەوندە، خوڕ، ڕەوان،	ڕۆین یان ڕۆیشتنی ئاو، لێشاو،	کۆڕان، تەوژم،	تەزوو (با، ئێلیکتریسیتە)،	ڕەوت، ڕەوڕەوە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ڕوودان لە ئێستادا؛ پەیوەندیدار بە ئێستا"),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Under the current system, the entire process takes about two weeks."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بەم سیستەمەی ئێستا، تەواوی پڕۆسەکە نزیکەی دوو هەفتەی پێدەچێت."),
+                                    "بەم سیستەمەی ئێستا، تەواوی پڕۆسەکە نزیکەی دوو ھەفتەی پێدەچێت."),
                           ],
                         ),
                       ),
@@ -525,7 +525,7 @@ class KurdishMeaning extends StatelessWidget {
                             "\"Thou\" and \"thee\" are examples of words that are no longer current in modern English."),
                     ExampleSentenceKurdish(
                         text:
-                            "\"Thou\" و \"thee\" نموونەی ئەو وشانەن کە چ دیکە لە بەکارهێناندا نین لە ئینگلیزی سەرمدا."),
+                            "\"Thou\" و \"thee\" نموونەی ئەو وشانەن کە چ دیکە لە بەکارھێناندا نین لە ئینگلیزی سەرمدا."),
                   ],
                 ),
               ),
@@ -582,7 +582,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Birds use warm air currents to help their flight."),
                     ExampleSentenceKurdish(
                         text:
-                            "باڵندە ڕەوتی هەوای گەرم بەکاردێنن بۆ یارمەتیدانیان لە گەشتەکانیاندا."),
+                            "باڵندە ڕەوتی ھەوای گەرم بەکاردێنن بۆ یارمەتیدانیان لە گەشتەکانیاندا."),
                   ],
                 ),
               ),
@@ -633,7 +633,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "She was swept away by the treacherous currents."),
-                    ExampleSentenceKurdish(text: "تەوژنە بەهێزەکە ڕایماڵی."),
+                    ExampleSentenceKurdish(text: "تەوژنە بەھێزەکە ڕایماڵی."),
                   ],
                 ),
               ),
@@ -652,7 +652,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) جوڵەی تەزووی کارەبا بە وایەر، هتد ـدا"),
+              text: "٤. (ناو) جوڵەی تەزووی کارەبا بە وایەر، ھتد ـدا"),
           Row(
             children: [
               const Expanded(
@@ -708,7 +708,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (ناو) (ئینگلیزی هیندی) بڕی کارەبای بەردەست"),
+              text: "٥. (ناو) (ئینگلیزی ھیندی) بڕی کارەبای بەردەست"),
           Row(
             children: [
               const Expanded(
@@ -736,7 +736,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (ناو) بوونی باوەڕ و هەست لەناو گرووپێک لە خەڵکیدا"),
+              text: "٦. (ناو) بوونی باوەڕ و ھەست لەناو گرووپێک لە خەڵکیدا"),
           Row(
             children: [
               const Expanded(
@@ -747,7 +747,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Ministers are worried by this current of anti-government feeling."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەزیرەکان نیگەرانن سەبارەت بەم ڕەوتەی هەستی دژ بە حکومەت."),
+                            "وەزیرەکان نیگەرانن سەبارەت بەم ڕەوتەی ھەستی دژ بە حکومەت."),
                   ],
                 ),
               ),

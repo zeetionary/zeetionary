@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He used a special shampoo to help control his dandruff."),
                     ExampleSentenceKurdish(
                         text:
-                            "شامپۆیەکی تایبەتی بەکارهێنا بۆ کۆنترۆڵی کڕێژەکەی."),
+                            "شامپۆیەکی تایبەتی بەکارھێنا بۆ کۆنترۆڵی کڕێژەکەی."),
                   ],
                 ),
               ),

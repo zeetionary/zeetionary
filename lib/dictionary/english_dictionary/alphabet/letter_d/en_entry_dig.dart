@@ -411,9 +411,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سیخورمە، مستەکۆڵە، گوڕمیچ، تێ‌کوتان، تێ‌وەژاندن،	پلار، توانج، زیپک،	دانەوە، هەڵکۆڵین، هەڵکەندن،	شوێنی دانەوە، شوێنی کە شوێنەوارناسەکان دەیدەنەوە، کۆڵینی شوێنەوارناسی‌یانە
+کوردی: سیخورمە، مستەکۆڵە، گوڕمیچ، تێ‌کوتان، تێ‌وەژاندن،	پلار، توانج، زیپک،	دانەوە، ھەڵکۆڵین، ھەڵکەندن،	شوێنی دانەوە، شوێنی کە شوێنەوارناسەکان دەیدەنەوە، کۆڵینی شوێنەوارناسی‌یانە
 """),
-          const DefinitionKurdish(text: "١. (کردار) هەڵکەندن"),
+          const DefinitionKurdish(text: "١. (کردار) ھەڵکەندن"),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I think I'll do some digging in the garden."),
                     ExampleSentenceKurdish(
-                        text: "پێموایە کەمێک هەڵکەندن لە باخچەکەدا دەکەم."),
+                        text: "پێموایە کەمێک ھەڵکەندن لە باخچەکەدا دەکەم."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "They dug deeper and deeper but still found nothing."),
                     ExampleSentenceKurdish(
-                        text: "زیاتر و زیاتریان کەند بەڵام هیچیان نەدۆزییەوە."),
+                        text: "زیاتر و زیاتریان کەند بەڵام ھیچیان نەدۆزییەوە."),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We could only dig down a few feet."),
                     ExampleSentenceKurdish(
-                        text: "توانیمان تەنها چەند پێیەک بکەنین."),
+                        text: "توانیمان تەنھا چەند پێیەک بکەنین."),
                   ],
                 ),
               ),
@@ -536,7 +536,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I'll dig some potatoes for lunch."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک پەتاتە بۆ نانی نیوەڕی دەردێنم."),
+                        text: "ھەندێک پەتاتە بۆ نانی نیوەڕی دەردێنم."),
                   ],
                 ),
               ),
@@ -583,7 +583,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (ناو) پاڵنانێکی هێواش بە پەنجە"),
+          const DefinitionKurdish(text: "٤. (ناو) پاڵنانێکی ھێواش بە پەنجە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -670,7 +670,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (ناو) هەڵکۆڵین بۆ زانینی زانیاری لەسەر مێژووی شتێک"),
+              text: "٥. (ناو) ھەڵکۆڵین بۆ زانینی زانیاری لەسەر مێژووی شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -680,7 +680,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I went on a dig over the summer."),
                     ExampleSentenceKurdish(
-                        text: "لە هاویندا چووم بۆ هەڵکۆڵین."),
+                        text: "لە ھاویندا چووم بۆ ھەڵکۆڵین."),
                   ],
                 ),
               ),

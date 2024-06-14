@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئامرازی ناساندن؛ وشەی the لە زمانی ئینگلیزیدا، یان وشەی هاوشێوە لە زمانێکی دیکەدا"),
+                  "١. (ناو) ئامرازی ناساندن؛ وشەی the لە زمانی ئینگلیزیدا، یان وشەی ھاوشێوە لە زمانێکی دیکەدا"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In French, you must include either the definite article 'le' or 'la', or the indefinite article 'un' or 'une', before a noun."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە فەرەنسیدا دەبێت هەر یەکێک لە ئامرازی ناسیاوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە."),
+                            "لە فەرەنسیدا دەبێت ھەر یەکێک لە ئامرازی ناسیاوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە."),
                   ],
                 ),
               ),

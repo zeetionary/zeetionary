@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He may be a very talented designer, but as a manager he's a dead loss."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەوانەیە دیزاینەرێکی زۆر بەهرەدار بێت، بەڵام وەک بەڕێوەبەرێک زۆر بێ کەڵکە."),
+                            "لەوانەیە دیزاینەرێکی زۆر بەھرەدار بێت، بەڵام وەک بەڕێوەبەرێک زۆر بێ کەڵکە."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Yesterday's meeting was a dead loss - nothing was decided."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆبوونەوەی دوێنێ بێ سوود بوو ـ هیچ بڕیارێک نەدرا."),
+                            "کۆبوونەوەی دوێنێ بێ سوود بوو ـ ھیچ بڕیارێک نەدرا."),
                   ],
                 ),
               ),

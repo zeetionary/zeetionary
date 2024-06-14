@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They plan to digitize old photographs."),
                     ExampleSentenceKurdish(
-                        text: "پلانیان هەیە وێنە کۆنەکان بکەن بە دیجیتاڵ."),
+                        text: "پلانیان ھەیە وێنە کۆنەکان بکەن بە دیجیتاڵ."),
                   ],
                 ),
               ),

@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بڕیار، بڕیاردان، یەکلایی‌بوونەوە، دوایی‌پێ‌هاتن، بڕینەوە، ساغ‌بوونەوە، لێ‌بڕان، توانایی بڕیاردان، هێزی بڕیاردان، دەستوور، فەرمان، فەروار 
+کوردی: بڕیار، بڕیاردان، یەکلایی‌بوونەوە، دوایی‌پێ‌ھاتن، بڕینەوە، ساغ‌بوونەوە، لێ‌بڕان، توانایی بڕیاردان، ھێزی بڕیاردان، دەستوور، فەرمان، فەروار 
 """),
           const DefinitionKurdish(text: "١. (ناو) بڕیارێک کە دەیدەیت"),
           Row(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "No decisions have yet been taken."),
-                    ExampleSentenceKurdish(text: "هێشتا هیچ بڕیارێک نەدراوە."),
+                    ExampleSentenceKurdish(text: "ھێشتا ھیچ بڕیارێک نەدراوە."),
                   ],
                 ),
               ),
@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "We need a decision on this by next week."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "تاوەکو هەفتەی داهاتوو پێویستیمان بە بڕیارێکە لەسەر ئەمە"),
+                                    "تاوەکو ھەفتەی داھاتوو پێویستیمان بە بڕیارێکە لەسەر ئەمە"),
                           ],
                         ),
                       ),
@@ -517,7 +517,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Choosing a college is a big decision for students and their families."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هەڵبژاردنی کۆلێژێک بڕیارێکی گرنگە بۆ خوێندکاران و خێزانەکانیان."),
+                                    "ھەڵبژاردنی کۆلێژێک بڕیارێکی گرنگە بۆ خوێندکاران و خێزانەکانیان."),
                           ],
                         ),
                       ),
@@ -547,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The moment of decision had arrived."),
-                    ExampleSentenceKurdish(text: "کاتی بڕیاردان هاتووە."),
+                    ExampleSentenceKurdish(text: "کاتی بڕیاردان ھاتووە."),
                   ],
                 ),
               ),

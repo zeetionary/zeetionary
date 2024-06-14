@@ -330,11 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داهێنەرێتی، تازەگەرێتی، داهێنان؛ توانایی داهێنان یان ئافراندن
+کوردی: داھێنەرێتی، تازەگەرێتی، داھێنان؛ توانایی داھێنان یان ئافراندن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) داهێنەری؛ بەکارهێنانی شارەزایی و خەیاڵ بۆ درووستکردنی شتێکی تازە یان کاری هونەری"),
+                  "١. (ناو) داھێنەری؛ بەکارھێنانی شارەزایی و خەیاڵ بۆ درووستکردنی شتێکی تازە یان کاری ھونەری"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Creativity and originality are more important than technical skill."),
                     ExampleSentenceKurdish(
                         text:
-                            "داهێنەری و ڕەسەنێتی گرنگترن لە شارەزایی تەکنیکی."),
+                            "داھێنەری و ڕەسەنێتی گرنگترن لە شارەزایی تەکنیکی."),
                   ],
                 ),
               ),

@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قاپ، دەوری، کاسە، جام، بایە،	چێشت، نان، خۆراک،	ئانتێنی کاسەیی، سێڵ یان ساج،	نافەرمی تیکە، جەرگ، لەبار، سێکسی،	(تکنیکی) قاپ، جام، قاپ‌وکەوچک، قاپ‌وقاچاخ، هێربار، حاجەت
+کوردی: قاپ، دەوری، کاسە، جام، بایە،	چێشت، نان، خۆراک،	ئانتێنی کاسەیی، سێڵ یان ساج،	نافەرمی تیکە، جەرگ، لەبار، سێکسی،	(تکنیکی) قاپ، جام، قاپ‌وکەوچک، قاپ‌وقاچاخ، ھێربار، حاجەت
 """),
           const DefinitionKurdish(text: "١. (ناو) دەوری خواردن"),
           Row(
@@ -666,7 +666,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) هەر شتێک کە شێوەی وەک دەفرێکە"),
+              text: "٤. (ناو) ھەر شتێک کە شێوەی وەک دەفرێکە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -677,7 +677,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The soap dish keeps the soap dry and clean."),
                     ExampleSentenceKurdish(
                         text:
-                            "جێ‌سابوونەکە سابوونەکە بە وشکی و پاک دەهێڵێتەوە."),
+                            "جێ‌سابوونەکە سابوونەکە بە وشکی و پاک دەھێڵێتەوە."),
                   ],
                 ),
               ),

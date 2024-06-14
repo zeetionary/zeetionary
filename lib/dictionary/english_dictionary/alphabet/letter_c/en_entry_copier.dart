@@ -191,7 +191,7 @@ class EnglishEntrycopier extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: دەزگای هەڵگرتنەوە یا کۆپی
+// کوردی: دەزگای ھەڵگرتنەوە یا کۆپی
 // """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),

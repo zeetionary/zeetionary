@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەک‌پارچە، یەک‌گرتوو، یەک‌کراو، یەکێنراو، یەک‌کەوتوو، هاوبەش، پێکەوە، بەکۆمەڵ
+کوردی: یەک‌پارچە، یەک‌گرتوو، یەک‌کراو، یەکێنراو، یەک‌کەوتوو، ھاوبەش، پێکەوە، بەکۆمەڵ
 """),
           const DefinitionKurdish(
               text:
@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) پێکهاتوو لە هەموو ئەندامانی گرووپێک"),
+              text: "٣. (ھاوەڵناو) پێکھاتوو لە ھەموو ئەندامانی گرووپێک"),
           Row(
             children: [
               const Expanded(
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All adults take corporate responsibility for the upbringing of the tribe's children."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو پێگەشتووان بەرپرسیاریەتی بەکۆمەڵ لەئەستۆ دەگرن بۆ بەخێوکردنی منداڵانی خێڵەکە."),
+                            "ھەموو پێگەشتووان بەرپرسیاریەتی بەکۆمەڵ لەئەستۆ دەگرن بۆ بەخێوکردنی منداڵانی خێڵەکە."),
                   ],
                 ),
               ),

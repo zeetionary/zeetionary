@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دیوی نان‌خواردن، ژووری نەهارخۆری، سفرەخانە، خوان‌خانە
+کوردی: دیوی نان‌خواردن، ژووری نەھارخۆری، سفرەخانە، خوان‌خانە
 """),
           const DefinitionKurdish(text: "١. (ناو) ژووری نانخواردن"),
           Row(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The dining room seats up to 60 guests."),
                     ExampleSentenceKurdish(
-                        text: "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی هەیە."),
+                        text: "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی ھەیە."),
                   ],
                 ),
               ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."),
                     ExampleSentenceKurdish(
                         text:
-                            "خانووەکە چێشتخانەیەک، ژوورێکی میوان و ژوورێکی نانخواردنی هەیە لە خوارەوە و سێ ژووری نووستن و گەرماوێکی هەیە لە سەرەوە."),
+                            "خانووەکە چێشتخانەیەک، ژوورێکی میوان و ژوورێکی نانخواردنی ھەیە لە خوارەوە و سێ ژووری نووستن و گەرماوێکی ھەیە لە سەرەوە."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This room has a dual purpose, serving as both a study and a dining room."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم ژوورە بۆ دوو مەبەست بەکاردێت، هەم وەک شوێنی خوێندنەوە و هەم وەک ژووری نانخواردن."),
+                            "ئەم ژوورە بۆ دوو مەبەست بەکاردێت، ھەم وەک شوێنی خوێندنەوە و ھەم وەک ژووری نانخواردن."),
                   ],
                 ),
               ),

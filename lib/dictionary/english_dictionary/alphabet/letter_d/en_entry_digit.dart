@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (بیرکاری) ژمارە، ڕەنووس، پێژمار
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) هەر یەک لەو ژمارانەی لە نێوان ١-٩ ـن"),
+              text: "١. (ناو) ھەر یەک لەو ژمارانەی لە نێوان ١-٩ ـن"),
           Row(
             children: [
               const Expanded(

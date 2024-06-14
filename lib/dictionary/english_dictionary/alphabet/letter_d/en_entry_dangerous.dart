@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "It's one of the most dangerous places in the world."),
                     ExampleSentenceKurdish(
-                        text: "یەکێکە لە مەترسیدارترین شوێنەکانی جیهان."),
+                        text: "یەکێکە لە مەترسیدارترین شوێنەکانی جیھان."),
                   ],
                 ),
               ),
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The prisoners who escaped are violent and dangerous."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو زیندانییانەی کە هەڵهاتن توندوتیژ و مەترسیدارن."),
+                            "ئەو زیندانییانەی کە ھەڵھاتن توندوتیژ و مەترسیدارن."),
                   ],
                 ),
               ),
@@ -503,7 +503,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) کە ئەگەری هەیە کێشە درووست بکات یان ئەنجامی خراپی هەبێت"),
+                  "٢. (ھاوەڵناو) کە ئەگەری ھەیە کێشە درووست بکات یان ئەنجامی خراپی ھەبێت"),
           Row(
             children: [
               const Expanded(
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "This ruling sets a dangerous precedent."),
                     ExampleSentenceKurdish(
-                        text: "بڕیارەکە پێشهاتێکی مەترسیدار درووست دەکات."),
+                        text: "بڕیارەکە پێشھاتێکی مەترسیدار درووست دەکات."),
                   ],
                 ),
               ),
@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Raising income tax is considered politically dangerous."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەرزکردنەوەی باج لەسەر داهات لە ڕووی سیاسییەوە بە مەترسیدار دادەنرێت."),
+                            "بەرزکردنەوەی باج لەسەر داھات لە ڕووی سیاسییەوە بە مەترسیدار دادەنرێت."),
                   ],
                 ),
               ),

@@ -658,7 +658,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She still believed that somehow she could be miraculously cured."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هێشتا باوەڕی وابوو کە دەکرا مۆجیزەئاسا چارەسەر بکرابایە."),
+                                    "ھێشتا باوەڕی وابوو کە دەکرا مۆجیزەئاسا چارەسەر بکرابایە."),
                           ],
                         ),
                       ),
@@ -686,7 +686,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "They will try to cure her of her alcoholism."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "هەوڵ دەدات لە ئاڵوودەییەکەی چارەسەری بکات."),
+                                    "ھەوڵ دەدات لە ئاڵوودەییەکەی چارەسەری بکات."),
                           ],
                         ),
                       ),
@@ -708,7 +708,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) نەهێشتنی نەخۆشییەک"),
+          const DefinitionKurdish(text: "٢. (کردار) نەھێشتنی نەخۆشییەک"),
           Row(
             children: [
               const Expanded(
@@ -831,7 +831,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Charities alone can't cure basic social injustices."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکخراوە خێرخوازییەکان بە تەنها ناتوانن چارەسەری نادادییە سەرەتاییە کۆمەڵایەتییەکان بکەن."),
+                            "ڕێکخراوە خێرخوازییەکان بە تەنھا ناتوانن چارەسەری نادادییە سەرەتاییە کۆمەڵایەتییەکان بکەن."),
                   ],
                 ),
               ),
@@ -859,7 +859,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Most of the team's faults could be cured with good coaching."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرینەی هەڵەکانی تیمەکە دەکرێت بە ڕاهێنانی باش چارەسەر بکرێت."),
+                            "زۆرینەی ھەڵەکانی تیمەکە دەکرێت بە ڕاھێنانی باش چارەسەر بکرێت."),
                   ],
                 ),
               ),
@@ -915,7 +915,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There is no miracle cure for this condition."),
                     ExampleSentenceKurdish(
-                        text: "هیچ چارەسەرێکی مۆجیزەئاسا بۆ ئەم دۆخە نییە."),
+                        text: "ھیچ چارەسەرێکی مۆجیزەئاسا بۆ ئەم دۆخە نییە."),
                   ],
                 ),
               ),
@@ -939,7 +939,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "The only real cure is rest."),
-                    ExampleSentenceKurdish(text: "تەنها چارەسەر پشوودانە."),
+                    ExampleSentenceKurdish(text: "تەنھا چارەسەر پشوودانە."),
                   ],
                 ),
               ),
@@ -993,7 +993,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "The cure took six weeks."),
-                    ExampleSentenceKurdish(text: "چارەسەرەکە شەش هەفتەی ویست."),
+                    ExampleSentenceKurdish(text: "چارەسەرەکە شەش ھەفتەی ویست."),
                   ],
                 ),
               ),
@@ -1013,7 +1013,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (ناو) شتێک کە کێشەیەک چارەسەر دەکات، دۆخێکی خراپ باش دەکات، هتد"),
+                  "٦. (ناو) شتێک کە کێشەیەک چارەسەر دەکات، دۆخێکی خراپ باش دەکات، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -1024,7 +1024,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Science cannot provide a cure for all the world's problems."),
                     ExampleSentenceKurdish(
                         text:
-                            "زانست ناتوانێت چارەسەر بۆ هەموو کێشەکانی جیهان بدات بەدەستەوە."),
+                            "زانست ناتوانێت چارەسەر بۆ ھەموو کێشەکانی جیھان بدات بەدەستەوە."),
                   ],
                 ),
               ),

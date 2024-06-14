@@ -336,11 +336,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گومڕکانە، هاوردانە، باجی هاوردەیی
+کوردی: گومڕکانە، ھاوردانە، باجی ھاوردەیی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئەو بەشەی حکومەت کە بەرپرسە باج کۆدەکاتەوە لەسەر ئەو کەلوپەلانەی کە کڕین و فرۆشتیان پێوە دەکرێت و ئەوانەی کە هاوردەی ناو وڵاتێک دەکرێن "),
+                  "١. (ناو) ئەو بەشەی حکومەت کە بەرپرسە باج کۆدەکاتەوە لەسەر ئەو کەلوپەلانەی کە کڕین و فرۆشتیان پێوە دەکرێت و ئەوانەی کە ھاوردەی ناو وڵاتێک دەکرێن "),
           Row(
             children: [
               const Expanded(
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Customs have seized large quantities of smuggled heroin."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەزگای گومرک ڕێژەیەکی زۆر لە هیرۆینی هاوردەکراوی دەستبەسەردا گرتووە."),
+                            "دەزگای گومرک ڕێژەیەکی زۆر لە ھیرۆینی ھاوردەکراوی دەستبەسەردا گرتووە."),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) ئەو باجەی بە حکومەت دەدرێت کە کەلوپەل هاوردەی وڵاتێک دەکرێت"),
+                  "٣. (ناو) ئەو باجەی بە حکومەت دەدرێت کە کەلوپەل ھاوردەی وڵاتێک دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You must pay customs on all imports of alcohol."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت گومرک بدەیت بۆ هەموو هاوردەیەکی مادەی کحوولی."),
+                            "دەبێت گومرک بدەیت بۆ ھەموو ھاوردەیەکی مادەی کحوولی."),
                   ],
                 ),
               ),

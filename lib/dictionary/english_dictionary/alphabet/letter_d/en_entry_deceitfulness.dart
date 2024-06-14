@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: فروفێڵ، تەڵەکەبازی، لەخشتەبردن، خەڵەتاندن، تەفرەدان، زۆڵی، دووزمانی، گزەونی، فێڵ‌لێ‌کردن، قەلەودەلە، فریودان، هەڵفریواندن، دەسبڕی، دهۆ، تەفرە، فێڵ، تەڵەکە
+کوردی: فروفێڵ، تەڵەکەبازی، لەخشتەبردن، خەڵەتاندن، تەفرەدان، زۆڵی، دووزمانی، گزەونی، فێڵ‌لێ‌کردن، قەلەودەلە، فریودان، ھەڵفریواندن، دەسبڕی، دھۆ، تەفرە، فێڵ، تەڵەکە
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) ناڕاست بەهۆی درۆکردن و خەڵەتاندن"),
+              text: "١. (ناو) ناڕاست بەھۆی درۆکردن و خەڵەتاندن"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Only he seemed to have recognised Lucy's deceitfulness."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها ئەو وادیاربوو کە بە تەڵەکەبازی لوسی زانیبێت."),
+                            "تەنھا ئەو وادیاربوو کە بە تەڵەکەبازی لوسی زانیبێت."),
                   ],
                 ),
               ),

@@ -935,7 +935,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "At least they died happy."),
                             ExampleSentenceKurdish(
-                                text: "هیچ نەبێت بە خۆشی مردن."),
+                                text: "ھیچ نەبێت بە خۆشی مردن."),
                           ],
                         ),
                       ),
@@ -988,7 +988,7 @@ class KurdishMeaning extends StatelessWidget {
                           children: [
                             ExampleSentenceEnglish(text: "He died a poor man."),
                             ExampleSentenceKurdish(
-                                text: "وەک پیاوێکی هەژار مرد."),
+                                text: "وەک پیاوێکی ھەژار مرد."),
                           ],
                         ),
                       ),
@@ -1016,7 +1016,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "Her husband died suddenly last week."),
                             ExampleSentenceKurdish(
-                                text: "هاوسەرەکەی هەفتەی پێشوو لەناکاو مرد."),
+                                text: "ھاوسەرەکەی ھەفتەی پێشوو لەناکاو مرد."),
                           ],
                         ),
                       ),
@@ -1656,7 +1656,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "His secret died with him (= he never told anyone)."),
                     ExampleSentenceKurdish(
-                        text: "نهێنییەکەی لەگەڵ خۆی بردە گۆڕ."),
+                        text: "نھێنییەکەی لەگەڵ خۆی بردە گۆڕ."),
                   ],
                 ),
               ),
@@ -1713,7 +1713,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "My phone died and I had no way to contact you."),
                     ExampleSentenceKurdish(
                         text:
-                            "موبایلەکەم کوژایەوە و هیچ ڕێگایەکم نەبوو پەیوەندیت پێوە بکەم."),
+                            "موبایلەکەم کوژایەوە و ھیچ ڕێگایەکم نەبوو پەیوەندیت پێوە بکەم."),
                   ],
                 ),
               ),

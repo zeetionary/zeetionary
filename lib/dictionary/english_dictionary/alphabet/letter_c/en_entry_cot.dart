@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) تەختێک بۆ نووستن لەسەری کە سووکە و ئاسان هەڵدەگیرێت"),
+                  "٢. (ناو) تەختێک بۆ نووستن لەسەری کە سووکە و ئاسان ھەڵدەگیرێت"),
           Row(
             children: [
               const Expanded(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The hotel provided a cot for the extra guest."),
                     ExampleSentenceKurdish(
                         text:
-                            "هوتێلەکە قەروێڵەیەکی دابین کرد بۆ میوانە زیادەکە."),
+                            "ھوتێلەکە قەروێڵەیەکی دابین کرد بۆ میوانە زیادەکە."),
                   ],
                 ),
               ),

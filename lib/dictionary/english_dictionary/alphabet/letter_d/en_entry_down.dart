@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -1105,7 +1107,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خوارەوە، بۆ خوارەوە، بەرەو خوارەوە، دەمەوژێر، دەمەوخوار، ڕوولە خوارەوە، داـ، ڕۆ(وەکوو ڕۆچوون و…)، لەژێر، ژێر، لەسەر عەرز، بەرەو عەرز،	پەنچەر، کەم‌با،	دواوە، پشتەوە،	خواروو، خوارەوە، لای خوار،	تەواوکراو، جێبەجێ‌کراو، کراو،	ناڕەحەت، خەمبار، دڵتەنگ، مات،	نەخۆش، ناساز، نەرمەپەڕ، وردەپەڕ، پەڕی نەرم، کوڵکە، گەندەموو، تووکی نەرم،	هاتنەخوارێ، داکەوتن، کڵۆڵی، ڕۆژەڕەشی، نەهاتی، مەینەتی، نەگبەتی
+کوردی: خوارەوە، بۆ خوارەوە، بەرەو خوارەوە، دەمەوژێر، دەمەوخوار، ڕوولە خوارەوە، داـ، ڕۆ(وەکوو ڕۆچوون و…)، لەژێر، ژێر، لەسەر عەرز، بەرەو عەرز،	پەنچەر، کەم‌با،	دواوە، پشتەوە،	خواروو، خوارەوە، لای خوار،	تەواوکراو، جێبەجێ‌کراو، کراو،	ناڕەحەت، خەمبار، دڵتەنگ، مات،	نەخۆش، ناساز، نەرمەپەڕ، وردەپەڕ، پەڕی نەرم، کوڵکە، گەندەموو، تووکی نەرم،	ھاتنەخوارێ، داکەوتن، کڵۆڵی، ڕۆژەڕەشی، نەھاتی، مەینەتی، نەگبەتی
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە خوارەوە"),
           Row(
@@ -1197,7 +1199,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She bent down to pick up her glove."),
                     ExampleSentenceKurdish(
-                        text: "چەمایەوە بۆ هەڵگرتنەوەی دەستکێشەکەی."),
+                        text: "چەمایەوە بۆ ھەڵگرتنەوەی دەستکێشەکەی."),
                   ],
                 ),
               ),
@@ -1225,7 +1227,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Mary's not down yet (= she is still upstairs)."),
                     ExampleSentenceKurdish(
-                        text: "ماری هێشتا نەهاتووەتە خوارەوە."),
+                        text: "ماری ھێشتا نەھاتووەتە خوارەوە."),
                   ],
                 ),
               ),
@@ -1244,7 +1246,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵکار) لە هەستانەوە بۆ دابەزین"),
+              text: "٢. (ھاوەڵکار) لە ھەستانەوە بۆ دابەزین"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1330,7 +1332,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (ھاوەڵکار) بۆ وتنی ئەوەی بڕ یان هێزی شتێک کەمترە، یان ئەوەی چالاکی کەمتر هەیە"),
+                  "٤. (ھاوەڵکار) بۆ وتنی ئەوەی بڕ یان ھێزی شتێک کەمترە، یان ئەوەی چالاکی کەمتر ھەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1420,7 +1422,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I always write everything down."),
-                    ExampleSentenceKurdish(text: "هەمیشە هەموو شتێک دەنووسم."),
+                    ExampleSentenceKurdish(text: "ھەمیشە ھەموو شتێک دەنووسم."),
                   ],
                 ),
               ),
@@ -1624,7 +1626,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Everyone will be there, from the Principal down."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمووان لەوێ دەبن، لە بەڕێوەبەرەکەوە بۆ ئەوانی دیکە."),
+                            "ھەمووان لەوێ دەبن، لە بەڕێوەبەرەکەوە بۆ ئەوانی دیکە."),
                   ],
                 ),
               ),
@@ -1799,7 +1801,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "Tears ran down her face."),
                     ExampleSentenceKurdish(
-                        text: "فرمێسک بە چاویدا هاتە خوارەوە."),
+                        text: "فرمێسک بە چاویدا ھاتە خوارەوە."),
                   ],
                 ),
               ),
@@ -1916,7 +1918,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There's a bridge a mile down the river from here."),
                     ExampleSentenceKurdish(
                         text:
-                            "پردێک هەیە یەک میل لێرەوە لە خوارەوەی ڕووبارەکە."),
+                            "پردێک ھەیە یەک میل لێرەوە لە خوارەوەی ڕووبارەکە."),
                   ],
                 ),
               ),
@@ -1976,7 +1978,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We downed our coffees and left."),
                     ExampleSentenceKurdish(
-                        text: "قاوەکانمان هەڵقوڕاند و ڕۆشتین."),
+                        text: "قاوەکانمان ھەڵقوڕاند و ڕۆشتین."),
                   ],
                 ),
               ),
@@ -2004,7 +2006,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Storms downed trees and power lines."),
                     ExampleSentenceKurdish(
-                        text: "زریانەکان دارەکان و هێڵەکانی کارەبایان کەواند."),
+                        text: "زریانەکان دارەکان و ھێڵەکانی کارەبایان کەواند."),
                   ],
                 ),
               ),
@@ -2023,7 +2025,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٩. (هاوەڵناو) بەرەو خوارەوە یان دوور لە شتێک"),
+              text: "١٩. (ھاوەڵناو) بەرەو خوارەوە یان دوور لە شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2077,7 +2079,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢٠. (هاوەڵناو) دەڵتەنگ و خەمبار"),
+          const DefinitionKurdish(text: "٢٠. (ھاوەڵناو) دەڵتەنگ و خەمبار"),
           // const DividerSentences(),
           Row(
             children: [
@@ -2086,7 +2088,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "I feel a bit down today."),
                     ExampleSentenceKurdish(
-                        text: "ئەمڕۆ کەمێک هەست بە خەمباری دەکەم."),
+                        text: "ئەمڕۆ کەمێک ھەست بە خەمباری دەکەم."),
                   ],
                 ),
               ),
@@ -2114,7 +2116,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You look a bit down. Is something the matter?"),
                     ExampleSentenceKurdish(
-                        text: "کەساس دیاریت. هیچ شت کێشەیە؟"),
+                        text: "کەساس دیاریت. ھیچ شت کێشەیە؟"),
                   ],
                 ),
               ),
@@ -2142,7 +2144,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Don't let the weather get you down."),
                     ExampleSentenceKurdish(
-                        text: "مەهێڵە کەشوهەوا دڵتەنگت بکات."),
+                        text: "مەھێڵە کەشوھەوا دڵتەنگت بکات."),
                   ],
                 ),
               ),
@@ -2160,7 +2162,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢١. (هاوەڵناو) کە کارناکات"),
+          const DefinitionKurdish(text: "٢١. (ھاوەڵناو) کە کارناکات"),
           const DividerSentences(),
           Row(
             children: [
@@ -2221,7 +2223,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢٣. (ناو) ماوەیەک لە هەستکردن بە نیگەرانی یان کە شتەکان باش نین"),
+                  "٢٣. (ناو) ماوەیەک لە ھەستکردن بە نیگەرانی یان کە شتەکان باش نین"),
           const DividerSentences(),
           Row(
             children: [
@@ -2231,7 +2233,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We all have our downs from time to time."),
                     ExampleSentenceKurdish(
-                        text: "هەموومان ڕۆژەڕەشی خۆمان هەیە ماوە ماوە."),
+                        text: "ھەموومان ڕۆژەڕەشی خۆمان ھەیە ماوە ماوە."),
                   ],
                 ),
               ),
@@ -2259,7 +2261,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her career has had a few downs this year."),
                     ExampleSentenceKurdish(
-                        text: "کارەکەی ژمارەیەک نەهاتی هەبوو ئەمساڵ."),
+                        text: "کارەکەی ژمارەیەک نەھاتی ھەبوو ئەمساڵ."),
                   ],
                 ),
               ),
@@ -3472,7 +3474,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e_04ZrNroTo?t=',
+    videoId: 'e_04ZrNroTo',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3497,7 +3499,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_spuxXnul0U?t=',
+    videoId: '_spuxXnul0U',
     startSeconds: 1021,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3522,7 +3524,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1roy4o4tqQM?t=',
+    videoId: '1roy4o4tqQM',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3547,7 +3549,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_spuxXnul0U?t=',
+    videoId: '_spuxXnul0U',
     startSeconds: 1021,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3572,7 +3574,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e09xig209cQ?t=',
+    videoId: 'e09xig209cQ',
     startSeconds: 408,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3597,7 +3599,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 506,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -3622,7 +3624,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(

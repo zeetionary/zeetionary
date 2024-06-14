@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قووڵ‌بوونەوە، تێ‌ڕامان، (لێ)وردبوونەوە، تێ‌فکرین، بیرلێ‌کردنەوە، تێبینی، هەڵسەنگاندن، لێکدانەوە، لێکۆڵینەوەی ورد،	پرس‌وڕا، ڕاوێژ،	لەسەردووان، ڕاگۆڕینەوە، دان‌وستان،	لەسەەرخۆیی، هێمنی، مەندی، ئەهۆنی، ئارامی
+کوردی: قووڵ‌بوونەوە، تێ‌ڕامان، (لێ)وردبوونەوە، تێ‌فکرین، بیرلێ‌کردنەوە، تێبینی، ھەڵسەنگاندن، لێکدانەوە، لێکۆڵینەوەی ورد،	پرس‌وڕا، ڕاوێژ،	لەسەردووان، ڕاگۆڕینەوە، دان‌وستان،	لەسەەرخۆیی، ھێمنی، مەندی، ئەھۆنی، ئارامی
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی بە وریایی بیرکردنەوە لە شتێک"),
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The deliberations of the committee are completely confidential."),
                     ExampleSentenceKurdish(
-                        text: "ڕاوێژی لیژنەکە تەواو نهێنییە."),
+                        text: "ڕاوێژی لیژنەکە تەواو نھێنییە."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هێواشی و وریا لەوەی دیکەیت یان دەیڵێیت"),
+              text: "٢. (ناو) ھێواشی و وریا لەوەی دیکەیت یان دەیڵێیت"),
           const DividerSentences(),
           Row(
             children: [
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             "With slow deliberation, he tore the letter into pieces."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە لەسەرەخۆیی هێواشەوە، نامەکەی پارچە پارچە کرد."),
+                            "بە لەسەرەخۆیی ھێواشەوە، نامەکەی پارچە پارچە کرد."),
                   ],
                 ),
               ),

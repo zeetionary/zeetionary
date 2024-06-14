@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیاواز بوون، فەرق هەبوون، گۆڕان
+کوردی: جیاواز بوون، فەرق ھەبوون، گۆڕان
 """),
           const DefinitionKurdish(
               text: "١. (کردار) جیاوازبوون لە کەسێک یان شتێک"),

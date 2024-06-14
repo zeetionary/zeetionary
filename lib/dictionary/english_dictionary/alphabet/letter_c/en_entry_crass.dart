@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: تەواو، لەئەندازبەدەر، ڕەبەق، ئازگار،	کەر، نەفام، گەوج‌ولەوج، بێ‌ڕەوشت، بێ‌ماریفەت
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر بێ‌هەست و گەمژە"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر بێ‌ھەست و گەمژە"),
           Row(
             children: [
               const Expanded(
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I don’t know anyone who would speak in such a crass manner."),
                     ExampleSentenceKurdish(
-                        text: "هیچ کەس ناناسم هێندە کاڵفامانە قسە بکات."),
+                        text: "ھیچ کەس ناناسم ھێندە کاڵفامانە قسە بکات."),
                   ],
                 ),
               ),

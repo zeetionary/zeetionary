@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: درێژە پێنەدان، پچڕاندن، هەڵبڕان
+کوردی: درێژە پێنەدان، پچڕاندن، ھەڵبڕان
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) وەستان لە کردن، بەکارهێنان، یان دابینکردنی شتێک، بەتایبەتی کە بە بەردەوامی کردووتە"),
+                  "١. (کردار) وەستان لە کردن، بەکارھێنان، یان دابینکردنی شتێک، بەتایبەتی کە بە بەردەوامی کردووتە"),
           Row(
             children: [
               const Expanded(

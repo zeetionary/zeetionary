@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چەک‌داماڵین، چەک‌کردن، چەک‌دانان، نەهێشتنی چەک‌وچۆڵ، کەم‌کردنەوەی هێز و چەک‌وچۆڵی سەربازی
+کوردی: چەک‌داماڵین، چەک‌کردن، چەک‌دانان، نەھێشتنی چەک‌وچۆڵ، کەم‌کردنەوەی ھێز و چەک‌وچۆڵی سەربازی
 """),
           const DefinitionKurdish(
               text:
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He believes in using limited force to achieve disarmament."),
                     ExampleSentenceKurdish(
                         text:
-                            "باوەڕی بە بەکارهێنانی هێزی سنووردار هەیە بۆ بەدەستهێنانی چەکداماڵین."),
+                            "باوەڕی بە بەکارھێنانی ھێزی سنووردار ھەیە بۆ بەدەستھێنانی چەکداماڵین."),
                   ],
                 ),
               ),

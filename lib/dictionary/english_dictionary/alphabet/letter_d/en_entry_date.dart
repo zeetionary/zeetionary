@@ -860,7 +860,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕێکەوت، هلکەفت، ڕۆژومانگ، مێژوو، ڕۆژکەوت،	سەردەم، سەروبەند، قۆناخ، چەرخ،	بڕیار، بڕیاری یەکتربینین، بەڵێنی (چ لەباری کۆمەڵایەتی یا دڵداری‌یەوە)،	دەزگیران، دۆستی کچ، دۆستی کوڕ، خورما
+کوردی: ڕێکەوت، ھلکەفت، ڕۆژومانگ، مێژوو، ڕۆژکەوت،	سەردەم، سەروبەند، قۆناخ، چەرخ،	بڕیار، بڕیاری یەکتربینین، بەڵێنی (چ لەباری کۆمەڵایەتی یا دڵداری‌یەوە)،	دەزگیران، دۆستی کچ، دۆستی کوڕ، خورما
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەروار؛ ڕۆژێکی دیاریکراوی مانگ"),
@@ -899,7 +899,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "They haven't set a date for the wedding yet."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێشتا ڕێککەوتێکیان بۆ ئاهەنگی هاوسەرگیرییەکە دانەناوە."),
+                            "ھێشتا ڕێککەوتێکیان بۆ ئاھەنگی ھاوسەرگیرییەکە دانەناوە."),
                   ],
                 ),
               ),
@@ -956,7 +956,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "We need to fix a date for the next meeting."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "دەبێت کاتێک دابنێین بۆ کۆبوونەوەی داهاتوو."),
+                                    "دەبێت کاتێک دابنێین بۆ کۆبوونەوەی داھاتوو."),
                           ],
                         ),
                       ),
@@ -1010,7 +1010,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "There's no date on this letter."),
                             ExampleSentenceKurdish(
-                                text: "هیچ ڕێکەوتێک لەسەر ئەم نامەیە نییە."),
+                                text: "ھیچ ڕێکەوتێک لەسەر ئەم نامەیە نییە."),
                           ],
                         ),
                       ),
@@ -1072,7 +1072,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I hated history at school—I could never remember all those dates."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە قوتابجانە ڕقم لە مێژوو بوو، هەرگیز نەمدەتوانی هەموو ئەو ڕێکەوتانەم بیربکەوێتەوە."),
+                            "لە قوتابجانە ڕقم لە مێژوو بوو، ھەرگیز نەمدەتوانی ھەموو ئەو ڕێکەوتانەم بیربکەوێتەوە."),
                   ],
                 ),
               ),
@@ -1118,7 +1118,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) کاتێک لە ڕابردوو یان داهاتوو کە ڕۆژێکی دیاریکراو نییە"),
+                  "٣. (ناو) کاتێک لە ڕابردوو یان داھاتوو کە ڕۆژێکی دیاریکراو نییە"),
           Row(
             children: [
               const Expanded(
@@ -1154,7 +1154,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The work will be carried out at a future date."),
                     ExampleSentenceKurdish(
-                        text: "کارەکە لە کاتێکدا لە داهاتوودا دەکرێت."),
+                        text: "کارەکە لە کاتێکدا لە داھاتوودا دەکرێت."),
                   ],
                 ),
               ),
@@ -1185,7 +1185,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Call me next week and we'll try and make a date."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەفتەی داهاتوو پەیوەندیم پێوە بکە و هەوڵ دەدەین و ڕێکەوتێک دادەنێین."),
+                            "ھەفتەی داھاتوو پەیوەندیم پێوە بکە و ھەوڵ دەدەین و ڕێکەوتێک دادەنێین."),
                   ],
                 ),
               ),
@@ -1211,7 +1211,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Next Friday? Fine—it's a date!"),
                     ExampleSentenceKurdish(
-                        text: "هەفتەی داهاتوو؟ تەواوە ـ ڕێکەوتمانە."),
+                        text: "ھەفتەی داھاتوو؟ تەواوە ـ ڕێکەوتمانە."),
                   ],
                 ),
               ),
@@ -1238,7 +1238,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: " I've got a date with Lucy tomorrow night."),
                     ExampleSentenceKurdish(
-                        text: "سبەی شەو ژوانێکم هەیە لەگەڵ لوسیدا."),
+                        text: "سبەی شەو ژوانێکم ھەیە لەگەڵ لوسیدا."),
                   ],
                 ),
               ),
@@ -1342,7 +1342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I need to find a date for Friday."),
                     ExampleSentenceKurdish(
-                        text: "دەبێت دۆستێک بۆ هەینی بدۆزمەوە."),
+                        text: "دەبێت دۆستێک بۆ ھەینی بدۆزمەوە."),
                   ],
                 ),
               ),
@@ -1588,7 +1588,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٣. (کردار) هەبوونی پەیوەندی سۆزداری لەگەڵ کەسێکدا"),
+              text: "١٣. (کردار) ھەبوونی پەیوەندی سۆزداری لەگەڵ کەسێکدا"),
           Row(
             children: [
               const Expanded(
@@ -1597,7 +1597,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She's been dating Ron for several months."),
                     ExampleSentenceKurdish(
-                        text: "بۆ چەند مانگێکە پەیوەندی لەگەڵ ڕۆن هەیە."),
+                        text: "بۆ چەند مانگێکە پەیوەندی لەگەڵ ڕۆن ھەیە."),
                   ],
                 ),
               ),
@@ -1623,7 +1623,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "How long have you two been dating?"),
                     ExampleSentenceKurdish(
-                        text: "چەند دەبێت ئەو دووانەتان پەیوەندیتان هەیە؟"),
+                        text: "چەند دەبێت ئەو دووانەتان پەیوەندیتان ھەیە؟"),
                   ],
                 ),
               ),

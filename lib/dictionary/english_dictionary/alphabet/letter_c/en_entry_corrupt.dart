@@ -337,11 +337,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خراپ، گەندەڵ، بەرتیل‌خۆر،	هەرزە، جڵف، شپرزە،	گۆڕاو، دەسکاری‌کراو، پڕ لە هەڵە، هەڵاوی، پڕخەوش (زمان، دەق و هتد
+کوردی: خراپ، گەندەڵ، بەرتیل‌خۆر،	ھەرزە، جڵف، شپرزە،	گۆڕاو، دەسکاری‌کراو، پڕ لە ھەڵە، ھەڵاوی، پڕخەوش (زمان، دەق و ھتد
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) گەندەڵ؛ هەبوونی ئامادەیی بۆ بەکارهێنانی دەسەڵاتی خۆیان بۆ ئەنجامدانی کاری خراپ یان نایاسایی لە بۆ پارە یان بۆ بەدەستهێنانی سوود"),
+                  "١. (ھاوەڵناو) گەندەڵ؛ ھەبوونی ئامادەیی بۆ بەکارھێنانی دەسەڵاتی خۆیان بۆ ئەنجامدانی کاری خراپ یان نایاسایی لە بۆ پارە یان بۆ بەدەستھێنانی سوود"),
           Row(
             children: [
               const Expanded(
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was seen as the only way to overthrow a corrupt regime."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە تەنها ڕێگا بینرا بۆ کۆتایی هێنان بە ڕژێمێکی گەندەڵ."),
+                            "بە تەنھا ڕێگا بینرا بۆ کۆتایی ھێنان بە ڕژێمێکی گەندەڵ."),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) هەبوونی کاریگەری خراپ لەسەر کەسێک و بردنی بە لای کاری نائەخلاقی و خراپدا"),
+                  "٤. (کردار) ھەبوونی کاریگەری خراپ لەسەر کەسێک و بردنی بە لای کاری نائەخلاقی و خراپدا"),
           Row(
             children: [
               const Expanded(
@@ -569,7 +569,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (کردار) تێکدانی فایلی کۆمپیوتەری بە درووستکردنی هەڵە تێیدا"),
+                  "٦. (کردار) تێکدانی فایلی کۆمپیوتەری بە درووستکردنی ھەڵە تێیدا"),
           Row(
             children: [
               const Expanded(

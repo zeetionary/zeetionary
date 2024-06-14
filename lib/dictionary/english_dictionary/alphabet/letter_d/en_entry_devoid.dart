@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Their apartment is devoid of all comforts."),
                     ExampleSentenceKurdish(
-                        text: "باڵەخانەکە بەبێ هیچ حەسانەوەیەکە."),
+                        text: "باڵەخانەکە بەبێ ھیچ حەسانەوەیەکە."),
                   ],
                 ),
               ),
@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He seems to be devoid of compassion."),
                     ExampleSentenceKurdish(
-                        text: "وادیارە کە داچۆڕاو بێت لە هەر ڕەحمێک."),
+                        text: "وادیارە کە داچۆڕاو بێت لە ھەر ڕەحمێک."),
                   ],
                 ),
               ),

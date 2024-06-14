@@ -403,11 +403,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (بیرکاری) تیر، تیرە، ئەشکێڵ، هێڵی لار، لارەهێڵ،	تیری، تیرەیی، سەربە تیر،	خوار، لار،	چەپ‌وڕاست
+کوردی: (بیرکاری) تیر، تیرە، ئەشکێڵ، ھێڵی لار، لارەھێڵ،	تیری، تیرەیی، سەربە تیر،	خوار، لار،	چەپ‌وڕاست
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هێڵێک کە نە ستوونی و نە ئاسۆییە، بۆ نموونە یەکێک کە دوو گۆشەی بەرانبەری چوارگۆشەیەک بگەیەنێت بە یەکدی"),
+                  "١. (ھاوەڵناو) ھێڵێک کە نە ستوونی و نە ئاسۆییە، بۆ نموونە یەکێک کە دوو گۆشەی بەرانبەری چوارگۆشەیەک بگەیەنێت بە یەکدی"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The book has a diagonal black stripe on the cover."),
                     ExampleSentenceKurdish(
-                        text: "کتێبەکە هێڵێکی چەپ‌وڕاستی هەیە لەسەر بەرگەکەی."),
+                        text: "کتێبەکە ھێڵێکی چەپ‌وڕاستی ھەیە لەسەر بەرگەکەی."),
                   ],
                 ),
               ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) هێڵێکی لەم شێوەیە"),
+          const DefinitionKurdish(text: "٢. (ناو) ھێڵێکی لەم شێوەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The diagonal divides the square into two triangles."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێڵە چەپ‌وڕاستەکە چوارگۆشەکە بۆ دوو سێگۆشە دابەش دەکات."),
+                            "ھێڵە چەپ‌وڕاستەکە چوارگۆشەکە بۆ دوو سێگۆشە دابەش دەکات."),
                   ],
                 ),
               ),

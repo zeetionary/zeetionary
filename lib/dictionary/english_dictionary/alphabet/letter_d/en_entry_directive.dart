@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All companies must comply with the new directive."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو کۆمپانیاکان دەبێت پابەند بن بە ڕێنماییە تازەکان."),
+                            "ھەموو کۆمپانیاکان دەبێت پابەند بن بە ڕێنماییە تازەکان."),
                   ],
                 ),
               ),

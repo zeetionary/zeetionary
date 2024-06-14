@@ -745,11 +745,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قووڵ، پێبڕ، کوویر، گاود، مە ند یان مەنگ (ئاو)،	(خەو و هتد) قووڵ، گران، کڕخەو، شیرین،	(دەنگ) بۆڕ، گڕ،	(ڕەنگ) تۆخ، توند، تێر،	توند، بەڕشت، مجد،	دواوە، پشتەوە، نێوەوە،	نوقمی، قووڵەوەبوو، ناسەرسەرەکی، قووڵ،	ئاڵۆز، سەخت، دژوار، ناسەرسەرەکی، تێگەیشتن‌سەخت، پێچەڵاوپێچ
+کوردی: قووڵ، پێبڕ، کوویر، گاود، مە ند یان مەنگ (ئاو)،	(خەو و ھتد) قووڵ، گران، کڕخەو، شیرین،	(دەنگ) بۆڕ، گڕ،	(ڕەنگ) تۆخ، توند، تێر،	توند، بەڕشت، مجد،	دواوە، پشتەوە، نێوەوە،	نوقمی، قووڵەوەبوو، ناسەرسەرەکی، قووڵ،	ئاڵۆز، سەخت، دژوار، ناسەرسەرەکی، تێگەیشتن‌سەخت، پێچەڵاوپێچ
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) قووڵ؛ هەبوونی مەودایەکی زۆر لە سەرەوە یان ڕووەکەیەوە بۆ خوارەوە"),
+                  "١. (ھاوەڵناو) قووڵ؛ ھەبوونی مەودایەکی زۆر لە سەرەوە یان ڕووەکەیەوە بۆ خوارەوە"),
           Row(
             children: [
               const Expanded(
@@ -784,7 +784,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Around the world, the deep oceans are heating."),
                     ExampleSentenceKurdish(
-                        text: "لە جیهاندا، زەریا قووڵەکان گەرم دەبن."),
+                        text: "لە جیھاندا، زەریا قووڵەکان گەرم دەبن."),
                   ],
                 ),
               ),
@@ -808,7 +808,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Sunflowers have deep roots."),
-                    ExampleSentenceKurdish(text: "گوڵەبەڕۆژە ڕەگی قوڵی هەیە."),
+                    ExampleSentenceKurdish(text: "گوڵەبەڕۆژە ڕەگی قوڵی ھەیە."),
                   ],
                 ),
               ),
@@ -835,7 +835,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The custom has deep roots in the community."),
                     ExampleSentenceKurdish(
                         text:
-                            "(بەکارهێنانی خوازراوی) نەریتەکە ڕیشەیەکی قووڵی هەیە لە کۆمەڵگاکەدا."),
+                            "(بەکارھێنانی خوازراوی) نەریتەکە ڕیشەیەکی قووڵی ھەیە لە کۆمەڵگاکەدا."),
                   ],
                 ),
               ),
@@ -855,7 +855,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) قووڵ؛ هەبوونی مەودایەکی زۆر لە قەراغەوە بۆ دوورترین خاڵ لە ناوەوە"),
+                  "٢. (ھاوەڵناو) قووڵ؛ ھەبوونی مەودایەکی زۆر لە قەراغەوە بۆ دوورترین خاڵ لە ناوەوە"),
           Row(
             children: [
               const Expanded(
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She had a deep cut on her left arm."),
                     ExampleSentenceKurdish(
-                        text: "برینێکی قووڵی لەسەر باڵی چەپی هەبوو."),
+                        text: "برینێکی قووڵی لەسەر باڵی چەپی ھەبوو."),
                   ],
                 ),
               ),
@@ -920,7 +920,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The water is only a few centimetres deep."),
                     ExampleSentenceKurdish(
-                        text: "ئاوەکە تەنها چەند سەنتیمەترێک قووڵە."),
+                        text: "ئاوەکە تەنھا چەند سەنتیمەترێک قووڵە."),
                   ],
                 ),
               ),
@@ -975,7 +975,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The water was only waist-deep so I walked ashore."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاوەکە تەنها تاوەکو کەمەرە قووڵ بوو بۆیە ڕێم کردە کەنارەکە."),
+                            "ئاوەکە تەنھا تاوەکو کەمەرە قووڵ بوو بۆیە ڕێم کردە کەنارەکە."),
                   ],
                 ),
               ),
@@ -1047,14 +1047,14 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (هاوەڵناو) هەناسەی قووڵ"),
+          const DefinitionKurdish(text: "٥. (ھاوەڵناو) ھەناسەی قووڵ"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "She took a deep breath."),
-                    ExampleSentenceKurdish(text: "هەناسەیەکی قووڵی هەڵمژی."),
+                    ExampleSentenceKurdish(text: "ھەناسەیەکی قووڵی ھەڵمژی."),
                   ],
                 ),
               ),
@@ -1078,7 +1078,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "He gave a deep sigh."),
-                    ExampleSentenceKurdish(text: "هەناسەیەکی قووڵی دایەوە."),
+                    ExampleSentenceKurdish(text: "ھەناسەیەکی قووڵی دایەوە."),
                   ],
                 ),
               ),
@@ -1121,7 +1121,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٨. (هاوەڵناو) ڕەنگێکی تۆخ و تاریک"),
+          const DefinitionKurdish(text: "٨. (ھاوەڵناو) ڕەنگێکی تۆخ و تاریک"),
           Row(
             children: [
               const Expanded(
@@ -1131,7 +1131,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He had a pale face with deep blue eyes."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووخسارێکی ڕەنگ‌پەڕیو و چاوێکی شینی تۆخی هەبوو."),
+                            "ڕووخسارێکی ڕەنگ‌پەڕیو و چاوێکی شینی تۆخی ھەبوو."),
                   ],
                 ),
               ),
@@ -1230,7 +1230,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٠. (ھاوەڵناو) کە بە توندی هەستی پێدەکرێت"),
+              text: "١٠. (ھاوەڵناو) کە بە توندی ھەستی پێدەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -1265,7 +1265,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We extend our deepest sympathies to his family."),
                     ExampleSentenceKurdish(
-                        text: "هاوخەمی قووڵی خۆمان بۆ خێزانەکەی ڕادەگەیەنین."),
+                        text: "ھاوخەمی قووڵی خۆمان بۆ خێزانەکەی ڕادەگەیەنین."),
                   ],
                 ),
               ),
@@ -1291,7 +1291,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They have a deep respect for tradition."),
                     ExampleSentenceKurdish(
-                        text: "ڕێزێکی زۆرمان بۆ نەریتەکان هەیە."),
+                        text: "ڕێزێکی زۆرمان بۆ نەریتەکان ھەیە."),
                   ],
                 ),
               ),
@@ -1456,7 +1456,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He always sought for a deeper meaning in everything."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە بۆ واتایەکی قووڵتر لە هەموو شتێکدا دەگەڕا."),
+                            "ھەمیشە بۆ واتایەکی قووڵتر لە ھەموو شتێکدا دەگەڕا."),
                   ],
                 ),
               ),
@@ -1512,7 +1512,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The firm ended up deep in debt."),
                     ExampleSentenceKurdish(
-                        text: "کۆمپانیەکە کۆتایی پێهات لە قەرزێکی خەستدا."),
+                        text: "کۆمپانیەکە کۆتایی پێھات لە قەرزێکی خەستدا."),
                   ],
                 ),
               ),
@@ -1559,7 +1559,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٥. (ھاوەڵناو) کەسێک کە هەست و سۆزی دەشارێتەوە"),
+              text: "١٥. (ھاوەڵناو) کەسێک کە ھەست و سۆزی دەشارێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -1569,7 +1569,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She's always been a deep one, trusting no one."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە کەسێکی ئاڵۆز بووە، باوەڕی بە کەس نەبووە."),
+                            "ھەمیشە کەسێکی ئاڵۆز بووە، باوەڕی بە کەس نەبووە."),
                   ],
                 ),
               ),
@@ -1623,7 +1623,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The miners were trapped deep underground."),
                     ExampleSentenceKurdish(
                         text:
-                            "کان هەڵکەنەکان قووڵ لەژێر زەویدا گیریان خواردبوو."),
+                            "کان ھەڵکەنەکان قووڵ لەژێر زەویدا گیریان خواردبوو."),
                   ],
                 ),
               ),

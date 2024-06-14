@@ -240,7 +240,7 @@ class EnglishEntryconvincingly extends StatelessWidget {
                                             "None of the candidates won convincingly in either of the races."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ یەکێک لە بەربژێرەکان ڕکابەرییەکەیان بە ئاشکرایی نەبردەوە."),
+                                            "ھیچ یەکێک لە بەربژێرەکان ڕکابەرییەکەیان بە ئاشکرایی نەبردەوە."),
                                   ],
                                 ),
                               ),

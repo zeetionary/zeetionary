@@ -404,10 +404,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نەخۆشی تووش‌بوو بە نەخۆشی قەند، کەسێ کە دیابێتی هەیە، شەکرەگرتوو
+کوردی: نەخۆشی تووش‌بوو بە نەخۆشی قەند، کەسێ کە دیابێتی ھەیە، شەکرەگرتوو
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) هەبوون یان پەیوەندیدار بە شەکرە"),
+              text: "١. (ھاوەڵناو) ھەبوون یان پەیوەندیدار بە شەکرە"),
           Row(
             children: [
               const Expanded(
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) کەسێک کە شەکرەی هەیە"),
+          const DefinitionKurdish(text: "٣. (ناو) کەسێک کە شەکرەی ھەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -501,7 +501,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Exercise is important for diabetics."),
                     ExampleSentenceKurdish(
-                        text: "ڕاهێنان گرنگە بۆ نەخۆشانی شەکرە."),
+                        text: "ڕاھێنان گرنگە بۆ نەخۆشانی شەکرە."),
                   ],
                 ),
               ),

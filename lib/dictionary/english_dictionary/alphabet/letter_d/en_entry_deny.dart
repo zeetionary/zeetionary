@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He has denied any involvement in the incident."),
                     ExampleSentenceKurdish(
-                        text: "نکۆڵی لە هەموو تێوەگلانێک لە ڕووداوەکە کردووە."),
+                        text: "نکۆڵی لە ھەموو تێوەگلانێک لە ڕووداوەکە کردووە."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The company strongly denies wrongdoing."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە بە توندی نکۆڵی لە هەر هەڵەیەک دەکات."),
+                            "کۆمپانیاکە بە توندی نکۆڵی لە ھەر ھەڵەیەک دەکات."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She denied that there had been a cover-up."),
                     ExampleSentenceKurdish(
-                        text: "ڕەتیکردەوە هیچ داپۆشینێک هەبووبێت."),
+                        text: "ڕەتیکردەوە ھیچ داپۆشینێک ھەبووبێت."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She denied all knowledge of the incident."),
                     ExampleSentenceKurdish(
-                        text: "نکۆڵی لە هەر زانیارییەک لەسەر ڕووداوەکە کرد."),
+                        text: "نکۆڵی لە ھەر زانیارییەک لەسەر ڕووداوەکە کرد."),
                   ],
                 ),
               ),
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "No physicist would deny the existence of gravity."),
                     ExampleSentenceKurdish(
-                        text: "هیچ فیزیازانێک نکۆڵی لە هێزی کێشکردن ناکات."),
+                        text: "ھیچ فیزیازانێک نکۆڵی لە ھێزی کێشکردن ناکات."),
                   ],
                 ),
               ),
@@ -591,7 +591,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Denying the Holocaust is a crime in Germany."),
                     ExampleSentenceKurdish(
-                        text: "نکۆڵیکردن لە هۆڵۆکۆست تاوانە لە ئەڵمانیا."),
+                        text: "نکۆڵیکردن لە ھۆڵۆکۆست تاوانە لە ئەڵمانیا."),
                   ],
                 ),
               ),
@@ -635,7 +635,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) ڕێگەنەدان بە کەسێک کە شتێکی هەبێت کە دەیەوێت یان داوای دەکات"),
+                  "٣. (کردار) ڕێگەنەدان بە کەسێک کە شتێکی ھەبێت کە دەیەوێت یان داوای دەکات"),
           // const DividerSentences(),
           Row(
             children: [
@@ -673,7 +673,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You cannot deny this opportunity to me."),
                     ExampleSentenceKurdish(
-                        text: "ناتوانیت لەم هەلە بێبەشم بکەیت."),
+                        text: "ناتوانیت لەم ھەلە بێبەشم بکەیت."),
                   ],
                 ),
               ),

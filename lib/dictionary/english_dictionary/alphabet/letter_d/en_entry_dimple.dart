@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He has a little round dimple in one cheek."),
                     ExampleSentenceKurdish(
-                        text: "لەسەر گۆنایەکی چاڵێکی خڕی هەیە."),
+                        text: "لەسەر گۆنایەکی چاڵێکی خڕی ھەیە."),
                   ],
                 ),
               ),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She had a dimple which appeared when she smiled."),
                     ExampleSentenceKurdish(
-                        text: "چاڵێکی هەبوو کە دەردەکەوت کە پێدەکەنی."),
+                        text: "چاڵێکی ھەبوو کە دەردەکەوت کە پێدەکەنی."),
                   ],
                 ),
               ),
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) هەر چاڵییەک لەسەر ڕوویەک"),
+          const DefinitionKurdish(text: "٢. (ناو) ھەر چاڵییەک لەسەر ڕوویەک"),
           // const DividerSentences(),
           Row(
             children: [

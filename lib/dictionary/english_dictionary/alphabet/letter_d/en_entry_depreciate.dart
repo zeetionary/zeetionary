@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "New cars start to depreciate as soon as they are on the road."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات هەرکە دەچێتە سەر شەقام."),
+                            "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات ھەرکە دەچێتە سەر شەقام."),
                   ],
                 ),
               ),

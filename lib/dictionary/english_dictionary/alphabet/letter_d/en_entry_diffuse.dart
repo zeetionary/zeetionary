@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەل‌هاویشتوو، بڵاوەبوو، تەنیوە، داگرتوو،	(نووسراوە) درێژدادڕانە، دوورودرێژ،	پەل‌هاویشتوو، بڵاوەبوو، تەنیوە، داگرتوو،	(فیزیک، ڕووناکی) بڵاوەبوو
+کوردی: پەل‌ھاویشتوو، بڵاوەبوو، تەنیوە، داگرتوو،	(نووسراوە) درێژدادڕانە، دوورودرێژ،	پەل‌ھاویشتوو، بڵاوەبوو، تەنیوە، داگرتوو،	(فیزیک، ڕووناکی) بڵاوەبوو
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بڵاوبووەوە بە ناوچەیەکی زۆردا"),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) بڵاوکردنەوەی شتێک یان بڵاوبوونەوە بە هەموو لایەکدا"),
+                  "٣. (کردار) بڵاوکردنەوەی شتێک یان بڵاوبوونەوە بە ھەموو لایەکدا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -572,7 +572,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The drop of red dye diffused slowly in the water."),
                     ExampleSentenceKurdish(
                         text:
-                            "قەترە بۆیە سوورەکە بە هێواشی بە ئاوەکەدا بڵاوبوویەوە."),
+                            "قەترە بۆیە سوورەکە بە ھێواشی بە ئاوەکەدا بڵاوبوویەوە."),
                   ],
                 ),
               ),

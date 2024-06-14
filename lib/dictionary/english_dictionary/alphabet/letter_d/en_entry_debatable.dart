@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) کە دڵنیایی لەسەر نییە بەهۆی ئەوەی خەڵکی بۆچوونی جیاوازیان لەسەری هەیە"),
+                  "١. (ھاوەڵناو) کە دڵنیایی لەسەر نییە بەھۆی ئەوەی خەڵکی بۆچوونی جیاوازیان لەسەری ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It's debatable whether a university degree helps at all."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوەی کە بڕوانامەی زانکۆ هیچ سوودی هەیە مشتومڕلەسەرە."),
+                            "ئەوەی کە بڕوانامەی زانکۆ ھیچ سوودی ھەیە مشتومڕلەسەرە."),
                   ],
                 ),
               ),

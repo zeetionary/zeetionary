@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Their food is deficient in iron."),
                     ExampleSentenceKurdish(
-                        text: "خواردنەوەکەیان کەمی ئاسنی هەیە."),
+                        text: "خواردنەوەکەیان کەمی ئاسنی ھەیە."),
                   ],
                 ),
               ),
@@ -471,7 +471,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Deaf people are sometimes treated as being mentally deficient."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەسانی کەڕ هەندێکجار لە ڕووی دەروونییەوە وەک ناتەواو سەیر دەکرێن."),
+                            "کەسانی کەڕ ھەندێکجار لە ڕووی دەروونییەوە وەک ناتەواو سەیر دەکرێن."),
                   ],
                 ),
               ),

@@ -330,9 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەلێن یان کەلەبەری قووڵ، قووڵەکەلێن، قووڵەقەڵەش،	سەهۆڵەکەلێن، قەڵەشەسەهۆڵ، کەلێنەسەهۆڵ، کەلێنی سەهۆل 
+کوردی: کەلێن یان کەلەبەری قووڵ، قووڵەکەلێن، قووڵەقەڵەش،	سەھۆڵەکەلێن، قەڵەشەسەھۆڵ، کەلێنەسەھۆڵ، کەلێنی سەھۆل 
 """),
-          const DefinitionKurdish(text: "١. (ناو) قڵیشێکی گەورە، بەتایبەتی لە شەختەدا"),
+          const DefinitionKurdish(
+              text: "١. (ناو) قڵیشێکی گەورە، بەتایبەتی لە شەختەدا"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +342,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The majority of crevasse deaths happen to those who travel across glaciers unroped."),
-                    ExampleSentenceKurdish(text: "زۆرینەی مردنی ناو سەهۆڵەکەلێنەکان بەسەر ئەو گەشتیارانەدا دێت کە بەبێ حەبل گەشت دەکەن بە ئاوبەستەکاندا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆرینەی مردنی ناو سەھۆڵەکەلێنەکان بەسەر ئەو گەشتیارانەدا دێت کە بەبێ حەبل گەشت دەکەن بە ئاوبەستەکاندا."),
                   ],
                 ),
               ),

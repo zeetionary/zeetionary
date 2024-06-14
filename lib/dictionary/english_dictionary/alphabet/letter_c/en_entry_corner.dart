@@ -952,11 +952,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گۆشە، سووچ، قوڕنە، قولینچک، قوژبن، چمک، کونجیک، ئانیشکە، ویرنج، سەرپێچ (وەک هی سەرکۆڵان)، دەرو و کەنار، چوارقوڕنە، چوارلای دنیا، گۆشە و کەنار،	پاوان‌کاری، قۆرخ‌کاری،	گۆشە، سووچ، کۆرنێر (تۆپێن)،	گیروگرفت، تەنگ‌وچەڵەمە، تەنگانە،	(شەڕەمشت و زۆران‌بازی) هەریەک لە دوو گۆشەی بەرامبەر کە لە نێوان گەڕەکان‌دا ڕکەبەرەکان دەحەسێنەوە
+کوردی: گۆشە، سووچ، قوڕنە، قولینچک، قوژبن، چمک، کونجیک، ئانیشکە، ویرنج، سەرپێچ (وەک ھی سەرکۆڵان)، دەرو و کەنار، چوارقوڕنە، چوارلای دنیا، گۆشە و کەنار،	پاوان‌کاری، قۆرخ‌کاری،	گۆشە، سووچ، کۆرنێر (تۆپێن)،	گیروگرفت، تەنگ‌وچەڵەمە، تەنگانە،	(شەڕەمشت و زۆران‌بازی) ھەریەک لە دوو گۆشەی بەرامبەر کە لە نێوان گەڕەکان‌دا ڕکەبەرەکان دەحەسێنەوە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) بەشێکی شتێک کە دوو خاڵ یان هێڵ تێیدا بە یەکدی دەگەن"),
+                  "١. (ناو) بەشێکی شتێک کە دوو خاڵ یان ھێڵ تێیدا بە یەکدی دەگەن"),
           Row(
             children: [
               const Expanded(
@@ -1065,7 +1065,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هەبوونی ژمارەیەکی دیاریکراو لە سووچ یان گۆشە"),
+              text: "٢. (ناو) ھەبوونی ژمارەیەکی دیاریکراو لە سووچ یان گۆشە"),
           Row(
             children: [
               const Expanded(
@@ -1321,7 +1321,7 @@ class KurdishMeaning extends StatelessWidget {
                             "As they turned the corner all the bags slid to one side."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە بە پێچەکەدا تێپەڕین هەموو جانتاکان لایەک خزان."),
+                            "کە بە پێچەکەدا تێپەڕین ھەموو جانتاکان لایەک خزان."),
                   ],
                 ),
               ),
@@ -1340,7 +1340,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (ناو) هەرێمێک یان ناوچەیەکی شوێنێک"),
+              text: "٦. (ناو) ھەرێمێک یان ناوچەیەکی شوێنێک"),
           Row(
             children: [
               const Expanded(
@@ -1350,7 +1350,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She lives in a quiet corner of rural Yorkshire."),
                     ExampleSentenceKurdish(
-                        text: "لە هەرێمێکی بێ‌دەنگی گوندنشینی یۆرکشێر دەژی."),
+                        text: "لە ھەرێمێکی بێ‌دەنگی گوندنشینی یۆرکشێر دەژی."),
                   ],
                 ),
               ),
@@ -1376,7 +1376,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He knew every corner of the old town."),
                     ExampleSentenceKurdish(
-                        text: "هەموو سووچێکی شارە کۆنەکەی دەزانی."),
+                        text: "ھەموو سووچێکی شارە کۆنەکەی دەزانی."),
                   ],
                 ),
               ),
@@ -1404,7 +1404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He was used to talking his way out of tight corners."),
                     ExampleSentenceKurdish(
-                        text: "ڕاهاتبوو بە دەربازبوون لە دۆخە سەختەکان."),
+                        text: "ڕاھاتبوو بە دەربازبوون لە دۆخە سەختەکان."),
                   ],
                 ),
               ),
@@ -1505,7 +1505,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٩. (کردار) دانانی کەسێک یان ئاژەڵێک لە شوێنێک یان دۆخێک کە ناتوانن تێیدا هەڵبێن"),
+                  "٩. (کردار) دانانی کەسێک یان ئاژەڵێک لە شوێنێک یان دۆخێک کە ناتوانن تێیدا ھەڵبێن"),
           Row(
             children: [
               const Expanded(

@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دایناسۆر؛ جۆرە خشۆکێک کە ملیۆنان ساڵ پێش ئێستا دەژیان بەڵام ئێستا نزیکەی ٦٥ ملیۆن ساڵ پێش ئێستا لەناوچوون. زۆر جۆری دایناسۆر هەبوون و هەندێکیان زۆر گەورە بوون"),
+                  "١. (ناو) دایناسۆر؛ جۆرە خشۆکێک کە ملیۆنان ساڵ پێش ئێستا دەژیان بەڵام ئێستا نزیکەی ٦٥ ملیۆن ساڵ پێش ئێستا لەناوچوون. زۆر جۆری دایناسۆر ھەبوون و ھەندێکیان زۆر گەورە بوون"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The museum has a huge dinosaur skeleton."),
                     ExampleSentenceKurdish(
                         text:
-                            "مۆزەخانەکە ئێسکە پەیکەرێکی گەورەی دایناسۆری هەیە."),
+                            "مۆزەخانەکە ئێسکە پەیکەرێکی گەورەی دایناسۆری ھەیە."),
                   ],
                 ),
               ),

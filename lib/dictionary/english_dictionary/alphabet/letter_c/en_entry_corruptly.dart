@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They insisted that the property had not been acquired corruptly."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێداگیریان دەکرد کە زەوییەکە بە خراپی بەدەستنەهاتووە."),
+                            "پێداگیریان دەکرد کە زەوییەکە بە خراپی بەدەستنەھاتووە."),
                   ],
                 ),
               ),

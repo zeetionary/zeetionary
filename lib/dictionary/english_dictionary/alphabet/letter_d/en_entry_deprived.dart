@@ -406,10 +406,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌بەش(کراو)، بێ‌بەری، بێ‌بەهرە، بەش‌بڕاو، بێ‌پار، نەدار، هەژار، دەستەنگ، نەدار، فەقیر
+کوردی: بێ‌بەش(کراو)، بێ‌بەری، بێ‌بەھرە، بەش‌بڕاو، بێ‌پار، نەدار، ھەژار، دەستەنگ، نەدار، فەقیر
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) بەبێ خواردن، خۆراک، هتد کە گرنگن"),
+              text: "١. (ھاوەڵناو) بەبێ خواردن، خۆراک، ھتد کە گرنگن"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He had a deprived childhood in a London slum."),
                     ExampleSentenceKurdish(
                         text:
-                            "منداڵییەکی هەژاری هەبوو لە هەژاراوایەکی لەندەن."),
+                            "منداڵییەکی ھەژاری ھەبوو لە ھەژاراوایەکی لەندەن."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He took pictures in deprived areas of the city."),
                     ExampleSentenceKurdish(
-                        text: "وێنەی ناوچە هەژارنشینەکانی شارەکە گرت."),
+                        text: "وێنەی ناوچە ھەژارنشینەکانی شارەکە گرت."),
                   ],
                 ),
               ),

@@ -402,10 +402,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دڵسارد کردن، ناهومێد کردن، بێ هیوا کردن
+کوردی: دڵسارد کردن، ناھومێد کردن، بێ ھیوا کردن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) واکردن لە کەسێک کە هیوا ورە لەدەست بدات"),
+              text: "١. (کردار) واکردن لە کەسێک کە ھیوا ورە لەدەست بدات"),
           Row(
             children: [
               const Expanded(
@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Don't let this defeat dishearten you."),
                     ExampleSentenceKurdish(
-                        text: "مەهێڵە ئەم شکستە نائومێدت بکات."),
+                        text: "مەھێڵە ئەم شکستە نائومێدت بکات."),
                   ],
                 ),
               ),

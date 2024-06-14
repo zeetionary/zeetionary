@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was given a dishonourable discharge (= an order to leave the army for unacceptable behaviour)."),
                     ExampleSentenceKurdish(
                         text:
-                            "مۆڵەتی شەرماوی درا دەرکرا (بەهۆی ڕەفتاری نابەجێ)."),
+                            "مۆڵەتی شەرماوی درا دەرکرا (بەھۆی ڕەفتاری نابەجێ)."),
                   ],
                 ),
               ),

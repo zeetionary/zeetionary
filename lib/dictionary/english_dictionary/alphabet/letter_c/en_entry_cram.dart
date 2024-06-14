@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He crammed eight people into his car."),
                     ExampleSentenceKurdish(
-                        text: "هەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی."),
+                        text: "ھەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I could never cram in all that she does in a day."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرگیز نەمدەتوانی هەموو ئەوە بکەم کە ئەو لە ڕۆژێکدا دەیکات."),
+                            "ھەرگیز نەمدەتوانی ھەموو ئەوە بکەم کە ئەو لە ڕۆژێکدا دەیکات."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I bought a large basket and crammed it full of presents."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەبەتەیەکی گەورەم کڕی و بە هەموو دیارییەکان فلیقاندنم."),
+                            "سەبەتەیەکی گەورەم کڕی و بە ھەموو دیارییەکان فلیقاندنم."),
                   ],
                 ),
               ),

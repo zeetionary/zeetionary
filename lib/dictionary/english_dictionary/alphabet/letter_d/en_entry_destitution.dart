@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەژاری، نەداری، دەس‌تەنگی، فەقیری، بەلەنگازی، دەس‌کورتی
+کوردی: ھەژاری، نەداری، دەس‌تەنگی، فەقیری، بەلەنگازی، دەس‌کورتی
 """),
           const DefinitionKurdish(
               text:
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They both died in poverty and destitution."),
                     ExampleSentenceKurdish(
-                        text: "هەردووکیان لە هەژاری و نەداریدا مردن."),
+                        text: "ھەردووکیان لە ھەژاری و نەداریدا مردن."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Destitution has become a major problem in the capital."),
                     ExampleSentenceKurdish(
-                        text: "هەژاری بووە بە کێشەیەکی گەورە لە پایتەختدا."),
+                        text: "ھەژاری بووە بە کێشەیەکی گەورە لە پایتەختدا."),
                   ],
                 ),
               ),

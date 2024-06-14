@@ -414,10 +414,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هیوا، ئاوات، مراد، خۆزگە، ئارەزوو، ئیشتیا، مەگیز، کام، مەیل، تاسە، پەرۆش، گوڕ، تین‌وگوڕ، تین‌وتاو، تامەزرۆیی، هۆگری، ویست، خوایشت، خۆستەک؛ ئیشتیا یان ئارەزووی بەهیزی سێکسی
+کوردی: ھیوا، ئاوات، مراد، خۆزگە، ئارەزوو، ئیشتیا، مەگیز، کام، مەیل، تاسە، پەرۆش، گوڕ، تین‌وگوڕ، تین‌وتاو، تامەزرۆیی، ھۆگری، ویست، خوایشت، خۆستەک؛ ئیشتیا یان ئارەزووی بەھیزی سێکسی
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) حەزێکی زۆر بۆ هەبوون یان کردنی شتێک"),
+              text: "١. (ناو) حەزێکی زۆر بۆ ھەبوون یان کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He had enough money to satisfy all his desires."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێندە پارەی هەبوو کە هەموو ئاواتەکانی بەدیبێنێت."),
+                            "ھێندە پارەی ھەبوو کە ھەموو ئاواتەکانی بەدیبێنێت."),
                   ],
                 ),
               ),
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She has a burning desire to be an artist."),
                     ExampleSentenceKurdish(
-                        text: "خولیایەکی زۆری هەبوو بۆ بوون بە هونەرکار."),
+                        text: "خولیایەکی زۆری ھەبوو بۆ بوون بە ھونەرکار."),
                   ],
                 ),
               ),
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I have no desire (= I do not want) to discuss the matter further."),
                     ExampleSentenceKurdish(
-                        text: "هیچ حەزێکم نییە بۆ زیاتر باسکردنی بابەتەک."),
+                        text: "ھیچ حەزێکم نییە بۆ زیاتر باسکردنی بابەتەک."),
                   ],
                 ),
               ),
@@ -559,7 +559,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) حەزێکی زۆر بۆ هەبوونی سێکس لەگەڵ کەسێکدا"),
+              text: "٢. (ناو) حەزێکی زۆر بۆ ھەبوونی سێکس لەگەڵ کەسێکدا"),
           const DividerSentences(),
           Row(
             children: [
@@ -570,7 +570,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She felt a surge of love and desire for him."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی بە زۆربوونێکی خۆشەویستی و ئارەزووی سێکس کرد بۆی."),
+                            "ھەستی بە زۆربوونێکی خۆشەویستی و ئارەزووی سێکس کرد بۆی."),
                   ],
                 ),
               ),
@@ -601,7 +601,7 @@ class KurdishMeaning extends StatelessWidget {
                             "When she agreed to marry him, he felt he had achieved his heart's desire."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە ڕازی بوو بە هاوسەرگیری لەگەڵی، هەستی کرد کە هیوایەتی دڵی بەدەستهێنابوو."),
+                            "کە ڕازی بوو بە ھاوسەرگیری لەگەڵی، ھەستی کرد کە ھیوایەتی دڵی بەدەستھێنابوو."),
                   ],
                 ),
               ),
@@ -629,7 +629,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We all desire health and happiness."),
                     ExampleSentenceKurdish(
-                        text: "هەموان تەندرووستی و خۆشبەختیمان دەوێت."),
+                        text: "ھەموان تەندرووستی و خۆشبەختیمان دەوێت."),
                   ],
                 ),
               ),
@@ -655,7 +655,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The house had everything you could desire."),
                     ExampleSentenceKurdish(
-                        text: "خانووەکە هەموو شتێکی هەبوو کە حەزت پێی بێت."),
+                        text: "خانووەکە ھەموو شتێکی ھەبوو کە حەزت پێی بێت."),
                   ],
                 ),
               ),
@@ -710,7 +710,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The medicine did not achieve the desired effect."),
                     ExampleSentenceKurdish(
-                        text: "دەرمانەکە کاریگەری ویستراوی بەدەستنەهێنا."),
+                        text: "دەرمانەکە کاریگەری ویستراوی بەدەستنەھێنا."),
                   ],
                 ),
               ),
@@ -757,7 +757,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (کردار) هەبوونی حەزی سێکسی بۆ کەسێک"),
+              text: "٥. (کردار) ھەبوونی حەزی سێکسی بۆ کەسێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -766,7 +766,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "He still desired her."),
                     ExampleSentenceKurdish(
-                        text: "هێشتا ئارەزووی سێکسی بۆی هەبوو."),
+                        text: "ھێشتا ئارەزووی سێکسی بۆی ھەبوو."),
                   ],
                 ),
               ),

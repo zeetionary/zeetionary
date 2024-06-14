@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵپەڕکێ، سەما، ڕەخس، هەلەکە،	هونەری هەڵپەڕکێ یان سەما (بەتایبەت بۆ شانۆ)،	موسیقای هەڵپەڕکێ،	هەوا یان گۆرانی هەڵپەڕکێ،	شایی، گۆڤەند، دیلان، شایی‌لۆغان
+کوردی: ھەڵپەڕکێ، سەما، ڕەخس، ھەلەکە،	ھونەری ھەڵپەڕکێ یان سەما (بەتایبەت بۆ شانۆ)،	موسیقای ھەڵپەڕکێ،	ھەوا یان گۆرانی ھەڵپەڕکێ،	شایی، گۆڤەند، دیلان، شایی‌لۆغان
 """),
           const DefinitionKurdish(text: "١. (ناو) سەما"),
           Row(
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Do you know any other Latin American dances?"),
                     ExampleSentenceKurdish(
-                        text: "هیچ سەمایەکی دیکەی ئەمریکای باشووری دەزانی؟"),
+                        text: "ھیچ سەمایەکی دیکەی ئەمریکای باشووری دەزانی؟"),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Find a partner and practise these new dance steps."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاوەڵێکی سەماکردن بدۆزەرەوە لەگەڵیدا ڕاهێنانی ئەم هەنگاوە تازانەی سەما بکە."),
+                            "ھاوەڵێکی سەماکردن بدۆزەرەوە لەگەڵیدا ڕاھێنانی ئەم ھەنگاوە تازانەی سەما بکە."),
                   ],
                 ),
               ),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هونەری سەماکردن، بەتایبەتی بۆ چێژبینین"),
+              text: "٢. (ناو) ھونەری سەماکردن، بەتایبەتی بۆ چێژبینین"),
           Row(
             children: [
               const Expanded(
@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "In her delight she got up and did a little dance."),
                     ExampleSentenceKurdish(
-                        text: "لە خۆشیدا هەستایە سەرپێ و کەمێک سەمای کرد."),
+                        text: "لە خۆشیدا ھەستایە سەرپێ و کەمێک سەمای کرد."),
                   ],
                 ),
               ),
@@ -514,7 +514,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We hold a dance every year to raise money for charity."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ساڵێک سەمایەک ساز دەکەین بۆ کۆکردەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
+                            "ھەموو ساڵێک سەمایەک ساز دەکەین بۆ کۆکردەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
                   ],
                 ),
               ),

@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شەیتان، ڕۆحی خراپ یان شەیتانی، هێزی شەیتانی,	دێو، جنۆکە، ڕمووزن، درنج
+کوردی: شەیتان، ڕۆحی خراپ یان شەیتانی، ھێزی شەیتانی,	دێو، جنۆکە، ڕمووزن، درنج
 """),
           const DefinitionKurdish(text: "١. (ناو) خێوێکی شەیتانی"),
           Row(
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He is plagued by demons which go back to his traumatic childhood."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەناڵێنێت بەدەست دێوەزمەکانی کە بەهۆی تاڵییەکانی منداڵییەوە تووشی بووە."),
+                            "دەناڵێنێت بەدەست دێوەزمەکانی کە بەھۆی تاڵییەکانی منداڵییەوە تووشی بووە."),
                   ],
                 ),
               ),

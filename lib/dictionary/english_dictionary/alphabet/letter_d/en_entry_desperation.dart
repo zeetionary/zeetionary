@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داماوی، ناچاری، دەس‌لەگیان‌بەرداوی، چارەنەماوی، زۆربۆهاتوویی، گیرکردوویی،	هیوابڕاوی، بێ‌هیوایی، دڵساردی، دەس‌شواردوویی
+کوردی: داماوی، ناچاری، دەس‌لەگیان‌بەرداوی، چارەنەماوی، زۆربۆھاتوویی، گیرکردوویی،	ھیوابڕاوی، بێ‌ھیوایی، دڵساردی، دەس‌شواردوویی
 """),
           const DefinitionKurdish(text: "١. (ناو) ناچاری"),
           Row(
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There was a note of desperation in his voice."),
                     ExampleSentenceKurdish(
-                        text: "ئاماژەیەکی ناچاری لە دەنگیدا هەبوو."),
+                        text: "ئاماژەیەکی ناچاری لە دەنگیدا ھەبوو."),
                   ],
                 ),
               ),

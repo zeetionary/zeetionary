@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The advertising world can be a very cutthroat business."),
                     ExampleSentenceKurdish(
                         text:
-                            "جیهانی ڕیکلامکردن دەکرێت بازرگانییەکی دوژمنکارانە بێت."),
+                            "جیھانی ڕیکلامکردن دەکرێت بازرگانییەکی دوژمنکارانە بێت."),
                   ],
                 ),
               ),

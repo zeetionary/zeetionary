@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They disinfect the doorknobs every day."),
                     ExampleSentenceKurdish(
-                        text: "هەموو ڕۆژێک قوڵفی دەرگاکان پاکدەکەنەوە."),
+                        text: "ھەموو ڕۆژێک قوڵفی دەرگاکان پاکدەکەنەوە."),
                   ],
                 ),
               ),

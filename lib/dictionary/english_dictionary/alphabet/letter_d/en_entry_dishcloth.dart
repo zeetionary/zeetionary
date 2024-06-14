@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لفکە، هەوری قاپ‌شتن، قاپ‌شۆر، کاسەشۆر
+کوردی: لفکە، ھەوری قاپ‌شتن، قاپ‌شۆر، کاسەشۆر
 """),
           const DefinitionKurdish(text: "١. (ناو) جلیک بۆ شۆردنی قاپ‌وقاچاغ"),
           Row(
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The dishcloth was damp and ready for use."),
                     ExampleSentenceKurdish(
-                        text: "لفکەکە وشک بوو و ئامادەی بەکارهێنان بوو."),
+                        text: "لفکەکە وشک بوو و ئامادەی بەکارھێنان بوو."),
                   ],
                 ),
               ),

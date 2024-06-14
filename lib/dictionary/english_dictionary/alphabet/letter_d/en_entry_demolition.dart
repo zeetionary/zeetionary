@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێکدان، هەڵتەکاندن، هەڕەماندن، کاول‌کردن، خاپوورکردن، تێک‌تەپاندن،	(تیۆری و هتد) هەڵوەشاندنەوە، هەڵتەکاندن، بەتاڵ‌کردنەوە، پووچاندنەوە
+کوردی: تێکدان، ھەڵتەکاندن، ھەڕەماندن، کاول‌کردن، خاپوورکردن، تێک‌تەپاندن،	(تیۆری و ھتد) ھەڵوەشاندنەوە، ھەڵتەکاندن، بەتاڵ‌کردنەوە، پووچاندنەوە
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕووخاندنی بینایەک"),
           Row(
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) سەلماندنی ئەوەی کە بیرۆکەیەک یان بیردۆزێک بە تەواوی هەڵەیە"),
+                  "٢. (ناو) سەلماندنی ئەوەی کە بیرۆکەیەک یان بیردۆزێک بە تەواوی ھەڵەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His speech did a very effective demolition job on the government's proposals."),
                     ExampleSentenceKurdish(
                         text:
-                            "وتارەکەی کارێکیزۆر کاریگەرانەی هەڵتەکاندنی پێشنیارەکانی حکومەتی کرد."),
+                            "وتارەکەی کارێکیزۆر کاریگەرانەی ھەڵتەکاندنی پێشنیارەکانی حکومەتی کرد."),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Ferguson completed the demolition with a fifth goal 13 minutes from time."),
                     ExampleSentenceKurdish(
                         text:
-                            "فێرکسن خاپوورکردنەکەی کۆتایی پێهێنا بە پێنجەم گۆڵ ١٣ خولەک پێش کۆتایی."),
+                            "فێرکسن خاپوورکردنەکەی کۆتایی پێھێنا بە پێنجەم گۆڵ ١٣ خولەک پێش کۆتایی."),
                   ],
                 ),
               ),

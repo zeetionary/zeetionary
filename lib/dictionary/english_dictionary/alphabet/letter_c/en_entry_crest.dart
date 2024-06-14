@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کاکۆڵ، پۆپنە، پۆپ، تاج، کڵاوە، پۆپکە، پۆتەڵاک، پۆپە،	پەڕکڵاو، جوقە،	یاڵ،	نووک، سەرنووچکە، سەرکەل، دوند، دهار، تەوق، کمت، ترۆپک، لووتکە،	نیشانە، ئاڕم، مۆر، دروشم،	ڕیز، هێڵ،	(توێکاری) تیغە، قیتکە یان دەرپەڕیوی سەر ئێسک
+کوردی: کاکۆڵ، پۆپنە، پۆپ، تاج، کڵاوە، پۆپکە، پۆتەڵاک، پۆپە،	پەڕکڵاو، جوقە،	یاڵ،	نووک، سەرنووچکە، سەرکەل، دوند، دھار، تەوق، کمت، ترۆپک، لووتکە،	نیشانە، ئاڕم، مۆر، دروشم،	ڕیز، ھێڵ،	(توێکاری) تیغە، قیتکە یان دەرپەڕیوی سەر ئێسک
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەشی سەرەوەی گردێک یان شەپۆلێک"),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) دیزاینێک کە وەک سمبولی خێزانێک، دامەزراوەیەک، هتد بەکاردێت، بەتایبەتی کە مێژوویەکی دێرینی هەیە"),
+                  "٢. (ناو) دیزاینێک کە وەک سمبولی خێزانێک، دامەزراوەیەک، ھتد بەکاردێت، بەتایبەتی کە مێژوویەکی دێرینی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The family crest consists of a crown and an eight-pointed star."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئارمی خێزانەکە پێکدێت لە تاجێک و ئەستێرەیەکی هەشت لایی."),
+                            "ئارمی خێزانەکە پێکدێت لە تاجێک و ئەستێرەیەکی ھەشت لایی."),
                   ],
                 ),
               ),

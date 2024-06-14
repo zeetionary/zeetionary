@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: ڕەها کردن، ڕزگار کردن
+// کوردی: ڕەھا کردن، ڕزگار کردن
 // """),
           const DefinitionKurdish(
               text:
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She gently disengaged herself from her sleeping son."),
                     ExampleSentenceKurdish(
-                        text: "بە هێواشی خۆی کردەوە لە کوڕە نووستووەکەی."),
+                        text: "بە ھێواشی خۆی کردەوە لە کوڕە نووستووەکەی."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They wished to disengage themselves from these policies."),
                     ExampleSentenceKurdish(
                         text:
-                            "(خوازراوی) بەهیوابوون خۆیان لەم سیاسەتانە بێبەری بکەن."),
+                            "(خوازراوی) بەھیوابوون خۆیان لەم سیاسەتانە بێبەری بکەن."),
                   ],
                 ),
               ),

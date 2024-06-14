@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: قووڵی، قوڵکە، هەڵکەندن، توێژینەوە
+// کوردی: قووڵی، قوڵکە، ھەڵکەندن، توێژینەوە
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) دەستخستنە ناو شتێک بۆ گەڕان لە ناوی"),

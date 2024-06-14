@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: نرخ کەم کردن، داشکاندن
 """),
-          const DefinitionKurdish(text: "١. (کردار) داشکاندنی بەهای دراوێک"),
+          const DefinitionKurdish(text: "١. (کردار) داشکاندنی بەھای دراوێک"),
           Row(
             children: [
               const Expanded(
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The local currency was rapidly devaluing."),
                     ExampleSentenceKurdish(
-                        text: "دراوە ناوخۆییەکە بە خێرایی بێ‌بەها دەبوو."),
+                        text: "دراوە ناوخۆییەکە بە خێرایی بێ‌بەھا دەبوو."),
                   ],
                 ),
               ),

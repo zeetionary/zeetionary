@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەهۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
+                  "١. (ناو) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەھۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
           Row(
             children: [
               const Expanded(

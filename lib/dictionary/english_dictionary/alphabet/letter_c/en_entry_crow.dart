@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) قەلەڕەش؛ باڵندەیەکی گەورە کە بە تەواوی یان زۆربەی ڕەشە و دەنگێکی ناخۆشی نەڕی هەیە"),
+                  "١. (ناو) قەلەڕەش؛ باڵندەیەکی گەورە کە بە تەواوی یان زۆربەی ڕەشە و دەنگێکی ناخۆشی نەڕی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) قسەکردن بە پۆزەوە سەبارەت بە شتێک کە بەدەستت هێناوە، بەتایبەتی کە کەسێکی دیکە شکستی هێناوە"),
+                  "٤. (کردار) قسەکردن بە پۆزەوە سەبارەت بە شتێک کە بەدەستت ھێناوە، بەتایبەتی کە کەسێکی دیکە شکستی ھێناوە"),
           Row(
             children: [
               const Expanded(
@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The company hasn't much to crow about, with sales down compared with last year."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیەکە هیچی نییە پێوەی بنازێت کە فرۆش بەراورد بە ساڵی پار دابەزیوە."),
+                            "کۆمپانیەکە ھیچی نییە پێوەی بنازێت کە فرۆش بەراورد بە ساڵی پار دابەزیوە."),
                   ],
                 ),
               ),

@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: شادی، خۆشی، گەشی، سەرخۆشی، خۆشحاڵی، دڵشادی، دڵخۆشی، بەکەیفی، کەیف‌خۆشی،	دڵ‌خۆشکەرە، مایەی خۆشحاڵی
 """),
-          const DefinitionKurdish(text: "١. (ناو) هەستێکی خۆشی گەورە"),
+          const DefinitionKurdish(text: "١. (ناو) ھەستێکی خۆشی گەورە"),
           Row(
             children: [
               const Expanded(
@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She won the game easily, to the delight of all her fans."),
                     ExampleSentenceKurdish(
                         text:
-                            "یارییەکەی بە ئاسانی بردەوە بە خۆشی بە هەموو هەوادارانی."),
+                            "یارییەکەی بە ئاسانی بردەوە بە خۆشی بە ھەموو ھەوادارانی."),
                   ],
                 ),
               ),
@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He takes (great) delight in (= enjoys) proving others wrong."),
                     ExampleSentenceKurdish(
                         text:
-                            "چێژی زۆر دەبینێت لەوەی بیسەلمێنێت کەسانی دیکە هەڵەن."),
+                            "چێژی زۆر دەبینێت لەوەی بیسەلمێنێت کەسانی دیکە ھەڵەن."),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She couldn't hide her delight at the news."),
                     ExampleSentenceKurdish(
-                        text: "نەیدەتوانی خۆشی خۆی بۆ هەواڵەکە بشارێتەوە."),
+                        text: "نەیدەتوانی خۆشی خۆی بۆ ھەواڵەکە بشارێتەوە."),
                   ],
                 ),
               ),
@@ -623,7 +623,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This news will delight his fans all over the world."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم هەواڵە هەوادارەکانی لە هەموو جیهاندا دڵخۆش دەکات."),
+                            "ئەم ھەواڵە ھەوادارەکانی لە ھەموو جیھاندا دڵخۆش دەکات."),
                   ],
                 ),
               ),
@@ -651,7 +651,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She had a limitless capacity to astonish and delight."),
                     ExampleSentenceKurdish(
                         text:
-                            "توانایەکی بێسنووری هەبوو بۆ سەرسامکردن و خۆشی بەخشین."),
+                            "توانایەکی بێسنووری ھەبوو بۆ سەرسامکردن و خۆشی بەخشین."),
                   ],
                 ),
               ),

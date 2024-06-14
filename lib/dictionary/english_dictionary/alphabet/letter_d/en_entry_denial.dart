@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The terrorists issued a denial of responsibility for the attack."),
                     ExampleSentenceKurdish(
                         text:
-                            "تیرۆریستەکان نکۆڵییان بەرامبەر بە هێرشەکە ڕاگەیاند."),
+                            "تیرۆریستەکان نکۆڵییان بەرامبەر بە ھێرشەکە ڕاگەیاند."),
                   ],
                 ),
               ),
@@ -452,7 +452,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was an official denial that there would be an election before the end of the year."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕەتکردنەوەیەکی فەرمی هەبوو سەبارەت بە بوونی هەڵبژاردنێک پێش کۆتایی ساڵ."),
+                            "ڕەتکردنەوەیەکی فەرمی ھەبوو سەبارەت بە بوونی ھەڵبژاردنێک پێش کۆتایی ساڵ."),
                   ],
                 ),
               ),
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The patient is still in denial."),
                     ExampleSentenceKurdish(
-                        text: "نەخۆشەکە هێشتا لە نکۆڵیکردندایە."),
+                        text: "نەخۆشەکە ھێشتا لە نکۆڵیکردندایە."),
                   ],
                 ),
               ),
@@ -563,7 +563,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Some people are in denial about the situation."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک کەس لە گوماندان سەبارەت بە دۆخەکە."),
+                        text: "ھەندێک کەس لە گوماندان سەبارەت بە دۆخەکە."),
                   ],
                 ),
               ),

@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The peace talks broke up in disarray."),
                     ExampleSentenceKurdish(
-                        text: "گفتوگۆکانی ئاشتی بە بە شپرزەیی کۆتایی هات."),
+                        text: "گفتوگۆکانی ئاشتی بە بە شپرزەیی کۆتایی ھات."),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We’re decorating, so everything’s in complete disarray at home."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەریکی جوانکارین بۆیە هەموو شتێک شۆرزەی تەواوە لە ماڵەوە."),
+                            "خەریکی جوانکارین بۆیە ھەموو شتێک شۆرزەی تەواوە لە ماڵەوە."),
                   ],
                 ),
               ),

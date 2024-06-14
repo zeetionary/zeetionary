@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I've been in a complete daze since hearing the news."),
                     ExampleSentenceKurdish(
-                        text: "لەوەتەی بیستنی هەواڵەکە لە تاساویدا بوومە."),
+                        text: "لەوەتەی بیستنی ھەواڵەکە لە تاساویدا بوومە."),
                   ],
                 ),
               ),

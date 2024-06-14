@@ -195,7 +195,7 @@ class EnglishEntrycoordination extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پێکەوەکاری، پێکەوەکارکردن، پێکەوەکارپێکردن،	(ڕێزمان) هاوڕێکی، هاوپلەیی،	ڕێکخستن، هاوکاری، ئالیکاری، هەڤکاری،	هاوپلەکردن، هاوپلاندن
+کوردی: پێکەوەکاری، پێکەوەکارکردن، پێکەوەکارپێکردن،	(ڕێزمان) ھاوڕێکی، ھاوپلەیی،	ڕێکخستن، ھاوکاری، ئالیکاری، ھەڤکاری،	ھاوپلەکردن، ھاوپلاندن
 """),
                           const DefinitionKurdish(
                               text:
@@ -210,7 +210,7 @@ class EnglishEntrycoordination extends StatelessWidget {
                                             "The aim was to improve the coordination of services."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامانجەکە ئەوە بوو پێکەوەکاری خزمەتگوزارییەکان بەهێز بکرێت."),
+                                            "ئامانجەکە ئەوە بوو پێکەوەکاری خزمەتگوزارییەکان بەھێز بکرێت."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrycoordination extends StatelessWidget {
                                             "The job requires a lot of coordination with others."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارەکە پێویستی بە هاوئاهەنگی زۆرە لەگەڵ کەسانی دیکەدا."),
+                                            "کارەکە پێویستی بە ھاوئاھەنگی زۆرە لەگەڵ کەسانی دیکەدا."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntrycoordination extends StatelessWidget {
                                             "There's a need for greater coordination between departments."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستییەک بۆ هاوئاهەنگی زیاتر لە نێوان بەشەکاندا هەیە."),
+                                            "پێویستییەک بۆ ھاوئاھەنگی زیاتر لە نێوان بەشەکاندا ھەیە."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ class EnglishEntrycoordination extends StatelessWidget {
                                             "You need good hand-eye coordination to play ball games."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستت بە کۆنترۆڵی باشی دەست و چاوت هەیە بۆ ئەنجامدانی یارییە تۆپێنەکان."),
+                                            "پێویستت بە کۆنترۆڵی باشی دەست و چاوت ھەیە بۆ ئەنجامدانی یارییە تۆپێنەکان."),
                                   ],
                                 ),
                               ),

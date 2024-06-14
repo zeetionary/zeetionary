@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I knew nothing of his business dealings."),
                     ExampleSentenceKurdish(
-                        text: "هیچم لەسەر چالاکییە بازرگانییەکانی نەدەزانی."),
+                        text: "ھیچم لەسەر چالاکییە بازرگانییەکانی نەدەزانی."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Have you had any previous dealings with this company?"),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ پەیوەندییەکی پێشووترت لەگەڵ ئەم کۆمپانیایە هەبووە؟"),
+                            "ھیچ پەیوەندییەکی پێشووترت لەگەڵ ئەم کۆمپانیایە ھەبووە؟"),
                   ],
                 ),
               ),
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Drug dealing is a serious crime that can result in heavy penalties."),
                     ExampleSentenceKurdish(
                         text:
-                            "کڕین و فرۆشتنی مادەی هۆشبەر تاوانێکی گەورەیە کە دەکرێت سزای توندی هەبێت."),
+                            "کڕین و فرۆشتنی مادەی ھۆشبەر تاوانێکی گەورەیە کە دەکرێت سزای توندی ھەبێت."),
                   ],
                 ),
               ),

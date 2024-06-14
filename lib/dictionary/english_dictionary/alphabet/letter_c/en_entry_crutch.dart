@@ -222,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She can only walk with crutches."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She can only walk with crutches."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrutchs2(String languageCode) async {
@@ -231,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("After the accident I spent six months on crutches."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "After the accident I spent six months on crutches."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrutchs3(String languageCode) async {
@@ -239,7 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She uses her work as a psychological crutch."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She uses her work as a psychological crutch."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrutchs4(String languageCode) async {
@@ -247,7 +249,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("High interest rates are merely a crutch for the country’s ailing economy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "High interest rates are merely a crutch for the country’s ailing economy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrutchs5(String languageCode) async {
@@ -333,16 +336,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: شەقە، چێوشەقە، دارشەق، گۆچان،	پاڵپشت، پشت، پەنا، پشت‌وپەنا،	ناوگەڵ، گەڵ، ناولنگ، ناوڕان،	خشتەک
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) دارشەقێک کە لەژێر باڵتی دادەنێیت بۆ ئەوەی ڕێ بکەیت لە دوای ئەوەی لاقت یان پێت بریندار کردووە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) دارشەقێک کە لەژێر باڵتی دادەنێیت بۆ ئەوەی ڕێ بکەیت لە دوای ئەوەی لاقت یان پێت بریندار کردووە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "She can only walk with crutches."),
-                    ExampleSentenceKurdish(text: "تەنها بە دارشەق دەتوانێت ڕێ بکات."),
+                        text: "She can only walk with crutches."),
+                    ExampleSentenceKurdish(
+                        text: "تەنھا بە دارشەق دەتوانێت ڕێ بکات."),
                   ],
                 ),
               ),
@@ -361,85 +366,88 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "After the accident I spent six months on crutches."),
-          ExampleSentenceKurdish(
-          text: "لە دوای ڕووداوەکە شەش مانگم بە دارشەقەوە بەسەربرد."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrutchs2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrutchs2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "After the accident I spent six months on crutches."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە دوای ڕووداوەکە شەش مانگم بە دارشەقەوە بەسەربرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrutchs2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrutchs2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) کەسێک یان شتێک کە زۆرجار یارمەتی و پشتیوانیت پێ دەدات بەڵام وات لێ دەکات زۆر پشتی پێ ببەستیت"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) کەسێک یان شتێک کە زۆرجار یارمەتی و پشتیوانیت پێ دەدات بەڵام وات لێ دەکات زۆر پشتی پێ ببەستیت"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "She uses her work as a psychological crutch."),
-          ExampleSentenceKurdish(
-          text: "کارەکەی وەک پەنایەکی دەروونی بەکاردێنێت."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrutchs3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrutchs3("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She uses her work as a psychological crutch."),
+                    ExampleSentenceKurdish(
+                        text: "کارەکەی وەک پەنایەکی دەروونی بەکاردێنێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrutchs3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrutchs3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "High interest rates are merely a crutch for the country’s ailing economy."),
-          ExampleSentenceKurdish(
-          text: "بەرزی ئاستی سوو تەنها پاڵپشتییەکە بۆ ئابووری لاوازی وڵاتەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrutchs4("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrutchs4("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "High interest rates are merely a crutch for the country’s ailing economy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بەرزی ئاستی سوو تەنھا پاڵپشتییەکە بۆ ئابووری لاوازی وڵاتەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrutchs4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrutchs4("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
           Column(

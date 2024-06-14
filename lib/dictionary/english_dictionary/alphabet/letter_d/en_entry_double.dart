@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -548,9 +550,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دووئەوندە، دووبەرامبەر، دووقات، دووچەندان، یەکاویەک،	دووانە، جووت، دووانی،	دووکەسە، دووانە،	دوومانادار، دووواتا، لێڵ،	دووڕوو،	جووت، تا، لف، هاوشێوە، دەقاودەق، لێک‌چوو، وەک‌یەک (دوو کەسی لێک‌چوو)،	(یاری) دوبل، دابڵ،	(ڕووەک) پڕگەڵا، گەڵازۆر،	دووتەرکە،	دووسەر، جووت‌سەر
+کوردی: دووئەوندە، دووبەرامبەر، دووقات، دووچەندان، یەکاویەک،	دووانە، جووت، دووانی،	دووکەسە، دووانە،	دوومانادار، دووواتا، لێڵ،	دووڕوو،	جووت، تا، لف، ھاوشێوە، دەقاودەق، لێک‌چوو، وەک‌یەک (دوو کەسی لێک‌چوو)،	(یاری) دوبل، دابڵ،	(ڕووەک) پڕگەڵا، گەڵازۆر،	دووتەرکە،	دووسەر، جووت‌سەر
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) دوو هێندە "),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) دوو ھێندە "),
           Row(
             children: [
               const Expanded(
@@ -589,7 +591,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "This painkiller is double strength (= has twice the normal amount of medicine)."),
                     ExampleSentenceKurdish(
-                        text: "ئازارکوژەکان هێزی دوو هێندەیان هەیە."),
+                        text: "ئازارکوژەکان ھێزی دوو ھێندەیان ھەیە."),
                   ],
                 ),
               ),
@@ -607,7 +609,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە دوو بەشی هەیە"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە دوو بەشی ھەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -737,7 +739,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It has the double advantage of being both easy and cheap."),
                     ExampleSentenceKurdish(
                         text:
-                            "سوودی دوولایەنەی ئەوەی هەیە کە ئاسان و هەرزانە."),
+                            "سوودی دوولایەنەی ئەوەی ھەیە کە ئاسان و ھەرزانە."),
                   ],
                 ),
               ),
@@ -755,7 +757,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (دیارخەر) دوو هێندە"),
+          const DefinitionKurdish(text: "٥. (دیارخەر) دوو ھێندە"),
           const DividerSentences(),
           Row(
             children: [
@@ -764,7 +766,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "His income is double hers."),
                     ExampleSentenceKurdish(
-                        text: "داهاتەکەی دوو هێندەی هی ئەوە."),
+                        text: "داھاتەکەی دوو ھێندەی ھی ئەوە."),
                   ],
                 ),
               ),
@@ -792,7 +794,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He earns double what she does."),
                     ExampleSentenceKurdish(
-                        text: "دوو هێندەی ئەو بەدەست دەهێنێت."),
+                        text: "دوو ھێندەی ئەو بەدەست دەھێنێت."),
                   ],
                 ),
               ),
@@ -820,7 +822,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We need double the amount we already have."),
                     ExampleSentenceKurdish(
-                        text: "دوو هێندەی ئەوەمان پێویستە کە ئێستا هەمانە."),
+                        text: "دوو ھێندەی ئەوەمان پێویستە کە ئێستا ھەمانە."),
                   ],
                 ),
               ),
@@ -839,7 +841,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (جێناو) ژمارەیەک یان بڕێک کە دوو هێندەی یەکێکی دیکەیە"),
+              text: "٦. (جێناو) ژمارەیەک یان بڕێک کە دوو ھێندەی یەکێکی دیکەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -850,7 +852,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He gets paid double for doing the same job I do."),
                     ExampleSentenceKurdish(
-                        text: "دوو هێندەی پێدەدرێت بۆ کردنی هەمان کار."),
+                        text: "دوو ھێندەی پێدەدرێت بۆ کردنی ھەمان کار."),
                   ],
                 ),
               ),
@@ -880,7 +882,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The airline announced it would start charging double for people who couldn't fit in a single seat."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێڵە ئاسمانییەکە ڕایگەیاند کە دەست دەکات بە سەندنی پارەی دوو هێندە لەو کەسانەی کە لە یەک کوسیدا جێگایان نابێتەوە."),
+                            "ھێڵە ئاسمانییەکە ڕایگەیاند کە دەست دەکات بە سەندنی پارەی دوو ھێندە لەو کەسانەی کە لە یەک کوسیدا جێگایان نابێتەوە."),
                   ],
                 ),
               ),
@@ -899,7 +901,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٧. (کردار) کردن یان بوون بە دوو هێندە"),
+              text: "٧. (کردار) کردن یان بوون بە دوو ھێندە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -910,7 +912,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Membership almost doubled in two years."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەندامییەتی بەنزیکەیی دوو هێندە بوو لە دوو ساڵدا."),
+                            "ئەندامییەتی بەنزیکەیی دوو ھێندە بوو لە دوو ساڵدا."),
                   ],
                 ),
               ),
@@ -940,7 +942,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The town has approximately doubled in size since 1960."),
                     ExampleSentenceKurdish(
                         text:
-                            "شارۆچکە بە نزیکەیی دوو هێندە بووە لە قەبارەدا لەوەتەی ساڵی ١٩٦٠ ـەوە."),
+                            "شارۆچکە بە نزیکەیی دوو ھێندە بووە لە قەبارەدا لەوەتەی ساڵی ١٩٦٠ ـەوە."),
                   ],
                 ),
               ),
@@ -988,7 +990,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٩. (هاوەڵکار) بە دوو بەش"),
+          const DefinitionKurdish(text: "٩. (ھاوەڵکار) بە دوو بەش"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1043,7 +1045,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "١٠. (هاوەڵکار) بە بڕی دوو هێندە"),
+          const DefinitionKurdish(text: "١٠. (ھاوەڵکار) بە بڕی دوو ھێندە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1055,7 +1057,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You have to be careful, and this counts double for people with children."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت وریا بیت، و ئەمە بە دوو هێندە بۆ ئەو کەسانە حسابە کە منداڵیان هەیە."),
+                            "دەبێت وریا بیت، و ئەمە بە دوو ھێندە بۆ ئەو کەسانە حسابە کە منداڵیان ھەیە."),
                   ],
                 ),
               ),
@@ -1132,7 +1134,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٣. (ناو) گڵاسێک خواردنەوەی کحولی بەهێز کە دوو هێندەی ڕێژەی ئاسایی تێدایە"),
+                  "١٣. (ناو) گڵاسێک خواردنەوەی کحولی بەھێز کە دوو ھێندەی ڕێژەی ئاسایی تێدایە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1333,7 +1335,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
+    videoId: '8HEfIJlcFbs',
     startSeconds: 216,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1358,7 +1360,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 711,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1383,7 +1385,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yjhibJ-OqxE?t=',
+    videoId: 'yjhibJ-OqxE',
     startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1408,7 +1410,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1433,7 +1435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XnbCSboujF4?t=',
+    videoId: 'XnbCSboujF4',
     startSeconds: 216,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1458,7 +1460,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1483,7 +1485,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(

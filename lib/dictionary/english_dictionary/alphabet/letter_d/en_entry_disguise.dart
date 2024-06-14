@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She made no attempt to disguise her surprise."),
                     ExampleSentenceKurdish(
-                        text: "هیچ هەوڵێکی نەدا بۆ شاردنەوەی حەپەسانی."),
+                        text: "ھیچ ھەوڵێکی نەدا بۆ شاردنەوەی حەپەسانی."),
                   ],
                 ),
               ),
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She couldn't disguise the fact that she felt uncomfortable."),
                     ExampleSentenceKurdish(
                         text:
-                            "نەیدەتوانی ئەو ڕاستییە بشارێتەوە کە هەستی بە ناڕەحەتی دەکرد."),
+                            "نەیدەتوانی ئەو ڕاستییە بشارێتەوە کە ھەستی بە ناڕەحەتی دەکرد."),
                   ],
                 ),
               ),
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He tried to disguise his accent."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵیدا ئەکسێنتەکەی بشارێتەوە."),
+                        text: "ھەوڵیدا ئەکسێنتەکەی بشارێتەوە."),
                   ],
                 ),
               ),
@@ -615,7 +615,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) شتێک کە لەبەری دەکەیت یان بەکاری دەهێنیت بۆ ئەوەی شێوەت بگۆڕیت تاوەکو خەڵکی نەتناسنەوە"),
+                  "٣. (ناو) شتێک کە لەبەری دەکەیت یان بەکاری دەھێنیت بۆ ئەوەی شێوەت بگۆڕیت تاوەکو خەڵکی نەتناسنەوە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -673,7 +673,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) هونەری گۆڕینی ڕواڵەت بۆ ئەوەی خەڵکی نەتناسنەوە"),
+              text: "٤. (ناو) ھونەری گۆڕینی ڕواڵەت بۆ ئەوەی خەڵکی نەتناسنەوە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -710,7 +710,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His angelic look is just a disguise."),
                     ExampleSentenceKurdish(
-                        text: "شێوە فریشتەئاساکەی تەنها فریودەرێکە."),
+                        text: "شێوە فریشتەئاساکەی تەنھا فریودەرێکە."),
                   ],
                 ),
               ),

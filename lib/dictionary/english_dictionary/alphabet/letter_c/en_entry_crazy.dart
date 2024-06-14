@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I'd never do anything like that. That's just crazy."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز شتێکی وەها ناکەم. شێتانەیە."),
+                        text: "ھەرگیز شتێکی وەھا ناکەم. شێتانەیە."),
                   ],
                 ),
               ),
@@ -582,7 +582,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "I know it sounds crazy but it just might work."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەزانم شێتانە دیارە، بەڵام ئەگەری هەیە کاربکات."),
+                                    "ئەزانم شێتانە دیارە، بەڵام ئەگەری ھەیە کاربکات."),
                           ],
                         ),
                       ),
@@ -699,7 +699,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crowd went crazy when the band came on stage."),
                     ExampleSentenceKurdish(
                         text:
-                            "جەماوەرەکە خرۆشان کە باندەکە هاتنە سەر ستەیجەکە."),
+                            "جەماوەرەکە خرۆشان کە باندەکە ھاتنە سەر ستەیجەکە."),
                   ],
                 ),
               ),
@@ -771,7 +771,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (ھاوەڵناو) هەبوونی نەخۆشی دەروونی کە کێشە بۆ بیرکردنەوەی ئاسایی درووست دەکات"),
+                  "٥. (ھاوەڵناو) ھەبوونی نەخۆشی دەروونی کە کێشە بۆ بیرکردنەوەی ئاسایی درووست دەکات"),
           Row(
             children: [
               const Expanded(
@@ -800,7 +800,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (ناو) کەسێک کە بیرۆکەی نامۆی هەیە یان لە ڕووی دەروونییەوە تەواو نییە"),
+                  "٦. (ناو) کەسێک کە بیرۆکەی نامۆی ھەیە یان لە ڕووی دەروونییەوە تەواو نییە"),
           Row(
             children: [
               const Expanded(
@@ -809,7 +809,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There are a lot of crazies out there."),
                     ExampleSentenceKurdish(
-                        text: "ژمارەیەکی زۆر شێت (لەوێ) هەن."),
+                        text: "ژمارەیەکی زۆر شێت (لەوێ) ھەن."),
                   ],
                 ),
               ),

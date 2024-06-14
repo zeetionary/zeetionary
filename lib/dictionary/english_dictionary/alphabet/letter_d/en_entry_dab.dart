@@ -334,10 +334,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بڕێکی کەم، قومێ، ڕێزەیێ، چکێ، بڕێ، نەختێ، پشکێ، تۆزاڵێ،	دەس‌لێدان (بە سووکی)، دەس‌پیاهێنان، لێدان، لێ‌خستن، جێ‌پەنجە، جێ‌قامک، پەنجەمۆر، کەسێکی کارامە، مرۆی شارەزا، وەستا، سەردەرچوو، دەس‌ڕەنگین
+کوردی: بڕێکی کەم، قومێ، ڕێزەیێ، چکێ، بڕێ، نەختێ، پشکێ، تۆزاڵێ،	دەس‌لێدان (بە سووکی)، دەس‌پیاھێنان، لێدان، لێ‌خستن، جێ‌پەنجە، جێ‌قامک، پەنجەمۆر، کەسێکی کارامە، مرۆی شارەزا، وەستا، سەردەرچوو، دەس‌ڕەنگین
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) لێدان لە شتێک بە هێواشی، زۆرجار بۆ چەند جارێک"),
+              text: "١. (کردار) لێدان لە شتێک بە ھێواشی، زۆرجار بۆ چەند جارێک"),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She dabbed at her eyes with a tissue."),
                     ExampleSentenceKurdish(
-                        text: "بە کلێنسێک دەستی هێنا بە چاویدا."),
+                        text: "بە کلێنسێک دەستی ھێنا بە چاویدا."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) بەهێواشی دەستدان لە شتێک بەبێ دەست ساوین پێیدا"),
+              text: "٤. (ناو) بەھێواشی دەستدان لە شتێک بەبێ دەست ساوین پێیدا"),
           Row(
             children: [
               const Expanded(
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He gave the cut a quick dab with a towel."),
                     ExampleSentenceKurdish(
-                        text: "بە خاولییەک خێرا دەستی هێنا بە برینەکەدا."),
+                        text: "بە خاولییەک خێرا دەستی ھێنا بە برینەکەدا."),
                   ],
                 ),
               ),

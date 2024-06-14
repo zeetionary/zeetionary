@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەس‌نیشان‌کردن، پێ‌پێبردن، ڕێ‌پێبردن، تێگەیشتن، سەردەرکردن، پێ‌زانین
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) دیاری کردنی هۆکاری تەواوی نەخۆشییەک یان کێشەیەک"),
+              text: "١. (ناو) دیاری کردنی ھۆکاری تەواوی نەخۆشییەک یان کێشەیەک"),
           Row(
             children: [
               const Expanded(

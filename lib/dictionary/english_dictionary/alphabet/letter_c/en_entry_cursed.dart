@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It's a cursed nuisance, having to work late every evening!"),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرێشەیەکی ناخۆشە کە هەموو ئێوارەیەک تا درەنگ کار بکەیت."),
+                            "سەرێشەیەکی ناخۆشە کە ھەموو ئێوارەیەک تا درەنگ کار بکەیت."),
                   ],
                 ),
               ),

@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیا، لێک‌جیا، لێک‌دابڕاو، دابڕاو، هەڵبڕاو،	پچڕپچڕ، نەچووەسەریەک، ناپێوەندی‌دار، بێ‌سەرەوبەرە، بێ‌سەروبن،	شێواو، ناڕیک‌وپێک
+کوردی: جیا، لێک‌جیا، لێک‌دابڕاو، دابڕاو، ھەڵبڕاو،	پچڕپچڕ، نەچووەسەریەک، ناپێوەندی‌دار، بێ‌سەرەوبەرە، بێ‌سەروبن،	شێواو، ناڕیک‌وپێک
 """),
           const DefinitionKurdish(
               text:
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I felt disconnected from the world around me."),
                     ExampleSentenceKurdish(
-                        text: "هەستم بە دابڕاوی لە جیهانی دەورووبەرم دەکرد."),
+                        text: "ھەستم بە دابڕاوی لە جیھانی دەورووبەرم دەکرد."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She had not slept and was feeling numb and disconnected."),
                     ExampleSentenceKurdish(
-                        text: "نەخەوتبوو و هەستی بە گێژی و دابڕاوی دەکرد."),
+                        text: "نەخەوتبوو و ھەستی بە گێژی و دابڕاوی دەکرد."),
                   ],
                 ),
               ),
@@ -500,7 +500,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) کە نەبەستراوە بە تۆڕێک، سەرچاوەی وزەوە، هتد"),
+                  "٣. (ھاوەڵناو) کە نەبەستراوە بە تۆڕێک، سەرچاوەی وزەوە، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All he found was an empty office and a disconnected phone."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ئەوەی دۆزییەوە ئۆفیسێکی چۆڵ و موبایلێکی بێ پەیوەندی بوو."),
+                            "ھەموو ئەوەی دۆزییەوە ئۆفیسێکی چۆڵ و موبایلێکی بێ پەیوەندی بوو."),
                   ],
                 ),
               ),

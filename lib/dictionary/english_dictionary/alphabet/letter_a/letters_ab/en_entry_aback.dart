@@ -130,6 +130,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                     sentence['english'].toString(),
                                     keyword,
                                     ref,
+                                    context,
                                   ),
                                 ),
                                 Directionality(
@@ -140,6 +141,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['french'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                 ),

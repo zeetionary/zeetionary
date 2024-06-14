@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە سووک دانان، بێ حورمەتی پێکردن، قین لێبوون، بێزار بوون
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) ڕق‌لێبوون و نەبوونی هیچ ڕێزێک بۆ کەسێک/شتێک"),
+              text: "١. (کردار) ڕق‌لێبوون و نەبوونی ھیچ ڕێزێک بۆ کەسێک/شتێک"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She despised gossip in any form."),
                     ExampleSentenceKurdish(
-                        text: "ڕقی لە قسەوقسەڵۆکە بە هەموو جۆرێک."),
+                        text: "ڕقی لە قسەوقسەڵۆکە بە ھەموو جۆرێک."),
                   ],
                 ),
               ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I don’t know why they despise me so much."),
                     ExampleSentenceKurdish(
-                        text: "نازانم بۆچی هێندە ڕقیان لێمە."),
+                        text: "نازانم بۆچی ھێندە ڕقیان لێمە."),
                   ],
                 ),
               ),

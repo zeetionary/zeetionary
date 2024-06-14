@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) وەستاندنی ناردنی هێڵی تەلەفۆن، ئاو، یان کارەبا بۆ بینایەک"),
+                  "٢. (کردار) وەستاندنی ناردنی ھێڵی تەلەفۆن، ئاو، یان کارەبا بۆ بینایەک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                             "My computer crashes every time I disconnect from the internet."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپیوتەرەکەم تێکدەچێت هەرکات پەیوەستی بە ئینتەرنێت دەپچڕێنم."),
+                            "کۆمپیوتەرەکەم تێکدەچێت ھەرکات پەیوەستی بە ئینتەرنێت دەپچڕێنم."),
                   ],
                 ),
               ),
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (کردار) نەهێشتنی بەستنەوەی کەسێک بە ئامێرێکەوە، بەتایبەتی ئامێری هێشتنەوە لە ژیاندا"),
+                  "٦. (کردار) نەھێشتنی بەستنەوەی کەسێک بە ئامێرێکەوە، بەتایبەتی ئامێری ھێشتنەوە لە ژیاندا"),
           // const DividerSentences(),
           Row(
             children: [
@@ -577,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was the family's decision to disconnect her from the life support machine."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوە بڕیاری خێزانەکە بوو کە جیای بکەنەوە لە ئامێری هێشتنەوە لە ژیان."),
+                            "ئەوە بڕیاری خێزانەکە بوو کە جیای بکەنەوە لە ئامێری ھێشتنەوە لە ژیان."),
                   ],
                 ),
               ),
@@ -608,7 +608,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is a fundamental disconnect between union leaders and members."),
                     ExampleSentenceKurdish(
                         text:
-                            "جوداییەکی گەورە هەیە لە نێوان ڕابەرەکان و ئەندامانی سەندیکاکە."),
+                            "جوداییەکی گەورە ھەیە لە نێوان ڕابەرەکان و ئەندامانی سەندیکاکە."),
                   ],
                 ),
               ),
@@ -658,7 +658,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٨. (کردار) نەبوونی پەیوەندی لەگەڵ تۆڕێک، سەرچاوەی کارەبا، ئینتەرنێت، هتد"),
+                  "٨. (کردار) نەبوونی پەیوەندی لەگەڵ تۆڕێک، سەرچاوەی کارەبا، ئینتەرنێت، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -670,7 +670,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There might be a power failure or sudden network disconnect."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەکرێت لەکارکەوتنی وزە یان بڕان لەناکاو بە تۆڕەکەوە هەبێت."),
+                            "دەکرێت لەکارکەوتنی وزە یان بڕان لەناکاو بە تۆڕەکەوە ھەبێت."),
                   ],
                 ),
               ),

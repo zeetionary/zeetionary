@@ -197,7 +197,7 @@ class EnglishEntrycornonthecob extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) گەنمەشامی کە لێنراوە و هێشتا هەموو زەڕاتەکەی بە ساقەتەکەیەوە لکاوە"),
+                                  "١. (ناو) گەنمەشامی کە لێنراوە و ھێشتا ھەموو زەڕاتەکەی بە ساقەتەکەیەوە لکاوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycornonthecob extends StatelessWidget {
                                             "Corn on the cob is a favorite summer treat for many people."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زەڕات خواردنی دڵخوازی هاوینەی زۆر کەسە."),
+                                            "زەڕات خواردنی دڵخوازی ھاوینەی زۆر کەسە."),
                                   ],
                                 ),
                               ),

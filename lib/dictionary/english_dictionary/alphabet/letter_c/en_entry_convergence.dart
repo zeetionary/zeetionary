@@ -193,11 +193,11 @@ class EnglishEntryconvergence extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: یەک‌گیری، هاوگری، هاوگیری، یەک‌گرتنەوە،	لێک‌نزیکی، لێک‌نزیک‌بوونەوە،	چوونەوەسەریەک، سەریەک‌کەوتن، سەریەک‌هاتەیی، پێک‌گەیشتن، خاڵی پێک‌گەیشتن، جەمسەر، خاڵی سەریەک‌چوون،	یەکێتی، یەک‌گرتوویی، یەک‌پارچەیی
+کوردی: یەک‌گیری، ھاوگری، ھاوگیری، یەک‌گرتنەوە،	لێک‌نزیکی، لێک‌نزیک‌بوونەوە،	چوونەوەسەریەک، سەریەک‌کەوتن، سەریەک‌ھاتەیی، پێک‌گەیشتن، خاڵی پێک‌گەیشتن، جەمسەر، خاڵی سەریەک‌چوون،	یەکێتی، یەک‌گرتوویی، یەک‌پارچەیی
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) پڕۆسەی جوڵان پێکەوە جوڵان بۆ هەمان خاڵ و گەشتن بە یەک"),
+                                  "١. (ناو) پڕۆسەی جوڵان پێکەوە جوڵان بۆ ھەمان خاڵ و گەشتن بە یەک"),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntryconvergence extends StatelessWidget {
                                             "The city was a natural point of convergence for river-based traffic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارەکە خاڵێکی سرووشتی یەک‌گیر بوو بۆ هاتووچۆی ناو ڕووبار."),
+                                            "شارەکە خاڵێکی سرووشتی یەک‌گیر بوو بۆ ھاتووچۆی ناو ڕووبار."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntryconvergence extends StatelessWidget {
                                             "The diagram shows the convergence of two oceanic plates."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵکارییەکە یەکگرتنی دوو پلێتی زریایی پیشان دەدات."),
+                                            "ھێڵکارییەکە یەکگرتنی دوو پلێتی زریایی پیشان دەدات."),
                                   ],
                                 ),
                               ),
@@ -260,7 +260,7 @@ class EnglishEntryconvergence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پڕۆسەی بوون بە یەک یان هاوشێوە بوون"),
+                                  "٢. (ناو) پڕۆسەی بوون بە یەک یان ھاوشێوە بوون"),
                           Row(
                             children: [
                               const Expanded(

@@ -341,7 +341,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "There were small plants growing in every nook and cranny of the wall."),
-                    ExampleSentenceKurdish(text: "ڕووەکی بچووک لە هەموو کون و کەلەبەردێکی دیوارەکە گەشەیان دەکرد."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕووەکی بچووک لە ھەموو کون و کەلەبەردێکی دیوارەکە گەشەیان دەکرد."),
                   ],
                 ),
               ),

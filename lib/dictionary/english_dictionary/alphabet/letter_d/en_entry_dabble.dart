@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پڕژاندن، پاشین، شێ دان
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) بەژداریکردن لە چالاکییەک، وەرزشێک، هتد"),
+              text: "١. (کردار) بەژداریکردن لە چالاکییەک، وەرزشێک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She is a talented musician but is content to just dabble."),
                     ExampleSentenceKurdish(
                         text:
-                            "میوزیکژەنێکی بەهرەدارە، بەڵام ڕازییە بەوەی تەنها بەختی تاقی بکاتەوە."),
+                            "میوزیکژەنێکی بەھرەدارە، بەڵام ڕازییە بەوەی تەنھا بەختی تاقی بکاتەوە."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He dabbles in local politics."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە هەڵبژاردنە خۆجێییەکان بەختی خۆی تاقی دەکاتەوە."),
+                            "لە ھەڵبژاردنە خۆجێییەکان بەختی خۆی تاقی دەکاتەوە."),
                   ],
                 ),
               ),
@@ -584,8 +584,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'FhlXZrUVzQQ',
-    startSeconds
-    : 806,
+    startSeconds: 806,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

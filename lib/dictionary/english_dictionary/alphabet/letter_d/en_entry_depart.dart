@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وەڕێکەوتن، ڕۆیشتن، دەرچوون، بەجێهێشتن
+کوردی: وەڕێکەوتن، ڕۆیشتن، دەرچوون، بەجێھێشتن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) جێهێشتنی شوێنێک، بەتایبەتی بۆ دەستپێکردنی گەشتێک"),
+                  "١. (کردار) جێھێشتنی شوێنێک، بەتایبەتی بۆ دەستپێکردنی گەشتێک"),
           Row(
             children: [
               const Expanded(
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) جێهێشتنی کارەکەت"),
+          const DefinitionKurdish(text: "٢. (کردار) جێھێشتنی کارەکەت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He departed his job December 16."),
                     ExampleSentenceKurdish(
-                        text: "١٦ ـی کانوونی یەکەم کارەکەی جێهێشت."),
+                        text: "١٦ ـی کانوونی یەکەم کارەکەی جێھێشت."),
                   ],
                 ),
               ),

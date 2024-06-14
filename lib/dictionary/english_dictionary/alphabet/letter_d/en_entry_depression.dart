@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) حاڵەتێکی پزیشکییە کە تێیدا کەسێک هەست بە دڵتەنگی و دڵەڕاوکێ و بێ ئومێدی دەکات و زۆرجار نیشانەکانی جەستەیی وەک نەتوانینی خەوتن، هتد ـی هەیە."),
+                  "١. (ھاوەڵناو) حاڵەتێکی پزیشکییە کە تێیدا کەسێک ھەست بە دڵتەنگی و دڵەڕاوکێ و بێ ئومێدی دەکات و زۆرجار نیشانەکانی جەستەیی وەک نەتوانینی خەوتن، ھتد ـی ھەیە."),
           Row(
             children: [
               const Expanded(
@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He had a family history of depression."),
                     ExampleSentenceKurdish(
-                        text: "تۆمارێکی خێزانی لە خەمۆکی هەبوو."),
+                        text: "تۆمارێکی خێزانی لە خەمۆکی ھەبوو."),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Bereavement can often lead to depression."),
                     ExampleSentenceKurdish(
-                        text: "شیوەنگێڕان زۆرجار دەکرێت ببێتە هۆکاری خەمۆکی."),
+                        text: "شیوەنگێڕان زۆرجار دەکرێت ببێتە ھۆکاری خەمۆکی."),
                   ],
                 ),
               ),
@@ -556,7 +556,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هەستکردن بە دڵتەنگی و بێ هیوایی"),
+              text: "٢. (ناو) ھەستکردن بە دڵتەنگی و بێ ھیوایی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was a feeling of gloom and depression in the office when the news of the job cuts was announced."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستی ڕەشبینی و دڵتەنگی لە ئۆفیسەکە درووستبوو کە هەواڵی کەمکردنەوەی کار ڕاگەیەندرا."),
+                            "ھەستی ڕەشبینی و دڵتەنگی لە ئۆفیسەکە درووستبوو کە ھەواڵی کەمکردنەوەی کار ڕاگەیەندرا."),
                   ],
                 ),
               ),
@@ -614,7 +614,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) ماوەیەک کە چالاکی ئابووری کەمە و خەڵکی هەژار و بێکارن"),
+                  "٣. (ناو) ماوەیەک کە چالاکی ئابووری کەمە و خەڵکی ھەژار و بێکارن"),
           // const DividerSentences(),
           Row(
             children: [

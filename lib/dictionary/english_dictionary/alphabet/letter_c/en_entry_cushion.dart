@@ -523,7 +523,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Homeowners will be cushioned from any tax rises."),
                     ExampleSentenceKurdish(
                         text:
-                            "خاوەن ماڵەکان دەپارێزرێن لە هەر بەرزبوونەوەیەکی باج."),
+                            "خاوەن ماڵەکان دەپارێزرێن لە ھەر بەرزبوونەوەیەکی باج."),
                   ],
                 ),
               ),

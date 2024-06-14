@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "I hate dining alone."),
                     ExampleSentenceKurdish(
-                        text: "ڕقم لە شێو خواردن بە تەنهایە."),
+                        text: "ڕقم لە شێو خواردن بە تەنھایە."),
                   ],
                 ),
               ),

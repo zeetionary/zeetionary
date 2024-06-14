@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گران، زۆربایی، زۆربڕ، خەرج‌هەڵگر، پڕمەزاخ، پڕخەرج، زۆری تێدەچێ
+کوردی: گران، زۆربایی، زۆربڕ، خەرج‌ھەڵگر، پڕمەزاخ، پڕخەرج، زۆری تێدەچێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر گران"),
           Row(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "These teaching methods are too costly in terms of staff resources."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم ڕێگایانەی وانەوتنەوە زۆر گران‌بەهان لە ڕووی سەرچاوەی ستافەوە."),
+                            "ئەم ڕێگایانەی وانەوتنەوە زۆر گران‌بەھان لە ڕووی سەرچاوەی ستافەوە."),
                   ],
                 ),
               ),
@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) بوون بەهۆی کێشە یان لەدەستدانی شتێک"),
+              text: "٢. (ھاوەڵناو) بوون بەھۆی کێشە یان لەدەستدانی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Privatizing the rail network turned out be a costly mistake for the government."),
                     ExampleSentenceKurdish(
                         text:
-                            "ناحکومی‌کردنی هێڵی شەمەندەفەر دەرکەوت کە هەڵەیەکی گران‌بەها بوو بۆ حکومەت."),
+                            "ناحکومی‌کردنی ھێڵی شەمەندەفەر دەرکەوت کە ھەڵەیەکی گران‌بەھا بوو بۆ حکومەت."),
                   ],
                 ),
               ),

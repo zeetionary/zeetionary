@@ -335,11 +335,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕەخنە، هەڵسەنگاندن، ڕەخنەگری، ڕەخنەسازی،	تێبینی یان وتاری ڕەخنەگرانە
+کوردی: ڕەخنە، ھەڵسەنگاندن، ڕەخنەگری، ڕەخنەسازی،	تێبینی یان وتاری ڕەخنەگرانە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ڕەخنە؛ دەربڕینی ناڕەزایی و لێدوانی نەرێنی سەبارەت بە هەڵە و خاسیەتە خراپەکانی کەسێک یان شتێک"),
+                  "١. (ناو) ڕەخنە؛ دەربڕینی ناڕەزایی و لێدوانی نەرێنی سەبارەت بە ھەڵە و خاسیەتە خراپەکانی کەسێک یان شتێک"),
           Row(
             children: [
               const Expanded(
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Ben is very sensitive—he just can't take criticism."),
                     ExampleSentenceKurdish(
-                        text: "بێن زۆر هەستیارە، ڕەخنە قبووڵ ناکات."),
+                        text: "بێن زۆر ھەستیارە، ڕەخنە قبووڵ ناکات."),
                   ],
                 ),
               ),
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was widespread criticism of the government's handling of the disaster."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕەخنەی بەرفراوان هەبوو سەبارەت بە مامەڵەی حکومەت لەگەڵ کارەساتەکەدا."),
+                            "ڕەخنەی بەرفراوان ھەبوو سەبارەت بە مامەڵەی حکومەت لەگەڵ کارەساتەکەدا."),
                   ],
                 ),
               ),
@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                             "My only criticism of the house is that it is on a main road."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها ڕەخنەم بۆ خانووەکە ئەوەیە لەسەر ڕێگای سەرەکییە."),
+                            "تەنھا ڕەخنەم بۆ خانووەکە ئەوەیە لەسەر ڕێگای سەرەکییە."),
                   ],
                 ),
               ),

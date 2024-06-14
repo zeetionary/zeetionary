@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ماوەی دەزگیرانداری؛ ئەو ماوەیەی دوو دڵدار پێکەوەن پێش هاوسەرگیرییان"),
+                  "١. (ناو) ماوەی دەزگیرانداری؛ ئەو ماوەیەی دوو دڵدار پێکەوەن پێش ھاوسەرگیرییان"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "They married after a short courtship."),
                     ExampleSentenceKurdish(
                         text:
-                            "هاوسەرگیرییان کرد لە دوای دەستگیراندارییەکی کورتخایەن."),
+                            "ھاوسەرگیرییان کرد لە دوای دەستگیراندارییەکی کورتخایەن."),
                   ],
                 ),
               ),

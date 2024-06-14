@@ -988,7 +988,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داپۆشین، (دا)پوشاندن، پۆششت، ڕووماڵ(کردن)، داپێچان، بەرگ، داپۆشە، سەرپۆش، ڕوو، شەڵتە، سەرقاپ، سەر، درگا، پەردە، ڕووکێش، سەرکێش، داپۆشک،	بەرگ (کتێب، ڕۆژنامە، کۆڤار و هتد)،	بەرگەنامە،	داڵدە، پارێزگا، پەنا، سامە، چراخ،	پاراستن، ئاگالێ‌بوون،	پشتیوان، پشتیوانە،	ناسنامەی درۆ، ناسنامەی فڕوفێڵاوی یان ساختە،	گژوگیا، سەوزە، سەوزایی، شینکاتی، شیناوەرد (ئەو ڕووەکانەی کە لەسەر عەرز شین‌بوون)،	بیمە،	جێ، جێگا (لەسەر میزی نان‌خواردن)، نوێن، پێخەف،	جێبەجێ‌کردنی کار و ئەرکی کەسێکی تر ئەگەر لەوێ نەبێ، جێگری
+کوردی: داپۆشین، (دا)پوشاندن، پۆششت، ڕووماڵ(کردن)، داپێچان، بەرگ، داپۆشە، سەرپۆش، ڕوو، شەڵتە، سەرقاپ، سەر، درگا، پەردە، ڕووکێش، سەرکێش، داپۆشک،	بەرگ (کتێب، ڕۆژنامە، کۆڤار و ھتد)،	بەرگەنامە،	داڵدە، پارێزگا، پەنا، سامە، چراخ،	پاراستن، ئاگالێ‌بوون،	پشتیوان، پشتیوانە،	ناسنامەی درۆ، ناسنامەی فڕوفێڵاوی یان ساختە،	گژوگیا، سەوزە، سەوزایی، شینکاتی، شیناوەرد (ئەو ڕووەکانەی کە لەسەر عەرز شین‌بوون)،	بیمە،	جێ، جێگا (لەسەر میزی نان‌خواردن)، نوێن، پێخەف،	جێبەجێ‌کردنی کار و ئەرکی کەسێکی تر ئەگەر لەوێ نەبێ، جێگری
 """),
           const DefinitionKurdish(text: "١. (کردار) داپۆشین بۆ شاردنەوە"),
           Row(
@@ -1052,7 +1052,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He tried to cover his embarrassment by starting to rub his hands together."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵیدا شەرمەزارییەکەی بشارێتەوە بە ساوینی دەستەکانی بە یەکدا."),
+                            "ھەوڵیدا شەرمەزارییەکەی بشارێتەوە بە ساوینی دەستەکانی بە یەکدا."),
                   ],
                 ),
               ),
@@ -1152,7 +1152,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) دانانی چینێک لە شلە، خۆڵ، هتد لەسەر کەسێک یان شتێک"),
+                  "٣. (کردار) دانانی چینێک لە شلە، خۆڵ، ھتد لەسەر کەسێک یان شتێک"),
           Row(
             children: [
               const Expanded(
@@ -1163,7 +1163,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The wind blew in from the desert and covered everything with sand."),
                     ExampleSentenceKurdish(
                         text:
-                            "بایەکە لە بیابانەکە هەڵیکرد و هەموو شتێکی بە خؤل داپۆشی."),
+                            "بایەکە لە بیابانەکە ھەڵیکرد و ھەموو شتێکی بە خؤل داپۆشی."),
                   ],
                 ),
               ),
@@ -1244,7 +1244,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The players were soon covered in mud."),
                     ExampleSentenceKurdish(
-                        text: "یاریزانەکان هەرزوو بە قوڕ داپۆشران."),
+                        text: "یاریزانەکان ھەرزوو بە قوڕ داپۆشران."),
                   ],
                 ),
               ),
@@ -1326,7 +1326,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Each podcast covers a different topic."),
                     ExampleSentenceKurdish(
-                        text: "هەر پۆدکاستێک بابەتێکی جیاواز لەخۆدەگرێت."),
+                        text: "ھەر پۆدکاستێک بابەتێکی جیاواز لەخۆدەگرێت."),
                   ],
                 ),
               ),
@@ -1356,7 +1356,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "Do the rules cover (= do they apply to) a case like this?"),
                             ExampleSentenceKurdish(
-                                text: "یاساکان بەسەر کەیسێکی وەهادا دەچەسپێن؟"),
+                                text: "یاساکان بەسەر کەیسێکی وەھادا دەچەسپێن؟"),
                           ],
                         ),
                       ),
@@ -1554,7 +1554,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Grand Canyon National Park covers approximately 500,000 hectares)."),
                     ExampleSentenceKurdish(
                         text:
-                            "پارکی نیشتیمانی گراند کانیەن بەنزیکەیی ٥٠٠,٠٠٠ هێکتار دەبێت."),
+                            "پارکی نیشتیمانی گراند کانیەن بەنزیکەیی ٥٠٠,٠٠٠ ھێکتار دەبێت."),
                   ],
                 ),
               ),
@@ -1573,7 +1573,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٨. (کردار) گەیاندنی بۆنەیەک بە تەلەفیزیۆن، ڕۆژنامە، هتد"),
+              text: "٨. (کردار) گەیاندنی بۆنەیەک بە تەلەفیزیۆن، ڕۆژنامە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -1669,7 +1669,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I have to go out for a minute—will you cover for me if anyone asks where I am?"),
                     ExampleSentenceKurdish(
                         text:
-                            "پێویستە بۆ خولەکێک بچمە دەرەوە، بۆم دەپۆشی ئەگەر هەر کەسێک پرسیاری کردم؟"),
+                            "پێویستە بۆ خولەکێک بچمە دەرەوە، بۆم دەپۆشی ئەگەر ھەر کەسێک پرسیاری کردم؟"),
                   ],
                 ),
               ),
@@ -1689,7 +1689,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١١. (کردار) ڕێگری کەوەی کەسێک تووشی زیان، برینداری، هتد بێت بە دابینکردنی بیمە"),
+                  "١١. (کردار) ڕێگری کەوەی کەسێک تووشی زیان، برینداری، ھتد بێت بە دابینکردنی بیمە"),
           Row(
             children: [
               const Expanded(
@@ -1698,7 +1698,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Are you fully covered for fire and theft?"),
                     ExampleSentenceKurdish(
-                        text: "بە تەواوی بیمەت هەیە بۆ ئاگرکەوتنەوە و دزی؟"),
+                        text: "بە تەواوی بیمەت ھەیە بۆ ئاگرکەوتنەوە و دزی؟"),
                   ],
                 ),
               ),
@@ -1747,7 +1747,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٣. (کردار) پاراستنی کەسێک بە تەقەکردن لە هەر کەسێک کە ئازاری بدات"),
+                  "١٣. (کردار) پاراستنی کەسێک بە تەقەکردن لە ھەر کەسێک کە ئازاری بدات"),
           Row(
             children: [
               const Expanded(
@@ -1775,7 +1775,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٤. (کردار) ئاراستەکردنی چەکێک لە شوێنێک یان کەسێک بۆ ئەوەی کەس هەڵنەیەت یان تەقە نەکات"),
+                  "١٤. (کردار) ئاراستەکردنی چەکێک لە شوێنێک یان کەسێک بۆ ئەوەی کەس ھەڵنەیەت یان تەقە نەکات"),
           Row(
             children: [
               const Expanded(
@@ -1866,7 +1866,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He lifted the manhole cover."),
-                    ExampleSentenceKurdish(text: "سەری مەنهۆڵەکەی بەرزکردەوە."),
+                    ExampleSentenceKurdish(text: "سەری مەنھۆڵەکەی بەرزکردەوە."),
                   ],
                 ),
               ),
@@ -1885,7 +1885,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٦. (ناو) پەناگە بۆ پاراستن لە کەشی خراپ یان هێرش"),
+              text: "١٦. (ناو) پەناگە بۆ پاراستن لە کەشی خراپ یان ھێرش"),
           Row(
             children: [
               const Expanded(
@@ -1896,7 +1896,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Everyone ran for cover when it started to rain."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموان بۆ پەناگە ڕایانکرد کە دەستی بە باران کرد."),
+                            "ھەموان بۆ پەناگە ڕایانکرد کە دەستی بە باران کرد."),
                   ],
                 ),
               ),
@@ -1980,7 +1980,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Her face was on the cover (= the front cover) of every magazine."),
                     ExampleSentenceKurdish(
-                        text: "ڕووخساری لەسەر بەرگی هەموو گۆڤارێک بوو."),
+                        text: "ڕووخساری لەسەر بەرگی ھەموو گۆڤارێک بوو."),
                   ],
                 ),
               ),
@@ -2054,7 +2054,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٩. (ناو) پاراستن یان پشتیوانی کە دەدرێت بە کەسێک کە هێرش دەکات یان هێرشی دەکرێتە سەر"),
+                  "١٩. (ناو) پاراستن یان پشتیوانی کە دەدرێت بە کەسێک کە ھێرش دەکات یان ھێرشی دەکرێتە سەر"),
           Row(
             children: [
               const Expanded(
@@ -2064,7 +2064,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The RAF provided air cover for the attack."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێزی ئاسمانی شاهانەیی پشتیوانی ئاسمانی دابین کردبوو."),
+                            "ھێزی ئاسمانی شاھانەیی پشتیوانی ئاسمانی دابین کردبوو."),
                   ],
                 ),
               ),
@@ -2112,7 +2112,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢١. (ناو) ئاسمانی هەوراوی یان زەوی بەفراوی"),
+              text: "٢١. (ناو) ئاسمانی ھەوراوی یان زەوی بەفراوی"),
           Row(
             children: [
               const Expanded(
@@ -2123,7 +2123,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Fog and low cloud cover are expected this afternoon."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەم و ئاسمانی هەوراوی نزم بۆ ئەم نیوەڕۆیە پێشبینی دەکرێت."),
+                            "تەم و ئاسمانی ھەوراوی نزم بۆ ئەم نیوەڕۆیە پێشبینی دەکرێت."),
                   ],
                 ),
               ),
@@ -2151,7 +2151,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In this area there is snow cover for six months of the year."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەم ناوچەیە زەوی بەفراوی بۆ شەش مانگی ساڵ هەیە."),
+                            "لەم ناوچەیە زەوی بەفراوی بۆ شەش مانگی ساڵ ھەیە."),
                   ],
                 ),
               ),
@@ -2170,7 +2170,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢٢. (ناو) پێخەف، بەتانی، هتد لەسەر جێخەوێک"),
+              text: "٢٢. (ناو) پێخەف، بەتانی، ھتد لەسەر جێخەوێک"),
           Row(
             children: [
               const Expanded(
@@ -2181,7 +2181,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She threw back the covers and leapt out of bed."),
                     ExampleSentenceKurdish(
                         text:
-                            "نوێنەکانی فڕێدا و لە جێخەوەکە هەڵپەڕییە دەرەوە."),
+                            "نوێنەکانی فڕێدا و لە جێخەوەکە ھەڵپەڕییە دەرەوە."),
                   ],
                 ),
               ),
@@ -2201,7 +2201,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢٣. (ناو) شتێک کە ئامانج لێی ئەوەیە ناسنامەی ڕاستی، هەستێک، یان شتێکی نایاسایی دەشارێتەوە"),
+                  "٢٣. (ناو) شتێک کە ئامانج لێی ئەوەیە ناسنامەی ڕاستی، ھەستێک، یان شتێکی نایاسایی دەشارێتەوە"),
           Row(
             children: [
               const Expanded(

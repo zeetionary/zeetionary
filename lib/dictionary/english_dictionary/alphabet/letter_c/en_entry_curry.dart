@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو، کردار) جۆرە خواردنێکی باشووری ئاسیا کە لە گۆشت، سەوزە، هتد پێکدێت و لە سۆسی تووندا لێدەنرێت، و زۆرجار لەگەڵ برنج دەخورێت؛ درووستکردنی ئەم خواردنە بە گۆشت، سەوزە، هتد"),
+                  "١. (ناو، کردار) جۆرە خواردنێکی باشووری ئاسیا کە لە گۆشت، سەوزە، ھتد پێکدێت و لە سۆسی تووندا لێدەنرێت، و زۆرجار لەگەڵ برنج دەخورێت؛ درووستکردنی ئەم خواردنە بە گۆشت، سەوزە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Would you like some more curry?"),
                     ExampleSentenceKurdish(
-                        text: "حەزت بە هەندێک کەری زیاتر هەیە؟"),
+                        text: "حەزت بە ھەندێک کەری زیاتر ھەیە؟"),
                   ],
                 ),
               ),

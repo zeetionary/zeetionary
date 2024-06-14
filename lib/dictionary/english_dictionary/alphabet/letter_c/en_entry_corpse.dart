@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەلاک، لاشە، لاک، کەلەخ، جەندەک، تەرم، مردە، مردارە،	پاشماوە، شوێنەوار
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) لاشەی مردوویەک، بەتایبەتی هی مرۆڤێک"),
+              text: "١. (ناو) لاشەی مردوویەک، بەتایبەتی ھی مرۆڤێک"),
           Row(
             children: [
               const Expanded(

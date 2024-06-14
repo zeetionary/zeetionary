@@ -793,15 +793,15 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_duty_free.dart' show EnglishEntrydutyfree; // فففف duty-free
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_duvet.dart' show EnglishEntryduvet;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dvd.dart' show EnglishEntrydvd; // فففف DVD
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dwarf.dart' show EnglishEntrydwarf;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dwell.dart' show EnglishEntrydwell;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dweller.dart' show EnglishEntrydweller;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dwelling.dart' show EnglishEntrydwelling;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dwindle.dart' show EnglishEntrydwindle;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dye.dart' show EnglishEntrydye;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dyed_in_the_wool.dart' show EnglishEntrydyedinthewool;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dyke.dart' show EnglishEntrydyke;
+// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dynamic.dart' show EnglishEntrydynamic;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;

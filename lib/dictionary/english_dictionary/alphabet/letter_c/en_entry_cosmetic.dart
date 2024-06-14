@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "These reforms are not merely cosmetic."),
                     ExampleSentenceKurdish(
-                        text: "ئەم چاکسازییانە تەنها بە ڕواڵەت نییە."),
+                        text: "ئەم چاکسازییانە تەنھا بە ڕواڵەت نییە."),
                   ],
                 ),
               ),
@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She dismissed the plan as a cosmetic exercise to win votes."),
                     ExampleSentenceKurdish(
                         text:
-                            "پلانەکەی وەک هەوڵێکی ڕووکەشانە بۆ بردنەوەی دەنگ بەلاخست."),
+                            "پلانەکەی وەک ھەوڵێکی ڕووکەشانە بۆ بردنەوەی دەنگ بەلاخست."),
                   ],
                 ),
               ),

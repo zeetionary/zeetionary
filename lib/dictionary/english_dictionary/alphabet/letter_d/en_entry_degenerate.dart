@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خراپ، شپرزە، داوەشاو، دافەوتاو، داڕزاو، لێکەوەبوو، لێک‌هەڵوەشاو،	ڕوولە داشکان، ڕوولە خراپ‌بوون، ڕوولە داچوون، مرۆی خراپ، پیس
+کوردی: خراپ، شپرزە، داوەشاو، دافەوتاو، داڕزاو، لێکەوەبوو، لێک‌ھەڵوەشاو،	ڕوولە داشکان، ڕوولە خراپ‌بوون، ڕوولە داچوون، مرۆی خراپ، پیس
 """),
           const DefinitionKurdish(text: "١. (کردار) خراپبوون"),
           Row(
@@ -504,7 +504,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They're just moral degenerates with no sense of decency."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها کەسانی داشۆراو لە ئەخلاقن کە هیچ هەستێکی ئەدەبیان نییە."),
+                            "تەنھا کەسانی داشۆراو لە ئەخلاقن کە ھیچ ھەستێکی ئەدەبیان نییە."),
                   ],
                 ),
               ),

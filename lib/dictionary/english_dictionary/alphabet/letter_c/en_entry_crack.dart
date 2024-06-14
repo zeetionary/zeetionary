@@ -972,7 +972,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قەڵەشت، قەڵەش، درز، قڵیش، کەلێن، شەق، چڕژە، کون، کونی چکۆلە،	لێدان، پیاکێشان،	گرمە، نەڕە، شریخە، زرمە،	دەنگی گەورە و کت‌وپڕ،	شۆخی، گاڵتە،	هەوڵ، تێکۆشان،	گرفت، خەوش، عەیب، کەم‌وکووڕی، ناڕێکی،	کڕاک (دەرمانێکی کریستاڵی بەهێز و ناقانوونی لە شێوەی کۆکائین، وردە دەکرێ)،	پوخت، لێزان، خاراو، کارامە، شارەزا، وەستا
+کوردی: قەڵەشت، قەڵەش، درز، قڵیش، کەلێن، شەق، چڕژە، کون، کونی چکۆلە،	لێدان، پیاکێشان،	گرمە، نەڕە، شریخە، زرمە،	دەنگی گەورە و کت‌وپڕ،	شۆخی، گاڵتە،	ھەوڵ، تێکۆشان،	گرفت، خەوش، عەیب، کەم‌وکووڕی، ناڕێکی،	کڕاک (دەرمانێکی کریستاڵی بەھێز و ناقانوونی لە شێوەی کۆکائین، وردە دەکرێ)،	پوخت، لێزان، خاراو، کارامە، شارەزا، وەستا
 """),
           const DefinitionKurdish(text: "١. (کردار) درزبردن"),
           Row(
@@ -983,7 +983,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The ice cracked as I stepped onto it."),
                     ExampleSentenceKurdish(
-                        text: "سەهۆڵەکە درزی برد کە پێم لەسەری دانا."),
+                        text: "سەھۆڵەکە درزی برد کە پێم لەسەری دانا."),
                   ],
                 ),
               ),
@@ -1062,7 +1062,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She cracked an egg into the pan."),
                     ExampleSentenceKurdish(
-                        text: "هێلکەیەکی شکاندە ناو تاوەکە."),
+                        text: "ھێلکەیەکی شکاندە ناو تاوەکە."),
                   ],
                 ),
               ),
@@ -1169,7 +1169,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The whip cracked over the horses' heads."),
                     ExampleSentenceKurdish(
-                        text: "قامچییەکە لەسەر سەری ئەسپەکە شریقەی دەهات."),
+                        text: "قامچییەکە لەسەر سەری ئەسپەکە شریقەی دەھات."),
                   ],
                 ),
               ),
@@ -1195,7 +1195,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He's always cracking his knuckles (= pulling the joints of his fingers to make a noise)."),
-                    ExampleSentenceKurdish(text: "هەمیشە پەنجەکانی دەتەقێنێت."),
+                    ExampleSentenceKurdish(text: "ھەمیشە پەنجەکانی دەتەقێنێت."),
                   ],
                 ),
               ),
@@ -1224,7 +1224,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her voice cracked with emotion as she told the story."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەنگی بە هەست و سۆزەوە دەلەرزی کە چیرۆکەکەی پێ گوتین."),
+                            "دەنگی بە ھەست و سۆزەوە دەلەرزی کە چیرۆکەکەی پێ گوتین."),
                   ],
                 ),
               ),
@@ -1243,7 +1243,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (کردار) کارکردن بە ناتەواوی بەهۆی فشارەوە"),
+              text: "٦. (کردار) کارکردن بە ناتەواوی بەھۆی فشارەوە"),
           Row(
             children: [
               const Expanded(
@@ -1310,7 +1310,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She is under a lot of pressure but is showing no signs of cracking."),
                     ExampleSentenceKurdish(
                         text:
-                            "لەژێر پەستانێکی زۆرە بەڵام هیچ ئاماژەیەکی تێکشکانی تێدا نییە."),
+                            "لەژێر پەستانێکی زۆرە بەڵام ھیچ ئاماژەیەکی تێکشکانی تێدا نییە."),
                   ],
                 ),
               ),
@@ -1395,7 +1395,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Police have cracked a major drugs ring."),
                     ExampleSentenceKurdish(
                         text:
-                            "پۆلیس گرووپێکی گەورەی مادەی هۆشبەریان دەستگیرکرد."),
+                            "پۆلیس گرووپێکی گەورەی مادەی ھۆشبەریان دەستگیرکرد."),
                   ],
                 ),
               ),
@@ -1598,7 +1598,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٢. (ناو) لێدانێکی بەهێز کە دەنگی دێت"),
+              text: "١٢. (ناو) لێدانێکی بەھێز کە دەنگی دێت"),
           Row(
             children: [
               const Expanded(
@@ -1626,7 +1626,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "١٣. (ناو) هەوڵێک بۆ کردنی شتێک"),
+          const DefinitionKurdish(text: "١٣. (ناو) ھەوڵێک بۆ کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -1637,7 +1637,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He had a good crack at opening the door, but it wouldn't budge."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەوڵێکی باشی دا بۆ کردنەوەی دەرگاکە، بەڵام نسقەی نەکرد."),
+                            "ھەوڵێکی باشی دا بۆ کردنەوەی دەرگاکە، بەڵام نسقەی نەکرد."),
                   ],
                 ),
               ),
@@ -1657,7 +1657,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٤. (ناو) مادەیەکی هۆشبەری بەهێزی نایاسایی کە جۆرێکە لە کۆکاین"),
+                  "١٤. (ناو) مادەیەکی ھۆشبەری بەھێزی نایاسایی کە جۆرێکە لە کۆکاین"),
           Row(
             children: [
               const Expanded(
@@ -1697,7 +1697,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He gets really mad if anyone makes a crack about his weight."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر تووڕە دەبێت ئەگەر هەر کەسێک گاڵتە بە کێشی بکات."),
+                            "زۆر تووڕە دەبێت ئەگەر ھەر کەسێک گاڵتە بە کێشی بکات."),
                   ],
                 ),
               ),
@@ -1726,7 +1726,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crack troops were deployed to the front lines to secure the strategic position."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێزە کارامەکان نێردران بۆ بەرەکانی پێشەوە بۆ کۆنترۆڵکردنی پێگەیەکی ستراتیژی."),
+                            "ھێزە کارامەکان نێردران بۆ بەرەکانی پێشەوە بۆ کۆنترۆڵکردنی پێگەیەکی ستراتیژی."),
                   ],
                 ),
               ),

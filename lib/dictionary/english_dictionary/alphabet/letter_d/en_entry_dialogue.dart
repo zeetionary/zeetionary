@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Practise the dialogue with a partner."),
                     ExampleSentenceKurdish(
-                        text: "لەگەڵ هاوبەشێکدا ڕاهێنان لەسەر دایەلۆگەکە بکە."),
+                        text: "لەگەڵ ھاوبەشێکدا ڕاھێنان لەسەر دایەلۆگەکە بکە."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) گفتوگۆی فەرمی لە نێوان دوو گرووپ یان وڵاتدا، بە تایبەتی کە دەیانەوێت کێشەیەک چارەسەر بکەن، کۆتایی بە مشتومڕێک بهێنن، هتد"),
+                  "٢. (ناو) گفتوگۆی فەرمی لە نێوان دوو گرووپ یان وڵاتدا، بە تایبەتی کە دەیانەوێت کێشەیەک چارەسەر بکەن، کۆتایی بە مشتومڕێک بھێنن، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The president told reporters there had been a constructive dialogue."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرۆک بە پەیامنێرەکانی گوت کە گفتوگۆی بنیادنەر هەبووە."),
+                            "سەرۆک بە پەیامنێرەکانی گوت کە گفتوگۆی بنیادنەر ھەبووە."),
                   ],
                 ),
               ),
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There needs to be a closer dialogue between management and staff."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت گفتوگۆی نزیکتر لەنێوان بەڕێوەبەرایەتی و ستافدا هەبێت."),
+                            "دەبێت گفتوگۆی نزیکتر لەنێوان بەڕێوەبەرایەتی و ستافدا ھەبێت."),
                   ],
                 ),
               ),

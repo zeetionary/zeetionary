@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her voice was shaking despite all her efforts to control it."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەنگی دەلەرزی سەرەڕای هەموو هەوڵەکانی بۆ کۆنترۆڵکردنی."),
+                            "دەنگی دەلەرزی سەرەڕای ھەموو ھەوڵەکانی بۆ کۆنترۆڵکردنی."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Despite applying for hundreds of jobs, he is still out of work."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەڕای ناردنی داخوازی بۆ سەدان کار، هێشتا بێکارە."),
+                            "سەرەڕای ناردنی داخوازی بۆ سەدان کار، ھێشتا بێکارە."),
                   ],
                 ),
               ),

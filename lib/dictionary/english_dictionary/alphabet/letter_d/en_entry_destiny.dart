@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چارەنووس، خودانووس، قسمەت، قەدەر
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) چارەنووس؛ ئەوەی بەسەر کەسێکدا دێت لە داهاتوودا"),
+              text: "١. (ناو) چارەنووس؛ ئەوەی بەسەر کەسێکدا دێت لە داھاتوودا"),
           Row(
             children: [
               const Expanded(
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He came to Paris and found his true destiny as a poet."),
                     ExampleSentenceKurdish(
                         text:
-                            "هات بۆ پاریس و چارەنووسی ڕاستی خۆی وەک هەڵبەستوانێک دۆزییەوە."),
+                            "ھات بۆ پاریس و چارەنووسی ڕاستی خۆی وەک ھەڵبەستوانێک دۆزییەوە."),
                   ],
                 ),
               ),
@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "No man can escape his destiny."),
                     ExampleSentenceKurdish(
-                        text: "هیچ کەس ناتوانێت لە چارەنووسی هەڵبێت."),
+                        text: "ھیچ کەس ناتوانێت لە چارەنووسی ھەڵبێت."),
                   ],
                 ),
               ),
@@ -527,7 +527,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ئەو هێزەی کە باوەڕ وایە کۆنترۆڵی ڕووداوەکان دەکات"),
+                  "٢. (ناو) ئەو ھێزەی کە باوەڕ وایە کۆنترۆڵی ڕووداوەکان دەکات"),
           const DividerSentences(),
           Row(
             children: [
@@ -539,7 +539,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I believe there's some force guiding us—call it God, destiny or fate."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێموایە هێزێک هەیە پاڵنەرمانە، ئیتر خودا، چارەنووس، یان قەدەر بێت."),
+                            "پێموایە ھێزێک ھەیە پاڵنەرمانە، ئیتر خودا، چارەنووس، یان قەدەر بێت."),
                   ],
                 ),
               ),

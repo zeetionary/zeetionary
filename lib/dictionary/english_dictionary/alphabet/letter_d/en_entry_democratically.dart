@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) لەلایەن نوێنەرانی هەڵبژێردراوەوە"),
+              text: "١. (ھاوەڵکار) لەلایەن نوێنەرانی ھەڵبژێردراوەوە"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The country celebrated its first democratically elected government."),
                     ExampleSentenceKurdish(
                         text:
-                            "وڵاتەکە یەکەم حکومەتی دیموکراسییانە هەڵبژێردراوی بەخۆیەوە بینی."),
+                            "وڵاتەکە یەکەم حکومەتی دیموکراسییانە ھەڵبژێردراوی بەخۆیەوە بینی."),
                   ],
                 ),
               ),
@@ -441,7 +441,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە هەموو ئەندامان مافی یەکسانیان هەیە لە بڕیارداندا"),
+                  "٢. (ھاوەڵکار) بەشێوەیەک کە ھەموو ئەندامان مافی یەکسانیان ھەیە لە بڕیارداندا"),
           Row(
             children: [
               const Expanded(
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵکار) کۆمەڵگایەک کە هەموو ئەندامەکانی یەکسانن و چینی کۆمەڵایەتی نییە"),
+                  "٣. (ھاوەڵکار) کۆمەڵگایەک کە ھەموو ئەندامەکانی یەکسانن و چینی کۆمەڵایەتی نییە"),
           const DividerSentences(),
           Row(
             children: [

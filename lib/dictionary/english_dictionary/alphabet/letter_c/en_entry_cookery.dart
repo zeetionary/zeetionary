@@ -192,11 +192,11 @@ class EnglishEntrycookery extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پەزان، ئاشپەزی، دەس‌وپوخت، هونەری چێشت‌لێنان
+کوردی: پەزان، ئاشپەزی، دەس‌وپوخت، ھونەری چێشت‌لێنان
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هونەر یان چالاکی لێنان و ئامادەکردنی خواردن"),
+                                  "١. (ناو) ھونەر یان چالاکی لێنان و ئامادەکردنی خواردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -234,7 +234,7 @@ class EnglishEntrycookery extends StatelessWidget {
                                             "Before he leaves home, he needs to learn some basic cookery."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێش ئەوەی ماڵ جێبهێڵێت، دەبێت فێری چەند چێشتلێنانێکی سەرەتایی ببێت."),
+                                            "پێش ئەوەی ماڵ جێبھێڵێت، دەبێت فێری چەند چێشتلێنانێکی سەرەتایی ببێت."),
                                   ],
                                 ),
                               ),

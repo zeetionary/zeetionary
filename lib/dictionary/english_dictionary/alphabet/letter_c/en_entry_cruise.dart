@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I'd love to go on a round-the-world cruise."),
                     ExampleSentenceKurdish(
-                        text: "پێمخۆشە بچمە زەریاگەڕییەک بە دەوری جیهاندا."),
+                        text: "پێمخۆشە بچمە زەریاگەڕییەک بە دەوری جیھاندا."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "We spent two weeks cruising the Bahamas."),
                     ExampleSentenceKurdish(
                         text:
-                            "دوو هەفتەمان بەسەربرد بە گەشتکردن بە دوورگەکانی باهامادا."),
+                            "دوو ھەفتەمان بەسەربرد بە گەشتکردن بە دوورگەکانی باھامادا."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) گەشتی فڕۆکەیەک، ئۆتۆمبێلێک، هتد بە خێراییەکی نەگۆڕ"),
+                  "٣. (کردار) گەشتی فڕۆکەیەک، ئۆتۆمبێلێک، ھتد بە خێراییەکی نەگۆڕ"),
           Row(
             children: [
               const Expanded(
@@ -503,7 +503,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (کردار) شۆفێریکردن یان ڕۆشتن بە هێواشی"),
+              text: "٤. (کردار) شۆفێریکردن یان ڕۆشتن بە ھێواشی"),
           Row(
             children: [
               const Expanded(
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Taxis cruised the streets, looking for fares."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەکسی بە شەقامەکاندا هاتووچۆی بوو و بۆ نەفەر دەگەڕان."),
+                            "تەکسی بە شەقامەکاندا ھاتووچۆی بوو و بۆ نەفەر دەگەڕان."),
                   ],
                 ),
               ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (کردار) بردنەوە یان بەدەستهێنانی شتێک بە ئاسانی"),
+              text: "٥. (کردار) بردنەوە یان بەدەستھێنانی شتێک بە ئاسانی"),
           Row(
             children: [
               const Expanded(

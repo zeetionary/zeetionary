@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can make cut-outs in the dough with cookie cutters if you like."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانیت بە قاڵبی بسکیت شێوە درووست بکەیت لە هەویرەکەدا ئەگەر حەز دەکەیت."),
+                            "دەتوانیت بە قاڵبی بسکیت شێوە درووست بکەیت لە ھەویرەکەدا ئەگەر حەز دەکەیت."),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "A cut-out stops the kettle boiling dry."),
                     ExampleSentenceKurdish(
                         text:
-                            "قرتێنەرێک کترییەکە دەوەستێنێت لەوەی هەمووی ببێت بە هەڵم."),
+                            "قرتێنەرێک کترییەکە دەوەستێنێت لەوەی ھەمووی ببێت بە ھەڵم."),
                   ],
                 ),
               ),

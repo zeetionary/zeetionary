@@ -195,7 +195,7 @@ class EnglishEntrycopse extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ناوچەیەکی بچووک کە تێیدا کۆمەڵە دارێک هەیە"),
+                                  "١. (ناو) ناوچەیەکی بچووک کە تێیدا کۆمەڵە دارێک ھەیە"),
                           Row(
                             children: [
                               const Expanded(

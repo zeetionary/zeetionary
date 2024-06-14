@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Only 8 per cent of regular cola consumers detected a difference."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها ٨ لە سەدی ئەو کەسانەی کۆلا دەخۆنەوە تێبینی جیاوازییان کرد."),
+                            "تەنھا ٨ لە سەدی ئەو کەسانەی کۆلا دەخۆنەوە تێبینی جیاوازییان کرد."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This is an instrument that can detect very small amounts of radiation."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمە ئامێرێکە کە هەست بە ڕێژەی زۆر کەمی تیشکدان دەکات."),
+                            "ئەمە ئامێرێکە کە ھەست بە ڕێژەی زۆر کەمی تیشکدان دەکات."),
                   ],
                 ),
               ),
@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Some substances can be detected fairly easily."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک مادە دەکرێت بە ئاسانی تێبینی بکرێن."),
+                        text: "ھەندێک مادە دەکرێت بە ئاسانی تێبینی بکرێن."),
                   ],
                 ),
               ),

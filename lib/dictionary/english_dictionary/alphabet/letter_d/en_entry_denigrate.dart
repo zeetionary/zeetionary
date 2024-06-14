@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You shouldn't denigrate people just because they have different beliefs from you."),
                     ExampleSentenceKurdish(
                         text:
-                            "نابێت سەرزەنشتی خەڵکی بکەیت تەنها لەبەر ئەوەی بیرکردنەوەی جیاواز لە تۆیان هەیە."),
+                            "نابێت سەرزەنشتی خەڵکی بکەیت تەنھا لەبەر ئەوەی بیرکردنەوەی جیاواز لە تۆیان ھەیە."),
                   ],
                 ),
               ),

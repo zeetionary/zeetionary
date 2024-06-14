@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I saw a couple of men get out."),
-                    ExampleSentenceKurdish(text: "دوو پیاوم دیت هاتنە دەرەوە."),
+                    ExampleSentenceKurdish(text: "دوو پیاوم دیت ھاتنە دەرەوە."),
                   ],
                 ),
               ),
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We can do it in the next couple of weeks."),
                     ExampleSentenceKurdish(
-                        text: "چەند هەفتەی دواتر دەتوانین بیکەین."),
+                        text: "چەند ھەفتەی دواتر دەتوانین بیکەین."),
                   ],
                 ),
               ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) دوو کەس کە پێکەوەن، بە تایبەتی کە هاوسەرگیرییان کردووە یان پەیوەندی ڕۆمانسییان هەیە"),
+                  "٣. (ناو) دوو کەس کە پێکەوەن، بە تایبەتی کە ھاوسەرگیرییان کردووە یان پەیوەندی ڕۆمانسییان ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The royal couple will visit New Zealand next year."),
                     ExampleSentenceKurdish(
                         text:
-                            "دوو ئەویندارە شاهانەییەکە ساڵی داهاتوو سەردانی نیوزلەندا دەکەن."),
+                            "دوو ئەویندارە شاھانەییەکە ساڵی داھاتوو سەردانی نیوزلەندا دەکەن."),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The couple was/were married in 2022."),
                     ExampleSentenceKurdish(
-                        text: "دوودەزگیرانەکە لە ساڵی ٢٠٢٢ هاوسەرگیرییان کرد."),
+                        text: "دوودەزگیرانەکە لە ساڵی ٢٠٢٢ ھاوسەرگیرییان کرد."),
                   ],
                 ),
               ),

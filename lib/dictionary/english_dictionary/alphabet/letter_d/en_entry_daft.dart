@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Don't be so daft!"),
-                    ExampleSentenceKurdish(text: "هێندە گەمژە مەبە!"),
+                    ExampleSentenceKurdish(text: "ھێندە گەمژە مەبە!"),
                   ],
                 ),
               ),

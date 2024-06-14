@@ -408,11 +408,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئێش، ژانی کەم،	هەست بە ناڕەحەتی کردن، ناڕەحەتی (دەروونی)، نگەرانی، دڵ‌لەدوایی،	زەحمەت، دەرد، سەختی، ڕەنج
+کوردی: ئێش، ژانی کەم،	ھەست بە ناڕەحەتی کردن، ناڕەحەتی (دەروونی)، نگەرانی، دڵ‌لەدوایی،	زەحمەت، دەرد، سەختی، ڕەنج
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەستکردن بە ئازارێکی کەم یان لەلایەنی جەستەییەوە ناڕەحەت بیت"),
+                  "١. (ناو) ھەستکردن بە ئازارێکی کەم یان لەلایەنی جەستەییەوە ناڕەحەت بیت"),
           Row(
             children: [
               const Expanded(
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You will experience some minor discomfort during the treatment."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە کاتی چارەسەرەکەدا کەمێک هەست بە ناڕەحەتی دەکەیت."),
+                            "لە کاتی چارەسەرەکەدا کەمێک ھەست بە ناڕەحەتی دەکەیت."),
                   ],
                 ),
               ),
@@ -501,7 +501,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هەستکردن بە نیگەرانی یان شەرمەزاری"),
+              text: "٢. (ناو) ھەستکردن بە نیگەرانی یان شەرمەزاری"),
           // const DividerSentences(),
           Row(
             children: [
@@ -541,7 +541,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I could sense their discomfort at what I was saying."),
                     ExampleSentenceKurdish(
-                        text: "هەستم بە نیگەرانیان دەکرد بەوەی دەمگوت."),
+                        text: "ھەستم بە نیگەرانیان دەکرد بەوەی دەمگوت."),
                   ],
                 ),
               ),
@@ -570,7 +570,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I tried not to show my discomfort with the situation."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵمدا ناڕەحەتی خۆم بە دۆخەکە پیشان نەدەم."),
+                        text: "ھەوڵمدا ناڕەحەتی خۆم بە دۆخەکە پیشان نەدەم."),
                   ],
                 ),
               ),
@@ -601,7 +601,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many patients complained of being discomforted by the doctor’s manner."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر نەخۆش گازەندەی ئەوەیان دەکرد کە ناڕەحەت بوون بە هەڵسوکەوتی پزیشکەکە."),
+                            "زۆر نەخۆش گازەندەی ئەوەیان دەکرد کە ناڕەحەت بوون بە ھەڵسوکەوتی پزیشکەکە."),
                   ],
                 ),
               ),

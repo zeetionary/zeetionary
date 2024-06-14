@@ -406,11 +406,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەمی، ناتەواوی، کورت‌هێنان، بەش‌نەکردوویی،	کەمی، کێماسی
+کوردی: کەمی، ناتەواوی، کورت‌ھێنان، بەش‌نەکردوویی،	کەمی، کێماسی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) تەواوی ئەو بڕەی جیاوازەی کە هەیە کاتێک پارەی خەرجکراو زیاترە لە قازانجکراو لە ماوەیەکی دیاریکراودا"),
+                  "١. (ناو) تەواوی ئەو بڕەی جیاوازەی کە ھەیە کاتێک پارەی خەرجکراو زیاترە لە قازانجکراو لە ماوەیەکی دیاریکراودا"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We are facing a substantial trade deficit."),
                     ExampleSentenceKurdish(
-                        text: "ڕووبەڕووی کورتهێنانێکی گەورەی پیشەسازی بووینە."),
+                        text: "ڕووبەڕووی کورتھێنانێکی گەورەی پیشەسازی بووینە."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The presidential candidate claims that he can cut the deficit in half within five years."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەربژێرە سەرۆکایەتییەکە بانگەشەی ئەوە دەکات کە دەتوانێت کورتهێنان بۆ نیوە کەم بکاتەوە لە ماوەی پێنج ساڵدا."),
+                            "بەربژێرە سەرۆکایەتییەکە بانگەشەی ئەوە دەکات کە دەتوانێت کورتھێنان بۆ نیوە کەم بکاتەوە لە ماوەی پێنج ساڵدا."),
                   ],
                 ),
               ),
@@ -504,7 +504,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The company has run up a deficit of £30 000."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە ڕووبەڕووی کورتهێنانی ٣٠٠٠٠ پاوەند بووە."),
+                            "کۆمپانیاکە ڕووبەڕووی کورتھێنانی ٣٠٠٠٠ پاوەند بووە."),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ئەو بڕەی کە هەیە کاتێک شتێک زۆر کەمە یان کەمترە لە شتێک"),
+                  "٢. (ناو) ئەو بڕەی کە ھەیە کاتێک شتێک زۆر کەمە یان کەمترە لە شتێک"),
           const DividerSentences(),
           Row(
             children: [
@@ -536,7 +536,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There's a deficit of £3 million in the total needed to complete the project."),
                     ExampleSentenceKurdish(
                         text:
-                            "کورتهێنانی ٣ ملیۆن پاوەند هەیە بە گشتی کە پێویستە بۆ تەواوکردنی پڕۆژەکە."),
+                            "کورتھێنانی ٣ ملیۆن پاوەند ھەیە بە گشتی کە پێویستە بۆ تەواوکردنی پڕۆژەکە."),
                   ],
                 ),
               ),
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We will find it hard to make up this deficit."),
                     ExampleSentenceKurdish(
-                        text: "بە سەختی دەبینین کە ئەم کورتهێنانە پڕبکەینەوە."),
+                        text: "بە سەختی دەبینین کە ئەم کورتھێنانە پڕبکەینەوە."),
                   ],
                 ),
               ),

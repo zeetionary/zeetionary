@@ -196,7 +196,7 @@ class EnglishEntrycorn extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) هەر ڕووەکێک کە بۆ دەنکەکەی دەڕوێنرێت، بۆ نموونە گەنم؛ دەنکی ئەم ڕووەکانە"),
+                                  "١. (ناو) ھەر ڕووەکێک کە بۆ دەنکەکەی دەڕوێنرێت، بۆ نموونە گەنم؛ دەنکی ئەم ڕووەکانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycorn extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The corn is still green."),
                                     ExampleSentenceKurdish(
-                                        text: "دەغڵ‌ودانەکە هێشتا سەوزە."),
+                                        text: "دەغڵ‌ودانەکە ھێشتا سەوزە."),
                                   ],
                                 ),
                               ),
@@ -254,7 +254,7 @@ class EnglishEntrycorn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) بەشێکی پێستی جەستە کە ڕەق بووە لەسەر پێ و هەندێکجار بە ئازارە"),
+                                  "٣. (ناو) بەشێکی پێستی جەستە کە ڕەق بووە لەسەر پێ و ھەندێکجار بە ئازارە"),
                           Row(
                             children: [
                               const Expanded(
@@ -265,7 +265,7 @@ class EnglishEntrycorn extends StatelessWidget {
                                             "See your doctor if you have foot pain or corns."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بچۆ لای دکتۆرەکەت ئەگەر ئازاری پێ یان مێخەکەت هەیە."),
+                                            "بچۆ لای دکتۆرەکەت ئەگەر ئازاری پێ یان مێخەکەت ھەیە."),
                                   ],
                                 ),
                               ),

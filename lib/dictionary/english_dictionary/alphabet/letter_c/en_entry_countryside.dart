@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Everyone should enjoy the right of access to the countryside."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموان دەبێت مافی چوونە ناو دەشت‌ودەریان هەبێت."),
+                            "ھەموان دەبێت مافی چوونە ناو دەشت‌ودەریان ھەبێت."),
                   ],
                 ),
               ),

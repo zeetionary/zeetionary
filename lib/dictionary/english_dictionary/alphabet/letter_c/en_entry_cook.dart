@@ -325,7 +325,7 @@ class EnglishEntrycook extends StatelessWidget {
                                             "Turn the fish over so that it cooks evenly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ماسییەکە هەڵبگێڕەوە بۆ ئەوەی بە یەکسانی ببرژێت."),
+                                            "ماسییەکە ھەڵبگێڕەوە بۆ ئەوەی بە یەکسانی ببرژێت."),
                                   ],
                                 ),
                               ),
@@ -344,7 +344,7 @@ class EnglishEntrycook extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) بەنهێنی پلان بۆ دانراو"),
+                              text: "٣. (کردار) بەنھێنی پلان بۆ دانراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -355,7 +355,7 @@ class EnglishEntrycook extends StatelessWidget {
                                             "Everyone is being very secretive—there's something cooking."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموان زۆر نهێنی‌گرن، دەبێت شتێک لە گۆڕێدا بێت."),
+                                            "ھەموان زۆر نھێنی‌گرن، دەبێت شتێک لە گۆڕێدا بێت."),
                                   ],
                                 ),
                               ),
@@ -440,7 +440,7 @@ class EnglishEntrycook extends StatelessWidget {
                                             "She was employed as a cook in a hotel."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک چێشتلێنەرێک لە هوتێلێک کاری پێدرا."),
+                                            "وەک چێشتلێنەرێک لە ھوتێلێک کاری پێدرا."),
                                   ],
                                 ),
                               ),

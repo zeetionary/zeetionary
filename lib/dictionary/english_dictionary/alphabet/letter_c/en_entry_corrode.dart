@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕزین، ژەنگهێنان، داخوران
+کوردی: ڕزین، ژەنگھێنان، داخوران
 """),
           const DefinitionKurdish(
               text:
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Steel tends to corrode faster in a salty atmosphere."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئستیل مەیلی ئەوەی هەیە لە کەشی شۆردا زیاتر بڕزێت."),
+                            "ئستیل مەیلی ئەوەی ھەیە لە کەشی شۆردا زیاتر بڕزێت."),
                   ],
                 ),
               ),

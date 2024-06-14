@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "Could we stop by next week?"),
                     ExampleSentenceKurdish(
-                        text: "دەتوانین هەفتەی داهاتوو بێین؟"),
+                        text: "دەتوانین ھەفتەی داھاتوو بێین؟"),
                   ],
                 ),
               ),
@@ -458,7 +458,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Could you babysit for us on Friday?"),
                     ExampleSentenceKurdish(
-                        text: "دەتوانیت هەینی ئاگات لە منداڵەکەمان بێت؟"),
+                        text: "دەتوانیت ھەینی ئاگات لە منداڵەکەمان بێت؟"),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Don't worry—they could have just forgotten to call."),
                     ExampleSentenceKurdish(
                         text:
-                            "نیگەران مەبە، دەکرێت تەنها ئەوە بێت بیریان چوو بێت پەیوەندی بکەن."),
+                            "نیگەران مەبە، دەکرێت تەنھا ئەوە بێت بیریان چوو بێت پەیوەندی بکەن."),
                   ],
                 ),
               ),
@@ -542,7 +542,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "You couldn't have left it on the bus, could you?"),
                     ExampleSentenceKurdish(
-                        text: "ناکرێت لەسەر پاسەکە جێتهێشتبێت، وایە؟."),
+                        text: "ناکرێت لەسەر پاسەکە جێتھێشتبێت، وایە؟."),
                   ],
                 ),
               ),
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You could always try his home number."),
                     ExampleSentenceKurdish(
-                        text: "هەردەم دەتوانیت ژمارەی ماڵەوەیان بەکاربێنیت."),
+                        text: "ھەردەم دەتوانیت ژمارەی ماڵەوەیان بەکاربێنیت."),
                   ],
                 ),
               ),

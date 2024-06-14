@@ -336,11 +336,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کوشندە، مەرگاوی، قڕتێخەر، تیابەر، مەرگ‌بار،	(دوژمنایەتی) خوێنی، قەستەسەر، ئاشتەوەنەبوو، قیناوی، ڕقاوی، توندوتیژ،	کاریگەر، پرباندۆر، کارا،	وەکوو مردوو، مردووئاسا،	ماندووکەر، وەڕەس‌کەر، ناخۆش،	یەکجار،	(گوناهـ) گەورە، یەکجار، وەکوو مردوو
+کوردی: کوشندە، مەرگاوی، قڕتێخەر، تیابەر، مەرگ‌بار،	(دوژمنایەتی) خوێنی، قەستەسەر، ئاشتەوەنەبوو، قیناوی، ڕقاوی، توندوتیژ،	کاریگەر، پرباندۆر، کارا،	وەکوو مردوو، مردووئاسا،	ماندووکەر، وەڕەس‌کەر، ناخۆش،	یەکجار،	(گوناھـ) گەورە، یەکجار، وەکوو مردوو
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) کوشندە؛ کە مردنی لێدەکەوێتەوە ئان ئەگەری هەیە"),
+                  "١. (ھاوەڵناو) کوشندە؛ کە مردنی لێدەکەوێتەوە ئان ئەگەری ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He was charged with possession of a deadly weapon."),
                     ExampleSentenceKurdish(
-                        text: "تاوانبارکرا بە هەڵگرتنی چەکی کوشندە."),
+                        text: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە."),
                   ],
                 ),
               ),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cobra is one of the world's deadliest snakes."),
                     ExampleSentenceKurdish(
                         text:
-                            "کوبرا یەکێکە لە هەرە کوشندەترین مارەکانی جیهان."),
+                            "کوبرا یەکێکە لە ھەرە کوشندەترین مارەکانی جیھان."),
                   ],
                 ),
               ),
@@ -539,7 +539,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The man possessed an absolutely deadly charm."),
                     ExampleSentenceKurdish(
-                        text: "پیاوەکە خاوەنی جوانییەکی تەواو بێ هاوتا بوو."),
+                        text: "پیاوەکە خاوەنی جوانییەکی تەواو بێ ھاوتا بوو."),
                   ],
                 ),
               ),

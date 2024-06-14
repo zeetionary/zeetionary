@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The risks posed by cyber criminals are greater than ever before."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو مەترسییەی لەلایەن تاوانبارانی ئینتەرنێتەوە درووست دەکرێن زیاترن لە هەر کاتێکی دیکە."),
+                            "ئەو مەترسییەی لەلایەن تاوانبارانی ئینتەرنێتەوە درووست دەکرێن زیاترن لە ھەر کاتێکی دیکە."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The attacks yesterday appeared to be cyber in nature."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێرشەکانی دوێنێ وادەردەکەوتن کۆمپیوتەری بن لە شێوەیاندا."),
+                            "ھێرشەکانی دوێنێ وادەردەکەوتن کۆمپیوتەری بن لە شێوەیاندا."),
                   ],
                 ),
               ),

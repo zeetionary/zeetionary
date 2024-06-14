@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خورانەوە، داخوران، ڕزان، ڕزین، پووان،	ژەنگ‌هەڵێنان، ژەنگ، مۆرانە، کورمووری،	تیاچوون (بەرەبەرە)، فەوتان، لەبن‌هاتن، لەنێوچوون
+کوردی: خورانەوە، داخوران، ڕزان، ڕزین، پووان،	ژەنگ‌ھەڵێنان، ژەنگ، مۆرانە، کورمووری،	تیاچوون (بەرەبەرە)، فەوتان، لەبن‌ھاتن، لەنێوچوون
 """),
           const DefinitionKurdish(
               text:
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Clean off any corrosion before applying the paint."),
                     ExampleSentenceKurdish(
-                        text: "هەموو ڕزینێک پاک بکەوە پێش لێدانی بۆیەکە."),
+                        text: "ھەموو ڕزینێک پاک بکەوە پێش لێدانی بۆیەکە."),
                   ],
                 ),
               ),

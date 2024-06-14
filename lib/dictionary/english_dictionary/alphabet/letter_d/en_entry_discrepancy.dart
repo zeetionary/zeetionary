@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "What are the reasons for the discrepancy between girls' and boys' performance in school?"),
                     ExampleSentenceKurdish(
                         text:
-                            "هۆکارەکان چییە بۆ جیاوازیی نێوان ئاستی کچان و کوڕان و لە قوتابخانە؟"),
+                            "ھۆکارەکان چییە بۆ جیاوازیی نێوان ئاستی کچان و کوڕان و لە قوتابخانە؟"),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There were wide discrepancies in the evidence."),
                     ExampleSentenceKurdish(
-                        text: "یەک‌نەگرتنەوەی زۆر لە ڕاپۆرتەکەدا هەیە."),
+                        text: "یەک‌نەگرتنەوەی زۆر لە ڕاپۆرتەکەدا ھەیە."),
                   ],
                 ),
               ),

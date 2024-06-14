@@ -466,7 +466,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Leaflets have been delivered to every household."),
                     ExampleSentenceKurdish(
-                        text: "نامیلکە نێردراوە بۆ هەموو ماڵێک."),
+                        text: "نامیلکە نێردراوە بۆ ھەموو ماڵێک."),
                   ],
                 ),
               ),
@@ -523,7 +523,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We deliver to our stores seven days a week."),
                     ExampleSentenceKurdish(
-                        text: "حەوت ڕۆژی هەفتە گەیاندن دەکەین بۆ کۆگاکانمان."),
+                        text: "حەوت ڕۆژی ھەفتە گەیاندن دەکەین بۆ کۆگاکانمان."),
                   ],
                 ),
               ),
@@ -578,7 +578,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Let me deliver the good news first."),
                     ExampleSentenceKurdish(
-                        text: "بهێڵە سەرەتا هەواڵە خۆشەکە بڵێم."),
+                        text: "بھێڵە سەرەتا ھەواڵە خۆشەکە بڵێم."),
                   ],
                 ),
               ),
@@ -652,7 +652,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) پێشکەشکردنی وتارێک، نمایشێک، ڕاگەیاندنێک، هتد"),
+              text: "٣. (کردار) پێشکەشکردنی وتارێک، نمایشێک، ڕاگەیاندنێک، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -776,7 +776,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She always delivers on her promises."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە پابەندی بەڵێنەکانی دەبێت."),
+                        text: "ھەمیشە پابەندی بەڵێنەکانی دەبێت."),
                   ],
                 ),
               ),
@@ -859,7 +859,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The taxi delivered us to our hotel."),
                     ExampleSentenceKurdish(
-                        text: "تەکسییەکە گەیاندمانییە هوتێلەکە."),
+                        text: "تەکسییەکە گەیاندمانییە ھوتێلەکە."),
                   ],
                 ),
               ),
@@ -1026,7 +1026,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He delivered the blow (= hit somebody hard) with all his force."),
                     ExampleSentenceKurdish(
-                        text: "بە هەموو توانای مشتێکی وەشاند."),
+                        text: "بە ھەموو توانای مشتێکی وەشاند."),
                   ],
                 ),
               ),

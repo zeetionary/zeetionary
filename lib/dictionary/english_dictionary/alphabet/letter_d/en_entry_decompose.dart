@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێکهەڵوەشان، دابڕدابڕ کردن، جیا کردن
+کوردی: لێکھەڵوەشان، دابڕدابڕ کردن، جیا کردن
 """),
           const DefinitionKurdish(
               text: "١. (کردار) شیبوونەوە بە سرووشتی لە دوای مەرگ"),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The body must have been decomposing for several weeks."),
                     ExampleSentenceKurdish(
-                        text: "جەستەکە دەبێت بۆ چەند هەفتەیەک شێبووبێتەوە."),
+                        text: "جەستەکە دەبێت بۆ چەند ھەفتەیەک شێبووبێتەوە."),
                   ],
                 ),
               ),
@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) هەڵوەشاندنەوەی شتێک بۆ بەشی بچووکتر یان سادەتر"),
+                  "٢. (کردار) ھەڵوەشاندنەوەی شتێک بۆ بەشی بچووکتر یان سادەتر"),
           Row(
             children: [
               const Expanded(
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Water decomposes into oxygen and hydrogen."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاو بۆ ئۆکسجین و دووەم ئۆکسیدی کاربۆن هەڵدەوەشێت."),
+                            "ئاو بۆ ئۆکسجین و دووەم ئۆکسیدی کاربۆن ھەڵدەوەشێت."),
                   ],
                 ),
               ),

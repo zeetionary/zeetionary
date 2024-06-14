@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) کەمکردنەوەی قەبارەی سوپایەک، یان سەندنی هەموو چەکێک لێیان، بەتایبەتی چەکی ئەتۆمی"),
+                  "٢. (کردار) کەمکردنەوەی قەبارەی سوپایەک، یان سەندنی ھەموو چەکێک لێیان، بەتایبەتی چەکی ئەتۆمی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) هێورکردنەوەی کەسێک کە کەمتر تووڕە بێت"),
+              text: "٣. (کردار) ھێورکردنەوەی کەسێک کە کەمتر تووڕە بێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He disarmed her immediately by apologizing profusely."),
                     ExampleSentenceKurdish(
                         text:
-                            "زوو هێوری کردەوە بە بەتەواوی داوای لێبووردن کردن."),
+                            "زوو ھێوری کردەوە بە بەتەواوی داوای لێبووردن کردن."),
                   ],
                 ),
               ),

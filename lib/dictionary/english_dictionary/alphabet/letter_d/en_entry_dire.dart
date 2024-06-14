@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "They were living in dire poverty."),
-                    ExampleSentenceKurdish(text: "لە هەژاریی دژواردا دەژیان."),
+                    ExampleSentenceKurdish(text: "لە ھەژاریی دژواردا دەژیان."),
                   ],
                 ),
               ),
@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Such action may have dire consequences."),
                     ExampleSentenceKurdish(
-                        text: "هەنگاوی وەها ڕەنگە ئەنجامی دژواری هەبێت."),
+                        text: "ھەنگاوی وەھا ڕەنگە ئەنجامی دژواری ھەبێت."),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The weather was absolutely dire."),
-                    ExampleSentenceKurdish(text: "کەشوهەواکە تەواو شلۆق بوو."),
+                    ExampleSentenceKurdish(text: "کەشوھەواکە تەواو شلۆق بوو."),
                   ],
                 ),
               ),

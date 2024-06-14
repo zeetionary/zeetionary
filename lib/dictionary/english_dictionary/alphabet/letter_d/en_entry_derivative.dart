@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لێ)وەرگیراو، (لێ)هەڵگیراو، لێ‌وەبوو،	وشەی داڕێژراو،	وشەی داڕێژراو یان وەرگرتە،	جۆرێ سەرمایەنانەوە
+کوردی: (لێ)وەرگیراو، (لێ)ھەڵگیراو، لێ‌وەبوو،	وشەی داڕێژراو،	وشەی داڕێژراو یان وەرگرتە،	جۆرێ سەرمایەنانەوە
 """),
           const DefinitionKurdish(
               text: "١. (ناو) وشەیەک یان شتێک کە لە شتێکی دیکەوە وەرگیردراوە"),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Crack is a highly potent and addictive derivative of cocaine."),
                     ExampleSentenceKurdish(
                         text:
-                            "کراک تەواو بەهێزە و وەرگیراوێکی ئاڵوودەکاری کۆکاینە."),
+                            "کراک تەواو بەھێزە و وەرگیراوێکی ئاڵوودەکاری کۆکاینە."),
                   ],
                 ),
               ),

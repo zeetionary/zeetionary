@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: توێژەنان،	توێژ، توێکڵ، توێ، ڕووی ڕەق، ڕووڕەق، قاوغ، قاپیلک، سەختەڕوو،	(مەی و هتد) خڵتە، نیشتوو،	قەتماغە، ڕەقیتە، کڕێژ،	بەڵخ
+کوردی: توێژەنان،	توێژ، توێکڵ، توێ، ڕووی ڕەق، ڕووڕەق، قاوغ، قاپیلک، سەختەڕوو،	(مەی و ھتد) خڵتە، نیشتوو،	قەتماغە، ڕەقیتە، کڕێژ،	بەڵخ
 """),
           const DefinitionKurdish(text: "١. (ناو) بەشە سەختەکەی نان لە دەرەوە"),
           Row(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We saved a few crusts of bread for the birds."),
                     ExampleSentenceKurdish(
-                        text: "چەند توێژەنانێکمان هەڵگرت بۆ باڵندەکان."),
+                        text: "چەند توێژەنانێکمان ھەڵگرت بۆ باڵندەکان."),
                   ],
                 ),
               ),
@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) توێژاڵێک لە هەویری شیرینی"),
+          const DefinitionKurdish(text: "٢. (ناو) توێژاڵێک لە ھەویری شیرینی"),
           Row(
             children: [
               const Expanded(

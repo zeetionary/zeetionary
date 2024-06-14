@@ -405,9 +405,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئەشکەوت، کەورگ،	کون، کولانە، بوودڕ، گووڤ، لانە، کەڵما (هی ورچ و پڵنگ)،	حەشارگە، شوێنی کۆبوونەوەی نهێنی، کون، مەکۆ،	جێگای چۆڵ یان خەڵوەت، دیوی چۆڵ، دینج (ئەڵمانی بنەڕەت)
+کوردی: ئەشکەوت، کەورگ،	کون، کولانە، بوودڕ، گووڤ، لانە، کەڵما (ھی ورچ و پڵنگ)،	حەشارگە، شوێنی کۆبوونەوەی نھێنی، کون، مەکۆ،	جێگای چۆڵ یان خەڵوەت، دیوی چۆڵ، دینج (ئەڵمانی بنەڕەت)
 """),
-          const DefinitionKurdish(text: "١. (ناو) لانەی هەندێک ئاژەڵ"),
+          const DefinitionKurdish(text: "١. (ناو) لانەی ھەندێک ئاژەڵ"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "We saw a lion entering its den at the zoo."),
                     ExampleSentenceKurdish(
                         text:
-                            "شێرێکمان بینی چووە هێلانەکەی لە باخچە ئاژەڵانەکە."),
+                            "شێرێکمان بینی چووە ھێلانەکەی لە باخچە ئاژەڵانەکە."),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) شوێنێک کە تێیدا خەڵکی بەنهێنی کۆدەبنەوە، بەتایبەتی بۆ چالاکییەکی نایاسایی"),
+                  "٢. (ناو) شوێنێک کە تێیدا خەڵکی بەنھێنی کۆدەبنەوە، بەتایبەتی بۆ چالاکییەکی نایاسایی"),
           const DividerSentences(),
           Row(
             children: [

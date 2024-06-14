@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیاوازی، فەرق، جوداهی، جودایەتی، جیایی، کێشە، ناکۆکی، دژایەتی،	بێنەوبەرە، مشت‌ومڕ، گێروکێشە،	سەرباقی، ماوە، بەرماوە، لێ‌ماوە
+کوردی: جیاوازی، فەرق، جوداھی، جودایەتی، جیایی، کێشە، ناکۆکی، دژایەتی،	بێنەوبەرە، مشت‌ومڕ، گێروکێشە،	سەرباقی، ماوە، بەرماوە، لێ‌ماوە
 """),
           const DefinitionKurdish(text: "١. (ناو) جیاوازی نێوان دوو کەس/شت"),
           Row(
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Americans and Brits speak the same language, but there are big cultural differences."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمریکی و بەریتانییەکان بە هەمان زمان قسە دەکەن، بەڵام جیاوازی کەلتووری زۆر هەیە."),
+                            "ئەمریکی و بەریتانییەکان بە ھەمان زمان قسە دەکەن، بەڵام جیاوازی کەلتووری زۆر ھەیە."),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "I can never tell the difference (= distinguish) between the twins."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز ناتوانم جیاوازی لە نێوان دووانەکە بکەم."),
+                        text: "ھەرگیز ناتوانم جیاوازی لە نێوان دووانەکە بکەم."),
                   ],
                 ),
               ),
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There's no difference in the results."),
                     ExampleSentenceKurdish(
-                        text: "هیچ جیاوازییەک لە ئەنجامەکاندا نییە."),
+                        text: "ھیچ جیاوازییەک لە ئەنجامەکاندا نییە."),
                   ],
                 ),
               ),
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Despite their differences, the two are great friends."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەڕای جیاوازییەکانیان، هەردووکیان هاوڕێی نزیکن."),
+                            "سەرەڕای جیاوازییەکانیان، ھەردووکیان ھاوڕێی نزیکن."),
                   ],
                 ),
               ),
@@ -662,7 +662,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There's an age difference of six years between the boys (= one is six years older than the other)."),
                     ExampleSentenceKurdish(
                         text:
-                            "جیاوازی تەمەنی شەش ساڵ هەیە ل نێوان دوو کوڕەکەدا."),
+                            "جیاوازی تەمەنی شەش ساڵ ھەیە ل نێوان دوو کوڕەکەدا."),
                   ],
                 ),
               ),
@@ -780,7 +780,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We have our differences, but she's still my sister."),
                     ExampleSentenceKurdish(
-                        text: "ناکۆکی خۆمان هەیە، بەڵام هێشتا خوشکمە."),
+                        text: "ناکۆکی خۆمان ھەیە، بەڵام ھێشتا خوشکمە."),
                   ],
                 ),
               ),
@@ -810,7 +810,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Why don't you settle your differences and be friends again?"),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆچی ناکۆکییەکانتان چارە ناکەن و دووبارە ببنەوە بە هاوڕێ؟"),
+                            "بۆچی ناکۆکییەکانتان چارە ناکەن و دووبارە ببنەوە بە ھاوڕێ؟"),
                   ],
                 ),
               ),

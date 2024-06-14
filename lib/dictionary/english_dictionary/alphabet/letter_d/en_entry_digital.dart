@@ -407,11 +407,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ژمارەیی، ڕەنووسی، هێژماری، دیجیتاڵ،	سەربە قامک، پەنجەیی
+کوردی: ژمارەیی، ڕەنووسی، ھێژماری، دیجیتاڵ،	سەربە قامک، پەنجەیی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) بە بەکارهێنانی سیستەمێکی ناردن و وەرگرتنی زانیاری لە شێوەی زنجیرەیەک لە ژمارە یەک و سفر کە ئەوە پیشان دەدات ئاماژەیەکی کارەبایی بوونی هەیە یان نا"),
+                  "١. (ھاوەڵناو) بە بەکارھێنانی سیستەمێکی ناردن و وەرگرتنی زانیاری لە شێوەی زنجیرەیەک لە ژمارە یەک و سفر کە ئەوە پیشان دەدات ئاماژەیەکی کارەبایی بوونی ھەیە یان نا"),
           Row(
             children: [
               const Expanded(
@@ -452,7 +452,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He quickly realized that all film and video production would go digital."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەزووی ئەوەی زانی کە هەموو بەرهەمهێنانێکی فیلم و ڤیدیۆ دەبن بە دیجیتاڵ"),
+                            "بەزووی ئەوەی زانی کە ھەموو بەرھەمھێنانێکی فیلم و ڤیدیۆ دەبن بە دیجیتاڵ"),
                   ],
                 ),
               ),
@@ -501,7 +501,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) پەیوەندیدار بە بەکارهێنانی تەکنەلۆژیای کۆمپیوتەر، بەتایبەتی ئینتەرنێت"),
+                  "٢. (ھاوەڵناو) پەیوەندیدار بە بەکارھێنانی تەکنەلۆژیای کۆمپیوتەر، بەتایبەتی ئینتەرنێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -543,7 +543,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Students in poorer areas lack access to the digital world."),
                     ExampleSentenceKurdish(
                         text:
-                            "خوێندکاران لە ناوچە هەژارەکان دەستیان ناگات بە جیهانی دیجیتاڵ."),
+                            "خوێندکاران لە ناوچە ھەژارەکان دەستیان ناگات بە جیھانی دیجیتاڵ."),
                   ],
                 ),
               ),

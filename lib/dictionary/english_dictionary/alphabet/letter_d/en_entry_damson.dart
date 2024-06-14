@@ -330,9 +330,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //         const KurdishVocabulary(text: """
-// کوردی: هەڵووژەڕەشە، هەڵووچەڕەشە
+// کوردی: ھەڵووژەڕەشە، ھەڵووچەڕەشە
 // """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) هەڵووژەڕەشە"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) ھەڵووژەڕەشە"),
           Row(
             children: [
               const Expanded(
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The damson tree in their garden yielded a bountiful harvest this year."),
                     ExampleSentenceKurdish(
                         text:
-                            "دار هەڵووژەی باخچەکەیان ئەمساڵ بەرهەمی زۆری هێنا."),
+                            "دار ھەڵووژەی باخچەکەیان ئەمساڵ بەرھەمی زۆری ھێنا."),
                   ],
                 ),
               ),

@@ -331,10 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاست‌کردنەوە، چاک‌کردن، چاکردن، چێ‌کردن، دروست‌کردن، چاکسازی،	هەڵەچنی، هەڵەگرتن، بژارگەری،	دەرمان، چارە، چارەسەری،	بیراز، تەمێ‌کردن، تەزاندن، سزادان، تاشان
+کوردی: ڕاست‌کردنەوە، چاک‌کردن، چاکردن، چێ‌کردن، دروست‌کردن، چاکسازی،	ھەڵەچنی، ھەڵەگرتن، بژارگەری،	دەرمان، چارە، چارەسەری،	بیراز، تەمێ‌کردن، تەزاندن، سزادان، تاشان
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) گۆڕانکارییەک بۆ ڕاستکردنەوەی هەڵەیەک"),
+              text: "١. (ناو) گۆڕانکارییەک بۆ ڕاستکردنەوەی ھەڵەیەک"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I've made a few small corrections to your report."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە."),
+                            "ھەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are some programming errors that need correction."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەمانە چەند هەڵەیەکی پڕۆگرامسازین کە پێویستییان بە ڕاست کردنەوەیە."),
+                            "ئەمانە چەند ھەڵەیەکی پڕۆگرامسازین کە پێویستییان بە ڕاست کردنەوەیە."),
                   ],
                 ),
               ),

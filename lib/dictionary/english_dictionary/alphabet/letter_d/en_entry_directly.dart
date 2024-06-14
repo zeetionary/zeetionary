@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاستەوخۆ، ڕاست، یەک‌سەرە، خۆحاست،	دروست، بە دروستی، دەسبەجێ، خێرا، زوو،	ڕێک‌وڕاست، ڕەپ‌وڕاست، بە ئاشکرایی، بێ‌پەردە، هەرکە
+کوردی: ڕاستەوخۆ، ڕاست، یەک‌سەرە، خۆحاست،	دروست، بە دروستی، دەسبەجێ، خێرا، زوو،	ڕێک‌وڕاست، ڕەپ‌وڕاست، بە ئاشکرایی، بێ‌پەردە، ھەرکە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەبێ وەستان یان گۆڕینی ئاراستە"),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The airline flies directly to Stockholm."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیا گەشتوگوزارییەکە ڕاستەوخۆ گەشتی ستۆکهۆڵمی هەیە."),
+                            "کۆمپانیا گەشتوگوزارییەکە ڕاستەوخۆ گەشتی ستۆکھۆڵمی ھەیە."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) ڕاستەوخۆ بەبێ ئەوەی هیچ کەس/شتێک لە نێواندا بێت"),
+                  "٢. (ھاوەڵکار) ڕاستەوخۆ بەبێ ئەوەی ھیچ کەس/شتێک لە نێواندا بێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -645,7 +645,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I went home directly I had finished work."),
                     ExampleSentenceKurdish(
-                        text: "چوومەوە ماڵەوە هەرکە کارم تەواو تەواو کرد."),
+                        text: "چوومەوە ماڵەوە ھەرکە کارم تەواو تەواو کرد."),
                   ],
                 ),
               ),

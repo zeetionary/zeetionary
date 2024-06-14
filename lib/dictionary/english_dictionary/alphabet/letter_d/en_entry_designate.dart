@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دیاری‌کراو، هەڵبژێردراو، ناودێرکراو، ناسێنراو
+کوردی: دیاری‌کراو، ھەڵبژێردراو، ناودێرکراو، ناسێنراو
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پێدانی ناوێک یان خاسیەتێک بە کەسێک"),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Several pupils were designated as having moderate or severe learning difficulties."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک خوێندکار بەوە دانران کە کێشەی سەخت یان ناوەندی فێربوونیان هەبێت."),
+                            "ژمارەیەک خوێندکار بەوە دانران کە کێشەی سەخت یان ناوەندی فێربوونیان ھەبێت."),
                   ],
                 ),
               ),

@@ -408,9 +408,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کاول، وێران، خاپوور، کاولە، وێرانە، چۆڵ،	دڵتەنگ، ناڕەحەت‌کەر، مات، کز، خەمبار،	تەنیا، بێ‌کەس، بێچارە، قوڕبەسەر، هەناسەسارد، نەحەساوە 
+کوردی: کاول، وێران، خاپوور، کاولە، وێرانە، چۆڵ،	دڵتەنگ، ناڕەحەت‌کەر، مات، کز، خەمبار،	تەنیا، بێ‌کەس، بێچارە، قوڕبەسەر، ھەناسەسارد، نەحەساوە 
 """),
-          const DefinitionKurdish(text: "١. (ناو) چۆڵ‌وهۆڵ"),
+          const DefinitionKurdish(text: "١. (ناو) چۆڵ‌وھۆڵ"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The house stands desolate and empty."),
-                    ExampleSentenceKurdish(text: "خانووەکە چۆڵ‌وهۆڵ و بەتاڵە."),
+                    ExampleSentenceKurdish(text: "خانووەکە چۆڵ‌وھۆڵ و بەتاڵە."),
                   ],
                 ),
               ),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "The land was left desolate."),
-                    ExampleSentenceKurdish(text: "خانووەکە بە چۆڵی جێهێڵدرا."),
+                    ExampleSentenceKurdish(text: "خانووەکە بە چۆڵی جێھێڵدرا."),
                   ],
                 ),
               ),
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) تەنها و بێزار"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) تەنھا و بێزار"),
           const DividerSentences(),
           Row(
             children: [
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The loss of his friend made him feel utterly desolate."),
                     ExampleSentenceKurdish(
-                        text: "لەدەستدانی هاوڕێکەی تەواو تەنهای کرد."),
+                        text: "لەدەستدانی ھاوڕێکەی تەواو تەنھای کرد."),
                   ],
                 ),
               ),
@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) نەهێشتنی خۆشی و هیوا لە کەسێک"),
+              text: "٣. (کردار) نەھێشتنی خۆشی و ھیوا لە کەسێک"),
           const DividerSentences(),
           Row(
             children: [
@@ -561,7 +561,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She had been desolated by the death of her friend."),
                     ExampleSentenceKurdish(
-                        text: "تاسەبار بووبوو بەهۆی مردنی هاوڕێکەیەوە."),
+                        text: "تاسەبار بووبوو بەھۆی مردنی ھاوڕێکەیەوە."),
                   ],
                 ),
               ),

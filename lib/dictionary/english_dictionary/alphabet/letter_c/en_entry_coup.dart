@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) بەدەستهێنانی شتێک کە سەخت بوو"),
+              text: "٢. (ناو) بەدەستھێنانی شتێک کە سەخت بوو"),
           Row(
             children: [
               const Expanded(
@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He managed to pull off a major diplomatic coup."),
                     ExampleSentenceKurdish(
                         text:
-                            "توانی سەرکەوتنێکی گەورەی دیپلۆماسی بەدەست بهێنێت."),
+                            "توانی سەرکەوتنێکی گەورەی دیپلۆماسی بەدەست بھێنێت."),
                   ],
                 ),
               ),

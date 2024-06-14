@@ -14,7 +14,8 @@ class EnglishEntrycrashhelmet extends StatefulWidget {
   const EnglishEntrycrashhelmet({super.key});
 
   @override
-  State<EnglishEntrycrashhelmet> createState() => _EnglishEntrycrashhelmetState();
+  State<EnglishEntrycrashhelmet> createState() =>
+      _EnglishEntrycrashhelmetState();
 }
 
 class _EnglishEntrycrashhelmetState extends State<EnglishEntrycrashhelmet> {
@@ -334,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کڵاوێکی بەهێز کە بەکاردێت بۆ پاراستنی سەر لە کاتی پاسکیل یان ماتۆڕ سواری"),
+                  "١. (ناو) کڵاوێکی بەھێز کە بەکاردێت بۆ پاراستنی سەر لە کاتی پاسکیل یان ماتۆڕ سواری"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He always wears a crash helmet when riding his motorcycle."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە کڵاوێکی پارێزەر لەسەر دەکات کە ماتۆڕسواری دەکات."),
+                            "ھەمیشە کڵاوێکی پارێزەر لەسەر دەکات کە ماتۆڕسواری دەکات."),
                   ],
                 ),
               ),

@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەبەرگری‌هاتوو، دەپارێزرێ، بەرگری‌لێ‌کراو،	(تیۆری و هتد) لەپاساوهاتوو، پاساو دەدرێ، بەرگری لێ‌دەکرێ
+کوردی: لەبەرگری‌ھاتوو، دەپارێزرێ، بەرگری‌لێ‌کراو،	(تیۆری و ھتد) لەپاساوھاتوو، پاساو دەدرێ، بەرگری لێ‌دەکرێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
           Row(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Are these measures either morally or legally defensible?"),
                     ExampleSentenceKurdish(
                         text:
-                            "ئایا ئەم هەنگاوانە چی لەلایەنی ئەخلاقی یان یاسایی لەبەرگری‌هاتوون؟"),
+                            "ئایا ئەم ھەنگاوانە چی لەلایەنی ئەخلاقی یان یاسایی لەبەرگری‌ھاتوون؟"),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Is it morally defensible to deny legal advice to a prisoner?"),
                     ExampleSentenceKurdish(
                         text:
-                            "ئایا لە ڕووی ئەخلاقییەوە لەبەرگری‌هاتووە کە ڕاوێژی یاسایی بە زیندانییەک نەدەیت؟"),
+                            "ئایا لە ڕووی ئەخلاقییەوە لەبەرگری‌ھاتووە کە ڕاوێژی یاسایی بە زیندانییەک نەدەیت؟"),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is no defensible basis for this argument."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ بنەمایەکی لەبەرگری‌هاتوو نییە بۆ ئەم مشتومڕە."),
+                            "ھیچ بنەمایەکی لەبەرگری‌ھاتوو نییە بۆ ئەم مشتومڕە."),
                   ],
                 ),
               ),

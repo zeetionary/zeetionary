@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پیشەگەری، پیشەسازی، وەستاکاری، سازگەری، مامۆستایی، شارەزایی، هونەرمەندی
+کوردی: پیشەگەری، پیشەسازی، وەستاکاری، سازگەری، مامۆستایی، شارەزایی، ھونەرمەندی
 """),
           const DefinitionKurdish(text: "١. (ناو) شارەزایی لە کاری دەستی"),
           Row(
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The jewellery showed exquisite craftsmanship."),
                     ExampleSentenceKurdish(
-                        text: "خشڵەکە پیشەگەری بێ‌هاوتای تێدابوو."),
+                        text: "خشڵەکە پیشەگەری بێ‌ھاوتای تێدابوو."),
                   ],
                 ),
               ),

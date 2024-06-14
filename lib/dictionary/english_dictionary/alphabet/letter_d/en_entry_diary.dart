@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کتێبێک کە دەتوانی ئەزموونی ڕۆژانە، بیرکردنەوەی کەسی، هتد ـی تێدا بنووسیت"),
+                  "١. (ناو) کتێبێک کە دەتوانی ئەزموونی ڕۆژانە، بیرکردنەوەی کەسی، ھتد ـی تێدا بنووسیت"),
           Row(
             children: [
               const Expanded(
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Do you keep a diary (= write one regularly)?"),
-                    ExampleSentenceKurdish(text: "یادنامەت هەیە؟"),
+                    ExampleSentenceKurdish(text: "یادنامەت ھەیە؟"),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The writer's letters and diaries are being published next year."),
                     ExampleSentenceKurdish(
                         text:
-                            "نامە و یادنامەکانی نووسەرەکە ساڵی داهاتوو بڵاودەکرێنەوە."),
+                            "نامە و یادنامەکانی نووسەرەکە ساڵی داھاتوو بڵاودەکرێنەوە."),
                   ],
                 ),
               ),
@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کتێبێک یان ئەپێک کە بۆشایی تێدایە بۆ هەر ڕۆژێکی ساڵ بۆ تۆمارکردنی ئەو شتانەی کە دەبێت لە داهاتوودا بیان کەیت"),
+                  "٢. (ناو) کتێبێک یان ئەپێک کە بۆشایی تێدایە بۆ ھەر ڕۆژێکی ساڵ بۆ تۆمارکردنی ئەو شتانەی کە دەبێت لە داھاتوودا بیان کەیت"),
           // const DividerSentences(),
           Row(
             children: [

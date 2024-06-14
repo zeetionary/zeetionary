@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (وەرزش) پەپکە، ئاڵقەی ئاسن، سێڵک، هاویشتنی پەپکە، پەپکەهاوێژی
+کوردی: (وەرزش) پەپکە، ئاڵقەی ئاسن، سێڵک، ھاویشتنی پەپکە، پەپکەھاوێژی
 """),
           const DefinitionKurdish(
               text:
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) جۆرە یارییەک کە هەرچەندە دوور بکرێت پەپک هەڵدەدەیت"),
+                  "٢. (ناو) جۆرە یارییەک کە ھەرچەندە دوور بکرێت پەپک ھەڵدەدەیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He regained his discus title after a few years."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە دوای چەند ساڵێک پاڵەوانێتی پەپکەهاوێژی بەدەستهێنایەوە."),
+                            "لە دوای چەند ساڵێک پاڵەوانێتی پەپکەھاوێژی بەدەستھێنایەوە."),
                   ],
                 ),
               ),

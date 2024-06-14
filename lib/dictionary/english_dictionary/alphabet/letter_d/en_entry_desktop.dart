@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) کۆمپیوتەرێک کە پێکاتووە لە شاشەیەک، تەختەکلیلێک، هتد کە لەسەر مێزێک دادەنرێت"),
+                  "٢. (ناو) کۆمپیوتەرێک کە پێکاتووە لە شاشەیەک، تەختەکلیلێک، ھتد کە لەسەر مێزێک دادەنرێت"),
           const AlsoEnglishckb(word: "ھەروەھا: desktop computer"),
           Row(
             children: [
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەتا بڕیار بدە کە پێویستیت بە کۆمپیوتەری دێسکتۆپ هەیە، یان ئەوەی لاپتۆپێک یان نۆتبووکێک گونجاو دەبێت."),
+                            "سەرەتا بڕیار بدە کە پێویستیت بە کۆمپیوتەری دێسکتۆپ ھەیە، یان ئەوەی لاپتۆپێک یان نۆتبووکێک گونجاو دەبێت."),
                   ],
                 ),
               ),

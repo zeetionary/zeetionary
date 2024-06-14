@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سڕینەوە، دەرهاویشتن، لابردن، هەڵگرتن
+کوردی: سڕینەوە، دەرھاویشتن، لابردن، ھەڵگرتن
 """),
           const DefinitionKurdish(
               text:
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I deleted your last email by mistake—could you send it again?"),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆتا ئیمەیڵتم بە هەڵە سڕییەوە ـ دەتوانیت بینێریتەوە؟"),
+                            "کۆتا ئیمەیڵتم بە ھەڵە سڕییەوە ـ دەتوانیت بینێریتەوە؟"),
                   ],
                 ),
               ),
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Just use delete to remove a specific record from the database."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەنها دووگمەی سڕینەوە بەکاربهێنە بۆ سڕینەوەی تۆمارێک لە داتابەیسەکە."),
+                            "تەنھا دووگمەی سڕینەوە بەکاربھێنە بۆ سڕینەوەی تۆمارێک لە داتابەیسەکە."),
                   ],
                 ),
               ),

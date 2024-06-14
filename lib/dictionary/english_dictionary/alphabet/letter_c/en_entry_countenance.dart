@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بیچم، ڕوو، ڕوخسار، دەم‌وچاو،	پەسندکردن،	داکۆکی، پشتیوانی، پشتگیری،	ورەپێدان، هاندان
+کوردی: بیچم، ڕوو، ڕوخسار، دەم‌وچاو،	پەسندکردن،	داکۆکی، پشتیوانی، پشتگیری،	ورەپێدان، ھاندان
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕووخساری کەسێک یان دەربڕینی ڕووخسار"),
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was of noble countenance."),
                     ExampleSentenceKurdish(
-                        text: "ڕووخسارێکی بەنەجیب‌زادەی هەبوو."),
+                        text: "ڕووخسارێکی بەنەجیب‌زادەی ھەبوو."),
                   ],
                 ),
               ),

@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کرداری نهێنی کە وڵاتێک دەیگرێتە بەر دژی وڵاتێکی دیکە بۆ ڕێگری لە ئاشکرابوونی نهێنییەکانی"),
+                  "١. (ناو) کرداری نھێنی کە وڵاتێک دەیگرێتە بەر دژی وڵاتێکی دیکە بۆ ڕێگری لە ئاشکرابوونی نھێنییەکانی"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The agency specializes in counter-espionage to protect national security."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاژانسەکە شارەزایی هەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی."),
+                            "ئاژانسەکە شارەزایی ھەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی."),
                   ],
                 ),
               ),

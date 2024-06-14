@@ -191,11 +191,11 @@ class EnglishEntrycorkscrew extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: سەرهەڵپچڕ، شووشەکەرەوە، کۆرک‌کێش
+کوردی: سەرھەڵپچڕ، شووشەکەرەوە، کۆرک‌کێش
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) ئامرازێک بۆ لێکردنەوەی سەرهەڵپچڕ لە بوتڵ"),
+                                  "١. (ناو) ئامرازێک بۆ لێکردنەوەی سەرھەڵپچڕ لە بوتڵ"),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycorkscrew extends StatelessWidget {
                                             "She always kept a corkscrew in her kitchen drawer for opening wine bottles."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە سەرهەڵپچڕێکی هەڵدەگرت لە چەکمەجەی چێشتخانەکەیدا بۆ کردنەوەی بوتڵی بیرە."),
+                                            "ھەمیشە سەرھەڵپچڕێکی ھەڵدەگرت لە چەکمەجەی چێشتخانەکەیدا بۆ کردنەوەی بوتڵی بیرە."),
                                   ],
                                 ),
                               ),

@@ -974,7 +974,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تووڕە، ڕق‌هەستاو،	پێچەوانە (با)،	ئاسۆیی، پۆیی،	یەکتربڕ، چەپ‌وڕاست، هاوبڕ، خاچ، چەلیپا،	مەینەتی، ڕەنج، کوێرەوەری، دەرد، بەڵا، کوڵۆڵی،	نیشانەی خاچ،	دروشمی خاچ (نیشانەی ئازایەتی)،	نیشانەی چەپ‌وڕاست، یەکتربڕ یان لەگەڵ (×، +)،	گیانەوەری دوڕڕە یان دووڕەگە،	گیا یان ڕووەکی متوربەکراو، ڕووەکی پەیوەست‌کراو،	تێکەڵە،	(میکانیک) چوارڕێ، چوارڕێ‌یانە،	هێڵی ئاسۆیی 
+کوردی: تووڕە، ڕق‌ھەستاو،	پێچەوانە (با)،	ئاسۆیی، پۆیی،	یەکتربڕ، چەپ‌وڕاست، ھاوبڕ، خاچ، چەلیپا،	مەینەتی، ڕەنج، کوێرەوەری، دەرد، بەڵا، کوڵۆڵی،	نیشانەی خاچ،	دروشمی خاچ (نیشانەی ئازایەتی)،	نیشانەی چەپ‌وڕاست، یەکتربڕ یان لەگەڵ (×، +)،	گیانەوەری دوڕڕە یان دووڕەگە،	گیا یان ڕووەکی متوربەکراو، ڕووەکی پەیوەست‌کراو،	تێکەڵە،	(میکانیک) چوارڕێ، چوارڕێ‌یانە،	ھێڵی ئاسۆیی 
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕۆشتن لە لایەکی دیکەوە بۆ لایەکەی دیکە"),
@@ -988,7 +988,7 @@ class KurdishMeaning extends StatelessWidget {
                             "As soon as traffic slowed down enough to safely cross, I started walking."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە هاتووچۆ هێندە هێواش بوویەوە کە بە سەلامەتی بپەڕینەوە، دەستم بە ڕێکردن کرد."),
+                            "کە ھاتووچۆ ھێندە ھێواش بوویەوە کە بە سەلامەتی بپەڕینەوە، دەستم بە ڕێکردن کرد."),
                   ],
                 ),
               ),
@@ -1180,7 +1180,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "They crossed the finishing line together (= in a race)."),
                             ExampleSentenceKurdish(
-                                text: "پێکەوە بە هێڵی کۆتاییدا پەڕینەوە."),
+                                text: "پێکەوە بە ھێڵی کۆتاییدا پەڕینەوە."),
                           ],
                         ),
                       ),
@@ -1206,7 +1206,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "He crossed over the road and joined me."),
                             ExampleSentenceKurdish(
-                                text: "بە شەقامەکەدا پەڕییەوە و هاتە لام."),
+                                text: "بە شەقامەکەدا پەڕییەوە و ھاتە لام."),
                           ],
                         ),
                       ),
@@ -1434,7 +1434,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "A mule is the product of a horse crossed with a donkey."),
                     ExampleSentenceKurdish(
-                        text: "هێستر بەرهەمی جووتکردنی ئەسپە لەگەڵ گوێدرێژدا."),
+                        text: "ھێستر بەرھەمی جووتکردنی ئەسپە لەگەڵ گوێدرێژدا."),
                   ],
                 ),
               ),
@@ -1461,7 +1461,7 @@ class KurdishMeaning extends StatelessWidget {
           // text:
           // "He behaved like an army officer crossed with a professor."),
           // ExampleSentenceKurdish(
-          // text: "بەکارهێنانی خوازراوی وەها ڕەفتاری دەکرد وەک ئەوەی."),
+          // text: "بەکارھێنانی خوازراوی وەھا ڕەفتاری دەکرد وەک ئەوەی."),
           // ],
           // ),
           // ),
@@ -1480,7 +1480,7 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (کردار) لێدان لە تۆپێک و هەڵدانی بە یاریگایەکدا"),
+              text: "٦. (کردار) لێدان لە تۆپێک و ھەڵدانی بە یاریگایەکدا"),
           Row(
             children: [
               const Expanded(
@@ -1489,7 +1489,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Sissoko crossed from the left."),
                     ExampleSentenceKurdish(
-                        text: "سیسۆکە تۆپەکەی لەلای چەپەوە هەڵدا."),
+                        text: "سیسۆکە تۆپەکەی لەلای چەپەوە ھەڵدا."),
                   ],
                 ),
               ),
@@ -1507,7 +1507,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٧. (کردار) کێشانی هێلێک بە شتێکدا"),
+          const DefinitionKurdish(text: "٧. (کردار) کێشانی ھێلێک بە شتێکدا"),
           Row(
             children: [
               const Expanded(
@@ -1518,7 +1518,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She always crosses her t’s and dots her i’s to ensure accuracy."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە خەت دێنێت بە t ـیەکانیدا و خاڵ لەسەر i ـیەکانی دادەنێت بۆ دڵنیایی لە درووستی."),
+                            "ھەمیشە خەت دێنێت بە t ـیەکانیدا و خاڵ لەسەر i ـیەکانی دادەنێت بۆ دڵنیایی لە درووستی."),
                   ],
                 ),
               ),
@@ -1538,7 +1538,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٨. (ناو) هێمایەک کە لە دوو هێڵ پێکدێت کە یەکتری دەبڕن. بۆ نموونە + یان x"),
+                  "٨. (ناو) ھێمایەک کە لە دوو ھێڵ پێکدێت کە یەکتری دەبڕن. بۆ نموونە + یان x"),
           Row(
             children: [
               const Expanded(
@@ -1549,7 +1549,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I've put a cross on the map to show where the hotel is."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئێکسێکم لەسەر نەخشەکە داناوە بۆ پیشاندانی ئەوەی هوتێلەکە لەکوێیە."),
+                            "ئێکسێکم لەسەر نەخشەکە داناوە بۆ پیشاندانی ئەوەی ھوتێلەکە لەکوێیە."),
                   ],
                 ),
               ),
@@ -1577,7 +1577,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Put a tick if the answer is correct and a cross if it's wrong."),
                     ExampleSentenceKurdish(
                         text:
-                            "نیشانەیەکی ڕستی لێبدە ئەگەر وەڵامەکە ڕاستە و ئێکسێک ئەگەر هەڵەیە."),
+                            "نیشانەیەکی ڕستی لێبدە ئەگەر وەڵامەکە ڕاستە و ئێکسێک ئەگەر ھەڵەیە."),
                   ],
                 ),
               ),
@@ -1607,7 +1607,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In ancient times, people were punished by being hung on crosses and left to die."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە سەردەمانی کۆندا، خەڵکی لەسەر سزا دەدران بە جێهێشتنیان لەسەر خاچ و جێهێشتنیان تا بمرن."),
+                            "لە سەردەمانی کۆندا، خەڵکی لەسەر سزا دەدران بە جێھێشتنیان لەسەر خاچ و جێھێشتنیان تا بمرن."),
                   ],
                 ),
               ),
@@ -1655,7 +1655,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١٢. (ناو) شتێک، دیزاینێک، خشڵێک، هتد کە لە شێوەی ئێکسێکدایە و وەک سمبولێکی ئایینی مەسحییەت بەکاردێت"),
+                  "١٢. (ناو) شتێک، دیزاینێک، خشڵێک، ھتد کە لە شێوەی ئێکسێکدایە و وەک سمبولێکی ئایینی مەسحییەت بەکاردێت"),
           Row(
             children: [
               const Expanded(
@@ -1712,7 +1712,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "١٤. (ناو) تێکەڵەیەکی دوو شت، جۆری ئاژەڵ، هتد ــی جیاواز"),
+              text: "١٤. (ناو) تێکەڵەیەکی دوو شت، جۆری ئاژەڵ، ھتد ــی جیاواز"),
           Row(
             children: [
               const Expanded(
@@ -1722,7 +1722,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "A mule is a cross between a horse and a donkey."),
                     ExampleSentenceKurdish(
-                        text: "هێستر دووڕەگەی ئەسپ و گوێدرێژە."),
+                        text: "ھێستر دووڕەگەی ئەسپ و گوێدرێژە."),
                   ],
                 ),
               ),
@@ -1740,7 +1740,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "١٥. (ناو) هەڵدان تۆپ بە یاریگادا"),
+          const DefinitionKurdish(text: "١٥. (ناو) ھەڵدان تۆپ بە یاریگادا"),
           Row(
             children: [
               const Expanded(
@@ -1751,7 +1751,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Webster's low cross was fired into the net by Varney."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵدانە نزمەکەی وێبستەر لەلایەن ڤارنییەوە خرایە تۆڕەکەوە."),
+                            "ھەڵدانە نزمەکەی وێبستەر لەلایەن ڤارنییەوە خرایە تۆڕەکەوە."),
                   ],
                 ),
               ),

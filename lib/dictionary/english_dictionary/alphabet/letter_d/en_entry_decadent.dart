@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی ستانداردی ئەخلاقی نزم، و هەبوونی حەز یەنها بۆ خۆشی و نەک شتی گرنگ"),
+                  "١. (ھاوەڵناو) ھەبوونی ستانداردی ئەخلاقی نزم، و ھەبوونی حەز یەنھا بۆ خۆشی و نەک شتی گرنگ"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was something very decadent about filling ourselves with so much rich food."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕابواردنێکی خۆش هەبوو لە هەبوونی زۆری خواردنی دەوڵەمەندانە."),
+                            "ڕابواردنێکی خۆش ھەبوو لە ھەبوونی زۆری خواردنی دەوڵەمەندانە."),
                   ],
                 ),
               ),

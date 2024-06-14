@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He made some derogatory comment/remark about her appearance."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک لێدوانی داشکێنەری دا سەبارەت بە ڕواڵەتی."),
+                            "ھەندێک لێدوانی داشکێنەری دا سەبارەت بە ڕواڵەتی."),
                   ],
                 ),
               ),

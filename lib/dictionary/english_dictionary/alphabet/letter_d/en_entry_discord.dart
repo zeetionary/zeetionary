@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The contrasts between rich and poor nations are a source of discord."),
                     ExampleSentenceKurdish(
                         text:
-                            "جیاوازیی نێوان وڵاتە دەوڵەمەند و هەژارەکان سەرچاوەی مشتومڕە."),
+                            "جیاوازیی نێوان وڵاتە دەوڵەمەند و ھەژارەکان سەرچاوەی مشتومڕە."),
                   ],
                 ),
               ),

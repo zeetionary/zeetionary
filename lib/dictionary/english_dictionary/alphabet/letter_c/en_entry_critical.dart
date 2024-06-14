@@ -354,7 +354,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "You should just ignore any critical comments."),
                     ExampleSentenceKurdish(
-                        text: "دەبێت هەموو لێدوانێکی ڕەخنەگرانە پشتگوێ بخەیت."),
+                        text: "دەبێت ھەموو لێدوانێکی ڕەخنەگرانە پشتگوێ بخەیت."),
                   ],
                 ),
               ),
@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The supervisor is always very critical."),
                     ExampleSentenceKurdish(
-                        text: "سەرپەرشتیارەکە هەمیشە ڕەخنەگرانەیە."),
+                        text: "سەرپەرشتیارەکە ھەمیشە ڕەخنەگرانەیە."),
                   ],
                 ),
               ),
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Some parents are highly critical of the school."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک دایباب زۆر دژبەری قوتابخانەکەن."),
+                        text: "ھەندێک دایباب زۆر دژبەری قوتابخانەکەن."),
                   ],
                 ),
               ),
@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) زۆر گرنگ چونکە شتێک لە داهاتوودا کاریگەر دەبێت پێی"),
+                  "٢. (ھاوەڵناو) زۆر گرنگ چونکە شتێک لە داھاتوودا کاریگەر دەبێت پێی"),
           Row(
             children: [
               const Expanded(
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Reducing levels of carbon dioxide in the atmosphere is of critical importance."),
                     ExampleSentenceKurdish(
                         text:
-                            "کەمکردنەوەی ئاستی دووەم ئۆکسیدی کاربۆن لە بەرگەهەوا بایەخی گرنگی هەیە."),
+                            "کەمکردنەوەی ئاستی دووەم ئۆکسیدی کاربۆن لە بەرگەھەوا بایەخی گرنگی ھەیە."),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Your decision is critical to our future."),
                     ExampleSentenceKurdish(
-                        text: "بڕیارەکەت بۆ داهاتوومان گرنگە."),
+                        text: "بڕیارەکەت بۆ داھاتوومان گرنگە."),
                   ],
                 ),
               ),
@@ -637,7 +637,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His latest film attracted enthusiastic critical comment from cinema-goers."),
                     ExampleSentenceKurdish(
                         text:
-                            "تازەترین فیلمی لێدوانی بەجۆشی ڕەخنەگرانەی لە بینەرانی سینەماوە بە دوای خۆیدا هێنا."),
+                            "تازەترین فیلمی لێدوانی بەجۆشی ڕەخنەگرانەی لە بینەرانی سینەماوە بە دوای خۆیدا ھێنا."),
                   ],
                 ),
               ),
@@ -692,7 +692,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In her day she never received the critical acclaim (= praise from the critics) she deserved."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە کاتی خۆیدا هەرگیز ستایشی ڕەخنەگرانی وەرنەگرت کە شایەنی بوو."),
+                            "لە کاتی خۆیدا ھەرگیز ستایشی ڕەخنەگرانی وەرنەگرت کە شایەنی بوو."),
                   ],
                 ),
               ),

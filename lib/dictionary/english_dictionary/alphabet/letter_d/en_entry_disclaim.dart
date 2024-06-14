@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) بە فەرمی گوتنی ئەوەی کە هیچ زانیاریت لەسەر شتێک نییە"),
+                  "١. (کردار) بە فەرمی گوتنی ئەوەی کە ھیچ زانیاریت لەسەر شتێک نییە"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The rebels disclaimed all responsibility for the explosion."),
                     ExampleSentenceKurdish(
                         text:
-                            "یاخیبووەکان نکۆڵییان لە هەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد."),
+                            "یاخیبووەکان نکۆڵییان لە ھەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She disclaimed any knowledge of her husband's whereabouts."),
                     ExampleSentenceKurdish(
                         text:
-                            "نکۆڵی لە هە رزانیارییەک کرد سەبارەت بە شوێنی هاوسەرەکەی."),
+                            "نکۆڵی لە ھە رزانیارییەک کرد سەبارەت بە شوێنی ھاوسەرەکەی."),
                   ],
                 ),
               ),

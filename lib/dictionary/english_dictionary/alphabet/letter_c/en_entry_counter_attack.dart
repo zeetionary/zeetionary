@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هێرشی پێچەوانە، دژەهێرش، پەرچەهێرش، هێرش‌دانەوە
+کوردی: ھێرشی پێچەوانە، دژەھێرش، پەرچەھێرش، ھێرش‌دانەوە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هێرشێک کە وەک وەڵامی هێرشی دوژمن یان ڕکابەرە لە جەنگ، وەرزش، یان مشتومڕێکدا"),
+                  "١. (ناو) ھێرشێک کە وەک وەڵامی ھێرشی دوژمن یان ڕکابەرە لە جەنگ، وەرزش، یان مشتومڕێکدا"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Armed forces launched a counter-attack against the rebels."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێزە سەربازییەکان پەرچەهێرشێکیان دژ بە یاخیبووان ئەنجامدا."),
+                            "ھێزە سەربازییەکان پەرچەھێرشێکیان دژ بە یاخیبووان ئەنجامدا."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He led a counterattack on the enemy's supply lines."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرپەرشتی هێرشێکی پێچەوانەی دژ بە هێڵەکانی ئازووقەی دوژمن کرد."),
+                            "سەرپەرشتی ھێرشێکی پێچەوانەی دژ بە ھێڵەکانی ئازووقەی دوژمن کرد."),
                   ],
                 ),
               ),
@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) ئەنجامدانی هێرشی پێچەوانە"),
+          const DefinitionKurdish(text: "٢. (کردار) ئەنجامدانی ھێرشی پێچەوانە"),
           Row(
             children: [
               const Expanded(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The air force counterattacked and repelled the invasion."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێزی ئاسمانی پەرچەکرداری دایەوە و هێرشکارییەکەی شکستپێهێنا."),
+                            "ھێزی ئاسمانی پەرچەکرداری دایەوە و ھێرشکارییەکەی شکستپێھێنا."),
                   ],
                 ),
               ),

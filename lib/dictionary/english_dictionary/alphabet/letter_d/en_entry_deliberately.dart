@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەهێواشی و وریایی"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەھێواشی و وریایی"),
           const DividerSentences(),
           Row(
             children: [
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He packed up his possessions slowly and deliberately."),
                     ExampleSentenceKurdish(
-                        text: "بە هێواشی و لەسەرەخۆیی شتەکانی کۆکردەوە."),
+                        text: "بە ھێواشی و لەسەرەخۆیی شتەکانی کۆکردەوە."),
                   ],
                 ),
               ),

@@ -206,7 +206,7 @@ class EnglishEntryconvulse extends StatelessWidget {
                                         text:
                                             "A violent shiver convulsed him."),
                                     ExampleSentenceKurdish(
-                                        text: "لەرزەیەکی بەهێز ڕایتڵەقاند."),
+                                        text: "لەرزەیەکی بەھێز ڕایتڵەقاند."),
                                   ],
                                 ),
                               ),
@@ -252,7 +252,7 @@ class EnglishEntryconvulse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) پێکەنینی هێندە زۆر، بە تووڕەیی، هتد کە ناتوانیت خۆت کۆنترۆڵ بکەیت"),
+                                  "٢. (کردار) پێکەنینی ھێندە زۆر، بە تووڕەیی، ھتد کە ناتوانیت خۆت کۆنترۆڵ بکەیت"),
                           Row(
                             children: [
                               const Expanded(

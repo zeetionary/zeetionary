@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شیو، دۆڵ، دەرە، بوهل
+کوردی: شیو، دۆڵ، دەرە، بوھل
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دۆڵێک، بەتایبەتی لە باکووری ئینگلتەرە"),
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We're going walking in the Yorkshire Dales this summer."),
                     ExampleSentenceKurdish(
-                        text: "ئەم هاوینە دەچین بۆ گەڕان لە دۆڵەکانی یۆرکشێر."),
+                        text: "ئەم ھاوینە دەچین بۆ گەڕان لە دۆڵەکانی یۆرکشێر."),
                   ],
                 ),
               ),

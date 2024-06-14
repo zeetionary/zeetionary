@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەپەرۆشی، تامەزرۆیی، تاسە، ئارەزوو، بێزوو، بێزگ، گز، هەوەس، ئیشتیا، کەڵکەڵە، خولیا، حەز
+کوردی: بەپەرۆشی، تامەزرۆیی، تاسە، ئارەزوو، بێزوو، بێزگ، گز، ھەوەس، ئیشتیا، کەڵکەڵە، خولیا، حەز
 """),
           const DefinitionKurdish(text: "١. (ناو) حەزی زۆر بۆ شتێک"),
           Row(
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He had a craving to see the world."),
                     ExampleSentenceKurdish(
-                        text: "ئارەزووی بینینی جیهانی هەبوو."),
+                        text: "ئارەزووی بینینی جیھانی ھەبوو."),
                   ],
                 ),
               ),

@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was accused of dishonestly obtaining property."),
                     ExampleSentenceKurdish(
                         text:
-                            "تاوانبارکرا بەوەی بە فێڵبازانە زەوی بەدەستهێناوە."),
+                            "تاوانبارکرا بەوەی بە فێڵبازانە زەوی بەدەستھێناوە."),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The money was dishonestly obtained."),
-                    ExampleSentenceKurdish(text: "پارەکە بە فێڵ بەدەستهێنرا."),
+                    ExampleSentenceKurdish(text: "پارەکە بە فێڵ بەدەستھێنرا."),
                   ],
                 ),
               ),

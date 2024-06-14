@@ -336,11 +336,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دژەبەرهەم‌هێن، زیان‌پێگەیێن، بەکاریگەری پێچەوانە یان خراپەوە
+کوردی: دژەبەرھەم‌ھێن، زیان‌پێگەیێن، بەکاریگەری پێچەوانە یان خراپەوە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی کاریگەرییەک کە پێچەوانەی ئەوەیە کە مەبەست بوو"),
+                  "١. (ھاوەڵناو) ھەبوونی کاریگەرییەک کە پێچەوانەی ئەوەیە کە مەبەست بوو"),
           Row(
             children: [
               const Expanded(
@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Increases in taxation would be counterproductive."),
                     ExampleSentenceKurdish(
-                        text: "زیادکردنی باج دژەبەرهەم‌هێن دەبێت."),
+                        text: "زیادکردنی باج دژەبەرھەم‌ھێن دەبێت."),
                   ],
                 ),
               ),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Introducing sanctions at this point could be politically counterproductive."),
                     ExampleSentenceKurdish(
                         text:
-                            "گەمارۆدان لەم قۆناغەدا دەکرێت لە ڕووی سیاسییەوە دژەبەرهەمهێن بێت."),
+                            "گەمارۆدان لەم قۆناغەدا دەکرێت لە ڕووی سیاسییەوە دژەبەرھەمھێن بێت."),
                   ],
                 ),
               ),

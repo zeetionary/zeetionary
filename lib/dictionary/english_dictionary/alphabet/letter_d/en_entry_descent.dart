@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرەولێژی، تەلان، لێژایی، نشێوی،	نیشتنەوە،	هاتنەخوارێ، داکەوتن، داچوون، نزم‌بوونەوە، داشکان، لێژبوونەوە،	وەچە، نەوە، بەرە، بنەچە، پشت، کۆک، ڕەچەڵەک، ڕەگەز، توخم، نژاد، تۆمەرە، ڕشتارە، ڕژتارە، لانەما، لانەزێ،	هێرش، پەلامار (ناکاو)
+کوردی: سەرەولێژی، تەلان، لێژایی، نشێوی،	نیشتنەوە،	ھاتنەخوارێ، داکەوتن، داچوون، نزم‌بوونەوە، داشکان، لێژبوونەوە،	وەچە، نەوە، بەرە، بنەچە، پشت، کۆک، ڕەچەڵەک، ڕەگەز، توخم، نژاد، تۆمەرە، ڕشتارە، ڕژتارە، لانەما، لانەزێ،	ھێرش، پەلامار (ناکاو)
 """),
           const DefinitionKurdish(text: "١. (ناو) چوونەخوارەوە"),
           Row(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The plane began its descent to Heathrow."),
                     ExampleSentenceKurdish(
-                        text: "فڕۆکە دەستی بە دابەزین بۆ هیسرۆو کرد."),
+                        text: "فڕۆکە دەستی بە دابەزین بۆ ھیسرۆو کرد."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I made a slow and painful descent down the stairs."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەستم بە دابەزینێکی هێواش و بەیازار بە پلەکانەکاندا کرد."),
+                            "دەستم بە دابەزینێکی ھێواش و بەیازار بە پلەکانەکاندا کرد."),
                   ],
                 ),
               ),
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There is a gradual descent to the sea."),
                     ExampleSentenceKurdish(
-                        text: "لێژبوونێکی کەم بەرەو دەریا هەیە."),
+                        text: "لێژبوونێکی کەم بەرەو دەریا ھەیە."),
                   ],
                 ),
               ),
@@ -615,7 +615,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She is Hungarian by descent."),
-                    ExampleSentenceKurdish(text: "بە ڕەچەڵەک هەنگارییە."),
+                    ExampleSentenceKurdish(text: "بە ڕەچەڵەک ھەنگارییە."),
                   ],
                 ),
               ),

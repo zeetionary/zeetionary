@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) کەسێک کە باوەڕی بە سیستەمی دیموکراسی هەیە"),
+              text: "١. (ناو) کەسێک کە باوەڕی بە سیستەمی دیموکراسی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She is a democrat who believes in equal rights."),
                     ExampleSentenceKurdish(
-                        text: "دیموکراتێکە کە باوەڕی بە مافی یەکسان هەیە."),
+                        text: "دیموکراتێکە کە باوەڕی بە مافی یەکسان ھەیە."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He identifies as a democrat and supports free speech."),
                     ExampleSentenceKurdish(
                         text:
-                            "خۆی وەک دیموکراتێک دەناسێنێت و باوەڕی بە ئازادیی ڕادەربڕین هەیە."),
+                            "خۆی وەک دیموکراتێک دەناسێنێت و باوەڕی بە ئازادیی ڕادەربڕین ھەیە."),
                   ],
                 ),
               ),

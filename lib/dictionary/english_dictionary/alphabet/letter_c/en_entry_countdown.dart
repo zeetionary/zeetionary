@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ژماردنی پێچەوانە بەرەو ژمارە سفر، بۆ نموونە لە کاتی هەڵدانی مووشەکدا"),
+                  "١. (ناو) ژماردنی پێچەوانە بەرەو ژمارە سفر، بۆ نموونە لە کاتی ھەڵدانی مووشەکدا"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The countdown to the rocket launch will begin at 9.00 a.m."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەرچەژمارە بۆ هەڵدانی مووشەکەەک لە ٩ ـی بەیانی دەستپێ دەکات."),
+                            "پەرچەژمارە بۆ ھەڵدانی مووشەکەەک لە ٩ ـی بەیانی دەستپێ دەکات."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
           //           ExampleSentenceEnglish(
           //               text:
           //                   "The countdown to the election has already begun."),
-          //           ExampleSentenceKurdish(text: "ئامادەسازی بۆ هەڵبژاردنەکە لەمێژە دەستیپێکردووە."),
+          //           ExampleSentenceKurdish(text: "ئامادەسازی بۆ ھەڵبژاردنەکە لەمێژە دەستیپێکردووە."),
           //         ],
           //       ),
           //     ),

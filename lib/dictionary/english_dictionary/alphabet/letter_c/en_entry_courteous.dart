@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The hotel staff are friendly and courteous."),
                     ExampleSentenceKurdish(
-                        text: "ستافی هوتێلەکە دۆستانە و بەڕێزن."),
+                        text: "ستافی ھوتێلەکە دۆستانە و بەڕێزن."),
                   ],
                 ),
               ),
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Although she often disagreed with me, she was always courteous."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەرچی زۆرجار ناکۆک بوو لەگەڵم، هەمیشە بەڕێز بوو لەگەڵم."),
+                            "ئەگەرچی زۆرجار ناکۆک بوو لەگەڵم، ھەمیشە بەڕێز بوو لەگەڵم."),
                   ],
                 ),
               ),

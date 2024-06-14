@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) باوەڕی ئەوەی جیهان لەلایەن خوداوە درووستکرا بەو شێوەیەی لە ئینجیلدا باسکراوە"),
+                  "١. (ناو) باوەڕی ئەوەی جیھان لەلایەن خوداوە درووستکرا بەو شێوەیەی لە ئینجیلدا باسکراوە"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some people believe in creationism instead of evolution."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک کەس باوەڕیان بە ئافرێنەری هەیە وەک لە پەرەسەندن."),
+                            "ھەندێک کەس باوەڕیان بە ئافرێنەری ھەیە وەک لە پەرەسەندن."),
                   ],
                 ),
               ),

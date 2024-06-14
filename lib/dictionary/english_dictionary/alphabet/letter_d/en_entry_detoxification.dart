@@ -407,11 +407,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: نەهێشتنی ژار، لابردنی ژار یان دەرمان، ژارڕەوێنی
+// کوردی: نەھێشتنی ژار، لابردنی ژار یان دەرمان، ژارڕەوێنی
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دەرمانێک کە دەدرێت بە کەسێک بۆ ئەوەی لە خواردنەوە و خواردنی مادەی هۆشبەر بوەستێت"),
+                  "١. (ناو) دەرمانێک کە دەدرێت بە کەسێک بۆ ئەوەی لە خواردنەوە و خواردنی مادەی ھۆشبەر بوەستێت"),
           const AlsoEnglishckb(word: "ھەروەھا: detox"),
           Row(
             children: [
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The center specializes in detoxification for addicts."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەنتەرەکە شارەزایی هەیە لە پاککردنەوەی ئاڵوودەبوان."),
+                            "سەنتەرەکە شارەزایی ھەیە لە پاککردنەوەی ئاڵوودەبوان."),
                   ],
                 ),
               ),

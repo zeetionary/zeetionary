@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) لەدەستچوونی ڕێز و شکۆ بەهۆی ئەوەی شتێکی نائەخلاقی یان پەسەند نەکراوت کردووە "),
+                  "١. (ناو) لەدەستچوونی ڕێز و شکۆ بەھۆی ئەوەی شتێکی نائەخلاقی یان پەسەند نەکراوت کردووە "),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Her actions have brought shame and dishonour on the profession."),
                     ExampleSentenceKurdish(
-                        text: "کارەکانی شەرم و ئابڕووچوونی هێناوە بۆ پیشەکە."),
+                        text: "کارەکانی شەرم و ئابڕووچوونی ھێناوە بۆ پیشەکە."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There is no dishonour in such a defeat."),
                     ExampleSentenceKurdish(
-                        text: "هیچ ئابڕووچوونێک لە شکستێکی وەهادا نییە."),
+                        text: "ھیچ ئابڕووچوونێک لە شکستێکی وەھادا نییە."),
                   ],
                 ),
               ),
@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He had dishonoured nearly all of his election pledges."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەنزیکەیی هەموو بەڵێنەکانی هەڵبژاردنی شکاندبوو."),
+                            "بەنزیکەیی ھەموو بەڵێنەکانی ھەڵبژاردنی شکاندبوو."),
                   ],
                 ),
               ),

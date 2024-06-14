@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە ڕوون و تیژە و بە ئاسانی هەستی پێدەکرێت"),
+                  "٢. (ھاوەڵکار) بەشێوەیەک کە ڕوون و تیژە و بە ئاسانی ھەستی پێدەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Every word came out crisply through the sound system."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو وشەیەک بە ڕوونی لە سیستەمی دەنگەکەوە دەهاتە دەرەوە."),
+                            "ھەموو وشەیەک بە ڕوونی لە سیستەمی دەنگەکەوە دەھاتە دەرەوە."),
                   ],
                 ),
               ),
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The crisply cold morning hinted at the coming of winter."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەیانییە سارد و وشکەکە نیشانە بوو بۆ هاتنی زستان."),
+                            "بەیانییە سارد و وشکەکە نیشانە بوو بۆ ھاتنی زستان."),
                   ],
                 ),
               ),

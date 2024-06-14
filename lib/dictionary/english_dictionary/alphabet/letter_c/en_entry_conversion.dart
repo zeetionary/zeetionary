@@ -194,11 +194,11 @@ class EnglishEntryconversion extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، هەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، هەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
+کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، ھەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، ھەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارهێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
+                                  "١. (ناو) کردار یان پڕۆسەی گۆڕانی شتێک لە جۆرێک، بەکارھێنانێک، یان سیستەمێکەوە بۆ یەکێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -265,7 +265,7 @@ class EnglishEntryconversion extends StatelessWidget {
                                             "There are no charges for currency conversion."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
+                                            "ھیچ بڕێک وەرناگیرێت بۆ گۆڕینەوەی پارە."),
                                   ],
                                 ),
                               ),

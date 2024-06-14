@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -544,7 +546,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: مات، لێڵ، کەم‌ڕەنگ، تەڵخ، قورس، نابریقەدار،	(دەنگ) گیراو، نووساو، بۆڕ،	(هەوا) هەوری، هەوروهەڵا،	(ژان) کەم، سووک،	(چەقۆ و هتد) کول، نەبڕ، تەڤلار، نەتیژ، بێساو (بەتایبەت بۆ داس)،	گێژ، گێل، کول، گەمژە، زەین‌کوێر، دەبەنگ، درەنگ‌تێگەیشتوو، بێ‌دەم‌وپل، گەوجانە،	وەڕەزکەر، دیق‌پێ‌کەر، ماندووکەر، ناخۆش،	بێ‌بازاڕی، سست، بازاڕکەساس، نەشلوق، خاو،	بنە، بنژیل، بن‌بار، ئایەخ، بەشی نەفرۆشراو
+کوردی: مات، لێڵ، کەم‌ڕەنگ، تەڵخ، قورس، نابریقەدار،	(دەنگ) گیراو، نووساو، بۆڕ،	(ھەوا) ھەوری، ھەوروھەڵا،	(ژان) کەم، سووک،	(چەقۆ و ھتد) کول، نەبڕ، تەڤلار، نەتیژ، بێساو (بەتایبەت بۆ داس)،	گێژ، گێل، کول، گەمژە، زەین‌کوێر، دەبەنگ، درەنگ‌تێگەیشتوو، بێ‌دەم‌وپل، گەوجانە،	وەڕەزکەر، دیق‌پێ‌کەر، ماندووکەر، ناخۆش،	بێ‌بازاڕی، سست، بازاڕکەساس، نەشلوق، خاو،	بنە، بنژیل، بن‌بار، ئایەخ، بەشی نەفرۆشراو
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) شتێک کە ناخۆشە و چێژی لێ نابینێت"""),
@@ -615,7 +617,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There's never a dull moment when John's around."""),
                     ExampleSentenceKurdish(
-                        text: """هەرگیز ساتێکی خەماوی نییە کە جۆن لێرەیە."""),
+                        text: """ھەرگیز ساتێکی خەماوی نییە کە جۆن لێرەیە."""),
                   ],
                 ),
               ),
@@ -716,7 +718,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ھاوەڵناو) بە هەورێکی زۆرەوە"""),
+          const DefinitionKurdish(text: """٣. (ھاوەڵناو) بە ھەورێکی زۆرەوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -726,7 +728,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """It was a dull, grey day."""),
                     ExampleSentenceKurdish(
-                        text: """ڕۆژێکی لێڵی هەوراوی بوو."""),
+                        text: """ڕۆژێکی لێڵی ھەوراوی بوو."""),
                   ],
                 ),
               ),
@@ -757,7 +759,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I heard a dull thud from the kitchen and realized she must have fainted."""),
                     ExampleSentenceKurdish(
                         text:
-                            """گوێم لە تەپەیەکی نزم بوو لە چێشتخانەکە و زانیم کە دەبێت لەهۆش خۆی چووبێت."""),
+                            """گوێم لە تەپەیەکی نزم بوو لە چێشتخانەکە و زانیم کە دەبێت لەھۆش خۆی چووبێت."""),
                   ],
                 ),
               ),
@@ -788,7 +790,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She felt a dull ache at the back of her head."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەستی بە ژانێکی سووک لە پشتەوەی سەری دەکرد."""),
+                            """ھەستی بە ژانێکی سووک لە پشتەوەی سەری دەکرد."""),
                   ],
                 ),
               ),
@@ -837,7 +839,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٧. (ھاوەڵناو) بازاڕێکی هێواش"""),
+          const DefinitionKurdish(text: """٧. (ھاوەڵناو) بازاڕێکی ھێواش"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -866,7 +868,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٨. (کردار) لاوازکردنی هەستێک یان ئازارێک"""),
+              text: """٨. (کردار) لاوازکردنی ھەستێک یان ئازارێک"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -906,7 +908,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The pain of loss never dulls."""),
                     ExampleSentenceKurdish(
-                        text: """ئازاری لەدەستدان هەرگیز سووک نابێت."""),
+                        text: """ئازاری لەدەستدان ھەرگیز سووک نابێت."""),
                   ],
                 ),
               ),
@@ -964,7 +966,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He felt dulled and stupid with sleep."""),
                     ExampleSentenceKurdish(
-                        text: """هەستی بە سستی و گێژی دەکرد لە خەودا."""),
+                        text: """ھەستی بە سستی و گێژی دەکرد لە خەودا."""),
                   ],
                 ),
               ),
@@ -1024,7 +1026,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The endless rain seemed to dull all sound."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بارانە بێ کۆتاکە وادیاربوو کە هەموو دەنگێک کپ بکاتەوە."""),
+                            """بارانە بێ کۆتاکە وادیاربوو کە ھەموو دەنگێک کپ بکاتەوە."""),
                   ],
                 ),
               ),
@@ -1307,7 +1309,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q9RMyg80KfU?t=',
+    videoId: 'q9RMyg80KfU',
     startSeconds: 396,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1332,7 +1334,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 1133,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1357,7 +1359,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TRGHIN2PGIA?t=',
+    videoId: 'TRGHIN2PGIA',
     startSeconds: 446,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1382,7 +1384,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MzSktgpfD84?t=',
+    videoId: 'MzSktgpfD84',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1407,7 +1409,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ssySdK98zk?t=',
+    videoId: '0ssySdK98zk',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1432,7 +1434,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rk9rfi4wYE4',
+    videoId: 'Rk9rfi4wYE4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1457,7 +1459,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EbFjP0Ajti8?t=',
+    videoId: 'EbFjP0Ajti8',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(

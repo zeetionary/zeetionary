@@ -191,7 +191,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گرژێنەر، مایەی گەشکە، گەشکەهێن(ەر)،	خۆنەویستە، کۆنترۆڵ‌نەکراو
+کوردی: گرژێنەر، مایەی گەشکە، گەشکەھێن(ەر)،	خۆنەویستە، کۆنترۆڵ‌نەکراو
 """),
                           const DefinitionKurdish(
                               text:
@@ -206,7 +206,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
                                             "Her breath came in convulsive gasps."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەناسەدانەکەی بە هەناسەبڕکێی کۆنترۆڵ‌نەکراو بوو."),
+                                            "ھەناسەدانەکەی بە ھەناسەبڕکێی کۆنترۆڵ‌نەکراو بوو."),
                                   ],
                                 ),
                               ),

@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The Brazilian attack put France's defenders under pressure."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێرشی بەرازیل بەرگریکارانی فەرەنسای خستە ژێر پەستانەوە."),
+                            "ھێرشی بەرازیل بەرگریکارانی فەرەنسای خستە ژێر پەستانەوە."),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) کەسێک کە بەرگری لە شتێک دەکات و باوەڕی پێی هەیە"),
+              text: "٢. (ناو) کەسێک کە بەرگری لە شتێک دەکات و باوەڕی پێی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) کەسێک کە شوێنێک لە هێرش دەپارێزێت"),
+              text: "٣. (ھاوەڵناو) کەسێک کە شوێنێک لە ھێرش دەپارێزێت"),
           Row(
             children: [
               const Expanded(

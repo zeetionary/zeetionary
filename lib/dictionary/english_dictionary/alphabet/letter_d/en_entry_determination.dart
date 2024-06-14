@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دیاری‌کردن،	بڕیاردان، بڕینەوە، ویست، بڕیار(ی پتەو)،	لێکدانەوە،	بەسەرچوون، تێپەڕین
 """),
-          const DefinitionKurdish(text: "١. (ناو) ویستی بەهێز بۆ کردنی شتێک"),
+          const DefinitionKurdish(text: "١. (ناو) ویستی بەھێز بۆ کردنی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He fought the illness with courage and determination."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە بوێری و ویستی بەهێزەوە دژی نەخۆشییەکە وەستایەوە."),
+                            "بە بوێری و ویستی بەھێزەوە دژی نەخۆشییەکە وەستایەوە."),
                   ],
                 ),
               ),
@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He succeeded by hard work and sheer determination."),
                     ExampleSentenceKurdish(
-                        text: "بە هەوڵی بێوچان و ئیرادەی نەبڕاوە سەرکەوت."),
+                        text: "بە ھەوڵی بێوچان و ئیرادەی نەبڕاوە سەرکەوت."),
                   ],
                 ),
               ),
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Both methods rely on the accurate determination of the pressure of the gas."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەردوو ڕێگاکە پشت دەبەستن بە خەمڵاندنی درووستی پەستانی گازەکە."),
+                            "ھەردوو ڕێگاکە پشت دەبەستن بە خەمڵاندنی درووستی پەستانی گازەکە."),
                   ],
                 ),
               ),

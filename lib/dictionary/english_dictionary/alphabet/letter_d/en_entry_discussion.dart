@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وت‌ووێژ، هەڤ‌پەیڤین، ڕاگۆڕینەوە، دان‌وستان، گفت‌وگۆ، لێدوان
+کوردی: وت‌ووێژ، ھەڤ‌پەیڤین، ڕاگۆڕینەوە، دان‌وستان، گفت‌وگۆ، لێدوان
 """),
           const DefinitionKurdish(text: "١. (ناو) گفتوگۆیەک لەسەر کەسێک/شتێک"),
           Row(
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We had a discussion with them about the differences between Britain and the US."),
                     ExampleSentenceKurdish(
                         text:
-                            "گفتوگۆیەکمان لەگەڵیان هەبوو سەبارەت بە جیاوازییەکانی ئەمریکا و بەریتانیا."),
+                            "گفتوگۆیەکمان لەگەڵیان ھەبوو سەبارەت بە جیاوازییەکانی ئەمریکا و بەریتانیا."),
                   ],
                 ),
               ),
@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We want to encourage public discussion of mental health issues."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەمانەوێت هانی گفتوگۆی گشتی بدەین لەسەر کێشەکانی تەندرووستی دەروونی."),
+                            "دەمانەوێت ھانی گفتوگۆی گشتی بدەین لەسەر کێشەکانی تەندرووستی دەروونی."),
                   ],
                 ),
               ),

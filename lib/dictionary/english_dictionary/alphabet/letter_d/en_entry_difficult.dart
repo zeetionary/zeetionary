@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەخت، گران، پڕئەرک، ئاسێ، کەرژاڵ، دژوار، چەتوون، ئاریش،	سەخت، قیرسیچمە، سەختگر، درەنگ‌ڕازی(بوو)، پڕچاوەڕوانی، عیناد، سەرڕەق، مانگرتوو، کەلەڕەق، سەرسەخت، هەرۆک، لاڕێ، لەنجباز
+کوردی: سەخت، گران، پڕئەرک، ئاسێ، کەرژاڵ، دژوار، چەتوون، ئاریش،	سەخت، قیرسیچمە، سەختگر، درەنگ‌ڕازی(بوو)، پڕچاوەڕوانی، عیناد، سەرڕەق، مانگرتوو، کەلەڕەق، سەرسەخت، ھەرۆک، لاڕێ، لەنجباز
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەخت"),
           Row(
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Asking for help is extremely difficult for some people."),
                     ExampleSentenceKurdish(
-                        text: "داواکردنی یارمەتی تەواو سەزتە بۆ هەندێک کەس."),
+                        text: "داواکردنی یارمەتی تەواو سەزتە بۆ ھەندێک کەس."),
                   ],
                 ),
               ),
@@ -556,7 +556,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She finds it very difficult to get up early."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "زۆر بە سەختی دەبینێت زوو لە خەو هەستێت."),
+                                    "زۆر بە سەختی دەبینێت زوو لە خەو ھەستێت."),
                           ],
                         ),
                       ),
@@ -702,7 +702,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "She is confronted with a difficult choice."),
                             ExampleSentenceKurdish(
-                                text: "ڕووبەڕووی هەڵبژاردەیەکی سەخت بووە."),
+                                text: "ڕووبەڕووی ھەڵبژاردەیەکی سەخت بووە."),
                           ],
                         ),
                       ),
@@ -793,7 +793,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I'd had a difficult time and needed a break."),
                     ExampleSentenceKurdish(
                         text:
-                            "کاتێکی سەختم هەبووبوو و پێویستیم بە پشوویەک بوو."),
+                            "کاتێکی سەختم ھەبووبوو و پێویستیم بە پشوویەک بوو."),
                   ],
                 ),
               ),
@@ -855,7 +855,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "They had to set up camp in extremely difficult conditions."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "پێویست بوو کەمپ هەڵبدەن لە دۆخێکی زۆر سەختدا."),
+                                    "پێویست بوو کەمپ ھەڵبدەن لە دۆخێکی زۆر سەختدا."),
                           ],
                         ),
                       ),
@@ -947,7 +947,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Don't pay any attention to her—she's just being difficult."),
                     ExampleSentenceKurdish(
-                        text: "هیچ سەرنجی پێمەدە ـ تەنها خۆی عیناد کردووە."),
+                        text: "ھیچ سەرنجی پێمەدە ـ تەنھا خۆی عیناد کردووە."),
                   ],
                 ),
               ),
@@ -975,7 +975,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Roger was always a difficult child."),
                     ExampleSentenceKurdish(
-                        text: "ڕۆجەر هەمیشە منداڵێکی کەلەڕەق بوو."),
+                        text: "ڕۆجەر ھەمیشە منداڵێکی کەلەڕەق بوو."),
                   ],
                 ),
               ),

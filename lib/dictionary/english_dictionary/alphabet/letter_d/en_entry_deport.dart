@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەهۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
+                  "١. (کردار) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەھۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was convicted of drug offences and deported."),
                     ExampleSentenceKurdish(
                         text:
-                            "تاوانبارکرا بە تاوانی مادەی هۆشبەر و دیپۆرت کرایەوە."),
+                            "تاوانبارکرا بە تاوانی مادەی ھۆشبەر و دیپۆرت کرایەوە."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many refugees were forcibly deported back to the countries they had come from."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر پەنابەر بەزۆر نێردرانەوە بۆ ئەو وڵاتانەی لێیانەوە هاتبوون."),
+                            "زۆر پەنابەر بەزۆر نێردرانەوە بۆ ئەو وڵاتانەی لێیانەوە ھاتبوون."),
                   ],
                 ),
               ),

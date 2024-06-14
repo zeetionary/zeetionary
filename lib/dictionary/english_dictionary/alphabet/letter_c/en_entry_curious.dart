@@ -337,11 +337,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ورد(ەوەبوو)، زانین‌خواز، بەپرسیار،	وریا، بەپەرۆش، بەتاسە، هۆگر،	خۆلێ‌هەڵقوتێن،	سەیر، سەمەرە، نەناس، نائاسایی، ناوازە
+کوردی: ورد(ەوەبوو)، زانین‌خواز، بەپرسیار،	وریا، بەپەرۆش، بەتاسە، ھۆگر،	خۆلێ‌ھەڵقوتێن،	سەیر، سەمەرە، نەناس، نائاسایی، ناوازە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) هەبوونی حەزێکی زۆر بۆ زانین سەبارەت بە شتێک"),
+                  "١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ زانین سەبارەت بە شتێک"),
           Row(
             children: [
               const Expanded(
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He is such a curious boy, always asking questions."),
                     ExampleSentenceKurdish(
-                        text: "کوڕێکی زۆر زانین‌خوازە و هەمیشە پرسیار دەکات."),
+                        text: "کوڕێکی زۆر زانین‌خوازە و ھەمیشە پرسیار دەکات."),
                   ],
                 ),
               ),
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Everyone was curious as to why Mark was leaving."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموان بەپرسیاربوون سەبارەت بەوەی بۆچی مارک دەچوو."),
+                            "ھەموان بەپرسیاربوون سەبارەت بەوەی بۆچی مارک دەچوو."),
                   ],
                 ),
               ),
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She coped with the curious looks of the men."),
                     ExampleSentenceKurdish(
-                        text: "خۆی ڕاهێنابوو لەگەڵ نیگای نامۆی پیاواندا."),
+                        text: "خۆی ڕاھێنابوو لەگەڵ نیگای نامۆی پیاواندا."),
                   ],
                 ),
               ),
@@ -540,7 +540,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "It was a curious feeling, as though we were floating on air."),
                     ExampleSentenceKurdish(
-                        text: "هەستێکی نامۆ بوو وەک ئەوەی سەر هەوا کەوتبین."),
+                        text: "ھەستێکی نامۆ بوو وەک ئەوەی سەر ھەوا کەوتبین."),
                   ],
                 ),
               ),

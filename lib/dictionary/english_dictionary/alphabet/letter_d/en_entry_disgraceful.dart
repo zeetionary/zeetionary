@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "His behaviour was absolutely disgraceful!"),
                     ExampleSentenceKurdish(
-                        text: "هەڵسوکەوتی تەواو شەرمهێنەر بوو."),
+                        text: "ھەڵسوکەوتی تەواو شەرمھێنەر بوو."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It's disgraceful that none of the family tried to help her."),
                     ExampleSentenceKurdish(
                         text:
-                            "شەرمە کە هیچ یەک لە خێزانەکە هەوڵیان نەدا یارمەتی بدەن."),
+                            "شەرمە کە ھیچ یەک لە خێزانەکە ھەوڵیان نەدا یارمەتی بدەن."),
                   ],
                 ),
               ),

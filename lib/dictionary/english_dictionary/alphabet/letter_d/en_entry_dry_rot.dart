@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -535,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دار کە لەناوچووە و کراوە بە هاڕاوە؛ هەر کەڕوویەک کە دەبێتە هۆکاری ئەمە"),
+                  "١. (ناو) دار کە لەناوچووە و کراوە بە ھاڕاوە؛ ھەر کەڕوویەک کە دەبێتە ھۆکاری ئەمە"),
           Row(
             children: [
               const Expanded(
@@ -563,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) شتێک کە بە هێواشی شتێکی دیکە لەناودەبات"),
+              text: "٢. (ناو) شتێک کە بە ھێواشی شتێکی دیکە لەناودەبات"),
           // const DividerSentences(),
           Row(
             children: [
@@ -575,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
                             "World War I confirmed the dry rot of the 19th-Century European patriarchy."),
                     ExampleSentenceKurdish(
                         text:
-                            "جەنگی یەکەمی جیهانی دووپاتکردنەوەی وێرانکەری پیاوسالاری سەدەی ١٩ ـی ئەورووپا بوو."),
+                            "جەنگی یەکەمی جیھانی دووپاتکردنەوەی وێرانکەری پیاوسالاری سەدەی ١٩ ـی ئەورووپا بوو."),
                   ],
                 ),
               ),
@@ -1224,7 +1226,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cKi00WlJo1c?t=',
+    videoId: 'cKi00WlJo1c',
     startSeconds: 356,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1249,7 +1251,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l1-a7Va8Ot8?t=',
+    videoId: 'l1-a7Va8Ot8',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1274,7 +1276,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tNIMjrlBJhc?t=',
+    videoId: 'tNIMjrlBJhc',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1299,7 +1301,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RHBBRX4tpkk?t=',
+    videoId: 'RHBBRX4tpkk',
     startSeconds: 2181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1324,7 +1326,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6PM3M6lWGHM?t=',
+    videoId: '6PM3M6lWGHM',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1349,7 +1351,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qhpjSW1Oeow?t=',
+    videoId: 'qhpjSW1Oeow',
     startSeconds: 3807,
     autoPlay: true,
     params: const YoutubePlayerParams(

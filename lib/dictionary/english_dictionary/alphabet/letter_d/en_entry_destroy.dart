@@ -453,7 +453,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The earthquake damaged or destroyed countless homes."),
                     ExampleSentenceKurdish(
                         text:
-                            "بوومەلەرزەکە خانووی لە ژماردن‌نەهاتووی زیان پێگەیاند و لەناوی بردن."),
+                            "بوومەلەرزەکە خانووی لە ژماردن‌نەھاتووی زیان پێگەیاند و لەناوی بردن."),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some of the habitat has already been totally destroyed."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک لە ژینگەکان لەمێژە بە تەواوی لەناوچوونە."),
+                            "ھەندێک لە ژینگەکان لەمێژە بە تەواوی لەناوچوونە."),
                   ],
                 ),
               ),
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They've destroyed all the evidence."),
                     ExampleSentenceKurdish(
-                        text: "هەموو بەڵگەیەکیان لەناوبردووە."),
+                        text: "ھەموو بەڵگەیەکیان لەناوبردووە."),
                   ],
                 ),
               ),
@@ -530,7 +530,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) نەهێشتنی هەموو چێژ و خۆشبەختی ژیانی کەسێک"),
+              text: "٢. (کردار) نەھێشتنی ھەموو چێژ و خۆشبەختی ژیانی کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "Failure was slowly destroying him."),
-                    ExampleSentenceKurdish(text: "شکست بەهێواشی وێرانی دەکرد."),
+                    ExampleSentenceKurdish(text: "شکست بەھێواشی وێرانی دەکرد."),
                   ],
                 ),
               ),
@@ -566,7 +566,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She threatened to destroy my reputation."),
                     ExampleSentenceKurdish(
-                        text: "هەڕەشەی ئەوەی کرد کە ناوبانگم وێران بکات."),
+                        text: "ھەڕەشەی ئەوەی کرد کە ناوبانگم وێران بکات."),
                   ],
                 ),
               ),
@@ -616,7 +616,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) کوشتنی بەئەنقەستی ئاژەڵێک، زۆرجار بەهۆی ئەوەی نەخۆشە یان نەویستراوە"),
+                  "٣. (کردار) کوشتنی بەئەنقەستی ئاژەڵێک، زۆرجار بەھۆی ئەوەی نەخۆشە یان نەویستراوە"),
           // const DividerSentences(),
           Row(
             children: [

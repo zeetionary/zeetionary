@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) شتێک کە دەکرێت بۆ شاردنەوەی هەڵەیەک یان کارێکی نایاسایی لە ڕای گشتی"),
+                  "١. (ناو) شتێک کە دەکرێت بۆ شاردنەوەی ھەڵەیەک یان کارێکی نایاسایی لە ڕای گشتی"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Government sources denied there had been a deliberate coverup."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست هەبێت."),
+                            "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست ھەبێت."),
                   ],
                 ),
               ),

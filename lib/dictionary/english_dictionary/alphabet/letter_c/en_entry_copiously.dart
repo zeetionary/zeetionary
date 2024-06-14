@@ -206,7 +206,7 @@ class EnglishEntrycopiously extends StatelessWidget {
                                             "We ate and drank copiously at the party."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرمان خوارد و خواردەوە لە ئاهەنگەکە."),
+                                            "زۆرمان خوارد و خواردەوە لە ئاھەنگەکە."),
                                   ],
                                 ),
                               ),

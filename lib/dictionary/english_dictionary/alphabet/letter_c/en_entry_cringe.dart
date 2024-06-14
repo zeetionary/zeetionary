@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: زمان‌لووسی، کلکەسووتێ، مەرایی
 // """),
           const DefinitionKurdish(
-              text: "١. (کردار) چوونە دواوە بەهۆی ئەوەی ترساویت"),
+              text: "١. (کردار) چوونە دواوە بەھۆی ئەوەی ترساویت"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The puppy is very nervous and cringes at every loud noise."),
                     ExampleSentenceKurdish(
                         text:
-                            "توولەکە زۆر شڵەژاوە و لە هەر دەنگێکی بەرز ڕادەچڵەکێت."),
+                            "توولەکە زۆر شڵەژاوە و لە ھەر دەنگێکی بەرز ڕادەچڵەکێت."),
                   ],
                 ),
               ),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) هەستکردن بە شەرمێکی زۆر و نائاسوودەیی سەبارەت بە شتێک"),
+                  "٢. (کردار) ھەستکردن بە شەرمێکی زۆر و نائاسوودەیی سەبارەت بە شتێک"),
           Row(
             children: [
               const Expanded(
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I cringe when I think of the poems I wrote then."),
                     ExampleSentenceKurdish(
                         text:
-                            "شەرم دەمگرێت کە بیر لەو هۆنراوانە دەکەمەوە کە ئەوکات دەمنووسین."),
+                            "شەرم دەمگرێت کە بیر لەو ھۆنراوانە دەکەمەوە کە ئەوکات دەمنووسین."),
                   ],
                 ),
               ),
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             "When I hear my own voice played back I just sit there cringing."),
                     ExampleSentenceKurdish(
                         text:
-                            "کە گوێ دەگرم لە لێدانەوەی دەنگی خۆم تەنها دادەنیشم و شەرم دەمگرێت."),
+                            "کە گوێ دەگرم لە لێدانەوەی دەنگی خۆم تەنھا دادەنیشم و شەرم دەمگرێت."),
                   ],
                 ),
               ),

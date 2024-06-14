@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) دیاریکردن، ڕێکخستن، و چاودێری کردنی کەرەستە و کارەکانی مۆزەخانەیەک، پێشانگایەکی هونەری، هتد"),
+                  "١. (کردار) دیاریکردن، ڕێکخستن، و چاودێری کردنی کەرەستە و کارەکانی مۆزەخانەیەک، پێشانگایەکی ھونەری، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She curated a recent exhibition of Indian artwork."),
                     ExampleSentenceKurdish(
-                        text: "پێشانگایەکی تازەگی کاری هونەری هیندیی ڕێکخست."),
+                        text: "پێشانگایەکی تازەگی کاری ھونەری ھیندیی ڕێکخست."),
                   ],
                 ),
               ),
@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) کۆکردنەوە، دیاریکردن، و پیشاندانی زانیاری یان کەرەستەی وەک وێنە، ڤیدیۆ، میوزیک، هتد بۆ ئەوەی خەڵکی بەکاری بهێنن یان چێژی لێ ببینن"),
+                  "٢. (کردار) کۆکردنەوە، دیاریکردن، و پیشاندانی زانیاری یان کەرەستەی وەک وێنە، ڤیدیۆ، میوزیک، ھتد بۆ ئەوەی خەڵکی بەکاری بھێنن یان چێژی لێ ببینن"),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A UK rock band are curating the BBC's digital music station for a week."),
                     ExampleSentenceKurdish(
                         text:
-                            "باندێکی ڕۆکی بەریتانی کاری ڕێکخستنی وێستگەی میوزیکی دیجیتاڵی بی‌بی‌سی بۆ هەفتەیەک دەکەن."),
+                            "باندێکی ڕۆکی بەریتانی کاری ڕێکخستنی وێستگەی میوزیکی دیجیتاڵی بی‌بی‌سی بۆ ھەفتەیەک دەکەن."),
                   ],
                 ),
               ),

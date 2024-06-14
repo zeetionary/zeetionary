@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He had a coughing fit and couldn't speak for a few moments."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆکە لێهاتنێکی بوو و نەیدەتوانی بۆ چەند ساتێک قسە بکات."),
+                            "کۆکە لێھاتنێکی بوو و نەیدەتوانی بۆ چەند ساتێک قسە بکات."),
                   ],
                 ),
               ),
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Sometimes she coughed (up) blood."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک جار خوێنی هەڵدەهێنایەوە."),
+                        text: "ھەندێک جار خوێنی ھەڵدەھێنایەوە."),
                   ],
                 ),
               ),
@@ -514,7 +514,7 @@ class KurdishMeaning extends StatelessWidget {
                             "My cold's better, but I can't seem to shake off this cough."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵامەتەکەم باشترە، بەڵام وادیار نییە ئەم کۆکە لەخۆم بکەمەوە."),
+                            "ھەڵامەتەکەم باشترە، بەڵام وادیار نییە ئەم کۆکە لەخۆم بکەمەوە."),
                   ],
                 ),
               ),

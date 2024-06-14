@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Troops opened fire on the demonstrators."),
                     ExampleSentenceKurdish(
-                        text: "هێزەکان تەقەیان بەسەر خۆپیشاندەراندا کرد."),
+                        text: "ھێزەکان تەقەیان بەسەر خۆپیشاندەراندا کرد."),
                   ],
                 ),
               ),

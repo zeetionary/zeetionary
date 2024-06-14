@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پڕجم‌وجۆڵ، هەڵسووڕ، بەگوڕ، بەڕشت، بەتین،	هەژێنەر، ورووژێنەر،	(جل و هتد) جوان، ڕێک‌وپێک، شۆخ
+کوردی: پڕجم‌وجۆڵ، ھەڵسووڕ، بەگوڕ، بەڕشت، بەتین،	ھەژێنەر، ورووژێنەر،	(جل و ھتد) جوان، ڕێک‌وپێک، شۆخ
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پیاوێکی سەرنجڕاکێش و پڕ لە باوەڕبەخۆبوون"),
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The dashing young officer caught everyone's attention at the ball."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەفسەرە گەنجە قۆزەکە سەرنجی هەموانی ڕاکێشا لە شاییەکە."),
+                            "ئەفسەرە گەنجە قۆزەکە سەرنجی ھەموانی ڕاکێشا لە شاییەکە."),
                   ],
                 ),
               ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "He wore a dashing red waistcoat to the party."),
                     ExampleSentenceKurdish(
                         text:
-                            "جلیتقەیەکی سووری سەرنجڕاکێشی لەبەرکرد بۆ ئاهەنگەکە."),
+                            "جلیتقەیەکی سووری سەرنجڕاکێشی لەبەرکرد بۆ ئاھەنگەکە."),
                   ],
                 ),
               ),

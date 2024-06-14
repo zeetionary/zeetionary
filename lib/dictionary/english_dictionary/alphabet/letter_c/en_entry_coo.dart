@@ -197,7 +197,7 @@ class EnglishEntrycoo extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو، کردار) دەنگی هێمنی کۆتر؛ دەرکردنی دەنگێکی وەها"),
+                                  "١. (ناو، کردار) دەنگی ھێمنی کۆتر؛ دەرکردنی دەنگێکی وەھا"),
                           Row(
                             children: [
                               const Expanded(
@@ -228,7 +228,7 @@ class EnglishEntrycoo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو، کردار) قسەی هێمن و لەسەرخۆ بۆ کەسێک کە خۆشت دەوێت؛ قسەکردن بەم شێوەیە"),
+                                  "٢. (ناو، کردار) قسەی ھێمن و لەسەرخۆ بۆ کەسێک کە خۆشت دەوێت؛ قسەکردن بەم شێوەیە"),
                           Row(
                             children: [
                               const Expanded(

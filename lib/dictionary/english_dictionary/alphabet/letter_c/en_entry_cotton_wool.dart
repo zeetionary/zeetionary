@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She used cotton wool to apply the ointment to the wound."),
                     ExampleSentenceKurdish(
                         text:
-                            "لۆکەی بەکارهێنا بۆ لێدانی مەڵهەمەکە لە برینەکە."),
+                            "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە."),
                   ],
                 ),
               ),

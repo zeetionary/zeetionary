@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چواڕڕێ(یانە)، چواڕیانە، چواڕڕێ‌یانە، هاوبڕگە،	خاڵی ورەچەرخان،	خاڵی بڕیاردان، دوڕیانەی گرنگ
+کوردی: چواڕڕێ(یانە)، چواڕیانە، چواڕڕێ‌یانە، ھاوبڕگە،	خاڵی ورەچەرخان،	خاڵی بڕیاردان، دوڕیانەی گرنگ
 """),
           const DefinitionKurdish(text: "١. (ناو) خاڵی یەکتربڕینی دوو ڕێگا"),
           Row(

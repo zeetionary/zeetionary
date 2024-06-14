@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Hot weather always depresses me."),
                     ExampleSentenceKurdish(
-                        text: "کەشی گەرم هەمیشە بێزارم دەکات."),
+                        text: "کەشی گەرم ھەمیشە بێزارم دەکات."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "What depresses me most is that I never see you."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوەی زۆرترین بێزارم دەکات ئەوەیە کە هەرگیز ناتبینم."),
+                            "ئەوەی زۆرترین بێزارم دەکات ئەوەیە کە ھەرگیز ناتبینم."),
                   ],
                 ),
               ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It depresses me to see so many students drop put of school."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوە بێزارم دەکات کە ئەو هەموو خوێندکارە دەبینم لە قوتابخانە دەردەچن."),
+                            "ئەوە بێزارم دەکات کە ئەو ھەموو خوێندکارە دەبینم لە قوتابخانە دەردەچن."),
                   ],
                 ),
               ),
@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) کەمکردنەوەی چالاکی پیشەسازی، بازرگانی، هتد"),
+              text: "٢. (کردار) کەمکردنەوەی چالاکی پیشەسازی، بازرگانی، ھتد"),
           const DividerSentences(),
           Row(
             children: [

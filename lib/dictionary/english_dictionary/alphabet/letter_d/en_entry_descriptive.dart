@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The term I used was meant to be purely descriptive (= not judging)."),
                     ExampleSentenceKurdish(
-                        text: "ئەو وشەیەی بەکارمهێنا تەنها ناسێنەر بوو."),
+                        text: "ئەو وشەیەی بەکارمھێنا تەنھا ناسێنەر بوو."),
                   ],
                 ),
               ),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "The terms are descriptive of strong emotion."),
-                    ExampleSentenceKurdish(text: "وشەکان دەربڕی هەستی بەهێزن."),
+                    ExampleSentenceKurdish(text: "وشەکان دەربڕی ھەستی بەھێزن."),
                   ],
                 ),
               ),

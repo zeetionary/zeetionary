@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرسەرەکی‌یانە، بێ‌وردبوونەوە، بە فشە،	بە پەلە، بە هەڵەداوان، بە پەلەپڕووزکێ
+کوردی: سەرسەرەکی‌یانە، بێ‌وردبوونەوە، بە فشە،	بە پەلە، بە ھەڵەداوان، بە پەلەپڕووزکێ
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەخێرایی و بەبێ سەرنجدانی زۆر"),

@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تێکردن (شەڕاب)، ڕشتن، بەتاڵ کردن
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) ڕژاندنی شلە لە هەڵگرێکەوە بۆ یەکێکی دیکە"),
+              text: "١. (کردار) ڕژاندنی شلە لە ھەڵگرێکەوە بۆ یەکێکی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Decant the wine and allow it to stand at room temperature for a couple of hours."),
                     ExampleSentenceKurdish(
                         text:
-                            "شەرابەکە بڕشە و بهێڵە بۆ چەند کاتژمێرێک لە پلەی گەرمی ژووردا بمێنێتەوە."),
+                            "شەرابەکە بڕشە و بھێڵە بۆ چەند کاتژمێرێک لە پلەی گەرمی ژووردا بمێنێتەوە."),
                   ],
                 ),
               ),

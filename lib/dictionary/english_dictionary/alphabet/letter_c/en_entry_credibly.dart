@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "No other news organization has credibly challenged a single fact."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ دامەزراوەیەکی دیکەی هەواڵ بە متمانەوە دژ بە تاکە ڕاستییەک نەبووە."),
+                            "ھیچ دامەزراوەیەکی دیکەی ھەواڵ بە متمانەوە دژ بە تاکە ڕاستییەک نەبووە."),
                   ],
                 ),
               ),

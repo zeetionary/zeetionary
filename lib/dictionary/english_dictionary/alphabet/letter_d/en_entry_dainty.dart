@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was a small, dainty child, unlike her sister who was large and had big feet."),
                     ExampleSentenceKurdish(
                         text:
-                            "منداڵێکی بچووکی چکۆڵە بوو، بە پێچەوانەی خوشکەکەی کە گەورە بوو و پێی گەورەی هەبوو."),
+                            "منداڵێکی بچووکی چکۆڵە بوو، بە پێچەوانەی خوشکەکەی کە گەورە بوو و پێی گەورەی ھەبوو."),
                   ],
                 ),
               ),

@@ -694,7 +694,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: داخوازی، داوا، برەو،	(ئابوری) داخوازی، داوا،	حەوجێ، پێویستی،	داخوازی پێدان،	(خوازە) بار، قورسایی
 """),
-          const DefinitionKurdish(text: "١. (ناو) داوایەکی بەهێز بۆ شتێک"),
+          const DefinitionKurdish(text: "١. (ناو) داوایەکی بەھێز بۆ شتێک"),
           Row(
             children: [
               const Expanded(
@@ -733,7 +733,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The management had no intention of meeting union demands."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەڕێوەبەرایەتی هیچ نیازێکی نەبوو داواکانی سەندیکاکە جێبەچی بکات."),
+                            "بەڕێوەبەرایەتی ھیچ نیازێکی نەبوو داواکانی سەندیکاکە جێبەچی بکات."),
                   ],
                 ),
               ),
@@ -763,7 +763,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Campaigners have stepped up their demands for immediate government action."),
                     ExampleSentenceKurdish(
                         text:
-                            "چالاکوانان فشاریان زیاد کردووە بۆ داوای هەنگاوی دەستبەجێی حکومەت."),
+                            "چالاکوانان فشاریان زیاد کردووە بۆ داوای ھەنگاوی دەستبەجێی حکومەت."),
                   ],
                 ),
               ),
@@ -813,7 +813,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ئەو شتانەی کە کەسێک یان شتێک ناچارت دەکات بیکەیت، بە تایبەتی شتی سەخت، ماندووکەر، هتد"),
+                  "٢. (ناو) ئەو شتانەی کە کەسێک یان شتێک ناچارت دەکات بیکەیت، بە تایبەتی شتی سەخت، ماندووکەر، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -825,7 +825,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Juggling the demands of work and family is never easy."),
                     ExampleSentenceKurdish(
                         text:
-                            "گونجاندنی پێویستییەکانی کار و خێزان هەرگیز ئاسان نییە."),
+                            "گونجاندنی پێویستییەکانی کار و خێزان ھەرگیز ئاسان نییە."),
                   ],
                 ),
               ),
@@ -851,7 +851,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She shouldn't always give in to his demands."),
                     ExampleSentenceKurdish(
-                        text: "نابێت هەمیشە مل بدات بۆ حەوجێیەکانی."),
+                        text: "نابێت ھەمیشە مل بدات بۆ حەوجێیەکانی."),
                   ],
                 ),
               ),
@@ -904,7 +904,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "As a director he makes huge demands on his actors."),
                     ExampleSentenceKurdish(
-                        text: "وەک دەرهێنەرێک داوای زۆر لە ئەکتەرەکانی دەکات."),
+                        text: "وەک دەرھێنەرێک داوای زۆر لە ئەکتەرەکانی دەکات."),
                   ],
                 ),
               ),
@@ -932,7 +932,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We must prepare children to respond to the demands of work."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەبێت منداڵان ڕابهێنین بۆ پێداویستییەکانی کارکردن."),
+                            "دەبێت منداڵان ڕابھێنین بۆ پێداویستییەکانی کارکردن."),
                   ],
                 ),
               ),
@@ -986,7 +986,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The person who cannot say ‘no’ to others' requests is likely to be overwhelmed by external demands."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو کەسەی کە ناتوانێت بڵێت 'نەخێر' بە داواکانی کەسانی دیکە ئەگەری هەیە بکەوێتە ژێر باری دەرەکییەوە."),
+                            "ئەو کەسەی کە ناتوانێت بڵێت 'نەخێر' بە داواکانی کەسانی دیکە ئەگەری ھەیە بکەوێتە ژێر باری دەرەکییەوە."),
                   ],
                 ),
               ),
@@ -1094,7 +1094,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We are struggling to satisfy the demand for the product."),
                     ExampleSentenceKurdish(
-                        text: "تەقەڵامانە لە ڕاگەشتن بە خواست بۆ بەرهەمەکە."),
+                        text: "تەقەڵامانە لە ڕاگەشتن بە خواست بۆ بەرھەمەکە."),
                   ],
                 ),
               ),
@@ -1113,7 +1113,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) داواکردن بە بەهێزی بۆ شتێک"),
+              text: "٣. (کردار) داواکردن بە بەھێزی بۆ شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1125,7 +1125,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They are demanding the release of all political prisoners."),
                     ExampleSentenceKurdish(
                         text:
-                            "داوای ئازادبوونی هەموو زیندانییە سیاسییەکان دەکەن."),
+                            "داوای ئازادبوونی ھەموو زیندانییە سیاسییەکان دەکەن."),
                   ],
                 ),
               ),
@@ -1209,7 +1209,7 @@ class KurdishMeaning extends StatelessWidget {
                     ),
                     ExampleSentenceKurdish(
                         text:
-                            "نەتەوە یەکگرتووەکان داوای کردووە هەموو هێزەکان بکشێندرێنەوە."),
+                            "نەتەوە یەکگرتووەکان داوای کردووە ھەموو ھێزەکان بکشێندرێنەوە."),
                   ],
                 ),
               ),
@@ -1371,7 +1371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Today's consumers are demanding a greater variety of produce."),
                     ExampleSentenceKurdish(
                         text:
-                            "کڕیارانی ئەم سەردەمە خواستیان لەسەر جۆری زیاتری بەرهەم هەیە."),
+                            "کڕیارانی ئەم سەردەمە خواستیان لەسەر جۆری زیاتری بەرھەم ھەیە."),
                   ],
                 ),
               ),
@@ -1401,7 +1401,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "This sport demands both speed and strength."),
                     ExampleSentenceKurdish(
-                        text: "ئەم وەرزشە پێویستی بە خێرایی و هێز هەیە."),
+                        text: "ئەم وەرزشە پێویستی بە خێرایی و ھێز ھەیە."),
                   ],
                 ),
               ),

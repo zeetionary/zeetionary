@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Poor posture causes deformity in the natural curvature of the spine."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەستان و دانیشتنی خراپ دەبێتە هۆکاری ناڕێکی لە چەماوەیی سرووشتی بڕبڕەی پشت."),
+                            "وەستان و دانیشتنی خراپ دەبێتە ھۆکاری ناڕێکی لە چەماوەیی سرووشتی بڕبڕەی پشت."),
                   ],
                 ),
               ),

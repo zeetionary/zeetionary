@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شەڕ، شاڵاو، خەبات، چالاکی، هەڵمەت
+کوردی: شەڕ، شاڵاو، خەبات، چالاکی، ھەڵمەت
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەوڵێکی ڕشت و درێژ بۆ بەدەستهێنانی شتێک کە پێتوایە ڕاستە یان وەستاندنی شتێک کە پێتوایە هەڵەیە"),
+                  "١. (ناو) ھەوڵێکی ڕشت و درێژ بۆ بەدەستھێنانی شتێک کە پێتوایە ڕاستە یان وەستاندنی شتێک کە پێتوایە ھەڵەیە"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Her moral crusade began in 1963."),
                     ExampleSentenceKurdish(
-                        text: "هەڵمەتە ئەخلاقییەکەی لە ساڵی ١٩٦٣ دەستیپێکرد."),
+                        text: "ھەڵمەتە ئەخلاقییەکەی لە ساڵی ١٩٦٣ دەستیپێکرد."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "For 23 years he led a crusade for peace."),
                     ExampleSentenceKurdish(
-                        text: "بۆ ٢٣ ساڵ ڕابەرایەتی هەڵمەتێکی بۆ ئاشتی کرد."),
+                        text: "بۆ ٢٣ ساڵ ڕابەرایەتی ھەڵمەتێکی بۆ ئاشتی کرد."),
                   ],
                 ),
               ),
@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) هەریەک لەو جەنگانەی کە لە فەلەستین ئەنجامدرا لەلایەن مەسیحییەکانەوە دژ بە موسڵمانان لە سەدەکانی ١١، ١٢، ١٣، و ١٧"),
+                  "٢. (ناو) ھەریەک لەو جەنگانەی کە لە فەلەستین ئەنجامدرا لەلایەن مەسیحییەکانەوە دژ بە موسڵمانان لە سەدەکانی ١١، ١٢، ١٣، و ١٧"),
           Row(
             children: [
               const Expanded(
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) هەوڵدان بۆ بەدەستهێنانی شتێک کە باوەڕت پێی هەیە"),
+                  "٣. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک کە باوەڕت پێی ھەیە"),
           Row(
             children: [
               const Expanded(

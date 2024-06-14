@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەهێزکردن، یارمەتیدان، پشتیوانی کردن، پشت‌ڕاست کردنەوە
+کوردی: بەھێزکردن، یارمەتیدان، پشتیوانی کردن، پشت‌ڕاست کردنەوە
 """),
           const DefinitionKurdish(
               text:

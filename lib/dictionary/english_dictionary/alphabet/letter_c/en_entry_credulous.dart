@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was so credulous that she believed everything she read online."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر خۆش‌باوەڕ بوو کە باوەڕی بە هەموو شتێک دەکرد کە لەسەر ئینتەرنێت دەیخوێندەوە."),
+                            "زۆر خۆش‌باوەڕ بوو کە باوەڕی بە ھەموو شتێک دەکرد کە لەسەر ئینتەرنێت دەیخوێندەوە."),
                   ],
                 ),
               ),

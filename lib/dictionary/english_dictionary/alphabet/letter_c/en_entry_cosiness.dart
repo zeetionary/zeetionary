@@ -329,10 +329,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (ناو) هەستکردن بە گەرمی و ئاسوودەیی و سەلامەتی"),
+              text: "١. (ناو) ھەستکردن بە گەرمی و ئاسوودەیی و سەلامەتی"),
           Row(
             children: [
               const Expanded(

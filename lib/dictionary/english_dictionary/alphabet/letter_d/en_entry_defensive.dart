@@ -407,10 +407,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرگری‌یانە، خۆپارێزەرانە، بەربەستی‌یانە، پارێزەرانە، بەرگری، پاراستن، هەل‌ومەرجی بەرگری، بارودۆخی بەرگری، ڕاسان
+کوردی: بەرگری‌یانە، خۆپارێزەرانە، بەربەستی‌یانە، پارێزەرانە، بەرگری، پاراستن، ھەل‌ومەرجی بەرگری، بارودۆخی بەرگری، ڕاسان
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) پاراستنی کەسێک/شتێک دژ بە هێرش"),
+              text: "١. (ھاوەڵناو) پاراستنی کەسێک/شتێک دژ بە ھێرش"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "These are purely defensive measures."),
                     ExampleSentenceKurdish(
-                        text: "ئەمانە تەنها هەنگاوی خۆپارێزین."),
+                        text: "ئەمانە تەنھا ھەنگاوی خۆپارێزین."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Troops took up a defensive position around the town."),
                     ExampleSentenceKurdish(
                         text:
-                            "هێزەکان چوونە حاڵەتی بەرگرییەوە لە دەوری شارۆچکەکە."),
+                            "ھێزەکان چوونە حاڵەتی بەرگرییەوە لە دەوری شارۆچکەکە."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەک کە وای پیشان دەدات وا هەست دەکەیت سەرزەنشت دەکرێیت"),
+                  "٢. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەک کە وای پیشان دەدات وا ھەست دەکەیت سەرزەنشت دەکرێیت"),
           Row(
             children: [
               const Expanded(
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Don't ask him about his plans—he just gets defensive."),
                     ExampleSentenceKurdish(
                         text:
-                            "لێم مەپرسە سەبارەت بە پلانەکانی ـ تەنها دەچێتە دۆخی خۆپارێزی."),
+                            "لێم مەپرسە سەبارەت بە پلانەکانی ـ تەنھا دەچێتە دۆخی خۆپارێزی."),
                   ],
                 ),
               ),
@@ -528,7 +528,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) هەوڵدان لە پاراستنی گۆڵەکەت دژ بە تیمی بەرامبەر"),
+                  "٣. (ھاوەڵناو) ھەوڵدان لە پاراستنی گۆڵەکەت دژ بە تیمی بەرامبەر"),
           Row(
             children: [
               const Expanded(

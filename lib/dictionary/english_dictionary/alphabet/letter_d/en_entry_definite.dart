@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                             "No definite conclusions can be drawn from this study."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ دەرەنجامێکی تەواو ناکرێت لەم توێژینەوەوە درووست بکرێت."),
+                            "ھیچ دەرەنجامێکی تەواو ناکرێت لەم توێژینەوەوە درووست بکرێت."),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I've heard rumours, but nothing definite."),
                     ExampleSentenceKurdish(
-                        text: "دەنگۆم بیستووە، بەڵام هیچی دڵنیایی نا."),
+                        text: "دەنگۆم بیستووە، بەڵام ھیچی دڵنیایی نا."),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There was a definite improvement in the sound"),
                     ExampleSentenceKurdish(
-                        text: "باشبوونێکی ئاشکرا هەبوو لە دەنگەکەدا."),
+                        text: "باشبوونێکی ئاشکرا ھەبوو لە دەنگەکەدا."),
                   ],
                 ),
               ),
@@ -566,7 +566,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The look on her face was a definite sign that something was wrong."),
                     ExampleSentenceKurdish(
                         text:
-                            "نیگای سەر ڕووخساری ئاماژەیەکی رون بوو کە شتێک هەڵە بوو."),
+                            "نیگای سەر ڕووخساری ئاماژەیەکی رون بوو کە شتێک ھەڵە بوو."),
                   ],
                 ),
               ),
@@ -594,7 +594,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was a definite feeling that things were getting worse."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاماژەیەکی ئاشکرا هەبوو کە شتەکان بەرەو خراپبوون دەچوون."),
+                            "ئاماژەیەکی ئاشکرا ھەبوو کە شتەکان بەرەو خراپبوون دەچوون."),
                   ],
                 ),
               ),
@@ -650,7 +650,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She was definite that they weren't coming till next week."),
                     ExampleSentenceKurdish(
-                        text: "دڵنیابوو لەوەی تاوەکو هەفتەی داهاتوو نایەن."),
+                        text: "دڵنیابوو لەوەی تاوەکو ھەفتەی داھاتوو نایەن."),
                   ],
                 ),
               ),

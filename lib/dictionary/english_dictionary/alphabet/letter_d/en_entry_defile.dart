@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many victims of burglary feel their homes have been defiled."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆرێک لە قوربانیانی دزی وا هەست ماڵەکانیان پیسکراون."),
+                            "زۆرێک لە قوربانیانی دزی وا ھەست ماڵەکانیان پیسکراون."),
                   ],
                 ),
               ),

@@ -196,11 +196,11 @@ class EnglishEntryconvey extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: گەیاندن، بردن، هەڵگرتن
+کوردی: گەیاندن، بردن، ھەڵگرتن
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (کردار) گەیاندنی بیرۆکە، هەست، هتد بە کەسانی دیکە"),
+                                  "١. (کردار) گەیاندنی بیرۆکە، ھەست، ھتد بە کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntryconvey extends StatelessWidget {
                                             "Colours like red convey a sense of energy and strength."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەنگی وەک سوور هەستێکی وزە و بەهێزی دەبەخشن."),
+                                            "ڕەنگی وەک سوور ھەستێکی وزە و بەھێزی دەبەخشن."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconvey extends StatelessWidget {
                                             "She did not wish to convey that they were all at fault."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەیدەویست ئەوە بگەیەنێت کە هەموویان لە هەڵەدا بوون."),
+                                            "نەیدەویست ئەوە بگەیەنێت کە ھەموویان لە ھەڵەدا بوون."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntryconvey extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بردن یان هەڵگرتنی کەسێک یان شتێک لە شوێنێکەوە بۆ شوێنێکی دیکە"),
+                                  "٢. (کردار) بردن یان ھەڵگرتنی کەسێک یان شتێک لە شوێنێکەوە بۆ شوێنێکی دیکە"),
                           Row(
                             children: [
                               const Expanded(

@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕزگارکردن یان ڕەخساندن لە خەیاڵ(وخۆف)، ئاگادارکردنەوە،	ناهومێدی، دڵ‌ساردی، هیوابڕاوی
+کوردی: ڕزگارکردن یان ڕەخساندن لە خەیاڵ(وخۆف)، ئاگادارکردنەوە،	ناھومێدی، دڵ‌ساردی، ھیوابڕاوی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) نەهێشتنی باوەڕی کەسێک بە کەسێک/شتێک، یان نەهێشتنی بۆچوونی باشی"),
+                  "١. (کردار) نەھێشتنی باوەڕی کەسێک بە کەسێک/شتێک، یان نەھێشتنی بۆچوونی باشی"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I'm sorry to disillusion you, but pregnancy is not always wonderful - I was sick every day for six months."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەداخەوەم کە لە خەیاڵ دەردێنم، بەڵام دووگیانی هەموو کات خۆش نییە ـ من بۆ شەش مانگ هەموو ڕۆژێک نەخۆش بووم."),
+                            "بەداخەوەم کە لە خەیاڵ دەردێنم، بەڵام دووگیانی ھەموو کات خۆش نییە ـ من بۆ شەش مانگ ھەموو ڕۆژێک نەخۆش بووم."),
                   ],
                 ),
               ),
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) نائومێد بەهۆی ئەوەی ئەو کەسەی بەهای هەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەها دیارن"),
+                  "٢. (ناو) نائومێد بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
           // const DividerSentences(),
           Row(
             children: [

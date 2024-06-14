@@ -196,11 +196,11 @@ class EnglishEntrycooperative extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: زبارەیی، هەرەوەزی,	پێکوەیی، هاوبەش، بەکۆمەڵ، سەربە هاوکاری
+کوردی: زبارەیی، ھەرەوەزی,	پێکوەیی، ھاوبەش، بەکۆمەڵ، سەربە ھاوکاری
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) کردنی شتێک بە پێکەوەیی یان کارکردنی هەرەوەزی بۆ ئامانجێکی دیاریکراو"),
+                                  "١. (ھاوەڵناو) کردنی شتێک بە پێکەوەیی یان کارکردنی ھەرەوەزی بۆ ئامانجێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -211,7 +211,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                                             "Cooperative activity is essential to effective community work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چالاکی هەرەوەزی گرنگە بۆ کاری کۆمەڵگایەکی کاریگەر."),
+                                            "چالاکی ھەرەوەزی گرنگە بۆ کاری کۆمەڵگایەکی کاریگەر."),
                                   ],
                                 ),
                               ),
@@ -241,7 +241,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                                             "The documentary was a cooperative effort by film-makers from five countries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دۆکیومێنتارییەکە هەوڵێکی هەرەوەزییانە بوو لەلایەن فیلم کارانی پێنج وڵاتەوە."),
+                                            "دۆکیومێنتارییەکە ھەوڵێکی ھەرەوەزییانە بوو لەلایەن فیلم کارانی پێنج وڵاتەوە."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                                             "This is a cooperative venture with the University of Oxford."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە چالاکییەکی هاوبەشە لەگەڵ زانکۆی ئۆکسفۆردا."),
+                                            "ئەمە چالاکییەکی ھاوبەشە لەگەڵ زانکۆی ئۆکسفۆردا."),
                                   ],
                                 ),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) هاریکار بە کردنی ئەوەی داوات لێدەکرێت"),
+                                  "٢. (ھاوەڵناو) ھاریکار بە کردنی ئەوەی داوات لێدەکرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -304,7 +304,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                                             "Employees will generally be more cooperative if their views are taken seriously."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارمەندان بەشێوەیەکی گشتی زیاتر هاریکار دەبن ئەگەر بۆچوونەکانیان بە گرنگییەوە وەربگیرێت."),
+                                            "کارمەندان بەشێوەیەکی گشتی زیاتر ھاریکار دەبن ئەگەر بۆچوونەکانیان بە گرنگییەوە وەربگیرێت."),
                                   ],
                                 ),
                               ),
@@ -326,7 +326,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) کۆمپانیایەک یان دامەزراوەیەک کە خاوەنداری هاوبەشی هەیە"),
+                                  "٣. (ھاوەڵناو) کۆمپانیایەک یان دامەزراوەیەک کە خاوەنداری ھاوبەشی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -337,7 +337,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                                             "The cooperative movement started in Britain in the nineteenth century."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بزووتنەوە هاوبەشەکە لە بەریتانیا لە سەدەی نۆزدەیەمدا دەستی پێکرد."),
+                                            "بزووتنەوە ھاوبەشەکە لە بەریتانیا لە سەدەی نۆزدەیەمدا دەستی پێکرد."),
                                   ],
                                 ),
                               ),
@@ -359,7 +359,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) بازرگانییەک یان چالاکییەکی هاوبەش"),
+                                  "٤. (ناو) بازرگانییەک یان چالاکییەکی ھاوبەش"),
                           Row(
                             children: [
                               const Expanded(
@@ -370,7 +370,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                                             "The family business is now run as a cooperative."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بازرگانییە خێزانییەکە وەک هاوبەشییەک بەڕێوە دەبردرێت."),
+                                            "بازرگانییە خێزانییەکە وەک ھاوبەشییەک بەڕێوە دەبردرێت."),
                                   ],
                                 ),
                               ),

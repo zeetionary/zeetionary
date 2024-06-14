@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) زۆرکردن لە کەسێک کە شوێنێک، پێگەیەک، یان کارێک جێبهێڵێت"),
+                  "٢. (کردار) زۆرکردن لە کەسێک کە شوێنێک، پێگەیەک، یان کارێک جێبھێڵێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The rebels have so far failed to dislodge the President."),
                     ExampleSentenceKurdish(
                         text:
-                            "یاخیبووەکان یاوەکو ئێستا شکستیان هێناوە لەوەی سەرۆک دەربکەن."),
+                            "یاخیبووەکان یاوەکو ئێستا شکستیان ھێناوە لەوەی سەرۆک دەربکەن."),
                   ],
                 ),
               ),

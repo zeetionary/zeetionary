@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەسێک کە خۆی لە کەسێک نزیک دەکاتەوە و دڵی خۆش دەکات بۆ بەدەستهێنانی ئەوەی دەیەوێت"),
+                  "١. (ناو) کەسێک کە خۆی لە کەسێک نزیک دەکاتەوە و دڵی خۆش دەکات بۆ بەدەستھێنانی ئەوەی دەیەوێت"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She became known as a crawler after constantly praising the teacher to get better grades."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەک ماستاوچی ناسرا لە دوای ئەوەی بەردەوام ستایشی مامۆستاکەی دەکرد بۆ بەدەستهێنانی نمرەی بەرزتر."),
+                            "وەک ماستاوچی ناسرا لە دوای ئەوەی بەردەوام ستایشی مامۆستاکەی دەکرد بۆ بەدەستھێنانی نمرەی بەرزتر."),
                   ],
                 ),
               ),
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Crawlers often develop their arm muscles quickly from all the crawling."),
                     ExampleSentenceKurdish(
                         text:
-                            "گاگۆڵکێکاران زۆرجار ماسولکەی باڵیان زوو گەشە پێدەدەن بەهۆی ئەو هەموو گاگۆڵکێیەوە."),
+                            "گاگۆڵکێکاران زۆرجار ماسولکەی باڵیان زوو گەشە پێدەدەن بەھۆی ئەو ھەموو گاگۆڵکێیەوە."),
                   ],
                 ),
               ),

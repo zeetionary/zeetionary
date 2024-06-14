@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) لە شێوەی وێنەکێشانێکی سادە بە بەکارهێنانی هێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، هتد"),
+                  "١. (ھاوەڵناو) لە شێوەی وێنەکێشانێکی سادە بە بەکارھێنانی ھێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A diagrammatic representation of this life cycle is shown in figure 4.1."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕوونکردنەوەیەکی هێڵکارییانەی ئەم سووڕی ژیانە لە شێوەی ٤.١ پیشان دراوە."),
+                            "ڕوونکردنەوەیەکی ھێڵکارییانەی ئەم سووڕی ژیانە لە شێوەی ٤.١ پیشان دراوە."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Some of the images are diagrammatic, complete with measurements."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک لە وێنەکان هێلکارییانەن بە تەواوی لەگەڵ پێوانەکاندا."),
+                            "ھەندێک لە وێنەکان ھێلکارییانەن بە تەواوی لەگەڵ پێوانەکاندا."),
                   ],
                 ),
               ),

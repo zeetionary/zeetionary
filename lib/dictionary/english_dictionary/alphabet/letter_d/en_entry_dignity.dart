@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەورەیی، مەزنی، شەوکەت، شکۆ، فەڕ، سام، ئەندێش، سەنگ، بەسامی، قورسی، بەڕێزی، مەندی،	بایەخ، وەج، ئابڕوو، قەدر، حورمەت، شان، ڕێز،	پلە، پایە
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) هەڵسوکەوتی لەسەرخۆ و جدی کە شایەنی ڕێزە"),
+              text: "١. (ناو) ھەڵسوکەوتی لەسەرخۆ و جدی کە شایەنی ڕێزە"),
           Row(
             children: [
               const Expanded(
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The terminally ill should be allowed to die with dignity."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوانەی بۆ هەمیشەیی نەخۆشن دەبێت بهێڵدرێت بە شکۆوە بمرن."),
+                            "ئەوانەی بۆ ھەمیشەیی نەخۆشن دەبێت بھێڵدرێت بە شکۆوە بمرن."),
                   ],
                 ),
               ),
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The awful thing about old age is losing your dignity."),
                     ExampleSentenceKurdish(
-                        text: "شتی ناخۆش سەبارەت بە پیری لەدەستدانی هەیبەتتە."),
+                        text: "شتی ناخۆش سەبارەت بە پیری لەدەستدانی ھەیبەتتە."),
                   ],
                 ),
               ),
@@ -553,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) هەستکردن بە گرنگی و بەهای خۆت"),
+              text: "٣. (ناو) ھەستکردن بە گرنگی و بەھای خۆت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It's difficult to preserve your dignity when you have no job and no home."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەختە کەرامەتی خۆت بپارێزیت کە هیچ کار و ماڵێکت نییە."),
+                            "سەختە کەرامەتی خۆت بپارێزیت کە ھیچ کار و ماڵێکت نییە."),
                   ],
                 ),
               ),
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "These people have enormous dignity."),
                     ExampleSentenceKurdish(
-                        text: "ئەم کەسانە قەدر گەورەیان هەیە."),
+                        text: "ئەم کەسانە قەدر گەورەیان ھەیە."),
                   ],
                 ),
               ),

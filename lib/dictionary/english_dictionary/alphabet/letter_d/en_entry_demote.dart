@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The American people have been demoted from citizens to consumers."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەڵکی ئەمریکا لە هاوڵاتییەوە کراون بە بەکارهێنەر."),
+                            "خەڵکی ئەمریکا لە ھاوڵاتییەوە کراون بە بەکارھێنەر."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The captain was demoted (to sergeant) for failing to fulfil his duties."),
                     ExampleSentenceKurdish(
                         text:
-                            "کاپتنەکە پلەی دابەزێندرا بۆ شکستهێنان لە بەجێهێنانی ئەرکەکانی."),
+                            "کاپتنەکە پلەی دابەزێندرا بۆ شکستھێنان لە بەجێھێنانی ئەرکەکانی."),
                   ],
                 ),
               ),

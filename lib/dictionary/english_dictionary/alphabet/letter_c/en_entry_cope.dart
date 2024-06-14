@@ -264,7 +264,7 @@ class EnglishEntrycope extends StatelessWidget {
                                             "Desert plants are adapted to cope with extreme heat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕووەکە بیابانییەکان ڕاهاتوون بە بەرگەگرتنی گەرمای ئێجگار زۆر."),
+                                            "ڕووەکە بیابانییەکان ڕاھاتوون بە بەرگەگرتنی گەرمای ئێجگار زۆر."),
                                   ],
                                 ),
                               ),

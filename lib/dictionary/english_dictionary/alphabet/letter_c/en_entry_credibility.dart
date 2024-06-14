@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) خاسیەتێک کە کەسێک یان شتێک هەیەتی و وا ئەکات جێگای باوەڕ یان متمانە بێت"),
+                  "١. (ناو) خاسیەتێک کە کەسێک یان شتێک ھەیەتی و وا ئەکات جێگای باوەڕ یان متمانە بێت"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "After the recent scandal, the government has lost all credibility."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە دوای ئابڕووچوونی ئەم دواییە، حکومەت هەموو متمانەیەکی لەدەستداوە."),
+                            "لە دوای ئابڕووچوونی ئەم دواییە، حکومەت ھەموو متمانەیەکی لەدەستداوە."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "BBC backing for the scheme will enhance its credibility."),
                     ExampleSentenceKurdish(
                         text:
-                            "پشتیوانی بی‌بی‌سی بۆ پڕۆگرامەکە وا دەکات باوەڕپێکراوی بەهێز بکات."),
+                            "پشتیوانی بی‌بی‌سی بۆ پڕۆگرامەکە وا دەکات باوەڕپێکراوی بەھێز بکات."),
                   ],
                 ),
               ),

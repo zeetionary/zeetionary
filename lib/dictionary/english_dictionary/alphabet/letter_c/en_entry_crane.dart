@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەق‌لەق، لەکلەک، قوڵنگ، شینەقورینگ، کرێن، بەرزکەرەوە، دەزگای هەڵێنان، جەڕوسەقیل، گران‌کێش
+کوردی: لەق‌لەق، لەکلەک، قوڵنگ، شینەقورینگ، کرێن، بەرزکەرەوە، دەزگای ھەڵێنان، جەڕوسەقیل، گران‌کێش
 """),
           const DefinitionKurdish(
               text:
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The crane lifted the container off the ship."),
                     ExampleSentenceKurdish(
-                        text: "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە هەڵکێشا."),
+                        text: "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا."),
                   ],
                 ),
               ),

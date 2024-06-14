@@ -752,7 +752,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The case took five years to come to court (= to be heard by the court)."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کەیسەکە پێنج ساڵی پێچوو تا بهێنرێتە دادگا."),
+                                    "کەیسەکە پێنج ساڵی پێچوو تا بھێنرێتە دادگا."),
                           ],
                         ),
                       ),
@@ -780,7 +780,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "There wasn't enough evidence to bring the case to court (= start a trial)."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بەڵگەی پێویست نەبوو تاوەکو کەیسەکە بهێنرێتە دادگا."),
+                                    "بەڵگەی پێویست نەبوو تاوەکو کەیسەکە بھێنرێتە دادگا."),
                           ],
                         ),
                       ),
@@ -911,7 +911,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) یاریگای هەندێک یاری، بۆ نموونە تێنس و باسکە"),
+              text: "٣. (ناو) یاریگای ھەندێک یاری، بۆ نموونە تێنس و باسکە"),
           Row(
             children: [
               const Expanded(
@@ -920,7 +920,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He won after only 52 minutes on court."),
                     ExampleSentenceKurdish(
-                        text: "لە دوای تەنها ٥٢ خولەک لە یاریگادا بردییەوە."),
+                        text: "لە دوای تەنھا ٥٢ خولەک لە یاریگادا بردییەوە."),
                   ],
                 ),
               ),
@@ -948,7 +948,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The players are good friends off court and train together."),
                     ExampleSentenceKurdish(
                         text:
-                            "یاریزانەکان هاوڕێی نزیکن لە دەرەوەی یاریگا و پێکەوە ڕاهێنان دەکەن."),
+                            "یاریزانەکان ھاوڕێی نزیکن لە دەرەوەی یاریگا و پێکەوە ڕاھێنان دەکەن."),
                   ],
                 ),
               ),
@@ -1025,7 +1025,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (کردار) هەوڵدان بۆ دڵخۆشکردنی کەسێک بۆ بەدەستهێنانی ئەوەی دەتەوێت"),
+                  "٦. (کردار) ھەوڵدان بۆ دڵخۆشکردنی کەسێک بۆ بەدەستھێنانی ئەوەی دەتەوێت"),
           Row(
             children: [
               const Expanded(
@@ -1036,7 +1036,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Both candidates have spent the last month courting the media."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەردوو کاندیدەکە چەند مانگی ڕابردوویان بەسەر بردووە بە مەرایی کردن بۆ میدیاکان."),
+                            "ھەردوو کاندیدەکە چەند مانگی ڕابردوویان بەسەر بردووە بە مەرایی کردن بۆ میدیاکان."),
                   ],
                 ),
               ),
@@ -1055,7 +1055,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٧. (کردار) هەوڵدان بۆ بەدەستهێنانی شتێک"),
+              text: "٧. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک"),
           Row(
             children: [
               const Expanded(
@@ -1064,7 +1064,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He has never courted popularity."),
                     ExampleSentenceKurdish(
-                        text: "هەرگیز بە شوێن ناوبانگەوە نەبووە."),
+                        text: "ھەرگیز بە شوێن ناوبانگەوە نەبووە."),
                   ],
                 ),
               ),
@@ -1113,7 +1113,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٩. (کردار) هەبوونی پەیوەندی سۆزداری لەگەڵ کەسێک کە دەتەوێت هاوسەرگیری لەگەڵ بکەیت"),
+                  "٩. (کردار) ھەبوونی پەیوەندی سۆزداری لەگەڵ کەسێک کە دەتەوێت ھاوسەرگیری لەگەڵ بکەیت"),
           Row(
             children: [
               const Expanded(
@@ -1122,7 +1122,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He had been courting Jane for six months."),
                     ExampleSentenceKurdish(
-                        text: "بۆ شەش مانگە پەیوەندی لەگەڵ جەین هەیە."),
+                        text: "بۆ شەش مانگە پەیوەندی لەگەڵ جەین ھەیە."),
                   ],
                 ),
               ),

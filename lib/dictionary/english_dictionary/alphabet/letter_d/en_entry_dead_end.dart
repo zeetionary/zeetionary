@@ -332,10 +332,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (شەقام و هتد) بێ‌سەرەدەر، بن‌بەست،	کاری بێهوودە، کاری لەخۆڕایی، کاری بێ‌داهاتوو، کاری بێ‌ئەنجام
+کوردی: (شەقام و ھتد) بێ‌سەرەدەر، بن‌بەست،	کاری بێھوودە، کاری لەخۆڕایی، کاری بێ‌داھاتوو، کاری بێ‌ئەنجام
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) ڕێگایەک، ڕێڕەوێک، هتد کە لە سەرێکەوە گیرابێت"),
+              text: "١. (ناو) ڕێگایەک، ڕێڕەوێک، ھتد کە لە سەرێکەوە گیرابێت"),
           Row(
             children: [
               const Expanded(
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) خاڵێک کە تێیدا ناتوانیت هیچ بەرەوپێشچوونێکی دیکەت هەبێت"),
+                  "٢. (ناو) خاڵێک کە تێیدا ناتوانیت ھیچ بەرەوپێشچوونێکی دیکەت ھەبێت"),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "We had come to a dead end in our research."),
                     ExampleSentenceKurdish(
-                        text: "لە توێژینەوەکەماندا نەگەشتبووینە هیچ ئەنجامێک."),
+                        text: "لە توێژینەوەکەماندا نەگەشتبووینە ھیچ ئەنجامێک."),
                   ],
                 ),
               ),

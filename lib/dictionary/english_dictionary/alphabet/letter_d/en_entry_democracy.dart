@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) سیستەمێکی حکومڕانی کە تێیدا خەڵکی دەنگ دەدەن بۆ هەڵبژاردنی نوێنەرەکانیان"),
+                  "١. (ناو) سیستەمێکی حکومڕانی کە تێیدا خەڵکی دەنگ دەدەن بۆ ھەڵبژاردنی نوێنەرەکانیان"),
           Row(
             children: [
               const Expanded(
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The early 1990s saw the spread of democracy in Eastern Europe."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەتای ١٩٩٠ ـەکان بڵاوبوونەوەی دیموکراسییان بە ڕۆژهەڵاتی ئەورووپادا بینی."),
+                            "سەرەتای ١٩٩٠ ـەکان بڵاوبوونەوەی دیموکراسییان بە ڕۆژھەڵاتی ئەورووپادا بینی."),
                   ],
                 ),
               ),
@@ -470,7 +470,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) وڵاتێک کە سیستەمێکی حکومڕانیی دیموکراسی هەیە"),
+              text: "٢. (ناو) وڵاتێک کە سیستەمێکی حکومڕانیی دیموکراسی ھەیە"),
           const DividerSentences(),
           Row(
             children: [
@@ -528,7 +528,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٣. (ناو) مامەڵەی دادپەروەرانە و یەکسان لە دامەزراوەیەکدا بەشێوەیەک کە هەموان بەژداربن لە بڕیارداندا"),
+          // const DefinitionKurdish(text: "٣. (ناو) مامەڵەی دادپەروەرانە و یەکسان لە دامەزراوەیەکدا بەشێوەیەک کە ھەموان بەژداربن لە بڕیارداندا"),
           // // const DividerSentences(),
           // Row(
           //   children: [

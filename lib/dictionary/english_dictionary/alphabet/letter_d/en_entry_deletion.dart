@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لابردن، سڕینەوە، قرتاندن، پەڕاندن، شۆردنەوە، دەرهاویشتن، کوژاندنەوە، هەشف(اندن)
+کوردی: لابردن، سڕینەوە، قرتاندن، پەڕاندن، شۆردنەوە، دەرھاویشتن، کوژاندنەوە، ھەشف(اندن)
 """),
           const DefinitionKurdish(
               text:
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There have been some deletions (= words have been removed) from this text."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک سڕینەوە لەم نووسینەدا ئەنجام دراوە."),
+                        text: "ھەندێک سڕینەوە لەم نووسینەدا ئەنجام دراوە."),
                   ],
                 ),
               ),

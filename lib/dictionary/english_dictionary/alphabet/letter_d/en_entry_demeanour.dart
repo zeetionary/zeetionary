@@ -405,9 +405,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵس‌وکەوت، جووڵانەوە، ڕەوتار، ڕەفتار، شێوەی جووڵانەوە، شێوەی ڕەفتار
+کوردی: ھەڵس‌وکەوت، جووڵانەوە، ڕەوتار، ڕەفتار، شێوەی جووڵانەوە، شێوەی ڕەفتار
 """),
-          const DefinitionKurdish(text: "١. (ناو) ڕەفتار و هەڵسوکەوتی کەسێک"),
+          const DefinitionKurdish(text: "١. (ناو) ڕەفتار و ھەڵسوکەوتی کەسێک"),
           Row(
             children: [
               const Expanded(
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He maintained a professional demeanour throughout."),
                     ExampleSentenceKurdish(
-                        text: "تەواوی ماوەکە هەڵسوکەوتی پڕۆفیشناڵانەی پاراست."),
+                        text: "تەواوی ماوەکە ھەڵسوکەوتی پڕۆفیشناڵانەی پاراست."),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her demeanour seemed perfectly normal despite the shock."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەرەڕای شۆکەکە هەڵسوکەوتی تەواو ئاسایی دیاربووە."),
+                            "سەرەڕای شۆکەکە ھەڵسوکەوتی تەواو ئاسایی دیاربووە."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was surprised by her calm demeanour."),
                     ExampleSentenceKurdish(
-                        text: "سەرسام بوو بە هەڵسوکەوتی ئاسایی ئەو."),
+                        text: "سەرسام بوو بە ھەڵسوکەوتی ئاسایی ئەو."),
                   ],
                 ),
               ),

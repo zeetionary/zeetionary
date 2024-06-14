@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All the shelves were crammed with books."),
                     ExampleSentenceKurdish(
-                        text: "هەموو ڕەفەکان بە کتێب پڕ لە کتێب بوون."),
+                        text: "ھەموو ڕەفەکان بە کتێب پڕ لە کتێب بوون."),
                   ],
                 ),
               ),
@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) لە ژوورێک، هتد ـدا بوون کە بەشی پێویست جێگای نییە"),
+                  "٢. (ھاوەڵناو) لە ژوورێک، ھتد ـدا بوون کە بەشی پێویست جێگای نییە"),
           Row(
             children: [
               const Expanded(

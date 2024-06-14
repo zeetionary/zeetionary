@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خاو، نەپاڵێوراو، پوختەنەکراو، کاڵ‌وکرچ، کاڵ، ناتەواو، ناپوخت، نەگەییو،	خۆڕسک، سروشتی،	ناشارەزایانە، سەرسەرەکی، ناشی‌یانە،	سادە، سەرەتایی،	ئاسایی، هیچەکە، بازاڕی،	بێ‌ڕەوشت، بێ‌ماریفەت،	قسەلەڕوو، بێ‌پەردە،	پیس، ناشیرین، هەرزە (شۆخی)، ڕاست نەکراوە، خاو، نەوتی خاو
+کوردی: خاو، نەپاڵێوراو، پوختەنەکراو، کاڵ‌وکرچ، کاڵ، ناتەواو، ناپوخت، نەگەییو،	خۆڕسک، سروشتی،	ناشارەزایانە، سەرسەرەکی، ناشی‌یانە،	سادە، سەرەتایی،	ئاسایی، ھیچەکە، بازاڕی،	بێ‌ڕەوشت، بێ‌ماریفەت،	قسەلەڕوو، بێ‌پەردە،	پیس، ناشیرین، ھەرزە (شۆخی)، ڕاست نەکراوە، خاو، نەوتی خاو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) لەشێوەی سرووشتیدا"),
           Row(
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // skipped_meaning
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) بێ‌ڕێزانە و هەرزە"),
+          const DefinitionKurdish(text: "٢. (ناو) بێ‌ڕێزانە و ھەرزە"),
           Row(
             children: [
               const Expanded(
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The film had a warning for crude language in some scenes."),
                     ExampleSentenceKurdish(
                         text:
-                            "فیلمەکە هۆشدارییەکی بۆ بەکارهێنانی زمانی هەرزە لە هەندێک دیمەندا هەبوو."),
+                            "فیلمەکە ھۆشدارییەکی بۆ بەکارھێنانی زمانی ھەرزە لە ھەندێک دیمەندا ھەبوو."),
                   ],
                 ),
               ),

@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ستەمکار، زۆردار، بێ‌بەزەیی، دڵڕەق، چەپگەر، زۆردارانە، دڵڕەقانە، دڕندە،	بەژان، دڵتەزێن، جەرگبڕ، سەخت
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) دڕندە؛ هەبوونی حەزی ئازاردانی کەسانی دیکە"),
+              text: "١. (ھاوەڵناو) دڕندە؛ ھەبوونی حەزی ئازاردانی کەسانی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Sometimes you have to be cruel to be kind (= make somebody suffer because it will be good for them later)."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەندێک جار بۆ ئەوەی میهرەبان بیت دەبێت دڕندە بیت."),
+                            "ھەندێک جار بۆ ئەوەی میھرەبان بیت دەبێت دڕندە بیت."),
                   ],
                 ),
               ),
@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It would be a cruel twist of fate if he escaped only to starve to death once outside."),
                     ExampleSentenceKurdish(
                         text:
-                            "چارەنووسێکی جەرگبڕ دەبێت کە ڕابکات بەڵام لە برسا بمرێت هەرکە دەچێتە دەرەوە."),
+                            "چارەنووسێکی جەرگبڕ دەبێت کە ڕابکات بەڵام لە برسا بمرێت ھەرکە دەچێتە دەرەوە."),
                   ],
                 ),
               ),

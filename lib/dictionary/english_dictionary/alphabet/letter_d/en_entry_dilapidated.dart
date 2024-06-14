@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The hotel we stayed in was really dilapidated."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەو هوتێلەی تێیدا ماینەوە لە ڕاستیدا شپرزە بوو."),
+                            "ئەو ھوتێلەی تێیدا ماینەوە لە ڕاستیدا شپرزە بوو."),
                   ],
                 ),
               ),

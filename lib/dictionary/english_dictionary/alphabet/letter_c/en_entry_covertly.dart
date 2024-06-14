@@ -330,10 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بە دزی‌یەوە، بە نهێنی
+کوردی: بە دزی‌یەوە، بە نھێنی
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) بەشێوەیەک کە نهێنی و شاراوەیە"),
+              text: "١. (ھاوەڵکار) بەشێوەیەک کە نھێنی و شاراوەیە"),
           Row(
             children: [
               const Expanded(
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She watched him covertly in the mirror."),
                     ExampleSentenceKurdish(
-                        text: "بەنهێنی لە ئاوێنەکەوە سەیری کرد."),
+                        text: "بەنھێنی لە ئاوێنەکەوە سەیری کرد."),
                   ],
                 ),
               ),

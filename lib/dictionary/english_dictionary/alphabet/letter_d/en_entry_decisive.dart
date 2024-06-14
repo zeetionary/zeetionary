@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Climate was a decisive factor in establishing where the tournament should be held."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاووهەوا فاکتەرێکی یەکلاکەرەوە بوو لە بڕیردانی ئەوەی لە کوێ پێشبڕکێیەکە ڕێکبخرێت."),
+                            "ئاووھەوا فاکتەرێکی یەکلاکەرەوە بوو لە بڕیردانی ئەوەی لە کوێ پێشبڕکێیەکە ڕێکبخرێت."),
                   ],
                 ),
               ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government must take decisive action on gun control."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت دەبێت هەنگاوی دەستبەجێ بدەن لەسەر کۆنترۆڵی چەک."),
+                            "حکومەت دەبێت ھەنگاوی دەستبەجێ بدەن لەسەر کۆنترۆڵی چەک."),
                   ],
                 ),
               ),

@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 //         const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە باهۆز"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە باھۆز"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "In the Pacific, tropical cyclonic storms cause destruction like nowhere else in the world."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە زەریای هێمندا، زریانی باهۆزی خولگەیی دەبێتە هۆی وێرانکاری جیاواز لە هەموو شوێنێکی دیکەی جیهان."),
+                            "لە زەریای ھێمندا، زریانی باھۆزی خولگەیی دەبێتە ھۆی وێرانکاری جیاواز لە ھەموو شوێنێکی دیکەی جیھان."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She is working as an engineer on a housebuilding project in a cyclonic area in the Caribbean."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەک ئەندازیارێک کار دەکات لەسەر پڕۆژەیەکی بنیادنانی خانوو لە ناوچەیەکی باهۆزاوی کاریبی."),
+                            "وەک ئەندازیارێک کار دەکات لەسەر پڕۆژەیەکی بنیادنانی خانوو لە ناوچەیەکی باھۆزاوی کاریبی."),
                   ],
                 ),
               ),

@@ -330,11 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //         const KurdishVocabulary(text: """
-// کوردی: میزەڵدان ئاوسان، ئاوسانی تیزانگ یان میزەڵدان، هەوکردنی میزەڵدان
+// کوردی: میزەڵدان ئاوسان، ئاوسانی تیزانگ یان میزەڵدان، ھەوکردنی میزەڵدان
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) هەوکردنی میزڵدان، بەتایبەتی لە ژناندا، کە ئازار درووست دەکات لەکاتی میزکردندا و زۆرجار ڕوودەدات"),
+                  "١. (ناو) ھەوکردنی میزڵدان، بەتایبەتی لە ژناندا، کە ئازار درووست دەکات لەکاتی میزکردندا و زۆرجار ڕوودەدات"),
           Row(
             children: [
               const Expanded(
@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Drinking plenty of water can help prevent cystitis."),
                     ExampleSentenceKurdish(
                         text:
-                            "خواردنی ئاوی زۆر دەکرێت ڕێگری لە هەوکردنی میزڵدان بکات."),
+                            "خواردنی ئاوی زۆر دەکرێت ڕێگری لە ھەوکردنی میزڵدان بکات."),
                   ],
                 ),
               ),

@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "The traffic was diabolical."),
-                    ExampleSentenceKurdish(text: "هاتووچۆ وەڕسکەر بوو."),
+                    ExampleSentenceKurdish(text: "ھاتووچۆ وەڕسکەر بوو."),
                   ],
                 ),
               ),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was a diabolical performance and we felt something had to be done before the next match."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاستێکی خراپ بوو و هەستمان کرد دەبێت شتێک بکرێت پێش یاریی دواتر."),
+                            "ئاستێکی خراپ بوو و ھەستمان کرد دەبێت شتێک بکرێت پێش یاریی دواتر."),
                   ],
                 ),
               ),
@@ -474,7 +474,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The villain's diabolical plan shocked everyone."),
                     ExampleSentenceKurdish(
                         text:
-                            "پلانە شەیتانییەکەی تاوانکارەکە هەموانی شۆک کرد."),
+                            "پلانە شەیتانییەکەی تاوانکارەکە ھەموانی شۆک کرد."),
                   ],
                 ),
               ),

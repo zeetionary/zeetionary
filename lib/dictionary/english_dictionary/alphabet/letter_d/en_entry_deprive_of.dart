@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کاری لێکدراو) ڕێگری لە کەسێک کە شتێکی هەبێت یان بیکات"),
+                  "١. (کاری لێکدراو) ڕێگری لە کەسێک کە شتێکی ھەبێت یان بیکات"),
           Row(
             children: [
               const Expanded(
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Why should you deprive yourself of such simple pleasures?"),
                     ExampleSentenceKurdish(
-                        text: "بۆچی دەبێت خۆت لە خۆشی وەها سادە بێبەری بکەیت؟"),
+                        text: "بۆچی دەبێت خۆت لە خۆشی وەھا سادە بێبەری بکەیت؟"),
                   ],
                 ),
               ),

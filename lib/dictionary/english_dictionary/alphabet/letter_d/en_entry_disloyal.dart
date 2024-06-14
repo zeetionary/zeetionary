@@ -403,11 +403,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەیانەت‌کار، ناپاک، نهێن‌بڕ، بێ‌بەڵێن، پەیمان‌شکێن، بێ‌ئەمەک، پێنەزان، سپڵە، بێ‌سفەت
+کوردی: خەیانەت‌کار، ناپاک، نھێن‌بڕ، بێ‌بەڵێن، پەیمان‌شکێن، بێ‌ئەمەک، پێنەزان، سپڵە، بێ‌سفەت
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) کە بەوەفا نییت بەرامبەر هاوڕێکانت، خێزانت، وڵاتەکەت، هتد"),
+                  "١. (ھاوەڵناو) کە بەوەفا نییت بەرامبەر ھاوڕێکانت، خێزانت، وڵاتەکەت، ھتد"),
           Row(
             children: [
               const Expanded(

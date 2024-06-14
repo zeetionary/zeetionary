@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: هێڵکاری، دیاگرام، دایاگرام
+// کوردی: ھێڵکاری، دیاگرام، دایاگرام
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) وێنەکێشانێکی سادە بە بەکارهێنانی هێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، هتد"),
+                  "١. (ناو) وێنەکێشانێکی سادە بە بەکارھێنانی ھێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The results are shown in diagram 2."),
                     ExampleSentenceKurdish(
-                        text: "ئەنجامەکان لە هێڵکاری ٢ پیشان دەدرێن."),
+                        text: "ئەنجامەکان لە ھێڵکاری ٢ پیشان دەدرێن."),
                   ],
                 ),
               ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Compare this system to the one shown in diagram B."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم سیستەمە بەراورد بکە لەگەڵ ئەوەی لە هێڵکاری B پیشان دراوە."),
+                            "ئەم سیستەمە بەراورد بکە لەگەڵ ئەوەی لە ھێڵکاری B پیشان دراوە."),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: "See the diagram on page 31."),
                     ExampleSentenceKurdish(
-                        text: "هێڵکارییەکە لەسەر پەڕەی ٣١ ببینە."),
+                        text: "ھێڵکارییەکە لەسەر پەڕەی ٣١ ببینە."),
                   ],
                 ),
               ),
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) پیشاندان بە هێڵکاری"),
+          const DefinitionKurdish(text: "٢. (کردار) پیشاندان بە ھێڵکاری"),
           // const DividerSentences(),
           Row(
             children: [
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The overall structures of these enzymes are diagrammed in Fig 1."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێکهاتەی گشتیی ئەم ئەنزیمانە لە شێوەی ١ هێلکاری کراوە."),
+                            "پێکھاتەی گشتیی ئەم ئەنزیمانە لە شێوەی ١ ھێلکاری کراوە."),
                   ],
                 ),
               ),

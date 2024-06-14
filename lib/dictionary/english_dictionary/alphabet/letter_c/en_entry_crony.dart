@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The general and his cronies are now awaiting trial for drug smuggling."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژەنەڕاڵەکە و دۆستەکانی چاوەڕێی دادگایین بۆ بازرگانی مادەی هۆشبەر."),
+                            "ژەنەڕاڵەکە و دۆستەکانی چاوەڕێی دادگایین بۆ بازرگانی مادەی ھۆشبەر."),
                   ],
                 ),
               ),

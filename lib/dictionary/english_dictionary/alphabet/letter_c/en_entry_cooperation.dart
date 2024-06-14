@@ -194,11 +194,11 @@ class EnglishEntrycooperation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: هاوکاری، هاریکاری، گەلەکۆمە(کی)، ئالیکاری،	هەرەوەز، زبارە،	کۆمەک، یارمەتی، یاریدە
+کوردی: ھاوکاری، ھاریکاری، گەلەکۆمە(کی)، ئالیکاری،	ھەرەوەز، زبارە،	کۆمەک، یارمەتی، یاریدە
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کردنی شتێک پێکەوە یان کارکردن پێکەوە بۆ ئامانجێکی هاوبەش "),
+                                  "١. (ناو) کردنی شتێک پێکەوە یان کارکردن پێکەوە بۆ ئامانجێکی ھاوبەش "),
                           Row(
                             children: [
                               const Expanded(
@@ -209,7 +209,7 @@ class EnglishEntrycooperation extends StatelessWidget {
                                             "They offered their cooperation on the project."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوکاری خۆیان لە پڕۆژەکەدا پێشکەشکرد."),
+                                            "ھاوکاری خۆیان لە پڕۆژەکەدا پێشکەشکرد."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntrycooperation extends StatelessWidget {
                                             "We would like to see closer cooperation between parents and schools."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەمانەوێت هاوکاری زیاتر لە نێوان دایک و باوکان و قوتابخانەکاندا ببینین."),
+                                            "دەمانەوێت ھاوکاری زیاتر لە نێوان دایک و باوکان و قوتابخانەکاندا ببینین."),
                                   ],
                                 ),
                               ),
@@ -269,7 +269,7 @@ class EnglishEntrycooperation extends StatelessWidget {
                                             "We should like to thank you for your cooperation with us."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەمانەوێت سوپاستان بکەین بۆ هاریکاریتان لەگەڵمان."),
+                                            "دەمانەوێت سوپاستان بکەین بۆ ھاریکاریتان لەگەڵمان."),
                                   ],
                                 ),
                               ),
@@ -302,7 +302,7 @@ class EnglishEntrycooperation extends StatelessWidget {
                                             "We would be grateful for your cooperation in clearing the hall as quickly as possible."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سوپاسگوزار دەبین بۆ هاوکاریتان لە چۆڵکردنی هۆڵەکەدا هەرچەندە زووتر بێت."),
+                                            "سوپاسگوزار دەبین بۆ ھاوکاریتان لە چۆڵکردنی ھۆڵەکەدا ھەرچەندە زووتر بێت."),
                                   ],
                                 ),
                               ),

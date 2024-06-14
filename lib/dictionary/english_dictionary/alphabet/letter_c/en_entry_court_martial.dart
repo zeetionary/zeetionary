@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He was court-martialled for desertion."),
                     ExampleSentenceKurdish(
-                        text: "بردرایە دادگای سەربازی بۆ هەڵهاتن."),
+                        text: "بردرایە دادگای سەربازی بۆ ھەڵھاتن."),
                   ],
                 ),
               ),

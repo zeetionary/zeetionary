@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: هەژمار یا حسابی ڕەوەن (ڕەوندە)
+// کوردی: ھەژمار یا حسابی ڕەوەن (ڕەوندە)
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) جۆرە هەژمارێکی بانکی کە هەر بتەوێت دەتوانیت پارەی لێ ڕابکێشیت"),
+                  "١. (ناو) جۆرە ھەژمارێکی بانکی کە ھەر بتەوێت دەتوانیت پارەی لێ ڕابکێشیت"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He checked his current account balance online before making a purchase."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێش کڕین سەیری باڵانسی هەژمارە ڕەوەنییەکەی کرد."),
+                            "پێش کڕین سەیری باڵانسی ھەژمارە ڕەوەنییەکەی کرد."),
                   ],
                 ),
               ),

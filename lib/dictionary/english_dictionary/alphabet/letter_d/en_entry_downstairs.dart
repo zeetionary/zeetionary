@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -349,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I heard someone coming downstairs."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I heard someone coming downstairs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownstairss2(String languageCode) async {
@@ -358,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I couldn't sleep so I went downstairs and watched TV."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I couldn't sleep so I went downstairs and watched TV."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownstairss3(String languageCode) async {
@@ -366,7 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Wait downstairs in the hall."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Wait downstairs in the hall."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownstairss4(String languageCode) async {
@@ -374,7 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I knocked on the door of my downstairs neighbour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I knocked on the door of my downstairs neighbour."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownstairss5(String languageCode) async {
@@ -382,7 +387,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We're painting the downstairs."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We're painting the downstairs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownstairss6(String languageCode) async {
@@ -530,18 +536,19 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لە نهۆمی خوارەوە، لە قاتی بنەوە، بۆ نهۆمی خوارەوە، بەرەو نهۆمی خوارەوە، خوارەوە، ژێرەوە، نهۆمی خواروو، مەرتەبە یان قاتی بنەوە، نهۆمی ژێرەوە
+کوردی: لە نھۆمی خوارەوە، لە قاتی بنەوە، بۆ نھۆمی خوارەوە، بەرەو نھۆمی خوارەوە، خوارەوە، ژێرەوە، نھۆمی خواروو، مەرتەبە یان قاتی بنەوە، نھۆمی ژێرەوە
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) لە نهۆمی خوارتر؛ بەرەو نهۆمی خوارتر"),
+          const DefinitionKurdish(
+              text: "١. (ھاوەڵکار) لە نھۆمی خوارتر؛ بەرەو نھۆمی خوارتر"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "I heard someone coming downstairs."),
-                    ExampleSentenceKurdish(text: "گوێم لە کەسێک بوو لە خوارەوە دەهات."),
+                        text: "I heard someone coming downstairs."),
+                    ExampleSentenceKurdish(
+                        text: "گوێم لە کەسێک بوو لە خوارەوە دەھات."),
                   ],
                 ),
               ),
@@ -566,8 +573,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I couldn't sleep so I went downstairs and watched TV."),
-                    ExampleSentenceKurdish(text: "نەمدەتوانی بخەوم، بۆیە چوومە خوارەوە و سەیری تەلەفیزیۆنم کرد."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I couldn't sleep so I went downstairs and watched TV."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نەمدەتوانی بخەوم، بۆیە چوومە خوارەوە و سەیری تەلەفیزیۆنم کرد."),
                   ],
                 ),
               ),
@@ -592,8 +603,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Wait downstairs in the hall."),
-                    ExampleSentenceKurdish(text: "لە خوارەوە لە هۆڵەکە چاوەڕێ بە."),
+                    ExampleSentenceEnglish(
+                        text: "Wait downstairs in the hall."),
+                    ExampleSentenceKurdish(
+                        text: "لە خوارەوە لە ھۆڵەکە چاوەڕێ بە."),
                   ],
                 ),
               ),
@@ -611,15 +624,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) پەیوەندیدار ەب نهۆمی خوارتر"),
+          const DefinitionKurdish(
+              text: "٢. (ھاوەڵناو) پەیوەندیدار ەب نھۆمی خوارتر"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I knocked on the door of my downstairs neighbour."),
-                    ExampleSentenceKurdish(text: "لە دەرگای دراوسێکانم لە نهۆمی خوارتر دا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I knocked on the door of my downstairs neighbour."),
+                    ExampleSentenceKurdish(
+                        text: "لە دەرگای دراوسێکانم لە نھۆمی خوارتر دا."),
                   ],
                 ),
               ),
@@ -637,15 +654,17 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) نهۆمێکی خوارتری خانوو یان بینایەک"),
+          const DefinitionKurdish(
+              text: "٣. (ناو) نھۆمێکی خوارتری خانوو یان بینایەک"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "We're painting the downstairs."),
-                    ExampleSentenceKurdish(text: "نهۆمی خوارەوە بۆیە دەکەین."),
+                    ExampleSentenceEnglish(
+                        text: "We're painting the downstairs."),
+                    ExampleSentenceKurdish(text: "نھۆمی خوارەوە بۆیە دەکەین."),
                   ],
                 ),
               ),
@@ -1191,7 +1210,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 422,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1216,7 +1235,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_zCDvOsdL9Q?t=',
+    videoId: '_zCDvOsdL9Q',
     startSeconds: 250,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1241,7 +1260,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 548,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1266,7 +1285,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g9QneAV4fVo?t=',
+    videoId: 'g9QneAV4fVo',
     startSeconds: 1428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1291,7 +1310,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5R65skWdg7Y?t=',
+    videoId: '5R65skWdg7Y',
     startSeconds: 832,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1316,7 +1335,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/05gCLHlpzTU?t=',
+    videoId: '05gCLHlpzTU',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1341,7 +1360,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fGMCjELDyUY?t=',
+    videoId: 'fGMCjELDyUY',
     startSeconds: 1639,
     autoPlay: true,
     params: const YoutubePlayerParams(

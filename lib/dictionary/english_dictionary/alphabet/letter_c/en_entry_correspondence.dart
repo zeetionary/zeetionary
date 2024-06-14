@@ -338,11 +338,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (پێکەوە) گونجان، سازان، بەرامبەری، پێک‌خواردن، لێک‌هاتن، جووت‌بوون، یەک‌کەوتن، پێکهاتن، ڕێک‌کەوتن، یەک‌گرتنەوە، یەکان‌گیری،	لێک‌چوون، هاوشێوەیی، شێوەی یەک‌دان، وەک‌یەکی،	نامەنووسی، نامەگۆڕینەوە، نامەکان،	(بیرکاری) هاوتایی
+کوردی: (پێکەوە) گونجان، سازان، بەرامبەری، پێک‌خواردن، لێک‌ھاتن، جووت‌بوون، یەک‌کەوتن، پێکھاتن، ڕێک‌کەوتن، یەک‌گرتنەوە، یەکان‌گیری،	لێک‌چوون، ھاوشێوەیی، شێوەی یەک‌دان، وەک‌یەکی،	نامەنووسی، نامەگۆڕینەوە، نامەکان،	(بیرکاری) ھاوتایی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نامە، ئیمەیڵ، هتد کە دەینێریت بۆ کەسێک و پێت دەگات"),
+                  "١. (ناو) نامە، ئیمەیڵ، ھتد کە دەینێریت بۆ کەسێک و پێت دەگات"),
           Row(
             children: [
               const Expanded(
@@ -353,7 +353,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The editor welcomes correspondence from readers on any subject."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕۆژنامەنووسەکە پێشوازی لە نامەی خوێنەران لەسەر هەر بابەتێک دەگات."),
+                            "ڕۆژنامەنووسەکە پێشوازی لە نامەی خوێنەران لەسەر ھەر بابەتێک دەگات."),
                   ],
                 ),
               ),
@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The secretary deals with all the correspondence."),
                     ExampleSentenceKurdish(
-                        text: "سکرتێرەکە مامەڵە لەگەڵ هەموو ئیمەیڵەکان دەکات."),
+                        text: "سکرتێرەکە مامەڵە لەگەڵ ھەموو ئیمەیڵەکان دەکات."),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I refused to enter into any correspondence (= to exchange letters) with him about it."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕەتم کردەوە بەژدار بم لە هیچ کارێکی نامەنووسی لەگەڵی."),
+                            "ڕەتم کردەوە بەژدار بم لە ھیچ کارێکی نامەنووسی لەگەڵی."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پەیوەندی یان لێکچوونی دوو شت"),
-          const AlsoEnglishckb(word: "هەروەها: correspondency"),
+          const AlsoEnglishckb(word: "ھەروەھا: correspondency"),
           Row(
             children: [
               const Expanded(
@@ -521,7 +521,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The survey found no correspondence between crime and unemployment rates."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕاپرسییەکە هیچ پەیوەندی لە نێوان ڕێژەی تاوان و بێ‌کاریدا نەدۆزییەوە."),
+                            "ڕاپرسییەکە ھیچ پەیوەندی لە نێوان ڕێژەی تاوان و بێ‌کاریدا نەدۆزییەوە."),
                   ],
                 ),
               ),

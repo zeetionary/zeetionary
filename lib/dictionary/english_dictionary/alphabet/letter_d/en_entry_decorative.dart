@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The decorative touches have made this house a welcoming home."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەستپێداهێنانی ڕازاوە ئەم خانووەیان کردووە بە ماڵێکی دڵگیر."),
+                            "دەستپێداھێنانی ڕازاوە ئەم خانووەیان کردووە بە ماڵێکی دڵگیر."),
                   ],
                 ),
               ),

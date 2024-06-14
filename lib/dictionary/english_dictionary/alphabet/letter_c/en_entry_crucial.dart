@@ -334,11 +334,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەرەگرنگ، گش‌پێ‌بەند، هەستیار، بڕیاردەر، یەکلایی‌کەرەوە، دیاری‌کەر، بڕێنەرەوە،	سەخت، دژوار، ئاسێ، ئاستەنگ،	(پزشکی) خاچی، چەپ‌وڕاستی، چوارپەڕ، یەکتربڕ
+کوردی: ھەرەگرنگ، گش‌پێ‌بەند، ھەستیار، بڕیاردەر، یەکلایی‌کەرەوە، دیاری‌کەر، بڕێنەرەوە،	سەخت، دژوار، ئاسێ، ئاستەنگ،	(پزشکی) خاچی، چەپ‌وڕاستی، چوارپەڕ، یەکتربڕ
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) زۆر گرنگ بەهۆی ئەوەی کاریگەری لە شتی دیکە دەکات"),
+                  "١. (ھاوەڵناو) زۆر گرنگ بەھۆی ئەوەی کاریگەری لە شتی دیکە دەکات"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The next few weeks are going to be crucial."),
                     ExampleSentenceKurdish(
-                        text: "چەند هەفتەی داهاتوو چارەنووسساز دەبن."),
+                        text: "چەند ھەفتەی داھاتوو چارەنووسساز دەبن."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Private security cameras can prove crucial in some investigations."),
                     ExampleSentenceKurdish(
                         text:
-                            "کامێرا چاودێرییە تایبەتەکان دەکرێت زۆر گرنگ بن لە هەندێک لێکۆڵینەوەدا."),
+                            "کامێرا چاودێرییە تایبەتەکان دەکرێت زۆر گرنگ بن لە ھەندێک لێکۆڵینەوەدا."),
                   ],
                 ),
               ),
@@ -429,7 +429,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "This step is a crucial part of the process."),
                     ExampleSentenceKurdish(
-                        text: "ئەم هەنگاوە بەشێکی چارەنووسسازی پڕۆسەکەیە."),
+                        text: "ئەم ھەنگاوە بەشێکی چارەنووسسازی پڕۆسەکەیە."),
                   ],
                 ),
               ),

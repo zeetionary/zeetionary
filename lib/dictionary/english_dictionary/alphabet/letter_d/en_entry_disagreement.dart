@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دۆخێک کە خەڵکی ناکۆکیان هەیە لەسەر شتێک و زۆرجار مشتومڕ دەکەن"),
+                  "١. (ناو) دۆخێک کە خەڵکی ناکۆکیان ھەیە لەسەر شتێک و زۆرجار مشتومڕ دەکەن"),
           Row(
             children: [
               const Expanded(
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There's no room for disagreement on this point."),
                     ExampleSentenceKurdish(
-                        text: "هیچ ڕێگایەک بۆ ناکۆکی نییە لەسەر ئەم خاڵە."),
+                        text: "ھیچ ڕێگایەک بۆ ناکۆکی نییە لەسەر ئەم خاڵە."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There is considerable disagreement over the safety of the treatment."),
                     ExampleSentenceKurdish(
-                        text: "ناکۆکیی بەرچاو هەیە لەسەر سەلامەتیی دەرمانەکە."),
+                        text: "ناکۆکیی بەرچاو ھەیە لەسەر سەلامەتیی دەرمانەکە."),
                   ],
                 ),
               ),

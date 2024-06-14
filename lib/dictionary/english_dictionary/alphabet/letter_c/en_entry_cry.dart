@@ -734,7 +734,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەرا، نەڕە، گوڕە، بانگ، گازی، هاوار، زریوەزریو، بۆڕە، قاو، قیژە، زیکە، جیکە، زیقە،	گریان، ماوەی گریان،	لوورە،	جاڕ، بانگەواز،	دروشم،	داخوازی، داوا،	سکاڵا، شکات
+کوردی: ھەرا، نەڕە، گوڕە، بانگ، گازی، ھاوار، زریوەزریو، بۆڕە، قاو، قیژە، زیکە، جیکە، زیقە،	گریان، ماوەی گریان،	لوورە،	جاڕ، بانگەواز،	دروشم،	داخوازی، داوا،	سکاڵا، شکات
 """),
           const DefinitionKurdish(text: "١. (کردار) گریان"),
           Row(
@@ -743,7 +743,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "It's all right. Don't cry."),
-                    ExampleSentenceKurdish(text: "هیچ نییە، مەگری."),
+                    ExampleSentenceKurdish(text: "ھیچ نییە، مەگری."),
                   ],
                 ),
               ),
@@ -852,7 +852,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "There's nothing to cry about."),
                             ExampleSentenceKurdish(
-                                text: "هیچ شتێک نییە لەسەری بگریت."),
+                                text: "ھیچ شتێک نییە لەسەری بگریت."),
                           ],
                         ),
                       ),
@@ -927,7 +927,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) هاوارکردن بە دەنگی بەرز"),
+          const DefinitionKurdish(text: "٢. (کردار) ھاوارکردن بە دەنگی بەرز"),
           Row(
             children: [
               const Expanded(
@@ -937,7 +937,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "She ran to the window and cried for help."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەرەو پەنجەرەکە ڕایکرد و هاواری کرد بۆ یارمەتی."),
+                            "بەرەو پەنجەرەکە ڕایکرد و ھاواری کرد بۆ یارمەتی."),
                   ],
                 ),
               ),
@@ -1038,7 +1038,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (ناو) هاوارێکی بەرز"),
+          const DefinitionKurdish(text: "٤. (ناو) ھاوارێکی بەرز"),
           Row(
             children: [
               const Expanded(
@@ -1047,7 +1047,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He fell to the ground with a cry."),
                     ExampleSentenceKurdish(
-                        text: "بە هاوارێکی بەرزەوە دای بە زەویدا."),
+                        text: "بە ھاوارێکی بەرزەوە دای بە زەویدا."),
                   ],
                 ),
               ),
@@ -1075,7 +1075,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He was too weak to raise even the smallest of cries."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر لاواز بوو کە تەنانەت بچووکترین هاواریش بکات."),
+                            "زۆر لاواز بوو کە تەنانەت بچووکترین ھاواریش بکات."),
                   ],
                 ),
               ),
@@ -1101,7 +1101,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He gave a loud cry of despair."),
                     ExampleSentenceKurdish(
-                        text: "هاوارێکی بەرزی لە نائومێدیدا کرد."),
+                        text: "ھاوارێکی بەرزی لە نائومێدیدا کرد."),
                   ],
                 ),
               ),
@@ -1119,7 +1119,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (ناو) هاوارکردنێکی بەرز"),
+          const DefinitionKurdish(text: "٥. (ناو) ھاوارکردنێکی بەرز"),
           Row(
             children: [
               const Expanded(
@@ -1130,7 +1130,7 @@ class KurdishMeaning extends StatelessWidget {
                             "With a cry of ‘Stop thief!’ he ran after the boy."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە هاوارکردنی 'بوەستە دز!' ڕایکرد بە دوای کوڕەکەدا."),
+                            "بە ھاوارکردنی 'بوەستە دز!' ڕایکرد بە دوای کوڕەکەدا."),
                   ],
                 ),
               ),
@@ -1157,7 +1157,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Her answer was greeted with cries of outrage."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەڵامەکەی بە هاوارکردنی تووڕەییەوە پێشوازی لێکرا."),
+                            "وەڵامەکەی بە ھاوارکردنی تووڕەییەوە پێشوازی لێکرا."),
                   ],
                 ),
               ),
@@ -1183,7 +1183,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She heard cries in the distance."),
                     ExampleSentenceKurdish(
-                        text: "گوێی لە هاوارکردن بوو لە دوورەوە."),
+                        text: "گوێی لە ھاوارکردن بوو لە دوورەوە."),
                   ],
                 ),
               ),
@@ -1269,7 +1269,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We need a new leader who's ready to hear the cry of the people."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێویستیمان بە سەرکردەیەکی تازەیە کە ئامادەیە گوێ لە هاواری خەڵکی بگرێت."),
+                            "پێویستیمان بە سەرکردەیەکی تازەیە کە ئامادەیە گوێ لە ھاواری خەڵکی بگرێت."),
                   ],
                 ),
               ),
@@ -1297,7 +1297,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "I felt a lot better after a good long cry."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستم زۆر بە باشتر کرد لە دوای ماوەیەک لە گریان."),
+                            "ھەستم زۆر بە باشتر کرد لە دوای ماوەیەک لە گریان."),
                   ],
                 ),
               ),
@@ -1324,7 +1324,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "You'll feel better when you've had a good cry."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەست زۆر بە باشتر دەکەیت لە دوای ئەوەی ماوەیەک بە باشی گریاویت."),
+                            "ھەست زۆر بە باشتر دەکەیت لە دوای ئەوەی ماوەیەک بە باشی گریاویت."),
                   ],
                 ),
               ),

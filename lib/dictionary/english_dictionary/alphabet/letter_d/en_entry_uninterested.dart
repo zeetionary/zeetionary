@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She seemed cold and uninterested."),
-                    ExampleSentenceKurdish(text: "ساردوسڕ و ناهۆگر دیاربوو."),
+                    ExampleSentenceKurdish(text: "ساردوسڕ و ناھۆگر دیاربوو."),
                   ],
                 ),
               ),

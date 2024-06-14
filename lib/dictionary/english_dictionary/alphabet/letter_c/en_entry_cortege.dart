@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cortège made its way slowly through the streets to the cemetery."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەڕێکەران بەهێواشی ڕێگایان گرتەبەر بە شەقاکەدا بەرەو گۆڕستانەکە."),
+                            "بەڕێکەران بەھێواشی ڕێگایان گرتەبەر بە شەقاکەدا بەرەو گۆڕستانەکە."),
                   ],
                 ),
               ),

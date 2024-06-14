@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چارەساز، چاک‌کەرەوە، دەرمان‌کەر
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) کە توانای چارەسەرکردنی نەخۆشی هەیە"),
+              text: "١. (ھاوەڵناو) کە توانای چارەسەرکردنی نەخۆشی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She believed in the curative powers of herbal remedies."),
                     ExampleSentenceKurdish(
                         text:
-                            "باوەڕی بە هێزی چارەسازی چارەسەرە گیاییەکان هەبوو."),
+                            "باوەڕی بە ھێزی چارەسازی چارەسەرە گیاییەکان ھەبوو."),
                   ],
                 ),
               ),

@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دیپڵۆماسی، دان‌وستان، هونەر (یان زانستی)ی دان‌وستان، چارەدۆزی، سیاسەتوانی، کارزانی، لێهاتوویی، ڕامیاری، سیاسەت
+کوردی: دیپڵۆماسی، دان‌وستان، ھونەر (یان زانستی)ی دان‌وستان، چارەدۆزی، سیاسەتوانی، کارزانی، لێھاتوویی، ڕامیاری، سیاسەت
 """),
           const DefinitionKurdish(
               text: "١. (ناو) چالاکی ڕاگرتنی پەیوەندی نێوان دوو وڵات"),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                             "His skilful/​skillful diplomacy has secured new European allies."),
                     ExampleSentenceKurdish(
                         text:
-                            "دیپلۆماسیی شارەزایانەی هاوپەیمانی تازەی ئەورووپی درووستکردووە."),
+                            "دیپلۆماسیی شارەزایانەی ھاوپەیمانی تازەی ئەورووپی درووستکردووە."),
                   ],
                 ),
               ),

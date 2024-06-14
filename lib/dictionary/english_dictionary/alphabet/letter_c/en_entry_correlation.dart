@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is a direct correlation between exposure to sun and skin cancer."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێکبەندی ڕاستەوخۆ هەیە لەنێوان بەرکەوتن بە خۆر و شێرپەنجەی پێست."),
+                            "پێکبەندی ڕاستەوخۆ ھەیە لەنێوان بەرکەوتن بە خۆر و شێرپەنجەی پێست."),
                   ],
                 ),
               ),

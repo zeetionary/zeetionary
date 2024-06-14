@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are signs the crackdown is working as designed."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئاماژە هەیە کە سەرکوتکردنەکە بەو شێوەیە بەڕێوە دەچێت کە دیزاین کراوە."),
+                            "ئاماژە ھەیە کە سەرکوتکردنەکە بەو شێوەیە بەڕێوە دەچێت کە دیزاین کراوە."),
                   ],
                 ),
               ),

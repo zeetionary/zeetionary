@@ -577,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لا، ئالی، لایەن، دەست، قۆڵ، بەر، ڕوو، حاست، ئاست، ئاراستە،	ڕێگا، ڕێ، ڕێڕەو، شوێن، ئاقار، ئاست، ئاراستە، سیلە،	مەیل، ویست، تێندێنسی،	بەڕێوەبەرایەتی، هەڵسووڕاندن، چاودێری،	دەستوور،	ڕێ‌پیشان‌دان، ڕێنوێنی،	(سینەما) دەرهێنان، دەرهێنەری، دەستووری کار، دەستوورنامە، ڕێنوێنی، دەستوور،	نێونیشان
+کوردی: لا، ئالی، لایەن، دەست، قۆڵ، بەر، ڕوو، حاست، ئاست، ئاراستە،	ڕێگا، ڕێ، ڕێڕەو، شوێن، ئاقار، ئاست، ئاراستە، سیلە،	مەیل، ویست، تێندێنسی،	بەڕێوەبەرایەتی، ھەڵسووڕاندن، چاودێری،	دەستوور،	ڕێ‌پیشان‌دان، ڕێنوێنی،	(سینەما) دەرھێنان، دەرھێنەری، دەستووری کار، دەستوورنامە، ڕێنوێنی، دەستوور،	نێونیشان
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئاراستەی گشتی جوڵەی کەسێک یان شتێک"),
@@ -646,7 +646,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "They hit a truck coming in the opposite direction."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کێشایان بە بارهەڵگرێکدا کە بە ئاراستەی پێچەوانەوە دەهات."),
+                                    "کێشایان بە بارھەڵگرێکدا کە بە ئاراستەی پێچەوانەوە دەھات."),
                           ],
                         ),
                       ),
@@ -675,7 +675,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "The road was blocked in both directions."),
                             ExampleSentenceKurdish(
-                                text: "ڕێگاکە لە هەردوو ئاراستەوە گیرابوو."),
+                                text: "ڕێگاکە لە ھەردوو ئاراستەوە گیرابوو."),
                           ],
                         ),
                       ),
@@ -734,7 +734,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "When the police arrived, the crowd scattered in all directions."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "کە پۆلیس گەشت، خەڵکەکە بە هەموو ئاراستەکاندا هەڵهاتن."),
+                                    "کە پۆلیس گەشت، خەڵکەکە بە ھەموو ئاراستەکاندا ھەڵھاتن."),
                           ],
                         ),
                       ),
@@ -786,7 +786,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ڕێنمایی سەبارەت بە کردنی شتێک، ڕۆشتن بۆ شوێنێک، هتد"),
+                  "٢. (ناو) ڕێنمایی سەبارەت بە کردنی شتێک، ڕۆشتن بۆ شوێنێک، ھتد"),
           // const DividerSentences(),
           Row(
             children: [
@@ -854,7 +854,7 @@ class KurdishMeaning extends StatelessWidget {
                             "With all pesticides, follow the directions for use carefully."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ هەموو مێرووکوژێک، بەوریاییەوە شوێن ڕێنماییەکانی بەکارهێنان بکەوە."),
+                            "بۆ ھەموو مێرووکوژێک، بەوریاییەوە شوێن ڕێنماییەکانی بەکارھێنان بکەوە."),
                   ],
                 ),
               ),
@@ -1005,7 +1005,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "It's only a small improvement, but at least it's a step in the right direction."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "تەنها بەرەوپێشچوونێکی بچووکە، بەڵام هیچ نەبێت هەنگاوێکە بە ئاراستەی گونجاودا."),
+                                    "تەنھا بەرەوپێشچوونێکی بچووکە، بەڵام ھیچ نەبێت ھەنگاوێکە بە ئاراستەی گونجاودا."),
                           ],
                         ),
                       ),
@@ -1039,7 +1039,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Support came from an unexpected direction."),
                     ExampleSentenceKurdish(
-                        text: "پشتیوانی لە بەرەیەکی چاوەڕوان نەکراوەوە هات."),
+                        text: "پشتیوانی لە بەرەیەکی چاوەڕوان نەکراوەوە ھات."),
                   ],
                 ),
               ),
@@ -1097,7 +1097,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We are looking for somebody with a clear sense of direction."),
                     ExampleSentenceKurdish(
-                        text: "بۆ کەسێک دەگەڕێین کە ئامانجی ڕوونی هەبێت."),
+                        text: "بۆ کەسێک دەگەڕێین کە ئامانجی ڕوونی ھەبێت."),
                   ],
                 ),
               ),
@@ -1156,7 +1156,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There seems to be no clear direction in his policy."),
                     ExampleSentenceKurdish(
                         text:
-                            "وا دەردەکەوێت کە هیچ ئامانجێکی ڕوون لە سیاسەتیدا نەبێت."),
+                            "وا دەردەکەوێت کە ھیچ ئامانجێکی ڕوون لە سیاسەتیدا نەبێت."),
                   ],
                 ),
               ),
@@ -1175,7 +1175,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (ناو) هونەری بەڕێوەبردن و ئاراستەکردنی شتێک"),
+              text: "٦. (ناو) ھونەری بەڕێوەبردن و ئاراستەکردنی شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1216,7 +1216,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All work was produced by the students under the direction of John Williams."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو کارەکان لەلایەن خوێندکارانەوە لەژێر سەرپەرشتی جۆن ویلیامز ئەنجام درا."),
+                            "ھەموو کارەکان لەلایەن خوێندکارانەوە لەژێر سەرپەرشتی جۆن ویلیامز ئەنجام درا."),
                   ],
                 ),
               ),
@@ -1246,7 +1246,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All such research is under government direction."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو لێکۆڵینەوەیەکی وەها لەژێر سەرپەرشتی حکومەت دەکرێت."),
+                            "ھەموو لێکۆڵینەوەیەکی وەھا لەژێر سەرپەرشتی حکومەت دەکرێت."),
                   ],
                 ),
               ),

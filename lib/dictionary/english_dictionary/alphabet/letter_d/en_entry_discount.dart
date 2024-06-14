@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Do you give any discount for students?"),
                     ExampleSentenceKurdish(
-                        text: "هیچ داشکاندنتان هەیە بۆ خوێندکاران؟"),
+                        text: "ھیچ داشکاندنتان ھەیە بۆ خوێندکاران؟"),
                   ],
                 ),
               ),
@@ -660,7 +660,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "We cannot discount the possibility of further strikes."),
                     ExampleSentenceKurdish(
-                        text: "ناتوانین ئەگەری هێرشی دیکە بەکەم‌ سەیربکەین."),
+                        text: "ناتوانین ئەگەری ھێرشی دیکە بەکەم‌ سەیربکەین."),
                   ],
                 ),
               ),
@@ -690,7 +690,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The news reports were being discounted as propaganda."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕاپۆرتە هەواڵییەکان وەک پڕوپاگەندە تێڕوانینیان بۆ دەکرا."),
+                            "ڕاپۆرتە ھەواڵییەکان وەک پڕوپاگەندە تێڕوانینیان بۆ دەکرا."),
                   ],
                 ),
               ),

@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) دڵنیایی کردنەوەی ئەوەی کە زانیاری، ئامار، هتد درووستە بە بەکارهێنانی سیستەم یان بیردۆزی جیاواز"),
+                  "١. (کردار) دڵنیایی کردنەوەی ئەوەی کە زانیاری، ئامار، ھتد درووستە بە بەکارھێنانی سیستەم یان بیردۆزی جیاواز"),
           Row(
             children: [
               const Expanded(
@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) دڵنیایی کردنەوە لەوەی کە زانیاری و ئامار درووستە بە بەکارهێنانی سیستەم و بیردۆزی جیاواز"),
+                  "٢. (ناو) دڵنیایی کردنەوە لەوەی کە زانیاری و ئامار درووستە بە بەکارھێنانی سیستەم و بیردۆزی جیاواز"),
           Row(
             children: [
               const Expanded(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is useful to incorporate as many cross-checks as possible."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەسوودە کە هەرچەندە زۆر بکرێت دڵنیایی کردنەوە لەخۆبگریت."),
+                            "بەسوودە کە ھەرچەندە زۆر بکرێت دڵنیایی کردنەوە لەخۆبگریت."),
                   ],
                 ),
               ),

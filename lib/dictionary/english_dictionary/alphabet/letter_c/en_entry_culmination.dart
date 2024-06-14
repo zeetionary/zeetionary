@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرهەم، لووتکە، ئەوپەڕ، ترۆپک، گەیشتنەسەر، ئەنجام، بەرئەنجام،	ئەنجامی کۆتایی، دوایین‌ئەنجام، دوائاکام،	تەواوی، پێگەیشتن
+کوردی: بەرھەم، لووتکە، ئەوپەڕ، ترۆپک، گەیشتنەسەر، ئەنجام، بەرئەنجام،	ئەنجامی کۆتایی، دوایین‌ئەنجام، دوائاکام،	تەواوی، پێگەیشتن
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەرزترین ئاست یان کۆتایی شتێک"),
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The reforms marked the successful culmination of a long campaign."),
                     ExampleSentenceKurdish(
                         text:
-                            "چاکسازییەکان بەرهەمی سەرکەوتووانەی کەمپینێکی درێ بوون."),
+                            "چاکسازییەکان بەرھەمی سەرکەوتووانەی کەمپینێکی درێ بوون."),
                   ],
                 ),
               ),

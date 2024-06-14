@@ -58,7 +58,7 @@ class _KurdishFavouritesScreenState
       body: kurdishfavourites.isEmpty
           ? const Center(
               child: EmptyPageIcon(
-                text: 'هیچ دڵخوازت نییە',
+                text: 'ھیچ دڵخوازت نییە',
               ),
             )
           : ListView(
@@ -109,7 +109,7 @@ class _KurdishFavouritesScreenState
           content: Directionality(
             textDirection: TextDirection.rtl,
             child: Text(
-              'دەتەوێت هەموو وشە دڵخوازەکان بسڕیتەوە؟',
+              'دەتەوێت ھەموو وشە دڵخوازەکان بسڕیتەوە؟',
               style: TextStyle(
                 fontSize: textSize,
               ),
@@ -162,7 +162,7 @@ class _KurdishFavouritesScreenState
           const SnackBar(
             content: Directionality(
                 textDirection: TextDirection.rtl,
-                child: Text('هەموو وشە دڵخوازەکان سڕدرانەوە')),
+                child: Text('ھەموو وشە دڵخوازەکان سڕدرانەوە')),
           ),
         );
       }

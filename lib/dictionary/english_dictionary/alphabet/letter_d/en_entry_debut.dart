@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He will make his debut for the first team this week."),
                     ExampleSentenceKurdish(
-                        text: "ئەم هەفتەیە یەکەم دەرکەوتنی بۆ تیمەکە دەبێت."),
+                        text: "ئەم ھەفتەیە یەکەم دەرکەوتنی بۆ تیمەکە دەبێت."),
                   ],
                 ),
               ),
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The ballet will debut next month in New York."),
                     ExampleSentenceKurdish(
                         text:
-                            "گرووپە بالێیەکە یەکەم دەرکەوتنی مانگی داهاتوو لە نیویۆرک دەبێت."),
+                            "گرووپە بالێیەکە یەکەم دەرکەوتنی مانگی داھاتوو لە نیویۆرک دەبێت."),
                   ],
                 ),
               ),
@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (کردار) ناساندنی بەرهەمێک بە خەڵکی بۆ یەکەم جار"),
+              text: "٣. (کردار) ناساندنی بەرھەمێک بە خەڵکی بۆ یەکەم جار"),
           Row(
             children: [
               const Expanded(
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They will debut the products at the trade show."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ یەکەم جار بەرهەمەکان لە پێشانگا بازرگانییەکە پیشان دەدەن."),
+                            "بۆ یەکەم جار بەرھەمەکان لە پێشانگا بازرگانییەکە پیشان دەدەن."),
                   ],
                 ),
               ),

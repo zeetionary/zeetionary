@@ -333,11 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دروس‌کەر، دروست‌کەر، ئافرێنەر، سازێنەر، خوڵقێنەر، پێکهێنەر؛ دروست‌کەرانە، ئافرێنەر، سازێنەرانە، خوڵقێنەرانە، پێکهێنەرانە، سەربە ئافراندن،	داهێنەر، تازەگەر
+کوردی: دروس‌کەر، دروست‌کەر، ئافرێنەر، سازێنەر، خوڵقێنەر، پێکھێنەر؛ دروست‌کەرانە، ئافرێنەر، سازێنەرانە، خوڵقێنەرانە، پێکھێنەرانە، سەربە ئافراندن،	داھێنەر، تازەگەر
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) لەخۆگرتنی بەکارهێنانی خەیاڵ و شارەزایی بۆ درووستکردنی شتێکی تازە یان کارێکی هونەری"),
+                  "١. (ھاوەڵناو) لەخۆگرتنی بەکارھێنانی خەیاڵ و شارەزایی بۆ درووستکردنی شتێکی تازە یان کارێکی ھونەری"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She channels her creative energy into her art."),
                     ExampleSentenceKurdish(
-                        text: "وزەی ئافرێنەری دەخاتە گەڕ بۆ هونەرەکەی."),
+                        text: "وزەی ئافرێنەری دەخاتە گەڕ بۆ ھونەرەکەی."),
                   ],
                 ),
               ),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵناو) داهێنەر و تازەگەر؛ هەبوونی شارەزایی بۆ کردنی شتێکی تازە"),
+                  "٢. (ھاوەڵناو) داھێنەر و تازەگەر؛ ھەبوونی شارەزایی بۆ کردنی شتێکی تازە"),
           Row(
             children: [
               const Expanded(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She's very creative—she writes poetry and paints."),
                     ExampleSentenceKurdish(
-                        text: "زۆر داهێنەرە، هۆنراوە دەنووسێت و وێنە دەکێشێت."),
+                        text: "زۆر داھێنەرە، ھۆنراوە دەنووسێت و وێنە دەکێشێت."),
                   ],
                 ),
               ),
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Do you have any ideas? You're the creative one."),
                     ExampleSentenceKurdish(
-                        text: "هیچ بیرۆکەیەکت هەیە؟ کەسە داهێنەرەکەیت."),
+                        text: "ھیچ بیرۆکەیەکت ھەیە؟ کەسە داھێنەرەکەیت."),
                   ],
                 ),
               ),

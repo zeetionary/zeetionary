@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئامێر، ئاموور، کەرەسە، ئامراز، هەجەت، وەسیلە، دەزگا،	داهێنان،	شێوە، ڕێگا، فێڵ، پیلان، تەڵەکە، پلان، نەخشە، تەگبیر،	نیشانە، زناک، بەرژەنگ، درف، هێما، دروشم،	(وێژە) هونەر، خوازە و لێکدانی وشەکان و هتد
+کوردی: ئامێر، ئاموور، کەرەسە، ئامراز، ھەجەت، وەسیلە، دەزگا،	داھێنان،	شێوە، ڕێگا، فێڵ، پیلان، تەڵەکە، پلان، نەخشە، تەگبیر،	نیشانە، زناک، بەرژەنگ، درف، ھێما، دروشم،	(وێژە) ھونەر، خوازە و لێکدانی وشەکان و ھتد
 """),
           const DefinitionKurdish(
               text:
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All new cars are now fitted with these safety devices."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ئۆتۆمبێلە تازەکان ئێستا ئەم ئامێری سەلامەتییانەیان تێدا دانراوە."),
+                            "ھەموو ئۆتۆمبێلە تازەکان ئێستا ئەم ئامێری سەلامەتییانەیان تێدا دانراوە."),
                   ],
                 ),
               ),
@@ -582,7 +582,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You can store thousands of photos on your device."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەتوانیت هەزاران وێنە لەسەر موبایلەکەت کۆگا بکەیت."),
+                            "دەتوانیت ھەزاران وێنە لەسەر موبایلەکەت کۆگا بکەیت."),
                   ],
                 ),
               ),
@@ -639,7 +639,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It was the world's first atomic device."),
                     ExampleSentenceKurdish(
-                        text: "یەکەمین بۆمبی ئەتۆمی جیهان بوو."),
+                        text: "یەکەمین بۆمبی ئەتۆمی جیھان بوو."),
                   ],
                 ),
               ),
@@ -668,7 +668,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "A powerful device exploded outside the station."),
                     ExampleSentenceKurdish(
-                        text: "بۆمبێکی بەهێز لە دەرەوەی بیناکە تەقییەوە."),
+                        text: "بۆمبێکی بەھێز لە دەرەوەی بیناکە تەقییەوە."),
                   ],
                 ),
               ),
@@ -841,7 +841,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٦. (ناو) شێوازێکی وشە کە ئامانج لێی ئەوەیە کاریگەرییەکی تایبەتی هەبێت لە نووسین یان قسەکردندا"),
+                  "٦. (ناو) شێوازێکی وشە کە ئامانج لێی ئەوەیە کاریگەرییەکی تایبەتی ھەبێت لە نووسین یان قسەکردندا"),
           // const DividerSentences(),
           Row(
             children: [

@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                             "We have installed portable defibrillators in public buildings."),
                     ExampleSentenceKurdish(
                         text:
-                            "شۆکی کارەبایی لەگوێزانەوەهاتوومان لە بینا گشتییەکان داناوە."),
+                            "شۆکی کارەبایی لەگوێزانەوەھاتوومان لە بینا گشتییەکان داناوە."),
                   ],
                 ),
               ),

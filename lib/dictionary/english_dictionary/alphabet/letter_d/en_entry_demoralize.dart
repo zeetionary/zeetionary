@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Constant criticism is enough to demoralize anybody."),
                     ExampleSentenceKurdish(
                         text:
-                            "لۆمەی بەردەوام بەسە بۆ دابەزاندنی ورەی هەر کەسێک."),
+                            "لۆمەی بەردەوام بەسە بۆ دابەزاندنی ورەی ھەر کەسێک."),
                   ],
                 ),
               ),

@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قووڵی، کویراهی، بەرینی، پانی، پانایی،	(تاریکی، ڕەنگەکان و هتد) توندی، زۆری، تێری، تۆخی،	(دەنگ) بۆڕی،	توانایی تێگەیشتن یان لێکدانەوەی بیرۆکە گرانەکان، ئاوەز، ئەقڵ،	زۆری،	(زۆرتر بە شێوەی کۆ) قووڵایی، جەرگە، نێوەڕاست، چەق، مەیانە، دڵ، ناخ،	(بەفر و...) بارستایی، بەرزایی
+کوردی: قووڵی، کویراھی، بەرینی، پانی، پانایی،	(تاریکی، ڕەنگەکان و ھتد) توندی، زۆری، تێری، تۆخی،	(دەنگ) بۆڕی،	توانایی تێگەیشتن یان لێکدانەوەی بیرۆکە گرانەکان، ئاوەز، ئەقڵ،	زۆری،	(زۆرتر بە شێوەی کۆ) قووڵایی، جەرگە، نێوەڕاست، چەق، مەیانە، دڵ، ناخ،	(بەفر و...) بارستایی، بەرزایی
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دووری لە سەرەوە بۆ خوارەوەی شتێک"),
@@ -539,7 +539,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The camera must be strong enough to resist the immense water pressure at depth."),
                     ExampleSentenceKurdish(
                         text:
-                            "کامێراکە دەبێت هێندە بەهێز بێت کە بەرگەی قووڵی بگرێت."),
+                            "کامێراکە دەبێت ھێندە بەھێز بێت کە بەرگەی قووڵی بگرێت."),
                   ],
                 ),
               ),
@@ -585,7 +585,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) توانا و هێزی هەست"),
+          const DefinitionKurdish(text: "٣. (ناو) توانا و ھێزی ھەست"),
           // const DividerSentences(),
           Row(
             children: [
@@ -597,7 +597,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The demonstration showed the depth of feeling against the war."),
                     ExampleSentenceKurdish(
                         text:
-                            "خۆپیشاندانەکە قووڵی هەستەکانی دژ بە جەنگەکە پیشاندا."),
+                            "خۆپیشاندانەکە قووڵی ھەستەکانی دژ بە جەنگەکە پیشاندا."),
                   ],
                 ),
               ),
@@ -675,7 +675,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (ناو) هەبوونی زانیاریی زۆر لەسەر شتێک"),
+              text: "٥. (ناو) ھەبوونی زانیاریی زۆر لەسەر شتێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -711,7 +711,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Younger students cannot be expected to have great depth of understanding."),
                     ExampleSentenceKurdish(
                         text:
-                            "خوێندکارە گەنجەکان ناکرێت پێشبینییان لێ بکرێت توانای قووڵی تێگەشتنیان هەبێت."),
+                            "خوێندکارە گەنجەکان ناکرێت پێشبینییان لێ بکرێت توانای قووڵی تێگەشتنیان ھەبێت."),
                   ],
                 ),
               ),
@@ -738,7 +738,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She was in the depths of despair."),
-                    ExampleSentenceKurdish(text: "لە قووڵایی نەهامەتیدا بوو."),
+                    ExampleSentenceKurdish(text: "لە قووڵایی نەھامەتیدا بوو."),
                   ],
                 ),
               ),

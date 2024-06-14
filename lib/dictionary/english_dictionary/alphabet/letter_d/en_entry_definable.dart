@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەپێناسەهاتوو، دەناسێنرێ، (بەوردی) لێک‌دەدرێتەوە
+کوردی: لەپێناسەھاتوو، دەناسێنرێ، (بەوردی) لێک‌دەدرێتەوە
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە واتایەکەوە کە دەکرێت بناسرێت"),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Neither of those terms is easily definable."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ یەک لەو دەستەواژانە بە ئاسانی پێناسە ناکرێت."),
+                            "ھیچ یەک لەو دەستەواژانە بە ئاسانی پێناسە ناکرێت."),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Your office must be a clearly definable space in which no personal activities take place."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئۆفیسەکەت دەبێت شوێنێکی ئاسان ناسێنراو بێت کە هیچ چالاکییەکی کەسی تێیدا ڕوونەدا."),
+                            "ئۆفیسەکەت دەبێت شوێنێکی ئاسان ناسێنراو بێت کە ھیچ چالاکییەکی کەسی تێیدا ڕوونەدا."),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is a mistake to see suffering as having a definable cause."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەڵەیە کە ئازارکێشان بەوە ببینیت کە هۆکاری ڕوونی هەبێت."),
+                            "ھەڵەیە کە ئازارکێشان بەوە ببینیت کە ھۆکاری ڕوونی ھەبێت."),
                   ],
                 ),
               ),

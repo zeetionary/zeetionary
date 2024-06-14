@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She is a devout Christian who attends church daily."),
                     ExampleSentenceKurdish(
                         text:
-                            "مەسیحییەکی لەخواترسە کە هەموو ڕۆژێک دەچێتە کڵێسا."),
+                            "مەسیحییەکی لەخواترسە کە ھەموو ڕۆژێک دەچێتە کڵێسا."),
                   ],
                 ),
               ),

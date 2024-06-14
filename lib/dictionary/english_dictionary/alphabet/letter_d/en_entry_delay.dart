@@ -453,7 +453,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Increased congestion and traffic delays are expected."),
                     ExampleSentenceKurdish(
                         text:
-                            "قەرەباڵغی زۆر و دواکەوتنی هاتووچۆ چاوەڕوان دەکرێت."),
+                            "قەرەباڵغی زۆر و دواکەوتنی ھاتووچۆ چاوەڕوان دەکرێت."),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The strike has led to some delays in train services."),
                     ExampleSentenceKurdish(
                         text:
-                            "مانگرتنەکە بووە بە هۆکاری هەندێک دواکەوتن لە خزمەتگوزاری شەمەندەفەردا."),
+                            "مانگرتنەکە بووە بە ھۆکاری ھەندێک دواکەوتن لە خزمەتگوزاری شەمەندەفەردا."),
                   ],
                 ),
               ),
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) شکستهێنان لەوەی شتێک لەکاتی خۆیدا بکەیت"),
+              text: "٢. (ناو) شکستھێنان لەوەی شتێک لەکاتی خۆیدا بکەیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -541,7 +541,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Thousands of commuters were delayed for over an hour."),
                     ExampleSentenceKurdish(
-                        text: "هەزاران گەشتیار دواخران بۆ سەروو کاتژمێرێک."),
+                        text: "ھەزاران گەشتیار دواخران بۆ سەروو کاتژمێرێک."),
                   ],
                 ),
               ),
@@ -670,7 +670,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He delayed telling her the news, waiting for the right moment."),
                     ExampleSentenceKurdish(
                         text:
-                            "گوتنی هەواڵەکەی پێی دواخست و وەستا بۆ ساتی درووست."),
+                            "گوتنی ھەواڵەکەی پێی دواخست و وەستا بۆ ساتی درووست."),
                   ],
                 ),
               ),

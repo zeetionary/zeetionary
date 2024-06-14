@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) وتارێک یان چیرۆکێک کە لە ڕۆژنامەیەک یان گۆڤارێک دەیبڕیت و هەڵیدەگریت"),
+                  "١. (ناو) وتارێک یان چیرۆکێک کە لە ڕۆژنامەیەک یان گۆڤارێک دەیبڕیت و ھەڵیدەگریت"),
           Row(
             children: [
               const Expanded(
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She had kept all the press cuttings about the murder."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو لێکراوەکانی میدیای سەبارەت بە کوشتنەکە هەڵگرت."),
+                            "ھەموو لێکراوەکانی میدیای سەبارەت بە کوشتنەکە ھەڵگرت."),
                   ],
                 ),
               ),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Take cuttings from mature plants in the spring."),
                     ExampleSentenceKurdish(
                         text:
-                            "شەتڵ لە ڕووەکی پێگەشتووەوە ببە لە کۆتایی بەهاردا."),
+                            "شەتڵ لە ڕووەکی پێگەشتووەوە ببە لە کۆتایی بەھاردا."),
                   ],
                 ),
               ),
@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ھاوەڵناو) توند و ناخۆش کە ئازاری هەستەکانی کەسێک دەدات"),
+                  "٣. (ھاوەڵناو) توند و ناخۆش کە ئازاری ھەستەکانی کەسێک دەدات"),
           Row(
             children: [
               const Expanded(
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He can be very cutting when he chooses to be!"),
                     ExampleSentenceKurdish(
-                        text: "کە بیەوێت دەتوانێت زۆر نامیهرەبان بێت."),
+                        text: "کە بیەوێت دەتوانێت زۆر نامیھرەبان بێت."),
                   ],
                 ),
               ),

@@ -335,10 +335,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاپۆر، ڕاپۆرت،	ڕادەی لێکۆڵینەوە و باس‌کردن، داپۆشین، پۆششت، (دا)پۆشاندن، ڕووماڵاندن، ڕووماڵ‌کردن،	داپۆشین، (دا)پۆشاندن، پۆششت، داهێنان، سەرنانەوە، تەڤزاندن، داگرتن، گرتنەوە،	بیمەلەسەر، بیمە
+کوردی: ڕاپۆر، ڕاپۆرت،	ڕادەی لێکۆڵینەوە و باس‌کردن، داپۆشین، پۆششت، (دا)پۆشاندن، ڕووماڵاندن، ڕووماڵ‌کردن،	داپۆشین، (دا)پۆشاندن، پۆششت، داھێنان، سەرنانەوە، تەڤزاندن، داگرتن، گرتنەوە،	بیمەلەسەر، بیمە
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) ڕووماڵی هەواڵ و وەرزش لە میدیادا"),
+              text: "١. (ناو) ڕووماڵی ھەواڵ و وەرزش لە میدیادا"),
           Row(
             children: [
               const Expanded(
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There was blanket coverage (= reports everywhere) of the royal divorce."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووماڵی بەرفراوانی جیابوونەوە شاهانەییەکە هەبوو."),
+                            "ڕووماڵی بەرفراوانی جیابوونەوە شاھانەییەکە ھەبوو."),
                   ],
                 ),
               ),
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The TV company was given a special award for its news coverage."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیا تەلەفیزیۆنێکە خەڵاتی تایبەتی پێدرا بۆ ڕووماڵەکەی بۆ هەواڵەکە."),
+                            "کۆمپانیا تەلەفیزیۆنێکە خەڵاتی تایبەتی پێدرا بۆ ڕووماڵەکەی بۆ ھەواڵەکە."),
                   ],
                 ),
               ),
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بڕی ئەو زانیارییانەی کە هەیە لە کتێبێک یان کۆرسێکدا، یان لەسەر تەلەفیزیۆن، هتد"),
+                  "٢. (ناو) بڕی ئەو زانیارییانەی کە ھەیە لە کتێبێک یان کۆرسێکدا، یان لەسەر تەلەفیزیۆن، ھتد"),
           Row(
             children: [
               const Expanded(

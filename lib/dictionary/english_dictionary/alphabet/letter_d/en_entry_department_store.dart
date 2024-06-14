@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The department store downtown has three floors."),
                     ExampleSentenceKurdish(
-                        text: "فرۆشگاکەی ناوجەرگەی شار سێ نهۆمی هەیە."),
+                        text: "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە."),
                   ],
                 ),
               ),

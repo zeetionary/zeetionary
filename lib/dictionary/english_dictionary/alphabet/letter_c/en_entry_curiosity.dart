@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وردی، وردەوەبوون، زانین‌خوازی، بەپرسیاری، خۆتێ‌هەڵقوتاندن، مەراق‌زانست،	تاسە، مەراق، بەپەرۆشی،	نەناسی، سەیربوون، تازە، شتی کەم‌پەیدا یا کەم‌دەسکەوتە، ئەنتیکە، ناوازەیی
+کوردی: وردی، وردەوەبوون، زانین‌خوازی، بەپرسیاری، خۆتێ‌ھەڵقوتاندن، مەراق‌زانست،	تاسە، مەراق، بەپەرۆشی،	نەناسی، سەیربوون، تازە، شتی کەم‌پەیدا یا کەم‌دەسکەوتە، ئەنتیکە، ناوازەیی
 """),
           const DefinitionKurdish(
               text: "١. (ناو) حەزێکی زۆر بۆ زانین سەبارەت بە شتێک"),
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Children show curiosity about everything."),
                     ExampleSentenceKurdish(
-                        text: "منداڵان زانین‌خوازییان بۆ هەموو شتێک هەیە."),
+                        text: "منداڵان زانین‌خوازییان بۆ ھەموو شتێک ھەیە."),
                   ],
                 ),
               ),
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I felt a certain curiosity to see what would happen next."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەستم بە مەراقێکی دیاریکراو کرد کە دواتر چی ڕوودەدات."),
+                            "ھەستم بە مەراقێکی دیاریکراو کرد کە دواتر چی ڕوودەدات."),
                   ],
                 ),
               ),
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "His answer did not satisfy my curiosity at all."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "وەڵامەکەی بەهیچ شێوەیەک مەراقمی دانەمرکاندەوە."),
+                                    "وەڵامەکەی بەھیچ شێوەیەک مەراقمی دانەمرکاندەوە."),
                           ],
                         ),
                       ),

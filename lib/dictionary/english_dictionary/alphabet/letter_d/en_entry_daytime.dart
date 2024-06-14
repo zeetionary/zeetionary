@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Daytime temperatures never fell below 30°C."),
                     ExampleSentenceKurdish(
                         text:
-                            "پلەی گەرمی ڕۆژانە هەرگیز نایەتە خوار ٣٠ پلەی سیلیزی."),
+                            "پلەی گەرمی ڕۆژانە ھەرگیز نایەتە خوار ٣٠ پلەی سیلیزی."),
                   ],
                 ),
               ),

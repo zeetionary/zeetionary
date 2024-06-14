@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Her singing voice has a pure, crystalline quality."),
                     ExampleSentenceKurdish(
-                        text: "دەنگی دەنگبێژیی کوالێتییەکی ڕەوان و پاکی هەیە."),
+                        text: "دەنگی دەنگبێژیی کوالێتییەکی ڕەوان و پاکی ھەیە."),
                   ],
                 ),
               ),

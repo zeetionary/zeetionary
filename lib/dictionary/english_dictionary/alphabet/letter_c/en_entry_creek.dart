@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They drove to the little creek where they kept their fishing boat."),
                     ExampleSentenceKurdish(
                         text:
-                            "چوونە زێیە بچووکەکەوە کە تێیدا بەلەمی ڕاوکردنەکەیان هێشتەوە."),
+                            "چوونە زێیە بچووکەکەوە کە تێیدا بەلەمی ڕاوکردنەکەیان ھێشتەوە."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "That night they set up camp near the creek."),
                     ExampleSentenceKurdish(
-                        text: "ئەو شەوە کەمپیان لە نزیک زێیەکە هەڵدا."),
+                        text: "ئەو شەوە کەمپیان لە نزیک زێیەکە ھەڵدا."),
                   ],
                 ),
               ),

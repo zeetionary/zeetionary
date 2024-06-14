@@ -196,7 +196,7 @@ class EnglishEntryconviction extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: تاوانبارکردن، گوناهبارکردن، مەحکوومیت، سزالەسەری، تاوانباری، گوناهباری، خەتاباری،	باوەڕی پتەو، بڕوای تۆکمە،	بەرایی، ڕازی‌کردن، قایل‌کردن،	باوەڕ، بایەخ، دڵنیایی، تێڕادیتن، باوەڕپێکراوی 
+کوردی: تاوانبارکردن، گوناھبارکردن، مەحکوومیت، سزالەسەری، تاوانباری، گوناھباری، خەتاباری،	باوەڕی پتەو، بڕوای تۆکمە،	بەرایی، ڕازی‌کردن، قایل‌کردن،	باوەڕ، بایەخ، دڵنیایی، تێڕادیتن، باوەڕپێکراوی 
 """),
                           const DefinitionKurdish(
                               text:
@@ -211,7 +211,7 @@ class EnglishEntryconviction extends StatelessWidget {
                                             "He plans to appeal against his conviction."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلانی هەیە پەڵپ لە توانبارکردنەکەی بگرێت."),
+                                            "پلانی ھەیە پەڵپ لە توانبارکردنەکەی بگرێت."),
                                   ],
                                 ),
                               ),
@@ -239,7 +239,7 @@ class EnglishEntryconviction extends StatelessWidget {
                                             "She has six previous convictions for theft."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەش تاوانبارکردنی دیکەی هەیە بۆ دزیکردن."),
+                                            "شەش تاوانبارکردنی دیکەی ھەیە بۆ دزیکردن."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntryconviction extends StatelessWidget {
                                             "His sentence on conviction would be life imprisonment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سزاکەی لە ئەگەری تاوانبارکردنیدا زیندانی هەمیشەیی دەبێت."),
+                                            "سزاکەی لە ئەگەری تاوانبارکردنیدا زیندانی ھەمیشەیی دەبێت."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntryconviction extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) بۆچوون و باوەڕی بەهێز"),
+                              text: "٢. (ناو) بۆچوون و باوەڕی بەھێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -297,7 +297,7 @@ class EnglishEntryconviction extends StatelessWidget {
                                             "She was motivated by deep religious conviction."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باوەڕی بەهێزی ئایینی پاڵنەری بوو."),
+                                            "باوەڕی بەھێزی ئایینی پاڵنەری بوو."),
                                   ],
                                 ),
                               ),
@@ -317,7 +317,7 @@ class EnglishEntryconviction extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پیشاندانی ئەوەی باوەڕی تەواوت بەوە هەیە دەیڵێیت"),
+                                  "٣. (ناو) پیشاندانی ئەوەی باوەڕی تەواوت بەوە ھەیە دەیڵێیت"),
                           Row(
                             children: [
                               const Expanded(

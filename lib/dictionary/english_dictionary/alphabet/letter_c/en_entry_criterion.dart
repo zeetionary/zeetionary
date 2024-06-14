@@ -332,11 +332,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پێودانگ، پێوانە، پێوەر، ئایەرە، تێساو، ئەندازە، هەڵسەنگێنە
+کوردی: پێودانگ، پێوانە، پێوەر، ئایەرە، تێساو، ئەندازە، ھەڵسەنگێنە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) پێوەرێک کە بەپێی ئەوە هەڵسەنگاندن دەکرێت یان بڕیار دەدرێت"),
+                  "١. (ناو) پێوەرێک کە بەپێی ئەوە ھەڵسەنگاندن دەکرێت یان بڕیار دەدرێت"),
           Row(
             children: [
               const Expanded(
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She failed to meet the strict selection criteria."),
                     ExampleSentenceKurdish(
-                        text: "پێوەرە توندەکانی هەڵبژاردنی تێدا نەبوو."),
+                        text: "پێوەرە توندەکانی ھەڵبژاردنی تێدا نەبوو."),
                   ],
                 ),
               ),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "What criteria are used for assessing a student's ability?"),
                     ExampleSentenceKurdish(
                         text:
-                            "چی پێوەرێک بەکاردێت بۆ هەڵسەنگاندنی توانای خوێندکار؟"),
+                            "چی پێوەرێک بەکاردێت بۆ ھەڵسەنگاندنی توانای خوێندکار؟"),
                   ],
                 ),
               ),

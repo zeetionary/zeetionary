@@ -658,10 +658,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دروست، ڕاست، بێ‌هەڵە، ساغ، ورد،	بەجێ، بەڕێ‌وجێ، شیاو، گونجاو، باش، ژیرانە
+کوردی: دروست، ڕاست، بێ‌ھەڵە، ساغ، ورد،	بەجێ، بەڕێ‌وجێ، شیاو، گونجاو، باش، ژیرانە
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) ڕاست، درووست؛ بەبێ هەڵە"),
+              text: "١. (ھاوەڵناو) ڕاست، درووست؛ بەبێ ھەڵە"),
           Row(
             children: [
               const Expanded(
@@ -728,7 +728,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "As always, your grandmother is absolutely correct."),
                             ExampleSentenceKurdish(
-                                text: "وەک هەمیشە، داپیرەت بە تەواوی ڕاستە."),
+                                text: "وەک ھەمیشە، داپیرەت بە تەواوی ڕاستە."),
                           ],
                         ),
                       ),
@@ -755,7 +755,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "They were correct in their assessment of the situation."),
                             ExampleSentenceKurdish(
-                                text: "ڕاست بوون لە هەڵسەنگاندنیان بۆ دۆخەکە."),
+                                text: "ڕاست بوون لە ھەڵسەنگاندنیان بۆ دۆخەکە."),
                           ],
                         ),
                       ),
@@ -811,7 +811,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "It is correct that there are some similarities between the two cases."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "ئەوە درووستە کە هەندێک لێکچوون لە نێوان دوو دۆخەکەدا هەیە."),
+                                    "ئەوە درووستە کە ھەندێک لێکچوون لە نێوان دوو دۆخەکەدا ھەیە."),
                           ],
                         ),
                       ),
@@ -900,7 +900,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He is always very correct in his speech."),
                     ExampleSentenceKurdish(
-                        text: "هەمیشە زۆر ژیرە لە قسەکردنیدا."),
+                        text: "ھەمیشە زۆر ژیرە لە قسەکردنیدا."),
                   ],
                 ),
               ),
@@ -920,7 +920,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کردار) ڕاستکردنەوە یان درووستکردنی شتێک، بۆ نموونە بە لابردن یان چاککردنی هەڵەکانی"),
+                  "٤. (کردار) ڕاستکردنەوە یان درووستکردنی شتێک، بۆ نموونە بە لابردن یان چاککردنی ھەڵەکانی"),
           Row(
             children: [
               const Expanded(
@@ -931,7 +931,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Read through your work and correct any mistakes that you find."),
                     ExampleSentenceKurdish(
                         text:
-                            "کارەکەت بخوێنەوە و هەر هەڵەیەک ڕاست بکەوە کە دەیدۆزیتەوە."),
+                            "کارەکەت بخوێنەوە و ھەر ھەڵەیەک ڕاست بکەوە کە دەیدۆزیتەوە."),
                   ],
                 ),
               ),
@@ -957,7 +957,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I thought we had corrected the problem."),
                     ExampleSentenceKurdish(
-                        text: "پێموابوو هەڵەکەمان ڕاستکردبووەوە."),
+                        text: "پێموابوو ھەڵەکەمان ڕاستکردبووەوە."),
                   ],
                 ),
               ),
@@ -988,7 +988,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "Their eyesight can be corrected in just a few minutes by the use of a laser."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "بینایی دەکرێت ڕاست بکرێتەوە بە تەنها چەند خولەکێک بە بەکارهێنانی لەیزەر."),
+                                    "بینایی دەکرێت ڕاست بکرێتەوە بە تەنھا چەند خولەکێک بە بەکارھێنانی لەیزەر."),
                           ],
                         ),
                       ),
@@ -1044,7 +1044,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "At this stage you should be able to correct at least some of your own mistakes."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "لەم قۆناغەدا دەبێت بتوانیت هیچ نەبێت هەندێک لە هەڵەکانی خۆت ڕاست بکەیتەوە."),
+                                    "لەم قۆناغەدا دەبێت بتوانیت ھیچ نەبێت ھەندێک لە ھەڵەکانی خۆت ڕاست بکەیتەوە."),
                           ],
                         ),
                       ),
@@ -1068,7 +1068,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٥. (کردار) دیاریکردنی هەڵە و پێدانی نمرە بە وەڵامی تاقیکردنەوەی خوێندکار"),
+                  "٥. (کردار) دیاریکردنی ھەڵە و پێدانی نمرە بە وەڵامی تاقیکردنەوەی خوێندکار"),
           Row(
             children: [
               const Expanded(
@@ -1106,7 +1106,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It's simply not true that teachers no longer correct bad spellings."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوە تەواو ڕاست نییە کە مامۆستایان چی دیکە ڕێنووسی هەڵە ڕاست ناکەنەوە."),
+                            "ئەوە تەواو ڕاست نییە کە مامۆستایان چی دیکە ڕێنووسی ھەڵە ڕاست ناکەنەوە."),
                   ],
                 ),
               ),
@@ -1125,7 +1125,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٦. (کردار) گوتن بە کەسێک کە هەڵەیەکی کردووە"),
+              text: "٦. (کردار) گوتن بە کەسێک کە ھەڵەیەکی کردووە"),
           Row(
             children: [
               const Expanded(
@@ -1135,7 +1135,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Yes, you're right—I stand corrected (= I accept that I made a mistake)."),
                     ExampleSentenceKurdish(
-                        text: "بەڵێ ڕاست دەکەیت، من هەڵە بووم."),
+                        text: "بەڵێ ڕاست دەکەیت، من ھەڵە بووم."),
                   ],
                 ),
               ),
@@ -1163,7 +1163,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Correct me if I'm wrong, but isn't he Jane's brother??"),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕاستم بکەوە ئەگەر هەڵەم، بەڵام ئەو برای جەین نییە؟"),
+                            "ڕاستم بکەوە ئەگەر ھەڵەم، بەڵام ئەو برای جەین نییە؟"),
                   ],
                 ),
               ),

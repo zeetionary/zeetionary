@@ -662,7 +662,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) بەوریایی بیرکردنەوە سەبارەت بە هەموو ئەو هەڵبژاردانەی بەردەستن و هەڵبژاردنی یەکێکیان"),
+                  "١. (کردار) بەوریایی بیرکردنەوە سەبارەت بە ھەموو ئەو ھەڵبژاردانەی بەردەستن و ھەڵبژاردنی یەکێکیان"),
           Row(
             children: [
               const Expanded(
@@ -808,7 +808,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "She gave up politics and decided instead to focus on charity work."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "وازی لە سیاسەت هێنا و بڕیاری دا لە جیاتیدا سەرنج بخاتە سەر کاری خێرخوازی."),
+                                    "وازی لە سیاسەت ھێنا و بڕیاری دا لە جیاتیدا سەرنج بخاتە سەر کاری خێرخوازی."),
                           ],
                         ),
                       ),
@@ -891,7 +891,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "You have the right to decide what you want to do."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "مافی ئەوەت هەیە بڕیارت بدەیت چیت دەوێت بیکەیت."),
+                                    "مافی ئەوەت ھەیە بڕیارت بدەیت چیت دەوێت بیکەیت."),
                           ],
                         ),
                       ),
@@ -1033,7 +1033,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The Appeal Court decided in their favour."),
                     ExampleSentenceKurdish(
                         text:
-                            "دادگای تێهەڵچوونەوە لە بەرژەوەندییان بڕیاری دا."),
+                            "دادگای تێھەڵچوونەوە لە بەرژەوەندییان بڕیاری دا."),
                   ],
                 ),
               ),
@@ -1061,7 +1061,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is always possible that the judge may decide against you."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمیشە ڕێی تێ دەچێت دادوەرەکە دژ بە تۆ بڕیار بدات."),
+                            "ھەمیشە ڕێی تێ دەچێت دادوەرەکە دژ بە تۆ بڕیار بدات."),
                   ],
                 ),
               ),
@@ -1137,7 +1137,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DefinitionKurdish(
-              text: "٤. (کردار) بوون بە هۆکاری ئەوەی کەسێک شتێک بکات"),
+              text: "٤. (کردار) بوون بە ھۆکاری ئەوەی کەسێک شتێک بکات"),
           Row(
             children: [
               const Expanded(

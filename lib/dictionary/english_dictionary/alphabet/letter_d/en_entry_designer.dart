@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) کەسێک کە جل، بینا، هتد دیزاین دەکات بە کێشانی شێوە یان پلان بۆی"),
+                  "١. (ناو) کەسێک کە جل، بینا، ھتد دیزاین دەکات بە کێشانی شێوە یان پلان بۆی"),
           Row(
             children: [
               const Expanded(
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This designer has recently branched out into children's wear."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم دیزاینەرە تازەگی پەلی هاویشتووە بۆ جلی منداڵان."),
+                            "ئەم دیزاینەرە تازەگی پەلی ھاویشتووە بۆ جلی منداڵان."),
                   ],
                 ),
               ),
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "I don't possess any designer clothes."),
-                    ExampleSentenceKurdish(text: "هیچ جلێکی دیزاینەرم نییە."),
+                    ExampleSentenceKurdish(text: "ھیچ جلێکی دیزاینەرم نییە."),
                   ],
                 ),
               ),

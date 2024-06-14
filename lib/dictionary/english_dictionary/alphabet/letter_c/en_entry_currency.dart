@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
                             "You'll need some cash in local currency but you can also use your credit card."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێویستیت بە هەندێ کاش لە دراوی ناوخۆ هەیە بەڵام دەشتوانیت کرێدیت کاردەکەت بەکاربهێنیت."),
+                            "پێویستیت بە ھەندێ کاش لە دراوی ناوخۆ ھەیە بەڵام دەشتوانیت کرێدیت کاردەکەت بەکاربھێنیت."),
                   ],
                 ),
               ),
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: "She had £500 in foreign currency."),
                             ExampleSentenceKurdish(
-                                text: "٥٠٠ پاوەندی بە دراوی بیانی هەیە."),
+                                text: "٥٠٠ پاوەندی بە دراوی بیانی ھەیە."),
                           ],
                         ),
                       ),
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                                     "The system allows currencies to fluctuate within certain limits."),
                             ExampleSentenceKurdish(
                                 text:
-                                    "سیستەمەکە ڕێگا بە دراوەکان دەدات لە نێوان سنووری دیاریکراودا هەڵکشان و داکشان بکەن."),
+                                    "سیستەمەکە ڕێگا بە دراوەکان دەدات لە نێوان سنووری دیاریکراودا ھەڵکشان و داکشان بکەن."),
                           ],
                         ),
                       ),
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The term ‘post-industrial’ now has wide currency."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەستەواژەی 'post-industrial' ئێستا بەکارهێنانی فراوانی هەیە."),
+                            "دەستەواژەی 'post-industrial' ئێستا بەکارھێنانی فراوانی ھەیە."),
                   ],
                 ),
               ),
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The qualification has gained currency all over the world."),
                     ExampleSentenceKurdish(
-                        text: "بڕوانامەکە بە هەموو جیهاندا تەشەنەی کردووە."),
+                        text: "بڕوانامەکە بە ھەموو جیھاندا تەشەنەی کردووە."),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "This belief has general currency."),
                     ExampleSentenceKurdish(
-                        text: "ئەم بۆچوونە پەرەسەندنی بەرفراوانی هەیە."),
+                        text: "ئەم بۆچوونە پەرەسەندنی بەرفراوانی ھەیە."),
                   ],
                 ),
               ),

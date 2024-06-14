@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -544,9 +546,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەدانەوەهاتوو، شێاوی دان یان پێدان،	وادە، وەختی دانەوە،	خاوەن‌قەرز،	دیاری‌کراو، دانراو، بڕیارلەسەردراو، پێویست،	باش، گونجاو، ڕەوا، شیاو، حەق، بەرحەق،	لە ئەنجامی، لەبەر،	ماف، حەق،	قەرز، حەقی ئەندامێتی، ئەندامانە،	حەق
+کوردی: لەدانەوەھاتوو، شێاوی دان یان پێدان،	وادە، وەختی دانەوە،	خاوەن‌قەرز،	دیاری‌کراو، دانراو، بڕیارلەسەردراو، پێویست،	باش، گونجاو، ڕەوا، شیاو، حەق، بەرحەق،	لە ئەنجامی، لەبەر،	ماف، حەق،	قەرز، حەقی ئەندامێتی، ئەندامانە،	حەق
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) بەهۆی کەسێک/شتێک"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) بەھۆی کەسێک/شتێک"""),
           Row(
             children: [
               const Expanded(
@@ -557,7 +559,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The team's success was largely due to her efforts."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرکەوتنی تیمەکە بەشێوەیەکی سەرەکی بەهۆی هەوڵەکانی ئەو بوو."""),
+                            """سەرکەوتنی تیمەکە بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی ئەو بوو."""),
                   ],
                 ),
               ),
@@ -587,7 +589,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He argues that climate change is mainly due to the actions of industrialized countries."""),
                     ExampleSentenceKurdish(
                         text:
-                            """مشتومڕی ئەوە دەکات کە گۆڕانی کەشووهەوا بەشێوەیەکی سەرەکی بەهۆی هەوڵەکانی وڵاتە پیشەسازییەکانە."""),
+                            """مشتومڕی ئەوە دەکات کە گۆڕانی کەشووھەوا بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی وڵاتە پیشەسازییەکانە."""),
                   ],
                 ),
               ),
@@ -617,7 +619,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The increase in reported cases is partly due to growing public awareness of the disease."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زیادبوونی کەیسە ڕاگەیەندراوەکان تا ڕادەیەک بەهۆی هۆشیاری زیادبووی خەڵکییە بۆ نەخۆشییەکە."""),
+                            """زیادبوونی کەیسە ڕاگەیەندراوەکان تا ڕادەیەک بەھۆی ھۆشیاری زیادبووی خەڵکییە بۆ نەخۆشییەکە."""),
                   ],
                 ),
               ),
@@ -703,7 +705,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """My essay's due next Friday (= it has to be given to the teacher by then)."""),
                     ExampleSentenceKurdish(
-                        text: """داڕشتنەکەم تاوەکو هەینی کاتی هەیە."""),
+                        text: """داڕشتنەکەم تاوەکو ھەینی کاتی ھەیە."""),
                   ],
                 ),
               ),
@@ -753,7 +755,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ھاوەڵناو) کە دەبێت بدرێت بە کەسێک بەهۆی ئەوەی مافیەتی یان شایەنیەتی"""),
+                  """٤. (ھاوەڵناو) کە دەبێت بدرێت بە کەسێک بەھۆی ئەوەی مافیەتی یان شایەنیەتی"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -820,7 +822,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I'm still due 15 days' leave."""),
                     ExampleSentenceKurdish(
-                        text: """هێشتا ١٥ ڕۆژ مۆڵەتم ماوە."""),
+                        text: """ھێشتا ١٥ ڕۆژ مۆڵەتم ماوە."""),
                   ],
                 ),
               ),
@@ -867,7 +869,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٦. (ھاوەڵناو) کە لە هەلومەرجێکدا گونجاو دەبێت"""),
+              text: """٦. (ھاوەڵناو) کە لە ھەلومەرجێکدا گونجاو دەبێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -910,7 +912,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She's a slow worker, but to give her her due (= to be fair to her), she does try very hard."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کرێکارێکی خاووخلیچکە، بەڵام بۆ ناحەقی نەبێت بەرامبەری، زۆر ماندوونەناسانە هەوڵ دەدات."""),
+                            """کرێکارێکی خاووخلیچکە، بەڵام بۆ ناحەقی نەبێت بەرامبەری، زۆر ماندوونەناسانە ھەوڵ دەدات."""),
                   ],
                 ),
               ),
@@ -960,7 +962,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٩. (هاوەڵکار) بە تەواوی؛ بەهێڵێکی ڕاست"""),
+              text: """٩. (ھاوەڵکار) بە تەواوی؛ بەھێڵێکی ڕاست"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -1001,7 +1003,7 @@ class KurdishMeaning extends StatelessWidget {
                             """From here, you go due east until you get to the school."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لێرەوە ڕاست بۆ ڕۆژهەڵات دەچیت تاوەکو دەگەیت بە قوتابخانەکە."""),
+                            """لێرەوە ڕاست بۆ ڕۆژھەڵات دەچیت تاوەکو دەگەیت بە قوتابخانەکە."""),
                   ],
                 ),
               ),
@@ -1281,7 +1283,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ARERGvMzhmc?t=',
+    videoId: 'ARERGvMzhmc',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1306,7 +1308,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-m0Qh8fv0i0?t=',
+    videoId: '-m0Qh8fv0i0',
     startSeconds: 384,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1331,7 +1333,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2-bQnjgUiUs?t=',
+    videoId: '2-bQnjgUiUs',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1356,7 +1358,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LEc29-83f8s?t=',
+    videoId: 'LEc29-83f8s',
     startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1381,7 +1383,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dwcavo44AFk?t=',
+    videoId: 'dwcavo44AFk',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1406,7 +1408,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kD7TGp8XML4?t=',
+    videoId: 'kD7TGp8XML4',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1431,7 +1433,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 812,
     autoPlay: true,
     params: const YoutubePlayerParams(

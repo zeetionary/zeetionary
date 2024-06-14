@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرقۆڵ، مەچەکە، هووچک، سەردەس
+کوردی: سەرقۆڵ، مەچەکە، ھووچک، سەردەس
 """),
           const DefinitionKurdish(
               text:
@@ -386,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) بەشی خوارەوەی پانتۆڵێک کە هەڵگێڕدراوەتەوە"),
+              text: "٣. (ناو) بەشی خوارەوەی پانتۆڵێک کە ھەڵگێڕدراوەتەوە"),
           Row(
             children: [
               const Expanded(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) بە گاڵتەوە لێدان لە کەسێک بە دەستت بە هێواشی"),
+              text: "٤. (ناو) بە گاڵتەوە لێدان لە کەسێک بە دەستت بە ھێواشی"),
           Row(
             children: [
               const Expanded(
@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٥. (کردار) لێدان لە کەسێک بە خێرایی و هێواشی بە دەستت"),
+              text: "٥. (کردار) لێدان لە کەسێک بە خێرایی و ھێواشی بە دەستت"),
           Row(
             children: [
               const Expanded(
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "She cuffed him lightly around his head."),
-                    ExampleSentenceKurdish(text: "بە هێواشی کێشای بە سەریدا."),
+                    ExampleSentenceKurdish(text: "بە ھێواشی کێشای بە سەریدا."),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Both men were cuffed and detained for several hours."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر دوو پیاوەکە کەلەپچە کران و بۆ چەند کاتژمێرێک گیردران."),
+                            "ھەر دوو پیاوەکە کەلەپچە کران و بۆ چەند کاتژمێرێک گیردران."),
                   ],
                 ),
               ),

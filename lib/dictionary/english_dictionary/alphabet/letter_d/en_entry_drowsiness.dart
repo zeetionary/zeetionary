@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -349,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The drugs tend to cause drowsiness."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The drugs tend to cause drowsiness."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdrowsinesss2(String languageCode) async {
@@ -530,18 +532,19 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چاوبەخەوۆبوون، خەواڵوویی، خەوبردنەوە،	داگیراوی، داهێزراوی
+کوردی: چاوبەخەوۆبوون، خەواڵوویی، خەوبردنەوە،	داگیراوی، داھێزراوی
 """),
-          const DefinitionKurdish(text: "١. (ناو) ئەوەی ماندوێتییت هەیە و دەتەوێت بخەویت"),
+          const DefinitionKurdish(
+              text: "١. (ناو) ئەوەی ماندوێتییت ھەیە و دەتەوێت بخەویت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The drugs tend to cause drowsiness."),
-                    ExampleSentenceKurdish(text: "دەرمانەکان زۆرجار دەبنە هۆکاری خەواڵووی."),
+                        text: "The drugs tend to cause drowsiness."),
+                    ExampleSentenceKurdish(
+                        text: "دەرمانەکان زۆرجار دەبنە ھۆکاری خەواڵووی."),
                   ],
                 ),
               ),
@@ -1187,7 +1190,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hDpoRqc7qZ4?t=',
+    videoId: 'hDpoRqc7qZ4',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1215,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/umWOkozTejI?t=',
+    videoId: 'umWOkozTejI',
     startSeconds: 395,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1237,7 +1240,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SbUoLi34KHw?t=',
+    videoId: 'SbUoLi34KHw',
     startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1262,7 +1265,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/phMNlOwjNOw?t=',
+    videoId: 'phMNlOwjNOw',
     startSeconds: 257,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1287,7 +1290,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iZDkJ_62xgw?t=',
+    videoId: 'iZDkJ_62xgw',
     startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1312,7 +1315,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6OppVf9Ty-E?t=',
+    videoId: '6OppVf9Ty-E',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1337,7 +1340,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DfSNLKidJMY?t=',
+    videoId: 'DfSNLKidJMY',
     startSeconds: 334,
     autoPlay: true,
     params: const YoutubePlayerParams(

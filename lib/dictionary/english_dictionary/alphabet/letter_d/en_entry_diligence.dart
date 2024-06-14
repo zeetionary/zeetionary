@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: حەول، تێکۆشان، زەحمەت، خەبات، ڕەنج، کردوکۆش، بەکاری، شێلگیری، ڕشتی، سووربوون
 """),
-          const DefinitionKurdish(text: "١. (ناو) کاری وریایی و هەوڵی زۆر"),
+          const DefinitionKurdish(text: "١. (ناو) کاری وریایی و ھەوڵی زۆر"),
           Row(
             children: [
               const Expanded(
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She hoped that her diligence would be noticed at work."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەهیوابوو کە ماندووبوونی لە کارەکەی هەستی پێبکرێت."),
+                            "بەھیوابوو کە ماندووبوونی لە کارەکەی ھەستی پێبکرێت."),
                   ],
                 ),
               ),

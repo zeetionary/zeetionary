@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They show their dimness with every word they say."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە هەر وشەیەک کە دەیڵێن گێژیەتییان پیشان دەدەن."),
+                            "بە ھەر وشەیەک کە دەیڵێن گێژیەتییان پیشان دەدەن."),
                   ],
                 ),
               ),

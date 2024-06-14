@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Wood accounts for 90% of energy production in some countries, with consequent environmental detriment."),
                     ExampleSentenceKurdish(
                         text:
-                            "دار ڕێژەی ٩٠٪ بەرهەمهێنانی وزە لە هەندێک وڵات پێکدێنێت کە زیانی ژینگەیی بەدوادا دێت."),
+                            "دار ڕێژەی ٩٠٪ بەرھەمھێنانی وزە لە ھەندێک وڵات پێکدێنێت کە زیانی ژینگەیی بەدوادا دێت."),
                   ],
                 ),
               ),

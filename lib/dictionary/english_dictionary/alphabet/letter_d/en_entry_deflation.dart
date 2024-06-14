@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Deflation can lead to higher unemployment as businesses earn less."),
                     ExampleSentenceKurdish(
                         text:
-                            "داکشان دەکرێت ببێتە هۆی بێکاری زیاتر کە بازرگانییەکان کەمتر قازانج دەکەن."),
+                            "داکشان دەکرێت ببێتە ھۆی بێکاری زیاتر کە بازرگانییەکان کەمتر قازانج دەکەن."),
                   ],
                 ),
               ),
@@ -438,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) دەرکردنی هەوا یان گاز لە تایە، فوودانکە، هتد"),
+              text: "٢. (ناو) دەرکردنی ھەوا یان گاز لە تایە، فوودانکە، ھتد"),
           Row(
             children: [
               const Expanded(

@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -535,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جۆراوجۆری، هەمەڕەنگی، جۆربەجۆری، جیاجیایی، جیاوازی، جەستەجەستەیی، جیاوازی، ناتەبایی، کێشە، ناکۆکی،	جۆر، ئاوا، چەشن، ڕەنگ
+کوردی: جۆراوجۆری، ھەمەڕەنگی، جۆربەجۆری، جیاجیایی، جیاوازی، جەستەجەستەیی، جیاوازی، ناتەبایی، کێشە، ناکۆکی،	جۆر، ئاوا، چەشن، ڕەنگ
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کۆمەڵە کەس یان شتێک کە زۆر لە یەکدی یاوازن"),
@@ -549,7 +551,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The south-east has the highest diversity of freshwater fish in the country."),
                     ExampleSentenceKurdish(
                         text:
-                            "باشووری ڕۆژهەڵات بەرزترین ئاستی فرەڕەنگی هەیە لە وڵاتەکەدا بۆ ماسی ئاوی سازگار."),
+                            "باشووری ڕۆژھەڵات بەرزترین ئاستی فرەڕەنگی ھەیە لە وڵاتەکەدا بۆ ماسی ئاوی سازگار."),
                   ],
                 ),
               ),
@@ -579,7 +581,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is a wide diversity of views on this subject."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەمەڕەنگی زۆر لە بۆچووندا لەسەر ئەم بابەتە هەیە."),
+                            "ھەمەڕەنگی زۆر لە بۆچووندا لەسەر ئەم بابەتە ھەیە."),
                   ],
                 ),
               ),
@@ -607,7 +609,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "There was a great diversity of opinion."),
                     ExampleSentenceKurdish(
-                        text: "فرەڕەنگی زۆر لە بۆچووندا هەبوو."),
+                        text: "فرەڕەنگی زۆر لە بۆچووندا ھەبوو."),
                   ],
                 ),
               ),
@@ -639,7 +641,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There is a need for greater diversity and choice in education."),
                     ExampleSentenceKurdish(
                         text:
-                            "پێویستی فرەڕەنگی و هەڵبژاردەی زیاتر هەیە لە پەروەردە و خوێندندا."),
+                            "پێویستی فرەڕەنگی و ھەڵبژاردەی زیاتر ھەیە لە پەروەردە و خوێندندا."),
                   ],
                 ),
               ),
@@ -1218,7 +1220,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1243,7 +1245,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CQQit01HHLY?t=',
+    videoId: 'CQQit01HHLY',
     startSeconds: 846,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1268,7 +1270,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    videoId: 'a9m3GD0DbPY',
     startSeconds: 1056,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1293,7 +1295,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/axcPoS2sF0E?t=',
+    videoId: 'axcPoS2sF0E',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1318,7 +1320,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F2xv4fba65U?t=',
+    videoId: 'F2xv4fba65U',
     startSeconds: 377,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1343,7 +1345,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f5jwTft6654?t=',
+    videoId: 'f5jwTft6654',
     startSeconds: 498,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1368,7 +1370,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H1KP4ztKK0A?t=',
+    videoId: 'H1KP4ztKK0A',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(

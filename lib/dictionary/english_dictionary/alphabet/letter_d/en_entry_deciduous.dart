@@ -330,10 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لەمەڕ دار یان دەوەنێ) وەریو، گەڵاوەریو، گەڵاڕێز، گەڵاوەرێن، هەڵوەریو، کەوتوو، سەرعەرزکەوتوو
+کوردی: (لەمەڕ دار یان دەوەنێ) وەریو، گەڵاوەریو، گەڵاڕێز، گەڵاوەرێن، ھەڵوەریو، کەوتوو، سەرعەرزکەوتوو
 """),
           const DefinitionKurdish(
-              text: "١. (ھاوەڵناو) درەختێک کە هەموو ساڵێک گەڵاکانی دەوەرێت"),
+              text: "١. (ھاوەڵناو) درەختێک کە ھەموو ساڵێک گەڵاکانی دەوەرێت"),
           Row(
             children: [
               const Expanded(
@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The forest was a mix of evergreen and deciduous trees."),
                     ExampleSentenceKurdish(
                         text:
-                            "دارستانەکە تێکەڵەیەک لە درەختی هەمیشە سەوز و گەڵاوەریو بوو."),
+                            "دارستانەکە تێکەڵەیەک لە درەختی ھەمیشە سەوز و گەڵاوەریو بوو."),
                   ],
                 ),
               ),

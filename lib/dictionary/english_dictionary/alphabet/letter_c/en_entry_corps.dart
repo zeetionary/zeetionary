@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) یەکەیەکی گەورەی سوپا کە لە دوو کەرت یان زیاتر پێکهاتووە"),
+                  "١. (ناو) یەکەیەکی گەورەی سوپا کە لە دوو کەرت یان زیاتر پێکھاتووە"),
           Row(
             children: [
               const Expanded(
@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) یەکێک لە گرووپەکانی سوپا کە ئەرکێکی دیاریکراوی هەیە"),
+                  "٢. (ناو) یەکێک لە گرووپەکانی سوپا کە ئەرکێکی دیاریکراوی ھەیە"),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He's a member of the US marine corps."),
                     ExampleSentenceKurdish(
-                        text: "ئەندامی هێزەکانی مارێنزی ئەمریکایە."),
+                        text: "ئەندامی ھێزەکانی مارێنزی ئەمریکایە."),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Local people worked alongside an international corps of volunteers."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەڵکە خۆجێییەکە هاوشان لەگەڵ دەستە خۆبەخشە نێودەوڵەتییەکە کاریان کرد."),
+                            "خەڵکە خۆجێییەکە ھاوشان لەگەڵ دەستە خۆبەخشە نێودەوڵەتییەکە کاریان کرد."),
                   ],
                 ),
               ),

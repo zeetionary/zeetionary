@@ -336,11 +336,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پیشەگەری، پیشەسازی، کار، پیشە، هونەر، پیشەگەری دەستی، کاری دەستی،	لێزانی، وەستاکاری، شارەزایی، مامۆستایی، وەستایی، دەسڕەنگینی،	بەلەم، گەمی، کەشتی،	ژێردەریایی،	فڕۆکە،	کەشتی ئاسمانی،	فێڵ، دهۆ، تەڵەکە
+کوردی: پیشەگەری، پیشەسازی، کار، پیشە، ھونەر، پیشەگەری دەستی، کاری دەستی،	لێزانی، وەستاکاری، شارەزایی، مامۆستایی، وەستایی، دەسڕەنگینی،	بەلەم، گەمی، کەشتی،	ژێردەریایی،	فڕۆکە،	کەشتی ئاسمانی،	فێڵ، دھۆ، تەڵەکە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) چالاکی بەکارهێنانی شارەزاییەکی تایبەت بۆ کاری دەستی"),
+                  "١. (ناو) چالاکی بەکارھێنانی شارەزاییەکی تایبەت بۆ کاری دەستی"),
           Row(
             children: [
               const Expanded(
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) هەموو ئەو شارەزاییانەی پێویستن بۆ چالاکییەکی دیاریکراو"),
+                  "٢. (ناو) ھەموو ئەو شارەزاییانەی پێویستن بۆ چالاکییەکی دیاریکراو"),
           Row(
             children: [
               const Expanded(
@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Mastering the craft of woodworking requires patience, precision, and dedication."),
                     ExampleSentenceKurdish(
                         text:
-                            "فێربوونی پیشەسازی دارتاشی پێویستی بە پشوودرێژی و وردی و خۆبەخت‌کردن هەیە."),
+                            "فێربوونی پیشەسازی دارتاشی پێویستی بە پشوودرێژی و وردی و خۆبەخت‌کردن ھەیە."),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) شارەزایی ئەوەی باوەڕ بە خەڵکی بهێنیت بەوەی کە دەتەوێت"),
+                  "٣. (ناو) شارەزایی ئەوەی باوەڕ بە خەڵکی بھێنیت بەوەی کە دەتەوێت"),
           Row(
             children: [
               const Expanded(
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
                             "He knew how to win by craft and diplomacy what he could not gain by force."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەیزانی چۆن بە لێزانی و دیپلۆماسی و ئەوە بباتەوە کە بە هێز بەدەست نەدەهێنرا."),
+                            "دەیزانی چۆن بە لێزانی و دیپلۆماسی و ئەوە بباتەوە کە بە ھێز بەدەست نەدەھێنرا."),
                   ],
                 ),
               ),
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Hundreds of small craft bobbed around the liner as it steamed into the harbour."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەدان بەلەم هەڵبەز و دابەزیان بوو بە دەوری کەشتییە گەورەکەدا کە دەچووە ناو بەندەرەکەوە."),
+                            "سەدان بەلەم ھەڵبەز و دابەزیان بوو بە دەوری کەشتییە گەورەکەدا کە دەچووە ناو بەندەرەکەوە."),
                   ],
                 ),
               ),

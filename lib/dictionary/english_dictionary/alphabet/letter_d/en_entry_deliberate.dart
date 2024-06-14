@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەئانقەست، ئاگادارانە، لەرووی مەبەستەوە، بەمەبەست، هەڵسەنگێنراو، لێکەوەدراو، بێ‌پەلە(پەل)،	لەسەرەخۆ، مەند، هێدی، هێمن
+کوردی: بەئانقەست، ئاگادارانە، لەرووی مەبەستەوە، بەمەبەست، ھەڵسەنگێنراو، لێکەوەدراو، بێ‌پەلە(پەل)،	لەسەرەخۆ، مەند، ھێدی، ھێمن
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ئەنقەست نەک بەڕێکەوت"),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The speech was a deliberate attempt to embarrass the government."),
                     ExampleSentenceKurdish(
                         text:
-                            "وتارەکە هەوڵێکی بە ئەنقەست بوو بۆ شەرمەزارکردنی حکومەت."),
+                            "وتارەکە ھەوڵێکی بە ئەنقەست بوو بۆ شەرمەزارکردنی حکومەت."),
                   ],
                 ),
               ),
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) بەهێواشی و وریایی"),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) بەھێواشی و وریایی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "She spoke in a slow and deliberate way."),
                     ExampleSentenceKurdish(
-                        text: "بە هێواشی و لەسەرەخۆیی قسەی کرد."),
+                        text: "بە ھێواشی و لەسەرەخۆیی قسەی کرد."),
                   ],
                 ),
               ),
@@ -566,7 +566,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Customers sometimes deliberate over a purchase for weeks."),
                     ExampleSentenceKurdish(
                         text:
-                            "کڕیاران هەندێک جار بۆ چەندین هەفتە بیر لە کڕینێک دەکەنەوە."),
+                            "کڕیاران ھەندێک جار بۆ چەندین ھەفتە بیر لە کڕینێک دەکەنەوە."),
                   ],
                 ),
               ),

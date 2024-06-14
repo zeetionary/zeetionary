@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The relationship between mother-in-law and daughter-in-law can sometimes be challenging."),
                     ExampleSentenceKurdish(
                         text:
-                            "پەیوەندی نێوان بووک و خەسوو هەندێکجار دەکرێت دژوار بێت."),
+                            "پەیوەندی نێوان بووک و خەسوو ھەندێکجار دەکرێت دژوار بێت."),
                   ],
                 ),
               ),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She welcomed her daughter-in-law into the family with open arms."),
                     ExampleSentenceKurdish(
-                        text: "بە باوەشی کراوەوە بەخێرهاتنی بووکەکەیی کرد."),
+                        text: "بە باوەشی کراوەوە بەخێرھاتنی بووکەکەیی کرد."),
                   ],
                 ),
               ),

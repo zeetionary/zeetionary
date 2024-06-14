@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
                             "An inquiry was set up to determine the cause of the accident."),
                     ExampleSentenceKurdish(
                         text:
-                            "لێکۆڵینەوەیەک دەستپێکرا بۆ دیاریکردنی هۆکاری ڕووداوەکە."),
+                            "لێکۆڵینەوەیەک دەستپێکرا بۆ دیاریکردنی ھۆکاری ڕووداوەکە."),
                   ],
                 ),
               ),
@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Try to determine the extent of the problem."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵ بدە قووڵی ڕووداوەکە دیاری بکە."),
+                        text: "ھەوڵ بدە قووڵی ڕووداوەکە دیاری بکە."),
                   ],
                 ),
               ),
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It is difficult to determine when drama first appeared in India."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەختە دیاری بکرێت کەی دراما بۆ یەکەمجار لە هندستان دەرکەوت."),
+                            "سەختە دیاری بکرێت کەی دراما بۆ یەکەمجار لە ھندستان دەرکەوت."),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It was determined that she had died of natural causes."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەوە دیاریکرا کە بە هۆکاری سرووشتی گیانی لەدەستدا."),
+                            "ئەوە دیاریکرا کە بە ھۆکاری سرووشتی گیانی لەدەستدا."),
                   ],
                 ),
               ),
@@ -547,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Rural voters in key states will determine the outcome of the election."),
                     ExampleSentenceKurdish(
                         text:
-                            "دەنگدەرە گوندنشینەکان لە ویلایەتە گرنگەکان ئەنجامی هەڵبژاردنەکە دیاری دەکەن."),
+                            "دەنگدەرە گوندنشینەکان لە ویلایەتە گرنگەکان ئەنجامی ھەڵبژاردنەکە دیاری دەکەن."),
                   ],
                 ),
               ),
@@ -607,7 +607,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Age and experience will be determining factors in our choice of candidate."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەمەن و ئەزموون فاکتەری دیاریکەر دەبن لە هەڵبژاردنمان بۆ بەربژێر."),
+                            "تەمەن و ئەزموون فاکتەری دیاریکەر دەبن لە ھەڵبژاردنمان بۆ بەربژێر."),
                   ],
                 ),
               ),
@@ -638,7 +638,7 @@ class KurdishMeaning extends StatelessWidget {
                             "A date for the meeting has yet to be determined."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکەوتێک بۆ چاوپێکەوتنەکە هێشتا ماوە بڕیاری لێ بدرێت."),
+                            "ڕێکەوتێک بۆ چاوپێکەوتنەکە ھێشتا ماوە بڕیاری لێ بدرێت."),
                   ],
                 ),
               ),

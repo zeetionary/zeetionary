@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -563,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) وشککردنەوەی جلێک بەوەی هەڵیبواسیت"),
+              text: "٢. (کردار) وشککردنەوەی جلێک بەوەی ھەڵیبواسیت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -575,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
                             "If I were you, I'd hang that sweater on the line and let it drip-dry."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەگەر تۆ بوومایە، ئەو بلووزەم دەدا بەسەر تەنافەکەدا و دەمهێشت ئاوەچۆڕ بکات."),
+                            "ئەگەر تۆ بوومایە، ئەو بلووزەم دەدا بەسەر تەنافەکەدا و دەمھێشت ئاوەچۆڕ بکات."),
                   ],
                 ),
               ),
@@ -1201,7 +1203,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rzd0mLf366I?t=',
+    videoId: 'Rzd0mLf366I',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1226,7 +1228,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YYSP1D6GJ30?t=',
+    videoId: 'YYSP1D6GJ30',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1251,7 +1253,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CFatEWNx5RQ?t=',
+    videoId: 'CFatEWNx5RQ',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1276,7 +1278,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4OiXjTVQUUo?t=',
+    videoId: '4OiXjTVQUUo',
     startSeconds: 504,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1301,7 +1303,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lWeaWLxwQLo?t=',
+    videoId: 'lWeaWLxwQLo',
     startSeconds: 396,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1326,7 +1328,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UZR4zrzQ7fQ?t=',
+    videoId: 'UZR4zrzQ7fQ',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1351,7 +1353,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yA5N8tReqO4?t=',
+    videoId: 'yA5N8tReqO4',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(

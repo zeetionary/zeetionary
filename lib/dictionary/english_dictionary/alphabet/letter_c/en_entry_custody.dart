@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The parents were given joint custody of the two children."),
                     ExampleSentenceKurdish(
                         text:
-                            "دایک و باوکەکە چاودێری هاوبەشی منداڵەکانیان پێدرا."),
+                            "دایک و باوکەکە چاودێری ھاوبەشی منداڵەکانیان پێدرا."),
                   ],
                 ),
               ),

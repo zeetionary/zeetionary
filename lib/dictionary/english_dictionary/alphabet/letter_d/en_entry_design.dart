@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The system has a fundamental design flaw."),
                     ExampleSentenceKurdish(
-                        text: "سیستەمەکە هەڵەیەکی سەرەکیی دیزاینی تێدایە."),
+                        text: "سیستەمەکە ھەڵەیەکی سەرەکیی دیزاینی تێدایە."),
                   ],
                 ),
               ),
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The magazine will appear in a new design from next month."),
                     ExampleSentenceKurdish(
                         text:
-                            "گۆڤارەکە لە مانگی داهاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە."),
+                            "گۆڤارەکە لە مانگی داھاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە."),
                   ],
                 ),
               ),
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
                             "One of our main design goals was to make the product easy to use."),
                     ExampleSentenceKurdish(
                         text:
-                            "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرهەمەکە ئاسان بکەین بۆ بەکارهێنان."),
+                            "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرھەمەکە ئاسان بکەین بۆ بەکارھێنان."),
                   ],
                 ),
               ),
@@ -584,7 +584,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) هونەر یان پڕۆسەی کاری دیزاین"),
+              text: "٢. (ناو) ھونەر یان پڕۆسەی کاری دیزاین"),
           const DividerSentences(),
           Row(
             children: [
@@ -594,7 +594,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I'm doing a course in art and design."),
                     ExampleSentenceKurdish(
-                        text: "کۆرسێک لەسەر هونەر و دیزاین ئەنجام دەدەم."),
+                        text: "کۆرسێک لەسەر ھونەر و دیزاین ئەنجام دەدەم."),
                   ],
                 ),
               ),
@@ -650,7 +650,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The car wouldn't win any design awards, but it's very reliable."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئۆۆتمبێلەکە هیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە."),
+                            "ئۆۆتمبێلەکە ھیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە."),
                   ],
                 ),
               ),
@@ -677,7 +677,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She's done some design work for us in the past."),
                     ExampleSentenceKurdish(
-                        text: "لە ڕابردوودا هەندێک کاری دیزاینی بۆمان کردووە."),
+                        text: "لە ڕابردوودا ھەندێک کاری دیزاینی بۆمان کردووە."),
                   ],
                 ),
               ),
@@ -697,7 +697,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت هەندێک دیزاین درووست بکرێت"),
+                  "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت ھەندێک دیزاین درووست بکرێت"),
           const DividerSentences(),
           Row(
             children: [
@@ -707,7 +707,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He has created some new and original designs."),
                     ExampleSentenceKurdish(
-                        text: "هەندێک دیزاینی تازە و ڕەسەنی درووستکردووە."),
+                        text: "ھەندێک دیزاینی تازە و ڕەسەنی درووستکردووە."),
                   ],
                 ),
               ),
@@ -760,7 +760,7 @@ class KurdishMeaning extends StatelessWidget {
                             "There are several laws protecting the ownership of industrial designs."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژمارەیەک یاسا هەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی."),
+                            "ژمارەیەک یاسا ھەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی."),
                   ],
                 ),
               ),
@@ -789,7 +789,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The tiles come in a huge range of colours and designs."),
                     ExampleSentenceKurdish(
-                        text: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین هەن."),
+                        text: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین ھەن."),
                   ],
                 ),
               ),
@@ -817,7 +817,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The building has intricate geometric designs on several of the walls."),
                     ExampleSentenceKurdish(
                         text:
-                            "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی هەیە لە هەندێک لاوە."),
+                            "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی ھەیە لە ھەندێک لاوە."),
                   ],
                 ),
               ),
@@ -845,7 +845,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "It is all part of his grand design."),
                     ExampleSentenceKurdish(
-                        text: "هەمووی بەشێکن لە پلانە گەورەکەی."),
+                        text: "ھەمووی بەشێکن لە پلانە گەورەکەی."),
                   ],
                 ),
               ),
@@ -873,7 +873,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It happened—whether by accident or design—that the two of them were left alone after all the others had gone."),
                     ExampleSentenceKurdish(
                         text:
-                            "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە هەردووکاین مانەوە بە تەنهایی لە دوای ئەوەی هەموو ئەوانی دیکە ڕۆشتبوون."),
+                            "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە ھەردووکاین مانەوە بە تەنھایی لە دوای ئەوەی ھەموو ئەوانی دیکە ڕۆشتبوون."),
                   ],
                 ),
               ),
@@ -1001,7 +1001,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، هتد زۆرجار بۆ مەبەستێک، بەکارهێنانێک"),
+                  "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، ھتد زۆرجار بۆ مەبەستێک، بەکارھێنانێک"),
           // const DividerSentences(),
           Row(
             children: [
@@ -1013,7 +1013,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The method is specifically designed for use in small groups."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارهێنان لە گرووپی بچووکدا."),
+                            "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارھێنان لە گرووپی بچووکدا."),
                   ],
                 ),
               ),
@@ -1041,7 +1041,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The museum is Missouri's first museum designed specifically for contemporary art."),
                     ExampleSentenceKurdish(
                         text:
-                            "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ هونەری سەردەمیانە."),
+                            "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ ھونەری سەردەمیانە."),
                   ],
                 ),
               ),
@@ -1068,7 +1068,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The system is designed to alert drivers to traffic jams ahead."),
                     ExampleSentenceKurdish(
                         text:
-                            "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی هاتووچۆ."),
+                            "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی ھاتووچۆ."),
                   ],
                 ),
               ),

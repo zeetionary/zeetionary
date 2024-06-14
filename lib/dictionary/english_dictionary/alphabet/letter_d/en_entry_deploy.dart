@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) بەکارهێنانی شتێک بە کاریگەرانە"),
+              text: "٢. (کردار) بەکارھێنانی شتێک بە کاریگەرانە"),
           const DividerSentences(),
           Row(
             children: [
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The company is reconsidering the way in which it deploys its resources/staff."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیاکە دووبارە بیر لە شێوازی بەکارهێنانی سەرچاوەکانی/ستافەکەی دەکاتەوە."),
+                            "کۆمپانیاکە دووبارە بیر لە شێوازی بەکارھێنانی سەرچاوەکانی/ستافەکەی دەکاتەوە."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                             "My job doesn't really allow me fully to deploy my skills/talents."),
                     ExampleSentenceKurdish(
                         text:
-                            "کارەکەم لەڕاستیدا ڕێگام نادا بە تەواوی شارەزایی/بەهرەکانم بەکاربهێنم."),
+                            "کارەکەم لەڕاستیدا ڕێگام نادا بە تەواوی شارەزایی/بەھرەکانم بەکاربھێنم."),
                   ],
                 ),
               ),

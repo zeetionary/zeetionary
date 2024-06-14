@@ -405,11 +405,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پووچاندنەوە، پێشی هەڵمسانگرتن
+کوردی: پووچاندنەوە، پێشی ھەڵمسانگرتن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) دەرکردنی هەوا، گاز، هتد لە تایەیەک، فودانکەکەیەک، هتد"),
+                  "١. (کردار) دەرکردنی ھەوا، گاز، ھتد لە تایەیەک، فودانکەکەیەک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I accidentally deflated the balloon by pressing on it."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە هەڵە فوودانکەکەم فسکردەوە بە پەستان خستنە سەری."),
+                            "بە ھەڵە فوودانکەکەم فسکردەوە بە پەستان خستنە سەری."),
                   ],
                 ),
               ),
@@ -440,7 +440,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) نەهێشتنی متمانە بەخۆبوونی کەسێک کە وابکات هەست بە گرنگی کەم بکات"),
+                  "٢. (کردار) نەھێشتنی متمانە بەخۆبوونی کەسێک کە وابکات ھەست بە گرنگی کەم بکات"),
           Row(
             children: [
               const Expanded(
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All the criticism had left her feeling totally deflated."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەموو ڕەخنەکان وای لێکردبوو تەواو هەست بە داڕووخان بکات."),
+                            "ھەموو ڕەخنەکان وای لێکردبوو تەواو ھەست بە داڕووخان بکات."),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government deflated the economy to control inflation."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت ئابووریی داکشاند بۆ کۆنترۆڵی هەڵئاوسانی ئابووری."),
+                            "حکومەت ئابووریی داکشاند بۆ کۆنترۆڵی ھەڵئاوسانی ئابووری."),
                   ],
                 ),
               ),

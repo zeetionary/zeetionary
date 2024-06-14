@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) پیشاندانی هەوڵ و ماندووبوون لە پیشە و کاردا"),
+                  "١. (ھاوەڵناو) پیشاندانی ھەوڵ و ماندووبوون لە پیشە و کاردا"),
           Row(
             children: [
               const Expanded(

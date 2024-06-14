@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The only sound was a cricket chirping."),
                     ExampleSentenceKurdish(
-                        text: "تەنها دەنگ زیڕەی سیسرکێک بوو."),
+                        text: "تەنھا دەنگ زیڕەی سیسرکێک بوو."),
                   ],
                 ),
               ),

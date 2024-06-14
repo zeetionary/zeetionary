@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: دیسکۆ، دیسکۆتێک، جۆرێ موسیقای هەڵپەڕکێی باوی ساڵانی 1970
+// کوردی: دیسکۆ، دیسکۆتێک، جۆرێ موسیقای ھەڵپەڕکێی باوی ساڵانی 1970
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) یانەیەک، ئاهەنگێک، یان بۆنەیەک کە تێیدا خەڵکی سەما لەگەڵ میوزیک دەکەن"),
+                  "١. (ناو) یانەیەک، ئاھەنگێک، یان بۆنەیەک کە تێیدا خەڵکی سەما لەگەڵ میوزیک دەکەن"),
           Row(
             children: [
               const Expanded(
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "They have a disco there every Wednesday night."),
                     ExampleSentenceKurdish(
-                        text: "هەموو شەوانی چوارشەممە لەوێ دیسکۆیان هەیە."),
+                        text: "ھەموو شەوانی چوارشەممە لەوێ دیسکۆیان ھەیە."),
                   ],
                 ),
               ),

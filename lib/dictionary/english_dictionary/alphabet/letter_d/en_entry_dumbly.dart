@@ -128,6 +128,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                       sentence['english'].toString(),
                                       keyword,
                                       ref,
+                                      context,
                                     ),
                                   ),
                                   Directionality(
@@ -139,6 +140,7 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                                         sentence['french'].toString(),
                                         keyword,
                                         ref,
+                                        context,
                                       ),
                                     ),
                                   ),
@@ -282,7 +284,7 @@ class TTSUK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdumbly("en-GB"""),
+      onPressed: () => speakdumbly("en-GB" ""),
     );
   }
 }
@@ -332,7 +334,7 @@ class TTSUS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdumbly("en-US"""),
+      onPressed: () => speakdumbly("en-US" ""),
     );
   }
 }
@@ -349,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She stared dumbly into space."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She stared dumbly into space."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdumblys2(String languageCode) async {
@@ -358,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("‘This means what?’ Derek asked dumbly."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("‘This means what?’ Derek asked dumbly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdumblys3(String languageCode) async {
@@ -530,7 +533,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌دەنگانە، بێ‌ورتەلێ‌هاتن
+کوردی: بێ‌دەنگانە، بێ‌ورتەلێ‌ھاتن
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بەبێ قسەکردن"""),
           Row(
@@ -539,9 +542,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            """She stared dumbly into space."""),
-                    ExampleSentenceKurdish(text: """بێ‌دەنگانە لە دەورووبەری دەڕوانی."""),
+                        text: """She stared dumbly into space."""),
+                    ExampleSentenceKurdish(
+                        text: """بێ‌دەنگانە لە دەورووبەری دەڕوانی."""),
                   ],
                 ),
               ),
@@ -549,10 +552,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdumblys1("en-GB"""),
+                    onPressed: () => speakdumblys1("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdumblys1("en-US"""),
+                    onPressed: () => speakdumblys1("en-US" ""),
                   ),
                 ],
               ),
@@ -566,8 +569,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """‘This means what?’ Derek asked dumbly."""),
-                    ExampleSentenceKurdish(text: """دێریک گەمژانە پرسی 'ئەمە واتای چییە؟'"""),
+                    ExampleSentenceEnglish(
+                        text: """‘This means what?’ Derek asked dumbly."""),
+                    ExampleSentenceKurdish(
+                        text: """دێریک گەمژانە پرسی 'ئەمە واتای چییە؟'"""),
                   ],
                 ),
               ),
@@ -575,10 +580,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdumblys2("en-GB"""),
+                    onPressed: () => speakdumblys2("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdumblys2("en-US"""),
+                    onPressed: () => speakdumblys2("en-US" ""),
                   ),
                 ],
               ),
@@ -1190,7 +1195,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4XCtX7H6L2U?t=',
+    videoId: '4XCtX7H6L2U',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1215,7 +1220,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OPEh7UWmfDc?t=',
+    videoId: 'OPEh7UWmfDc',
     startSeconds: 1149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1240,7 +1245,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gpS5BecjlD8?t=',
+    videoId: 'gpS5BecjlD8',
     startSeconds: 3060,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1265,7 +1270,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/24J-RSTByjQ?t=',
+    videoId: '24J-RSTByjQ',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1290,7 +1295,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/71q2YQYW4Fw?t=',
+    videoId: '71q2YQYW4Fw',
     startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1315,7 +1320,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ueDR5MU92Wg?t=',
+    videoId: 'ueDR5MU92Wg',
     startSeconds: 941,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1340,7 +1345,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mQQyScA_uM0?t=',
+    videoId: 'mQQyScA_uM0',
     startSeconds: 619,
     autoPlay: true,
     params: const YoutubePlayerParams(

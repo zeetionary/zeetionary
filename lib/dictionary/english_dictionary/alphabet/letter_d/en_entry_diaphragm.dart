@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) توێژاڵێک لە ماسولکە لە دەوری گەدە و سنگ کە بۆ کۆنترۆڵی هەناسەدان بەکاردێت"),
+                  "١. (ناو) توێژاڵێک لە ماسولکە لە دەوری گەدە و سنگ کە بۆ کۆنترۆڵی ھەناسەدان بەکاردێت"),
           Row(
             children: [
               const Expanded(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The diaphragm contracts when you inhale."),
                     ExampleSentenceKurdish(
-                        text: "ناوپەنچک گرژدەبێتەوە کە هەناسە دەمژیت."),
+                        text: "ناوپەنچک گرژدەبێتەوە کە ھەناسە دەمژیت."),
                   ],
                 ),
               ),

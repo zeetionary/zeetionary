@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Her devotion to the job left her with very little free time."),
                     ExampleSentenceKurdish(
                         text:
-                            "خۆتەرخانکردنی بۆ کارەکە بە کاتی بەتاڵی کەمەوە هێشتییەوە."),
+                            "خۆتەرخانکردنی بۆ کارەکە بە کاتی بەتاڵی کەمەوە ھێشتییەوە."),
                   ],
                 ),
               ),

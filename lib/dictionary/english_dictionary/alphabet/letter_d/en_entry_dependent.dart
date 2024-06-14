@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "You can't be dependent on your parents all your life."),
                     ExampleSentenceKurdish(
-                        text: "ناکرێت هەموو ژیانت پشت بە دایبابت ببەستیت."),
+                        text: "ناکرێت ھەموو ژیانت پشت بە دایبابت ببەستیت."),
                   ],
                 ),
               ),
@@ -600,7 +600,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The price is dependent on how many extras you choose."),
                     ExampleSentenceKurdish(
                         text:
-                            "نرخەکە پشت دەبەستێت بەوەی چەند دانەی زیاتر هەڵدەبژێریت."),
+                            "نرخەکە پشت دەبەستێت بەوەی چەند دانەی زیاتر ھەڵدەبژێریت."),
                   ],
                 ),
               ),

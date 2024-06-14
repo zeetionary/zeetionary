@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تاوان‌کار، گوناەکار، خراپەکار، خەتابار،	هەڵەی ئاکاری، کردەوەی دژی ئاکار،	پێچەوانەی ئاکار یان قانوون، شەرماوی، ناڕەوا،	تاوان‌کاری‌یانە، سزایی 
+کوردی: تاوان‌کار، گوناەکار، خراپەکار، خەتابار،	ھەڵەی ئاکاری، کردەوەی دژی ئاکار،	پێچەوانەی ئاکار یان قانوون، شەرماوی، ناڕەوا،	تاوان‌کاری‌یانە، سزایی 
 """),
           const DefinitionKurdish(text: "١. (ناو) تاوانکار"),
           Row(
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Police sometimes put themselves in danger when arresting violent criminals."),
                     ExampleSentenceKurdish(
                         text:
-                            "پۆلیس هەندێک جار خۆیان دەخەنەوە مەترسییەوە کە تاوانکارە توندوتیژەکان دەگرن."),
+                            "پۆلیس ھەندێک جار خۆیان دەخەنەوە مەترسییەوە کە تاوانکارە توندوتیژەکان دەگرن."),
                   ],
                 ),
               ),
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (هاوەڵناو) پەیوەندیدار بە تاوانەوە"),
+              text: "٢. (ھاوەڵناو) پەیوەندیدار بە تاوانەوە"),
           Row(
             children: [
               const Expanded(
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             "It should be a criminal offence to inflict cruelty on any animal."),
                     ExampleSentenceKurdish(
                         text:
-                            "دڕندەیی بەرامبەر هەر ئاژەڵێک دەبێت کارێکی تاوانکاری بێت."),
+                            "دڕندەیی بەرامبەر ھەر ئاژەڵێک دەبێت کارێکی تاوانکاری بێت."),
                   ],
                 ),
               ),
@@ -461,7 +461,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Criminal activities pose significant threats to the economy and national security."),
                     ExampleSentenceKurdish(
                         text:
-                            "چالاکی تاوانکاری هەڕەشەیەکی گەورەیە بۆ ئابووری و ئاسایشی نیشتیمانی."),
+                            "چالاکی تاوانکاری ھەڕەشەیەکی گەورەیە بۆ ئابووری و ئاسایشی نیشتیمانی."),
                   ],
                 ),
               ),
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The former minister could face criminal proceedings over his involvement in the deal."),
                     ExampleSentenceKurdish(
                         text:
-                            "وەزیرە پێشووترەکە دەکرێت تووشی ڕێکاری تاوانکاری ببێتەوە بەهۆی تێوەگلانی لە ڕێککەوتنەکە."),
+                            "وەزیرە پێشووترەکە دەکرێت تووشی ڕێکاری تاوانکاری ببێتەوە بەھۆی تێوەگلانی لە ڕێککەوتنەکە."),
                   ],
                 ),
               ),
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ھاوەڵناو) شتێک کە لە ڕووی ئەخلاقییەوە هەڵەیە"),
+              text: "٤. (ھاوەڵناو) شتێک کە لە ڕووی ئەخلاقییەوە ھەڵەیە"),
           Row(
             children: [
               const Expanded(

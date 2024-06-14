@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The general ordered a counterattack to regain control of the situation."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژەنەڕاڵەکە فەرمانی بە هێرشێکی پێچەوانە کرد بۆ بەدەستهێنانەوەی کۆنترۆڵی دۆخەکە."),
+                            "ژەنەڕاڵەکە فەرمانی بە ھێرشێکی پێچەوانە کرد بۆ بەدەستھێنانەوەی کۆنترۆڵی دۆخەکە."),
                   ],
                 ),
               ),

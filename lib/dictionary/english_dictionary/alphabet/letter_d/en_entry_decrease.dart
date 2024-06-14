@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەم‌بوونەوە، داشکان، دابەزین، نیشتنەوە، نزم‌بوونەوە.	ڕێژە یان ڕادەی کەم‌بوونەوە
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) کەمبوون لە قەبارە، ژمارە، هتد"),
+              text: "١. (کردار) کەمبوون لە قەبارە، ژمارە، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
                             "This species of bird is decreasing in numbers every year."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەم جۆرە باڵندەیە هەموو ساڵێک لە ژمارەدا کەم دەکات."),
+                            "ئەم جۆرە باڵندەیە ھەموو ساڵێک لە ژمارەدا کەم دەکات."),
                   ],
                 ),
               ),
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "Fertility decreases with age."),
                     ExampleSentenceKurdish(
                         text:
-                            "توانای منداڵبوون هەموو ساڵێک کەم دەکات لەگەڵ تەمەندا."),
+                            "توانای منداڵبوون ھەموو ساڵێک کەم دەکات لەگەڵ تەمەندا."),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Sales for May show a decrease compared with the same month last year."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێژەی فرۆش لە ئایاردا کەمبوونێک پیشان دەدات بە بەراورد بە هەمان مانگ لە ساڵی ڕابردوودا."),
+                            "ڕێژەی فرۆش لە ئایاردا کەمبوونێک پیشان دەدات بە بەراورد بە ھەمان مانگ لە ساڵی ڕابردوودا."),
                   ],
                 ),
               ),
@@ -547,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There has been some decrease in military spending this year."),
                     ExampleSentenceKurdish(
-                        text: "ئەمساڵ هەندێک کەمبوون لە خەرجی سەربازیدا بووە."),
+                        text: "ئەمساڵ ھەندێک کەمبوون لە خەرجی سەربازیدا بووە."),
                   ],
                 ),
               ),
@@ -630,7 +630,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "Marriage is still on the decrease (= decreasing)."),
                     ExampleSentenceKurdish(
-                        text: "هاوسەرگیری هێشتا لە دابەزیندایە."),
+                        text: "ھاوسەرگیری ھێشتا لە دابەزیندایە."),
                   ],
                 ),
               ),

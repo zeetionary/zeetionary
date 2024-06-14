@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Robinson Crusoe is cast away on a desert island for 28 years."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێهێڵدرا."),
+                            "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێھێڵدرا."),
                   ],
                 ),
               ),

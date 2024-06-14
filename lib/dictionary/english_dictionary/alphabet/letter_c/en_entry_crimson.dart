@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "The artist used crimson to paint the sunset."),
                     ExampleSentenceKurdish(
                         text:
-                            "هونەرمەندەکە ڕەنگی سووری خوێنی بەکارهێنا بۆ کێشانی خۆرئاوابوونەکە."),
+                            "ھونەرمەندەکە ڕەنگی سووری خوێنی بەکارھێنا بۆ کێشانی خۆرئاوابوونەکە."),
                   ],
                 ),
               ),
@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) هەبوونی ڕەنگی سووری تۆخ"),
+              text: "٢. (ھاوەڵناو) ھەبوونی ڕەنگی سووری تۆخ"),
           Row(
             children: [
               const Expanded(

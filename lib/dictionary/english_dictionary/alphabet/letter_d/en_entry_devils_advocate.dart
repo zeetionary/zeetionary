@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I don't really believe all that - I was just playing devil's advocate."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە ڕاستیدا باوەڕم بە هەموو ئەوە نییە ـ تەنها ڕۆڵی شەیتانەکەی گرووپم دەگێڕا."),
+                            "لە ڕاستیدا باوەڕم بە ھەموو ئەوە نییە ـ تەنھا ڕۆڵی شەیتانەکەی گرووپم دەگێڕا."),
                   ],
                 ),
               ),

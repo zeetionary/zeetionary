@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Many families rely on council houses for affordable housing."),
                     ExampleSentenceKurdish(
                         text:
-                            "زۆر خێزان پشت بە خانووی ئەنجوومەن دەبەستن بۆ مانەوەی هەرزان."),
+                            "زۆر خێزان پشت بە خانووی ئەنجوومەن دەبەستن بۆ مانەوەی ھەرزان."),
                   ],
                 ),
               ),

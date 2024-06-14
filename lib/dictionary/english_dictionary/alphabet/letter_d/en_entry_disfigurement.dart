@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "He suffered permanent disfigurement in the fire."),
                     ExampleSentenceKurdish(
-                        text: "لە ئاگرەکەدا تووشی شێوانی هەمیشەیی بوو."),
+                        text: "لە ئاگرەکەدا تووشی شێوانی ھەمیشەیی بوو."),
                   ],
                 ),
               ),

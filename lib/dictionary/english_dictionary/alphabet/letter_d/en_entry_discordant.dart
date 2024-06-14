@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Discordant opinions prevail even among good judges."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆچوونی جیاواز تەنانەت لە نێوان دادوەرە باشەکانیش سەرهەڵ دەدات."),
+                            "بۆچوونی جیاواز تەنانەت لە نێوان دادوەرە باشەکانیش سەرھەڵ دەدات."),
                   ],
                 ),
               ),

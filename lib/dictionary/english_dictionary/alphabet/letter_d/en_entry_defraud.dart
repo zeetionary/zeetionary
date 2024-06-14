@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             "All three men were charged with conspiracy to defraud."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەر سێ پیاوەکە سزادران بە پیلانگێڕی بۆ ساختەکاری."),
+                            "ھەر سێ پیاوەکە سزادران بە پیلانگێڕی بۆ ساختەکاری."),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They were accused of defrauding the company of £14 000."),
                     ExampleSentenceKurdish(
                         text:
-                            "تاوانبارکران بە فریودانی کۆمپانیاکە بە بەهای ١٤٠٠٠ دۆلار."),
+                            "تاوانبارکران بە فریودانی کۆمپانیاکە بە بەھای ١٤٠٠٠ دۆلار."),
                   ],
                 ),
               ),

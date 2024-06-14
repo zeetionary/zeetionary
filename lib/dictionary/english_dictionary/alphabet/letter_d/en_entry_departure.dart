@@ -409,9 +409,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆیشتن، کەوتنەڕێ، ملی ڕێگەگرتن، کۆچ، بەجێ‌هێشتن،	کاتی ڕۆیشتن، سەعاتی ڕۆیشتن،	لادان، تێپەڕین، ترازان، دووری، خۆبواردن،	شێوەی نوێ، ڕێگای تازە، کاری تازە
+کوردی: ڕۆیشتن، کەوتنەڕێ، ملی ڕێگەگرتن، کۆچ، بەجێ‌ھێشتن،	کاتی ڕۆیشتن، سەعاتی ڕۆیشتن،	لادان، تێپەڕین، ترازان، دووری، خۆبواردن،	شێوەی نوێ، ڕێگای تازە، کاری تازە
 """),
-          const DefinitionKurdish(text: "١. (ناو) جێهێشتنی شوێنێک"),
+          const DefinitionKurdish(text: "١. (ناو) جێھێشتنی شوێنێک"),
           Row(
             children: [
               const Expanded(
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "His sudden departure threw the office into chaos."),
                     ExampleSentenceKurdish(
-                        text: "جێهێشتنی کەناژاوت ئۆفیسەکەی خستە پاشاگەردانی."),
+                        text: "جێھێشتنی کەناژاوت ئۆفیسەکەی خستە پاشاگەردانی."),
                   ],
                 ),
               ),
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
                             "They had received no news of him since his departure from the island."),
                     ExampleSentenceKurdish(
                         text:
-                            "هیچ هەواڵێکی ئەویان پێنەگەشتبوو لەوەتەی ڕۆشتنی لە دوورگەکە."),
+                            "ھیچ ھەواڵێکی ئەویان پێنەگەشتبوو لەوەتەی ڕۆشتنی لە دوورگەکە."),
                   ],
                 ),
               ),
@@ -528,7 +528,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) فرۆکەیەک، شەمەندەفەرێک، هتد کە شوێنێک لە کاتێکی دیاریکراودا جێدەهێڵێت"),
+                  "٢. (ناو) فرۆکەیەک، شەمەندەفەرێک، ھتد کە شوێنێک لە کاتێکی دیاریکراودا جێدەھێڵێت"),
           // const DividerSentences(),
           Row(
             children: [
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "All departures are from Manchester."),
                     ExampleSentenceKurdish(
-                        text: "هەموو دەرچوونەکان لە مانچیستەرەوەن."),
+                        text: "ھەموو دەرچوونەکان لە مانچیستەرەوەن."),
                   ],
                 ),
               ),
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "There were long delays and queues in departures."),
                     ExampleSentenceKurdish(
-                        text: "دواکەوتن و ڕیزی درێژ هەبوو لە بەشی دەرچووندا."),
+                        text: "دواکەوتن و ڕیزی درێژ ھەبوو لە بەشی دەرچووندا."),
                   ],
                 ),
               ),

@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەردوونی، سەربە گەردوون، جێهانی، گشجیهانی،	یەکجارگەورە، یەکجارگرنگ
+کوردی: گەردوونی، سەربە گەردوون، جێھانی، گشجیھانی،	یەکجارگەورە، یەکجارگرنگ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە گەردوون"),
           Row(
@@ -341,9 +341,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "Do you believe in a cosmic plan?"),
                     ExampleSentenceKurdish(
-                      text: "باوەڕت بە پلانی گەردوونی هەیە؟",
+                      text: "باوەڕت بە پلانی گەردوونی ھەیە؟",
                       note:
-                          "ئەوەی کە درووستبوونی گەردوون تەنها ڕووداوێک نییە و مەبەستێک لە پشتیەوەی هەیە",
+                          "ئەوەی کە درووستبوونی گەردوون تەنھا ڕووداوێک نییە و مەبەستێک لە پشتیەوەی ھەیە",
                     ),
                   ],
                 ),

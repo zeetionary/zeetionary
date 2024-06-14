@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The demonstration was called off at the last minute."),
                     ExampleSentenceKurdish(
-                        text: "خۆپیشاندانەکە لە کۆتا خولەکدا هەڵوەشێندرایەوە."),
+                        text: "خۆپیشاندانەکە لە کۆتا خولەکدا ھەڵوەشێندرایەوە."),
                   ],
                 ),
               ),
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The government does not wish to provoke further demonstrations."),
                     ExampleSentenceKurdish(
                         text:
-                            "حکومەت حەزی ئەوە نەکات کە هانی خۆپیشاندانی دیکە بدات."),
+                            "حکومەت حەزی ئەوە نەکات کە ھانی خۆپیشاندانی دیکە بدات."),
                   ],
                 ),
               ),
@@ -544,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I'll give a quick demonstration of some first-aid techniques."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕوونکردنەوەیەکی خێرای هەندێک تەکنیکی فریاگوزاری سەرەتایی دەخەمەڕوو."),
+                            "ڕوونکردنەوەیەکی خێرای ھەندێک تەکنیکی فریاگوزاری سەرەتایی دەخەمەڕوو."),
                   ],
                 ),
               ),
@@ -600,7 +600,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Sandra and Nigel provided a demonstration of salsa dance steps."),
                     ExampleSentenceKurdish(
                         text:
-                            "ساندرا و نایجڵ ڕوونکردنەوەی هەنگاوەکانی سەمای سالسایان دابەدەستەوە."),
+                            "ساندرا و نایجڵ ڕوونکردنەوەی ھەنگاوەکانی سەمای سالسایان دابەدەستەوە."),
                   ],
                 ),
               ),

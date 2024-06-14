@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "We have two sons and a daughter."),
-                    ExampleSentenceKurdish(text: "دوو کوڕ و کچێکمان هەیە."),
+                    ExampleSentenceKurdish(text: "دوو کوڕ و کچێکمان ھەیە."),
                   ],
                 ),
               ),
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "They have three grown-up daughters."),
-                    ExampleSentenceKurdish(text: "سێ کچی پێگوشتوویان هەیە."),
+                    ExampleSentenceKurdish(text: "سێ کچی پێگوشتوویان ھەیە."),
                   ],
                 ),
               ),
@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
                             "Living alone and trying to bring up a small daughter is no easy task."),
                     ExampleSentenceKurdish(
                         text:
-                            "ژیانکردن بە تەنها و گەورەکردنی کچێکی بچووک ئەرکێکی ئاسان نییە."),
+                            "ژیانکردن بە تەنھا و گەورەکردنی کچێکی بچووک ئەرکێکی ئاسان نییە."),
                   ],
                 ),
               ),
@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                             "She was considered one of the town's most famous daughters for her achievements in science."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە یەکێک لە هەرە بەناوبانگترین ژنەکانی شارۆچکەکە دادەنرا بۆ بەدەستهێنانەکانی لە زانستدا."),
+                            "بە یەکێک لە ھەرە بەناوبانگترین ژنەکانی شارۆچکەکە دادەنرا بۆ بەدەستھێنانەکانی لە زانستدا."),
                   ],
                 ),
               ),

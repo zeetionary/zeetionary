@@ -404,11 +404,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناهومێد، دڵ‌سارد، تێ‌شکاو، دڵ‌شکست، باڵ‌شکاو، بێ‌هیوا
+کوردی: ناھومێد، دڵ‌سارد، تێ‌شکاو، دڵ‌شکست، باڵ‌شکاو، بێ‌ھیوا
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نائومێد بەهۆی ئەوەی ئەو کەسەی بەهای هەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەها دیارن"),
+                  "١. (ناو) نائومێد بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
           Row(
             children: [
               const Expanded(
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I feel utterly disillusioned by his refusal to take any action."),
                     ExampleSentenceKurdish(
                         text:
-                            "تەواو نائومێد بووم بە ڕەتکردنەوەی بۆ هەر هەنگاونانێک."),
+                            "تەواو نائومێد بووم بە ڕەتکردنەوەی بۆ ھەر ھەنگاونانێک."),
                   ],
                 ),
               ),

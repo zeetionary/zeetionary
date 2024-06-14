@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "At the airport, passengers were greeted by young women in Hawaiian costume."),
                     ExampleSentenceKurdish(
                         text:
-                            "لە هوتێلەکە گەشتیاران لەلایەن ژنانی گەنجەوە بە جلی هاواییەوە پێشوازییان لێکرا."),
+                            "لە ھوتێلەکە گەشتیاران لەلایەن ژنانی گەنجەوە بە جلی ھاواییەوە پێشوازییان لێکرا."),
                   ],
                 ),
               ),
@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) ئەو جلانەی لەلایەن ئەکتەرەکانی فیلمێک، شانۆیەک، هتد لەبەردەکرێت"),
+                  "٢. (ناو) ئەو جلانەی لەلایەن ئەکتەرەکانی فیلمێک، شانۆیەک، ھتد لەبەردەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The former dancer has also designed the costumes."),
                     ExampleSentenceKurdish(
                         text:
-                            "سەماکارە بەرینەکە هەروەها دیزاینی جلەکانیشی کردووە."),
+                            "سەماکارە بەرینەکە ھەروەھا دیزاینی جلەکانیشی کردووە."),
                   ],
                 ),
               ),

@@ -402,11 +402,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سکەشۆرە، زگەشۆرە، ڕەوانی، زگچوون، سکچوون، هەڵتوڕان، بەلەفیڕە، فیڕە
+کوردی: سکەشۆرە، زگەشۆرە، ڕەوانی، زگچوون، سکچوون، ھەڵتوڕان، بەلەفیڕە، فیڕە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) نەخۆشییەک کە دەبێت هۆکاری زووکردنی پیسایی و شێوەکەی دەگۆڕێت بۆ شلە"),
+                  "١. (ناو) نەخۆشییەک کە دەبێت ھۆکاری زووکردنی پیسایی و شێوەکەی دەگۆڕێت بۆ شلە"),
           Row(
             children: [
               const Expanded(

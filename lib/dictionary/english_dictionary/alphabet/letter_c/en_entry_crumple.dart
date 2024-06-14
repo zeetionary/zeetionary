@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گرمۆڵە، گڵۆڵە، چرچ‌هەڵاتوو، چرچ‌ولۆچی، قەد
+کوردی: گرمۆڵە، گڵۆڵە، چرچ‌ھەڵاتوو، چرچ‌ولۆچی، قەد
 """),
           const DefinitionKurdish(text: "١. (کردار) تۆپەڵکردن"),
           Row(
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) دەرکەوتنی ڕووخسار وەک ئەوەی بێزار یان بێ‌هیوا بیت و دەست بکەیت بە گریان"),
+                  "٢. (کردار) دەرکەوتنی ڕووخسار وەک ئەوەی بێزار یان بێ‌ھیوا بیت و دەست بکەیت بە گریان"),
           Row(
             children: [
               const Expanded(
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (کردار) لەناکاو کەوتن بە زەویدا بەهۆی ئەوەی کۆنترۆڵت بەسەر جەستەتدا نییە بەهۆی ئەوەی بریندار، سەرخۆش، بێ‌هۆش، هتد ــیت"),
+                  "٣. (کردار) لەناکاو کەوتن بە زەویدا بەھۆی ئەوەی کۆنترۆڵت بەسەر جەستەتدا نییە بەھۆی ئەوەی بریندار، سەرخۆش، بێ‌ھۆش، ھتد ــیت"),
           Row(
             children: [
               const Expanded(

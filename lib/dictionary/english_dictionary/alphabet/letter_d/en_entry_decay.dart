@@ -335,11 +335,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خراپ‌بوون، گەنین، گنخان، ڕزین، پووان، دافەوتان، داقەنین، خورانەوە، ڕەش‌داگەڕان،	(فیزیک) لێک‌بوونەوە، لێک‌هەڵوەشان،	وێران‌بوون، کاول‌بوون، تێک‌دران، تێکچوون، داشکان، داچوون، داخزان، لێژەوەبوون، هەڵتەکان، لێ‌کەوتن، داکەوتن، داشکان، هاتنەخوارێ، پووکانەوە،	تیاچوون، قڕتێ‌کەوتن، لەنێوچوون، نەمان،	لاوازبوون، سستی، پێچوون
+کوردی: خراپ‌بوون، گەنین، گنخان، ڕزین، پووان، دافەوتان، داقەنین، خورانەوە، ڕەش‌داگەڕان،	(فیزیک) لێک‌بوونەوە، لێک‌ھەڵوەشان،	وێران‌بوون، کاول‌بوون، تێک‌دران، تێکچوون، داشکان، داچوون، داخزان، لێژەوەبوون، ھەڵتەکان، لێ‌کەوتن، داکەوتن، داشکان، ھاتنەخوارێ، پووکانەوە،	تیاچوون، قڕتێ‌کەوتن، لەنێوچوون، نەمان،	لاوازبوون، سستی، پێچوون
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) لەناوچوون بە هۆکاری سرووشتی یان نەبوونی گرنگی‌پێدان"),
+                  "١. (ناو) لەناوچوون بە ھۆکاری سرووشتی یان نەبوونی گرنگی‌پێدان"),
           Row(
             children: [
               const Expanded(
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "The landlord had let the building fall into decay."),
                     ExampleSentenceKurdish(
-                        text: "خاوەنەکە هێشتی بیناکە دابڕزێت."),
+                        text: "خاوەنەکە ھێشتی بیناکە دابڕزێت."),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "My dentist could not find any signs of decay."),
                     ExampleSentenceKurdish(
                         text:
-                            "پزیشکە ددانەکەم هیچ ئاماژەیەکی داڕزانی نەدۆزییەوە."),
+                            "پزیشکە ددانەکەم ھیچ ئاماژەیەکی داڕزانی نەدۆزییەوە."),
                   ],
                 ),
               ),
@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) پڕۆسەی داڕووخانی کۆمەڵگایەک، دامەزراوەیەک، سیستەمێک، هتد"),
+                  "٢. (ناو) پڕۆسەی داڕووخانی کۆمەڵگایەک، دامەزراوەیەک، سیستەمێک، ھتد"),
           Row(
             children: [
               const Expanded(
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The role of the royal family has been decaying for some time."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەرکی خێزانی شاهانە بۆ ماوەیەک دەبێت کاڵ بووەتەوە."),
+                            "ئەرکی خێزانی شاھانە بۆ ماوەیەک دەبێت کاڵ بووەتەوە."),
                   ],
                 ),
               ),

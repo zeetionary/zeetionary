@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (کردار) هاتنە دەرەوەی خەڵکی لە وەسیلەیەکی گواستنەوە"),
+              text: "٢. (کردار) ھاتنە دەرەوەی خەڵکی لە وەسیلەیەکی گواستنەوە"),
           // const DividerSentences(),
           Row(
             children: [

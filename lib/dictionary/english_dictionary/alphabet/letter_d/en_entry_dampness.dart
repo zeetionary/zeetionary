@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: "To avoid dampness, air the room regularly."),
                     ExampleSentenceKurdish(
                         text:
-                            "بۆ دووربوون لە شێداری، زوو زوو هەواگۆڕکێ بدە بە ژوورەکە."),
+                            "بۆ دووربوون لە شێداری، زوو زوو ھەواگۆڕکێ بدە بە ژوورەکە."),
                   ],
                 ),
               ),
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "I felt the dampness on her clothes."),
                     ExampleSentenceKurdish(
-                        text: "هەستم بە تەڕی سەر جلەکانی کرد."),
+                        text: "ھەستم بە تەڕی سەر جلەکانی کرد."),
                   ],
                 ),
               ),

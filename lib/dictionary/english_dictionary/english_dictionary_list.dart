@@ -5430,7 +5430,7 @@ final List<String> allWordsEnglish = [
   "duplication", // duplication
   "durable", // durable
   "durables",
-  "durable-goods", // durable-goods // ffff durable-goods
+  "durable goods", // durable-goods // ffff durable-goods
   "duration", // duration
   "duress", // duress
   "during", // during
@@ -5457,7 +5457,6 @@ final List<String> allWordsEnglish = [
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "dike",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",

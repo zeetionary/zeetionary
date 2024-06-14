@@ -789,7 +789,8 @@ class AlsoEnglishckb extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
     return Container(
       constraints: const BoxConstraints(maxWidth: 300),
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      padding:
+          const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0, bottom: 8.0),
       // padding: const EdgeInsets.all(8.0), // Add padding here
       child: Directionality(
         textDirection: TextDirection.rtl,

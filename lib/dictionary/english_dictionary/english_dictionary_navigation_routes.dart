@@ -5465,7 +5465,7 @@ final Map<String, String> wordRoutes = {
   "duplicate": "/english-duplicate",
   "duplication": "/english-duplication",
   "durable": "/english-durable",
-  "durable-goods": "/english-durable-goods", // ffff durable-goods
+  "durable goods": "/english-durable-goods", // ffff durable-goods
   "duration": "/english-duration",
   "duress": "/english-duress",
   "during": "/english-during",
@@ -5487,7 +5487,7 @@ final Map<String, String> wordRoutes = {
   "duty-free": "/english-duty-free", // فففف duty-free
   "duvet": "/english-duvet",
   "DVD": "/english-dvd", // فففف DVD
-  "DVT": "/english-deep-vein-thrombosis",
+  "DCT": "/english-deep-vein-thrombosis",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

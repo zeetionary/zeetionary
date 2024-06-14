@@ -156,12 +156,19 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
             ),
           ),
           Expanded(
-            child: ListView.builder(
+            child: ListView.separated(
+              separatorBuilder: (BuildContext context, int index) {
+                return Divider(
+                  color: Theme.of(context).dividerColor.withOpacity(0.3),
+                  thickness: 1.0,
+                );
+              },
               itemCount: filteredSentences.length,
               itemBuilder: (context, index) {
                 final sentence = filteredSentences[index];
                 return Column(
                   children: [
+                    // const Divider(),
                     ListTile(
                       title: Text(
                         sentence['english'].toString(),
@@ -187,7 +194,6 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
                         ],
                       ),
                     ),
-                    const Divider(),
                   ],
                 );
               },

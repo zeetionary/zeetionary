@@ -20,9 +20,15 @@ class EnglishDictionary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
+    return ListView.separated(
       controller: scrollController,
       itemCount: words.length,
+      separatorBuilder: (BuildContext context, int index) {
+        return Divider(
+          color: Theme.of(context).dividerColor.withOpacity(0.15),
+          thickness: 1.0,
+        );
+      },
       itemBuilder: (BuildContext context, int index) {
         return ListTileEnglish(
           wordsEnglish: words[index],
@@ -80,7 +86,7 @@ class ListTileEnglish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2;
+    final textSize = ref.watch(textSizeProvider);
     return InkWell(
       onTap: onTap,
       child: ListTile(
@@ -89,7 +95,7 @@ class ListTileEnglish extends ConsumerWidget {
           wordsEnglish,
           style: TextStyle(
             // color: Theme.of(context).scaffoldBackgroundColor,
-            fontSize: textSize, // Set your desired font size
+            fontSize: textSize + 1, // Set your desired font size
           ),
         ),
         trailing: IconButton(
@@ -146,7 +152,7 @@ class CardButton extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2;
+    final textSize = ref.watch(textSizeProvider);
     return SizedBox(
       height: 50,
       child: Card(
@@ -155,7 +161,7 @@ class CardButton extends ConsumerWidget {
           child: Center(
             child: Text(
               label,
-              style: TextStyle(fontSize: textSize),
+              style: TextStyle(fontSize: textSize + 1),
             ),
           ),
         ),

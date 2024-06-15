@@ -11,14 +11,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryease extends StatefulWidget {
-  const EnglishEntryease({super.key});
+class EnglishEntryeasterly extends StatefulWidget {
+  const EnglishEntryeasterly({super.key});
 
   @override
-  State<EnglishEntryease> createState() => _EnglishEntryeaseState();
+  State<EnglishEntryeasterly> createState() => _EnglishEntryeasterlyState();
 }
 
-class _EnglishEntryeaseState extends State<EnglishEntryease> {
+class _EnglishEntryeasterlyState extends State<EnglishEntryeasterly> {
   @override
   void initState() {
     super.initState();
@@ -74,7 +74,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "ease";
+  final String keyword = "easterly";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -224,7 +224,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "ease");
+    return const EntryTitle(word: "easterly");
   }
 }
 
@@ -235,7 +235,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: ease");
+    return const AlsoEnglish(word: "also: easterly");
   }
 }
 
@@ -262,7 +262,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /iːz/");
+    return const IPAofEnglish(text: "IpaUK: /ˈiːstəli/");
   }
 }
 
@@ -273,18 +273,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakease(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterly(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("easterly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakease("en-GB" ""),
+      onPressed: () => speakeasterly("en-GB" ""),
     );
   }
 }
@@ -312,7 +312,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /iːz/");
+    return const IPAofEnglish(text: "IpaUS: /ˈiːstərli/");
   }
 }
 
@@ -323,18 +323,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakease(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterly(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("easterly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakease("en-US" ""),
+      onPressed: () => speakeasterly("en-US" ""),
     );
   }
 }
@@ -346,193 +346,183 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakeases1(String languageCode) async {
-    // DOPSUM: CHANGE speakease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He passed the exam with ease."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeases2(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys1(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ease with which she learns languages is astonishing."); // DOPSUM: CHANGE TEXT
+        "They were travelling in an easterly direction."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases3(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys2(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This computer is popular for its good design and ease of use."); // DOPSUM: CHANGE TEXT
+        "The town is in the most easterly part of the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases4(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys3(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In his retirement, he lived a life of ease."); // DOPSUM: CHANGE TEXT
+        "The migrating falcons were blown off course by easterly winds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases5(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys4(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The pain immediately eased."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases6(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys5(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("This should help ease the pain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases7(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys6(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plan should ease traffic congestion in the town."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases8(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys7(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It would ease my mind to know that she was safe."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases9(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys8(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Tensions between the two countries are beginning to ease."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases10(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys9(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His family connections eased his passage into the top ranks of the industry."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases11(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys10(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He eased slowly forwards."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys_1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases12(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys11(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She eased herself into a chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases13(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys12(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He eased off his shoes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases14(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys13(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Ease your grip on the wheel a little."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases15(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys14(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Share prices eased back from yesterday's levels."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases16(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys15(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases17(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys16(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases18(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys17(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases19(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys18(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases20(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys19(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases_2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases21(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys20(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys_2000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakeases22(String languageCode) async {
-    // DOPSUM: CHANGE speakease
+  Future<void> speakeasterlys21(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeases2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakeasterlys2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakeasterlys22(String languageCode) async {
+    // DOPSUM: CHANGE speakeasterly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakeasterlys2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -544,36 +534,38 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاسوودەیی، ئاسایش، ئاسایشت، حەساوەیی، بێکاری،	ئاسانی،	ئارام‌بوونەوە، هێدی‌بوونەوە
+کوردی: ڕۆژهەڵاتی، بەرەو ڕۆژهەڵات
 """),
-          const DefinitionKurdish(text: """١. (ناو) ئاسانی"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵناو) لە ڕۆژهەڵات یان بەرەو ڕۆژهەڵات"""),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: """He passed the exam with ease."""),
+                        text:
+                            """They were travelling in an easterly direction."""),
                     ExampleSentenceKurdish(
-                        text: """تاقیکردنەوەکەی بە ئاسانی تێپەڕاند."""),
+                        text: """بە ئاراستەی ڕۆژهەڵات گەشتیان دەکرد."""),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "ease", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "easterly", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeases1("en-GB" ""),
+                    onPressed: () => speakeasterlys1("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeases1("en-US" ""),
+                    onPressed: () => speakeasterlys1("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -582,10 +574,9 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            """The ease with which she learns languages is astonishing."""),
+                            """The town is in the most easterly part of the country."""),
                     ExampleSentenceKurdish(
-                        text:
-                            """بەو ئاسانییەی کە زمان فێردەبێت سەرنجڕاکێشە."""),
+                        text: """شارۆچکەکە لە ئەوپەڕی ڕۆژهەڵاتی وڵاتەکەیە."""),
                   ],
                 ),
               ),
@@ -593,40 +584,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeases2("en-GB" ""),
+                    onPressed: () => speakeasterlys2("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeases2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This computer is popular for its good design and ease of use."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم کۆمپیوتەرە ناسراوە بۆ دیزاینەکەی و ئاسانی بەکارهێنانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases3("en-US" ""),
+                    onPressed: () => speakeasterlys2("en-US" ""),
                   ),
                 ],
               ),
@@ -634,8 +595,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text:
-                  """٢. (ناو) ئەو دۆخەی کە تێیدا ئاسوودە و بێ کێشە و ئازاریت"""),
+              text: """٢. (ھاوەڵناو) بایەک کە لە ڕۆژهەڵاتەوە دێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -644,193 +604,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            """In his retirement, he lived a life of ease."""),
-                    ExampleSentenceKurdish(
-                        text: """لە خانەنشینییدا، ژیانێکی بێ‌کێشە ژیا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٣. (کردار) سوککردنی کێشەیەک یان ئازارێک"""),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The pain immediately eased."""),
-                    ExampleSentenceKurdish(
-                        text: """ئازارەکە دەستبەجێ سووکبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This should help ease the pain."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمە دەبێت ئازارەکە سووک بکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          Column(
-            children: [
-              MyExpansionTile(
-                children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """The plan should ease traffic congestion in the town."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """پلانەکە دەبێت قەرەباڵغی هاتووچۆ لەسەر شەقامەکان سووک بکات."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeases7("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeases7("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-                  const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """It would ease my mind (= make me less worried) to know that she was safe."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """ئەوە مێشکم دەڕەواندەوە کە بمزانیبایە سەلامەت بوو."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeases8("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeases8("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-                  const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """Tensions between the two countries are beginning to ease."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """گرژی نێوان دوو وڵاتەکە خەریکە دەڕەوێتەوە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeases9("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeases9("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (کردار) ئاسانکردنی شتێک"""),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His family connections eased his passage into the top ranks of the industry."""),
+                            """The migrating falcons were blown off course by easterly winds."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پەیوەندییەکانی خێزانەکەی ڕێگای بۆ بەرزترین ئاستی پیشەسازییەکە ئاسان کرد."""),
+                            """بازە کۆچکەرەکان لە ڕێڕەویان لادران بەهۆی بای ڕۆژهەڵاتەوە."""),
                   ],
                 ),
               ),
@@ -838,164 +615,24 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeases10("en-GB" ""),
+                    onPressed: () => speakeasterlys3("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeases10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٥. (کردار) جوڵان بەهێواشی و وریایی"""),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He eased slowly forwards."""),
-                    ExampleSentenceKurdish(
-                        text: """بەهێواشی بۆ پێشەوە هەنگاوی نا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases11("en-US" ""),
+                    onPressed: () => speakeasterlys3("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She eased herself into a chair."""),
-                    ExampleSentenceKurdish(text: """دانەمییە سەر کورسییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He eased off (= took off) his shoes."""),
-                    ExampleSentenceKurdish(text: """پێڵاوەکەی داکەند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٦. (کردار) شلکردن؛ شلبوونەوە"""),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Ease your grip on the wheel a little."""),
-                    ExampleSentenceKurdish(
-                        text: """کەمێک گرتنی ویلەکە شڵ‌بکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٧. (کردار) کەمبوونەوە"""),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Share prices eased back from yesterday's levels."""),
-                    ExampleSentenceKurdish(
-                        text: """نرخی پشکەکان لە ئاستی دوێنێ کەمبووبەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases1600"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys400"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1004,24 +641,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases16("en-GB"""),
+          //           onPressed: () => speakeasterlys4("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases16("en-US"""),
+          //           onPressed: () => speakeasterlys4("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases1700"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys500"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1030,24 +667,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases17("en-GB"""),
+          //           onPressed: () => speakeasterlys5("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases17("en-US"""),
+          //           onPressed: () => speakeasterlys5("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases1800"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys600"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1056,24 +693,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases18("en-GB"""),
+          //           onPressed: () => speakeasterlys6("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases18("en-US"""),
+          //           onPressed: () => speakeasterlys6("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases1900"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys700"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1082,24 +719,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases19("en-GB"""),
+          //           onPressed: () => speakeasterlys7("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases19("en-US"""),
+          //           onPressed: () => speakeasterlys7("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases_2000"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys800"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1108,24 +745,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases20("en-GB"""),
+          //           onPressed: () => speakeasterlys8("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases20("en-US"""),
+          //           onPressed: () => speakeasterlys8("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases2100"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys900"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1134,24 +771,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases21("en-GB"""),
+          //           onPressed: () => speakeasterlys9("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases21("en-US"""),
+          //           onPressed: () => speakeasterlys9("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeases2200"""),
+          //           ExampleSentenceEnglish(text: """speakeasterlys_1000"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -1160,10 +797,322 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakeases22("en-GB"""),
+          //           onPressed: () => speakeasterlys10("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeases22("en-US"""),
+          //           onPressed: () => speakeasterlys10("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1100"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys11("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys11("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1200"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys12("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys12("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1300"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys13("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys13("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1400"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys14("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys14("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1500"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys15("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys15("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1600"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys16("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys16("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1700"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys17("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys17("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1800"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys18("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys18("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys1900"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys19("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys19("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys_2000"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys20("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys20("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys2100"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys21("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys21("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakeasterlys2200"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakeasterlys22("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakeasterlys22("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1217,33 +1166,19 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: ease (Derived forms: easing, eases, eased)
-1. Move gently or carefully
-"He eased himself into the chair"
+- Adjective: easterly 
+1. Lying toward or situated in the east (= eastern)
+"the easterly end of the island";
  
-2. Lessen pain or discomfort; alleviate (= comfort)
-"ease the pain in your legs";
- 
-3. Make easier (= facilitate, alleviate, grease [informal])
-"you could ease the process by sharing your knowledge";
- 
-4. Lessen the intensity of or calm (= still, allay, relieve)
-"The news eased my conscience";
+2. From the east; used especially of winds (= eastern)
+"the winds are easterly";
 
-- Noun: ease (Derived forms: eases)
-1. Freedom from difficulty, hardship or effort (= easiness, simplicity, simpleness)
-"he rose through the ranks with apparent ease"; "they put it into containers for ease of transportation";
- 
-2. A freedom from financial difficulty that promotes a comfortable state (= comfort)
-"a life of luxury and ease";
- 
-3. The condition of being comfortable or relieved (especially after being relieved of distress) (= relief)
-"getting it off his conscience gave him some ease";
- 
-4. Freedom from constraint or embarrassment (= informality)
-"I am never at ease with strangers";
- 
-5. Freedom from activity (work, strain or responsibility) (= rest, repose, relaxation)
+- Noun: easterly (Derived forms: easterlies)
+1. A wind from the east (= east wind, easter)
+
+- Adverb: easterly 
+1. From the east
+"the winds blew easterly all night"
 """,
   );
 
@@ -1276,8 +1211,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVQxvthAcLU?t=',
-    startSeconds: 1227,
+    videoId: 'https://youtu.be/5d6SEQQbwtU?t=',
+    startSeconds: 1505,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1301,8 +1236,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WnozP8OWeik?t=',
-    startSeconds: 235,
+    videoId: 'https://youtu.be/-aQ2E0mlRQI?t=',
+    startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1326,8 +1261,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EjidrUoHvPs?t=',
-    startSeconds: 203,
+    videoId: 'https://youtu.be/i7ZE8eK6lTQ?t=',
+    startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1351,8 +1286,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O-6f5wQXSu8?t=',
-    startSeconds: 499,
+    videoId: 'https://youtu.be/z9WoHffcLik?t=',
+    startSeconds: 993,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1376,8 +1311,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8GKI2sYe1CI?t=',
-    startSeconds: 916,
+    videoId: 'https://youtu.be/skhWZVjam7M?t=',
+    startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1401,8 +1336,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v8JiaY4ZCyA?t=',
-    startSeconds: 232,
+    videoId: 'https://youtu.be/fHAukgyPWBk?t=',
+    startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1426,8 +1361,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fxGI8r8vAFk?t=',
-    startSeconds: 74,
+    videoId: 'https://youtu.be/-BNDub3h2_I?t=',
+    startSeconds: 1084,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

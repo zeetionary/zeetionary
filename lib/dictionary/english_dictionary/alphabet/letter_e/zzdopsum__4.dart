@@ -1155,8 +1155,9 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
-speakdopsum1 EnglishEntrydopsum1
-WORD_WEB dopsum1 dopsum1 haʊʊʊʊʊʊʊ4
+speakdopsum1 EnglishEntrydopsum1 dopsum1
+WORD_WEB dopsum1 dopsum1 dopsum1
+haʊʊʊʊʊʊʊ4
 """,
   );
 

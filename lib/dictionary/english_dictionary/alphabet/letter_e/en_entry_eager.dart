@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakeagers100000000000000000000000000000000"); // DOPSUM: CHANGE TEXT
+        "She is eager for her parents' approval."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeagers2(String languageCode) async {
@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeagers200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Everyone in the class seemed eager to learn."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeagers3(String languageCode) async {
@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeagers300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They're eager to please."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeagers4(String languageCode) async {
@@ -542,8 +542,8 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            """// speakeagers100000000000000000000000000000000"""),
-                    ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+                            """She is eager for (= wants very much to get) her parents' approval."""),
+                    ExampleSentenceKurdish(text: """زۆر تامەزرۆیە بۆ ڕازیبووونی دایک و باوکی."""),
                   ],
                 ),
               ),
@@ -562,56 +562,56 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeagers200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeagers2("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeagers2("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: """Everyone in the class seemed eager to learn."""),
+                    ExampleSentenceKurdish(text: """هەموان لە پۆلەکەدا بەتاسەی فێربوون بوون."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakeagers2("en-GB"""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakeagers2("en-US"""),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeagers300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeagers3("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeagers3("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: """They're eager to please (= wanting to be helpful)."""),
+                    ExampleSentenceKurdish(text: """بەپەرۆشن بۆ یارمەتیدۆستی."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakeagers3("en-GB"""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakeagers3("en-US"""),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),

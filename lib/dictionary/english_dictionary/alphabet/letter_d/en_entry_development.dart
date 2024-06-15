@@ -604,7 +604,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) گەشەی ئابووری وڵاتێک یان ھەرێمێک بە زیادکردنی چالاکیی بازرگانی"),
+                  "٢. (ناو) گەشەی ئابووری وڵاتێک یان ھەرێمێک بە زیادکردنی چالاکیی بازرگانی"),
           // const DividerSentences(),
           Row(
             children: [

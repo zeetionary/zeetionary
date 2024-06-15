@@ -585,7 +585,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھونەر یان پڕۆسەی کاری دیزاین"),
-          const DividerSentences(),
+          // const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -698,7 +698,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت ھەندێک دیزاین درووست بکرێت"),
-          const DividerSentences(),
+          // const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -779,7 +779,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) شێوە دیزاینێک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           Row(
             children: [
               const Expanded(

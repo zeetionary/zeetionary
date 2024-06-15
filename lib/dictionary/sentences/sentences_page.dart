@@ -138,7 +138,7 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
               controller: _searchController,
               decoration: InputDecoration(
                 border: const OutlineInputBorder(),
-                labelText: "Search",
+                // labelText: "Search",
                 hintText: "Search for sentences...",
                 hintStyle: TextStyle(fontSize: textSize),
                 prefixIcon: Icon(Icons.search, size: textSize + 5),

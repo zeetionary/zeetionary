@@ -166,6 +166,7 @@ class EnglishEntryaubergine extends StatelessWidget {
                               text:
                                   "١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە"
                                   ""),
+                                  const AlsoEnglishckb(word: "ھەروەھا: eggplant"),
                           Row(
                             children: [
                               const Expanded(

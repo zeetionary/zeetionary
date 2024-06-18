@@ -1168,6 +1168,57 @@ class DefinitionKurdishLink extends ConsumerWidget {
   }
 }
 
+class CustomRichText extends ConsumerWidget {
+  final String textBeforeLink;
+  final String linkText;
+  final String textAfterLink;
+  final VoidCallback onTap;
+
+  const CustomRichText({
+    super.key,
+    required this.textBeforeLink,
+    required this.linkText,
+    required this.textAfterLink,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Directionality(
+      textDirection: TextDirection.rtl,
+      child: Align(
+        alignment: Alignment.topRight,
+        child: RichText(
+          text: TextSpan(
+            style: TextStyle(fontSize: textSize + 2, color: Colors.black),
+            children: [
+              TextSpan(text: textBeforeLink),
+              TextSpan(
+                text: linkText,
+                style: const TextStyle(color: Colors.blue),
+                recognizer: TapGestureRecognizer()..onTap = onTap,
+              ),
+              TextSpan(text: textAfterLink),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// How to use it
+
+// CustomRichText(
+//           textBeforeLink: 'Tap ',
+//           linkText: 'here',
+//           textAfterLink: ' to continue',
+//           onTap: () {
+//              Routemaster.of(context).push("/english-current_page/returned_page");
+//           },
+//         ),
+
 // class ExampleSentenceEnglish extends ConsumerWidget {
 //   // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
 //   final String text;

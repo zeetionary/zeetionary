@@ -470,6 +470,15 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
+          const DividerDefinition(),
+          CustomRichText(
+            textBeforeLink: '٣. بڕوانە لە ',
+            linkText: 'crotch',
+            textAfterLink: '.',
+            onTap: () {
+              Routemaster.of(context).push("/english-depreciate/deprecate");
+            },
+          ),
         ],
       ),
     );

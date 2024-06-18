@@ -1,0 +1,1402 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:zeetionary/constants.dart';
+
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
+enum TtsState { playing }
+
+class EnglishEntryelopement extends StatefulWidget {
+  const EnglishEntryelopement({super.key});
+
+  @override
+  State<EnglishEntryelopement> createState() => _EnglishEntryelopementState();
+}
+
+class _EnglishEntryelopementState extends State<EnglishEntryelopement> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const YoutubeVideos(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class SentencesFromDatabase extends StatefulWidget {
+  const SentencesFromDatabase({super.key});
+
+  @override
+  State<SentencesFromDatabase> createState() => _SentencesFromDatabaseState();
+}
+
+class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
+  final String keyword = "elopement";
+  late FlutterTts flutterTts;
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    fetchSentences();
+  }
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Consumer(
+        builder: (context, ref, child) {
+          if (filteredSentences.isEmpty) {
+            return const NoSentencesFromDatabase();
+          } else {
+            return ListView.builder(
+              itemCount: filteredSentences.length,
+              itemBuilder: (context, index) {
+                final sentence = filteredSentences[index];
+                return SingleChildScrollView(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Align(
+                                    alignment: Alignment.topLeft,
+                                    child: DatabaseUtils.instance.highlightText(
+                                      sentence['english'].toString(),
+                                      keyword,
+                                      ref,
+                                      context,
+                                    ),
+                                  ),
+                                  Directionality(
+                                    textDirection: TextDirection.rtl,
+                                    child: Align(
+                                      alignment: Alignment.topRight,
+                                      child:
+                                          DatabaseUtils.instance.highlightText(
+                                        sentence['french'].toString(),
+                                        keyword,
+                                        ref,
+                                        context,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const CustomSizedBoxForTTS(),
+                            Column(
+                              children: [
+                                CustomIconButtonBritish(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-GB",
+                                  ),
+                                ),
+                                CustomIconButtonAmerican(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-US",
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        if (filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1)
+                          const DividerSentences(),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            );
+          }
+        },
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    flutterTts.stop();
+    super.dispose();
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "elopement");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: elopement");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUK(),
+        const IpaUKtext(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ɪˈləʊpmənt/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakelopement(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("elopement"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakelopement("en-GB" ""),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUS(),
+        const IpaUStext(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ɪˈləʊpmənt/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakelopement(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("elopement"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speakelopement("en-US" ""),
+    );
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakelopements1(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "News of their elopement did not spread until the following morning."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements2(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements3(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements4(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements5(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements6(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements7(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements8(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements9(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements10(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements_1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements11(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements12(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements13(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements14(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements15(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements16(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements17(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements18(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements19(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements1900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements20(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements_2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements21(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakelopements22(String languageCode) async {
+    // DOPSUM: CHANGE speakelopement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakelopements2200"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+//           const KurdishVocabulary(text: """
+// کوردی: ڕەدووکەوتن، هەڵگیران
+// """),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) هەڵهاتن لەگەڵ کەسێک بۆ ئەوەی بە نهێنی هاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            """News of their elopement did not spread until the following morning."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """هەواڵی هەڵهاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "elopement", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakelopements1("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakelopements1("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements200"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements2("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements2("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements300"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements3("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements3("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements400"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements4("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements4("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements500"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements5("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements5("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements600"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements6("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements6("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements700"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements7("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements7("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements800"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements8("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements8("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements900"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements9("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements9("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements_1000"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements10("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements10("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1100"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements11("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements11("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1200"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements12("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements12("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1300"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements13("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements13("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1400"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements14("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements14("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1500"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements15("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements15("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1600"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements16("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements16("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1700"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements17("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements17("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1800"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements18("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements18("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements1900"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements19("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements19("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements_2000"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements20("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements20("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements2100"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements21("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements21("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakelopements2200"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakelopements22("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakelopements22("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+        ],
+      ),
+    );
+  }
+}
+
+// DOPSUM: ENGLISH MEANING
+
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+// Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+// Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: elopement (Derived forms: elopements)
+1. The act of running away with a lover (usually to get married)
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
+  }
+}
+
+// DOPSUM: FIRST YOUTUBE VIDEO
+
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/s_2QTY0V3Yc?t=',
+    startSeconds: 691,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedone extends StatelessWidget {
+  YoutubeEmbeddedone({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/LbPw9AlVKVM?t=',
+    startSeconds: 729,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  YoutubeEmbeddedtwo({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/nyVOi3X53bk?t=',
+    startSeconds: 173,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Aoo9l_w2pq4?t=',
+    startSeconds: 259,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Asjh4vAXuWM?t=',
+    startSeconds: 406,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/DDW83Tjybvg?t=',
+    startSeconds: 144,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/ObZT_aVLGe8?t=',
+    startSeconds: 176,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        YoutubeEmbeddedfive(),
+        YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB

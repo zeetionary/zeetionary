@@ -9,6 +9,7 @@ import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
+import 'package:zeetionary/home/screens/irregular_verbs/irregular_verbs.dart';
 // import 'package:zeetionary/home/screens/reddit/reddit_notifier.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_pages.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_grammar.dart';
@@ -4993,6 +4994,7 @@ final Map<String, PageBuilder> routes = {
   "/english-sentences-page": (_) => _blP(const SentencesPage()),
   "/settings-screen": (_) => _blP(const SettingsPage()),
   '/quiz-screen': (_) => _blP(const QuizScreen()),
+  '/irregular-verbs-screen': (_) => _blP(const IrregularVerbsScreen()),
 // '/quiz-screen': (_) => _blP(const QuizScreen(currentTheme: ThemeData.light())),
 // English dictionary starts here
 // English dictionary starts here

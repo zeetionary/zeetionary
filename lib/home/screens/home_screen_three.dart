@@ -288,6 +288,22 @@ class MyDrawer extends StatelessWidget {
                           Routemaster.of(context).push('/tts-screen');
                         },
                       ),
+                      ListTile(
+                        title: Text(
+                          "Irregular verbs",
+                          style: TextStyle(
+                            fontSize: textSize + 3,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                        ),
+                        leading: Icon(
+                          Icons.volume_up,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                        onTap: () {
+                          Routemaster.of(context).push('/irregular-verbs-screen');
+                        },
+                      ),
                     ],
                   ),
                 ),

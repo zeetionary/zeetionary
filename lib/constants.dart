@@ -809,6 +809,49 @@ class AlsoEnglishckb extends ConsumerWidget {
   }
 }
 
+class AlsoEnglishckblink extends ConsumerWidget {
+  final String textBeforeLink;
+  final String linkText;
+  final String textAfterLink;
+  final VoidCallback onTap;
+
+  const AlsoEnglishckblink({
+    super.key,
+    required this.textBeforeLink,
+    required this.linkText,
+    required this.textAfterLink,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Directionality(
+      textDirection: TextDirection.rtl,
+      child: Align(
+        alignment: Alignment.topRight,
+        child: RichText(
+          text: TextSpan(
+            style: TextStyle(
+              fontSize: textSize,
+              color: Theme.of(context).highlightColor,
+            ),
+            children: [
+              TextSpan(text: textBeforeLink),
+              TextSpan(
+                text: linkText,
+                style: const TextStyle(color: Colors.blue),
+                recognizer: TapGestureRecognizer()..onTap = onTap,
+              ),
+              TextSpan(text: textAfterLink),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 // class IPAofEnglish extends StatelessWidget {
 //   final String text;
 

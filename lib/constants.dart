@@ -1191,7 +1191,10 @@ class CustomRichText extends ConsumerWidget {
         alignment: Alignment.topRight,
         child: RichText(
           text: TextSpan(
-            style: TextStyle(fontSize: textSize + 2, color: Colors.black),
+            style: TextStyle(
+              fontSize: textSize + 2,
+              fontWeight: FontWeight.w500,
+            ),
             children: [
               TextSpan(text: textBeforeLink),
               TextSpan(

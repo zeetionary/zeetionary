@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakemployables100000000000000000000000000000000"); // DOPSUM: CHANGE TEXT
+        "Computer skills make you far more employable."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakemployables2(String languageCode) async {
@@ -532,9 +532,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شیاوی دامەزران، گونجاو بۆ دامەزران، بۆ دامەزران دەبێ، لەدامەزران‌هاتوو
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی مەرجەکانی وەرگرتن بۆ کارێک"""),
           Row(
             children: [
               const Expanded(
@@ -542,8 +542,8 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            """// speakemployables100000000000000000000000000000000"""),
-                    ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+                            """Computer skills make you far more employable."""),
+                    ExampleSentenceKurdish(text: """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌هاتوو ببیت."""),
                   ],
                 ),
               ),

@@ -106,7 +106,10 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
             } else if (snapshot.hasData) {
               // Build the list view with history data
               final englishhistory = snapshot.data!;
-              return ListView.builder(
+              return ListView.separated(
+                separatorBuilder: (BuildContext context, int index) {
+                  return const ListViewSeparator();
+                },
                 itemCount: englishhistory.length,
                 itemBuilder: (context, index) {
                   final word = englishhistory.elementAt(index);

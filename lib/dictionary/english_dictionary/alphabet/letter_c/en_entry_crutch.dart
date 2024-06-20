@@ -449,35 +449,35 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          const DividerDefinition(),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              DefinitionKurdishLink(
-                text: "٣. بڕوانە لە crotch",
-                links: [
-                  LinkInfo(
-                    start: 12,
-                    end: 19,
-                    style: const TextStyle(
-                      color: Colors.blue,
-                    ),
-                  ),
-                ],
-                onTap: () {
-                  Routemaster.of(context).push("/english-depreciate/deprecate");
-                },
-              ),
-            ],
-          ),
+          // const DividerDefinition(),
+          // Column(
+          //   mainAxisAlignment: MainAxisAlignment.center,
+          //   children: <Widget>[
+          //     DefinitionKurdishLink(
+          //       text: "٣. بڕوانە لە crotch",
+          //       links: [
+          //         LinkInfo(
+          //           start: 12,
+          //           end: 19,
+          //           style: const TextStyle(
+          //             color: Colors.blue,
+          //           ),
+          //         ),
+          //       ],
+          //       onTap: () {
+          //         Routemaster.of(context).push("/english-crutch/crotch");
+          //       },
+          //     ),
+          //   ],
+          // ),
           const DividerDefinition(),
           // import 'package:routemaster/routemaster.dart';
           CustomRichText(
             textBeforeLink: '٣. بڕوانە لە ',
             linkText: 'crotch',
-            textAfterLink: '.',
+            textAfterLink: '',
             onTap: () {
-              Routemaster.of(context).push("/english-depreciate/deprecate");
+              Routemaster.of(context).push("/english-crutch/crotch");
             },
           ),
         ],

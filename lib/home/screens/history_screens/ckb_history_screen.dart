@@ -162,7 +162,10 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
               } else if (snapshot.hasData) {
                 // Build the list view with history data
                 final kurdishhistory = snapshot.data!;
-                return ListView.builder(
+                return ListView.separated(
+                  separatorBuilder: (BuildContext context, int index) {
+                return const ListViewSeparator();
+              },
                   itemCount: kurdishhistory.length,
                   itemBuilder: (context, index) {
                     final word = kurdishhistory.elementAt(index);

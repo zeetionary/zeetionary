@@ -49,7 +49,7 @@ class _KurdishFavouritesScreenState
     });
   }
 
-  @override
+  // @override
   @override
   Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider) + 2;
@@ -61,25 +61,29 @@ class _KurdishFavouritesScreenState
                 text: 'ھیچ دڵخوازت نییە',
               ),
             )
-          : ListView(
-              children: kurdishfavourites.reversed.map(
-                (kurdishfavourite) {
-                  final displayTitle = kurdishfavourite.split('-').first;
-                  return Directionality(
-                    textDirection: TextDirection.rtl,
-                    child: ListTile(
-                      title: Text(
-                        displayTitle,
-                        style: TextStyle(
-                          fontSize: textSize, // Set your desired font size
-                        ),
+          : ListView.separated(
+              itemCount: kurdishfavourites.length,
+              itemBuilder: (context, index) {
+                final kurdishfavourite =
+                    kurdishfavourites.reversed.toList()[index];
+                final displayTitle = kurdishfavourite.split('-').first;
+                return Directionality(
+                  textDirection: TextDirection.rtl,
+                  child: ListTile(
+                    title: Text(
+                      displayTitle,
+                      style: TextStyle(
+                        fontSize: textSize, // Set your desired font size
                       ),
-                      trailing: const Icon(Icons.arrow_forward),
-                      onTap: () => navigateToScreen(context, kurdishfavourite),
                     ),
-                  );
-                },
-              ).toList(),
+                    trailing: const Icon(Icons.arrow_forward),
+                    onTap: () => navigateToScreen(context, kurdishfavourite),
+                  ),
+                );
+              },
+              separatorBuilder: (BuildContext context, int index) {
+                return const ListViewSeparator();
+              },
             ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -186,3 +190,44 @@ class _KurdishFavouritesScreenState
     }
   }
 }
+
+
+
+// Widget build(BuildContext context) {
+//     final textSize = ref.watch(textSizeProvider) + 2;
+
+//     return Scaffold(
+//       body: kurdishfavourites.isEmpty
+//           ? const Center(
+//               child: EmptyPageIcon(
+//                 text: 'ھیچ دڵخوازت نییە',
+//               ),
+//             )
+//           : ListView(
+//               children: kurdishfavourites.reversed.map(
+//                 (kurdishfavourite) {
+//                   final displayTitle = kurdishfavourite.split('-').first;
+//                   return Directionality(
+//                     textDirection: TextDirection.rtl,
+//                     child: ListTile(
+//                       title: Text(
+//                         displayTitle,
+//                         style: TextStyle(
+//                           fontSize: textSize, // Set your desired font size
+//                         ),
+//                       ),
+//                       trailing: const Icon(Icons.arrow_forward),
+//                       onTap: () => navigateToScreen(context, kurdishfavourite),
+//                     ),
+//                   );
+//                 },
+//               ).toList(),
+//             ),
+//       floatingActionButton: FloatingActionButton(
+//         onPressed: () {
+//           _clearKurdishFavourites();
+//         },
+//         child: const Icon(Icons.delete),
+//       ),
+//     );
+//   }

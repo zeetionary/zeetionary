@@ -30,7 +30,7 @@ class _IrregularVerbsScreenState extends ConsumerState<IrregularVerbsScreen>
       'base': 'be',
       'past': 'was/were',
       'participle': 'been',
-      'کوردی': 'بوون بە',
+      'کوردی': 'بوون',
     },
     {
       'base': 'become',
@@ -130,7 +130,9 @@ class _IrregularVerbsScreenState extends ConsumerState<IrregularVerbsScreen>
                   child: TextField(
                     controller: _searchController,
                     decoration: InputDecoration(
-                      labelText: 'Search',
+                      // labelText: 'Search',
+                      hintText: "Search for sentences...",
+                      hintStyle: TextStyle(fontSize: textSize),
                       border: const OutlineInputBorder(),
                       suffixIcon: IconButton(
                         icon: const Icon(Icons.clear),

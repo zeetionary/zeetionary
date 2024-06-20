@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 class EnglishDictionary extends StatelessWidget {
@@ -24,11 +25,8 @@ class EnglishDictionary extends StatelessWidget {
       controller: scrollController,
       itemCount: words.length,
       separatorBuilder: (BuildContext context, int index) {
-        return Divider(
-          color: Theme.of(context).dividerColor.withOpacity(0.15),
-          thickness: 1.0,
-        );
-      },
+                  return const ListViewSeparator();
+                },
       itemBuilder: (BuildContext context, int index) {
         return ListTileEnglish(
           wordsEnglish: words[index],

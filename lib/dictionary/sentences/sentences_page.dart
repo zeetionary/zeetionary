@@ -158,10 +158,7 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
           Expanded(
             child: ListView.separated(
               separatorBuilder: (BuildContext context, int index) {
-                return Divider(
-                  color: Theme.of(context).dividerColor.withOpacity(0.3),
-                  thickness: 1.0,
-                );
+                return const ListViewSeparator();
               },
               itemCount: filteredSentences.length,
               itemBuilder: (context, index) {

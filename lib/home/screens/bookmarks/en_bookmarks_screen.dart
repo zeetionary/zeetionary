@@ -49,43 +49,47 @@ class _EnglishfavouritesScreenState
     });
   }
 
-  @override
+  // @override
   @override
   Widget build(BuildContext context) {
-    final textSize = ref.watch(textSizeProvider) + 2;
+  final textSize = ref.watch(textSizeProvider) + 2;
 
-    return Scaffold(
-      body: englishfavourites.isEmpty
-          ? const Center(
-              child: EmptyPageIcon(
-                text: 'No favourites here',
-              ),
-            )
-          : ListView(
-              children: englishfavourites.reversed.map(
-                (englishfavourite) {
-                  final displayTitle = englishfavourite.split('-').first;
-                  return ListTile(
-                    title: Text(
-                      displayTitle,
-                      style: TextStyle(
-                        fontSize: textSize, // Set your desired font size
-                      ),
-                    ),
-                    trailing: const Icon(Icons.arrow_forward),
-                    onTap: () => navigateToScreen(context, englishfavourite),
-                  );
-                },
-              ).toList(),
+  return Scaffold(
+    body: englishfavourites.isEmpty
+        ? const Center(
+            child: EmptyPageIcon(
+              text: 'No favourites here',
             ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _clearenglishfavourites();
-        },
-        child: const Icon(Icons.delete),
-      ),
-    );
-  }
+          )
+        : ListView.separated(
+            itemCount: englishfavourites.length,
+            itemBuilder: (context, index) {
+              final englishfavourite = englishfavourites.reversed.toList()[index];
+              final displayTitle = englishfavourite.split('-').first;
+              return ListTile(
+                title: Text(
+                  displayTitle,
+                  style: TextStyle(
+                    fontSize: textSize, // Set your desired font size
+                  ),
+                ),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () => navigateToScreen(context, englishfavourite),
+              );
+            },
+            separatorBuilder: (BuildContext context, int index) {
+                return const ListViewSeparator();
+              },
+          ),
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {
+        _clearenglishfavourites();
+      },
+      child: const Icon(Icons.delete),
+    ),
+  );
+}
+
 
   Future<void> _clearenglishfavourites() async {
     // Show a confirmation dialog
@@ -177,3 +181,39 @@ class _EnglishfavouritesScreenState
     }
   }
 }
+
+// Widget build(BuildContext context) {
+//     final textSize = ref.watch(textSizeProvider) + 2;
+
+//     return Scaffold(
+//       body: englishfavourites.isEmpty
+//           ? const Center(
+//               child: EmptyPageIcon(
+//                 text: 'No favourites here',
+//               ),
+//             )
+//           : ListView(
+//               children: englishfavourites.reversed.map(
+//                 (englishfavourite) {
+//                   final displayTitle = englishfavourite.split('-').first;
+//                   return ListTile(
+//                     title: Text(
+//                       displayTitle,
+//                       style: TextStyle(
+//                         fontSize: textSize, // Set your desired font size
+//                       ),
+//                     ),
+//                     trailing: const Icon(Icons.arrow_forward),
+//                     onTap: () => navigateToScreen(context, englishfavourite),
+//                   );
+//                 },
+//               ).toList(),
+//             ),
+//       floatingActionButton: FloatingActionButton(
+//         onPressed: () {
+//           _clearenglishfavourites();
+//         },
+//         child: const Icon(Icons.delete),
+//       ),
+//     );
+//   }

@@ -128,130 +128,130 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
   }
 }
 
-class YouTubeScroller extends StatefulWidget {
-  final List<Widget> children;
-
-  const YouTubeScroller({Key? key, required this.children}) : super(key: key);
-
-  // @override // invalid use of private API
-  // _YouTubeScrollerState createState() => _YouTubeScrollerState();
-
-  @override
-  State<YouTubeScroller> createState() => _YouTubeScrollerState();
-}
-
-class _YouTubeScrollerState extends State<YouTubeScroller> {
-  int _currentIndex = 0;
-
-  void _nextPage() {
-    setState(() {
-      if (_currentIndex < widget.children.length - 1) {
-        _currentIndex++;
-      }
-    });
-  }
-
-  void _previousPage() {
-    setState(() {
-      if (_currentIndex > 0) {
-        _currentIndex--;
-      }
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Expanded(
-          child: IndexedStack(
-            index: _currentIndex,
-            children: widget.children.asMap().entries.map((entry) {
-              int idx = entry.key;
-              Widget child = entry.value;
-
-              // Only return the child widget if it matches the current index
-              return idx == _currentIndex
-                  ? Container(
-                      key: ValueKey<int>(
-                          _currentIndex), // Ensure state is not preserved
-                      child: child,
-                    )
-                  : const SizedBox.shrink();
-            }).toList(),
-          ),
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            if (_currentIndex > 0)
-              IconButton(
-                icon: const Icon(Icons.arrow_back),
-                onPressed: _previousPage,
-              ),
-            const SizedBox(width: 140),
-            if (_currentIndex < widget.children.length - 1)
-              IconButton(
-                icon: const Icon(Icons.arrow_forward),
-                onPressed: _nextPage,
-              ),
-          ],
-        ),
-      ],
-    );
-  }
-}
-
 // class YouTubeScroller extends StatefulWidget {
 //   final List<Widget> children;
 
-//   const YouTubeScroller({super.key, required this.children});
+//   const YouTubeScroller({Key? key, required this.children}) : super(key: key);
+
+//   // @override // invalid use of private API
+//   // _YouTubeScrollerState createState() => _YouTubeScrollerState();
 
 //   @override
-//   _YouTubeScrollerState createState() => _YouTubeScrollerState();
+//   State<YouTubeScroller> createState() => _YouTubeScrollerState();
 // }
 
 // class _YouTubeScrollerState extends State<YouTubeScroller> {
-//   int _selectedIndex = 0;
+//   int _currentIndex = 0;
+
+//   void _nextPage() {
+//     setState(() {
+//       if (_currentIndex < widget.children.length - 1) {
+//         _currentIndex++;
+//       }
+//     });
+//   }
+
+//   void _previousPage() {
+//     setState(() {
+//       if (_currentIndex > 0) {
+//         _currentIndex--;
+//       }
+//     });
+//   }
 
 //   @override
 //   Widget build(BuildContext context) {
-//     return Stack(
+//     return Column(
 //       children: [
-//         widget.children[_selectedIndex],
-//         Positioned(
-//           top: 16,
-//           left: 16,
-//           right: 16,
-//           child: Row(
-//             mainAxisAlignment: MainAxisAlignment.center,
-//             children: List.generate(widget.children.length, (index) {
-//               return GestureDetector(
-//                 onTap: () {
-//                   setState(() {
-//                     _selectedIndex = index;
-//                   });
-//                 },
-//                 child: Container(
-//                   margin: const EdgeInsets.symmetric(horizontal: 4.0),
-//                   padding: const EdgeInsets.all(8.0),
-//                   decoration: BoxDecoration(
-//                     color: _selectedIndex == index ? Colors.blue : Colors.grey,
-//                     shape: BoxShape.circle,
-//                   ),
-//                   child: Text(
-//                     '${index + 1}',
-//                     style: const TextStyle(color: Colors.white),
-//                   ),
-//                 ),
-//               );
-//             }),
+//         Expanded(
+//           child: IndexedStack(
+//             index: _currentIndex,
+//             children: widget.children.asMap().entries.map((entry) {
+//               int idx = entry.key;
+//               Widget child = entry.value;
+
+//               // Only return the child widget if it matches the current index
+//               return idx == _currentIndex
+//                   ? Container(
+//                       key: ValueKey<int>(
+//                           _currentIndex), // Ensure state is not preserved
+//                       child: child,
+//                     )
+//                   : const SizedBox.shrink();
+//             }).toList(),
 //           ),
+//         ),
+//         Row(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: [
+//             if (_currentIndex > 0)
+//               IconButton(
+//                 icon: const Icon(Icons.arrow_back),
+//                 onPressed: _previousPage,
+//               ),
+//             const SizedBox(width: 140),
+//             if (_currentIndex < widget.children.length - 1)
+//               IconButton(
+//                 icon: const Icon(Icons.arrow_forward),
+//                 onPressed: _nextPage,
+//               ),
+//           ],
 //         ),
 //       ],
 //     );
 //   }
 // }
+
+class YouTubeScroller extends StatefulWidget {
+  final List<Widget> children;
+
+  const YouTubeScroller({super.key, required this.children});
+
+  @override
+State<YouTubeScroller> createState() => _YouTubeScrollerState();
+}
+
+class _YouTubeScrollerState extends State<YouTubeScroller> {
+  int _selectedIndex = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        widget.children[_selectedIndex],
+        Positioned(
+          top: 16,
+          left: 16,
+          right: 16,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: List.generate(widget.children.length, (index) {
+              return GestureDetector(
+                onTap: () {
+                  setState(() {
+                    _selectedIndex = index;
+                  });
+                },
+                child: Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 4.0),
+                  padding: const EdgeInsets.all(8.0),
+                  decoration: BoxDecoration(
+                    color: _selectedIndex == index ? Colors.blue : Colors.grey,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Text(
+                    '${index + 1}',
+                    style: const TextStyle(color: Colors.white),
+                  ),
+                ),
+              );
+            }),
+          ),
+        ),
+      ],
+    );
+  }
+}
 
 // class YouTubeScroller extends StatelessWidget {
 //   final List<Widget> children;
@@ -343,12 +343,11 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
 
 class YouTubeContainerDesignNew extends StatelessWidget {
   const YouTubeContainerDesignNew({
-    Key? key,
+    super.key,
     required YoutubePlayerController controller,
     bool showIndicator = true,
   })  : _controller = controller,
-        _showIndicator = showIndicator,
-        super(key: key);
+        _showIndicator = showIndicator;
 
   final YoutubePlayerController _controller;
   final bool _showIndicator;
@@ -436,7 +435,7 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
         // Your indicator widget content here
         Text('Next Video',
             style: TextStyle(
-              color: Theme.of(context).primaryColor.withOpacity(0.00000001),
+              color: Theme.of(context).primaryColor.withOpacity(0.41),
               fontSize: textSize,
             )),
         AnimatedBuilder(
@@ -447,7 +446,7 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
               child: Icon(
                 Icons.swipe_up_rounded,
                 // color: Colors.blue,
-                color: Theme.of(context).primaryColor.withOpacity(0.000001),
+                color: Theme.of(context).primaryColor.withOpacity(0.41),
                 size: textSize, // Set the size of the icon
               ),
             );
@@ -466,10 +465,9 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
 
 class YouTubeContainerDesignEnd extends StatelessWidget {
   const YouTubeContainerDesignEnd({
-    Key? key,
+    super.key,
     required YoutubePlayerController controller,
-  })  : _controller = controller,
-        super(key: key);
+  })  : _controller = controller;
 
   final YoutubePlayerController _controller;
 
@@ -508,6 +506,150 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
     );
   }
 }
+
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+
+class YouTubeVideosContainer extends StatelessWidget {
+  final YoutubePlayerController controller;
+  final VoidCallback onReloadVideo;
+
+  const YouTubeVideosContainer({
+    // Key? key,
+    super.key,
+    required this.controller,
+    bool showIndicator = true,
+    required this.onReloadVideo,
+  }) : _showIndicator = showIndicator;
+
+  final bool _showIndicator;
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          const DividerDefinition(),
+          Container(
+            margin: const EdgeInsets.only(top: 70.0, left: 15, right: 15),
+            padding: const EdgeInsets.all(4.0),
+            decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  color: Theme.of(context).primaryColor.withOpacity(0.06),
+                  offset: const Offset(0, 4),
+                  blurRadius: 8,
+                ),
+              ],
+              border: Border.all(
+                color: Theme.of(context).primaryColor.withOpacity(0.1),
+                width: 2.0,
+              ),
+              borderRadius: BorderRadius.circular(15.0),
+            ),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(15.0),
+              child: YoutubePlayer(
+                controller: controller,
+                aspectRatio: 16 / 9,
+              ),
+            ),
+          ),
+          ElevatedButton(
+            onPressed: onReloadVideo,
+            child: const Text('Reload Video'),
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          if (_showIndicator) // Conditionally show the indicator
+            const NextVideoIndicator(),
+        ],
+      ),
+    );
+  }
+}
+
+class YouTubeVideosContainerEnd extends StatelessWidget {
+  final YoutubePlayerController controller;
+  final VoidCallback onReloadVideo;
+
+  const YouTubeVideosContainerEnd({
+    super.key,
+    required this.controller,
+    required this.onReloadVideo,
+  });
+
+  // const YouTubeContainerDesignEnd({
+  //   super.key,
+  //   required YoutubePlayerController controller,
+  // })  : _controller = controller;
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          const DividerDefinition(),
+          Container(
+            margin: const EdgeInsets.only(top: 70.0, left: 15, right: 15),
+            padding: const EdgeInsets.all(4.0),
+            decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  color: Theme.of(context).primaryColor.withOpacity(0.06),
+                  offset: const Offset(0, 4),
+                  blurRadius: 8,
+                ),
+              ],
+              border: Border.all(
+                color: Theme.of(context).primaryColor.withOpacity(0.1),
+                width: 2.0,
+              ),
+              borderRadius: BorderRadius.circular(15.0),
+            ),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(15.0),
+              child: YoutubePlayer(
+                controller: controller,
+                aspectRatio: 16 / 9,
+              ),
+            ),
+          ),
+          ElevatedButton(
+            onPressed: onReloadVideo,
+            child: const Text('Reload Video'),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
+// new youtube
 
 class CustomTabBarSliver extends StatelessWidget
     implements PreferredSizeWidget {

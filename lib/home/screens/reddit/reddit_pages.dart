@@ -166,146 +166,7 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
           : CustomScrollView(
               slivers: [
                 SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.only(
-                        top: 6, left: 6.0, right: 10, bottom: 6),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10.0),
-                        color: Theme.of(context)
-                            .scaffoldBackgroundColor
-                            .withOpacity(0.08),
-                        border: Border.all(
-                          color:
-                              Theme.of(context).primaryColor.withOpacity(0.3),
-                          width: 1.0,
-                        ),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Column(
-                          children: [
-                            Directionality(
-                              textDirection: TextDirection.rtl,
-                              child: Text(
-                                'Learn from Anglophones',
-                                textAlign: TextAlign.right,
-                                style: TextStyle(
-                                  color: Theme.of(context).highlightColor,
-                                  fontSize: textSize + 4,
-                                ),
-                              ),
-                            ),
-                            const SizedBox(height: 15),
-                            SingleChildScrollView(
-                              scrollDirection: Axis.horizontal,
-                              child: Row(
-                                children: [
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-discussion');
-                                    },
-                                    child: Text(
-                                      'English Discussion',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-grammar');
-                                    },
-                                    child: Text(
-                                      'EFL Grammar',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-grammar-two');
-                                    },
-                                    child: Text(
-                                      'Native Grammar',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-vocabulary-two');
-                                    },
-                                    child: Text(
-                                      'Vocabulary',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-vocabulary-three');
-                                    },
-                                    child: Text(
-                                      'Advanced vocabulary',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-etymology');
-                                    },
-                                    child: Text(
-                                      'Etymology',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      Routemaster.of(context).push(
-                                          '/english-subreddit/reddit-linguistics');
-                                    },
-                                    child: Text(
-                                      'Linguistics',
-                                      style: TextStyle(
-                                        color: Theme.of(context).highlightColor,
-                                        fontSize: textSize - 3,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            )
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
+                  child: TagsPanel(textSize: textSize),
                 ),
                 SliverList(
                   delegate: SliverChildBuilderDelegate(
@@ -411,6 +272,159 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                 ),
               ],
             ),
+    );
+  }
+}
+
+class TagsPanel extends StatelessWidget {
+  const TagsPanel({
+    super.key,
+    required this.textSize,
+  });
+
+  final double textSize;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(
+          top: 6, left: 6.0, right: 10, bottom: 6),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10.0),
+          color: Theme.of(context)
+              .scaffoldBackgroundColor
+              .withOpacity(0.08),
+          border: Border.all(
+            color:
+                Theme.of(context).primaryColor.withOpacity(0.3),
+            width: 1.0,
+          ),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text(
+                  'Learn from Anglophones',
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Theme.of(context).highlightColor,
+                    fontSize: textSize + 4,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 15),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-discussion');
+                      },
+                      child: Text(
+                        'English Discussion',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 15),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-grammar');
+                      },
+                      child: Text(
+                        'EFL Grammar',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 15),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-grammar-two');
+                      },
+                      child: Text(
+                        'Native Grammar',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 15),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-vocabulary-two');
+                      },
+                      child: Text(
+                        'Vocabulary',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 15),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-vocabulary-three');
+                      },
+                      child: Text(
+                        'Advanced vocabulary',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 15),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-etymology');
+                      },
+                      child: Text(
+                        'Etymology',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 15),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push(
+                            '/english-subreddit/reddit-linguistics');
+                      },
+                      child: Text(
+                        'Linguistics',
+                        style: TextStyle(
+                          color: Theme.of(context).highlightColor,
+                          fontSize: textSize - 3,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

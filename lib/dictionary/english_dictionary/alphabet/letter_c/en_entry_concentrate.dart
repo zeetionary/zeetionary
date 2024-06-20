@@ -38,7 +38,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I struggled to concentrate on my job because I was worried about my son."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I struggled to concentrate on my job because I was worried about my son."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She tried to concentrate on reading her book but couldn't."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She tried to concentrate on reading her book but couldn't."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I decided to concentrate all my efforts on finding somewhere to live."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I decided to concentrate all my efforts on finding somewhere to live."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Power is largely concentrated in the hands of a small elite."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Power is largely concentrated in the hands of a small elite."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Fighting was concentrated around the towns to the north."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Fighting was concentrated around the towns to the north."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates7(String languageCode) async {
@@ -78,7 +83,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Singapore has a much smaller and more geographically concentrated population than Australia."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Singapore has a much smaller and more geographically concentrated population than Australia."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates8(String languageCode) async {
@@ -86,7 +92,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("These jams made with fruit juice concentrate are lower in added sugar."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These jams made with fruit juice concentrate are lower in added sugar."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakconcentrates9(String languageCode) async {
@@ -191,10 +198,11 @@ class EnglishEntryconcentrate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                           const DefinitionKurdish(
-                              text: "١. (کردار) پێدانی تەواوی سەرنجت بە شتێک و بیرنەکردنەوە لە شتی دیکە"),
+                              text:
+                                  "١. (کردار) پێدانی تەواوی سەرنجت بە شتێک و بیرنەکردنەوە لە شتی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +212,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
                                         text:
                                             "I can't concentrate with all that noise going on."),
                                     ExampleSentenceKurdish(
-                                        text: "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە."),
+                                        text:
+                                            "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -212,10 +221,12 @@ class EnglishEntryconcentrate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakconcentrates1("en-GB"),
+                                    onPressed: () =>
+                                        speakconcentrates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakconcentrates1("en-US"),
+                                    onPressed: () =>
+                                        speakconcentrates1("en-US"),
                                   ),
                                 ],
                               ),
@@ -223,199 +234,223 @@ class EnglishEntryconcentrate extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "I struggled to concentrate on my job because I was worried about my son."),
-                          ExampleSentenceKurdish(
-                          text: "نەمدەتوانی بیروھۆشـ بدەم بە کارەکەم بەھۆی ئەوەی نیگەران بووم سەبارەت بە کوڕەکەم."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She tried to concentrate on reading her book but couldn't."),
-                          ExampleSentenceKurdish(
-                          text: "ھەوڵی دەدا سەرنج بخاتە سەر خوێندنەوە بەڵام نەیدەتوانی."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I struggled to concentrate on my job because I was worried about my son."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمدەتوانی بیروھۆشـ بدەم بە کارەکەم بەھۆی ئەوەی نیگەران بووم سەبارەت بە کوڕەکەم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "I decided to concentrate all my efforts on finding somewhere to live."),
-                          ExampleSentenceKurdish(
-                          text: "بڕیارم تەواوی ھەوڵم بدەم بۆ ئەوەی شوێنێک بدۆزمەوە بۆ ژیان."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She tried to concentrate on reading her book but couldn't."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵی دەدا سەرنج بخاتە سەر خوێندنەوە بەڵام نەیدەتوانی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I decided to concentrate all my efforts on finding somewhere to live."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارم تەواوی ھەوڵم بدەم بۆ ئەوەی شوێنێک بدۆزمەوە بۆ ژیان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) پێکەوەنانی شتێک لە شوێنێکدا"),
+                          const DefinitionKurdish(
+                              text: "٢. (کردار) پێکەوەنانی شتێک لە شوێنێکدا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Power is largely concentrated in the hands of a small elite."),
-                          ExampleSentenceKurdish(
-                          text: "دەسەڵات کۆکراوەتەوە لە دەستی کۆمەڵێکی بچووک لە دەسەڵاتداراندا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Power is largely concentrated in the hands of a small elite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەسەڵات کۆکراوەتەوە لە دەستی کۆمەڵێکی بچووک لە دەسەڵاتداراندا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Fighting was concentrated around the towns to the north."),
-                          ExampleSentenceKurdish(
-                          text: "شەڕکردن لە دەوری شارۆچکەکانی باکوور چڕکرابوویەوە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fighting was concentrated around the towns to the north."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەڕکردن لە دەوری شارۆچکەکانی باکوور چڕکرابوویەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Singapore has a much smaller and more geographically concentrated population than Australia."),
-                          ExampleSentenceKurdish(
-                          text: "سنگاپوور دانیشتوانێکی بچووکتر و لە ڕووی جوگرافییەوە چڕتری ھەیە لە ئوسترالیا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Singapore has a much smaller and more geographically concentrated population than Australia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنگاپوور دانیشتوانێکی بچووکتر و لە ڕووی جوگرافییەوە چڕتری ھەیە لە ئوسترالیا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) مادەیەک کە خەستکراوەتەوە بەھۆی ئەوەی ئاو و مادەکانی دیکەی لێ دەرکراوە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) مادەیەک کە خەستکراوەتەوە بەھۆی ئەوەی ئاو و مادەکانی دیکەی لێ دەرکراوە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "These jams made with fruit juice concentrate are lower in added sugar."),
-                          ExampleSentenceKurdish(
-                          text: "ئەم مرەبایانەی کە لە شەربەتی خەستی میوە درووستکراون شەکری تێکراویان کەمترە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakconcentrates8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakconcentrates8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These jams made with fruit juice concentrate are lower in added sugar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم مرەبایانەی کە لە شەربەتی خەستی میوە درووستکراون شەکری تێکراویان کەمترە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakconcentrates8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakconcentrates8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
                     ),
-                    YouTubeScroller(
+                    const YouTubeScroller(
                       children: [
                         YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
@@ -552,176 +587,393 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
+class YoutubeEmbeddedend extends StatefulWidget {
+  const YoutubeEmbeddedend({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'nANGQ_9wD-0',
-    startSeconds: 150,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedend> createState() => _YoutubeEmbeddedendState();
+}
+
+class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'nANGQ_9wD-0';
+  final double _startSeconds = 150;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+      body: YouTubeVideosContainerEnd(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedone extends StatelessWidget {
-  YoutubeEmbeddedone({super.key});
+class YoutubeEmbeddedone extends StatefulWidget {
+  const YoutubeEmbeddedone({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'DEFD9TSHg_A',
-    startSeconds: 4,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedone> createState() => _YoutubeEmbeddedoneState();
+}
+
+class _YoutubeEmbeddedoneState extends State<YoutubeEmbeddedone> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'DEFD9TSHg_A';
+  final double _startSeconds = 4;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  YoutubeEmbeddedtwo({super.key});
+class YoutubeEmbeddedtwo extends StatefulWidget {
+  const YoutubeEmbeddedtwo({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1Gxrwh4zGPg',
-    startSeconds: 1023,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedtwo> createState() => _YoutubeEmbeddedtwoState();
+}
+
+class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
+  late YoutubePlayerController _controller;
+  final String _videoId = '1Gxrwh4zGPg';
+  final double _startSeconds = 1023;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
+class YoutubeEmbeddedthree extends StatefulWidget {
+  const YoutubeEmbeddedthree({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Xzv84ZdtlE0',
-    startSeconds: 1068,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedthree> createState() => _YoutubeEmbeddedthreeState();
+}
+
+class _YoutubeEmbeddedthreeState extends State<YoutubeEmbeddedthree> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'Xzv84ZdtlE0';
+  final double _startSeconds = 1068;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
+class YoutubeEmbeddedfour extends StatefulWidget {
+  const YoutubeEmbeddedfour({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9wY7u3bVnDs',
-    startSeconds: 379,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedfour> createState() => _YoutubeEmbeddedfourState();
+}
+
+class _YoutubeEmbeddedfourState extends State<YoutubeEmbeddedfour> {
+  late YoutubePlayerController _controller;
+  final String _videoId = '9wY7u3bVnDs';
+  final double _startSeconds = 379;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
+class YoutubeEmbeddedfive extends StatefulWidget {
+  const YoutubeEmbeddedfive({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CmhFPjE6U8k',
-    startSeconds: 77,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedfive> createState() => _YoutubeEmbeddedfiveState();
+}
+
+class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'CmhFPjE6U8k';
+  final double _startSeconds = 77;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
+class YoutubeEmbeddedsix extends StatefulWidget {
+  const YoutubeEmbeddedsix({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PGPVpil2UmE',
-    startSeconds: 166,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedsix> createState() => _YoutubeEmbeddedsixState();
+}
+
+class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'PGPVpil2UmE';
+  final double _startSeconds = 166;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }

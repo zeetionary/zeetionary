@@ -360,7 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("How did the killer elude detection for so long?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "How did the killer elude detection for so long?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeludes3(String languageCode) async {
@@ -368,7 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was extremely tired but sleep eluded him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was extremely tired but sleep eluded him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeludes4(String languageCode) async {
@@ -376,7 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Finally he remembered the tiny detail that had eluded him the night before."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Finally he remembered the tiny detail that had eluded him the night before."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeludes5(String languageCode) async {
@@ -384,7 +387,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Winning this championship was a prize that had always eluded him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Winning this championship was a prize that had always eluded him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakeludes6(String languageCode) async {
@@ -534,7 +538,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دوورکەوتنەوە، بڕ لێدان، خۆپاراستن لە
 """),
-          const DefinitionKurdish(text: """١. (کردار) توانینی ئەوەی دووربکەویتەوە یان ڕابکەیت لە کەسێک/شتێک، زۆرجار بە زیرەکانە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (کردار) توانینی ئەوەی دووربکەویتەوە یان ڕابکەیت لە کەسێک/شتێک، زۆرجار بە زیرەکانە"""),
           Row(
             children: [
               const Expanded(
@@ -543,7 +549,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             """The two men managed to elude the police for six weeks."""),
-                    ExampleSentenceKurdish(text: """دوو پیاوەکە توانییان بۆ شەش هەفتە خۆیان لە پۆلیس بدزنەوە."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """دوو پیاوەکە توانییان بۆ شەش هەفتە خۆیان لە پۆلیس بدزنەوە."""),
                   ],
                 ),
               ),
@@ -568,8 +576,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """How did the killer elude detection for so long?"""),
-                    ExampleSentenceKurdish(text: """چۆن بکوژەکە توانی لە دۆزینەوە دوور بێت بۆ ئەوەندە زۆر؟"""),
+                    ExampleSentenceEnglish(
+                        text:
+                            """How did the killer elude detection for so long?"""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """چۆن بکوژەکە توانی لە دۆزینەوە دوور بێت بۆ ئەوەندە زۆر؟"""),
                   ],
                 ),
               ),
@@ -577,25 +589,30 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeludes2("en-GB"""),
+                    onPressed: () => speakeludes2("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeludes2("en-US"""),
+                    onPressed: () => speakeludes2("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) کە شتێک وادەکات نەتوانی بەدەستی بهێنیت، یان ئەوەی کە بیرت بکەوێتەوە یان لێی تێ بگەیت"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (کردار) کە شتێک وادەکات نەتوانی بەدەستی بهێنیت، یان ئەوەی کە بیرت بکەوێتەوە یان لێی تێ بگەیت"""),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """He was extremely tired but sleep eluded him."""),
-                    ExampleSentenceKurdish(text: """تەواو ماندوو بوو بەڵام خەوی نەدەهات."""),
+                    ExampleSentenceEnglish(
+                        text:
+                            """He was extremely tired but sleep eluded him."""),
+                    ExampleSentenceKurdish(
+                        text: """تەواو ماندوو بوو بەڵام خەوی نەدەهات."""),
                   ],
                 ),
               ),
@@ -603,10 +620,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeludes3("en-GB"""),
+                    onPressed: () => speakeludes3("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeludes3("en-US"""),
+                    onPressed: () => speakeludes3("en-US" ""),
                   ),
                 ],
               ),
@@ -620,8 +637,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """Finally he remembered the tiny detail that had eluded him the night before."""),
-                    ExampleSentenceKurdish(text: """لە کۆتاییدا وردەکارییە بچووکەکەی بیرکەوتەوە کە شەوی پێشووتر لێی عاسی بووبوو."""),
+                    ExampleSentenceEnglish(
+                        text:
+                            """Finally he remembered the tiny detail that had eluded him the night before."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """لە کۆتاییدا وردەکارییە بچووکەکەی بیرکەوتەوە کە شەوی پێشووتر لێی عاسی بووبوو."""),
                   ],
                 ),
               ),
@@ -629,10 +650,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeludes4("en-GB"""),
+                    onPressed: () => speakeludes4("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeludes4("en-US"""),
+                    onPressed: () => speakeludes4("en-US" ""),
                   ),
                 ],
               ),
@@ -646,8 +667,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: """Winning this championship was a prize that had always eluded him."""),
-                    ExampleSentenceKurdish(text: """بردنەوەی ئەم پاڵەوانێتییە ئامانجێک بوو کە هەرگیز بە دەستی نەهێنابوو."""),
+                    ExampleSentenceEnglish(
+                        text:
+                            """Winning this championship was a prize that had always eluded him."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """بردنەوەی ئەم پاڵەوانێتییە ئامانجێک بوو کە هەرگیز بە دەستی نەهێنابوو."""),
                   ],
                 ),
               ),
@@ -655,10 +680,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakeludes5("en-GB"""),
+                    onPressed: () => speakeludes5("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakeludes5("en-US"""),
+                    onPressed: () => speakeludes5("en-US" ""),
                   ),
                 ],
               ),
@@ -1191,176 +1216,393 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
+class YoutubeEmbeddedend extends StatefulWidget {
+  const YoutubeEmbeddedend({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KhBxCx11eck?t=',
-    startSeconds: 1529,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedend> createState() => _YoutubeEmbeddedendState();
+}
+
+class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/KhBxCx11eck?t=';
+  final double _startSeconds = 1529;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedone extends StatelessWidget {
-  YoutubeEmbeddedone({super.key});
+class YoutubeEmbeddedone extends StatefulWidget {
+  const YoutubeEmbeddedone({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CupbRr2m_sM?t=',
-    startSeconds: 1867,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedone> createState() => _YoutubeEmbeddedoneState();
+}
+
+class _YoutubeEmbeddedoneState extends State<YoutubeEmbeddedone> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/CupbRr2m_sM?t=';
+  final double _startSeconds = 1867;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  YoutubeEmbeddedtwo({super.key});
+class YoutubeEmbeddedtwo extends StatefulWidget {
+  const YoutubeEmbeddedtwo({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6etTERFUlUI?t=',
-    startSeconds: 895,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedtwo> createState() => _YoutubeEmbeddedtwoState();
+}
+
+class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/6etTERFUlUI?t=';
+  final double _startSeconds = 895;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
+class YoutubeEmbeddedthree extends StatefulWidget {
+  const YoutubeEmbeddedthree({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tTJeePNgOF8?t=',
-    startSeconds: 151,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedthree> createState() => _YoutubeEmbeddedthreeState();
+}
+
+class _YoutubeEmbeddedthreeState extends State<YoutubeEmbeddedthree> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/tTJeePNgOF8?t=';
+  final double _startSeconds = 151;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
+class YoutubeEmbeddedfour extends StatefulWidget {
+  const YoutubeEmbeddedfour({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ill2cgCyTUc?t=',
-    startSeconds: 1429,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedfour> createState() => _YoutubeEmbeddedfourState();
+}
+
+class _YoutubeEmbeddedfourState extends State<YoutubeEmbeddedfour> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/ill2cgCyTUc?t=';
+  final double _startSeconds = 1429;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
+class YoutubeEmbeddedfive extends StatefulWidget {
+  const YoutubeEmbeddedfive({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/arBqhFisv7w?t=',
-    startSeconds: 520,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedfive> createState() => _YoutubeEmbeddedfiveState();
+}
+
+class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/arBqhFisv7w?t=';
+  final double _startSeconds = 520;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
+class YoutubeEmbeddedsix extends StatefulWidget {
+  const YoutubeEmbeddedsix({super.key});
 
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rm9t94mpkjo?t=',
-    startSeconds: 1492,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
+  @override
+  State<YoutubeEmbeddedsix> createState() => _YoutubeEmbeddedsixState();
+}
+
+class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
+  late YoutubePlayerController _controller;
+  final String _videoId = 'https://youtu.be/Rm9t94mpkjo?t=';
+  final double _startSeconds = 1492;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializePlayer();
+  }
+
+  void _initializePlayer() {
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+  }
+
+  void _reloadVideo() {
+    _controller.loadVideoById(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+      body: YouTubeVideosContainer(
+        controller: _controller,
+        onReloadVideo: _reloadVideo,
       ),
     );
   }
@@ -1373,7 +1615,7 @@ class YoutubeVideos extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return YouTubeScroller(
+    return const YouTubeScroller(
       children: [
         YoutubeEmbeddedone(),
         YoutubeEmbeddedtwo(),

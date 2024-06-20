@@ -131,7 +131,7 @@ class _IrregularVerbsScreenState extends ConsumerState<IrregularVerbsScreen>
                     controller: _searchController,
                     decoration: InputDecoration(
                       // labelText: 'Search',
-                      hintText: "Search for sentences...",
+                      hintText: "Search for verbs...",
                       hintStyle: TextStyle(fontSize: textSize),
                       border: const OutlineInputBorder(),
                       suffixIcon: IconButton(

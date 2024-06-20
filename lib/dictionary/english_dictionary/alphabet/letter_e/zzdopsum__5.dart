@@ -1234,7 +1234,7 @@ class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeVideosContainer(
+      body: YouTubeVideosContainerEnd(
         controller: _controller,
         onReloadVideo: _reloadVideo,
       ),
@@ -1476,7 +1476,7 @@ class YoutubeEmbeddedfive extends StatefulWidget {
 class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
   late YoutubePlayerController _controller;
   final String _videoId = '4VSx2E7WE50';
-  final double _startSeconds = 224;
+  final double _startSeconds = 1;
 
   @override
   void initState() {
@@ -1756,6 +1756,7 @@ class _YoutubeEmbeddedeightState extends State<YoutubeEmbeddedeight> {
     );
   }
 }
+
 class YoutubeEmbeddednine extends StatefulWidget {
   const YoutubeEmbeddednine({super.key});
 

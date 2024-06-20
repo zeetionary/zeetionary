@@ -208,7 +208,7 @@ class YouTubeScroller extends StatefulWidget {
   const YouTubeScroller({super.key, required this.children});
 
   @override
-State<YouTubeScroller> createState() => _YouTubeScrollerState();
+  State<YouTubeScroller> createState() => _YouTubeScrollerState();
 }
 
 class _YouTubeScrollerState extends State<YouTubeScroller> {
@@ -220,38 +220,139 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
       children: [
         widget.children[_selectedIndex],
         Positioned(
-          top: 16,
+          bottom: 16,
           left: 16,
           right: 16,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: List.generate(widget.children.length, (index) {
-              return GestureDetector(
-                onTap: () {
-                  setState(() {
-                    _selectedIndex = index;
-                  });
-                },
-                child: Container(
-                  margin: const EdgeInsets.symmetric(horizontal: 4.0),
-                  padding: const EdgeInsets.all(8.0),
-                  decoration: BoxDecoration(
-                    color: _selectedIndex == index ? Colors.blue : Colors.grey,
-                    shape: BoxShape.circle,
+          child: Container(
+            padding: const EdgeInsets.all(8.0),
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.grey),
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+            child: Row(
+              children: [
+                if (_selectedIndex > 0)
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        _selectedIndex--;
+                      });
+                    },
+                    child: const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 8.0),
+                      child: Icon(Icons.chevron_left,
+                          color: Colors.blue, size: 38),
+                    ),
                   ),
-                  child: Text(
-                    '${index + 1}',
-                    style: const TextStyle(color: Colors.white),
+                Expanded(
+                  child: Center(
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children:
+                            List.generate(widget.children.length, (index) {
+                          return GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                _selectedIndex = index;
+                              });
+                            },
+                            child: Container(
+                              margin:
+                                  const EdgeInsets.symmetric(horizontal: 4.0),
+                              padding: const EdgeInsets.all(8.0),
+                              decoration: BoxDecoration(
+                                color: _selectedIndex == index
+                                    ? Colors.blue
+                                    : Colors.transparent,
+                                border: Border.all(color: Colors.grey),
+                                shape: BoxShape.circle,
+                              ),
+                              child: Text(
+                                '${index + 1}',
+                                style: const TextStyle(
+                                    fontSize: 16), // Removed color
+                              ),
+                            ),
+                          );
+                        }),
+                      ),
+                    ),
                   ),
                 ),
-              );
-            }),
+                if (_selectedIndex < widget.children.length - 1)
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        _selectedIndex++;
+                      });
+                    },
+                    child: const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 8.0),
+                      child: Icon(Icons.chevron_right,
+                          color: Colors.blue, size: 38),
+                    ),
+                  ),
+              ],
+            ),
           ),
         ),
       ],
     );
   }
 }
+
+// class YouTubeScroller extends StatefulWidget {
+//   final List<Widget> children;
+
+//   const YouTubeScroller({super.key, required this.children});
+
+//   @override
+//   State<YouTubeScroller> createState() => _YouTubeScrollerState();
+// }
+
+// class _YouTubeScrollerState extends State<YouTubeScroller> {
+//   int _selectedIndex = 0;
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Stack(
+//       children: [
+//         widget.children[_selectedIndex],
+//         Positioned(
+//           top: 16,
+//           left: 16,
+//           right: 16,
+//           child: Row(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: List.generate(widget.children.length, (index) {
+//               return GestureDetector(
+//                 onTap: () {
+//                   setState(() {
+//                     _selectedIndex = index;
+//                   });
+//                 },
+//                 child: Container(
+//                   margin: const EdgeInsets.symmetric(horizontal: 4.0),
+//                   padding: const EdgeInsets.all(8.0),
+//                   decoration: BoxDecoration(
+//                     color: _selectedIndex == index ? Colors.blue : Colors.grey,
+//                     shape: BoxShape.circle,
+//                   ),
+//                   child: Text(
+//                     '${index + 1}',
+//                     style: const TextStyle(color: Colors.white),
+//                   ),
+//                 ),
+//               );
+//             }),
+//           ),
+//         ),
+//       ],
+//     );
+//   }
+// }
 
 // class YouTubeScroller extends StatelessWidget {
 //   final List<Widget> children;
@@ -435,7 +536,7 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
         // Your indicator widget content here
         Text('Next Video',
             style: TextStyle(
-              color: Theme.of(context).primaryColor.withOpacity(0.41),
+              color: Theme.of(context).primaryColor.withOpacity(0.000001),
               fontSize: textSize,
             )),
         AnimatedBuilder(
@@ -446,7 +547,7 @@ class _NextVideoIndicatorState extends ConsumerState<NextVideoIndicator>
               child: Icon(
                 Icons.swipe_up_rounded,
                 // color: Colors.blue,
-                color: Theme.of(context).primaryColor.withOpacity(0.41),
+                color: Theme.of(context).primaryColor.withOpacity(0.00000001),
                 size: textSize, // Set the size of the icon
               ),
             );
@@ -467,7 +568,7 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
   const YouTubeContainerDesignEnd({
     super.key,
     required YoutubePlayerController controller,
-  })  : _controller = controller;
+  }) : _controller = controller;
 
   final YoutubePlayerController _controller;
 
@@ -566,9 +667,12 @@ class YouTubeVideosContainer extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            height: 20,
+          ),
           ElevatedButton(
             onPressed: onReloadVideo,
-            child: const Text('Reload Video'),
+            child: const Icon(Icons.replay),
           ),
           const SizedBox(
             height: 30,
@@ -627,9 +731,12 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            height: 20,
+          ),
           ElevatedButton(
             onPressed: onReloadVideo,
-            child: const Text('Reload Video'),
+            child: const Icon(Icons.replay),
           ),
         ],
       ),

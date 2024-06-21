@@ -16,7 +16,7 @@ class EnglishEntryagronomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agronomy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agronomy");
   }
 
   Future<void> speakagron3784(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryagronomy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production."); // DOPSUM: CHANGE TEXT
+        "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production.");
   }
 
   // Future<void> speakagronomy(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryagronomy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agronomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agronomy");
   // }
 
   // Future<void> speakagronomy(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryagronomy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agronomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agronomy");
   // }
 
   @override

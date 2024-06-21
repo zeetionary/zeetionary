@@ -24,7 +24,7 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aspect");
   }
 
   Future<void> speakaspect455(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The book aims to cover all aspects of city life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The book aims to cover all aspects of city life.");
   }
 
   Future<void> speakaspect456(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt she had looked at the problem from every aspect."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She felt she had looked at the problem from every aspect.");
   }
 
   Future<void> speakaspect458(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The glasses and the beard lend him a rather scholarly aspect."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The glasses and the beard lend him a rather scholarly aspect.");
   }
 
   Future<void> speakaspect500(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Our room had a western aspect."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Our room had a western aspect.");
   }
 
   Future<void> speakaspect508(String languageCode) async {
@@ -69,7 +67,7 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing."); // DOPSUM: CHANGE TEXT
+        "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing.");
   }
 
   // Future<void> speakaspect(String languageCode) async {
@@ -77,7 +75,7 @@ class EnglishEntryaspect extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aspect");
   // }
 
   // Future<void> speakaspect(String languageCode) async {
@@ -85,7 +83,7 @@ class EnglishEntryaspect extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aspect");
   // }
 
   // Future<void> speakaspect(String languageCode) async {
@@ -93,7 +91,7 @@ class EnglishEntryaspect extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aspect");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccurate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accurate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accurate");
   }
 
   Future<void> speakac21546(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccurate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The film is not historically accurate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The film is not historically accurate.");
   }
 
   Future<void> speakac12369(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryaccurate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cost is an accurate reflection of the quality of our products."); // DOPSUM: CHANGE TEXT
+        "The cost is an accurate reflection of the quality of our products.");
   }
 
   Future<void> speaka2158(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryaccurate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("My watch is not very accurate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My watch is not very accurate.");
   }
 
   Future<void> speaka23547(String languageCode) async {
@@ -52,7 +50,7 @@ class EnglishEntryaccurate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists have found a more accurate way of dating cave paintings."); // DOPSUM: CHANGE TEXT
+        "Scientists have found a more accurate way of dating cave paintings.");
   }
 
   @override

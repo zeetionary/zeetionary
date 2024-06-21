@@ -16,7 +16,7 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absolute"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absolute");
   }
 
   Future<void> speakab2541(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The divorce became absolute last week."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The divorce became absolute last week.");
   }
 
   Future<void> speaka6587(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He taught us that the laws of physics were absolute."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He taught us that the laws of physics were absolute.");
   }
 
   Future<void> speaka7415(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We must keep costs to an absolute minimum."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We must keep costs to an absolute minimum.");
   }
 
   Future<void> speaka2569(String languageCode) async {
@@ -51,8 +49,7 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Clean water is an absolute necessity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Clean water is an absolute necessity.");
   }
 
   Future<void> speaka6254(String languageCode) async {
@@ -60,8 +57,7 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I've joined a class for absolute beginners."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've joined a class for absolute beginners.");
   }
 
   @override

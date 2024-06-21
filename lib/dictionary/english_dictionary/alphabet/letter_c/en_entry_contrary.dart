@@ -21,7 +21,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("contrary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contrary");
   }
 
   Future<void> speakcontrarys1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Contrary to popular belief, many cats dislike milk."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Contrary to popular belief, many cats dislike milk.");
   }
 
   Future<void> speakcontrarys2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Contrary to the weather forecast, we had a fine day for the experiment."); // DOPSUM: CHANGE TEXT
+        "Contrary to the weather forecast, we had a fine day for the experiment.");
   }
 
   Future<void> speakcontrarys3(String languageCode) async {
@@ -47,8 +47,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These results run contrary to our expectations."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These results run contrary to our expectations.");
   }
 
   Future<void> speakcontrarys4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Despite all the contrary evidence, they still believed that the Earth was flat."); // DOPSUM: CHANGE TEXT
+        "Despite all the contrary evidence, they still believed that the Earth was flat.");
   }
 
   Future<void> speakcontrarys5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My own experience is completely contrary."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My own experience is completely contrary.");
   }
 
   Future<void> speakcontrarys6(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His death will be considered accidental unless the contrary is shown by evidence."); // DOPSUM: CHANGE TEXT
+        "His death will be considered accidental unless the contrary is shown by evidence.");
   }
 
   Future<void> speakcontrarys7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I was worried that it might be too hard for me but it turned out the contrary was true."); // DOPSUM: CHANGE TEXT
+        "I was worried that it might be too hard for me but it turned out the contrary was true.");
   }
 
   Future<void> speakcontrarys8(String languageCode) async {
@@ -93,7 +91,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was such a contrary child—it was impossible to please her."); // DOPSUM: CHANGE TEXT
+        "She was such a contrary child—it was impossible to please her.");
   }
 
   Future<void> speakcontrarys9(String languageCode) async {
@@ -101,7 +99,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontrarys900");
   }
 
   Future<void> speakcontrarys10(String languageCode) async {
@@ -109,7 +107,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontrarys1000");
   }
 
   Future<void> speakcontrarys11(String languageCode) async {
@@ -117,7 +115,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontrarys1100");
   }
 
   Future<void> speakcontrarys12(String languageCode) async {
@@ -125,7 +123,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontrarys1200");
   }
 
   Future<void> speakcontrarys13(String languageCode) async {
@@ -133,7 +131,7 @@ class EnglishEntrycontrary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontrarys1300");
   }
 
   @override

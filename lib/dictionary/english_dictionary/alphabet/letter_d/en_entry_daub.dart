@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("daub"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daub");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("daub"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daub");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The walls of the building were daubed with red paint."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The walls of the building were daubed with red paint.");
   }
 
   Future<void> speakdaubs2(String languageCode) async {
@@ -230,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They used spray paint to daub slogans on the walls."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They used spray paint to daub slogans on the walls.");
   }
 
   Future<void> speakdaubs3(String languageCode) async {
@@ -239,8 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The walls of the ancient house were made of wattle and daub."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The walls of the ancient house were made of wattle and daub.");
   }
 
   Future<void> speakdaubs4(String languageCode) async {
@@ -248,80 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He noticed a daub of sauce on his shirt sleeve."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs5(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs6(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdaubs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdaub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaubs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He noticed a daub of sauce on his shirt sleeve.");
   }
 
   @override

@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("debilitating"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("debilitating");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("debilitating"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("debilitating");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She found the heat debilitating."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She found the heat debilitating.");
   }
 
   Future<void> speakdebilitatings2(String languageCode) async {
@@ -232,95 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The economy is now strengthening after a long and debilitating recession."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings3(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings4(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebilitatings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdebilitating
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebilitatings1300"); // DOPSUM: CHANGE TEXT
+        "The economy is now strengthening after a long and debilitating recession.");
   }
 
   @override

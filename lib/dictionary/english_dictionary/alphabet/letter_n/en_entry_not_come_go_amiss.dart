@@ -16,7 +16,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("not come/go amiss");
   }
 
   Future<void> speakNotcomegoamiss142(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A little luck wouldn't go amiss right now!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A little luck wouldn't go amiss right now!");
   }
 
   Future<void> speakNotcomegoamiss78(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I followed them all the way to make sure nothing went amiss."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I followed them all the way to make sure nothing went amiss.");
   }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -98,7 +97,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   // Future<void> speakNotcomegoamiss(String languageCode) async {
@@ -106,7 +105,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("not come/go amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("not come/go amiss");
   // }
 
   @override

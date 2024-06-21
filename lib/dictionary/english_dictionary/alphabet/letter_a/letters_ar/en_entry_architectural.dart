@@ -22,7 +22,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("architectural");
   }
 
   Future<void> speakarchitectural428(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Several architectural styles are being considered for the proposed housing development."); // DOPSUM: CHANGE TEXT
+        "Several architectural styles are being considered for the proposed housing development.");
   }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   // Future<void> speakarchitectural(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("architectural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("architectural");
   // }
 
   @override

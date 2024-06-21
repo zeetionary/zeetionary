@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dignitary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dignitary");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dignitary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dignitary");
   }
 
   @override
@@ -222,175 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Prime Minister will be meeting local dignitaries and visiting places of work."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitarys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdignitary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitarys2200"); // DOPSUM: CHANGE TEXT
+        "The Prime Minister will be meeting local dignitaries and visiting places of work.");
   }
 
   @override

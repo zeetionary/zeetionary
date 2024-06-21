@@ -16,7 +16,7 @@ class EnglishEntryaltitude extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("altitude");
   }
 
   Future<void> speakaltitude222(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaltitude extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We are flying at an altitude of 6 000 metres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We are flying at an altitude of 6 000 metres.");
   }
 
   // Future<void> speakaltitude(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryaltitude extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altitude");
   // }
 
   // Future<void> speakaltitude(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaltitude extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altitude");
   // }
 
   @override

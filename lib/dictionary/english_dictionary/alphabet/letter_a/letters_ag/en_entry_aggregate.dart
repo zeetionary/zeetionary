@@ -16,7 +16,7 @@ class EnglishEntryaggregate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aggregate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aggregate");
   }
 
   Future<void> speakaggreg2622(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaggregate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The three smaller parties gained an aggregate of 25 per cent of the vote."); // DOPSUM: CHANGE TEXT
+        "The three smaller parties gained an aggregate of 25 per cent of the vote.");
   }
 
   Future<void> speakaggre35944(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaggregate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company aggregates news and information from a number of sources on its website."); // DOPSUM: CHANGE TEXT
+        "The company aggregates news and information from a number of sources on its website.");
   }
 
   Future<void> speakaggreg5266(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryaggregate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The seven companies made an aggregate profit of 10 million dollars."); // DOPSUM: CHANGE TEXT
+        "The seven companies made an aggregate profit of 10 million dollars.");
   }
 
   @override

@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dive");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dive");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We dived into the river to cool off."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We dived into the river to cool off.");
   }
 
   Future<void> speakdives2(String languageCode) async {
@@ -360,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He dived off the bridge."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He dived off the bridge.");
   }
 
   Future<void> speakdives3(String languageCode) async {
@@ -368,8 +367,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sam walked to the deep end of the pool and dived in."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sam walked to the deep end of the pool and dived in.");
   }
 
   Future<void> speakdives4(String languageCode) async {
@@ -377,8 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She dived from the top diving board."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She dived from the top diving board.");
   }
 
   Future<void> speakdives5(String languageCode) async {
@@ -386,8 +384,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The main purpose of his holiday to Greece was to go diving."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The main purpose of his holiday to Greece was to go diving.");
   }
 
   Future<void> speakdives6(String languageCode) async {
@@ -395,8 +393,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The submarine dived to avoid being seen."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The submarine dived to avoid being seen.");
   }
 
   Future<void> speakdives7(String languageCode) async {
@@ -404,8 +401,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The whale dived as the harpoon struck it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The whale dived as the harpoon struck it.");
   }
 
   Future<void> speakdives8(String languageCode) async {
@@ -413,8 +409,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The seagulls soared then dived."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The seagulls soared then dived.");
   }
 
   Future<void> speakdives9(String languageCode) async {
@@ -422,8 +417,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The plane dived down to attack."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plane dived down to attack.");
   }
 
   Future<void> speakdives10(String languageCode) async {
@@ -431,8 +425,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We heard an explosion and dived for cover."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We heard an explosion and dived for cover.");
   }
 
   Future<void> speakdives11(String languageCode) async {
@@ -440,8 +433,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The goalie dived for the ball, but missed it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The goalie dived for the ball, but missed it.");
   }
 
   Future<void> speakdives12(String languageCode) async {
@@ -449,8 +441,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It started to rain so we dived into the nearest cafe."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It started to rain so we dived into the nearest cafe.");
   }
 
   Future<void> speakdives13(String languageCode) async {
@@ -458,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He did a dive off a cliff."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He did a dive off a cliff.");
   }
 
   Future<void> speakdives14(String languageCode) async {
@@ -466,8 +458,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We did a deep dive to see if we could find the wreckage."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We did a deep dive to see if we could find the wreckage.");
   }
 
   Future<void> speakdives15(String languageCode) async {
@@ -475,8 +467,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The plane went into a steep dive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plane went into a steep dive.");
   }
 
   Future<void> speakdives16(String languageCode) async {
@@ -485,55 +476,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The pilot seemed to be having difficulty in pulling out of the dive."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdives17(String languageCode) async {
-    // DOPSUM: CHANGE speakdive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdives1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdives18(String languageCode) async {
-    // DOPSUM: CHANGE speakdive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdives1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdives19(String languageCode) async {
-    // DOPSUM: CHANGE speakdive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdives1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdives20(String languageCode) async {
-    // DOPSUM: CHANGE speakdive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdives_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdives21(String languageCode) async {
-    // DOPSUM: CHANGE speakdive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdives2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdives22(String languageCode) async {
-    // DOPSUM: CHANGE speakdive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdives2200"); // DOPSUM: CHANGE TEXT
+        "The pilot seemed to be having difficulty in pulling out of the dive.");
   }
 
   @override

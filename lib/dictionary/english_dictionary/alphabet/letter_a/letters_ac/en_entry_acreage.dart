@@ -16,7 +16,7 @@ class EnglishEntryacreage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acreage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acreage");
   }
 
   Future<void> speakacr21374(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacreage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The aim is to double the forestry acreage by the end of the decade."); // DOPSUM: CHANGE TEXT
+        "The aim is to double the forestry acreage by the end of the decade.");
   }
 
   // Future<void> speakacreage(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryacreage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acreage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acreage");
   // }
 
   // Future<void> speakacreage(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryacreage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acreage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acreage");
   // }
 
   @override

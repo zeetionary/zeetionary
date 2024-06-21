@@ -16,7 +16,7 @@ class EnglishEntryaggressive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aggressive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aggressive");
   }
 
   Future<void> speakaggressive51114(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaggressive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He became increasingly aggressive as the evening wore on."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He became increasingly aggressive as the evening wore on.");
   }
 
   Future<void> speakaggre2256(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryaggressive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to get more aggressive in fighting terrorism."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need to get more aggressive in fighting terrorism.");
   }
 
   Future<void> speakaggr45999(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryaggressive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable."); // DOPSUM: CHANGE TEXT
+        "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable.");
   }
 
   Future<void> speakaggr5222(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntryaggressive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then."); // DOPSUM: CHANGE TEXT
+        "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then.");
   }
 
   @override

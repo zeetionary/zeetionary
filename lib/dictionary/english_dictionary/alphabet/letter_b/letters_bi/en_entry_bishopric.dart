@@ -24,7 +24,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bishopric"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bishopric");
   }
 
   Future<void> speakbishoprics1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bishopric organized charitable events to support local causes."); // DOPSUM: CHANGE TEXT
+        "The bishopric organized charitable events to support local causes.");
   }
 
   Future<void> speakbishoprics2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bishopric of Canterbury encompassed numerous villages and towns in medieval England."); // DOPSUM: CHANGE TEXT
+        "The bishopric of Canterbury encompassed numerous villages and towns in medieval England.");
   }
 
   Future<void> speakbishoprics3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBishoprics33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBishoprics33");
   }
 
   Future<void> speakbishoprics4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBishoprics44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBishoprics44");
   }
 
   Future<void> speakbishoprics5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBishoprics55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBishoprics55");
   }
 
   Future<void> speakbishoprics6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBishoprics66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBishoprics66");
   }
 
   Future<void> speakbishoprics7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBishoprics77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBishoprics77");
   }
 
   @override

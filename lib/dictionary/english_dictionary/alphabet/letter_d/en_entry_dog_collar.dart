@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dog collar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dog collar");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dog collar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dog collar");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He attached a leash to the dog collar before taking his dog for a walk."); // DOPSUM: CHANGE TEXT
+        "He attached a leash to the dog collar before taking his dog for a walk.");
   }
 
   Future<void> speakdogcollars2(String languageCode) async {
@@ -360,168 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The minister had his dog collar on."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars3(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars4(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars5(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars6(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars7(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars8(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars9(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars10(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars11(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars12(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars13(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars14(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars15(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars16(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars17(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars18(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars19(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars20(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars21(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogcollars22(String languageCode) async {
-    // DOPSUM: CHANGE speakdogcollar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogcollars2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The minister had his dog collar on.");
   }
 
   @override

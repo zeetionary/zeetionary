@@ -16,7 +16,7 @@ class EnglishEntryadministrator extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("administrator"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("administrator");
   }
 
   Future<void> speakadmini5288(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadministrator extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Such decisions are made by the hospital administrators."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Such decisions are made by the hospital administrators.");
   }
 
   Future<void> speakadmi25688(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryadministrator extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If you are unable to access the site, contact your system administrator."); // DOPSUM: CHANGE TEXT
+        "If you are unable to access the site, contact your system administrator.");
   }
 
   // Future<void> speakadministrator(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryadministrator extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrator"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("administrator");
   // }
 
   @override

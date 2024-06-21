@@ -24,7 +24,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("balance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("balance");
   }
 
   Future<void> speakbalances1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This newspaper maintains a good balance in its presentation of different opinions."); // DOPSUM: CHANGE TEXT
+        "This newspaper maintains a good balance in its presentation of different opinions.");
   }
 
   Future<void> speakbalances2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Try to keep a balance between work and relaxation."); // DOPSUM: CHANGE TEXT
+        "Try to keep a balance between work and relaxation.");
   }
 
   Future<void> speakbalances3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He set his feet wider and adjusted his balance."); // DOPSUM: CHANGE TEXT
+        "He set his feet wider and adjusted his balance.");
   }
 
   Future<void> speakbalances4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He asked the cashier for the balance of his current account."); // DOPSUM: CHANGE TEXT
+        "He asked the cashier for the balance of his current account.");
   }
 
   Future<void> speakbalances5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The balance of £500 must be paid within 90 days."); // DOPSUM: CHANGE TEXT
+        "The balance of £500 must be paid within 90 days.");
   }
 
   Future<void> speakbalances6(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He argues that the balance has swung too far in favour of capitalism."); // DOPSUM: CHANGE TEXT
+        "He argues that the balance has swung too far in favour of capitalism.");
   }
 
   Future<void> speakbalances7(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The scientist used a balance to measure the weight of the sample."); // DOPSUM: CHANGE TEXT
+        "The scientist used a balance to measure the weight of the sample.");
   }
 
   Future<void> speakbalances8(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("How long can you balance on one leg?"); // DOPSUM: CHANGE TEXT
+        .speak("How long can you balance on one leg?");
   }
 
   Future<void> speakbalances9(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The song perfectly balances melody and rhythm."); // DOPSUM: CHANGE TEXT
+        "The song perfectly balances melody and rhythm.");
   }
 
   Future<void> speakbalances10(String languageCode) async {
@@ -114,7 +114,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This year's profits will balance out our previous losses."); // DOPSUM: CHANGE TEXT
+        "This year's profits will balance out our previous losses.");
   }
 
   Future<void> speakbalances11(String languageCode) async {
@@ -123,7 +123,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cost of obtaining legal advice needs to be balanced against its benefits."); // DOPSUM: CHANGE TEXT
+        "The cost of obtaining legal advice needs to be balanced against its benefits.");
   }
 
   Future<void> speakbalances12(String languageCode) async {
@@ -132,7 +132,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In order to balance the budget severe spending cuts had to be made."); // DOPSUM: CHANGE TEXT
+        "In order to balance the budget severe spending cuts had to be made.");
   }
 
   Future<void> speakbalances13(String languageCode) async {
@@ -141,7 +141,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I tried to work out why the books wouldn't balance."); // DOPSUM: CHANGE TEXT
+        "I tried to work out why the books wouldn't balance.");
   }
 
   @override

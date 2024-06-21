@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("discover"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("discover");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("discover"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("discover");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cook is credited with discovering Hawaii."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Cook is credited with discovering Hawaii.");
   }
 
   Future<void> speakdiscovers2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists around the world are working to discover a cure for AIDS."); // DOPSUM: CHANGE TEXT
+        "Scientists around the world are working to discover a cure for AIDS.");
   }
 
   Future<void> speakdiscovers3(String languageCode) async {
@@ -239,8 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They first discovered this protein about five years ago."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They first discovered this protein about five years ago.");
   }
 
   Future<void> speakdiscovers4(String languageCode) async {
@@ -248,8 +247,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She recently discovered two fungi that were new to science."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She recently discovered two fungi that were new to science.");
   }
 
   Future<void> speakdiscovers5(String languageCode) async {
@@ -257,8 +256,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Researchers are hoping to discover new way to purify water."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Researchers are hoping to discover new way to purify water.");
   }
 
   Future<void> speakdiscovers6(String languageCode) async {
@@ -267,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Police discovered a large stash of drugs while searching the house."); // DOPSUM: CHANGE TEXT
+        "Police discovered a large stash of drugs while searching the house.");
   }
 
   Future<void> speakdiscovers7(String languageCode) async {
@@ -276,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We discovered this beach while we were sailing around the island."); // DOPSUM: CHANGE TEXT
+        "We discovered this beach while we were sailing around the island.");
   }
 
   Future<void> speakdiscovers8(String languageCode) async {
@@ -284,8 +283,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His body was discovered in the lake near his house."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His body was discovered in the lake near his house.");
   }
 
   Future<void> speakdiscovers9(String languageCode) async {
@@ -294,7 +293,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was determined to discover the truth about her neighbours."); // DOPSUM: CHANGE TEXT
+        "She was determined to discover the truth about her neighbours.");
   }
 
   Future<void> speakdiscovers10(String languageCode) async {
@@ -302,7 +301,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Discover the joys of yoga!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Discover the joys of yoga!");
   }
 
   Future<void> speakdiscovers11(String languageCode) async {
@@ -310,8 +309,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a shock to discover (that) he couldn’t read."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was a shock to discover (that) he couldn’t read.");
   }
 
   Future<void> speakdiscovers12(String languageCode) async {
@@ -319,8 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We never did discover why she gave up her job."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We never did discover why she gave up her job.");
   }
 
   Future<void> speakdiscovers13(String languageCode) async {
@@ -328,80 +326,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The singer was discovered while still at school."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscovers22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscover
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscovers2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The singer was discovered while still at school.");
   }
 
   @override

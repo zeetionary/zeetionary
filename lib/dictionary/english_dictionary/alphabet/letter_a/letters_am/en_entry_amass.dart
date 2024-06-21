@@ -16,7 +16,7 @@ class EnglishEntryamass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amass");
   }
 
   Future<void> speakamass5555(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They amassed enough evidence to convict her."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They amassed enough evidence to convict her.");
   }
 
   Future<void> speakamass4447(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryamass extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Germany has amassed a large number of troops on the border with France."); // DOPSUM: CHANGE TEXT
+        "Germany has amassed a large number of troops on the border with France.");
   }
 
   // Future<void> speakamass(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryamass extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amass"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amass");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accede"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accede");
   }
 
   Future<void> speaka24698(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Queen Victoria acceded to the throne in 1837."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Queen Victoria acceded to the throne in 1837.");
   }
 
   Future<void> speaka25963(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryaccede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He acceded to demands for his resignation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He acceded to demands for his resignation.");
   }
 
   @override

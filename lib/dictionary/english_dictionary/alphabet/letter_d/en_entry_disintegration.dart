@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disintegration"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disintegration");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disintegration"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disintegration");
   }
 
   @override
@@ -224,7 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These terrorists are trying to bring about a disintegration of the state."); // DOPSUM: CHANGE TEXT
+        "These terrorists are trying to bring about a disintegration of the state.");
   }
 
   Future<void> speakdisintegrations2(String languageCode) async {
@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Children leaving to find work in the cities might lead to family disintegration."); // DOPSUM: CHANGE TEXT
+        "Children leaving to find work in the cities might lead to family disintegration.");
   }
 
   Future<void> speakdisintegrations3(String languageCode) async {
@@ -241,160 +241,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The explosion caused the aircraft's disintegration."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisintegrations22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisintegration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisintegrations2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The explosion caused the aircraft's disintegration.");
   }
 
   @override

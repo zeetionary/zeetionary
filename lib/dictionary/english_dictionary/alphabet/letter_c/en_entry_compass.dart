@@ -21,7 +21,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compass");
   }
 
   Future<void> speakcompasss1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A compass shows you which direction is north."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A compass shows you which direction is north.");
   }
 
   Future<void> speakcompasss2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People arrived from all points of the compass."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("People arrived from all points of the compass.");
   }
 
   Future<void> speakcompasss3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You will need sharp scissors, a ruler, and a pair of compasses for making circles."); // DOPSUM: CHANGE TEXT
+        "You will need sharp scissors, a ruler, and a pair of compasses for making circles.");
   }
 
   Future<void> speakcompasss4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The discussion went beyond the compass of my brain."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The discussion went beyond the compass of my brain.");
   }
 
   Future<void> speakcompasss5(String languageCode) async {
@@ -65,7 +63,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss500");
   }
 
   Future<void> speakcompasss6(String languageCode) async {
@@ -73,7 +71,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss600");
   }
 
   Future<void> speakcompasss7(String languageCode) async {
@@ -81,7 +79,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss700");
   }
 
   Future<void> speakcompasss8(String languageCode) async {
@@ -89,7 +87,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss800");
   }
 
   Future<void> speakcompasss9(String languageCode) async {
@@ -97,7 +95,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss900");
   }
 
   Future<void> speakcompasss10(String languageCode) async {
@@ -105,7 +103,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss1000");
   }
 
   Future<void> speakcompasss11(String languageCode) async {
@@ -113,7 +111,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss1100");
   }
 
   Future<void> speakcompasss12(String languageCode) async {
@@ -121,7 +119,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss1200");
   }
 
   Future<void> speakcompasss13(String languageCode) async {
@@ -129,7 +127,7 @@ class EnglishEntrycompass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompasss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompasss1300");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abhorrence"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abhorrence");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abhorrence"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abhorrence");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakabhorrences111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakabhorrences111111111111111111111111111111111");
   }
 
   Future<void> speakabhorrences2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences200");
   }
 
   Future<void> speakabhorrences3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences300");
   }
 
   Future<void> speakabhorrences4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences400");
   }
 
   Future<void> speakabhorrences5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences500");
   }
 
   Future<void> speakabhorrences6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences600");
   }
 
   Future<void> speakabhorrences7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences700");
   }
 
   Future<void> speakabhorrences8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences800");
   }
 
   Future<void> speakabhorrences9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences900");
   }
 
   Future<void> speakabhorrences10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences1000");
   }
 
   Future<void> speakabhorrences11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences1100");
   }
 
   Future<void> speakabhorrences12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences1200");
   }
 
   Future<void> speakabhorrences13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrences1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrences1300");
   }
 
   Future<void> speaka634(String languageCode) async {
@@ -326,8 +326,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He had an abhorrence of waste of any kind."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had an abhorrence of waste of any kind.");
   }
 
   @override

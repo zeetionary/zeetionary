@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("danger"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("danger");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("danger"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("danger");
   }
 
   @override
@@ -221,7 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Danger! Keep Out!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Danger! Keep Out!");
   }
 
   Future<void> speakdangers2(String languageCode) async {
@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Firefighters face danger every day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Firefighters face danger every day.");
   }
 
   Future<void> speakdangers3(String languageCode) async {
@@ -239,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Children's lives are in danger every time they cross this road."); // DOPSUM: CHANGE TEXT
+        "Children's lives are in danger every time they cross this road.");
   }
 
   Future<void> speakdangers4(String languageCode) async {
@@ -247,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Doctors said she is now out of danger."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Doctors said she is now out of danger.");
   }
 
   Future<void> speakdangers5(String languageCode) async {
@@ -256,8 +254,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He recognized the danger signs and gave up smoking."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He recognized the danger signs and gave up smoking.");
   }
 
   Future<void> speakdangers6(String languageCode) async {
@@ -265,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("No one foresaw the danger."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("No one foresaw the danger.");
   }
 
   Future<void> speakdangers7(String languageCode) async {
@@ -273,8 +271,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There is no danger of a bush fire now."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There is no danger of a bush fire now.");
   }
 
   Future<void> speakdangers8(String languageCode) async {
@@ -283,7 +280,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They reminded residents of the potential dangers of living so near an active volcano."); // DOPSUM: CHANGE TEXT
+        "They reminded residents of the potential dangers of living so near an active volcano.");
   }
 
   Future<void> speakdangers9(String languageCode) async {
@@ -291,8 +288,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The building is in danger of collapsing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The building is in danger of collapsing.");
   }
 
   Future<void> speakdangers10(String languageCode) async {
@@ -300,8 +296,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are many hidden dangers for small children in the home."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are many hidden dangers for small children in the home.");
   }
 
   Future<void> speakdangers11(String languageCode) async {
@@ -309,8 +305,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Police said the man was a danger to the public."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Police said the man was a danger to the public.");
   }
 
   Future<void> speakdangers12(String languageCode) async {
@@ -318,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdangers1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdangers1200");
   }
 
   Future<void> speakdangers13(String languageCode) async {
@@ -326,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdangers1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdangers1300");
   }
 
   @override

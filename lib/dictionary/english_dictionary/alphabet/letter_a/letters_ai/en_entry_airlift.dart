@@ -16,7 +16,7 @@ class EnglishEntryairlift extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airlift"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airlift");
   }
 
   Future<void> speakairlift43555(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryairlift extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The German authorities are considering an airlift if the situation becomes critical."); // DOPSUM: CHANGE TEXT
+        "The German authorities are considering an airlift if the situation becomes critical.");
   }
 
   Future<void> speakairlift3522(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryairlift extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Over 200 residents were airlifted off the island."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Over 200 residents were airlifted off the island.");
   }
 
   // Future<void> speakairlift(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryairlift extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airlift"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airlift");
   // }
 
   @override

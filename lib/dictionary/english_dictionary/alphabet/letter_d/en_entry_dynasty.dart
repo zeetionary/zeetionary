@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dynasty"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dynasty");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dynasty"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dynasty");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The office was established under the previous dynasty."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The office was established under the previous dynasty.");
   }
 
   Future<void> speakdynastys2(String languageCode) async {
@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Eventually the dynasty was overthrown, and the country became a Republic."); // DOPSUM: CHANGE TEXT
+        "Eventually the dynasty was overthrown, and the country became a Republic.");
   }
 
   Future<void> speakdynastys3(String languageCode) async {
@@ -369,160 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A Ming dynasty vase was among the disovered artifacts."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynastys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdynasty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynastys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A Ming dynasty vase was among the disovered artifacts.");
   }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conservative"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conservative");
   }
 
   Future<void> speakconservatives1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The southern state's inhabitants tend to be socially conservative."); // DOPSUM: CHANGE TEXT
+        "The southern state's inhabitants tend to be socially conservative.");
   }
 
   Future<void> speakconservatives2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her style of dress was never conservative."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her style of dress was never conservative.");
   }
 
   Future<void> speakconservatives3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was a Conservative minister in the Thatcher government."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was a Conservative minister in the Thatcher government.");
   }
 
   Future<void> speakconservatives4(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "At a conservative estimate, he'll be earning £50 000."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("At a conservative estimate, he'll be earning £50 000.");
   }
 
   Future<void> speakconservatives5(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The justice's moderate record has angered hard-line conservatives for years."); // DOPSUM: CHANGE TEXT
+        "The justice's moderate record has angered hard-line conservatives for years.");
   }
 
   Future<void> speakconservatives6(String languageCode) async {
@@ -74,8 +73,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Senior Conservatives are opposed to the change."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Senior Conservatives are opposed to the change.");
   }
 
   Future<void> speakconservatives7(String languageCode) async {
@@ -83,7 +81,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives700");
   }
 
   Future<void> speakconservatives8(String languageCode) async {
@@ -91,7 +89,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives800");
   }
 
   Future<void> speakconservatives9(String languageCode) async {
@@ -99,7 +97,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives900");
   }
 
   Future<void> speakconservatives10(String languageCode) async {
@@ -107,7 +105,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives1000");
   }
 
   Future<void> speakconservatives11(String languageCode) async {
@@ -115,7 +113,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives1100");
   }
 
   Future<void> speakconservatives12(String languageCode) async {
@@ -123,7 +121,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives1200");
   }
 
   Future<void> speakconservatives13(String languageCode) async {
@@ -131,7 +129,7 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservatives1300");
   }
 
   @override

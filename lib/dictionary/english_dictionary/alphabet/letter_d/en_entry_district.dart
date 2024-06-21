@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("district"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("district");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("district"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("district");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Every city has its central business district."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Every city has its central business district.");
   }
 
   Future<void> speakdistricts2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The house is in a historic district."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The house is in a historic district.");
   }
 
   Future<void> speakdistricts3(String languageCode) async {
@@ -369,8 +367,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The hotel is located within Beijing's business district."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The hotel is located within Beijing's business district.");
   }
 
   Future<void> speakdistricts4(String languageCode) async {
@@ -379,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They redrew districts to make sure Republican candidates would win."); // DOPSUM: CHANGE TEXT
+        "They redrew districts to make sure Republican candidates would win.");
   }
 
   Future<void> speakdistricts5(String languageCode) async {
@@ -388,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The hospital is only responsible for patients within its own district."); // DOPSUM: CHANGE TEXT
+        "The hospital is only responsible for patients within its own district.");
   }
 
   Future<void> speakdistricts6(String languageCode) async {
@@ -396,8 +394,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It's a heavily Democratic district."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's a heavily Democratic district.");
   }
 
   Future<void> speakdistricts7(String languageCode) async {
@@ -405,128 +402,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He represented his district in Congress."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts8(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts9(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts10(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts11(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts12(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistricts22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistrict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistricts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He represented his district in Congress.");
   }
 
   @override

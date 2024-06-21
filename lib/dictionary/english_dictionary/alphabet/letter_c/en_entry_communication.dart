@@ -21,7 +21,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("communication"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("communication");
   }
 
   Future<void> speakcommunications1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Good communication between team leaders and members is essential."); // DOPSUM: CHANGE TEXT
+        "Good communication between team leaders and members is essential.");
   }
 
   Future<void> speakcommunications2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The campaign will appear across all communication channels."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The campaign will appear across all communication channels.");
   }
 
   Future<void> speakcommunications3(String languageCode) async {
@@ -47,8 +47,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We are in regular communication by email."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We are in regular communication by email.");
   }
 
   Future<void> speakcommunications4(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I haven't had any communication with him for several years."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I haven't had any communication with him for several years.");
   }
 
   Future<void> speakcommunications5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Letters are their only means of communication."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Letters are their only means of communication.");
   }
 
   Future<void> speakcommunications6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We are in regular communication with the kidnappers."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We are in regular communication with the kidnappers.");
   }
 
   Future<void> speakcommunications7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The new airport will improve communications between the islands."); // DOPSUM: CHANGE TEXT
+        "The new airport will improve communications between the islands.");
   }
 
   Future<void> speakcommunications8(String languageCode) async {
@@ -92,8 +90,8 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Paris has good rail communications with other major cities."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Paris has good rail communications with other major cities.");
   }
 
   Future<void> speakcommunications9(String languageCode) async {
@@ -102,7 +100,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He received an official communication about the reorganization of the Ministry."); // DOPSUM: CHANGE TEXT
+        "He received an official communication about the reorganization of the Ministry.");
   }
 
   Future<void> speakcommunications10(String languageCode) async {
@@ -110,7 +108,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunications1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunications1000");
   }
 
   Future<void> speakcommunications11(String languageCode) async {
@@ -118,7 +116,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunications1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunications1100");
   }
 
   Future<void> speakcommunications12(String languageCode) async {
@@ -126,7 +124,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunications1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunications1200");
   }
 
   Future<void> speakcommunications13(String languageCode) async {
@@ -134,7 +132,7 @@ class EnglishEntrycommunication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunications1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunications1300");
   }
 
   @override

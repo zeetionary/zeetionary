@@ -21,7 +21,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conquer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conquer");
   }
 
   Future<void> speakconquers1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The Normans conquered England in 1066."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The Normans conquered England in 1066.");
   }
 
   Future<void> speakconquers2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In 330 BC Persia was conquered by Alexander the Great."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In 330 BC Persia was conquered by Alexander the Great.");
   }
 
   Future<void> speakconquers3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Roman empire offered citizenship to its conquered peoples."); // DOPSUM: CHANGE TEXT
+        "The Roman empire offered citizenship to its conquered peoples.");
   }
 
   Future<void> speakconquers4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The world champion conquered yet another challenger last night."); // DOPSUM: CHANGE TEXT
+        "The world champion conquered yet another challenger last night.");
   }
 
   Future<void> speakconquers5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The only way to conquer a fear is to face it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The only way to conquer a fear is to face it.");
   }
 
   Future<void> speakconquers6(String languageCode) async {
@@ -74,8 +72,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Mount Everest was conquered in 1953."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Mount Everest was conquered in 1953.");
   }
 
   Future<void> speakconquers7(String languageCode) async {
@@ -83,8 +80,8 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This is a British film which could conquer the US market."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This is a British film which could conquer the US market.");
   }
 
   Future<void> speakconquers8(String languageCode) async {
@@ -92,7 +89,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers800");
   }
 
   Future<void> speakconquers9(String languageCode) async {
@@ -100,7 +97,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers900");
   }
 
   Future<void> speakconquers10(String languageCode) async {
@@ -108,7 +105,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1000");
   }
 
   Future<void> speakconquers11(String languageCode) async {
@@ -116,7 +113,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1100");
   }
 
   Future<void> speakconquers12(String languageCode) async {
@@ -124,7 +121,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1200");
   }
 
   Future<void> speakconquers13(String languageCode) async {
@@ -132,7 +129,7 @@ class EnglishEntryconquer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconquers1300");
   }
 
   @override

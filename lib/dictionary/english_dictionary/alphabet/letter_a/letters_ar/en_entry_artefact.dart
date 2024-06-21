@@ -24,7 +24,7 @@ class EnglishEntryartefact extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artefact");
   }
 
   Future<void> speakartefact112(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryartefact extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The museum has a superb collection of ancient artefacts from Nubia."); // DOPSUM: CHANGE TEXT
+        "The museum has a superb collection of ancient artefacts from Nubia.");
   }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   // Future<void> speakartefact(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryartefact extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artefact"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artefact");
   // }
 
   @override

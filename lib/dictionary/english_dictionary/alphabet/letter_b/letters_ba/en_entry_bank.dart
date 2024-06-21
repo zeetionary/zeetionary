@@ -24,7 +24,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bank"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bank");
   }
 
   Future<void> speakbanks1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't have much money in the bank at the end of the month."); // DOPSUM: CHANGE TEXT
+        "I don't have much money in the bank at the end of the month.");
   }
 
   Future<void> speakbanks2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The player's bank was dwindling after several losses."); // DOPSUM: CHANGE TEXT
+        "The player's bank was dwindling after several losses.");
   }
 
   Future<void> speakbanks3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They intend to establish a bank of information which will be accessible to the public."); // DOPSUM: CHANGE TEXT
+        "They intend to establish a bank of information which will be accessible to the public.");
   }
 
   Future<void> speakbanks4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The blood bank is always in need of donations."); // DOPSUM: CHANGE TEXT
+        "The blood bank is always in need of donations.");
   }
 
   Future<void> speakbanks5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Take old clothes and shoes to the recycling bank."); // DOPSUM: CHANGE TEXT
+        "Take old clothes and shoes to the recycling bank.");
   }
 
   Future<void> speakbanks6(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The river burst its banks after heavy rain."); // DOPSUM: CHANGE TEXT
+        "The river burst its banks after heavy rain.");
   }
 
   Future<void> speakbanks7(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There were low banks of earth between the rice fields."); // DOPSUM: CHANGE TEXT
+        "There were low banks of earth between the rice fields.");
   }
 
   Future<void> speakbanks8(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The driver carefully navigated the sharp bend on the banked road."); // DOPSUM: CHANGE TEXT
+        "The driver carefully navigated the sharp bend on the banked road.");
   }
 
   Future<void> speakbanks9(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sun disappeared behind a bank of clouds."); // DOPSUM: CHANGE TEXT
+        "The sun disappeared behind a bank of clouds.");
   }
 
   Future<void> speakbanks10(String languageCode) async {
@@ -114,7 +114,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was faced with a huge bank of switches and buttons."); // DOPSUM: CHANGE TEXT
+        "She was faced with a huge bank of switches and buttons.");
   }
 
   Future<void> speakbanks11(String languageCode) async {
@@ -123,7 +123,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is believed to have banked £10 million in two years."); // DOPSUM: CHANGE TEXT
+        "She is believed to have banked £10 million in two years.");
   }
 
   Future<void> speakbanks12(String languageCode) async {
@@ -132,7 +132,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The family had banked with Bank of America for generations."); // DOPSUM: CHANGE TEXT
+        "The family had banked with Bank of America for generations.");
   }
 
   Future<void> speakbanks13(String languageCode) async {
@@ -141,7 +141,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The pilot banked the plane to give passengers a better look at the mountain."); // DOPSUM: CHANGE TEXT
+        "The pilot banked the plane to give passengers a better look at the mountain.");
   }
 
   Future<void> speakbanks14(String languageCode) async {
@@ -150,7 +150,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The snow had banked up in the corner of the garden."); // DOPSUM: CHANGE TEXT
+        "The snow had banked up in the corner of the garden.");
   }
 
   Future<void> speakbanks15(String languageCode) async {
@@ -159,7 +159,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We banked up the fire to keep it burning all night."); // DOPSUM: CHANGE TEXT
+        "We banked up the fire to keep it burning all night.");
   }
 
   @override

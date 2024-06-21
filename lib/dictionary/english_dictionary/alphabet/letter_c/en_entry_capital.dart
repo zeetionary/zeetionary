@@ -18,7 +18,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("capital"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("capital");
   }
 
   Future<void> speakcapitals1(String languageCode) async {
@@ -26,8 +26,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Oslo is the capital of Norway."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Oslo is the capital of Norway.");
   }
 
   Future<void> speakcapitals2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Rennes is the provincial capital of Brittany."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Rennes is the provincial capital of Brittany.");
   }
 
   Future<void> speakcapitals3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She liked the fast pace of life in the capital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She liked the fast pace of life in the capital.");
   }
 
   Future<void> speakcapitals4(String languageCode) async {
@@ -53,8 +50,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Paris is known as the fashion capital of the world."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Paris is known as the fashion capital of the world.");
   }
 
   Future<void> speakcapitals5(String languageCode) async {
@@ -62,7 +59,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Please write in capitals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Please write in capitals.");
   }
 
   Future<void> speakcapitals6(String languageCode) async {
@@ -70,8 +67,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He had various ideas on how to raise capital for the project."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He had various ideas on how to raise capital for the project.");
   }
 
   Future<void> speakcapitals7(String languageCode) async {
@@ -79,8 +76,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our capital is all tied up in property."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Our capital is all tied up in property.");
   }
 
   Future<void> speakcapitals8(String languageCode) async {
@@ -89,7 +85,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Education creates intellectual capital to convert into economic rewards."); // DOPSUM: CHANGE TEXT
+        "Education creates intellectual capital to convert into economic rewards.");
   }
 
   Future<void> speakcapitals9(String languageCode) async {
@@ -97,8 +93,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("English is written with a capital ‘E’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("English is written with a capital ‘E’.");
   }
 
   Future<void> speakcapitals10(String languageCode) async {
@@ -106,8 +101,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In some countries, importing drugs is a capital offence."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In some countries, importing drugs is a capital offence.");
   }
 
   Future<void> speakcapitals11(String languageCode) async {
@@ -115,7 +110,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitals1111");
   }
 
   Future<void> speakcapitals12(String languageCode) async {
@@ -123,7 +118,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitals1212");
   }
 
   Future<void> speakcapitals13(String languageCode) async {
@@ -131,7 +126,7 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitals1313");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decking"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decking");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decking"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decking");
   }
 
   @override
@@ -222,103 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The decking was designed to be slip-resistant, making it safe for children and pets to play on."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings2(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeckings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecking
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeckings1300"); // DOPSUM: CHANGE TEXT
+        "The decking was designed to be slip-resistant, making it safe for children and pets to play on.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryallah extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Allah"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Allah");
   }
 
   Future<void> speakallah359999(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryallah extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It is the will of Allah."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It is the will of Allah.");
   }
 
   // Future<void> speakallah(String languageCode) async {
@@ -32,7 +32,7 @@ class EnglishEntryallah extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Allah"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Allah");
   // }
 
   // Future<void> speakallah(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryallah extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Allah"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Allah");
   // }
 
   @override

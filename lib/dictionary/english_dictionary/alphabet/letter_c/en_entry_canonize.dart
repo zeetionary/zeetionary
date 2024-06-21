@@ -18,7 +18,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("canonize"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("canonize");
   }
 
   Future<void> speakcanonizes1(String languageCode) async {
@@ -26,8 +26,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Joan of Arc was eventually canonized in 1920."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Joan of Arc was eventually canonized in 1920.");
   }
 
   Future<void> speakcanonizes2(String languageCode) async {
@@ -35,7 +34,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes22");
   }
 
   Future<void> speakcanonizes3(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes33");
   }
 
   Future<void> speakcanonizes4(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes44");
   }
 
   Future<void> speakcanonizes5(String languageCode) async {
@@ -59,7 +58,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes55");
   }
 
   Future<void> speakcanonizes6(String languageCode) async {
@@ -67,7 +66,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes66");
   }
 
   Future<void> speakcanonizes7(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes77");
   }
 
   Future<void> speakcanonizes8(String languageCode) async {
@@ -83,7 +82,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes88");
   }
 
   Future<void> speakcanonizes9(String languageCode) async {
@@ -91,7 +90,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes99");
   }
 
   Future<void> speakcanonizes10(String languageCode) async {
@@ -99,7 +98,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes1010");
   }
 
   Future<void> speakcanonizes11(String languageCode) async {
@@ -107,7 +106,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes1111");
   }
 
   Future<void> speakcanonizes12(String languageCode) async {
@@ -115,7 +114,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes1212");
   }
 
   Future<void> speakcanonizes13(String languageCode) async {
@@ -123,7 +122,7 @@ class EnglishEntrycanonize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonizes1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonizes1313");
   }
 
   @override

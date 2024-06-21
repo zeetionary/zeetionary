@@ -24,7 +24,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("have had a bellyful of"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("have had a bellyful of");
   }
 
   Future<void> speakHavehadabellyfulofs1(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I've had a bellyful of your moaning."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've had a bellyful of your moaning.");
   }
 
   Future<void> speakHavehadabellyfulofs2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I've had a bellyful of their lies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've had a bellyful of their lies.");
   }
 
   Future<void> speakHavehadabellyfulofs3(String languageCode) async {
@@ -50,7 +48,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakHavehadabellyfulofs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakHavehadabellyfulofs33");
   }
 
   Future<void> speakHavehadabellyfulofs4(String languageCode) async {
@@ -58,7 +56,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakHavehadabellyfulofs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakHavehadabellyfulofs44");
   }
 
   Future<void> speakHavehadabellyfulofs5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakHavehadabellyfulofs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakHavehadabellyfulofs55");
   }
 
   Future<void> speakHavehadabellyfulofs6(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakHavehadabellyfulofs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakHavehadabellyfulofs66");
   }
 
   Future<void> speakHavehadabellyfulofs7(String languageCode) async {
@@ -82,7 +80,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakHavehadabellyfulofs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakHavehadabellyfulofs77");
   }
 
   @override

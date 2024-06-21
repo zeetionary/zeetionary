@@ -22,7 +22,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("archaeologist");
   }
 
   Future<void> speakarchaeologist251(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's an archaeologist and has been on a dig in Crete for the past year."); // DOPSUM: CHANGE TEXT
+        "He's an archaeologist and has been on a dig in Crete for the past year.");
   }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   // Future<void> speakarchaeologist(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archaeologist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("archaeologist");
   // }
 
   @override

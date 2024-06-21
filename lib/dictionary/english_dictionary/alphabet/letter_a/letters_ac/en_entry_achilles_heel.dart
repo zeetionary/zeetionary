@@ -16,7 +16,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Achilles' heel"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Achilles' heel");
   }
 
   Future<void> speakac153864(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The enemy had an Achilles heel somewhere, if only he could find it."); // DOPSUM: CHANGE TEXT
+        "The enemy had an Achilles heel somewhere, if only he could find it.");
   }
 
   // Future<void> speakachillesheel(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Achilles' heel"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Achilles' heel");
   // }
 
   // Future<void> speakachillesheel(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Achilles' heel"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Achilles' heel");
   // }
 
   @override

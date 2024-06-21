@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dial");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dial");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Check the tyre pressure on the dial."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Check the tyre pressure on the dial.");
   }
 
   Future<void> speakdials2(String languageCode) async {
@@ -230,8 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You can tune into our station at 1460 on the radio dial."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You can tune into our station at 1460 on the radio dial.");
   }
 
   Future<void> speakdials3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Can you read what it says on the dial?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Can you read what it says on the dial?");
   }
 
   Future<void> speakdials4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He turned the dial carefully to avoid mistakes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He turned the dial carefully to avoid mistakes.");
   }
 
   Future<void> speakdials5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He dialled the number and waited."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He dialled the number and waited.");
   }
 
   Future<void> speakdials6(String languageCode) async {
@@ -266,135 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dial 0033 for France."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials7(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials8(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials9(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials10(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials11(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials12(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials13(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials14(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials15(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials16(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials17(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials18(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials19(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials20(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials21(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdials22(String languageCode) async {
-    // DOPSUM: CHANGE speakdial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdials2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dial 0033 for France.");
   }
 
   @override

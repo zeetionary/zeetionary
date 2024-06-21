@@ -24,7 +24,7 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attraction");
   }
 
   Future<void> speakattraction1023(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Buckingham Palace is a major tourist attraction."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Buckingham Palace is a major tourist attraction.");
   }
 
   Future<void> speakattraction1024(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt an immediate attraction for him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She felt an immediate attraction for him.");
   }
 
   Future<void> speakattraction1026(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sexual attraction is a large part of falling in love."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sexual attraction is a large part of falling in love.");
   }
 
   Future<void> speakattraction1028(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "City life holds little attraction for me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("City life holds little attraction for me.");
   }
 
   Future<void> speakattraction1030(String languageCode) async {
@@ -68,8 +65,8 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The main attraction of the place is the nightlife."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The main attraction of the place is the nightlife.");
   }
 
   Future<void> speakattraction1034(String languageCode) async {
@@ -78,7 +75,7 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."); // DOPSUM: CHANGE TEXT
+        "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit.");
   }
 
   // Future<void> speakattraction(String languageCode) async {
@@ -86,7 +83,7 @@ class EnglishEntryattraction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attraction");
   // }
 
   // Future<void> speakattraction(String languageCode) async {
@@ -94,7 +91,7 @@ class EnglishEntryattraction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attraction");
   // }
 
   @override

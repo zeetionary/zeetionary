@@ -16,7 +16,7 @@ class EnglishEntryamen extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amen"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amen");
   }
 
   Future<void> speakamen2411(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamen extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We ask this through our Lord, Amen."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We ask this through our Lord, Amen.");
   }
 
   Future<void> speakamen96552(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryamen extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Amen to that."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Amen to that.");
   }
 
   // Future<void> speakamen(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryamen extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amen"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amen");
   // }
 
   @override

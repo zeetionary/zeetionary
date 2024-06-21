@@ -18,7 +18,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("canon law"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("canon law");
   }
 
   Future<void> speakcanonlaws1(String languageCode) async {
@@ -26,8 +26,8 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The Eastern Orthodox Church follows its unique canon law."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The Eastern Orthodox Church follows its unique canon law.");
   }
 
   Future<void> speakcanonlaws2(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws22");
   }
 
   Future<void> speakcanonlaws3(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws33");
   }
 
   Future<void> speakcanonlaws4(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws44");
   }
 
   Future<void> speakcanonlaws5(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws55");
   }
 
   Future<void> speakcanonlaws6(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws66");
   }
 
   Future<void> speakcanonlaws7(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws77");
   }
 
   Future<void> speakcanonlaws8(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws88");
   }
 
   Future<void> speakcanonlaws9(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws99");
   }
 
   Future<void> speakcanonlaws10(String languageCode) async {
@@ -99,7 +99,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws1010");
   }
 
   Future<void> speakcanonlaws11(String languageCode) async {
@@ -107,7 +107,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws1111");
   }
 
   Future<void> speakcanonlaws12(String languageCode) async {
@@ -115,7 +115,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws1212");
   }
 
   Future<void> speakcanonlaws13(String languageCode) async {
@@ -123,7 +123,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanonlaws1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanonlaws1313");
   }
 
   @override

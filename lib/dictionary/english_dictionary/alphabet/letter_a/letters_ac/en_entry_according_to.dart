@@ -16,7 +16,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("according to"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("according to");
   }
 
   Future<void> speakac59173(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccordingto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You've been absent six times according to our records."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You've been absent six times according to our records.");
   }
 
   Future<void> speakac65874(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The work was done according to her instructions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The work was done according to her instructions.");
   }
 
   @override

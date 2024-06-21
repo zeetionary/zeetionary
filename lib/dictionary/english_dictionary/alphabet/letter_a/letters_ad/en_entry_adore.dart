@@ -16,7 +16,7 @@ class EnglishEntryadore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adore"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adore");
   }
 
   Future<void> speakadore45821(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It's obvious that she adores him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's obvious that she adores him.");
   }
 
   // Future<void> speakadore(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadore extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adore"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adore");
   // }
 
   // Future<void> speakadore(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadore extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adore"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adore");
   // }
 
   @override

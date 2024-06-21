@@ -22,7 +22,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blank verse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blank verse");
   }
 
   Future<void> speakblankverses1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."); // DOPSUM: CHANGE TEXT
+        "The playwright chose to write the entire play in blank verse for a more natural and conversational tone.");
   }
 
   Future<void> speakblankverses2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankverses22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses22");
   }
 
   Future<void> speakblankverses3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankverses33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses33");
   }
 
   Future<void> speakblankverses4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankverses44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses44");
   }
 
   Future<void> speakblankverses5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankverses55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses55");
   }
 
   Future<void> speakblankverses6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankverses66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses66");
   }
 
   Future<void> speakblankverses7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryblankverse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblankverses77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses77");
   }
 
   @override

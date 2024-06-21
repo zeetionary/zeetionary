@@ -24,7 +24,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("biological weapon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("biological weapon");
   }
 
   Future<void> speakbiologicalweapons1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon."); // DOPSUM: CHANGE TEXT
+        "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon.");
   }
 
   Future<void> speakbiologicalweapons2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiologicalweapons22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiologicalweapons22");
   }
 
   Future<void> speakbiologicalweapons3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiologicalweapons33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiologicalweapons33");
   }
 
   Future<void> speakbiologicalweapons4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiologicalweapons44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiologicalweapons44");
   }
 
   Future<void> speakbiologicalweapons5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiologicalweapons55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiologicalweapons55");
   }
 
   Future<void> speakbiologicalweapons6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiologicalweapons66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiologicalweapons66");
   }
 
   Future<void> speakbiologicalweapons7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiologicalweapons77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiologicalweapons77");
   }
 
   @override

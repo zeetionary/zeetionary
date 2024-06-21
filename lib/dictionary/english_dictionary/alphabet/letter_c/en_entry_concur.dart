@@ -21,7 +21,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("concur"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("concur");
   }
 
   Future<void> speakconcurs1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Historians have concurred with each other in this view."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Historians have concurred with each other in this view.");
   }
 
   Future<void> speakconcurs2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Scientists generally concur that climate change is a reality."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Scientists generally concur that climate change is a reality.");
   }
 
   Future<void> speakconcurs3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs300");
   }
 
   Future<void> speakconcurs4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs400");
   }
 
   Future<void> speakconcurs5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs500");
   }
 
   Future<void> speakconcurs6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs600");
   }
 
   Future<void> speakconcurs7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs700");
   }
 
   Future<void> speakconcurs8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs800");
   }
 
   Future<void> speakconcurs9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs900");
   }
 
   Future<void> speakconcurs10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs1000");
   }
 
   Future<void> speakconcurs11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs1100");
   }
 
   Future<void> speakconcurs12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs1200");
   }
 
   Future<void> speakconcurs13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntryconcur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcurs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcurs1300");
   }
 
   @override

@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("division"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("division");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("division"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("division");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "he organism begins as a single cell and grows by cell division."); // DOPSUM: CHANGE TEXT
+        "he organism begins as a single cell and grows by cell division.");
   }
 
   Future<void> speakdivisions2(String languageCode) async {
@@ -360,8 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to ensure a fair division of time and resources."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need to ensure a fair division of time and resources.");
   }
 
   Future<void> speakdivisions3(String languageCode) async {
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His will detailed his assets and gave instructions for their division among his children."); // DOPSUM: CHANGE TEXT
+        "His will detailed his assets and gave instructions for their division among his children.");
   }
 
   Future<void> speakdivisions4(String languageCode) async {
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She calculated the division by three in her head, quickly determining the answer."); // DOPSUM: CHANGE TEXT
+        "She calculated the division by three in her head, quickly determining the answer.");
   }
 
   Future<void> speakdivisions5(String languageCode) async {
@@ -387,8 +387,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We choose peace over hatred and division."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We choose peace over hatred and division.");
   }
 
   Future<void> speakdivisions6(String languageCode) async {
@@ -396,8 +395,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are deep divisions in the party over the war."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are deep divisions in the party over the war.");
   }
 
   Future<void> speakdivisions7(String languageCode) async {
@@ -406,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her comments appeared to have deepened divisions between the two countries."); // DOPSUM: CHANGE TEXT
+        "Her comments appeared to have deepened divisions between the two countries.");
   }
 
   Future<void> speakdivisions8(String languageCode) async {
@@ -414,8 +413,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has tried to sow division among the people."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has tried to sow division among the people.");
   }
 
   Future<void> speakdivisions9(String languageCode) async {
@@ -423,8 +421,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company's sales division is going to be restructured."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The company's sales division is going to be restructured.");
   }
 
   Future<void> speakdivisions10(String languageCode) async {
@@ -432,8 +430,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She works in the marketing division."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She works in the marketing division.");
   }
 
   Future<void> speakdivisions11(String languageCode) async {
@@ -441,8 +438,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company recently launched its publishing division."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The company recently launched its publishing division.");
   }
 
   Future<void> speakdivisions12(String languageCode) async {
@@ -450,8 +447,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Nagpur is the most eastern division in the state."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Nagpur is the most eastern division in the state.");
   }
 
   Future<void> speakdivisions13(String languageCode) async {
@@ -459,8 +455,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The club will finish second in Division One."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The club will finish second in Division One.");
   }
 
   Future<void> speakdivisions14(String languageCode) async {
@@ -468,8 +463,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The commander of the fourth infantry division defied orders."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The commander of the fourth infantry division defied orders.");
   }
 
   Future<void> speakdivisions15(String languageCode) async {
@@ -477,8 +472,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A hedge forms the division between their land and ours."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A hedge forms the division between their land and ours.");
   }
 
   Future<void> speakdivisions16(String languageCode) async {
@@ -486,56 +481,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sometimes there is no simple division between good and evil."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivisions17(String languageCode) async {
-    // DOPSUM: CHANGE speakdivision
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivisions1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivisions18(String languageCode) async {
-    // DOPSUM: CHANGE speakdivision
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivisions1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivisions19(String languageCode) async {
-    // DOPSUM: CHANGE speakdivision
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivisions1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivisions20(String languageCode) async {
-    // DOPSUM: CHANGE speakdivision
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivisions_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivisions21(String languageCode) async {
-    // DOPSUM: CHANGE speakdivision
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivisions2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivisions22(String languageCode) async {
-    // DOPSUM: CHANGE speakdivision
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivisions2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sometimes there is no simple division between good and evil.");
   }
 
   @override

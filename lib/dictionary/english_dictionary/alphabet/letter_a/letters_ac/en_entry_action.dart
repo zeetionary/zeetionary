@@ -16,7 +16,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("action");
   }
 
   Future<void> speakaction9652(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Each of us must take responsibility for our own actions."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Each of us must take responsibility for our own actions.");
   }
 
   Future<void> speakact25473(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Firefighters took action immediately to stop the blaze spreading."); // DOPSUM: CHANGE TEXT
+        "Firefighters took action immediately to stop the blaze spreading.");
   }
 
   Future<void> speakaction241(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government is taking strong action on tax fraud."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The government is taking strong action on tax fraud.");
   }
 
   Future<void> speakaction53874(String languageCode) async {
@@ -51,8 +51,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Workers voted in favour of strike action."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Workers voted in favour of strike action.");
   }
 
   Future<void> speakaction42567(String languageCode) async {
@@ -61,7 +60,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A libel action is being brought against the magazine that published the article."); // DOPSUM: CHANGE TEXT
+        "A libel action is being brought against the magazine that published the article.");
   }
 
   Future<void> speakaction4387(String languageCode) async {
@@ -69,8 +68,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I never saw action during the war."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I never saw action during the war.");
   }
 
   Future<void> speakaction8691(String languageCode) async {
@@ -78,8 +76,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The action takes place in France."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The action takes place in France.");
   }
 
   Future<void> speakaction35971(String languageCode) async {
@@ -87,8 +84,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I like films with plenty of action."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I like films with plenty of action.");
   }
 
   Future<void> speakaction55555(String languageCode) async {
@@ -96,8 +92,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Your request will be actioned."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your request will be actioned.");
   }
 
   // Future<void> speakaction(String languageCode) async {
@@ -105,7 +100,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("action");
   // }
 
   // Future<void> speakaction(String languageCode) async {
@@ -113,7 +108,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("action");
   // }
 
   // Future<void> speakaction(String languageCode) async {
@@ -121,7 +116,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("action");
   // }
 
   // Future<void> speakaction(String languageCode) async {
@@ -129,7 +124,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("action");
   // }
 
   // Future<void> speakaction(String languageCode) async {
@@ -137,7 +132,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("action");
   // }
 
   // Future<void> speakaction(String languageCode) async {
@@ -145,7 +140,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("action");
   // }
 
   @override

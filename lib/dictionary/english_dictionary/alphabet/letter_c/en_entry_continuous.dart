@@ -21,7 +21,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("continuous"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("continuous");
   }
 
   Future<void> speakcontinuouss1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Recovery after the accident will be a continuous process that may take several months."); // DOPSUM: CHANGE TEXT
+        "Recovery after the accident will be a continuous process that may take several months.");
   }
 
   Future<void> speakcontinuouss2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The rain has been almost continuous for weeks."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The rain has been almost continuous for weeks.");
   }
 
   Future<void> speakcontinuouss3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was in continuous employment until the age of sixty-five."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was in continuous employment until the age of sixty-five.");
   }
 
   Future<void> speakcontinuouss4(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He watched television as if it was one continuous programme."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He watched television as if it was one continuous programme.");
   }
 
   Future<void> speakcontinuouss5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I could hear a faint continuous noise."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I could hear a faint continuous noise.");
   }
 
   Future<void> speakcontinuouss6(String languageCode) async {
@@ -74,8 +72,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a week of almost continuous sunshine."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It was a week of almost continuous sunshine.");
   }
 
   Future<void> speakcontinuouss7(String languageCode) async {
@@ -84,7 +81,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The accident caused a disruption in the continuous flow of traffic on the highway."); // DOPSUM: CHANGE TEXT
+        "The accident caused a disruption in the continuous flow of traffic on the highway.");
   }
 
   Future<void> speakcontinuouss8(String languageCode) async {
@@ -93,7 +90,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The eruption resulted in a continuous stream of lava flowing down the mountainside."); // DOPSUM: CHANGE TEXT
+        "The eruption resulted in a continuous stream of lava flowing down the mountainside.");
   }
 
   Future<void> speakcontinuouss9(String languageCode) async {
@@ -101,8 +98,8 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For four days the town suffered continuous attacks."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("For four days the town suffered continuous attacks.");
   }
 
   Future<void> speakcontinuouss10(String languageCode) async {
@@ -111,7 +108,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company said the reasons for closure were continuous losses."); // DOPSUM: CHANGE TEXT
+        "The company said the reasons for closure were continuous losses.");
   }
 
   Future<void> speakcontinuouss11(String languageCode) async {
@@ -120,7 +117,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Understanding the continuous tenses is essential for mastering English grammar."); // DOPSUM: CHANGE TEXT
+        "Understanding the continuous tenses is essential for mastering English grammar.");
   }
 
   Future<void> speakcontinuouss12(String languageCode) async {
@@ -128,7 +125,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuouss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuouss1200");
   }
 
   Future<void> speakcontinuouss13(String languageCode) async {
@@ -136,7 +133,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuouss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuouss1300");
   }
 
   @override

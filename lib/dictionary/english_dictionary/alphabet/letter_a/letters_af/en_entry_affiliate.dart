@@ -16,7 +16,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affiliate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affiliate");
   }
 
   Future<void> speakaffil3588(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaffiliate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The group is not affiliated to any political party."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The group is not affiliated to any political party.");
   }
 
   Future<void> speakaffi2699(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryaffiliate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The hospital is affiliated with the local university."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The hospital is affiliated with the local university.");
   }
 
   Future<void> speakaffi25699(String languageCode) async {
@@ -42,8 +42,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our college is an affiliate of the university."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Our college is an affiliate of the university.");
   }
 
   @override

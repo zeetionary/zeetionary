@@ -24,7 +24,7 @@ class EnglishEntryassumption extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assumption"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assumption");
   }
 
   Future<void> speakassumption903(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassumption extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We need to challenge some of the basic assumptions of Western philosophy."); // DOPSUM: CHANGE TEXT
+        "We need to challenge some of the basic assumptions of Western philosophy.");
   }
 
   Future<void> speakassumption904(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryassumption extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are working on the assumption that everyone invited will turn up."); // DOPSUM: CHANGE TEXT
+        "We are working on the assumption that everyone invited will turn up.");
   }
 
   Future<void> speakassumption906(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryassumption extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The revolutionaries' assumption of power took the army by surprise."); // DOPSUM: CHANGE TEXT
+        "The revolutionaries' assumption of power took the army by surprise.");
   }
 
   // Future<void> speakassumption(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryassumption extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assumption"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assumption");
   // }
 
   // Future<void> speakassumption(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryassumption extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assumption"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assumption");
   // }
 
   // Future<void> speakassumption(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryassumption extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assumption"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assumption");
   // }
 
   // Future<void> speakassumption(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryassumption extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assumption"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assumption");
   // }
 
   // Future<void> speakassumption(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntryassumption extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assumption"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assumption");
   // }
 
   @override

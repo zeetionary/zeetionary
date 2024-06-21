@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drop-down menu"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drop-down menu");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drop-down menu"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drop-down menu");
   }
 
   @override
@@ -352,176 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakdropdownmenus100000000000000000000000000000000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus2(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus3(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus4(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus5(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus6(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus7(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus8(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus9(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus10(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus11(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus12(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus13(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus14(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus15(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus16(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus17(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus18(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus19(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus20(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus21(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropdownmenus22(String languageCode) async {
-    // DOPSUM: CHANGE speakdropdownmenu
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropdownmenus2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakdropdownmenus100000000000000000000000000000000");
   }
 
   @override

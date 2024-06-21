@@ -21,7 +21,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("characteristic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("characteristic");
   }
 
   Future<void> speakcharacteristics1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All human languages share some common characteristics."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All human languages share some common characteristics.");
   }
 
   Future<void> speakcharacteristics2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two groups of children have quite different characteristics."); // DOPSUM: CHANGE TEXT
+        "The two groups of children have quite different characteristics.");
   }
 
   Future<void> speakcharacteristics3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Personal characteristics, such as age and sex are taken into account."); // DOPSUM: CHANGE TEXT
+        "Personal characteristics, such as age and sex are taken into account.");
   }
 
   Future<void> speakcharacteristics4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The need to communicate is a key characteristic of human society."); // DOPSUM: CHANGE TEXT
+        "The need to communicate is a key characteristic of human society.");
   }
 
   Future<void> speakcharacteristics5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This is just one example of the rudeness that was so characteristic of him."); // DOPSUM: CHANGE TEXT
+        "This is just one example of the rudeness that was so characteristic of him.");
   }
 
   Future<void> speakcharacteristics6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "With the hospitality so characteristic of these people, they opened their house to over 50 guests."); // DOPSUM: CHANGE TEXT
+        "With the hospitality so characteristic of these people, they opened their house to over 50 guests.");
   }
 
   Future<void> speakcharacteristics7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics700");
   }
 
   Future<void> speakcharacteristics8(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics800");
   }
 
   Future<void> speakcharacteristics9(String languageCode) async {
@@ -99,7 +99,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics900");
   }
 
   Future<void> speakcharacteristics10(String languageCode) async {
@@ -107,7 +107,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics1000");
   }
 
   Future<void> speakcharacteristics11(String languageCode) async {
@@ -115,7 +115,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics1100");
   }
 
   Future<void> speakcharacteristics12(String languageCode) async {
@@ -123,7 +123,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics1200");
   }
 
   Future<void> speakcharacteristics13(String languageCode) async {
@@ -131,7 +131,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristics1300");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntryaubergine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aubergine");
   }
 
   Future<void> speakaubergine1132(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaubergine extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The chef sliced the aubergine into thin rounds and grilled them to perfection."); // DOPSUM: CHANGE TEXT
+        "The chef sliced the aubergine into thin rounds and grilled them to perfection.");
   }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   // Future<void> speakaubergine(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryaubergine extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aubergine"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aubergine");
   // }
 
   @override

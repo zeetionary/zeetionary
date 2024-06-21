@@ -24,7 +24,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("billy goat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("billy goat");
   }
 
   Future<void> speakbillygoats1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The farmer led the billy goat away from the ewes to prevent further breeding."); // DOPSUM: CHANGE TEXT
+        "The farmer led the billy goat away from the ewes to prevent further breeding.");
   }
 
   Future<void> speakbillygoats2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBillygoats22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBillygoats22");
   }
 
   Future<void> speakbillygoats3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBillygoats33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBillygoats33");
   }
 
   Future<void> speakbillygoats4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBillygoats44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBillygoats44");
   }
 
   Future<void> speakbillygoats5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBillygoats55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBillygoats55");
   }
 
   Future<void> speakbillygoats6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBillygoats66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBillygoats66");
   }
 
   Future<void> speakbillygoats7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBillygoats77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBillygoats77");
   }
 
   @override

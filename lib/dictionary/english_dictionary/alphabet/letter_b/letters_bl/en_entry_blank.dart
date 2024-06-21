@@ -22,7 +22,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blank"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blank");
   }
 
   Future<void> speakblanks1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sign your name in the blank space below."); // DOPSUM: CHANGE TEXT
+        "Sign your name in the blank space below.");
   }
 
   Future<void> speakblanks2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Write on one side of the paper and leave the other side blank."); // DOPSUM: CHANGE TEXT
+        "Write on one side of the paper and leave the other side blank.");
   }
 
   Future<void> speakblanks3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Suddenly the screen went blank."); // DOPSUM: CHANGE TEXT
+        .speak("Suddenly the screen went blank.");
   }
 
   Future<void> speakblanks4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She stared at me with a blank expression on her face."); // DOPSUM: CHANGE TEXT
+        "She stared at me with a blank expression on her face.");
   }
 
   Future<void> speakblanks5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He maintained a blank denial of any involvement in the crime."); // DOPSUM: CHANGE TEXT
+        "He maintained a blank denial of any involvement in the crime.");
   }
 
   Future<void> speakblanks6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If you can't answer the question, leave a blank."); // DOPSUM: CHANGE TEXT
+        "If you can't answer the question, leave a blank.");
   }
 
   Future<void> speakblanks7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My mind was a blank and I couldn't remember her name."); // DOPSUM: CHANGE TEXT
+        "My mind was a blank and I couldn't remember her name.");
   }
 
   Future<void> speakblanks8(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The troops fired blanks in the air."); // DOPSUM: CHANGE TEXT
+        .speak("The troops fired blanks in the air.");
   }
 
   Future<void> speakblanks9(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I saw her on the bus this morning, but she totally blanked me."); // DOPSUM: CHANGE TEXT
+        "I saw her on the bus this morning, but she totally blanked me.");
   }
 
   Future<void> speakblanks10(String languageCode) async {
@@ -112,7 +112,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I knew the answer, but I totally blanked during the test."); // DOPSUM: CHANGE TEXT
+        "I knew the answer, but I totally blanked during the test.");
   }
 
   Future<void> speakblanks11(String languageCode) async {
@@ -120,7 +120,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1111");
   }
 
   Future<void> speakblanks12(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1212");
   }
 
   Future<void> speakblanks13(String languageCode) async {
@@ -136,7 +136,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1313");
   }
 
   Future<void> speakblanks14(String languageCode) async {
@@ -144,7 +144,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1414");
   }
 
   Future<void> speakblanks15(String languageCode) async {
@@ -152,7 +152,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1515");
   }
 
   Future<void> speakblanks16(String languageCode) async {
@@ -160,7 +160,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1616");
   }
 
   Future<void> speakblanks17(String languageCode) async {
@@ -168,7 +168,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1717");
   }
 
   Future<void> speakblanks18(String languageCode) async {
@@ -176,7 +176,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1818");
   }
 
   Future<void> speakblanks19(String languageCode) async {
@@ -184,7 +184,7 @@ class EnglishEntryblank extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblanks1919");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryangular extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("angular");
   }
 
   Future<void> speakangular1029(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryangular extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her features were too angular, her face a little too long for beauty."); // DOPSUM: CHANGE TEXT
+        "Her features were too angular, her face a little too long for beauty.");
   }
 
   // Future<void> speakangular(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   // Future<void> speakangular(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   // Future<void> speakangular(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   // Future<void> speakangular(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   // Future<void> speakangular(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   // Future<void> speakangular(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   // Future<void> speakangular(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryangular extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angular"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angular");
   // }
 
   @override

@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drag"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drag");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drag"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drag");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The sack is too heavy to lift—you’ll have to drag it."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The sack is too heavy to lift—you’ll have to drag it.");
   }
 
   Future<void> speakdrags2(String languageCode) async {
@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I dragged the chair over to the window."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I dragged the chair over to the window.");
   }
 
   Future<void> speakdrags3(String languageCode) async {
@@ -369,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They dragged her from her bed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They dragged her from her bed.");
   }
 
   Future<void> speakdrags4(String languageCode) async {
@@ -378,8 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He quickly dragged a comb through his hair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He quickly dragged a comb through his hair.");
   }
 
   Future<void> speakdrags5(String languageCode) async {
@@ -387,8 +384,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She managed to drag him clear of the wreckage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She managed to drag him clear of the wreckage.");
   }
 
   Future<void> speakdrags6(String languageCode) async {
@@ -397,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The child dragged at his mother's sleeve, begging her to stay."); // DOPSUM: CHANGE TEXT
+        "The child dragged at his mother's sleeve, begging her to stay.");
   }
 
   Future<void> speakdrags7(String languageCode) async {
@@ -405,8 +401,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I managed to drag myself out of bed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I managed to drag myself out of bed.");
   }
 
   Future<void> speakdrags8(String languageCode) async {
@@ -414,8 +409,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She always drags behind when we walk anywhere."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She always drags behind when we walk anywhere.");
   }
 
   Future<void> speakdrags9(String languageCode) async {
@@ -423,8 +417,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm sorry to drag you all this way in the heat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm sorry to drag you all this way in the heat.");
   }
 
   Future<void> speakdrags10(String languageCode) async {
@@ -432,8 +425,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The party was so good I couldn't drag myself away."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The party was so good I couldn't drag myself away.");
   }
 
   Future<void> speakdrags11(String languageCode) async {
@@ -441,8 +434,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My parents used to drag me to piano lessons when I was a kid."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("My parents used to drag me to piano lessons when I was a kid.");
   }
 
   Future<void> speakdrags12(String languageCode) async {
@@ -450,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Time dragged terribly."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Time dragged terribly.");
   }
 
   Future<void> speakdrags13(String languageCode) async {
@@ -458,8 +451,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The meeting really dragged."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The meeting really dragged.");
   }
 
   Future<void> speakdrags14(String languageCode) async {
@@ -467,8 +459,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This dress is too long—it drags on the ground when I walk."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This dress is too long—it drags on the ground when I walk.");
   }
 
   Future<void> speakdrags15(String languageCode) async {
@@ -476,8 +468,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They dragged the canal for the murder weapon."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They dragged the canal for the murder weapon.");
   }
 
   Future<void> speakdrags16(String languageCode) async {
@@ -485,8 +476,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Click on the file and drag it across."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Click on the file and drag it across.");
   }
 
   Future<void> speakdrags17(String languageCode) async {
@@ -494,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's such a drag."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's such a drag.");
   }
 
   Future<void> speakdrags18(String languageCode) async {
@@ -502,8 +492,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Walking's a drag—let's drive there."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Walking's a drag—let's drive there.");
   }
 
   Future<void> speakdrags19(String languageCode) async {
@@ -511,8 +500,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He came to be seen as a drag on his own party's prospects."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He came to be seen as a drag on his own party's prospects.");
   }
 
   Future<void> speakdrags20(String languageCode) async {
@@ -520,8 +509,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She took a long drag on her cigarette."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She took a long drag on her cigarette.");
   }
 
   Future<void> speakdrags21(String languageCode) async {
@@ -529,15 +517,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He performed in drag."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrags22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrags2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He performed in drag.");
   }
 
   @override

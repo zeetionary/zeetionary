@@ -16,7 +16,7 @@ class EnglishEntryacceptance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acceptance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acceptance");
   }
 
   Future<void> speaka24699(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryacceptance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your acceptance into the insurance plan is guaranteed."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Your acceptance into the insurance plan is guaranteed.");
   }
 
   Future<void> speakac2522(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryacceptance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The idea was slow to gain general acceptance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The idea was slow to gain general acceptance.");
   }
 
   Future<void> speakac3591(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryacceptance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new laws have gained widespread acceptance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new laws have gained widespread acceptance.");
   }
 
   Future<void> speaka5814(String languageCode) async {
@@ -51,8 +49,8 @@ class EnglishEntryacceptance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "So far we have had one refusal and three acceptances."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("So far we have had one refusal and three acceptances.");
   }
 
   @override

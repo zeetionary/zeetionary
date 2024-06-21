@@ -22,7 +22,7 @@ class EnglishEntryappeasement extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appeasement");
   }
 
   Future<void> speakappeasement1238(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryappeasement extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When he agreed to talks with the prime minister, he was accused of appeasement."); // DOPSUM: CHANGE TEXT
+        "When he agreed to talks with the prime minister, he was accused of appeasement.");
   }
 
   Future<void> speakappeasement1242(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryappeasement extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The statues were devoted to the glory and appeasement of the gods."); // DOPSUM: CHANGE TEXT
+        "The statues were devoted to the glory and appeasement of the gods.");
   }
 
   // Future<void> speakappeasement(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeasement");
   // }
 
   // Future<void> speakappeasement(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeasement");
   // }
 
   // Future<void> speakappeasement(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeasement");
   // }
 
   // Future<void> speakappeasement(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeasement");
   // }
 
   // Future<void> speakappeasement(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeasement");
   // }
 
   // Future<void> speakappeasement(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeasement");
   // }
 
   @override

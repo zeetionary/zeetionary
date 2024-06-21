@@ -22,7 +22,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arithmetical");
   }
 
   Future<void> speakarithmetical100(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryarithmetical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Figuring the amount is a simple arithmetical calculation."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Figuring the amount is a simple arithmetical calculation.");
   }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   // Future<void> speakarithmetical(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical");
   // }
 
   @override

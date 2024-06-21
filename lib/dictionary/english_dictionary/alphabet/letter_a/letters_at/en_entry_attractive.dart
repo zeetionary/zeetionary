@@ -24,7 +24,7 @@ class EnglishEntryattractive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attractive");
   }
 
   Future<void> speakattractive1043(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryattractive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I like John but I don't find him attractive physically."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I like John but I don't find him attractive physically.");
   }
 
   Future<void> speakattractive1045(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryattractive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Your new glasses are very attractive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your new glasses are very attractive.");
   }
 
   Future<void> speakattractive1047(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryattractive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The deal is said to be particularly attractive to investors."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The deal is said to be particularly attractive to investors.");
   }
 
   // Future<void> speakattractive(String languageCode) async {
@@ -59,7 +58,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive");
   // }
 
   // Future<void> speakattractive(String languageCode) async {
@@ -67,7 +66,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive");
   // }
 
   // Future<void> speakattractive(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive");
   // }
 
   // Future<void> speakattractive(String languageCode) async {
@@ -83,7 +82,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive");
   // }
 
   // Future<void> speakattractive(String languageCode) async {
@@ -91,7 +90,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive");
   // }
 
   @override

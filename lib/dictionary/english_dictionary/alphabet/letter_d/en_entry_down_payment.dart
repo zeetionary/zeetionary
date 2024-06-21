@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("down payment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("down payment");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("down payment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("down payment");
   }
 
   @override
@@ -352,176 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We are saving for a down payment on a house."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments2(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments3(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments4(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments5(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments6(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments7(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments8(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments9(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments10(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments11(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments12(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments13(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments14(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments15(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments16(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments17(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments18(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments19(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments20(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments21(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpayments22(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpayment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpayments2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We are saving for a down payment on a house.");
   }
 
   @override

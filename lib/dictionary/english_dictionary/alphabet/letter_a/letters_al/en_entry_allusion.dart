@@ -16,7 +16,7 @@ class EnglishEntryallusion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allusion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allusion");
   }
 
   Future<void> speakallusio426(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryallusion extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His statement was seen as an allusion to the recent drug-related killings."); // DOPSUM: CHANGE TEXT
+        "His statement was seen as an allusion to the recent drug-related killings.");
   }
 
   // Future<void> speakallusion(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryallusion extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allusion"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allusion");
   // }
 
   // Future<void> speakallusion(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryallusion extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allusion"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allusion");
   // }
 
   @override

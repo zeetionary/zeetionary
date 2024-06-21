@@ -16,7 +16,7 @@ class EnglishEntryacceleration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acceleration"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acceleration");
   }
 
   Future<void> speakac45987(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacceleration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("a car with good acceleration"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("a car with good acceleration");
   }
 
   Future<void> speakac95741(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryacceleration extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There has been a rapid acceleration in the growth of industry."); // DOPSUM: CHANGE TEXT
+        "There has been a rapid acceleration in the growth of industry.");
   }
 
   @override

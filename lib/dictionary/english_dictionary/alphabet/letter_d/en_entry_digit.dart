@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("digit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("digit");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("digit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("digit");
   }
 
   @override
@@ -221,176 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The number 57 306 contains five digits."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits2(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits3(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits4(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits5(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits6(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits7(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits8(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits9(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits10(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits11(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits12(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits13(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits14(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits15(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits16(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits17(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits18(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits19(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits20(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits21(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdigits22(String languageCode) async {
-    // DOPSUM: CHANGE speakdigit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdigits2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The number 57 306 contains five digits.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aftereffect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aftereffect");
   }
 
   Future<void> speakaftere3599(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaftereffect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Headaches are an aftereffect of this sort of accident."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Headaches are an aftereffect of this sort of accident.");
   }
 
   // Future<void> speakaftereffect(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aftereffect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aftereffect");
   // }
 
   // Future<void> speakaftereffect(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aftereffect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aftereffect");
   // }
 
   @override

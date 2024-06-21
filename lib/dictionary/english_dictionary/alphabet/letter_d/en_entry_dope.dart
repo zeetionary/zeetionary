@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dope"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dope");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dope"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dope");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has admitted smoking dope as a teenager."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has admitted smoking dope as a teenager.");
   }
 
   Future<void> speakdopes2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The athlete failed a dope test."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The athlete failed a dope test.");
   }
 
   Future<void> speakdopes3(String languageCode) async {
@@ -369,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You shouldn't have told him, you dope!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You shouldn't have told him, you dope!");
   }
 
   Future<void> speakdopes4(String languageCode) async {
@@ -378,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Give me the dope on the new boss."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Give me the dope on the new boss.");
   }
 
   Future<void> speakdopes5(String languageCode) async {
@@ -387,8 +383,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were arrested for doping racehorses."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They were arrested for doping racehorses.");
   }
 
   Future<void> speakdopes6(String languageCode) async {
@@ -396,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The wine was doped."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The wine was doped.");
   }
 
   Future<void> speakdopes7(String languageCode) async {
@@ -404,128 +399,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Thieves doped a guard dog and stole £10 000 worth of goods."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes8(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes9(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes20(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdopes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdope
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopes2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Thieves doped a guard dog and stole £10 000 worth of goods.");
   }
 
   @override

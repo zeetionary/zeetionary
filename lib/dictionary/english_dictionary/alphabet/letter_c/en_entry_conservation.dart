@@ -21,7 +21,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conservation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conservation");
   }
 
   Future<void> speakconservations1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Road development in the area has been limited by conservation programmes."); // DOPSUM: CHANGE TEXT
+        "Road development in the area has been limited by conservation programmes.");
   }
 
   Future<void> speakconservations2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Through the years they have made significant contributions to species conservation."); // DOPSUM: CHANGE TEXT
+        "Through the years they have made significant contributions to species conservation.");
   }
 
   Future<void> speakconservations3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government allocated funds for the conservation of ancient monuments in the region."); // DOPSUM: CHANGE TEXT
+        "The government allocated funds for the conservation of ancient monuments in the region.");
   }
 
   Future<void> speakconservations4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Energy conservation reduces your fuel bills and helps the environment."); // DOPSUM: CHANGE TEXT
+        "Energy conservation reduces your fuel bills and helps the environment.");
   }
 
   Future<void> speakconservations5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations500");
   }
 
   Future<void> speakconservations6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations600");
   }
 
   Future<void> speakconservations7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations700");
   }
 
   Future<void> speakconservations8(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations800");
   }
 
   Future<void> speakconservations9(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations900");
   }
 
   Future<void> speakconservations10(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations1000");
   }
 
   Future<void> speakconservations11(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations1100");
   }
 
   Future<void> speakconservations12(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations1200");
   }
 
   Future<void> speakconservations13(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntryconservation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservations1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconservations1300");
   }
 
   @override

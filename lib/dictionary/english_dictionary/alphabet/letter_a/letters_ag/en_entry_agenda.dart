@@ -16,7 +16,7 @@ class EnglishEntryagenda extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agenda"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agenda");
   }
 
   Future<void> speakagend562221(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryagenda extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have a very full agenda of issues to discuss."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have a very full agenda of issues to discuss.");
   }
 
   Future<void> speakagenda15622(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryagenda extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Education is now at the top of the government's agenda."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Education is now at the top of the government's agenda.");
   }
 
   // Future<void> speakagenda(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryagenda extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agenda"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agenda");
   // }
 
   @override

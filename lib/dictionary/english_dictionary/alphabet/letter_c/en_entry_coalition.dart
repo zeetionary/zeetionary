@@ -21,7 +21,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coalition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coalition");
   }
 
   Future<void> speakcoalitions1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two parties have formed a coalition."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The two parties have formed a coalition.");
   }
 
   Future<void> speakcoalitions2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two parties governed in coalition for four years."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The two parties governed in coalition for four years.");
   }
 
   Future<void> speakcoalitions3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They didn't rule out coalition with the Social Democrats."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They didn't rule out coalition with the Social Democrats.");
   }
 
   Future<void> speakcoalitions4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "By forming a coalition, the rebels and the opposition parties defeated the government."); // DOPSUM: CHANGE TEXT
+        "By forming a coalition, the rebels and the opposition parties defeated the government.");
   }
 
   Future<void> speakcoalitions5(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions500");
   }
 
   Future<void> speakcoalitions6(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions600");
   }
 
   Future<void> speakcoalitions7(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions700");
   }
 
   Future<void> speakcoalitions8(String languageCode) async {
@@ -89,7 +88,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions800");
   }
 
   Future<void> speakcoalitions9(String languageCode) async {
@@ -97,7 +96,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions900");
   }
 
   Future<void> speakcoalitions10(String languageCode) async {
@@ -105,7 +104,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1000");
   }
 
   Future<void> speakcoalitions11(String languageCode) async {
@@ -113,7 +112,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1100");
   }
 
   Future<void> speakcoalitions12(String languageCode) async {
@@ -121,7 +120,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1200");
   }
 
   Future<void> speakcoalitions13(String languageCode) async {
@@ -129,7 +128,7 @@ class EnglishEntrycoalition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoalitions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoalitions1300");
   }
 
   @override

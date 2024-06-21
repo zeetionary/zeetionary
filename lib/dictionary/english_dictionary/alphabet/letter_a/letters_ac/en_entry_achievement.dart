@@ -16,7 +16,7 @@ class EnglishEntryachievement extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("achievement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("achievement");
   }
 
   Future<void> speaka452876(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryachievement extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a remarkable achievement for such a young player."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was a remarkable achievement for such a young player.");
   }
 
   Future<void> speakac251468(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryachievement extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This work is the crowning achievement of her career."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This work is the crowning achievement of her career.");
   }
 
   // Future<void> speakachievement(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryachievement extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("achievement"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("achievement");
   // }
 
   @override

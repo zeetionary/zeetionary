@@ -16,7 +16,7 @@ class EnglishEntryadoption extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adoption"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adoption");
   }
 
   Future<void> speakadopt58694(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadoption extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She put the baby up for adoption."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She put the baby up for adoption.");
   }
 
   Future<void> speakadop5861(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryadoption extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The widespread adoption of new technology could save 162 billion dollars a year."); // DOPSUM: CHANGE TEXT
+        "The widespread adoption of new technology could save 162 billion dollars a year.");
   }
 
   Future<void> speakadop25674(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryadoption extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The party announced the formal adoption of George Smith as their election candidate."); // DOPSUM: CHANGE TEXT
+        "The party announced the formal adoption of George Smith as their election candidate.");
   }
 
   @override

@@ -18,7 +18,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bust"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bust");
   }
 
   Future<void> speakbusts1(String languageCode) async {
@@ -26,7 +26,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I bust my camera."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I bust my camera.");
   }
 
   Future<void> speakbusts2(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Come out, or I'll bust the door down!"); // DOPSUM: CHANGE TEXT
+        .speak("Come out, or I'll bust the door down!");
   }
 
   Future<void> speakbusts3(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He's been busted for drugs."); // DOPSUM: CHANGE TEXT
+        .speak("He's been busted for drugs.");
   }
 
   Future<void> speakbusts4(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He was busted for drunk driving."); // DOPSUM: CHANGE TEXT
+        .speak("He was busted for drunk driving.");
   }
 
   Future<void> speakbusts5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The prime minister unveiled a big bust of the former president."); // DOPSUM: CHANGE TEXT
+        "The prime minister unveiled a big bust of the former president.");
   }
 
   Future<void> speakbusts6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("What is your bust measurement, Madam?"); // DOPSUM: CHANGE TEXT
+        .speak("What is your bust measurement, Madam?");
   }
 
   Future<void> speakbusts7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The dress was too big in the bust."); // DOPSUM: CHANGE TEXT
+        .speak("The dress was too big in the bust.");
   }
 
   Future<void> speakbusts8(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Will this year be boom or bust for the property market?"); // DOPSUM: CHANGE TEXT
+        "Will this year be boom or bust for the property market?");
   }
 
   Future<void> speakbusts9(String languageCode) async {
@@ -98,7 +98,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting."); // DOPSUM: CHANGE TEXT
+        "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting.");
   }
 
   Future<void> speakbusts10(String languageCode) async {
@@ -107,7 +107,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("As a movie it was a big bust."); // DOPSUM: CHANGE TEXT
+        .speak("As a movie it was a big bust.");
   }
 
   Future<void> speakbusts11(String languageCode) async {
@@ -115,7 +115,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My watch is bust."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My watch is bust.");
   }
 
   Future<void> speakbusts12(String languageCode) async {
@@ -124,7 +124,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "More than 20 companies in the district went bust during the last three months."); // DOPSUM: CHANGE TEXT
+        "More than 20 companies in the district went bust during the last three months.");
   }
 
   Future<void> speakbusts13(String languageCode) async {
@@ -132,7 +132,7 @@ class EnglishEntrybust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusts1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbusts1313");
   }
 
   @override

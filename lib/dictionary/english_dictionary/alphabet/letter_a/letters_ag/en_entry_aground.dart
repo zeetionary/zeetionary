@@ -16,7 +16,7 @@ class EnglishEntryaground extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aground"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aground");
   }
 
   Future<void> speakagro3441(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaground extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The oil tanker ran/went aground off the Spanish coast."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The oil tanker ran/went aground off the Spanish coast.");
   }
 
   // Future<void> speakaground(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaground extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aground"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aground");
   // }
 
   // Future<void> speakaground(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaground extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aground"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aground");
   // }
 
   @override

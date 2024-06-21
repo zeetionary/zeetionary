@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("docusoap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("docusoap");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("docusoap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("docusoap");
   }
 
   @override
@@ -351,176 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Have you seen the new docusoap about driving instructors?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps2(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps3(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps4(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps5(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps6(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps7(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps8(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps9(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps10(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps11(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps12(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps13(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps14(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps15(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps16(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps17(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps18(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps19(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps20(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps21(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdocusoaps22(String languageCode) async {
-    // DOPSUM: CHANGE speakdocusoap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdocusoaps2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Have you seen the new docusoap about driving instructors?");
   }
 
   @override

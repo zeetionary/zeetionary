@@ -16,7 +16,7 @@ class EnglishEntryfarafield extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("far afield"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("far afield");
   }
 
   Future<void> speakFaraf45228(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryfarafield extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We export our products to countries as far afield as Japan and Canada."); // DOPSUM: CHANGE TEXT
+        "We export our products to countries as far afield as Japan and Canada.");
   }
 
   // Future<void> speakFarafield(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryfarafield extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("far afield"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("far afield");
   // }
 
   // Future<void> speakFarafield(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryfarafield extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("far afield"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("far afield");
   // }
 
   @override

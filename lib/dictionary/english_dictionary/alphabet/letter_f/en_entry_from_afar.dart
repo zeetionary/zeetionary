@@ -16,7 +16,7 @@ class EnglishEntryafar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("from afar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("from afar");
   }
 
   Future<void> speakafa2569(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryafar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Even from afar the castle was most impressive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Even from afar the castle was most impressive.");
   }
 
   // Future<void> speakafar(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryafar extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("from afar"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("from afar");
   // }
 
   // Future<void> speakafar(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryafar extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("from afar"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("from afar");
   // }
 
   @override

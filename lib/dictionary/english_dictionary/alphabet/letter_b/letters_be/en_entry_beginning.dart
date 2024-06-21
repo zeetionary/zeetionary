@@ -24,7 +24,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("beginning"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("beginning");
   }
 
   Future<void> speakbeginnings1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A story has to have a beginning, middle, and end."); // DOPSUM: CHANGE TEXT
+        "A story has to have a beginning, middle, and end.");
   }
 
   Future<void> speakbeginnings2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("We missed the beginning of the movie."); // DOPSUM: CHANGE TEXT
+        .speak("We missed the beginning of the movie.");
   }
 
   Future<void> speakbeginnings3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She's been working there since the beginning of last summer."); // DOPSUM: CHANGE TEXT
+        "She's been working there since the beginning of last summer.");
   }
 
   Future<void> speakbeginnings4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Did democracy have its beginnings in ancient Greece?"); // DOPSUM: CHANGE TEXT
+        "Did democracy have its beginnings in ancient Greece?");
   }
 
   Future<void> speakbeginnings5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The city had its beginnings in Roman times."); // DOPSUM: CHANGE TEXT
+        "The city had its beginnings in Roman times.");
   }
 
   Future<void> speakbeginnings6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBeginnings66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeginnings66");
   }
 
   Future<void> speakbeginnings7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBeginnings77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeginnings77");
   }
 
   @override

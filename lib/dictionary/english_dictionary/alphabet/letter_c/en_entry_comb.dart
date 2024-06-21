@@ -21,7 +21,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("comb"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("comb");
   }
 
   Future<void> speakcombs1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She ran a comb through her tangled hair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She ran a comb through her tangled hair.");
   }
 
   Future<void> speakcombs2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He just had time to wash his face and drag a comb through his hair before going out."); // DOPSUM: CHANGE TEXT
+        "He just had time to wash his face and drag a comb through his hair before going out.");
   }
 
   Future<void> speakcombs3(String languageCode) async {
@@ -47,8 +46,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Your hair needs a good comb."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your hair needs a good comb.");
   }
 
   Future<void> speakcombs4(String languageCode) async {
@@ -56,8 +54,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Your hair could do with a comb!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your hair could do with a comb!");
   }
 
   Future<void> speakcombs5(String languageCode) async {
@@ -65,8 +62,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Don't forget to comb your hair!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't forget to comb your hair!");
   }
 
   Future<void> speakcombs6(String languageCode) async {
@@ -74,8 +70,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She combed her hair and put on some lipstick."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She combed her hair and put on some lipstick.");
   }
 
   Future<void> speakcombs7(String languageCode) async {
@@ -83,8 +78,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The police combed the area for clues."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The police combed the area for clues.");
   }
 
   Future<void> speakcombs8(String languageCode) async {
@@ -92,8 +86,8 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They combed through the files for evidence of fraud."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They combed through the files for evidence of fraud.");
   }
 
   Future<void> speakcombs9(String languageCode) async {
@@ -101,7 +95,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombs900");
   }
 
   Future<void> speakcombs10(String languageCode) async {
@@ -109,7 +103,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombs1000");
   }
 
   Future<void> speakcombs11(String languageCode) async {
@@ -117,7 +111,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombs1100");
   }
 
   Future<void> speakcombs12(String languageCode) async {
@@ -125,7 +119,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombs1200");
   }
 
   Future<void> speakcombs13(String languageCode) async {
@@ -133,7 +127,7 @@ class EnglishEntrycomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombs1300");
   }
 
   @override

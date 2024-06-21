@@ -20,7 +20,7 @@ class EnglishEntryapartheid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apartheid");
   }
 
   Future<void> speakapartheid1139(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntryapartheid extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule."); // DOPSUM: CHANGE TEXT
+        "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule.");
   }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -37,7 +37,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -61,7 +61,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   // Future<void> speakapartheid(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apartheid");
   // }
 
   @override

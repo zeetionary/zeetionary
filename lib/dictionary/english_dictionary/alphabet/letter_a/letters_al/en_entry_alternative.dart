@@ -16,7 +16,7 @@ class EnglishEntryalternative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alternative"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alternative");
   }
 
   Future<void> speakalternative4599(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalternative extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The car is too expensive so we're trying to find a cheaper alternative."); // DOPSUM: CHANGE TEXT
+        "The car is too expensive so we're trying to find a cheaper alternative.");
   }
 
   Future<void> speakalternative14(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryalternative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We had no alternative but to fire Gibson."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We had no alternative but to fire Gibson.");
   }
 
   Future<void> speakalternative845(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryalternative extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The road was closed so we had to find an alternative route."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The road was closed so we had to find an alternative route.");
   }
 
   Future<void> speakalternative659(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntryalternative extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In Los Angeles many companies encourage their employees to use alternative means of transportation, rather than the car."); // DOPSUM: CHANGE TEXT
+        "In Los Angeles many companies encourage their employees to use alternative means of transportation, rather than the car.");
   }
 
   @override

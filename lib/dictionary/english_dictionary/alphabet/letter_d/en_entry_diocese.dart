@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diocese"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diocese");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diocese"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diocese");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are fifty churches in the diocese."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are fifty churches in the diocese.");
   }
 
   Future<void> speakdioceses2(String languageCode) async {
@@ -230,168 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The diocese covers the northern part of the state."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdioceses22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiocese
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdioceses2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The diocese covers the northern part of the state.");
   }
 
   @override

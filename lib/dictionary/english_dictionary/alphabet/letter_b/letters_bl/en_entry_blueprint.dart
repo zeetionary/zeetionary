@@ -22,7 +22,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blueprint"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blueprint");
   }
 
   Future<void> speakblueprints1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The blueprint showed plans for an underground nuclear shelter."); // DOPSUM: CHANGE TEXT
+        "The blueprint showed plans for an underground nuclear shelter.");
   }
 
   Future<void> speakblueprints2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government does not have a blueprint for reform."); // DOPSUM: CHANGE TEXT
+        "The government does not have a blueprint for reform.");
   }
 
   Future<void> speakblueprints3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblueprints33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblueprints33");
   }
 
   Future<void> speakblueprints4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblueprints44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblueprints44");
   }
 
   Future<void> speakblueprints5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblueprints55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblueprints55");
   }
 
   Future<void> speakblueprints6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblueprints66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblueprints66");
   }
 
   Future<void> speakblueprints7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryblueprint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblueprints77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblueprints77");
   }
 
   @override

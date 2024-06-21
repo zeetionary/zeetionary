@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abominably"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abominably");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abominably"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abominably");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakabominablys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakabominablys111111111111111111111111111111111");
   }
 
   Future<void> speakabominablys2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys200");
   }
 
   Future<void> speakabominablys3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys300");
   }
 
   Future<void> speakabominablys4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys400");
   }
 
   Future<void> speakabominablys5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys500");
   }
 
   Future<void> speakabominablys6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys600");
   }
 
   Future<void> speakabominablys7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys700");
   }
 
   Future<void> speakabominablys8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys800");
   }
 
   Future<void> speakabominablys9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys900");
   }
 
   Future<void> speakabominablys10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys1000");
   }
 
   Future<void> speakabominablys11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys1100");
   }
 
   Future<void> speakabominablys12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys1200");
   }
 
   Future<void> speakabominablys13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabominablys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabominablys1300");
   }
 
   Future<void> speaka752(String languageCode) async {
@@ -326,8 +326,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She treated him abominably."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She treated him abominably.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("afford"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afford");
   }
 
   Future<void> speakaffor458(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She never took a taxi, even though she could afford to."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She never took a taxi, even though she could afford to.");
   }
 
   Future<void> speakaff6665(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They couldn't afford to buy a house there."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They couldn't afford to buy a house there.");
   }
 
   Future<void> speakaff4511(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We cannot afford to ignore this warning."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We cannot afford to ignore this warning.");
   }
 
   Future<void> speakaf44922(String languageCode) async {
@@ -51,8 +49,7 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The tree affords some shelter from the sun."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The tree affords some shelter from the sun.");
   }
 
   @override

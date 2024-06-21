@@ -16,7 +16,7 @@ class EnglishEntryadd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("add"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("add");
   }
 
   Future<void> speakadd4257(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Shall I add your name to the list?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Shall I add your name to the list?");
   }
 
   Future<void> speakadd45698(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryadd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Chlorine is added to the water to kill bacteria."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Chlorine is added to the water to kill bacteria.");
   }
 
   Future<void> speakadd241(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryadd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He knew how to add and subtract."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He knew how to add and subtract.");
   }
 
   Future<void> speakadd459224(String languageCode) async {
@@ -51,8 +48,7 @@ class EnglishEntryadd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I have nothing to add to my earlier statement."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I have nothing to add to my earlier statement.");
   }
 
   // Future<void> speakadd(String languageCode) async {
@@ -60,7 +56,7 @@ class EnglishEntryadd extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("add"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("add");
   // }
 
   @override

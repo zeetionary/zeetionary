@@ -24,7 +24,7 @@ class EnglishEntryassociation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("association");
   }
 
   Future<void> speakassociation1201(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassociation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The British Medical Association is/are campaigning for a complete ban on tobacco advertising."); // DOPSUM: CHANGE TEXT
+        "The British Medical Association is/are campaigning for a complete ban on tobacco advertising.");
   }
 
   Future<void> speakassociation1205(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryassociation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They have maintained a close association with a college in the US."); // DOPSUM: CHANGE TEXT
+        "They have maintained a close association with a college in the US.");
   }
 
   Future<void> speakassociation1209(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryassociation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You should teach the child to form an association between good behaviour and rewards."); // DOPSUM: CHANGE TEXT
+        "You should teach the child to form an association between good behaviour and rewards.");
   }
 
   Future<void> speakassociation1212(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryassociation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The research showed an association between diet and various diseases."); // DOPSUM: CHANGE TEXT
+        "The research showed an association between diet and various diseases.");
   }
 
   // Future<void> speakassociation(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("association");
   // }
 
   // Future<void> speakassociation(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("association");
   // }
 
   // Future<void> speakassociation(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("association");
   // }
 
   // Future<void> speakassociation(String languageCode) async {
@@ -92,7 +92,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("association");
   // }
 
   @override

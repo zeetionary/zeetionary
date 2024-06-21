@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("determined"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("determined");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("determined"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("determined");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The opposition to her plan made her more determined than ever."); // DOPSUM: CHANGE TEXT
+        "The opposition to her plan made her more determined than ever.");
   }
 
   Future<void> speakdetermineds2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm determined to succeed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm determined to succeed.");
   }
 
   Future<void> speakdetermineds3(String languageCode) async {
@@ -238,8 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were quite determined that he wasn't going to do it."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were quite determined that he wasn't going to do it.");
   }
 
   Future<void> speakdetermineds4(String languageCode) async {
@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I made a determined effort to stop smoking."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I made a determined effort to stop smoking.");
   }
 
   Future<void> speakdetermineds5(String languageCode) async {
@@ -257,119 +256,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The proposal had been dropped in the face of determined opposition."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds1900"); // DOPSUM: CHANGE TEXT
+        "The proposal had been dropped in the face of determined opposition.");
   }
 
   Future<void> speakdetermineds20(String languageCode) async {
@@ -377,24 +264,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'm determined to succeed.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetermineds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetermined
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetermineds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm determined to succeed.0");
   }
 
   @override

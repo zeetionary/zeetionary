@@ -24,7 +24,7 @@ class EnglishEntryautograph extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("autograph");
   }
 
   Future<void> speakautograph1002(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryautograph extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could I have your autograph?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Could I have your autograph?");
   }
 
   Future<void> speakautograph1005(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryautograph extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The whole team has autographed a football, which will be used as a prize."); // DOPSUM: CHANGE TEXT
+        "The whole team has autographed a football, which will be used as a prize.");
   }
 
   // Future<void> speakautograph(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autograph");
   // }
 
   // Future<void> speakautograph(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autograph");
   // }
 
   // Future<void> speakautograph(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autograph");
   // }
 
   // Future<void> speakautograph(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autograph");
   // }
 
   // Future<void> speakautograph(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autograph");
   // }
 
   // Future<void> speakautograph(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autograph");
   // }
 
   @override

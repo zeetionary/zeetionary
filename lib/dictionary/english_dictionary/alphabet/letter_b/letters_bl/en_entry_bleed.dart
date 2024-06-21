@@ -22,7 +22,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bleed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bleed");
   }
 
   Future<void> speakbleeds1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She slowly bled to death."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She slowly bled to death.");
   }
 
   Future<void> speakbleeds2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was bleeding from a gash on his head."); // DOPSUM: CHANGE TEXT
+        "He was bleeding from a gash on his head.");
   }
 
   Future<void> speakbleeds3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He bled his patients with leeches."); // DOPSUM: CHANGE TEXT
+        .speak("He bled his patients with leeches.");
   }
 
   Future<void> speakbleeds4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company seems intent on bleeding us for every penny we have."); // DOPSUM: CHANGE TEXT
+        "The company seems intent on bleeding us for every penny we have.");
   }
 
   Future<void> speakbleeds5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Keep the paint fairly dry so that the colours don't bleed into each other."); // DOPSUM: CHANGE TEXT
+        "Keep the paint fairly dry so that the colours don't bleed into each other.");
   }
 
   Future<void> speakbleeds6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleeds66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbleeds66");
   }
 
   Future<void> speakbleeds7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntrybleed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleeds77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbleeds77");
   }
 
   @override

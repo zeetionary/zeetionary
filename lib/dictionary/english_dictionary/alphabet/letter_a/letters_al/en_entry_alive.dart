@@ -16,7 +16,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alive");
   }
 
   Future<void> speakalive65666(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had to steal food just to stay alive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She had to steal food just to stay alive.");
   }
 
   Future<void> speakalive69142(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We don't know whether he's alive or dead."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We don't know whether he's alive or dead.");
   }
 
   Future<void> speakalive3599(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Ed was alive with happiness."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Ed was alive with happiness.");
   }
 
   Future<void> speakalive75236(String languageCode) async {
@@ -51,8 +48,8 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The old customs are still very much alive in this region."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The old customs are still very much alive in this region.");
   }
 
   Future<void> speakalive378514(String languageCode) async {
@@ -60,8 +57,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The pool was alive with goldfish."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The pool was alive with goldfish.");
   }
 
   Future<void> speakalive35961(String languageCode) async {
@@ -70,7 +66,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They are alive to the fact that the opposing team has not lost a game this season."); // DOPSUM: CHANGE TEXT
+        "They are alive to the fact that the opposing team has not lost a game this season.");
   }
 
   // Future<void> speakalive(String languageCode) async {
@@ -78,7 +74,7 @@ class EnglishEntryalive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alive");
   // }
 
   // Future<void> speakalive(String languageCode) async {
@@ -86,7 +82,7 @@ class EnglishEntryalive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alive");
   // }
 
   // Future<void> speakalive(String languageCode) async {
@@ -94,7 +90,7 @@ class EnglishEntryalive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alive");
   // }
 
   @override

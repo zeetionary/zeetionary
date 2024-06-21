@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deodorant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deodorant");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deodorant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deodorant");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She uses deodorant every morning."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She uses deodorant every morning.");
   }
 
   Future<void> speakdeodorants2(String languageCode) async {
@@ -230,144 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most people apply deodorant to their armpits."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants3(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants4(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Most people apply deodorant to their armpits.");
   }
 
   Future<void> speakdeodorants20(String languageCode) async {
@@ -375,24 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most people apply deodorant to their armpits.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeodorants22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeodorant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeodorants2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Most people apply deodorant to their armpits.0");
   }
 
   @override

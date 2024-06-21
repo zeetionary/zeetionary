@@ -16,7 +16,7 @@ class EnglishEntryairy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airy");
   }
 
   Future<void> speakairy7352(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryairy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The office was light and airy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The office was light and airy.");
   }
 
   Future<void> speakairy748(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryairy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He dismissed her with an airy wave."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He dismissed her with an airy wave.");
   }
 
   Future<void> speakairy4255(String languageCode) async {
@@ -42,8 +40,8 @@ class EnglishEntryairy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The airy promises proved empty in practical implementation."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The airy promises proved empty in practical implementation.");
   }
 
   @override

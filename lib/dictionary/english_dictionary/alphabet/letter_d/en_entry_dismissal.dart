@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dismissal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dismissal");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dismissal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dismissal");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dismissals followed the resignation of the chairman."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The dismissals followed the resignation of the chairman.");
   }
 
   Future<void> speakdismissals2(String languageCode) async {
@@ -230,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His attack on the manager led to his instant dismissal."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His attack on the manager led to his instant dismissal.");
   }
 
   Future<void> speakdismissals3(String languageCode) async {
@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These mistakes were not nearly serious enough to warrant his dismissal."); // DOPSUM: CHANGE TEXT
+        "These mistakes were not nearly serious enough to warrant his dismissal.");
   }
 
   Future<void> speakdismissals4(String languageCode) async {
@@ -248,8 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her dismissal of the threats seemed irresponsible."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her dismissal of the threats seemed irresponsible.");
   }
 
   Future<void> speakdismissals5(String languageCode) async {
@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Dismissal of the last piece of evidence as unreliable would severely affect our case."); // DOPSUM: CHANGE TEXT
+        "Dismissal of the last piece of evidence as unreliable would severely affect our case.");
   }
 
   Future<void> speakdismissals6(String languageCode) async {
@@ -267,135 +267,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The judge ordered the dismissal of the case due to insufficient evidence."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals7(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals8(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals9(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals10(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals11(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals12(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals13(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals14(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals15(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals16(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals17(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals18(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals19(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals20(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals21(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdismissals22(String languageCode) async {
-    // DOPSUM: CHANGE speakdismissal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdismissals2200"); // DOPSUM: CHANGE TEXT
+        "The judge ordered the dismissal of the case due to insufficient evidence.");
   }
 
   @override

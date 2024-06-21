@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distinctively"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distinctively");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distinctively"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distinctively");
   }
 
   @override
@@ -352,8 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The Civil War was not distinctively modern at all."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The Civil War was not distinctively modern at all.");
   }
 
   Future<void> speakdistinctivelys2(String languageCode) async {
@@ -361,168 +361,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Each manufacturer marks its product distinctively."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctivelys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctively
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctivelys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Each manufacturer marks its product distinctively.");
   }
 
   @override

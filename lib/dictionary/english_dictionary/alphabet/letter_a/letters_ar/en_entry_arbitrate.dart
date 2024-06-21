@@ -22,7 +22,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arbitrate");
   }
 
   Future<void> speakarbitrate1150(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He is the official responsible for arbitrating the case of disputed trades."); // DOPSUM: CHANGE TEXT
+        "He is the official responsible for arbitrating the case of disputed trades.");
   }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   // Future<void> speakarbitrate(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryarbitrate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrate");
   // }
 
   @override

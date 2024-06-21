@@ -16,7 +16,7 @@ class EnglishEntryambition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ambition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ambition");
   }
 
   Future<void> speakambition422(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryambition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "At last he had realized his life's ambition."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("At last he had realized his life's ambition.");
   }
 
   Future<void> speakambition3444(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryambition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had only one ambition in life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had only one ambition in life.");
   }
 
   Future<void> speakambition344(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryambition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was driven by personal ambition."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was driven by personal ambition.");
   }
 
   @override

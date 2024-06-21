@@ -24,7 +24,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("axiom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("axiom");
   }
 
   Future<void> speakaxioms1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is a widely held axiom that governments should not negotiate with terrorists."); // DOPSUM: CHANGE TEXT
+        "It is a widely held axiom that governments should not negotiate with terrorists.");
   }
 
   Future<void> speakaxioms2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxioms22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms22");
   }
 
   Future<void> speakaxioms3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxioms33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms33");
   }
 
   Future<void> speakaxioms4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxioms44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms44");
   }
 
   Future<void> speakaxioms5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxioms55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms55");
   }
 
   Future<void> speakaxioms6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxioms66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms66");
   }
 
   Future<void> speakaxioms7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxioms77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms77");
   }
 
   @override

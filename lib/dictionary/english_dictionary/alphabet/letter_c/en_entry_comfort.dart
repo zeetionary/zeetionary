@@ -21,7 +21,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("comfort"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("comfort");
   }
 
   Future<void> speakcomforts1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The hotel offers a high standard of comfort and service."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The hotel offers a high standard of comfort and service.");
   }
 
   Future<void> speakcomforts2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I didn't want to leave the comfort of my bed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I didn't want to leave the comfort of my bed.");
   }
 
   Future<void> speakcomforts3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had enough money to live in comfort in their old age."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They had enough money to live in comfort in their old age.");
   }
 
   Future<void> speakcomforts4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I dress for comfort rather than elegance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I dress for comfort rather than elegance.");
   }
 
   Future<void> speakcomforts5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I tried to offer a few words of comfort."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I tried to offer a few words of comfort.");
   }
 
   Future<void> speakcomforts6(String languageCode) async {
@@ -74,8 +71,8 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His words were of little comfort in the circumstances."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His words were of little comfort in the circumstances.");
   }
 
   Future<void> speakcomforts7(String languageCode) async {
@@ -83,8 +80,8 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "If it's any comfort to you, I'm in the same situation."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("If it's any comfort to you, I'm in the same situation.");
   }
 
   Future<void> speakcomforts8(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I drew comfort from his words."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I drew comfort from his words.");
   }
 
   Future<void> speakcomforts9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her being with me was such a comfort."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her being with me was such a comfort.");
   }
 
   Future<void> speakcomforts10(String languageCode) async {
@@ -111,7 +106,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children have been a great comfort to me through all of this."); // DOPSUM: CHANGE TEXT
+        "The children have been a great comfort to me through all of this.");
   }
 
   Future<void> speakcomforts11(String languageCode) async {
@@ -119,8 +114,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's a comfort to know that she is safe."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's a comfort to know that she is safe.");
   }
 
   Future<void> speakcomforts12(String languageCode) async {
@@ -128,8 +122,8 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a comfort to her to know that I was never far away."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was a comfort to her to know that I was never far away.");
   }
 
   Future<void> speakcomforts13(String languageCode) async {
@@ -137,8 +131,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The hotel has all modern comforts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The hotel has all modern comforts.");
   }
 
   Future<void> speakcomforts14(String languageCode) async {
@@ -147,7 +140,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The victim's widow was today being comforted by family and friends."); // DOPSUM: CHANGE TEXT
+        "The victim's widow was today being comforted by family and friends.");
   }
 
   Future<void> speakcomforts15(String languageCode) async {
@@ -155,8 +148,8 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The idea that he was not alone comforted him greatly."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The idea that he was not alone comforted him greatly.");
   }
 
   Future<void> speakcomforts16(String languageCode) async {
@@ -165,7 +158,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She comforted herself with the thought that it would soon be spring."); // DOPSUM: CHANGE TEXT
+        "She comforted herself with the thought that it would soon be spring.");
   }
 
   Future<void> speakcomforts17(String languageCode) async {
@@ -173,7 +166,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts1700");
   }
 
   Future<void> speakcomforts18(String languageCode) async {
@@ -181,7 +174,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts1800");
   }
 
   Future<void> speakcomforts19(String languageCode) async {
@@ -189,7 +182,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts1900");
   }
 
   Future<void> speakcomforts20(String languageCode) async {
@@ -197,7 +190,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2000");
   }
 
   Future<void> speakcomforts21(String languageCode) async {
@@ -205,7 +198,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2100");
   }
 
   Future<void> speakcomforts22(String languageCode) async {
@@ -213,7 +206,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2200");
   }
 
   Future<void> speakcomforts23(String languageCode) async {
@@ -221,7 +214,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2300");
   }
 
   Future<void> speakcomforts24(String languageCode) async {
@@ -229,7 +222,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2400");
   }
 
   Future<void> speakcomforts25(String languageCode) async {
@@ -237,7 +230,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2500");
   }
 
   Future<void> speakcomforts26(String languageCode) async {
@@ -245,7 +238,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2600");
   }
 
   Future<void> speakcomforts27(String languageCode) async {
@@ -253,7 +246,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2700");
   }
 
   Future<void> speakcomforts28(String languageCode) async {
@@ -261,7 +254,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2800");
   }
 
   Future<void> speakcomforts29(String languageCode) async {
@@ -269,7 +262,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts2900");
   }
 
   Future<void> speakcomforts30(String languageCode) async {
@@ -277,7 +270,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3000");
   }
 
   Future<void> speakcomforts31(String languageCode) async {
@@ -285,7 +278,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3100");
   }
 
   Future<void> speakcomforts32(String languageCode) async {
@@ -293,7 +286,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3200");
   }
 
   Future<void> speakcomforts33(String languageCode) async {
@@ -301,7 +294,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3300");
   }
 
   Future<void> speakcomforts34(String languageCode) async {
@@ -309,7 +302,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3400");
   }
 
   Future<void> speakcomforts35(String languageCode) async {
@@ -317,7 +310,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3500");
   }
 
   Future<void> speakcomforts36(String languageCode) async {
@@ -325,7 +318,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3600");
   }
 
   Future<void> speakcomforts37(String languageCode) async {
@@ -333,7 +326,7 @@ class EnglishEntrycomfort extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomforts3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcomforts3700");
   }
 
   @override

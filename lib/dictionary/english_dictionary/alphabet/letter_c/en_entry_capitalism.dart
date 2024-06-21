@@ -18,7 +18,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("capitalism"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("capitalism");
   }
 
   Future<void> speakcapitalisms1(String languageCode) async {
@@ -26,8 +26,8 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She deplored unbridled capitalism as much as communism."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She deplored unbridled capitalism as much as communism.");
   }
 
   Future<void> speakcapitalisms2(String languageCode) async {
@@ -35,8 +35,8 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She said that capitalism was devastating the environment."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She said that capitalism was devastating the environment.");
   }
 
   Future<void> speakcapitalisms3(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms33");
   }
 
   Future<void> speakcapitalisms4(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms44");
   }
 
   Future<void> speakcapitalisms5(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms55");
   }
 
   Future<void> speakcapitalisms6(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms66");
   }
 
   Future<void> speakcapitalisms7(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms77");
   }
 
   Future<void> speakcapitalisms8(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms88");
   }
 
   Future<void> speakcapitalisms9(String languageCode) async {
@@ -92,7 +92,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms99");
   }
 
   Future<void> speakcapitalisms10(String languageCode) async {
@@ -100,7 +100,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms1010");
   }
 
   Future<void> speakcapitalisms11(String languageCode) async {
@@ -108,7 +108,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms1111");
   }
 
   Future<void> speakcapitalisms12(String languageCode) async {
@@ -116,7 +116,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms1212");
   }
 
   Future<void> speakcapitalisms13(String languageCode) async {
@@ -124,7 +124,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitalisms1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapitalisms1313");
   }
 
   @override

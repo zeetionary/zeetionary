@@ -16,7 +16,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("come of age"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("come of age");
   }
 
   Future<void> speakCome142251(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntrycomeofage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The money will go to the children when they come of age."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The money will go to the children when they come of age.");
   }
 
   // Future<void> speakComeofage(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("come of age"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("come of age");
   // }
 
   // Future<void> speakComeofage(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("come of age"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("come of age");
   // }
 
   @override

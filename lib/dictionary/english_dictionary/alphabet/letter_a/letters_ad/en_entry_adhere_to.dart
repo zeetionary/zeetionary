@@ -16,7 +16,7 @@ class EnglishEntryadhereto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adhere to");
   }
 
   Future<void> speakadher251463(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadhereto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For ten months he adhered to a no-fat low-salt diet."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("For ten months he adhered to a no-fat low-salt diet.");
   }
 
   Future<void> speakadh358947(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryadhereto extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She adheres to teaching methods she learned over 30 years ago."); // DOPSUM: CHANGE TEXT
+        "She adheres to teaching methods she learned over 30 years ago.");
   }
 
   // Future<void> speakadhereto(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryadhereto extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adhere to");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryabundantly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abundantly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abundantly");
   }
 
   Future<void> speaka15247(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabundantly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Calcium is found most abundantly in milk."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Calcium is found most abundantly in milk.");
   }
 
   Future<void> speakab25963(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryabundantly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She made her wishes abundantly clear."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She made her wishes abundantly clear.");
   }
 
   @override

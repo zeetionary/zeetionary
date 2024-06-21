@@ -21,7 +21,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("charter"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("charter");
   }
 
   Future<void> speakcharters1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He fought for a social charter of workers' rights."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He fought for a social charter of workers' rights.");
   }
 
   Future<void> speakcharters2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Minority rights are protected by the UN charter."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Minority rights are protected by the UN charter.");
   }
 
   Future<void> speakcharters3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Education is one of the basic human rights written into the United Nations Charter."); // DOPSUM: CHANGE TEXT
+        "Education is one of the basic human rights written into the United Nations Charter.");
   }
 
   Future<void> speakcharters4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The BBC's charter was due to be renewed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The BBC's charter was due to be renewed.");
   }
 
   Future<void> speakcharters5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were given this right by royal charter."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They were given this right by royal charter.");
   }
 
   Future<void> speakcharters6(String languageCode) async {
@@ -74,8 +71,8 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They flew to Athens and then chartered a boat to the island."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They flew to Athens and then chartered a boat to the island.");
   }
 
   Future<void> speakcharters7(String languageCode) async {
@@ -83,8 +80,8 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Special trains were chartered to take them to the festival."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Special trains were chartered to take them to the festival.");
   }
 
   Future<void> speakcharters8(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cambridge University Press was chartered in 1534."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Cambridge University Press was chartered in 1534.");
   }
 
   Future<void> speakcharters9(String languageCode) async {
@@ -101,7 +97,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharters900");
   }
 
   Future<void> speakcharters10(String languageCode) async {
@@ -109,7 +105,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharters1000");
   }
 
   Future<void> speakcharters11(String languageCode) async {
@@ -117,7 +113,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharters1100");
   }
 
   Future<void> speakcharters12(String languageCode) async {
@@ -125,7 +121,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharters1200");
   }
 
   Future<void> speakcharters13(String languageCode) async {
@@ -133,7 +129,7 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharters1300");
   }
 
   @override

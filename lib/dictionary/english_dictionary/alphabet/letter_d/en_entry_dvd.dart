@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DVD"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DVD");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DVD"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DVD");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Let's just stay in and watch a DVD."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's just stay in and watch a DVD.");
   }
 
   Future<void> speakDVDs2(String languageCode) async {
@@ -360,168 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Is it available on DVD yet?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs3(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs4(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs5(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs6(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs7(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs8(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs9(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs10(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs11(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs12(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs13(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs14(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs15(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs16(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs17(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs18(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs19(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs20(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs21(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDVDs22(String languageCode) async {
-    // DOPSUM: CHANGE speakDVD
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDVDs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Is it available on DVD yet?");
   }
 
   @override

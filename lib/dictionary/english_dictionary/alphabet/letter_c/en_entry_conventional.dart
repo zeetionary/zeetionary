@@ -21,7 +21,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conventional"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conventional");
   }
 
   Future<void> speakconventionals1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She's very conventional in her views."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's very conventional in her views.");
   }
 
   Future<void> speakconventionals2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They rejected what they saw as the hypocrisy of conventional society."); // DOPSUM: CHANGE TEXT
+        "They rejected what they saw as the hypocrisy of conventional society.");
   }
 
   Future<void> speakconventionals3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You can use a microwave or cook it in a conventional oven."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You can use a microwave or cook it in a conventional oven.");
   }
 
   Future<void> speakconventionals4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her face is not beautiful in conventional terms."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her face is not beautiful in conventional terms.");
   }
 
   Future<void> speakconventionals5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Raising such a large amount of money from conventional sources would be difficult."); // DOPSUM: CHANGE TEXT
+        "Raising such a large amount of money from conventional sources would be difficult.");
   }
 
   Future<void> speakconventionals6(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Conventional treatments for this condition have been only partially successful."); // DOPSUM: CHANGE TEXT
+        "Conventional treatments for this condition have been only partially successful.");
   }
 
   Future<void> speakconventionals7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A conventional war would still cause unacceptable devastation."); // DOPSUM: CHANGE TEXT
+        "A conventional war would still cause unacceptable devastation.");
   }
 
   Future<void> speakconventionals8(String languageCode) async {
@@ -92,7 +90,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals800");
   }
 
   Future<void> speakconventionals9(String languageCode) async {
@@ -100,7 +98,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals900");
   }
 
   Future<void> speakconventionals10(String languageCode) async {
@@ -108,7 +106,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals1000");
   }
 
   Future<void> speakconventionals11(String languageCode) async {
@@ -116,7 +114,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals1100");
   }
 
   Future<void> speakconventionals12(String languageCode) async {
@@ -124,7 +122,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals1200");
   }
 
   Future<void> speakconventionals13(String languageCode) async {
@@ -132,7 +130,7 @@ class EnglishEntryconventional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconventionals1300");
   }
 
   @override

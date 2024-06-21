@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("easy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("easy");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("easy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("easy");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Reaching the summit is no easy task."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Reaching the summit is no easy task.");
   }
 
   Future<void> speakeasys2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's much easier if you speak the language."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's much easier if you speak the language.");
   }
 
   Future<void> speakeasys3(String languageCode) async {
@@ -369,8 +367,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's easy to forget how we lived before the internet."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's easy to forget how we lived before the internet.");
   }
 
   Future<void> speakeasys4(String languageCode) async {
@@ -378,8 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The tool is quick and easy to use."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The tool is quick and easy to use.");
   }
 
   Future<void> speakeasys5(String languageCode) async {
@@ -387,8 +384,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their house isn't the easiest place to get to."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Their house isn't the easiest place to get to.");
   }
 
   Future<void> speakeasys6(String languageCode) async {
@@ -396,8 +392,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are no easy answers in cases like this."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are no easy answers in cases like this.");
   }
 
   Future<void> speakeasys7(String languageCode) async {
@@ -405,8 +400,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Doing all that while injured isn't exactly easy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Doing all that while injured isn't exactly easy.");
   }
 
   Future<void> speakeasys8(String languageCode) async {
@@ -414,8 +408,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plant is relatively easy to identify."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plant is relatively easy to identify.");
   }
 
   Future<void> speakeasys9(String languageCode) async {
@@ -423,8 +416,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He has not had an easy life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has not had an easy life.");
   }
 
   Future<void> speakeasys10(String languageCode) async {
@@ -432,8 +424,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Things are getting easier for us."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Things are getting easier for us.");
   }
 
   Future<void> speakeasys11(String languageCode) async {
@@ -441,8 +432,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I don't feel easy about letting the kids go out alone."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I don't feel easy about letting the kids go out alone.");
   }
 
   Future<void> speakeasys12(String languageCode) async {
@@ -450,8 +441,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I've had a very easy day at work."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've had a very easy day at work.");
   }
 
   Future<void> speakeasys13(String languageCode) async {
@@ -459,8 +449,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'll agree to anything for an easy life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'll agree to anything for an easy life.");
   }
 
   Future<void> speakeasys14(String languageCode) async {
@@ -468,8 +457,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I felt a bit easier after that."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I felt a bit easier after that.");
   }
 
   Future<void> speakeasys15(String languageCode) async {
@@ -477,8 +465,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's an easy target for their criticisms."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's an easy target for their criticisms.");
   }
 
   Future<void> speakeasys16(String languageCode) async {
@@ -486,8 +473,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The baby fish are easy prey for birds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The baby fish are easy prey for birds.");
   }
 
   Future<void> speakeasys17(String languageCode) async {
@@ -495,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He had an easy manner."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had an easy manner.");
   }
 
   Future<void> speakeasys18(String languageCode) async {
@@ -503,8 +489,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Easy with that chair—one of its legs is loose."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Easy with that chair—one of its legs is loose.");
   }
 
   Future<void> speakeasys19(String languageCode) async {
@@ -512,32 +497,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Easy, girl—you'll knock me over!"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeasys20(String languageCode) async {
-    // DOPSUM: CHANGE speakeasy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeasys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeasys21(String languageCode) async {
-    // DOPSUM: CHANGE speakeasy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeasys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeasys22(String languageCode) async {
-    // DOPSUM: CHANGE speakeasy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeasys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Easy, girl—you'll knock me over!");
   }
 
   @override
@@ -1125,19 +1085,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeasys_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeasys20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeasys20("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeasys_2000easys20
+          // speakeasys20("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1151,19 +1100,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeasys2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeasys21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeasys21("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeasys2100easys21
+          // speakeasys21("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1177,19 +1115,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeasys2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeasys22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeasys22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeasys2200easys22
+          // speakeasys22("en-US"""),
           //         ),
           //       ],
           //     ),

@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-cross"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-cross");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-cross"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-cross");
   }
 
   @override
@@ -353,175 +353,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The diamond thief double-crossed his partners and gave them only worthless fake jewels."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublecrosss22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublecross
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublecrosss2200"); // DOPSUM: CHANGE TEXT
+        "The diamond thief double-crossed his partners and gave them only worthless fake jewels.");
   }
 
   @override

@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("doctrinal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("doctrinal");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("doctrinal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("doctrinal");
   }
 
   @override
@@ -351,176 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The church issued a doctrinal statement on its core beliefs."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoctrinals22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoctrinal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoctrinals2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The church issued a doctrinal statement on its core beliefs.");
   }
 
   @override

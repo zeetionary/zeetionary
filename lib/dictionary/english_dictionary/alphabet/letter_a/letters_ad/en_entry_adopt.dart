@@ -16,7 +16,7 @@ class EnglishEntryadopt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adopt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adopt");
   }
 
   Future<void> speakad256471(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadopt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The child has now been legally adopted."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The child has now been legally adopted.");
   }
 
   Future<void> speakad25673(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryadopt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The police adopted tighter security measures."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The police adopted tighter security measures.");
   }
 
   Future<void> speakado45826(String languageCode) async {
@@ -42,8 +40,8 @@ class EnglishEntryadopt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government adopted a resolution on disarmament."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The government adopted a resolution on disarmament.");
   }
 
   Future<void> speakado7259(String languageCode) async {
@@ -51,8 +49,7 @@ class EnglishEntryadopt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The party adopted its current name in 1965."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The party adopted its current name in 1965.");
   }
 
   // Future<void> speakadopt(String languageCode) async {
@@ -60,7 +57,7 @@ class EnglishEntryadopt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adopt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adopt");
   // }
 
   @override

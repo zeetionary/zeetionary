@@ -16,7 +16,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("air marshal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("air marshal");
   }
 
   Future<void> speakairmarshal524(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryairmarshal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her father was an air marshal in the Australian Air Force."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her father was an air marshal in the Australian Air Force.");
   }
 
   Future<void> speakairmarshal3528(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "New security measures included increasing the number of air marshals and fortifying cockpit doors."); // DOPSUM: CHANGE TEXT
+        "New security measures included increasing the number of air marshals and fortifying cockpit doors.");
   }
 
   // Future<void> speakairmarshal(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air marshal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air marshal");
   // }
 
   @override

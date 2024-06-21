@@ -24,7 +24,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("auxiliary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("auxiliary");
   }
 
   Future<void> speakauxiliarys1(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The auxiliary nurse helped the doctor with patient care."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The auxiliary nurse helped the doctor with patient care.");
   }
 
   Future<void> speakauxiliarys2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The auxiliary engine provided power to the sailboat when the wind died down."); // DOPSUM: CHANGE TEXT
+        "The auxiliary engine provided power to the sailboat when the wind died down.");
   }
 
   Future<void> speakauxiliarys3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries."); // DOPSUM: CHANGE TEXT
+        "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries.");
   }
 
   Future<void> speakauxiliarys4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."); // DOPSUM: CHANGE TEXT
+        "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building.");
   }
 
   Future<void> speakauxiliarys5(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAuxiliarys5c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAuxiliarys5c");
   }
 
   Future<void> speakauxiliarys6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAuxiliarys6c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAuxiliarys6c");
   }
 
   Future<void> speakauxiliarys7(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAuxiliarys7c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAuxiliarys7c");
   }
 
   @override

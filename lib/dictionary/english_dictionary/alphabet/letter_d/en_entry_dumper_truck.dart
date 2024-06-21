@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dumper truck"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dumper truck");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dumper truck"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dumper truck");
   }
 
   @override
@@ -352,176 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He worked as a dumper truck driver."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks2(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks3(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks4(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks5(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks6(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks7(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks8(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks9(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks10(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks11(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks12(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks13(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks14(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks15(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks16(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks17(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks18(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks19(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks20(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks21(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdumpertrucks22(String languageCode) async {
-    // DOPSUM: CHANGE speakdumpertruck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdumpertrucks2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He worked as a dumper truck driver.");
   }
 
   @override

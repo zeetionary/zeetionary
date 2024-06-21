@@ -24,7 +24,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("belly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("belly");
   }
 
   Future<void> speakbellys1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They crawled along on their bellies."); // DOPSUM: CHANGE TEXT
+        .speak("They crawled along on their bellies.");
   }
 
   Future<void> speakbellys2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's so fat, his belly hangs over his trousers."); // DOPSUM: CHANGE TEXT
+        "He's so fat, his belly hangs over his trousers.");
   }
 
   Future<void> speakbellys3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She felt the child in her belly kick."); // DOPSUM: CHANGE TEXT
+        .speak("She felt the child in her belly kick.");
   }
 
   Future<void> speakbellys4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The belly of the aircraft was painted red."); // DOPSUM: CHANGE TEXT
+        "The belly of the aircraft was painted red.");
   }
 
   Future<void> speakbellys5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The starving child's swollen belly was a stark reminder of the ongoing famine in the region."); // DOPSUM: CHANGE TEXT
+        "The starving child's swollen belly was a stark reminder of the ongoing famine in the region.");
   }
 
   Future<void> speakbellys6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBellys66");
   }
 
   Future<void> speakbellys7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBellys77");
   }
 
   @override

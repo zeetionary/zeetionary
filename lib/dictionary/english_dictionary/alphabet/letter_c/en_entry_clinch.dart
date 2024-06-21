@@ -21,7 +21,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clinch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clinch");
   }
 
   Future<void> speakclinchs1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They clinched a place in the semi-finals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They clinched a place in the semi-finals.");
   }
 
   Future<void> speakclinchs2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("These findings clinched the matter."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These findings clinched the matter.");
   }
 
   Future<void> speakclinchs3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When they said the job would involve travelling to Paris, that clinched it (for her)."); // DOPSUM: CHANGE TEXT
+        "When they said the job would involve travelling to Paris, that clinched it (for her).");
   }
 
   Future<void> speakclinchs4(String languageCode) async {
@@ -56,8 +54,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The movie's climax featured a romantic clinch."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The movie's climax featured a romantic clinch.");
   }
 
   Future<void> speakclinchs5(String languageCode) async {
@@ -65,7 +62,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs500");
   }
 
   Future<void> speakclinchs6(String languageCode) async {
@@ -73,7 +70,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs600");
   }
 
   Future<void> speakclinchs7(String languageCode) async {
@@ -81,7 +78,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs700");
   }
 
   Future<void> speakclinchs8(String languageCode) async {
@@ -89,7 +86,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs800");
   }
 
   Future<void> speakclinchs9(String languageCode) async {
@@ -97,7 +94,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs900");
   }
 
   Future<void> speakclinchs10(String languageCode) async {
@@ -105,7 +102,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs1000");
   }
 
   Future<void> speakclinchs11(String languageCode) async {
@@ -113,7 +110,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs1100");
   }
 
   Future<void> speakclinchs12(String languageCode) async {
@@ -121,7 +118,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs1200");
   }
 
   Future<void> speakclinchs13(String languageCode) async {
@@ -129,7 +126,7 @@ class EnglishEntryclinch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclinchs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclinchs1300");
   }
 
   @override

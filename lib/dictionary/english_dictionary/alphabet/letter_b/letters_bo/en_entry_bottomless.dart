@@ -22,7 +22,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bottomless"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bottomless");
   }
 
   Future<void> speakbottomlesss1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sea looked dark, almost bottomless."); // DOPSUM: CHANGE TEXT
+        "The sea looked dark, almost bottomless.");
   }
 
   Future<void> speakbottomlesss2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They believed that at the centre of the earth, the sea poured into a bottomless hole."); // DOPSUM: CHANGE TEXT
+        "They believed that at the centre of the earth, the sea poured into a bottomless hole.");
   }
 
   Future<void> speakbottomlesss3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She had a bottomless hunger for learning."); // DOPSUM: CHANGE TEXT
+        "She had a bottomless hunger for learning.");
   }
 
   Future<void> speakbottomlesss4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottomlesss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss44");
   }
 
   Future<void> speakbottomlesss5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottomlesss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss55");
   }
 
   Future<void> speakbottomlesss6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottomlesss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss66");
   }
 
   Future<void> speakbottomlesss7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybottomless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottomlesss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss77");
   }
 
   @override

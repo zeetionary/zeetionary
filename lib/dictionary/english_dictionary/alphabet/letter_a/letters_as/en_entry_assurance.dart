@@ -24,7 +24,7 @@ class EnglishEntryassurance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assurance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assurance");
   }
 
   Future<void> speakassurance848(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassurance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They called for assurances that the government is committed to its education policy."); // DOPSUM: CHANGE TEXT
+        "They called for assurances that the government is committed to its education policy.");
   }
 
   Future<void> speakassurance849(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryassurance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I must have your assurance that there will be no repetition of this conduct."); // DOPSUM: CHANGE TEXT
+        "I must have your assurance that there will be no repetition of this conduct.");
   }
 
   Future<void> speakassurance852(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryassurance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Even at a very young age she showed a great deal of assurance."); // DOPSUM: CHANGE TEXT
+        "Even at a very young age she showed a great deal of assurance.");
   }
 
   // Future<void> speakassurance(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryassurance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assurance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assurance");
   // }
 
   // Future<void> speakassurance(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryassurance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assurance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assurance");
   // }
 
   // Future<void> speakassurance(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryassurance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assurance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assurance");
   // }
 
   // Future<void> speakassurance(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryassurance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assurance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assurance");
   // }
 
   // Future<void> speakassurance(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntryassurance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assurance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assurance");
   // }
 
   @override

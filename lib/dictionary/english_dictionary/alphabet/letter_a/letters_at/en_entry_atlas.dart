@@ -24,7 +24,7 @@ class EnglishEntryatlas extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("atlas");
   }
 
   Future<void> speakatlas839(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryatlas extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."); // DOPSUM: CHANGE TEXT
+        "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England.");
   }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   // Future<void> speakatlas(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atlas");
   // }
 
   @override

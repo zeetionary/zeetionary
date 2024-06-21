@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("domain name"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("domain name");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("domain name"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("domain name");
   }
 
   @override
@@ -351,176 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You will need to register a domain name."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames2(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames3(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames4(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames5(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames6(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames7(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames8(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames9(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames10(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames11(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames12(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames13(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames14(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames15(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames16(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames17(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames18(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames19(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames20(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames21(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomainnames22(String languageCode) async {
-    // DOPSUM: CHANGE speakdomainname
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomainnames2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You will need to register a domain name.");
   }
 
   @override

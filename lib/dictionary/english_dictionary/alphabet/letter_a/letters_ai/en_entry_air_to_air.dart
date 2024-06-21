@@ -16,7 +16,7 @@ class EnglishEntryairtoair extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("air-to-air"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("air-to-air");
   }
 
   Future<void> speakairtoair124(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryairtoair extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The aid includes 200 supersonic air-to-air missiles and military communications equipment."); // DOPSUM: CHANGE TEXT
+        "The aid includes 200 supersonic air-to-air missiles and military communications equipment.");
   }
 
   // Future<void> speakairtoair(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryairtoair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air-to-air"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air-to-air");
   // }
 
   // Future<void> speakairtoair(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryairtoair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air-to-air"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air-to-air");
   // }
 
   @override

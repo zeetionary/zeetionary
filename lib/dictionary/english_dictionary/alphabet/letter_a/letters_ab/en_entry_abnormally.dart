@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abnormally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abnormally");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abnormally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abnormally");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakabnormallys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakabnormallys111111111111111111111111111111111");
   }
 
   Future<void> speakabnormallys2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys200");
   }
 
   Future<void> speakabnormallys3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys300");
   }
 
   Future<void> speakabnormallys4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys400");
   }
 
   Future<void> speakabnormallys5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys500");
   }
 
   Future<void> speakabnormallys6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys600");
   }
 
   Future<void> speakabnormallys7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys700");
   }
 
   Future<void> speakabnormallys8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys800");
   }
 
   Future<void> speakabnormallys9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys900");
   }
 
   Future<void> speakabnormallys10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys1000");
   }
 
   Future<void> speakabnormallys11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys1100");
   }
 
   Future<void> speakabnormallys12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys1200");
   }
 
   Future<void> speakabnormallys13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabnormallys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabnormallys1300");
   }
 
   Future<void> speaka97(String languageCode) async {
@@ -326,8 +326,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("abnormally high blood pressure"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abnormally high blood pressure");
   }
 
   @override

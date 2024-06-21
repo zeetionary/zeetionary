@@ -16,7 +16,7 @@ class EnglishEntryaffront extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affront"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affront");
   }
 
   Future<void> speakaffront92(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaffront extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His speech was an affront to many in the community."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His speech was an affront to many in the community.");
   }
 
   Future<void> speakaffron4599(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaffront extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He hoped they would not feel affronted if they were not invited."); // DOPSUM: CHANGE TEXT
+        "He hoped they would not feel affronted if they were not invited.");
   }
 
   // Future<void> speakaffront(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryaffront extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affront"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affront");
   // }
 
   @override

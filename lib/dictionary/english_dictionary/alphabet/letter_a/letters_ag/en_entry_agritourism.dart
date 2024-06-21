@@ -16,7 +16,7 @@ class EnglishEntryagritourism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agritourism");
   }
 
   // Future<void> speakagritourism(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryagritourism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agritourism");
   // }
 
   // Future<void> speakagritourism(String languageCode) async {
@@ -32,7 +32,7 @@ class EnglishEntryagritourism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agritourism");
   // }
 
   // Future<void> speakagritourism(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryagritourism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agritourism");
   // }
 
   @override

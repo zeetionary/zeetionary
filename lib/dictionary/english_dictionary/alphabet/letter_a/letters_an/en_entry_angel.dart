@@ -16,7 +16,7 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("angel");
   }
 
   Future<void> speakangel405(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She looks like an angel."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She looks like an angel.");
   }
 
   Future<void> speakangel407(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a white costume with big furry angel wings."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She wore a white costume with big furry angel wings.");
   }
 
   Future<void> speakangel9963(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Mary’s children are little angels."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Mary’s children are little angels.");
   }
 
   Future<void> speakangel4850(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Thanks Dad, you're an angel."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Thanks Dad, you're an angel.");
   }
 
   // Future<void> speakangel(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angel");
   // }
 
   // Future<void> speakangel(String languageCode) async {
@@ -67,7 +65,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angel");
   // }
 
   // Future<void> speakangel(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angel");
   // }
 
   // Future<void> speakangel(String languageCode) async {
@@ -83,7 +81,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("angel");
   // }
 
   @override

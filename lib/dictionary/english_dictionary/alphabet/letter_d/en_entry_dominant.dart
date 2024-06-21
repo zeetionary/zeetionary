@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dominant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dominant");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dominant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dominant");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The firm has achieved a dominant position in the world market."); // DOPSUM: CHANGE TEXT
+        "The firm has achieved a dominant position in the world market.");
   }
 
   Future<void> speakdominants2(String languageCode) async {
@@ -360,8 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dominant feature of the room was the large fireplace."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The dominant feature of the room was the large fireplace.");
   }
 
   Future<void> speakdominants3(String languageCode) async {
@@ -369,8 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Banks have a dominant role in most countries' economies."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Banks have a dominant role in most countries' economies.");
   }
 
   Future<void> speakdominants4(String languageCode) async {
@@ -378,152 +378,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "London is dominant within the UK economy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants5(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants6(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants7(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants8(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants9(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants10(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants11(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants12(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants13(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants14(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants15(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants16(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants17(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants18(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants19(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants20(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants21(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdominants22(String languageCode) async {
-    // DOPSUM: CHANGE speakdominant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdominants2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("London is dominant within the UK economy.");
   }
 
   @override

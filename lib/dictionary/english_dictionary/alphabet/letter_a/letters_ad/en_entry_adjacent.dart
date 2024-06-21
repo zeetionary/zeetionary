@@ -16,7 +16,7 @@ class EnglishEntryadjacent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adjacent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adjacent");
   }
 
   Future<void> speakadj255(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadjacent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our farm land was adjacent to the river."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Our farm land was adjacent to the river.");
   }
 
   // Future<void> speakadjacent(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadjacent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adjacent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adjacent");
   // }
 
   // Future<void> speakadjacent(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadjacent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adjacent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adjacent");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amendment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amendment");
   }
 
   Future<void> speakamendment1244(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Parliament passed the bill without further amendment."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Parliament passed the bill without further amendment.");
   }
 
   Future<void> speakamendment4557(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The Senate added numerous amendments to the bill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The Senate added numerous amendments to the bill.");
   }
 
   Future<void> speakamendment74111(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The 19th Amendment gave women the right to vote."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The 19th Amendment gave women the right to vote.");
   }
 
   @override

@@ -18,7 +18,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antifreeze");
   }
 
   Future<void> speakantifreeze1051(String languageCode) async {
@@ -26,8 +26,8 @@ class EnglishEntryantifreeze extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Lack of antifreeze is a major cause of highway breakdowns."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Lack of antifreeze is a major cause of highway breakdowns.");
   }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   // Future<void> speakantifreeze(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antifreeze");
   // }
 
   @override

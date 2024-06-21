@@ -16,7 +16,7 @@ class EnglishEntryannexation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("annexation");
   }
 
   Future<void> speakannexation1150(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryannexation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He mentioned the Japanese annexation of Korea in 1910."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He mentioned the Japanese annexation of Korea in 1910.");
   }
 
   Future<void> speakannexation1151(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryannexation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The country's annexation of its neighbour caused an outcry."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The country's annexation of its neighbour caused an outcry.");
   }
 
   // Future<void> speakannexation(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annexation");
   // }
 
   // Future<void> speakannexation(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annexation");
   // }
 
   // Future<void> speakannexation(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annexation");
   // }
 
   // Future<void> speakannexation(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annexation");
   // }
 
   // Future<void> speakannexation(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annexation");
   // }
 
   // Future<void> speakannexation(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annexation");
   // }
 
   @override

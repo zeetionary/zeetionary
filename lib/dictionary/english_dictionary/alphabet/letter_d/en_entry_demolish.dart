@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("demolish"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("demolish");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("demolish"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("demolish");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The factory is due to be demolished next year."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The factory is due to be demolished next year.");
   }
 
   Future<void> speakdemolishs2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The old slums are being demolished to make way for a new housing project."); // DOPSUM: CHANGE TEXT
+        "The old slums are being demolished to make way for a new housing project.");
   }
 
   Future<void> speakdemolishs3(String languageCode) async {
@@ -240,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The car had skidded across the road and demolished part of the wall."); // DOPSUM: CHANGE TEXT
+        "The car had skidded across the road and demolished part of the wall.");
   }
 
   Future<void> speakdemolishs4(String languageCode) async {
@@ -248,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A recent book has demolished this theory."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A recent book has demolished this theory.");
   }
 
   Future<void> speakdemolishs5(String languageCode) async {
@@ -257,8 +255,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They demolished New Zealand 44–6 in the final."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They demolished New Zealand 44–6 in the final.");
   }
 
   Future<void> speakdemolishs6(String languageCode) async {
@@ -266,112 +263,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The children demolished their chips."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The children demolished their chips.");
   }
 
   Future<void> speakdemolishs20(String languageCode) async {
@@ -380,23 +272,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The old slums are being demolished to make way for a new housing project.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemolishs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdemolish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemolishs2200"); // DOPSUM: CHANGE TEXT
+        "The old slums are being demolished to make way for a new housing project.0");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryadhesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adhesive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adhesive");
   }
 
   Future<void> speakadhesive471(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadhesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The adhesive takes at least an hour to set."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The adhesive takes at least an hour to set.");
   }
 
   Future<void> speakadhesive6355(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryadhesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The labels are easy to apply and very adhesive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The labels are easy to apply and very adhesive.");
   }
 
   // Future<void> speakadhesive(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryadhesive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhesive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adhesive");
   // }
 
   @override

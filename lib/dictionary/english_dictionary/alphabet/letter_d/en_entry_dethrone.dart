@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dethrone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dethrone");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dethrone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dethrone");
   }
 
   @override
@@ -222,175 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The world champion was dethroned by a young Swedish challenger."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones2(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones3(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones4(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones5(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones6(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones7(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones8(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones9(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones10(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones11(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones12(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones13(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones14(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones15(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones16(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones17(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones18(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones19(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones20(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones21(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdethrones22(String languageCode) async {
-    // DOPSUM: CHANGE speakdethrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdethrones2200"); // DOPSUM: CHANGE TEXT
+        "The world champion was dethroned by a young Swedish challenger.");
   }
 
   @override

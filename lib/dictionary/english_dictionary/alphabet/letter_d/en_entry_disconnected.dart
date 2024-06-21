@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disconnected"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disconnected");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disconnected"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disconnected");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I felt disconnected from the world around me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I felt disconnected from the world around me.");
   }
 
   Future<void> speakdisconnecteds2(String languageCode) async {
@@ -231,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had not slept and was feeling numb and disconnected."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She had not slept and was feeling numb and disconnected.");
   }
 
   Future<void> speakdisconnecteds3(String languageCode) async {
@@ -240,8 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The three parts of his argument feel a little disconnected."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The three parts of his argument feel a little disconnected.");
   }
 
   Future<void> speakdisconnecteds4(String languageCode) async {
@@ -249,152 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All he found was an empty office and a disconnected phone."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnecteds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnected
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnecteds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All he found was an empty office and a disconnected phone.");
   }
 
   @override

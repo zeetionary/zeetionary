@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deity");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deity");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many animals were seen as the manifestation of a deity."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Many animals were seen as the manifestation of a deity.");
   }
 
   Future<void> speakdeitys2(String languageCode) async {
@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ares and Aphrodite were the ancient Greek deities of war and love."); // DOPSUM: CHANGE TEXT
+        "Ares and Aphrodite were the ancient Greek deities of war and love.");
   }
 
   Future<void> speakdeitys3(String languageCode) async {
@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys300");
   }
 
   Future<void> speakdeitys4(String languageCode) async {
@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys400");
   }
 
   Future<void> speakdeitys5(String languageCode) async {
@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys500");
   }
 
   Future<void> speakdeitys6(String languageCode) async {
@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys600");
   }
 
   Future<void> speakdeitys7(String languageCode) async {
@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys700");
   }
 
   Future<void> speakdeitys8(String languageCode) async {
@@ -279,7 +279,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys800");
   }
 
   Future<void> speakdeitys9(String languageCode) async {
@@ -287,7 +287,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys900");
   }
 
   Future<void> speakdeitys10(String languageCode) async {
@@ -295,7 +295,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1000");
   }
 
   Future<void> speakdeitys11(String languageCode) async {
@@ -303,7 +303,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1100");
   }
 
   Future<void> speakdeitys12(String languageCode) async {
@@ -311,7 +311,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1200");
   }
 
   Future<void> speakdeitys13(String languageCode) async {
@@ -319,7 +319,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1300");
   }
 
   Future<void> speakdeitys14(String languageCode) async {
@@ -327,7 +327,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1400");
   }
 
   Future<void> speakdeitys15(String languageCode) async {
@@ -335,7 +335,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1500");
   }
 
   Future<void> speakdeitys16(String languageCode) async {
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1600");
   }
 
   Future<void> speakdeitys17(String languageCode) async {
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1700");
   }
 
   Future<void> speakdeitys18(String languageCode) async {
@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1800");
   }
 
   Future<void> speakdeitys19(String languageCode) async {
@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys1900");
   }
 
   Future<void> speakdeitys20(String languageCode) async {
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ares and Aphrodite were the ancient Greek deities of war and love.0"); // DOPSUM: CHANGE TEXT
+        "Ares and Aphrodite were the ancient Greek deities of war and love.0");
   }
 
   Future<void> speakdeitys21(String languageCode) async {
@@ -384,7 +384,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys2100");
   }
 
   Future<void> speakdeitys22(String languageCode) async {
@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeitys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeitys2200");
   }
 
   @override

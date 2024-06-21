@@ -21,7 +21,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("contemporary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contemporary");
   }
 
   Future<void> speakcontemporarys1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have no contemporary account of the battle."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have no contemporary account of the battle.");
   }
 
   Future<void> speakcontemporarys2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was contemporary with Shakespeare."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was contemporary with Shakespeare.");
   }
 
   Future<void> speakcontemporarys3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She used only strictly contemporary documents to research the book."); // DOPSUM: CHANGE TEXT
+        "She used only strictly contemporary documents to research the book.");
   }
 
   Future<void> speakcontemporarys4(String languageCode) async {
@@ -56,8 +54,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is among the best-known contemporary artists."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He is among the best-known contemporary artists.");
   }
 
   Future<void> speakcontemporarys5(String languageCode) async {
@@ -66,7 +63,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The film paints a depressing picture of life in contemporary Britain."); // DOPSUM: CHANGE TEXT
+        "The film paints a depressing picture of life in contemporary Britain.");
   }
 
   Future<void> speakcontemporarys6(String languageCode) async {
@@ -74,8 +71,8 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Try some contemporary colours on your kitchen walls."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Try some contemporary colours on your kitchen walls.");
   }
 
   Future<void> speakcontemporarys7(String languageCode) async {
@@ -83,8 +80,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She and I were contemporaries at college."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She and I were contemporaries at college.");
   }
 
   Future<void> speakcontemporarys8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was a contemporary of Freud and may have known him."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was a contemporary of Freud and may have known him.");
   }
 
   Future<void> speakcontemporarys9(String languageCode) async {
@@ -101,7 +97,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemporarys900");
   }
 
   Future<void> speakcontemporarys10(String languageCode) async {
@@ -109,7 +105,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemporarys1000");
   }
 
   Future<void> speakcontemporarys11(String languageCode) async {
@@ -117,7 +113,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemporarys1100");
   }
 
   Future<void> speakcontemporarys12(String languageCode) async {
@@ -125,7 +121,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemporarys1200");
   }
 
   Future<void> speakcontemporarys13(String languageCode) async {
@@ -133,7 +129,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemporarys1300");
   }
 
   @override

@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diametrically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diametrically");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diametrically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diametrically");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We hold diametrically opposed views."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We hold diametrically opposed views.");
   }
 
   Future<void> speakdiametricallys2(String languageCode) async {
@@ -232,167 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This statement diametrically contradicts Milton's earlier claim."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiametricallys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiametrically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiametricallys2200"); // DOPSUM: CHANGE TEXT
+        "This statement diametrically contradicts Milton's earlier claim.");
   }
 
   @override

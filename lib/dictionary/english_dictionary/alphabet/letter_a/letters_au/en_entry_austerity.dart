@@ -24,7 +24,7 @@ class EnglishEntryausterity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("austerity");
   }
 
   Future<void> speakausterity518(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryausterity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "War was followed by many years of austerity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("War was followed by many years of austerity.");
   }
 
   Future<void> speakausterity523(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryausterity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The house was decorated in an austere style, with white walls and minimal furniture."); // DOPSUM: CHANGE TEXT
+        "The house was decorated in an austere style, with white walls and minimal furniture.");
   }
 
   Future<void> speakausterity524(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryausterity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was noted for his austerity and authoritarianism."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was noted for his austerity and authoritarianism.");
   }
 
   Future<void> speakausterity527(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryausterity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The monks lived a life of austerity, with few possessions and simple meals."); // DOPSUM: CHANGE TEXT
+        "The monks lived a life of austerity, with few possessions and simple meals.");
   }
 
   // Future<void> speakausterity(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("austerity");
   // }
 
   // Future<void> speakausterity(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("austerity");
   // }
 
   // Future<void> speakausterity(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("austerity");
   // }
 
   // Future<void> speakausterity(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("austerity");
   // }
 
   @override

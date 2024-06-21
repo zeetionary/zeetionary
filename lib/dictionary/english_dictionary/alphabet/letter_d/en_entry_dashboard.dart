@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dashboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dashboard");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dashboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dashboard");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She placed her phone on the dashboard while driving."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She placed her phone on the dashboard while driving.");
   }
 
   Future<void> speakdashboards2(String languageCode) async {
@@ -230,96 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The app has a new dashboard to limit your app usage."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards3(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards4(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards5(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards6(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards7(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards8(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards9(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards10(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards11(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards12(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdashboards13(String languageCode) async {
-    // DOPSUM: CHANGE speakdashboard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdashboards1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The app has a new dashboard to limit your app usage.");
   }
 
   @override

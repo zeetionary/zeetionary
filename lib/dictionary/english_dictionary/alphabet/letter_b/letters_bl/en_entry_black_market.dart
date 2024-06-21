@@ -22,7 +22,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("black market"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("black market");
   }
 
   Future<void> speakblackmarkets1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You can buy anything you needed on the black market."); // DOPSUM: CHANGE TEXT
+        "You can buy anything you needed on the black market.");
   }
 
   Future<void> speakblackmarkets2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "During the war, there was a thriving black market in food."); // DOPSUM: CHANGE TEXT
+        "During the war, there was a thriving black market in food.");
   }
 
   Future<void> speakblackmarkets3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackmarkets33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackmarkets33");
   }
 
   Future<void> speakblackmarkets4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackmarkets44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackmarkets44");
   }
 
   Future<void> speakblackmarkets5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackmarkets55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackmarkets55");
   }
 
   Future<void> speakblackmarkets6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackmarkets66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackmarkets66");
   }
 
   Future<void> speakblackmarkets7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackmarkets77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackmarkets77");
   }
 
   @override

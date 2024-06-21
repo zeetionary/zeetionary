@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dogged"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dogged");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dogged"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dogged");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was a dogged advocate of the struggle against injustice."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was a dogged advocate of the struggle against injustice.");
   }
 
   Future<void> speakdoggeds2(String languageCode) async {
@@ -360,168 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is dogged in his pursuit of his dreams."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds3(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds4(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds20(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoggeds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdogged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoggeds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He is dogged in his pursuit of his dreams.");
   }
 
   @override

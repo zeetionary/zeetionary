@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distance");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distance");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Paul has to drive very long distances as part of his job."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Paul has to drive very long distances as part of his job.");
   }
 
   Future<void> speakdistances2(String languageCode) async {
@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "What’s the distance from New York City to Boston?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What’s the distance from New York City to Boston?");
   }
 
   Future<void> speakdistances3(String languageCode) async {
@@ -369,8 +368,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The wind carries pollen over considerable distances."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The wind carries pollen over considerable distances.");
   }
 
   Future<void> speakdistances4(String languageCode) async {
@@ -378,8 +377,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The beach is within walking distance of my house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The beach is within walking distance of my house.");
   }
 
   Future<void> speakdistances5(String languageCode) async {
@@ -387,8 +385,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In the US, distance is measured in miles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("In the US, distance is measured in miles.");
   }
 
   Future<void> speakdistances6(String languageCode) async {
@@ -396,8 +393,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Distance is no problem on the internet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Distance is no problem on the internet.");
   }
 
   Future<void> speakdistances7(String languageCode) async {
@@ -405,8 +401,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They don't see their family because of geographical distance."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They don't see their family because of geographical distance.");
   }
 
   Future<void> speakdistances8(String languageCode) async {
@@ -414,8 +410,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "No time or distance can limit this type of friendship."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("No time or distance can limit this type of friendship.");
   }
 
   Future<void> speakdistances9(String languageCode) async {
@@ -423,8 +419,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You'll never get the ball in from that distance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You'll never get the ball in from that distance.");
   }
 
   Future<void> speakdistances10(String languageCode) async {
@@ -432,8 +427,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cat sat and watched us from a safe distance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The cat sat and watched us from a safe distance.");
   }
 
   Future<void> speakdistances11(String languageCode) async {
@@ -442,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Visitors can only view the painting from a distance of three metres."); // DOPSUM: CHANGE TEXT
+        "Visitors can only view the painting from a distance of three metres.");
   }
 
   Future<void> speakdistances12(String languageCode) async {
@@ -451,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The distance between fashion and art remains as great as ever."); // DOPSUM: CHANGE TEXT
+        "The distance between fashion and art remains as great as ever.");
   }
 
   Future<void> speakdistances13(String languageCode) async {
@@ -460,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government is keen to put some distance between itself and these events."); // DOPSUM: CHANGE TEXT
+        "The government is keen to put some distance between itself and these events.");
   }
 
   Future<void> speakdistances14(String languageCode) async {
@@ -469,7 +463,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Eddie is, by some distance, the funniest character in the show."); // DOPSUM: CHANGE TEXT
+        "Eddie is, by some distance, the funniest character in the show.");
   }
 
   Future<void> speakdistances15(String languageCode) async {
@@ -477,8 +471,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The coldness and distance in her voice took me by surprise."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The coldness and distance in her voice took me by surprise.");
   }
 
   Future<void> speakdistances16(String languageCode) async {
@@ -487,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was a growing distance between the two sides of the family."); // DOPSUM: CHANGE TEXT
+        "There was a growing distance between the two sides of the family.");
   }
 
   Future<void> speakdistances17(String languageCode) async {
@@ -495,8 +489,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When he retired, he tried to distance himself from politics."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("When he retired, he tried to distance himself from politics.");
   }
 
   Future<void> speakdistances18(String languageCode) async {
@@ -505,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company has tried to distance itself from the remarks made by some of its employees."); // DOPSUM: CHANGE TEXT
+        "The company has tried to distance itself from the remarks made by some of its employees.");
   }
 
   Future<void> speakdistances19(String languageCode) async {
@@ -514,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her mother wished to distance her from the rough village children."); // DOPSUM: CHANGE TEXT
+        "Her mother wished to distance her from the rough village children.");
   }
 
   Future<void> speakdistances20(String languageCode) async {
@@ -523,23 +517,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These narrative techniques actually distance the reader from the story."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistances21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistances2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistances22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistances2200"); // DOPSUM: CHANGE TEXT
+        "These narrative techniques actually distance the reader from the story.");
   }
 
   @override

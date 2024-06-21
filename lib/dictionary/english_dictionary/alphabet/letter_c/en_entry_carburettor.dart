@@ -21,7 +21,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carburettor"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carburettor");
   }
 
   Future<void> speakcarburettors1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Classic cars still rely on a carburettor for fuel mixing."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Classic cars still rely on a carburettor for fuel mixing.");
   }
 
   Future<void> speakcarburettors2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors22");
   }
 
   Future<void> speakcarburettors3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors33");
   }
 
   Future<void> speakcarburettors4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors44");
   }
 
   Future<void> speakcarburettors5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors55");
   }
 
   Future<void> speakcarburettors6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors66");
   }
 
   Future<void> speakcarburettors7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors77");
   }
 
   Future<void> speakcarburettors8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors88");
   }
 
   Future<void> speakcarburettors9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors99");
   }
 
   Future<void> speakcarburettors10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors1010");
   }
 
   Future<void> speakcarburettors11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors1111");
   }
 
   Future<void> speakcarburettors12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors1212");
   }
 
   Future<void> speakcarburettors13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarburettors1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarburettors1313");
   }
 
   @override

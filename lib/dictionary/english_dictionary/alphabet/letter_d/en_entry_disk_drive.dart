@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disk drive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disk drive");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disk drive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disk drive");
   }
 
   @override
@@ -221,176 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The disk drive in his computer stopped working."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives2(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiskdrives22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiskdrive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiskdrives2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The disk drive in his computer stopped working.");
   }
 
   @override

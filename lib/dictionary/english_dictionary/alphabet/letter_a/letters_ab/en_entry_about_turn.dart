@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("about turn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("about turn");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("about turn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("about turn");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakaboutturns111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakaboutturns111111111111111111111111111111111");
   }
 
   Future<void> speakaboutturns2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns200");
   }
 
   Future<void> speakaboutturns3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns300");
   }
 
   Future<void> speakaboutturns4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns400");
   }
 
   Future<void> speakaboutturns5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns500");
   }
 
   Future<void> speakaboutturns6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns600");
   }
 
   Future<void> speakaboutturns7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns700");
   }
 
   Future<void> speakaboutturns8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns800");
   }
 
   Future<void> speakaboutturns9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns900");
   }
 
   Future<void> speakaboutturns10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns1000");
   }
 
   Future<void> speakaboutturns11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns1100");
   }
 
   Future<void> speakaboutturns12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns1200");
   }
 
   Future<void> speakaboutturns13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakaboutturns1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakaboutturns1300");
   }
 
   Future<void> speaka3775(String languageCode) async {
@@ -326,8 +326,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government did an about-turn over nuclear energy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The government did an about-turn over nuclear energy.");
   }
 
   @override

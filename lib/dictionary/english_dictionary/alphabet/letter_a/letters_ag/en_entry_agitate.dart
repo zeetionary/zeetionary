@@ -16,7 +16,7 @@ class EnglishEntryagitate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agitate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agitate");
   }
 
   Future<void> speakagit125(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryagitate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her family are agitating to have her transferred to a prison in the UK."); // DOPSUM: CHANGE TEXT
+        "Her family are agitating to have her transferred to a prison in the UK.");
   }
 
   Future<void> speakagit7592(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryagitate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I didn't want to agitate her by telling her."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I didn't want to agitate her by telling her.");
   }
 
   Future<void> speakagita3477(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryagitate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Agitate the mixture to dissolve the powder."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Agitate the mixture to dissolve the powder.");
   }
 
   @override

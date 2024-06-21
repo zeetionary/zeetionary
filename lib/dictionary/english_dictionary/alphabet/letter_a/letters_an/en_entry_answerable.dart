@@ -17,7 +17,7 @@ class EnglishEntryanswerable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("answerable");
   }
 
   Future<void> speakanswerable1100(String languageCode) async {
@@ -25,8 +25,8 @@ class EnglishEntryanswerable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was a free agent, answerable to no one for her behaviour."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was a free agent, answerable to no one for her behaviour.");
   }
 
   Future<void> speakanswerable1102(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryanswerable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Any European central bank should be directly answerable to the European Parliament."); // DOPSUM: CHANGE TEXT
+        "Any European central bank should be directly answerable to the European Parliament.");
   }
 
   Future<void> speakanswerable1104(String languageCode) async {
@@ -43,8 +43,8 @@ class EnglishEntryanswerable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ministers must be made answerable for their decisions."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Ministers must be made answerable for their decisions.");
   }
 
   Future<void> speakanswerable1106(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntryanswerable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Soldiers who obey orders to commit atrocities should be answerable for their crimes."); // DOPSUM: CHANGE TEXT
+        "Soldiers who obey orders to commit atrocities should be answerable for their crimes.");
   }
 
   // Future<void> speakanswerable(String languageCode) async {
@@ -61,7 +61,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answerable");
   // }
 
   // Future<void> speakanswerable(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answerable");
   // }
 
   // Future<void> speakanswerable(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answerable");
   // }
 
   // Future<void> speakanswerable(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answerable");
   // }
 
   @override

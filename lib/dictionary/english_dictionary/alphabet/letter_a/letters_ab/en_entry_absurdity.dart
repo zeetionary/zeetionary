@@ -16,7 +16,7 @@ class EnglishEntryabsurdity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absurdity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absurdity");
   }
 
   Future<void> speaka27416(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryabsurdity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was only later that she could see the absurdity of the situation."); // DOPSUM: CHANGE TEXT
+        "It was only later that she could see the absurdity of the situation.");
   }
 
   @override

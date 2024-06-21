@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dogsbody"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dogsbody");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dogsbody"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dogsbody");
   }
 
   @override
@@ -352,175 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I got myself a job as a general office dogsbody on a small magazine."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogsbodys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdogsbody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogsbodys2200"); // DOPSUM: CHANGE TEXT
+        "I got myself a job as a general office dogsbody on a small magazine.");
   }
 
   @override

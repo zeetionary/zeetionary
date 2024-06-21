@@ -22,7 +22,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blur"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blur");
   }
 
   Future<void> speakblurs1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Everything is a blur when I take my glasses off."); // DOPSUM: CHANGE TEXT
+        "Everything is a blur when I take my glasses off.");
   }
 
   Future<void> speakblurs2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The events of that day were just a blur."); // DOPSUM: CHANGE TEXT
+        "The events of that day were just a blur.");
   }
 
   Future<void> speakblurs3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As she drifted into sleep, the doctor's face began to blur and fade."); // DOPSUM: CHANGE TEXT
+        "As she drifted into sleep, the doctor's face began to blur and fade.");
   }
 
   Future<void> speakblurs4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Tears blurred her eyes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Tears blurred her eyes.");
   }
 
   Future<void> speakblurs5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The differences between art and life seem to have blurred."); // DOPSUM: CHANGE TEXT
+        "The differences between art and life seem to have blurred.");
   }
 
   Future<void> speakblurs6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She tends to blur the distinction between her friends and her colleagues."); // DOPSUM: CHANGE TEXT
+        "She tends to blur the distinction between her friends and her colleagues.");
   }
 
   Future<void> speakblurs7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryblur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblurs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblurs77");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abruptness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abruptness");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abruptness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abruptness");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakabruptnesss111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakabruptnesss111111111111111111111111111111111");
   }
 
   Future<void> speakabruptnesss2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss200");
   }
 
   Future<void> speakabruptnesss3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss300");
   }
 
   Future<void> speakabruptnesss4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss400");
   }
 
   Future<void> speakabruptnesss5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss500");
   }
 
   Future<void> speakabruptnesss6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss600");
   }
 
   Future<void> speakabruptnesss7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss700");
   }
 
   Future<void> speakabruptnesss8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss800");
   }
 
   Future<void> speakabruptnesss9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss900");
   }
 
   Future<void> speakabruptnesss10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss1000");
   }
 
   Future<void> speakabruptnesss11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss1100");
   }
 
   Future<void> speakabruptnesss12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss1200");
   }
 
   Future<void> speakabruptnesss13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabruptnesss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabruptnesss1300");
   }
 
   Future<void> speaka6417(String languageCode) async {
@@ -327,7 +327,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The abruptness of the ending comes as a shock after the long slow build-up."); // DOPSUM: CHANGE TEXT
+        "The abruptness of the ending comes as a shock after the long slow build-up.");
   }
 
   @override

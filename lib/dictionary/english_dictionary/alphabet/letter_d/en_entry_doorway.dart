@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("doorway"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("doorway");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("doorway"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("doorway");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She stood in the doorway for a moment before going in."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She stood in the doorway for a moment before going in.");
   }
 
   Future<void> speakdoorways2(String languageCode) async {
@@ -360,168 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Rubbish was piled up in the shop doorway."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoorways22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoorway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoorways2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Rubbish was piled up in the shop doorway.");
   }
 
   @override

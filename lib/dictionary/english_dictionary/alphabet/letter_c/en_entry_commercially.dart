@@ -21,7 +21,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commercially"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commercially");
   }
 
   Future<void> speakcommerciallys1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The product is not yet commercially available."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The product is not yet commercially available.");
   }
 
   Future<void> speakcommerciallys2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His invention was not commercially successful."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His invention was not commercially successful.");
   }
 
   Future<void> speakcommerciallys3(String languageCode) async {
@@ -47,7 +45,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys300");
   }
 
   Future<void> speakcommerciallys4(String languageCode) async {
@@ -55,7 +53,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys400");
   }
 
   Future<void> speakcommerciallys5(String languageCode) async {
@@ -63,7 +61,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys500");
   }
 
   Future<void> speakcommerciallys6(String languageCode) async {
@@ -71,7 +69,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys600");
   }
 
   Future<void> speakcommerciallys7(String languageCode) async {
@@ -79,7 +77,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys700");
   }
 
   Future<void> speakcommerciallys8(String languageCode) async {
@@ -87,7 +85,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys800");
   }
 
   Future<void> speakcommerciallys9(String languageCode) async {
@@ -95,7 +93,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys900");
   }
 
   Future<void> speakcommerciallys10(String languageCode) async {
@@ -103,7 +101,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys1000");
   }
 
   Future<void> speakcommerciallys11(String languageCode) async {
@@ -111,7 +109,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys1100");
   }
 
   Future<void> speakcommerciallys12(String languageCode) async {
@@ -119,7 +117,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys1200");
   }
 
   Future<void> speakcommerciallys13(String languageCode) async {
@@ -127,7 +125,7 @@ class EnglishEntrycommercially extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommerciallys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommerciallys1300");
   }
 
   @override

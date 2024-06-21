@@ -24,7 +24,7 @@ class EnglishEntryauthor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("author");
   }
 
   Future<void> speakauthor717(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryauthor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is the author of three books on art."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He is the author of three books on art.");
   }
 
   Future<void> speakauthor719(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryauthor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The film is based on a novel written by a female author."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The film is based on a novel written by a female author.");
   }
 
   Future<void> speakauthor721(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryauthor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As the author of the proposal I cannot agree with you."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("As the author of the proposal I cannot agree with you.");
   }
 
   Future<void> speakauthor722(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntryauthor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He has authored more than 30 books."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has authored more than 30 books.");
   }
 
   // Future<void> speakauthor(String languageCode) async {
@@ -68,7 +66,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("author");
   // }
 
   // Future<void> speakauthor(String languageCode) async {
@@ -76,7 +74,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("author");
   // }
 
   // Future<void> speakauthor(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("author");
   // }
 
   // Future<void> speakauthor(String languageCode) async {
@@ -92,7 +90,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("author");
   // }
 
   @override

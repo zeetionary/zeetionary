@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distaste"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distaste");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distaste"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distaste");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He looked around the filthy room in distaste."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He looked around the filthy room in distaste.");
   }
 
   Future<void> speakdistastes2(String languageCode) async {
@@ -361,167 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He couldn't hide his distaste at having to sleep in such a filthy room."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes3(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes4(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes5(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes6(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes7(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes8(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes9(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistastes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistaste
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistastes2200"); // DOPSUM: CHANGE TEXT
+        "He couldn't hide his distaste at having to sleep in such a filthy room.");
   }
 
   @override

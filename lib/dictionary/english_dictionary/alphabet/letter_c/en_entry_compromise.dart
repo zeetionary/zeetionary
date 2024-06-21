@@ -21,7 +21,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compromise"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compromise");
   }
 
   Future<void> speakcompromises1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After lengthy talks the two sides finally reached a compromise."); // DOPSUM: CHANGE TEXT
+        "After lengthy talks the two sides finally reached a compromise.");
   }
 
   Future<void> speakcompromises2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In any relationship, you have to make compromises."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In any relationship, you have to make compromises.");
   }
 
   Future<void> speakcompromises3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This model represents the best compromise between price and quality."); // DOPSUM: CHANGE TEXT
+        "This model represents the best compromise between price and quality.");
   }
 
   Future<void> speakcompromises4(String languageCode) async {
@@ -56,8 +56,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a fair compromise between the two sides."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It was a fair compromise between the two sides.");
   }
 
   Future<void> speakcompromises5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is no prospect of compromise in sight."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There is no prospect of compromise in sight.");
   }
 
   Future<void> speakcompromises6(String languageCode) async {
@@ -74,8 +72,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Compromise is an inevitable part of life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Compromise is an inevitable part of life.");
   }
 
   Future<void> speakcompromises7(String languageCode) async {
@@ -83,8 +80,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Neither side is prepared to compromise."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Neither side is prepared to compromise.");
   }
 
   Future<void> speakcompromises8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were unwilling to compromise with the terrorists."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were unwilling to compromise with the terrorists.");
   }
 
   Future<void> speakcompromises9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I refuse to compromise my principles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I refuse to compromise my principles.");
   }
 
   Future<void> speakcompromises10(String languageCode) async {
@@ -111,7 +106,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If we back down on this issue, our reputation will be compromised."); // DOPSUM: CHANGE TEXT
+        "If we back down on this issue, our reputation will be compromised.");
   }
 
   Future<void> speakcompromises11(String languageCode) async {
@@ -120,7 +115,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She had already compromised herself by accepting his invitation."); // DOPSUM: CHANGE TEXT
+        "She had already compromised herself by accepting his invitation.");
   }
 
   Future<void> speakcompromises12(String languageCode) async {
@@ -129,7 +124,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The affair seriously compromised the party's prospects of electoral success."); // DOPSUM: CHANGE TEXT
+        "The affair seriously compromised the party's prospects of electoral success.");
   }
 
   Future<void> speakcompromises13(String languageCode) async {
@@ -138,7 +133,7 @@ class EnglishEntrycompromise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Users perform tasks every day that can compromise the security of their computers."); // DOPSUM: CHANGE TEXT
+        "Users perform tasks every day that can compromise the security of their computers.");
   }
 
   @override

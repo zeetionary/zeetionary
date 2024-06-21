@@ -16,7 +16,7 @@ class EnglishEntryaccountfor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("account for"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("account for");
   }
 
   Future<void> speaka79658(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccountfor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The poor weather may have accounted for the small crowd."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The poor weather may have accounted for the small crowd.");
   }
 
   @override

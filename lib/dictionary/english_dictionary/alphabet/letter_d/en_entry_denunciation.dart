@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("denunciation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("denunciation");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("denunciation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("denunciation");
   }
 
   @override
@@ -223,7 +223,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bishop made an angry denunciation of the government's policies."); // DOPSUM: CHANGE TEXT
+        "The bishop made an angry denunciation of the government's policies.");
   }
 
   Future<void> speakdenunciations2(String languageCode) async {
@@ -231,144 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All parties joined in bitter denunciation of the terrorists."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations3(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations4(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations5(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations6(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations7(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations8(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations9(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations10(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations11(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations12(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations13(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations14(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations15(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations16(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations17(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations18(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations19(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All parties joined in bitter denunciation of the terrorists.");
   }
 
   Future<void> speakdenunciations20(String languageCode) async {
@@ -376,24 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All parties joined in bitter denunciation of the terrorists.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations21(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenunciations22(String languageCode) async {
-    // DOPSUM: CHANGE speakdenunciation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenunciations2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All parties joined in bitter denunciation of the terrorists.0");
   }
 
   @override

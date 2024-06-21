@@ -16,7 +16,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("air conditioner"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("air conditioner");
   }
 
   Future<void> speakairconditio3411(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The room temperature was controlled by using an air conditioner."); // DOPSUM: CHANGE TEXT
+        "The room temperature was controlled by using an air conditioner.");
   }
 
   // Future<void> speakairconditioner(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air conditioner"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air conditioner");
   // }
 
   // Future<void> speakairconditioner(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air conditioner"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air conditioner");
   // }
 
   @override

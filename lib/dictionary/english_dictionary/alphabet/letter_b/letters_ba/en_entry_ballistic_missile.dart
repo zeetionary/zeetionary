@@ -24,7 +24,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ballistic missile"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ballistic missile");
   }
 
   Future<void> speakballisticmissiles1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more."); // DOPSUM: CHANGE TEXT
+        "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more.");
   }
 
   Future<void> speakballisticmissiles2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallisticmissiles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBallisticmissiles22");
   }
 
   Future<void> speakballisticmissiles3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallisticmissiles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBallisticmissiles33");
   }
 
   Future<void> speakballisticmissiles4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallisticmissiles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBallisticmissiles44");
   }
 
   Future<void> speakballisticmissiles5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallisticmissiles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBallisticmissiles55");
   }
 
   Future<void> speakballisticmissiles6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallisticmissiles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBallisticmissiles66");
   }
 
   Future<void> speakballisticmissiles7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallisticmissiles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBallisticmissiles77");
   }
 
   @override

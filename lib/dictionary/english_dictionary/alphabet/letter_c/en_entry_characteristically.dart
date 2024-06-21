@@ -21,7 +21,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("characteristically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("characteristically");
   }
 
   Future<void> speakcharacteristicallys1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Characteristically, Helen paid for everyone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Characteristically, Helen paid for everyone.");
   }
 
   Future<void> speakcharacteristicallys2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Parkinson's disease characteristically occurs in old age."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Parkinson's disease characteristically occurs in old age.");
   }
 
   Future<void> speakcharacteristicallys3(String languageCode) async {
@@ -47,8 +46,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys300");
   }
 
   Future<void> speakcharacteristicallys4(String languageCode) async {
@@ -56,8 +54,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys400");
   }
 
   Future<void> speakcharacteristicallys5(String languageCode) async {
@@ -65,8 +62,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys500");
   }
 
   Future<void> speakcharacteristicallys6(String languageCode) async {
@@ -74,8 +70,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys600");
   }
 
   Future<void> speakcharacteristicallys7(String languageCode) async {
@@ -83,8 +78,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys700");
   }
 
   Future<void> speakcharacteristicallys8(String languageCode) async {
@@ -92,8 +86,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys800");
   }
 
   Future<void> speakcharacteristicallys9(String languageCode) async {
@@ -101,8 +94,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys900");
   }
 
   Future<void> speakcharacteristicallys10(String languageCode) async {
@@ -110,8 +102,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys1000");
   }
 
   Future<void> speakcharacteristicallys11(String languageCode) async {
@@ -119,8 +110,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys1100");
   }
 
   Future<void> speakcharacteristicallys12(String languageCode) async {
@@ -128,8 +118,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys1200");
   }
 
   Future<void> speakcharacteristicallys13(String languageCode) async {
@@ -137,8 +126,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcharacteristicallys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharacteristicallys1300");
   }
 
   @override

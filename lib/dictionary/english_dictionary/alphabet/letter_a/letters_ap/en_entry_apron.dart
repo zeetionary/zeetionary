@@ -22,7 +22,7 @@ class EnglishEntryapron extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apron");
   }
 
   Future<void> speakapron728(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryapron extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her apron was speckled with oil."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her apron was speckled with oil.");
   }
 
   // Future<void> speakapron(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   // Future<void> speakapron(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   // Future<void> speakapron(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   // Future<void> speakapron(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   // Future<void> speakapron(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   // Future<void> speakapron(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   // Future<void> speakapron(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apron");
   // }
 
   @override

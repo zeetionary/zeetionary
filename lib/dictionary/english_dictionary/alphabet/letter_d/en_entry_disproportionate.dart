@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disproportionate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disproportionate");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disproportionate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disproportionate");
   }
 
   @override
@@ -223,8 +223,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are a disproportionate number of girls in the class."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are a disproportionate number of girls in the class.");
   }
 
   Future<void> speakdisproportionates2(String languageCode) async {
@@ -233,169 +233,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The country's great influence in the world is disproportionate to its relatively small size."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates3(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdisproportionates_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdisproportionates_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisproportionates22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisproportionate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisproportionates2200"); // DOPSUM: CHANGE TEXT
+        "The country's great influence in the world is disproportionate to its relatively small size.");
   }
 
   @override

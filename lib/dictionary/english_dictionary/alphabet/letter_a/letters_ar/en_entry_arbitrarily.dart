@@ -22,7 +22,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arbitrarily");
   }
 
   Future<void> speakarbitrarily1132(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryarbitrarily extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The leaders of the groups were chosen arbitrarily."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The leaders of the groups were chosen arbitrarily.");
   }
 
   Future<void> speakarbitrarily1135(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."); // DOPSUM: CHANGE TEXT
+        "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers.");
   }
 
   // Future<void> speakarbitrarily(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrarily");
   // }
 
   // Future<void> speakarbitrarily(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrarily");
   // }
 
   // Future<void> speakarbitrarily(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrarily");
   // }
 
   // Future<void> speakarbitrarily(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrarily");
   // }
 
   // Future<void> speakarbitrarily(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrarily");
   // }
 
   // Future<void> speakarbitrarily(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arbitrarily");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryabsolve extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absolve"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absolve");
   }
 
   Future<void> speakabsolve5555(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryabsolve extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The court absolved him of all responsibility for the accident."); // DOPSUM: CHANGE TEXT
+        "The court absolved him of all responsibility for the accident.");
   }
 
   @override

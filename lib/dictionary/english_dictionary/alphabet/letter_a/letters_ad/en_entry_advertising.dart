@@ -16,7 +16,7 @@ class EnglishEntryadvertising extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advertising"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("advertising");
   }
 
   Future<void> speakadver2537(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadvertising extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Paid advertising on social media is an assured way to reach out to customers."); // DOPSUM: CHANGE TEXT
+        "Paid advertising on social media is an assured way to reach out to customers.");
   }
 
   // Future<void> speakadvertising(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryadvertising extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advertising"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("advertising");
   // }
 
   // Future<void> speakadvertising(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryadvertising extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advertising"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("advertising");
   // }
 
   @override

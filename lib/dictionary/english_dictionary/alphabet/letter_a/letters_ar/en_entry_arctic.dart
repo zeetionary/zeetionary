@@ -22,7 +22,7 @@ class EnglishEntryarctic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Arctic");
   }
 
   Future<void> speakarctic449(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryarctic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("No trees grow in the Arctic regions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("No trees grow in the Arctic regions.");
   }
 
   Future<void> speakarctic451(String languageCode) async {
@@ -40,7 +39,7 @@ class EnglishEntryarctic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The North of England has been experiencing Arctic conditions these past few days."); // DOPSUM: CHANGE TEXT
+        "The North of England has been experiencing Arctic conditions these past few days.");
   }
 
   Future<void> speakarctic452(String languageCode) async {
@@ -48,8 +47,7 @@ class EnglishEntryarctic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Polar bears live in the Arctic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Polar bears live in the Arctic.");
   }
 
   // Future<void> speakarctic(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic");
   // }
 
   // Future<void> speakarctic(String languageCode) async {
@@ -65,7 +63,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic");
   // }
 
   // Future<void> speakarctic(String languageCode) async {
@@ -73,7 +71,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic");
   // }
 
   // Future<void> speakarctic(String languageCode) async {
@@ -81,7 +79,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic");
   // }
 
   // Future<void> speakarctic(String languageCode) async {
@@ -89,7 +87,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic");
   // }
 
   @override

@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandon");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandon");
   }
 
   @override
@@ -220,8 +220,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Germany abandoned its political leaders after WWII."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Germany abandoned its political leaders after WWII.");
   }
 
   Future<void> speak145632(String languageCode) async {
@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The baby had been abandoned by its mother."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The baby had been abandoned by its mother.");
   }
 
   Future<void> speak4522369(String languageCode) async {
@@ -238,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Snow forced many drivers to abandon their vehicles."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Snow forced many drivers to abandon their vehicles.");
   }
 
   Future<void> speak112547(String languageCode) async {
@@ -247,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They abandoned the match because of rain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They abandoned the match because of rain.");
   }
 
   @override

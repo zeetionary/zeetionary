@@ -18,7 +18,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bulk"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bulk");
   }
 
   Future<void> speakbulks1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bulk of the population lives in cities."); // DOPSUM: CHANGE TEXT
+        "The bulk of the population lives in cities.");
   }
 
   Future<void> speakbulks2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The great bulk of the work has now been done."); // DOPSUM: CHANGE TEXT
+        "The great bulk of the work has now been done.");
   }
 
   Future<void> speakbulks3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Despite its bulk and weight, the car is extremely fast."); // DOPSUM: CHANGE TEXT
+        "Despite its bulk and weight, the car is extremely fast.");
   }
 
   Future<void> speakbulks4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("It's cheaper to buy in bulk."); // DOPSUM: CHANGE TEXT
+        .speak("It's cheaper to buy in bulk.");
   }
 
   Future<void> speakbulks5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She eased her large bulk out of the chair."); // DOPSUM: CHANGE TEXT
+        "She eased her large bulk out of the chair.");
   }
 
   Future<void> speakbulks6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbulks66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulks66");
   }
 
   Future<void> speakbulks7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbulks77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulks77");
   }
 
   @override

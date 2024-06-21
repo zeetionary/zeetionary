@@ -24,7 +24,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("beyond"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("beyond");
   }
 
   Future<void> speakbeyonds1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The road continues beyond the village up into the hills."); // DOPSUM: CHANGE TEXT
+        "The road continues beyond the village up into the hills.");
   }
 
   Future<void> speakbeyonds2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In the distance, beyond the river, was a small town."); // DOPSUM: CHANGE TEXT
+        "In the distance, beyond the river, was a small town.");
   }
 
   Future<void> speakbeyonds3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our success was far beyond what we thought possible."); // DOPSUM: CHANGE TEXT
+        "Our success was far beyond what we thought possible.");
   }
 
   Future<void> speakbeyonds4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I know what I'll be doing for the next three weeks but I haven't thought beyond that."); // DOPSUM: CHANGE TEXT
+        "I know what I'll be doing for the next three weeks but I haven't thought beyond that.");
   }
 
   Future<void> speakbeyonds5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The situation is beyond our control."); // DOPSUM: CHANGE TEXT
+        .speak("The situation is beyond our control.");
   }
 
   Future<void> speakbeyonds6(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The bicycle was beyond repair."); // DOPSUM: CHANGE TEXT
+        .speak("The bicycle was beyond repair.");
   }
 
   Future<void> speakbeyonds7(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The exercise was beyond the abilities of most of the class."); // DOPSUM: CHANGE TEXT
+        "The exercise was beyond the abilities of most of the class.");
   }
 
   Future<void> speakbeyonds8(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The immediate future is clear, but it's hard to tell what lies beyond."); // DOPSUM: CHANGE TEXT
+        "The immediate future is clear, but it's hard to tell what lies beyond.");
   }
 
   Future<void> speakbeyonds9(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Everest and the mountains beyond were covered in snow."); // DOPSUM: CHANGE TEXT
+        "Everest and the mountains beyond were covered in snow.");
   }
 
   Future<void> speakbeyonds10(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBeyonds1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeyonds1010");
   }
 
   Future<void> speakbeyonds11(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBeyonds1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeyonds1111");
   }
 
   Future<void> speakbeyonds12(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBeyonds1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeyonds1212");
   }
 
   @override

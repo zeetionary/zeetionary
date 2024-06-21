@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dust bowl"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dust bowl");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dust bowl"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dust bowl");
   }
 
   @override
@@ -352,175 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Oklahoma Dust Bowl of the 1930s forced people to move west."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls2(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls3(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls4(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls5(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls6(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls7(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls8(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls9(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls10(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls11(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls12(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls13(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls14(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls15(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls16(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls17(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls18(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls19(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls20(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls21(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdustbowls22(String languageCode) async {
-    // DOPSUM: CHANGE speakdustbowl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdustbowls2200"); // DOPSUM: CHANGE TEXT
+        "The Oklahoma Dust Bowl of the 1930s forced people to move west.");
   }
 
   @override

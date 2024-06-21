@@ -17,7 +17,7 @@ class EnglishEntryantagonist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antagonist");
   }
 
   Future<void> speakantagonist1255(String languageCode) async {
@@ -26,7 +26,7 @@ class EnglishEntryantagonist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He has always been the prime minister’s most formidable antagonist in Parliament."); // DOPSUM: CHANGE TEXT
+        "He has always been the prime minister’s most formidable antagonist in Parliament.");
   }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   // Future<void> speakantagonist(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antagonist");
   // }
 
   @override

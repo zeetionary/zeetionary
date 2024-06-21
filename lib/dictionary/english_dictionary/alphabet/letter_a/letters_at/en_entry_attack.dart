@@ -24,7 +24,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attack");
   }
 
   Future<void> speakattack453(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Five people were killed in the attacks that took place last night."); // DOPSUM: CHANGE TEXT
+        "Five people were killed in the attacks that took place last night.");
   }
 
   Future<void> speakattack455(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A child is recovering in hospital after a serious attack by a stray dog."); // DOPSUM: CHANGE TEXT
+        "A child is recovering in hospital after a serious attack by a stray dog.");
   }
 
   Future<void> speakattack457(String languageCode) async {
@@ -50,8 +50,8 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Rebel forces launched an attack on civilian targets."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Rebel forces launched an attack on civilian targets.");
   }
 
   Future<void> speakattack500(String languageCode) async {
@@ -59,8 +59,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I had an attack of fever this week."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I had an attack of fever this week.");
   }
 
   Future<void> speakattack503(String languageCode) async {
@@ -68,8 +67,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He suffers from attacks of anxiety."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He suffers from attacks of anxiety.");
   }
 
   Future<void> speakattack506(String languageCode) async {
@@ -78,7 +76,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Doctors have gone on the attack, accusing the government of incompetence."); // DOPSUM: CHANGE TEXT
+        "Doctors have gone on the attack, accusing the government of incompetence.");
   }
 
   Future<void> speakattack508(String languageCode) async {
@@ -87,7 +85,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Germany's attack has been weakened by the loss of some key players through injury."); // DOPSUM: CHANGE TEXT
+        "Germany's attack has been weakened by the loss of some key players through injury.");
   }
 
   Future<void> speakattack510(String languageCode) async {
@@ -95,8 +93,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was a sustained attack on the Arsenal goal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There was a sustained attack on the Arsenal goal.");
   }
 
   Future<void> speakattack512(String languageCode) async {
@@ -104,8 +101,8 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government launched an all-out attack on poverty."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The government launched an all-out attack on poverty.");
   }
 
   Future<void> speakattack515(String languageCode) async {
@@ -113,8 +110,8 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The roof timbers were affected by rot and insect attack."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The roof timbers were affected by rot and insect attack.");
   }
 
   Future<void> speakattack517(String languageCode) async {
@@ -122,8 +119,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most dogs will not attack unless provoked."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Most dogs will not attack unless provoked.");
   }
 
   Future<void> speakattack519(String languageCode) async {
@@ -131,8 +127,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Enemy forces attacked at night."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Enemy forces attacked at night.");
   }
 
   Future<void> speakattack523(String languageCode) async {
@@ -140,8 +135,8 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His latest work has been bitterly attacked by the critics."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His latest work has been bitterly attacked by the critics.");
   }
 
   Future<void> speakattack525(String languageCode) async {
@@ -150,7 +145,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Bacteria act on sugars to form acids which attack the tooth surface."); // DOPSUM: CHANGE TEXT
+        "Bacteria act on sugars to form acids which attack the tooth surface.");
   }
 
   Future<void> speakattack526(String languageCode) async {
@@ -158,8 +153,8 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Spain attacked more in the second half and deserved a goal."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Spain attacked more in the second half and deserved a goal.");
   }
 
   Future<void> speakattack528(String languageCode) async {
@@ -167,8 +162,7 @@ class EnglishEntryattack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Let's attack one problem at a time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's attack one problem at a time.");
   }
 
   // Future<void> speakattack(String languageCode) async {
@@ -176,7 +170,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   // Future<void> speakattack(String languageCode) async {
@@ -184,7 +178,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   // Future<void> speakattack(String languageCode) async {
@@ -192,7 +186,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   // Future<void> speakattack(String languageCode) async {
@@ -200,7 +194,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   // Future<void> speakattack(String languageCode) async {
@@ -208,7 +202,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   // Future<void> speakattack(String languageCode) async {
@@ -216,7 +210,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   // Future<void> speakattack(String languageCode) async {
@@ -224,7 +218,7 @@ class EnglishEntryattack extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attack"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attack");
   // }
 
   @override

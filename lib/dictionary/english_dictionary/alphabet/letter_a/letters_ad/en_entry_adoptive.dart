@@ -16,7 +16,7 @@ class EnglishEntryadoptive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adoptive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adoptive");
   }
 
   Future<void> speakadop57124(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadoptive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When he was 7 months old, his mother gave him up to his adoptive parents."); // DOPSUM: CHANGE TEXT
+        "When he was 7 months old, his mother gave him up to his adoptive parents.");
   }
 
   // Future<void> speakadoptive(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryadoptive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adoptive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adoptive");
   // }
 
   // Future<void> speakadoptive(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryadoptive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adoptive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adoptive");
   // }
 
   @override

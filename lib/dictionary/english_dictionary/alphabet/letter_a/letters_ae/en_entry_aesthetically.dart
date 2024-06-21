@@ -16,7 +16,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aesthetically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aesthetically");
   }
 
   Future<void> speakaestheti1255(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaesthetically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The film is technically and aesthetically brilliant."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The film is technically and aesthetically brilliant.");
   }
 
   Future<void> speakaesth3669941(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The interior has been aesthetically decorated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The interior has been aesthetically decorated.");
   }
 
   // Future<void> speakaesthetically(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aesthetically"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aesthetically");
   // }
 
   @override

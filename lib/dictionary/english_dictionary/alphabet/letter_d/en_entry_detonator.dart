@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detonator"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detonator");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detonator"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detonator");
   }
 
   @override
@@ -221,176 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The detonator set off the dynamite in the mine."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators2(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators3(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators4(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators5(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators20(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetonators22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetonator
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetonators2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The detonator set off the dynamite in the mine.");
   }
 
   @override

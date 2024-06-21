@@ -24,7 +24,7 @@ class EnglishEntryasphalt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("asphalt");
   }
 
   Future<void> speakasphalt528(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryasphalt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The road was paved with asphalt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The road was paved with asphalt.");
   }
 
   Future<void> speakasphalt530(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryasphalt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The workers asphalted the road."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The workers asphalted the road.");
   }
 
   // Future<void> speakasphalt(String languageCode) async {
@@ -50,7 +48,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asphalt");
   // }
 
   // Future<void> speakasphalt(String languageCode) async {
@@ -58,7 +56,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asphalt");
   // }
 
   // Future<void> speakasphalt(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asphalt");
   // }
 
   // Future<void> speakasphalt(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asphalt");
   // }
 
   // Future<void> speakasphalt(String languageCode) async {
@@ -82,7 +80,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asphalt");
   // }
 
   // Future<void> speakasphalt(String languageCode) async {
@@ -90,7 +88,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asphalt");
   // }
 
   @override

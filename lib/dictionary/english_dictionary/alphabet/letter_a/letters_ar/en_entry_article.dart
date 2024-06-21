@@ -24,7 +24,7 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("article");
   }
 
   Future<void> speakarticle525(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her tweet links to an article posted online by the ‘CNN’."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her tweet links to an article posted online by the ‘CNN’.");
   }
 
   Future<void> speakarticle630(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "According to a recent newspaper article, the company is worth over £20 billion."); // DOPSUM: CHANGE TEXT
+        "According to a recent newspaper article, the company is worth over £20 billion.");
   }
 
   Future<void> speakarticle635(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The key articles of the constitution can only be changed by referendum."); // DOPSUM: CHANGE TEXT
+        "The key articles of the constitution can only be changed by referendum.");
   }
 
   Future<void> speakarticle639(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The articles found in the car helped the police to identify the body."); // DOPSUM: CHANGE TEXT
+        "The articles found in the car helped the police to identify the body.");
   }
 
   Future<void> speakarticle641(String languageCode) async {
@@ -68,8 +68,8 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Names of countries in English do not usually take an article."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Names of countries in English do not usually take an article.");
   }
 
   // Future<void> speakarticle(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryarticle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("article");
   // }
 
   // Future<void> speakarticle(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryarticle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("article");
   // }
 
   // Future<void> speakarticle(String languageCode) async {
@@ -93,7 +93,7 @@ class EnglishEntryarticle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("article");
   // }
 
   @override

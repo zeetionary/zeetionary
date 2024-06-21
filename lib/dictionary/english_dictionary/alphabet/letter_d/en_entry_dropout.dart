@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dropout"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dropout");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dropout"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dropout");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was a loner and a dropout."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was a loner and a dropout.");
   }
 
   Future<void> speakdropouts2(String languageCode) async {
@@ -360,168 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He’s a dropout who will never have a steady job."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts3(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts4(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts5(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts6(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts7(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts8(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts9(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts10(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts11(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts12(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts13(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts14(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts15(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts16(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts17(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts18(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts19(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts20(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts21(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdropouts22(String languageCode) async {
-    // DOPSUM: CHANGE speakdropout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdropouts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He’s a dropout who will never have a steady job.");
   }
 
   @override

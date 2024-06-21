@@ -21,7 +21,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("close-knit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("close-knit");
   }
 
   Future<void> speakcloseknits1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The community was close-knit, with everyone knowing each other."); // DOPSUM: CHANGE TEXT
+        "The community was close-knit, with everyone knowing each other.");
   }
 
   Future<void> speakcloseknits2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits200");
   }
 
   Future<void> speakcloseknits3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits300");
   }
 
   Future<void> speakcloseknits4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits400");
   }
 
   Future<void> speakcloseknits5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits500");
   }
 
   Future<void> speakcloseknits6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits600");
   }
 
   Future<void> speakcloseknits7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits700");
   }
 
   Future<void> speakcloseknits8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits800");
   }
 
   Future<void> speakcloseknits9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits900");
   }
 
   Future<void> speakcloseknits10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits1000");
   }
 
   Future<void> speakcloseknits11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits1100");
   }
 
   Future<void> speakcloseknits12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits1200");
   }
 
   Future<void> speakcloseknits13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloseknits1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcloseknits1300");
   }
 
   @override

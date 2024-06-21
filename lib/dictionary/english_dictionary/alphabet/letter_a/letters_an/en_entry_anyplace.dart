@@ -20,7 +20,7 @@ class EnglishEntryanyplace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anyplace");
   }
 
   Future<void> speakanyplace949(String languageCode) async {
@@ -28,7 +28,7 @@ class EnglishEntryanyplace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I can't see it anyplace."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I can't see it anyplace.");
   }
 
   Future<void> speakanyplace951(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntryanyplace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Put the box down anyplace."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Put the box down anyplace.");
   }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -92,7 +92,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   // Future<void> speakanyplace(String languageCode) async {
@@ -100,7 +100,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyplace");
   // }
 
   @override

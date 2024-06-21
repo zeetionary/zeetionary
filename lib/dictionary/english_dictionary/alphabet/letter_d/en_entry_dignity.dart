@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dignity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dignity");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dignity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dignity");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She accepted the criticism with dignity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She accepted the criticism with dignity.");
   }
 
   Future<void> speakdignitys2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He brings a dignity to the role."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He brings a dignity to the role.");
   }
 
   Future<void> speakdignitys3(String languageCode) async {
@@ -239,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The terminally ill should be allowed to die with dignity."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The terminally ill should be allowed to die with dignity.");
   }
 
   Future<void> speakdignitys4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Slavery destroys human dignity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Slavery destroys human dignity.");
   }
 
   Future<void> speakdignitys5(String languageCode) async {
@@ -257,8 +254,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The awful thing about old age is losing your dignity."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The awful thing about old age is losing your dignity.");
   }
 
   Future<void> speakdignitys6(String languageCode) async {
@@ -267,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It's difficult to preserve your dignity when you have no job and no home."); // DOPSUM: CHANGE TEXT
+        "It's difficult to preserve your dignity when you have no job and no home.");
   }
 
   Future<void> speakdignitys7(String languageCode) async {
@@ -275,128 +272,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("These people have enormous dignity."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdignitys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdignity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdignitys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These people have enormous dignity.");
   }
 
   @override

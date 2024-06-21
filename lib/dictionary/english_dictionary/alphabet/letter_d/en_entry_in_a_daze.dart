@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("in a daze"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("in a daze");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("in a daze"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("in a daze");
   }
 
   @override
@@ -221,104 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I've been in a complete daze since hearing the news."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes2(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes3(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes4(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes5(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes6(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes7(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes8(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes9(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes10(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes11(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes12(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakinadazes13(String languageCode) async {
-    // DOPSUM: CHANGE speakinadaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakinadazes1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I've been in a complete daze since hearing the news.");
   }
 
   @override

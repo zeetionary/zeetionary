@@ -16,7 +16,7 @@ class EnglishEntryallowable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allowable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allowable");
   }
 
   Future<void> speakallowable432(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryallowable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A certain level of error is allowable."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A certain level of error is allowable.");
   }
 
   // Future<void> speakallowable(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryallowable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allowable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allowable");
   // }
 
   // Future<void> speakallowable(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryallowable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allowable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allowable");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryambassador extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ambassador"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ambassador");
   }
 
   Future<void> speakambassador56661(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryambassador extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The US ambassador to Egypt was recalled to Washington in protest."); // DOPSUM: CHANGE TEXT
+        "The US ambassador to Egypt was recalled to Washington in protest.");
   }
 
   Future<void> speakambassador8(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryambassador extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's former ambassador of Germany to the UN."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's former ambassador of Germany to the UN.");
   }
 
   // Future<void> speakambassador(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryambassador extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ambassador"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ambassador");
   // }
 
   @override

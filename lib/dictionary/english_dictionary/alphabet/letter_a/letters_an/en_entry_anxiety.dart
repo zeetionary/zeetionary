@@ -20,7 +20,7 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anxiety");
   }
 
   Future<void> speakanxiety651(String languageCode) async {
@@ -28,8 +28,8 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some hospital patients experience high levels of anxiety."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Some hospital patients experience high levels of anxiety.");
   }
 
   Future<void> speakanxiety656(String languageCode) async {
@@ -37,8 +37,8 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A lot of anxiety surrounds the issue of human cloning."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A lot of anxiety surrounds the issue of human cloning.");
   }
 
   Future<void> speakanxiety700(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some people are feeling the pressure and suffering from anxiety and depression."); // DOPSUM: CHANGE TEXT
+        "Some people are feeling the pressure and suffering from anxiety and depression.");
   }
 
   Future<void> speakanxiety705(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If you're worried about your health, share your anxieties with your doctor."); // DOPSUM: CHANGE TEXT
+        "If you're worried about your health, share your anxieties with your doctor.");
   }
 
   Future<void> speakanxiety708(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A couple of photographers fell over themselves in their anxiety to get a shot of her."); // DOPSUM: CHANGE TEXT
+        "A couple of photographers fell over themselves in their anxiety to get a shot of her.");
   }
 
   // Future<void> speakanxiety(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryanxiety extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anxiety");
   // }
 
   // Future<void> speakanxiety(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryanxiety extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anxiety");
   // }
 
   // Future<void> speakanxiety(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryanxiety extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anxiety");
   // }
 
   @override

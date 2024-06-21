@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distribute"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distribute");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distribute"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distribute");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The leaflets have been widely distributed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The leaflets have been widely distributed.");
   }
 
   Future<void> speakdistributes2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The newspaper is distributed free."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The newspaper is distributed free.");
   }
 
   Future<void> speakdistributes3(String languageCode) async {
@@ -369,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Viruses are often distributed via email."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Viruses are often distributed via email.");
   }
 
   Future<void> speakdistributes4(String languageCode) async {
@@ -378,8 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The organization distributed food to the earthquake victims."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The organization distributed food to the earthquake victims.");
   }
 
   Future<void> speakdistributes5(String languageCode) async {
@@ -387,8 +384,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The money was distributed among schools in the area."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The money was distributed among schools in the area.");
   }
 
   Future<void> speakdistributes6(String languageCode) async {
@@ -396,8 +393,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Who distributes our products in the UK?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Who distributes our products in the UK?");
   }
 
   Future<void> speakdistributes7(String languageCode) async {
@@ -405,8 +401,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hood distributes dairy products throughout the United States."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Hood distributes dairy products throughout the United States.");
   }
 
   Future<void> speakdistributes8(String languageCode) async {
@@ -414,8 +410,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Make sure your weight is evenly distributed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Make sure your weight is evenly distributed.");
   }
 
   Future<void> speakdistributes9(String languageCode) async {
@@ -423,112 +418,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cases of the disease are widely distributed through Europe."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistributes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistribute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistributes2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Cases of the disease are widely distributed through Europe.");
   }
 
   @override

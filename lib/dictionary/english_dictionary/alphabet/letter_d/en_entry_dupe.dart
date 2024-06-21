@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dupe"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dupe");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dupe"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dupe");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They soon realized they had been duped."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They soon realized they had been duped.");
   }
 
   Future<void> speakdupes2(String languageCode) async {
@@ -361,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The girls were duped by drug smugglers into carrying heroin for them."); // DOPSUM: CHANGE TEXT
+        "The girls were duped by drug smugglers into carrying heroin for them.");
   }
 
   Future<void> speakdupes3(String languageCode) async {
@@ -370,159 +369,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These men were simply the dupes of their unscrupulous leaders."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes4(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes5(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes6(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes7(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes8(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes9(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes20(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdupes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdupe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdupes2200"); // DOPSUM: CHANGE TEXT
+        "These men were simply the dupes of their unscrupulous leaders.");
   }
 
   @override

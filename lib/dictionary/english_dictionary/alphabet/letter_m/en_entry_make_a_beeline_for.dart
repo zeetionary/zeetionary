@@ -24,7 +24,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("make a beeline for"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("make a beeline for");
   }
 
   Future<void> speakMakeabeelinefors1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As soon as she arrived at the party, she made a beeline for the food."); // DOPSUM: CHANGE TEXT
+        "As soon as she arrived at the party, she made a beeline for the food.");
   }
 
   Future<void> speakMakeabeelinefors2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "At parties he always makes a beeline for the prettiest woman in the room."); // DOPSUM: CHANGE TEXT
+        "At parties he always makes a beeline for the prettiest woman in the room.");
   }
 
   Future<void> speakMakeabeelinefors3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakMakeabeelinefors33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakMakeabeelinefors33");
   }
 
   Future<void> speakMakeabeelinefors4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakMakeabeelinefors44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakMakeabeelinefors44");
   }
 
   Future<void> speakMakeabeelinefors5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakMakeabeelinefors55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakMakeabeelinefors55");
   }
 
   Future<void> speakMakeabeelinefors6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakMakeabeelinefors66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakMakeabeelinefors66");
   }
 
   Future<void> speakMakeabeelinefors7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakMakeabeelinefors77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakMakeabeelinefors77");
   }
 
   @override

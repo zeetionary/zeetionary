@@ -16,7 +16,7 @@ class EnglishEntryafflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("afflict"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afflict");
   }
 
   Future<void> speakaffl455(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryafflict extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our city has been afflicted with a high crime rate for decades."); // DOPSUM: CHANGE TEXT
+        "Our city has been afflicted with a high crime rate for decades.");
   }
 
   Future<void> speakaffli994(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryafflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Severe drought has afflicted the region."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Severe drought has afflicted the region.");
   }
 
   // Future<void> speakafflict(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryafflict extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afflict"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afflict");
   // }
 
   @override

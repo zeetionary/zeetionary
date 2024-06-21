@@ -21,7 +21,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("claim"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("claim");
   }
 
   Future<void> speakclaims1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I don't claim to be an expert."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I don't claim to be an expert.");
   }
 
   Future<void> speakclaims2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's not the saint that many have claimed her to be."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She's not the saint that many have claimed her to be.");
   }
 
   Future<void> speakclaims3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists are claiming a major breakthrough in the fight against cancer."); // DOPSUM: CHANGE TEXT
+        "Scientists are claiming a major breakthrough in the fight against cancer.");
   }
 
   Future<void> speakclaims4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was claimed that some doctors were working 80 hours a week."); // DOPSUM: CHANGE TEXT
+        "It was claimed that some doctors were working 80 hours a week.");
   }
 
   Future<void> speakclaims5(String languageCode) async {
@@ -65,8 +64,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some critics claimed that the play was too complicated."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Some critics claimed that the play was too complicated.");
   }
 
   Future<void> speakclaims6(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He claimed victory in the presidential elections before all the results were in."); // DOPSUM: CHANGE TEXT
+        "He claimed victory in the presidential elections before all the results were in.");
   }
 
   Future<void> speakclaims7(String languageCode) async {
@@ -83,8 +82,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Nobody has claimed responsibility for the bombing."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Nobody has claimed responsibility for the bombing.");
   }
 
   Future<void> speakclaims8(String languageCode) async {
@@ -93,7 +92,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You might be entitled to claim compensation if you are injured at work."); // DOPSUM: CHANGE TEXT
+        "You might be entitled to claim compensation if you are injured at work.");
   }
 
   Future<void> speakclaims9(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You could have claimed the cost of the hotel room from your insurance."); // DOPSUM: CHANGE TEXT
+        "You could have claimed the cost of the hotel room from your insurance.");
   }
 
   Future<void> speakclaims10(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She claimed damages from the company for the injury she had suffered."); // DOPSUM: CHANGE TEXT
+        "She claimed damages from the company for the injury she had suffered.");
   }
 
   Future<void> speakclaims11(String languageCode) async {
@@ -119,8 +118,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She is entitled to claim a deduction for travel costs."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She is entitled to claim a deduction for travel costs.");
   }
 
   Future<void> speakclaims12(String languageCode) async {
@@ -129,7 +128,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The family arrived in the UK in the 1990s and claimed political asylum."); // DOPSUM: CHANGE TEXT
+        "The family arrived in the UK in the 1990s and claimed political asylum.");
   }
 
   Future<void> speakclaims13(String languageCode) async {
@@ -138,7 +137,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When King Richard III died, Henry VII claimed the English throne."); // DOPSUM: CHANGE TEXT
+        "When King Richard III died, Henry VII claimed the English throne.");
   }
 
   Future<void> speakclaims14(String languageCode) async {
@@ -147,7 +146,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police said that if no one claims the watch, you can keep it."); // DOPSUM: CHANGE TEXT
+        "The police said that if no one claims the watch, you can keep it.");
   }
 
   Future<void> speakclaims15(String languageCode) async {
@@ -155,8 +154,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A most unwelcome event claimed his attention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A most unwelcome event claimed his attention.");
   }
 
   Future<void> speakclaims16(String languageCode) async {
@@ -164,8 +162,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has finally claimed a place on the team."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has finally claimed a place on the team.");
   }
 
   Future<void> speakclaims17(String languageCode) async {
@@ -173,8 +170,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The car crash claimed three lives."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The car crash claimed three lives.");
   }
 
   Future<void> speakclaims18(String languageCode) async {
@@ -182,8 +178,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company had made false claims about its products."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The company had made false claims about its products.");
   }
 
   Future<void> speakclaims19(String languageCode) async {
@@ -192,7 +188,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The singer has denied the magazine's claim that she is leaving the band."); // DOPSUM: CHANGE TEXT
+        "The singer has denied the magazine's claim that she is leaving the band.");
   }
 
   Future<void> speakclaims20(String languageCode) async {
@@ -200,8 +196,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Claims of corruption within the police force were denied."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Claims of corruption within the police force were denied.");
   }
 
   Future<void> speakclaims21(String languageCode) async {
@@ -209,8 +205,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are conflicting claims about the cause of the fire."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are conflicting claims about the cause of the fire.");
   }
 
   Future<void> speakclaims22(String languageCode) async {
@@ -218,8 +214,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have heard claims like this many times before."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have heard claims like this many times before.");
   }
 
   Future<void> speakclaims23(String languageCode) async {
@@ -228,7 +223,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Make sure your claims for expenses are submitted by the end of the month."); // DOPSUM: CHANGE TEXT
+        "Make sure your claims for expenses are submitted by the end of the month.");
   }
 
   Future<void> speakclaims24(String languageCode) async {
@@ -236,8 +231,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She brought a claim for damages against the company."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She brought a claim for damages against the company.");
   }
 
   Future<void> speakclaims25(String languageCode) async {
@@ -245,8 +240,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The court denied their claim for compensation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The court denied their claim for compensation.");
   }
 
   Future<void> speakclaims26(String languageCode) async {
@@ -254,8 +248,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They had no claim on the land."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They had no claim on the land.");
   }
 
   Future<void> speakclaims27(String languageCode) async {
@@ -263,8 +256,8 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has more claim to the campaign's success than anybody."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She has more claim to the campaign's success than anybody.");
   }
 
   Future<void> speakclaims28(String languageCode) async {
@@ -272,8 +265,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She renounced her claim to the property."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She renounced her claim to the property.");
   }
 
   Future<void> speakclaims29(String languageCode) async {
@@ -281,7 +273,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims2900");
   }
 
   Future<void> speakclaims30(String languageCode) async {
@@ -289,7 +281,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3000");
   }
 
   Future<void> speakclaims31(String languageCode) async {
@@ -297,7 +289,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3100");
   }
 
   Future<void> speakclaims32(String languageCode) async {
@@ -305,7 +297,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3200");
   }
 
   Future<void> speakclaims33(String languageCode) async {
@@ -313,7 +305,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3300");
   }
 
   Future<void> speakclaims34(String languageCode) async {
@@ -321,7 +313,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3400");
   }
 
   Future<void> speakclaims35(String languageCode) async {
@@ -329,7 +321,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3500");
   }
 
   Future<void> speakclaims36(String languageCode) async {
@@ -337,7 +329,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3600");
   }
 
   Future<void> speakclaims37(String languageCode) async {
@@ -345,7 +337,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3700");
   }
 
   Future<void> speakclaims38(String languageCode) async {
@@ -353,7 +345,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3800");
   }
 
   Future<void> speakclaims39(String languageCode) async {
@@ -361,7 +353,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims3900");
   }
 
   Future<void> speakclaims40(String languageCode) async {
@@ -369,7 +361,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims4000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims4000");
   }
 
   Future<void> speakclaims41(String languageCode) async {
@@ -377,7 +369,7 @@ class EnglishEntryclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaims4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaims4100");
   }
 
   @override

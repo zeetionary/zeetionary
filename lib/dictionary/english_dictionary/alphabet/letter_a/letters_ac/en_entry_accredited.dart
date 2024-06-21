@@ -16,7 +16,7 @@ class EnglishEntryaccredited extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accredited"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accredited");
   }
 
   Future<void> speaka2548(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccredited extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Only accredited journalists were allowed entry."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Only accredited journalists were allowed entry.");
   }
 
   Future<void> speakaccredited46923(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryaccredited extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The university was the most accredited around the country."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The university was the most accredited around the country.");
   }
 
   @override

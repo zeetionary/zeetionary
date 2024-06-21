@@ -16,7 +16,7 @@ class EnglishEntryacidrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acid rain"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acid rain");
   }
 
   Future<void> speakaci1256(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacidrain extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sulphur, falling as acid rain, is killing fish in the Great Lakes."); // DOPSUM: CHANGE TEXT
+        "Sulphur, falling as acid rain, is killing fish in the Great Lakes.");
   }
 
   // Future<void> speakacidrain(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryacidrain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acid rain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acid rain");
   // }
 
   // Future<void> speakacidrain(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryacidrain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acid rain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acid rain");
   // }
 
   @override

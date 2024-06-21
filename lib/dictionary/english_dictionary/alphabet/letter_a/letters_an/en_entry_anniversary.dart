@@ -16,7 +16,7 @@ class EnglishEntryanniversary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anniversary");
   }
 
   Future<void> speakanniversary147(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryanniversary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company is celebrating its 100-year anniversary this year."); // DOPSUM: CHANGE TEXT
+        "The company is celebrating its 100-year anniversary this year.");
   }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   // Future<void> speakanniversary(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anniversary");
   // }
 
   @override

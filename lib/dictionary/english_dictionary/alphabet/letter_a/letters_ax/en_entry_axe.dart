@@ -24,7 +24,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("axe"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("axe");
   }
 
   Future<void> speakaxes1(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Julian used an axe to chop down the old apple tree."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Julian used an axe to chop down the old apple tree.");
   }
 
   Future<void> speakaxes2(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Up to 300 workers are facing the axe."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Up to 300 workers are facing the axe.");
   }
 
   Future<void> speakaxes3(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The series was axed after only six episodes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The series was axed after only six episodes.");
   }
 
   Future<void> speakaxes4(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Michael has been axed from the team."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Michael has been axed from the team.");
   }
 
   Future<void> speakaxes5(String languageCode) async {
@@ -68,7 +65,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxes55");
   }
 
   Future<void> speakaxes6(String languageCode) async {
@@ -76,7 +73,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxes66");
   }
 
   Future<void> speakaxes7(String languageCode) async {
@@ -84,7 +81,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAxes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxes77");
   }
 
   @override

@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("direct debit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("direct debit");
   }
 
   @override
@@ -201,7 +201,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("direct debit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("direct debit");
   }
 
   @override
@@ -224,176 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We pay all our bills by direct debit."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits2(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits3(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits4(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits5(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits6(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits7(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits8(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits9(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits10(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits11(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits12(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits13(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits14(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits15(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits16(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits17(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits18(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits19(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits20(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits21(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectdebits22(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectdebit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectdebits2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We pay all our bills by direct debit.");
   }
 
   @override

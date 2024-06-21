@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dyke"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dyke");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dyke"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dyke");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "During the 1997 floods the sea broke through the dyke."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("During the 1997 floods the sea broke through the dyke.");
   }
 
   Future<void> speakdykes2(String languageCode) async {
@@ -360,168 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The first dykes were cut in the Middle Ages."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes3(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes4(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes5(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes6(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes7(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes8(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes9(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes20(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdykes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdyke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdykes2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The first dykes were cut in the Middle Ages.");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntryattribute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attribute");
   }
 
   Future<void> speakattribute1100(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryattribute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She attributes her success to hard work and a little luck."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She attributes her success to hard work and a little luck.");
   }
 
   Future<void> speakattribute1110(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryattribute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This play is usually attributed to Shakespeare."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This play is usually attributed to Shakespeare.");
   }
 
   Future<void> speakattribute1112(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntryattribute extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The committee refused to attribute blame without further information."); // DOPSUM: CHANGE TEXT
+        "The committee refused to attribute blame without further information.");
   }
 
   Future<void> speakattribute1114(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryattribute extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Patience is one of the most important attributes in a teacher."); // DOPSUM: CHANGE TEXT
+        "Patience is one of the most important attributes in a teacher.");
   }
 
   // Future<void> speakattribute(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryattribute extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attribute");
   // }
 
   // Future<void> speakattribute(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryattribute extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attribute");
   // }
 
   // Future<void> speakattribute(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryattribute extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attribute");
   // }
 
   // Future<void> speakattribute(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntryattribute extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attribute"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attribute");
   // }
 
   @override

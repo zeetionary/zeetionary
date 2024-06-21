@@ -21,7 +21,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("comma"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("comma");
   }
 
   Future<void> speakcommas1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The relative clause is separated by commas."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The relative clause is separated by commas.");
   }
 
   Future<void> speakcommas2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need to put a comma before ‘which’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You need to put a comma before ‘which’.");
   }
 
   Future<void> speakcommas3(String languageCode) async {
@@ -47,7 +45,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas300");
   }
 
   Future<void> speakcommas4(String languageCode) async {
@@ -55,7 +53,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas400");
   }
 
   Future<void> speakcommas5(String languageCode) async {
@@ -63,7 +61,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas500");
   }
 
   Future<void> speakcommas6(String languageCode) async {
@@ -71,7 +69,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas600");
   }
 
   Future<void> speakcommas7(String languageCode) async {
@@ -79,7 +77,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas700");
   }
 
   Future<void> speakcommas8(String languageCode) async {
@@ -87,7 +85,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas800");
   }
 
   Future<void> speakcommas9(String languageCode) async {
@@ -95,7 +93,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas900");
   }
 
   Future<void> speakcommas10(String languageCode) async {
@@ -103,7 +101,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas1000");
   }
 
   Future<void> speakcommas11(String languageCode) async {
@@ -111,7 +109,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas1100");
   }
 
   Future<void> speakcommas12(String languageCode) async {
@@ -119,7 +117,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas1200");
   }
 
   Future<void> speakcommas13(String languageCode) async {
@@ -127,7 +125,7 @@ class EnglishEntrycomma extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommas1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommas1300");
   }
 
   @override

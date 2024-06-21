@@ -16,7 +16,7 @@ class EnglishEntryaccent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accent");
   }
 
   Future<void> speakac25663(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "On which syllable do you place the accent in this word?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("On which syllable do you place the accent in this word?");
   }
 
   Future<void> speakac56412(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaccent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Where are you from? I can't place your accent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Where are you from? I can't place your accent.");
   }
 
   Future<void> speakac25469(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryaccent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Americans had learned Korean and spoke with a good accent."); // DOPSUM: CHANGE TEXT
+        "The Americans had learned Korean and spoke with a good accent.");
   }
 
   Future<void> speakac2544799(String languageCode) async {
@@ -51,8 +50,7 @@ class EnglishEntryaccent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The women accent their eyes with make-up."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The women accent their eyes with make-up.");
   }
 
   @override

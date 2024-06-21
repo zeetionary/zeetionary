@@ -24,7 +24,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("belief"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("belief");
   }
 
   Future<void> speakbeliefs1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I admire his passionate belief in what he is doing."); // DOPSUM: CHANGE TEXT
+        "I admire his passionate belief in what he is doing.");
   }
 
   Future<void> speakbeliefs2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The incident has shaken my belief in the police."); // DOPSUM: CHANGE TEXT
+        "The incident has shaken my belief in the police.");
   }
 
   Future<void> speakbeliefs3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They share a belief that there is life after death."); // DOPSUM: CHANGE TEXT
+        "They share a belief that there is life after death.");
   }
 
   Future<void> speakbeliefs4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a general belief that things will soon get better."); // DOPSUM: CHANGE TEXT
+        "There is a general belief that things will soon get better.");
   }
 
   Future<void> speakbeliefs5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She acted in the belief that she was doing good."); // DOPSUM: CHANGE TEXT
+        "She acted in the belief that she was doing good.");
   }
 
   Future<void> speakbeliefs6(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some people hold beliefs about the world that are not supported by science."); // DOPSUM: CHANGE TEXT
+        "Some people hold beliefs about the world that are not supported by science.");
   }
 
   Future<void> speakbeliefs7(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Labour Party must stick to its beliefs."); // DOPSUM: CHANGE TEXT
+        "The Labour Party must stick to its beliefs.");
   }
 
   @override

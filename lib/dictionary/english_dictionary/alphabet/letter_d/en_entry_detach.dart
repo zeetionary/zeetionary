@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detach"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detach");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detach"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detach");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Detach the coupon and return it as soon as possible."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Detach the coupon and return it as soon as possible.");
   }
 
   Future<void> speakdetachs2(String languageCode) async {
@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "One of the panels had become detached from the main structure."); // DOPSUM: CHANGE TEXT
+        "One of the panels had become detached from the main structure.");
   }
 
   Future<void> speakdetachs3(String languageCode) async {
@@ -239,16 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She detached herself from his embrace."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs4(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She detached herself from his embrace.");
   }
 
   Future<void> speakdetachs5(String languageCode) async {
@@ -257,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I tried to detach myself from the reality of these terrible events."); // DOPSUM: CHANGE TEXT
+        "I tried to detach myself from the reality of these terrible events.");
   }
 
   Future<void> speakdetachs6(String languageCode) async {
@@ -266,111 +257,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Five destroyers were detached to carry out a bombardment of the port."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs1900"); // DOPSUM: CHANGE TEXT
+        "Five destroyers were detached to carry out a bombardment of the port.");
   }
 
   Future<void> speakdetachs20(String languageCode) async {
@@ -379,23 +266,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "One of the panels had become detached from the main structure.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetach
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachs2200"); // DOPSUM: CHANGE TEXT
+        "One of the panels had become detached from the main structure.0");
   }
 
   @override
@@ -498,30 +369,30 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "speakdetachs400"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdetachs400"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdetachs4("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdetachs4("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),

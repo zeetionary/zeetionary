@@ -24,7 +24,7 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awkward"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("awkward");
   }
 
   Future<void> speakawkwards1(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There was an awkward silence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There was an awkward silence.");
   }
 
   Future<void> speakawkwards2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I felt awkward because they obviously wanted to be alone."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I felt awkward because they obviously wanted to be alone.");
   }
 
   Future<void> speakawkwards3(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You've put me in an awkward position."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You've put me in an awkward position.");
   }
 
   Future<void> speakawkwards4(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Have I come at an awkward time?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Have I come at an awkward time?");
   }
 
   Future<void> speakawkwards5(String languageCode) async {
@@ -68,8 +65,7 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This box is very awkward for one person to carry."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This box is very awkward for one person to carry.");
   }
 
   Future<void> speakawkwards6(String languageCode) async {
@@ -77,8 +73,8 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I must have slept in an awkward position—I'm aching all over."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I must have slept in an awkward position—I'm aching all over.");
   }
 
   Future<void> speakawkwards7(String languageCode) async {
@@ -86,7 +82,7 @@ class EnglishEntryawkward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwkwards77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwkwards77");
   }
 
   @override

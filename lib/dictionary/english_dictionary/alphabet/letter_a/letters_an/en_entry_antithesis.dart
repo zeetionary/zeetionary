@@ -20,7 +20,7 @@ class EnglishEntryantithesis extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antithesis");
   }
 
   Future<void> speakantithesis1248(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntryantithesis extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Students finishing their education at 16 is the very antithesis of what society needs."); // DOPSUM: CHANGE TEXT
+        "Students finishing their education at 16 is the very antithesis of what society needs.");
   }
 
   Future<void> speakantithesis1251(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntryantithesis extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is an antithesis between the needs of the state and the needs of the people."); // DOPSUM: CHANGE TEXT
+        "There is an antithesis between the needs of the state and the needs of the people.");
   }
 
   // Future<void> speakantithesis(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antithesis");
   // }
 
   // Future<void> speakantithesis(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antithesis");
   // }
 
   // Future<void> speakantithesis(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antithesis");
   // }
 
   // Future<void> speakantithesis(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antithesis");
   // }
 
   // Future<void> speakantithesis(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antithesis");
   // }
 
   // Future<void> speakantithesis(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antithesis");
   // }
 
   @override

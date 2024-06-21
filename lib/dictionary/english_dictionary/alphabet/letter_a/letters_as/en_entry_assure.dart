@@ -24,7 +24,7 @@ class EnglishEntryassure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assure");
   }
 
   Future<void> speakassure902(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassure extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You think I did it deliberately, but I assure you (that) I did not."); // DOPSUM: CHANGE TEXT
+        "You think I did it deliberately, but I assure you (that) I did not.");
   }
 
   Future<void> speakassure903(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryassure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We assured him of our support."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We assured him of our support.");
   }
 
   Future<void> speakassure905(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryassure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She assured herself that the letter was still in the drawer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She assured herself that the letter was still in the drawer.");
   }
 
   Future<void> speakassure921(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntryassure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Victory would assure them a place in the finals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Victory would assure them a place in the finals.");
   }
 
   // Future<void> speakassure(String languageCode) async {
@@ -68,7 +66,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assure");
   // }
 
   // Future<void> speakassure(String languageCode) async {
@@ -76,7 +74,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assure");
   // }
 
   // Future<void> speakassure(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assure");
   // }
 
   // Future<void> speakassure(String languageCode) async {
@@ -92,7 +90,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assure");
   // }
 
   @override

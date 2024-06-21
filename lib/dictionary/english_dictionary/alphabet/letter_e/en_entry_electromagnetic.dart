@@ -280,7 +280,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("electromagnetic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("electromagnetic");
   }
 
   @override
@@ -330,7 +330,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("electromagnetic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("electromagnetic");
   }
 
   @override
@@ -354,175 +354,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics2(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics3(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics4(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics5(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics6(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics7(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics8(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics9(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics10(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics11(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics12(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics13(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics14(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics15(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics16(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics17(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics18(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics19(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics20(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics21(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelectromagnetics22(String languageCode) async {
-    // DOPSUM: CHANGE speakelectromagnetic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelectromagnetics2200"); // DOPSUM: CHANGE TEXT
+        "An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field.");
   }
 
   @override
@@ -573,19 +405,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics2("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics2("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics200electromagnetics2
+          // speakelectromagnetics2("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -599,19 +420,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics3("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics3("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics300electromagnetics3
+          // speakelectromagnetics3("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -625,19 +435,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics4("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics4("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics400electromagnetics4
+          // speakelectromagnetics4("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -651,19 +450,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics5("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics5("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics500electromagnetics5
+          // speakelectromagnetics5("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -677,19 +465,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics6("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics6("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics600electromagnetics6
+          // speakelectromagnetics6("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -703,19 +480,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics7("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics7("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics700electromagnetics7
+          // speakelectromagnetics7("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -729,19 +495,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics8("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics8("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics800electromagnetics8
+          // speakelectromagnetics8("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -755,19 +510,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics9("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics9("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics900electromagnetics9
+          // speakelectromagnetics9("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -781,19 +525,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics_1000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics10("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics10("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics_1000electromagnetics10
+          // speakelectromagnetics10("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -807,19 +540,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics11("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics11("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1100electromagnetics11
+          // speakelectromagnetics11("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -833,19 +555,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics12("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics12("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1200electromagnetics12
+          // speakelectromagnetics12("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -859,19 +570,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics13("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics13("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1300electromagnetics13
+          // speakelectromagnetics13("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -885,19 +585,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics14("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics14("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1400electromagnetics14
+          // speakelectromagnetics14("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -911,19 +600,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics15("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics15("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1500electromagnetics15
+          // speakelectromagnetics15("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -937,19 +615,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics16("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1600electromagnetics16
+          // speakelectromagnetics16("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -963,19 +630,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics17("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1700electromagnetics17
+          // speakelectromagnetics17("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -989,19 +645,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics18("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1800electromagnetics18
+          // speakelectromagnetics18("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1015,19 +660,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics19("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics1900electromagnetics19
+          // speakelectromagnetics19("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1041,19 +675,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics20("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics_2000electromagnetics20
+          // speakelectromagnetics20("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1067,19 +690,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics21("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics2100electromagnetics21
+          // speakelectromagnetics21("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1093,19 +705,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelectromagnetics2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelectromagnetics22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelectromagnetics22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelectromagnetics2200electromagnetics22
+          // speakelectromagnetics22("en-US"""),
           //         ),
           //       ],
           //     ),

@@ -24,7 +24,7 @@ class EnglishEntryastral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("astral");
   }
 
   Future<void> speakastral1111(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryastral extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The astronomer observed the astral bodies through his telescope."); // DOPSUM: CHANGE TEXT
+        "The astronomer observed the astral bodies through his telescope.");
   }
 
   Future<void> speakastral1115(String languageCode) async {
@@ -41,8 +41,8 @@ class EnglishEntryastral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She believed that her dreams took her to the astral plane."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She believed that her dreams took her to the astral plane.");
   }
 
   // Future<void> speakastral(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astral");
   // }
 
   // Future<void> speakastral(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astral");
   // }
 
   // Future<void> speakastral(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astral");
   // }
 
   // Future<void> speakastral(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astral");
   // }
 
   // Future<void> speakastral(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astral");
   // }
 
   // Future<void> speakastral(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astral");
   // }
 
   @override

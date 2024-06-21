@@ -16,7 +16,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alimentary canal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alimentary canal");
   }
 
   Future<void> speakalimentarycanal42588(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I had an abscess in the lower part of my alimentary canal."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I had an abscess in the lower part of my alimentary canal.");
   }
 
   // Future<void> speakalimentarycanal(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alimentary canal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alimentary canal");
   // }
 
   // Future<void> speakalimentarycanal(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alimentary canal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alimentary canal");
   // }
 
   @override

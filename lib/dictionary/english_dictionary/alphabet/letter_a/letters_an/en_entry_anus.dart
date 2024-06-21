@@ -20,7 +20,7 @@ class EnglishEntryanus extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anus");
   }
 
   // Future<void> speakanus(String languageCode) async {
@@ -28,7 +28,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   // Future<void> speakanus(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryacid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acid"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acid");
   }
 
   Future<void> speakac12846(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The acid burned a hole in her coat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The acid burned a hole in her coat.");
   }
 
   Future<void> speakacid1598(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryacid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It’s a very juicy fruit with a slightly acid flavour."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It’s a very juicy fruit with a slightly acid flavour.");
   }
 
   // Future<void> speakacid(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryacid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acid");
   // }
 
   @override

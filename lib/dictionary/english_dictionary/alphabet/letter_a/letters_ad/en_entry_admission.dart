@@ -16,7 +16,7 @@ class EnglishEntryadmission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("admission"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admission");
   }
 
   Future<void> speakadmiss836541(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadmission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hospital admission is not necessary in most cases."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Hospital admission is not necessary in most cases.");
   }
 
   Future<void> speakadmiss735891(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryadmission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Is there any charge for admission?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Is there any charge for admission?");
   }
 
   Future<void> speakadm587914(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryadmission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has made no admission of any involvement in the plot."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She has made no admission of any involvement in the plot.");
   }
 
   Future<void> speakadmis912587(String languageCode) async {
@@ -51,8 +50,7 @@ class EnglishEntryadmission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is an admission fee of 10 dollars."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There is an admission fee of 10 dollars.");
   }
 
   // Future<void> speakadmission(String languageCode) async {
@@ -60,7 +58,7 @@ class EnglishEntryadmission extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admission"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admission");
   // }
 
   @override

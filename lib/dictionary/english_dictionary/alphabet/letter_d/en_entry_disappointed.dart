@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disappointed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disappointed");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disappointed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disappointed");
   }
 
   @override
@@ -222,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The singer has promised to refund any disappointed fans."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The singer has promised to refund any disappointed fans.");
   }
 
   Future<void> speakdisappointeds2(String languageCode) async {
@@ -231,8 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were bitterly disappointed at the result of the game."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were bitterly disappointed at the result of the game.");
   }
 
   Future<void> speakdisappointeds3(String languageCode) async {
@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was disappointed by the quality of the food."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was disappointed by the quality of the food.");
   }
 
   Future<void> speakdisappointeds4(String languageCode) async {
@@ -249,152 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Andrea was disappointed about the decision."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappointeds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappointeds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Andrea was disappointed about the decision.");
   }
 
   @override

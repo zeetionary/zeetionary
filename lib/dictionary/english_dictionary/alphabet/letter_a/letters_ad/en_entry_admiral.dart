@@ -16,7 +16,7 @@ class EnglishEntryadmiral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("admiral"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admiral");
   }
 
   Future<void> speakadmi2568(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadmiral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The admiral visited the ships under his command."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The admiral visited the ships under his command.");
   }
 
   // Future<void> speakadmiral(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadmiral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admiral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admiral");
   // }
 
   // Future<void> speakadmiral(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadmiral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admiral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admiral");
   // }
 
   @override

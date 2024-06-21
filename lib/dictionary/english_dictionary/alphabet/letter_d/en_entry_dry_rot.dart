@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dry rot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dry rot");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dry rot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dry rot");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He scraped off the dry rot with a tool."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He scraped off the dry rot with a tool.");
   }
 
   Future<void> speakdryrots2(String languageCode) async {
@@ -361,167 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "World War I confirmed the dry rot of the 19th-Century European patriarchy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots3(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots4(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots5(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots6(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots7(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots8(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots9(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots10(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots11(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots12(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots13(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots14(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots15(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots16(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots17(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots18(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots19(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots20(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots21(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdryrots22(String languageCode) async {
-    // DOPSUM: CHANGE speakdryrot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdryrots2200"); // DOPSUM: CHANGE TEXT
+        "World War I confirmed the dry rot of the 19th-Century European patriarchy.");
   }
 
   @override

@@ -22,7 +22,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bloom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bloom");
   }
 
   Future<void> speakblooms1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The plant produced a single white bloom."); // DOPSUM: CHANGE TEXT
+        "The plant produced a single white bloom.");
   }
 
   Future<void> speakblooms2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The small pink blooms appear in May."); // DOPSUM: CHANGE TEXT
+        .speak("The small pink blooms appear in May.");
   }
 
   Future<void> speakblooms3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He was 19, in the full bloom of youth."); // DOPSUM: CHANGE TEXT
+        .speak("He was 19, in the full bloom of youth.");
   }
 
   Future<void> speakblooms4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most roses will begin to bloom from late May."); // DOPSUM: CHANGE TEXT
+        "Most roses will begin to bloom from late May.");
   }
 
   Future<void> speakblooms5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Tulips were blooming as far as the eye could see."); // DOPSUM: CHANGE TEXT
+        "Tulips were blooming as far as the eye could see.");
   }
 
   Future<void> speakblooms6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children had bloomed during their stay on the farm."); // DOPSUM: CHANGE TEXT
+        "The children had bloomed during their stay on the farm.");
   }
 
   Future<void> speakblooms7(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntrybloom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblooms77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblooms77");
   }
 
   @override

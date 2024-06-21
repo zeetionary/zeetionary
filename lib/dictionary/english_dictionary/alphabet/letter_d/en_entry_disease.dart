@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disease");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disease");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In 19th century England, infectious diseases were the principal cause of death."); // DOPSUM: CHANGE TEXT
+        "In 19th century England, infectious diseases were the principal cause of death.");
   }
 
   Future<void> speakdiseases2(String languageCode) async {
@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Smoking increases the risk of heart disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Smoking increases the risk of heart disease.");
   }
 
   Future<void> speakdiseases3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is not known what causes the disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It is not known what causes the disease.");
   }
 
   Future<void> speakdiseases4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He suffers from a rare blood disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He suffers from a rare blood disease.");
   }
 
   Future<void> speakdiseases5(String languageCode) async {
@@ -257,144 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Greed is a disease of modern society."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiseases22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiseases2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Greed is a disease of modern society.");
   }
 
   @override

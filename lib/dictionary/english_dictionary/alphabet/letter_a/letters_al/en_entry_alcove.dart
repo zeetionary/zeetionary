@@ -16,7 +16,7 @@ class EnglishEntryalcove extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alcove"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alcove");
   }
 
   Future<void> speakalcove3477(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalcove extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The bookcase fits neatly into the alcove."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The bookcase fits neatly into the alcove.");
   }
 
   // Future<void> speakalcove(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryalcove extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alcove"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alcove");
   // }
 
   // Future<void> speakalcove(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryalcove extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alcove"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alcove");
   // }
 
   @override

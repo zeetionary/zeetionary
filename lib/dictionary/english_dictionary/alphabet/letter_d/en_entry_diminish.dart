@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diminish"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diminish");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diminish"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diminish");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The world's resources are rapidly diminishing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The world's resources are rapidly diminishing.");
   }
 
   Future<void> speakdiminishs2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His influence has diminished with time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His influence has diminished with time.");
   }
 
   Future<void> speakdiminishs3(String languageCode) async {
@@ -239,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new law is expected to diminish the government's chances."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new law is expected to diminish the government's chances.");
   }
 
   Future<void> speakdiminishs4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These memories will not be diminished by time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These memories will not be diminished by time.");
   }
 
   Future<void> speakdiminishs5(String languageCode) async {
@@ -258,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't want to diminish her achievements, but she did have a lot of help."); // DOPSUM: CHANGE TEXT
+        "I don't want to diminish her achievements, but she did have a lot of help.");
   }
 
   Future<void> speakdiminishs6(String languageCode) async {
@@ -267,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "What he did has seriously diminished him in many people's eyes."); // DOPSUM: CHANGE TEXT
+        "What he did has seriously diminished him in many people's eyes.");
   }
 
   Future<void> speakdiminishs7(String languageCode) async {
@@ -276,127 +273,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't wish to diminish the importance of their contribution."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminishs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminish
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminishs2200"); // DOPSUM: CHANGE TEXT
+        "I don't wish to diminish the importance of their contribution.");
   }
 
   @override

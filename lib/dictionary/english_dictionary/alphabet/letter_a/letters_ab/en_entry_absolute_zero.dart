@@ -16,7 +16,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absolute zero"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absolute zero");
   }
 
   Future<void> speakabs2531(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We repeat the process until we reache the value of absolute zero."); // DOPSUM: CHANGE TEXT
+        "We repeat the process until we reache the value of absolute zero.");
   }
 
   @override

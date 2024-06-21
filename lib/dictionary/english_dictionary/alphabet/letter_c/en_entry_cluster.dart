@@ -21,7 +21,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cluster"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cluster");
   }
 
   Future<void> speakclusters1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The telescope is focused on a dense cluster of stars at the edge of the galaxy."); // DOPSUM: CHANGE TEXT
+        "The telescope is focused on a dense cluster of stars at the edge of the galaxy.");
   }
 
   Future<void> speakclusters2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plant bears its flowers in clusters."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plant bears its flowers in clusters.");
   }
 
   Future<void> speakclusters3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The bacteria form clusters in the gut of the host animal."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The bacteria form clusters in the gut of the host animal.");
   }
 
   Future<void> speakclusters4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The church stood in a small cluster of houses."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The church stood in a small cluster of houses.");
   }
 
   Future<void> speakclusters5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was a cluster of fans around him, asking for autographs."); // DOPSUM: CHANGE TEXT
+        "There was a cluster of fans around him, asking for autographs.");
   }
 
   Future<void> speakclusters6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The /str/ at the beginning of \"stray\" is a cluster."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The /str/ at the beginning of \"stray\" is a cluster.");
   }
 
   Future<void> speakclusters7(String languageCode) async {
@@ -83,8 +81,8 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children clustered together in the corner of the room."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The children clustered together in the corner of the room.");
   }
 
   Future<void> speakclusters8(String languageCode) async {
@@ -92,8 +90,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children clustered around their teacher."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The children clustered around their teacher.");
   }
 
   Future<void> speakclusters9(String languageCode) async {
@@ -101,7 +98,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclusters900");
   }
 
   Future<void> speakclusters10(String languageCode) async {
@@ -109,7 +106,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclusters1000");
   }
 
   Future<void> speakclusters11(String languageCode) async {
@@ -117,7 +114,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclusters1100");
   }
 
   Future<void> speakclusters12(String languageCode) async {
@@ -125,7 +122,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclusters1200");
   }
 
   Future<void> speakclusters13(String languageCode) async {
@@ -133,7 +130,7 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclusters1300");
   }
 
   @override

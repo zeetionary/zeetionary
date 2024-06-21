@@ -16,7 +16,7 @@ class EnglishEntryadmissible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admissible");
   }
 
   Future<void> speakadmis25374(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadmissible extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Photographs are usually admissible evidence provided it can be proved that they are authentic."); // DOPSUM: CHANGE TEXT
+        "Photographs are usually admissible evidence provided it can be proved that they are authentic.");
   }
 
   // Future<void> speakadmissible(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryadmissible extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admissible");
   // }
 
   // Future<void> speakadmissible(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryadmissible extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admissible");
   // }
 
   @override

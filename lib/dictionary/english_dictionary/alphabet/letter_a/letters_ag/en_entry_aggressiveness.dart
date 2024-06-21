@@ -16,7 +16,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aggressiveness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aggressiveness");
   }
 
   Future<void> speakaggressiv3749(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit."); // DOPSUM: CHANGE TEXT
+        "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit.");
   }
 
   Future<void> speakaggressive4699(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her talent and aggressiveness make her a tennis star of the future."); // DOPSUM: CHANGE TEXT
+        "Her talent and aggressiveness make her a tennis star of the future.");
   }
 
   // Future<void> speakaggressiveness(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aggressiveness"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aggressiveness");
   // }
 
   @override

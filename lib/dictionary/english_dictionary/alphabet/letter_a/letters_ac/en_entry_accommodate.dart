@@ -16,7 +16,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accommodate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accommodate");
   }
 
   Future<void> speaka24698(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccommodate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I’m sure the bank will be able to accommodate you."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I’m sure the bank will be able to accommodate you.");
   }
 
   Future<void> speakac2489(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our proposal tries to accommodate the special needs of minority groups."); // DOPSUM: CHANGE TEXT
+        "Our proposal tries to accommodate the special needs of minority groups.");
   }
 
   Future<void> speaka14258(String languageCode) async {
@@ -42,8 +42,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The garage can accommodate three cars."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The garage can accommodate three cars.");
   }
 
   Future<void> speaka25631(String languageCode) async {
@@ -51,8 +50,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The hotel can accommodate up to 500 guests."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The hotel can accommodate up to 500 guests.");
   }
 
   @override

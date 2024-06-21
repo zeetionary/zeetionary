@@ -22,7 +22,7 @@ class EnglishEntryapt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apt");
   }
 
   Future<void> speakapt739(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryapt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a particularly apt name for someone with his skills."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was a particularly apt name for someone with his skills.");
   }
 
   Future<void> speakapt745(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryapt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A skilled writer uses apt descriptions to create a rich and immersive narrative."); // DOPSUM: CHANGE TEXT
+        "A skilled writer uses apt descriptions to create a rich and immersive narrative.");
   }
 
   Future<void> speakapt754(String languageCode) async {
@@ -48,8 +48,7 @@ class EnglishEntryapt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Babies are apt to put objects into their mouths."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Babies are apt to put objects into their mouths.");
   }
 
   Future<void> speakapt757(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryapt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have some particularly apt students in the class this year."); // DOPSUM: CHANGE TEXT
+        "We have some particularly apt students in the class this year.");
   }
 
   // Future<void> speakapt(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apt");
   // }
 
   // Future<void> speakapt(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apt");
   // }
 
   // Future<void> speakapt(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apt");
   // }
 
   // Future<void> speakapt(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apt");
   // }
 
   @override

@@ -22,7 +22,7 @@ class EnglishEntryappendix extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appendix");
   }
 
   Future<void> speakappendix216(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryappendix extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He had to have his appendix out (= removed)."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had to have his appendix out (= removed).");
   }
 
   Future<void> speakappendix218(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryappendix extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Full details are given in Appendix 3."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Full details are given in Appendix 3.");
   }
 
   // Future<void> speakappendix(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appendix");
   // }
 
   // Future<void> speakappendix(String languageCode) async {
@@ -56,7 +54,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appendix");
   // }
 
   // Future<void> speakappendix(String languageCode) async {
@@ -64,7 +62,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appendix");
   // }
 
   // Future<void> speakappendix(String languageCode) async {
@@ -72,7 +70,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appendix");
   // }
 
   // Future<void> speakappendix(String languageCode) async {
@@ -80,7 +78,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appendix");
   // }
 
   // Future<void> speakappendix(String languageCode) async {
@@ -88,7 +86,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appendix");
   // }
 
   @override

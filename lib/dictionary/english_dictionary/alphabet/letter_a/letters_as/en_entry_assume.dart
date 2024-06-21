@@ -24,7 +24,7 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assume");
   }
 
   Future<void> speakassume843(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It's probably safe to assume (that) we'll be hearing more about this story."); // DOPSUM: CHANGE TEXT
+        "It's probably safe to assume (that) we'll be hearing more about this story.");
   }
 
   Future<void> speakassume844(String languageCode) async {
@@ -41,8 +41,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Let us assume for a moment that the plan succeeds."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Let us assume for a moment that the plan succeeds.");
   }
 
   Future<void> speakassume846(String languageCode) async {
@@ -50,8 +50,7 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Rebel forces have assumed control of the capital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Rebel forces have assumed control of the capital.");
   }
 
   Future<void> speakassume848(String languageCode) async {
@@ -59,8 +58,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In the story the god assumes the form of an eagle."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In the story the god assumes the form of an eagle.");
   }
 
   Future<void> speakassume851(String languageCode) async {
@@ -68,8 +67,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Moving to a different town, he assumed a false name."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Moving to a different town, he assumed a false name.");
   }
 
   // Future<void> speakassume(String languageCode) async {
@@ -77,7 +76,7 @@ class EnglishEntryassume extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assume");
   // }
 
   // Future<void> speakassume(String languageCode) async {
@@ -85,7 +84,7 @@ class EnglishEntryassume extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assume");
   // }
 
   // Future<void> speakassume(String languageCode) async {
@@ -93,7 +92,7 @@ class EnglishEntryassume extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assume");
   // }
 
   @override

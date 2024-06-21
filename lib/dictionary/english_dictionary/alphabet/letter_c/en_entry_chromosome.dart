@@ -21,7 +21,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chromosome"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chromosome");
   }
 
   Future<void> speakchromosomes1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Humans have 23 pairs of chromosomes in their cells."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Humans have 23 pairs of chromosomes in their cells.");
   }
 
   Future<void> speakchromosomes2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes200");
   }
 
   Future<void> speakchromosomes3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes300");
   }
 
   Future<void> speakchromosomes4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes400");
   }
 
   Future<void> speakchromosomes5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes500");
   }
 
   Future<void> speakchromosomes6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes600");
   }
 
   Future<void> speakchromosomes7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes700");
   }
 
   Future<void> speakchromosomes8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes800");
   }
 
   Future<void> speakchromosomes9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes900");
   }
 
   Future<void> speakchromosomes10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes1000");
   }
 
   Future<void> speakchromosomes11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes1100");
   }
 
   Future<void> speakchromosomes12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes1200");
   }
 
   Future<void> speakchromosomes13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntrychromosome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchromosomes1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchromosomes1300");
   }
 
   @override

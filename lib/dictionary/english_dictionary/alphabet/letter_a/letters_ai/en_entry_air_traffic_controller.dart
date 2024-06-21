@@ -16,7 +16,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("air traffic controller"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("air traffic controller");
   }
 
   Future<void> speakairtrafficcontroller4255(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."); // DOPSUM: CHANGE TEXT
+        "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller.");
   }
 
   // Future<void> speakairtrafficcontroller(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air traffic controller"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air traffic controller");
   // }
 
   // Future<void> speakairtrafficcontroller(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air traffic controller"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air traffic controller");
   // }
 
   @override

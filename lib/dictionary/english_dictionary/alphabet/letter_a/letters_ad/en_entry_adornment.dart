@@ -16,7 +16,7 @@ class EnglishEntryadornment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adornment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adornment");
   }
 
   Future<void> speakadornm79534(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadornment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A plain necklace was her only adornment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A plain necklace was her only adornment.");
   }
 
   Future<void> speakad25698(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryadornment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Precious stones have been used for the purposes of adornment for over 7000 years."); // DOPSUM: CHANGE TEXT
+        "Precious stones have been used for the purposes of adornment for over 7000 years.");
   }
 
   // Future<void> speakadornment(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryadornment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adornment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adornment");
   // }
 
   @override

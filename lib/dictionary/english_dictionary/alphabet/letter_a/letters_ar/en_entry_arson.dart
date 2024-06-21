@@ -24,7 +24,7 @@ class EnglishEntryarson extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arson");
   }
 
   Future<void> speakarson912(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryarson extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A cinema was burned out in north London last night. Police suspect arson."); // DOPSUM: CHANGE TEXT
+        "A cinema was burned out in north London last night. Police suspect arson.");
   }
 
   // Future<void> speakarson(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   // Future<void> speakarson(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   // Future<void> speakarson(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   // Future<void> speakarson(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   // Future<void> speakarson(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   // Future<void> speakarson(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   // Future<void> speakarson(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryarson extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arson"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arson");
   // }
 
   @override

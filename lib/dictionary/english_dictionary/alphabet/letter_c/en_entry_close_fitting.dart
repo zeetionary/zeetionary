@@ -21,7 +21,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("close-fitting"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("close-fitting");
   }
 
   Future<void> speakclosefittings1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a close-fitting dress to the party."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She wore a close-fitting dress to the party.");
   }
 
   Future<void> speakclosefittings2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The close-fitting swimsuit accentuated her curves."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The close-fitting swimsuit accentuated her curves.");
   }
 
   Future<void> speakclosefittings3(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings300");
   }
 
   Future<void> speakclosefittings4(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings400");
   }
 
   Future<void> speakclosefittings5(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings500");
   }
 
   Future<void> speakclosefittings6(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings600");
   }
 
   Future<void> speakclosefittings7(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings700");
   }
 
   Future<void> speakclosefittings8(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings800");
   }
 
   Future<void> speakclosefittings9(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings900");
   }
 
   Future<void> speakclosefittings10(String languageCode) async {
@@ -103,7 +102,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1000");
   }
 
   Future<void> speakclosefittings11(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1100");
   }
 
   Future<void> speakclosefittings12(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1200");
   }
 
   Future<void> speakclosefittings13(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclosefittings1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclosefittings1300");
   }
 
   @override

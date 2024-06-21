@@ -16,7 +16,7 @@ class EnglishEntryadoration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adoration"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adoration");
   }
 
   Future<void> speakador25674(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadoration extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He gazed at her with pure adoration."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He gazed at her with pure adoration.");
   }
 
   // Future<void> speakadoration(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadoration extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adoration"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adoration");
   // }
 
   // Future<void> speakadoration(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadoration extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adoration"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adoration");
   // }
 
   @override

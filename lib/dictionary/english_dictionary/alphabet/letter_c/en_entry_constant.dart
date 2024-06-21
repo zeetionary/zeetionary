@@ -21,7 +21,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("constant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constant");
   }
 
   Future<void> speakconstants1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There were constant interruptions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There were constant interruptions.");
   }
 
   Future<void> speakconstants2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The ruined buildings serve as a constant reminder of the war."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The ruined buildings serve as a constant reminder of the war.");
   }
 
   Future<void> speakconstants3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Doctors are under constant pressure to treat more and more patients."); // DOPSUM: CHANGE TEXT
+        "Doctors are under constant pressure to treat more and more patients.");
   }
 
   Future<void> speakconstants4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Babies need constant attention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Babies need constant attention.");
   }
 
   Future<void> speakconstants5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("This entrance is in constant use."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This entrance is in constant use.");
   }
 
   Future<void> speakconstants6(String languageCode) async {
@@ -74,8 +71,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her constant chatter was beginning to annoy him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her constant chatter was beginning to annoy him.");
   }
 
   Future<void> speakconstants7(String languageCode) async {
@@ -83,8 +79,8 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her daughter is a constant source of worry to her."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her daughter is a constant source of worry to her.");
   }
 
   Future<void> speakconstants8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The car was travelling at a constant speed of 50 mph."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The car was travelling at a constant speed of 50 mph.");
   }
 
   Future<void> speakconstants9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Crime levels remain constant."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Crime levels remain constant.");
   }
 
   Future<void> speakconstants10(String languageCode) async {
@@ -111,7 +106,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The mathematician used the constant \"π\" in his calculations."); // DOPSUM: CHANGE TEXT
+        "The mathematician used the constant \"π\" in his calculations.");
   }
 
   Future<void> speakconstants11(String languageCode) async {
@@ -119,7 +114,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstants1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstants1100");
   }
 
   Future<void> speakconstants12(String languageCode) async {
@@ -127,7 +122,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstants1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstants1200");
   }
 
   Future<void> speakconstants13(String languageCode) async {
@@ -135,7 +130,7 @@ class EnglishEntryconstant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstants1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstants1300");
   }
 
   @override

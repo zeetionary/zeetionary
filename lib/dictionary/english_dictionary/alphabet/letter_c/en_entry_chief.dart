@@ -21,7 +21,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chief"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chief");
   }
 
   Future<void> speakchiefs1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He became the chief architect of the Treaty of Paris."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He became the chief architect of the Treaty of Paris.");
   }
 
   Future<void> speakchiefs2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She cites the economy as her chief concern."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She cites the economy as her chief concern.");
   }
 
   Future<void> speakchiefs3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her chief rival for the gold medal is Jones of the USA."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her chief rival for the gold medal is Jones of the USA.");
   }
 
   Future<void> speakchiefs4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The lion is the zebra's chief enemy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The lion is the zebra's chief enemy.");
   }
 
   Future<void> speakchiefs5(String languageCode) async {
@@ -65,8 +63,8 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new police chief has really made his presence felt."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new police chief has really made his presence felt.");
   }
 
   Future<void> speakchiefs6(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was a Zulu chief."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was a Zulu chief.");
   }
 
   Future<void> speakchiefs7(String languageCode) async {
@@ -82,8 +80,8 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She is Washington bureau chief for The New York Times."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She is Washington bureau chief for The New York Times.");
   }
 
   Future<void> speakchiefs8(String languageCode) async {
@@ -91,8 +89,8 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He served as chief of police between 2002 and 2009."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He served as chief of police between 2002 and 2009.");
   }
 
   Future<void> speakchiefs9(String languageCode) async {
@@ -100,8 +98,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was appointed chief of the Fire Department."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was appointed chief of the Fire Department.");
   }
 
   Future<void> speakchiefs10(String languageCode) async {
@@ -110,7 +107,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Security chiefs are keeping their men on full alert after the bomb threat."); // DOPSUM: CHANGE TEXT
+        "Security chiefs are keeping their men on full alert after the bomb threat.");
   }
 
   Future<void> speakchiefs11(String languageCode) async {
@@ -118,8 +115,8 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We spoke to a former CIA chief of European operations."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We spoke to a former CIA chief of European operations.");
   }
 
   Future<void> speakchiefs12(String languageCode) async {
@@ -127,7 +124,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchiefs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchiefs1200");
   }
 
   Future<void> speakchiefs13(String languageCode) async {
@@ -135,7 +132,7 @@ class EnglishEntrychief extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchiefs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchiefs1300");
   }
 
   @override

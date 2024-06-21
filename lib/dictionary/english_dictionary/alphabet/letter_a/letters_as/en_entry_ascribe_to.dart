@@ -24,7 +24,7 @@ class EnglishEntryascribeto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ascribe to");
   }
 
   Future<void> speakascribeto141(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryascribeto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This play is usually ascribed to Shakespeare."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This play is usually ascribed to Shakespeare.");
   }
 
   Future<void> speakascribeto143(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryascribeto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He ascribed his failure to bad luck."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He ascribed his failure to bad luck.");
   }
 
   Future<void> speakascribeto146(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntryascribeto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We ascribe great importance to these policies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We ascribe great importance to these policies.");
   }
 
   Future<void> speakascribeto147(String languageCode) async {
@@ -59,8 +56,7 @@ class EnglishEntryascribeto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People like to ascribe human feelings to animals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("People like to ascribe human feelings to animals.");
   }
 
   // Future<void> speakascribeto(String languageCode) async {
@@ -68,7 +64,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascribe to");
   // }
 
   // Future<void> speakascribeto(String languageCode) async {
@@ -76,7 +72,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascribe to");
   // }
 
   // Future<void> speakascribeto(String languageCode) async {
@@ -84,7 +80,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascribe to");
   // }
 
   // Future<void> speakascribeto(String languageCode) async {
@@ -92,7 +88,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascribe to");
   // }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("condom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("condom");
   }
 
   Future<void> speakcondoms1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She insisted that her partner wear a condom every time they had sex."); // DOPSUM: CHANGE TEXT
+        "She insisted that her partner wear a condom every time they had sex.");
   }
 
   Future<void> speakcondoms2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Using a condom is an effective method of contraception."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Using a condom is an effective method of contraception.");
   }
 
   Future<void> speakcondoms3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms300");
   }
 
   Future<void> speakcondoms4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms400");
   }
 
   Future<void> speakcondoms5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms500");
   }
 
   Future<void> speakcondoms6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms600");
   }
 
   Future<void> speakcondoms7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms700");
   }
 
   Future<void> speakcondoms8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms800");
   }
 
   Future<void> speakcondoms9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms900");
   }
 
   Future<void> speakcondoms10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms1000");
   }
 
   Future<void> speakcondoms11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms1100");
   }
 
   Future<void> speakcondoms12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms1200");
   }
 
   Future<void> speakcondoms13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntrycondom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondoms1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondoms1300");
   }
 
   @override

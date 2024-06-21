@@ -16,7 +16,7 @@ class EnglishEntryacceptable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acceptable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acceptable");
   }
 
   Future<void> speaka51976(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacceptable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Inspectors found that teaching standards were acceptable, but could be improved."); // DOPSUM: CHANGE TEXT
+        "Inspectors found that teaching standards were acceptable, but could be improved.");
   }
 
   Future<void> speaka2548(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryacceptable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is possible to find a solution that is acceptable to both sides."); // DOPSUM: CHANGE TEXT
+        "It is possible to find a solution that is acceptable to both sides.");
   }
 
   Future<void> speaka56482(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryacceptable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Children must learn socially acceptable behaviour."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Children must learn socially acceptable behaviour.");
   }
 
   Future<void> speakaa231564(String languageCode) async {
@@ -51,8 +51,8 @@ class EnglishEntryacceptable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is perfectly acceptable for you as an employee to say no."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It is perfectly acceptable for you as an employee to say no.");
   }
 
   @override

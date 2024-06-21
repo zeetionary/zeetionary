@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deep vein thrombosis"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deep vein thrombosis");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deep vein thrombosis"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deep vein thrombosis");
   }
 
   @override
@@ -224,7 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Passengers on long-haul flights are being warned about the risks of deep vein thrombosis."); // DOPSUM: CHANGE TEXT
+        "Passengers on long-haul flights are being warned about the risks of deep vein thrombosis.");
   }
 
   Future<void> speakdeepveinthrombosiss2(String languageCode) async {
@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss200");
   }
 
   Future<void> speakdeepveinthrombosiss3(String languageCode) async {
@@ -241,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss300");
   }
 
   Future<void> speakdeepveinthrombosiss4(String languageCode) async {
@@ -250,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss400");
   }
 
   Future<void> speakdeepveinthrombosiss5(String languageCode) async {
@@ -259,8 +256,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss500");
   }
 
   Future<void> speakdeepveinthrombosiss6(String languageCode) async {
@@ -268,8 +264,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss600");
   }
 
   Future<void> speakdeepveinthrombosiss7(String languageCode) async {
@@ -277,8 +272,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss700");
   }
 
   Future<void> speakdeepveinthrombosiss8(String languageCode) async {
@@ -286,8 +280,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss800");
   }
 
   Future<void> speakdeepveinthrombosiss9(String languageCode) async {
@@ -295,8 +288,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss900");
   }
 
   Future<void> speakdeepveinthrombosiss10(String languageCode) async {
@@ -304,8 +296,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss1000");
   }
 
   Future<void> speakdeepveinthrombosiss11(String languageCode) async {
@@ -313,8 +304,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss1100");
   }
 
   Future<void> speakdeepveinthrombosiss12(String languageCode) async {
@@ -322,8 +312,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss1200");
   }
 
   Future<void> speakdeepveinthrombosiss13(String languageCode) async {
@@ -331,8 +320,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdeepveinthrombosiss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeepveinthrombosiss1300");
   }
 
   @override

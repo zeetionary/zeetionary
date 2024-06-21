@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diamond"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diamond");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diamond"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diamond");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was wearing her diamonds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was wearing her diamonds.");
   }
 
   Future<void> speakdiamonds2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The lights shone like diamonds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The lights shone like diamonds.");
   }
 
   Future<void> speakdiamonds3(String languageCode) async {
@@ -239,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was dripping with diamonds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was dripping with diamonds.");
   }
 
   Future<void> speakdiamonds4(String languageCode) async {
@@ -248,152 +245,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Joe's socks had diamond patterns on them."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamonds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamonds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Joe's socks had diamond patterns on them.");
   }
 
   @override

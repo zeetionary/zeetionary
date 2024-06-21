@@ -21,7 +21,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clawback"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clawback");
   }
 
   Future<void> speakclawbacks1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakclawbacks111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakclawbacks111111111111111111111111111111111");
   }
 
   Future<void> speakclawbacks2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks200");
   }
 
   Future<void> speakclawbacks3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks300");
   }
 
   Future<void> speakclawbacks4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks400");
   }
 
   Future<void> speakclawbacks5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks500");
   }
 
   Future<void> speakclawbacks6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks600");
   }
 
   Future<void> speakclawbacks7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks700");
   }
 
   Future<void> speakclawbacks8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks800");
   }
 
   Future<void> speakclawbacks9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks900");
   }
 
   Future<void> speakclawbacks10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks1000");
   }
 
   Future<void> speakclawbacks11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks1100");
   }
 
   Future<void> speakclawbacks12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks1200");
   }
 
   Future<void> speakclawbacks13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntryclawback extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclawbacks1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclawbacks1300");
   }
 
   @override

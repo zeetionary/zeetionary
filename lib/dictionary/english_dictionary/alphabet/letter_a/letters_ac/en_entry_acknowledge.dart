@@ -16,7 +16,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acknowledge");
   }
 
   Future<void> speakackn1254(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryacknowledge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I have to acknowledge the fact that I am partly responsible."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I have to acknowledge the fact that I am partly responsible.");
   }
 
   Future<void> speakackn1427(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryacknowledge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He does not acknowledge that he has done anything wrong."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He does not acknowledge that he has done anything wrong.");
   }
 
   Future<void> speakackn12569(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryacknowledge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is widely acknowledged as the best player in the world."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He is widely acknowledged as the best player in the world.");
   }
 
   Future<void> speakackn647(String languageCode) async {
@@ -51,8 +51,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("All applications will be acknowledged."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("All applications will be acknowledged.");
   }
 
   // Future<void> speakacknowledge(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acknowledge");
   // }
 
   // Future<void> speakacknowledge(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acknowledge");
   // }
 
   // Future<void> speakacknowledge(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acknowledge");
   // }
 
   @override

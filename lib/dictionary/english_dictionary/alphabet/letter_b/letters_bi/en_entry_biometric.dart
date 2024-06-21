@@ -24,7 +24,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("biometric"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("biometric");
   }
 
   Future<void> speakbiometrics1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Biometric devices work by matching an individual’s features to those recorded in the device’s memory."); // DOPSUM: CHANGE TEXT
+        "Biometric devices work by matching an individual’s features to those recorded in the device’s memory.");
   }
 
   Future<void> speakbiometrics2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiometrics22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiometrics22");
   }
 
   Future<void> speakbiometrics3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiometrics33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiometrics33");
   }
 
   Future<void> speakbiometrics4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiometrics44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiometrics44");
   }
 
   Future<void> speakbiometrics5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiometrics55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiometrics55");
   }
 
   Future<void> speakbiometrics6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiometrics66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiometrics66");
   }
 
   Future<void> speakbiometrics7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiometrics77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiometrics77");
   }
 
   @override

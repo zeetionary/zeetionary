@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detached"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detached");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detached"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detached");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Prices are rising so fast that people can't afford detached houses."); // DOPSUM: CHANGE TEXT
+        "Prices are rising so fast that people can't afford detached houses.");
   }
 
   Future<void> speakdetacheds2(String languageCode) async {
@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She seemed a bit detached, as if her mind were on other things."); // DOPSUM: CHANGE TEXT
+        "She seemed a bit detached, as if her mind were on other things.");
   }
 
   Future<void> speakdetacheds3(String languageCode) async {
@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She spoke in a normal, detached tone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She spoke in a normal, detached tone.");
   }
 
   Future<void> speakdetacheds4(String languageCode) async {
@@ -248,8 +247,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She tries to remain emotionally detached from her patients."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She tries to remain emotionally detached from her patients.");
   }
 
   Future<void> speakdetacheds5(String languageCode) async {
@@ -258,119 +257,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Throughout the novel, the story is seen through the eyes of a detached observer."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds1900"); // DOPSUM: CHANGE TEXT
+        "Throughout the novel, the story is seen through the eyes of a detached observer.");
   }
 
   Future<void> speakdetacheds20(String languageCode) async {
@@ -379,23 +266,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She seemed a bit detached, as if her mind were on other things.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetacheds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetached
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetacheds2200"); // DOPSUM: CHANGE TEXT
+        "She seemed a bit detached, as if her mind were on other things.0");
   }
 
   @override

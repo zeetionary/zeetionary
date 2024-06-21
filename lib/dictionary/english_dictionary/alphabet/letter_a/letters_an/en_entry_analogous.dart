@@ -16,7 +16,7 @@ class EnglishEntryanalogous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("analogous");
   }
 
   Future<void> speakanalogous852401(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryanalogous extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sleep has often been thought of as being in some way analogous to death."); // DOPSUM: CHANGE TEXT
+        "Sleep has often been thought of as being in some way analogous to death.");
   }
 
   Future<void> speakanalogous8401(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryanalogous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two situations are roughly analogous."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The two situations are roughly analogous.");
   }
 
   // Future<void> speakanalogous(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analogous");
   // }
 
   // Future<void> speakanalogous(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analogous");
   // }
 
   // Future<void> speakanalogous(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analogous");
   // }
 
   // Future<void> speakanalogous(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analogous");
   // }
 
   // Future<void> speakanalogous(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analogous");
   // }
 
   // Future<void> speakanalogous(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analogous");
   // }
 
   @override

@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dwarf"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dwarf");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dwarf"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dwarf");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The queen was jealous of Snow White and the Seven Dwarfs."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The queen was jealous of Snow White and the Seven Dwarfs.");
   }
 
   Future<void> speakdwarfs2(String languageCode) async {
@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She met a dwarf who was a talented musician."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She met a dwarf who was a talented musician.");
   }
 
   Future<void> speakdwarfs3(String languageCode) async {
@@ -369,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You can grow dwarf conifers in pots on the patio."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You can grow dwarf conifers in pots on the patio.");
   }
 
   Future<void> speakdwarfs4(String languageCode) async {
@@ -378,8 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new skyscraper will dwarf all those near it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new skyscraper will dwarf all those near it.");
   }
 
   Future<void> speakdwarfs5(String languageCode) async {
@@ -387,144 +384,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This new crisis may well dwarf most that have gone before."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs6(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs20(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwarfs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdwarf
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwarfs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This new crisis may well dwarf most that have gone before.");
   }
 
   @override

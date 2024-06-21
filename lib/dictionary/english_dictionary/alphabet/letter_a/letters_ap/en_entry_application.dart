@@ -22,7 +22,7 @@ class EnglishEntryapplication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("application");
   }
 
   Future<void> speakapplication707(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryapplication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have received applications from more than 3 000 students."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We have received applications from more than 3 000 students.");
   }
 
   Future<void> speakapplication709(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryapplication extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They submitted an application to the council to build two houses."); // DOPSUM: CHANGE TEXT
+        "They submitted an application to the council to build two houses.");
   }
 
   Future<void> speakapplication713(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryapplication extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The invention would have a wide range of applications in industry."); // DOPSUM: CHANGE TEXT
+        "The invention would have a wide range of applications in industry.");
   }
 
   Future<void> speakapplication716(String languageCode) async {
@@ -57,8 +57,8 @@ class EnglishEntryapplication extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It took three applications of paint to cover the graffiti."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It took three applications of paint to cover the graffiti.");
   }
 
   Future<void> speakapplication721(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryapplication extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Judges play a vital role in ensuring the strict application of the law."); // DOPSUM: CHANGE TEXT
+        "Judges play a vital role in ensuring the strict application of the law.");
   }
 
   // Future<void> speakapplication(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryapplication extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("application");
   // }
 
   // Future<void> speakapplication(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryapplication extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("application");
   // }
 
   // Future<void> speakapplication(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntryapplication extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("application");
   // }
 
   @override

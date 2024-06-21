@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("debasement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("debasement");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("debasement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("debasement");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He considered advertising a debasement of his art."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He considered advertising a debasement of his art.");
   }
 
   Future<void> speakdebasements2(String languageCode) async {
@@ -231,95 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Currency debasement means that the more dollars there are in circulation, the less each dollar is worth."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements3(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements4(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements5(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements6(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements7(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements8(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements9(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements10(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements11(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements12(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebasements13(String languageCode) async {
-    // DOPSUM: CHANGE speakdebasement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebasements1300"); // DOPSUM: CHANGE TEXT
+        "Currency debasement means that the more dollars there are in circulation, the less each dollar is worth.");
   }
 
   @override

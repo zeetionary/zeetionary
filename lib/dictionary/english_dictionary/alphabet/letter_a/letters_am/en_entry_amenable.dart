@@ -16,7 +16,7 @@ class EnglishEntryamenable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amenable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amenable");
   }
 
   Future<void> speakamenable48577(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamenable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They had three very amenable children."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They had three very amenable children.");
   }
 
   Future<void> speakamenable635211(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryamenable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He seemed most amenable to my idea."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He seemed most amenable to my idea.");
   }
 
   // Future<void> speakamenable(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryamenable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amenable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amenable");
   // }
 
   @override

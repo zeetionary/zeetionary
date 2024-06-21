@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("duchess"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("duchess");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("duchess"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("duchess");
   }
 
   @override
@@ -351,176 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The Duchess of York attended the royal event."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss14(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss15(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss16(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss17(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss18(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss19(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss20(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss21(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduchesss22(String languageCode) async {
-    // DOPSUM: CHANGE speakduchess
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduchesss2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The Duchess of York attended the royal event.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryancillary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ancillary");
   }
 
   Future<void> speakancillary1140(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryancillary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ancillary workers support the hospital staff in various non-medical roles."); // DOPSUM: CHANGE TEXT
+        "Ancillary workers support the hospital staff in various non-medical roles.");
   }
 
   Future<void> speakancillary0958(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryancillary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ancillary rights are often included in entertainment industry contracts for creators."); // DOPSUM: CHANGE TEXT
+        "Ancillary rights are often included in entertainment industry contracts for creators.");
   }
 
   // Future<void> speakancillary(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancillary");
   // }
 
   // Future<void> speakancillary(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancillary");
   // }
 
   // Future<void> speakancillary(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancillary");
   // }
 
   // Future<void> speakancillary(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancillary");
   // }
 
   // Future<void> speakancillary(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancillary");
   // }
 
   // Future<void> speakancillary(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancillary");
   // }
 
   @override

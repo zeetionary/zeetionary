@@ -21,7 +21,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("convergence"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("convergence");
   }
 
   Future<void> speakconvergences1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The city was a natural point of convergence for river-based traffic."); // DOPSUM: CHANGE TEXT
+        "The city was a natural point of convergence for river-based traffic.");
   }
 
   Future<void> speakconvergences2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The diagram shows the convergence of two oceanic plates."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The diagram shows the convergence of two oceanic plates.");
   }
 
   Future<void> speakconvergences3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The convergence of mobile technology and the internet will continue to revolutionize the way businesses interact with consumers."); // DOPSUM: CHANGE TEXT
+        "The convergence of mobile technology and the internet will continue to revolutionize the way businesses interact with consumers.");
   }
 
   Future<void> speakconvergences4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences400");
   }
 
   Future<void> speakconvergences5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences500");
   }
 
   Future<void> speakconvergences6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences600");
   }
 
   Future<void> speakconvergences7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences700");
   }
 
   Future<void> speakconvergences8(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences800");
   }
 
   Future<void> speakconvergences9(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences900");
   }
 
   Future<void> speakconvergences10(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences1000");
   }
 
   Future<void> speakconvergences11(String languageCode) async {
@@ -112,7 +112,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences1100");
   }
 
   Future<void> speakconvergences12(String languageCode) async {
@@ -120,7 +120,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences1200");
   }
 
   Future<void> speakconvergences13(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntryconvergence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvergences1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvergences1300");
   }
 
   @override

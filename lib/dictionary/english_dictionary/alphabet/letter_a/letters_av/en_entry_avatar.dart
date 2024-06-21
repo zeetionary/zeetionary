@@ -24,7 +24,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("avatar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("avatar");
   }
 
   Future<void> speakavatars1(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Gautama Buddha is considered an avatar of the god Vishnu."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Gautama Buddha is considered an avatar of the god Vishnu.");
   }
 
   Future<void> speakavatars2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The game creates a virtual world where people interact and participate in activities through their avatars."); // DOPSUM: CHANGE TEXT
+        "The game creates a virtual world where people interact and participate in activities through their avatars.");
   }
 
   Future<void> speakavatars3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars3c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAvatars3c");
   }
 
   Future<void> speakavatars4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars4c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAvatars4c");
   }
 
   Future<void> speakavatars5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars5c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAvatars5c");
   }
 
   Future<void> speakavatars6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars6c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAvatars6c");
   }
 
   Future<void> speakavatars7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvatars7c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAvatars7c");
   }
 
   @override

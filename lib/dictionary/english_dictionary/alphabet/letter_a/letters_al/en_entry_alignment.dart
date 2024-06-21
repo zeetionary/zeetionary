@@ -16,7 +16,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alignment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alignment");
   }
 
   Future<void> speakalignment2533(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A bone in my spine was out of alignment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A bone in my spine was out of alignment.");
   }
 
   Future<void> speakalignment2455(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The door needs to be in alignment with the frame before you start work on it."); // DOPSUM: CHANGE TEXT
+        "The door needs to be in alignment with the frame before you start work on it.");
   }
 
   Future<void> speakalignment3522(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We will implement policies in alignment with our fiscal goals."); // DOPSUM: CHANGE TEXT
+        "We will implement policies in alignment with our fiscal goals.");
   }
 
   Future<void> speakalignment35288(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Property prices are too high and need to be brought back into alignment."); // DOPSUM: CHANGE TEXT
+        "Property prices are too high and need to be brought back into alignment.");
   }
 
   Future<void> speakalignment325888(String languageCode) async {
@@ -61,7 +60,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The new prime minister has moved into a much closer alignment with America."); // DOPSUM: CHANGE TEXT
+        "The new prime minister has moved into a much closer alignment with America.");
   }
 
   @override

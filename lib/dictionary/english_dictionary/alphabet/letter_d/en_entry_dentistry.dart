@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dentistry"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dentistry");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dentistry"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dentistry");
   }
 
   @override
@@ -221,176 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Where did Dr. Yee study dentistry?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdentistrys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdentistry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdentistrys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Where did Dr. Yee study dentistry?");
   }
 
   @override

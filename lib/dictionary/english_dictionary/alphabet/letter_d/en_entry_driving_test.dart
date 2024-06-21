@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("driving test"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("driving test");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("driving test"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("driving test");
   }
 
   @override
@@ -352,176 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The driving test includes a written and a practical part."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests2(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests3(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests4(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests5(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests6(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests7(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrivingtests22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrivingtest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrivingtests2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The driving test includes a written and a practical part.");
   }
 
   @override

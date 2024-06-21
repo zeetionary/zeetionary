@@ -18,7 +18,7 @@ class EnglishEntryantarctic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Antarctic");
   }
 
   Future<void> speakantarctic134(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntryantarctic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."); // DOPSUM: CHANGE TEXT
+        "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists.");
   }
 
   Future<void> speakantarctic136(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntryantarctic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists went on an Antarctic expedition to study penguins and ice."); // DOPSUM: CHANGE TEXT
+        "Scientists went on an Antarctic expedition to study penguins and ice.");
   }
 
   // Future<void> speakantarctic(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic");
   // }
 
   // Future<void> speakantarctic(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic");
   // }
 
   // Future<void> speakantarctic(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic");
   // }
 
   // Future<void> speakantarctic(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic");
   // }
 
   // Future<void> speakantarctic(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic");
   // }
 
   // Future<void> speakantarctic(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic");
   // }
 
   @override

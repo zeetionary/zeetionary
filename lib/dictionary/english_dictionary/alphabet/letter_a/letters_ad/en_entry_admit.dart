@@ -16,7 +16,7 @@ class EnglishEntryadmit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("admit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admit");
   }
 
   Future<void> speakadmi4527(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadmit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She stubbornly refuses to admit the truth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She stubbornly refuses to admit the truth.");
   }
 
   Future<void> speakadmit4568(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryadmit extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was generally admitted that the government had acted too quickly."); // DOPSUM: CHANGE TEXT
+        "It was generally admitted that the government had acted too quickly.");
   }
 
   Future<void> speakadmit34587(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryadmit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He refused to admit his guilt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He refused to admit his guilt.");
   }
 
   Future<void> speakadmit45682(String languageCode) async {
@@ -52,7 +50,7 @@ class EnglishEntryadmit extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You will not be admitted to the theatre after the performance has started."); // DOPSUM: CHANGE TEXT
+        "You will not be admitted to the theatre after the performance has started.");
   }
 
   Future<void> speakadmit458796(String languageCode) async {
@@ -60,8 +58,8 @@ class EnglishEntryadmit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Two crash victims were admitted to the local hospital."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Two crash victims were admitted to the local hospital.");
   }
 
   @override

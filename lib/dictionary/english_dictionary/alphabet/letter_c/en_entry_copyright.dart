@@ -21,7 +21,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("copyright"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("copyright");
   }
 
   Future<void> speakcopyrights1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Copyright expires seventy years after the death of the author."); // DOPSUM: CHANGE TEXT
+        "Copyright expires seventy years after the death of the author.");
   }
 
   Future<void> speakcopyrights2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were sued for breach/infringement of copyright."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were sued for breach/infringement of copyright.");
   }
 
   Future<void> speakcopyrights3(String languageCode) async {
@@ -47,8 +47,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The songs remain in copyright."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The songs remain in copyright.");
   }
 
   Future<void> speakcopyrights4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His work is now out of copyright."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His work is now out of copyright.");
   }
 
   Future<void> speakcopyrights5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Who owns the copyright on this song?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Who owns the copyright on this song?");
   }
 
   Future<void> speakcopyrights6(String languageCode) async {
@@ -75,7 +72,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Even though he has copyrighted the design, that hasn't prevented companies from copying it."); // DOPSUM: CHANGE TEXT
+        "Even though he has copyrighted the design, that hasn't prevented companies from copying it.");
   }
 
   Future<void> speakcopyrights7(String languageCode) async {
@@ -84,7 +81,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death."); // DOPSUM: CHANGE TEXT
+        "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death.");
   }
 
   Future<void> speakcopyrights8(String languageCode) async {
@@ -92,7 +89,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights800");
   }
 
   Future<void> speakcopyrights9(String languageCode) async {
@@ -100,7 +97,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights900");
   }
 
   Future<void> speakcopyrights10(String languageCode) async {
@@ -108,7 +105,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1000");
   }
 
   Future<void> speakcopyrights11(String languageCode) async {
@@ -116,7 +113,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1100");
   }
 
   Future<void> speakcopyrights12(String languageCode) async {
@@ -124,7 +121,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1200");
   }
 
   Future<void> speakcopyrights13(String languageCode) async {
@@ -132,7 +129,7 @@ class EnglishEntrycopyright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcopyrights1300");
   }
 
   @override

@@ -20,7 +20,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boycott"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boycott");
   }
 
   Future<void> speakboycotts1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are asking people to boycott goods from companies that use child labour."); // DOPSUM: CHANGE TEXT
+        "We are asking people to boycott goods from companies that use child labour.");
   }
 
   Future<void> speakboycotts2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They have urged people to boycott foreign products."); // DOPSUM: CHANGE TEXT
+        "They have urged people to boycott foreign products.");
   }
 
   Future<void> speakboycotts3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Opposition groups declared a boycott of the elections."); // DOPSUM: CHANGE TEXT
+        "Opposition groups declared a boycott of the elections.");
   }
 
   Future<void> speakboycotts4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The US has imposed a boycott on some European goods."); // DOPSUM: CHANGE TEXT
+        "The US has imposed a boycott on some European goods.");
   }
 
   Future<void> speakboycotts5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboycotts55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboycotts55");
   }
 
   Future<void> speakboycotts6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboycotts66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboycotts66");
   }
 
   Future<void> speakboycotts7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryboycott extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboycotts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboycotts77");
   }
 
   @override

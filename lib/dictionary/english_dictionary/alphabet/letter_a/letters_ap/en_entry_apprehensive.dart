@@ -22,7 +22,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apprehensive");
   }
 
   Future<void> speakapprehensive946(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I was a little apprehensive about the effects of what I had said."); // DOPSUM: CHANGE TEXT
+        "I was a little apprehensive about the effects of what I had said.");
   }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   // Future<void> speakapprehensive(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apprehensive");
   // }
 
   @override

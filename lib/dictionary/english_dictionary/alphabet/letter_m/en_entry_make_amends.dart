@@ -16,7 +16,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("make amends");
   }
 
   Future<void> speakMakeamends3466(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She tried to make amends for what she had said to her mother by buying her some flowers."); // DOPSUM: CHANGE TEXT
+        "She tried to make amends for what she had said to her mother by buying her some flowers.");
   }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   // Future<void> speakMakeamends(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("make amends"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("make amends");
   // }
 
   @override

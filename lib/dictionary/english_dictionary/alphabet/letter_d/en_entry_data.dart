@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("data"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("data");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("data"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("data");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We collected publicly available data over a 10-day period."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We collected publicly available data over a 10-day period.");
   }
 
   Future<void> speakdatas2(String languageCode) async {
@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "What methods are you using to interpret the data?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What methods are you using to interpret the data?");
   }
 
   Future<void> speakdatas3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Table 2 provides data for southeast Nebraska."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Table 2 provides data for southeast Nebraska.");
   }
 
   Future<void> speakdatas4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our model is based on experimental data."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Our model is based on experimental data.");
   }
 
   Future<void> speakdatas5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is essential to protect your personal data."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It is essential to protect your personal data.");
   }
 
   Future<void> speakdatas6(String languageCode) async {
@@ -266,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Multiple data collection methods were used."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Multiple data collection methods were used.");
   }
 
   Future<void> speakdatas7(String languageCode) async {
@@ -276,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All this data is stored on hundreds of servers in San Francisco."); // DOPSUM: CHANGE TEXT
+        "All this data is stored on hundreds of servers in San Francisco.");
   }
 
   Future<void> speakdatas8(String languageCode) async {
@@ -284,8 +279,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The computer can manipulate massive amounts of data."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The computer can manipulate massive amounts of data.");
   }
 
   Future<void> speakdatas9(String languageCode) async {
@@ -293,7 +288,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatas900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdatas900");
   }
 
   Future<void> speakdatas10(String languageCode) async {
@@ -301,7 +296,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatas1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdatas1000");
   }
 
   Future<void> speakdatas11(String languageCode) async {
@@ -309,7 +304,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatas1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdatas1100");
   }
 
   Future<void> speakdatas12(String languageCode) async {
@@ -317,7 +312,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatas1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdatas1200");
   }
 
   Future<void> speakdatas13(String languageCode) async {
@@ -325,7 +320,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatas1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdatas1300");
   }
 
   @override

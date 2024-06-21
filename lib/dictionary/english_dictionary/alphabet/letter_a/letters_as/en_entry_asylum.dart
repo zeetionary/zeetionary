@@ -24,7 +24,7 @@ class EnglishEntryasylum extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("asylum");
   }
 
   Future<void> speakasylum617(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryasylum extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was a nationwide debate on whether the asylum laws should be changed."); // DOPSUM: CHANGE TEXT
+        "There was a nationwide debate on whether the asylum laws should be changed.");
   }
 
   Future<void> speakasylum620(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryasylum extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Conditions in the asylum were deplorable."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Conditions in the asylum were deplorable.");
   }
 
   // Future<void> speakasylum(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asylum");
   // }
 
   // Future<void> speakasylum(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asylum");
   // }
 
   // Future<void> speakasylum(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asylum");
   // }
 
   // Future<void> speakasylum(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asylum");
   // }
 
   // Future<void> speakasylum(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asylum");
   // }
 
   // Future<void> speakasylum(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asylum");
   // }
 
   @override

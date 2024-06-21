@@ -24,7 +24,7 @@ class EnglishEntryastronomical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("astronomical");
   }
 
   Future<void> speakastronomical512(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryastronomical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The astronomical observatory is located on a mountaintop."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The astronomical observatory is located on a mountaintop.");
   }
 
   Future<void> speakastronomical514(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryastronomical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The costs were astronomical."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The costs were astronomical.");
   }
 
   // Future<void> speakastronomical(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astronomical");
   // }
 
   // Future<void> speakastronomical(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astronomical");
   // }
 
   // Future<void> speakastronomical(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astronomical");
   // }
 
   // Future<void> speakastronomical(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astronomical");
   // }
 
   // Future<void> speakastronomical(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astronomical");
   // }
 
   // Future<void> speakastronomical(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astronomical");
   // }
 
   @override

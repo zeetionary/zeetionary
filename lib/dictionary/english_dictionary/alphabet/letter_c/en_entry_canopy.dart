@@ -18,7 +18,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("canopy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("canopy");
   }
 
   Future<void> speakcanopys1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Canopies in medieval times often symbolized wealth and status."); // DOPSUM: CHANGE TEXT
+        "Canopies in medieval times often symbolized wealth and status.");
   }
 
   Future<void> speakcanopys2(String languageCode) async {
@@ -35,8 +35,8 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We could see the sky through gaps in the forest canopy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We could see the sky through gaps in the forest canopy.");
   }
 
   Future<void> speakcanopys3(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys33");
   }
 
   Future<void> speakcanopys4(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys44");
   }
 
   Future<void> speakcanopys5(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys55");
   }
 
   Future<void> speakcanopys6(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys66");
   }
 
   Future<void> speakcanopys7(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys77");
   }
 
   Future<void> speakcanopys8(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys88");
   }
 
   Future<void> speakcanopys9(String languageCode) async {
@@ -92,7 +92,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys99");
   }
 
   Future<void> speakcanopys10(String languageCode) async {
@@ -100,7 +100,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys1010");
   }
 
   Future<void> speakcanopys11(String languageCode) async {
@@ -108,7 +108,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys1111");
   }
 
   Future<void> speakcanopys12(String languageCode) async {
@@ -116,7 +116,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys1212");
   }
 
   Future<void> speakcanopys13(String languageCode) async {
@@ -124,7 +124,7 @@ class EnglishEntrycanopy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcanopys1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcanopys1313");
   }
 
   @override

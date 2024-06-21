@@ -16,7 +16,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ache"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ache");
   }
 
   Future<void> speaka125698(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her eyes ached from lack of sleep."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her eyes ached from lack of sleep.");
   }
 
   Future<void> speaka4973256(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It makes my heart ache to see her suffer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It makes my heart ache to see her suffer.");
   }
 
   Future<void> speaka456268(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I was aching for home."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was aching for home.");
   }
 
   Future<void> speaka14568(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Mummy, I've got a tummy ache."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Mummy, I've got a tummy ache.");
   }
 
   // Future<void> speakache(String languageCode) async {
@@ -59,7 +56,7 @@ class EnglishEntryache extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ache"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ache");
   // }
 
   @override

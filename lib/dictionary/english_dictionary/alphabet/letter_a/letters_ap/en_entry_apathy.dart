@@ -22,7 +22,7 @@ class EnglishEntryapathy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apathy");
   }
 
   Future<void> speakapathy1212(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryapathy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Such attitudes can only lead to apathy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Such attitudes can only lead to apathy.");
   }
 
   Future<void> speakapathy1215(String languageCode) async {
@@ -40,7 +39,7 @@ class EnglishEntryapathy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a growing sense of apathy among teens and a feeling that there are no opportunities, he said."); // DOPSUM: CHANGE TEXT
+        "There is a growing sense of apathy among teens and a feeling that there are no opportunities, he said.");
   }
 
   // Future<void> speakapathy(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryapathy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apathy");
   // }
 
   // Future<void> speakapathy(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryapathy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apathy");
   // }
 
   // Future<void> speakapathy(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryapathy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apathy");
   // }
 
   // Future<void> speakapathy(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryapathy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apathy");
   // }
 
   // Future<void> speakapathy(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryapathy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apathy");
   // }
 
   // Future<void> speakapathy(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryapathy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apathy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apathy");
   // }
 
   @override

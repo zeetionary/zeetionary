@@ -16,7 +16,7 @@ class EnglishEntryanimated extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("animated"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("animated");
   }
 
   Future<void> speakanimated944(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryanimated extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Mark was beginning to sound animated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Mark was beginning to sound animated.");
   }
 
   Future<void> speakanimated946(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryanimated extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her face suddenly became animated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her face suddenly became animated.");
   }
 
   Future<void> speakanimated950(String languageCode) async {
@@ -43,7 +41,7 @@ class EnglishEntryanimated extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Animated cartoons are popular for entertainment and storytelling."); // DOPSUM: CHANGE TEXT
+        "Animated cartoons are popular for entertainment and storytelling.");
   }
 
   // Future<void> speakanimated(String languageCode) async {
@@ -51,7 +49,7 @@ class EnglishEntryanimated extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animated");
   // }
 
   // Future<void> speakanimated(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryanimated extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animated");
   // }
 
   // Future<void> speakanimated(String languageCode) async {
@@ -67,7 +65,7 @@ class EnglishEntryanimated extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animated");
   // }
 
   // Future<void> speakanimated(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryanimated extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animated");
   // }
 
   // Future<void> speakanimated(String languageCode) async {
@@ -83,7 +81,7 @@ class EnglishEntryanimated extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animated");
   // }
 
   @override

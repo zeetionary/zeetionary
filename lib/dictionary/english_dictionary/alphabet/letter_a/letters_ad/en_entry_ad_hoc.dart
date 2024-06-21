@@ -16,7 +16,7 @@ class EnglishEntryadhoc extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ad hoc"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ad hoc");
   }
 
   Future<void> speakadhoc2414(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadhoc extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The meetings will be held on an ad hoc basis."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The meetings will be held on an ad hoc basis.");
   }
 
   // Future<void> speakadhoc(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadhoc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ad hoc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ad hoc");
   // }
 
   // Future<void> speakadhoc(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadhoc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ad hoc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ad hoc");
   // }
 
   @override

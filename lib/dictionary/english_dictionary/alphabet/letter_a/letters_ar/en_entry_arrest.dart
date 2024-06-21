@@ -24,7 +24,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arrest"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arrest");
   }
 
   Future<void> speakarrest420(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A man has been arrested in connection with the robbery."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A man has been arrested in connection with the robbery.");
   }
 
   Future<void> speakarrest421(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was arrested on corruption charges."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was arrested on corruption charges.");
   }
 
   Future<void> speakarrest425(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They failed to arrest the company's decline."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They failed to arrest the company's decline.");
   }
 
   Future<void> speakarrest426(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The spread of the disease can be arrested with drugs."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The spread of the disease can be arrested with drugs.");
   }
 
   Future<void> speakarrest428(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "An unusual noise arrested his attention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("An unusual noise arrested his attention.");
   }
 
   Future<void> speakarrest430(String languageCode) async {
@@ -77,8 +74,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He arrested on the way to the hospital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He arrested on the way to the hospital.");
   }
 
   Future<void> speakarrest432(String languageCode) async {
@@ -86,8 +82,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The police made several arrests."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The police made several arrests.");
   }
 
   Future<void> speakarrest435(String languageCode) async {
@@ -96,7 +91,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He died after suffering a cardiac arrest (= when his heart suddenly stopped)."); // DOPSUM: CHANGE TEXT
+        "He died after suffering a cardiac arrest (= when his heart suddenly stopped).");
   }
 
   @override

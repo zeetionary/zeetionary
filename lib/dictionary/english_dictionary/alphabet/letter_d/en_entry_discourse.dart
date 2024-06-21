@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("discourse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("discourse");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("discourse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("discourse");
   }
 
   @override
@@ -222,175 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was hoping for some lively political discourse at the meeting."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses2(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscourses22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscourse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscourses2200"); // DOPSUM: CHANGE TEXT
+        "He was hoping for some lively political discourse at the meeting.");
   }
 
   @override
@@ -446,32 +278,32 @@ class KurdishMeaning extends StatelessWidget {
           // discourses200"),
           // speakdiscourses2
           // discourses2("en-US"),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "speakdiscourses300"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdiscourses300"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdiscourses3("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdiscourses3("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),

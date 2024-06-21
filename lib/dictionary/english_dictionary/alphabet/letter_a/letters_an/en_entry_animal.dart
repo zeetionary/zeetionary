@@ -16,7 +16,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("animal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("animal");
   }
 
   Future<void> speakanimal858(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The animal began to sicken and soon died."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The animal began to sicken and soon died.");
   }
 
   Future<void> speakanimal0052(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A horse is a large animal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A horse is a large animal.");
   }
 
   Future<void> speakanimal440(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This product has not been tested on animals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This product has not been tested on animals.");
   }
 
   Future<void> speakanimal4608(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Humans are the only animals to have developed speech."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Humans are the only animals to have developed speech.");
   }
 
   Future<void> speakanimal4390(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's a real animal when he's had too much to drink."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's a real animal when he's had too much to drink.");
   }
 
   Future<void> speakanimal4077(String languageCode) async {
@@ -69,7 +67,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."); // DOPSUM: CHANGE TEXT
+        "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them.");
   }
 
   Future<void> speakanimal914(String languageCode) async {
@@ -77,8 +75,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As an actor, he has a sort of animal magnetism."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("As an actor, he has a sort of animal magnetism.");
   }
 
   // Future<void> speakanimal(String languageCode) async {
@@ -86,7 +83,7 @@ class EnglishEntryanimal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animal");
   // }
 
   @override

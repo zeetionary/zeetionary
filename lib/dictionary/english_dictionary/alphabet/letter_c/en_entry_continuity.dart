@@ -21,7 +21,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("continuity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("continuity");
   }
 
   Future<void> speakcontinuitys1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "To ensure continuity of care, it is better for a single doctor to treat the patient."); // DOPSUM: CHANGE TEXT
+        "To ensure continuity of care, it is better for a single doctor to treat the patient.");
   }
 
   Future<void> speakcontinuitys2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government is working to maintain continuity of fuel supplies during the crisis."); // DOPSUM: CHANGE TEXT
+        "The government is working to maintain continuity of fuel supplies during the crisis.");
   }
 
   Future<void> speakcontinuitys3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "More liaison between the old manager and the new one should ensure greater continuity."); // DOPSUM: CHANGE TEXT
+        "More liaison between the old manager and the new one should ensure greater continuity.");
   }
 
   Future<void> speakcontinuitys4(String languageCode) async {
@@ -56,8 +56,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The novel fails to achieve narrative continuity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The novel fails to achieve narrative continuity.");
   }
 
   Future<void> speakcontinuitys5(String languageCode) async {
@@ -65,8 +64,8 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are obvious continuities between diet and health."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are obvious continuities between diet and health.");
   }
 
   Future<void> speakcontinuitys6(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is often a lack of continuity between one government and the next."); // DOPSUM: CHANGE TEXT
+        "There is often a lack of continuity between one government and the next.");
   }
 
   Future<void> speakcontinuitys7(String languageCode) async {
@@ -83,7 +82,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys700");
   }
 
   Future<void> speakcontinuitys8(String languageCode) async {
@@ -91,7 +90,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys800");
   }
 
   Future<void> speakcontinuitys9(String languageCode) async {
@@ -99,7 +98,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys900");
   }
 
   Future<void> speakcontinuitys10(String languageCode) async {
@@ -107,7 +106,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys1000");
   }
 
   Future<void> speakcontinuitys11(String languageCode) async {
@@ -115,7 +114,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys1100");
   }
 
   Future<void> speakcontinuitys12(String languageCode) async {
@@ -123,7 +122,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys1200");
   }
 
   Future<void> speakcontinuitys13(String languageCode) async {
@@ -131,7 +130,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontinuitys1300");
   }
 
   @override

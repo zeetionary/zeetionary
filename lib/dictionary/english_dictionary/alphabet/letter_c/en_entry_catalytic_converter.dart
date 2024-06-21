@@ -21,7 +21,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("catalytic converter"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("catalytic converter");
   }
 
   Future<void> speakcatalyticconverters1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government mandates the use of catalytic converters to minimize environmental impact."); // DOPSUM: CHANGE TEXT
+        "The government mandates the use of catalytic converters to minimize environmental impact.");
   }
 
   Future<void> speakcatalyticconverters2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters22");
   }
 
   Future<void> speakcatalyticconverters3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters33");
   }
 
   Future<void> speakcatalyticconverters4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters44");
   }
 
   Future<void> speakcatalyticconverters5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters55");
   }
 
   Future<void> speakcatalyticconverters6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters66");
   }
 
   Future<void> speakcatalyticconverters7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters77");
   }
 
   Future<void> speakcatalyticconverters8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters88");
   }
 
   Future<void> speakcatalyticconverters9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalyticconverters99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters99");
   }
 
   Future<void> speakcatalyticconverters10(String languageCode) async {
@@ -102,8 +102,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcatalyticconverters1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters1010");
   }
 
   Future<void> speakcatalyticconverters11(String languageCode) async {
@@ -111,8 +110,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcatalyticconverters1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters1111");
   }
 
   Future<void> speakcatalyticconverters12(String languageCode) async {
@@ -120,8 +118,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcatalyticconverters1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters1212");
   }
 
   Future<void> speakcatalyticconverters13(String languageCode) async {
@@ -129,8 +126,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakcatalyticconverters1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalyticconverters1313");
   }
 
   @override

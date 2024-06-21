@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drone");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drone");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The film crew got some breathtaking footage from their drone."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The film crew got some breathtaking footage from their drone.");
   }
 
   Future<void> speakdrones2(String languageCode) async {
@@ -360,8 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Drone strikes killed 20 people in rebel-held areas."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Drone strikes killed 20 people in rebel-held areas.");
   }
 
   Future<void> speakdrones3(String languageCode) async {
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Get ready for a future where drones are delivering our packages."); // DOPSUM: CHANGE TEXT
+        "Get ready for a future where drones are delivering our packages.");
   }
 
   Future<void> speakdrones4(String languageCode) async {
@@ -378,8 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Outside the tent I could hear the constant drone of insects."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Outside the tent I could hear the constant drone of insects.");
   }
 
   Future<void> speakdrones5(String languageCode) async {
@@ -387,8 +387,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The drone of his voice made me feel sleepy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The drone of his voice made me feel sleepy.");
   }
 
   Future<void> speakdrones6(String languageCode) async {
@@ -397,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The medieval lord of the manor was what some today would call a drone."); // DOPSUM: CHANGE TEXT
+        "The medieval lord of the manor was what some today would call a drone.");
   }
 
   Future<void> speakdrones7(String languageCode) async {
@@ -405,128 +404,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A plane was droning in the distance."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrones22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrone
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrones2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A plane was droning in the distance.");
   }
 
   @override

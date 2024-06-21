@@ -20,7 +20,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apart from");
   }
 
   Future<void> speakapartfrom1125(String languageCode) async {
@@ -28,8 +28,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I've finished apart from the last question."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've finished apart from the last question.");
   }
 
   Future<void> speakapartfrom1127(String languageCode) async {
@@ -38,7 +37,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Apart from their house in London, they also have a villa in Spain."); // DOPSUM: CHANGE TEXT
+        "Apart from their house in London, they also have a villa in Spain.");
   }
 
   // Future<void> speakapartfrom(String languageCode) async {
@@ -46,7 +45,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apart from");
   // }
 
   // Future<void> speakapartfrom(String languageCode) async {
@@ -54,7 +53,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apart from");
   // }
 
   // Future<void> speakapartfrom(String languageCode) async {
@@ -62,7 +61,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apart from");
   // }
 
   // Future<void> speakapartfrom(String languageCode) async {
@@ -70,7 +69,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apart from");
   // }
 
   // Future<void> speakapartfrom(String languageCode) async {
@@ -78,7 +77,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apart from");
   // }
 
   // Future<void> speakapartfrom(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apart from");
   // }
 
   @override

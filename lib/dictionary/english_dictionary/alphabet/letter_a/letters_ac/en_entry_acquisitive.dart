@@ -16,7 +16,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acquisitive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acquisitive");
   }
 
   Future<void> speakacq12469(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryacquisitive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is an acquisitive company looking for ways to expand."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It is an acquisitive company looking for ways to expand.");
   }
 
   // Future<void> speakacquisitive(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acquisitive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acquisitive");
   // }
 
   // Future<void> speakacquisitive(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acquisitive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acquisitive");
   // }
 
   @override

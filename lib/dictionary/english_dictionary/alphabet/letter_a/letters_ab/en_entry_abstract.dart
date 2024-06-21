@@ -16,7 +16,7 @@ class EnglishEntryabstract extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abstract"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abstract");
   }
 
   Future<void> speaka65897(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryabstract extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their plan is to abstract 8 million gallons of water from the river."); // DOPSUM: CHANGE TEXT
+        "Their plan is to abstract 8 million gallons of water from the river.");
   }
 
   Future<void> speaka259874(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryabstract extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "the work of American abstract artists like Mark Rothko"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("the work of American abstract artists like Mark Rothko");
   }
 
   Future<void> speaka78946(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryabstract extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We may talk of beautiful things but beauty itself is abstract."); // DOPSUM: CHANGE TEXT
+        "We may talk of beautiful things but beauty itself is abstract.");
   }
 
   Future<void> speaka29867(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntryabstract extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The research shows that pre-school children are capable of thinking in abstract terms."); // DOPSUM: CHANGE TEXT
+        "The research shows that pre-school children are capable of thinking in abstract terms.");
   }
 
   @override

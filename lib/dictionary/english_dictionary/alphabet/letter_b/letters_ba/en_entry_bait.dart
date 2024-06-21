@@ -24,7 +24,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bait"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bait");
   }
 
   Future<void> speakbaits1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Live worms are used as bait."); // DOPSUM: CHANGE TEXT
+        .speak("Live worms are used as bait.");
   }
 
   Future<void> speakbaits2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police used him as bait to trap the killers."); // DOPSUM: CHANGE TEXT
+        "The police used him as bait to trap the killers.");
   }
 
   Future<void> speakbaits3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He baited the trap with a piece of meat."); // DOPSUM: CHANGE TEXT
+        "He baited the trap with a piece of meat.");
   }
 
   Future<void> speakbaits4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The soldiers remained calm even though the crowd was baiting them."); // DOPSUM: CHANGE TEXT
+        "The soldiers remained calm even though the crowd was baiting them.");
   }
 
   Future<void> speakbaits5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The activity of bear-baiting was finally banned in England in the 19th century."); // DOPSUM: CHANGE TEXT
+        "The activity of bear-baiting was finally banned in England in the 19th century.");
   }
 
   Future<void> speakbaits6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBaits66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBaits66");
   }
 
   Future<void> speakbaits7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBaits77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBaits77");
   }
 
   @override

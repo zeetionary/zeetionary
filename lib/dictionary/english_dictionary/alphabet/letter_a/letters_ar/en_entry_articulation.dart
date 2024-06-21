@@ -24,7 +24,7 @@ class EnglishEntryarticulation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("articulation");
   }
 
   Future<void> speakarticulation845(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryarticulation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."); // DOPSUM: CHANGE TEXT
+        "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications.");
   }
 
   Future<void> speakarticulation847(String languageCode) async {
@@ -41,8 +41,8 @@ class EnglishEntryarticulation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The tongue and teeth are both organs of articulation."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The tongue and teeth are both organs of articulation.");
   }
 
   Future<void> speakarticulation853(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryarticulation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The articulation of the shoulder allows for a wide range of motion."); // DOPSUM: CHANGE TEXT
+        "The articulation of the shoulder allows for a wide range of motion.");
   }
 
   Future<void> speakarticulation855(String languageCode) async {
@@ -59,8 +59,8 @@ class EnglishEntryarticulation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The articulation of the pieces of the puzzle was perfect."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The articulation of the pieces of the puzzle was perfect.");
   }
 
   // Future<void> speakarticulation(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation");
   // }
 
   // Future<void> speakarticulation(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation");
   // }
 
   // Future<void> speakarticulation(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation");
   // }
 
   // Future<void> speakarticulation(String languageCode) async {
@@ -92,7 +92,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation");
   // }
 
   @override

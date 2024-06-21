@@ -18,7 +18,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("button"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("button");
   }
 
   Future<void> speakbuttons1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "One of the buttons on his jacket was missing."); // DOPSUM: CHANGE TEXT
+        "One of the buttons on his jacket was missing.");
   }
 
   Future<void> speakbuttons2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The top button of his shirt was undone."); // DOPSUM: CHANGE TEXT
+        "The top button of his shirt was undone.");
   }
 
   Future<void> speakbuttons3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Adam pressed a button on the elevator and waited for the lift."); // DOPSUM: CHANGE TEXT
+        "Adam pressed a button on the elevator and waited for the lift.");
   }
 
   Future<void> speakbuttons4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Choose ‘printer’ from the menu and click with the right mouse button."); // DOPSUM: CHANGE TEXT
+        "Choose ‘printer’ from the menu and click with the right mouse button.");
   }
 
   Future<void> speakbuttons5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Click on the back button to go back to the previous screen."); // DOPSUM: CHANGE TEXT
+        "Click on the back button to go back to the previous screen.");
   }
 
   Future<void> speakbuttons6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They all wore buttons saying ‘Stop the war’."); // DOPSUM: CHANGE TEXT
+        "They all wore buttons saying ‘Stop the war’.");
   }
 
   Future<void> speakbuttons7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She buttoned the child into his coat."); // DOPSUM: CHANGE TEXT
+        .speak("She buttoned the child into his coat.");
   }
 
   Future<void> speakbuttons8(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The dress buttons (up) at the back."); // DOPSUM: CHANGE TEXT
+        .speak("The dress buttons (up) at the back.");
   }
 
   Future<void> speakbuttons9(String languageCode) async {
@@ -98,7 +98,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuttons99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuttons99");
   }
 
   Future<void> speakbuttons10(String languageCode) async {
@@ -106,7 +106,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuttons1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuttons1010");
   }
 
   Future<void> speakbuttons11(String languageCode) async {
@@ -114,7 +114,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuttons1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuttons1111");
   }
 
   Future<void> speakbuttons12(String languageCode) async {
@@ -122,7 +122,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuttons1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuttons1212");
   }
 
   Future<void> speakbuttons13(String languageCode) async {
@@ -130,7 +130,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuttons1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuttons1313");
   }
 
   @override

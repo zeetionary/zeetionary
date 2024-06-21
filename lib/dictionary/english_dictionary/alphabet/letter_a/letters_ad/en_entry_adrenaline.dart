@@ -16,7 +16,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adrenaline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adrenaline");
   }
 
   Future<void> speakadren235874(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The excitement at the start of a race can really get the adrenaline flowing."); // DOPSUM: CHANGE TEXT
+        "The excitement at the start of a race can really get the adrenaline flowing.");
   }
 
   // Future<void> speakadrenaline(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adrenaline"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adrenaline");
   // }
 
   // Future<void> speakadrenaline(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adrenaline"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adrenaline");
   // }
 
   @override

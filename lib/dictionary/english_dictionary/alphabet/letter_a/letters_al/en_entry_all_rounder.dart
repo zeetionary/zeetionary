@@ -16,7 +16,7 @@ class EnglishEntryallrounder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("all-rounder"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("all-rounder");
   }
 
   Future<void> speakallrounder12544(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryallrounder extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He is a good all-rounder who likes tennis, cricket, and swimming."); // DOPSUM: CHANGE TEXT
+        "He is a good all-rounder who likes tennis, cricket, and swimming.");
   }
 
   // Future<void> speakallrounder(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryallrounder extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all-rounder"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("all-rounder");
   // }
 
   // Future<void> speakallrounder(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryallrounder extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all-rounder"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("all-rounder");
   // }
 
   @override

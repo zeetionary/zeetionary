@@ -24,7 +24,7 @@ class EnglishEntryartillery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artillery");
   }
 
   Future<void> speakartillery1010(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryartillery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The town is under heavy artillery fire."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The town is under heavy artillery fire.");
   }
 
   Future<void> speakartillery1014(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryartillery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He served in the artillery for twenty years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He served in the artillery for twenty years.");
   }
 
   // Future<void> speakartillery(String languageCode) async {
@@ -50,7 +48,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artillery");
   // }
 
   // Future<void> speakartillery(String languageCode) async {
@@ -58,7 +56,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artillery");
   // }
 
   // Future<void> speakartillery(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artillery");
   // }
 
   // Future<void> speakartillery(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artillery");
   // }
 
   // Future<void> speakartillery(String languageCode) async {
@@ -82,7 +80,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artillery");
   // }
 
   // Future<void> speakartillery(String languageCode) async {
@@ -90,7 +88,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artillery");
   // }
 
   @override

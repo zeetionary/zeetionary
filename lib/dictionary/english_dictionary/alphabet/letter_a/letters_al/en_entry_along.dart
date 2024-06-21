@@ -16,7 +16,7 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("along");
   }
 
   Future<void> speakalong457(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They walked slowly along the road."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They walked slowly along the road.");
   }
 
   Future<void> speakalong4451(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Houses had been built along both sides of the river."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Houses had been built along both sides of the river.");
   }
 
   Future<void> speakalong451(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Somewhere along this road there's a garage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Somewhere along this road there's a garage.");
   }
 
   Future<void> speakalong45169(String languageCode) async {
@@ -51,8 +49,7 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We were going along at about 50 miles an hour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We were going along at about 50 miles an hour.");
   }
 
   Future<void> speakalong4516(String languageCode) async {
@@ -60,8 +57,7 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'll be along in a few minutes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'll be along in a few minutes.");
   }
 
   // Future<void> speakalong(String languageCode) async {
@@ -69,7 +65,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("along");
   // }
 
   // Future<void> speakalong(String languageCode) async {
@@ -77,7 +73,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("along");
   // }
 
   // Future<void> speakalong(String languageCode) async {
@@ -85,7 +81,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("along");
   // }
 
   // Future<void> speakalong(String languageCode) async {
@@ -93,7 +89,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("along");
   // }
 
   @override

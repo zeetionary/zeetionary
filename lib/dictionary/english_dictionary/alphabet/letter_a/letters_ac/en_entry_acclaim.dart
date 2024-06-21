@@ -16,7 +16,7 @@ class EnglishEntryacclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acclaim"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acclaim");
   }
 
   Future<void> speaka2158(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His discoveries earned him wide acclaim."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His discoveries earned him wide acclaim.");
   }
 
   Future<void> speaka21598(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryacclaim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This book has been widely acclaimed as a modern classic."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This book has been widely acclaimed as a modern classic.");
   }
 
   @override

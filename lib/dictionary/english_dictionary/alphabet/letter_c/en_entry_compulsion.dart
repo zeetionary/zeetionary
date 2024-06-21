@@ -21,7 +21,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compulsion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compulsion");
   }
 
   Future<void> speakcompulsions1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You are under no compulsion to pay immediately."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You are under no compulsion to pay immediately.");
   }
 
   Future<void> speakcompulsions2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are no compulsions on students to attend classes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are no compulsions on students to attend classes.");
   }
 
   Future<void> speakcompulsions3(String languageCode) async {
@@ -47,8 +46,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The legal system is based on compulsion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The legal system is based on compulsion.");
   }
 
   Future<void> speakcompulsions4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He felt a great compulsion to tell her everything."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He felt a great compulsion to tell her everything.");
   }
 
   Future<void> speakcompulsions5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He felt a great compulsion to drive too fast."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He felt a great compulsion to drive too fast.");
   }
 
   Future<void> speakcompulsions6(String languageCode) async {
@@ -74,7 +71,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions600");
   }
 
   Future<void> speakcompulsions7(String languageCode) async {
@@ -82,7 +79,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions700");
   }
 
   Future<void> speakcompulsions8(String languageCode) async {
@@ -90,7 +87,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions800");
   }
 
   Future<void> speakcompulsions9(String languageCode) async {
@@ -98,7 +95,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions900");
   }
 
   Future<void> speakcompulsions10(String languageCode) async {
@@ -106,7 +103,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions1000");
   }
 
   Future<void> speakcompulsions11(String languageCode) async {
@@ -114,7 +111,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions1100");
   }
 
   Future<void> speakcompulsions12(String languageCode) async {
@@ -122,7 +119,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions1200");
   }
 
   Future<void> speakcompulsions13(String languageCode) async {
@@ -130,7 +127,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsions1300");
   }
 
   @override

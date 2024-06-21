@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("embroidery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("embroidery");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("embroidery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("embroidery");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Let me show you Pat's embroideries."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let me show you Pat's embroideries.");
   }
 
   Future<void> speakembroiderys2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a beautiful piece of embroidery."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It was a beautiful piece of embroidery.");
   }
 
   Future<void> speakembroiderys3(String languageCode) async {
@@ -369,160 +367,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'm not very good at embroidery."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys4(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys5(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys6(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys7(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys8(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys9(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys10(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys11(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys12(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys13(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys14(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys15(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys16(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys17(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys18(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys19(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys20(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys21(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakembroiderys22(String languageCode) async {
-    // DOPSUM: CHANGE speakembroidery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakembroiderys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm not very good at embroidery.");
   }
 
   @override
@@ -627,19 +472,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys4("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys4("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys400embroiderys4
+          // speakembroiderys4("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -653,19 +487,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys5("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys5("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys500embroiderys5
+          // speakembroiderys5("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -679,19 +502,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys6("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys6("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys600embroiderys6
+          // speakembroiderys6("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -705,19 +517,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys7("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys7("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys700embroiderys7
+          // speakembroiderys7("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -731,19 +532,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys8("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys8("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys800embroiderys8
+          // speakembroiderys8("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -757,19 +547,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys9("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys9("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys900embroiderys9
+          // speakembroiderys9("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -783,19 +562,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys_1000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys10("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys10("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys_1000embroiderys10
+          // speakembroiderys10("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -809,19 +577,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys11("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys11("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1100embroiderys11
+          // speakembroiderys11("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -835,19 +592,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys12("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys12("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1200embroiderys12
+          // speakembroiderys12("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -861,19 +607,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys13("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys13("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1300embroiderys13
+          // speakembroiderys13("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -887,19 +622,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys14("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys14("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1400embroiderys14
+          // speakembroiderys14("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -913,19 +637,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys15("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys15("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1500embroiderys15
+          // speakembroiderys15("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -939,19 +652,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys16("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1600embroiderys16
+          // speakembroiderys16("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -965,19 +667,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys17("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1700embroiderys17
+          // speakembroiderys17("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -991,19 +682,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys18("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1800embroiderys18
+          // speakembroiderys18("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1017,19 +697,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys19("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys1900embroiderys19
+          // speakembroiderys19("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1043,19 +712,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys20("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys_2000embroiderys20
+          // speakembroiderys20("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1069,19 +727,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys21("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys2100embroiderys21
+          // speakembroiderys21("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1095,19 +742,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembroiderys2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakembroiderys22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakembroiderys22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakembroiderys2200embroiderys22
+          // speakembroiderys22("en-US"""),
           //         ),
           //       ],
           //     ),

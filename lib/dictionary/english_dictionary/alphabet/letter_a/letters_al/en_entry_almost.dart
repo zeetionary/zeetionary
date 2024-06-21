@@ -16,7 +16,7 @@ class EnglishEntryalmost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("almost"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("almost");
   }
 
   Future<void> speakalmost4211(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryalmost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I like almost all of them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I like almost all of them.");
   }
 
   Future<void> speakalmost2489(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryalmost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The castle is almost entirely surrounded by water."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The castle is almost entirely surrounded by water.");
   }
 
   Future<void> speakalmost4958(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryalmost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The painting is almost certainly a forgery."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The painting is almost certainly a forgery.");
   }
 
   @override

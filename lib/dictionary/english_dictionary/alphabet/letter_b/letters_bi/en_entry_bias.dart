@@ -24,7 +24,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bias"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bias");
   }
 
   Future<void> speakbiass1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Employers must consider all candidates without bias."); // DOPSUM: CHANGE TEXT
+        "Employers must consider all candidates without bias.");
   }
 
   Future<void> speakbiass2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some institutions still have a strong bias against women."); // DOPSUM: CHANGE TEXT
+        "Some institutions still have a strong bias against women.");
   }
 
   Future<void> speakbiass3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In British universities there was a bias towards pure science."); // DOPSUM: CHANGE TEXT
+        "In British universities there was a bias towards pure science.");
   }
 
   Future<void> speakbiass4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She showed a scientific bias at an early age."); // DOPSUM: CHANGE TEXT
+        "She showed a scientific bias at an early age.");
   }
 
   Future<void> speakbiass5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If a response rate is low, the risk of bias in the findings will be greater."); // DOPSUM: CHANGE TEXT
+        "If a response rate is low, the risk of bias in the findings will be greater.");
   }
 
   Future<void> speakbiass6(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The newspapers have biased people against her."); // DOPSUM: CHANGE TEXT
+        "The newspapers have biased people against her.");
   }
 
   Future<void> speakbiass7(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The experiment contained an error which could bias the results."); // DOPSUM: CHANGE TEXT
+        "The experiment contained an error which could bias the results.");
   }
 
   @override

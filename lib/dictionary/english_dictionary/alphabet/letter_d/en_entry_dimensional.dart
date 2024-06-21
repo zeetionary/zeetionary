@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dimensional"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dimensional");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dimensional"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dimensional");
   }
 
   @override
@@ -223,7 +223,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Cedar wood with its outstanding dimensional stability is resistant to warping."); // DOPSUM: CHANGE TEXT
+        "Cedar wood with its outstanding dimensional stability is resistant to warping.");
   }
 
   Future<void> speakdimensionals2(String languageCode) async {
@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I have my own 3D printer, but the dimensional accuracy isn't good enough."); // DOPSUM: CHANGE TEXT
+        "I have my own 3D printer, but the dimensional accuracy isn't good enough.");
   }
 
   Future<void> speakdimensionals3(String languageCode) async {
@@ -241,159 +241,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I would say all the characters are strong, dimensional, fully-imagined women."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals4(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals5(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals6(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals7(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals8(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals9(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals10(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals11(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals12(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals13(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals14(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals15(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals16(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals17(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals18(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals19(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals20(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals21(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdimensionals22(String languageCode) async {
-    // DOPSUM: CHANGE speakdimensional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdimensionals2200"); // DOPSUM: CHANGE TEXT
+        "I would say all the characters are strong, dimensional, fully-imagined women.");
   }
 
   @override

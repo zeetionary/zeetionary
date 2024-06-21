@@ -16,7 +16,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accordingly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accordingly");
   }
 
   Future<void> speaka25143(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices."); // DOPSUM: CHANGE TEXT
+        "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices.");
   }
 
   Future<void> speakac75924(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryaccordingly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have to discover his plans and act accordingly."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We have to discover his plans and act accordingly.");
   }
 
   @override

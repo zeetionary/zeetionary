@@ -24,7 +24,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("basic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("basic");
   }
 
   Future<void> speakbasictwos1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a basic fault in the design of the engine."); // DOPSUM: CHANGE TEXT
+        "There is a basic fault in the design of the engine.");
   }
 
   Future<void> speakbasictwos2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They haven't even given us the most basic information we need."); // DOPSUM: CHANGE TEXT
+        "They haven't even given us the most basic information we need.");
   }
 
   Future<void> speakbasictwos3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My knowledge of French is pretty basic."); // DOPSUM: CHANGE TEXT
+        "My knowledge of French is pretty basic.");
   }
 
   Future<void> speakbasictwos4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar."); // DOPSUM: CHANGE TEXT
+        "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar.");
   }
 
   Future<void> speakbasictwos5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The basic pay of the average worker has risen by 3 per cent."); // DOPSUM: CHANGE TEXT
+        "The basic pay of the average worker has risen by 3 per cent.");
   }
 
   Future<void> speakbasictwos6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBasictwos66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasictwos66");
   }
 
   Future<void> speakbasictwos7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBasictwos77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasictwos77");
   }
 
   @override

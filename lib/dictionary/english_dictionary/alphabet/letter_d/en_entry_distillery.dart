@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distillery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distillery");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distillery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distillery");
   }
 
   @override
@@ -351,176 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The town had a whisky distillery that is 40 years old."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistillerys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistillery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistillerys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The town had a whisky distillery that is 40 years old.");
   }
 
   @override

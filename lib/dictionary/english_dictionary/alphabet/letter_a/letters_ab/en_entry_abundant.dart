@@ -16,7 +16,7 @@ class EnglishEntryabundant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abundant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abundant");
   }
 
   Future<void> speaka15742(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabundant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have abundant evidence to prove his guilt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have abundant evidence to prove his guilt.");
   }
 
   Future<void> speaka96852(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryabundant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Fish are abundant in the lake."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Fish are abundant in the lake.");
   }
 
   @override

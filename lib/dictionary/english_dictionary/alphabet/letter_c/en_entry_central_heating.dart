@@ -21,7 +21,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("central heating"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("central heating");
   }
 
   Future<void> speakcentralheatings1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Central heating uses a boiler to generate heat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Central heating uses a boiler to generate heat.");
   }
 
   Future<void> speakcentralheatings2(String languageCode) async {
@@ -38,7 +37,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings22");
   }
 
   Future<void> speakcentralheatings3(String languageCode) async {
@@ -46,7 +45,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings33");
   }
 
   Future<void> speakcentralheatings4(String languageCode) async {
@@ -54,7 +53,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings44");
   }
 
   Future<void> speakcentralheatings5(String languageCode) async {
@@ -62,7 +61,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings55");
   }
 
   Future<void> speakcentralheatings6(String languageCode) async {
@@ -70,7 +69,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings66");
   }
 
   Future<void> speakcentralheatings7(String languageCode) async {
@@ -78,7 +77,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings77");
   }
 
   Future<void> speakcentralheatings8(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings88");
   }
 
   Future<void> speakcentralheatings9(String languageCode) async {
@@ -94,7 +93,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings99");
   }
 
   Future<void> speakcentralheatings10(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings1010");
   }
 
   Future<void> speakcentralheatings11(String languageCode) async {
@@ -110,7 +109,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings1111");
   }
 
   Future<void> speakcentralheatings12(String languageCode) async {
@@ -118,7 +117,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings1212");
   }
 
   Future<void> speakcentralheatings13(String languageCode) async {
@@ -126,7 +125,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentralheatings1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentralheatings1313");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryafterthought extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("afterthought"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afterthought");
   }
 
   Future<void> speakafterth369(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryafterthought extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They only invited Jack and Sarah as an afterthought."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They only invited Jack and Sarah as an afterthought.");
   }
 
   // Future<void> speakafterthought(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryafterthought extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afterthought"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afterthought");
   // }
 
   // Future<void> speakafterthought(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryafterthought extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afterthought"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afterthought");
   // }
 
   @override

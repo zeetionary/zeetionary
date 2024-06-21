@@ -16,7 +16,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accidentally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accidentally");
   }
 
   Future<void> speaka21589(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccidentally extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The damage couldn't have been caused accidentally."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The damage couldn't have been caused accidentally.");
   }
 
   @override

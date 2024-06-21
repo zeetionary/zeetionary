@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dividend"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dividend");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dividend"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dividend");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Investors will still pay tax on their foreign share dividends."); // DOPSUM: CHANGE TEXT
+        "Investors will still pay tax on their foreign share dividends.");
   }
 
   Future<void> speakdividends2(String languageCode) async {
@@ -360,8 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company has not yet declared its dividends for this year."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The company has not yet declared its dividends for this year.");
   }
 
   Future<void> speakdividends3(String languageCode) async {
@@ -369,8 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Exercising regularly will pay dividends in the end."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Exercising regularly will pay dividends in the end.");
   }
 
   Future<void> speakdividends4(String languageCode) async {
@@ -379,151 +379,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her hard work paid dividends when she won the school dancing competition."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends5(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends6(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends7(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends8(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends9(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends10(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends11(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends12(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends13(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends14(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends15(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends16(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends17(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends18(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends19(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends20(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends21(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdividends22(String languageCode) async {
-    // DOPSUM: CHANGE speakdividend
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdividends2200"); // DOPSUM: CHANGE TEXT
+        "Her hard work paid dividends when she won the school dancing competition.");
   }
 
   @override

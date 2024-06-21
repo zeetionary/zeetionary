@@ -16,7 +16,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acupuncture"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acupuncture");
   }
 
   Future<void> speakacupunct457(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Acupuncture has been practised in China for thousands of years."); // DOPSUM: CHANGE TEXT
+        "Acupuncture has been practised in China for thousands of years.");
   }
 
   // Future<void> speakacupuncture(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acupuncture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acupuncture");
   // }
 
   // Future<void> speakacupuncture(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acupuncture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acupuncture");
   // }
 
   @override

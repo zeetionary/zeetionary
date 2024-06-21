@@ -21,7 +21,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("contribution"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contribution");
   }
 
   Future<void> speakcontributions1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All contributions will be gratefully received."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("All contributions will be gratefully received.");
   }
 
   Future<void> speakcontributions2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We rely entirely on voluntary contributions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We rely entirely on voluntary contributions.");
   }
 
   Future<void> speakcontributions3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Financial contributions from individuals paid for the expenses."); // DOPSUM: CHANGE TEXT
+        "Financial contributions from individuals paid for the expenses.");
   }
 
   Future<void> speakcontributions4(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You can increase your monthly contributions to the pension plan."); // DOPSUM: CHANGE TEXT
+        "You can increase your monthly contributions to the pension plan.");
   }
 
   Future<void> speakcontributions5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He made a very positive contribution to the success of the project."); // DOPSUM: CHANGE TEXT
+        "He made a very positive contribution to the success of the project.");
   }
 
   Future<void> speakcontributions6(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This book represents a major contribution to our understanding of the Holocaust."); // DOPSUM: CHANGE TEXT
+        "This book represents a major contribution to our understanding of the Holocaust.");
   }
 
   Future<void> speakcontributions7(String languageCode) async {
@@ -83,8 +81,8 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He made a major contribution to peace in the region."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He made a major contribution to peace in the region.");
   }
 
   Future<void> speakcontributions8(String languageCode) async {
@@ -92,8 +90,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Thank you for your contributions to the blog."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Thank you for your contributions to the blog.");
   }
 
   Future<void> speakcontributions9(String languageCode) async {
@@ -102,7 +99,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There are no contributions by scholars based in North America."); // DOPSUM: CHANGE TEXT
+        "There are no contributions by scholars based in North America.");
   }
 
   Future<void> speakcontributions10(String languageCode) async {
@@ -111,7 +108,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All contributions for the May issue must be received by Friday."); // DOPSUM: CHANGE TEXT
+        "All contributions for the May issue must be received by Friday.");
   }
 
   Future<void> speakcontributions11(String languageCode) async {
@@ -119,8 +116,8 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The institute is totally funded by voluntary contribution."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The institute is totally funded by voluntary contribution.");
   }
 
   Future<void> speakcontributions12(String languageCode) async {
@@ -128,7 +125,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontributions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributions1200");
   }
 
   Future<void> speakcontributions13(String languageCode) async {
@@ -136,7 +133,7 @@ class EnglishEntrycontribution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontributions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontributions1300");
   }
 
   @override

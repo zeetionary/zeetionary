@@ -16,7 +16,7 @@ class EnglishEntryabseil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abseil"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abseil");
   }
 
   Future<void> speaka6271(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabseil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was a little scared when I first abseiled."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was a little scared when I first abseiled.");
   }
 
   @override

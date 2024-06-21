@@ -21,7 +21,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("checkmate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("checkmate");
   }
 
   Future<void> speakcheckmates1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His king had been checkmated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His king had been checkmated.");
   }
 
   Future<void> speakcheckmates2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She hoped the plan would checkmate her opponents."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She hoped the plan would checkmate her opponents.");
   }
 
   Future<void> speakcheckmates3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The chess player celebrated victory after putting his opponent's king in checkmate."); // DOPSUM: CHANGE TEXT
+        "The chess player celebrated victory after putting his opponent's king in checkmate.");
   }
 
   Future<void> speakcheckmates4(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The politician's scandalous revelation was his political checkmate."); // DOPSUM: CHANGE TEXT
+        "The politician's scandalous revelation was his political checkmate.");
   }
 
   Future<void> speakcheckmates5(String languageCode) async {
@@ -65,7 +63,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates500");
   }
 
   Future<void> speakcheckmates6(String languageCode) async {
@@ -73,7 +71,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates600");
   }
 
   Future<void> speakcheckmates7(String languageCode) async {
@@ -81,7 +79,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates700");
   }
 
   Future<void> speakcheckmates8(String languageCode) async {
@@ -89,7 +87,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates800");
   }
 
   Future<void> speakcheckmates9(String languageCode) async {
@@ -97,7 +95,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates900");
   }
 
   Future<void> speakcheckmates10(String languageCode) async {
@@ -105,7 +103,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates1000");
   }
 
   Future<void> speakcheckmates11(String languageCode) async {
@@ -113,7 +111,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates1100");
   }
 
   Future<void> speakcheckmates12(String languageCode) async {
@@ -121,7 +119,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates1200");
   }
 
   Future<void> speakcheckmates13(String languageCode) async {
@@ -129,7 +127,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckmates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckmates1300");
   }
 
   @override

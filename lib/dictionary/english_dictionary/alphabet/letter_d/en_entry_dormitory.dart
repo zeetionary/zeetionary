@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dormitory"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dormitory");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dormitory"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dormitory");
   }
 
   @override
@@ -351,176 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She shared a dormitory with three other students."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdormitorys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdormitory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdormitorys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She shared a dormitory with three other students.");
   }
 
   @override

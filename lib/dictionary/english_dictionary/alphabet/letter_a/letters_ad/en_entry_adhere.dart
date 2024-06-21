@@ -16,7 +16,7 @@ class EnglishEntryadhere extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adhere"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adhere");
   }
 
   Future<void> speakadhe55661(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadhere extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Clean the surface first, or the paint will not adhere."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Clean the surface first, or the paint will not adhere.");
   }
 
   Future<void> speakadhe2537(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryadhere extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Once in the bloodstream, the bacteria adhere to the surface of the red cells."); // DOPSUM: CHANGE TEXT
+        "Once in the bloodstream, the bacteria adhere to the surface of the red cells.");
   }
 
   // Future<void> speakadhere(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryadhere extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhere"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adhere");
   // }
 
   @override

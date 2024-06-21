@@ -21,7 +21,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conflict"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conflict");
   }
 
   Future<void> speakconflicts1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The violence was the result of political conflicts."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The violence was the result of political conflicts.");
   }
 
   Future<void> speakconflicts2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His task will be to resolve potential conflicts between the British and Scottish governments."); // DOPSUM: CHANGE TEXT
+        "His task will be to resolve potential conflicts between the British and Scottish governments.");
   }
 
   Future<void> speakconflicts3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She found herself in conflict with her parents over her future career."); // DOPSUM: CHANGE TEXT
+        "She found herself in conflict with her parents over her future career.");
   }
 
   Future<void> speakconflicts4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The country has experienced internal conflict over the last decade."); // DOPSUM: CHANGE TEXT
+        "The country has experienced internal conflict over the last decade.");
   }
 
   Future<void> speakconflicts5(String languageCode) async {
@@ -65,8 +65,8 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hopes of ending the conflict in the region are fading."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Hopes of ending the conflict in the region are fading.");
   }
 
   Future<void> speakconflicts6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A conflict between the two countries could easily spread across the whole region."); // DOPSUM: CHANGE TEXT
+        "A conflict between the two countries could easily spread across the whole region.");
   }
 
   Future<void> speakconflicts7(String languageCode) async {
@@ -83,8 +83,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her diary was a record of her inner conflict."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her diary was a record of her inner conflict.");
   }
 
   Future<void> speakconflicts8(String languageCode) async {
@@ -92,8 +91,8 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many of these ideas appear to be in conflict with each other."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Many of these ideas appear to be in conflict with each other.");
   }
 
   Future<void> speakconflicts9(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Reports conflicted on how much of the aid was reaching the famine victims."); // DOPSUM: CHANGE TEXT
+        "Reports conflicted on how much of the aid was reaching the famine victims.");
   }
 
   Future<void> speakconflicts10(String languageCode) async {
@@ -110,8 +109,8 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are several major areas where their interests conflict."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are several major areas where their interests conflict.");
   }
 
   Future<void> speakconflicts11(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconflicts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconflicts1100");
   }
 
   Future<void> speakconflicts12(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconflicts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconflicts1200");
   }
 
   Future<void> speakconflicts13(String languageCode) async {
@@ -135,7 +134,7 @@ class EnglishEntryconflict extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconflicts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconflicts1300");
   }
 
   @override

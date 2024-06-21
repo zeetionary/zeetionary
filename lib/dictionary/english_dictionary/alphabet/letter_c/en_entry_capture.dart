@@ -21,7 +21,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("capture"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("capture");
   }
 
   Future<void> speakcaptures1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Allied troops captured over 300 enemy soldiers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Allied troops captured over 300 enemy soldiers.");
   }
 
   Future<void> speakcaptures2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Two of the soldiers were killed and the rest were captured."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Two of the soldiers were killed and the rest were captured.");
   }
 
   Future<void> speakcaptures3(String languageCode) async {
@@ -47,8 +46,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The city was captured in 1941."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The city was captured in 1941.");
   }
 
   Future<void> speakcaptures4(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Google has captured 40 per cent of the digital advertising market."); // DOPSUM: CHANGE TEXT
+        "Google has captured 40 per cent of the digital advertising market.");
   }
 
   Future<void> speakcaptures5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His story captured the attention of Hollywood."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His story captured the attention of Hollywood.");
   }
 
   Future<void> speakcaptures6(String languageCode) async {
@@ -74,8 +71,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her photos capture the essence of her subjects."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her photos capture the essence of her subjects.");
   }
 
   Future<void> speakcaptures7(String languageCode) async {
@@ -83,8 +79,8 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The photographer's camera captures images of extreme beauty."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The photographer's camera captures images of extreme beauty.");
   }
 
   Future<void> speakcaptures8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The attack was captured on film by security cameras."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The attack was captured on film by security cameras.");
   }
 
   Future<void> speakcaptures9(String languageCode) async {
@@ -101,8 +97,8 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their first glance captured a spark that ignited into love."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Their first glance captured a spark that ignited into love.");
   }
 
   Future<void> speakcaptures10(String languageCode) async {
@@ -110,8 +106,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He evaded capture for three days."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He evaded capture for three days.");
   }
 
   Future<void> speakcaptures11(String languageCode) async {
@@ -119,8 +114,8 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This information led to the capture of the murderer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This information led to the capture of the murderer.");
   }
 
   Future<void> speakcaptures12(String languageCode) async {
@@ -128,8 +123,8 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They witnessed the capture of the city by rebel troops."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They witnessed the capture of the city by rebel troops.");
   }
 
   Future<void> speakcaptures13(String languageCode) async {
@@ -138,7 +133,7 @@ class EnglishEntrycapture extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was the first movie to use motion capture for its entire length."); // DOPSUM: CHANGE TEXT
+        "It was the first movie to use motion capture for its entire length.");
   }
 
   @override

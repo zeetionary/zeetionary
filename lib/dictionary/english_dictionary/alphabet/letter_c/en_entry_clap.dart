@@ -21,7 +21,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clap");
   }
 
   Future<void> speakclaps1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "After she performed, Ariana stood up and clapped for her."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("After she performed, Ariana stood up and clapped for her.");
   }
 
   Future<void> speakclaps2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Everyone clapped us when we went up to get our prize."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Everyone clapped us when we went up to get our prize.");
   }
 
   Future<void> speakclaps3(String languageCode) async {
@@ -47,8 +47,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Everyone clapped to the music."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Everyone clapped to the music.");
   }
 
   Future<void> speakclaps4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She clapped her hands in delight."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She clapped her hands in delight.");
   }
 
   Future<void> speakclaps5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He clapped his daughter on the back and told her how proud of her he was."); // DOPSUM: CHANGE TEXT
+        "He clapped his daughter on the back and told her how proud of her he was.");
   }
 
   Future<void> speakclaps6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In the old days they would have clapped you in jail for that."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In the old days they would have clapped you in jail for that.");
   }
 
   Future<void> speakclaps7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She clapped her hand over her mouth to try to stop herself from laughing."); // DOPSUM: CHANGE TEXT
+        "She clapped her hand over her mouth to try to stop herself from laughing.");
   }
 
   Future<void> speakclaps8(String languageCode) async {
@@ -92,8 +90,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "With a clap of his hands he ordered more food."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("With a clap of his hands he ordered more food.");
   }
 
   Future<void> speakclaps9(String languageCode) async {
@@ -101,8 +98,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Let's give a big clap for our winning contestant!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's give a big clap for our winning contestant!");
   }
 
   Future<void> speakclaps10(String languageCode) async {
@@ -111,7 +107,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was a clap of thunder and then it started to pour with rain."); // DOPSUM: CHANGE TEXT
+        "There was a clap of thunder and then it started to pour with rain.");
   }
 
   Future<void> speakclaps11(String languageCode) async {
@@ -119,7 +115,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaps1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaps1100");
   }
 
   Future<void> speakclaps12(String languageCode) async {
@@ -127,7 +123,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaps1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaps1200");
   }
 
   Future<void> speakclaps13(String languageCode) async {
@@ -135,7 +131,7 @@ class EnglishEntryclap extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaps1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclaps1300");
   }
 
   @override

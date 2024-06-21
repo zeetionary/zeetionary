@@ -16,7 +16,7 @@ class EnglishEntryamber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amber"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amber");
   }
 
   Future<void> speakamber4447(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her amber eyes shone in the dark."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her amber eyes shone in the dark.");
   }
 
   Future<void> speakamber46922(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryamber extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He has a collection of prehistoric insects preserved in amber."); // DOPSUM: CHANGE TEXT
+        "He has a collection of prehistoric insects preserved in amber.");
   }
 
   Future<void> speakamber4699(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryamber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The traffic lights were on amber."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The traffic lights were on amber.");
   }
 
   @override

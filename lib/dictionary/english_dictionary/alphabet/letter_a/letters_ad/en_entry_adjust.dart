@@ -16,7 +16,7 @@ class EnglishEntryadjust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adjust"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adjust");
   }
 
   Future<void> speakadj459(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadjust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This button is for adjusting the volume."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This button is for adjusting the volume.");
   }
 
   Future<void> speakadj7596(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryadjust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The brakes need to be adjusted."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The brakes need to be adjusted.");
   }
 
   Future<void> speakadj4589(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryadjust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It took her a while to adjust to living alone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It took her a while to adjust to living alone.");
   }
 
   Future<void> speakadj8542(String languageCode) async {
@@ -51,8 +48,7 @@ class EnglishEntryadjust extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He smoothed his hair and adjusted his tie."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He smoothed his hair and adjusted his tie.");
   }
 
   @override

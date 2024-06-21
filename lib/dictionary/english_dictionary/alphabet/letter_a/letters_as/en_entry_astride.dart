@@ -24,7 +24,7 @@ class EnglishEntryastride extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("astride");
   }
 
   Future<void> speakastride351(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryastride extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She sat proudly astride her new motorbike."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She sat proudly astride her new motorbike.");
   }
 
   Future<void> speakastride352(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryastride extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The town lies astride (= on either side of) the River Havel."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The town lies astride (= on either side of) the River Havel.");
   }
 
   Future<void> speakastride354(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryastride extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He stood there, legs astride."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He stood there, legs astride.");
   }
 
   // Future<void> speakastride(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astride");
   // }
 
   // Future<void> speakastride(String languageCode) async {
@@ -67,7 +65,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astride");
   // }
 
   // Future<void> speakastride(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astride");
   // }
 
   // Future<void> speakastride(String languageCode) async {
@@ -83,7 +81,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astride");
   // }
 
   // Future<void> speakastride(String languageCode) async {
@@ -91,7 +89,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astride");
   // }
 
   @override

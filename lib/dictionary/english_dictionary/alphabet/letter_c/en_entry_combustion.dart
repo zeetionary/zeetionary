@@ -21,7 +21,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("combustion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("combustion");
   }
 
   Future<void> speakcombustions1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Poisonous gases are produced during fossil fuel combustion."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Poisonous gases are produced during fossil fuel combustion.");
   }
 
   Future<void> speakcombustions2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ratio must be correct in order to achieve complete combustion."); // DOPSUM: CHANGE TEXT
+        "The ratio must be correct in order to achieve complete combustion.");
   }
 
   Future<void> speakcombustions3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions300");
   }
 
   Future<void> speakcombustions4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions400");
   }
 
   Future<void> speakcombustions5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions500");
   }
 
   Future<void> speakcombustions6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions600");
   }
 
   Future<void> speakcombustions7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions700");
   }
 
   Future<void> speakcombustions8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions800");
   }
 
   Future<void> speakcombustions9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions900");
   }
 
   Future<void> speakcombustions10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions1000");
   }
 
   Future<void> speakcombustions11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions1100");
   }
 
   Future<void> speakcombustions12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions1200");
   }
 
   Future<void> speakcombustions13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntrycombustion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombustions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombustions1300");
   }
 
   @override

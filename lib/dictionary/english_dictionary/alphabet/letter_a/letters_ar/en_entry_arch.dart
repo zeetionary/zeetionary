@@ -22,7 +22,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arch");
   }
 
   Future<void> speakarch135(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The bridge they built over the river has three arches."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The bridge they built over the river has three arches.");
   }
 
   Future<void> speakarch140(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Go through the arch and follow the path."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Go through the arch and follow the path.");
   }
 
   Future<void> speakarch143(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She has very high arches."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has very high arches.");
   }
 
   Future<void> speakarch148(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The branches of the trees formed an arch over the bench."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The branches of the trees formed an arch over the bench.");
   }
 
   Future<void> speakarch152(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Tall trees arched over the path."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Tall trees arched over the path.");
   }
 
   Future<void> speakarch159(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Using an arch tone doesn't always mean being mean; it can add humor to discussions."); // DOPSUM: CHANGE TEXT
+        "Using an arch tone doesn't always mean being mean; it can add humor to discussions.");
   }
 
   // Future<void> speakarch(String languageCode) async {
@@ -83,7 +81,7 @@ class EnglishEntryarch extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arch"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arch");
   // }
 
   // Future<void> speakarch(String languageCode) async {
@@ -91,7 +89,7 @@ class EnglishEntryarch extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arch"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arch");
   // }
 
   @override

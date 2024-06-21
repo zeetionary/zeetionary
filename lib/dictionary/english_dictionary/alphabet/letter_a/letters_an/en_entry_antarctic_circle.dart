@@ -18,7 +18,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Antarctic Circle");
   }
 
   Future<void> speakantarcticcircle156(String languageCode) async {
@@ -26,8 +26,8 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Penguins live near the Antarctic Circle where it's very cold."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Penguins live near the Antarctic Circle where it's very cold.");
   }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   // Future<void> speakantarcticcircle(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic Circle");
   // }
 
   @override

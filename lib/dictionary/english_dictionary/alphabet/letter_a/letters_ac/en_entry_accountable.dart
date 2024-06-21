@@ -16,7 +16,7 @@ class EnglishEntryaccountable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accountable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accountable");
   }
 
   Future<void> speaka65814(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccountable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Someone must be held accountable for the killings."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Someone must be held accountable for the killings.");
   }
 
   @override

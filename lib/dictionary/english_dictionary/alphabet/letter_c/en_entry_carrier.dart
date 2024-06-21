@@ -21,7 +21,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carrier"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carrier");
   }
 
   Future<void> speakcarriers1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Delta Air Lines is the third-largest carrier in the US."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Delta Air Lines is the third-largest carrier in the US.");
   }
 
   Future<void> speakcarriers2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ship served as a carrier, transporting goods across international waters."); // DOPSUM: CHANGE TEXT
+        "The ship served as a carrier, transporting goods across international waters.");
   }
 
   Future<void> speakcarriers3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses."); // DOPSUM: CHANGE TEXT
+        "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses.");
   }
 
   Future<void> speakcarriers4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You can transfer your existing mobile phone number to a new carrier."); // DOPSUM: CHANGE TEXT
+        "You can transfer your existing mobile phone number to a new carrier.");
   }
 
   Future<void> speakcarriers5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers55");
   }
 
   Future<void> speakcarriers6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers66");
   }
 
   Future<void> speakcarriers7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers77");
   }
 
   Future<void> speakcarriers8(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers88");
   }
 
   Future<void> speakcarriers9(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers99");
   }
 
   Future<void> speakcarriers10(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers1010");
   }
 
   Future<void> speakcarriers11(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers1111");
   }
 
   Future<void> speakcarriers12(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers1212");
   }
 
   Future<void> speakcarriers13(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntrycarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarriers1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarriers1313");
   }
 
   @override

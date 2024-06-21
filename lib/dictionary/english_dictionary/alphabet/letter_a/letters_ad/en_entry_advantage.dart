@@ -16,7 +16,7 @@ class EnglishEntryadvantage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advantage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("advantage");
   }
 
   Future<void> speakadvan35688(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadvantage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The advantage of booking tickets in advance is that you get better seats."); // DOPSUM: CHANGE TEXT
+        "The advantage of booking tickets in advance is that you get better seats.");
   }
 
   Future<void> speakadvan3674(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryadvantage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For a goalkeeper, it's a great advantage to have big hands."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("For a goalkeeper, it's a great advantage to have big hands.");
   }
 
   Future<void> speakadvan6724(String languageCode) async {
@@ -42,8 +42,7 @@ class EnglishEntryadvantage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Is there any advantage in getting there early?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Is there any advantage in getting there early?");
   }
 
   Future<void> speakadvant9436(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntryadvantage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Affluent parents seek to advantage their children by sending them to more exclusive schools."); // DOPSUM: CHANGE TEXT
+        "Affluent parents seek to advantage their children by sending them to more exclusive schools.");
   }
 
   @override

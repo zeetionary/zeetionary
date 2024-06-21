@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("able-bodied"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("able-bodied");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("able-bodied"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("able-bodied");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakablebodieds111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakablebodieds111111111111111111111111111111111");
   }
 
   Future<void> speakablebodieds2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds200");
   }
 
   Future<void> speakablebodieds3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds300");
   }
 
   Future<void> speakablebodieds4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds400");
   }
 
   Future<void> speakablebodieds5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds500");
   }
 
   Future<void> speakablebodieds6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds600");
   }
 
   Future<void> speakablebodieds7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds700");
   }
 
   Future<void> speakablebodieds8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds800");
   }
 
   Future<void> speakablebodieds9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds900");
   }
 
   Future<void> speakablebodieds10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds1000");
   }
 
   Future<void> speakablebodieds11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds1100");
   }
 
   Future<void> speakablebodieds12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds1200");
   }
 
   Future<void> speakablebodieds13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakablebodieds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakablebodieds1300");
   }
 
   Future<void> speakab254(String languageCode) async {
@@ -327,7 +327,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Military service is compulsory for every able-bodied male between 18 and 27."); // DOPSUM: CHANGE TEXT
+        "Military service is compulsory for every able-bodied male between 18 and 27.");
   }
 
   @override

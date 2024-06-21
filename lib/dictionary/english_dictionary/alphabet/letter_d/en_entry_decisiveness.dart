@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decisiveness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decisiveness");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decisiveness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decisiveness");
   }
 
   @override
@@ -222,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All her decisiveness disappeared when she met Mark."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All her decisiveness disappeared when she met Mark.");
   }
 
   Future<void> speakdecisivenesss2(String languageCode) async {
@@ -231,96 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She handled the situation with decisiveness and courage."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecisivenesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecisiveness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecisivenesss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She handled the situation with decisiveness and courage.");
   }
 
   @override

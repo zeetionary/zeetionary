@@ -21,7 +21,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cholesterol"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cholesterol");
   }
 
   Future<void> speakcholesterols1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This is the fat that won't raise your cholesterol."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This is the fat that won't raise your cholesterol.");
   }
 
   Future<void> speakcholesterols2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Avocados contain no cholesterol."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Avocados contain no cholesterol.");
   }
 
   Future<void> speakcholesterols3(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols300");
   }
 
   Future<void> speakcholesterols4(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols400");
   }
 
   Future<void> speakcholesterols5(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols500");
   }
 
   Future<void> speakcholesterols6(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols600");
   }
 
   Future<void> speakcholesterols7(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols700");
   }
 
   Future<void> speakcholesterols8(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols800");
   }
 
   Future<void> speakcholesterols9(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols900");
   }
 
   Future<void> speakcholesterols10(String languageCode) async {
@@ -103,7 +102,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1000");
   }
 
   Future<void> speakcholesterols11(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1100");
   }
 
   Future<void> speakcholesterols12(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1200");
   }
 
   Future<void> speakcholesterols13(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcholesterols1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcholesterols1300");
   }
 
   @override

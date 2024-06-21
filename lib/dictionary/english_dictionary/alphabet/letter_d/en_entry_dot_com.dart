@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dot-com"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dot-com");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dot-com"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dot-com");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The weaker dot-coms collapsed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The weaker dot-coms collapsed.");
   }
 
   Future<void> speakdotcoms2(String languageCode) async {
@@ -361,167 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A survey found that 20 of the top 150 European dotcoms could run out of cash within a year."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms3(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms4(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms5(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms6(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms7(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms8(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms9(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms10(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms11(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms12(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms13(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms14(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms15(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms16(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms17(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms18(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms19(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms20(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms21(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdotcoms22(String languageCode) async {
-    // DOPSUM: CHANGE speakdotcom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdotcoms2200"); // DOPSUM: CHANGE TEXT
+        "A survey found that 20 of the top 150 European dotcoms could run out of cash within a year.");
   }
 
   @override

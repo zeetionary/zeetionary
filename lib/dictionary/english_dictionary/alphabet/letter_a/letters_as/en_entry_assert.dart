@@ -24,7 +24,7 @@ class EnglishEntryassert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assert");
   }
 
   Future<void> speakassert1024(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryassert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She continued to assert that she was innocent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She continued to assert that she was innocent.");
   }
 
   Future<void> speakassert1026(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryassert extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The German Chancellor was anxious to assert her government's commitment to European unity."); // DOPSUM: CHANGE TEXT
+        "The German Chancellor was anxious to assert her government's commitment to European unity.");
   }
 
   Future<void> speakassert1030(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryassert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You’re too timid—you must try to assert yourself more."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You’re too timid—you must try to assert yourself more.");
   }
 
   Future<void> speakassert1032(String languageCode) async {
@@ -59,8 +58,8 @@ class EnglishEntryassert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wished to assert her independence from her parents."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She wished to assert her independence from her parents.");
   }
 
   // Future<void> speakassert(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assert");
   // }
 
   // Future<void> speakassert(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assert");
   // }
 
   // Future<void> speakassert(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assert");
   // }
 
   // Future<void> speakassert(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assert");
   // }
 
   @override

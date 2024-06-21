@@ -16,7 +16,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accumulate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accumulate");
   }
 
   Future<void> speaka1547(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Dust and dirt soon accumulate if a house is not cleaned regularly."); // DOPSUM: CHANGE TEXT
+        "Dust and dirt soon accumulate if a house is not cleaned regularly.");
   }
 
   Future<void> speaka92574(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I seem to have accumulated a lot of books."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I seem to have accumulated a lot of books.");
   }
 
   @override

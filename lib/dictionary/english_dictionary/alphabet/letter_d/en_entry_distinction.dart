@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distinction"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distinction");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distinction"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("distinction");
   }
 
   @override
@@ -353,7 +353,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Philosophers did not use to make a distinction between arts and science."); // DOPSUM: CHANGE TEXT
+        "Philosophers did not use to make a distinction between arts and science.");
   }
 
   Future<void> speakdistinctions2(String languageCode) async {
@@ -361,8 +361,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to draw a distinction between the two events."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need to draw a distinction between the two events.");
   }
 
   Future<void> speakdistinctions3(String languageCode) async {
@@ -370,8 +370,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cultural distinctions lie at the heart of these issues."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Cultural distinctions lie at the heart of these issues.");
   }
 
   Future<void> speakdistinctions4(String languageCode) async {
@@ -379,8 +379,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a subtle distinction but a very important one."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was a subtle distinction but a very important one.");
   }
 
   Future<void> speakdistinctions5(String languageCode) async {
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She draws an important distinction between the different kinds of illness."); // DOPSUM: CHANGE TEXT
+        "She draws an important distinction between the different kinds of illness.");
   }
 
   Future<void> speakdistinctions6(String languageCode) async {
@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She tends to blur the distinctions between family and friends."); // DOPSUM: CHANGE TEXT
+        "She tends to blur the distinctions between family and friends.");
   }
 
   Future<void> speakdistinctions7(String languageCode) async {
@@ -406,8 +406,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new law makes no distinction between adults and children."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new law makes no distinction between adults and children.");
   }
 
   Future<void> speakdistinctions8(String languageCode) async {
@@ -415,8 +415,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All groups are entitled to this money without distinction."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All groups are entitled to this money without distinction.");
   }
 
   Future<void> speakdistinctions9(String languageCode) async {
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She had the distinction of being the first woman to fly the Atlantic."); // DOPSUM: CHANGE TEXT
+        "She had the distinction of being the first woman to fly the Atlantic.");
   }
 
   Future<void> speakdistinctions10(String languageCode) async {
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "New York does not have the nation's oldest subway system; that distinction belongs to Boston."); // DOPSUM: CHANGE TEXT
+        "New York does not have the nation's oldest subway system; that distinction belongs to Boston.");
   }
 
   Future<void> speakdistinctions11(String languageCode) async {
@@ -442,8 +442,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She is a historian of great distinction."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She is a historian of great distinction.");
   }
 
   Future<void> speakdistinctions12(String languageCode) async {
@@ -451,88 +450,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He served with distinction in the First World War."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctions22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctions2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He served with distinction in the First World War.");
   }
 
   @override

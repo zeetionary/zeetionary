@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disconnect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disconnect");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disconnect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disconnect");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "First, disconnect the boiler from the water mains."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("First, disconnect the boiler from the water mains.");
   }
 
   Future<void> speakdisconnects2(String languageCode) async {
@@ -230,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You may be disconnected if you do not pay the bill."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You may be disconnected if you do not pay the bill.");
   }
 
   Future<void> speakdisconnects3(String languageCode) async {
@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The ski had become disconnected from the boot."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The ski had become disconnected from the boot.");
   }
 
   Future<void> speakdisconnects4(String languageCode) async {
@@ -248,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We were suddenly disconnected."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We were suddenly disconnected.");
   }
 
   Future<void> speakdisconnects5(String languageCode) async {
@@ -258,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My computer crashes every time I disconnect from the internet."); // DOPSUM: CHANGE TEXT
+        "My computer crashes every time I disconnect from the internet.");
   }
 
   Future<void> speakdisconnects6(String languageCode) async {
@@ -267,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was the family's decision to disconnect her from the life support machine."); // DOPSUM: CHANGE TEXT
+        "It was the family's decision to disconnect her from the life support machine.");
   }
 
   Future<void> speakdisconnects7(String languageCode) async {
@@ -276,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a fundamental disconnect between union leaders and members."); // DOPSUM: CHANGE TEXT
+        "There is a fundamental disconnect between union leaders and members.");
   }
 
   Future<void> speakdisconnects8(String languageCode) async {
@@ -285,7 +283,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The politician's remarks show an appalling disconnect with young people."); // DOPSUM: CHANGE TEXT
+        "The politician's remarks show an appalling disconnect with young people.");
   }
 
   Future<void> speakdisconnects9(String languageCode) async {
@@ -293,112 +291,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There might be a power failure or sudden network disconnect."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisconnects22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisconnect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisconnects2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There might be a power failure or sudden network disconnect.");
   }
 
   @override

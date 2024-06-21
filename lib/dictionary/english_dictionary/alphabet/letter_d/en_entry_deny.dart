@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deny"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deny");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deny"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deny");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has denied any involvement in the incident."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has denied any involvement in the incident.");
   }
 
   Future<void> speakdenys2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company strongly denies wrongdoing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The company strongly denies wrongdoing.");
   }
 
   Future<void> speakdenys3(String languageCode) async {
@@ -239,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A spokesperson refused to either confirm or deny the reports."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A spokesperson refused to either confirm or deny the reports.");
   }
 
   Future<void> speakdenys4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She denied that there had been a cover-up."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She denied that there had been a cover-up.");
   }
 
   Future<void> speakdenys5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She denied all knowledge of the incident."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She denied all knowledge of the incident.");
   }
 
   Future<void> speakdenys6(String languageCode) async {
@@ -266,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "No physicist would deny the existence of gravity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("No physicist would deny the existence of gravity.");
   }
 
   Future<void> speakdenys7(String languageCode) async {
@@ -275,8 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Denying the Holocaust is a crime in Germany."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Denying the Holocaust is a crime in Germany.");
   }
 
   Future<void> speakdenys8(String languageCode) async {
@@ -284,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Reality cannot be denied."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Reality cannot be denied.");
   }
 
   Future<void> speakdenys9(String languageCode) async {
@@ -292,8 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were denied access to the information."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They were denied access to the information.");
   }
 
   Future<void> speakdenys10(String languageCode) async {
@@ -301,80 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You cannot deny this opportunity to me."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You cannot deny this opportunity to me.");
   }
 
   Future<void> speakdenys20(String languageCode) async {
@@ -382,24 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company strongly denies wrongdoing.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdenys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeny
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdenys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The company strongly denies wrongdoing.0");
   }
 
   @override

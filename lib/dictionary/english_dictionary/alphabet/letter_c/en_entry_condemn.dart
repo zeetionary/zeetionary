@@ -21,7 +21,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("condemn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("condemn");
   }
 
   Future<void> speakcondemns1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government issued a statement condemning the killings."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The government issued a statement condemning the killings.");
   }
 
   Future<void> speakcondemns2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She publicly condemned the deal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She publicly condemned the deal.");
   }
 
   Future<void> speakcondemns3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The action has been widely condemned by human rights groups."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The action has been widely condemned by human rights groups.");
   }
 
   Future<void> speakcondemns4(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was condemned to death for murder and later hanged."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was condemned to death for murder and later hanged.");
   }
 
   Future<void> speakcondemns5(String languageCode) async {
@@ -65,8 +64,8 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was condemned to hang for killing her husband."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was condemned to hang for killing her husband.");
   }
 
   Future<void> speakcondemns6(String languageCode) async {
@@ -74,8 +73,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was condemned to a life of hardship."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was condemned to a life of hardship.");
   }
 
   Future<void> speakcondemns7(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The meat was condemned as unfit to eat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The meat was condemned as unfit to eat.");
   }
 
   Future<void> speakcondemns8(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She is condemned out of her own mouth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She is condemned out of her own mouth.");
   }
 
   Future<void> speakcondemns9(String languageCode) async {
@@ -101,7 +97,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns900");
   }
 
   Future<void> speakcondemns10(String languageCode) async {
@@ -109,7 +105,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1000");
   }
 
   Future<void> speakcondemns11(String languageCode) async {
@@ -117,7 +113,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1100");
   }
 
   Future<void> speakcondemns12(String languageCode) async {
@@ -125,7 +121,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1200");
   }
 
   Future<void> speakcondemns13(String languageCode) async {
@@ -133,7 +129,7 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcondemns1300");
   }
 
   @override

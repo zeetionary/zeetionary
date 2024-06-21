@@ -22,7 +22,7 @@ class EnglishEntryapologetic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apologetic");
   }
 
   Future<void> speakapologetic255(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryapologetic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were very apologetic about the trouble they'd caused."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were very apologetic about the trouble they'd caused.");
   }
 
   Future<void> speakapologetic256(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryapologetic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was profusely apologetic about the mistake."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was profusely apologetic about the mistake.");
   }
 
   // Future<void> speakapologetic(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apologetic");
   // }
 
   // Future<void> speakapologetic(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apologetic");
   // }
 
   // Future<void> speakapologetic(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apologetic");
   // }
 
   // Future<void> speakapologetic(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apologetic");
   // }
 
   // Future<void> speakapologetic(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apologetic");
   // }
 
   // Future<void> speakapologetic(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apologetic");
   // }
 
   @override

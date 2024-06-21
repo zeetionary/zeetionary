@@ -16,7 +16,7 @@ class EnglishEntryanachronism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anachronism");
   }
 
   Future<void> speakanachronism4599(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryanachronism extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The monarchy is seen by many people as an anachronism in the modern world."); // DOPSUM: CHANGE TEXT
+        "The monarchy is seen by many people as an anachronism in the modern world.");
   }
 
   Future<void> speakanachronism0205(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryanachronism extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The book is full of anachronisms which suggests there were parts rewritten in later centuries."); // DOPSUM: CHANGE TEXT
+        "The book is full of anachronisms which suggests there were parts rewritten in later centuries.");
   }
 
   // Future<void> speakanachronism(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anachronism");
   // }
 
   // Future<void> speakanachronism(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anachronism");
   // }
 
   // Future<void> speakanachronism(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anachronism");
   // }
 
   // Future<void> speakanachronism(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anachronism");
   // }
 
   // Future<void> speakanachronism(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anachronism");
   // }
 
   // Future<void> speakanachronism(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anachronism");
   // }
 
   @override

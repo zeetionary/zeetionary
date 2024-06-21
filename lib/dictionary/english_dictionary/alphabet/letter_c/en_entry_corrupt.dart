@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("corrupt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("corrupt");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("corrupt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("corrupt");
   }
 
   @override
@@ -220,8 +220,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was seen as the only way to overthrow a corrupt regime."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was seen as the only way to overthrow a corrupt regime.");
   }
 
   Future<void> speakcorrupts2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They promised to seek out the corrupt officials who had accepted the bribes."); // DOPSUM: CHANGE TEXT
+        "They promised to seek out the corrupt officials who had accepted the bribes.");
   }
 
   Future<void> speakcorrupts3(String languageCode) async {
@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had been engaged in corrupt practices."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They had been engaged in corrupt practices.");
   }
 
   Future<void> speakcorrupts4(String languageCode) async {
@@ -247,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The whole system is inefficient and corrupt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The whole system is inefficient and corrupt.");
   }
 
   Future<void> speakcorrupts5(String languageCode) async {
@@ -256,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The file on the disk seems to be corrupt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The file on the disk seems to be corrupt.");
   }
 
   Future<void> speakcorrupts6(String languageCode) async {
@@ -265,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was corrupted by power and ambition."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was corrupted by power and ambition.");
   }
 
   Future<void> speakcorrupts7(String languageCode) async {
@@ -275,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The study claimed that violence on television corrupts the minds of children."); // DOPSUM: CHANGE TEXT
+        "The study claimed that violence on television corrupts the minds of children.");
   }
 
   Future<void> speakcorrupts8(String languageCode) async {
@@ -284,7 +280,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sect was criticized for promoting a corrupted form of Buddhism."); // DOPSUM: CHANGE TEXT
+        "The sect was criticized for promoting a corrupted form of Buddhism.");
   }
 
   Future<void> speakcorrupts9(String languageCode) async {
@@ -292,8 +288,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The program has somehow corrupted the system files."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The program has somehow corrupted the system files.");
   }
 
   Future<void> speakcorrupts10(String languageCode) async {
@@ -301,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorrupts1000");
   }
 
   Future<void> speakcorrupts11(String languageCode) async {
@@ -309,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorrupts1100");
   }
 
   Future<void> speakcorrupts12(String languageCode) async {
@@ -317,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorrupts1200");
   }
 
   Future<void> speakcorrupts13(String languageCode) async {
@@ -325,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorrupts1300");
   }
 
   @override

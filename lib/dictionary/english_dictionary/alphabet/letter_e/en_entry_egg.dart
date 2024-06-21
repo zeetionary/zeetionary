@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("egg"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("egg");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("egg"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("egg");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The female sits on the eggs until they hatch."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The female sits on the eggs until they hatch.");
   }
 
   Future<void> speakeggs2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The fish lay thousands of eggs at one time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The fish lay thousands of eggs at one time.");
   }
 
   Future<void> speakeggs3(String languageCode) async {
@@ -369,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Many reptiles bury their eggs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Many reptiles bury their eggs.");
   }
 
   Future<void> speakeggs4(String languageCode) async {
@@ -378,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The males stay and guard the eggs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The males stay and guard the eggs.");
   }
 
   Future<void> speakeggs5(String languageCode) async {
@@ -387,8 +383,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You've got some egg on your shirt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You've got some egg on your shirt.");
   }
 
   Future<void> speakeggs6(String languageCode) async {
@@ -396,8 +391,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Crack two eggs into the mixture."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Crack two eggs into the mixture.");
   }
 
   Future<void> speakeggs7(String languageCode) async {
@@ -405,8 +399,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Separate the eggs, putting the whites to one side."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Separate the eggs, putting the whites to one side.");
   }
 
   Future<void> speakeggs8(String languageCode) async {
@@ -414,8 +408,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "How do you like your eggs - fried or boiled?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("How do you like your eggs - fried or boiled?");
   }
 
   Future<void> speakeggs9(String languageCode) async {
@@ -423,8 +416,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Mix the butter with the sugar and then add the egg."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Mix the butter with the sugar and then add the egg.");
   }
 
   Future<void> speakeggs10(String languageCode) async {
@@ -432,8 +425,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Crack three eggs into a bowl and mix them together."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Crack three eggs into a bowl and mix them together.");
   }
 
   Future<void> speakeggs11(String languageCode) async {
@@ -441,8 +434,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The male sperm fertilizes the female egg."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The male sperm fertilizes the female egg.");
   }
 
   Future<void> speakeggs12(String languageCode) async {
@@ -450,88 +442,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many women conceive through the use of a donor egg."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs13(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs14(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs15(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs16(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs17(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs18(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs19(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs20(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs21(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakeggs22(String languageCode) async {
-    // DOPSUM: CHANGE speakegg
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeggs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Many women conceive through the use of a donor egg.");
   }
 
   @override
@@ -902,19 +814,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs13("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs13("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1300eggs13
+          // speakeggs13("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -928,19 +829,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs14("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs14("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1400eggs14
+          // speakeggs14("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -954,19 +844,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs15("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs15("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1500eggs15
+          // speakeggs15("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -980,19 +859,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs16("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1600eggs16
+          // speakeggs16("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1006,19 +874,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs17("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1700eggs17
+          // speakeggs17("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1032,19 +889,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs18("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1800eggs18
+          // speakeggs18("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1058,19 +904,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs19("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs1900eggs19
+          // speakeggs19("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1084,19 +919,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs20("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs_2000eggs20
+          // speakeggs20("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1110,19 +934,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs21("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs2100eggs21
+          // speakeggs21("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1136,19 +949,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakeggs2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakeggs22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeggs22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakeggs2200eggs22
+          // speakeggs22("en-US"""),
           //         ),
           //       ],
           //     ),

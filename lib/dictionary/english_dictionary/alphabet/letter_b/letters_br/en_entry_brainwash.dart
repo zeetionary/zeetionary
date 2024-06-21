@@ -20,7 +20,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brainwash"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brainwash");
   }
 
   Future<void> speakbrainwashs1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The group is accused of brainwashing its young members."); // DOPSUM: CHANGE TEXT
+        "The group is accused of brainwashing its young members.");
   }
 
   Future<void> speakbrainwashs2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They were brainwashed into believing that their leader was all-powerful."); // DOPSUM: CHANGE TEXT
+        "They were brainwashed into believing that their leader was all-powerful.");
   }
 
   Future<void> speakbrainwashs3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainwashs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrainwashs33");
   }
 
   Future<void> speakbrainwashs4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainwashs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrainwashs44");
   }
 
   Future<void> speakbrainwashs5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainwashs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrainwashs55");
   }
 
   Future<void> speakbrainwashs6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainwashs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrainwashs66");
   }
 
   Future<void> speakbrainwashs7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybrainwash extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainwashs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrainwashs77");
   }
 
   @override

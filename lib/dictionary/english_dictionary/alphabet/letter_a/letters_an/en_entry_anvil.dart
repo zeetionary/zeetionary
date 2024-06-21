@@ -20,7 +20,7 @@ class EnglishEntryanvil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anvil");
   }
 
   Future<void> speakanvil208(String languageCode) async {
@@ -28,8 +28,7 @@ class EnglishEntryanvil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A good anvil does not fear the hammer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A good anvil does not fear the hammer.");
   }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -37,7 +36,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -45,7 +44,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -53,7 +52,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -61,7 +60,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -69,7 +68,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -77,7 +76,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   // Future<void> speakanvil(String languageCode) async {
@@ -85,7 +84,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anvil");
   // }
 
   @override

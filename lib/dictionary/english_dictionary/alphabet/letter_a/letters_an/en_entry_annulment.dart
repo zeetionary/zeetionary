@@ -17,7 +17,7 @@ class EnglishEntryannulment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("annulment");
   }
 
   Future<void> speakannulment917(String languageCode) async {
@@ -26,7 +26,7 @@ class EnglishEntryannulment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Henry VIII sought an annulment of his marriage to Catherine of Aragon."); // DOPSUM: CHANGE TEXT
+        "Henry VIII sought an annulment of his marriage to Catherine of Aragon.");
   }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   // Future<void> speakannulment(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annulment");
   // }
 
   @override

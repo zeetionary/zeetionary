@@ -21,7 +21,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("CD-ROM"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("CD-ROM");
   }
 
   Future<void> speakCDROMs1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The encyclopedia is available on CD-ROM."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The encyclopedia is available on CD-ROM.");
   }
 
   Future<void> speakCDROMs2(String languageCode) async {
@@ -38,7 +37,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs22");
   }
 
   Future<void> speakCDROMs3(String languageCode) async {
@@ -46,7 +45,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs33");
   }
 
   Future<void> speakCDROMs4(String languageCode) async {
@@ -54,7 +53,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs44");
   }
 
   Future<void> speakCDROMs5(String languageCode) async {
@@ -62,7 +61,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs55");
   }
 
   Future<void> speakCDROMs6(String languageCode) async {
@@ -70,7 +69,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs66");
   }
 
   Future<void> speakCDROMs7(String languageCode) async {
@@ -78,7 +77,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs77");
   }
 
   Future<void> speakCDROMs8(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs88");
   }
 
   Future<void> speakCDROMs9(String languageCode) async {
@@ -94,7 +93,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs99");
   }
 
   Future<void> speakCDROMs10(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs1010");
   }
 
   Future<void> speakCDROMs11(String languageCode) async {
@@ -110,7 +109,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs1111");
   }
 
   Future<void> speakCDROMs12(String languageCode) async {
@@ -118,7 +117,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs1212");
   }
 
   Future<void> speakCDROMs13(String languageCode) async {
@@ -126,7 +125,7 @@ class EnglishEntrycdrom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakCDROMs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakCDROMs1313");
   }
 
   @override

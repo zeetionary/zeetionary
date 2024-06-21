@@ -18,7 +18,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("build-up"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("build-up");
   }
 
   Future<void> speakbuildups1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The leak led to a slow build-up of carbon dioxide."); // DOPSUM: CHANGE TEXT
+        "The leak led to a slow build-up of carbon dioxide.");
   }
 
   Future<void> speakbuildups2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The build-up of troops in the region makes war seem more likely."); // DOPSUM: CHANGE TEXT
+        "The build-up of troops in the region makes war seem more likely.");
   }
 
   Future<void> speakbuildups3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was a lot of excitement in the build-up to the Olympics."); // DOPSUM: CHANGE TEXT
+        "There was a lot of excitement in the build-up to the Olympics.");
   }
 
   Future<void> speakbuildups4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The media have given the movie a huge build-up."); // DOPSUM: CHANGE TEXT
+        "The media have given the movie a huge build-up.");
   }
 
   Future<void> speakbuildups5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuildups55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildups55");
   }
 
   Future<void> speakbuildups6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuildups66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildups66");
   }
 
   Future<void> speakbuildups7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybuildup extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuildups77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildups77");
   }
 
   @override

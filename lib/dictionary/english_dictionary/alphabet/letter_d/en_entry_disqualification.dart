@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disqualification"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disqualification");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disqualification"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disqualification");
   }
 
   @override
@@ -224,7 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The skier suffered two disqualifications in two separate events."); // DOPSUM: CHANGE TEXT
+        "The skier suffered two disqualifications in two separate events.");
   }
 
   Future<void> speakdisqualifications2(String languageCode) async {
@@ -232,8 +232,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Any form of cheating means automatic disqualification."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Any form of cheating means automatic disqualification.");
   }
 
   Future<void> speakdisqualifications3(String languageCode) async {
@@ -242,161 +242,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Inexperience is not necessarily a disqualification for high political office."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdisqualifications_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakdisqualifications_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisqualifications22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisqualification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisqualifications2200"); // DOPSUM: CHANGE TEXT
+        "Inexperience is not necessarily a disqualification for high political office.");
   }
 
   @override

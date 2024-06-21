@@ -16,7 +16,7 @@ class EnglishEntryaccessory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accessory"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accessory");
   }
 
   Future<void> speakac2598(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccessory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We stock a large range of bicycle accessories."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We stock a large range of bicycle accessories.");
   }
 
   Future<void> speakacc711459(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryaccessory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sunglasses are much more than a fashion accessory."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sunglasses are much more than a fashion accessory.");
   }
 
   @override

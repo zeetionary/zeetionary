@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("directory"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("directory");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("directory"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("directory");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I found the company's name in a trade directory."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I found the company's name in a trade directory.");
   }
 
   Future<void> speakdirectorys2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Names are listed alphabetically in the directory."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Names are listed alphabetically in the directory.");
   }
 
   Future<void> speakdirectorys3(String languageCode) async {
@@ -240,159 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our website has a link to a detailed directory of names and places."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectorys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdirectory
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectorys2200"); // DOPSUM: CHANGE TEXT
+        "Our website has a link to a detailed directory of names and places.");
   }
 
   @override

@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("correspond"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("correspond");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("correspond"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("correspond");
   }
 
   @override
@@ -220,8 +220,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your account and hers do not correspond."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your account and hers do not correspond.");
   }
 
   Future<void> speakcorresponds2(String languageCode) async {
@@ -229,8 +228,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your account of events does not correspond with hers."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Your account of events does not correspond with hers.");
   }
 
   Future<void> speakcorresponds3(String languageCode) async {
@@ -239,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The written record of the conversation doesn't correspond to what was actually said."); // DOPSUM: CHANGE TEXT
+        "The written record of the conversation doesn't correspond to what was actually said.");
   }
 
   Future<void> speakcorresponds4(String languageCode) async {
@@ -248,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Check that this number corresponds with the one on the document."); // DOPSUM: CHANGE TEXT
+        "Check that this number corresponds with the one on the document.");
   }
 
   Future<void> speakcorresponds5(String languageCode) async {
@@ -257,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Wages did not rise to correspond with the price increases brought about by the wars."); // DOPSUM: CHANGE TEXT
+        "Wages did not rise to correspond with the price increases brought about by the wars.");
   }
 
   Future<void> speakcorresponds6(String languageCode) async {
@@ -266,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The word corresponds roughly in meaning to our ‘homesickness’."); // DOPSUM: CHANGE TEXT
+        "The word corresponds roughly in meaning to our ‘homesickness’.");
   }
 
   Future<void> speakcorresponds7(String languageCode) async {
@@ -274,8 +273,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She corresponded regularly with her former teacher."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She corresponded regularly with her former teacher.");
   }
 
   Future<void> speakcorresponds8(String languageCode) async {
@@ -283,8 +282,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I have corresponded with him in the past."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I have corresponded with him in the past.");
   }
 
   Future<void> speakcorresponds9(String languageCode) async {
@@ -292,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorresponds900");
   }
 
   Future<void> speakcorresponds10(String languageCode) async {
@@ -300,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorresponds1000");
   }
 
   Future<void> speakcorresponds11(String languageCode) async {
@@ -308,7 +306,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorresponds1100");
   }
 
   Future<void> speakcorresponds12(String languageCode) async {
@@ -316,7 +314,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorresponds1200");
   }
 
   Future<void> speakcorresponds13(String languageCode) async {
@@ -324,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorresponds1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccountant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accountant"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accountant");
   }
 
   Future<void> speaka4582(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccountant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We talked to the company’s chief accountant."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We talked to the company’s chief accountant.");
   }
 
   @override

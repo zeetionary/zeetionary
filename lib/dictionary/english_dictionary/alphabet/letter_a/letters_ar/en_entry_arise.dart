@@ -22,7 +22,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arise");
   }
 
   Future<void> speakarise1141(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "An opportunity arose to work in the United States."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("An opportunity arose to work in the United States.");
   }
 
   Future<void> speakarise1144(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A serious problem can arise if the heart stops pumping effectively."); // DOPSUM: CHANGE TEXT
+        "A serious problem can arise if the heart stops pumping effectively.");
   }
 
   Future<void> speakarise1145(String languageCode) async {
@@ -48,8 +48,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Violence typically arises out of anger."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Violence typically arises out of anger.");
   }
 
   Future<void> speakarise1147(String languageCode) async {
@@ -57,8 +56,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several new industries arose in the town."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Several new industries arose in the town.");
   }
 
   Future<void> speakarise1149(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He arose at dawn."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He arose at dawn.");
   }
 
   // Future<void> speakarise(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntryarise extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arise");
   // }
 
   // Future<void> speakarise(String languageCode) async {
@@ -82,7 +80,7 @@ class EnglishEntryarise extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arise");
   // }
 
   // Future<void> speakarise(String languageCode) async {
@@ -90,7 +88,7 @@ class EnglishEntryarise extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arise");
   // }
 
   @override

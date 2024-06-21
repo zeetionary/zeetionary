@@ -21,7 +21,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cohesive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cohesive");
   }
 
   Future<void> speakcohesives1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The project team's cohesive efforts resulted in a successful outcome."); // DOPSUM: CHANGE TEXT
+        "The project team's cohesive efforts resulted in a successful outcome.");
   }
 
   Future<void> speakcohesives2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cohesive power of the team was evident in their strong bond."); // DOPSUM: CHANGE TEXT
+        "The cohesive power of the team was evident in their strong bond.");
   }
 
   Future<void> speakcohesives3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives300");
   }
 
   Future<void> speakcohesives4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives400");
   }
 
   Future<void> speakcohesives5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives500");
   }
 
   Future<void> speakcohesives6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives600");
   }
 
   Future<void> speakcohesives7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives700");
   }
 
   Future<void> speakcohesives8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives800");
   }
 
   Future<void> speakcohesives9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives900");
   }
 
   Future<void> speakcohesives10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives1000");
   }
 
   Future<void> speakcohesives11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives1100");
   }
 
   Future<void> speakcohesives12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives1200");
   }
 
   Future<void> speakcohesives13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntrycohesive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcohesives1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcohesives1300");
   }
 
   @override

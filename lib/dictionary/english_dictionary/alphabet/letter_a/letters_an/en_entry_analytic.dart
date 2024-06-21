@@ -16,7 +16,7 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("analytic");
   }
 
   Future<void> speakanalytical150(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She has a clear analytic mind."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has a clear analytic mind.");
   }
 
   Future<void> speakanalytical0025(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The analytic methods we developed for this project will be useful for our future work."); // DOPSUM: CHANGE TEXT
+        "The analytic methods we developed for this project will be useful for our future work.");
   }
 
   Future<void> speakanalytic47906(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This book is one of the masterpieces of analytic philosophy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This book is one of the masterpieces of analytic philosophy.");
   }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -59,7 +58,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -67,7 +66,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -83,7 +82,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -91,7 +90,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   // Future<void> speakanalytic(String languageCode) async {
@@ -99,7 +98,7 @@ class EnglishEntryanalytic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analytic");
   // }
 
   @override

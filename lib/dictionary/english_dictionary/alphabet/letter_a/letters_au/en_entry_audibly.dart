@@ -24,7 +24,7 @@ class EnglishEntryaudibly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("audibly");
   }
 
   Future<void> speakaudibly105(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaudibly extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Jets audibly passed overhead but the sky was too overcast for them to be seen."); // DOPSUM: CHANGE TEXT
+        "Jets audibly passed overhead but the sky was too overcast for them to be seen.");
   }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   // Future<void> speakaudibly(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("audibly"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audibly");
   // }
 
   @override

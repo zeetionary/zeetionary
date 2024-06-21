@@ -16,7 +16,7 @@ class EnglishEntryagility extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agility"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agility");
   }
 
   Future<void> speakagility1562(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryagility extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He has the agility of a mountain goat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has the agility of a mountain goat.");
   }
 
   Future<void> speakagilit48966(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryagility extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We underestimate the agility of a child's mind."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We underestimate the agility of a child's mind.");
   }
 
   // Future<void> speakagility(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryagility extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agility"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agility");
   // }
 
   @override

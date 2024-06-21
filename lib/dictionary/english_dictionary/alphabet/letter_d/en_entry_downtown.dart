@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtown"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("downtown");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtown"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("downtown");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I work downtown, but I live in the suburbs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I work downtown, but I live in the suburbs.");
   }
 
   Future<void> speakdowntowns2(String languageCode) async {
@@ -360,8 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We bought a tourist guide to downtown Seattle before we left."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We bought a tourist guide to downtown Seattle before we left.");
   }
 
   Future<void> speakdowntowns3(String languageCode) async {
@@ -370,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Vandals smashed windows and overturned cars in the downtown shopping district."); // DOPSUM: CHANGE TEXT
+        "Vandals smashed windows and overturned cars in the downtown shopping district.");
   }
 
   Future<void> speakdowntowns4(String languageCode) async {
@@ -378,152 +377,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The hotel is situated two miles north of downtown."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns5(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns6(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns7(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns8(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns9(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns10(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns11(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns12(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns13(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns14(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns15(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns16(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns17(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns18(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns19(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns20(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns21(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdowntowns22(String languageCode) async {
-    // DOPSUM: CHANGE speakdowntown
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdowntowns2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The hotel is situated two miles north of downtown.");
   }
 
   @override

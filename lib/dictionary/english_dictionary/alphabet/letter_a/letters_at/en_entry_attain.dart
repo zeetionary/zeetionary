@@ -24,7 +24,7 @@ class EnglishEntryattain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attain");
   }
 
   Future<void> speakattain646(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryattain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has attained the highest grade in his music exams."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has attained the highest grade in his music exams.");
   }
 
   Future<void> speakattain648(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryattain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cheetah can attain speeds of up to 97 kph."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The cheetah can attain speeds of up to 97 kph.");
   }
 
   // Future<void> speakattain(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attain");
   // }
 
   // Future<void> speakattain(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attain");
   // }
 
   // Future<void> speakattain(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attain");
   // }
 
   // Future<void> speakattain(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attain");
   // }
 
   // Future<void> speakattain(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attain");
   // }
 
   // Future<void> speakattain(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attain");
   // }
 
   @override

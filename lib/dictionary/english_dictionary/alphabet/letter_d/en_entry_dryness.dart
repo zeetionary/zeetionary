@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dryness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dryness");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dryness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dryness");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The medicine may cause dryness of the mouth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The medicine may cause dryness of the mouth.");
   }
 
   Future<void> speakdrynesss2(String languageCode) async {
@@ -360,8 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The result of this summer's dryness was a poor harvest."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The result of this summer's dryness was a poor harvest.");
   }
 
   Future<void> speakdrynesss3(String languageCode) async {
@@ -370,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Regular application of the lotion will help prevent dryness of the skin."); // DOPSUM: CHANGE TEXT
+        "Regular application of the lotion will help prevent dryness of the skin.");
   }
 
   Future<void> speakdrynesss4(String languageCode) async {
@@ -378,8 +377,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This chart shows the scale of dryness of red and white wines."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This chart shows the scale of dryness of red and white wines.");
   }
 
   Future<void> speakdrynesss5(String languageCode) async {
@@ -387,8 +386,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Not everyone appreciated the dryness of his humour."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Not everyone appreciated the dryness of his humour.");
   }
 
   Future<void> speakdrynesss6(String languageCode) async {
@@ -396,136 +395,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He defended her prose against the charge of dryness."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss14(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss15(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss16(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss17(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss18(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss19(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss20(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss21(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrynesss22(String languageCode) async {
-    // DOPSUM: CHANGE speakdryness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrynesss2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He defended her prose against the charge of dryness.");
   }
 
   @override

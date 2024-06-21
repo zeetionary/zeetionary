@@ -24,7 +24,7 @@ class EnglishEntryasteroid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("asteroid");
   }
 
   Future<void> speakasteroid952(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryasteroid extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists are tracking an asteroid that could potentially impact Earth."); // DOPSUM: CHANGE TEXT
+        "Scientists are tracking an asteroid that could potentially impact Earth.");
   }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   // Future<void> speakasteroid(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asteroid");
   // }
 
   @override

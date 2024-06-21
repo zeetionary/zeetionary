@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("derelict"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("derelict");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("derelict"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("derelict");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The canal has been derelict for many years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The canal has been derelict for many years.");
   }
 
   Future<void> speakderelicts2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The land lay derelict for ten years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The land lay derelict for ten years.");
   }
 
   Future<void> speakderelicts3(String languageCode) async {
@@ -239,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have been grossly derelict in their duty."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They have been grossly derelict in their duty.");
   }
 
   Future<void> speakderelicts4(String languageCode) async {
@@ -249,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She realizes that she's been derelict in her responsibilities as a mother."); // DOPSUM: CHANGE TEXT
+        "She realizes that she's been derelict in her responsibilities as a mother.");
   }
 
   Future<void> speakderelicts5(String languageCode) async {
@@ -257,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts500");
   }
 
   Future<void> speakderelicts6(String languageCode) async {
@@ -265,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts600");
   }
 
   Future<void> speakderelicts7(String languageCode) async {
@@ -273,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts700");
   }
 
   Future<void> speakderelicts8(String languageCode) async {
@@ -281,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts800");
   }
 
   Future<void> speakderelicts9(String languageCode) async {
@@ -289,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts900");
   }
 
   Future<void> speakderelicts10(String languageCode) async {
@@ -297,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1000");
   }
 
   Future<void> speakderelicts11(String languageCode) async {
@@ -305,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1100");
   }
 
   Future<void> speakderelicts12(String languageCode) async {
@@ -313,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1200");
   }
 
   Future<void> speakderelicts13(String languageCode) async {
@@ -321,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1300");
   }
 
   Future<void> speakderelicts14(String languageCode) async {
@@ -329,7 +326,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1400");
   }
 
   Future<void> speakderelicts15(String languageCode) async {
@@ -337,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1500");
   }
 
   Future<void> speakderelicts16(String languageCode) async {
@@ -345,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1600");
   }
 
   Future<void> speakderelicts17(String languageCode) async {
@@ -353,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1700");
   }
 
   Future<void> speakderelicts18(String languageCode) async {
@@ -361,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1800");
   }
 
   Future<void> speakderelicts19(String languageCode) async {
@@ -369,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts1900");
   }
 
   Future<void> speakderelicts20(String languageCode) async {
@@ -377,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The land lay derelict for ten years.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The land lay derelict for ten years.0");
   }
 
   Future<void> speakderelicts21(String languageCode) async {
@@ -386,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts2100");
   }
 
   Future<void> speakderelicts22(String languageCode) async {
@@ -394,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderelicts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakderelicts2200");
   }
 
   @override

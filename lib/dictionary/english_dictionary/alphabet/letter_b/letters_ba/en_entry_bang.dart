@@ -24,7 +24,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bang"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bang");
   }
 
   Future<void> speakbangs1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The baby was banging the table with his spoon."); // DOPSUM: CHANGE TEXT
+        "The baby was banging the table with his spoon.");
   }
 
   Future<void> speakbangs2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She banged the door shut."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She banged the door shut.");
   }
 
   Future<void> speakbangs3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He kept banging his chair against the wall."); // DOPSUM: CHANGE TEXT
+        "He kept banging his chair against the wall.");
   }
 
   Future<void> speakbangs4(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She tripped and banged her knee on the desk."); // DOPSUM: CHANGE TEXT
+        "She tripped and banged her knee on the desk.");
   }
 
   Future<void> speakbangs5(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She had banged a ton of guys by the time she was 25."); // DOPSUM: CHANGE TEXT
+        "She had banged a ton of guys by the time she was 25.");
   }
 
   Future<void> speakbangs6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The door swung shut with a bang."); // DOPSUM: CHANGE TEXT
+        .speak("The door swung shut with a bang.");
   }
 
   Future<void> speakbangs7(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I think she must have got a bang on the head."); // DOPSUM: CHANGE TEXT
+        "I think she must have got a bang on the head.");
   }
 
   Future<void> speakbangs8(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She blew her bangs out of her face."); // DOPSUM: CHANGE TEXT
+        .speak("She blew her bangs out of her face.");
   }
 
   Future<void> speakbangs9(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("My estimate was bang on target."); // DOPSUM: CHANGE TEXT
+        .speak("My estimate was bang on target.");
   }
 
   Future<void> speakbangs10(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me."); // DOPSUM: CHANGE TEXT
+        "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me.");
   }
 
   Future<void> speakbangs11(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBangs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBangs1111");
   }
 
   Future<void> speakbangs12(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntrybang extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBangs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBangs1212");
   }
 
   @override

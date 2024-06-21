@@ -16,7 +16,7 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("academic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("academic");
   }
 
   Future<void> speakac2569(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is much debate among academics about this issue."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There is much debate among academics about this issue.");
   }
 
   Future<void> speaka2548(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wasn't very academic and hated school."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She wasn't very academic and hated school.");
   }
 
   Future<void> speakaa45897(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are looking for practical experience as well as academic achievement."); // DOPSUM: CHANGE TEXT
+        "We are looking for practical experience as well as academic achievement.");
   }
 
   Future<void> speaka2579(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The university is renowned throughout the world for its academic excellence."); // DOPSUM: CHANGE TEXT
+        "The university is renowned throughout the world for its academic excellence.");
   }
 
   Future<void> speakaa2541(String languageCode) async {
@@ -60,8 +59,8 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He retired from academic life and went into politics."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He retired from academic life and went into politics.");
   }
 
   @override

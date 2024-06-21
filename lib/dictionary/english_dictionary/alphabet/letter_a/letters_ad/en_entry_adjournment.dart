@@ -16,7 +16,7 @@ class EnglishEntryadjournment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adjournment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adjournment");
   }
 
   Future<void> speakadjou2547(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadjournment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The judge granted us a short adjournment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The judge granted us a short adjournment.");
   }
 
   // Future<void> speakadjournment(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadjournment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adjournment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adjournment");
   // }
 
   // Future<void> speakadjournment(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadjournment extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adjournment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adjournment");
   // }
 
   @override

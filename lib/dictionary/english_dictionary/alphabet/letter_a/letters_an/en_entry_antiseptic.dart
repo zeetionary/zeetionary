@@ -20,7 +20,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antiseptic");
   }
 
   Future<void> speakantiseptic1218(String languageCode) async {
@@ -28,8 +28,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Dab the graze with antiseptic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dab the graze with antiseptic.");
   }
 
   Future<void> speakantiseptic1221(String languageCode) async {
@@ -37,8 +36,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Use antiseptic to clean and dress cuts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Use antiseptic to clean and dress cuts.");
   }
 
   Future<void> speakantiseptic1225(String languageCode) async {
@@ -46,8 +44,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When you get a little cut, you can use antiseptic cream."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("When you get a little cut, you can use antiseptic cream.");
   }
 
   Future<void> speakantiseptic1228(String languageCode) async {
@@ -55,8 +53,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cover the burn with an antiseptic dressing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Cover the burn with an antiseptic dressing.");
   }
 
   // Future<void> speakantiseptic(String languageCode) async {
@@ -64,7 +61,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiseptic");
   // }
 
   // Future<void> speakantiseptic(String languageCode) async {
@@ -72,7 +69,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiseptic");
   // }
 
   // Future<void> speakantiseptic(String languageCode) async {
@@ -80,7 +77,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiseptic");
   // }
 
   // Future<void> speakantiseptic(String languageCode) async {
@@ -88,7 +85,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiseptic");
   // }
 
   @override

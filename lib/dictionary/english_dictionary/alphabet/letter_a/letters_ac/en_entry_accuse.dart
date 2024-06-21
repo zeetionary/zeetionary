@@ -16,7 +16,7 @@ class EnglishEntryaccuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accuse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accuse");
   }
 
   Future<void> speaka14587(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryaccuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She accused him of lying."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She accused him of lying.");
   }
 
   Future<void> speaka45691(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryaccuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government was accused of incompetence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The government was accused of incompetence.");
   }
 
   // Future<void> speakaccuse(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaccuse extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accuse"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("accuse");
   // }
 
   @override

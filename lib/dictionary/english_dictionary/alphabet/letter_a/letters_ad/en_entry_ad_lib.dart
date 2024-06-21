@@ -16,7 +16,7 @@ class EnglishEntryadlib extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ad lib"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ad lib");
   }
 
   Future<void> speakadlib4587(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadlib extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She delivered her speech ad lib."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She delivered her speech ad lib.");
   }
 
   Future<void> speakadlib42587(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryadlib extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I lost my notes and had to ad-lib the whole speech."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I lost my notes and had to ad-lib the whole speech.");
   }
 
   // Future<void> speakadlib(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryadlib extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ad lib"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ad lib");
   // }
 
   @override

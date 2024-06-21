@@ -18,7 +18,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brittle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brittle");
   }
 
   Future<void> speakbrittles1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The paint was brittle with age."); // DOPSUM: CHANGE TEXT
+        .speak("The paint was brittle with age.");
   }
 
   Future<void> speakbrittles2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As you get older your bones become increasingly brittle."); // DOPSUM: CHANGE TEXT
+        "As you get older your bones become increasingly brittle.");
   }
 
   Future<void> speakbrittles3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The pond was covered in a brittle layer of ice."); // DOPSUM: CHANGE TEXT
+        "The pond was covered in a brittle layer of ice.");
   }
 
   Future<void> speakbrittles4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The character she plays is successful but emotionally brittle."); // DOPSUM: CHANGE TEXT
+        "The character she plays is successful but emotionally brittle.");
   }
 
   Future<void> speakbrittles5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She greeted him with a brittle smile."); // DOPSUM: CHANGE TEXT
+        .speak("She greeted him with a brittle smile.");
   }
 
   Future<void> speakbrittles6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "‘Not at all,’ she said in a brittle voice, avoiding his eye."); // DOPSUM: CHANGE TEXT
+        "‘Not at all,’ she said in a brittle voice, avoiding his eye.");
   }
 
   Future<void> speakbrittles7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybrittle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They gave us pieces of almond brittle coated in chocolate."); // DOPSUM: CHANGE TEXT
+        "They gave us pieces of almond brittle coated in chocolate.");
   }
 
   @override

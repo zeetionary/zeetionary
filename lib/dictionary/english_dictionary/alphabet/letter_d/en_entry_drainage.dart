@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drainage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drainage");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drainage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drainage");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The city upgraded its drainage system to prevent flooding."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The city upgraded its drainage system to prevent flooding.");
   }
 
   Future<void> speakdrainages2(String languageCode) async {
@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The area has good natural drainage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The area has good natural drainage.");
   }
 
   Future<void> speakdrainages3(String languageCode) async {
@@ -369,160 +368,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These plants need a sunny spot with good drainage."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages4(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages5(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages6(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages7(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrainages22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrainage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrainages2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("These plants need a sunny spot with good drainage.");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("award"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("award");
   }
 
   Future<void> speakawards1(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was nominated for the best actor award."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was nominated for the best actor award.");
   }
 
   Future<void> speakawards2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As head of the bank, she got an award of £2.18m."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("As head of the bank, she got an award of £2.18m.");
   }
 
   Future<void> speakawards3(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The judge has the power to make damages awards."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The judge has the power to make damages awards.");
   }
 
   Future<void> speakawards4(String languageCode) async {
@@ -60,7 +57,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."); // DOPSUM: CHANGE TEXT
+        "Satisfactory completion of the course will lead to the award of the Diploma of Social Work.");
   }
 
   Future<void> speakawards5(String languageCode) async {
@@ -68,8 +65,8 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The prize is awarded annually for the best new building."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The prize is awarded annually for the best new building.");
   }
 
   Future<void> speakawards6(String languageCode) async {
@@ -77,7 +74,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwards66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwards66");
   }
 
   Future<void> speakawards7(String languageCode) async {
@@ -85,7 +82,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwards77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwards77");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaluminium extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aluminium"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aluminium");
   }
 
   Future<void> speakaluminium55555(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaluminium extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak(" Aluminium is rapidly oxidized in air."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(" Aluminium is rapidly oxidized in air.");
   }
 
   // Future<void> speakaluminium(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryaluminium extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aluminium"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aluminium");
   // }
 
   // Future<void> speakaluminium(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaluminium extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aluminium"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aluminium");
   // }
 
   @override

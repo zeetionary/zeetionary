@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dialogue box"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dialogue box");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dialogue box"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dialogue box");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Select an option from the dialog box."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Select an option from the dialog box.");
   }
 
   Future<void> speakdialogueboxs2(String languageCode) async {
@@ -231,168 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Click on ‘open file’ in the dialogue box."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs3(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs4(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs5(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs6(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs20(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdialogueboxs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdialoguebox
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdialogueboxs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Click on ‘open file’ in the dialogue box.");
   }
 
   @override

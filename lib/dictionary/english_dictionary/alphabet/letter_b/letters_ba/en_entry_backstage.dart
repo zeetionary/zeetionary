@@ -24,7 +24,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("backstage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("backstage");
   }
 
   Future<void> speakb3s1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After the show, we were allowed to go backstage to meet the cast."); // DOPSUM: CHANGE TEXT
+        "After the show, we were allowed to go backstage to meet the cast.");
   }
 
   Future<void> speakb3s2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The organizers say it's a fair contest but who knows what goes on backstage?"); // DOPSUM: CHANGE TEXT
+        "The organizers say it's a fair contest but who knows what goes on backstage?");
   }
 
   Future<void> speakb3s3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The backstage crew worked tirelessly to ensure that the show ran smoothly."); // DOPSUM: CHANGE TEXT
+        "The backstage crew worked tirelessly to ensure that the show ran smoothly.");
   }
 
   Future<void> speakb3s4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The envoy conducted a series of backdoor meetings with rebel leaders to try to broker a ceasefire."); // DOPSUM: CHANGE TEXT
+        "The envoy conducted a series of backdoor meetings with rebel leaders to try to broker a ceasefire.");
   }
 
   Future<void> speakb3s5(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakB3s55");
   }
 
   Future<void> speakb3s6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakB3s66");
   }
 
   Future<void> speakb3s7(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakB3s77");
   }
 
   @override

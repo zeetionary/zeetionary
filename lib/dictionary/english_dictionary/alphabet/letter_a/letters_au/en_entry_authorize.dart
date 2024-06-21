@@ -24,7 +24,7 @@ class EnglishEntryauthorize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("authorize");
   }
 
   Future<void> speakauthorize840(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryauthorize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I can authorize payments up to £5 000."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I can authorize payments up to £5 000.");
   }
 
   Future<void> speakauthorize842(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryauthorize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The police were authorized to record his phone conversations."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The police were authorized to record his phone conversations.");
   }
 
   // Future<void> speakauthorize(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authorize");
   // }
 
   // Future<void> speakauthorize(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authorize");
   // }
 
   // Future<void> speakauthorize(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authorize");
   // }
 
   // Future<void> speakauthorize(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authorize");
   // }
 
   // Future<void> speakauthorize(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authorize");
   // }
 
   // Future<void> speakauthorize(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authorize");
   // }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("depth"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("depth");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("depth"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("depth");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("What's the depth of the water here?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What's the depth of the water here?");
   }
 
   Future<void> speakdepths2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Water was found at a depth of 30 metres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Water was found at a depth of 30 metres.");
   }
 
   Future<void> speakdepths3(String languageCode) async {
@@ -239,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They dug down to a depth of two metres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They dug down to a depth of two metres.");
   }
 
   Future<void> speakdepths4(String languageCode) async {
@@ -248,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many dolphins can dive to depths of 200 metres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Many dolphins can dive to depths of 200 metres.");
   }
 
   Future<void> speakdepths5(String languageCode) async {
@@ -258,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The camera must be strong enough to resist the immense water pressure at depth."); // DOPSUM: CHANGE TEXT
+        "The camera must be strong enough to resist the immense water pressure at depth.");
   }
 
   Future<void> speakdepths6(String languageCode) async {
@@ -266,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The depth of the shelves is 30 centimetres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The depth of the shelves is 30 centimetres.");
   }
 
   Future<void> speakdepths7(String languageCode) async {
@@ -276,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The demonstration showed the depth of feeling against the war."); // DOPSUM: CHANGE TEXT
+        "The demonstration showed the depth of feeling against the war.");
   }
 
   Future<void> speakdepths8(String languageCode) async {
@@ -284,8 +279,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This film lacks the complexity or depth of his best movies."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This film lacks the complexity or depth of his best movies.");
   }
 
   Future<void> speakdepths9(String languageCode) async {
@@ -293,8 +288,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her paintings reveal hidden depths."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her paintings reveal hidden depths.");
   }
 
   Future<void> speakdepths10(String languageCode) async {
@@ -302,7 +296,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His ideas lack depth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His ideas lack depth.");
   }
 
   Future<void> speakdepths11(String languageCode) async {
@@ -311,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Younger students cannot be expected to have great depth of understanding."); // DOPSUM: CHANGE TEXT
+        "Younger students cannot be expected to have great depth of understanding.");
   }
 
   Future<void> speakdepths12(String languageCode) async {
@@ -319,8 +313,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was in the depths of despair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was in the depths of despair.");
   }
 
   Future<void> speakdepths13(String languageCode) async {
@@ -328,56 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He gazed into the depths of her eyes."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths14(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths15(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths16(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths17(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths18(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths19(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He gazed into the depths of her eyes.");
   }
 
   Future<void> speakdepths20(String languageCode) async {
@@ -385,24 +329,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Water was found at a depth of 30 metres.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths21(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdepths22(String languageCode) async {
-    // DOPSUM: CHANGE speakdepth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepths2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Water was found at a depth of 30 metres.0");
   }
 
   @override

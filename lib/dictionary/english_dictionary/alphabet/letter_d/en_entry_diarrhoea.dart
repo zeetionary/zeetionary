@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diarrhoea"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diarrhoea");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diarrhoea"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diarrhoea");
   }
 
   @override
@@ -221,176 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Symptoms include diarrhoea and vomiting."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas2(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiarrhoeas22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiarrhoea
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiarrhoeas2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Symptoms include diarrhoea and vomiting.");
   }
 
   @override

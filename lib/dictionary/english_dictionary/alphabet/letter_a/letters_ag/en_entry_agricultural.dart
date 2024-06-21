@@ -16,7 +16,7 @@ class EnglishEntryagricultural extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agricultural"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agricultural");
   }
 
   Future<void> speakagricul35699(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryagricultural extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She's studying agricultural science."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's studying agricultural science.");
   }
 
   // Future<void> speakagricultural(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryagricultural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agricultural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agricultural");
   // }
 
   // Future<void> speakagricultural(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryagricultural extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agricultural"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agricultural");
   // }
 
   @override

@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("durable goods"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("durable goods");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("durable goods"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("durable goods");
   }
 
   @override
@@ -352,176 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People buy durable goods for long-term use."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss2(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss3(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss4(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss5(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss6(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss7(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss8(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss9(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss10(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss11(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss12(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss13(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss14(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss15(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss16(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss17(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss18(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss19(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss20(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss21(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdurablegoodss22(String languageCode) async {
-    // DOPSUM: CHANGE speakdurablegoods
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdurablegoodss2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("People buy durable goods for long-term use.");
   }
 
   @override

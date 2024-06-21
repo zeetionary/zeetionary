@@ -16,7 +16,7 @@ class EnglishEntryaircraft extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aircraft"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aircraft");
   }
 
   Future<void> speakaircraft32477(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaircraft extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The aircraft was flown by a young American pilot."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The aircraft was flown by a young American pilot.");
   }
 
   Future<void> speakaircraft3477(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryaircraft extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The aircraft is due to take off at midnight."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The aircraft is due to take off at midnight.");
   }
 
   // Future<void> speakaircraft(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryaircraft extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aircraft"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aircraft");
   // }
 
   @override

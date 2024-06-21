@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("discipline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("discipline");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("discipline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("discipline");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The school has a reputation for high standards of discipline."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The school has a reputation for high standards of discipline.");
   }
 
   Future<void> speakdisciplines2(String languageCode) async {
@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Strict discipline is imposed on army recruits."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Strict discipline is imposed on army recruits.");
   }
 
   Future<void> speakdisciplines3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She keeps good discipline in class."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She keeps good discipline in class.");
   }
 
   Future<void> speakdisciplines4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Yoga is a good discipline for learning to relax."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Yoga is a good discipline for learning to relax.");
   }
 
   Future<void> speakdisciplines5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her determination and discipline were admirable."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her determination and discipline were admirable.");
   }
 
   Future<void> speakdisciplines6(String languageCode) async {
@@ -267,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scholars from various disciplines have been working on these problems."); // DOPSUM: CHANGE TEXT
+        "Scholars from various disciplines have been working on these problems.");
   }
 
   Future<void> speakdisciplines7(String languageCode) async {
@@ -275,8 +271,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When did sociology emerge as a distinct discipline?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("When did sociology emerge as a distinct discipline?");
   }
 
   Future<void> speakdisciplines8(String languageCode) async {
@@ -284,8 +280,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The officers were disciplined for using racist language."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The officers were disciplined for using racist language.");
   }
 
   Future<void> speakdisciplines9(String languageCode) async {
@@ -293,8 +289,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Should unions discipline members who take unofficial action?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Should unions discipline members who take unofficial action?");
   }
 
   Future<void> speakdisciplines10(String languageCode) async {
@@ -303,7 +299,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This book contains a guide to the best ways of disciplining your child."); // DOPSUM: CHANGE TEXT
+        "This book contains a guide to the best ways of disciplining your child.");
   }
 
   Future<void> speakdisciplines11(String languageCode) async {
@@ -311,8 +307,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Dieting is a matter of disciplining yourself."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dieting is a matter of disciplining yourself.");
   }
 
   Future<void> speakdisciplines12(String languageCode) async {
@@ -321,87 +316,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He disciplined himself to exercise at least three times a week."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciplines22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscipline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciplines2200"); // DOPSUM: CHANGE TEXT
+        "He disciplined himself to exercise at least three times a week.");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bed");
   }
 
   Future<void> speakbeds1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I'm tired—I'm going to bed."); // DOPSUM: CHANGE TEXT
+        .speak("I'm tired—I'm going to bed.");
   }
 
   Future<void> speakbeds2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'll put the kids to bed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'll put the kids to bed.");
   }
 
   Future<void> speakbeds3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Many strange plants and fish live on the sea bed."); // DOPSUM: CHANGE TEXT
+        "Many strange plants and fish live on the sea bed.");
   }
 
   Future<void> speakbeds4(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They have some beautiful flower beds in their garden."); // DOPSUM: CHANGE TEXT
+        "They have some beautiful flower beds in their garden.");
   }
 
   Future<void> speakbeds5(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The blocks should be laid on a bed of concrete."); // DOPSUM: CHANGE TEXT
+        "The blocks should be laid on a bed of concrete.");
   }
 
   Future<void> speakbeds6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The posts should be firmly bedded in concrete."); // DOPSUM: CHANGE TEXT
+        "The posts should be firmly bedded in concrete.");
   }
 
   Future<void> speakbeds7(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He’s been trying to bed her for weeks."); // DOPSUM: CHANGE TEXT
+        .speak("He’s been trying to bed her for weeks.");
   }
 
   @override

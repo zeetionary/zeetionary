@@ -22,7 +22,7 @@ class EnglishEntryarmour extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("armour"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("armour");
   }
 
   Future<void> speakarmour530(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryarmour extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Police put on body armour before confronting the rioters."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Police put on body armour before confronting the rioters.");
   }
 
   Future<void> speakarmour531(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryarmour extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Monkeys do not have any kind of protective armour and use their brains to solve problems."); // DOPSUM: CHANGE TEXT
+        "Monkeys do not have any kind of protective armour and use their brains to solve problems.");
   }
 
   Future<void> speakarmour536(String languageCode) async {
@@ -48,8 +48,7 @@ class EnglishEntryarmour extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Modern tanks have strong armour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Modern tanks have strong armour.");
   }
 
   Future<void> speakarmour540(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryarmour extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The troops were backed by tanks, artillery, and other heavy armour."); // DOPSUM: CHANGE TEXT
+        "The troops were backed by tanks, artillery, and other heavy armour.");
   }
 
   // Future<void> speakarmour(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryarmour extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armour"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armour");
   // }
 
   // Future<void> speakarmour(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryarmour extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armour"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armour");
   // }
 
   // Future<void> speakarmour(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryarmour extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armour"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armour");
   // }
 
   // Future<void> speakarmour(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryarmour extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armour"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armour");
   // }
 
   @override

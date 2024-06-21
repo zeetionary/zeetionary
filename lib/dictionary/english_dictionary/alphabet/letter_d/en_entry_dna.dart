@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DNA"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DNA");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DNA"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DNA");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A DNA test confirmed the suspect had been at the scene of the crime."); // DOPSUM: CHANGE TEXT
+        "A DNA test confirmed the suspect had been at the scene of the crime.");
   }
 
   Future<void> speakDNAs2(String languageCode) async {
@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The desire to win is part of his DNA."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The desire to win is part of his DNA.");
   }
 
   Future<void> speakDNAs3(String languageCode) async {
@@ -370,159 +369,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I didn't think it was in my DNA to get on stage and sing like that."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs4(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs5(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs6(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs7(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs8(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs9(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs10(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs11(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs12(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs13(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs14(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs15(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs16(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs17(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs18(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs19(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs20(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs21(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAs22(String languageCode) async {
-    // DOPSUM: CHANGE speakDNA
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAs2200"); // DOPSUM: CHANGE TEXT
+        "I didn't think it was in my DNA to get on stage and sing like that.");
   }
 
   @override

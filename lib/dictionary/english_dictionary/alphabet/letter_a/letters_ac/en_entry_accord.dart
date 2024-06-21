@@ -16,7 +16,7 @@ class EnglishEntryaccord extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accord"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accord");
   }
 
   Future<void> speaka15874(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccord extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our society accords great importance to the family."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Our society accords great importance to the family.");
   }
 
   Future<void> speakac48962(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaccord extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two sides signed a peace accord last July."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The two sides signed a peace accord last July.");
   }
 
   @override

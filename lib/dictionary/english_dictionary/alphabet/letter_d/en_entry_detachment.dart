@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detachment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detachment");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detachment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detachment");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt a sense of detachment from what was going on."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She felt a sense of detachment from what was going on.");
   }
 
   Future<void> speakdetachments2(String languageCode) async {
@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She watched with complete detachment as the others made all the preparations."); // DOPSUM: CHANGE TEXT
+        "She watched with complete detachment as the others made all the preparations.");
   }
 
   Future<void> speakdetachments3(String languageCode) async {
@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The judges show impartiality and detachment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The judges show impartiality and detachment.");
   }
 
   Future<void> speakdetachments4(String languageCode) async {
@@ -248,128 +247,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A detachment of marines was left to guard the site."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments5(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A detachment of marines was left to guard the site.");
   }
 
   Future<void> speakdetachments20(String languageCode) async {
@@ -378,23 +257,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She watched with complete detachment as the others made all the preparations.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetachments22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetachment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetachments2200"); // DOPSUM: CHANGE TEXT
+        "She watched with complete detachment as the others made all the preparations.0");
   }
 
   @override

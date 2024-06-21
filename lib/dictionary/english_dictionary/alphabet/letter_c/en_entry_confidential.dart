@@ -21,7 +21,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("confidential"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("confidential");
   }
 
   Future<void> speakconfidentials1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your medical records are strictly confidential."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your medical records are strictly confidential.");
   }
 
   Future<void> speakconfidentials2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The findings are strictly confidential."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The findings are strictly confidential.");
   }
 
   Future<void> speakconfidentials3(String languageCode) async {
@@ -47,8 +45,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He spoke in a confidential tone, his voice low."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He spoke in a confidential tone, his voice low.");
   }
 
   Future<void> speakconfidentials4(String languageCode) async {
@@ -56,7 +53,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials400");
   }
 
   Future<void> speakconfidentials5(String languageCode) async {
@@ -64,7 +61,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials500");
   }
 
   Future<void> speakconfidentials6(String languageCode) async {
@@ -72,7 +69,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials600");
   }
 
   Future<void> speakconfidentials7(String languageCode) async {
@@ -80,7 +77,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials700");
   }
 
   Future<void> speakconfidentials8(String languageCode) async {
@@ -88,7 +85,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials800");
   }
 
   Future<void> speakconfidentials9(String languageCode) async {
@@ -96,7 +93,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials900");
   }
 
   Future<void> speakconfidentials10(String languageCode) async {
@@ -104,7 +101,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials1000");
   }
 
   Future<void> speakconfidentials11(String languageCode) async {
@@ -112,7 +109,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials1100");
   }
 
   Future<void> speakconfidentials12(String languageCode) async {
@@ -120,7 +117,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials1200");
   }
 
   Future<void> speakconfidentials13(String languageCode) async {
@@ -128,7 +125,7 @@ class EnglishEntryconfidential extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfidentials1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfidentials1300");
   }
 
   @override

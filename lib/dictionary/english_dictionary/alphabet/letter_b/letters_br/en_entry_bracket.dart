@@ -20,7 +20,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bracket"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bracket");
   }
 
   Future<void> speakbrackets1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Publication dates are given in brackets after each title."); // DOPSUM: CHANGE TEXT
+        "Publication dates are given in brackets after each title.");
   }
 
   Future<void> speakbrackets2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Add the numbers in brackets first."); // DOPSUM: CHANGE TEXT
+        .speak("Add the numbers in brackets first.");
   }
 
   Future<void> speakbrackets3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People in the lower income brackets will not be able to afford this."); // DOPSUM: CHANGE TEXT
+        "People in the lower income brackets will not be able to afford this.");
   }
 
   Future<void> speakbrackets4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most of the houses are out of our price bracket."); // DOPSUM: CHANGE TEXT
+        "Most of the houses are out of our price bracket.");
   }
 
   Future<void> speakbrackets5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I've bracketed the parts of the text that could be omitted."); // DOPSUM: CHANGE TEXT
+        "I've bracketed the parts of the text that could be omitted.");
   }
 
   Future<void> speakbrackets6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is unfair to bracket together those who cannot work with those who will not."); // DOPSUM: CHANGE TEXT
+        "It is unfair to bracket together those who cannot work with those who will not.");
   }
 
   Future<void> speakbrackets7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two writers are often bracketed together by critics."); // DOPSUM: CHANGE TEXT
+        "The two writers are often bracketed together by critics.");
   }
 
   @override

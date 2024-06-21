@@ -16,7 +16,7 @@ class EnglishEntryabysmally extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abysmally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abysmally");
   }
 
   Future<void> speakab2147(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryabysmally extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government has failed abysmally to deliver on its promises."); // DOPSUM: CHANGE TEXT
+        "The government has failed abysmally to deliver on its promises.");
   }
 
   @override

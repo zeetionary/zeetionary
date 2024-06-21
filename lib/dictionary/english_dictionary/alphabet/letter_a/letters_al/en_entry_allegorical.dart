@@ -16,7 +16,7 @@ class EnglishEntryallegorical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allegorical"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allegorical");
   }
 
   Future<void> speakallegorical24177(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryallegorical extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Every Russian knows the allegorical novel The Master And Margarita."); // DOPSUM: CHANGE TEXT
+        "Every Russian knows the allegorical novel The Master And Margarita.");
   }
 
   // Future<void> speakallegorical(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryallegorical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allegorical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allegorical");
   // }
 
   // Future<void> speakallegorical(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryallegorical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allegorical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allegorical");
   // }
 
   @override

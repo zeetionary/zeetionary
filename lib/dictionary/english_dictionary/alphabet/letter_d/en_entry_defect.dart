@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("defect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("defect");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("defect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("defect");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Goods with slight defects are sold at half price."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Goods with slight defects are sold at half price.");
   }
 
   Future<void> speakdefects2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The photograph shows slight defects due to age."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The photograph shows slight defects due to age.");
   }
 
   Future<void> speakdefects3(String languageCode) async {
@@ -239,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The book contains serious defects."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The book contains serious defects.");
   }
 
   Future<void> speakdefects4(String languageCode) async {
@@ -248,8 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The inspector found defects in the aircraft's construction."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The inspector found defects in the aircraft's construction.");
   }
 
   Future<void> speakdefects5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The child had a mild heart defect."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The child had a mild heart defect.");
   }
 
   Future<void> speakdefects6(String languageCode) async {
@@ -266,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He has a congenital heart defect."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has a congenital heart defect.");
   }
 
   Future<void> speakdefects7(String languageCode) async {
@@ -275,8 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The drug is widely known to cause birth defects."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The drug is widely known to cause birth defects.");
   }
 
   Future<void> speakdefects8(String languageCode) async {
@@ -284,8 +278,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She defected from the party just days before the election."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She defected from the party just days before the election.");
   }
 
   Future<void> speakdefects9(String languageCode) async {
@@ -294,7 +288,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A number of writers and musicians defected from the Soviet Union to the West in the 1960s."); // DOPSUM: CHANGE TEXT
+        "A number of writers and musicians defected from the Soviet Union to the West in the 1960s.");
   }
 
   Future<void> speakdefects10(String languageCode) async {
@@ -302,7 +296,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdefects1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdefects1000");
   }
 
   Future<void> speakdefects11(String languageCode) async {
@@ -310,7 +304,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdefects1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdefects1100");
   }
 
   Future<void> speakdefects12(String languageCode) async {
@@ -318,7 +312,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdefects1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdefects1200");
   }
 
   Future<void> speakdefects13(String languageCode) async {
@@ -326,7 +320,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdefects1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdefects1300");
   }
 
   @override

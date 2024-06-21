@@ -16,7 +16,7 @@ class EnglishEntryalmighty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("almighty"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("almighty");
   }
 
   Future<void> speakalmighty23599(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalmighty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Almighty God, have mercy on us."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Almighty God, have mercy on us.");
   }
 
   Future<void> speakalmighty4263(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryalmighty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All of a sudden we heard an almighty crash from the kitchen."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All of a sudden we heard an almighty crash from the kitchen.");
   }
 
   Future<void> speakalmight4693(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryalmighty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "God Almighty! What the hell do you think you are doing?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("God Almighty! What the hell do you think you are doing?");
   }
 
   Future<void> speakalmight45665(String languageCode) async {
@@ -51,8 +50,7 @@ class EnglishEntryalmighty extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We must pray to the Almighty for forgiveness."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We must pray to the Almighty for forgiveness.");
   }
 
   @override

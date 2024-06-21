@@ -16,7 +16,7 @@ class EnglishEntryagent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agent");
   }
 
   Future<void> speakagen25966(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryagent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our agent in New York deals with all US sales."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Our agent in New York deals with all US sales.");
   }
 
   Future<void> speakag15224(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryagent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She got the work through an agent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She got the work through an agent.");
   }
 
   Future<void> speakage256999(String languageCode) async {
@@ -42,8 +40,8 @@ class EnglishEntryagent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was operating as an undercover agent in London."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was operating as an undercover agent in London.");
   }
 
   Future<void> speakagent56922(String languageCode) async {
@@ -51,8 +49,7 @@ class EnglishEntryagent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The charity has been an agent for social change."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The charity has been an agent for social change.");
   }
 
   // Future<void> speakagent(String languageCode) async {
@@ -60,7 +57,7 @@ class EnglishEntryagent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agent");
   // }
 
   // Future<void> speakagent(String languageCode) async {
@@ -68,7 +65,7 @@ class EnglishEntryagent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agent");
   // }
 
   @override

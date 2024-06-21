@@ -21,7 +21,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cornea"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cornea");
   }
 
   Future<void> speakcorneas1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cornea is highly sensitive and contains many nerve endings."); // DOPSUM: CHANGE TEXT
+        "The cornea is highly sensitive and contains many nerve endings.");
   }
 
   Future<void> speakcorneas2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Damage to the cornea can result in blurred vision or other vision problems."); // DOPSUM: CHANGE TEXT
+        "Damage to the cornea can result in blurred vision or other vision problems.");
   }
 
   Future<void> speakcorneas3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas300");
   }
 
   Future<void> speakcorneas4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas400");
   }
 
   Future<void> speakcorneas5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas500");
   }
 
   Future<void> speakcorneas6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas600");
   }
 
   Future<void> speakcorneas7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas700");
   }
 
   Future<void> speakcorneas8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas800");
   }
 
   Future<void> speakcorneas9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas900");
   }
 
   Future<void> speakcorneas10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas1000");
   }
 
   Future<void> speakcorneas11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas1100");
   }
 
   Future<void> speakcorneas12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas1200");
   }
 
   Future<void> speakcorneas13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntrycornea extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorneas1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcorneas1300");
   }
 
   @override

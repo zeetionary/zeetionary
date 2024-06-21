@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("down-to-earth"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("down-to-earth");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("down-to-earth"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("down-to-earth");
   }
 
   @override
@@ -353,175 +353,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Gloria is probably the most down-to-earth person I've ever met."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths2(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths3(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths4(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths5(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths6(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths7(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths8(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths9(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths10(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths11(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths12(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths13(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths14(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths15(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths16(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths17(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths18(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths19(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths20(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths21(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> downtoearthths22(String languageCode) async {
-    // DOPSUM: CHANGE downtoearthth
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downtoearthths2200"); // DOPSUM: CHANGE TEXT
+        "Gloria is probably the most down-to-earth person I've ever met.");
   }
 
   @override

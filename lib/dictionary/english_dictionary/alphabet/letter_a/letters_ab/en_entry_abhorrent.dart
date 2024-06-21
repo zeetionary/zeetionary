@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abhorrent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abhorrent");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abhorrent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abhorrent");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakabhorrents111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakabhorrents111111111111111111111111111111111");
   }
 
   Future<void> speakabhorrents2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents200");
   }
 
   Future<void> speakabhorrents3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents300");
   }
 
   Future<void> speakabhorrents4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents400");
   }
 
   Future<void> speakabhorrents5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents500");
   }
 
   Future<void> speakabhorrents6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents600");
   }
 
   Future<void> speakabhorrents7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents700");
   }
 
   Future<void> speakabhorrents8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents800");
   }
 
   Future<void> speakabhorrents9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents900");
   }
 
   Future<void> speakabhorrents10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents1000");
   }
 
   Future<void> speakabhorrents11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents1100");
   }
 
   Future<void> speakabhorrents12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents1200");
   }
 
   Future<void> speakabhorrents13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabhorrents1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabhorrents1300");
   }
 
   Future<void> speakab63(String languageCode) async {
@@ -326,8 +326,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Racism is abhorrent to a civilized society."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Racism is abhorrent to a civilized society.");
   }
 
   @override

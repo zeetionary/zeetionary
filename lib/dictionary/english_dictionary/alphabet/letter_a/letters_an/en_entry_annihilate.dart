@@ -16,7 +16,7 @@ class EnglishEntryannihilate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("annihilate");
   }
 
   Future<void> speakannihilate113(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryannihilate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The human race has enough weapons to annihilate itself."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The human race has enough weapons to annihilate itself.");
   }
 
   Future<void> speakannihilate116(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryannihilate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She annihilated her opponent, who failed to win a single game."); // DOPSUM: CHANGE TEXT
+        "She annihilated her opponent, who failed to win a single game.");
   }
 
   // Future<void> speakannihilate(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annihilate");
   // }
 
   // Future<void> speakannihilate(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annihilate");
   // }
 
   // Future<void> speakannihilate(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annihilate");
   // }
 
   // Future<void> speakannihilate(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annihilate");
   // }
 
   // Future<void> speakannihilate(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annihilate");
   // }
 
   // Future<void> speakannihilate(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annihilate");
   // }
 
   @override

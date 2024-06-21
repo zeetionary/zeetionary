@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dinosaur"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dinosaur");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dinosaur"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dinosaur");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The museum has a huge dinosaur skeleton."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The museum has a huge dinosaur skeleton.");
   }
 
   Future<void> speakdinosaurs2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She loves reading books about dinosaurs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She loves reading books about dinosaurs.");
   }
 
   Future<void> speakdinosaurs3(String languageCode) async {
@@ -239,160 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("This computer's a dinosaur, isn't it?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs4(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs5(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs6(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs20(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdinosaurs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdinosaur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdinosaurs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This computer's a dinosaur, isn't it?");
   }
 
   @override

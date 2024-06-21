@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("domestic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("domestic");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("domestic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("domestic");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The US is unable to meet its domestic demand for steel in any given year."); // DOPSUM: CHANGE TEXT
+        "The US is unable to meet its domestic demand for steel in any given year.");
   }
 
   Future<void> speakdomestics2(String languageCode) async {
@@ -360,8 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was a chief White House adviser on domestic policy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was a chief White House adviser on domestic policy.");
   }
 
   Future<void> speakdomestics3(String languageCode) async {
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The election campaign has been focused mainly on domestic issues."); // DOPSUM: CHANGE TEXT
+        "The election campaign has been focused mainly on domestic issues.");
   }
 
   Future<void> speakdomestics4(String languageCode) async {
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "On the domestic front, the prime minister's main concern was the economy."); // DOPSUM: CHANGE TEXT
+        "On the domestic front, the prime minister's main concern was the economy.");
   }
 
   Future<void> speakdomestics5(String languageCode) async {
@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She spent the morning doing domestic chores like cleaning and laundry."); // DOPSUM: CHANGE TEXT
+        "She spent the morning doing domestic chores like cleaning and laundry.");
   }
 
   Future<void> speakdomestics6(String languageCode) async {
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She sought help after experiencing domestic abuse from her partner."); // DOPSUM: CHANGE TEXT
+        "She sought help after experiencing domestic abuse from her partner.");
   }
 
   Future<void> speakdomestics7(String languageCode) async {
@@ -405,8 +405,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Most domestic cats hate getting wet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Most domestic cats hate getting wet.");
   }
 
   Future<void> speakdomestics8(String languageCode) async {
@@ -414,8 +413,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm not a very domestic sort of person."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm not a very domestic sort of person.");
   }
 
   Future<void> speakdomestics9(String languageCode) async {
@@ -423,8 +421,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The family employed a domestic to assist with daily chores."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The family employed a domestic to assist with daily chores.");
   }
 
   Future<void> speakdomestics10(String languageCode) async {
@@ -432,104 +430,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The police were called to sort out a domestic."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics11(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics12(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics13(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics14(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics15(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics16(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics17(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics18(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics19(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics20(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics21(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomestics22(String languageCode) async {
-    // DOPSUM: CHANGE speakdomestic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomestics2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The police were called to sort out a domestic.");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dispatch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dispatch");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dispatch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dispatch");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Troops have been dispatched to the area."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Troops have been dispatched to the area.");
   }
 
   Future<void> speakdispatchs2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Goods are dispatched within 24 hours of your order reaching us."); // DOPSUM: CHANGE TEXT
+        "Goods are dispatched within 24 hours of your order reaching us.");
   }
 
   Future<void> speakdispatchs3(String languageCode) async {
@@ -239,8 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He dispatched the younger player in straight sets."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He dispatched the younger player in straight sets.");
   }
 
   Future<void> speakdispatchs4(String languageCode) async {
@@ -248,8 +247,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our handsome hero manages to dispatch another five villains."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Our handsome hero manages to dispatch another five villains.");
   }
 
   Future<void> speakdispatchs5(String languageCode) async {
@@ -257,8 +256,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "More food supplies are ready for immediate dispatch."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("More food supplies are ready for immediate dispatch.");
   }
 
   Future<void> speakdispatchs6(String languageCode) async {
@@ -267,135 +266,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In her latest dispatch, Clare Duggan, our war correspondent, reported an increase in fighting."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs20(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdispatchs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdispatch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdispatchs2200"); // DOPSUM: CHANGE TEXT
+        "In her latest dispatch, Clare Duggan, our war correspondent, reported an increase in fighting.");
   }
 
   @override

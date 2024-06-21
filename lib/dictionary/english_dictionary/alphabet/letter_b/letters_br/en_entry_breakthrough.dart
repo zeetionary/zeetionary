@@ -20,7 +20,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("breakthrough"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breakthrough");
   }
 
   Future<void> speakbreakthroughs1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The new deal represents a major breakthrough for the company."); // DOPSUM: CHANGE TEXT
+        "The new deal represents a major breakthrough for the company.");
   }
 
   Future<void> speakbreakthroughs2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists are hoping for a breakthrough in the search for a cure for cancer."); // DOPSUM: CHANGE TEXT
+        "Scientists are hoping for a breakthrough in the search for a cure for cancer.");
   }
 
   Future<void> speakbreakthroughs3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was a breakthrough album for the band."); // DOPSUM: CHANGE TEXT
+        "It was a breakthrough album for the band.");
   }
 
   Future<void> speakbreakthroughs4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The article described the impact of their breakthrough discovery of the structure of DNA."); // DOPSUM: CHANGE TEXT
+        "The article described the impact of their breakthrough discovery of the structure of DNA.");
   }
 
   Future<void> speakbreakthroughs5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakthroughs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreakthroughs55");
   }
 
   Future<void> speakbreakthroughs6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakthroughs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreakthroughs66");
   }
 
   Future<void> speakbreakthroughs7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakthroughs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreakthroughs77");
   }
 
   @override

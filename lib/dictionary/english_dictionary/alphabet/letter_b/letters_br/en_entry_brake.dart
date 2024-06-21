@@ -20,7 +20,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brake"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brake");
   }
 
   Future<void> speakbrakes1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("My brakes are not working properly."); // DOPSUM: CHANGE TEXT
+        .speak("My brakes are not working properly.");
   }
 
   Future<void> speakbrakes2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She slammed on the brakes to try to avoid the dog."); // DOPSUM: CHANGE TEXT
+        "She slammed on the brakes to try to avoid the dog.");
   }
 
   Future<void> speakbrakes3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "High interest rates are a brake on the economy."); // DOPSUM: CHANGE TEXT
+        "High interest rates are a brake on the economy.");
   }
 
   Future<void> speakbrakes4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The truck braked to a halt."); // DOPSUM: CHANGE TEXT
+        .speak("The truck braked to a halt.");
   }
 
   Future<void> speakbrakes5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She had to brake hard to avoid running into the car in front."); // DOPSUM: CHANGE TEXT
+        "She had to brake hard to avoid running into the car in front.");
   }
 
   Future<void> speakbrakes6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrakes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrakes66");
   }
 
   Future<void> speakbrakes7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrakes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrakes77");
   }
 
   @override

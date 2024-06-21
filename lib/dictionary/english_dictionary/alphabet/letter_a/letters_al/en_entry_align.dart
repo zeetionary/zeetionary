@@ -16,7 +16,7 @@ class EnglishEntryalign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("align"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("align");
   }
 
   Future<void> speakalign43659(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalign extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The top and bottom line of each column on the page should align."); // DOPSUM: CHANGE TEXT
+        "The top and bottom line of each column on the page should align.");
   }
 
   Future<void> speakalign35255(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryalign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This pillar is roughly aligned with the others."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This pillar is roughly aligned with the others.");
   }
 
   // Future<void> speakalign(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryalign extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("align"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("align");
   // }
 
   @override

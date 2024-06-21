@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-edged"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-edged");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-edged"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-edged");
   }
 
   @override
@@ -352,8 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The knife had a double-edged blade for precision cutting."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The knife had a double-edged blade for precision cutting.");
   }
 
   Future<void> speakdoubleedgeds2(String languageCode) async {
@@ -361,168 +361,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Wealth and fame can be a double-edged sword."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleedgeds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleedged
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleedgeds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Wealth and fame can be a double-edged sword.");
   }
 
   @override

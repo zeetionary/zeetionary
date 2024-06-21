@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandoned"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandoned");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandoned"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandoned");
   }
 
   @override
@@ -220,8 +220,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The child was found abandoned but unharmed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The child was found abandoned but unharmed.");
   }
 
   Future<void> speakabandoned47(String languageCode) async {
@@ -230,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was an abandoned supermarket trolley in the middle of the road."); // DOPSUM: CHANGE TEXT
+        "There was an abandoned supermarket trolley in the middle of the road.");
   }
 
   @override

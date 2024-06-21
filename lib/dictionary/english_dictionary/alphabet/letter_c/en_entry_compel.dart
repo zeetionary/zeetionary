@@ -21,7 +21,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compel"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compel");
   }
 
   Future<void> speakcompels1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The law can compel fathers to make regular payments for their children."); // DOPSUM: CHANGE TEXT
+        "The law can compel fathers to make regular payments for their children.");
   }
 
   Future<void> speakcompels2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I feel compelled to write and tell you how much I enjoyed your book."); // DOPSUM: CHANGE TEXT
+        "I feel compelled to write and tell you how much I enjoyed your book.");
   }
 
   Future<void> speakcompels3(String languageCode) async {
@@ -47,8 +47,8 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The court has powers to compel witnesses to attend."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The court has powers to compel witnesses to attend.");
   }
 
   Future<void> speakcompels4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He spoke with an authority that compelled the attention of the whole crowd."); // DOPSUM: CHANGE TEXT
+        "He spoke with an authority that compelled the attention of the whole crowd.");
   }
 
   Future<void> speakcompels5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels500");
   }
 
   Future<void> speakcompels6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels600");
   }
 
   Future<void> speakcompels7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels700");
   }
 
   Future<void> speakcompels8(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels800");
   }
 
   Future<void> speakcompels9(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels900");
   }
 
   Future<void> speakcompels10(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels1000");
   }
 
   Future<void> speakcompels11(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels1100");
   }
 
   Future<void> speakcompels12(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels1200");
   }
 
   Future<void> speakcompels13(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntrycompel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompels1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompels1300");
   }
 
   @override

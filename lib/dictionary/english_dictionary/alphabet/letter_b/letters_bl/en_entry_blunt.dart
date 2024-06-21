@@ -22,7 +22,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blunt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blunt");
   }
 
   Future<void> speakblunts1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This pencil's blunt!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This pencil's blunt!");
   }
 
   Future<void> speakblunts2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The knife is blunt and needs sharpening."); // DOPSUM: CHANGE TEXT
+        "The knife is blunt and needs sharpening.");
   }
 
   Future<void> speakblunts3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She has a reputation for blunt speaking."); // DOPSUM: CHANGE TEXT
+        "She has a reputation for blunt speaking.");
   }
 
   Future<void> speakblunts4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("To be blunt, your work is appalling."); // DOPSUM: CHANGE TEXT
+        .speak("To be blunt, your work is appalling.");
   }
 
   Future<void> speakblunts5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Age hadn't blunted his passion for adventure."); // DOPSUM: CHANGE TEXT
+        "Age hadn't blunted his passion for adventure.");
   }
 
   Future<void> speakblunts6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Constant use can blunt the finest blades."); // DOPSUM: CHANGE TEXT
+        "Constant use can blunt the finest blades.");
   }
 
   Future<void> speakblunts7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryblunt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblunts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblunts77");
   }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commitment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commitment");
   }
 
   Future<void> speakcommitments1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm not ready to make a long-term commitment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm not ready to make a long-term commitment.");
   }
 
   Future<void> speakcommitments2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have failed to honour their commitments."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They have failed to honour their commitments.");
   }
 
   Future<void> speakcommitments3(String languageCode) async {
@@ -47,8 +45,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He questioned the government's commitment to public services."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He questioned the government's commitment to public services.");
   }
 
   Future<void> speakcommitments4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We're looking for a firm commitment from both sides."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We're looking for a firm commitment from both sides.");
   }
 
   Future<void> speakcommitments5(String languageCode) async {
@@ -65,8 +63,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They reaffirmed their commitment to work for peace."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They reaffirmed their commitment to work for peace.");
   }
 
   Future<void> speakcommitments6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has demonstrated exceptional commitment and dedication."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has demonstrated exceptional commitment and dedication.");
   }
 
   Future<void> speakcommitments7(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This post demands a high level of commitment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This post demands a high level of commitment.");
   }
 
   Future<void> speakcommitments8(String languageCode) async {
@@ -93,7 +90,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A career as an actor requires one hundred per cent commitment."); // DOPSUM: CHANGE TEXT
+        "A career as an actor requires one hundred per cent commitment.");
   }
 
   Future<void> speakcommitments9(String languageCode) async {
@@ -101,8 +98,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was criticized for her lack of commitment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was criticized for her lack of commitment.");
   }
 
   Future<void> speakcommitments10(String languageCode) async {
@@ -110,8 +106,8 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's busy for the next month with filming commitments."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's busy for the next month with filming commitments.");
   }
 
   Future<void> speakcommitments11(String languageCode) async {
@@ -120,7 +116,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Women very often have to juggle work with their family commitments."); // DOPSUM: CHANGE TEXT
+        "Women very often have to juggle work with their family commitments.");
   }
 
   Future<void> speakcommitments12(String languageCode) async {
@@ -128,8 +124,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I don't want to take on any more commitments."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I don't want to take on any more commitments.");
   }
 
   Future<void> speakcommitments13(String languageCode) async {
@@ -137,7 +132,7 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommitments1300");
   }
 
   @override

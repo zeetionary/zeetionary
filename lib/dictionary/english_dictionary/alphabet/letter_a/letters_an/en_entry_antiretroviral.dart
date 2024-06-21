@@ -20,7 +20,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antiretroviral");
   }
 
   Future<void> speakantiretroviral1208(String languageCode) async {
@@ -28,8 +28,8 @@ class EnglishEntryantiretroviral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Antiretroviral drugs are the only way to treat HIV."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Antiretroviral drugs are the only way to treat HIV.");
   }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -37,7 +37,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -61,7 +61,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   // Future<void> speakantiretroviral(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiretroviral");
   // }
 
   @override

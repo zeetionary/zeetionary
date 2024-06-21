@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagrammatic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagrammatic");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagrammatic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagrammatic");
   }
 
   @override
@@ -223,7 +223,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A diagrammatic representation of this life cycle is shown in figure 4.1."); // DOPSUM: CHANGE TEXT
+        "A diagrammatic representation of this life cycle is shown in figure 4.1.");
   }
 
   Future<void> speakdiagrammatics2(String languageCode) async {
@@ -232,167 +232,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some of the images are diagrammatic, complete with measurements."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrammatics22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagrammatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrammatics2200"); // DOPSUM: CHANGE TEXT
+        "Some of the images are diagrammatic, complete with measurements.");
   }
 
   @override

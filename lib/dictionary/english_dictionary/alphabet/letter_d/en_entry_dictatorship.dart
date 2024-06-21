@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dictatorship"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dictatorship");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dictatorship"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dictatorship");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The generals established a military dictatorship."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The generals established a military dictatorship.");
   }
 
   Future<void> speakdictatorships2(String languageCode) async {
@@ -231,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They succeeded in overthrowing the fascist dictatorship."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They succeeded in overthrowing the fascist dictatorship.");
   }
 
   Future<void> speakdictatorships3(String languageCode) async {
@@ -240,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These men had all lived under dictatorship."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These men had all lived under dictatorship.");
   }
 
   Future<void> speakdictatorships4(String languageCode) async {
@@ -250,151 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some of these countries are democracies and some are dictatorships."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships5(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships6(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships7(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships8(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships9(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships10(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships11(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships12(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships13(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships14(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships15(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships16(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships17(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships18(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships19(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships20(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships21(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdictatorships22(String languageCode) async {
-    // DOPSUM: CHANGE speakdictatorship
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdictatorships2200"); // DOPSUM: CHANGE TEXT
+        "Some of these countries are democracies and some are dictatorships.");
   }
 
   @override

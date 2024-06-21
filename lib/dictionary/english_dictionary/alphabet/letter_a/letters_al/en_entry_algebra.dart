@@ -16,7 +16,7 @@ class EnglishEntryalgebra extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("algebra"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("algebra");
   }
 
   Future<void> speakalgebra356994(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalgebra extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is fascinated by algebra while he considers it meaningless nonsense."); // DOPSUM: CHANGE TEXT
+        "She is fascinated by algebra while he considers it meaningless nonsense.");
   }
 
   // Future<void> speakalgebra(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalgebra extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("algebra"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("algebra");
   // }
 
   // Future<void> speakalgebra(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalgebra extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("algebra"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("algebra");
   // }
 
   @override

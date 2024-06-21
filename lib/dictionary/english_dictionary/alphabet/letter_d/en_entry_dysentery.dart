@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dysentery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dysentery");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dysentery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dysentery");
   }
 
   @override
@@ -351,176 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Dysentery often spreads through contaminated water."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdysenterys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdysentery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdysenterys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Dysentery often spreads through contaminated water.");
   }
 
   @override

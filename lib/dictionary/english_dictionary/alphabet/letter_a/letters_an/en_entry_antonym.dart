@@ -20,7 +20,7 @@ class EnglishEntryantonym extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antonym");
   }
 
   Future<void> speakantonym144(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntryantonym extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A dictionary of antonyms is a helpful tool for understanding opposites in a language."); // DOPSUM: CHANGE TEXT
+        "A dictionary of antonyms is a helpful tool for understanding opposites in a language.");
   }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -37,7 +37,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -61,7 +61,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   // Future<void> speakantonym(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antonym");
   // }
 
   @override

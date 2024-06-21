@@ -151,7 +151,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("data processing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("data processing");
   }
 
   @override
@@ -202,7 +202,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("data processing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("data processing");
   }
 
   @override
@@ -226,103 +226,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The course covers the basics of data-processing methods and tools."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings2(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings3(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings4(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdataprocessings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdataprocessing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdataprocessings1300"); // DOPSUM: CHANGE TEXT
+        "The course covers the basics of data-processing methods and tools.");
   }
 
   @override

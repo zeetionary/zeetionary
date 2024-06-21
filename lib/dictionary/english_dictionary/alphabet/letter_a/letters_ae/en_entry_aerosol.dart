@@ -16,7 +16,7 @@ class EnglishEntryaerosol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aerosol"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aerosol");
   }
 
   Future<void> speakaero63844(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaerosol extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Aerosol cans are banned from aircraft cabins."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Aerosol cans are banned from aircraft cabins.");
   }
 
   // Future<void> speakaerosol(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryaerosol extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aerosol"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aerosol");
   // }
 
   // Future<void> speakaerosol(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaerosol extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aerosol"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aerosol");
   // }
 
   @override

@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dungeon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dungeon");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dungeon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dungeon");
   }
 
   @override
@@ -351,176 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Throw him into the dungeons!"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons2(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons3(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons4(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons5(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons6(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons7(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons8(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons9(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons10(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons11(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons12(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons13(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons14(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons15(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons16(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons17(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons18(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons19(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons20(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons21(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdungeons22(String languageCode) async {
-    // DOPSUM: CHANGE speakdungeon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdungeons2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Throw him into the dungeons!");
   }
 
   @override

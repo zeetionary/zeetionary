@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("the death penalty"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("the death penalty");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("the death penalty"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("the death penalty");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two men are facing the death penalty."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The two men are facing the death penalty.");
   }
 
   Future<void> speakthedeathpenaltys2(String languageCode) async {
@@ -231,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "From time to time, the death penalty was exacted for murder."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("From time to time, the death penalty was exacted for murder.");
   }
 
   Future<void> speakthedeathpenaltys3(String languageCode) async {
@@ -241,87 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She would like to see the return of the death penalty in Britain."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys4(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys5(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys6(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys7(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys8(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys9(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys10(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys11(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys12(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakthedeathpenaltys13(String languageCode) async {
-    // DOPSUM: CHANGE speakthedeathpenalty
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakthedeathpenaltys1300"); // DOPSUM: CHANGE TEXT
+        "She would like to see the return of the death penalty in Britain.");
   }
 
   @override

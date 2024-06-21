@@ -280,7 +280,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("domestic science"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("domestic science");
   }
 
   @override
@@ -330,7 +330,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("domestic science"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("domestic science");
   }
 
   @override
@@ -353,176 +353,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She took a domestic science class to learn cooking basics."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences2(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences3(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences4(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences5(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences6(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences7(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences8(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences9(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences10(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences11(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences12(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences13(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences14(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences15(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences16(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences17(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences18(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences19(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences20(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences21(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomesticsciences22(String languageCode) async {
-    // DOPSUM: CHANGE speakdomesticscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomesticsciences2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She took a domestic science class to learn cooking basics.");
   }
 
   @override

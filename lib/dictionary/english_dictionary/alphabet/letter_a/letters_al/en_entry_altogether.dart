@@ -16,7 +16,7 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("altogether");
   }
 
   Future<void> speakaltogether588(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The train went slower and slower until it stopped altogether."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The train went slower and slower until it stopped altogether.");
   }
 
   Future<void> speakaltogether45666(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was an altogether different situation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It was an altogether different situation.");
   }
 
   Future<void> speakaltogether523333(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You owe me £68 altogether."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You owe me £68 altogether.");
   }
 
   Future<void> speakaltogether4144(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The food was good and we loved the music. Altogether it was a great evening."); // DOPSUM: CHANGE TEXT
+        "The food was good and we loved the music. Altogether it was a great evening.");
   }
 
   // Future<void> speakaltogether(String languageCode) async {
@@ -59,7 +58,7 @@ class EnglishEntryaltogether extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altogether");
   // }
 
   // Future<void> speakaltogether(String languageCode) async {
@@ -67,7 +66,7 @@ class EnglishEntryaltogether extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altogether");
   // }
 
   @override

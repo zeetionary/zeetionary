@@ -16,7 +16,7 @@ class EnglishEntryanaemic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anaemic");
   }
 
   Future<void> speakanaemic55580(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryanaemic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She looks anaemic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She looks anaemic.");
   }
 
   Future<void> speakanaemic4966(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryanaemic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Both actors gave fairly anaemic performances."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Both actors gave fairly anaemic performances.");
   }
 
   // Future<void> speakanaemic(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryanaemic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anaemic");
   // }
 
   // Future<void> speakanaemic(String languageCode) async {
@@ -49,7 +48,7 @@ class EnglishEntryanaemic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anaemic");
   // }
 
   // Future<void> speakanaemic(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryanaemic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anaemic");
   // }
 
   // Future<void> speakanaemic(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntryanaemic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anaemic");
   // }
 
   // Future<void> speakanaemic(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntryanaemic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anaemic");
   // }
 
   // Future<void> speakanaemic(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntryanaemic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anaemic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anaemic");
   // }
 
   @override

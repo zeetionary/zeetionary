@@ -16,7 +16,7 @@ class EnglishEntryanchorage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anchorage");
   }
 
   Future<void> speakanchorage152(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryanchorage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The bay is well known as a safe anchorage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The bay is well known as a safe anchorage.");
   }
 
   Future<void> speakanchorage145(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryanchorage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The plant needs firm anchorage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plant needs firm anchorage.");
   }
 
   // Future<void> speakanchorage(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage");
   // }
 
   // Future<void> speakanchorage(String languageCode) async {
@@ -50,7 +48,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage");
   // }
 
   // Future<void> speakanchorage(String languageCode) async {
@@ -58,7 +56,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage");
   // }
 
   // Future<void> speakanchorage(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage");
   // }
 
   // Future<void> speakanchorage(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage");
   // }
 
   // Future<void> speakanchorage(String languageCode) async {
@@ -82,7 +80,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage");
   // }
 
   @override

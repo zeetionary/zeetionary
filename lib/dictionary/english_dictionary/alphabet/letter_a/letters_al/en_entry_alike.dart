@@ -16,7 +16,7 @@ class EnglishEntryalike extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alike"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alike");
   }
 
   Future<void> speakalike76522(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalike extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They tried to treat all their children alike."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They tried to treat all their children alike.");
   }
 
   Future<void> speakalike46789(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryalike extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Good management benefits employers and employees alike."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Good management benefits employers and employees alike.");
   }
 
   Future<void> speakalike3632(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryalike extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Airports are all alike to me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Airports are all alike to me.");
   }
 
   // Future<void> speakalike(String languageCode) async {
@@ -51,7 +49,7 @@ class EnglishEntryalike extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alike"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alike");
   // }
 
   // Future<void> speakalike(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryalike extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alike"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alike");
   // }
 
   @override

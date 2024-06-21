@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("draught"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("draught");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("draught"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("draught");
   }
 
   @override
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There's a draught in here."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There's a draught in here.");
   }
 
   Future<void> speakdraughts2(String languageCode) async {
@@ -359,8 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A cold draught of air blew in from the open window."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A cold draught of air blew in from the open window.");
   }
 
   Future<void> speakdraughts3(String languageCode) async {
@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She shivered in the icy draught."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She shivered in the icy draught.");
   }
 
   Future<void> speakdraughts4(String languageCode) async {
@@ -377,8 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He took a deep draught of his beer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He took a deep draught of his beer.");
   }
 
   Future<void> speakdraughts5(String languageCode) async {
@@ -386,8 +384,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She drank a sleeping draught to help with her insomnia."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She drank a sleeping draught to help with her insomnia.");
   }
 
   Future<void> speakdraughts6(String languageCode) async {
@@ -395,8 +393,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'll draught a letter for you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'll draught a letter for you.");
   }
 
   Future<void> speakdraughts7(String languageCode) async {
@@ -404,128 +401,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Extra police are being draughted in to control the crowds."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts8(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts9(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts10(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts11(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts12(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts13(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts14(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts15(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts16(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts17(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts18(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts19(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts20(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts21(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraughts22(String languageCode) async {
-    // DOPSUM: CHANGE speakdraught
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraughts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Extra police are being draughted in to control the crowds.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryalbum extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("album");
   }
 
   Future<void> speakalbum42599(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalbum extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I keep the photographs in an album."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I keep the photographs in an album.");
   }
 
   Future<void> speakalbum3655(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryalbum extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They recently released their debut album."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They recently released their debut album.");
   }
 
   // Future<void> speakalbum(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryalbum extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("album");
   // }
 
   @override

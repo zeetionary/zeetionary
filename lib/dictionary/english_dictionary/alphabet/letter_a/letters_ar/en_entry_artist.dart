@@ -24,7 +24,7 @@ class EnglishEntryartist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artist");
   }
 
   Future<void> speakartist839(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryartist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."); // DOPSUM: CHANGE TEXT
+        "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral.");
   }
 
   Future<void> speakartist841(String languageCode) async {
@@ -41,8 +41,8 @@ class EnglishEntryartist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The artist painted this picture using tiny brushstrokes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The artist painted this picture using tiny brushstrokes.");
   }
 
   Future<void> speakartist846(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryartist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After the band broke up, Joe relaunched his career as a solo artist."); // DOPSUM: CHANGE TEXT
+        "After the band broke up, Joe relaunched his career as a solo artist.");
   }
 
   // Future<void> speakartist(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryartist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist");
   // }
 
   // Future<void> speakartist(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryartist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist");
   // }
 
   // Future<void> speakartist(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryartist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist");
   // }
 
   // Future<void> speakartist(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryartist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist");
   // }
 
   // Future<void> speakartist(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntryartist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist");
   // }
 
   @override

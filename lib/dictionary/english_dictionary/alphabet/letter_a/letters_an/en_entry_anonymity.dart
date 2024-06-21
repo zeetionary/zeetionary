@@ -17,7 +17,7 @@ class EnglishEntryanonymity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anonymity");
   }
 
   Future<void> speakanonymity1038(String languageCode) async {
@@ -26,7 +26,7 @@ class EnglishEntryanonymity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Names of people in the book were changed to preserve anonymity."); // DOPSUM: CHANGE TEXT
+        "Names of people in the book were changed to preserve anonymity.");
   }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   // Future<void> speakanonymity(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryanonymity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anonymity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anonymity");
   // }
 
   @override

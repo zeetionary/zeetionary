@@ -16,7 +16,7 @@ class EnglishEntryalongside extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alongside"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alongside");
   }
 
   Future<void> speakalongside4592(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalongside extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Nick caught up with me and rode alongside."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Nick caught up with me and rode alongside.");
   }
 
   Future<void> speakalongside4597(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryalongside extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new pill will be used alongside existing medicines."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new pill will be used alongside existing medicines.");
   }
 
   Future<void> speakalongside9(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryalongside extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most of the staff refused to work alongside the new team."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Most of the staff refused to work alongside the new team.");
   }
 
   @override

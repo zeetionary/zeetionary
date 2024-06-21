@@ -20,7 +20,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("breakaway"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breakaway");
   }
 
   Future<void> speakbreakaways1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The breakaway region declared its autonomy."); // DOPSUM: CHANGE TEXT
+        "The breakaway region declared its autonomy.");
   }
 
   Future<void> speakbreakaways2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The breakaway group formed a new political party."); // DOPSUM: CHANGE TEXT
+        "The breakaway group formed a new political party.");
   }
 
   Future<void> speakbreakaways3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The political party experienced a breakaway due to ideological differences."); // DOPSUM: CHANGE TEXT
+        "The political party experienced a breakaway due to ideological differences.");
   }
 
   Future<void> speakbreakaways4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The breakaway in technology revolutionized the industry."); // DOPSUM: CHANGE TEXT
+        "The breakaway in technology revolutionized the industry.");
   }
 
   Future<void> speakbreakaways5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakaways55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreakaways55");
   }
 
   Future<void> speakbreakaways6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakaways66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreakaways66");
   }
 
   Future<void> speakbreakaways7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybreakaway extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakaways77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreakaways77");
   }
 
   @override

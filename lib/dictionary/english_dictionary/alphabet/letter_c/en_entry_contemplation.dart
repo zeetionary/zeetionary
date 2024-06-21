@@ -21,7 +21,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("contemplation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contemplation");
   }
 
   Future<void> speakcontemplations1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He sat there deep in contemplation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He sat there deep in contemplation.");
   }
 
   Future<void> speakcontemplations2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Let's take a few moments of quiet contemplation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's take a few moments of quiet contemplation.");
   }
 
   Future<void> speakcontemplations3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The monks dedicate themselves to a life of prayer and contemplation."); // DOPSUM: CHANGE TEXT
+        "The monks dedicate themselves to a life of prayer and contemplation.");
   }
 
   Future<void> speakcontemplations4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was lost in contemplation of the scene in front of her."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was lost in contemplation of the scene in front of her.");
   }
 
   Future<void> speakcontemplations5(String languageCode) async {
@@ -65,7 +63,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations500");
   }
 
   Future<void> speakcontemplations6(String languageCode) async {
@@ -73,7 +71,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations600");
   }
 
   Future<void> speakcontemplations7(String languageCode) async {
@@ -81,7 +79,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations700");
   }
 
   Future<void> speakcontemplations8(String languageCode) async {
@@ -89,7 +87,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations800");
   }
 
   Future<void> speakcontemplations9(String languageCode) async {
@@ -97,7 +95,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations900");
   }
 
   Future<void> speakcontemplations10(String languageCode) async {
@@ -105,7 +103,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations1000");
   }
 
   Future<void> speakcontemplations11(String languageCode) async {
@@ -113,7 +111,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations1100");
   }
 
   Future<void> speakcontemplations12(String languageCode) async {
@@ -121,7 +119,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations1200");
   }
 
   Future<void> speakcontemplations13(String languageCode) async {
@@ -129,7 +127,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplations1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontemplations1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryadmiring extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("admiring"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admiring");
   }
 
   Future<void> speakadmiri25471(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadmiring extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "James was admiring of her courage and determination."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("James was admiring of her courage and determination.");
   }
 
   Future<void> speakadmi95237(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryadmiring extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was used to receiving admiring glances from men."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was used to receiving admiring glances from men.");
   }
 
   // Future<void> speakadmiring(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryadmiring extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admiring"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admiring");
   // }
 
   @override

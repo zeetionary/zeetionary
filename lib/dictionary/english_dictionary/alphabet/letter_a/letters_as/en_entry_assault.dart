@@ -24,7 +24,7 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assault"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assault");
   }
 
   Future<void> speakassault845(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Both men were charged with assault."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Both men were charged with assault.");
   }
 
   Future<void> speakassault851(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A significant number of indecent assaults on women go unreported."); // DOPSUM: CHANGE TEXT
+        "A significant number of indecent assaults on women go unreported.");
   }
 
   Future<void> speakassault855(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "An assault on the capital was launched in the early hours of the morning."); // DOPSUM: CHANGE TEXT
+        "An assault on the capital was launched in the early hours of the morning.");
   }
 
   Future<void> speakassault856(String languageCode) async {
@@ -59,8 +58,8 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government has mounted a new assault on unemployment."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The government has mounted a new assault on unemployment.");
   }
 
   Future<void> speakassault859(String languageCode) async {
@@ -68,8 +67,8 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The paper's assault on the president was totally unjustified."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The paper's assault on the president was totally unjustified.");
   }
 
   Future<void> speakassault900(String languageCode) async {
@@ -77,8 +76,8 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has been charged with assaulting a police officer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has been charged with assaulting a police officer.");
   }
 
   Future<void> speakassault902(String languageCode) async {
@@ -86,8 +85,8 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Four women have been sexually assaulted in the area recently."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Four women have been sexually assaulted in the area recently.");
   }
 
   // Future<void> speakassault(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntryassault extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assault"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assault");
   // }
 
   @override

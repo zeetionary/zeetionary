@@ -22,7 +22,7 @@ class EnglishEntryargument extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("argument");
   }
 
   Future<void> speakargument1032(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryargument extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "After some heated argument a decision was finally taken."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("After some heated argument a decision was finally taken.");
   }
 
   Future<void> speakargument1033(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryargument extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She got into an argument with the teacher."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She got into an argument with the teacher.");
   }
 
   Future<void> speakargument1039(String languageCode) async {
@@ -48,8 +47,8 @@ class EnglishEntryargument extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are strong arguments for and against euthanasia."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are strong arguments for and against euthanasia.");
   }
 
   Future<void> speakargument1042(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryargument extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Let's assume for the sake of argument that we can't start till March."); // DOPSUM: CHANGE TEXT
+        "Let's assume for the sake of argument that we can't start till March.");
   }
 
   // Future<void> speakargument(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument");
   // }
 
   // Future<void> speakargument(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument");
   // }
 
   // Future<void> speakargument(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument");
   // }
 
   // Future<void> speakargument(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument");
   // }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntryascend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ascend");
   }
 
   Future<void> speakascend1126(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryascend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The air became colder as we ascended."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The air became colder as we ascended.");
   }
 
   Future<void> speakascend1129(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryascend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her heart was thumping as she ascended the stairs."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her heart was thumping as she ascended the stairs.");
   }
 
   Future<void> speakascend1132(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntryascend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They slowly ascended the steep path up the mountain."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They slowly ascended the steep path up the mountain.");
   }
 
   Future<void> speakascend1136(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryascend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The young prince ascended the throne after the death of his father."); // DOPSUM: CHANGE TEXT
+        "The young prince ascended the throne after the death of his father.");
   }
 
   // Future<void> speakascend(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascend");
   // }
 
   // Future<void> speakascend(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascend");
   // }
 
   // Future<void> speakascend(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascend");
   // }
 
   // Future<void> speakascend(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascend");
   // }
 
   @override

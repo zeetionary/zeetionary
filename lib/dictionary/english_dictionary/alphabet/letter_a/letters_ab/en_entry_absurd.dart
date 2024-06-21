@@ -16,7 +16,7 @@ class EnglishEntryabsurd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absurd"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absurd");
   }
 
   Future<void> speaka69853(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabsurd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Of course it's not true, what an absurd idea."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Of course it's not true, what an absurd idea.");
   }
 
   Future<void> speaka49275(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryabsurd extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "That uniform makes the guards look absurd."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("That uniform makes the guards look absurd.");
   }
 
   @override

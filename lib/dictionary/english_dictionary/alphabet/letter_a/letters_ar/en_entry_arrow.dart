@@ -24,7 +24,7 @@ class EnglishEntryarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arrow");
   }
 
   Future<void> speakarrow745(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She aimed carefully at the tree but the arrow missed."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She aimed carefully at the tree but the arrow missed.");
   }
 
   Future<void> speakarrow746(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The people used bows and arrows for hunting."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The people used bows and arrows for hunting.");
   }
 
   Future<void> speakarrow750(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Follow the arrows."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Follow the arrows.");
   }
 
   // Future<void> speakarrow(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrow");
   // }
 
   // Future<void> speakarrow(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrow");
   // }
 
   // Future<void> speakarrow(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrow");
   // }
 
   // Future<void> speakarrow(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrow");
   // }
 
   // Future<void> speakarrow(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrow");
   // }
 
   @override

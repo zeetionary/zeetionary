@@ -21,7 +21,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("constrain"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constrain");
   }
 
   Future<void> speakconstrains1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The evidence was so compelling that he felt constrained to accept it."); // DOPSUM: CHANGE TEXT
+        "The evidence was so compelling that he felt constrained to accept it.");
   }
 
   Future<void> speakconstrains2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company said that it was constrained to raise prices."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The company said that it was constrained to raise prices.");
   }
 
   Future<void> speakconstrains3(String languageCode) async {
@@ -47,8 +47,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Research has been constrained by a lack of funds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Research has been constrained by a lack of funds.");
   }
 
   Future<void> speakconstrains4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There are a number of factors that constrain agricultural development."); // DOPSUM: CHANGE TEXT
+        "There are a number of factors that constrain agricultural development.");
   }
 
   Future<void> speakconstrains5(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains500");
   }
 
   Future<void> speakconstrains6(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains600");
   }
 
   Future<void> speakconstrains7(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains700");
   }
 
   Future<void> speakconstrains8(String languageCode) async {
@@ -89,7 +88,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains800");
   }
 
   Future<void> speakconstrains9(String languageCode) async {
@@ -97,7 +96,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains900");
   }
 
   Future<void> speakconstrains10(String languageCode) async {
@@ -105,7 +104,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains1000");
   }
 
   Future<void> speakconstrains11(String languageCode) async {
@@ -113,7 +112,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains1100");
   }
 
   Future<void> speakconstrains12(String languageCode) async {
@@ -121,7 +120,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains1200");
   }
 
   Future<void> speakconstrains13(String languageCode) async {
@@ -129,7 +128,7 @@ class EnglishEntryconstrain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstrains1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstrains1300");
   }
 
   @override

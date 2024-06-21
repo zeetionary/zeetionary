@@ -21,7 +21,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("climb"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("climb");
   }
 
   Future<void> speakclimbs1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She climbed up the stairs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She climbed up the stairs.");
   }
 
   Future<void> speakclimbs2(String languageCode) async {
@@ -37,8 +37,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The car slowly climbed the hill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The car slowly climbed the hill.");
   }
 
   Future<void> speakclimbs3(String languageCode) async {
@@ -46,8 +45,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As they climbed higher, the air became cooler."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("As they climbed higher, the air became cooler.");
   }
 
   Future<void> speakclimbs4(String languageCode) async {
@@ -55,8 +53,8 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He climbed up and inspected the damage to the roof."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He climbed up and inspected the damage to the roof.");
   }
 
   Future<void> speakclimbs5(String languageCode) async {
@@ -64,8 +62,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He likes to go climbing most weekends."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He likes to go climbing most weekends.");
   }
 
   Future<void> speakclimbs6(String languageCode) async {
@@ -73,8 +70,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I climbed through the window."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I climbed through the window.");
   }
 
   Future<void> speakclimbs7(String languageCode) async {
@@ -82,8 +78,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The boys climbed over the wall."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The boys climbed over the wall.");
   }
 
   Future<void> speakclimbs8(String languageCode) async {
@@ -91,7 +86,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Can you climb down?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Can you climb down?");
   }
 
   Future<void> speakclimbs9(String languageCode) async {
@@ -99,8 +94,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He climbed into the truck and drove off."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He climbed into the truck and drove off.");
   }
 
   Future<void> speakclimbs10(String languageCode) async {
@@ -108,8 +102,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The paper's circulation continues to climb."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The paper's circulation continues to climb.");
   }
 
   Future<void> speakclimbs11(String languageCode) async {
@@ -117,8 +110,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Interest rates climbed to 8 per cent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Interest rates climbed to 8 per cent.");
   }
 
   Future<void> speakclimbs12(String languageCode) async {
@@ -126,8 +118,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Prices have climbed sharply in recent months."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Prices have climbed sharply in recent months.");
   }
 
   Future<void> speakclimbs13(String languageCode) async {
@@ -135,8 +126,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dollar has been climbing all week."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The dollar has been climbing all week.");
   }
 
   Future<void> speakclimbs14(String languageCode) async {
@@ -144,8 +134,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The team has now climbed to fourth in the league."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The team has now climbed to fourth in the league.");
   }
 
   Future<void> speakclimbs15(String languageCode) async {
@@ -153,8 +142,8 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In a few years he had climbed to the top of his profession."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In a few years he had climbed to the top of his profession.");
   }
 
   Future<void> speakclimbs16(String languageCode) async {
@@ -162,8 +151,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plane took off and climbed to 33 000 feet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plane took off and climbed to 33 000 feet.");
   }
 
   Future<void> speakclimbs17(String languageCode) async {
@@ -171,8 +159,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The sun climbed higher in the sky."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The sun climbed higher in the sky.");
   }
 
   Future<void> speakclimbs18(String languageCode) async {
@@ -180,8 +167,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The road gradually climbs up from the town."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The road gradually climbs up from the town.");
   }
 
   Future<void> speakclimbs19(String languageCode) async {
@@ -190,7 +176,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There's masses of ivy climbing up/over the walls of our house."); // DOPSUM: CHANGE TEXT
+        "There's masses of ivy climbing up/over the walls of our house.");
   }
 
   Future<void> speakclimbs20(String languageCode) async {
@@ -198,8 +184,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It's an hour's climb to the summit."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's an hour's climb to the summit.");
   }
 
   Future<void> speakclimbs21(String languageCode) async {
@@ -207,8 +192,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We began our climb up the hill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We began our climb up the hill.");
   }
 
   Future<void> speakclimbs22(String languageCode) async {
@@ -216,8 +200,8 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The north face of the Eiger is a very difficult climb."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The north face of the Eiger is a very difficult climb.");
   }
 
   Future<void> speakclimbs23(String languageCode) async {
@@ -226,7 +210,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dollar's climb against the euro made European vacations more affordable for Americans."); // DOPSUM: CHANGE TEXT
+        "The dollar's climb against the euro made European vacations more affordable for Americans.");
   }
 
   Future<void> speakclimbs24(String languageCode) async {
@@ -234,7 +218,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs2400");
   }
 
   Future<void> speakclimbs25(String languageCode) async {
@@ -242,7 +226,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs2500");
   }
 
   Future<void> speakclimbs26(String languageCode) async {
@@ -250,7 +234,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs2600");
   }
 
   Future<void> speakclimbs27(String languageCode) async {
@@ -258,7 +242,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs2700");
   }
 
   Future<void> speakclimbs28(String languageCode) async {
@@ -266,7 +250,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs2800");
   }
 
   Future<void> speakclimbs29(String languageCode) async {
@@ -274,7 +258,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs2900");
   }
 
   Future<void> speakclimbs30(String languageCode) async {
@@ -282,7 +266,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3000");
   }
 
   Future<void> speakclimbs31(String languageCode) async {
@@ -290,7 +274,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3100");
   }
 
   Future<void> speakclimbs32(String languageCode) async {
@@ -298,7 +282,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3200");
   }
 
   Future<void> speakclimbs33(String languageCode) async {
@@ -306,7 +290,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3300");
   }
 
   Future<void> speakclimbs34(String languageCode) async {
@@ -314,7 +298,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3400");
   }
 
   Future<void> speakclimbs35(String languageCode) async {
@@ -322,7 +306,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3500");
   }
 
   Future<void> speakclimbs36(String languageCode) async {
@@ -330,7 +314,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3600");
   }
 
   Future<void> speakclimbs37(String languageCode) async {
@@ -338,7 +322,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3700");
   }
 
   Future<void> speakclimbs38(String languageCode) async {
@@ -346,7 +330,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3800");
   }
 
   Future<void> speakclimbs39(String languageCode) async {
@@ -354,7 +338,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs3900");
   }
 
   Future<void> speakclimbs40(String languageCode) async {
@@ -362,7 +346,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4000");
   }
 
   Future<void> speakclimbs41(String languageCode) async {
@@ -370,7 +354,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4100");
   }
 
   Future<void> speakclimbs42(String languageCode) async {
@@ -378,7 +362,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4200");
   }
 
   Future<void> speakclimbs43(String languageCode) async {
@@ -386,7 +370,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4300");
   }
 
   Future<void> speakclimbs44(String languageCode) async {
@@ -394,7 +378,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4400");
   }
 
   Future<void> speakclimbs45(String languageCode) async {
@@ -402,7 +386,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4500");
   }
 
   Future<void> speakclimbs46(String languageCode) async {
@@ -410,7 +394,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4600");
   }
 
   Future<void> speakclimbs47(String languageCode) async {
@@ -418,7 +402,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4700");
   }
 
   Future<void> speakclimbs48(String languageCode) async {
@@ -426,7 +410,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4800");
   }
 
   Future<void> speakclimbs49(String languageCode) async {
@@ -434,7 +418,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs4900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs4900");
   }
 
   Future<void> speakclimbs50(String languageCode) async {
@@ -442,7 +426,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5000");
   }
 
   Future<void> speakclimbs51(String languageCode) async {
@@ -450,7 +434,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5100");
   }
 
   Future<void> speakclimbs52(String languageCode) async {
@@ -458,7 +442,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5200");
   }
 
   Future<void> speakclimbs53(String languageCode) async {
@@ -466,7 +450,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5300");
   }
 
   Future<void> speakclimbs54(String languageCode) async {
@@ -474,7 +458,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5400");
   }
 
   Future<void> speakclimbs55(String languageCode) async {
@@ -482,7 +466,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5500");
   }
 
   Future<void> speakclimbs56(String languageCode) async {
@@ -490,7 +474,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5600");
   }
 
   Future<void> speakclimbs57(String languageCode) async {
@@ -498,7 +482,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5700");
   }
 
   Future<void> speakclimbs58(String languageCode) async {
@@ -506,7 +490,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5800");
   }
 
   Future<void> speakclimbs59(String languageCode) async {
@@ -514,7 +498,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs5900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs5900");
   }
 
   Future<void> speakclimbs60(String languageCode) async {
@@ -522,7 +506,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6000");
   }
 
   Future<void> speakclimbs61(String languageCode) async {
@@ -530,7 +514,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6100");
   }
 
   Future<void> speakclimbs62(String languageCode) async {
@@ -538,7 +522,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6200");
   }
 
   Future<void> speakclimbs63(String languageCode) async {
@@ -546,7 +530,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6300");
   }
 
   Future<void> speakclimbs64(String languageCode) async {
@@ -554,7 +538,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6400");
   }
 
   Future<void> speakclimbs65(String languageCode) async {
@@ -562,7 +546,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6500");
   }
 
   Future<void> speakclimbs66(String languageCode) async {
@@ -570,7 +554,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6600");
   }
 
   Future<void> speakclimbs67(String languageCode) async {
@@ -578,7 +562,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6700");
   }
 
   Future<void> speakclimbs68(String languageCode) async {
@@ -586,7 +570,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6800");
   }
 
   Future<void> speakclimbs69(String languageCode) async {
@@ -594,7 +578,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs6900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs6900");
   }
 
   Future<void> speakclimbs70(String languageCode) async {
@@ -602,7 +586,7 @@ class EnglishEntryclimb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimbs7000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimbs7000");
   }
 
   @override

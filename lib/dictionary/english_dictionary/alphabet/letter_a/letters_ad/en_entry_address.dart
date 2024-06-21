@@ -16,7 +16,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("address");
   }
 
   Future<void> speakadd774(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'll give you my address and phone number."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'll give you my address and phone number.");
   }
 
   Future<void> speakaddress452(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Police found him at an address in West London."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Police found him at an address in West London.");
   }
 
   Future<void> speakaddr2458(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("What's your email address?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What's your email address?");
   }
 
   Future<void> speakaddr624(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He gave details of the policy in an address to party members."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He gave details of the policy in an address to party members.");
   }
 
   Future<void> speakadd99(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These concerns were not adequately addressed in the report."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("These concerns were not adequately addressed in the report.");
   }
 
   Future<void> speakaddr11(String languageCode) async {
@@ -69,7 +67,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The letter was correctly addressed, but delivered to the wrong house."); // DOPSUM: CHANGE TEXT
+        "The letter was correctly addressed, but delivered to the wrong house.");
   }
 
   Future<void> speakaddr766(String languageCode) async {
@@ -77,8 +75,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He addressed his comments to the supervisor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He addressed his comments to the supervisor.");
   }
 
   Future<void> speakaddre444(String languageCode) async {
@@ -86,8 +83,8 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The President has been asked to address the parliament."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The President has been asked to address the parliament.");
   }
 
   // Future<void> speakaddress(String languageCode) async {
@@ -95,7 +92,7 @@ class EnglishEntryaddress extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("address");
   // }
 
   // Future<void> speakaddress(String languageCode) async {
@@ -103,7 +100,7 @@ class EnglishEntryaddress extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("address");
   // }
 
   @override

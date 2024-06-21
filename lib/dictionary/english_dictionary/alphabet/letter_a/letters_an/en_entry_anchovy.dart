@@ -16,7 +16,7 @@ class EnglishEntryanchovy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anchovy");
   }
 
   Future<void> speakanchovy502(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryanchovy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Decorate the top of the pizza with anchovies/strips of anchovy."); // DOPSUM: CHANGE TEXT
+        "Decorate the top of the pizza with anchovies/strips of anchovy.");
   }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   // Future<void> speakanchovy(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchovy");
   // }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("competence"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("competence");
   }
 
   Future<void> speakcompetences1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He gradually developed the competence to deal with the more difficult cases."); // DOPSUM: CHANGE TEXT
+        "He gradually developed the competence to deal with the more difficult cases.");
   }
 
   Future<void> speakcompetences2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm afraid the work is beyond his competence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm afraid the work is beyond his competence.");
   }
 
   Future<void> speakcompetences3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Students had questioned her competence as a teacher."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Students had questioned her competence as a teacher.");
   }
 
   Future<void> speakcompetences4(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The judge has to act within the competence of the court."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The judge has to act within the competence of the court.");
   }
 
   Future<void> speakcompetences5(String languageCode) async {
@@ -65,8 +64,8 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The decisions come within the competence of the committee."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The decisions come within the competence of the committee.");
   }
 
   Future<void> speakcompetences6(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The syllabus lists the knowledge and competences required at this level."); // DOPSUM: CHANGE TEXT
+        "The syllabus lists the knowledge and competences required at this level.");
   }
 
   Future<void> speakcompetences7(String languageCode) async {
@@ -83,8 +82,8 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He reached a reasonable level of competence in his English."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He reached a reasonable level of competence in his English.");
   }
 
   Future<void> speakcompetences8(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences800");
   }
 
   Future<void> speakcompetences9(String languageCode) async {
@@ -100,7 +99,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences900");
   }
 
   Future<void> speakcompetences10(String languageCode) async {
@@ -108,7 +107,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1000");
   }
 
   Future<void> speakcompetences11(String languageCode) async {
@@ -116,7 +115,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1100");
   }
 
   Future<void> speakcompetences12(String languageCode) async {
@@ -124,7 +123,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1200");
   }
 
   Future<void> speakcompetences13(String languageCode) async {
@@ -132,7 +131,7 @@ class EnglishEntrycompetence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetences1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amount");
   }
 
   Future<void> speakamount4447(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was amazed at the amount he could eat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was amazed at the amount he could eat.");
   }
 
   Future<void> speakamount49652(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Try to reduce the amount of energy and water you use at home."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Try to reduce the amount of energy and water you use at home.");
   }
 
   Future<void> speakamount3522(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Everyone has paid the same amount."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Everyone has paid the same amount.");
   }
 
   Future<void> speakamount5523(String languageCode) async {
@@ -51,8 +49,8 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His earnings are said to amount to £300 000 per annum."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His earnings are said to amount to £300 000 per annum.");
   }
 
   Future<void> speakamount5622(String languageCode) async {
@@ -60,8 +58,7 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their actions in the war amount to genocide."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Their actions in the war amount to genocide.");
   }
 
   Future<void> speakamount514(String languageCode) async {
@@ -69,8 +66,7 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You'll never amount to anything."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You'll never amount to anything.");
   }
 
   // Future<void> speakamount(String languageCode) async {
@@ -78,7 +74,7 @@ class EnglishEntryamount extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amount");
   // }
 
   // Future<void> speakamount(String languageCode) async {
@@ -86,7 +82,7 @@ class EnglishEntryamount extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amount");
   // }
 
   @override

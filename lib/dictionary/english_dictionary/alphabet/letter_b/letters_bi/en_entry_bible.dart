@@ -24,7 +24,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bible"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bible");
   }
 
   Future<void> speakbibles1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In the Bible it says that Adam and Eve were the first human beings."); // DOPSUM: CHANGE TEXT
+        "In the Bible it says that Adam and Eve were the first human beings.");
   }
 
   Future<void> speakbibles2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Vogue magazine quickly became the bible of fashionable women."); // DOPSUM: CHANGE TEXT
+        "Vogue magazine quickly became the bible of fashionable women.");
   }
 
   Future<void> speakbibles3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBibles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBibles33");
   }
 
   Future<void> speakbibles4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBibles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBibles44");
   }
 
   Future<void> speakbibles5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBibles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBibles55");
   }
 
   Future<void> speakbibles6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBibles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBibles66");
   }
 
   Future<void> speakbibles7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBibles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBibles77");
   }
 
   @override

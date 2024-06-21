@@ -24,7 +24,7 @@ class EnglishEntryassimilation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assimilation");
   }
 
   Future<void> speakassimilation833(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryassimilation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "To thrive in the ever-changing tech landscape"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("To thrive in the ever-changing tech landscape");
   }
 
   Future<void> speakassimilation835(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryassimilation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The assimilation of ethnic Germans in the US was accelerated by the two world wars."); // DOPSUM: CHANGE TEXT
+        "The assimilation of ethnic Germans in the US was accelerated by the two world wars.");
   }
 
   // Future<void> speakassimilation(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assimilation");
   // }
 
   // Future<void> speakassimilation(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assimilation");
   // }
 
   // Future<void> speakassimilation(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assimilation");
   // }
 
   // Future<void> speakassimilation(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assimilation");
   // }
 
   // Future<void> speakassimilation(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assimilation");
   // }
 
   // Future<void> speakassimilation(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assimilation");
   // }
 
   @override

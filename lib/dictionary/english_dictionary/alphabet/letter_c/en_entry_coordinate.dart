@@ -21,7 +21,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coordinate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coordinate");
   }
 
   Future<void> speakcoordinates1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They appointed a new manager to coordinate the work of the team."); // DOPSUM: CHANGE TEXT
+        "They appointed a new manager to coordinate the work of the team.");
   }
 
   Future<void> speakcoordinates2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We try to coordinate our activities with those of other groups."); // DOPSUM: CHANGE TEXT
+        "We try to coordinate our activities with those of other groups.");
   }
 
   Future<void> speakcoordinates3(String languageCode) async {
@@ -47,8 +47,8 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The brain helps coordinate movements so we can walk and run."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The brain helps coordinate movements so we can walk and run.");
   }
 
   Future<void> speakcoordinates4(String languageCode) async {
@@ -56,8 +56,8 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This shade coordinates with a wide range of other colours."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This shade coordinates with a wide range of other colours.");
   }
 
   Future<void> speakcoordinates5(String languageCode) async {
@@ -65,8 +65,8 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Put in the GPS coordinates and zoom in on the map."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Put in the GPS coordinates and zoom in on the map.");
   }
 
   Future<void> speakcoordinates6(String languageCode) async {
@@ -74,8 +74,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot had been given the wrong co-ordinates."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The pilot had been given the wrong co-ordinates.");
   }
 
   Future<void> speakcoordinates7(String languageCode) async {
@@ -83,7 +82,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates700");
   }
 
   Future<void> speakcoordinates8(String languageCode) async {
@@ -91,7 +90,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates800");
   }
 
   Future<void> speakcoordinates9(String languageCode) async {
@@ -99,7 +98,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates900");
   }
 
   Future<void> speakcoordinates10(String languageCode) async {
@@ -107,7 +106,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates1000");
   }
 
   Future<void> speakcoordinates11(String languageCode) async {
@@ -115,7 +114,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates1100");
   }
 
   Future<void> speakcoordinates12(String languageCode) async {
@@ -123,7 +122,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates1200");
   }
 
   Future<void> speakcoordinates13(String languageCode) async {
@@ -131,7 +130,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoordinates1300");
   }
 
   @override

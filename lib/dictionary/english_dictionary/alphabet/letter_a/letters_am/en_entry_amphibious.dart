@@ -16,7 +16,7 @@ class EnglishEntryamphibious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amphibious");
   }
 
   Future<void> speakamphibious3344(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamphibious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Most species of frogs are amphibious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Most species of frogs are amphibious.");
   }
 
   Future<void> speakamphibious496002(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryamphibious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A third brigade is at sea, ready for an amphibious assault."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A third brigade is at sea, ready for an amphibious assault.");
   }
 
   Future<void> speakamphibious44952(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryamphibious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I saw an amphibious plane at the lake yesterday."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I saw an amphibious plane at the lake yesterday.");
   }
 
   // Future<void> speakamphibious(String languageCode) async {
@@ -51,7 +49,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious");
   // }
 
   // Future<void> speakamphibious(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious");
   // }
 
   // Future<void> speakamphibious(String languageCode) async {
@@ -67,7 +65,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious");
   // }
 
   // Future<void> speakamphibious(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious");
   // }
 
   // Future<void> speakamphibious(String languageCode) async {
@@ -83,7 +81,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious");
   // }
 
   @override

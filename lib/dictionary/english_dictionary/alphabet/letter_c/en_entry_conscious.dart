@@ -21,7 +21,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conscious"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conscious");
   }
 
   Future<void> speakconsciouss1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's very conscious of the problems involved."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's very conscious of the problems involved.");
   }
 
   Future<void> speakconsciouss2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I am conscious of the fact that there's a limit to what we can achieve here."); // DOPSUM: CHANGE TEXT
+        "I am conscious of the fact that there's a limit to what we can achieve here.");
   }
 
   Future<void> speakconsciouss3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He became acutely conscious of having failed his parents."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He became acutely conscious of having failed his parents.");
   }
 
   Future<void> speakconsciouss4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A patient who is not fully conscious should never be left alone."); // DOPSUM: CHANGE TEXT
+        "A patient who is not fully conscious should never be left alone.");
   }
 
   Future<void> speakconsciouss5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She remained conscious throughout the operation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She remained conscious throughout the operation.");
   }
 
   Future<void> speakconsciouss6(String languageCode) async {
@@ -74,8 +72,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Try to keep the patient conscious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Try to keep the patient conscious.");
   }
 
   Future<void> speakconsciouss7(String languageCode) async {
@@ -83,8 +80,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I made a conscious effort to get there on time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I made a conscious effort to get there on time.");
   }
 
   Future<void> speakconsciouss8(String languageCode) async {
@@ -93,7 +89,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She made a conscious decision to spend more time with her family."); // DOPSUM: CHANGE TEXT
+        "She made a conscious decision to spend more time with her family.");
   }
 
   Future<void> speakconsciouss9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have become increasingly health-conscious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They have become increasingly health-conscious.");
   }
 
   Future<void> speakconsciouss10(String languageCode) async {
@@ -110,8 +105,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He's never been politically conscious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's never been politically conscious.");
   }
 
   Future<void> speakconsciouss11(String languageCode) async {
@@ -119,7 +113,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciouss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsciouss1100");
   }
 
   Future<void> speakconsciouss12(String languageCode) async {
@@ -127,7 +121,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciouss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsciouss1200");
   }
 
   Future<void> speakconsciouss13(String languageCode) async {
@@ -135,7 +129,7 @@ class EnglishEntryconscious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciouss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsciouss1300");
   }
 
   @override

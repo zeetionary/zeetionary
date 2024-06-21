@@ -16,7 +16,7 @@ class EnglishEntryadulterer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adulterer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adulterer");
   }
 
   Future<void> speakadulterer2534(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryadulterer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her husband was a compulsive adulterer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her husband was a compulsive adulterer.");
   }
 
   // Future<void> speakadulterer(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryadulterer extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adulterer"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adulterer");
   // }
 
   // Future<void> speakadulterer(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryadulterer extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adulterer"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adulterer");
   // }
 
   @override

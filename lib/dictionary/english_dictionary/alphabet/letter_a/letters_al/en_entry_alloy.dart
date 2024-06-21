@@ -16,7 +16,7 @@ class EnglishEntryalloy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alloy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alloy");
   }
 
   Future<void> speakalloy4277(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalloy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Brass is an alloy of copper and zinc."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Brass is an alloy of copper and zinc.");
   }
 
   // Future<void> speakalloy(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryalloy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alloy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alloy");
   // }
 
   // Future<void> speakalloy(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryalloy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alloy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alloy");
   // }
 
   @override

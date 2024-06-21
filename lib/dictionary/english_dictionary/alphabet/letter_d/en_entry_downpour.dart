@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downpour"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("downpour");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("downpour"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("downpour");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We got caught in a torrential downpour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We got caught in a torrential downpour.");
   }
 
   Future<void> speakdownpours2(String languageCode) async {
@@ -361,167 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For the past six hours the downpour had been continuous and torrential."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours3(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours4(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours5(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours6(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours7(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours8(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours9(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours10(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours11(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours12(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours13(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours14(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours15(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours16(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours17(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours18(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours19(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours20(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours21(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdownpours22(String languageCode) async {
-    // DOPSUM: CHANGE speakdownpour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdownpours2200"); // DOPSUM: CHANGE TEXT
+        "For the past six hours the downpour had been continuous and torrential.");
   }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("centre"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("centre");
   }
 
   Future<void> speakcentres1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He walked to the centre of the circle."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He walked to the centre of the circle.");
   }
 
   Future<void> speakcentres2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was a long table in the centre of the room."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There was a long table in the centre of the room.");
   }
 
   Future<void> speakcentres3(String languageCode) async {
@@ -47,8 +45,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The statue is in the very centre of the temple."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The statue is in the very centre of the temple.");
   }
 
   Future<void> speakcentres4(String languageCode) async {
@@ -57,7 +54,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Aristotle believed that the Earth was at the centre of the universe."); // DOPSUM: CHANGE TEXT
+        "Aristotle believed that the Earth was at the centre of the universe.");
   }
 
   Future<void> speakcentres5(String languageCode) async {
@@ -65,8 +62,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We both work in the city centre."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We both work in the city centre.");
   }
 
   Future<void> speakcentres6(String languageCode) async {
@@ -74,8 +70,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We've bought a flat in the very centre of Cambridge."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We've bought a flat in the very centre of Cambridge.");
   }
 
   Future<void> speakcentres7(String languageCode) async {
@@ -84,7 +80,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "At that time Winchester was still a major centre of population."); // DOPSUM: CHANGE TEXT
+        "At that time Winchester was still a major centre of population.");
   }
 
   Future<void> speakcentres8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The university is a leading centre for scientific research."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The university is a leading centre for scientific research.");
   }
 
   Future<void> speakcentres9(String languageCode) async {
@@ -101,8 +97,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company has recently opened a new training centre."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The company has recently opened a new training centre.");
   }
 
   Future<void> speakcentres10(String languageCode) async {
@@ -111,7 +107,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The university is recognized as an international centre of excellence for training dentists."); // DOPSUM: CHANGE TEXT
+        "The university is recognized as an international centre of excellence for training dentists.");
   }
 
   Future<void> speakcentres11(String languageCode) async {
@@ -119,8 +115,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Children like to be the centre of attention."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Children like to be the centre of attention.");
   }
 
   Future<void> speakcentres12(String languageCode) async {
@@ -128,8 +123,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He could never doubt that he was the centre of her world."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He could never doubt that he was the centre of her world.");
   }
 
   Future<void> speakcentres13(String languageCode) async {
@@ -137,8 +132,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Politically, she is considered to be slightly left of centre."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Politically, she is considered to be slightly left of centre.");
   }
 
   Future<void> speakcentres14(String languageCode) async {
@@ -146,8 +141,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "State occasions always centred around the king."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("State occasions always centred around the king.");
   }
 
   Future<void> speakcentres15(String languageCode) async {
@@ -155,8 +149,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The debate centred on an important political issue."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The debate centred on an important political issue.");
   }
 
   Future<void> speakcentres16(String languageCode) async {
@@ -164,8 +158,8 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most of the fighting was centred in the north of the capital."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Most of the fighting was centred in the north of the capital.");
   }
 
   Future<void> speakcentres17(String languageCode) async {
@@ -173,8 +167,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Centre all the headings in this document."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Centre all the headings in this document.");
   }
 
   Future<void> speakcentres18(String languageCode) async {
@@ -182,7 +175,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres1818");
   }
 
   Future<void> speakcentres19(String languageCode) async {
@@ -190,7 +183,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres1919");
   }
 
   Future<void> speakcentres20(String languageCode) async {
@@ -198,7 +191,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2020");
   }
 
   Future<void> speakcentres21(String languageCode) async {
@@ -206,7 +199,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2121");
   }
 
   Future<void> speakcentres22(String languageCode) async {
@@ -214,7 +207,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2222");
   }
 
   Future<void> speakcentres23(String languageCode) async {
@@ -222,7 +215,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2323");
   }
 
   Future<void> speakcentres24(String languageCode) async {
@@ -230,7 +223,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2424");
   }
 
   Future<void> speakcentres25(String languageCode) async {
@@ -238,7 +231,7 @@ class EnglishEntrycentre extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcentres2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcentres2525");
   }
 
   @override

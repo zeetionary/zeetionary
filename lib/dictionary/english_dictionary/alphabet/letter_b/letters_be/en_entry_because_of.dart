@@ -24,7 +24,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("because of"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("because of");
   }
 
   Future<void> speakbecauseofs1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They are here because of us."); // DOPSUM: CHANGE TEXT
+        .speak("They are here because of us.");
   }
 
   Future<void> speakbecauseofs2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Because of his wife being there, I said nothing about it."); // DOPSUM: CHANGE TEXT
+        "Because of his wife being there, I said nothing about it.");
   }
 
   Future<void> speakbecauseofs3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBecauseofs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBecauseofs33");
   }
 
   Future<void> speakbecauseofs4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBecauseofs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBecauseofs44");
   }
 
   Future<void> speakbecauseofs5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBecauseofs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBecauseofs55");
   }
 
   Future<void> speakbecauseofs6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBecauseofs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBecauseofs66");
   }
 
   Future<void> speakbecauseofs7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBecauseofs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBecauseofs77");
   }
 
   @override

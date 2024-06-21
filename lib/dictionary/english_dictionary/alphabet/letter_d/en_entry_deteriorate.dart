@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deteriorate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deteriorate");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deteriorate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deteriorate");
   }
 
   @override
@@ -223,7 +223,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her health deteriorated rapidly, and she died shortly afterwards."); // DOPSUM: CHANGE TEXT
+        "Her health deteriorated rapidly, and she died shortly afterwards.");
   }
 
   Future<void> speakdeteriorates2(String languageCode) async {
@@ -231,8 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had to cope with deteriorating weather conditions."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They had to cope with deteriorating weather conditions.");
   }
 
   Future<void> speakdeteriorates3(String languageCode) async {
@@ -240,8 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The discussion quickly deteriorated into an angry argument."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The discussion quickly deteriorated into an angry argument.");
   }
 
   Future<void> speakdeteriorates4(String languageCode) async {
@@ -249,128 +249,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The unrest rapidly deteriorated into civil war."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The unrest rapidly deteriorated into civil war.");
   }
 
   Future<void> speakdeteriorates20(String languageCode) async {
@@ -378,24 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had to cope with deteriorating weather conditions.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeteriorates22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeteriorates2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They had to cope with deteriorating weather conditions.0");
   }
 
   @override

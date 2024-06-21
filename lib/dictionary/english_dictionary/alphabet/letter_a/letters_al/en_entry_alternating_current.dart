@@ -16,7 +16,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alternating current"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alternating current");
   }
 
   Future<void> speakalternatingcurrent124(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Unlike Edison, George Westinghouse was a proponent of alternating current."); // DOPSUM: CHANGE TEXT
+        "Unlike Edison, George Westinghouse was a proponent of alternating current.");
   }
 
   // Future<void> speakalternatingcurrent(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alternating current"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alternating current");
   // }
 
   // Future<void> speakalternatingcurrent(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alternating current"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alternating current");
   // }
 
   @override

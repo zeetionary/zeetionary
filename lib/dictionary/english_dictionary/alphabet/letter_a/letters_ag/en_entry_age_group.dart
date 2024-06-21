@@ -16,7 +16,7 @@ class EnglishEntryagegroup extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("age group"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("age group");
   }
 
   Future<void> speakagegrou199852(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryagegroup extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People in the younger age groups tended to vote less."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("People in the younger age groups tended to vote less.");
   }
 
   // Future<void> speakagegroup(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryagegroup extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("age group"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("age group");
   // }
 
   // Future<void> speakagegroup(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryagegroup extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("age group"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("age group");
   // }
 
   @override

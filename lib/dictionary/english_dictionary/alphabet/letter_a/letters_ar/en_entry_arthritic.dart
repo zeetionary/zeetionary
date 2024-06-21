@@ -24,7 +24,7 @@ class EnglishEntryarthritic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arthritic");
   }
 
   Future<void> speakarthritic457(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryarthritic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her hands were swollen and arthritic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her hands were swollen and arthritic.");
   }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -49,7 +48,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   // Future<void> speakarthritic(String languageCode) async {
@@ -89,7 +88,7 @@ class EnglishEntryarthritic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arthritic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arthritic");
   // }
 
   @override

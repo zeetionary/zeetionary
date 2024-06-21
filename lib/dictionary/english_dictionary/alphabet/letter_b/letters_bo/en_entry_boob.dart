@@ -22,7 +22,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boob"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boob");
   }
 
   Future<void> speakboobs1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She wore a low-cut dress, revealing her boobs."); // DOPSUM: CHANGE TEXT
+        "She wore a low-cut dress, revealing her boobs.");
   }
 
   Future<void> speakboobs2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The swimsuit showcased her toned boobs."); // DOPSUM: CHANGE TEXT
+        "The swimsuit showcased her toned boobs.");
   }
 
   Future<void> speakboobs3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The comedian joked about his obsession with boobs."); // DOPSUM: CHANGE TEXT
+        "The comedian joked about his obsession with boobs.");
   }
 
   Future<void> speakboobs4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dress emphasized her cleavage and boobs."); // DOPSUM: CHANGE TEXT
+        "The dress emphasized her cleavage and boobs.");
   }
 
   Future<void> speakboobs5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You know her - blonde hair and big boobs."); // DOPSUM: CHANGE TEXT
+        "You know her - blonde hair and big boobs.");
   }
 
   Future<void> speakboobs6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I made a bit of a boob deleting that file."); // DOPSUM: CHANGE TEXT
+        "I made a bit of a boob deleting that file.");
   }
 
   Future<void> speakboobs7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Don't be such a boob; think before you act."); // DOPSUM: CHANGE TEXT
+        "Don't be such a boob; think before you act.");
   }
 
   Future<void> speakboobs8(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I boobed by forgetting the meeting."); // DOPSUM: CHANGE TEXT
+        .speak("I boobed by forgetting the meeting.");
   }
 
   Future<void> speakboobs9(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs99");
   }
 
   Future<void> speakboobs10(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1010");
   }
 
   Future<void> speakboobs11(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1111");
   }
 
   Future<void> speakboobs12(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1212");
   }
 
   Future<void> speakboobs13(String languageCode) async {
@@ -134,7 +134,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1313");
   }
 
   Future<void> speakboobs14(String languageCode) async {
@@ -142,7 +142,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1414");
   }
 
   Future<void> speakboobs15(String languageCode) async {
@@ -150,7 +150,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1515");
   }
 
   Future<void> speakboobs16(String languageCode) async {
@@ -158,7 +158,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboobs1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1616");
   }
 
   @override

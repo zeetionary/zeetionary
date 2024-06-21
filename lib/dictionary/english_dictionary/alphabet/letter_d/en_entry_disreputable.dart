@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disreputable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disreputable");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disreputable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disreputable");
   }
 
   @override
@@ -222,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She spent the evening with her disreputable brother Stefan."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She spent the evening with her disreputable brother Stefan.");
   }
 
   Future<void> speakdisreputables2(String languageCode) async {
@@ -232,167 +232,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some of the disreputable newspapers made false claims about her private life."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables3(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisreputables22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisreputable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisreputables2200"); // DOPSUM: CHANGE TEXT
+        "Some of the disreputable newspapers made false claims about her private life.");
   }
 
   @override

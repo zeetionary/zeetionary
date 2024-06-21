@@ -24,7 +24,7 @@ class EnglishEntryassessor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assessor");
   }
 
   Future<void> speakassessor1140(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassessor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government appointed independent assessors to review the viability of the remaining coal mines."); // DOPSUM: CHANGE TEXT
+        "The government appointed independent assessors to review the viability of the remaining coal mines.");
   }
 
   Future<void> speakassessor1143(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryassessor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The assessor's offices vary in how they determine a home's value."); // DOPSUM: CHANGE TEXT
+        "The assessor's offices vary in how they determine a home's value.");
   }
 
   Future<void> speakassessor1147(String languageCode) async {
@@ -50,8 +50,8 @@ class EnglishEntryassessor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The assessor evaluated the student's performance on the exam."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The assessor evaluated the student's performance on the exam.");
   }
 
   // Future<void> speakassessor(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assessor");
   // }
 
   // Future<void> speakassessor(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assessor");
   // }
 
   // Future<void> speakassessor(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assessor");
   // }
 
   // Future<void> speakassessor(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assessor");
   // }
 
   // Future<void> speakassessor(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assessor");
   // }
 
   @override

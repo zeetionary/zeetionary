@@ -16,7 +16,7 @@ class EnglishEntryaerial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aerial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aerial");
   }
 
   Future<void> speakaeri5692(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaerial extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A forest of television aerials on the roofs could be seen afar."); // DOPSUM: CHANGE TEXT
+        "A forest of television aerials on the roofs could be seen afar.");
   }
 
   Future<void> speakaeria2567(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaerial extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The massive aerial bombardment of military targets continued unabated."); // DOPSUM: CHANGE TEXT
+        "The massive aerial bombardment of military targets continued unabated.");
   }
 
   // Future<void> speakaerial(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryaerial extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aerial"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aerial");
   // }
 
   @override

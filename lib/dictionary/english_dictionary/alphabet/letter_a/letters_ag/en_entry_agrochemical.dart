@@ -16,7 +16,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agrochemical"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agrochemical");
   }
 
   Future<void> speakagrochem63888(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides."); // DOPSUM: CHANGE TEXT
+        "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides.");
   }
 
   // Future<void> speakagrochemical(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agrochemical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agrochemical");
   // }
 
   // Future<void> speakagrochemical(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agrochemical"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agrochemical");
   // }
 
   @override

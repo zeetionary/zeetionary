@@ -16,7 +16,7 @@ class EnglishEntryallocation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allocation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allocation");
   }
 
   Future<void> speakallocation1362(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryallocation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have spent our entire allocation for the year."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have spent our entire allocation for the year.");
   }
 
   Future<void> speakallocation342(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryallocation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The charity is trying to get its allocation increased for next year."); // DOPSUM: CHANGE TEXT
+        "The charity is trying to get its allocation increased for next year.");
   }
 
   Future<void> speakallocation359(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryallocation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The allocation of space in this office is unusual."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The allocation of space in this office is unusual.");
   }
 
   @override

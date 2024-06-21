@@ -22,7 +22,7 @@ class EnglishEntryarmpit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("armpit");
   }
 
   Future<void> speakarmpit412(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryarmpit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "To my mind, a hairless armpit looks unnatural."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("To my mind, a hairless armpit looks unnatural.");
   }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   // Future<void> speakarmpit(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit");
   // }
 
   @override

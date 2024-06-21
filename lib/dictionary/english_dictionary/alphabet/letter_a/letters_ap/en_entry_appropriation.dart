@@ -22,7 +22,7 @@ class EnglishEntryappropriation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appropriation");
   }
 
   Future<void> speakappropriation425(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryappropriation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The film company sued them over their appropriation of a cartoon character."); // DOPSUM: CHANGE TEXT
+        "The film company sued them over their appropriation of a cartoon character.");
   }
 
   Future<void> speakappropriation432(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryappropriation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."); // DOPSUM: CHANGE TEXT
+        "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project.");
   }
 
   Future<void> speakappropriation436(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryappropriation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The committee approved an appropriation of £20,000 for the payment of debts."); // DOPSUM: CHANGE TEXT
+        "The committee approved an appropriation of £20,000 for the payment of debts.");
   }
 
   // Future<void> speakappropriation(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriation");
   // }
 
   // Future<void> speakappropriation(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriation");
   // }
 
   // Future<void> speakappropriation(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriation");
   // }
 
   // Future<void> speakappropriation(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriation");
   // }
 
   // Future<void> speakappropriation(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriation");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accomplish"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accomplish");
   }
 
   Future<void> speakac26934(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccomplish extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The first part of the plan has been safely accomplished."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The first part of the plan has been safely accomplished.");
   }
 
   @override

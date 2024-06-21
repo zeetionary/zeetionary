@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detour"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detour");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detour"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detour");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We had to make a detour around the flooded fields."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We had to make a detour around the flooded fields.");
   }
 
   Future<void> speakdetours2(String languageCode) async {
@@ -230,144 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's well worth making a detour to see the village."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours3(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours4(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours5(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's well worth making a detour to see the village.");
   }
 
   Future<void> speakdetours20(String languageCode) async {
@@ -375,24 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's well worth making a detour to see the village.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetours22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetour
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetours2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's well worth making a detour to see the village.0");
   }
 
   @override

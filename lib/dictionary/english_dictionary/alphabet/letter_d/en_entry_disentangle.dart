@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disentangle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disentangle");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disentangle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disentangle");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's not easy to disentangle truth from lies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's not easy to disentangle truth from lies.");
   }
 
   Future<void> speakdisentangles2(String languageCode) async {
@@ -232,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is important to disentangle all the factors that may be causing your stress."); // DOPSUM: CHANGE TEXT
+        "It is important to disentangle all the factors that may be causing your stress.");
   }
 
   Future<void> speakdisentangles3(String languageCode) async {
@@ -240,8 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He tried to disentangle his fingers from her hair."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He tried to disentangle his fingers from her hair.");
   }
 
   Future<void> speakdisentangles4(String languageCode) async {
@@ -250,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She has just disentangled herself from a painful relationship."); // DOPSUM: CHANGE TEXT
+        "She has just disentangled herself from a painful relationship.");
   }
 
   Future<void> speakdisentangles5(String languageCode) async {
@@ -258,144 +257,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was sitting disentangling a coil of rope."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisentangles22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisentangle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisentangles2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was sitting disentangling a coil of rope.");
   }
 
   @override

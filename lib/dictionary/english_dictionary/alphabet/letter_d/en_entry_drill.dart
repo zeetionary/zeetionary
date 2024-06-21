@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drill"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drill");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drill"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drill");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She bored a hole in the tree with a cordless drill."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She bored a hole in the tree with a cordless drill.");
   }
 
   Future<void> speakdrills2(String languageCode) async {
@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Do you know how to use a power drill?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Do you know how to use a power drill?");
   }
 
   Future<void> speakdrills3(String languageCode) async {
@@ -369,8 +368,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The teacher used a math drill to practice multiplication."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The teacher used a math drill to practice multiplication.");
   }
 
   Future<void> speakdrills4(String languageCode) async {
@@ -378,8 +377,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dentist started drilling my tooth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The dentist started drilling my tooth.");
   }
 
   Future<void> speakdrills5(String languageCode) async {
@@ -387,8 +385,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Drill a series of holes in the frame."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Drill a series of holes in the frame.");
   }
 
   Future<void> speakdrills6(String languageCode) async {
@@ -396,8 +393,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They're drilling for oil off the Irish coast."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They're drilling for oil off the Irish coast.");
   }
 
   Future<void> speakdrills7(String languageCode) async {
@@ -406,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children were drilled to leave the classroom quickly when the fire bell rang."); // DOPSUM: CHANGE TEXT
+        "The children were drilled to leave the classroom quickly when the fire bell rang.");
   }
 
   Future<void> speakdrills8(String languageCode) async {
@@ -414,120 +410,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The soldiers were being drilled outside the barracks."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrills22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrill
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrills2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The soldiers were being drilled outside the barracks.");
   }
 
   @override

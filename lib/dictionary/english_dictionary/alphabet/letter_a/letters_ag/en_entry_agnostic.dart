@@ -16,7 +16,7 @@ class EnglishEntryagnostic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agnostic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agnostic");
   }
 
   Future<void> speakagnos15666(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryagnostic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Although he was raised a Catholic, he was an agnostic for most of his adult life."); // DOPSUM: CHANGE TEXT
+        "Although he was raised a Catholic, he was an agnostic for most of his adult life.");
   }
 
   Future<void> speakag45822(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryagnostic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Whether we are religious, atheist, or agnostic, there are some moral values we all share."); // DOPSUM: CHANGE TEXT
+        "Whether we are religious, atheist, or agnostic, there are some moral values we all share.");
   }
 
   // Future<void> speakagnostic(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryagnostic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agnostic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agnostic");
   // }
 
   @override

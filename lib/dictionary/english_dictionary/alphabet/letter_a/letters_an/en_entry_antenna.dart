@@ -18,7 +18,7 @@ class EnglishEntryantenna extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antenna");
   }
 
   Future<void> speakantenna519(String languageCode) async {
@@ -26,8 +26,8 @@ class EnglishEntryantenna extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        " The minister was praised for his acute political antennae."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak(" The minister was praised for his acute political antennae.");
   }
 
   Future<void> speakantenna523(String languageCode) async {
@@ -35,8 +35,7 @@ class EnglishEntryantenna extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They installed a dish antenna on the roof."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They installed a dish antenna on the roof.");
   }
 
   // Future<void> speakantenna(String languageCode) async {
@@ -44,7 +43,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antenna");
   // }
 
   // Future<void> speakantenna(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antenna");
   // }
 
   // Future<void> speakantenna(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antenna");
   // }
 
   // Future<void> speakantenna(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antenna");
   // }
 
   // Future<void> speakantenna(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antenna");
   // }
 
   // Future<void> speakantenna(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antenna");
   // }
 
   @override

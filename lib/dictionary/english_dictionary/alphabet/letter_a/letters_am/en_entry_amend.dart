@@ -16,7 +16,7 @@ class EnglishEntryamend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amend"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amend");
   }
 
   Future<void> speakamend466(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Parliament will vote to amend the constitution."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Parliament will vote to amend the constitution.");
   }
 
   Future<void> speakamend49996(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryamend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "MPs were urged to amend the law to prevent another oil tanker disaster."); // DOPSUM: CHANGE TEXT
+        "MPs were urged to amend the law to prevent another oil tanker disaster.");
   }
 
   // Future<void> speakamend(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryamend extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amend"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amend");
   // }
 
   @override

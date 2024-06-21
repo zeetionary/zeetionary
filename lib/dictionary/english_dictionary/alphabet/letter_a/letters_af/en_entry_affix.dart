@@ -16,7 +16,7 @@ class EnglishEntryaffix extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affix"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affix");
   }
 
   Future<void> speakaffix911(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaffix extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The sticker must be affixed to your windshield."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The sticker must be affixed to your windshield.");
   }
 
   // Future<void> speakaffix(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryaffix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affix");
   // }
 
   // Future<void> speakaffix(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaffix extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affix");
   // }
 
   @override

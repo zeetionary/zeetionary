@@ -18,7 +18,7 @@ class EnglishEntryanthrax extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anthrax");
   }
 
   Future<void> speakanthrax833(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntryanthrax extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Humans can contract anthrax by handling products from infected animals."); // DOPSUM: CHANGE TEXT
+        "Humans can contract anthrax by handling products from infected animals.");
   }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   // Future<void> speakanthrax(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthrax");
   // }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("benchmark"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("benchmark");
   }
 
   Future<void> speakbenchmarks1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The German recycling system is seen as a benchmark for schemes throughout Europe."); // DOPSUM: CHANGE TEXT
+        "The German recycling system is seen as a benchmark for schemes throughout Europe.");
   }
 
   Future<void> speakbenchmarks2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBenchmarks22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBenchmarks22");
   }
 
   Future<void> speakbenchmarks3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBenchmarks33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBenchmarks33");
   }
 
   Future<void> speakbenchmarks4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBenchmarks44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBenchmarks44");
   }
 
   Future<void> speakbenchmarks5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBenchmarks55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBenchmarks55");
   }
 
   Future<void> speakbenchmarks6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBenchmarks66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBenchmarks66");
   }
 
   Future<void> speakbenchmarks7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBenchmarks77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBenchmarks77");
   }
 
   @override

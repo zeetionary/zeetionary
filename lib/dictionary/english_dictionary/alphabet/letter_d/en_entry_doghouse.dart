@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("doghouse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("doghouse");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("doghouse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("doghouse");
   }
 
   @override
@@ -352,175 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He built a sturdy doghouse for his dog to protect it from the weather."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoghouses22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoghouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoghouses2200"); // DOPSUM: CHANGE TEXT
+        "He built a sturdy doghouse for his dog to protect it from the weather.");
   }
 
   @override

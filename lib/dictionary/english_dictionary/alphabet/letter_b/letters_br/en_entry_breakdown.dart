@@ -20,7 +20,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("breakdown"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breakdown");
   }
 
   Future<void> speakbreakdowns1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most breakdown services give priority to women travelling alone."); // DOPSUM: CHANGE TEXT
+        "Most breakdown services give priority to women travelling alone.");
   }
 
   Future<void> speakbreakdowns2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I had a breakdown in the middle of the road."); // DOPSUM: CHANGE TEXT
+        "I had a breakdown in the middle of the road.");
   }
 
   Future<void> speakbreakdowns3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The only ground for divorce is the irretrievable breakdown of the marriage."); // DOPSUM: CHANGE TEXT
+        "The only ground for divorce is the irretrievable breakdown of the marriage.");
   }
 
   Future<void> speakbreakdowns4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Both sides blamed each other for the breakdown of talks."); // DOPSUM: CHANGE TEXT
+        "Both sides blamed each other for the breakdown of talks.");
   }
 
   Future<void> speakbreakdowns5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We need a breakdown of the statistics into age groups."); // DOPSUM: CHANGE TEXT
+        "We need a breakdown of the statistics into age groups.");
   }
 
   Future<void> speakbreakdowns6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The rate of breakdown of muscle protein was assessed."); // DOPSUM: CHANGE TEXT
+        "The rate of breakdown of muscle protein was assessed.");
   }
 
   Future<void> speakbreakdowns7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The pain all became too much and he had some sort of breakdown."); // DOPSUM: CHANGE TEXT
+        "The pain all became too much and he had some sort of breakdown.");
   }
 
   @override

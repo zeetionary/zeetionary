@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double bass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double bass");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double bass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double bass");
   }
 
   @override
@@ -351,176 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He learned to play the double bass at a young age."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublebasss22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublebass
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublebasss2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He learned to play the double bass at a young age.");
   }
 
   @override

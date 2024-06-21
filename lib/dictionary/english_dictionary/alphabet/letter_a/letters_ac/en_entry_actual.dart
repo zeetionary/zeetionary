@@ -16,7 +16,7 @@ class EnglishEntryactual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("actual"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("actual");
   }
 
   Future<void> speakactual4528(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryactual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The actual cost was higher than we expected."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The actual cost was higher than we expected.");
   }
 
   Future<void> speakactual4967(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryactual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("What were his actual words?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What were his actual words?");
   }
 
   Future<void> speakactu437(String languageCode) async {
@@ -43,7 +41,7 @@ class EnglishEntryactual extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The wedding preparations take weeks but the actual ceremony takes less than an hour."); // DOPSUM: CHANGE TEXT
+        "The wedding preparations take weeks but the actual ceremony takes less than an hour.");
   }
 
   @override

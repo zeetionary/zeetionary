@@ -16,7 +16,7 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alternate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alternate");
   }
 
   Future<void> speakalternate4599(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Stretch up 30 times with alternate arms as a warm-up exercise."); // DOPSUM: CHANGE TEXT
+        "Stretch up 30 times with alternate arms as a warm-up exercise.");
   }
 
   Future<void> speakalternate492(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He and I clean our room on alternate days."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He and I clean our room on alternate days.");
   }
 
   Future<void> speakalternate4588(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She alternated between cheerfulness and deep despair."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She alternated between cheerfulness and deep despair.");
   }
 
   Future<void> speakalternate385(String languageCode) async {
@@ -51,8 +50,8 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ambulance crews alternate between emergency and routine work."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Ambulance crews alternate between emergency and routine work.");
   }
 
   Future<void> speakalternate5266(String languageCode) async {
@@ -61,7 +60,7 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "David was too sick to attend, so Janet served as his alternate."); // DOPSUM: CHANGE TEXT
+        "David was too sick to attend, so Janet served as his alternate.");
   }
 
   // Future<void> speakalternate(String languageCode) async {
@@ -69,7 +68,7 @@ class EnglishEntryalternate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alternate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alternate");
   // }
 
   // Future<void> speakalternate(String languageCode) async {
@@ -77,7 +76,7 @@ class EnglishEntryalternate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alternate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alternate");
   // }
 
   @override

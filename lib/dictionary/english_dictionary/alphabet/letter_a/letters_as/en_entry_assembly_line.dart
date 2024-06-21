@@ -24,7 +24,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assembly line");
   }
 
   Future<void> speakassemblyline1003(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The workers on the assembly line worked tirelessly to produce the cars."); // DOPSUM: CHANGE TEXT
+        "The workers on the assembly line worked tirelessly to produce the cars.");
   }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   // Future<void> speakassemblyline(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assembly line");
   // }
 
   @override

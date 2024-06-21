@@ -16,7 +16,7 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abuse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abuse");
   }
 
   Future<void> speaka5741(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The boy had been sexually abused."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The boy had been sexually abused.");
   }
 
   Future<void> speaka15876(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She abused her position as principal by giving jobs to her friends."); // DOPSUM: CHANGE TEXT
+        "She abused her position as principal by giving jobs to her friends.");
   }
 
   Future<void> speaka1258(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People who abuse alcohol over a long period will develop health problems."); // DOPSUM: CHANGE TEXT
+        "People who abuse alcohol over a long period will develop health problems.");
   }
 
   Future<void> speaka14582(String languageCode) async {
@@ -51,8 +50,8 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The man burst into a torrent of foul-mouthed racist abuse."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The man burst into a torrent of foul-mouthed racist abuse.");
   }
 
   Future<void> speaka25641(String languageCode) async {
@@ -60,8 +59,7 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She suffered years of physical abuse."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She suffered years of physical abuse.");
   }
 
   Future<void> speaka45961(String languageCode) async {
@@ -69,8 +67,8 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was arrested on charges of corruption and abuse of power."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was arrested on charges of corruption and abuse of power.");
   }
 
   Future<void> speaka26935(String languageCode) async {
@@ -78,8 +76,8 @@ class EnglishEntryabuse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The legal system in this country is open to abuse."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The legal system in this country is open to abuse.");
   }
 
   @override

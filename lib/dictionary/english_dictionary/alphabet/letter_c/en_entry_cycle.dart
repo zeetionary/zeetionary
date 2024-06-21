@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cycle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cycle");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cycle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cycle");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was riding his cycle home when he was hit by a lorry."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was riding his cycle home when he was hit by a lorry.");
   }
 
   Future<void> speakcycles2(String languageCode) async {
@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We went for a cycle ride on Sunday."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We went for a cycle ride on Sunday.");
   }
 
   Future<void> speakcycles3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Lots of people arrived in cars or on cycles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Lots of people arrived in cars or on cycles.");
   }
 
   Future<void> speakcycles4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They completed their journey by cycle."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They completed their journey by cycle.");
   }
 
   Future<void> speakcycles5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Every business goes through cycles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Every business goes through cycles.");
   }
 
   Future<void> speakcycles6(String languageCode) async {
@@ -267,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The argument is that reprisals perpetuate the cycle of violence."); // DOPSUM: CHANGE TEXT
+        "The argument is that reprisals perpetuate the cycle of violence.");
   }
 
   Future<void> speakcycles7(String languageCode) async {
@@ -275,8 +271,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Life is a natural cycle, just like the changing seasons."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Life is a natural cycle, just like the changing seasons.");
   }
 
   Future<void> speakcycles8(String languageCode) async {
@@ -284,8 +280,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The European market is going through an economic cycle."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The European market is going through an economic cycle.");
   }
 
   Future<void> speakcycles9(String languageCode) async {
@@ -293,8 +289,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This cycle of events continually repeats itself."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This cycle of events continually repeats itself.");
   }
 
   Future<void> speakcycles10(String languageCode) async {
@@ -302,8 +297,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "To complete the cycle, oxygen is necessary."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("To complete the cycle, oxygen is necessary.");
   }
 
   Future<void> speakcycles11(String languageCode) async {
@@ -312,7 +306,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She waited for the washing machine's spin cycle to finish before transferring the clothes to the dryer."); // DOPSUM: CHANGE TEXT
+        "She waited for the washing machine's spin cycle to finish before transferring the clothes to the dryer.");
   }
 
   Future<void> speakcycles12(String languageCode) async {
@@ -320,8 +314,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I usually cycle home through the park."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I usually cycle home through the park.");
   }
 
   Future<void> speakcycles13(String languageCode) async {
@@ -329,8 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He cycles ten miles to and from work every day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He cycles ten miles to and from work every day.");
   }
 
   @override

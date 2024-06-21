@@ -21,7 +21,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conveyance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conveyance");
   }
 
   Future<void> speakconveyances1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The conveyance of goods by rail is often preferred for long-distance transportation."); // DOPSUM: CHANGE TEXT
+        "The conveyance of goods by rail is often preferred for long-distance transportation.");
   }
 
   Future<void> speakconveyances2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Horse-drawn conveyances were an integral part of daily life in the 19th century."); // DOPSUM: CHANGE TEXT
+        "Horse-drawn conveyances were an integral part of daily life in the 19th century.");
   }
 
   Future<void> speakconveyances3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The lawyer was asked to draw up a conveyance for the sale of the property."); // DOPSUM: CHANGE TEXT
+        "The lawyer was asked to draw up a conveyance for the sale of the property.");
   }
 
   Future<void> speakconveyances4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances400");
   }
 
   Future<void> speakconveyances5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances500");
   }
 
   Future<void> speakconveyances6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances600");
   }
 
   Future<void> speakconveyances7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances700");
   }
 
   Future<void> speakconveyances8(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances800");
   }
 
   Future<void> speakconveyances9(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances900");
   }
 
   Future<void> speakconveyances10(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances1000");
   }
 
   Future<void> speakconveyances11(String languageCode) async {
@@ -112,7 +112,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances1100");
   }
 
   Future<void> speakconveyances12(String languageCode) async {
@@ -120,7 +120,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances1200");
   }
 
   Future<void> speakconveyances13(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntryconveyance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveyances1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconveyances1300");
   }
 
   @override

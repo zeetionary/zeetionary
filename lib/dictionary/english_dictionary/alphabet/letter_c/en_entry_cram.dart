@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cram"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cram");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cram"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cram");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He crammed eight people into his car."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He crammed eight people into his car.");
   }
 
   Future<void> speakcrams2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I could never cram in all that she does in a day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I could never cram in all that she does in a day.");
   }
 
   Future<void> speakcrams3(String languageCode) async {
@@ -239,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Supporters crammed the streets."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Supporters crammed the streets.");
   }
 
   Future<void> speakcrams4(String languageCode) async {
@@ -248,80 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I bought a large basket and crammed it full of presents."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams5(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams6(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams7(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams8(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams9(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams10(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams11(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams12(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams13(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I bought a large basket and crammed it full of presents.");
   }
 
   @override

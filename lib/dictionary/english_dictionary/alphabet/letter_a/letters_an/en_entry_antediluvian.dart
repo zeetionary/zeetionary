@@ -18,7 +18,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antediluvian");
   }
 
   Future<void> speakantediluvian439(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My mother has some hopelessly antediluvian ideas about the role of women."); // DOPSUM: CHANGE TEXT
+        "My mother has some hopelessly antediluvian ideas about the role of women.");
   }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   // Future<void> speakantediluvian(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antediluvian");
   // }
 
   @override

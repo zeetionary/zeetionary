@@ -16,7 +16,7 @@ class EnglishEntryabsence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absence"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absence");
   }
 
   Future<void> speaka2134(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryabsence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The case was dismissed in the absence of any definite proof."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The case was dismissed in the absence of any definite proof.");
   }
 
   Future<void> speaka2689(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryabsence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We did not receive any news during his long absence."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We did not receive any news during his long absence.");
   }
 
   @override

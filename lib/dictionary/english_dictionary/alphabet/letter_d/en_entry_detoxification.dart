@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detoxification"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detoxification");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detoxification"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detoxification");
   }
 
   @override
@@ -223,8 +223,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The center specializes in detoxification for addicts."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The center specializes in detoxification for addicts.");
   }
 
   Future<void> speakdetoxifications2(String languageCode) async {
@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The policy has been key to the successful detoxification of the party's brand."); // DOPSUM: CHANGE TEXT
+        "The policy has been key to the successful detoxification of the party's brand.");
   }
 
   Future<void> speakdetoxifications3(String languageCode) async {
@@ -241,136 +241,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Drinking water helps with detoxification."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications4(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications5(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Drinking water helps with detoxification.");
   }
 
   Future<void> speakdetoxifications20(String languageCode) async {
@@ -379,23 +250,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The policy has been key to the successful detoxification of the party's brand.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetoxifications22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetoxification
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetoxifications2200"); // DOPSUM: CHANGE TEXT
+        "The policy has been key to the successful detoxification of the party's brand.0");
   }
 
   @override

@@ -22,7 +22,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blink"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blink");
   }
 
   Future<void> speakblinks1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He blinked in the bright sunlight."); // DOPSUM: CHANGE TEXT
+        .speak("He blinked in the bright sunlight.");
   }
 
   Future<void> speakblinks2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I'll be back before you can blink."); // DOPSUM: CHANGE TEXT
+        .speak("I'll be back before you can blink.");
   }
 
   Future<void> speakblinks3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When I told him the news he didn't even blink."); // DOPSUM: CHANGE TEXT
+        "When I told him the news he didn't even blink.");
   }
 
   Future<void> speakblinks4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Suddenly a warning light blinked."); // DOPSUM: CHANGE TEXT
+        .speak("Suddenly a warning light blinked.");
   }
 
   Future<void> speakblinks5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He was observing her every blink."); // DOPSUM: CHANGE TEXT
+        .speak("He was observing her every blink.");
   }
 
   Future<void> speakblinks6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblinks66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblinks66");
   }
 
   Future<void> speakblinks7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblinks77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblinks77");
   }
 
   @override

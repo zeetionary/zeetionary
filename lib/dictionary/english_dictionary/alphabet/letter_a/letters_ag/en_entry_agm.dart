@@ -16,7 +16,7 @@ class EnglishEntryagm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("AGM"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("AGM");
   }
 
   Future<void> speakagm74888(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryagm extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Mr Thomson was voted onto the board at the company's AGM two weeks ago."); // DOPSUM: CHANGE TEXT
+        "Mr Thomson was voted onto the board at the company's AGM two weeks ago.");
   }
 
   // Future<void> speakagm(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryagm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("AGM"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("AGM");
   // }
 
   // Future<void> speakagm(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryagm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("AGM"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("AGM");
   // }
 
   @override

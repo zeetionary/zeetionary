@@ -24,7 +24,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("atomic bomb");
   }
 
   Future<void> speakatomicbomb1236(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."); // DOPSUM: CHANGE TEXT
+        "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life.");
   }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   // Future<void> speakatomicbomb(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atomic bomb");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccessible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accessible"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accessible");
   }
 
   Future<void> speaka2114(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccessible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The beach should be accessible to everyone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The beach should be accessible to everyone.");
   }
 
   Future<void> speakacc21587(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryaccessible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her poetry is always very accessible."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her poetry is always very accessible.");
   }
 
   Future<void> speaka21598(String languageCode) async {
@@ -42,8 +40,8 @@ class EnglishEntryaccessible extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The remote desert area is accessible only by helicopter."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The remote desert area is accessible only by helicopter.");
   }
 
   @override

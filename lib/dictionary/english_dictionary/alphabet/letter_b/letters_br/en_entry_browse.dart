@@ -18,7 +18,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("browse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("browse");
   }
 
   Future<void> speakbrowses1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We went for a browse around an antique shop."); // DOPSUM: CHANGE TEXT
+        "We went for a browse around an antique shop.");
   }
 
   Future<void> speakbrowses2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I had a browse through the books on his desk."); // DOPSUM: CHANGE TEXT
+        "I had a browse through the books on his desk.");
   }
 
   Future<void> speakbrowses3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She browsed the shelves for something interesting to read."); // DOPSUM: CHANGE TEXT
+        "She browsed the shelves for something interesting to read.");
   }
 
   Future<void> speakbrowses4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I spent the whole evening just browsing on the internet."); // DOPSUM: CHANGE TEXT
+        "I spent the whole evening just browsing on the internet.");
   }
 
   Future<void> speakbrowses5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I found the article while I was browsing through some old magazines."); // DOPSUM: CHANGE TEXT
+        "I found the article while I was browsing through some old magazines.");
   }
 
   Future<void> speakbrowses6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Deer were browsing (on grass) under the trees."); // DOPSUM: CHANGE TEXT
+        "Deer were browsing (on grass) under the trees.");
   }
 
   Future<void> speakbrowses7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybrowse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrowses77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrowses77");
   }
 
   @override

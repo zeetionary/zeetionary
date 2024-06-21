@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deletion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deletion");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deletion"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deletion");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He made several deletions to the manuscript."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He made several deletions to the manuscript.");
   }
 
   Future<void> speakdeletions2(String languageCode) async {
@@ -230,144 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There have been some deletions from this text."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions3(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions4(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There have been some deletions from this text.");
   }
 
   Future<void> speakdeletions20(String languageCode) async {
@@ -375,24 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There have been some deletions from this text.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeletions22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeletion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeletions2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There have been some deletions from this text.0");
   }
 
   @override

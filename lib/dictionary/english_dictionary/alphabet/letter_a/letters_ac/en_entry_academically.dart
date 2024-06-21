@@ -16,7 +16,7 @@ class EnglishEntryacademically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("academically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("academically");
   }
 
   Future<void> speakac584(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacademically extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He wasn’t very well qualified academically but had a lot of experience."); // DOPSUM: CHANGE TEXT
+        "He wasn’t very well qualified academically but had a lot of experience.");
   }
 
   Future<void> speaka56387(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryacademically extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You have to do well academically to get into medical school."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You have to do well academically to get into medical school.");
   }
 
   @override

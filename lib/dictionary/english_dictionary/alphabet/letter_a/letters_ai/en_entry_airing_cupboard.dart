@@ -16,7 +16,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airing cupboard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airing cupboard");
   }
 
   Future<void> speakairingcupboard4588(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Put the clothes in the airing cupboard."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Put the clothes in the airing cupboard.");
   }
 
   // Future<void> speakairingcupboard(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airing cupboard"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airing cupboard");
   // }
 
   // Future<void> speakairingcupboard(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airing cupboard"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airing cupboard");
   // }
 
   @override

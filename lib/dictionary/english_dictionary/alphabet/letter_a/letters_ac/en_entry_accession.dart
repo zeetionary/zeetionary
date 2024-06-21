@@ -16,7 +16,7 @@ class EnglishEntryaccession extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accession"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accession");
   }
 
   Future<void> speakac58877(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaccession extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is absolutely not right to speed up accession to Nato without public support."); // DOPSUM: CHANGE TEXT
+        "It is absolutely not right to speed up accession to Nato without public support.");
   }
 
   Future<void> speakacc2154(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaccession extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "1926 was the year of Emperor Hirohito's accession to the throne."); // DOPSUM: CHANGE TEXT
+        "1926 was the year of Emperor Hirohito's accession to the throne.");
   }
 
   @override

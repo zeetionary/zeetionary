@@ -16,7 +16,7 @@ class EnglishEntryacquisition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acquisition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acquisition");
   }
 
   Future<void> speakacquis2534(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacquisition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The acquisition of huge amounts of data has helped our research enormously."); // DOPSUM: CHANGE TEXT
+        "The acquisition of huge amounts of data has helped our research enormously.");
   }
 
   Future<void> speakacqui24987(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryacquisition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The money will be spent on acquisitions for the university library."); // DOPSUM: CHANGE TEXT
+        "The money will be spent on acquisitions for the university library.");
   }
 
   Future<void> speakacqu1254(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryacquisition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have made acquisitions in several EU countries."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They have made acquisitions in several EU countries.");
   }
 
   @override

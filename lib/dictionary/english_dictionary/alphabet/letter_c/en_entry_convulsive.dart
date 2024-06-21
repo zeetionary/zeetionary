@@ -21,7 +21,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("convulsive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("convulsive");
   }
 
   Future<void> speakconvulsives1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her breath came in convulsive gasps."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her breath came in convulsive gasps.");
   }
 
   Future<void> speakconvulsives2(String languageCode) async {
@@ -38,7 +37,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives200");
   }
 
   Future<void> speakconvulsives3(String languageCode) async {
@@ -46,7 +45,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives300");
   }
 
   Future<void> speakconvulsives4(String languageCode) async {
@@ -54,7 +53,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives400");
   }
 
   Future<void> speakconvulsives5(String languageCode) async {
@@ -62,7 +61,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives500");
   }
 
   Future<void> speakconvulsives6(String languageCode) async {
@@ -70,7 +69,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives600");
   }
 
   Future<void> speakconvulsives7(String languageCode) async {
@@ -78,7 +77,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives700");
   }
 
   Future<void> speakconvulsives8(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives800");
   }
 
   Future<void> speakconvulsives9(String languageCode) async {
@@ -94,7 +93,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives900");
   }
 
   Future<void> speakconvulsives10(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives1000");
   }
 
   Future<void> speakconvulsives11(String languageCode) async {
@@ -110,7 +109,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives1100");
   }
 
   Future<void> speakconvulsives12(String languageCode) async {
@@ -118,7 +117,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives1200");
   }
 
   Future<void> speakconvulsives13(String languageCode) async {
@@ -126,7 +125,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconvulsives1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconvulsives1300");
   }
 
   @override

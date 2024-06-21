@@ -16,7 +16,7 @@ class EnglishEntryagitator extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("agitator"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agitator");
   }
 
   Future<void> speakagita62577(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryagitator extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is thought that the strike was the work of undercover political agitators."); // DOPSUM: CHANGE TEXT
+        "It is thought that the strike was the work of undercover political agitators.");
   }
 
   // Future<void> speakagitator(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryagitator extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agitator"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agitator");
   // }
 
   // Future<void> speakagitator(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryagitator extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("agitator"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agitator");
   // }
 
   @override

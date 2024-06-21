@@ -16,7 +16,7 @@ class EnglishEntryaccident extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accident"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accident");
   }
 
   Future<void> speaka6458(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccident extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their early arrival was just an accident."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Their early arrival was just an accident.");
   }
 
   Future<void> speakacc2514(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryaccident extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Every year in the United Kingdom more than 4 000 people die in accidents in the home."); // DOPSUM: CHANGE TEXT
+        "Every year in the United Kingdom more than 4 000 people die in accidents in the home.");
   }
 
   Future<void> speaka25698(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryaccident extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "One in seven accidents is caused by sleepy drivers."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("One in seven accidents is caused by sleepy drivers.");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diameter"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diameter");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diameter"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diameter");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The diameter of the tree trunk was more than a metre."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The diameter of the tree trunk was more than a metre.");
   }
 
   Future<void> speakdiameters2(String languageCode) async {
@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dome is 42.3 metres in diameter."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The dome is 42.3 metres in diameter.");
   }
 
   Future<void> speakdiameters3(String languageCode) async {
@@ -239,160 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The tubes have an internal diameter of 2 mm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiameters22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiameter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiameters2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The tubes have an internal diameter of 2 mm.");
   }
 
   @override

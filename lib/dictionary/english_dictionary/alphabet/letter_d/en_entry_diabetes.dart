@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diabetes"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diabetes");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diabetes"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diabetes");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Diabetes is diagnosed with a blood test."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Diabetes is diagnosed with a blood test.");
   }
 
   Future<void> speakdiabetess2(String languageCode) async {
@@ -230,168 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He had developed diabetes and high blood pressure."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiabetess22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiabetes
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiabetess2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He had developed diabetes and high blood pressure.");
   }
 
   @override

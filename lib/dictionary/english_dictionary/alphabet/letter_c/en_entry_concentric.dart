@@ -21,7 +21,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("concentric"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("concentric");
   }
 
   Future<void> speakconcentrics1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The target consisted of concentric circles, each worth different points."); // DOPSUM: CHANGE TEXT
+        "The target consisted of concentric circles, each worth different points.");
   }
 
   Future<void> speakconcentrics2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics200");
   }
 
   Future<void> speakconcentrics3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics300");
   }
 
   Future<void> speakconcentrics4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics400");
   }
 
   Future<void> speakconcentrics5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics500");
   }
 
   Future<void> speakconcentrics6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics600");
   }
 
   Future<void> speakconcentrics7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics700");
   }
 
   Future<void> speakconcentrics8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics800");
   }
 
   Future<void> speakconcentrics9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics900");
   }
 
   Future<void> speakconcentrics10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics1000");
   }
 
   Future<void> speakconcentrics11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics1100");
   }
 
   Future<void> speakconcentrics12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics1200");
   }
 
   Future<void> speakconcentrics13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntryconcentric extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrics1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrics1300");
   }
 
   @override

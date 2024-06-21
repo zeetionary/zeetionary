@@ -21,7 +21,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("communicate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("communicate");
   }
 
   Future<void> speakcommunicates1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We only communicate by email."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We only communicate by email.");
   }
 
   Future<void> speakcommunicates2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They communicated in sign language."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They communicated in sign language.");
   }
 
   Future<void> speakcommunicates3(String languageCode) async {
@@ -47,8 +45,8 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Candidates must be able to communicate effectively."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Candidates must be able to communicate effectively.");
   }
 
   Future<void> speakcommunicates4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Dolphins use sound to communicate with each other."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Dolphins use sound to communicate with each other.");
   }
 
   Future<void> speakcommunicates5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In times of uncertainty, a leader must be able to communicate a message of hope."); // DOPSUM: CHANGE TEXT
+        "In times of uncertainty, a leader must be able to communicate a message of hope.");
   }
 
   Future<void> speakcommunicates6(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Language evolved as a means of communicating information between individuals."); // DOPSUM: CHANGE TEXT
+        "Language evolved as a means of communicating information between individuals.");
   }
 
   Future<void> speakcommunicates7(String languageCode) async {
@@ -83,8 +81,8 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was eager to communicate his ideas to the group."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was eager to communicate his ideas to the group.");
   }
 
   Future<void> speakcommunicates8(String languageCode) async {
@@ -93,7 +91,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His inability to communicate has damaged their relationship beyond repair."); // DOPSUM: CHANGE TEXT
+        "His inability to communicate has damaged their relationship beyond repair.");
   }
 
   Future<void> speakcommunicates9(String languageCode) async {
@@ -102,7 +100,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The novel is about a family who can't communicate with each other."); // DOPSUM: CHANGE TEXT
+        "The novel is about a family who can't communicate with each other.");
   }
 
   Future<void> speakcommunicates10(String languageCode) async {
@@ -110,8 +108,8 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The disease is communicated through dirty drinking water."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The disease is communicated through dirty drinking water.");
   }
 
   Future<void> speakcommunicates11(String languageCode) async {
@@ -119,7 +117,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunicates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunicates1100");
   }
 
   Future<void> speakcommunicates12(String languageCode) async {
@@ -127,7 +125,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunicates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunicates1200");
   }
 
   Future<void> speakcommunicates13(String languageCode) async {
@@ -135,7 +133,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunicates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunicates1300");
   }
 
   @override

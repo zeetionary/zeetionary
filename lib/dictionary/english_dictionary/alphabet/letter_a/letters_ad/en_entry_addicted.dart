@@ -16,7 +16,7 @@ class EnglishEntryaddicted extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("addicted"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("addicted");
   }
 
   Future<void> speakaddict7451(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaddicted extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It did not take James very long to get addicted to video games."); // DOPSUM: CHANGE TEXT
+        "It did not take James very long to get addicted to video games.");
   }
 
   // Future<void> speakaddicted(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaddicted extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("addicted"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("addicted");
   // }
 
   // Future<void> speakaddicted(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaddicted extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("addicted"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("addicted");
   // }
 
   @override

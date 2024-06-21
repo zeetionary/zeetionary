@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("element"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("element");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("element"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("element");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are three important elements to consider."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are three important elements to consider.");
   }
 
   Future<void> speakelements2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cost was a key element in our decision."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Cost was a key element in our decision.");
   }
 
   Future<void> speakelements3(String languageCode) async {
@@ -370,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The architects were instructed to incorporate elements from the older building."); // DOPSUM: CHANGE TEXT
+        "The architects were instructed to incorporate elements from the older building.");
   }
 
   Future<void> speakelements4(String languageCode) async {
@@ -378,8 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Customer relations is an important element of the job."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Customer relations is an important element of the job.");
   }
 
   Future<void> speakelements5(String languageCode) async {
@@ -387,8 +385,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Practical work will form a major element of the syllabus."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Practical work will form a major element of the syllabus.");
   }
 
   Future<void> speakelements6(String languageCode) async {
@@ -396,8 +394,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These rumours do contain an element of truth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These rumours do contain an element of truth.");
   }
 
   Future<void> speakelements7(String languageCode) async {
@@ -405,8 +402,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All outdoor activities carry an element of risk."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("All outdoor activities carry an element of risk.");
   }
 
   Future<void> speakelements8(String languageCode) async {
@@ -414,8 +410,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There appears to be an element of truth in his story."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There appears to be an element of truth in his story.");
   }
 
   Future<void> speakelements9(String languageCode) async {
@@ -423,8 +419,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is a considerable element of danger in her job."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There is a considerable element of danger in her job.");
   }
 
   Future<void> speakelements10(String languageCode) async {
@@ -432,8 +428,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Different atoms of the same element are called isotopes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Different atoms of the same element are called isotopes.");
   }
 
   Future<void> speakelements11(String languageCode) async {
@@ -442,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All chemical substances, whether elements, compounds or mixtures, are made up of three types of particles."); // DOPSUM: CHANGE TEXT
+        "All chemical substances, whether elements, compounds or mixtures, are made up of three types of particles.");
   }
 
   Future<void> speakelements12(String languageCode) async {
@@ -450,8 +446,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Each element was thought to balance the natural world."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Each element was thought to balance the natural world.");
   }
 
   Future<void> speakelements13(String languageCode) async {
@@ -459,8 +455,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The place was completely exposed to the elements."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The place was completely exposed to the elements.");
   }
 
   Future<void> speakelements14(String languageCode) async {
@@ -468,8 +463,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Are we going to brave the elements and go for a walk?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Are we going to brave the elements and go for a walk?");
   }
 
   Future<void> speakelements15(String languageCode) async {
@@ -477,8 +472,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He taught me the elements of map-reading."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He taught me the elements of map-reading.");
   }
 
   Future<void> speakelements16(String languageCode) async {
@@ -487,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These ideas are not just the province of a fringe element in the party."); // DOPSUM: CHANGE TEXT
+        "These ideas are not just the province of a fringe element in the party.");
   }
 
   Future<void> speakelements17(String languageCode) async {
@@ -495,48 +489,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Water is a fish's natural element."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelements18(String languageCode) async {
-    // DOPSUM: CHANGE speakelement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelements1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelements19(String languageCode) async {
-    // DOPSUM: CHANGE speakelement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelements1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelements20(String languageCode) async {
-    // DOPSUM: CHANGE speakelement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelements_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelements21(String languageCode) async {
-    // DOPSUM: CHANGE speakelement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelements2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakelements22(String languageCode) async {
-    // DOPSUM: CHANGE speakelement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakelements2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Water is a fish's natural element.");
   }
 
   @override
@@ -1067,123 +1020,16 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakelements1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelements18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelements18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakelements1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelements19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelements19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakelements_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelements20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelements20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakelements2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelements21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelements21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakelements2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakelements22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakelements22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakelements1800elements18
+          // speakelements18
+          // speakelements1900elements19
+          // speakelements19
+          // speakelements_2000elements20
+          // speakelements20
+          // speakelements2100elements21
+          // speakelements21
+          // speakelements2200elements22
+          // speakelements22("en-US"""),
           //         ),
           //       ],
           //     ),

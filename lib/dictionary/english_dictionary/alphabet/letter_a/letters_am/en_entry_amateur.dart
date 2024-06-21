@@ -16,7 +16,7 @@ class EnglishEntryamateur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amateur"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amateur");
   }
 
   Future<void> speakamateur44451(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryamateur extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was an amateur photographer until the age of 40, when he turned professional."); // DOPSUM: CHANGE TEXT
+        "He was an amateur photographer until the age of 40, when he turned professional.");
   }
 
   Future<void> speakamateur47955(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryamateur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The performance sounded very amateur, I’m afraid."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The performance sounded very amateur, I’m afraid.");
   }
 
   Future<void> speakamateur49555(String languageCode) async {
@@ -42,8 +41,7 @@ class EnglishEntryamateur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This work was done by a bunch of amateurs!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This work was done by a bunch of amateurs!");
   }
 
   Future<void> speakamateur44592(String languageCode) async {
@@ -51,8 +49,8 @@ class EnglishEntryamateur extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The tournament is open to both amateurs and professionals."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The tournament is open to both amateurs and professionals.");
   }
 
   @override

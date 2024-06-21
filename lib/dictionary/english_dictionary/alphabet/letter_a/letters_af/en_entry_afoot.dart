@@ -16,7 +16,7 @@ class EnglishEntryafoot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("afoot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afoot");
   }
 
   Future<void> speakafoo4599(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryafoot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are plans afoot to increase taxation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are plans afoot to increase taxation.");
   }
 
   // Future<void> speakafoot(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryafoot extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afoot"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afoot");
   // }
 
   // Future<void> speakafoot(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryafoot extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afoot"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afoot");
   // }
 
   @override

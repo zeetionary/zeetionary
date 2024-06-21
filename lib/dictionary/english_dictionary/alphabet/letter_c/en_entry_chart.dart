@@ -21,7 +21,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chart"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chart");
   }
 
   Future<void> speakcharts1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The charts of 138 patients with chronic heart failure were reviewed."); // DOPSUM: CHANGE TEXT
+        "The charts of 138 patients with chronic heart failure were reviewed.");
   }
 
   Future<void> speakcharts2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The accompanying chart shows data for eight countries."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The accompanying chart shows data for eight countries.");
   }
 
   Future<void> speakcharts3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Gas prices have risen over the past decade, as shown in the chart below."); // DOPSUM: CHANGE TEXT
+        "Gas prices have risen over the past decade, as shown in the chart below.");
   }
 
   Future<void> speakcharts4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The maritime museum contains charts dating back to the 15th century."); // DOPSUM: CHANGE TEXT
+        "The maritime museum contains charts dating back to the 15th century.");
   }
 
   Future<void> speakcharts5(String languageCode) async {
@@ -65,8 +65,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The song topped the charts for three weeks."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The song topped the charts for three weeks.");
   }
 
   Future<void> speakcharts6(String languageCode) async {
@@ -74,8 +73,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The exhibition charts the history of the palace."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The exhibition charts the history of the palace.");
   }
 
   Future<void> speakcharts7(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The book charts the history of the airport."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The book charts the history of the airport.");
   }
 
   Future<void> speakcharts8(String languageCode) async {
@@ -93,7 +90,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The local branch of the party is meeting to chart their election campaign."); // DOPSUM: CHANGE TEXT
+        "The local branch of the party is meeting to chart their election campaign.");
   }
 
   Future<void> speakcharts9(String languageCode) async {
@@ -101,8 +98,8 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Captain Cook charted the coast of New Zealand in 1768."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Captain Cook charted the coast of New Zealand in 1768.");
   }
 
   Future<void> speakcharts10(String languageCode) async {
@@ -110,7 +107,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharts1000");
   }
 
   Future<void> speakcharts11(String languageCode) async {
@@ -118,7 +115,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharts1100");
   }
 
   Future<void> speakcharts12(String languageCode) async {
@@ -126,7 +123,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharts1200");
   }
 
   Future<void> speakcharts13(String languageCode) async {
@@ -134,7 +131,7 @@ class EnglishEntrychart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcharts1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryafloat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afloat");
   }
 
   Future<void> speakaflo45(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryafloat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were struggling to keep the vessel afloat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They were struggling to keep the vessel afloat.");
   }
 
   Future<void> speakafl5988(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryafloat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many small businesses are struggling to stay afloat."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Many small businesses are struggling to stay afloat.");
   }
 
   // Future<void> speakafloat(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryafloat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afloat");
   // }
 
   // Future<void> speakafloat(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryafloat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afloat");
   // }
 
   // Future<void> speakafloat(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryafloat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afloat");
   // }
 
   @override

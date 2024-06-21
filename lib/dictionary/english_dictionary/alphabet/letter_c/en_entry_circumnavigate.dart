@@ -21,7 +21,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumnavigate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("circumnavigate");
   }
 
   Future<void> speakcircumnavigates1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They circumnavigated the world in 75 days."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They circumnavigated the world in 75 days.");
   }
 
   Future<void> speakcircumnavigates2(String languageCode) async {
@@ -38,7 +37,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates200");
   }
 
   Future<void> speakcircumnavigates3(String languageCode) async {
@@ -46,7 +45,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates300");
   }
 
   Future<void> speakcircumnavigates4(String languageCode) async {
@@ -54,7 +53,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates400");
   }
 
   Future<void> speakcircumnavigates5(String languageCode) async {
@@ -62,7 +61,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates500");
   }
 
   Future<void> speakcircumnavigates6(String languageCode) async {
@@ -70,7 +69,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates600");
   }
 
   Future<void> speakcircumnavigates7(String languageCode) async {
@@ -78,7 +77,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates700");
   }
 
   Future<void> speakcircumnavigates8(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates800");
   }
 
   Future<void> speakcircumnavigates9(String languageCode) async {
@@ -94,7 +93,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates900");
   }
 
   Future<void> speakcircumnavigates10(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates1000");
   }
 
   Future<void> speakcircumnavigates11(String languageCode) async {
@@ -110,7 +109,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates1100");
   }
 
   Future<void> speakcircumnavigates12(String languageCode) async {
@@ -118,7 +117,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates1200");
   }
 
   Future<void> speakcircumnavigates13(String languageCode) async {
@@ -126,7 +125,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumnavigates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumnavigates1300");
   }
 
   @override

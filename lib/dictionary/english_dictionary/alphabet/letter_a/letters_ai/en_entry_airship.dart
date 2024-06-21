@@ -16,7 +16,7 @@ class EnglishEntryairship extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airship"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airship");
   }
 
   Future<void> speakairship426(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryairship extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If necessary, the airship can stay up there for days to keep out of danger."); // DOPSUM: CHANGE TEXT
+        "If necessary, the airship can stay up there for days to keep out of danger.");
   }
 
   // Future<void> speakairship(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryairship extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airship"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airship");
   // }
 
   // Future<void> speakairship(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryairship extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airship"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airship");
   // }
 
   @override

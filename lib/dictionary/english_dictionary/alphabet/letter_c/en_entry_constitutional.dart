@@ -21,7 +21,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("constitutional"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constitutional");
   }
 
   Future<void> speakconstitutionals1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had long advocated constitutional reform."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She had long advocated constitutional reform.");
   }
 
   Future<void> speakconstitutionals2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They can't pass this law. It's not constitutional."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They can't pass this law. It's not constitutional.");
   }
 
   Future<void> speakconstitutionals3(String languageCode) async {
@@ -47,8 +46,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Such a policy would not be constitutional."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Such a policy would not be constitutional.");
   }
 
   Future<void> speakconstitutionals4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Freedom of speech should be a constitutional right."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Freedom of speech should be a constitutional right.");
   }
 
   Future<void> speakconstitutionals5(String languageCode) async {
@@ -65,7 +63,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals500");
   }
 
   Future<void> speakconstitutionals6(String languageCode) async {
@@ -73,7 +71,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals600");
   }
 
   Future<void> speakconstitutionals7(String languageCode) async {
@@ -81,7 +79,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals700");
   }
 
   Future<void> speakconstitutionals8(String languageCode) async {
@@ -89,7 +87,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals800");
   }
 
   Future<void> speakconstitutionals9(String languageCode) async {
@@ -97,7 +95,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals900");
   }
 
   Future<void> speakconstitutionals10(String languageCode) async {
@@ -105,7 +103,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals1000");
   }
 
   Future<void> speakconstitutionals11(String languageCode) async {
@@ -113,7 +111,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals1100");
   }
 
   Future<void> speakconstitutionals12(String languageCode) async {
@@ -121,7 +119,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals1200");
   }
 
   Future<void> speakconstitutionals13(String languageCode) async {
@@ -129,7 +127,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutionals1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutionals1300");
   }
 
   @override

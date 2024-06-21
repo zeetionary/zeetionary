@@ -16,7 +16,7 @@ class EnglishEntryallied extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allied"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allied");
   }
 
   Future<void> speakallied425(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryallied extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many civilians died as a result of allied bombing."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Many civilians died as a result of allied bombing.");
   }
 
   Future<void> speakallied459(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryallied extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Italy joined the war on the Allied side in 1915."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Italy joined the war on the Allied side in 1915.");
   }
 
   Future<void> speakallied4399(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryallied extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Computer science and allied subjects are not taught here."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Computer science and allied subjects are not taught here.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryairbag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airbag"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airbag");
   }
 
   Future<void> speakairbag46282(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryairbag extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel."); // DOPSUM: CHANGE TEXT
+        "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel.");
   }
 
   // Future<void> speakairbag(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryairbag extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airbag"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airbag");
   // }
 
   // Future<void> speakairbag(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryairbag extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airbag"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airbag");
   // }
 
   @override

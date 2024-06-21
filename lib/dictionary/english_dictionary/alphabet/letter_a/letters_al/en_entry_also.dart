@@ -16,7 +16,7 @@ class EnglishEntryalso extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("also"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("also");
   }
 
   Future<void> speakalso74823(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalso extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She's fluent in French and German. She also speaks a little Italian."); // DOPSUM: CHANGE TEXT
+        "She's fluent in French and German. She also speaks a little Italian.");
   }
 
   Future<void> speakalso459(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryalso extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I didn't like it that much. Also, it was much too expensive."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I didn't like it that much. Also, it was much too expensive.");
   }
 
   Future<void> speakactive6255(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryalso extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Staying physically active in later years can also keep you feeling younger."); // DOPSUM: CHANGE TEXT
+        "Staying physically active in later years can also keep you feeling younger.");
   }
 
   // Future<void> speakalso(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryalso extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("also"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("also");
   // }
 
   @override

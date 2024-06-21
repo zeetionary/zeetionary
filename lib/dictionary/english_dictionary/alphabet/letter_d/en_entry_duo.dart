@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("duo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("duo");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("duo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("duo");
   }
 
   @override
@@ -353,175 +353,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The comedy duo Laurel and Hardy made many classic comedy films."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos2(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos3(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos4(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos5(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos6(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos7(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos8(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos9(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos10(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos11(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos12(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos13(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos14(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos15(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos16(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos17(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos18(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos19(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos20(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos21(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakduos22(String languageCode) async {
-    // DOPSUM: CHANGE speakduo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduos2200"); // DOPSUM: CHANGE TEXT
+        "The comedy duo Laurel and Hardy made many classic comedy films.");
   }
 
   @override

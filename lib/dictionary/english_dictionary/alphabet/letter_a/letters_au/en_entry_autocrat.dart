@@ -24,7 +24,7 @@ class EnglishEntryautocrat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("autocrat");
   }
 
   Future<void> speakautocrat934(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryautocrat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He governed as an autocrat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He governed as an autocrat.");
   }
 
   Future<void> speakautocrat937(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryautocrat extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The article painted her as an autocrat, angry with her husband and out of touch with her family."); // DOPSUM: CHANGE TEXT
+        "The article painted her as an autocrat, angry with her husband and out of touch with her family.");
   }
 
   // Future<void> speakautocrat(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autocrat");
   // }
 
   // Future<void> speakautocrat(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autocrat");
   // }
 
   // Future<void> speakautocrat(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autocrat");
   // }
 
   // Future<void> speakautocrat(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autocrat");
   // }
 
   // Future<void> speakautocrat(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autocrat");
   // }
 
   // Future<void> speakautocrat(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autocrat");
   // }
 
   @override

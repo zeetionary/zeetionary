@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dreamer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dreamer");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dreamer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dreamer");
   }
 
   @override
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was a romantic dreamer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was a romantic dreamer.");
   }
 
   Future<void> speakdreamers2(String languageCode) async {
@@ -359,8 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She often missed instructions because she was a dreamer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She often missed instructions because she was a dreamer.");
   }
 
   Future<void> speakdreamers3(String languageCode) async {
@@ -368,160 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Dreamers do not always remember their dreams."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers4(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers5(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers6(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers7(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers8(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers9(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers10(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers11(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers12(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers13(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers14(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers15(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers16(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers17(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers18(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers19(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers20(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers21(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdreamers22(String languageCode) async {
-    // DOPSUM: CHANGE speakdreamer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdreamers2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dreamers do not always remember their dreams.");
   }
 
   @override

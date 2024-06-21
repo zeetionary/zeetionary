@@ -18,7 +18,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burn");
   }
 
   Future<void> speakburns1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Fires were burning all over the city."); // DOPSUM: CHANGE TEXT
+        .speak("Fires were burning all over the city.");
   }
 
   Future<void> speakburns2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("A small candle burned brightly."); // DOPSUM: CHANGE TEXT
+        .speak("A small candle burned brightly.");
   }
 
   Future<void> speakburns3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The fire was still burning fiercely."); // DOPSUM: CHANGE TEXT
+        .speak("The fire was still burning fiercely.");
   }
 
   Future<void> speakburns4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She burned his old love letters."); // DOPSUM: CHANGE TEXT
+        .speak("She burned his old love letters.");
   }
 
   Future<void> speakburns5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "By nightfall the whole city was burning."); // DOPSUM: CHANGE TEXT
+        "By nightfall the whole city was burning.");
   }
 
   Future<void> speakburns6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The girl ran from the burning building."); // DOPSUM: CHANGE TEXT
+        "The girl ran from the burning building.");
   }
 
   Future<void> speakburns7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They called us to tell us that my aunt's house was burning."); // DOPSUM: CHANGE TEXT
+        "They called us to tell us that my aunt's house was burning.");
   }
 
   Future<void> speakburns8(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The house burned to the ground."); // DOPSUM: CHANGE TEXT
+        .speak("The house burned to the ground.");
   }
 
   Future<void> speakburns9(String languageCode) async {
@@ -99,7 +99,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ten people burned to death in the hotel fire."); // DOPSUM: CHANGE TEXT
+        "Ten people burned to death in the hotel fire.");
   }
 
   Future<void> speakburns10(String languageCode) async {
@@ -108,7 +108,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All his belongings were burnt in the fire."); // DOPSUM: CHANGE TEXT
+        "All his belongings were burnt in the fire.");
   }
 
   Future<void> speakburns11(String languageCode) async {
@@ -117,7 +117,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Several protesters burned American flags."); // DOPSUM: CHANGE TEXT
+        "Several protesters burned American flags.");
   }
 
   Future<void> speakburns12(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Which fuel burns most efficiently?"); // DOPSUM: CHANGE TEXT
+        .speak("Which fuel burns most efficiently?");
   }
 
   Future<void> speakburns13(String languageCode) async {
@@ -135,7 +135,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some people burn calories faster than others."); // DOPSUM: CHANGE TEXT
+        "Some people burn calories faster than others.");
   }
 
   Future<void> speakburns14(String languageCode) async {
@@ -144,7 +144,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I can smell something burning in the kitchen."); // DOPSUM: CHANGE TEXT
+        "I can smell something burning in the kitchen.");
   }
 
   Future<void> speakburns15(String languageCode) async {
@@ -152,7 +152,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Sorry—I burnt the cake."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Sorry—I burnt the cake.");
   }
 
   Future<void> speakburns16(String languageCode) async {
@@ -160,7 +160,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My skin burns easily."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My skin burns easily.");
   }
 
   Future<void> speakburns17(String languageCode) async {
@@ -169,7 +169,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I burnt my tongue trying to eat a hot soup."); // DOPSUM: CHANGE TEXT
+        "I burnt my tongue trying to eat a hot soup.");
   }
 
   Future<void> speakburns18(String languageCode) async {
@@ -178,7 +178,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The soup's hot. Don't burn your mouth."); // DOPSUM: CHANGE TEXT
+        .speak("The soup's hot. Don't burn your mouth.");
   }
 
   Future<void> speakburns19(String languageCode) async {
@@ -187,7 +187,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His face had been horrifically burnt by acid."); // DOPSUM: CHANGE TEXT
+        "His face had been horrifically burnt by acid.");
   }
 
   Future<void> speakburns20(String languageCode) async {
@@ -196,7 +196,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Your forehead's burning. Have you got a fever?"); // DOPSUM: CHANGE TEXT
+        "Your forehead's burning. Have you got a fever?");
   }
 
   Future<void> speakburns21(String languageCode) async {
@@ -205,7 +205,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our eyes were burning from the chemicals in the air."); // DOPSUM: CHANGE TEXT
+        "Our eyes were burning from the chemicals in the air.");
   }
 
   Future<void> speakburns22(String languageCode) async {
@@ -214,7 +214,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their torches burned brightly in the dark."); // DOPSUM: CHANGE TEXT
+        "Their torches burned brightly in the dark.");
   }
 
   Future<void> speakburns23(String languageCode) async {
@@ -223,7 +223,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She could sense the anger burning slowly inside him."); // DOPSUM: CHANGE TEXT
+        "She could sense the anger burning slowly inside him.");
   }
 
   Future<void> speakburns24(String languageCode) async {
@@ -232,7 +232,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The car was burning down the road."); // DOPSUM: CHANGE TEXT
+        .speak("The car was burning down the road.");
   }
 
   Future<void> speakburns25(String languageCode) async {
@@ -241,7 +241,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("So you did it just to burn me?"); // DOPSUM: CHANGE TEXT
+        .speak("So you did it just to burn me?");
   }
 
   Future<void> speakburns26(String languageCode) async {
@@ -250,7 +250,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The state has already burned through its cash reserves."); // DOPSUM: CHANGE TEXT
+        "The state has already burned through its cash reserves.");
   }
 
   Future<void> speakburns27(String languageCode) async {
@@ -259,7 +259,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She suffered serious burns but is expected to survive."); // DOPSUM: CHANGE TEXT
+        "She suffered serious burns but is expected to survive.");
   }
 
   Future<void> speakburns28(String languageCode) async {
@@ -268,7 +268,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He is recovering from burns to his face and hands."); // DOPSUM: CHANGE TEXT
+        "He is recovering from burns to his face and hands.");
   }
 
   Future<void> speakburns29(String languageCode) async {
@@ -276,7 +276,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburns2929");
   }
 
   Future<void> speakburns30(String languageCode) async {
@@ -284,7 +284,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburns3030");
   }
 
   @override

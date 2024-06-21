@@ -16,7 +16,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amniocentesis");
   }
 
   Future<void> speakamniocentesis4799(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Pregnant women over the age of 35 will be offered (an) amniocentesis."); // DOPSUM: CHANGE TEXT
+        "Pregnant women over the age of 35 will be offered (an) amniocentesis.");
   }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   // Future<void> speakamniocentesis(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amniocentesis");
   // }
 
   @override

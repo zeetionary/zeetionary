@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("director"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("director");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("director"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("director");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He's on the board of directors."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's on the board of directors.");
   }
 
   Future<void> speakdirectors2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Three executive directors were appointed to relieve the CEO of some day-to-day responsibilities."); // DOPSUM: CHANGE TEXT
+        "Three executive directors were appointed to relieve the CEO of some day-to-day responsibilities.");
   }
 
   Future<void> speakdirectors3(String languageCode) async {
@@ -240,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was an opportunity to meet the cast and director backstage."); // DOPSUM: CHANGE TEXT
+        "There was an opportunity to meet the cast and director backstage.");
   }
 
   Future<void> speakdirectors4(String languageCode) async {
@@ -249,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Are there any actors or directors you would particularly like to work with?"); // DOPSUM: CHANGE TEXT
+        "Are there any actors or directors you would particularly like to work with?");
   }
 
   Future<void> speakdirectors5(String languageCode) async {
@@ -257,8 +256,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was artistic director of the city's photography festival."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was artistic director of the city's photography festival.");
   }
 
   Future<void> speakdirectors6(String languageCode) async {
@@ -266,136 +265,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was musical director at the National Theatre."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors7(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors8(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors9(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors10(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors11(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors12(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors13(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors14(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors15(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors16(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors17(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors18(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors19(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors20(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors21(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdirectors22(String languageCode) async {
-    // DOPSUM: CHANGE speakdirector
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdirectors2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was musical director at the National Theatre.");
   }
 
   @override

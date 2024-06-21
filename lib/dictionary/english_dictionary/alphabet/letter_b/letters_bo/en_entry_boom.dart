@@ -22,7 +22,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boom");
   }
 
   Future<void> speakbooms1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Living standards improved rapidly during the post-war boom."); // DOPSUM: CHANGE TEXT
+        "Living standards improved rapidly during the post-war boom.");
   }
 
   Future<void> speakbooms2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This year has seen a boom in book sales."); // DOPSUM: CHANGE TEXT
+        "This year has seen a boom in book sales.");
   }
 
   Future<void> speakbooms3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The only way to satisfy the golf boom was to build more courses."); // DOPSUM: CHANGE TEXT
+        "The only way to satisfy the golf boom was to build more courses.");
   }
 
   Future<void> speakbooms4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sailors adjusted the boom to catch the wind."); // DOPSUM: CHANGE TEXT
+        "Sailors adjusted the boom to catch the wind.");
   }
 
   Future<void> speakbooms5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The deafening boom of the explosion was heard up to 10 kilometres away."); // DOPSUM: CHANGE TEXT
+        "The deafening boom of the explosion was heard up to 10 kilometres away.");
   }
 
   Future<void> speakbooms6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A crash of thunder boomed so loudly that the floor shook."); // DOPSUM: CHANGE TEXT
+        "A crash of thunder boomed so loudly that the floor shook.");
   }
 
   Future<void> speakbooms7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("A voice boomed out from the darkness."); // DOPSUM: CHANGE TEXT
+        .speak("A voice boomed out from the darkness.");
   }
 
   Future<void> speakbooms8(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "By the 1980s, the computer industry was booming."); // DOPSUM: CHANGE TEXT
+        "By the 1980s, the computer industry was booming.");
   }
 
   Future<void> speakbooms9(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbooms99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbooms99");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("device"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("device");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("device"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("device");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new devices will be installed at US airports."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new devices will be installed at US airports.");
   }
 
   Future<void> speakdevices2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This device allows deaf people to communicate by typing messages instead of speaking."); // DOPSUM: CHANGE TEXT
+        "This device allows deaf people to communicate by typing messages instead of speaking.");
   }
 
   Future<void> speakdevices3(String languageCode) async {
@@ -239,8 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All new cars are now fitted with these safety devices."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All new cars are now fitted with these safety devices.");
   }
 
   Future<void> speakdevices4(String languageCode) async {
@@ -248,8 +247,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He measured the room using an ingenious electronic device."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He measured the room using an ingenious electronic device.");
   }
 
   Future<void> speakdevices5(String languageCode) async {
@@ -258,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This device enables pilots to navigate with pinpoint accuracy."); // DOPSUM: CHANGE TEXT
+        "This device enables pilots to navigate with pinpoint accuracy.");
   }
 
   Future<void> speakdevices6(String languageCode) async {
@@ -266,8 +265,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You can store thousands of photos on your device."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You can store thousands of photos on your device.");
   }
 
   Future<void> speakdevices7(String languageCode) async {
@@ -275,8 +273,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Now connect the device to your computer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Now connect the device to your computer.");
   }
 
   Future<void> speakdevices8(String languageCode) async {
@@ -284,8 +281,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was the world's first atomic device."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It was the world's first atomic device.");
   }
 
   Future<void> speakdevices9(String languageCode) async {
@@ -293,8 +289,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A powerful device exploded outside the station."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A powerful device exploded outside the station.");
   }
 
   Future<void> speakdevices10(String languageCode) async {
@@ -303,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Targeted advertising on social media is very successful as a marketing device."); // DOPSUM: CHANGE TEXT
+        "Targeted advertising on social media is very successful as a marketing device.");
   }
 
   Future<void> speakdevices11(String languageCode) async {
@@ -312,7 +307,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We use a range of devices for testing children's numerical ability."); // DOPSUM: CHANGE TEXT
+        "We use a range of devices for testing children's numerical ability.");
   }
 
   Future<void> speakdevices12(String languageCode) async {
@@ -321,7 +316,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This was originally intended as a device for making sure taxes were paid on time."); // DOPSUM: CHANGE TEXT
+        "This was originally intended as a device for making sure taxes were paid on time.");
   }
 
   Future<void> speakdevices13(String languageCode) async {
@@ -330,7 +325,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The report was a device used to hide rather than reveal problems."); // DOPSUM: CHANGE TEXT
+        "The report was a device used to hide rather than reveal problems.");
   }
 
   Future<void> speakdevices14(String languageCode) async {
@@ -338,8 +333,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This device can be seen as somewhat dishonest."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This device can be seen as somewhat dishonest.");
   }
 
   Future<void> speakdevices15(String languageCode) async {
@@ -347,64 +341,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Metaphor and symbol are literary devices."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices16(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices17(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices18(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices19(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices20(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices21(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevices22(String languageCode) async {
-    // DOPSUM: CHANGE speakdevice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevices2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Metaphor and symbol are literary devices.");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("in behalf of"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("in behalf of");
   }
 
   Future<void> speakInbehalfofs1(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He began a petition in behalf of the farmers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He began a petition in behalf of the farmers.");
   }
 
   Future<void> speakInbehalfofs2(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakInbehalfofs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakInbehalfofs22");
   }
 
   Future<void> speakInbehalfofs3(String languageCode) async {
@@ -49,7 +48,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakInbehalfofs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakInbehalfofs33");
   }
 
   Future<void> speakInbehalfofs4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakInbehalfofs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakInbehalfofs44");
   }
 
   Future<void> speakInbehalfofs5(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakInbehalfofs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakInbehalfofs55");
   }
 
   Future<void> speakInbehalfofs6(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakInbehalfofs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakInbehalfofs66");
   }
 
   Future<void> speakInbehalfofs7(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntryinbehalfof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakInbehalfofs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakInbehalfofs77");
   }
 
   @override

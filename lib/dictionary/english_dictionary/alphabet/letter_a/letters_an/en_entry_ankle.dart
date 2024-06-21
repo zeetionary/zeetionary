@@ -16,7 +16,7 @@ class EnglishEntryankle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ankle");
   }
 
   Future<void> speakankle1112(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryankle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She suffered a serious ankle injury in training."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She suffered a serious ankle injury in training.");
   }
 
   Future<void> speakankle1114(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryankle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My ankles have swollen."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My ankles have swollen.");
   }
 
   // Future<void> speakankle(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryankle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ankle");
   // }
 
   // Future<void> speakankle(String languageCode) async {
@@ -49,7 +48,7 @@ class EnglishEntryankle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ankle");
   // }
 
   // Future<void> speakankle(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryankle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ankle");
   // }
 
   // Future<void> speakankle(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntryankle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ankle");
   // }
 
   // Future<void> speakankle(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntryankle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ankle");
   // }
 
   // Future<void> speakankle(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntryankle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ankle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ankle");
   // }
 
   @override

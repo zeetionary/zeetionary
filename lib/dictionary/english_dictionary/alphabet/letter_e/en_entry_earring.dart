@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("earring"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("earring");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("earring"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("earring");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was wearing a diamond necklace with matching earrings."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was wearing a diamond necklace with matching earrings.");
   }
 
   Future<void> speakearrings2(String languageCode) async {
@@ -360,168 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She wore a pair of dangly earrings."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings3(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings4(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings5(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings6(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings7(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings8(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings9(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings10(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings11(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings12(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings13(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings14(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings15(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings16(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings17(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings18(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings19(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings20(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings21(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakearrings22(String languageCode) async {
-    // DOPSUM: CHANGE speakearring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearrings2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She wore a pair of dangly earrings.");
   }
 
   @override
@@ -600,19 +439,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings3("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings3("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings300earrings3
+          // speakearrings3("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -626,19 +454,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings4("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings4("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings400earrings4
+          // speakearrings4("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -652,19 +469,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings5("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings5("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings500earrings5
+          // speakearrings5("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -678,19 +484,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings6("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings6("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings600earrings6
+          // speakearrings6("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -704,19 +499,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings7("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings7("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings700earrings7
+          // speakearrings7("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -730,19 +514,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings8("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings8("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings800earrings8
+          // speakearrings8("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -756,19 +529,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings9("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings9("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings900earrings9
+          // speakearrings9("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -782,19 +544,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings_1000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings10("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings10("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings_1000earrings10
+          // speakearrings10("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -808,19 +559,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings11("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings11("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1100earrings11
+          // speakearrings11("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -834,19 +574,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings12("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings12("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1200earrings12
+          // speakearrings12("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -860,19 +589,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings13("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings13("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1300earrings13
+          // speakearrings13("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -886,19 +604,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings14("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings14("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1400earrings14
+          // speakearrings14("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -912,19 +619,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings15("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings15("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1500earrings15
+          // speakearrings15("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -938,19 +634,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings16("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1600earrings16
+          // speakearrings16("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -964,19 +649,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings17("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1700earrings17
+          // speakearrings17("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -990,19 +664,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings18("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1800earrings18
+          // speakearrings18("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1016,19 +679,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings19("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings1900earrings19
+          // speakearrings19("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1042,19 +694,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings20("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings_2000earrings20
+          // speakearrings20("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1068,19 +709,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings21("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings2100earrings21
+          // speakearrings21("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1094,19 +724,8 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearrings2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakearrings22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearrings22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakearrings2200earrings22
+          // speakearrings22("en-US"""),
           //         ),
           //       ],
           //     ),

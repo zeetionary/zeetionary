@@ -24,7 +24,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("badge"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("badge");
   }
 
   Future<void> speakbadges1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She wore a badge saying ‘Vote for Obama’."); // DOPSUM: CHANGE TEXT
+        "She wore a badge saying ‘Vote for Obama’.");
   }
 
   Future<void> speakbadges2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He pulled out a badge and said he was a cop."); // DOPSUM: CHANGE TEXT
+        "He pulled out a badge and said he was a cop.");
   }
 
   Future<void> speakbadges3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He sewed the school badge neatly onto his uniform."); // DOPSUM: CHANGE TEXT
+        "He sewed the school badge neatly onto his uniform.");
   }
 
   Future<void> speakbadges4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His gun was a badge of power for him."); // DOPSUM: CHANGE TEXT
+        .speak("His gun was a badge of power for him.");
   }
 
   Future<void> speakbadges5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He saw his injuries as a badge of honour."); // DOPSUM: CHANGE TEXT
+        "He saw his injuries as a badge of honour.");
   }
 
   Future<void> speakbadges6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBadges66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadges66");
   }
 
   Future<void> speakbadges7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBadges77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadges77");
   }
 
   @override

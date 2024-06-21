@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crime"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crime");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crime"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crime");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This month's figures show an increase in violent crime."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This month's figures show an increase in violent crime.");
   }
 
   Future<void> speakcrimes2(String languageCode) async {
@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There needs to be a partnership between police and public in the fight against crime."); // DOPSUM: CHANGE TEXT
+        "There needs to be a partnership between police and public in the fight against crime.");
   }
 
   Future<void> speakcrimes3(String languageCode) async {
@@ -239,8 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Stores spend more and more on crime prevention every year."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Stores spend more and more on crime prevention every year.");
   }
 
   Future<void> speakcrimes4(String languageCode) async {
@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He began to drift into a life of petty crime."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He began to drift into a life of petty crime.");
   }
 
   Future<void> speakcrimes5(String languageCode) async {
@@ -257,8 +256,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He turned to crime when he dropped out of school."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He turned to crime when he dropped out of school.");
   }
 
   Future<void> speakcrimes6(String languageCode) async {
@@ -266,8 +264,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is no proof that she committed a crime."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There is no proof that she committed a crime.");
   }
 
   Future<void> speakcrimes7(String languageCode) async {
@@ -275,8 +272,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The massacre was a crime against humanity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The massacre was a crime against humanity.");
   }
 
   Future<void> speakcrimes8(String languageCode) async {
@@ -284,8 +280,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "DNA testing can be used to solve old crimes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DNA testing can be used to solve old crimes.");
   }
 
   Future<void> speakcrimes9(String languageCode) async {
@@ -293,8 +288,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It's a crime to waste so much money."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It's a crime to waste so much money.");
   }
 
   Future<void> speakcrimes10(String languageCode) async {
@@ -302,7 +296,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrimes1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1000");
   }
 
   Future<void> speakcrimes11(String languageCode) async {
@@ -310,7 +304,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrimes1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1100");
   }
 
   Future<void> speakcrimes12(String languageCode) async {
@@ -318,7 +312,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrimes1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1200");
   }
 
   Future<void> speakcrimes13(String languageCode) async {
@@ -326,7 +320,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrimes1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1300");
   }
 
   @override

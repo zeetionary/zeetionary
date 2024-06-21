@@ -16,7 +16,7 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anatomy");
   }
 
   Future<void> speakanatomy409(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "An understanding of human anatomy is important to a dancer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("An understanding of human anatomy is important to a dancer.");
   }
 
   Future<void> speakanatomy499(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The female anatomy includes organs like the ovaries and uterus."); // DOPSUM: CHANGE TEXT
+        "The female anatomy includes organs like the ovaries and uterus.");
   }
 
   Future<void> speakanatomy9500(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Various parts of his anatomy were clearly visible."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Various parts of his anatomy were clearly visible.");
   }
 
   Future<void> speakanatomy5582(String languageCode) async {
@@ -52,7 +52,7 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The article explores an anatomy of the current recession's causes."); // DOPSUM: CHANGE TEXT
+        "The article explores an anatomy of the current recession's causes.");
   }
 
   // Future<void> speakanatomy(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anatomy");
   // }
 
   // Future<void> speakanatomy(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anatomy");
   // }
 
   // Future<void> speakanatomy(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anatomy");
   // }
 
   // Future<void> speakanatomy(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anatomy");
   // }
 
   @override

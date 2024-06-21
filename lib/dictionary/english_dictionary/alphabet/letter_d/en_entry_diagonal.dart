@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagonal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagonal");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagonal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagonal");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The book has a diagonal black stripe on the cover."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The book has a diagonal black stripe on the cover.");
   }
 
   Future<void> speakdiagonals2(String languageCode) async {
@@ -230,168 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The diagonal divides the square into two triangles."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagonals22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagonal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagonals2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The diagonal divides the square into two triangles.");
   }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("constellation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constellation");
   }
 
   Future<void> speakconstellations1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Little Bear constellation is still used by navigators at sea."); // DOPSUM: CHANGE TEXT
+        "The Little Bear constellation is still used by navigators at sea.");
   }
 
   Future<void> speakconstellations2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "At our annual ceremony we had a whole constellation of movie stars and directors."); // DOPSUM: CHANGE TEXT
+        "At our annual ceremony we had a whole constellation of movie stars and directors.");
   }
 
   Future<void> speakconstellations3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations300");
   }
 
   Future<void> speakconstellations4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations400");
   }
 
   Future<void> speakconstellations5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations500");
   }
 
   Future<void> speakconstellations6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations600");
   }
 
   Future<void> speakconstellations7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations700");
   }
 
   Future<void> speakconstellations8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations800");
   }
 
   Future<void> speakconstellations9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations900");
   }
 
   Future<void> speakconstellations10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations1000");
   }
 
   Future<void> speakconstellations11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations1100");
   }
 
   Future<void> speakconstellations12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations1200");
   }
 
   Future<void> speakconstellations13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntryconstellation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstellations1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstellations1300");
   }
 
   @override

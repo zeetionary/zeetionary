@@ -21,7 +21,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compulsory"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compulsory");
   }
 
   Future<void> speakcompulsorys1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "English is a compulsory subject at this level."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("English is a compulsory subject at this level.");
   }
 
   Future<void> speakcompulsorys2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is no compulsory education in this part of Africa."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There is no compulsory education in this part of Africa.");
   }
 
   Future<void> speakcompulsorys3(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys300");
   }
 
   Future<void> speakcompulsorys4(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys400");
   }
 
   Future<void> speakcompulsorys5(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys500");
   }
 
   Future<void> speakcompulsorys6(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys600");
   }
 
   Future<void> speakcompulsorys7(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys700");
   }
 
   Future<void> speakcompulsorys8(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys800");
   }
 
   Future<void> speakcompulsorys9(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys900");
   }
 
   Future<void> speakcompulsorys10(String languageCode) async {
@@ -103,7 +102,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys1000");
   }
 
   Future<void> speakcompulsorys11(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys1100");
   }
 
   Future<void> speakcompulsorys12(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys1200");
   }
 
   Future<void> speakcompulsorys13(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompulsorys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompulsorys1300");
   }
 
   @override

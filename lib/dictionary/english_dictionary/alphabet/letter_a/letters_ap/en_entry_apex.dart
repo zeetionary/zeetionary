@@ -22,7 +22,7 @@ class EnglishEntryapex extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apex");
   }
 
   Future<void> speakapex213(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryapex extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The king was at the apex of society."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The king was at the apex of society.");
   }
 
   Future<void> speakapex215(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryapex extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "At 37, she'd reached the apex of her career."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("At 37, she'd reached the apex of her career.");
   }
 
   // Future<void> speakapex(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apex");
   // }
 
   // Future<void> speakapex(String languageCode) async {
@@ -56,7 +54,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apex");
   // }
 
   // Future<void> speakapex(String languageCode) async {
@@ -64,7 +62,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apex");
   // }
 
   // Future<void> speakapex(String languageCode) async {
@@ -72,7 +70,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apex");
   // }
 
   // Future<void> speakapex(String languageCode) async {
@@ -80,7 +78,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apex");
   // }
 
   // Future<void> speakapex(String languageCode) async {
@@ -88,7 +86,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apex");
   // }
 
   @override

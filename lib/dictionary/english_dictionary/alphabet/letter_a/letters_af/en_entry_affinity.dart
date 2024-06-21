@@ -16,7 +16,7 @@ class EnglishEntryaffinity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affinity");
   }
 
   Future<void> speakaffi5699(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaffinity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sam was born in the country and had a deep affinity with nature."); // DOPSUM: CHANGE TEXT
+        "Sam was born in the country and had a deep affinity with nature.");
   }
 
   Future<void> speakaf155(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaffinity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Humans have a special affinity for dolphins."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Humans have a special affinity for dolphins.");
   }
 
   Future<void> speakaffinity145(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryaffinity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is a close affinity between Italian and Spanish."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There is a close affinity between Italian and Spanish.");
   }
 
   // Future<void> speakaffinity(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntryaffinity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affinity");
   // }
 
   // Future<void> speakaffinity(String languageCode) async {
@@ -59,7 +58,7 @@ class EnglishEntryaffinity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affinity");
   // }
 
   @override

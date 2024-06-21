@@ -21,7 +21,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("contagious"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("contagious");
   }
 
   Future<void> speakcontagiouss1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The new disease proved contagious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new disease proved contagious.");
   }
 
   Future<void> speakcontagiouss2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The infection is highly contagious, so don't let anyone else use your towel."); // DOPSUM: CHANGE TEXT
+        "The infection is highly contagious, so don't let anyone else use your towel.");
   }
 
   Future<void> speakcontagiouss3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Keep him out of school until he's not contagious anymore."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Keep him out of school until he's not contagious anymore.");
   }
 
   Future<void> speakcontagiouss4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The patient is most contagious for the first 3 weeks from their earliest symptom."); // DOPSUM: CHANGE TEXT
+        "The patient is most contagious for the first 3 weeks from their earliest symptom.");
   }
 
   Future<void> speakcontagiouss5(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss500");
   }
 
   Future<void> speakcontagiouss6(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss600");
   }
 
   Future<void> speakcontagiouss7(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss700");
   }
 
   Future<void> speakcontagiouss8(String languageCode) async {
@@ -89,7 +88,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss800");
   }
 
   Future<void> speakcontagiouss9(String languageCode) async {
@@ -97,7 +96,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss900");
   }
 
   Future<void> speakcontagiouss10(String languageCode) async {
@@ -105,7 +104,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss1000");
   }
 
   Future<void> speakcontagiouss11(String languageCode) async {
@@ -113,7 +112,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss1100");
   }
 
   Future<void> speakcontagiouss12(String languageCode) async {
@@ -121,7 +120,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss1200");
   }
 
   Future<void> speakcontagiouss13(String languageCode) async {
@@ -129,7 +128,7 @@ class EnglishEntrycontagious extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontagiouss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcontagiouss1300");
   }
 
   @override

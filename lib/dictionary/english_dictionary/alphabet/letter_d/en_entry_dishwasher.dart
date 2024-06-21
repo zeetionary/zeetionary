@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dishwasher"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dishwasher");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dishwasher"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dishwasher");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Are these glasses dishwasher safe?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Are these glasses dishwasher safe?");
   }
 
   Future<void> speakdishwashers2(String languageCode) async {
@@ -230,8 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It wastes energy to run the dishwasher half empty."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It wastes energy to run the dishwasher half empty.");
   }
 
   Future<void> speakdishwashers3(String languageCode) async {
@@ -239,160 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She hired a new dishwasher for the busy season."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers4(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers5(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers6(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers7(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers8(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers9(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers10(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers11(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers12(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers13(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers14(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers15(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers16(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers17(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers18(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers19(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers20(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers21(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdishwashers22(String languageCode) async {
-    // DOPSUM: CHANGE speakdishwasher
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdishwashers2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She hired a new dishwasher for the busy season.");
   }
 
   @override

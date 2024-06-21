@@ -22,7 +22,7 @@ class EnglishEntryapology extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apology");
   }
 
   Future<void> speakapology552(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryapology extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You owe him an apology for what you said."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You owe him an apology for what you said.");
   }
 
   Future<void> speakapology555(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryapology extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Please accept my sincere apologies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Please accept my sincere apologies.");
   }
 
   // Future<void> speakapology(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apology");
   // }
 
   // Future<void> speakapology(String languageCode) async {
@@ -56,7 +54,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apology");
   // }
 
   // Future<void> speakapology(String languageCode) async {
@@ -64,7 +62,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apology");
   // }
 
   // Future<void> speakapology(String languageCode) async {
@@ -72,7 +70,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apology");
   // }
 
   // Future<void> speakapology(String languageCode) async {
@@ -80,7 +78,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apology");
   // }
 
   // Future<void> speakapology(String languageCode) async {
@@ -88,7 +86,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apology");
   // }
 
   @override

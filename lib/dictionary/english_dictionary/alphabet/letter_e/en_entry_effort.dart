@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("effort"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("effort");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("effort"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("effort");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The project was a team effort."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The project was a team effort.");
   }
 
   Future<void> speakefforts2(String languageCode) async {
@@ -361,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I didn't really feel like going out, but I am glad I made the effort."); // DOPSUM: CHANGE TEXT
+        "I didn't really feel like going out, but I am glad I made the effort.");
   }
 
   Future<void> speakefforts3(String languageCode) async {
@@ -369,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Please make an effort to be on time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Please make an effort to be on time.");
   }
 
   Future<void> speakefforts4(String languageCode) async {
@@ -378,8 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to make a concerted effort to finish on time."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need to make a concerted effort to finish on time.");
   }
 
   Future<void> speakefforts5(String languageCode) async {
@@ -387,8 +385,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need to focus your efforts on critical areas first."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You need to focus your efforts on critical areas first.");
   }
 
   Future<void> speakefforts6(String languageCode) async {
@@ -396,8 +394,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm glad to hear that many of you support our efforts."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I'm glad to hear that many of you support our efforts.");
   }
 
   Future<void> speakefforts7(String languageCode) async {
@@ -406,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company has laid off 150 workers in an effort to save money."); // DOPSUM: CHANGE TEXT
+        "The company has laid off 150 workers in an effort to save money.");
   }
 
   Future<void> speakefforts8(String languageCode) async {
@@ -414,8 +412,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Despite our best efforts, we didn't manage to win the game."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Despite our best efforts, we didn't manage to win the game.");
   }
 
   Future<void> speakefforts9(String languageCode) async {
@@ -423,8 +421,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He failed in his efforts to give up smoking."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He failed in his efforts to give up smoking.");
   }
 
   Future<void> speakefforts10(String languageCode) async {
@@ -432,8 +429,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You should put more effort into your work."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You should put more effort into your work.");
   }
 
   Future<void> speakefforts11(String languageCode) async {
@@ -442,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A great deal of time and effort has gone into making this event a success."); // DOPSUM: CHANGE TEXT
+        "A great deal of time and effort has gone into making this event a success.");
   }
 
   Future<void> speakefforts12(String languageCode) async {
@@ -450,8 +446,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's a long climb to the top, but well worth the effort."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's a long climb to the top, but well worth the effort.");
   }
 
   Future<void> speakefforts13(String languageCode) async {
@@ -459,8 +455,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The task required almost no effort."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The task required almost no effort.");
   }
 
   Future<void> speakefforts14(String languageCode) async {
@@ -469,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The United Nations’ peacekeeping effort reduced violence in the region."); // DOPSUM: CHANGE TEXT
+        "The United Nations’ peacekeeping effort reduced violence in the region.");
   }
 
   Future<void> speakefforts15(String languageCode) async {
@@ -477,64 +472,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm afraid this essay is a poor effort."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts16(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts17(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts18(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts19(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts20(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts21(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakefforts22(String languageCode) async {
-    // DOPSUM: CHANGE speakeffort
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakefforts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm afraid this essay is a poor effort.");
   }
 
   @override
@@ -1009,175 +947,20 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakefforts2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakefforts22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakefforts22("en-US"""),
+          //           ExampleSentenceEnglish(text: """speakefforts1600efforts16
+          // speakefforts16
+          // speakefforts1700efforts17
+          // speakefforts17
+          // speakefforts1800efforts18
+          // speakefforts18
+          // speakefforts1900efforts19
+          // speakefforts19
+          // speakefforts_2000efforts20
+          // speakefforts20
+          // speakefforts2100efforts21
+          // speakefforts21
+          // speakefforts2200efforts22
+          // speakefforts22("en-US"""),
           //         ),
           //       ],
           //     ),

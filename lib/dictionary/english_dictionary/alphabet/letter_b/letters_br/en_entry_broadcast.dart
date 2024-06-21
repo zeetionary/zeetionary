@@ -18,7 +18,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broadcast"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("broadcast");
   }
 
   Future<void> speakbroadcasts1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most of the programmes are broadcast in English."); // DOPSUM: CHANGE TEXT
+        "Most of the programmes are broadcast in English.");
   }
 
   Future<void> speakbroadcasts2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The BBC began broadcasting in 1922."); // DOPSUM: CHANGE TEXT
+        .speak("The BBC began broadcasting in 1922.");
   }
 
   Future<void> speakbroadcasts3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't like to broadcast the fact that my father owns the company."); // DOPSUM: CHANGE TEXT
+        "I don't like to broadcast the fact that my father owns the company.");
   }
 
   Future<void> speakbroadcasts4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We watched a live broadcast of the speech."); // DOPSUM: CHANGE TEXT
+        "We watched a live broadcast of the speech.");
   }
 
   Future<void> speakbroadcasts5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The evening news broadcasts are very different today than they were 25 years ago."); // DOPSUM: CHANGE TEXT
+        "The evening news broadcasts are very different today than they were 25 years ago.");
   }
 
   Future<void> speakbroadcasts6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They do not own a major television broadcast network."); // DOPSUM: CHANGE TEXT
+        "They do not own a major television broadcast network.");
   }
 
   Future<void> speakbroadcasts7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadcasts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbroadcasts77");
   }
 
   @override

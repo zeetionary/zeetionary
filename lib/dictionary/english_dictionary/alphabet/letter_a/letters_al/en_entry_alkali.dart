@@ -16,7 +16,7 @@ class EnglishEntryalkali extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alkali"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alkali");
   }
 
   Future<void> speakalkali85236(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalkali extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When an acid and an alkali react together the result is a salt and water."); // DOPSUM: CHANGE TEXT
+        "When an acid and an alkali react together the result is a salt and water.");
   }
 
   // Future<void> speakalkali(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalkali extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alkali"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alkali");
   // }
 
   // Future<void> speakalkali(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalkali extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alkali"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alkali");
   // }
 
   @override

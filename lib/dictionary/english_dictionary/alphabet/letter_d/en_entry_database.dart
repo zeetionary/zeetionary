@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("database"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("database");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("database"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("database");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The database is updated monthly."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The database is updated monthly.");
   }
 
   Future<void> speakdatabases2(String languageCode) async {
@@ -230,96 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new database contains 200 000 images."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases3(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases4(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases5(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases6(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases7(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases8(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases9(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases10(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases11(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases12(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdatabases13(String languageCode) async {
-    // DOPSUM: CHANGE speakdatabase
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdatabases1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new database contains 200 000 images.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryadaptation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adaptation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adaptation");
   }
 
   Future<void> speakadapt3254(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadaptation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The process of adaptation to a new school is difficult for some children."); // DOPSUM: CHANGE TEXT
+        "The process of adaptation to a new school is difficult for some children.");
   }
 
   Future<void> speakadaptat2489(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryadaptation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "a screen adaptation of Shakespeare’s ‘Macbeth’"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("a screen adaptation of Shakespeare’s ‘Macbeth’");
   }
 
   // Future<void> speakadaptation(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryadaptation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adaptation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adaptation");
   // }
 
   @override

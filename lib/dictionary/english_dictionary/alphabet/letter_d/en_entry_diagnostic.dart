@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagnostic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagnostic");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagnostic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagnostic");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Get a low-cost car diagnostic tool to identify the fault."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Get a low-cost car diagnostic tool to identify the fault.");
   }
 
   Future<void> speakdiagnostics2(String languageCode) async {
@@ -230,8 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has specific conditions which are diagnostic of AIDS."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has specific conditions which are diagnostic of AIDS.");
   }
 
   Future<void> speakdiagnostics3(String languageCode) async {
@@ -240,159 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The model is a useful diagnostic tool to determine what has the most impact on employees' performance."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagnostics22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagnostic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagnostics2200"); // DOPSUM: CHANGE TEXT
+        "The model is a useful diagnostic tool to determine what has the most impact on employees' performance.");
   }
 
   @override

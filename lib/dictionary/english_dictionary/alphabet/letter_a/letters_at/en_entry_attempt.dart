@@ -24,7 +24,7 @@ class EnglishEntryattempt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attempt");
   }
 
   Future<void> speakattempt742(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryattempt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I passed my driving test at the first attempt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I passed my driving test at the first attempt.");
   }
 
   Future<void> speakattempt743(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryattempt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This is the third attempt on the President's life."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This is the third attempt on the President's life.");
   }
 
   Future<void> speakattempt749(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryattempt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I will attempt to answer all your questions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I will attempt to answer all your questions.");
   }
 
   Future<void> speakattempt750(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryattempt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Do not attempt to repair this yourself."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Do not attempt to repair this yourself.");
   }
 
   // Future<void> speakattempt(String languageCode) async {
@@ -68,7 +65,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attempt");
   // }
 
   // Future<void> speakattempt(String languageCode) async {
@@ -76,7 +73,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attempt");
   // }
 
   // Future<void> speakattempt(String languageCode) async {
@@ -84,7 +81,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attempt");
   // }
 
   // Future<void> speakattempt(String languageCode) async {
@@ -92,7 +89,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attempt");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryamorously extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amorously"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amorously");
   }
 
   Future<void> speakamorously5555(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryamorously extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He looked at her amorously."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He looked at her amorously.");
   }
 
   // Future<void> speakamorously(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryamorously extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amorously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amorously");
   // }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryallegiance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allegiance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allegiance");
   }
 
   Future<void> speakallegiance12566(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryallegiance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He affirmed his allegiance to the president."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He affirmed his allegiance to the president.");
   }
 
   // Future<void> speakallegiance(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryallegiance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allegiance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allegiance");
   // }
 
   // Future<void> speakallegiance(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryallegiance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("allegiance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allegiance");
   // }
 
   @override

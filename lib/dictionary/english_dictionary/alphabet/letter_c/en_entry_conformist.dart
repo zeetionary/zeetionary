@@ -21,7 +21,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conformist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conformist");
   }
 
   Future<void> speakconformists1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In a society that values individuality, being a conformist is often seen as a negative trait."); // DOPSUM: CHANGE TEXT
+        "In a society that values individuality, being a conformist is often seen as a negative trait.");
   }
 
   Future<void> speakconformists2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists200");
   }
 
   Future<void> speakconformists3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists300");
   }
 
   Future<void> speakconformists4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists400");
   }
 
   Future<void> speakconformists5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists500");
   }
 
   Future<void> speakconformists6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists600");
   }
 
   Future<void> speakconformists7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists700");
   }
 
   Future<void> speakconformists8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists800");
   }
 
   Future<void> speakconformists9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists900");
   }
 
   Future<void> speakconformists10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists1000");
   }
 
   Future<void> speakconformists11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists1100");
   }
 
   Future<void> speakconformists12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists1200");
   }
 
   Future<void> speakconformists13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntryconformist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconformists1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconformists1300");
   }
 
   @override

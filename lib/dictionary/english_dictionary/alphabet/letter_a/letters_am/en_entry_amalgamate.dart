@@ -16,7 +16,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amalgamate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amalgamate");
   }
 
   Future<void> speakamalgamate4444(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A number of colleges have amalgamated to form the new university."); // DOPSUM: CHANGE TEXT
+        "A number of colleges have amalgamated to form the new university.");
   }
 
   Future<void> speakamalgamate68552(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They decided to amalgamate the two schools."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They decided to amalgamate the two schools.");
   }
 
   Future<void> speakamalgamate4588(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This information will be amalgamated with information obtained earlier."); // DOPSUM: CHANGE TEXT
+        "This information will be amalgamated with information obtained earlier.");
   }
 
   @override

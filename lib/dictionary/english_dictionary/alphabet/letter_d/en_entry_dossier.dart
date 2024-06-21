@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dossier"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dossier");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dossier"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dossier");
   }
 
   @override
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We have a dossier on him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have a dossier on him.");
   }
 
   Future<void> speakdossiers2(String languageCode) async {
@@ -359,168 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The group compiled a dossier of patients' complaints."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers3(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers4(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers5(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers6(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers7(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers8(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers9(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers10(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers11(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers12(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers13(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers14(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers15(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers16(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers17(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers18(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers19(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers20(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers21(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdossiers22(String languageCode) async {
-    // DOPSUM: CHANGE speakdossier
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdossiers2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The group compiled a dossier of patients' complaints.");
   }
 
   @override

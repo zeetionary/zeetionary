@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dramatically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dramatically");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dramatically"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dramatically");
   }
 
   @override
@@ -352,8 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Prices have fallen dramatically."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Prices have fallen dramatically.");
   }
 
   Future<void> speakdramaticallys2(String languageCode) async {
@@ -361,8 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Prices have increased dramatically in the last few years."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Prices have increased dramatically in the last few years.");
   }
 
   Future<void> speakdramaticallys3(String languageCode) async {
@@ -370,8 +369,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Events could have developed in a dramatically different way."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Events could have developed in a dramatically different way.");
   }
 
   Future<void> speakdramaticallys4(String languageCode) async {
@@ -379,8 +378,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The mountains rose dramatically behind them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The mountains rose dramatically behind them.");
   }
 
   Future<void> speakdramaticallys5(String languageCode) async {
@@ -389,143 +387,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The opera does not compare musically or dramatically with the composer's best work."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdramaticallys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdramatically
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdramaticallys2200"); // DOPSUM: CHANGE TEXT
+        "The opera does not compare musically or dramatically with the composer's best work.");
   }
 
   @override

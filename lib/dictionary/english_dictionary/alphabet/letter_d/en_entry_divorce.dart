@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("divorce"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("divorce");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("divorce"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("divorce");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The marriage ended in divorce."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The marriage ended in divorce.");
   }
 
   Future<void> speakdivorces2(String languageCode) async {
@@ -360,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Divorce proceedings started today."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Divorce proceedings started today.");
   }
 
   Future<void> speakdivorces3(String languageCode) async {
@@ -369,8 +367,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He remarried after a divorce from his first wife, Kate."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He remarried after a divorce from his first wife, Kate.");
   }
 
   Future<void> speakdivorces4(String languageCode) async {
@@ -378,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Bella wants a divorce."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Bella wants a divorce.");
   }
 
   Future<void> speakdivorces5(String languageCode) async {
@@ -386,8 +384,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She told him she was filing for divorce."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She told him she was filing for divorce.");
   }
 
   Future<void> speakdivorces6(String languageCode) async {
@@ -395,8 +392,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He cited adultery as grounds for divorce."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He cited adultery as grounds for divorce.");
   }
 
   Future<void> speakdivorces7(String languageCode) async {
@@ -405,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Why is there such a divorce between the arts and the sciences in this country's schools?"); // DOPSUM: CHANGE TEXT
+        "Why is there such a divorce between the arts and the sciences in this country's schools?");
   }
 
   Future<void> speakdivorces8(String languageCode) async {
@@ -413,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They're getting divorced."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They're getting divorced.");
   }
 
   Future<void> speakdivorces9(String languageCode) async {
@@ -421,8 +417,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She's divorcing her husband."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's divorcing her husband.");
   }
 
   Future<void> speakdivorces10(String languageCode) async {
@@ -430,8 +425,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'd heard they're divorcing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'd heard they're divorcing.");
   }
 
   Future<void> speakdivorces11(String languageCode) async {
@@ -439,96 +433,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They believed that art should be divorced from politics."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces12(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces13(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces14(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces15(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces16(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces17(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces18(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces19(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces20(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces21(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdivorces22(String languageCode) async {
-    // DOPSUM: CHANGE speakdivorce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdivorces2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They believed that art should be divorced from politics.");
   }
 
   @override

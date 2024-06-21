@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drinkable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drinkable");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drinkable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drinkable");
   }
 
   @override
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Is the water drinkable?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Is the water drinkable?");
   }
 
   Future<void> speakdrinkables2(String languageCode) async {
@@ -359,168 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "\"What's the wine like?\" \"Oh, it's nice - very drinkable.\""); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables3(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables4(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables5(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables6(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables7(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrinkables22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrinkable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrinkables2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("\"What's the wine like?\" \"Oh, it's nice - very drinkable.\"");
   }
 
   @override

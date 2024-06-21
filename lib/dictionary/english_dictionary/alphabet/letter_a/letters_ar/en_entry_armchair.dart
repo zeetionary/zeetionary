@@ -22,7 +22,7 @@ class EnglishEntryarmchair extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("armchair");
   }
 
   Future<void> speakarmchair356(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryarmchair extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He eased himself into the big armchair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He eased himself into the big armchair.");
   }
 
   Future<void> speakarmchair400(String languageCode) async {
@@ -40,7 +39,7 @@ class EnglishEntryarmchair extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "While fewer people are attending football matches, armchair viewers are growing in number."); // DOPSUM: CHANGE TEXT
+        "While fewer people are attending football matches, armchair viewers are growing in number.");
   }
 
   // Future<void> speakarmchair(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armchair");
   // }
 
   // Future<void> speakarmchair(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armchair");
   // }
 
   // Future<void> speakarmchair(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armchair");
   // }
 
   // Future<void> speakarmchair(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armchair");
   // }
 
   // Future<void> speakarmchair(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armchair");
   // }
 
   // Future<void> speakarmchair(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armchair");
   // }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("concede"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("concede");
   }
 
   Future<void> speakconcedes1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was forced to concede (that) there might be difficulties."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was forced to concede (that) there might be difficulties.");
   }
 
   Future<void> speakconcedes2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He reluctantly conceded the point to me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He reluctantly conceded the point to me.");
   }
 
   Future<void> speakconcedes3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It must be conceded that different judges have different approaches to these cases."); // DOPSUM: CHANGE TEXT
+        "It must be conceded that different judges have different approaches to these cases.");
   }
 
   Future<void> speakconcedes4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After losing this decisive battle, the general was forced to concede."); // DOPSUM: CHANGE TEXT
+        "After losing this decisive battle, the general was forced to concede.");
   }
 
   Future<void> speakconcedes5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Injury forced Hicks to concede defeat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Injury forced Hicks to concede defeat.");
   }
 
   Future<void> speakconcedes6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The president was obliged to concede power to the army."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The president was obliged to concede power to the army.");
   }
 
   Future<void> speakconcedes7(String languageCode) async {
@@ -83,8 +81,8 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "England conceded a goal immediately after half-time."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("England conceded a goal immediately after half-time.");
   }
 
   Future<void> speakconcedes8(String languageCode) async {
@@ -93,7 +91,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The firm should concede a significant salary increase to its employees."); // DOPSUM: CHANGE TEXT
+        "The firm should concede a significant salary increase to its employees.");
   }
 
   Future<void> speakconcedes9(String languageCode) async {
@@ -101,7 +99,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcedes900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes900");
   }
 
   Future<void> speakconcedes10(String languageCode) async {
@@ -109,7 +107,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcedes1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1000");
   }
 
   Future<void> speakconcedes11(String languageCode) async {
@@ -117,7 +115,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcedes1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1100");
   }
 
   Future<void> speakconcedes12(String languageCode) async {
@@ -125,7 +123,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcedes1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1200");
   }
 
   Future<void> speakconcedes13(String languageCode) async {
@@ -133,7 +131,7 @@ class EnglishEntryconcede extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcedes1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcedes1300");
   }
 
   @override

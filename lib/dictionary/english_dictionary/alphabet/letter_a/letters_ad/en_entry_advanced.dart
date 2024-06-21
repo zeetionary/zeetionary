@@ -16,7 +16,7 @@ class EnglishEntryadvanced extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advanced"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("advanced");
   }
 
   Future<void> speakadvanc2534(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadvanced extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists are working on highly advanced technology to replace fossil fuels."); // DOPSUM: CHANGE TEXT
+        "Scientists are working on highly advanced technology to replace fossil fuels.");
   }
 
   Future<void> speakadvan2546(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryadvanced extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He hopes to pursue an advanced degree in economics."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He hopes to pursue an advanced degree in economics.");
   }
 
   // Future<void> speakadvanced(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryadvanced extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advanced"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("advanced");
   // }
 
   @override

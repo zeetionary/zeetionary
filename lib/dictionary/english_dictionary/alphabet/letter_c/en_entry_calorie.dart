@@ -18,7 +18,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("calorie"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("calorie");
   }
 
   Future<void> speakcalories1(String languageCode) async {
@@ -26,8 +26,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "No sugar for me, thanks—I'm counting my calories."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("No sugar for me, thanks—I'm counting my calories.");
   }
 
   Future<void> speakcalories2(String languageCode) async {
@@ -36,7 +35,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile."); // DOPSUM: CHANGE TEXT
+        "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile.");
   }
 
   Future<void> speakcalories3(String languageCode) async {
@@ -44,7 +43,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories33");
   }
 
   Future<void> speakcalories4(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories44");
   }
 
   Future<void> speakcalories5(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories55");
   }
 
   Future<void> speakcalories6(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories66");
   }
 
   Future<void> speakcalories7(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories77");
   }
 
   Future<void> speakcalories8(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories88");
   }
 
   Future<void> speakcalories9(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories99");
   }
 
   Future<void> speakcalories10(String languageCode) async {
@@ -100,7 +99,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories1010");
   }
 
   Future<void> speakcalories11(String languageCode) async {
@@ -108,7 +107,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories1111");
   }
 
   Future<void> speakcalories12(String languageCode) async {
@@ -116,7 +115,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories1212");
   }
 
   Future<void> speakcalories13(String languageCode) async {
@@ -124,7 +123,7 @@ class EnglishEntrycalorie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcalories1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalories1313");
   }
 
   @override

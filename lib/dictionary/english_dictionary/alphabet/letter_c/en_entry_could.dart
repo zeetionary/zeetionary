@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("could"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("could");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("could"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("could");
   }
 
   @override
@@ -220,8 +220,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She said that she couldn't come."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She said that she couldn't come.");
   }
 
   Future<void> speakcoulds2(String languageCode) async {
@@ -229,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I couldn't hear what they were saying."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I couldn't hear what they were saying.");
   }
 
   Future<void> speakcoulds3(String languageCode) async {
@@ -238,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could I use your phone, please?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Could I use your phone, please?");
   }
 
   Future<void> speakcoulds4(String languageCode) async {
@@ -247,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could we stop by next week?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Could we stop by next week?");
   }
 
   Future<void> speakcoulds5(String languageCode) async {
@@ -256,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could you babysit for us on Friday?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Could you babysit for us on Friday?");
   }
 
   Future<void> speakcoulds6(String languageCode) async {
@@ -265,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I could do it now, if you like."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I could do it now, if you like.");
   }
 
   Future<void> speakcoulds7(String languageCode) async {
@@ -274,8 +268,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't worry—they could have just forgotten to call."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Don't worry—they could have just forgotten to call.");
   }
 
   Future<void> speakcoulds8(String languageCode) async {
@@ -283,8 +277,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You couldn't have left it on the bus, could you?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You couldn't have left it on the bus, could you?");
   }
 
   Future<void> speakcoulds9(String languageCode) async {
@@ -292,8 +285,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We could write a letter to the director."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We could write a letter to the director.");
   }
 
   Future<void> speakcoulds10(String languageCode) async {
@@ -301,8 +293,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You could always try his home number."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You could always try his home number.");
   }
 
   Future<void> speakcoulds11(String languageCode) async {
@@ -310,8 +301,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They could have let me know they were going to be late!"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They could have let me know they were going to be late!");
   }
 
   Future<void> speakcoulds12(String languageCode) async {
@@ -319,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoulds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoulds1200");
   }
 
   Future<void> speakcoulds13(String languageCode) async {
@@ -327,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoulds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoulds1300");
   }
 
   @override

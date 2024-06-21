@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DIY"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DIY");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DIY"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DIY");
   }
 
   @override
@@ -351,176 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("My brother is a real DIY enthusiast."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs2(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs3(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs4(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs5(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs6(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs7(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs8(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs9(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs10(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs11(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs12(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs13(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs14(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs15(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs16(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs17(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs18(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs19(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs20(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs21(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDIYs22(String languageCode) async {
-    // DOPSUM: CHANGE speakDIY
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDIYs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My brother is a real DIY enthusiast.");
   }
 
   @override

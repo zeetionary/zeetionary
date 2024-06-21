@@ -21,7 +21,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("consent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("consent");
   }
 
   Future<void> speakconsents1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The written consent of a parent is required."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The written consent of a parent is required.");
   }
 
   Future<void> speakconsents2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Children under 16 cannot give consent to medical treatment."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Children under 16 cannot give consent to medical treatment.");
   }
 
   Future<void> speakconsents3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He is charged with taking a car without the owner's consent."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He is charged with taking a car without the owner's consent.");
   }
 
   Future<void> speakconsents4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "At any time during the study, parents could withdraw their consent."); // DOPSUM: CHANGE TEXT
+        "At any time during the study, parents could withdraw their consent.");
   }
 
   Future<void> speakconsents5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was chosen as leader by common consent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was chosen as leader by common consent.");
   }
 
   Future<void> speakconsents6(String languageCode) async {
@@ -74,8 +72,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("By mutual consent they didn't go out."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("By mutual consent they didn't go out.");
   }
 
   Future<void> speakconsents7(String languageCode) async {
@@ -83,8 +80,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Your family signs the consent for you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your family signs the consent for you.");
   }
 
   Future<void> speakconsents8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When she told them what she intended, they readily consented."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("When she told them what she intended, they readily consented.");
   }
 
   Future<void> speakconsents9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He reluctantly consented to the proposal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He reluctantly consented to the proposal.");
   }
 
   Future<void> speakconsents10(String languageCode) async {
@@ -110,7 +105,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsents1000");
   }
 
   Future<void> speakconsents11(String languageCode) async {
@@ -118,7 +113,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsents1100");
   }
 
   Future<void> speakconsents12(String languageCode) async {
@@ -126,7 +121,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsents1200");
   }
 
   Future<void> speakconsents13(String languageCode) async {
@@ -134,7 +129,7 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsents1300");
   }
 
   @override

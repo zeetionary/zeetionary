@@ -21,7 +21,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumstance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("circumstance");
   }
 
   Future<void> speakcircumstances1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Police said there were no suspicious circumstances surrounding the boy's death."); // DOPSUM: CHANGE TEXT
+        "Police said there were no suspicious circumstances surrounding the boy's death.");
   }
 
   Future<void> speakcircumstances2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Under normal circumstances, your white blood cells are able to fight infections."); // DOPSUM: CHANGE TEXT
+        "Under normal circumstances, your white blood cells are able to fight infections.");
   }
 
   Future<void> speakcircumstances3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company reserves the right to cancel this agreement in certain circumstances."); // DOPSUM: CHANGE TEXT
+        "The company reserves the right to cancel this agreement in certain circumstances.");
   }
 
   Future<void> speakcircumstances4(String languageCode) async {
@@ -56,8 +56,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I know I can trust her in any circumstance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I know I can trust her in any circumstance.");
   }
 
   Future<void> speakcircumstances5(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We want to work towards improving the often difficult circumstances in which people find themselves."); // DOPSUM: CHANGE TEXT
+        "We want to work towards improving the often difficult circumstances in which people find themselves.");
   }
 
   Future<void> speakcircumstances6(String languageCode) async {
@@ -74,8 +73,8 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The amount paid will vary according to circumstances."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The amount paid will vary according to circumstances.");
   }
 
   Future<void> speakcircumstances7(String languageCode) async {
@@ -83,8 +82,8 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He had to leave the country through force of circumstance."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He had to leave the country through force of circumstance.");
   }
 
   Future<void> speakcircumstances8(String languageCode) async {
@@ -93,7 +92,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The survivors ate plants and insects by force of circumstance."); // DOPSUM: CHANGE TEXT
+        "The survivors ate plants and insects by force of circumstance.");
   }
 
   Future<void> speakcircumstances9(String languageCode) async {
@@ -101,7 +100,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstances900");
   }
 
   Future<void> speakcircumstances10(String languageCode) async {
@@ -109,7 +108,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstances1000");
   }
 
   Future<void> speakcircumstances11(String languageCode) async {
@@ -117,7 +116,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstances1100");
   }
 
   Future<void> speakcircumstances12(String languageCode) async {
@@ -125,7 +124,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstances1200");
   }
 
   Future<void> speakcircumstances13(String languageCode) async {
@@ -133,7 +132,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstances1300");
   }
 
   @override

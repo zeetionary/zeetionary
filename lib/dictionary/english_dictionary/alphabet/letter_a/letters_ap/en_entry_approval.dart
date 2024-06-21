@@ -22,7 +22,7 @@ class EnglishEntryapproval extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("approval");
   }
 
   Future<void> speakapproval826(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryapproval extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I could tell I had earned her approval."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I could tell I had earned her approval.");
   }
 
   Future<void> speakapproval829(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryapproval extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He showed his approval by smiling."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He showed his approval by smiling.");
   }
 
   Future<void> speakapproval831(String languageCode) async {
@@ -49,7 +47,7 @@ class EnglishEntryapproval extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The plan will be submitted to the committee for official approval."); // DOPSUM: CHANGE TEXT
+        "The plan will be submitted to the committee for official approval.");
   }
 
   Future<void> speakapproval832(String languageCode) async {
@@ -57,8 +55,7 @@ class EnglishEntryapproval extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He won approval for his project."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He won approval for his project.");
   }
 
   // Future<void> speakapproval(String languageCode) async {
@@ -66,7 +63,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approval");
   // }
 
   // Future<void> speakapproval(String languageCode) async {
@@ -74,7 +71,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approval");
   // }
 
   // Future<void> speakapproval(String languageCode) async {
@@ -82,7 +79,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approval");
   // }
 
   // Future<void> speakapproval(String languageCode) async {
@@ -90,7 +87,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approval");
   // }
 
   @override

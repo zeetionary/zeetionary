@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disadvantage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disadvantage");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disadvantage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disadvantage");
   }
 
   @override
@@ -222,8 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some pension plans may disadvantage women."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Some pension plans may disadvantage women.");
   }
 
   Future<void> speakdisadvantages2(String languageCode) async {
@@ -232,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Many people will be greatly disadvantaged by the new tax system."); // DOPSUM: CHANGE TEXT
+        "Many people will be greatly disadvantaged by the new tax system.");
   }
 
   Future<void> speakdisadvantages3(String languageCode) async {
@@ -241,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "One major disadvantage of the area is the lack of public transport."); // DOPSUM: CHANGE TEXT
+        "One major disadvantage of the area is the lack of public transport.");
   }
 
   Future<void> speakdisadvantages4(String languageCode) async {
@@ -249,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("What's the main disadvantage?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What's the main disadvantage?");
   }
 
   Future<void> speakdisadvantages5(String languageCode) async {
@@ -258,8 +256,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Each plan has its own advantages and disadvantages."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Each plan has its own advantages and disadvantages.");
   }
 
   Future<void> speakdisadvantages6(String languageCode) async {
@@ -267,8 +265,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There are disadvantages to the plan."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are disadvantages to the plan.");
   }
 
   Future<void> speakdisadvantages7(String languageCode) async {
@@ -277,127 +274,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I was at a disadvantage compared to the younger members of the team."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisadvantages22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisadvantage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisadvantages2200"); // DOPSUM: CHANGE TEXT
+        "I was at a disadvantage compared to the younger members of the team.");
   }
 
   @override

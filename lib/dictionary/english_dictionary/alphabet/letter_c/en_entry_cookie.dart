@@ -21,7 +21,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cookie"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cookie");
   }
 
   Future<void> speakcookies1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps."); // DOPSUM: CHANGE TEXT
+        "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps.");
   }
 
   Future<void> speakcookies2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She's a smart/tough cookie."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's a smart/tough cookie.");
   }
 
   Future<void> speakcookies3(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies300");
   }
 
   Future<void> speakcookies4(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies400");
   }
 
   Future<void> speakcookies5(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies500");
   }
 
   Future<void> speakcookies6(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies600");
   }
 
   Future<void> speakcookies7(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies700");
   }
 
   Future<void> speakcookies8(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies800");
   }
 
   Future<void> speakcookies9(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies900");
   }
 
   Future<void> speakcookies10(String languageCode) async {
@@ -103,7 +102,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1000");
   }
 
   Future<void> speakcookies11(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1100");
   }
 
   Future<void> speakcookies12(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1200");
   }
 
   Future<void> speakcookies13(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntrycookie extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcookies1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcookies1300");
   }
 
   @override

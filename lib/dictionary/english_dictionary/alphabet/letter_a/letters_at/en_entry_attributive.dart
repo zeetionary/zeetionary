@@ -24,7 +24,7 @@ class EnglishEntryattributive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attributive");
   }
 
   Future<void> speakattributive1121(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryattributive extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive."); // DOPSUM: CHANGE TEXT
+        "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive.");
   }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   // Future<void> speakattributive(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attributive");
   // }
 
   @override

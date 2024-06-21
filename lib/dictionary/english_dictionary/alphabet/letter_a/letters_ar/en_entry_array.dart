@@ -24,7 +24,7 @@ class EnglishEntryarray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("array");
   }
 
   Future<void> speakarray145(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryarray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her writing covers a wide array of topics."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her writing covers a wide array of topics.");
   }
 
   Future<void> speakarray147(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryarray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The city has the usual array of social problems."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The city has the usual array of social problems.");
   }
 
   Future<void> speakarray151(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntryarray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Jars of all shapes and sizes were arrayed on the shelves."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Jars of all shapes and sizes were arrayed on the shelves.");
   }
 
   Future<void> speakarray154(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryarray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The enemy forces arrayed against them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The enemy forces arrayed against them.");
   }
 
   // Future<void> speakarray(String languageCode) async {
@@ -68,7 +65,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("array");
   // }
 
   // Future<void> speakarray(String languageCode) async {
@@ -76,7 +73,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("array");
   // }
 
   // Future<void> speakarray(String languageCode) async {
@@ -84,7 +81,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("array");
   // }
 
   // Future<void> speakarray(String languageCode) async {
@@ -92,7 +89,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("array");
   // }
 
   @override

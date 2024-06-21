@@ -16,7 +16,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alarm");
   }
 
   Future<void> speakalarm355(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She decided to sound the alarm."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She decided to sound the alarm.");
   }
 
   Future<void> speakalarm466(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I hammered on all the doors to raise the alarm."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I hammered on all the doors to raise the alarm.");
   }
 
   Future<void> speakalarm4255(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A car alarm went off in the middle of the night."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A car alarm went off in the middle of the night.");
   }
 
   Future<void> speakalarm4522(String languageCode) async {
@@ -51,8 +48,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The alarm went off at 7 o'clock."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The alarm went off at 7 o'clock.");
   }
 
   Future<void> speakalarm4277(String languageCode) async {
@@ -60,8 +56,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The doctor said there was no cause for alarm."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The doctor said there was no cause for alarm.");
   }
 
   Future<void> speakalarm7692(String languageCode) async {
@@ -69,8 +64,8 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It alarms me that nobody takes this problem seriously."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It alarms me that nobody takes this problem seriously.");
   }
 
   // Future<void> speakalarm(String languageCode) async {
@@ -78,7 +73,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alarm");
   // }
 
   // Future<void> speakalarm(String languageCode) async {
@@ -86,7 +81,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alarm");
   // }
 
   // Future<void> speakalarm(String languageCode) async {
@@ -94,7 +89,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alarm");
   // }
 
   // Future<void> speakalarm(String languageCode) async {
@@ -102,7 +97,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alarm");
   // }
 
   // Future<void> speakalarm(String languageCode) async {
@@ -110,7 +105,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alarm");
   // }
 
   @override

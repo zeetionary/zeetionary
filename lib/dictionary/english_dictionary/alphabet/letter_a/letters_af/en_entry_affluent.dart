@@ -16,7 +16,7 @@ class EnglishEntryaffluent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affluent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affluent");
   }
 
   Future<void> speakafflu4922(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaffluent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We live in an affluent neighborhood."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We live in an affluent neighborhood.");
   }
 
   // Future<void> speakaffluent(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryaffluent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affluent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affluent");
   // }
 
   // Future<void> speakaffluent(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaffluent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affluent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affluent");
   // }
 
   @override

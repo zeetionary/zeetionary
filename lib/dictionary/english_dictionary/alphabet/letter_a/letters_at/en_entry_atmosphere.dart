@@ -24,7 +24,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("atmosphere");
   }
 
   Future<void> speakatmosphere1119(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Volcanoes and hot springs can emit methane into the atmosphere."); // DOPSUM: CHANGE TEXT
+        "Volcanoes and hot springs can emit methane into the atmosphere.");
   }
 
   Future<void> speakatmosphere1121(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The spaceship should re-enter the earth's atmosphere later today."); // DOPSUM: CHANGE TEXT
+        "The spaceship should re-enter the earth's atmosphere later today.");
   }
 
   Future<void> speakatmosphere1123(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The outermost part of the sun's atmosphere is called the corona."); // DOPSUM: CHANGE TEXT
+        "The outermost part of the sun's atmosphere is called the corona.");
   }
 
   Future<void> speakatmosphere1126(String languageCode) async {
@@ -59,8 +59,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These plants love warm, humid atmospheres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These plants love warm, humid atmospheres.");
   }
 
   Future<void> speakatmosphere1128(String languageCode) async {
@@ -68,8 +67,8 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "City officials have created an atmosphere of fear."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("City officials have created an atmosphere of fear.");
   }
 
   Future<void> speakatmosphere1129(String languageCode) async {
@@ -77,8 +76,8 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was an atmosphere of mutual trust between them."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There was an atmosphere of mutual trust between them.");
   }
 
   // Future<void> speakatmosphere(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atmosphere");
   // }
 
   // Future<void> speakatmosphere(String languageCode) async {
@@ -94,7 +93,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atmosphere");
   // }
 
   @override

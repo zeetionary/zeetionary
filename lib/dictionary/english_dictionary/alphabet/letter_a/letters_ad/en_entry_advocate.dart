@@ -16,7 +16,7 @@ class EnglishEntryadvocate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advocate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("advocate");
   }
 
   Future<void> speakadvo3569(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadvocate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Canada was one of the strongest advocates of sanctions."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Canada was one of the strongest advocates of sanctions.");
   }
 
   Future<void> speakadvo2564(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryadvocate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The group does not advocate the use of violence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The group does not advocate the use of violence.");
   }
 
   // Future<void> speakadvocate(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryadvocate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advocate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("advocate");
   // }
 
   @override

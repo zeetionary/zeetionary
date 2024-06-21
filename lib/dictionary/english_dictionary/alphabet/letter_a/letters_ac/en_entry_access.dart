@@ -16,7 +16,7 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("access"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("access");
   }
 
   Future<void> speaka2469(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Older people may have difficulty accessing medical services."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Older people may have difficulty accessing medical services.");
   }
 
   Future<void> speaka24698(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most people use their phones to access the internet."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Most people use their phones to access the internet.");
   }
 
   Future<void> speaka2598(String languageCode) async {
@@ -42,8 +42,7 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The police gained access through a broken window."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The police gained access through a broken window.");
   }
 
   Future<void> speaka2478(String languageCode) async {
@@ -51,8 +50,7 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Journalists were denied access to the President."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Journalists were denied access to the President.");
   }
 
   Future<void> speaka21459(String languageCode) async {
@@ -60,8 +58,8 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need a password to get access to the computer system."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You need a password to get access to the computer system.");
   }
 
   Future<void> speaka2125666(String languageCode) async {
@@ -69,8 +67,8 @@ class EnglishEntryaccess extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The village is easily accessed by public transport."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The village is easily accessed by public transport.");
   }
 
   @override

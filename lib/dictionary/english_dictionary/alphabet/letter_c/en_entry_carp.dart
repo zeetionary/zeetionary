@@ -21,7 +21,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carp"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carp");
   }
 
   Future<void> speakcarps1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In some cultures, carp is considered a symbol of good luck and prosperity."); // DOPSUM: CHANGE TEXT
+        "In some cultures, carp is considered a symbol of good luck and prosperity.");
   }
 
   Future<void> speakcarps2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I’ve had enough of him constantly carping and criticizing."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I’ve had enough of him constantly carping and criticizing.");
   }
 
   Future<void> speakcarps3(String languageCode) async {
@@ -47,7 +47,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps33");
   }
 
   Future<void> speakcarps4(String languageCode) async {
@@ -55,7 +55,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps44");
   }
 
   Future<void> speakcarps5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps55");
   }
 
   Future<void> speakcarps6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps66");
   }
 
   Future<void> speakcarps7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps77");
   }
 
   Future<void> speakcarps8(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps88");
   }
 
   Future<void> speakcarps9(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps99");
   }
 
   Future<void> speakcarps10(String languageCode) async {
@@ -103,7 +103,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps1010");
   }
 
   Future<void> speakcarps11(String languageCode) async {
@@ -111,7 +111,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps1111");
   }
 
   Future<void> speakcarps12(String languageCode) async {
@@ -119,7 +119,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps1212");
   }
 
   Future<void> speakcarps13(String languageCode) async {
@@ -127,7 +127,7 @@ class EnglishEntrycarp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarps1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarps1313");
   }
 
   @override

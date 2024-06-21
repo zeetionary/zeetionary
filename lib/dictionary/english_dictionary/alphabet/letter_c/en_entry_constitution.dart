@@ -21,7 +21,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("constitution"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constitution");
   }
 
   Future<void> speakconstitutions1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Britain does not have a written constitution."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Britain does not have a written constitution.");
   }
 
   Future<void> speakconstitutions2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The constitution stipulated that a general election must be held within 120 days."); // DOPSUM: CHANGE TEXT
+        "The constitution stipulated that a general election must be held within 120 days.");
   }
 
   Future<void> speakconstitutions3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The constitution was suspended and the army was placed in full control."); // DOPSUM: CHANGE TEXT
+        "The constitution was suspended and the army was placed in full control.");
   }
 
   Future<void> speakconstitutions4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new constitution will be adopted next year."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new constitution will be adopted next year.");
   }
 
   Future<void> speakconstitutions5(String languageCode) async {
@@ -65,8 +63,8 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The child had a weak constitution and was always ill."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The child had a weak constitution and was always ill.");
   }
 
   Future<void> speakconstitutions6(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I have a strong constitution and my stomach can handle anything."); // DOPSUM: CHANGE TEXT
+        "I have a strong constitution and my stomach can handle anything.");
   }
 
   Future<void> speakconstitutions7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists study the genetic constitution of cells to understand how genes influence cell behavior."); // DOPSUM: CHANGE TEXT
+        "Scientists study the genetic constitution of cells to understand how genes influence cell behavior.");
   }
 
   Future<void> speakconstitutions8(String languageCode) async {
@@ -92,8 +90,8 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He recommended the constitution of a review committee."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He recommended the constitution of a review committee.");
   }
 
   Future<void> speakconstitutions9(String languageCode) async {
@@ -101,7 +99,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions900");
   }
 
   Future<void> speakconstitutions10(String languageCode) async {
@@ -109,7 +107,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions1000");
   }
 
   Future<void> speakconstitutions11(String languageCode) async {
@@ -117,7 +115,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions1100");
   }
 
   Future<void> speakconstitutions12(String languageCode) async {
@@ -125,7 +123,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions1200");
   }
 
   Future<void> speakconstitutions13(String languageCode) async {
@@ -133,7 +131,7 @@ class EnglishEntryconstitution extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstitutions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstitutions1300");
   }
 
   @override

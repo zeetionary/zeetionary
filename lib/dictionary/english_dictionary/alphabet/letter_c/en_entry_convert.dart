@@ -21,7 +21,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("convert"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("convert");
   }
 
   Future<void> speakconverts1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They took just nine months to convert the building."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They took just nine months to convert the building.");
   }
 
   Future<void> speakconverts2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You need to ensure that you've converted the data properly."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You need to ensure that you've converted the data properly.");
   }
 
   Future<void> speakconverts3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The system is eco-friendly because the waste heat is converted to electricity."); // DOPSUM: CHANGE TEXT
+        "The system is eco-friendly because the waste heat is converted to electricity.");
   }
 
   Future<void> speakconverts4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Japan was at the time still converting from an agricultural economy."); // DOPSUM: CHANGE TEXT
+        "Japan was at the time still converting from an agricultural economy.");
   }
 
   Future<void> speakconverts5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was surprised by how comfortable the sofa was when converted into a bed."); // DOPSUM: CHANGE TEXT
+        "She was surprised by how comfortable the sofa was when converted into a bed.");
   }
 
   Future<void> speakconverts6(String languageCode) async {
@@ -74,8 +74,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She converted to Judaism to marry him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She converted to Judaism to marry him.");
   }
 
   Future<void> speakconverts7(String languageCode) async {
@@ -83,8 +82,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He converted from Christianity to Buddhism."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He converted from Christianity to Buddhism.");
   }
 
   Future<void> speakconverts8(String languageCode) async {
@@ -92,8 +90,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was soon converted to the socialist cause."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was soon converted to the socialist cause.");
   }
 
   Future<void> speakconverts9(String languageCode) async {
@@ -101,8 +98,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I've converted to organic food."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've converted to organic food.");
   }
 
   Future<void> speakconverts10(String languageCode) async {
@@ -110,8 +106,8 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I didn't use to like opera but my husband has converted me."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I didn't use to like opera but my husband has converted me.");
   }
 
   Future<void> speakconverts11(String languageCode) async {
@@ -119,8 +115,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Pope Clement was a convert from paganism."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Pope Clement was a convert from paganism.");
   }
 
   Future<void> speakconverts12(String languageCode) async {
@@ -128,7 +123,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconverts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverts1200");
   }
 
   Future<void> speakconverts13(String languageCode) async {
@@ -136,7 +131,7 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconverts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconverts1300");
   }
 
   @override

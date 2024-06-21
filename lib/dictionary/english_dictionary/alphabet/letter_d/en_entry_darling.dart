@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darling"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("darling");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darling"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("darling");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("What's the matter, darling?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("What's the matter, darling?");
   }
 
   Future<void> speakdarlings2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I love you too, my darling."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I love you too, my darling.");
   }
 
   Future<void> speakdarlings3(String languageCode) async {
@@ -239,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You are a darling, Hugo."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You are a darling, Hugo.");
   }
 
   Future<void> speakdarlings4(String languageCode) async {
@@ -247,80 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She is the darling of the newspapers and can do no wrong."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarlings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdarling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarlings1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She is the darling of the newspapers and can do no wrong.");
   }
 
   @override

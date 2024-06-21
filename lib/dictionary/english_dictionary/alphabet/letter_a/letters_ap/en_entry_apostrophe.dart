@@ -22,7 +22,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apostrophe");
   }
 
   Future<void> speakapostrophe708(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "'It's' with an apostrophe means 'it is' or 'it has'."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("'It's' with an apostrophe means 'it is' or 'it has'.");
   }
 
   Future<void> speakapostrophe710(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Helen's house is very large."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Helen's house is very large.");
   }
 
   Future<void> speakapostrophe714(String languageCode) async {
@@ -48,8 +47,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("How many 3’s are there in 9?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("How many 3’s are there in 9?");
   }
 
   Future<void> speakapostrophe715(String languageCode) async {
@@ -57,8 +55,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There are two m’s in ‘comma’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are two m’s in ‘comma’.");
   }
 
   // Future<void> speakapostrophe(String languageCode) async {
@@ -66,7 +63,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe");
   // }
 
   // Future<void> speakapostrophe(String languageCode) async {
@@ -74,7 +71,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe");
   // }
 
   // Future<void> speakapostrophe(String languageCode) async {
@@ -82,7 +79,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe");
   // }
 
   // Future<void> speakapostrophe(String languageCode) async {
@@ -90,7 +87,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe");
   // }
 
   @override

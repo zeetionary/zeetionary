@@ -16,7 +16,7 @@ class EnglishEntryambiguity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ambiguity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ambiguity");
   }
 
   Future<void> speakambiguity23555(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryambiguity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Write clear definitions in order to avoid ambiguity."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Write clear definitions in order to avoid ambiguity.");
   }
 
   // Future<void> speakambiguity(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryambiguity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ambiguity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ambiguity");
   // }
 
   // Future<void> speakambiguity(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryambiguity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ambiguity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ambiguity");
   // }
 
   @override

@@ -22,7 +22,7 @@ class EnglishEntryaquatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aquatic");
   }
 
   Future<void> speakaquatic936(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryaquatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many forms of aquatic life inhabit ponds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Many forms of aquatic life inhabit ponds.");
   }
 
   Future<void> speakaquatic938(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryaquatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Aquatic sports include swimming and rowing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Aquatic sports include swimming and rowing.");
   }
 
   // Future<void> speakaquatic(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aquatic");
   // }
 
   // Future<void> speakaquatic(String languageCode) async {
@@ -56,7 +54,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aquatic");
   // }
 
   // Future<void> speakaquatic(String languageCode) async {
@@ -64,7 +62,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aquatic");
   // }
 
   // Future<void> speakaquatic(String languageCode) async {
@@ -72,7 +70,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aquatic");
   // }
 
   // Future<void> speakaquatic(String languageCode) async {
@@ -80,7 +78,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aquatic");
   // }
 
   // Future<void> speakaquatic(String languageCode) async {
@@ -88,7 +86,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aquatic");
   // }
 
   @override

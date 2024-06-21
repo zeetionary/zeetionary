@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("debacle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("debacle");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("debacle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("debacle");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He should take responsibility for the debacle and resign."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He should take responsibility for the debacle and resign.");
   }
 
   Future<void> speakdebacles2(String languageCode) async {
@@ -231,95 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The collapse of the company was described as the greatest financial debacle in US history."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles3(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles4(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles5(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles6(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles7(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles8(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles9(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles10(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles11(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles12(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdebacles13(String languageCode) async {
-    // DOPSUM: CHANGE speakdebacle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdebacles1300"); // DOPSUM: CHANGE TEXT
+        "The collapse of the company was described as the greatest financial debacle in US history.");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disc"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disc");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disc"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disc");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He wears an identity disc around his neck."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He wears an identity disc around his neck.");
   }
 
   Future<void> speakdiscs2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In a total eclipse, the moon completely covers the disc of the sun."); // DOPSUM: CHANGE TEXT
+        "In a total eclipse, the moon completely covers the disc of the sun.");
   }
 
   Future<void> speakdiscs3(String languageCode) async {
@@ -239,16 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This recording is available online or on disc."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This recording is available online or on disc.");
   }
 
   Future<void> speakdiscs5(String languageCode) async {
@@ -256,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I ejected the disc before the end."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I ejected the disc before the end.");
   }
 
   Future<void> speakdiscs6(String languageCode) async {
@@ -265,136 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He inserted the disc into the machine."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscs22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisc
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscs2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He inserted the disc into the machine.");
   }
 
   @override
@@ -492,34 +352,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "speakdiscs400"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [

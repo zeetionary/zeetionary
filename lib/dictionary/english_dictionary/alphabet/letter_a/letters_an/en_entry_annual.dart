@@ -17,7 +17,7 @@ class EnglishEntryannual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("annual"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("annual");
   }
 
   Future<void> speakannual817(String languageCode) async {
@@ -25,8 +25,8 @@ class EnglishEntryannual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She organized this year's annual Christmas dinner dance."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She organized this year's annual Christmas dinner dance.");
   }
 
   Future<void> speakannual819(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryannual extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Companies publish annual reports to inform the public about the previous year's activities."); // DOPSUM: CHANGE TEXT
+        "Companies publish annual reports to inform the public about the previous year's activities.");
   }
 
   Future<void> speakannual821(String languageCode) async {
@@ -44,7 +44,7 @@ class EnglishEntryannual extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I have decided to take my annual leave to be with my wife and baby."); // DOPSUM: CHANGE TEXT
+        "I have decided to take my annual leave to be with my wife and baby.");
   }
 
   Future<void> speakannual829(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntryannual extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children usually asked for comic or sporting annuals for Christmas."); // DOPSUM: CHANGE TEXT
+        "The children usually asked for comic or sporting annuals for Christmas.");
   }
 
   // Future<void> speakannual(String languageCode) async {
@@ -61,7 +61,7 @@ class EnglishEntryannual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annual");
   // }
 
   // Future<void> speakannual(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntryannual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annual");
   // }
 
   // Future<void> speakannual(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryannual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annual");
   // }
 
   // Future<void> speakannual(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntryannual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annual");
   // }
 
   @override

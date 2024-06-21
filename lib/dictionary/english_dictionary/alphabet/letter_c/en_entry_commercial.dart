@@ -21,7 +21,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commercial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commercial");
   }
 
   Future<void> speakcommercials1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have offices in the commercial heart of the city."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They have offices in the commercial heart of the city.");
   }
 
   Future<void> speakcommercials2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She is developing the commercial side of the organization."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She is developing the commercial side of the organization.");
   }
 
   Future<void> speakcommercials3(String languageCode) async {
@@ -47,8 +47,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The movie was not a commercial success."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The movie was not a commercial success.");
   }
 
   Future<void> speakcommercials4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The data cannot be used for commercial purposes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The data cannot be used for commercial purposes.");
   }
 
   Future<void> speakcommercials5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The newspaper is acting solely in its own commercial interests."); // DOPSUM: CHANGE TEXT
+        "The newspaper is acting solely in its own commercial interests.");
   }
 
   Future<void> speakcommercials6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The decision has been made on a purely commercial basis."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The decision has been made on a purely commercial basis.");
   }
 
   Future<void> speakcommercials7(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their more recent music is far too commercial."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Their more recent music is far too commercial.");
   }
 
   Future<void> speakcommercials8(String languageCode) async {
@@ -93,7 +90,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The marketing campaign is starting with four online commercials."); // DOPSUM: CHANGE TEXT
+        "The marketing campaign is starting with four online commercials.");
   }
 
   Future<void> speakcommercials9(String languageCode) async {
@@ -101,8 +98,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She began her career appearing in commercials."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She began her career appearing in commercials.");
   }
 
   Future<void> speakcommercials10(String languageCode) async {
@@ -110,7 +106,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommercials1000");
   }
 
   Future<void> speakcommercials11(String languageCode) async {
@@ -118,7 +114,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommercials1100");
   }
 
   Future<void> speakcommercials12(String languageCode) async {
@@ -126,7 +122,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommercials1200");
   }
 
   Future<void> speakcommercials13(String languageCode) async {
@@ -134,7 +130,7 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommercials1300");
   }
 
   @override

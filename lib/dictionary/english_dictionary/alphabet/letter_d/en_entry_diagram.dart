@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagram"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagram");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diagram"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diagram");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The results are shown in diagram 2."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The results are shown in diagram 2.");
   }
 
   Future<void> speakdiagrams2(String languageCode) async {
@@ -230,8 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Compare this system to the one shown in diagram B."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Compare this system to the one shown in diagram B.");
   }
 
   Future<void> speakdiagrams3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("See the diagram on page 31."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("See the diagram on page 31.");
   }
 
   Future<void> speakdiagrams4(String languageCode) async {
@@ -249,151 +247,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The overall structures of these enzymes are diagrammed in Fig 1."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiagrams22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiagram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiagrams2200"); // DOPSUM: CHANGE TEXT
+        "The overall structures of these enzymes are diagrammed in Fig 1.");
   }
 
   @override

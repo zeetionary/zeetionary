@@ -21,7 +21,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("compound"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("compound");
   }
 
   Future<void> speakcompounds1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The air smelled like a compound of diesel and petrol fumes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The air smelled like a compound of diesel and petrol fumes.");
   }
 
   Future<void> speakcompounds2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Common salt is a compound of sodium and chlorine."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Common salt is a compound of sodium and chlorine.");
   }
 
   Future<void> speakcompounds3(String languageCode) async {
@@ -47,8 +46,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A compound sentence contains two or more clauses."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A compound sentence contains two or more clauses.");
   }
 
   Future<void> speakcompounds4(String languageCode) async {
@@ -56,8 +54,8 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The problems were compounded by severe food shortages."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The problems were compounded by severe food shortages.");
   }
 
   Future<void> speakcompounds5(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His financial problems were compounded when he unexpectedly lost his job."); // DOPSUM: CHANGE TEXT
+        "His financial problems were compounded when he unexpectedly lost his job.");
   }
 
   Future<void> speakcompounds6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The DNA molecule is compounded from many smaller molecules."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The DNA molecule is compounded from many smaller molecules.");
   }
 
   Future<void> speakcompounds7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most tyres are made of rubber compounded with other chemicals and materials."); // DOPSUM: CHANGE TEXT
+        "Most tyres are made of rubber compounded with other chemicals and materials.");
   }
 
   Future<void> speakcompounds8(String languageCode) async {
@@ -92,7 +90,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompounds800");
   }
 
   Future<void> speakcompounds9(String languageCode) async {
@@ -100,7 +98,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompounds900");
   }
 
   Future<void> speakcompounds10(String languageCode) async {
@@ -108,7 +106,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompounds1000");
   }
 
   Future<void> speakcompounds11(String languageCode) async {
@@ -116,7 +114,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompounds1100");
   }
 
   Future<void> speakcompounds12(String languageCode) async {
@@ -124,7 +122,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompounds1200");
   }
 
   Future<void> speakcompounds13(String languageCode) async {
@@ -132,7 +130,7 @@ class EnglishEntrycompound extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompounds1300");
   }
 
   @override

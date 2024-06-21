@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abolition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abolition");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abolition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abolition");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakabolitions111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("// speakabolitions111111111111111111111111111111111");
   }
 
   Future<void> speakabolitions2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions200");
   }
 
   Future<void> speakabolitions3(String languageCode) async {
@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions300");
   }
 
   Future<void> speakabolitions4(String languageCode) async {
@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions400");
   }
 
   Future<void> speakabolitions5(String languageCode) async {
@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions500");
   }
 
   Future<void> speakabolitions6(String languageCode) async {
@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions600");
   }
 
   Future<void> speakabolitions7(String languageCode) async {
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions700");
   }
 
   Future<void> speakabolitions8(String languageCode) async {
@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions800");
   }
 
   Future<void> speakabolitions9(String languageCode) async {
@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions900");
   }
 
   Future<void> speakabolitions10(String languageCode) async {
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions1000");
   }
 
   Future<void> speakabolitions11(String languageCode) async {
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions1100");
   }
 
   Future<void> speakabolitions12(String languageCode) async {
@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions1200");
   }
 
   Future<void> speakabolitions13(String languageCode) async {
@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabolitions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakabolitions1300");
   }
 
   Future<void> speakab24(String languageCode) async {
@@ -326,8 +326,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The report recommended the complete abolition of the tax."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The report recommended the complete abolition of the tax.");
   }
 
   @override

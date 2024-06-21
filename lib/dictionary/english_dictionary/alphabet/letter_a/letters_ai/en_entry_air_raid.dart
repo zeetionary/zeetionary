@@ -16,7 +16,7 @@ class EnglishEntryairraid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("air raid"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("air raid");
   }
 
   Future<void> speakairraid5377(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryairraid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The family was killed in an air raid."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The family was killed in an air raid.");
   }
 
   // Future<void> speakairraid(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryairraid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air raid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air raid");
   // }
 
   // Future<void> speakairraid(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryairraid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("air raid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air raid");
   // }
 
   @override

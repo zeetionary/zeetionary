@@ -24,7 +24,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barrel organ"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("barrel organ");
   }
 
   Future<void> speakbarrelorgans1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners."); // DOPSUM: CHANGE TEXT
+        "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners.");
   }
 
   Future<void> speakbarrelorgans2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarrelorgans22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarrelorgans22");
   }
 
   Future<void> speakbarrelorgans3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarrelorgans33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarrelorgans33");
   }
 
   Future<void> speakbarrelorgans4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarrelorgans44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarrelorgans44");
   }
 
   Future<void> speakbarrelorgans5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarrelorgans55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarrelorgans55");
   }
 
   Future<void> speakbarrelorgans6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarrelorgans66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarrelorgans66");
   }
 
   Future<void> speakbarrelorgans7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarrelorgans77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarrelorgans77");
   }
 
   @override

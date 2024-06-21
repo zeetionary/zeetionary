@@ -21,7 +21,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chastity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chastity");
   }
 
   Future<void> speakchastitys1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As a monk, he took vows of chastity, poverty, and obedience."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("As a monk, he took vows of chastity, poverty, and obedience.");
   }
 
   Future<void> speakchastitys2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys200");
   }
 
   Future<void> speakchastitys3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys300");
   }
 
   Future<void> speakchastitys4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys400");
   }
 
   Future<void> speakchastitys5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys500");
   }
 
   Future<void> speakchastitys6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys600");
   }
 
   Future<void> speakchastitys7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys700");
   }
 
   Future<void> speakchastitys8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys800");
   }
 
   Future<void> speakchastitys9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys900");
   }
 
   Future<void> speakchastitys10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys1000");
   }
 
   Future<void> speakchastitys11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys1100");
   }
 
   Future<void> speakchastitys12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys1200");
   }
 
   Future<void> speakchastitys13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntrychastity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchastitys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchastitys1300");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attach"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attach");
   }
 
   Future<void> speakattach319(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "attI attached a photo to my application form."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attI attached a photo to my application form.");
   }
 
   Future<void> speakattach321(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have attached a number of conditions to the agreement."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They have attached a number of conditions to the agreement.");
   }
 
   Future<void> speakattach322(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I am attaching the image as a PDF file."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I am attaching the image as a PDF file.");
   }
 
   Future<void> speakattach325(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I attach great importance to this research."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I attach great importance to this research.");
   }
 
   Future<void> speakattach327(String languageCode) async {
@@ -69,7 +66,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He attached himself to me at the party and I couldn't get rid of him."); // DOPSUM: CHANGE TEXT
+        "He attached himself to me at the party and I couldn't get rid of him.");
   }
 
   Future<void> speakattach329(String languageCode) async {
@@ -77,8 +74,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("This does not attach any blame to you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This does not attach any blame to you.");
   }
 
   Future<void> speakattach331(String languageCode) async {
@@ -87,7 +83,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "No one is suggesting that any health risks attach to this product."); // DOPSUM: CHANGE TEXT
+        "No one is suggesting that any health risks attach to this product.");
   }
 
   // Future<void> speakattach(String languageCode) async {
@@ -95,7 +91,7 @@ class EnglishEntryattach extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attach"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attach");
   // }
 
   @override

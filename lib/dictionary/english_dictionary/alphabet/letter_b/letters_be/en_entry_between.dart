@@ -24,7 +24,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("between"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("between");
   }
 
   Future<void> speakbetweens1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Q comes between P and R in the English alphabet."); // DOPSUM: CHANGE TEXT
+        "Q comes between P and R in the English alphabet.");
   }
 
   Future<void> speakbetweens2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I sat down between Jim and Diana."); // DOPSUM: CHANGE TEXT
+        .speak("I sat down between Jim and Diana.");
   }
 
   Future<void> speakbetweens3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Switzerland lies between France, Germany, Austria and Italy."); // DOPSUM: CHANGE TEXT
+        "Switzerland lies between France, Germany, Austria and Italy.");
   }
 
   Future<void> speakbetweens4(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't eat between meals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't eat between meals.");
   }
 
   Future<void> speakbetweens5(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Children must attend school between the ages of 5 and 16."); // DOPSUM: CHANGE TEXT
+        "Children must attend school between the ages of 5 and 16.");
   }
 
   Future<void> speakbetweens6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("It weighed between nine and ten kilos."); // DOPSUM: CHANGE TEXT
+        .speak("It weighed between nine and ten kilos.");
   }
 
   Future<void> speakbetweens7(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a long border between United States and Canada."); // DOPSUM: CHANGE TEXT
+        "There is a long border between United States and Canada.");
   }
 
   Future<void> speakbetweens8(String languageCode) async {
@@ -95,7 +95,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We fly between Rome and Paris twice daily."); // DOPSUM: CHANGE TEXT
+        "We fly between Rome and Paris twice daily.");
   }
 
   Future<void> speakbetweens9(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There's a lot of animosity between them."); // DOPSUM: CHANGE TEXT
+        "There's a lot of animosity between them.");
   }
 
   Future<void> speakbetweens10(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "What’s the difference between this £100 watch and the £500 one?"); // DOPSUM: CHANGE TEXT
+        "What’s the difference between this £100 watch and the £500 one?");
   }
 
   Future<void> speakbetweens11(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We ate a pizza between us."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We ate a pizza between us.");
   }
 
   Future<void> speakbetweens12(String languageCode) async {
@@ -130,7 +130,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This is just between you and me/between ourselves."); // DOPSUM: CHANGE TEXT
+        "This is just between you and me/between ourselves.");
   }
 
   Future<void> speakbetweens13(String languageCode) async {
@@ -139,7 +139,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We ought to be able to manage it between us."); // DOPSUM: CHANGE TEXT
+        "We ought to be able to manage it between us.");
   }
 
   Future<void> speakbetweens14(String languageCode) async {
@@ -148,7 +148,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "China and India between them account for a third of the world's population."); // DOPSUM: CHANGE TEXT
+        "China and India between them account for a third of the world's population.");
   }
 
   Future<void> speakbetweens15(String languageCode) async {
@@ -157,7 +157,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Between working full-time and taking care of the kids, he didn't have much time for hobbies."); // DOPSUM: CHANGE TEXT
+        "Between working full-time and taking care of the kids, he didn't have much time for hobbies.");
   }
 
   Future<void> speakbetweens16(String languageCode) async {
@@ -166,7 +166,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The house was near a park but there was a road in between."); // DOPSUM: CHANGE TEXT
+        "The house was near a park but there was a road in between.");
   }
 
   Future<void> speakbetweens17(String languageCode) async {
@@ -175,7 +175,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I see her most weekends but not very often in between."); // DOPSUM: CHANGE TEXT
+        "I see her most weekends but not very often in between.");
   }
 
   Future<void> speakbetweens18(String languageCode) async {
@@ -183,7 +183,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens1818");
   }
 
   Future<void> speakbetweens19(String languageCode) async {
@@ -191,7 +191,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens1919");
   }
 
   Future<void> speakbetweens20(String languageCode) async {
@@ -199,7 +199,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens2020");
   }
 
   Future<void> speakbetweens21(String languageCode) async {
@@ -207,7 +207,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens2121");
   }
 
   Future<void> speakbetweens22(String languageCode) async {
@@ -215,7 +215,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens2222");
   }
 
   Future<void> speakbetweens23(String languageCode) async {
@@ -223,7 +223,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens2323");
   }
 
   Future<void> speakbetweens24(String languageCode) async {
@@ -231,7 +231,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBetweens2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBetweens2424");
   }
 
   @override

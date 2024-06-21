@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dressmaker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dressmaker");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dressmaker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dressmaker");
   }
 
   @override
@@ -351,176 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dressmaker sewed a beautiful wedding gown."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers2(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers3(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers4(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers5(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers6(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers7(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers8(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers9(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers10(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers11(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers12(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers13(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers14(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers15(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers16(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers17(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers18(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers19(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers20(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers21(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressmakers22(String languageCode) async {
-    // DOPSUM: CHANGE speakdressmaker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressmakers2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The dressmaker sewed a beautiful wedding gown.");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disappear"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disappear");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disappear"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disappear");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("With that, Matt promptly disappeared."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("With that, Matt promptly disappeared.");
   }
 
   Future<void> speakdisappears2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The mirror made the ceiling seem to disappear."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The mirror made the ceiling seem to disappear.");
   }
 
   Future<void> speakdisappears3(String languageCode) async {
@@ -239,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The plane disappeared behind a cloud."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plane disappeared behind a cloud.");
   }
 
   Future<void> speakdisappears4(String languageCode) async {
@@ -248,8 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Lisa watched until the train disappeared from view."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Lisa watched until the train disappeared from view.");
   }
 
   Future<void> speakdisappears5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The problem won't just disappear."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The problem won't just disappear.");
   }
 
   Future<void> speakdisappears6(String languageCode) async {
@@ -266,8 +262,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her nervousness quickly disappeared once she was on stage."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her nervousness quickly disappeared once she was on stage.");
   }
 
   Future<void> speakdisappears7(String languageCode) async {
@@ -275,8 +271,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Wildlife is fast disappearing from our countryside."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Wildlife is fast disappearing from our countryside.");
   }
 
   Future<void> speakdisappears8(String languageCode) async {
@@ -285,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These fish have virtually disappeared from their traditional waters."); // DOPSUM: CHANGE TEXT
+        "These fish have virtually disappeared from their traditional waters.");
   }
 
   Future<void> speakdisappears9(String languageCode) async {
@@ -294,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I can never find a pen in this house. They disappear as soon as I buy them."); // DOPSUM: CHANGE TEXT
+        "I can never find a pen in this house. They disappear as soon as I buy them.");
   }
 
   Future<void> speakdisappears10(String languageCode) async {
@@ -302,8 +298,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plane mysteriously disappeared over the Indian Ocean."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The plane mysteriously disappeared over the Indian Ocean.");
   }
 
   Future<void> speakdisappears11(String languageCode) async {
@@ -311,8 +307,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plane suddenly just disappeared from the radar screen."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The plane suddenly just disappeared from the radar screen.");
   }
 
   Future<void> speakdisappears12(String languageCode) async {
@@ -320,88 +316,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "One month later, he was disappeared by the regime."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisappears22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisappear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisappears2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("One month later, he was disappeared by the regime.");
   }
 
   @override

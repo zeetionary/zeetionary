@@ -16,7 +16,7 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ahead of"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ahead of");
   }
 
   Future<void> speakahead25355(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Two boys were ahead of us."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Two boys were ahead of us.");
   }
 
   Future<void> speakaheadof2377(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ahead of us lay ten days of intensive training."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Ahead of us lay ten days of intensive training.");
   }
 
   Future<void> speakahead3522(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I finished several days ahead of the deadline."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I finished several days ahead of the deadline.");
   }
 
   Future<void> speakaheadof3596(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was always well ahead of the rest of the class."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was always well ahead of the rest of the class.");
   }
 
   // Future<void> speakaheadof(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryaheadof extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aheadof"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aheadof");
   // }
 
   @override

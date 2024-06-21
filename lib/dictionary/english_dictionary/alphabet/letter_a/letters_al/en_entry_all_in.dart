@@ -16,7 +16,7 @@ class EnglishEntryallin extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("all-in"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("all-in");
   }
 
   Future<void> speakallallin52471(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryallin extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The all-in holiday includes fares, full board and entrance to museums."); // DOPSUM: CHANGE TEXT
+        "The all-in holiday includes fares, full board and entrance to museums.");
   }
 
   // Future<void> speakallallin(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryallin extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all-in"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("all-in");
   // }
 
   // Future<void> speakallallin(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryallin extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all-in"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("all-in");
   // }
 
   @override

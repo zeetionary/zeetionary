@@ -21,7 +21,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("confederate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("confederate");
   }
 
   Future<void> speakconfederates1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Rokovssky was his confederate in the assassination plot."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Rokovssky was his confederate in the assassination plot.");
   }
 
   Future<void> speakconfederates2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Confederate general was revered by many in the South for his leadership."); // DOPSUM: CHANGE TEXT
+        "The Confederate general was revered by many in the South for his leadership.");
   }
 
   Future<void> speakconfederates3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The confederate states collaborated on a trade agreement to benefit all members."); // DOPSUM: CHANGE TEXT
+        "The confederate states collaborated on a trade agreement to benefit all members.");
   }
 
   Future<void> speakconfederates4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Confederate States' economy was heavily reliant on agriculture, particularly cotton."); // DOPSUM: CHANGE TEXT
+        "The Confederate States' economy was heavily reliant on agriculture, particularly cotton.");
   }
 
   Future<void> speakconfederates5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates500");
   }
 
   Future<void> speakconfederates6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates600");
   }
 
   Future<void> speakconfederates7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates700");
   }
 
   Future<void> speakconfederates8(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates800");
   }
 
   Future<void> speakconfederates9(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates900");
   }
 
   Future<void> speakconfederates10(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates1000");
   }
 
   Future<void> speakconfederates11(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates1100");
   }
 
   Future<void> speakconfederates12(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates1200");
   }
 
   Future<void> speakconfederates13(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntryconfederate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfederates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconfederates1300");
   }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("constituent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("constituent");
   }
 
   Future<void> speakconstituents1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has the full support of her constituents."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has the full support of her constituents.");
   }
 
   Future<void> speakconstituents2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Vitamins are natural food constituents which are essential in helping to maintain good health."); // DOPSUM: CHANGE TEXT
+        "Vitamins are natural food constituents which are essential in helping to maintain good health.");
   }
 
   Future<void> speakconstituents3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Let's look at the constituent parts of this sentence."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Let's look at the constituent parts of this sentence.");
   }
 
   Future<void> speakconstituents4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The process of breaking down food into its constituent elements begins."); // DOPSUM: CHANGE TEXT
+        "The process of breaking down food into its constituent elements begins.");
   }
 
   Future<void> speakconstituents5(String languageCode) async {
@@ -65,7 +64,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents500");
   }
 
   Future<void> speakconstituents6(String languageCode) async {
@@ -73,7 +72,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents600");
   }
 
   Future<void> speakconstituents7(String languageCode) async {
@@ -81,7 +80,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents700");
   }
 
   Future<void> speakconstituents8(String languageCode) async {
@@ -89,7 +88,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents800");
   }
 
   Future<void> speakconstituents9(String languageCode) async {
@@ -97,7 +96,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents900");
   }
 
   Future<void> speakconstituents10(String languageCode) async {
@@ -105,7 +104,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents1000");
   }
 
   Future<void> speakconstituents11(String languageCode) async {
@@ -113,7 +112,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents1100");
   }
 
   Future<void> speakconstituents12(String languageCode) async {
@@ -121,7 +120,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents1200");
   }
 
   Future<void> speakconstituents13(String languageCode) async {
@@ -129,7 +128,7 @@ class EnglishEntryconstituent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstituents1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconstituents1300");
   }
 
   @override

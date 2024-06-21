@@ -16,7 +16,7 @@ class EnglishEntryaggravation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aggravation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aggravation");
   }
 
   Future<void> speakaggrava685435(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaggravation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'd complain to the manager but it's not worth the aggravation."); // DOPSUM: CHANGE TEXT
+        "I'd complain to the manager but it's not worth the aggravation.");
   }
 
   Future<void> speakaggravat37814(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaggravation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Rest the affected limb to avoid further aggravation of the condition."); // DOPSUM: CHANGE TEXT
+        "Rest the affected limb to avoid further aggravation of the condition.");
   }
 
   // Future<void> speakaggravation(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryaggravation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aggravation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aggravation");
   // }
 
   @override

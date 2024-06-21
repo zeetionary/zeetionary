@@ -18,7 +18,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burst"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burst");
   }
 
   Future<void> speakbursts1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "That balloon will burst if you blow it up any more."); // DOPSUM: CHANGE TEXT
+        "That balloon will burst if you blow it up any more.");
   }
 
   Future<void> speakbursts2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dam burst under the weight of water."); // DOPSUM: CHANGE TEXT
+        "The dam burst under the weight of water.");
   }
 
   Future<void> speakbursts3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Shells were bursting all around us."); // DOPSUM: CHANGE TEXT
+        .speak("Shells were bursting all around us.");
   }
 
   Future<void> speakbursts4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He felt he would burst with anger and shame."); // DOPSUM: CHANGE TEXT
+        "He felt he would burst with anger and shame.");
   }
 
   Future<void> speakbursts5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He burst into the room without knocking."); // DOPSUM: CHANGE TEXT
+        "He burst into the room without knocking.");
   }
 
   Future<void> speakbursts6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The sun burst through the clouds."); // DOPSUM: CHANGE TEXT
+        .speak("The sun burst through the clouds.");
   }
 
   Future<void> speakbursts7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The words burst from her in an angry rush."); // DOPSUM: CHANGE TEXT
+        "The words burst from her in an angry rush.");
   }
 
   Future<void> speakbursts8(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The roads are bursting with cars."); // DOPSUM: CHANGE TEXT
+        .speak("The roads are bursting with cars.");
   }
 
   Future<void> speakbursts9(String languageCode) async {
@@ -98,7 +98,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I’m bursting (for a pee)!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I’m bursting (for a pee)!");
   }
 
   Future<void> speakbursts10(String languageCode) async {
@@ -106,7 +106,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I tend to work in bursts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I tend to work in bursts.");
   }
 
   Future<void> speakbursts11(String languageCode) async {
@@ -115,7 +115,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was a spontaneous burst of applause."); // DOPSUM: CHANGE TEXT
+        "There was a spontaneous burst of applause.");
   }
 
   Future<void> speakbursts12(String languageCode) async {
@@ -124,7 +124,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A burst in the water pipe flooded the floor."); // DOPSUM: CHANGE TEXT
+        "A burst in the water pipe flooded the floor.");
   }
 
   Future<void> speakbursts13(String languageCode) async {
@@ -133,7 +133,7 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."); // DOPSUM: CHANGE TEXT
+        "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly.");
   }
 
   @override

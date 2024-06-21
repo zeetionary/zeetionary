@@ -18,7 +18,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bug"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bug");
   }
 
   Future<void> speakbugs1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("There's a bug crawling up your arm."); // DOPSUM: CHANGE TEXT
+        .speak("There's a bug crawling up your arm.");
   }
 
   Future<void> speakbugs2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I picked up a bug in the office."); // DOPSUM: CHANGE TEXT
+        .speak("I picked up a bug in the office.");
   }
 
   Future<void> speakbugs3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She's been bitten by the travel bug."); // DOPSUM: CHANGE TEXT
+        .speak("She's been bitten by the travel bug.");
   }
 
   Future<void> speakbugs4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My computer's really slow at the moment—it must be some kind of bug."); // DOPSUM: CHANGE TEXT
+        "My computer's really slow at the moment—it must be some kind of bug.");
   }
 
   Future<void> speakbugs5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They planted a bug in his hotel room."); // DOPSUM: CHANGE TEXT
+        .speak("They planted a bug in his hotel room.");
   }
 
   Future<void> speakbugs6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They bugged her hotel room."); // DOPSUM: CHANGE TEXT
+        .speak("They bugged her hotel room.");
   }
 
   Future<void> speakbugs7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybug extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "What's the matter? Is there something bugging you?"); // DOPSUM: CHANGE TEXT
+        "What's the matter? Is there something bugging you?");
   }
 
   @override

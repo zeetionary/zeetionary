@@ -16,7 +16,7 @@ class EnglishEntryairmail extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airmail"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airmail");
   }
 
   Future<void> speakairmail4699(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryairmail extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Send it airmail/by airmail."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Send it airmail/by airmail.");
   }
 
   // Future<void> speakairmail(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryairmail extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airmail"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airmail");
   // }
 
   // Future<void> speakairmail(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryairmail extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airmail"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airmail");
   // }
 
   @override

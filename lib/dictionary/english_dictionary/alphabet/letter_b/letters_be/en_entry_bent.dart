@@ -24,7 +24,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bent");
   }
 
   Future<void> speakbents1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Do this exercise with your knees bent."); // DOPSUM: CHANGE TEXT
+        .speak("Do this exercise with your knees bent.");
   }
 
   Future<void> speakbents2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The lamp post got bent in the crash."); // DOPSUM: CHANGE TEXT
+        .speak("The lamp post got bent in the crash.");
   }
 
   Future<void> speakbents3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I saw a small bent old woman crossing the street."); // DOPSUM: CHANGE TEXT
+        "I saw a small bent old woman crossing the street.");
   }
 
   Future<void> speakbents4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The politician was accused of being bent."); // DOPSUM: CHANGE TEXT
+        "The politician was accused of being bent.");
   }
 
   Future<void> speakbents5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She has a bent for mathematics."); // DOPSUM: CHANGE TEXT
+        .speak("She has a bent for mathematics.");
   }
 
   Future<void> speakbents6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBents66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBents66");
   }
 
   Future<void> speakbents7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBents77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBents77");
   }
 
   @override

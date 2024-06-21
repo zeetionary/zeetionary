@@ -24,7 +24,7 @@ class EnglishEntryastrological extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("astrological");
   }
 
   Future<void> speakastrological434(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryastrological extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day."); // DOPSUM: CHANGE TEXT
+        "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day.");
   }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   // Future<void> speakastrological(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryastrological extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("astrological"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("astrological");
   // }
 
   @override

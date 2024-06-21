@@ -21,7 +21,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("combine"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("combine");
   }
 
   Future<void> speakcombines1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hydrogen and oxygen combine to form water."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Hydrogen and oxygen combine to form water.");
   }
 
   Future<void> speakcombines2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several factors had combined to ruin our plans."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Several factors had combined to ruin our plans.");
   }
 
   Future<void> speakcombines3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Archaeological and historical evidence combine to create a picture of what life must have been like at that time."); // DOPSUM: CHANGE TEXT
+        "Archaeological and historical evidence combine to create a picture of what life must have been like at that time.");
   }
 
   Future<void> speakcombines4(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are still looking for someone who combines all the necessary qualities."); // DOPSUM: CHANGE TEXT
+        "We are still looking for someone who combines all the necessary qualities.");
   }
 
   Future<void> speakcombines5(String languageCode) async {
@@ -65,8 +63,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This model combines a printer and scanner."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This model combines a printer and scanner.");
   }
 
   Future<void> speakcombines6(String languageCode) async {
@@ -74,8 +71,8 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The other room was a kitchen and dining room combined."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The other room was a kitchen and dining room combined.");
   }
 
   Future<void> speakcombines7(String languageCode) async {
@@ -83,8 +80,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The trip will combine business with pleasure."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The trip will combine business with pleasure.");
   }
 
   Future<void> speakcombines8(String languageCode) async {
@@ -92,8 +88,8 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She successfully combines her career with family life."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She successfully combines her career with family life.");
   }
 
   Future<void> speakcombines9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They combined against a common enemy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They combined against a common enemy.");
   }
 
   Future<void> speakcombines10(String languageCode) async {
@@ -110,8 +105,8 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You should try to combine exercise with a healthy diet."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You should try to combine exercise with a healthy diet.");
   }
 
   Future<void> speakcombines11(String languageCode) async {
@@ -119,8 +114,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The farmer used a combine to harvest the wheat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The farmer used a combine to harvest the wheat.");
   }
 
   Future<void> speakcombines12(String languageCode) async {
@@ -128,7 +122,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombines1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombines1200");
   }
 
   Future<void> speakcombines13(String languageCode) async {
@@ -136,7 +130,7 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombines1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcombines1300");
   }
 
   @override

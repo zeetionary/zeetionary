@@ -16,7 +16,7 @@ class EnglishEntryaccolade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accolade"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accolade");
   }
 
   Future<void> speakaccolade85566(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaccolade extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's been granted the ultimate accolade - his face on a postage stamp."); // DOPSUM: CHANGE TEXT
+        "He's been granted the ultimate accolade - his face on a postage stamp.");
   }
 
   @override

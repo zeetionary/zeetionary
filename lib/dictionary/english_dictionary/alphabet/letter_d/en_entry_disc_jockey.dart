@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disc jockey"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disc jockey");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disc jockey"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disc jockey");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The disc jockey played the latest hits at the party."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The disc jockey played the latest hits at the party.");
   }
 
   Future<void> speakdiscjockeys2(String languageCode) async {
@@ -230,168 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The disc jockey at the club kept the crowd dancing."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiscjockeys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiscjockey
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiscjockeys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The disc jockey at the club kept the crowd dancing.");
   }
 
   @override

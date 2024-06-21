@@ -22,7 +22,7 @@ class EnglishEntryappealing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appealing");
   }
 
   Future<void> speakappealing1011(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryappealing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The large salary made their offer even more appealing to him."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The large salary made their offer even more appealing to him.");
   }
 
   Future<void> speakappealing1015(String languageCode) async {
@@ -39,8 +39,8 @@ class EnglishEntryappealing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "‘Would you really help?’ he said with an appealing look."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("‘Would you really help?’ he said with an appealing look.");
   }
 
   // Future<void> speakappealing(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appealing");
   // }
 
   // Future<void> speakappealing(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appealing");
   // }
 
   // Future<void> speakappealing(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appealing");
   // }
 
   // Future<void> speakappealing(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appealing");
   // }
 
   // Future<void> speakappealing(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appealing");
   // }
 
   // Future<void> speakappealing(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appealing");
   // }
 
   @override

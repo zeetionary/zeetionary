@@ -21,7 +21,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("collective"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("collective");
   }
 
   Future<void> speakcollectives1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "MPs heaved a collective sigh of relief when the news was announced last night."); // DOPSUM: CHANGE TEXT
+        "MPs heaved a collective sigh of relief when the news was announced last night.");
   }
 
   Future<void> speakcollectives2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The austerities of wartime Europe were still fresh in the collective memory."); // DOPSUM: CHANGE TEXT
+        "The austerities of wartime Europe were still fresh in the collective memory.");
   }
 
   Future<void> speakcollectives3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There has to be a balance between individual choice and collective responsibility."); // DOPSUM: CHANGE TEXT
+        "There has to be a balance between individual choice and collective responsibility.");
   }
 
   Future<void> speakcollectives4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The collective name for mast, boom and sails on a boat is the ‘rig’."); // DOPSUM: CHANGE TEXT
+        "The collective name for mast, boom and sails on a boat is the ‘rig’.");
   }
 
   Future<void> speakcollectives5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives500");
   }
 
   Future<void> speakcollectives6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives600");
   }
 
   Future<void> speakcollectives7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives700");
   }
 
   Future<void> speakcollectives8(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives800");
   }
 
   Future<void> speakcollectives9(String languageCode) async {
@@ -97,7 +97,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives900");
   }
 
   Future<void> speakcollectives10(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1000");
   }
 
   Future<void> speakcollectives11(String languageCode) async {
@@ -113,7 +113,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1100");
   }
 
   Future<void> speakcollectives12(String languageCode) async {
@@ -121,7 +121,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1200");
   }
 
   Future<void> speakcollectives13(String languageCode) async {
@@ -129,7 +129,7 @@ class EnglishEntrycollective extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollectives1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcollectives1300");
   }
 
   @override

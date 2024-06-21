@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drugstore"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drugstore");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drugstore"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drugstore");
   }
 
   @override
@@ -351,8 +351,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I bought these sunglasses at the drugstore."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I bought these sunglasses at the drugstore.");
   }
 
   Future<void> speakdrugstores2(String languageCode) async {
@@ -360,168 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The toothpaste is available at supermarkets and drugstores."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores3(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores4(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores5(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores6(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores7(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrugstores22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrugstore
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrugstores2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The toothpaste is available at supermarkets and drugstores.");
   }
 
   @override

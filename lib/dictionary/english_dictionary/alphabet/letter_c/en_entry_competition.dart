@@ -21,7 +21,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("competition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("competition");
   }
 
   Future<void> speakcompetitions1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hundreds of schools entered the competition."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Hundreds of schools entered the competition.");
   }
 
   Future<void> speakcompetitions2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He won fourth place in the competition."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He won fourth place in the competition.");
   }
 
   Future<void> speakcompetitions3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There will be a painting competition for children of different age groups."); // DOPSUM: CHANGE TEXT
+        "There will be a painting competition for children of different age groups.");
   }
 
   Future<void> speakcompetitions4(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We're going to have a competition to see who can swim the fastest."); // DOPSUM: CHANGE TEXT
+        "We're going to have a competition to see who can swim the fastest.");
   }
 
   Future<void> speakcompetitions5(String languageCode) async {
@@ -65,8 +63,8 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The competition is open to all readers of the magazine."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The competition is open to all readers of the magazine.");
   }
 
   Future<void> speakcompetitions6(String languageCode) async {
@@ -75,7 +73,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government said the new laws would enhance competition among banks."); // DOPSUM: CHANGE TEXT
+        "The government said the new laws would enhance competition among banks.");
   }
 
   Future<void> speakcompetitions7(String languageCode) async {
@@ -84,7 +82,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Public education is run in direct competition with the private sector."); // DOPSUM: CHANGE TEXT
+        "Public education is run in direct competition with the private sector.");
   }
 
   Future<void> speakcompetitions8(String languageCode) async {
@@ -93,7 +91,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are in competition with four other companies for the contract."); // DOPSUM: CHANGE TEXT
+        "We are in competition with four other companies for the contract.");
   }
 
   Future<void> speakcompetitions9(String languageCode) async {
@@ -101,8 +99,8 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Competition is heating up and sales are shrinking."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Competition is heating up and sales are shrinking.");
   }
 
   Future<void> speakcompetitions10(String languageCode) async {
@@ -110,8 +108,8 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This car consistently outperforms the competition."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This car consistently outperforms the competition.");
   }
 
   Future<void> speakcompetitions11(String languageCode) async {
@@ -119,7 +117,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetitions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetitions1100");
   }
 
   Future<void> speakcompetitions12(String languageCode) async {
@@ -127,7 +125,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetitions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetitions1200");
   }
 
   Future<void> speakcompetitions13(String languageCode) async {
@@ -135,7 +133,7 @@ class EnglishEntrycompetition extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetitions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcompetitions1300");
   }
 
   @override

@@ -443,94 +443,6 @@ class KurdishMeaning extends StatelessWidget {
         "The drip, drip of negative comments began to have an effect."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrips12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrips22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrips2200"); // DOPSUM: CHANGE TEXT
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -859,32 +771,32 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٧. (ناو) پێنناسە"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "speakdrips1200"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips12("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "٧. (ناو) پێنناسە"),
+          // // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdrips1200"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdrips12("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdrips12("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),

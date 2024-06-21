@@ -24,7 +24,7 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("associate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("associate");
   }
 
   Future<void> speakassociate1135(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I always associate the smell of baking with my childhood."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I always associate the smell of baking with my childhood.");
   }
 
   Future<void> speakassociate1136(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most people immediately associate addictions with drugs, alcohol and cigarettes."); // DOPSUM: CHANGE TEXT
+        "Most people immediately associate addictions with drugs, alcohol and cigarettes.");
   }
 
   Future<void> speakassociate1139(String languageCode) async {
@@ -50,8 +50,7 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I don't like you associating with those people."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I don't like you associating with those people.");
   }
 
   Future<void> speakassociate1140(String languageCode) async {
@@ -59,8 +58,8 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I associate myself with the prime minister's remarks."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I associate myself with the prime minister's remarks.");
   }
 
   Future<void> speakassociate1143(String languageCode) async {
@@ -68,8 +67,8 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was known to be one of the convicted man’s associates."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was known to be one of the convicted man’s associates.");
   }
 
   Future<void> speakassociate1147(String languageCode) async {
@@ -77,8 +76,7 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was only the associate producer of the movie."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was only the associate producer of the movie.");
   }
 
   // Future<void> speakassociate(String languageCode) async {
@@ -86,7 +84,7 @@ class EnglishEntryassociate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("associate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("associate");
   // }
 
   // Future<void> speakassociate(String languageCode) async {
@@ -94,7 +92,7 @@ class EnglishEntryassociate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("associate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("associate");
   // }
 
   @override

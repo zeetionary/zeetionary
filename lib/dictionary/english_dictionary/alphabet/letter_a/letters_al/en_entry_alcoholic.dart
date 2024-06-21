@@ -16,7 +16,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alcoholic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alcoholic");
   }
 
   Future<void> speakalcoholic459(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The fruit juice tasted slightly alcoholic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The fruit juice tasted slightly alcoholic.");
   }
 
   Future<void> speakalcoholic469(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The guests left in an alcoholic haze."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The guests left in an alcoholic haze.");
   }
 
   Future<void> speakalcoholic358(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was taking care of her alcoholic son."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was taking care of her alcoholic son.");
   }
 
   Future<void> speakalcoholic39412(String languageCode) async {
@@ -52,7 +49,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don’t think an alcoholic can dry out without proper medical help."); // DOPSUM: CHANGE TEXT
+        "I don’t think an alcoholic can dry out without proper medical help.");
   }
 
   @override

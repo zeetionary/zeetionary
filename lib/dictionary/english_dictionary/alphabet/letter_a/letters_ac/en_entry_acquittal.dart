@@ -16,7 +16,7 @@ class EnglishEntryacquittal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acquittal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acquittal");
   }
 
   Future<void> speakacqu21647(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacquittal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The case resulted in an acquittal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The case resulted in an acquittal.");
   }
 
   // Future<void> speakacquittal(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryacquittal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acquittal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acquittal");
   // }
 
   // Future<void> speakacquittal(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryacquittal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acquittal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acquittal");
   // }
 
   @override

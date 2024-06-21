@@ -24,7 +24,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bear"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bear");
   }
 
   Future<void> speakbears1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A little bear cub ran right across the road in front of us."); // DOPSUM: CHANGE TEXT
+        "A little bear cub ran right across the road in front of us.");
   }
 
   Future<void> speakbears2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The pain was almost more than he could bear."); // DOPSUM: CHANGE TEXT
+        "The pain was almost more than he could bear.");
   }
 
   Future<void> speakbears3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She bore it all with her usual patience."); // DOPSUM: CHANGE TEXT
+        "She bore it all with her usual patience.");
   }
 
   Future<void> speakbears4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She bore the responsibility for most of the changes."); // DOPSUM: CHANGE TEXT
+        "She bore the responsibility for most of the changes.");
   }
 
   Future<void> speakbears5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In the end it's consumers who bear the burden of higher prices."); // DOPSUM: CHANGE TEXT
+        "In the end it's consumers who bear the burden of higher prices.");
   }
 
   Future<void> speakbears6(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ice is too thin to bear your weight."); // DOPSUM: CHANGE TEXT
+        "The ice is too thin to bear your weight.");
   }
 
   Future<void> speakbears7(String languageCode) async {
@@ -87,7 +87,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The document bore her signature."); // DOPSUM: CHANGE TEXT
+        .speak("The document bore her signature.");
   }
 
   Future<void> speakbears8(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was badly wounded in the war and still bears the scars."); // DOPSUM: CHANGE TEXT
+        "He was badly wounded in the war and still bears the scars.");
   }
 
   Future<void> speakbears9(String languageCode) async {
@@ -105,7 +105,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She bears little resemblance to her mother."); // DOPSUM: CHANGE TEXT
+        "She bears little resemblance to her mother.");
   }
 
   Future<void> speakbears10(String languageCode) async {
@@ -114,7 +114,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her later work does not bear comparison with her earlier novels."); // DOPSUM: CHANGE TEXT
+        "Her later work does not bear comparison with her earlier novels.");
   }
 
   Future<void> speakbears11(String languageCode) async {
@@ -123,7 +123,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The plan won't bear close inspection."); // DOPSUM: CHANGE TEXT
+        .speak("The plan won't bear close inspection.");
   }
 
   Future<void> speakbears12(String languageCode) async {
@@ -132,7 +132,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The joke doesn't bear repeating."); // DOPSUM: CHANGE TEXT
+        .speak("The joke doesn't bear repeating.");
   }
 
   Future<void> speakbears13(String languageCode) async {
@@ -141,7 +141,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He bears no resentment towards them."); // DOPSUM: CHANGE TEXT
+        .speak("He bears no resentment towards them.");
   }
 
   Future<void> speakbears14(String languageCode) async {
@@ -150,7 +150,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's borne a grudge against me ever since that day."); // DOPSUM: CHANGE TEXT
+        "He's borne a grudge against me ever since that day.");
   }
 
   Future<void> speakbears15(String languageCode) async {
@@ -159,7 +159,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The stone plaque bearing his name was smashed to pieces."); // DOPSUM: CHANGE TEXT
+        "The stone plaque bearing his name was smashed to pieces.");
   }
 
   Future<void> speakbears16(String languageCode) async {
@@ -168,7 +168,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He returned bearing a basket of vegetables."); // DOPSUM: CHANGE TEXT
+        "He returned bearing a basket of vegetables.");
   }
 
   Future<void> speakbears17(String languageCode) async {
@@ -177,7 +177,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Her two sons helped bear the coffin."); // DOPSUM: CHANGE TEXT
+        .speak("Her two sons helped bear the coffin.");
   }
 
   Future<void> speakbears18(String languageCode) async {
@@ -186,7 +186,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He bears himself proudly, like a soldier."); // DOPSUM: CHANGE TEXT
+        "He bears himself proudly, like a soldier.");
   }
 
   Future<void> speakbears19(String languageCode) async {
@@ -195,7 +195,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She had borne him six sons."); // DOPSUM: CHANGE TEXT
+        .speak("She had borne him six sons.");
   }
 
   Future<void> speakbears20(String languageCode) async {
@@ -204,7 +204,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These trees take a long time to bear fruit."); // DOPSUM: CHANGE TEXT
+        "These trees take a long time to bear fruit.");
   }
 
   Future<void> speakbears21(String languageCode) async {
@@ -213,7 +213,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When you get to the fork in the road, bear right."); // DOPSUM: CHANGE TEXT
+        "When you get to the fork in the road, bear right.");
   }
 
   Future<void> speakbears22(String languageCode) async {
@@ -221,7 +221,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2222");
   }
 
   Future<void> speakbears23(String languageCode) async {
@@ -229,7 +229,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2323");
   }
 
   Future<void> speakbears24(String languageCode) async {
@@ -237,7 +237,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2424");
   }
 
   Future<void> speakbears25(String languageCode) async {
@@ -245,7 +245,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2525");
   }
 
   Future<void> speakbears26(String languageCode) async {
@@ -253,7 +253,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2626");
   }
 
   Future<void> speakbears27(String languageCode) async {
@@ -261,7 +261,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2727");
   }
 
   Future<void> speakbears28(String languageCode) async {
@@ -269,7 +269,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2828");
   }
 
   Future<void> speakbears29(String languageCode) async {
@@ -277,7 +277,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears2929");
   }
 
   Future<void> speakbears30(String languageCode) async {
@@ -285,7 +285,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears3030");
   }
 
   @override

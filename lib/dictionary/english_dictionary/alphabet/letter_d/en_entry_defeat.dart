@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("defeat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("defeat");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("defeat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("defeat");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He defeated the champion in three sets."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He defeated the champion in three sets.");
   }
 
   Future<void> speakdefeats2(String languageCode) async {
@@ -230,8 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The goal is to defeat the enemy by whatever means possible."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The goal is to defeat the enemy by whatever means possible.");
   }
 
   Future<void> speakdefeats3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Garibaldi defeated the Neapolitan army."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Garibaldi defeated the Neapolitan army.");
   }
 
   Future<void> speakdefeats4(String languageCode) async {
@@ -248,8 +246,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was said that he could not be defeated in battle."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was said that he could not be defeated in battle.");
   }
 
   Future<void> speakdefeats5(String languageCode) async {
@@ -258,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They are united in their determination to defeat global terrorism."); // DOPSUM: CHANGE TEXT
+        "They are united in their determination to defeat global terrorism.");
   }
 
   Future<void> speakdefeats6(String languageCode) async {
@@ -266,8 +264,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The proposed bill was decisively defeated in Parliament."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The proposed bill was decisively defeated in Parliament.");
   }
 
   Future<void> speakdefeats7(String languageCode) async {
@@ -275,8 +273,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The motion was defeated by 19 votes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The motion was defeated by 19 votes.");
   }
 
   Future<void> speakdefeats8(String languageCode) async {
@@ -285,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Writing down your password so you remember it defeats the purpose of having a password."); // DOPSUM: CHANGE TEXT
+        "Writing down your password so you remember it defeats the purpose of having a password.");
   }
 
   Future<void> speakdefeats9(String languageCode) async {
@@ -293,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Question 6 defeated us."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Question 6 defeated us.");
   }
 
   Future<void> speakdefeats10(String languageCode) async {
@@ -301,8 +298,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The party faces defeat in the election."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The party faces defeat in the election.");
   }
 
   Future<void> speakdefeats11(String languageCode) async {
@@ -310,8 +306,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The world champion has only had two defeats in 20 fights."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The world champion has only had two defeats in 20 fights.");
   }
 
   Future<void> speakdefeats12(String languageCode) async {
@@ -319,8 +315,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They finally had to admit defeat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They finally had to admit defeat.");
   }
 
   Future<void> speakdefeats13(String languageCode) async {
@@ -328,8 +323,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The army inflicted a heavy defeat on rebel forces."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The army inflicted a heavy defeat on rebel forces.");
   }
 
   @override

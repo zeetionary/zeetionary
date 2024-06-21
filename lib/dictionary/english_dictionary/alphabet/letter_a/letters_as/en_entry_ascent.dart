@@ -24,7 +24,7 @@ class EnglishEntryascent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ascent");
   }
 
   Future<void> speakascent1230(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryascent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history."); // DOPSUM: CHANGE TEXT
+        "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history.");
   }
 
   Future<void> speakascent1232(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryascent extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As the plane made its ascent, we saw thick smoke coming from one engine."); // DOPSUM: CHANGE TEXT
+        "As the plane made its ascent, we saw thick smoke coming from one engine.");
   }
 
   // Future<void> speakascent(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascent");
   // }
 
   // Future<void> speakascent(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascent");
   // }
 
   // Future<void> speakascent(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascent");
   // }
 
   // Future<void> speakascent(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascent");
   // }
 
   // Future<void> speakascent(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascent");
   // }
 
   // Future<void> speakascent(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascent");
   // }
 
   @override

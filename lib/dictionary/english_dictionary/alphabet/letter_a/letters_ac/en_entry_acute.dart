@@ -16,7 +16,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acute"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acute");
   }
 
   Future<void> speakacute1247(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There is an acute shortage of water."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There is an acute shortage of water.");
   }
 
   Future<void> speakacut3749(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The scandal was an acute embarrassment for the President."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The scandal was an acute embarrassment for the President.");
   }
 
   Future<void> speakacute42(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acute abdominal pains"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acute abdominal pains");
   }
 
   Future<void> speakacu5268(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Dogs have an acute sense of smell."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dogs have an acute sense of smell.");
   }
 
   Future<void> speakacu5269(String languageCode) async {
@@ -59,7 +57,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her judgement is acute."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her judgement is acute.");
   }
 
   @override

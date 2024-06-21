@@ -16,7 +16,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accompanist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accompanist");
   }
 
   Future<void> speakac98832(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccompanist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The singer's accompanist on the piano was Charles Harman."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The singer's accompanist on the piano was Charles Harman.");
   }
 
   @override

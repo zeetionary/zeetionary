@@ -22,7 +22,7 @@ class EnglishEntryarc extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arc");
   }
 
   Future<void> speakarc1246(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryarc extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ball rose in a high arc and fell behind the boundary line."); // DOPSUM: CHANGE TEXT
+        "The ball rose in a high arc and fell behind the boundary line.");
   }
 
   Future<void> speakarc1249(String languageCode) async {
@@ -39,8 +39,8 @@ class EnglishEntryarc extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were firing shells in a high arc over our heads."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were firing shells in a high arc over our heads.");
   }
 
   Future<void> speakarc1252(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryarc extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The father has the most interesting character arc in the series."); // DOPSUM: CHANGE TEXT
+        "The father has the most interesting character arc in the series.");
   }
 
   // Future<void> speakarc(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc");
   // }
 
   // Future<void> speakarc(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc");
   // }
 
   // Future<void> speakarc(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc");
   // }
 
   // Future<void> speakarc(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc");
   // }
 
   // Future<void> speakarc(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc");
   // }
 
   @override

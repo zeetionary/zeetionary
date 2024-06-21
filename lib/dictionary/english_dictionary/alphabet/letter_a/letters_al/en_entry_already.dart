@@ -16,7 +16,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("already"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("already");
   }
 
   Future<void> speakalready125(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We got there early but Mike had already left."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We got there early but Mike had already left.");
   }
 
   Future<void> speaka2858644(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was already aboard the plane."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was already aboard the plane.");
   }
 
   Future<void> speakacqua244751(String languageCode) async {
@@ -43,7 +41,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The students are already acquainted with the work of Shakespeare."); // DOPSUM: CHANGE TEXT
+        "The students are already acquainted with the work of Shakespeare.");
   }
 
   Future<void> speakage3526(String languageCode) async {
@@ -51,8 +49,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When I was your age I was already married."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("When I was your age I was already married.");
   }
 
   Future<void> speakalready4598(String languageCode) async {
@@ -60,8 +57,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You're not leaving already, are you?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You're not leaving already, are you?");
   }
 
   Future<void> speakalready4855(String languageCode) async {
@@ -69,8 +65,8 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new company already has an excellent reputation."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new company already has an excellent reputation.");
   }
 
   Future<void> speakalready54589(String languageCode) async {
@@ -78,8 +74,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Just stop already, no one feels sorry for you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Just stop already, no one feels sorry for you.");
   }
 
   @override

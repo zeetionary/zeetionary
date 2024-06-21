@@ -24,7 +24,7 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("asexual");
   }
 
   Future<void> speakasexual353(String languageCode) async {
@@ -32,7 +32,7 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She led an asexual life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She led an asexual life.");
   }
 
   Future<void> speakasexual401(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."); // DOPSUM: CHANGE TEXT
+        "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction.");
   }
 
   Future<void> speakasexuals3(String languageCode) async {
@@ -49,8 +49,8 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Algae reproduce by both sexual and asexual reproduction."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Algae reproduce by both sexual and asexual reproduction.");
   }
 
   // Future<void> speakasexual(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asexual");
   // }
 
   // Future<void> speakasexual(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asexual");
   // }
 
   // Future<void> speakasexual(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asexual");
   // }
 
   // Future<void> speakasexual(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asexual");
   // }
 
   // Future<void> speakasexual(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asexual");
   // }
 
   @override

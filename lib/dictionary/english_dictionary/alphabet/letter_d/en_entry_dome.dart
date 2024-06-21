@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dome"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dome");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dome"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dome");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dome of St Paul’s Cathedral is visible from many parts of London."); // DOPSUM: CHANGE TEXT
+        "The dome of St Paul’s Cathedral is visible from many parts of London.");
   }
 
   Future<void> speakdomes2(String languageCode) async {
@@ -360,168 +360,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Gerald had a long grey beard and a shiny bald dome."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes3(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes4(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes5(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes6(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes7(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes8(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes9(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes20(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdomes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdomes2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Gerald had a long grey beard and a shiny bald dome.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aid"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aid");
   }
 
   Future<void> speakaid2522(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The British government has now suspended humanitarian aid to the area."); // DOPSUM: CHANGE TEXT
+        "The British government has now suspended humanitarian aid to the area.");
   }
 
   Future<void> speakaid38996(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Emergency aid arrived too late for many."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Emergency aid arrived too late for many.");
   }
 
   Future<void> speakaid35288(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "One of the staff saw he was in difficulty and came to his aid."); // DOPSUM: CHANGE TEXT
+        "One of the staff saw he was in difficulty and came to his aid.");
   }
 
   Future<void> speakaid37844(String languageCode) async {
@@ -51,8 +50,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Photos make useful teaching aids."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Photos make useful teaching aids.");
   }
 
   Future<void> speakaid35882555(String languageCode) async {
@@ -60,8 +58,8 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The charity was established to aid hurricane victims."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The charity was established to aid hurricane victims.");
   }
 
   Future<void> speakaid45269(String languageCode) async {
@@ -69,8 +67,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were accused of aiding him to escape."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They were accused of aiding him to escape.");
   }
 
   Future<void> speakaid43748(String languageCode) async {
@@ -78,8 +75,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "New drugs are now available to aid recovery."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("New drugs are now available to aid recovery.");
   }
 
   Future<void> speakaid35999(String languageCode) async {
@@ -87,7 +83,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Peppermint aids digestion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Peppermint aids digestion.");
   }
 
   // Future<void> speakaid(String languageCode) async {
@@ -95,7 +91,7 @@ class EnglishEntryaid extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aid"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aid");
   // }
 
   @override

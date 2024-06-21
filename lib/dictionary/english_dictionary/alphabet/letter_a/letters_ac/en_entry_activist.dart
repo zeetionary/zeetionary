@@ -16,7 +16,7 @@ class EnglishEntryactivist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("activist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("activist");
   }
 
   Future<void> speakact32568(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryactivist extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Thousands of environmental activists joined the march to demand action on climate change."); // DOPSUM: CHANGE TEXT
+        "Thousands of environmental activists joined the march to demand action on climate change.");
   }
 
   // Future<void> speakactivist(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryactivist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("activist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("activist");
   // }
 
   // Future<void> speakactivist(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryactivist extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("activist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("activist");
   // }
 
   @override

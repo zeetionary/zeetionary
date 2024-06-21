@@ -21,7 +21,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("core"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("core");
   }
 
   Future<void> speakcores1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Dutch paintings form the core of the collection."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dutch paintings form the core of the collection.");
   }
 
   Future<void> speakcores2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Concern for the environment is at the core of our policies."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Concern for the environment is at the core of our policies.");
   }
 
   Future<void> speakcores3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our need for love lies at the very core of our being."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Our need for love lies at the very core of our being.");
   }
 
   Future<void> speakcores4(String languageCode) async {
@@ -56,8 +55,8 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The earth's core is a hot, molten mix of iron and nickel."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The earth's core is a hot, molten mix of iron and nickel.");
   }
 
   Future<void> speakcores5(String languageCode) async {
@@ -65,8 +64,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't throw your apple core on the floor!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't throw your apple core on the floor!");
   }
 
   Future<void> speakcores6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your posture will improve as your core becomes stronger."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Your posture will improve as your core becomes stronger.");
   }
 
   Future<void> speakcores7(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He gathered a small core of advisers around him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He gathered a small core of advisers around him.");
   }
 
   Future<void> speakcores8(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to concentrate on our core business."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We need to concentrate on our core business.");
   }
 
   Future<void> speakcores9(String languageCode) async {
@@ -101,8 +97,8 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The use of new technology is core to our strategy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The use of new technology is core to our strategy.");
   }
 
   Future<void> speakcores10(String languageCode) async {
@@ -110,8 +106,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The party is losing touch with its core values."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The party is losing touch with its core values.");
   }
 
   Future<void> speakcores11(String languageCode) async {
@@ -119,8 +114,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The team is built around a core group of players."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The team is built around a core group of players.");
   }
 
   Future<void> speakcores12(String languageCode) async {
@@ -128,8 +122,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Peel and core the pears before cooking them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Peel and core the pears before cooking them.");
   }
 
   Future<void> speakcores13(String languageCode) async {
@@ -137,7 +130,7 @@ class EnglishEntrycore extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcores1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcores1300");
   }
 
   @override

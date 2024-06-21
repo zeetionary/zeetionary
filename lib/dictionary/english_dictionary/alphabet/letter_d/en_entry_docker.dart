@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("docker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("docker");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("docker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("docker");
   }
 
   @override
@@ -352,175 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Dockers play a crucial role in the loading and unloading of ships."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers2(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers3(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers4(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers5(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers6(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers7(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers8(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers9(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers10(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers11(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers12(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers13(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers14(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers15(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers16(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers17(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers18(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers19(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers20(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers21(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdockers22(String languageCode) async {
-    // DOPSUM: CHANGE speakdocker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdockers2200"); // DOPSUM: CHANGE TEXT
+        "Dockers play a crucial role in the loading and unloading of ships.");
   }
 
   @override

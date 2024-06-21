@@ -16,7 +16,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("algorithm"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("algorithm");
   }
 
   Future<void> speakalgorithm25344(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another."); // DOPSUM: CHANGE TEXT
+        "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another.");
   }
 
   // Future<void> speakalgorithm(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("algorithm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("algorithm");
   // }
 
   // Future<void> speakalgorithm(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("algorithm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("algorithm");
   // }
 
   @override

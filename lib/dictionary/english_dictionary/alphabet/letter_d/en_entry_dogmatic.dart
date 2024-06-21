@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dogmatic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dogmatic");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dogmatic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dogmatic");
   }
 
   @override
@@ -351,176 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was strident and dogmatic in giving his opinions."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics2(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics3(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics4(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics5(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics6(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics7(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics8(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics9(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics10(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics11(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics12(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics13(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics14(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics15(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics16(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics17(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics18(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics19(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics20(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics21(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdogmatics22(String languageCode) async {
-    // DOPSUM: CHANGE speakdogmatic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdogmatics2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was strident and dogmatic in giving his opinions.");
   }
 
   @override

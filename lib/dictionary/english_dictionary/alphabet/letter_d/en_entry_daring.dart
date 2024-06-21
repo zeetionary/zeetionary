@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("daring"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daring");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("daring"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daring");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There are plenty of activities at the resort for the less daring."); // DOPSUM: CHANGE TEXT
+        "There are plenty of activities at the resort for the less daring.");
   }
 
   Future<void> speakdarings2(String languageCode) async {
@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He had grown more daring."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had grown more daring.");
   }
 
   Future<void> speakdarings3(String languageCode) async {
@@ -238,88 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He showed great daring on the battlefield."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings4(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdaring
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarings1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He showed great daring on the battlefield.");
   }
 
   @override

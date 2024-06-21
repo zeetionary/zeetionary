@@ -24,7 +24,7 @@ class EnglishEntryarouse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arouse");
   }
 
   Future<void> speakarouse1147(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryarouse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her strange behaviour aroused our suspicions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her strange behaviour aroused our suspicions.");
   }
 
   Future<void> speakarouse1154(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryarouse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Girls who wear perfume arouse him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Girls who wear perfume arouse him.");
   }
 
   Future<void> speakarouse1155(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntryarouse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The whole community was aroused by the crime."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The whole community was aroused by the crime.");
   }
 
   Future<void> speakarouse1157(String languageCode) async {
@@ -59,8 +56,7 @@ class EnglishEntryarouse extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was aroused from a deep sleep by a loud noise."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was aroused from a deep sleep by a loud noise.");
   }
 
   // Future<void> speakarouse(String languageCode) async {
@@ -68,7 +64,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arouse");
   // }
 
   // Future<void> speakarouse(String languageCode) async {
@@ -76,7 +72,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arouse");
   // }
 
   // Future<void> speakarouse(String languageCode) async {
@@ -84,7 +80,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arouse");
   // }
 
   // Future<void> speakarouse(String languageCode) async {
@@ -92,7 +88,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arouse");
   // }
 
   @override

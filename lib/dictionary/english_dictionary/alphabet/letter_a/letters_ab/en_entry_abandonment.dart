@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandonment");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandonment");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their childhood abandonment by their mother affected their lives greatly."); // DOPSUM: CHANGE TEXT
+        "Their childhood abandonment by their mother affected their lives greatly.");
   }
 
   @override

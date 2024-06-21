@@ -18,7 +18,7 @@ class EnglishEntryantelope extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antelope");
   }
 
   Future<void> speakantelope451(String languageCode) async {
@@ -26,8 +26,7 @@ class EnglishEntryantelope extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The hunter disembowelled the antelope."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The hunter disembowelled the antelope.");
   }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -35,7 +34,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -51,7 +50,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -59,7 +58,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -67,7 +66,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -75,7 +74,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   // Future<void> speakantelope(String languageCode) async {
@@ -83,7 +82,7 @@ class EnglishEntryantelope extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antelope"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antelope");
   // }
 
   @override

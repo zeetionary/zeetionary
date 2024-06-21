@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disagreement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disagreement");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disagreement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disagreement");
   }
 
   @override
@@ -222,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Disagreement arose about exactly how to plan the holiday."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Disagreement arose about exactly how to plan the holiday.");
   }
 
   Future<void> speakdisagreements2(String languageCode) async {
@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There's no room for disagreement on this point."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There's no room for disagreement on this point.");
   }
 
   Future<void> speakdisagreements3(String languageCode) async {
@@ -241,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is considerable disagreement over the safety of the treatment."); // DOPSUM: CHANGE TEXT
+        "There is considerable disagreement over the safety of the treatment.");
   }
 
   Future<void> speakdisagreements4(String languageCode) async {
@@ -249,8 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We are in total disagreement as to how to proceed."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We are in total disagreement as to how to proceed.");
   }
 
   Future<void> speakdisagreements5(String languageCode) async {
@@ -259,143 +258,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The comparison shows considerable disagreement between theory and practice."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisagreements22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisagreement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisagreements2200"); // DOPSUM: CHANGE TEXT
+        "The comparison shows considerable disagreement between theory and practice.");
   }
 
   @override

@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abacus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abacus");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abacus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abacus");
   }
 
   @override
@@ -221,7 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In ancient times, people relied on an abacus to perform mathematical calculations."); // DOPSUM: CHANGE TEXT
+        "In ancient times, people relied on an abacus to perform mathematical calculations.");
   }
 
   @override

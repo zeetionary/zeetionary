@@ -22,7 +22,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blend"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blend");
   }
 
   Future<void> speakblends1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Blend together the eggs, sugar and flour."); // DOPSUM: CHANGE TEXT
+        "Blend together the eggs, sugar and flour.");
   }
 
   Future<void> speakblends2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I have very little idea of how to blend colours."); // DOPSUM: CHANGE TEXT
+        "I have very little idea of how to blend colours.");
   }
 
   Future<void> speakblends3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Oil does not blend with water."); // DOPSUM: CHANGE TEXT
+        .speak("Oil does not blend with water.");
   }
 
   Future<void> speakblends4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The old and new buildings blend together perfectly."); // DOPSUM: CHANGE TEXT
+        "The old and new buildings blend together perfectly.");
   }
 
   Future<void> speakblends5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their music is a blend of jazz and African rhythms."); // DOPSUM: CHANGE TEXT
+        "Their music is a blend of jazz and African rhythms.");
   }
 
   Future<void> speakblends6(String languageCode) async {
@@ -76,7 +76,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This charming hotel is a delightful blend of the old and the new."); // DOPSUM: CHANGE TEXT
+        "This charming hotel is a delightful blend of the old and the new.");
   }
 
   Future<void> speakblends7(String languageCode) async {
@@ -84,7 +84,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblends77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblends77");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryacne extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acne"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acne");
   }
 
   Future<void> speakacn1259(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacne extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Acne often clears up by itself."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Acne often clears up by itself.");
   }
 
   // Future<void> speakacne(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryacne extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acne"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acne");
   // }
 
   // Future<void> speakacne(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryacne extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acne"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acne");
   // }
 
   @override

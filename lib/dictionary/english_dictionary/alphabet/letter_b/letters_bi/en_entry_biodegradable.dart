@@ -24,7 +24,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("biodegradable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("biodegradable");
   }
 
   Future<void> speakbiodegradables1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Most plastics are not biodegradable."); // DOPSUM: CHANGE TEXT
+        .speak("Most plastics are not biodegradable.");
   }
 
   Future<void> speakbiodegradables2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiodegradables22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiodegradables22");
   }
 
   Future<void> speakbiodegradables3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiodegradables33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiodegradables33");
   }
 
   Future<void> speakbiodegradables4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiodegradables44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiodegradables44");
   }
 
   Future<void> speakbiodegradables5(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiodegradables55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiodegradables55");
   }
 
   Future<void> speakbiodegradables6(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiodegradables66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiodegradables66");
   }
 
   Future<void> speakbiodegradables7(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiodegradables77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiodegradables77");
   }
 
   @override

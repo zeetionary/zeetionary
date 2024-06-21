@@ -21,7 +21,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("consequence"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("consequence");
   }
 
   Future<void> speakconsequences1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Remember that actions have consequences."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Remember that actions have consequences.");
   }
 
   Future<void> speakconsequences2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Have you considered the possible consequences?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Have you considered the possible consequences?");
   }
 
   Future<void> speakconsequences3(String languageCode) async {
@@ -47,8 +45,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Reform often produces unintended consequences."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Reform often produces unintended consequences.");
   }
 
   Future<void> speakconsequences4(String languageCode) async {
@@ -57,7 +54,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They must be prepared to accept the consequences of their actions."); // DOPSUM: CHANGE TEXT
+        "They must be prepared to accept the consequences of their actions.");
   }
 
   Future<void> speakconsequences5(String languageCode) async {
@@ -66,7 +63,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This decision could have serious consequences for the industry."); // DOPSUM: CHANGE TEXT
+        "This decision could have serious consequences for the industry.");
   }
 
   Future<void> speakconsequences6(String languageCode) async {
@@ -75,7 +72,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Two hundred people lost their jobs as a direct consequence of the merger."); // DOPSUM: CHANGE TEXT
+        "Two hundred people lost their jobs as a direct consequence of the merger.");
   }
 
   Future<void> speakconsequences7(String languageCode) async {
@@ -83,8 +80,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Don't worry. It's of no consequence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't worry. It's of no consequence.");
   }
 
   Future<void> speakconsequences8(String languageCode) async {
@@ -93,7 +89,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His work made him a person of some consequence in the art world."); // DOPSUM: CHANGE TEXT
+        "His work made him a person of some consequence in the art world.");
   }
 
   Future<void> speakconsequences9(String languageCode) async {
@@ -101,8 +97,8 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'd never done anything of consequence in my life."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I'd never done anything of consequence in my life.");
   }
 
   Future<void> speakconsequences10(String languageCode) async {
@@ -110,7 +106,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsequences1000");
   }
 
   Future<void> speakconsequences11(String languageCode) async {
@@ -118,7 +114,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsequences1100");
   }
 
   Future<void> speakconsequences12(String languageCode) async {
@@ -126,7 +122,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsequences1200");
   }
 
   Future<void> speakconsequences13(String languageCode) async {
@@ -134,7 +130,7 @@ class EnglishEntryconsequence extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsequences1300");
   }
 
   @override

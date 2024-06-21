@@ -16,7 +16,7 @@ class EnglishEntryaffect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affect");
   }
 
   Future<void> speakaffe5699(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaffect extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The article deals with issues affecting the lives of children."); // DOPSUM: CHANGE TEXT
+        "The article deals with issues affecting the lives of children.");
   }
 
   Future<void> speakaffe741(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryaffect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your opinion will not affect my decision."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your opinion will not affect my decision.");
   }
 
   Future<void> speakaffe25699(String languageCode) async {
@@ -42,8 +41,8 @@ class EnglishEntryaffect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The disease is more likely to affect women than men."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The disease is more likely to affect women than men.");
   }
 
   Future<void> speakaff2566(String languageCode) async {
@@ -51,8 +50,8 @@ class EnglishEntryaffect extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were deeply affected by the news of her death."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were deeply affected by the news of her death.");
   }
 
   // Future<void> speakaffect(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryaffect extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affect");
   // }
 
   @override

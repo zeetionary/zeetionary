@@ -16,7 +16,7 @@ class EnglishEntryaltar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("altar");
   }
 
   Future<void> speakaltar45966(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaltar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He built an altar to God and made a sacrifice."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He built an altar to God and made a sacrifice.");
   }
 
   // Future<void> speakaltar(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryaltar extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altar"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altar");
   // }
 
   // Future<void> speakaltar(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryaltar extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altar"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altar");
   // }
 
   @override

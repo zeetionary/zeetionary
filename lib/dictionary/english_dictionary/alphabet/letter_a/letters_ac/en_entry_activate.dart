@@ -16,7 +16,7 @@ class EnglishEntryactivate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("activate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("activate");
   }
 
   Future<void> speakact2537(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryactivate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The gene is activated by a specific protein."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The gene is activated by a specific protein.");
   }
 
   // Future<void> speakactivate(String languageCode) async {
@@ -33,7 +32,7 @@ class EnglishEntryactivate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("activate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("activate");
   // }
 
   // Future<void> speakactivate(String languageCode) async {
@@ -41,7 +40,7 @@ class EnglishEntryactivate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("activate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("activate");
   // }
 
   @override

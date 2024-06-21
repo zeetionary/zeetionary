@@ -22,7 +22,7 @@ class EnglishEntryapproximation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("approximation");
   }
 
   Future<void> speakapproximation1020(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryapproximation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "An approximation of the numbers expected to attend would be 350."); // DOPSUM: CHANGE TEXT
+        "An approximation of the numbers expected to attend would be 350.");
   }
 
   Future<void> speakapproximation1021(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryapproximation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We do not have the true figures so we will have to make some approximations."); // DOPSUM: CHANGE TEXT
+        "We do not have the true figures so we will have to make some approximations.");
   }
 
   Future<void> speakapproximation1026(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryapproximation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Our results should be a good approximation of the true state of affairs."); // DOPSUM: CHANGE TEXT
+        "Our results should be a good approximation of the true state of affairs.");
   }
 
   // Future<void> speakapproximation(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryapproximation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation");
   // }
 
   // Future<void> speakapproximation(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryapproximation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation");
   // }
 
   // Future<void> speakapproximation(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryapproximation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation");
   // }
 
   // Future<void> speakapproximation(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryapproximation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation");
   // }
 
   // Future<void> speakapproximation(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryapproximation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation");
   // }
 
   @override

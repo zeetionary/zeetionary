@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drapery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drapery");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drapery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drapery");
   }
 
   @override
@@ -352,176 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The style is noted for its flowing drapery."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdraperys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrapery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdraperys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The style is noted for its flowing drapery.");
   }
 
   @override

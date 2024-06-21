@@ -24,7 +24,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("average"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("average");
   }
 
   Future<void> speakaverages1(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The average age of participants was 52 years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The average age of participants was 52 years.");
   }
 
   Future<void> speakaverages2(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "On an average day they sell more than £2 000 worth of vegetables."); // DOPSUM: CHANGE TEXT
+        "On an average day they sell more than £2 000 worth of vegetables.");
   }
 
   Future<void> speakaverages3(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I was just an average sort of student."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was just an average sort of student.");
   }
 
   Future<void> speakaverages4(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Parents spend an average of £220 a year on toys."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Parents spend an average of £220 a year on toys.");
   }
 
   Future<void> speakaverages5(String languageCode) async {
@@ -68,8 +65,8 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Temperatures are above average for the time of year."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Temperatures are above average for the time of year.");
   }
 
   Future<void> speakaverages6(String languageCode) async {
@@ -77,8 +74,8 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has averaged 15 goals over the past two seasons."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has averaged 15 goals over the past two seasons.");
   }
 
   Future<void> speakaverages7(String languageCode) async {
@@ -86,7 +83,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAverages76"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAverages76");
   }
 
   @override

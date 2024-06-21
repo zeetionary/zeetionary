@@ -147,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("council"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("council");
   }
 
   @override
@@ -197,7 +197,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("council"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("council");
   }
 
   @override
@@ -220,8 +220,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The decision still has to be ratified by the full council."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The decision still has to be ratified by the full council.");
   }
 
   Future<void> speakcouncils2(String languageCode) async {
@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He won a seat on the council in the election."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He won a seat on the council in the election.");
   }
 
   Future<void> speakcouncils3(String languageCode) async {
@@ -238,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has served on the council for four years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has served on the council for four years.");
   }
 
   Future<void> speakcouncils4(String languageCode) async {
@@ -247,8 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Residents have complained to the council about the noise."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Residents have complained to the council about the noise.");
   }
 
   Future<void> speakcouncils5(String languageCode) async {
@@ -256,8 +254,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Students should apply to their local council for a grant."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Students should apply to their local council for a grant.");
   }
 
   Future<void> speakcouncils6(String languageCode) async {
@@ -266,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There are plans to establish a funding council for higher education."); // DOPSUM: CHANGE TEXT
+        "There are plans to establish a funding council for higher education.");
   }
 
   Future<void> speakcouncils7(String languageCode) async {
@@ -274,8 +272,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The Arts Council gives grants for local projects."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The Arts Council gives grants for local projects.");
   }
 
   Future<void> speakcouncils8(String languageCode) async {
@@ -284,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The king held a council at Nottingham from 14 to 19 October 1330."); // DOPSUM: CHANGE TEXT
+        "The king held a council at Nottingham from 14 to 19 October 1330.");
   }
 
   Future<void> speakcouncils9(String languageCode) async {
@@ -292,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouncils900");
   }
 
   Future<void> speakcouncils10(String languageCode) async {
@@ -300,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouncils1000");
   }
 
   Future<void> speakcouncils11(String languageCode) async {
@@ -308,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouncils1100");
   }
 
   Future<void> speakcouncils12(String languageCode) async {
@@ -316,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouncils1200");
   }
 
   Future<void> speakcouncils13(String languageCode) async {
@@ -324,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouncils1300");
   }
 
   @override

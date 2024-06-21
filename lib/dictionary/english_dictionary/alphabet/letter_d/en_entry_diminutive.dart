@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diminutive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diminutive");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diminutive"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diminutive");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was a diminutive figure beside her husband."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was a diminutive figure beside her husband.");
   }
 
   Future<void> speakdiminutives2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He exercised frequently, trying to add strength to his diminutive body."); // DOPSUM: CHANGE TEXT
+        "He exercised frequently, trying to add strength to his diminutive body.");
   }
 
   Future<void> speakdiminutives3(String languageCode) async {
@@ -240,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The findings do not support previous studies on gender differences in parental use of diminutives with young children."); // DOPSUM: CHANGE TEXT
+        "The findings do not support previous studies on gender differences in parental use of diminutives with young children.");
   }
 
   Future<void> speakdiminutives4(String languageCode) async {
@@ -249,151 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her friends call her Margaret, never using diminutives such as Maggie."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiminutives22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiminutive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiminutives2200"); // DOPSUM: CHANGE TEXT
+        "Her friends call her Margaret, never using diminutives such as Maggie.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accommodation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accommodation");
   }
 
   Future<void> speakac24995(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryaccommodation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were forced to reach an accommodation with the rebels."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They were forced to reach an accommodation with the rebels.");
   }
 
   Future<void> speakac29968(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryaccommodation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The boat provides overnight accommodations for four adults."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The boat provides overnight accommodations for four adults.");
   }
 
   Future<void> speakac28874(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryaccommodation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need more secure accommodation for young prisoners."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need more secure accommodation for young prisoners.");
   }
 
   Future<void> speaka25614(String languageCode) async {
@@ -51,8 +51,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She lived on her own in rented accommodation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She lived on her own in rented accommodation.");
   }
 
   @override

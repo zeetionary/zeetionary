@@ -24,7 +24,7 @@ class EnglishEntryatom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("atom");
   }
 
   Future<void> speakatom1206(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryatom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water."); // DOPSUM: CHANGE TEXT
+        "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water.");
   }
 
   Future<void> speakatom1208(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryatom extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The scientist Ernest Rutherford was the first person to split the atom."); // DOPSUM: CHANGE TEXT
+        "The scientist Ernest Rutherford was the first person to split the atom.");
   }
 
   // Future<void> speakatom(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atom");
   // }
 
   // Future<void> speakatom(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atom");
   // }
 
   // Future<void> speakatom(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atom");
   // }
 
   // Future<void> speakatom(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atom");
   // }
 
   // Future<void> speakatom(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atom");
   // }
 
   // Future<void> speakatom(String languageCode) async {
@@ -90,7 +90,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("atom");
   // }
 
   @override

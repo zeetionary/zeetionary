@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("demography"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("demography");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("demography"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("demography");
   }
 
   @override
@@ -222,175 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The increase in the number of young people leaving to work in the cities has had a dramatic impact on the demography of the villages."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdemographys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdemography
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographys2200"); // DOPSUM: CHANGE TEXT
+        "The increase in the number of young people leaving to work in the cities has had a dramatic impact on the demography of the villages.");
   }
 
   @override

@@ -24,7 +24,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("belong to"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("belong to");
   }
 
   Future<void> speakbelongtos1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Who does this watch belong to?"); // DOPSUM: CHANGE TEXT
+        .speak("Who does this watch belong to?");
   }
 
   Future<void> speakbelongtos2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The islands belong to Spain."); // DOPSUM: CHANGE TEXT
+        .speak("The islands belong to Spain.");
   }
 
   Future<void> speakbelongtos3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "British actors did well at the award ceremony, but the evening belonged to the Americans."); // DOPSUM: CHANGE TEXT
+        "British actors did well at the award ceremony, but the evening belonged to the Americans.");
   }
 
   Future<void> speakbelongtos4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Have you ever belonged to a political party?"); // DOPSUM: CHANGE TEXT
+        "Have you ever belonged to a political party?");
   }
 
   Future<void> speakbelongtos5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Lions and tigers belong to the cat family."); // DOPSUM: CHANGE TEXT
+        "Lions and tigers belong to the cat family.");
   }
 
   Future<void> speakbelongtos6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBelongtos66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBelongtos66");
   }
 
   Future<void> speakbelongtos7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybelongto extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBelongtos77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBelongtos77");
   }
 
   @override

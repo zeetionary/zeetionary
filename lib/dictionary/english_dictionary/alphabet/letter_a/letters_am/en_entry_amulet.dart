@@ -16,7 +16,7 @@ class EnglishEntryamulet extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amulet");
   }
 
   Future<void> speakamulet44018(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryamulet extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The child was wearing a shiny amulet around his neck for good luck."); // DOPSUM: CHANGE TEXT
+        "The child was wearing a shiny amulet around his neck for good luck.");
   }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   // Future<void> speakamulet(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amulet");
   // }
 
   @override

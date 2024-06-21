@@ -16,7 +16,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("against"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("against");
   }
 
   Future<void> speakaga937884(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("That's against the law."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("That's against the law.");
   }
 
   Future<void> speakagain2566(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was forced to marry against her will."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was forced to marry against her will.");
   }
 
   Future<void> speakagain156(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The evidence is against him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The evidence is against him.");
   }
 
   Future<void> speakaga156338(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Put the piano there, against the wall."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Put the piano there, against the wall.");
   }
 
   Future<void> speakaga98274(String languageCode) async {
@@ -59,8 +56,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They took precautions against fire."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They took precautions against fire.");
   }
 
   @override

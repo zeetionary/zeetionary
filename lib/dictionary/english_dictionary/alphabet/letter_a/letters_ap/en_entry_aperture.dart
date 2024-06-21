@@ -22,7 +22,7 @@ class EnglishEntryaperture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aperture");
   }
 
   Future<void> speakaperture201(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryaperture extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The soldier fired the rifle through a narrow aperture in a pile of sandbags."); // DOPSUM: CHANGE TEXT
+        "The soldier fired the rifle through a narrow aperture in a pile of sandbags.");
   }
 
   Future<void> speakaperture204(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryaperture extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Binoculars of this aperture are very expensive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Binoculars of this aperture are very expensive.");
   }
 
   // Future<void> speakaperture(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aperture");
   // }
 
   // Future<void> speakaperture(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aperture");
   // }
 
   // Future<void> speakaperture(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aperture");
   // }
 
   // Future<void> speakaperture(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aperture");
   // }
 
   // Future<void> speakaperture(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aperture");
   // }
 
   // Future<void> speakaperture(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aperture");
   // }
 
   @override

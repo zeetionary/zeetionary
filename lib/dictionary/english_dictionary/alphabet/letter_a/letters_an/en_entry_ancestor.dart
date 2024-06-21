@@ -16,7 +16,7 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ancestor");
   }
 
   Future<void> speakancestor7690(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His ancestors had come to America from Ireland."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His ancestors had come to America from Ireland.");
   }
 
   Future<void> speakancestor4800(String languageCode) async {
@@ -34,7 +33,7 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There were portraits of his ancestors on the walls of the room."); // DOPSUM: CHANGE TEXT
+        "There were portraits of his ancestors on the walls of the room.");
   }
 
   Future<void> speakancestor02560(String languageCode) async {
@@ -43,7 +42,7 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These bones come from an animal that is the ancestor of the modern horse."); // DOPSUM: CHANGE TEXT
+        "These bones come from an animal that is the ancestor of the modern horse.");
   }
 
   Future<void> speakancestor0805(String languageCode) async {
@@ -52,7 +51,7 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This wooden instrument is the ancestor of the modern metal flute."); // DOPSUM: CHANGE TEXT
+        "This wooden instrument is the ancestor of the modern metal flute.");
   }
 
   // Future<void> speakancestor(String languageCode) async {
@@ -60,7 +59,7 @@ class EnglishEntryancestor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor");
   // }
 
   // Future<void> speakancestor(String languageCode) async {
@@ -68,7 +67,7 @@ class EnglishEntryancestor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor");
   // }
 
   // Future<void> speakancestor(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryancestor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor");
   // }
 
   // Future<void> speakancestor(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryancestor extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor");
   // }
 
   @override

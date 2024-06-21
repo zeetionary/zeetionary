@@ -22,7 +22,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bottleneck"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bottleneck");
   }
 
   Future<void> speakbottlenecks1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He drove around the outside of the town to avoid the bottleneck in the centre."); // DOPSUM: CHANGE TEXT
+        "He drove around the outside of the town to avoid the bottleneck in the centre.");
   }
 
   Future<void> speakbottlenecks2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Is there any way of getting around this bureaucratic bottleneck?"); // DOPSUM: CHANGE TEXT
+        "Is there any way of getting around this bureaucratic bottleneck?");
   }
 
   Future<void> speakbottlenecks3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottlenecks33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks33");
   }
 
   Future<void> speakbottlenecks4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottlenecks44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks44");
   }
 
   Future<void> speakbottlenecks5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottlenecks55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks55");
   }
 
   Future<void> speakbottlenecks6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottlenecks66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks66");
   }
 
   Future<void> speakbottlenecks7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbottlenecks77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks77");
   }
 
   @override

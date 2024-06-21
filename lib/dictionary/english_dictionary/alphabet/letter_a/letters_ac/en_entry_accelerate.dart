@@ -16,7 +16,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accelerate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accelerate");
   }
 
   Future<void> speakaa3596(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The car accelerated to overtake me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The car accelerated to overtake me.");
   }
 
   Future<void> speakaa6587(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pace of change has begun to accelerate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The pace of change has begun to accelerate.");
   }
 
   Future<void> speaka2537(String languageCode) async {
@@ -42,8 +40,8 @@ class EnglishEntryaccelerate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Exposure to the sun can accelerate the ageing process."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Exposure to the sun can accelerate the ageing process.");
   }
 
   @override

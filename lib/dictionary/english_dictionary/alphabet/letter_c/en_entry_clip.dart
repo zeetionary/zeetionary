@@ -21,7 +21,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clip"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clip");
   }
 
   Future<void> speakclips1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Here is a clip from her latest movie."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Here is a clip from her latest movie.");
   }
 
   Future<void> speakclips2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You will see in this clip how well she acts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You will see in this clip how well she acts.");
   }
 
   Future<void> speakclips3(String languageCode) async {
@@ -48,7 +46,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The documentary began with a clip from the President's inauguration speech."); // DOPSUM: CHANGE TEXT
+        "The documentary began with a clip from the President's inauguration speech.");
   }
 
   Future<void> speakclips4(String languageCode) async {
@@ -56,8 +54,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She put a clip in her hair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She put a clip in her hair.");
   }
 
   Future<void> speakclips5(String languageCode) async {
@@ -65,7 +62,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He gave the hedge a clip."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He gave the hedge a clip.");
   }
 
   Future<void> speakclips6(String languageCode) async {
@@ -73,8 +70,8 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She gave him a clip round the ear for being cheeky."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She gave him a clip round the ear for being cheeky.");
   }
 
   Future<void> speakclips7(String languageCode) async {
@@ -82,8 +79,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He clipped the microphone (on) to his collar."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He clipped the microphone (on) to his collar.");
   }
 
   Future<void> speakclips8(String languageCode) async {
@@ -91,7 +87,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Clip the pages together."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Clip the pages together.");
   }
 
   Future<void> speakclips9(String languageCode) async {
@@ -99,8 +95,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He clipped off a piece of wire with the pliers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He clipped off a piece of wire with the pliers.");
   }
 
   Future<void> speakclips10(String languageCode) async {
@@ -108,8 +103,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The car clipped the kerb as it turned."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The car clipped the kerb as it turned.");
   }
 
   Future<void> speakclips11(String languageCode) async {
@@ -117,8 +111,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She clipped the ball into the net."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She clipped the ball into the net.");
   }
 
   Future<void> speakclips12(String languageCode) async {
@@ -126,8 +119,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I clipped the picture out of the newspaper."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I clipped the picture out of the newspaper.");
   }
 
   Future<void> speakclips13(String languageCode) async {
@@ -135,7 +127,7 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclips1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclips1300");
   }
 
   @override

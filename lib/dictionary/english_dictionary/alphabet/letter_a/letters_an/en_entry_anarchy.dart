@@ -16,7 +16,7 @@ class EnglishEntryanarchy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anarchy");
   }
 
   Future<void> speakanarchy470(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryanarchy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The overthrow of the military regime was followed by a period of anarchy."); // DOPSUM: CHANGE TEXT
+        "The overthrow of the military regime was followed by a period of anarchy.");
   }
 
   Future<void> speakanarchy041(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryanarchy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was complete anarchy in the classroom when their usual teacher was away."); // DOPSUM: CHANGE TEXT
+        "There was complete anarchy in the classroom when their usual teacher was away.");
   }
 
   // Future<void> speakanarchy(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryanarchy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anarchy");
   // }
 
   // Future<void> speakanarchy(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryanarchy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anarchy");
   // }
 
   // Future<void> speakanarchy(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryanarchy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anarchy");
   // }
 
   // Future<void> speakanarchy(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryanarchy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anarchy");
   // }
 
   // Future<void> speakanarchy(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryanarchy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anarchy");
   // }
 
   // Future<void> speakanarchy(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryanarchy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anarchy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anarchy");
   // }
 
   @override

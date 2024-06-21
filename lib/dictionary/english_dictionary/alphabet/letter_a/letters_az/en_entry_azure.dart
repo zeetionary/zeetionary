@@ -24,7 +24,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("azure"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("azure");
   }
 
   Future<void> speakazures1(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The sun shone out of a clear azure sky."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The sun shone out of a clear azure sky.");
   }
 
   Future<void> speakazures2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was captivated by the azure of the woman's eyes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was captivated by the azure of the woman's eyes.");
   }
 
   Future<void> speakazures3(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAzures33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAzures33");
   }
 
   Future<void> speakazures4(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAzures44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAzures44");
   }
 
   Future<void> speakazures5(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAzures55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAzures55");
   }
 
   Future<void> speakazures6(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAzures66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAzures66");
   }
 
   Future<void> speakazures7(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAzures77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAzures77");
   }
 
   @override

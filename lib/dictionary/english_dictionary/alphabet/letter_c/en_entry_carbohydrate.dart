@@ -21,7 +21,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carbohydrate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carbohydrate");
   }
 
   Future<void> speakcarbohydrates1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Nuts are high in carbohydrates."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Nuts are high in carbohydrates.");
   }
 
   Future<void> speakcarbohydrates2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I’m trying to cut down on carbohydrates."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I’m trying to cut down on carbohydrates.");
   }
 
   Future<void> speakcarbohydrates3(String languageCode) async {
@@ -47,7 +45,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates33");
   }
 
   Future<void> speakcarbohydrates4(String languageCode) async {
@@ -55,7 +53,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates44");
   }
 
   Future<void> speakcarbohydrates5(String languageCode) async {
@@ -63,7 +61,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates55");
   }
 
   Future<void> speakcarbohydrates6(String languageCode) async {
@@ -71,7 +69,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates66");
   }
 
   Future<void> speakcarbohydrates7(String languageCode) async {
@@ -79,7 +77,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates77");
   }
 
   Future<void> speakcarbohydrates8(String languageCode) async {
@@ -87,7 +85,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates88");
   }
 
   Future<void> speakcarbohydrates9(String languageCode) async {
@@ -95,7 +93,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates99");
   }
 
   Future<void> speakcarbohydrates10(String languageCode) async {
@@ -103,7 +101,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates1010");
   }
 
   Future<void> speakcarbohydrates11(String languageCode) async {
@@ -111,7 +109,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates1111");
   }
 
   Future<void> speakcarbohydrates12(String languageCode) async {
@@ -119,7 +117,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates1212");
   }
 
   Future<void> speakcarbohydrates13(String languageCode) async {
@@ -127,7 +125,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarbohydrates1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbohydrates1313");
   }
 
   @override

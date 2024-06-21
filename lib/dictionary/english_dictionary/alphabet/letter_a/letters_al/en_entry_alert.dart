@@ -16,7 +16,7 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alert");
   }
 
   Future<void> speakalert3524(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."); // DOPSUM: CHANGE TEXT
+        "An anonymous letter alerted police to the possibility of a terrorist attack at the airport.");
   }
 
   Future<void> speakalert352(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Neighbours quickly alerted the emergency services."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Neighbours quickly alerted the emergency services.");
   }
 
   Future<void> speakalert29637(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They had been alerted to the possibility of further price rises."); // DOPSUM: CHANGE TEXT
+        "They had been alerted to the possibility of further price rises.");
   }
 
   Future<void> speakalert6277(String languageCode) async {
@@ -51,8 +51,8 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "More than 5 000 troops have been placed on (full) alert."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("More than 5 000 troops have been placed on (full) alert.");
   }
 
   Future<void> speakalert96526(String languageCode) async {
@@ -60,8 +60,8 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I get text alerts when I have used 80% of my mobile data."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I get text alerts when I have used 80% of my mobile data.");
   }
 
   Future<void> speakalert34655(String languageCode) async {
@@ -69,8 +69,7 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Two alert scientists spotted the mistake."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Two alert scientists spotted the mistake.");
   }
 
   Future<void> speakalert3566(String languageCode) async {
@@ -78,8 +77,7 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We must be alert to the possibility of danger."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We must be alert to the possibility of danger.");
   }
 
   // Future<void> speakalert(String languageCode) async {
@@ -87,7 +85,7 @@ class EnglishEntryalert extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alert");
   // }
 
   // Future<void> speakalert(String languageCode) async {
@@ -95,7 +93,7 @@ class EnglishEntryalert extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alert");
   // }
 
   @override

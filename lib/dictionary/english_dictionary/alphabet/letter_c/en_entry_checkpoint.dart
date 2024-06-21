@@ -21,7 +21,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("checkpoint"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("checkpoint");
   }
 
   Future<void> speakcheckpoints1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are border guards at the checkpoint crossing."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There are border guards at the checkpoint crossing.");
   }
 
   Future<void> speakcheckpoints2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We were stopped at the checkpoint."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We were stopped at the checkpoint.");
   }
 
   Future<void> speakcheckpoints3(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints300");
   }
 
   Future<void> speakcheckpoints4(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints400");
   }
 
   Future<void> speakcheckpoints5(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints500");
   }
 
   Future<void> speakcheckpoints6(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints600");
   }
 
   Future<void> speakcheckpoints7(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints700");
   }
 
   Future<void> speakcheckpoints8(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints800");
   }
 
   Future<void> speakcheckpoints9(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints900");
   }
 
   Future<void> speakcheckpoints10(String languageCode) async {
@@ -103,7 +102,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1000");
   }
 
   Future<void> speakcheckpoints11(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1100");
   }
 
   Future<void> speakcheckpoints12(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1200");
   }
 
   Future<void> speakcheckpoints13(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheckpoints1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcheckpoints1300");
   }
 
   @override

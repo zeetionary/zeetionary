@@ -16,7 +16,7 @@ class EnglishEntryabstain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abstain"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abstain");
   }
 
   Future<void> speaka23485(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryabstain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("to abstain from alcohol/sex/drugs"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("to abstain from alcohol/sex/drugs");
   }
 
   Future<void> speaka26987(String languageCode) async {
@@ -33,8 +32,8 @@ class EnglishEntryabstain extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ten people voted in favour, five against and two abstained."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Ten people voted in favour, five against and two abstained.");
   }
 
   @override

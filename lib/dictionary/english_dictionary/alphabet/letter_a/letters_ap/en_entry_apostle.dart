@@ -22,7 +22,7 @@ class EnglishEntryapostle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apostle");
   }
 
   Future<void> speakapostle627(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryapostle extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "James was beheaded in Jerusalem, the first apostle to be martyred."); // DOPSUM: CHANGE TEXT
+        "James was beheaded in Jerusalem, the first apostle to be martyred.");
   }
 
   Future<void> speakapostle630(String languageCode) async {
@@ -39,8 +39,8 @@ class EnglishEntryapostle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her mother was a dedicated apostle of healthy eating."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her mother was a dedicated apostle of healthy eating.");
   }
 
   // Future<void> speakapostle(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryapostle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostle");
   // }
 
   // Future<void> speakapostle(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryapostle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostle");
   // }
 
   // Future<void> speakapostle(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryapostle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostle");
   // }
 
   // Future<void> speakapostle(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryapostle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostle");
   // }
 
   // Future<void> speakapostle(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryapostle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostle");
   // }
 
   // Future<void> speakapostle(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryapostle extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apostle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostle");
   // }
 
   @override

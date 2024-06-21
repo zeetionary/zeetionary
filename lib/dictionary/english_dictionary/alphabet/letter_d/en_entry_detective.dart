@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detective"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detective");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("detective"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("detective");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Several objects were taken away by detectives from the anti-terrorist squad."); // DOPSUM: CHANGE TEXT
+        "Several objects were taken away by detectives from the anti-terrorist squad.");
   }
 
   Future<void> speakdetectives2(String languageCode) async {
@@ -230,144 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sherlock Holmes was Conan Doyle's fictional detective."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives3(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives4(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives5(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives6(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives7(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives8(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives9(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives10(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives11(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives12(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives13(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives14(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives15(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives16(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives17(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives18(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives19(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sherlock Holmes was Conan Doyle's fictional detective.");
   }
 
   Future<void> speakdetectives20(String languageCode) async {
@@ -375,24 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sherlock Holmes was Conan Doyle's fictional detective.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives21(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdetectives22(String languageCode) async {
-    // DOPSUM: CHANGE speakdetective
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdetectives2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sherlock Holmes was Conan Doyle's fictional detective.0");
   }
 
   @override

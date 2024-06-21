@@ -16,7 +16,7 @@ class EnglishEntryadminister extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("administer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("administer");
   }
 
   Future<void> speakadmini75988(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryadminister extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The country has to face up to the high cost of administering medical services."); // DOPSUM: CHANGE TEXT
+        "The country has to face up to the high cost of administering medical services.");
   }
 
   Future<void> speakadmin2568(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryadminister extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is the function of the courts to administer the laws which Parliament has enacted."); // DOPSUM: CHANGE TEXT
+        "It is the function of the courts to administer the laws which Parliament has enacted.");
   }
 
   Future<void> speakadm2564(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryadminister extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A taxi driver administered first aid to the victims."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A taxi driver administered first aid to the victims.");
   }
 
   @override

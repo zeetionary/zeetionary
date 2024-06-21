@@ -24,7 +24,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barometer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("barometer");
   }
 
   Future<void> speakbarometers1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The barometer has been steady for three days now."); // DOPSUM: CHANGE TEXT
+        "The barometer has been steady for three days now.");
   }
 
   Future<void> speakbarometers2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Infant mortality is a reliable barometer of socio-economic conditions."); // DOPSUM: CHANGE TEXT
+        "Infant mortality is a reliable barometer of socio-economic conditions.");
   }
 
   Future<void> speakbarometers3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The skin is an accurate barometer of your state of health."); // DOPSUM: CHANGE TEXT
+        "The skin is an accurate barometer of your state of health.");
   }
 
   Future<void> speakbarometers4(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarometers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarometers44");
   }
 
   Future<void> speakbarometers5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarometers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarometers55");
   }
 
   Future<void> speakbarometers6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarometers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarometers66");
   }
 
   Future<void> speakbarometers7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarometers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarometers77");
   }
 
   @override

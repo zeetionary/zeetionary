@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dressing table"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dressing table");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dressing table"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dressing table");
   }
 
   @override
@@ -352,176 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She kept her jewelry in the drawers of her dressing table."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables2(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables3(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables4(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables5(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables6(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables7(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables8(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables9(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables10(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables11(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables12(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables13(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables14(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables15(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables16(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables17(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables18(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables19(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables20(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables21(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdressingtables22(String languageCode) async {
-    // DOPSUM: CHANGE speakdressingtable
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdressingtables2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She kept her jewelry in the drawers of her dressing table.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryairspace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airspace"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airspace");
   }
 
   Future<void> speakairspace4355(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryairspace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The airspace over Europe is becoming more and more crowded."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The airspace over Europe is becoming more and more crowded.");
   }
 
   Future<void> speakairspace5366(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryairspace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The jet entered Chinese airspace without permission."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The jet entered Chinese airspace without permission.");
   }
 
   // Future<void> speakairspace(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryairspace extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("airspace"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airspace");
   // }
 
   @override

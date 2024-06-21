@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disgrace"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disgrace");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disgrace"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disgrace");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her behaviour has brought disgrace on her family."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her behaviour has brought disgrace on her family.");
   }
 
   Future<void> speakdisgraces2(String languageCode) async {
@@ -230,8 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The swimmer was sent home from the Olympics in disgrace."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The swimmer was sent home from the Olympics in disgrace.");
   }
 
   Future<void> speakdisgraces3(String languageCode) async {
@@ -239,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Sam was in disgrace with his parents."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Sam was in disgrace with his parents.");
   }
 
   Future<void> speakdisgraces4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There is no disgrace in being poor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There is no disgrace in being poor.");
   }
 
   Future<void> speakdisgraces5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Your homework is an absolute disgrace."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Your homework is an absolute disgrace.");
   }
 
   Future<void> speakdisgraces6(String languageCode) async {
@@ -266,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The state of our roads is a national disgrace."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The state of our roads is a national disgrace.");
   }
 
   Future<void> speakdisgraces7(String languageCode) async {
@@ -275,8 +270,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "That sort of behaviour is a disgrace to the legal profession."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That sort of behaviour is a disgrace to the legal profession.");
   }
 
   Future<void> speakdisgraces8(String languageCode) async {
@@ -284,8 +279,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You are a disgrace to this school."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You are a disgrace to this school.");
   }
 
   Future<void> speakdisgraces9(String languageCode) async {
@@ -293,8 +287,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I disgraced myself by drinking far too much."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I disgraced myself by drinking far too much.");
   }
 
   Future<void> speakdisgraces10(String languageCode) async {
@@ -302,8 +295,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had disgraced the family name."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He had disgraced the family name.");
   }
 
   Future<void> speakdisgraces11(String languageCode) async {
@@ -311,96 +303,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was publicly disgraced and sent into exile."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisgraces22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisgrace
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisgraces2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was publicly disgraced and sent into exile.");
   }
 
   @override

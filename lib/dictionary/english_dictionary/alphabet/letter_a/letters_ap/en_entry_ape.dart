@@ -22,7 +22,7 @@ class EnglishEntryape extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ape");
   }
 
   Future<void> speakape129(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryape extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Chimpanzees and gorillas are both apes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Chimpanzees and gorillas are both apes.");
   }
 
   Future<void> speakape132(String languageCode) async {
@@ -39,8 +38,8 @@ class EnglishEntryape extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For years the British film industry merely aped Hollywood."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("For years the British film industry merely aped Hollywood.");
   }
 
   Future<void> speakape134(String languageCode) async {
@@ -48,8 +47,7 @@ class EnglishEntryape extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We used to ape the teacher's southern accent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We used to ape the teacher's southern accent.");
   }
 
   // Future<void> speakape(String languageCode) async {
@@ -57,7 +55,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ape");
   // }
 
   // Future<void> speakape(String languageCode) async {
@@ -65,7 +63,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ape");
   // }
 
   // Future<void> speakape(String languageCode) async {
@@ -73,7 +71,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ape");
   // }
 
   // Future<void> speakape(String languageCode) async {
@@ -81,7 +79,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ape");
   // }
 
   // Future<void> speakape(String languageCode) async {
@@ -89,7 +87,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ape");
   // }
 
   @override

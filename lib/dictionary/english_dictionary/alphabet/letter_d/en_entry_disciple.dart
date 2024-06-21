@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disciple"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disciple");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("disciple"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("disciple");
   }
 
   @override
@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He commanded them to go out and make disciples of all nations."); // DOPSUM: CHANGE TEXT
+        "He commanded them to go out and make disciples of all nations.");
   }
 
   Future<void> speakdisciples2(String languageCode) async {
@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These ideas are central to the work of Freud and his disciples."); // DOPSUM: CHANGE TEXT
+        "These ideas are central to the work of Freud and his disciples.");
   }
 
   Future<void> speakdisciples3(String languageCode) async {
@@ -240,159 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "John was close to Jesus and often called the beloved disciple."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples13(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples14(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples15(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples16(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples17(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples18(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples19(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples20(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples21(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdisciples22(String languageCode) async {
-    // DOPSUM: CHANGE speakdisciple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdisciples2200"); // DOPSUM: CHANGE TEXT
+        "John was close to Jesus and often called the beloved disciple.");
   }
 
   @override

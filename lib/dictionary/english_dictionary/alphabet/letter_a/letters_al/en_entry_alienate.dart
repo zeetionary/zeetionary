@@ -16,7 +16,7 @@ class EnglishEntryalienate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alienate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alienate");
   }
 
   Future<void> speakalienate4625555(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryalienate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His comments have alienated a lot of young voters."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His comments have alienated a lot of young voters.");
   }
 
   Future<void> speakalienate34791(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryalienate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Very talented children may feel alienated from the others in their class."); // DOPSUM: CHANGE TEXT
+        "Very talented children may feel alienated from the others in their class.");
   }
 
   // Future<void> speakalienate(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryalienate extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alienate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alienate");
   // }
 
   @override

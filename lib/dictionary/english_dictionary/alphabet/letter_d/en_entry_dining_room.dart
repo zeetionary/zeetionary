@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dining room"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dining room");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dining room"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dining room");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dining room seats up to 60 guests."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The dining room seats up to 60 guests.");
   }
 
   Future<void> speakdiningrooms2(String languageCode) async {
@@ -231,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."); // DOPSUM: CHANGE TEXT
+        "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs.");
   }
 
   Future<void> speakdiningrooms3(String languageCode) async {
@@ -240,159 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This room has a dual purpose, serving as both a study and a dining room."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiningrooms22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiningroom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiningrooms2200"); // DOPSUM: CHANGE TEXT
+        "This room has a dual purpose, serving as both a study and a dining room.");
   }
 
   @override

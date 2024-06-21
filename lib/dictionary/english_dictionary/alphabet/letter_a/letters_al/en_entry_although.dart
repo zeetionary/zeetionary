@@ -16,7 +16,7 @@ class EnglishEntryalthough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("although"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("although");
   }
 
   Future<void> speakalthough4596(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryalthough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Although the sun was shining, it wasn't very warm."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Although the sun was shining, it wasn't very warm.");
   }
 
   Future<void> speakalthough566(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryalthough extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I felt he was wrong, although I didn't say so at the time."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I felt he was wrong, although I didn't say so at the time.");
   }
 
   Future<void> speakagnos19633(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryalthough extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Although he was raised a Catholic, he was an agnostic for most of his adult life."); // DOPSUM: CHANGE TEXT
+        "Although he was raised a Catholic, he was an agnostic for most of his adult life.");
   }
 
   // Future<void> speakalthough(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryalthough extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("although"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("although");
   // }
 
   @override

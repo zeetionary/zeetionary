@@ -16,7 +16,7 @@ class EnglishEntryam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("am"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("am");
   }
 
   Future<void> speakam795888(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryam extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM."); // DOPSUM: CHANGE TEXT
+        "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM.");
   }
 
   // Future<void> speakam(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryam extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("am"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("am");
   // }
 
   @override

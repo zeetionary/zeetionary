@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-dealing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-dealing");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-dealing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-dealing");
   }
 
   @override
@@ -353,175 +353,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The local business community has been destroyed by corruption, cheating and double-dealing."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubledealings22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubledealing
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubledealings2200"); // DOPSUM: CHANGE TEXT
+        "The local business community has been destroyed by corruption, cheating and double-dealing.");
   }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("circumstantial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("circumstantial");
   }
 
   Future<void> speakcircumstantials1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The case against him was largely circumstantial."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The case against him was largely circumstantial.");
   }
 
   Future<void> speakcircumstantials2(String languageCode) async {
@@ -38,8 +37,8 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their problems were circumstantial rather than personal."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Their problems were circumstantial rather than personal.");
   }
 
   Future<void> speakcircumstantials3(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials300");
   }
 
   Future<void> speakcircumstantials4(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials400");
   }
 
   Future<void> speakcircumstantials5(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials500");
   }
 
   Future<void> speakcircumstantials6(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials600");
   }
 
   Future<void> speakcircumstantials7(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials700");
   }
 
   Future<void> speakcircumstantials8(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials800");
   }
 
   Future<void> speakcircumstantials9(String languageCode) async {
@@ -95,7 +94,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials900");
   }
 
   Future<void> speakcircumstantials10(String languageCode) async {
@@ -103,7 +102,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials1000");
   }
 
   Future<void> speakcircumstantials11(String languageCode) async {
@@ -111,7 +110,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials1100");
   }
 
   Future<void> speakcircumstantials12(String languageCode) async {
@@ -119,7 +118,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials1200");
   }
 
   Future<void> speakcircumstantials13(String languageCode) async {
@@ -127,7 +126,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstantials1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcircumstantials1300");
   }
 
   @override

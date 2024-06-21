@@ -23,7 +23,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boundary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boundary");
   }
 
   Future<void> speakboundarys1(String languageCode) async {
@@ -32,7 +32,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After the war the national boundaries were redrawn."); // DOPSUM: CHANGE TEXT
+        "After the war the national boundaries were redrawn.");
   }
 
   Future<void> speakboundarys2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The fence marks the boundary between my property and hers."); // DOPSUM: CHANGE TEXT
+        "The fence marks the boundary between my property and hers.");
   }
 
   Future<void> speakboundarys3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists continue to push back the boundaries of human knowledge."); // DOPSUM: CHANGE TEXT
+        "Scientists continue to push back the boundaries of human knowledge.");
   }
 
   Future<void> speakboundarys4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundarys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundarys44");
   }
 
   Future<void> speakboundarys5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundarys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundarys55");
   }
 
   Future<void> speakboundarys6(String languageCode) async {
@@ -74,7 +74,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundarys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundarys66");
   }
 
   Future<void> speakboundarys7(String languageCode) async {
@@ -82,7 +82,7 @@ class EnglishEntryboundary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundarys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundarys77");
   }
 
   @override

@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decline");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decline");
   }
 
   @override
@@ -221,8 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Support for the party continues to decline."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Support for the party continues to decline.");
   }
 
   Future<void> speakdeclines2(String languageCode) async {
@@ -230,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Sales of milk declined by 4 per cent."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Sales of milk declined by 4 per cent.");
   }
 
   Future<void> speakdeclines3(String languageCode) async {
@@ -239,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The city declined in importance in the nineteenth century."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The city declined in importance in the nineteenth century.");
   }
 
   Future<void> speakdeclines4(String languageCode) async {
@@ -248,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her health began to decline."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her health began to decline.");
   }
 
   Future<void> speakdeclines5(String languageCode) async {
@@ -257,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I offered to give them a lift but they declined."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I offered to give them a lift but they declined.");
   }
 
   Future<void> speakdeclines6(String languageCode) async {
@@ -266,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We politely declined her invitation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We politely declined her invitation.");
   }
 
   Future<void> speakdeclines7(String languageCode) async {
@@ -275,8 +270,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She declined a second glass of wine and called for a taxi."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She declined a second glass of wine and called for a taxi.");
   }
 
   Future<void> speakdeclines8(String languageCode) async {
@@ -284,8 +279,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their spokesman declined to comment on the allegations."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Their spokesman declined to comment on the allegations.");
   }
 
   Future<void> speakdeclines9(String languageCode) async {
@@ -293,8 +288,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There has been a 5 per cent decline in student numbers."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("There has been a 5 per cent decline in student numbers.");
   }
 
   Future<void> speakdeclines10(String languageCode) async {
@@ -302,32 +297,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have experienced decades of economic decline."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeclines11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclines1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeclines12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclines1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeclines13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclines1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They have experienced decades of economic decline.");
   }
 
   @override

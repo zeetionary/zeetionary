@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dwelling"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dwelling");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dwelling"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dwelling");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The development will consist of 66 dwellings and a number of offices."); // DOPSUM: CHANGE TEXT
+        "The development will consist of 66 dwellings and a number of offices.");
   }
 
   Future<void> speakdwellings2(String languageCode) async {
@@ -361,167 +361,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is an estimated shortfall of some five million dwellings across the country."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings3(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings4(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings5(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings6(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings7(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings8(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings9(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings10(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings11(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings12(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings13(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings14(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings15(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings16(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings17(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings18(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings19(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings20(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings21(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdwellings22(String languageCode) async {
-    // DOPSUM: CHANGE speakdwelling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdwellings2200"); // DOPSUM: CHANGE TEXT
+        "There is an estimated shortfall of some five million dwellings across the country.");
   }
 
   @override

@@ -22,7 +22,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blade"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blade");
   }
 
   Future<void> speakblades1(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Knife blades are generally made of stainless steel."); // DOPSUM: CHANGE TEXT
+        "Knife blades are generally made of stainless steel.");
   }
 
   Future<void> speakblades2(String languageCode) async {
@@ -40,7 +40,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The prisoner used a hacksaw blade to cut through the bars."); // DOPSUM: CHANGE TEXT
+        "The prisoner used a hacksaw blade to cut through the bars.");
   }
 
   Future<void> speakblades3(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The helicopter's blades whirred as it lifted off the ground."); // DOPSUM: CHANGE TEXT
+        "The helicopter's blades whirred as it lifted off the ground.");
   }
 
   Future<void> speakblades4(String languageCode) async {
@@ -58,7 +58,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The rower dipped the blade of the oar into the water, propelling the boat forward."); // DOPSUM: CHANGE TEXT
+        "The rower dipped the blade of the oar into the water, propelling the boat forward.");
   }
 
   Future<void> speakblades5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Not a blade of grass stirred."); // DOPSUM: CHANGE TEXT
+        .speak("Not a blade of grass stirred.");
   }
 
   Future<void> speakblades6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblades66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblades66");
   }
 
   Future<void> speakblades7(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryblade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblades77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblades77");
   }
 
   @override

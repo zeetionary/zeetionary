@@ -16,7 +16,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("across"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("across");
   }
 
   Future<void> speakacr2149(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I drew a line across the page."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I drew a line across the page.");
   }
 
   Future<void> speakacr2437(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Where's the nearest bridge across the river?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Where's the nearest bridge across the river?");
   }
 
   Future<void> speakacr4269(String languageCode) async {
@@ -42,8 +40,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There's a bank right across the street."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There's a bank right across the street.");
   }
 
   Future<void> speakac2568(String languageCode) async {
@@ -51,8 +48,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He hit him across the face."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He hit him across the face.");
   }
 
   Future<void> speakacro154(String languageCode) async {
@@ -60,8 +56,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her family is scattered across the country."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Her family is scattered across the country.");
   }
 
   Future<void> speakacro2568(String languageCode) async {
@@ -69,8 +64,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The river is too wide. We can't swim across."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The river is too wide. We can't swim across.");
   }
 
   Future<void> speakacr258(String languageCode) async {
@@ -78,8 +72,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When my name was called, he looked across at me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("When my name was called, he looked across at me.");
   }
 
   Future<void> speakacr7598(String languageCode) async {
@@ -87,8 +80,7 @@ class EnglishEntryacross extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There's a school just across from our house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There's a school just across from our house.");
   }
 
   // Future<void> speakacross(String languageCode) async {
@@ -96,7 +88,7 @@ class EnglishEntryacross extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("across"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("across");
   // }
 
   @override

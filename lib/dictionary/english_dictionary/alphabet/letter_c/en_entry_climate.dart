@@ -21,7 +21,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("climate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("climate");
   }
 
   Future<void> speakclimates1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The city has a cold climate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The city has a cold climate.");
   }
 
   Future<void> speakclimates2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Tomato flavour varies depending on climate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Tomato flavour varies depending on climate.");
   }
 
   Future<void> speakclimates3(String languageCode) async {
@@ -47,8 +45,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is a region with diverse soils and climate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It is a region with diverse soils and climate.");
   }
 
   Future<void> speakclimates4(String languageCode) async {
@@ -57,7 +54,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most climate scientists believe the earth will warm several more degrees in coming decades."); // DOPSUM: CHANGE TEXT
+        "Most climate scientists believe the earth will warm several more degrees in coming decades.");
   }
 
   Future<void> speakclimates5(String languageCode) async {
@@ -65,8 +62,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Little grows in such a dry climate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Little grows in such a dry climate.");
   }
 
   Future<void> speakclimates6(String languageCode) async {
@@ -74,8 +70,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They wanted to move to a warmer climate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They wanted to move to a warmer climate.");
   }
 
   Future<void> speakclimates7(String languageCode) async {
@@ -83,8 +78,8 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to create a climate in which business can prosper."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need to create a climate in which business can prosper.");
   }
 
   Future<void> speakclimates8(String languageCode) async {
@@ -93,7 +88,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They hope this will provide the right climate for social change."); // DOPSUM: CHANGE TEXT
+        "They hope this will provide the right climate for social change.");
   }
 
   Future<void> speakclimates9(String languageCode) async {
@@ -101,8 +96,8 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Such a move seems unlikely in the current political climate."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Such a move seems unlikely in the current political climate.");
   }
 
   Future<void> speakclimates10(String languageCode) async {
@@ -110,8 +105,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new policies have created a climate of fear."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The new policies have created a climate of fear.");
   }
 
   Future<void> speakclimates11(String languageCode) async {
@@ -119,8 +113,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Terrorism creates a climate of fear."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Terrorism creates a climate of fear.");
   }
 
   Future<void> speakclimates12(String languageCode) async {
@@ -128,7 +121,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimates1200");
   }
 
   Future<void> speakclimates13(String languageCode) async {
@@ -136,7 +129,7 @@ class EnglishEntryclimate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclimates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclimates1300");
   }
 
   @override

@@ -22,7 +22,7 @@ class EnglishEntryappraisal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appraisal");
   }
 
   Future<void> speakappraisal930(String languageCode) async {
@@ -30,8 +30,7 @@ class EnglishEntryappraisal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The report has been subject to appraisal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The report has been subject to appraisal.");
   }
 
   Future<void> speakappraisal932(String languageCode) async {
@@ -39,8 +38,8 @@ class EnglishEntryappraisal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A detailed appraisal of the scheme will now be carried out."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A detailed appraisal of the scheme will now be carried out.");
   }
 
   Future<void> speakappraisal935(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryappraisal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I have my appraisal today."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I have my appraisal today.");
   }
 
   // Future<void> speakappraisal(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryappraisal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appraisal");
   // }
 
   // Future<void> speakappraisal(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryappraisal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appraisal");
   // }
 
   // Future<void> speakappraisal(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryappraisal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appraisal");
   // }
 
   // Future<void> speakappraisal(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryappraisal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appraisal");
   // }
 
   // Future<void> speakappraisal(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryappraisal extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appraisal");
   // }
 
   @override

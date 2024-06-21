@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dragon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dragon");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dragon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dragon");
   }
 
   @override
@@ -351,8 +351,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The knight fought the dragon to rescue the princess."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The knight fought the dragon to rescue the princess.");
   }
 
   Future<void> speakdragons2(String languageCode) async {
@@ -361,167 +361,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The old lady next door was a bit of a dragon; the children avoided her."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons3(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons4(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons5(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons6(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons7(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons8(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons9(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons10(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons11(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons12(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons13(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons14(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons15(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons16(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons17(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons18(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons19(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons20(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons21(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdragons22(String languageCode) async {
-    // DOPSUM: CHANGE speakdragon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdragons2200"); // DOPSUM: CHANGE TEXT
+        "The old lady next door was a bit of a dragon; the children avoided her.");
   }
 
   @override

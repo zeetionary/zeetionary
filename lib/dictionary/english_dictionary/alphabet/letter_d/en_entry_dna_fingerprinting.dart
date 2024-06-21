@@ -280,7 +280,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DNA fingerprinting"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DNA fingerprinting");
   }
 
   @override
@@ -330,7 +330,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("DNA fingerprinting"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("DNA fingerprinting");
   }
 
   @override
@@ -354,188 +354,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scientists use DNA fingerprinting in wildlife studies to track animal populations."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings2(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings3(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings4(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings5(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings6(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings7(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings8(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings9(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakDNAfingerprintings900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings10(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings11(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings12(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings13(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings14(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings15(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings16(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings17(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings18(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings19(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings20(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings21(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakDNAfingerprintings22(String languageCode) async {
-    // DOPSUM: CHANGE speakDNAfingerprinting
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("speakDNAfingerprintings2200"); // DOPSUM: CHANGE TEXT
+        "Scientists use DNA fingerprinting in wildlife studies to track animal populations.");
   }
 
   @override

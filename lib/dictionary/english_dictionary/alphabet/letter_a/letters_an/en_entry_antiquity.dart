@@ -20,7 +20,7 @@ class EnglishEntryantiquity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("antiquity");
   }
 
   Future<void> speakantiquity1151(String languageCode) async {
@@ -28,8 +28,7 @@ class EnglishEntryantiquity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The statue was brought to Rome in antiquity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The statue was brought to Rome in antiquity.");
   }
 
   Future<void> speakantiquity1156(String languageCode) async {
@@ -38,7 +37,7 @@ class EnglishEntryantiquity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Archaeologists found 40 bodies of varying antiquity in the area."); // DOPSUM: CHANGE TEXT
+        "Archaeologists found 40 bodies of varying antiquity in the area.");
   }
 
   Future<void> speakantiquity1159(String languageCode) async {
@@ -47,7 +46,7 @@ class EnglishEntryantiquity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Under Greek law, all antiquities that are discovered in Greece belong to the government."); // DOPSUM: CHANGE TEXT
+        "Under Greek law, all antiquities that are discovered in Greece belong to the government.");
   }
 
   // Future<void> speakantiquity(String languageCode) async {
@@ -55,7 +54,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiquity");
   // }
 
   // Future<void> speakantiquity(String languageCode) async {
@@ -63,7 +62,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiquity");
   // }
 
   // Future<void> speakantiquity(String languageCode) async {
@@ -71,7 +70,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiquity");
   // }
 
   // Future<void> speakantiquity(String languageCode) async {
@@ -79,7 +78,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiquity");
   // }
 
   // Future<void> speakantiquity(String languageCode) async {
@@ -87,7 +86,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("antiquity");
   // }
 
   @override

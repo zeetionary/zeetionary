@@ -24,7 +24,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("automatic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("automatic");
   }
 
   Future<void> speakautomatic1027(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The automatic pilot system on the airplane kept it on course even during turbulence."); // DOPSUM: CHANGE TEXT
+        "The automatic pilot system on the airplane kept it on course even during turbulence.");
   }
 
   Future<void> speakautomatic1030(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The automatic doors opened as I approached the entrance to the store."); // DOPSUM: CHANGE TEXT
+        "The automatic doors opened as I approached the entrance to the store.");
   }
 
   Future<void> speakautomatic1031(String languageCode) async {
@@ -50,8 +50,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Breathing is an automatic function of the body."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Breathing is an automatic function of the body.");
   }
 
   Future<void> speakautomatic1033(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A fine for this offence is automatic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A fine for this offence is automatic.");
   }
 
   Future<void> speakautomatic1037(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The gunman opened fire with an automatic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The gunman opened fire with an automatic.");
   }
 
   Future<void> speakautomatic1039(String languageCode) async {
@@ -77,7 +74,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Kate drives an automatic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Kate drives an automatic.");
   }
 
   // Future<void> speakautomatic(String languageCode) async {
@@ -85,7 +82,7 @@ class EnglishEntryautomatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("automatic");
   // }
 
   // Future<void> speakautomatic(String languageCode) async {
@@ -93,7 +90,7 @@ class EnglishEntryautomatic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automatic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("automatic");
   // }
 
   @override

@@ -280,7 +280,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dual carriageway"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dual carriageway");
   }
 
   @override
@@ -330,7 +330,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dual carriageway"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dual carriageway");
   }
 
   @override
@@ -354,7 +354,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was caught driving the wrong way down the dual carriageway."); // DOPSUM: CHANGE TEXT
+        "He was caught driving the wrong way down the dual carriageway.");
   }
 
   Future<void> speakdualcarriageways2(String languageCode) async {
@@ -363,167 +363,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Follow the dual carriageway and you'll see signs for the turn-off."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways3(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways4(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways5(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways6(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways7(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways8(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways9(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways10(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways11(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways12(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways13(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways14(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways15(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways16(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways17(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways18(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways19(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways20(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways21(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdualcarriageways22(String languageCode) async {
-    // DOPSUM: CHANGE speakdualcarriageway
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdualcarriageways2200"); // DOPSUM: CHANGE TEXT
+        "Follow the dual carriageway and you'll see signs for the turn-off.");
   }
 
   @override

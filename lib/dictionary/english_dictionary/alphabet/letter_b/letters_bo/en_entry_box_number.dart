@@ -20,7 +20,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("box number"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("box number");
   }
 
   Future<void> speakboxnumbers1(String languageCode) async {
@@ -29,7 +29,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He asked for cheques to be sent to a postal box number."); // DOPSUM: CHANGE TEXT
+        "He asked for cheques to be sent to a postal box number.");
   }
 
   Future<void> speakboxnumbers2(String languageCode) async {
@@ -37,7 +37,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxnumbers22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxnumbers22");
   }
 
   Future<void> speakboxnumbers3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxnumbers33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxnumbers33");
   }
 
   Future<void> speakboxnumbers4(String languageCode) async {
@@ -53,7 +53,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxnumbers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxnumbers44");
   }
 
   Future<void> speakboxnumbers5(String languageCode) async {
@@ -61,7 +61,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxnumbers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxnumbers55");
   }
 
   Future<void> speakboxnumbers6(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxnumbers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxnumbers66");
   }
 
   Future<void> speakboxnumbers7(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntryboxnumber extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxnumbers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxnumbers77");
   }
 
   @override

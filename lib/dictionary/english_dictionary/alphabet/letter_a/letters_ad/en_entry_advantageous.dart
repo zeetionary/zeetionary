@@ -16,7 +16,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advantageous"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("advantageous");
   }
 
   Future<void> speakadvant964725(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryadvantageous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This plan could be advantageous for people on low incomes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This plan could be advantageous for people on low incomes.");
   }
 
   // Future<void> speakadvantageous(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advantageous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("advantageous");
   // }
 
   // Future<void> speakadvantageous(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("advantageous"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("advantageous");
   // }
 
   @override

@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-jointed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-jointed");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-jointed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-jointed");
   }
 
   @override
@@ -352,176 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was what they called a double-jointed man."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoublejointeds22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoublejointed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoublejointeds2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was what they called a double-jointed man.");
   }
 
   @override

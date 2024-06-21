@@ -16,7 +16,7 @@ class EnglishEntryamiss extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amiss");
   }
 
   Future<void> speakamiss7741(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryamiss extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She sensed something was amiss and called the police."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She sensed something was amiss and called the police.");
   }
 
   Future<void> speakamiss8899(String languageCode) async {
@@ -33,8 +33,7 @@ class EnglishEntryamiss extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He shone a light inside and saw nothing amiss."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He shone a light inside and saw nothing amiss.");
   }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -42,7 +41,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -98,7 +97,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   // Future<void> speakamiss(String languageCode) async {
@@ -106,7 +105,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amiss");
   // }
 
   @override

@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-click"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-click");
   }
 
   @override
@@ -329,7 +329,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("double-click"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("double-click");
   }
 
   @override
@@ -352,176 +352,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "To run an application, just double-click on the icon."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks2(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks3(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks4(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks5(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks6(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks7(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks8(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks9(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks10(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks11(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks12(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks13(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks14(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks15(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks16(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks17(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks18(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks19(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks20(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks21(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdoubleclicks22(String languageCode) async {
-    // DOPSUM: CHANGE speakdoubleclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdoubleclicks2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("To run an application, just double-click on the icon.");
   }
 
   @override

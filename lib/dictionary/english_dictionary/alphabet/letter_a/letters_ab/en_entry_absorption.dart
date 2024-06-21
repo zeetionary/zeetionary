@@ -16,7 +16,7 @@ class EnglishEntryabsorption extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absorption"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("absorption");
   }
 
   Future<void> speaka36948(String languageCode) async {
@@ -24,8 +24,8 @@ class EnglishEntryabsorption extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His work suffered because of his total absorption in sport."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His work suffered because of his total absorption in sport.");
   }
 
   Future<void> speakab3618(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryabsorption extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "the absorption of the town into the Leeds City Region"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("the absorption of the town into the Leeds City Region");
   }
 
   Future<void> speaka3591(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryabsorption extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Vitamin D is necessary to aid the absorption of calcium from food."); // DOPSUM: CHANGE TEXT
+        "Vitamin D is necessary to aid the absorption of calcium from food.");
   }
 
   @override

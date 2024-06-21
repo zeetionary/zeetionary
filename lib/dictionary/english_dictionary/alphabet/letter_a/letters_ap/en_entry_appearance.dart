@@ -22,7 +22,7 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appearance");
   }
 
   Future<void> speakappearance1127(String languageCode) async {
@@ -30,8 +30,8 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had never been greatly concerned about her appearance."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She had never been greatly concerned about her appearance.");
   }
 
   Future<void> speakappearance1128(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Judging by appearances can be misleading."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Judging by appearances can be misleading.");
   }
 
   Future<void> speakappearance1131(String languageCode) async {
@@ -49,7 +48,7 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sudden appearance of a security guard caused them to drop the money and run."); // DOPSUM: CHANGE TEXT
+        "The sudden appearance of a security guard caused them to drop the money and run.");
   }
 
   Future<void> speakappearance1132(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Since its first appearance in the 19th century, cholera has killed millions."); // DOPSUM: CHANGE TEXT
+        "Since its first appearance in the 19th century, cholera has killed millions.");
   }
 
   Future<void> speakappearance1135(String languageCode) async {
@@ -66,8 +65,8 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The singer's first public appearance was at the age of eight."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The singer's first public appearance was at the age of eight.");
   }
 
   Future<void> speakappearance1145(String languageCode) async {
@@ -76,7 +75,7 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The appearance of claims about the minister's private life in the press has caused a lot of discussions."); // DOPSUM: CHANGE TEXT
+        "The appearance of claims about the minister's private life in the press has caused a lot of discussions.");
   }
 
   // Future<void> speakappearance(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryappearance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appearance");
   // }
 
   // Future<void> speakappearance(String languageCode) async {
@@ -92,7 +91,7 @@ class EnglishEntryappearance extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appearance");
   // }
 
   @override

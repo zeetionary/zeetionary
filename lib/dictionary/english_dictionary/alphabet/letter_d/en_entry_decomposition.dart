@@ -149,7 +149,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decomposition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decomposition");
   }
 
   @override
@@ -199,7 +199,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decomposition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decomposition");
   }
 
   @override
@@ -222,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The corpse was in an advanced stage of decomposition."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The corpse was in an advanced stage of decomposition.");
   }
 
   Future<void> speakdecompositions2(String languageCode) async {
@@ -232,95 +232,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecompositions13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecomposition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecompositions1300"); // DOPSUM: CHANGE TEXT
+        "A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous.");
   }
 
   @override

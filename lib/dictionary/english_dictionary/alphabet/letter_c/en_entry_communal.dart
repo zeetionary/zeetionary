@@ -21,7 +21,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("communal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("communal");
   }
 
   Future<void> speakcommunals1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As a student he tried communal living for a few years."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("As a student he tried communal living for a few years.");
   }
 
   Future<void> speakcommunals2(String languageCode) async {
@@ -38,8 +38,8 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The gardens surrounding the building were communal."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The gardens surrounding the building were communal.");
   }
 
   Future<void> speakcommunals3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Communal riots/disturbances have once again broken out between the two ethnic groups."); // DOPSUM: CHANGE TEXT
+        "Communal riots/disturbances have once again broken out between the two ethnic groups.");
   }
 
   Future<void> speakcommunals4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals400");
   }
 
   Future<void> speakcommunals5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals500");
   }
 
   Future<void> speakcommunals6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals600");
   }
 
   Future<void> speakcommunals7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals700");
   }
 
   Future<void> speakcommunals8(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals800");
   }
 
   Future<void> speakcommunals9(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals900");
   }
 
   Future<void> speakcommunals10(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals1000");
   }
 
   Future<void> speakcommunals11(String languageCode) async {
@@ -112,7 +112,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals1100");
   }
 
   Future<void> speakcommunals12(String languageCode) async {
@@ -120,7 +120,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals1200");
   }
 
   Future<void> speakcommunals13(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntrycommunal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunals1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommunals1300");
   }
 
   @override

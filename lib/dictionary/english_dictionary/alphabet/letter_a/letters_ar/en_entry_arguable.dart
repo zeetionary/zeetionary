@@ -22,7 +22,7 @@ class EnglishEntryarguable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arguable");
   }
 
   Future<void> speakarguable1011(String languageCode) async {
@@ -31,7 +31,7 @@ class EnglishEntryarguable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is arguable that giving too much detail may actually be confusing."); // DOPSUM: CHANGE TEXT
+        "It is arguable that giving too much detail may actually be confusing.");
   }
 
   Future<void> speakarguable1013(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryarguable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It is arguable which way is quicker."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It is arguable which way is quicker.");
   }
 
   // Future<void> speakarguable(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arguable");
   // }
 
   // Future<void> speakarguable(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arguable");
   // }
 
   // Future<void> speakarguable(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arguable");
   // }
 
   // Future<void> speakarguable(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arguable");
   // }
 
   // Future<void> speakarguable(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arguable");
   // }
 
   // Future<void> speakarguable(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arguable");
   // }
 
   @override

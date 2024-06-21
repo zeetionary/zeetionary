@@ -24,7 +24,7 @@ class EnglishEntrygoastray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("go astray");
   }
 
   Future<void> speakGoastray1127(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntrygoastray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several letters went astray or were not delivered."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Several letters went astray or were not delivered.");
   }
 
   Future<void> speakGoastray1129(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntrygoastray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Fortunately the gunman's shots went astray."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Fortunately the gunman's shots went astray.");
   }
 
   // Future<void> speakGoastray(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntrygoastray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("go astray");
   // }
 
   // Future<void> speakGoastray(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntrygoastray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("go astray");
   // }
 
   // Future<void> speakGoastray(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntrygoastray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("go astray");
   // }
 
   // Future<void> speakGoastray(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntrygoastray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("go astray");
   // }
 
   // Future<void> speakGoastray(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntrygoastray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("go astray");
   // }
 
   // Future<void> speakGoastray(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntrygoastray extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("go astray"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("go astray");
   // }
 
   @override

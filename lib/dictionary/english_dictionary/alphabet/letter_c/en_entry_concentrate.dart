@@ -21,7 +21,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("concentrate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("concentrate");
   }
 
   Future<void> speakconcentrates1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I can't concentrate with all that noise going on."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I can't concentrate with all that noise going on.");
   }
 
   Future<void> speakconcentrates2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I struggled to concentrate on my job because I was worried about my son."); // DOPSUM: CHANGE TEXT
+        "I struggled to concentrate on my job because I was worried about my son.");
   }
 
   Future<void> speakconcentrates3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She tried to concentrate on reading her book but couldn't."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She tried to concentrate on reading her book but couldn't.");
   }
 
   Future<void> speakconcentrates4(String languageCode) async {
@@ -57,7 +56,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I decided to concentrate all my efforts on finding somewhere to live."); // DOPSUM: CHANGE TEXT
+        "I decided to concentrate all my efforts on finding somewhere to live.");
   }
 
   Future<void> speakconcentrates5(String languageCode) async {
@@ -65,8 +64,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Power is largely concentrated in the hands of a small elite."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Power is largely concentrated in the hands of a small elite.");
   }
 
   Future<void> speakconcentrates6(String languageCode) async {
@@ -74,8 +73,8 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Fighting was concentrated around the towns to the north."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Fighting was concentrated around the towns to the north.");
   }
 
   Future<void> speakconcentrates7(String languageCode) async {
@@ -84,7 +83,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Singapore has a much smaller and more geographically concentrated population than Australia."); // DOPSUM: CHANGE TEXT
+        "Singapore has a much smaller and more geographically concentrated population than Australia.");
   }
 
   Future<void> speakconcentrates8(String languageCode) async {
@@ -93,7 +92,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These jams made with fruit juice concentrate are lower in added sugar."); // DOPSUM: CHANGE TEXT
+        "These jams made with fruit juice concentrate are lower in added sugar.");
   }
 
   Future<void> speakconcentrates9(String languageCode) async {
@@ -101,7 +100,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrates900");
   }
 
   Future<void> speakconcentrates10(String languageCode) async {
@@ -109,7 +108,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrates1000");
   }
 
   Future<void> speakconcentrates11(String languageCode) async {
@@ -117,7 +116,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrates1100");
   }
 
   Future<void> speakconcentrates12(String languageCode) async {
@@ -125,7 +124,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrates1200");
   }
 
   Future<void> speakconcentrates13(String languageCode) async {
@@ -133,7 +132,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconcentrates1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryalleluia extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alleluia"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alleluia");
   }
 
   Future<void> speakalleluia35288(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalleluia extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When the news of their victory came, there was an 'alleluia' of happiness among the team."); // DOPSUM: CHANGE TEXT
+        "When the news of their victory came, there was an 'alleluia' of happiness among the team.");
   }
 
   // Future<void> speakalleluia(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalleluia extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alleluia"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alleluia");
   // }
 
   // Future<void> speakalleluia(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalleluia extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alleluia"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alleluia");
   // }
 
   @override

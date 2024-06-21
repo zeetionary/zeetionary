@@ -16,7 +16,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("altruistic");
   }
 
   Future<void> speakaltruistic4583(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."); // DOPSUM: CHANGE TEXT
+        "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity.");
   }
 
   // Future<void> speakaltruistic(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altruistic");
   // }
 
   // Future<void> speakaltruistic(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("altruistic");
   // }
 
   @override

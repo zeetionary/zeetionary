@@ -18,7 +18,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("capable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("capable");
   }
 
   Future<void> speakcapables1(String languageCode) async {
@@ -26,8 +26,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You are capable of better work than this."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("You are capable of better work than this.");
   }
 
   Future<void> speakcapables2(String languageCode) async {
@@ -35,8 +34,8 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's quite capable of lying to get out of trouble."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's quite capable of lying to get out of trouble.");
   }
 
   Future<void> speakcapables3(String languageCode) async {
@@ -45,7 +44,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Employees who prove themselves to be capable will usually get promoted quite rapidly."); // DOPSUM: CHANGE TEXT
+        "Employees who prove themselves to be capable will usually get promoted quite rapidly.");
   }
 
   Future<void> speakcapables4(String languageCode) async {
@@ -53,8 +52,8 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Only the Democratic Party is capable of running the country."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Only the Democratic Party is capable of running the country.");
   }
 
   Future<void> speakcapables5(String languageCode) async {
@@ -62,7 +61,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables55");
   }
 
   Future<void> speakcapables6(String languageCode) async {
@@ -70,7 +69,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables66");
   }
 
   Future<void> speakcapables7(String languageCode) async {
@@ -78,7 +77,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables77");
   }
 
   Future<void> speakcapables8(String languageCode) async {
@@ -86,7 +85,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables88");
   }
 
   Future<void> speakcapables9(String languageCode) async {
@@ -94,7 +93,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables99");
   }
 
   Future<void> speakcapables10(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1010");
   }
 
   Future<void> speakcapables11(String languageCode) async {
@@ -110,7 +109,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1111");
   }
 
   Future<void> speakcapables12(String languageCode) async {
@@ -118,7 +117,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1212");
   }
 
   Future<void> speakcapables13(String languageCode) async {
@@ -126,7 +125,7 @@ class EnglishEntrycapable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapables1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1313");
   }
 
   @override

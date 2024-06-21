@@ -21,7 +21,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("consolidate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("consolidate");
   }
 
   Future<void> speakconsolidates1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "With this new movie he has consolidated his position as the country's leading director."); // DOPSUM: CHANGE TEXT
+        "With this new movie he has consolidated his position as the country's leading director.");
   }
 
   Future<void> speakconsolidates2(String languageCode) async {
@@ -38,8 +38,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Italy consolidated their lead with a second goal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Italy consolidated their lead with a second goal.");
   }
 
   Future<void> speakconsolidates3(String languageCode) async {
@@ -47,8 +46,8 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two firms consolidated to form a single company."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The two firms consolidated to form a single company.");
   }
 
   Future<void> speakconsolidates4(String languageCode) async {
@@ -56,7 +55,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates400");
   }
 
   Future<void> speakconsolidates5(String languageCode) async {
@@ -64,7 +63,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates500");
   }
 
   Future<void> speakconsolidates6(String languageCode) async {
@@ -72,7 +71,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates600");
   }
 
   Future<void> speakconsolidates7(String languageCode) async {
@@ -80,7 +79,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates700");
   }
 
   Future<void> speakconsolidates8(String languageCode) async {
@@ -88,7 +87,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates800");
   }
 
   Future<void> speakconsolidates9(String languageCode) async {
@@ -96,7 +95,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates900");
   }
 
   Future<void> speakconsolidates10(String languageCode) async {
@@ -104,7 +103,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates1000");
   }
 
   Future<void> speakconsolidates11(String languageCode) async {
@@ -112,7 +111,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates1100");
   }
 
   Future<void> speakconsolidates12(String languageCode) async {
@@ -120,7 +119,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates1200");
   }
 
   Future<void> speakconsolidates13(String languageCode) async {
@@ -128,7 +127,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsolidates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconsolidates1300");
   }
 
   @override

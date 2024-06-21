@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diamond jubilee"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diamond jubilee");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("diamond jubilee"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("diamond jubilee");
   }
 
   @override
@@ -224,175 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Queen Victoria had been on the throne for 60 years and her diamond jubilee was being celebrated."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees2(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees3(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees4(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees5(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees6(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees7(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees8(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees9(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees10(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees11(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees12(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees13(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees14(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees15(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees16(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees17(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees18(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees19(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees20(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees21(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdiamondjubilees22(String languageCode) async {
-    // DOPSUM: CHANGE speakdiamondjubilee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdiamondjubilees2200"); // DOPSUM: CHANGE TEXT
+        "Queen Victoria had been on the throne for 60 years and her diamond jubilee was being celebrated.");
   }
 
   @override

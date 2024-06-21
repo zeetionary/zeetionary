@@ -16,7 +16,7 @@ class EnglishEntryanalyst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("analyst");
   }
 
   Future<void> speakanalyst45888(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryanalyst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "City analysts forecast huge profits this year."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("City analysts forecast huge profits this year.");
   }
 
   Future<void> speakanalyst7401(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryanalyst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She is a financial analyst."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She is a financial analyst.");
   }
 
   // Future<void> speakanalyst(String languageCode) async {
@@ -42,7 +40,7 @@ class EnglishEntryanalyst extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analyst");
   // }
 
   // Future<void> speakanalyst(String languageCode) async {
@@ -50,7 +48,7 @@ class EnglishEntryanalyst extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analyst");
   // }
 
   // Future<void> speakanalyst(String languageCode) async {
@@ -58,7 +56,7 @@ class EnglishEntryanalyst extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analyst");
   // }
 
   // Future<void> speakanalyst(String languageCode) async {
@@ -66,7 +64,7 @@ class EnglishEntryanalyst extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analyst");
   // }
 
   // Future<void> speakanalyst(String languageCode) async {
@@ -74,7 +72,7 @@ class EnglishEntryanalyst extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analyst");
   // }
 
   // Future<void> speakanalyst(String languageCode) async {
@@ -82,7 +80,7 @@ class EnglishEntryanalyst extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyst"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("analyst");
   // }
 
   @override

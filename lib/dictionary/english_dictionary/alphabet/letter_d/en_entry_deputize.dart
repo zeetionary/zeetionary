@@ -148,7 +148,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deputize"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deputize");
   }
 
   @override
@@ -198,7 +198,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("deputize"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deputize");
   }
 
   @override
@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ms Green has asked me to deputize for her at the meeting."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Ms Green has asked me to deputize for her at the meeting.");
   }
 
   Future<void> speakdeputizes2(String languageCode) async {
@@ -231,143 +231,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes3(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes4(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes1900"); // DOPSUM: CHANGE TEXT
+        "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.");
   }
 
   Future<void> speakdeputizes20(String languageCode) async {
@@ -376,23 +240,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.0"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeputizes22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeputize
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeputizes2200"); // DOPSUM: CHANGE TEXT
+        "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.0");
   }
 
   @override

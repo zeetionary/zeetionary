@@ -24,7 +24,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barrier"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("barrier");
   }
 
   Future<void> speakbarriers1(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The crowd had to stand behind barriers."); // DOPSUM: CHANGE TEXT
+        "The crowd had to stand behind barriers.");
   }
 
   Future<void> speakbarriers2(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Scan your ticket at the barrier and it will automatically lift."); // DOPSUM: CHANGE TEXT
+        "Scan your ticket at the barrier and it will automatically lift.");
   }
 
   Future<void> speakbarriers3(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Despite the language barrier, they soon became good friends."); // DOPSUM: CHANGE TEXT
+        "Despite the language barrier, they soon became good friends.");
   }
 
   Future<void> speakbarriers4(String languageCode) async {
@@ -60,7 +60,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cream acts as a protective barrier against sun damage."); // DOPSUM: CHANGE TEXT
+        "The cream acts as a protective barrier against sun damage.");
   }
 
   Future<void> speakbarriers5(String languageCode) async {
@@ -69,7 +69,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was the first player whose earnings passed the £10 million barrier."); // DOPSUM: CHANGE TEXT
+        "He was the first player whose earnings passed the £10 million barrier.");
   }
 
   Future<void> speakbarriers6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarriers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarriers66");
   }
 
   Future<void> speakbarriers7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarriers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBarriers77");
   }
 
   @override

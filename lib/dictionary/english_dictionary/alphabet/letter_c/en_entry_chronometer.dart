@@ -21,7 +21,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("chronometer"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("chronometer");
   }
 
   Future<void> speakchronometers1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ship's captain relied on the chronometer for precise navigation."); // DOPSUM: CHANGE TEXT
+        "The ship's captain relied on the chronometer for precise navigation.");
   }
 
   Future<void> speakchronometers2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers200");
   }
 
   Future<void> speakchronometers3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers300");
   }
 
   Future<void> speakchronometers4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers400");
   }
 
   Future<void> speakchronometers5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers500");
   }
 
   Future<void> speakchronometers6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers600");
   }
 
   Future<void> speakchronometers7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers700");
   }
 
   Future<void> speakchronometers8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers800");
   }
 
   Future<void> speakchronometers9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers900");
   }
 
   Future<void> speakchronometers10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers1000");
   }
 
   Future<void> speakchronometers11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers1100");
   }
 
   Future<void> speakchronometers12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers1200");
   }
 
   Future<void> speakchronometers13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntrychronometer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchronometers1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakchronometers1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accumulation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accumulation");
   }
 
   Future<void> speakac1548(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Despite this accumulation of evidence, the government persisted in doing nothing."); // DOPSUM: CHANGE TEXT
+        "Despite this accumulation of evidence, the government persisted in doing nothing.");
   }
 
   Future<void> speaka122158(String languageCode) async {
@@ -34,7 +34,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Accumulations of sand can be formed by the action of waves on coastal beaches."); // DOPSUM: CHANGE TEXT
+        "Accumulations of sand can be formed by the action of waves on coastal beaches.");
   }
 
   // Future<void> speakaccumulation(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accumulation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("accumulation");
   // }
 
   @override

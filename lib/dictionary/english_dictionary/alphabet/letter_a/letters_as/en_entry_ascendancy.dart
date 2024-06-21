@@ -24,7 +24,7 @@ class EnglishEntryascendancy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ascendancy");
   }
 
   Future<void> speakascendancy1157(String languageCode) async {
@@ -32,8 +32,8 @@ class EnglishEntryascendancy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Manchester United gained the ascendancy after half-time."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Manchester United gained the ascendancy after half-time.");
   }
 
   Future<void> speakascendancy1158(String languageCode) async {
@@ -42,7 +42,7 @@ class EnglishEntryascendancy extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The opposition party was in the ascendancy (= gaining control)."); // DOPSUM: CHANGE TEXT
+        "The opposition party was in the ascendancy (= gaining control).");
   }
 
   Future<void> speakascendancy1201(String languageCode) async {
@@ -50,8 +50,8 @@ class EnglishEntryascendancy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new CEO quickly gained ascendancy over the company."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new CEO quickly gained ascendancy over the company.");
   }
 
   // Future<void> speakascendancy(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy");
   // }
 
   // Future<void> speakascendancy(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy");
   // }
 
   // Future<void> speakascendancy(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy");
   // }
 
   // Future<void> speakascendancy(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy");
   // }
 
   // Future<void> speakascendancy(String languageCode) async {
@@ -91,7 +91,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy");
   // }
 
   @override

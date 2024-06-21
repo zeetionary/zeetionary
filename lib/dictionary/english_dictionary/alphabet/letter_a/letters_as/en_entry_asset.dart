@@ -24,7 +24,7 @@ class EnglishEntryasset extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("asset");
   }
 
   Future<void> speakasset632(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryasset extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In his job, patience is an invaluable asset."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("In his job, patience is an invaluable asset.");
   }
 
   Future<void> speakasset633(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntryasset extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Being able to speak a foreign language is a major asset."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Being able to speak a foreign language is a major asset.");
   }
 
   // Future<void> speakasset(String languageCode) async {
@@ -50,7 +49,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asset");
   // }
 
   // Future<void> speakasset(String languageCode) async {
@@ -58,7 +57,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asset");
   // }
 
   // Future<void> speakasset(String languageCode) async {
@@ -66,7 +65,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asset");
   // }
 
   // Future<void> speakasset(String languageCode) async {
@@ -74,7 +73,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asset");
   // }
 
   // Future<void> speakasset(String languageCode) async {
@@ -82,7 +81,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asset");
   // }
 
   // Future<void> speakasset(String languageCode) async {
@@ -90,7 +89,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asset");
   // }
 
   @override

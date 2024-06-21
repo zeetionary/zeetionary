@@ -24,7 +24,7 @@ class EnglishEntryartery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artery");
   }
 
   Future<void> speakartery148(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryartery extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Hardening of the coronary arteries can lead to a heart attack."); // DOPSUM: CHANGE TEXT
+        "Hardening of the coronary arteries can lead to a heart attack.");
   }
 
   // Future<void> speakartery(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   // Future<void> speakartery(String languageCode) async {
@@ -49,7 +49,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   // Future<void> speakartery(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   // Future<void> speakartery(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   // Future<void> speakartery(String languageCode) async {
@@ -73,7 +73,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   // Future<void> speakartery(String languageCode) async {
@@ -81,7 +81,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   // Future<void> speakartery(String languageCode) async {
@@ -89,7 +89,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artery");
   // }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cleavage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cleavage");
   }
 
   Future<void> speakcleavages1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She leaned forward slightly, revealing a deep cleavage."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She leaned forward slightly, revealing a deep cleavage.");
   }
 
   Future<void> speakcleavages2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Clare was wearing a low-cut dress that showed off her cleavage."); // DOPSUM: CHANGE TEXT
+        "Clare was wearing a low-cut dress that showed off her cleavage.");
   }
 
   Future<void> speakcleavages3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is a marked cleavage between the parties about the government's defence policy."); // DOPSUM: CHANGE TEXT
+        "There is a marked cleavage between the parties about the government's defence policy.");
   }
 
   Future<void> speakcleavages4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages400");
   }
 
   Future<void> speakcleavages5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages500");
   }
 
   Future<void> speakcleavages6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages600");
   }
 
   Future<void> speakcleavages7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages700");
   }
 
   Future<void> speakcleavages8(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages800");
   }
 
   Future<void> speakcleavages9(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages900");
   }
 
   Future<void> speakcleavages10(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1000");
   }
 
   Future<void> speakcleavages11(String languageCode) async {
@@ -112,7 +112,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1100");
   }
 
   Future<void> speakcleavages12(String languageCode) async {
@@ -120,7 +120,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1200");
   }
 
   Future<void> speakcleavages13(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntrycleavage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcleavages1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcleavages1300");
   }
 
   @override

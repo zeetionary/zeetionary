@@ -24,7 +24,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("battery"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("battery");
   }
 
   Future<void> speakbatterys1(String languageCode) async {
@@ -32,7 +32,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The battery is flat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The battery is flat.");
   }
 
   Future<void> speakbatterys2(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My phone ran out of battery, so I plugged it in to charge."); // DOPSUM: CHANGE TEXT
+        "My phone ran out of battery, so I plugged it in to charge.");
   }
 
   Future<void> speakbatterys3(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He faced a battery of questions."); // DOPSUM: CHANGE TEXT
+        .speak("He faced a battery of questions.");
   }
 
   Future<void> speakbatterys4(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The shore battery opened fire."); // DOPSUM: CHANGE TEXT
+        .speak("The shore battery opened fire.");
   }
 
   Future<void> speakbatterys5(String languageCode) async {
@@ -68,7 +68,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The supermarket has pledged to stop selling eggs from battery hens by 2025."); // DOPSUM: CHANGE TEXT
+        "The supermarket has pledged to stop selling eggs from battery hens by 2025.");
   }
 
   Future<void> speakbatterys6(String languageCode) async {
@@ -77,7 +77,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Battery eggs are the cheapest type of eggs, but they are also the most cruel."); // DOPSUM: CHANGE TEXT
+        "Battery eggs are the cheapest type of eggs, but they are also the most cruel.");
   }
 
   Future<void> speakbatterys7(String languageCode) async {
@@ -85,7 +85,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatterys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBatterys77");
   }
 
   @override

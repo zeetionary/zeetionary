@@ -16,7 +16,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accomplishment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accomplishment");
   }
 
   Future<void> speakac2564(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Money will be crucial to the accomplishment of our objectives."); // DOPSUM: CHANGE TEXT
+        "Money will be crucial to the accomplishment of our objectives.");
   }
 
   Future<void> speaka5741(String languageCode) async {
@@ -33,8 +33,8 @@ class EnglishEntryaccomplishment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Drawing and singing were among her many accomplishments."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Drawing and singing were among her many accomplishments.");
   }
 
   Future<void> speakac5789(String languageCode) async {
@@ -42,8 +42,8 @@ class EnglishEntryaccomplishment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was one of the President's greatest accomplishments."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It was one of the President's greatest accomplishments.");
   }
 
   @override

@@ -18,7 +18,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brew");
   }
 
   Future<void> speakbrews1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This beer is brewed in the Czech Republic."); // DOPSUM: CHANGE TEXT
+        "This beer is brewed in the Czech Republic.");
   }
 
   Future<void> speakbrews2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He brewed some coffee for us."); // DOPSUM: CHANGE TEXT
+        .speak("He brewed some coffee for us.");
   }
 
   Future<void> speakbrews3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Always let tea brew for a few minutes."); // DOPSUM: CHANGE TEXT
+        .speak("Always let tea brew for a few minutes.");
   }
 
   Future<void> speakbrews4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("A storm was brewing up out at sea."); // DOPSUM: CHANGE TEXT
+        .speak("A storm was brewing up out at sea.");
   }
 
   Future<void> speakbrews5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I thought I'd try the local brew."); // DOPSUM: CHANGE TEXT
+        .speak("I thought I'd try the local brew.");
   }
 
   Future<void> speakbrews6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let's have a brew."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's have a brew.");
   }
 
   Future<void> speakbrews7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The movie is a potent brew of adventure, sex and comedy."); // DOPSUM: CHANGE TEXT
+        "The movie is a potent brew of adventure, sex and comedy.");
   }
 
   @override

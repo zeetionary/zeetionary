@@ -16,7 +16,7 @@ class EnglishEntryacidtest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acid test"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("acid test");
   }
 
   Future<void> speakacidt14587(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryacidtest extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The acid test of a good driver is whether they remain calm in an emergency."); // DOPSUM: CHANGE TEXT
+        "The acid test of a good driver is whether they remain calm in an emergency.");
   }
 
   // Future<void> speakacidtest(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryacidtest extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acid test"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acid test");
   // }
 
   // Future<void> speakacidtest(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryacidtest extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acid test"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("acid test");
   // }
 
   @override

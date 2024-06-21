@@ -21,7 +21,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("click"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("click");
   }
 
   Future<void> speakclicks1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Click here to add your opinion to the survey."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Click here to add your opinion to the survey.");
   }
 
   Future<void> speakclicks2(String languageCode) async {
@@ -38,8 +37,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Click the OK button to start."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Click the OK button to start.");
   }
 
   Future<void> speakclicks3(String languageCode) async {
@@ -47,7 +45,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The door clicked shut."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The door clicked shut.");
   }
 
   Future<void> speakclicks4(String languageCode) async {
@@ -55,8 +53,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He clicked his fingers at the waiter."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He clicked his fingers at the waiter.");
   }
 
   Future<void> speakclicks5(String languageCode) async {
@@ -65,7 +62,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police officer clicked a pair of handcuffs around his wrists."); // DOPSUM: CHANGE TEXT
+        "The police officer clicked a pair of handcuffs around his wrists.");
   }
 
   Future<void> speakclicks6(String languageCode) async {
@@ -73,8 +70,8 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Suddenly it clicked—we'd been talking about different people."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Suddenly it clicked—we'd been talking about different people.");
   }
 
   Future<void> speakclicks7(String languageCode) async {
@@ -82,8 +79,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We met at a party and clicked immediately."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We met at a party and clicked immediately.");
   }
 
   Future<void> speakclicks8(String languageCode) async {
@@ -91,8 +87,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The team don't seem to have clicked yet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The team don't seem to have clicked yet.");
   }
 
   Future<void> speakclicks9(String languageCode) async {
@@ -101,7 +96,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A vast amount of information now available at the click of a mouse."); // DOPSUM: CHANGE TEXT
+        "A vast amount of information now available at the click of a mouse.");
   }
 
   Future<void> speakclicks10(String languageCode) async {
@@ -110,7 +105,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It only took me a couple of clicks to find what I was looking for."); // DOPSUM: CHANGE TEXT
+        "It only took me a couple of clicks to find what I was looking for.");
   }
 
   Future<void> speakclicks11(String languageCode) async {
@@ -118,8 +113,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The door closed with a click."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The door closed with a click.");
   }
 
   Future<void> speakclicks12(String languageCode) async {
@@ -127,7 +121,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclicks1200");
   }
 
   Future<void> speakclicks13(String languageCode) async {
@@ -135,7 +129,7 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclicks1300");
   }
 
   @override

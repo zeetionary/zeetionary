@@ -21,7 +21,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cavern"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cavern");
   }
 
   Future<void> speakcaverns1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The underground cavern was formed where water used to flow."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The underground cavern was formed where water used to flow.");
   }
 
   Future<void> speakcaverns2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns22");
   }
 
   Future<void> speakcaverns3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns33");
   }
 
   Future<void> speakcaverns4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns44");
   }
 
   Future<void> speakcaverns5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns55");
   }
 
   Future<void> speakcaverns6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns66");
   }
 
   Future<void> speakcaverns7(String languageCode) async {
@@ -78,7 +78,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns77");
   }
 
   Future<void> speakcaverns8(String languageCode) async {
@@ -86,7 +86,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns88");
   }
 
   Future<void> speakcaverns9(String languageCode) async {
@@ -94,7 +94,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns99");
   }
 
   Future<void> speakcaverns10(String languageCode) async {
@@ -102,7 +102,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns1010");
   }
 
   Future<void> speakcaverns11(String languageCode) async {
@@ -110,7 +110,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns1111");
   }
 
   Future<void> speakcaverns12(String languageCode) async {
@@ -118,7 +118,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns1212");
   }
 
   Future<void> speakcaverns13(String languageCode) async {
@@ -126,7 +126,7 @@ class EnglishEntrycavern extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaverns1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaverns1313");
   }
 
   @override

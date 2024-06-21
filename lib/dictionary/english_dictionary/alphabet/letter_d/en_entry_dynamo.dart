@@ -278,7 +278,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dynamo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dynamo");
   }
 
   @override
@@ -328,7 +328,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dynamo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dynamo");
   }
 
   @override
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A dynamo on a bicycle will power a pair of lights while the wheels are going around."); // DOPSUM: CHANGE TEXT
+        "A dynamo on a bicycle will power a pair of lights while the wheels are going around.");
   }
 
   Future<void> speakdynamos2(String languageCode) async {
@@ -361,167 +361,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Onstage she is a human dynamo, spending the hour in perpetual motion."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos3(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos4(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos5(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos6(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos7(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos8(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos9(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos10(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos_1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos11(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos12(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos13(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos14(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos15(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos16(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos17(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos18(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos19(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos20(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos21(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdynamos22(String languageCode) async {
-    // DOPSUM: CHANGE speakdynamo
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdynamos2200"); // DOPSUM: CHANGE TEXT
+        "Onstage she is a human dynamo, spending the hour in perpetual motion.");
   }
 
   @override

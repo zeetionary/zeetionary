@@ -24,7 +24,7 @@ class EnglishEntryattached extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("attached"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attached");
   }
 
   Future<void> speakattached340(String languageCode) async {
@@ -32,8 +32,7 @@ class EnglishEntryattached extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Make sure all the wires remain firmly attached."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Make sure all the wires remain firmly attached.");
   }
 
   Future<void> speakattached342(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntryattached extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We've grown very attached to this house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We've grown very attached to this house.");
   }
 
   Future<void> speakattached345(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntryattached extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It would be nice to meet some more guys who aren't attached."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It would be nice to meet some more guys who aren't attached.");
   }
 
   Future<void> speakattached346(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntryattached extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The research unit is attached to the university."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The research unit is attached to the university.");
   }
 
   // Future<void> speakattached(String languageCode) async {
@@ -68,7 +65,7 @@ class EnglishEntryattached extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attached"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attached");
   // }
 
   // Future<void> speakattached(String languageCode) async {
@@ -76,7 +73,7 @@ class EnglishEntryattached extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attached"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attached");
   // }
 
   // Future<void> speakattached(String languageCode) async {
@@ -84,7 +81,7 @@ class EnglishEntryattached extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attached"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attached");
   // }
 
   // Future<void> speakattached(String languageCode) async {
@@ -92,7 +89,7 @@ class EnglishEntryattached extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("attached"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attached");
   // }
 
   @override

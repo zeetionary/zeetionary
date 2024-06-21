@@ -18,7 +18,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anticlimax");
   }
 
   Future<void> speakanticlimax843(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When you really look forward to something it's often an anticlimax when it actually happens."); // DOPSUM: CHANGE TEXT
+        "When you really look forward to something it's often an anticlimax when it actually happens.");
   }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -35,7 +35,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -43,7 +43,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -51,7 +51,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -59,7 +59,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   // Future<void> speakanticlimax(String languageCode) async {
@@ -83,7 +83,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlimax");
   // }
 
   @override

@@ -21,7 +21,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("conjunction"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("conjunction");
   }
 
   Future<void> speakconjunctions1(String languageCode) async {
@@ -30,7 +30,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The conjunction \"although\" joins the two clauses in the sentence \"He left, although I begged him not to.\""); // DOPSUM: CHANGE TEXT
+        "The conjunction \"although\" joins the two clauses in the sentence \"He left, although I begged him not to.\"");
   }
 
   Future<void> speakconjunctions2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The conjunction of low inflation and low unemployment came as a very pleasant surprise."); // DOPSUM: CHANGE TEXT
+        "The conjunction of low inflation and low unemployment came as a very pleasant surprise.");
   }
 
   Future<void> speakconjunctions3(String languageCode) async {
@@ -47,8 +47,8 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Mars and Venus will be in exact conjunction on 1 September."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Mars and Venus will be in exact conjunction on 1 September.");
   }
 
   Future<void> speakconjunctions4(String languageCode) async {
@@ -56,7 +56,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions400");
   }
 
   Future<void> speakconjunctions5(String languageCode) async {
@@ -64,7 +64,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions500");
   }
 
   Future<void> speakconjunctions6(String languageCode) async {
@@ -72,7 +72,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions600");
   }
 
   Future<void> speakconjunctions7(String languageCode) async {
@@ -80,7 +80,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions700");
   }
 
   Future<void> speakconjunctions8(String languageCode) async {
@@ -88,7 +88,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions800");
   }
 
   Future<void> speakconjunctions9(String languageCode) async {
@@ -96,7 +96,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions900");
   }
 
   Future<void> speakconjunctions10(String languageCode) async {
@@ -104,7 +104,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions1000");
   }
 
   Future<void> speakconjunctions11(String languageCode) async {
@@ -112,7 +112,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions1100");
   }
 
   Future<void> speakconjunctions12(String languageCode) async {
@@ -120,7 +120,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions1200");
   }
 
   Future<void> speakconjunctions13(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntryconjunction extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconjunctions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakconjunctions1300");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryallot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("allot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allot");
   }
 
   Future<void> speakallot4266(String languageCode) async {
@@ -24,8 +24,7 @@ class EnglishEntryallot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I completed the test within the time allotted."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I completed the test within the time allotted.");
   }
 
   Future<void> speakallot341(String languageCode) async {
@@ -33,8 +32,7 @@ class EnglishEntryallot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "How much money has been allotted to us?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("How much money has been allotted to us?");
   }
 
   @override

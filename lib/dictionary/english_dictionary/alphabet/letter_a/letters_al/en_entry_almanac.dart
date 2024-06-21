@@ -16,7 +16,7 @@ class EnglishEntryalmanac extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("almanac"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("almanac");
   }
 
   Future<void> speakalmanac4932(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryalmanac extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The almanac says there will be above normal rainfall in the first half of the winter in California."); // DOPSUM: CHANGE TEXT
+        "The almanac says there will be above normal rainfall in the first half of the winter in California.");
   }
 
   // Future<void> speakalmanac(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryalmanac extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("almanac"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("almanac");
   // }
 
   // Future<void> speakalmanac(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryalmanac extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("almanac"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("almanac");
   // }
 
   @override

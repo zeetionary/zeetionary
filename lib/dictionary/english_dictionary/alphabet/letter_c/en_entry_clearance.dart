@@ -21,7 +21,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("clearance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("clearance");
   }
 
   Future<void> speakclearances1(String languageCode) async {
@@ -29,8 +29,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("These coats are on clearance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These coats are on clearance.");
   }
 
   Future<void> speakclearances2(String languageCode) async {
@@ -39,7 +38,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Much of the area was bulldozed into oblivion in a wave of slum clearances."); // DOPSUM: CHANGE TEXT
+        "Much of the area was bulldozed into oblivion in a wave of slum clearances.");
   }
 
   Future<void> speakclearances3(String languageCode) async {
@@ -48,7 +47,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There is not much clearance for vehicles passing under this bridge."); // DOPSUM: CHANGE TEXT
+        "There is not much clearance for vehicles passing under this bridge.");
   }
 
   Future<void> speakclearances4(String languageCode) async {
@@ -56,8 +55,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Always give cyclists plenty of clearance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Always give cyclists plenty of clearance.");
   }
 
   Future<void> speakclearances5(String languageCode) async {
@@ -65,8 +63,8 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Formal clearance by the Cabinet has not been given."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Formal clearance by the Cabinet has not been given.");
   }
 
   Future<void> speakclearances6(String languageCode) async {
@@ -74,8 +72,8 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is safest to seek advance clearance from the tax office."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It is safest to seek advance clearance from the tax office.");
   }
 
   Future<void> speakclearances7(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot was waiting for clearance for take-off."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The pilot was waiting for clearance for take-off.");
   }
 
   Future<void> speakclearances8(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pilot was granted clearance to land."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The pilot was granted clearance to land.");
   }
 
   Future<void> speakclearances9(String languageCode) async {
@@ -101,7 +97,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearances900");
   }
 
   Future<void> speakclearances10(String languageCode) async {
@@ -109,7 +105,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearances1000");
   }
 
   Future<void> speakclearances11(String languageCode) async {
@@ -117,7 +113,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearances1100");
   }
 
   Future<void> speakclearances12(String languageCode) async {
@@ -125,7 +121,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearances1200");
   }
 
   Future<void> speakclearances13(String languageCode) async {
@@ -133,7 +129,7 @@ class EnglishEntryclearance extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclearances1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakclearances1300");
   }
 
   @override

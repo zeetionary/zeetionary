@@ -150,7 +150,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("devil's advocate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("devil's advocate");
   }
 
   @override
@@ -200,7 +200,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("devil's advocate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("devil's advocate");
   }
 
   @override
@@ -224,175 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't really believe all that - I was just playing devil's advocate."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates2(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates3(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates4(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates5(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates6(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates7(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates8(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates9(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates10(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates11(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates12(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates13(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1300"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates14(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1400"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates15(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1500"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates16(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates17(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates18(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates19(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates1900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates20(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates_2000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates21(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdevilsadvocates22(String languageCode) async {
-    // DOPSUM: CHANGE speakdevilsadvocate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdevilsadvocates2200"); // DOPSUM: CHANGE TEXT
+        "I don't really believe all that - I was just playing devil's advocate.");
   }
 
   @override

@@ -16,7 +16,7 @@ class EnglishEntryaimless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aimless"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aimless");
   }
 
   Future<void> speakaimless25388(String languageCode) async {
@@ -24,7 +24,7 @@ class EnglishEntryaimless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My life seemed aimless."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My life seemed aimless.");
   }
 
   Future<void> speakaimless4277(String languageCode) async {
@@ -33,7 +33,7 @@ class EnglishEntryaimless extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She said that her life seemed aimless after her children left home."); // DOPSUM: CHANGE TEXT
+        "She said that her life seemed aimless after her children left home.");
   }
 
   // Future<void> speakaimless(String languageCode) async {
@@ -41,7 +41,7 @@ class EnglishEntryaimless extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aimless"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aimless");
   // }
 
   @override

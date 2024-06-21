@@ -18,7 +18,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brow");
   }
 
   Future<void> speakbrows1(String languageCode) async {
@@ -27,7 +27,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The nurse mopped his fevered brow."); // DOPSUM: CHANGE TEXT
+        .speak("The nurse mopped his fevered brow.");
   }
 
   Future<void> speakbrows2(String languageCode) async {
@@ -36,7 +36,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Her brow furrowed in concentration."); // DOPSUM: CHANGE TEXT
+        .speak("Her brow furrowed in concentration.");
   }
 
   Future<void> speakbrows3(String languageCode) async {
@@ -45,7 +45,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His brows drew together in a worried frown when he heard the remark."); // DOPSUM: CHANGE TEXT
+        "His brows drew together in a worried frown when he heard the remark.");
   }
 
   Future<void> speakbrows4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His brows snapped together ferociously when he heard the remark."); // DOPSUM: CHANGE TEXT
+        "His brows snapped together ferociously when he heard the remark.");
   }
 
   Future<void> speakbrows5(String languageCode) async {
@@ -63,7 +63,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The path disappeared over the brow of the hill."); // DOPSUM: CHANGE TEXT
+        "The path disappeared over the brow of the hill.");
   }
 
   Future<void> speakbrows6(String languageCode) async {
@@ -71,7 +71,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrows66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrows66");
   }
 
   Future<void> speakbrows7(String languageCode) async {
@@ -79,7 +79,7 @@ class EnglishEntrybrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrows77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrows77");
   }
 
   @override

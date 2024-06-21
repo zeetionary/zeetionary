@@ -21,7 +21,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("commission"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("commission");
   }
 
   Future<void> speakcommissions1(String languageCode) async {
@@ -29,8 +29,8 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The commission is expected to report its findings next month."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The commission is expected to report its findings next month.");
   }
 
   Future<void> speakcommissions2(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The election commission found that neither candidate received enough votes to avoid a run-off."); // DOPSUM: CHANGE TEXT
+        "The election commission found that neither candidate received enough votes to avoid a run-off.");
   }
 
   Future<void> speakcommissions3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The defendant will be brought to trial before a military commission."); // DOPSUM: CHANGE TEXT
+        "The defendant will be brought to trial before a military commission.");
   }
 
   Future<void> speakcommissions4(String languageCode) async {
@@ -57,7 +57,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was also a member of the commission on religious education."); // DOPSUM: CHANGE TEXT
+        "She was also a member of the commission on religious education.");
   }
 
   Future<void> speakcommissions5(String languageCode) async {
@@ -66,7 +66,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government appointed an independent commission to investigate the causes of the disaster."); // DOPSUM: CHANGE TEXT
+        "The government appointed an independent commission to investigate the causes of the disaster.");
   }
 
   Future<void> speakcommissions6(String languageCode) async {
@@ -75,7 +75,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government has set up a joint commission to consider the problem."); // DOPSUM: CHANGE TEXT
+        "The government has set up a joint commission to consider the problem.");
   }
 
   Future<void> speakcommissions7(String languageCode) async {
@@ -83,8 +83,8 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You get a 10 per cent commission on everything you sell."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You get a 10 per cent commission on everything you sell.");
   }
 
   Future<void> speakcommissions8(String languageCode) async {
@@ -92,8 +92,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He earned £2 000 in commission last month."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He earned £2 000 in commission last month.");
   }
 
   Future<void> speakcommissions9(String languageCode) async {
@@ -102,7 +101,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "1 per cent commission is charged for exchanging foreign currency."); // DOPSUM: CHANGE TEXT
+        "1 per cent commission is charged for exchanging foreign currency.");
   }
 
   Future<void> speakcommissions10(String languageCode) async {
@@ -110,8 +109,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Eventually she agreed to accept the commission."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Eventually she agreed to accept the commission.");
   }
 
   Future<void> speakcommissions11(String languageCode) async {
@@ -120,7 +118,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He received a commission to design the new parliament building."); // DOPSUM: CHANGE TEXT
+        "He received a commission to design the new parliament building.");
   }
 
   Future<void> speakcommissions12(String languageCode) async {
@@ -128,8 +126,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He resigned his commission when he got married."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He resigned his commission when he got married.");
   }
 
   Future<void> speakcommissions13(String languageCode) async {
@@ -137,8 +134,8 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has been commissioned to write a new national anthem."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She has been commissioned to write a new national anthem.");
   }
 
   Future<void> speakcommissions14(String languageCode) async {
@@ -146,8 +143,8 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The king commissioned portraits from foreign artists."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The king commissioned portraits from foreign artists.");
   }
 
   Future<void> speakcommissions15(String languageCode) async {
@@ -155,8 +152,8 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He has just been commissioned (as a) pilot officer."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has just been commissioned (as a) pilot officer.");
   }
 
   Future<void> speakcommissions16(String languageCode) async {
@@ -164,7 +161,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions1600");
   }
 
   Future<void> speakcommissions17(String languageCode) async {
@@ -172,7 +169,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions1700");
   }
 
   Future<void> speakcommissions18(String languageCode) async {
@@ -180,7 +177,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions1800");
   }
 
   Future<void> speakcommissions19(String languageCode) async {
@@ -188,7 +185,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions1900");
   }
 
   Future<void> speakcommissions20(String languageCode) async {
@@ -196,7 +193,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2000");
   }
 
   Future<void> speakcommissions21(String languageCode) async {
@@ -204,7 +201,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2100");
   }
 
   Future<void> speakcommissions22(String languageCode) async {
@@ -212,7 +209,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2200");
   }
 
   Future<void> speakcommissions23(String languageCode) async {
@@ -220,7 +217,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2300");
   }
 
   Future<void> speakcommissions24(String languageCode) async {
@@ -228,7 +225,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2400");
   }
 
   Future<void> speakcommissions25(String languageCode) async {
@@ -236,7 +233,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2500");
   }
 
   Future<void> speakcommissions26(String languageCode) async {
@@ -244,7 +241,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2600");
   }
 
   Future<void> speakcommissions27(String languageCode) async {
@@ -252,7 +249,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2700");
   }
 
   Future<void> speakcommissions28(String languageCode) async {
@@ -260,7 +257,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2800");
   }
 
   Future<void> speakcommissions29(String languageCode) async {
@@ -268,7 +265,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions2900");
   }
 
   Future<void> speakcommissions30(String languageCode) async {
@@ -276,7 +273,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3000");
   }
 
   Future<void> speakcommissions31(String languageCode) async {
@@ -284,7 +281,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3100");
   }
 
   Future<void> speakcommissions32(String languageCode) async {
@@ -292,7 +289,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3200");
   }
 
   Future<void> speakcommissions33(String languageCode) async {
@@ -300,7 +297,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3300");
   }
 
   Future<void> speakcommissions34(String languageCode) async {
@@ -308,7 +305,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3400");
   }
 
   Future<void> speakcommissions35(String languageCode) async {
@@ -316,7 +313,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3500");
   }
 
   Future<void> speakcommissions36(String languageCode) async {
@@ -324,7 +321,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3600");
   }
 
   Future<void> speakcommissions37(String languageCode) async {
@@ -332,7 +329,7 @@ class EnglishEntrycommission extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommissions3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcommissions3700");
   }
 
   @override

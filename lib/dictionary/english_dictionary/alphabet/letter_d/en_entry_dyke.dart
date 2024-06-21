@@ -614,19 +614,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes3("en-GB"""),
+          // speakdykes3("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes3("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes3("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -640,19 +631,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes4("en-GB"""),
+          // speakdykes4("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes4("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes4("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -666,19 +648,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes5("en-GB"""),
+          // speakdykes5("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes5("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes5("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -692,19 +665,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes6("en-GB"""),
+          // speakdykes6("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes6("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -718,19 +682,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes7("en-GB"""),
+          // speakdykes7("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes7("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -744,19 +699,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes8("en-GB"""),
+          // speakdykes8("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes8("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -770,19 +716,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes9("en-GB"""),
+          // speakdykes9("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes9("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -796,19 +733,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes10("en-GB"""),
+          // speakdykes10("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes10("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -822,19 +750,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes11("en-GB"""),
+          // speakdykes11("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes11("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -848,19 +767,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes12("en-GB"""),
+          // speakdykes12("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes12("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -874,19 +784,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes13("en-GB"""),
+          // speakdykes13("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes13("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -900,19 +801,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes14("en-GB"""),
+          // speakdykes14("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes14("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -926,19 +818,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes15("en-GB"""),
+          // speakdykes15("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes15("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -952,19 +835,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes16("en-GB"""),
+          // speakdykes16("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes16("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -978,19 +852,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes17("en-GB"""),
+          // speakdykes17("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes17("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -1004,19 +869,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes18("en-GB"""),
+          // speakdykes18("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes18("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -1030,19 +886,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes19("en-GB"""),
+          // speakdykes19("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes19("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -1056,19 +903,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes20("en-GB"""),
+          // speakdykes20("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes20("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -1082,19 +920,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes21("en-GB"""),
+          // speakdykes21("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes21("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
@@ -1108,19 +937,10 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdykes22("en-GB"""),
+          // speakdykes22("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdykes22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // dykes22("en-US"""),
         ],
       ),
     );
@@ -1214,7 +1034,7 @@ class YoutubeEmbeddedend extends StatefulWidget {
 
 class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/dNEp3hoHSDI?t=';
+  final String _videoId = 'dNEp3hoHSDI';
   final double _startSeconds = 324;
 
   @override
@@ -1270,7 +1090,7 @@ class YoutubeEmbeddedone extends StatefulWidget {
 
 class _YoutubeEmbeddedoneState extends State<YoutubeEmbeddedone> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/WbBx0vQBLFQ?t=';
+  final String _videoId = 'WbBx0vQBLFQ';
   final double _startSeconds = 112;
 
   @override
@@ -1326,7 +1146,7 @@ class YoutubeEmbeddedtwo extends StatefulWidget {
 
 class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/ChM0CBRmVsM?t=';
+  final String _videoId = 'ChM0CBRmVsM';
   final double _startSeconds = 267;
 
   @override
@@ -1382,7 +1202,7 @@ class YoutubeEmbeddedthree extends StatefulWidget {
 
 class _YoutubeEmbeddedthreeState extends State<YoutubeEmbeddedthree> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/ro-mf-H1tIw?t=';
+  final String _videoId = 'ro-mf-H1tIw';
   final double _startSeconds = 992;
 
   @override
@@ -1438,7 +1258,7 @@ class YoutubeEmbeddedfour extends StatefulWidget {
 
 class _YoutubeEmbeddedfourState extends State<YoutubeEmbeddedfour> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/xEIt4OojA3Y?t=';
+  final String _videoId = 'xEIt4OojA3Y';
   final double _startSeconds = 1188;
 
   @override
@@ -1494,7 +1314,7 @@ class YoutubeEmbeddedfive extends StatefulWidget {
 
 class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/G0gI9KWtuUs?t=';
+  final String _videoId = 'G0gI9KWtuUs';
   final double _startSeconds = 31;
 
   @override
@@ -1550,7 +1370,7 @@ class YoutubeEmbeddedsix extends StatefulWidget {
 
 class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/Etm_LnqJG6A?t=';
+  final String _videoId = 'Etm_LnqJG6A';
   final double _startSeconds = 112;
 
   @override

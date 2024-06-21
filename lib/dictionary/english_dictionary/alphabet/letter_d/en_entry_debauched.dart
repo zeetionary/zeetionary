@@ -370,24 +370,9 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdebaucheds200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdebaucheds2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdebaucheds2("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // debaucheds200"),
+          // speakdebaucheds2
+          // debaucheds2("en-US"),
         ],
       ),
     );

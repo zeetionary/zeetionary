@@ -1181,7 +1181,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies2500"),
+                  // dies2500"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1190,10 +1190,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies25("en-GB"),
+                  // dies25("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies25("en-US"),
+                  // dies25("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1207,7 +1207,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies2600"),
+                  // dies2600"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1216,10 +1216,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies26("en-GB"),
+                  // dies26("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies26("en-US"),
+                  // dies26("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1233,7 +1233,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies2700"),
+                  // dies2700"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1242,10 +1242,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies27("en-GB"),
+                  // dies27("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies27("en-US"),
+                  // dies27("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1259,7 +1259,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies2800"),
+                  // dies2800"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1268,10 +1268,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies28("en-GB"),
+                  // dies28("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies28("en-US"),
+                  // dies28("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1285,7 +1285,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies2900"),
+                  // dies2900"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1294,10 +1294,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies29("en-GB"),
+                  // dies29("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies29("en-US"),
+                  // dies29("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1311,7 +1311,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies_3000"),
+                  // dies_3000"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1320,10 +1320,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies30("en-GB"),
+                  // dies30("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies30("en-US"),
+                  // dies30("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1337,7 +1337,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3100"),
+                  // dies3100"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1346,10 +1346,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies31("en-GB"),
+                  // dies31("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies31("en-US"),
+                  // dies31("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1363,7 +1363,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3200"),
+                  // dies3200"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1372,10 +1372,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies32("en-GB"),
+                  // dies32("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies32("en-US"),
+                  // dies32("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1389,7 +1389,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3300"),
+                  // dies3300"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1398,10 +1398,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies33("en-GB"),
+                  // dies33("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies33("en-US"),
+                  // dies33("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1415,7 +1415,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3400"),
+                  // dies3400"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1424,10 +1424,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies34("en-GB"),
+                  // dies34("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies34("en-US"),
+                  // dies34("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1441,7 +1441,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3500"),
+                  // dies3500"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1450,10 +1450,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies35("en-GB"),
+                  // dies35("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies35("en-US"),
+                  // dies35("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1467,7 +1467,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3600"),
+                  // dies3600"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1476,10 +1476,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies36("en-GB"),
+                  // dies36("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies36("en-US"),
+                  // dies36("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1493,7 +1493,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3700"),
+                  // dies3700"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1502,10 +1502,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies37("en-GB"),
+                  // dies37("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies37("en-US"),
+                  // dies37("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1519,7 +1519,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3800"),
+                  // dies3800"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1528,10 +1528,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies38("en-GB"),
+                  // dies38("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies38("en-US"),
+                  // dies38("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1545,7 +1545,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies3900"),
+                  // dies3900"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1554,10 +1554,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies39("en-GB"),
+                  // dies39("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies39("en-US"),
+                  // dies39("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1571,7 +1571,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies_4000"),
+                  // dies_4000"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1580,10 +1580,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies40("en-GB"),
+                  // dies40("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies40("en-US"),
+                  // dies40("en-US"),
                   //         ),
                   //       ],
                   //     ),
@@ -1597,7 +1597,7 @@ class KurdishMeaning extends StatelessWidget {
                   //     const Expanded(
                   //       child: Column(
                   //         children: [
-                  //           ExampleSentenceEnglish(text: "speakdies4100"),
+                  // dies4100"),
                   //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   //         ],
                   //       ),
@@ -1606,10 +1606,10 @@ class KurdishMeaning extends StatelessWidget {
                   //     Column(
                   //       children: [
                   //         CustomIconButtonBritish(
-                  //           onPressed: () => speakdies41("en-GB"),
+                  // dies41("en-GB"),
                   //         ),
                   //         CustomIconButtonAmerican(
-                  //           onPressed: () => speakdies41("en-US"),
+                  // dies41("en-US"),
                   //         ),
                   //       ],
                   //     ),

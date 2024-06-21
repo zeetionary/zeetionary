@@ -1258,7 +1258,7 @@ class YoutubeEmbeddedone extends StatefulWidget {
 
 class _YoutubeEmbeddedoneState extends State<YoutubeEmbeddedone> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/RRhjqqe750A?t=';
+  final String _videoId = 'RRhjqqe750A';
   final double _startSeconds = 290;
 
   @override
@@ -1314,7 +1314,7 @@ class YoutubeEmbeddedtwo extends StatefulWidget {
 
 class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/ntDCHvVKzE4?t=';
+  final String _videoId = 'ntDCHvVKzE4';
   final double _startSeconds = 656;
 
   @override
@@ -1370,7 +1370,7 @@ class YoutubeEmbeddedthree extends StatefulWidget {
 
 class _YoutubeEmbeddedthreeState extends State<YoutubeEmbeddedthree> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/3J06af5xHD0?t=';
+  final String _videoId = '3J06af5xHD0';
   final double _startSeconds = 2745;
 
   @override
@@ -1426,7 +1426,7 @@ class YoutubeEmbeddedfour extends StatefulWidget {
 
 class _YoutubeEmbeddedfourState extends State<YoutubeEmbeddedfour> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/gBmr4pvivjs?t=';
+  final String _videoId = 'gBmr4pvivjs';
   final double _startSeconds = 321;
 
   @override
@@ -1482,7 +1482,7 @@ class YoutubeEmbeddedfive extends StatefulWidget {
 
 class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/9pnCI1CP6_k?t=';
+  final String _videoId = '9pnCI1CP6_k';
   final double _startSeconds = 127;
 
   @override
@@ -1538,7 +1538,7 @@ class YoutubeEmbeddedsix extends StatefulWidget {
 
 class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/K-9iQqrHgj8?t=';
+  final String _videoId = 'K-9iQqrHgj8';
   final double _startSeconds = 258;
 
   @override

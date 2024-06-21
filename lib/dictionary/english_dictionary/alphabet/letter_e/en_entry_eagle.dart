@@ -1269,7 +1269,7 @@ class YoutubeEmbeddedone extends StatefulWidget {
 
 class _YoutubeEmbeddedoneState extends State<YoutubeEmbeddedone> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/_Tr9Ncoo-yw?t=';
+  final String _videoId = '_Tr9Ncoo-yw';
   final double _startSeconds = 31;
 
   @override
@@ -1325,7 +1325,7 @@ class YoutubeEmbeddedtwo extends StatefulWidget {
 
 class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/544DTGHIBM0?t=';
+  final String _videoId = '544DTGHIBM0';
   final double _startSeconds = 279;
 
   @override
@@ -1381,7 +1381,7 @@ class YoutubeEmbeddedthree extends StatefulWidget {
 
 class _YoutubeEmbeddedthreeState extends State<YoutubeEmbeddedthree> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/u5ghNw8n5PY?t=';
+  final String _videoId = 'u5ghNw8n5PY';
   final double _startSeconds = 58;
 
   @override
@@ -1437,7 +1437,7 @@ class YoutubeEmbeddedfour extends StatefulWidget {
 
 class _YoutubeEmbeddedfourState extends State<YoutubeEmbeddedfour> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/iQTZxUgt4Z8?t=';
+  final String _videoId = 'iQTZxUgt4Z8';
   final double _startSeconds = 191;
 
   @override
@@ -1493,7 +1493,7 @@ class YoutubeEmbeddedfive extends StatefulWidget {
 
 class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/R1HAEGyk4Co?t=';
+  final String _videoId = 'R1HAEGyk4Co';
   final double _startSeconds = 28;
 
   @override
@@ -1549,7 +1549,7 @@ class YoutubeEmbeddedsix extends StatefulWidget {
 
 class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/sChYgF6KH0U?t=';
+  final String _videoId = 'sChYgF6KH0U';
   final double _startSeconds = 0;
 
   @override

@@ -23,7 +23,7 @@ final Map<String, String> wordRoutes = {
   "abduction": "/english-abduction",
   "aberration": "/english-aberration",
   "abet": "/english-abet",
-  "abhor": "/english-aback",
+  "abhor": "/english-abhor",
   "abhorrence": "/english-abhorrence",
   "abhorrent": "/english-abhorrent",
   "abide": "/english-abide",

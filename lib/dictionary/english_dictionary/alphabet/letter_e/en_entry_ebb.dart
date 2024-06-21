@@ -1216,7 +1216,7 @@ class YoutubeEmbeddedend extends StatefulWidget {
 
 class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/9yjZpBq1XBE?t=';
+  final String _videoId = '9yjZpBq1XBE';
   final double _startSeconds = 721;
 
   @override
@@ -1272,7 +1272,7 @@ class YoutubeEmbeddedone extends StatefulWidget {
 
 class _YoutubeEmbeddedoneState extends State<YoutubeEmbeddedone> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/XvVASCnsal8?t=';
+  final String _videoId = 'XvVASCnsal8';
   final double _startSeconds = 281;
 
   @override
@@ -1328,7 +1328,7 @@ class YoutubeEmbeddedtwo extends StatefulWidget {
 
 class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/cCP9vjp4kSg?t=';
+  final String _videoId = 'cCP9vjp4kSg';
   final double _startSeconds = 1814;
 
   @override
@@ -1384,7 +1384,7 @@ class YoutubeEmbeddedthree extends StatefulWidget {
 
 class _YoutubeEmbeddedthreeState extends State<YoutubeEmbeddedthree> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/jTRC_FMzLoo?t=';
+  final String _videoId = 'jTRC_FMzLoo';
   final double _startSeconds = 226;
 
   @override
@@ -1440,7 +1440,7 @@ class YoutubeEmbeddedfour extends StatefulWidget {
 
 class _YoutubeEmbeddedfourState extends State<YoutubeEmbeddedfour> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/F2QyoxdGvbc?t=';
+  final String _videoId = 'F2QyoxdGvbc';
   final double _startSeconds = 667;
 
   @override
@@ -1496,7 +1496,7 @@ class YoutubeEmbeddedfive extends StatefulWidget {
 
 class _YoutubeEmbeddedfiveState extends State<YoutubeEmbeddedfive> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/N5FQRGfPy8I?t=';
+  final String _videoId = 'N5FQRGfPy8I';
   final double _startSeconds = 1562;
 
   @override
@@ -1552,7 +1552,7 @@ class YoutubeEmbeddedsix extends StatefulWidget {
 
 class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
   late YoutubePlayerController _controller;
-  final String _videoId = 'https://youtu.be/phuS5VLQy8c?t=';
+  final String _videoId = 'phuS5VLQy8c';
   final double _startSeconds = 183;
 
   @override

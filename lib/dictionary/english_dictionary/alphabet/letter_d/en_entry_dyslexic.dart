@@ -4,11 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydyslexic extends StatefulWidget {
@@ -45,7 +40,7 @@ class _EnglishEntrydyslexicState extends State<EnglishEntrydyslexic> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(),
                     VideoIconForTab(),
                   ],
                 ),
@@ -56,7 +51,7 @@ class _EnglishEntrydyslexicState extends State<EnglishEntrydyslexic> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
-              const SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const SentencesFromDatabase(),
               const YoutubeVideos(),
             ],
           ),
@@ -395,370 +390,74 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics2("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics200
+          // speakdyslexics2
           // dyslexics2("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics3("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics300
+          // speakdyslexics3
           // dyslexics3("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics4("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics400
+          // speakdyslexics4
           // dyslexics4("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics5("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics500
+          // speakdyslexics5
           // dyslexics5("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics6("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics600
+          // speakdyslexics6
           // dyslexics6("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics7("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics700
+          // speakdyslexics7
           // dyslexics7("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics8("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics800
+          // speakdyslexics8
           // dyslexics8("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics9("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics900
+          // speakdyslexics9
           // dyslexics9("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics_1000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics10("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics_1000
+          // speakdyslexics10
           // dyslexics10("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics11("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1100
+          // speakdyslexics11
           // dyslexics11("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics12("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1200
+          // speakdyslexics12
           // dyslexics12("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics13("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1300
+          // speakdyslexics13
           // dyslexics13("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics14("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1400
+          // speakdyslexics14
           // dyslexics14("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics15("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1500
+          // speakdyslexics15
           // dyslexics15("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1600
+          // speakdyslexics16
           // dyslexics16("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1700
+          // speakdyslexics17
           // dyslexics17("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1800
+          // speakdyslexics18
           // dyslexics18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics1900
+          // speakdyslexics19
           // dyslexics19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics_2000
+          // speakdyslexics20
           // dyslexics20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics2100
+          // speakdyslexics21
           // dyslexics21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdyslexics2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          // speakdyslexics22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
+          // dyslexics2200
+          // speakdyslexics22
           // dyslexics22("en-US"""),
         ],
       ),
     );
   }
 }
-
-// DOPSUM: ENGLISH MEANING
 
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
@@ -773,7 +472,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

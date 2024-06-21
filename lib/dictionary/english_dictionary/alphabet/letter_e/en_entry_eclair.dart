@@ -4,11 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntryeclair extends StatefulWidget {
@@ -45,7 +40,7 @@ class _EnglishEntryeclairState extends State<EnglishEntryeclair> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(),
                     VideoIconForTab(),
                   ],
                 ),
@@ -56,7 +51,7 @@ class _EnglishEntryeclairState extends State<EnglishEntryeclair> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
-              const SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const SentencesFromDatabase(),
               const YoutubeVideos(),
             ],
           ),
@@ -394,315 +389,47 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs200eclairs2
-          // speakeclairs2("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs300eclairs3
-          // speakeclairs3("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs400eclairs4
-          // speakeclairs4("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs500eclairs5
-          // speakeclairs5("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs600eclairs6
-          // speakeclairs6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs700eclairs7
-          // speakeclairs7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs800eclairs8
-          // speakeclairs8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs900eclairs9
-          // speakeclairs9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs_1000eclairs10
-          // speakeclairs10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1100eclairs11
-          // speakeclairs11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1200eclairs12
-          // speakeclairs12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1300eclairs13
-          // speakeclairs13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1400eclairs14
-          // speakeclairs14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1500eclairs15
-          // speakeclairs15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1600eclairs16
-          // speakeclairs16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1700eclairs17
-          // speakeclairs17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1800eclairs18
-          // speakeclairs18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs1900eclairs19
-          // speakeclairs19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs_2000eclairs20
-          // speakeclairs20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs2100eclairs21
-          // speakeclairs21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakeclairs2200eclairs22
+          // eclairs200eclairs2
+          // speakeclairs2
+          // eclairs300eclairs3
+          // speakeclairs3
+          // eclairs400eclairs4
+          // speakeclairs4
+          // eclairs500eclairs5
+          // speakeclairs5
+          // eclairs600eclairs6
+          // speakeclairs6
+          // eclairs700eclairs7
+          // speakeclairs7
+          // eclairs800eclairs8
+          // speakeclairs8
+          // eclairs900eclairs9
+          // speakeclairs9
+          // eclairs_1000eclairs10
+          // speakeclairs10
+          // eclairs1100eclairs11
+          // speakeclairs11
+          // eclairs1200eclairs12
+          // speakeclairs12
+          // eclairs1300eclairs13
+          // speakeclairs13
+          // eclairs1400eclairs14
+          // speakeclairs14
+          // eclairs1500eclairs15
+          // speakeclairs15
+          // eclairs1600eclairs16
+          // speakeclairs16
+          // eclairs1700eclairs17
+          // speakeclairs17
+          // eclairs1800eclairs18
+          // speakeclairs18
+          // eclairs1900eclairs19
+          // speakeclairs19
+          // eclairs_2000eclairs20
+          // speakeclairs20
+          // eclairs2100eclairs21
+          // speakeclairs21
+          // eclairs2200eclairs22
           // speakeclairs22("en-US"""),
           //         ),
           //       ],
@@ -714,8 +441,6 @@ class KurdishMeaning extends StatelessWidget {
     );
   }
 }
-
-// DOPSUM: ENGLISH MEANING
 
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
@@ -730,7 +455,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

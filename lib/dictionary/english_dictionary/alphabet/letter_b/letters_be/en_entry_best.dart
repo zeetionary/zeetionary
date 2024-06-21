@@ -32,8 +32,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("That's the best movie I've ever seen!");
+    await flutterTts.speak("That's the best movie I've ever seen!");
   }
 
   Future<void> speakbests2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He wrote his best songs before he was 25.");
+    await flutterTts.speak("He wrote his best songs before he was 25.");
   }
 
   Future<void> speakbests3(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Those were the best years of my life.");
+    await flutterTts.speak("Those were the best years of my life.");
   }
 
   Future<void> speakbests4(String languageCode) async {
@@ -59,8 +56,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He's the best man for the job.");
+    await flutterTts.speak("He's the best man for the job.");
   }
 
   Future<void> speakbests5(String languageCode) async {
@@ -68,8 +64,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The best thing to do would be to apologize.");
+    await flutterTts.speak("The best thing to do would be to apologize.");
   }
 
   Future<void> speakbests6(String languageCode) async {
@@ -77,8 +72,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Which one do you like best?");
+    await flutterTts.speak("Which one do you like best?");
   }
 
   Future<void> speakbests7(String languageCode) async {
@@ -86,8 +80,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Which evening would suit you best for the party?");
+    await flutterTts.speak("Which evening would suit you best for the party?");
   }
 
   Future<void> speakbests8(String languageCode) async {
@@ -95,8 +88,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He works best in the mornings.");
+    await flutterTts.speak("He works best in the mornings.");
   }
 
   Future<void> speakbests9(String languageCode) async {
@@ -113,8 +105,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Painting is best done in daylight.");
+    await flutterTts.speak("Painting is best done in daylight.");
   }
 
   Future<void> speakbests11(String languageCode) async {
@@ -138,8 +129,8 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They're all good players, but she's the best of all.");
+    await flutterTts
+        .speak("They're all good players, but she's the best of all.");
   }
 
   Future<void> speakbests14(String languageCode) async {
@@ -147,8 +138,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She always brings out the best in people.");
+    await flutterTts.speak("She always brings out the best in people.");
   }
 
   Future<void> speakbests15(String languageCode) async {
@@ -156,8 +146,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't worry about the exam—just do your best.");
+    await flutterTts.speak("Don't worry about the exam—just do your best.");
   }
 
   Future<void> speakbests16(String languageCode) async {
@@ -165,8 +154,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Fifty pounds is the best I can offer you.");
+    await flutterTts.speak("Fifty pounds is the best I can offer you.");
   }
 
   Future<void> speakbests17(String languageCode) async {
@@ -174,8 +162,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The best we can hope for in the game is a draw.");
+    await flutterTts.speak("The best we can hope for in the game is a draw.");
   }
 
   Future<void> speakbests18(String languageCode) async {
@@ -183,8 +170,8 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was determined not to be bested by his old rival.");
+    await flutterTts
+        .speak("He was determined not to be bested by his old rival.");
   }
 
   Future<void> speakbests19(String languageCode) async {
@@ -192,8 +179,8 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A great colonial power was nearly bested by a few farmers.");
+    await flutterTts
+        .speak("A great colonial power was nearly bested by a few farmers.");
   }
 
   Future<void> speakbests20(String languageCode) async {
@@ -948,8 +935,6 @@ class EnglishEntrybest extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -963,7 +948,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

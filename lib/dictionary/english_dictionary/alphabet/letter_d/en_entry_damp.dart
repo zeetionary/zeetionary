@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydamp extends StatelessWidget {
@@ -54,78 +49,6 @@ class EnglishEntrydamp extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("She damped a towel and wrapped it round his leg.");
-  }
-
-  Future<void> speakdamps5(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps500");
-  }
-
-  Future<void> speakdamps6(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps600");
-  }
-
-  Future<void> speakdamps7(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps700");
-  }
-
-  Future<void> speakdamps8(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps800");
-  }
-
-  Future<void> speakdamps9(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps900");
-  }
-
-  Future<void> speakdamps10(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps1000");
-  }
-
-  Future<void> speakdamps11(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps1100");
-  }
-
-  Future<void> speakdamps12(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps1200");
-  }
-
-  Future<void> speakdamps13(String languageCode) async {
-    // DOPSUM: CHANGE speakdamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdamps1300");
   }
 
   @override
@@ -345,8 +268,6 @@ class EnglishEntrydamp extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -360,7 +281,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

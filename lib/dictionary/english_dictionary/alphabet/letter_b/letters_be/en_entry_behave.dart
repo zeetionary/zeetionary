@@ -32,8 +32,7 @@ class EnglishEntrybehave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The doctor behaved very unprofessionally.");
+    await flutterTts.speak("The doctor behaved very unprofessionally.");
   }
 
   Future<void> speakbehaves2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybehave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They behaved very badly towards their guests.");
+    await flutterTts.speak("They behaved very badly towards their guests.");
   }
 
   Future<void> speakbehaves3(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntrybehave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They behave differently when you're not around.");
+    await flutterTts.speak("They behave differently when you're not around.");
   }
 
   Future<void> speakbehaves4(String languageCode) async {
@@ -59,8 +56,7 @@ class EnglishEntrybehave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I expect you to behave in a certain way.");
+    await flutterTts.speak("I expect you to behave in a certain way.");
   }
 
   Future<void> speakbehaves5(String languageCode) async {
@@ -76,8 +72,7 @@ class EnglishEntrybehave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She doesn't know how to behave in public.");
+    await flutterTts.speak("She doesn't know how to behave in public.");
   }
 
   Future<void> speakbehaves7(String languageCode) async {
@@ -85,8 +80,7 @@ class EnglishEntrybehave extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I want you to behave yourselves while I'm away.");
+    await flutterTts.speak("I want you to behave yourselves while I'm away.");
   }
 
   Future<void> speakbehaves8(String languageCode) async {
@@ -534,8 +528,6 @@ class EnglishEntrybehave extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -549,7 +541,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

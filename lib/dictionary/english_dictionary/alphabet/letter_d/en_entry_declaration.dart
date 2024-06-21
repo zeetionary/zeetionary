@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydeclaration extends StatefulWidget {
@@ -289,46 +284,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("The declaration of the poll will take place tomorrow morning.");
   }
 
-  Future<void> speakdeclarations9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeclaration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclarations900");
-  }
-
-  Future<void> speakdeclarations10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeclaration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclarations1000");
-  }
-
-  Future<void> speakdeclarations11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeclaration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclarations1100");
-  }
-
-  Future<void> speakdeclarations12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeclaration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclarations1200");
-  }
-
-  Future<void> speakdeclarations13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeclaration
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclarations1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -576,8 +531,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -591,7 +544,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

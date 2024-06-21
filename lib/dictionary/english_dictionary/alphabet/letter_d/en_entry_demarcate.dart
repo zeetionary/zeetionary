@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydemarcate extends StatefulWidget {
@@ -234,142 +229,6 @@ class KurdishMeaning extends StatelessWidget {
         "The police demarcated the city into eighteen geographical divisions.");
   }
 
-  Future<void> speakdemarcates3(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates300");
-  }
-
-  Future<void> speakdemarcates4(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates400");
-  }
-
-  Future<void> speakdemarcates5(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates500");
-  }
-
-  Future<void> speakdemarcates6(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates600");
-  }
-
-  Future<void> speakdemarcates7(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates700");
-  }
-
-  Future<void> speakdemarcates8(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates800");
-  }
-
-  Future<void> speakdemarcates9(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates900");
-  }
-
-  Future<void> speakdemarcates10(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1000");
-  }
-
-  Future<void> speakdemarcates11(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1100");
-  }
-
-  Future<void> speakdemarcates12(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1200");
-  }
-
-  Future<void> speakdemarcates13(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1300");
-  }
-
-  Future<void> speakdemarcates14(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1400");
-  }
-
-  Future<void> speakdemarcates15(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1500");
-  }
-
-  Future<void> speakdemarcates16(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1600");
-  }
-
-  Future<void> speakdemarcates17(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1700");
-  }
-
-  Future<void> speakdemarcates18(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1800");
-  }
-
-  Future<void> speakdemarcates19(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates1900");
-  }
-
   Future<void> speakdemarcates20(String languageCode) async {
     // DOPSUM: CHANGE speakdemarcate
     await flutterTts.setLanguage(languageCode);
@@ -377,22 +236,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "The police demarcated the city into eighteen geographical divisions.0");
-  }
-
-  Future<void> speakdemarcates21(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates2100");
-  }
-
-  Future<void> speakdemarcates22(String languageCode) async {
-    // DOPSUM: CHANGE speakdemarcate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemarcates2200");
   }
 
   @override
@@ -636,8 +479,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -651,7 +492,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

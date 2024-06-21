@@ -26,8 +26,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He blew bubbles into the water through a straw.");
+    await flutterTts.speak("He blew bubbles into the water through a straw.");
   }
 
   Future<void> speakbubbles2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There are air bubbles trapped inside the ice.");
+    await flutterTts.speak("There are air bubbles trapped inside the ice.");
   }
 
   Future<void> speakbubbles3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children like to have bubbles in their bath.");
+    await flutterTts.speak("The children like to have bubbles in their bath.");
   }
 
   Future<void> speakbubbles4(String languageCode) async {
@@ -62,8 +59,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He made millions before the dotcom bubble burst.");
+    await flutterTts.speak("He made millions before the dotcom bubble burst.");
   }
 
   Future<void> speakbubbles6(String languageCode) async {
@@ -80,8 +76,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The water in the pan was beginning to bubble.");
+    await flutterTts.speak("The water in the pan was beginning to bubble.");
   }
 
   Future<void> speakbubbles8(String languageCode) async {
@@ -89,8 +84,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The water in the saucepan was bubbling furiously.");
+    await flutterTts.speak("The water in the saucepan was bubbling furiously.");
   }
 
   Future<void> speakbubbles9(String languageCode) async {
@@ -98,8 +92,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was bubbling over with excitement.");
+    await flutterTts.speak("She was bubbling over with excitement.");
   }
 
   Future<void> speakbubbles10(String languageCode) async {
@@ -107,8 +100,7 @@ class EnglishEntrybubble extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The little girl bubbled with health.");
+    await flutterTts.speak("The little girl bubbled with health.");
   }
 
   Future<void> speakbubbles11(String languageCode) async {
@@ -619,8 +611,6 @@ class EnglishEntrybubble extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -634,7 +624,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

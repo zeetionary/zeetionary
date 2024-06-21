@@ -26,8 +26,7 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The goat butted the door to open it.");
+    await flutterTts.speak("The goat butted the door to open it.");
   }
 
   Future<void> speakbutts2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He butted his opponent in the wrestling match.");
+    await flutterTts.speak("He butted his opponent in the wrestling match.");
   }
 
   Future<void> speakbutts3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They struck him with their rifle butts.");
+    await flutterTts.speak("They struck him with their rifle butts.");
   }
 
   Future<void> speakbutts4(String languageCode) async {
@@ -53,8 +50,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He flicked the butt of his cigarette into the ashtray.");
+    await flutterTts
+        .speak("He flicked the butt of his cigarette into the ashtray.");
   }
 
   Future<void> speakbutts5(String languageCode) async {
@@ -70,8 +67,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A butt from his head left him momentarily disorientated.");
+    await flutterTts
+        .speak("A butt from his head left him momentarily disorientated.");
   }
 
   Future<void> speakbutts7(String languageCode) async {
@@ -408,8 +405,6 @@ class EnglishEntrybutt extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -423,7 +418,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

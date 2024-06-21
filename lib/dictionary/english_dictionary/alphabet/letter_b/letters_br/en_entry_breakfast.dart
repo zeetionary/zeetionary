@@ -28,8 +28,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were having breakfast when I arrived.");
+    await flutterTts.speak("They were having breakfast when I arrived.");
   }
 
   Future<void> speakbreakfasts2(String languageCode) async {
@@ -37,8 +36,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She doesn't eat much breakfast.");
+    await flutterTts.speak("She doesn't eat much breakfast.");
   }
 
   Future<void> speakbreakfasts3(String languageCode) async {
@@ -46,8 +44,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Do you want bacon and eggs for breakfast?");
+    await flutterTts.speak("Do you want bacon and eggs for breakfast?");
   }
 
   Future<void> speakbreakfasts4(String languageCode) async {
@@ -55,8 +52,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's in the kitchen cooking us breakfast.");
+    await flutterTts.speak("He's in the kitchen cooking us breakfast.");
   }
 
   Future<void> speakbreakfasts5(String languageCode) async {
@@ -73,8 +69,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She usually breakfasts alone.");
+    await flutterTts.speak("She usually breakfasts alone.");
   }
 
   Future<void> speakbreakfasts7(String languageCode) async {
@@ -367,8 +362,6 @@ class EnglishEntrybreakfast extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -382,7 +375,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

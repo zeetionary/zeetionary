@@ -26,8 +26,7 @@ class EnglishEntrybulge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her pockets were bulging with presents.");
+    await flutterTts.speak("Her pockets were bulging with presents.");
   }
 
   Future<void> speakbulges2(String languageCode) async {
@@ -43,8 +42,8 @@ class EnglishEntrybulge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "South of Benghazi the coastline bulges out then in.");
+    await flutterTts
+        .speak("South of Benghazi the coastline bulges out then in.");
   }
 
   Future<void> speakbulges4(String languageCode) async {
@@ -52,8 +51,7 @@ class EnglishEntrybulge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I wondered what the bulge in her coat pocket was.");
+    await flutterTts.speak("I wondered what the bulge in her coat pocket was.");
   }
 
   Future<void> speakbulges5(String languageCode) async {
@@ -61,8 +59,7 @@ class EnglishEntrybulge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "That skirt's too tight. It shows all your bulges.");
+    await flutterTts.speak("That skirt's too tight. It shows all your bulges.");
   }
 
   Future<void> speakbulges6(String languageCode) async {
@@ -70,8 +67,8 @@ class EnglishEntrybulge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "After the war there was a bulge in the birth rate.");
+    await flutterTts
+        .speak("After the war there was a bulge in the birth rate.");
   }
 
   Future<void> speakbulges7(String languageCode) async {
@@ -362,8 +359,6 @@ class EnglishEntrybulge extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -377,7 +372,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

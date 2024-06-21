@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydepositaccount extends StatefulWidget {
@@ -224,174 +219,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("He opened a deposit account to save money.");
-  }
-
-  Future<void> speakdepositaccounts2(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts200");
-  }
-
-  Future<void> speakdepositaccounts3(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts300");
-  }
-
-  Future<void> speakdepositaccounts4(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts400");
-  }
-
-  Future<void> speakdepositaccounts5(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts500");
-  }
-
-  Future<void> speakdepositaccounts6(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts600");
-  }
-
-  Future<void> speakdepositaccounts7(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts700");
-  }
-
-  Future<void> speakdepositaccounts8(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts800");
-  }
-
-  Future<void> speakdepositaccounts9(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts900");
-  }
-
-  Future<void> speakdepositaccounts10(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1000");
-  }
-
-  Future<void> speakdepositaccounts11(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1100");
-  }
-
-  Future<void> speakdepositaccounts12(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1200");
-  }
-
-  Future<void> speakdepositaccounts13(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1300");
-  }
-
-  Future<void> speakdepositaccounts14(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1400");
-  }
-
-  Future<void> speakdepositaccounts15(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1500");
-  }
-
-  Future<void> speakdepositaccounts16(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1600");
-  }
-
-  Future<void> speakdepositaccounts17(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1700");
-  }
-
-  Future<void> speakdepositaccounts18(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1800");
-  }
-
-  Future<void> speakdepositaccounts19(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts1900");
-  }
-
-  Future<void> speakdepositaccounts20(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts2000");
-  }
-
-  Future<void> speakdepositaccounts21(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts2100");
-  }
-
-  Future<void> speakdepositaccounts22(String languageCode) async {
-    // DOPSUM: CHANGE speakdepositaccount
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepositaccounts2200");
   }
 
   @override
@@ -611,8 +438,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -626,7 +451,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

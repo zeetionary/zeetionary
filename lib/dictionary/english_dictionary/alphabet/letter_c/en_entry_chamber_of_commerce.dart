@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrychamberofcommerce extends StatelessWidget {
@@ -33,102 +28,18 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
         "Members of the chamber of commerce receive discounts on business services and access to resources.");
   }
 
-  Future<void> speakchamberofcommerces2(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces200");
-  }
-
-  Future<void> speakchamberofcommerces3(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces300");
-  }
-
-  Future<void> speakchamberofcommerces4(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces400");
-  }
-
-  Future<void> speakchamberofcommerces5(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces500");
-  }
-
-  Future<void> speakchamberofcommerces6(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces600");
-  }
-
-  Future<void> speakchamberofcommerces7(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces700");
-  }
-
-  Future<void> speakchamberofcommerces8(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces800");
-  }
-
-  Future<void> speakchamberofcommerces9(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces900");
-  }
-
-  Future<void> speakchamberofcommerces10(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces1000");
-  }
-
-  Future<void> speakchamberofcommerces11(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces1100");
-  }
-
-  Future<void> speakchamberofcommerces12(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces1200");
-  }
-
-  Future<void> speakchamberofcommerces13(String languageCode) async {
-    // DOPSUM: CHANGE speakchamberofcommerce
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchamberofcommerces1300");
-  }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -267,8 +178,6 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -282,7 +191,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

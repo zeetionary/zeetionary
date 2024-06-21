@@ -30,8 +30,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Can I borrow your umbrella?");
+    await flutterTts.speak("Can I borrow your umbrella?");
   }
 
   Future<void> speakborrows2(String languageCode) async {
@@ -48,8 +47,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I borrowed the tools I needed off my brother.");
+    await flutterTts.speak("I borrowed the tools I needed off my brother.");
   }
 
   Future<void> speakborrows4(String languageCode) async {
@@ -57,8 +55,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'll borrow some coffee off the neighbours.");
+    await flutterTts.speak("I'll borrow some coffee off the neighbours.");
   }
 
   Future<void> speakborrows5(String languageCode) async {
@@ -66,8 +63,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm borrowing the office laptop for the weekend.");
+    await flutterTts.speak("I'm borrowing the office laptop for the weekend.");
   }
 
   Future<void> speakborrows6(String languageCode) async {
@@ -75,8 +71,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "How much did you have to borrow to pay for this?");
+    await flutterTts.speak("How much did you have to borrow to pay for this?");
   }
 
   Future<void> speakborrows7(String languageCode) async {
@@ -84,8 +79,8 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The goal is to borrow funds at a low interest rate.");
+    await flutterTts
+        .speak("The goal is to borrow funds at a low interest rate.");
   }
 
   Future<void> speakborrows8(String languageCode) async {
@@ -93,8 +88,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The author borrows heavily from Henry James.");
+    await flutterTts.speak("The author borrows heavily from Henry James.");
   }
 
   Future<void> speakborrows9(String languageCode) async {
@@ -102,8 +96,7 @@ class EnglishEntryborrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "English has borrowed lots of words from French.");
+    await flutterTts.speak("English has borrowed lots of words from French.");
   }
 
   Future<void> speakborrows10(String languageCode) async {
@@ -544,8 +537,6 @@ class EnglishEntryborrow extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -559,7 +550,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -26,8 +26,8 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many families struggle to balance the household budget.");
+    await flutterTts
+        .speak("Many families struggle to balance the household budget.");
   }
 
   Future<void> speakbudgets2(String languageCode) async {
@@ -35,8 +35,7 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's one of those big-budget Hollywood movies.");
+    await flutterTts.speak("It's one of those big-budget Hollywood movies.");
   }
 
   Future<void> speakbudgets3(String languageCode) async {
@@ -44,8 +43,8 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government is planning to double the education budget.");
+    await flutterTts
+        .speak("The government is planning to double the education budget.");
   }
 
   Future<void> speakbudgets4(String languageCode) async {
@@ -80,8 +79,8 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The finance ministry is trying to reduce the budget deficit.");
+    await flutterTts
+        .speak("The finance ministry is trying to reduce the budget deficit.");
   }
 
   Future<void> speakbudgets8(String languageCode) async {
@@ -89,8 +88,7 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Find a holiday to suit your time budget.");
+    await flutterTts.speak("Find a holiday to suit your time budget.");
   }
 
   Future<void> speakbudgets9(String languageCode) async {
@@ -98,8 +96,8 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "If we budget carefully we'll be able to afford the trip.");
+    await flutterTts
+        .speak("If we budget carefully we'll be able to afford the trip.");
   }
 
   Future<void> speakbudgets10(String languageCode) async {
@@ -107,8 +105,8 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ten million euros has been budgeted for the project.");
+    await flutterTts
+        .speak("Ten million euros has been budgeted for the project.");
   }
 
   Future<void> speakbudgets11(String languageCode) async {
@@ -116,8 +114,7 @@ class EnglishEntrybudget extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You can save money on budget flights.");
+    await flutterTts.speak("You can save money on budget flights.");
   }
 
   Future<void> speakbudgets12(String languageCode) async {
@@ -683,8 +680,6 @@ class EnglishEntrybudget extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -698,7 +693,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

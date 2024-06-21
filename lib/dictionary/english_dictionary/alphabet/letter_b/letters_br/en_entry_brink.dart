@@ -26,8 +26,8 @@ class EnglishEntrybrink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Scientists are on the brink of making a major new discovery.");
+    await flutterTts
+        .speak("Scientists are on the brink of making a major new discovery.");
   }
 
   Future<void> speakbrinks2(String languageCode) async {
@@ -35,8 +35,7 @@ class EnglishEntrybrink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's pulled the company back from the brink.");
+    await flutterTts.speak("He's pulled the company back from the brink.");
   }
 
   Future<void> speakbrinks3(String languageCode) async {
@@ -53,8 +52,7 @@ class EnglishEntrybrink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was standing right on the brink of the gorge.");
+    await flutterTts.speak("She was standing right on the brink of the gorge.");
   }
 
   Future<void> speakbrinks5(String languageCode) async {
@@ -310,8 +308,6 @@ class EnglishEntrybrink extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -325,7 +321,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

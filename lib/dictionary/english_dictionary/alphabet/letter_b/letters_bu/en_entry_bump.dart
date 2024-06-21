@@ -26,8 +26,7 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("In the dark I bumped into a chair.");
+    await flutterTts.speak("In the dark I bumped into a chair.");
   }
 
   Future<void> speakbumps2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The car bumped against the kerb.");
+    await flutterTts.speak("The car bumped against the kerb.");
   }
 
   Future<void> speakbumps3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I bumped my head on the door frame.");
+    await flutterTts.speak("I bumped my head on the door frame.");
   }
 
   Future<void> speakbumps4(String languageCode) async {
@@ -53,8 +50,8 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Toddlers are always falling over and bumping their heads.");
+    await flutterTts
+        .speak("Toddlers are always falling over and bumping their heads.");
   }
 
   Future<void> speakbumps5(String languageCode) async {
@@ -62,8 +59,7 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The jeep bumped along the dirt track.");
+    await flutterTts.speak("The jeep bumped along the dirt track.");
   }
 
   Future<void> speakbumps6(String languageCode) async {
@@ -71,8 +67,8 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The coach told him he had been bumped from the crew.");
+    await flutterTts
+        .speak("The coach told him he had been bumped from the crew.");
   }
 
   Future<void> speakbumps7(String languageCode) async {
@@ -98,8 +94,7 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was covered in bumps and bruises.");
+    await flutterTts.speak("She was covered in bumps and bruises.");
   }
 
   Future<void> speakbumps10(String languageCode) async {
@@ -107,8 +102,8 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a black dress that showed off her expanding bump.");
+    await flutterTts
+        .speak("She wore a black dress that showed off her expanding bump.");
   }
 
   Future<void> speakbumps11(String languageCode) async {
@@ -116,8 +111,7 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We hit a bump and the car swerved.");
+    await flutterTts.speak("We hit a bump and the car swerved.");
   }
 
   Future<void> speakbumps12(String languageCode) async {
@@ -125,8 +119,8 @@ class EnglishEntrybump extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I had a bump in the car earlier, but it wasn’t serious.");
+    await flutterTts
+        .speak("I had a bump in the car earlier, but it wasn’t serious.");
   }
 
   Future<void> speakbumps13(String languageCode) async {
@@ -710,8 +704,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -725,7 +717,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

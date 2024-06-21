@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydeath extends StatefulWidget {
@@ -405,238 +400,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "Delivering on time is a matter of life and death for a small company.");
-  }
-
-  Future<void> speakdeaths24(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths2400");
-  }
-
-  Future<void> speakdeaths25(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths2500");
-  }
-
-  Future<void> speakdeaths26(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths2600");
-  }
-
-  Future<void> speakdeaths27(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths2700");
-  }
-
-  Future<void> speakdeaths28(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths2800");
-  }
-
-  Future<void> speakdeaths29(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths2900");
-  }
-
-  Future<void> speakdeaths30(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3000");
-  }
-
-  Future<void> speakdeaths31(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3100");
-  }
-
-  Future<void> speakdeaths32(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3200");
-  }
-
-  Future<void> speakdeaths33(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3300");
-  }
-
-  Future<void> speakdeaths34(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3400");
-  }
-
-  Future<void> speakdeaths35(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3500");
-  }
-
-  Future<void> speakdeaths36(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3600");
-  }
-
-  Future<void> speakdeaths37(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3700");
-  }
-
-  Future<void> speakdeaths38(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3800");
-  }
-
-  Future<void> speakdeaths39(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths3900");
-  }
-
-  Future<void> speakdeaths40(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4000");
-  }
-
-  Future<void> speakdeaths41(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4100");
-  }
-
-  Future<void> speakdeaths42(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4200");
-  }
-
-  Future<void> speakdeaths43(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4300");
-  }
-
-  Future<void> speakdeaths44(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4400");
-  }
-
-  Future<void> speakdeaths45(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4500");
-  }
-
-  Future<void> speakdeaths46(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4600");
-  }
-
-  Future<void> speakdeaths47(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4700");
-  }
-
-  Future<void> speakdeaths48(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4800");
-  }
-
-  Future<void> speakdeaths49(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths4900");
-  }
-
-  Future<void> speakdeaths50(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths5000");
-  }
-
-  Future<void> speakdeaths51(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths5100");
-  }
-
-  Future<void> speakdeaths52(String languageCode) async {
-    // DOPSUM: CHANGE speakdeath
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeaths5200");
   }
 
   @override
@@ -1290,8 +1053,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -1305,7 +1066,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

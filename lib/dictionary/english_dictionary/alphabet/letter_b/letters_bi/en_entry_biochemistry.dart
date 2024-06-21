@@ -41,8 +41,8 @@ class EnglishEntrybiochemistry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Human's biochemistry is almost identical to that of a cat.");
+    await flutterTts
+        .speak("Human's biochemistry is almost identical to that of a cat.");
   }
 
   Future<void> speakbiochemistrys3(String languageCode) async {
@@ -253,8 +253,6 @@ class EnglishEntrybiochemistry extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -268,7 +266,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

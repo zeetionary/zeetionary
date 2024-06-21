@@ -32,8 +32,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Around his waist he wore a belt.");
+    await flutterTts.speak("Around his waist he wore a belt.");
   }
 
   Future<void> speakbelts2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She fastened her belt tightly around her waist.");
+    await flutterTts.speak("She fastened her belt tightly around her waist.");
   }
 
   Future<void> speakbelts3(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The conveyor belt carried the boxes to the loading dock.");
+    await flutterTts
+        .speak("The conveyor belt carried the boxes to the loading dock.");
   }
 
   Future<void> speakbelts4(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She gave the ball a terrific belt.");
+    await flutterTts.speak("She gave the ball a terrific belt.");
   }
 
   Future<void> speakbelts6(String languageCode) async {
@@ -77,8 +74,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He belted the ball right out of the park.");
+    await flutterTts.speak("He belted the ball right out of the park.");
   }
 
   Future<void> speakbelts7(String languageCode) async {
@@ -86,8 +82,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'll belt you if you do that again.");
+    await flutterTts.speak("I'll belt you if you do that again.");
   }
 
   Future<void> speakbelts8(String languageCode) async {
@@ -95,8 +90,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A truck came belting up behind us.");
+    await flutterTts.speak("A truck came belting up behind us.");
   }
 
   Future<void> speakbelts9(String languageCode) async {
@@ -104,8 +98,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dress was belted at the waist.");
+    await flutterTts.speak("The dress was belted at the waist.");
   }
 
   Future<void> speakbelts10(String languageCode) async {
@@ -525,8 +518,6 @@ class EnglishEntrybelt extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -540,7 +531,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

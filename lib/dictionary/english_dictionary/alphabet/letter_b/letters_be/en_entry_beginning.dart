@@ -32,8 +32,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A story has to have a beginning, middle, and end.");
+    await flutterTts.speak("A story has to have a beginning, middle, and end.");
   }
 
   Future<void> speakbeginnings2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We missed the beginning of the movie.");
+    await flutterTts.speak("We missed the beginning of the movie.");
   }
 
   Future<void> speakbeginnings3(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's been working there since the beginning of last summer.");
+    await flutterTts
+        .speak("She's been working there since the beginning of last summer.");
   }
 
   Future<void> speakbeginnings4(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Did democracy have its beginnings in ancient Greece?");
+    await flutterTts
+        .speak("Did democracy have its beginnings in ancient Greece?");
   }
 
   Future<void> speakbeginnings5(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntrybeginning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The city had its beginnings in Roman times.");
+    await flutterTts.speak("The city had its beginnings in Roman times.");
   }
 
   Future<void> speakbeginnings6(String languageCode) async {
@@ -339,8 +336,6 @@ class EnglishEntrybeginning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -354,7 +349,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydepart extends StatefulWidget {
@@ -249,126 +244,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("He departed his job December 16.");
   }
 
-  Future<void> speakdeparts5(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts500");
-  }
-
-  Future<void> speakdeparts6(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts600");
-  }
-
-  Future<void> speakdeparts7(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts700");
-  }
-
-  Future<void> speakdeparts8(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts800");
-  }
-
-  Future<void> speakdeparts9(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts900");
-  }
-
-  Future<void> speakdeparts10(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1000");
-  }
-
-  Future<void> speakdeparts11(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1100");
-  }
-
-  Future<void> speakdeparts12(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1200");
-  }
-
-  Future<void> speakdeparts13(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1300");
-  }
-
-  Future<void> speakdeparts14(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1400");
-  }
-
-  Future<void> speakdeparts15(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1500");
-  }
-
-  Future<void> speakdeparts16(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1600");
-  }
-
-  Future<void> speakdeparts17(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1700");
-  }
-
-  Future<void> speakdeparts18(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1800");
-  }
-
-  Future<void> speakdeparts19(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts1900");
-  }
-
   Future<void> speakdeparts20(String languageCode) async {
     // DOPSUM: CHANGE speakdepart
     await flutterTts.setLanguage(languageCode);
@@ -376,22 +251,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
         .speak("She waited until the last of the guests had departed.0");
-  }
-
-  Future<void> speakdeparts21(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts2100");
-  }
-
-  Future<void> speakdeparts22(String languageCode) async {
-    // DOPSUM: CHANGE speakdepart
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeparts2200");
   }
 
   @override
@@ -687,8 +546,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -702,7 +559,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

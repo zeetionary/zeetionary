@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydemographic extends StatefulWidget {
@@ -243,156 +238,12 @@ class KurdishMeaning extends StatelessWidget {
         "Demographical data from the 1950s provides insights into societal changes.");
   }
 
-  Future<void> speakdemographics4(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics400");
-  }
-
-  Future<void> speakdemographics5(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics500");
-  }
-
-  Future<void> speakdemographics6(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics600");
-  }
-
-  Future<void> speakdemographics7(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics700");
-  }
-
-  Future<void> speakdemographics8(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics800");
-  }
-
-  Future<void> speakdemographics9(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics900");
-  }
-
-  Future<void> speakdemographics10(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1000");
-  }
-
-  Future<void> speakdemographics11(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1100");
-  }
-
-  Future<void> speakdemographics12(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1200");
-  }
-
-  Future<void> speakdemographics13(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1300");
-  }
-
-  Future<void> speakdemographics14(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1400");
-  }
-
-  Future<void> speakdemographics15(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1500");
-  }
-
-  Future<void> speakdemographics16(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1600");
-  }
-
-  Future<void> speakdemographics17(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1700");
-  }
-
-  Future<void> speakdemographics18(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1800");
-  }
-
-  Future<void> speakdemographics19(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics1900");
-  }
-
   Future<void> speakdemographics20(String languageCode) async {
     // DOPSUM: CHANGE speakdemographic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("The target demographic is children aged 6–12.0");
-  }
-
-  Future<void> speakdemographics21(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics2100");
-  }
-
-  Future<void> speakdemographics22(String languageCode) async {
-    // DOPSUM: CHANGE speakdemographic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdemographics2200");
   }
 
   @override
@@ -668,8 +519,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -683,7 +532,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

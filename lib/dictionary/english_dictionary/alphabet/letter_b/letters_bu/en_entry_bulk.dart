@@ -26,8 +26,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The bulk of the population lives in cities.");
+    await flutterTts.speak("The bulk of the population lives in cities.");
   }
 
   Future<void> speakbulks2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The great bulk of the work has now been done.");
+    await flutterTts.speak("The great bulk of the work has now been done.");
   }
 
   Future<void> speakbulks3(String languageCode) async {
@@ -44,8 +42,8 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Despite its bulk and weight, the car is extremely fast.");
+    await flutterTts
+        .speak("Despite its bulk and weight, the car is extremely fast.");
   }
 
   Future<void> speakbulks4(String languageCode) async {
@@ -53,8 +51,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It's cheaper to buy in bulk.");
+    await flutterTts.speak("It's cheaper to buy in bulk.");
   }
 
   Future<void> speakbulks5(String languageCode) async {
@@ -62,8 +59,7 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She eased her large bulk out of the chair.");
+    await flutterTts.speak("She eased her large bulk out of the chair.");
   }
 
   Future<void> speakbulks6(String languageCode) async {
@@ -331,8 +327,6 @@ class EnglishEntrybulk extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -346,7 +340,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

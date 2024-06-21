@@ -32,8 +32,7 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was offered money to betray his colleagues.");
+    await flutterTts.speak("He was offered money to betray his colleagues.");
   }
 
   Future<void> speakbetrays2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For years they had been betraying state secrets to Russia.");
+    await flutterTts
+        .speak("For years they had been betraying state secrets to Russia.");
   }
 
   Future<void> speakbetrays3(String languageCode) async {
@@ -50,8 +49,8 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt betrayed when she found out the truth about him.");
+    await flutterTts
+        .speak("She felt betrayed when she found out the truth about him.");
   }
 
   Future<void> speakbetrays4(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She betrayed his trust over and over again.");
+    await flutterTts.speak("She betrayed his trust over and over again.");
   }
 
   Future<void> speakbetrays5(String languageCode) async {
@@ -68,8 +66,8 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His voice betrayed the worry he was trying to hide.");
+    await flutterTts
+        .speak("His voice betrayed the worry he was trying to hide.");
   }
 
   Future<void> speakbetrays6(String languageCode) async {
@@ -370,8 +368,6 @@ class EnglishEntrybetray extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -385,7 +381,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydestitution extends StatefulWidget {
@@ -234,62 +229,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("Destitution has become a major problem in the capital.");
   }
 
-  Future<void> speakdestitutions13(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1300");
-  }
-
-  Future<void> speakdestitutions14(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1400");
-  }
-
-  Future<void> speakdestitutions15(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1500");
-  }
-
-  Future<void> speakdestitutions16(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1600");
-  }
-
-  Future<void> speakdestitutions17(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1700");
-  }
-
-  Future<void> speakdestitutions18(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1800");
-  }
-
-  Future<void> speakdestitutions19(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions1900");
-  }
-
   Future<void> speakdestitutions20(String languageCode) async {
     // DOPSUM: CHANGE speakdestitution
     await flutterTts.setLanguage(languageCode);
@@ -297,22 +236,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
         .speak("Destitution has become a major problem in the capital.0");
-  }
-
-  Future<void> speakdestitutions21(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions2100");
-  }
-
-  Future<void> speakdestitutions22(String languageCode) async {
-    // DOPSUM: CHANGE speakdestitution
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdestitutions2200");
   }
 
   @override
@@ -539,8 +462,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -554,7 +475,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

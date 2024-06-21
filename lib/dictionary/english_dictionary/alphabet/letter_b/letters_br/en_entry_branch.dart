@@ -28,8 +28,7 @@ class EnglishEntrybranch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She climbed the tree and hid in the branches.");
+    await flutterTts.speak("She climbed the tree and hid in the branches.");
   }
 
   Future<void> speakbranchs2(String languageCode) async {
@@ -37,8 +36,8 @@ class EnglishEntrybranch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The fruit on the lower branches was protected from the sun.");
+    await flutterTts
+        .speak("The fruit on the lower branches was protected from the sun.");
   }
 
   Future<void> speakbranchs3(String languageCode) async {
@@ -46,8 +45,7 @@ class EnglishEntrybranch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our New York branch is dealing with the matter.");
+    await flutterTts.speak("Our New York branch is dealing with the matter.");
   }
 
   Future<void> speakbranchs4(String languageCode) async {
@@ -55,8 +53,7 @@ class EnglishEntrybranch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The company is opening more local branches.");
+    await flutterTts.speak("The company is opening more local branches.");
   }
 
   Future<void> speakbranchs5(String languageCode) async {
@@ -91,8 +88,8 @@ class EnglishEntrybranch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My uncle's branch of the family emigrated to Canada.");
+    await flutterTts
+        .speak("My uncle's branch of the family emigrated to Canada.");
   }
 
   Future<void> speakbranchs9(String languageCode) async {
@@ -100,8 +97,7 @@ class EnglishEntrybranch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The accident happened where the road branches.");
+    await flutterTts.speak("The accident happened where the road branches.");
   }
 
   Future<void> speakbranchs10(String languageCode) async {
@@ -619,8 +615,6 @@ class EnglishEntrybranch extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -634,7 +628,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

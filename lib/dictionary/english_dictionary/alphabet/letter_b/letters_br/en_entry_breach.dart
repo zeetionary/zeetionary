@@ -28,8 +28,7 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They are in breach of Article 119.");
+    await flutterTts.speak("They are in breach of Article 119.");
   }
 
   Future<void> speakbreachs2(String languageCode) async {
@@ -37,8 +36,7 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was sued for breach of contract.");
+    await flutterTts.speak("He was sued for breach of contract.");
   }
 
   Future<void> speakbreachs3(String languageCode) async {
@@ -46,8 +44,8 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He refused to shake hands, in deliberate breach of etiquette.");
+    await flutterTts
+        .speak("He refused to shake hands, in deliberate breach of etiquette.");
   }
 
   Future<void> speakbreachs4(String languageCode) async {
@@ -55,8 +53,8 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Such actions constitute a breach of confidentiality.");
+    await flutterTts
+        .speak("Such actions constitute a breach of confidentiality.");
   }
 
   Future<void> speakbreachs5(String languageCode) async {
@@ -73,8 +71,7 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They escaped through a breach in the wire fence.");
+    await flutterTts.speak("They escaped through a breach in the wire fence.");
   }
 
   Future<void> speakbreachs7(String languageCode) async {
@@ -82,8 +79,8 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The mortars blew a large breach in the castle walls.");
+    await flutterTts
+        .speak("The mortars blew a large breach in the castle walls.");
   }
 
   Future<void> speakbreachs8(String languageCode) async {
@@ -126,8 +123,8 @@ class EnglishEntrybreach extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Demonstrators breached police lines around the embassy.");
+    await flutterTts
+        .speak("Demonstrators breached police lines around the embassy.");
   }
 
   Future<void> speakbreachs13(String languageCode) async {
@@ -670,8 +667,6 @@ class EnglishEntrybreach extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -685,7 +680,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

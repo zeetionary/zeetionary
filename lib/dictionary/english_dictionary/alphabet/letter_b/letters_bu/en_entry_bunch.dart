@@ -26,8 +26,7 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She bought me a bunch of flowers.");
+    await flutterTts.speak("She bought me a bunch of flowers.");
   }
 
   Future<void> speakbunchs2(String languageCode) async {
@@ -35,8 +34,8 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She put all the flowers together in one big bunch.");
+    await flutterTts
+        .speak("She put all the flowers together in one big bunch.");
   }
 
   Future<void> speakbunchs3(String languageCode) async {
@@ -44,8 +43,7 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I have a whole bunch of stuff to do this morning.");
+    await flutterTts.speak("I have a whole bunch of stuff to do this morning.");
   }
 
   Future<void> speakbunchs4(String languageCode) async {
@@ -53,8 +51,7 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The people that I work with are a great bunch.");
+    await flutterTts.speak("The people that I work with are a great bunch.");
   }
 
   Future<void> speakbunchs5(String languageCode) async {
@@ -62,8 +59,8 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The members were a genuinely friendly and open bunch.");
+    await flutterTts
+        .speak("The members were a genuinely friendly and open bunch.");
   }
 
   Future<void> speakbunchs6(String languageCode) async {
@@ -71,8 +68,7 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She wore her hair in bunches.");
+    await flutterTts.speak("She wore her hair in bunches.");
   }
 
   Future<void> speakbunchs7(String languageCode) async {
@@ -80,8 +76,7 @@ class EnglishEntrybunch extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His muscles bunched under his shirt.");
+    await flutterTts.speak("His muscles bunched under his shirt.");
   }
 
   Future<void> speakbunchs8(String languageCode) async {
@@ -438,8 +433,6 @@ class EnglishEntrybunch extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -453,7 +446,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

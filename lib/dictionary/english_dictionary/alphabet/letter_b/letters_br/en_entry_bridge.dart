@@ -26,8 +26,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We crossed the bridge over the River Windrush.");
+    await flutterTts.speak("We crossed the bridge over the River Windrush.");
   }
 
   Future<void> speakbridges2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The river was spanned by a railway bridge.");
+    await flutterTts.speak("The river was spanned by a railway bridge.");
   }
 
   Future<void> speakbridges3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Cross the bridge and turn right into the town.");
+    await flutterTts.speak("Cross the bridge and turn right into the town.");
   }
 
   Future<void> speakbridges4(String languageCode) async {
@@ -53,8 +50,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Floods washed away several bridges.");
+    await flutterTts.speak("Floods washed away several bridges.");
   }
 
   Future<void> speakbridges5(String languageCode) async {
@@ -62,8 +58,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The road goes under the old bridge.");
+    await flutterTts.speak("The road goes under the old bridge.");
   }
 
   Future<void> speakbridges6(String languageCode) async {
@@ -89,8 +84,8 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Who was on the bridge when the collision took place?");
+    await flutterTts
+        .speak("Who was on the bridge when the collision took place?");
   }
 
   Future<void> speakbridges9(String languageCode) async {
@@ -98,8 +93,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I enjoy a game of bridge occasionally.");
+    await flutterTts.speak("I enjoy a game of bridge occasionally.");
   }
 
   Future<void> speakbridges10(String languageCode) async {
@@ -107,8 +101,8 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The blow caught him right on the bridge of his nose.");
+    await flutterTts
+        .speak("The blow caught him right on the bridge of his nose.");
   }
 
   Future<void> speakbridges11(String languageCode) async {
@@ -116,8 +110,7 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The valley was originally bridged by the Romans.");
+    await flutterTts.speak("The valley was originally bridged by the Romans.");
   }
 
   Future<void> speakbridges12(String languageCode) async {
@@ -125,8 +118,8 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The river had been bridged at its narrowest point.");
+    await flutterTts
+        .speak("The river had been bridged at its narrowest point.");
   }
 
   Future<void> speakbridges13(String languageCode) async {
@@ -134,8 +127,8 @@ class EnglishEntrybridge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We must bridge the gap between employees and management.");
+    await flutterTts
+        .speak("We must bridge the gap between employees and management.");
   }
 
   Future<void> speakbridges14(String languageCode) async {
@@ -770,8 +763,6 @@ class EnglishEntrybridge extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -785,7 +776,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

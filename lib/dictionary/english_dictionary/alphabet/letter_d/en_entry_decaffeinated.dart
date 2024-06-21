@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydecaffeinated extends StatefulWidget {
@@ -226,102 +221,6 @@ class KurdishMeaning extends StatelessWidget {
         "The cafe offers a variety of decaffeinated drinks for those who prefer to avoid caffeine.");
   }
 
-  Future<void> speakdecaffeinateds2(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds200");
-  }
-
-  Future<void> speakdecaffeinateds3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds300");
-  }
-
-  Future<void> speakdecaffeinateds4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds400");
-  }
-
-  Future<void> speakdecaffeinateds5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds500");
-  }
-
-  Future<void> speakdecaffeinateds6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds600");
-  }
-
-  Future<void> speakdecaffeinateds7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds700");
-  }
-
-  Future<void> speakdecaffeinateds8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds800");
-  }
-
-  Future<void> speakdecaffeinateds9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds900");
-  }
-
-  Future<void> speakdecaffeinateds10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds1000");
-  }
-
-  Future<void> speakdecaffeinateds11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds1100");
-  }
-
-  Future<void> speakdecaffeinateds12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds1200");
-  }
-
-  Future<void> speakdecaffeinateds13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecaffeinated
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecaffeinateds1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -379,8 +278,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -394,7 +291,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

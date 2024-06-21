@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydank extends StatefulWidget {
@@ -232,94 +227,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("The cold dank air made him shiver.");
   }
 
-  Future<void> speakdanks3(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks300");
-  }
-
-  Future<void> speakdanks4(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks400");
-  }
-
-  Future<void> speakdanks5(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks500");
-  }
-
-  Future<void> speakdanks6(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks600");
-  }
-
-  Future<void> speakdanks7(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks700");
-  }
-
-  Future<void> speakdanks8(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks800");
-  }
-
-  Future<void> speakdanks9(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks900");
-  }
-
-  Future<void> speakdanks10(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks1000");
-  }
-
-  Future<void> speakdanks11(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks1100");
-  }
-
-  Future<void> speakdanks12(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks1200");
-  }
-
-  Future<void> speakdanks13(String languageCode) async {
-    // DOPSUM: CHANGE speakdank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdanks1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -390,8 +297,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -405,7 +310,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

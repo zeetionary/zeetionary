@@ -26,8 +26,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They killed her and buried her body.");
+    await flutterTts.speak("They killed her and buried her body.");
   }
 
   Future<void> speakburys2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Those people are now all dead and buried.");
+    await flutterTts.speak("Those people are now all dead and buried.");
   }
 
   Future<void> speakburys3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's 85 and has buried three husbands.");
+    await flutterTts.speak("She's 85 and has buried three husbands.");
   }
 
   Future<void> speakburys4(String languageCode) async {
@@ -53,8 +50,8 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We used to dig for hours, looking for buried treasure.");
+    await flutterTts
+        .speak("We used to dig for hours, looking for buried treasure.");
   }
 
   Future<void> speakburys5(String languageCode) async {
@@ -62,8 +59,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dog had buried its bone in the garden.");
+    await flutterTts.speak("The dog had buried its bone in the garden.");
   }
 
   Future<void> speakburys6(String languageCode) async {
@@ -71,8 +67,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The house was buried under ten feet of snow.");
+    await flutterTts.speak("The house was buried under ten feet of snow.");
   }
 
   Future<void> speakburys7(String languageCode) async {
@@ -80,8 +75,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A landslide buried about 25 people yesterday.");
+    await flutterTts.speak("A landslide buried about 25 people yesterday.");
   }
 
   Future<void> speakburys8(String languageCode) async {
@@ -89,8 +83,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He buried his face in his hands and wept.");
+    await flutterTts.speak("He buried his face in his hands and wept.");
   }
 
   Future<void> speakburys9(String languageCode) async {
@@ -98,8 +91,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She had learnt to bury her feelings.");
+    await flutterTts.speak("She had learnt to bury her feelings.");
   }
 
   Future<void> speakburys10(String languageCode) async {
@@ -107,8 +99,8 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He walked slowly, his hands buried in his pockets.");
+    await flutterTts
+        .speak("He walked slowly, his hands buried in his pockets.");
   }
 
   Future<void> speakburys11(String languageCode) async {
@@ -116,8 +108,7 @@ class EnglishEntrybury extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She always has her head buried in a book.");
+    await flutterTts.speak("She always has her head buried in a book.");
   }
 
   Future<void> speakburys12(String languageCode) async {
@@ -561,8 +552,6 @@ class EnglishEntrybury extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -576,7 +565,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

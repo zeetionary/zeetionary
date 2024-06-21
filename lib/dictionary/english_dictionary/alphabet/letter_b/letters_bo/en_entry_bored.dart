@@ -30,8 +30,7 @@ class EnglishEntrybored extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was a bored expression on her face.");
+    await flutterTts.speak("There was a bored expression on her face.");
   }
 
   Future<void> speakboreds2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntrybored extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I am beginning to get bored with eating salad.");
+    await flutterTts.speak("I am beginning to get bored with eating salad.");
   }
 
   Future<void> speakboreds3(String languageCode) async {
@@ -48,8 +46,7 @@ class EnglishEntrybored extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She plays the role of a bored housewife.");
+    await flutterTts.speak("She plays the role of a bored housewife.");
   }
 
   Future<void> speakboreds4(String languageCode) async {
@@ -57,8 +54,8 @@ class EnglishEntrybored extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was rather bored with her life in a small town.");
+    await flutterTts
+        .speak("She was rather bored with her life in a small town.");
   }
 
   Future<void> speakboreds5(String languageCode) async {
@@ -66,8 +63,7 @@ class EnglishEntrybored extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was bored with their conversation.");
+    await flutterTts.speak("He was bored with their conversation.");
   }
 
   Future<void> speakboreds6(String languageCode) async {
@@ -329,8 +325,6 @@ class EnglishEntrybored extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -344,7 +338,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -26,8 +26,8 @@ class EnglishEntryburden extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The main burden of caring for old people falls on the state.");
+    await flutterTts
+        .speak("The main burden of caring for old people falls on the state.");
   }
 
   Future<void> speakburdens2(String languageCode) async {
@@ -35,8 +35,8 @@ class EnglishEntryburden extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I don't want to become a burden to my children when I'm old.");
+    await flutterTts
+        .speak("I don't want to become a burden to my children when I'm old.");
   }
 
   Future<void> speakburdens3(String languageCode) async {
@@ -44,8 +44,8 @@ class EnglishEntryburden extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The little donkey struggled under its heavy burden.");
+    await flutterTts
+        .speak("The little donkey struggled under its heavy burden.");
   }
 
   Future<void> speakburdens4(String languageCode) async {
@@ -71,8 +71,7 @@ class EnglishEntryburden extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I don't want to burden you with my worries.");
+    await flutterTts.speak("I don't want to burden you with my worries.");
   }
 
   Future<void> speakburdens7(String languageCode) async {
@@ -80,8 +79,8 @@ class EnglishEntryburden extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She got off the bus, burdened with two heavy suitcases.");
+    await flutterTts
+        .speak("She got off the bus, burdened with two heavy suitcases.");
   }
 
   Future<void> speakburdens8(String languageCode) async {
@@ -450,8 +449,6 @@ class EnglishEntryburden extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -465,7 +462,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

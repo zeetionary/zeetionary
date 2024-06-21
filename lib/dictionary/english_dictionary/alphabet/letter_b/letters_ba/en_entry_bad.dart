@@ -32,8 +32,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I have some bad news for you, I'm afraid.");
+    await flutterTts.speak("I have some bad news for you, I'm afraid.");
   }
 
   Future<void> speakbads2(String languageCode) async {
@@ -49,8 +48,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I thought it was a very bad article.");
+    await flutterTts.speak("I thought it was a very bad article.");
   }
 
   Future<void> speakbads4(String languageCode) async {
@@ -58,8 +56,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It was a very bad winter that year.");
+    await flutterTts.speak("It was a very bad winter that year.");
   }
 
   Future<void> speakbads5(String languageCode) async {
@@ -67,8 +64,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I know that this is a bad time to ask for help.");
+    await flutterTts.speak("I know that this is a bad time to ask for help.");
   }
 
   Future<void> speakbads6(String languageCode) async {
@@ -76,8 +72,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I will not tolerate this bad behaviour.");
+    await flutterTts.speak("I will not tolerate this bad behaviour.");
   }
 
   Future<void> speakbads7(String languageCode) async {
@@ -109,8 +104,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Those shoes are bad for her feet.");
+    await flutterTts.speak("Those shoes are bad for her feet.");
   }
 
   Future<void> speakbads11(String languageCode) async {
@@ -126,8 +120,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Put the meat in the fridge so it doesn't go bad.");
+    await flutterTts.speak("Put the meat in the fridge so it doesn't go bad.");
   }
 
   Future<void> speakbads13(String languageCode) async {
@@ -135,8 +128,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It put me in a bad mood for the rest of the day.");
+    await flutterTts.speak("It put me in a bad mood for the rest of the day.");
   }
 
   Future<void> speakbads14(String languageCode) async {
@@ -144,8 +136,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She felt pretty bad about leaving him.");
+    await flutterTts.speak("She felt pretty bad about leaving him.");
   }
 
   Future<void> speakbads15(String languageCode) async {
@@ -153,8 +144,7 @@ class EnglishEntrybad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'm afraid I'm feeling pretty bad.");
+    await flutterTts.speak("I'm afraid I'm feeling pretty bad.");
   }
 
   Future<void> speakbads16(String languageCode) async {
@@ -886,8 +876,6 @@ class EnglishEntrybad extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -901,7 +889,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

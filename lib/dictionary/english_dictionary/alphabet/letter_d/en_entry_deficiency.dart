@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydeficiency extends StatefulWidget {
@@ -250,148 +245,12 @@ class KurdishMeaning extends StatelessWidget {
         .speak("The deficiencies in their argument are easy to spot.");
   }
 
-  Future<void> speakdeficiencys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys500");
-  }
-
-  Future<void> speakdeficiencys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys600");
-  }
-
-  Future<void> speakdeficiencys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys700");
-  }
-
-  Future<void> speakdeficiencys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys800");
-  }
-
-  Future<void> speakdeficiencys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys900");
-  }
-
-  Future<void> speakdeficiencys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1000");
-  }
-
-  Future<void> speakdeficiencys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1100");
-  }
-
-  Future<void> speakdeficiencys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1200");
-  }
-
-  Future<void> speakdeficiencys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1300");
-  }
-
-  Future<void> speakdeficiencys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1400");
-  }
-
-  Future<void> speakdeficiencys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1500");
-  }
-
-  Future<void> speakdeficiencys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1600");
-  }
-
-  Future<void> speakdeficiencys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1700");
-  }
-
-  Future<void> speakdeficiencys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1800");
-  }
-
-  Future<void> speakdeficiencys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys1900");
-  }
-
   Future<void> speakdeficiencys20(String languageCode) async {
     // DOPSUM: CHANGE speakdeficiency
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("He's suffering from a severe vitamin deficiency.0");
-  }
-
-  Future<void> speakdeficiencys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys2100");
-  }
-
-  Future<void> speakdeficiencys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeficiency
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeficiencys2200");
   }
 
   @override
@@ -690,8 +549,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -705,7 +562,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

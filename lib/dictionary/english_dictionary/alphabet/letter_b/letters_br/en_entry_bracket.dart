@@ -28,8 +28,8 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Publication dates are given in brackets after each title.");
+    await flutterTts
+        .speak("Publication dates are given in brackets after each title.");
   }
 
   Future<void> speakbrackets2(String languageCode) async {
@@ -37,8 +37,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Add the numbers in brackets first.");
+    await flutterTts.speak("Add the numbers in brackets first.");
   }
 
   Future<void> speakbrackets3(String languageCode) async {
@@ -55,8 +54,7 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most of the houses are out of our price bracket.");
+    await flutterTts.speak("Most of the houses are out of our price bracket.");
   }
 
   Future<void> speakbrackets5(String languageCode) async {
@@ -64,8 +62,8 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I've bracketed the parts of the text that could be omitted.");
+    await flutterTts
+        .speak("I've bracketed the parts of the text that could be omitted.");
   }
 
   Future<void> speakbrackets6(String languageCode) async {
@@ -82,8 +80,8 @@ class EnglishEntrybracket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The two writers are often bracketed together by critics.");
+    await flutterTts
+        .speak("The two writers are often bracketed together by critics.");
   }
 
   @override
@@ -395,8 +393,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -410,7 +406,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

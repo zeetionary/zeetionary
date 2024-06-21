@@ -30,8 +30,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hundreds of bombs were dropped on the city.");
+    await flutterTts.speak("Hundreds of bombs were dropped on the city.");
   }
 
   Future<void> speakbombs2(String languageCode) async {
@@ -48,8 +47,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Police suspect terrorists planted the bomb.");
+    await flutterTts.speak("Police suspect terrorists planted the bomb.");
   }
 
   Future<void> speakbombs4(String languageCode) async {
@@ -57,8 +55,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The US was the first country to have the bomb.");
+    await flutterTts.speak("The US was the first country to have the bomb.");
   }
 
   Future<void> speakbombs5(String languageCode) async {
@@ -66,8 +63,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("That dress must have cost a bomb!");
+    await flutterTts.speak("That dress must have cost a bomb!");
   }
 
   Future<void> speakbombs6(String languageCode) async {
@@ -83,8 +79,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have deliberately bombed civilians.");
+    await flutterTts.speak("They have deliberately bombed civilians.");
   }
 
   Future<void> speakbombs8(String languageCode) async {
@@ -92,8 +87,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Warplanes bombed targets around the capital.");
+    await flutterTts.speak("Warplanes bombed targets around the capital.");
   }
 
   Future<void> speakbombs9(String languageCode) async {
@@ -101,8 +95,8 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were bombing down the road at about 80 miles an hour.");
+    await flutterTts
+        .speak("They were bombing down the road at about 80 miles an hour.");
   }
 
   Future<void> speakbombs10(String languageCode) async {
@@ -110,8 +104,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The exam was very hard! I definitely bombed it.");
+    await flutterTts.speak("The exam was very hard! I definitely bombed it.");
   }
 
   Future<void> speakbombs11(String languageCode) async {
@@ -119,8 +112,8 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His latest movie bombed and lost millions of dollars.");
+    await flutterTts
+        .speak("His latest movie bombed and lost millions of dollars.");
   }
 
   Future<void> speakbombs12(String languageCode) async {
@@ -128,8 +121,7 @@ class EnglishEntrybomb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("India started to build a nuclear bomb.");
+    await flutterTts.speak("India started to build a nuclear bomb.");
   }
 
   Future<void> speakbombs13(String languageCode) async {
@@ -708,8 +700,6 @@ class EnglishEntrybomb extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -723,7 +713,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

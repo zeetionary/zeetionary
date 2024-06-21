@@ -30,8 +30,7 @@ class EnglishEntryblanket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It’s cold tonight—can I have another blanket?");
+    await flutterTts.speak("It’s cold tonight—can I have another blanket?");
   }
 
   Future<void> speakblankets2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryblanket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The baby was wrapped in a blanket.");
+    await flutterTts.speak("The baby was wrapped in a blanket.");
   }
 
   Future<void> speakblankets3(String languageCode) async {
@@ -48,8 +46,7 @@ class EnglishEntryblanket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The sun was breaking through the blanket of mist.");
+    await flutterTts.speak("The sun was breaking through the blanket of mist.");
   }
 
   Future<void> speakblankets4(String languageCode) async {
@@ -57,8 +54,8 @@ class EnglishEntryblanket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The trial was conducted under a blanket of secrecy.");
+    await flutterTts
+        .speak("The trial was conducted under a blanket of secrecy.");
   }
 
   Future<void> speakblankets5(String languageCode) async {
@@ -66,8 +63,8 @@ class EnglishEntryblanket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "What I object to most is the blanket opposition to change.");
+    await flutterTts
+        .speak("What I object to most is the blanket opposition to change.");
   }
 
   Future<void> speakblankets6(String languageCode) async {
@@ -75,8 +72,7 @@ class EnglishEntryblanket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The ground was soon blanketed with snow.");
+    await flutterTts.speak("The ground was soon blanketed with snow.");
   }
 
   Future<void> speakblankets7(String languageCode) async {
@@ -373,8 +369,6 @@ class EnglishEntryblanket extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -388,7 +382,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

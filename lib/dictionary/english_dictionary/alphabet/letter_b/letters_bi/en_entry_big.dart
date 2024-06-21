@@ -32,8 +32,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's the world's biggest computer company.");
+    await flutterTts.speak("It's the world's biggest computer company.");
   }
 
   Future<void> speakbigs2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The festival is getting bigger every year.");
+    await flutterTts.speak("The festival is getting bigger every year.");
   }
 
   Future<void> speakbigs3(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They were earning big money.");
+    await flutterTts.speak("They were earning big money.");
   }
 
   Future<void> speakbigs4(String languageCode) async {
@@ -67,8 +64,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You are making a big mistake.");
+    await flutterTts.speak("You are making a big mistake.");
   }
 
   Future<void> speakbigs6(String languageCode) async {
@@ -76,8 +72,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Unemployment is a big problem in the region.");
+    await flutterTts.speak("Unemployment is a big problem in the region.");
   }
 
   Future<void> speakbigs7(String languageCode) async {
@@ -93,8 +88,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Orange is the big colour this year.");
+    await flutterTts.speak("Orange is the big colour this year.");
   }
 
   Future<void> speakbigs9(String languageCode) async {
@@ -102,8 +96,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The band's very big in Japan.");
+    await flutterTts.speak("The band's very big in Japan.");
   }
 
   Future<void> speakbigs10(String languageCode) async {
@@ -119,8 +112,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She's always been a big spender.");
+    await flutterTts.speak("She's always been a big spender.");
   }
 
   Future<void> speakbigs12(String languageCode) async {
@@ -763,8 +755,6 @@ class EnglishEntrybig extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -778,7 +768,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydeer extends StatefulWidget {
@@ -224,102 +219,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("The park is home to a large herd of deer.");
   }
 
-  Future<void> speakdeers2(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers200");
-  }
-
-  Future<void> speakdeers3(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers300");
-  }
-
-  Future<void> speakdeers4(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers400");
-  }
-
-  Future<void> speakdeers5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers500");
-  }
-
-  Future<void> speakdeers6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers600");
-  }
-
-  Future<void> speakdeers7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers700");
-  }
-
-  Future<void> speakdeers8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers800");
-  }
-
-  Future<void> speakdeers9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers900");
-  }
-
-  Future<void> speakdeers10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers1000");
-  }
-
-  Future<void> speakdeers11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers1100");
-  }
-
-  Future<void> speakdeers12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers1200");
-  }
-
-  Future<void> speakdeers13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeers1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -387,8 +286,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -402,7 +299,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

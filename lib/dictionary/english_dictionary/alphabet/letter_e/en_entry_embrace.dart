@@ -4,11 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntryembrace extends StatefulWidget {
@@ -45,7 +40,7 @@ class _EnglishEntryembraceState extends State<EnglishEntryembrace> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(),
                     VideoIconForTab(),
                   ],
                 ),
@@ -56,7 +51,7 @@ class _EnglishEntryembraceState extends State<EnglishEntryembrace> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
-              const SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const SentencesFromDatabase(),
               const YoutubeVideos(),
             ],
           ),
@@ -670,7 +665,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces900embraces9
+          // embraces900embraces9
           // speakembraces9("en-US"""),
           //         ),
           //       ],
@@ -685,7 +680,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces_1000embraces10
+          // embraces_1000embraces10
           // speakembraces10("en-US"""),
           //         ),
           //       ],
@@ -700,7 +695,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1100embraces11
+          // embraces1100embraces11
           // speakembraces11("en-US"""),
           //         ),
           //       ],
@@ -715,7 +710,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1200embraces12
+          // embraces1200embraces12
           // speakembraces12("en-US"""),
           //         ),
           //       ],
@@ -730,7 +725,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1300embraces13
+          // embraces1300embraces13
           // speakembraces13("en-US"""),
           //         ),
           //       ],
@@ -745,7 +740,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1400embraces14
+          // embraces1400embraces14
           // speakembraces14("en-US"""),
           //         ),
           //       ],
@@ -760,7 +755,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1500embraces15
+          // embraces1500embraces15
           // speakembraces15("en-US"""),
           //         ),
           //       ],
@@ -775,7 +770,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1600embraces16
+          // embraces1600embraces16
           // speakembraces16("en-US"""),
           //         ),
           //       ],
@@ -790,7 +785,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1700embraces17
+          // embraces1700embraces17
           // speakembraces17("en-US"""),
           //         ),
           //       ],
@@ -805,7 +800,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1800embraces18
+          // embraces1800embraces18
           // speakembraces18("en-US"""),
           //         ),
           //       ],
@@ -820,7 +815,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces1900embraces19
+          // embraces1900embraces19
           // speakembraces19("en-US"""),
           //         ),
           //       ],
@@ -835,7 +830,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces_2000embraces20
+          // embraces_2000embraces20
           // speakembraces20("en-US"""),
           //         ),
           //       ],
@@ -850,7 +845,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces2100embraces21
+          // embraces2100embraces21
           // speakembraces21("en-US"""),
           //         ),
           //       ],
@@ -865,7 +860,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakembraces2200embraces22
+          // embraces2200embraces22
           // speakembraces22("en-US"""),
           //         ),
           //       ],
@@ -877,8 +872,6 @@ class KurdishMeaning extends StatelessWidget {
     );
   }
 }
-
-// DOPSUM: ENGLISH MEANING
 
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
@@ -893,7 +886,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -26,8 +26,8 @@ class EnglishEntryburning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's always had a burning ambition to start his own business.");
+    await flutterTts
+        .speak("He's always had a burning ambition to start his own business.");
   }
 
   Future<void> speakburnings2(String languageCode) async {
@@ -35,8 +35,8 @@ class EnglishEntryburning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This has quickly become the burning issue of the day.");
+    await flutterTts
+        .speak("This has quickly become the burning issue of the day.");
   }
 
   Future<void> speakburnings3(String languageCode) async {
@@ -44,8 +44,7 @@ class EnglishEntryburning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt a burning sensation in her throat.");
+    await flutterTts.speak("She felt a burning sensation in her throat.");
   }
 
   Future<void> speakburnings4(String languageCode) async {
@@ -53,8 +52,8 @@ class EnglishEntryburning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People enjoy basking under the burning sun at the beach.");
+    await flutterTts
+        .speak("People enjoy basking under the burning sun at the beach.");
   }
 
   Future<void> speakburnings5(String languageCode) async {
@@ -351,8 +350,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -366,7 +363,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

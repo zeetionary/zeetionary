@@ -31,8 +31,7 @@ class EnglishEntrybout extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had been fighting after a drinking bout.");
+    await flutterTts.speak("They had been fighting after a drinking bout.");
   }
 
   Future<void> speakbouts2(String languageCode) async {
@@ -40,8 +39,8 @@ class EnglishEntrybout extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There has been a severe bout of inflation over recent months.");
+    await flutterTts
+        .speak("There has been a severe bout of inflation over recent months.");
   }
 
   Future<void> speakbouts3(String languageCode) async {
@@ -49,8 +48,7 @@ class EnglishEntrybout extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He suffered occasional bouts of depression.");
+    await flutterTts.speak("He suffered occasional bouts of depression.");
   }
 
   Future<void> speakbouts4(String languageCode) async {
@@ -58,8 +56,7 @@ class EnglishEntrybout extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I got a bad bout of the flu last winter.");
+    await flutterTts.speak("I got a bad bout of the flu last winter.");
   }
 
   Future<void> speakbouts5(String languageCode) async {
@@ -67,8 +64,8 @@ class EnglishEntrybout extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The doctor halted their bout after the ninth round.");
+    await flutterTts
+        .speak("The doctor halted their bout after the ninth round.");
   }
 
   Future<void> speakbouts6(String languageCode) async {
@@ -335,8 +332,6 @@ class EnglishEntrybout extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -350,7 +345,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

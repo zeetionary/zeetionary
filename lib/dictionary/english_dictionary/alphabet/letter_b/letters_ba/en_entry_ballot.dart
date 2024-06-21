@@ -32,8 +32,8 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The club members decided in a ballot to suspend the captain.");
+    await flutterTts
+        .speak("The club members decided in a ballot to suspend the captain.");
   }
 
   Future<void> speakballots2(String languageCode) async {
@@ -41,8 +41,7 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "What percentage of voters cast their ballots?");
+    await flutterTts.speak("What percentage of voters cast their ballots?");
   }
 
   Future<void> speakballots3(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She won 58.8% of the ballot.");
+    await flutterTts.speak("She won 58.8% of the ballot.");
   }
 
   Future<void> speakballots4(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The union balloted its members on the proposed changes.");
+    await flutterTts
+        .speak("The union balloted its members on the proposed changes.");
   }
 
   Future<void> speakballots5(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The workers balloted for a strike.");
+    await flutterTts.speak("The workers balloted for a strike.");
   }
 
   Future<void> speakballots6(String languageCode) async {
@@ -355,8 +352,6 @@ class EnglishEntryballot extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -370,7 +365,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

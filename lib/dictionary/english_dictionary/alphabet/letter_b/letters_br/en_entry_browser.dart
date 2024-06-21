@@ -26,8 +26,7 @@ class EnglishEntrybrowser extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "What do you use as your default browser?");
+    await flutterTts.speak("What do you use as your default browser?");
   }
 
   Future<void> speakbrowsers2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybrowser extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Google Chrome is the most popular browser.");
+    await flutterTts.speak("Google Chrome is the most popular browser.");
   }
 
   Future<void> speakbrowsers3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybrowser extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There were one or two browsers in the bookstore.");
+    await flutterTts.speak("There were one or two browsers in the bookstore.");
   }
 
   Future<void> speakbrowsers4(String languageCode) async {
@@ -272,8 +269,6 @@ class EnglishEntrybrowser extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -287,7 +282,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

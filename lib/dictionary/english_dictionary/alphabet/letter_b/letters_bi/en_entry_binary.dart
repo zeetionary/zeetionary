@@ -32,8 +32,7 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Computers store all data in binary code.");
+    await flutterTts.speak("Computers store all data in binary code.");
   }
 
   Future<void> speakbinarys2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's a binary choice, you either accept or you refuse.");
+    await flutterTts
+        .speak("It's a binary choice, you either accept or you refuse.");
   }
 
   Future<void> speakbinarys3(String languageCode) async {
@@ -252,8 +251,6 @@ class EnglishEntrybinary extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -267,7 +264,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

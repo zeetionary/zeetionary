@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntryderivefrom extends StatefulWidget {
@@ -258,118 +253,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("The new drug is derived from fish oil.");
   }
 
-  Future<void> speakderivefroms6(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms600");
-  }
-
-  Future<void> speakderivefroms7(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms700");
-  }
-
-  Future<void> speakderivefroms8(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms800");
-  }
-
-  Future<void> speakderivefroms9(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms900");
-  }
-
-  Future<void> speakderivefroms10(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1000");
-  }
-
-  Future<void> speakderivefroms11(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1100");
-  }
-
-  Future<void> speakderivefroms12(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1200");
-  }
-
-  Future<void> speakderivefroms13(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1300");
-  }
-
-  Future<void> speakderivefroms14(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1400");
-  }
-
-  Future<void> speakderivefroms15(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1500");
-  }
-
-  Future<void> speakderivefroms16(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1600");
-  }
-
-  Future<void> speakderivefroms17(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1700");
-  }
-
-  Future<void> speakderivefroms18(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1800");
-  }
-
-  Future<void> speakderivefroms19(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms1900");
-  }
-
   Future<void> speakderivefroms20(String languageCode) async {
     // DOPSUM: CHANGE speakderivefrom
     await flutterTts.setLanguage(languageCode);
@@ -377,22 +260,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "Wealth and position in society derived largely from land ownership.0");
-  }
-
-  Future<void> speakderivefroms21(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms2100");
-  }
-
-  Future<void> speakderivefroms22(String languageCode) async {
-    // DOPSUM: CHANGE speakderivefrom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakderivefroms2200");
   }
 
   @override
@@ -708,8 +575,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -723,7 +588,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

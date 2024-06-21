@@ -4,11 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydopsum1 extends StatefulWidget {
@@ -45,7 +40,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(),
                     VideoIconForTab(),
                   ],
                 ),
@@ -56,7 +51,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
-              const SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const SentencesFromDatabase(),
               const YoutubeVideos(),
             ],
           ),
@@ -278,7 +273,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dopsum1");
   }
 
   @override
@@ -328,7 +323,7 @@ class TTSUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dopsum1");
   }
 
   @override
@@ -352,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakdopsum1s100000000000000000000000000000000"); // DOPSUM: CHANGE TEXT
+        "// speakdopsum1s100000000000000000000000000000000");
   }
 
   Future<void> speakdopsum1s2(String languageCode) async {
@@ -360,7 +355,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s200");
   }
 
   Future<void> speakdopsum1s3(String languageCode) async {
@@ -368,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s300");
   }
 
   Future<void> speakdopsum1s4(String languageCode) async {
@@ -376,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s400");
   }
 
   Future<void> speakdopsum1s5(String languageCode) async {
@@ -384,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s500");
   }
 
   Future<void> speakdopsum1s6(String languageCode) async {
@@ -392,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s600");
   }
 
   Future<void> speakdopsum1s7(String languageCode) async {
@@ -400,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s700");
   }
 
   Future<void> speakdopsum1s8(String languageCode) async {
@@ -408,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s800");
   }
 
   Future<void> speakdopsum1s9(String languageCode) async {
@@ -416,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s900");
   }
 
   Future<void> speakdopsum1s10(String languageCode) async {
@@ -424,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s_1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s_1000");
   }
 
   Future<void> speakdopsum1s11(String languageCode) async {
@@ -432,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1100");
   }
 
   Future<void> speakdopsum1s12(String languageCode) async {
@@ -440,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1200");
   }
 
   Future<void> speakdopsum1s13(String languageCode) async {
@@ -448,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1300");
   }
 
   Future<void> speakdopsum1s14(String languageCode) async {
@@ -456,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1400");
   }
 
   Future<void> speakdopsum1s15(String languageCode) async {
@@ -464,7 +459,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1500");
   }
 
   Future<void> speakdopsum1s16(String languageCode) async {
@@ -472,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1600");
   }
 
   Future<void> speakdopsum1s17(String languageCode) async {
@@ -480,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1700");
   }
 
   Future<void> speakdopsum1s18(String languageCode) async {
@@ -488,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1800");
   }
 
   Future<void> speakdopsum1s19(String languageCode) async {
@@ -496,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s1900");
   }
 
   Future<void> speakdopsum1s20(String languageCode) async {
@@ -504,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s_2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s_2000");
   }
 
   Future<void> speakdopsum1s21(String languageCode) async {
@@ -512,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s2100");
   }
 
   Future<void> speakdopsum1s22(String languageCode) async {
@@ -520,13 +515,12 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdopsum1s2200");
   }
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
@@ -1112,8 +1106,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -1127,7 +1119,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;
@@ -1135,23 +1126,19 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak(textToSpeak);
 
-    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
   }
 
-// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
@@ -1168,7 +1155,6 @@ haʊʊʊʊʊʊʊ4
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Using the EnglishButtonTTS class
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -1176,15 +1162,12 @@ haʊʊʊʊʊʊʊ4
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),
     );
   }
 }
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedend extends StatefulWidget {
   const YoutubeEmbeddedend({super.key});
@@ -2526,7 +2509,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2300");
   // }
 
   // Future<void> speakdopsum1s24(String languageCode) async {
@@ -2534,7 +2517,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2400");
   // }
 
   // Future<void> speakdopsum1s25(String languageCode) async {
@@ -2542,7 +2525,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2500");
   // }
 
   // Future<void> speakdopsum1s26(String languageCode) async {
@@ -2550,7 +2533,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2600");
   // }
 
   // Future<void> speakdopsum1s27(String languageCode) async {
@@ -2558,7 +2541,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2700");
   // }
 
   // Future<void> speakdopsum1s28(String languageCode) async {
@@ -2566,7 +2549,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2800");
   // }
 
   // Future<void> speakdopsum1s29(String languageCode) async {
@@ -2574,7 +2557,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s2900");
   // }
 
   // Future<void> speakdopsum1s30(String languageCode) async {
@@ -2582,7 +2565,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_3000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s_3000");
   // }
 
   // Future<void> speakdopsum1s31(String languageCode) async {
@@ -2590,7 +2573,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3100"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3100");
   // }
 
   // Future<void> speakdopsum1s32(String languageCode) async {
@@ -2598,7 +2581,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3200"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3200");
   // }
 
   // Future<void> speakdopsum1s33(String languageCode) async {
@@ -2606,7 +2589,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3300");
   // }
 
   // Future<void> speakdopsum1s34(String languageCode) async {
@@ -2614,7 +2597,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3400");
   // }
 
   // Future<void> speakdopsum1s35(String languageCode) async {
@@ -2622,7 +2605,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3500");
   // }
 
   // Future<void> speakdopsum1s36(String languageCode) async {
@@ -2630,7 +2613,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3600");
   // }
 
   // Future<void> speakdopsum1s37(String languageCode) async {
@@ -2638,7 +2621,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3700");
   // }
 
   // Future<void> speakdopsum1s38(String languageCode) async {
@@ -2646,7 +2629,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3800");
   // }
 
   // Future<void> speakdopsum1s39(String languageCode) async {
@@ -2654,7 +2637,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s3900");
   // }
 
   // Future<void> speakdopsum1s40(String languageCode) async {
@@ -2662,7 +2645,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_4000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s_4000");
   // }
 
   // Future<void> speakdopsum1s41(String languageCode) async {
@@ -2670,7 +2653,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4100"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4100");
   // }
 
   // Future<void> speakdopsum1s42(String languageCode) async {
@@ -2678,7 +2661,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4200"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4200");
   // }
 
   // Future<void> speakdopsum1s43(String languageCode) async {
@@ -2686,7 +2669,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4300");
   // }
 
   // Future<void> speakdopsum1s44(String languageCode) async {
@@ -2694,7 +2677,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4400");
   // }
 
   // Future<void> speakdopsum1s45(String languageCode) async {
@@ -2702,7 +2685,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4500");
   // }
 
   // Future<void> speakdopsum1s46(String languageCode) async {
@@ -2710,7 +2693,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4600");
   // }
 
   // Future<void> speakdopsum1s47(String languageCode) async {
@@ -2718,7 +2701,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4700");
   // }
 
   // Future<void> speakdopsum1s48(String languageCode) async {
@@ -2726,7 +2709,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4800");
   // }
 
   // Future<void> speakdopsum1s49(String languageCode) async {
@@ -2734,7 +2717,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s4900");
   // }
 
   // Future<void> speakdopsum1s50(String languageCode) async {
@@ -2742,7 +2725,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_6000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s_6000");
   // }
 
   // Future<void> speakdopsum1s51(String languageCode) async {
@@ -2750,7 +2733,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5100"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5100");
   // }
 
   // Future<void> speakdopsum1s52(String languageCode) async {
@@ -2758,7 +2741,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5200"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5200");
   // }
 
   // Future<void> speakdopsum1s53(String languageCode) async {
@@ -2766,7 +2749,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5300");
   // }
 
   // Future<void> speakdopsum1s54(String languageCode) async {
@@ -2774,7 +2757,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5400");
   // }
 
   // Future<void> speakdopsum1s55(String languageCode) async {
@@ -2782,7 +2765,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5500");
   // }
 
   // Future<void> speakdopsum1s56(String languageCode) async {
@@ -2790,7 +2773,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5600");
   // }
 
   // Future<void> speakdopsum1s57(String languageCode) async {
@@ -2798,7 +2781,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5700");
   // }
 
   // Future<void> speakdopsum1s58(String languageCode) async {
@@ -2806,7 +2789,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5800");
   // }
 
   // Future<void> speakdopsum1s59(String languageCode) async {
@@ -2814,7 +2797,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s5900");
   // }
 
   // Future<void> speakdopsum1s60(String languageCode) async {
@@ -2822,7 +2805,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6000");
   // }
 
   // Future<void> speakdopsum1s61(String languageCode) async {
@@ -2830,7 +2813,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6100"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6100");
   // }
 
   // Future<void> speakdopsum1s62(String languageCode) async {
@@ -2838,7 +2821,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6200"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6200");
   // }
 
   // Future<void> speakdopsum1s63(String languageCode) async {
@@ -2846,7 +2829,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6300");
   // }
 
   // Future<void> speakdopsum1s64(String languageCode) async {
@@ -2854,7 +2837,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6400");
   // }
 
   // Future<void> speakdopsum1s65(String languageCode) async {
@@ -2862,7 +2845,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6500");
   // }
 
   // Future<void> speakdopsum1s66(String languageCode) async {
@@ -2870,7 +2853,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6600");
   // }
 
   // Future<void> speakdopsum1s67(String languageCode) async {
@@ -2878,7 +2861,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6700");
   // }
 
   // Future<void> speakdopsum1s68(String languageCode) async {
@@ -2886,7 +2869,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6800");
   // }
 
   // Future<void> speakdopsum1s69(String languageCode) async {
@@ -2894,7 +2877,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s6900");
   // }
 
   // Future<void> speakdopsum1s70(String languageCode) async {
@@ -2902,7 +2885,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_7000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s_7000");
   // }
 
   // Future<void> speakdopsum1s71(String languageCode) async {
@@ -2910,7 +2893,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7100"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7100");
   // }
 
   // Future<void> speakdopsum1s72(String languageCode) async {
@@ -2918,7 +2901,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7200"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7200");
   // }
 
   // Future<void> speakdopsum1s73(String languageCode) async {
@@ -2926,7 +2909,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7300");
   // }
 
   // Future<void> speakdopsum1s74(String languageCode) async {
@@ -2934,7 +2917,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7400");
   // }
 
   // Future<void> speakdopsum1s75(String languageCode) async {
@@ -2942,7 +2925,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7500");
   // }
 
   // Future<void> speakdopsum1s76(String languageCode) async {
@@ -2950,7 +2933,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7600");
   // }
 
   // Future<void> speakdopsum1s77(String languageCode) async {
@@ -2958,7 +2941,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7700");
   // }
 
   // Future<void> speakdopsum1s78(String languageCode) async {
@@ -2966,7 +2949,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7800");
   // }
 
   // Future<void> speakdopsum1s79(String languageCode) async {
@@ -2974,7 +2957,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s7900");
   // }
 
   // Future<void> speakdopsum1s80(String languageCode) async {
@@ -2982,7 +2965,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8000");
   // }
 
   // Future<void> speakdopsum1s81(String languageCode) async {
@@ -2990,7 +2973,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8100"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8100");
   // }
 
   // Future<void> speakdopsum1s82(String languageCode) async {
@@ -2998,7 +2981,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8200"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8200");
   // }
 
   // Future<void> speakdopsum1s83(String languageCode) async {
@@ -3006,7 +2989,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8300"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8300");
   // }
 
   // Future<void> speakdopsum1s84(String languageCode) async {
@@ -3014,7 +2997,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8400"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8400");
   // }
 
   // Future<void> speakdopsum1s85(String languageCode) async {
@@ -3022,7 +3005,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8500"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8500");
   // }
 
   // Future<void> speakdopsum1s86(String languageCode) async {
@@ -3030,7 +3013,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8600"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8600");
   // }
 
   // Future<void> speakdopsum1s87(String languageCode) async {
@@ -3038,7 +3021,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8700"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8700");
   // }
 
   // Future<void> speakdopsum1s88(String languageCode) async {
@@ -3046,7 +3029,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8800"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8800");
   // }
 
   // Future<void> speakdopsum1s89(String languageCode) async {
@@ -3054,7 +3037,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8900"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s8900");
   // }
 
   // Future<void> speakdopsum1s90(String languageCode) async {
@@ -3062,7 +3045,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s9000"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("speakdopsum1s9000");
   // }
 
 
@@ -4164,6 +4147,32 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
+          //           onPressed: () => speakdopsum1s64("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdopsum1s64("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakdopsum1s6500"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
           //           onPressed: () => speakdopsum1s65("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
@@ -4285,7 +4294,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7000"""),
+          //           ExampleSentenceEnglish(text: """speakdopsum1s_7000"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -4398,6 +4407,32 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
+          //           onPressed: () => speakdopsum1s74("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdopsum1s74("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakdopsum1s7500"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
           //           onPressed: () => speakdopsum1s75("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
@@ -4415,7 +4450,7 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7700"""),
+          //           ExampleSentenceEnglish(text: """speakdopsum1s7600"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -4468,6 +4503,32 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
           //       child: Column(
           //         children: [
           //           ExampleSentenceEnglish(text: """speakdopsum1s7800"""),
+          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdopsum1s78("en-GB"""),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdopsum1s78("en-US"""),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: """speakdopsum1s7900"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),

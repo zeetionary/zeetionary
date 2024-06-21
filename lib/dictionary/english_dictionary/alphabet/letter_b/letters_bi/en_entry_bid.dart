@@ -32,8 +32,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "At the auction, the highest bid for the picture was £200.");
+    await flutterTts
+        .speak("At the auction, the highest bid for the picture was £200.");
   }
 
   Future<void> speakbids2(String languageCode) async {
@@ -58,8 +58,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He attacked his guards in a desperate bid for freedom.");
+    await flutterTts
+        .speak("He attacked his guards in a desperate bid for freedom.");
   }
 
   Future<void> speakbids5(String languageCode) async {
@@ -67,8 +67,7 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I bid £2 000 for the painting.");
+    await flutterTts.speak("I bid £2 000 for the painting.");
   }
 
   Future<void> speakbids6(String languageCode) async {
@@ -76,8 +75,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Which other cities are bidding to host the 2028 Olympics?");
+    await flutterTts
+        .speak("Which other cities are bidding to host the 2028 Olympics?");
   }
 
   Future<void> speakbids7(String languageCode) async {
@@ -85,8 +84,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The team is bidding to retain its place in the league.");
+    await flutterTts
+        .speak("The team is bidding to retain its place in the league.");
   }
 
   Future<void> speakbids8(String languageCode) async {
@@ -94,8 +93,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I bade farewell to all the friends I had made in Paris.");
+    await flutterTts
+        .speak("I bade farewell to all the friends I had made in Paris.");
   }
 
   Future<void> speakbids9(String languageCode) async {
@@ -103,8 +102,7 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He bade her good day and left.");
+    await flutterTts.speak("He bade her good day and left.");
   }
 
   Future<void> speakbids10(String languageCode) async {
@@ -566,8 +564,6 @@ class EnglishEntrybid extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -581,7 +577,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

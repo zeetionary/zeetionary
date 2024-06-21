@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydepression extends StatefulWidget {
@@ -301,100 +296,12 @@ class KurdishMeaning extends StatelessWidget {
         .speak("Rainwater collects in shallow depressions on the ground.");
   }
 
-  Future<void> speakdepressions11(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1100");
-  }
-
-  Future<void> speakdepressions12(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1200");
-  }
-
-  Future<void> speakdepressions13(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1300");
-  }
-
-  Future<void> speakdepressions14(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1400");
-  }
-
-  Future<void> speakdepressions15(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1500");
-  }
-
-  Future<void> speakdepressions16(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1600");
-  }
-
-  Future<void> speakdepressions17(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1700");
-  }
-
-  Future<void> speakdepressions18(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1800");
-  }
-
-  Future<void> speakdepressions19(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions1900");
-  }
-
   Future<void> speakdepressions20(String languageCode) async {
     // DOPSUM: CHANGE speakdepression
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("He had a family history of depression.0");
-  }
-
-  Future<void> speakdepressions21(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions2100");
-  }
-
-  Future<void> speakdepressions22(String languageCode) async {
-    // DOPSUM: CHANGE speakdepression
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdepressions2200");
   }
 
   @override
@@ -809,8 +716,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -824,7 +729,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

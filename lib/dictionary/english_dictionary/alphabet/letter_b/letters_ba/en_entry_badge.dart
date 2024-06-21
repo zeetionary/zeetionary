@@ -32,8 +32,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a badge saying ‘Vote for Obama’.");
+    await flutterTts.speak("She wore a badge saying ‘Vote for Obama’.");
   }
 
   Future<void> speakbadges2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He pulled out a badge and said he was a cop.");
+    await flutterTts.speak("He pulled out a badge and said he was a cop.");
   }
 
   Future<void> speakbadges3(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He sewed the school badge neatly onto his uniform.");
+    await flutterTts
+        .speak("He sewed the school badge neatly onto his uniform.");
   }
 
   Future<void> speakbadges4(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His gun was a badge of power for him.");
+    await flutterTts.speak("His gun was a badge of power for him.");
   }
 
   Future<void> speakbadges5(String languageCode) async {
@@ -68,8 +65,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He saw his injuries as a badge of honour.");
+    await flutterTts.speak("He saw his injuries as a badge of honour.");
   }
 
   Future<void> speakbadges6(String languageCode) async {
@@ -352,8 +348,6 @@ class EnglishEntrybadge extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -367,7 +361,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

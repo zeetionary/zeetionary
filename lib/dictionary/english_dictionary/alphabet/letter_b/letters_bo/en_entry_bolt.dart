@@ -30,8 +30,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He slid back the bolt on the door.");
+    await flutterTts.speak("He slid back the bolt on the door.");
   }
 
   Future<void> speakbolts2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I closed the window and drew the bolt.");
+    await flutterTts.speak("I closed the window and drew the bolt.");
   }
 
   Future<void> speakbolts3(String languageCode) async {
@@ -48,8 +46,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Use a bolt and nut to fasten the parts together.");
+    await flutterTts.speak("Use a bolt and nut to fasten the parts together.");
   }
 
   Future<void> speakbolts4(String languageCode) async {
@@ -57,8 +54,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Thunder rumbled after a bright bolt of lightning.");
+    await flutterTts.speak("Thunder rumbled after a bright bolt of lightning.");
   }
 
   Future<void> speakbolts5(String languageCode) async {
@@ -66,8 +62,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The archer loaded a bolt into his crossbow.");
+    await flutterTts.speak("The archer loaded a bolt into his crossbow.");
   }
 
   Future<void> speakbolts6(String languageCode) async {
@@ -75,8 +70,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Don't forget to bolt the door.");
+    await flutterTts.speak("Don't forget to bolt the door.");
   }
 
   Future<void> speakbolts7(String languageCode) async {
@@ -84,8 +78,8 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The various parts of the car are then bolted together.");
+    await flutterTts
+        .speak("The various parts of the car are then bolted together.");
   }
 
   Future<void> speakbolts8(String languageCode) async {
@@ -93,8 +87,7 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The plane swooped down low and the horses bolted.");
+    await flutterTts.speak("The plane swooped down low and the horses bolted.");
   }
 
   Future<void> speakbolts9(String languageCode) async {
@@ -102,8 +95,8 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When he saw the police arrive, he bolted down an alley.");
+    await flutterTts
+        .speak("When he saw the police arrive, he bolted down an alley.");
   }
 
   Future<void> speakbolts10(String languageCode) async {
@@ -119,8 +112,8 @@ class EnglishEntrybolt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many Democrats bolted the party to vote Republican.");
+    await flutterTts
+        .speak("Many Democrats bolted the party to vote Republican.");
   }
 
   Future<void> speakbolts12(String languageCode) async {
@@ -594,8 +587,6 @@ class EnglishEntrybolt extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -609,7 +600,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

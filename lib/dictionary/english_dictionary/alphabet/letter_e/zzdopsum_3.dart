@@ -3,6 +3,11 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
+
+
+// Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
+
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
 

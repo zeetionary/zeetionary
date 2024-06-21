@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrychallenging extends StatelessWidget {
@@ -37,7 +32,7 @@ class EnglishEntrychallenging extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings200");
+    await flutterTts.speak("The tasks were not challenging enough for me and I got bored.");
   }
 
   Future<void> speakchallengings3(String languageCode) async {
@@ -45,87 +40,7 @@ class EnglishEntrychallenging extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings300");
-  }
-
-  Future<void> speakchallengings4(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings400");
-  }
-
-  Future<void> speakchallengings5(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings500");
-  }
-
-  Future<void> speakchallengings6(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings600");
-  }
-
-  Future<void> speakchallengings7(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings700");
-  }
-
-  Future<void> speakchallengings8(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings800");
-  }
-
-  Future<void> speakchallengings9(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings900");
-  }
-
-  Future<void> speakchallengings10(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings1000");
-  }
-
-  Future<void> speakchallengings11(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings1100");
-  }
-
-  Future<void> speakchallengings12(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings1200");
-  }
-
-  Future<void> speakchallengings13(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchallengings1300");
+    await flutterTts.speak("Dealing with challenging behaviour in school is never easy.");
   }
 
   @override
@@ -326,8 +241,6 @@ class EnglishEntrychallenging extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -341,7 +254,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -28,8 +28,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You pay less for the supermarket's own brand.");
+    await flutterTts.speak("You pay less for the supermarket's own brand.");
   }
 
   Future<void> speakbrands2(String languageCode) async {
@@ -37,8 +36,8 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Google is one of the world's most prominent brands.");
+    await flutterTts
+        .speak("Google is one of the world's most prominent brands.");
   }
 
   Future<void> speakbrands3(String languageCode) async {
@@ -46,8 +45,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("How can we build our brand?");
+    await flutterTts.speak("How can we build our brand?");
   }
 
   Future<void> speakbrands4(String languageCode) async {
@@ -55,8 +53,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They developed their own brand of communism.");
+    await flutterTts.speak("They developed their own brand of communism.");
   }
 
   Future<void> speakbrands5(String languageCode) async {
@@ -64,8 +61,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has her own unique brand of humour.");
+    await flutterTts.speak("She has her own unique brand of humour.");
   }
 
   Future<void> speakbrands6(String languageCode) async {
@@ -73,8 +69,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The brand was still visible on the animal's hide.");
+    await flutterTts.speak("The brand was still visible on the animal's hide.");
   }
 
   Future<void> speakbrands7(String languageCode) async {
@@ -91,8 +86,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Their products are branded as organic.");
+    await flutterTts.speak("Their products are branded as organic.");
   }
 
   Future<void> speakbrands9(String languageCode) async {
@@ -100,8 +94,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They were branded as liars and cheats.");
+    await flutterTts.speak("They were branded as liars and cheats.");
   }
 
   Future<void> speakbrands10(String languageCode) async {
@@ -109,8 +102,7 @@ class EnglishEntrybrand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The newspapers branded her a hypocrite.");
+    await flutterTts.speak("The newspapers branded her a hypocrite.");
   }
 
   Future<void> speakbrands11(String languageCode) async {
@@ -586,8 +578,6 @@ class EnglishEntrybrand extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -601,7 +591,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

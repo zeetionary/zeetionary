@@ -26,8 +26,7 @@ class EnglishEntrybyte extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "One kilobyte equals to 1024 bytes of information.");
+    await flutterTts.speak("One kilobyte equals to 1024 bytes of information.");
   }
 
   Future<void> speakbytes2(String languageCode) async {
@@ -255,8 +254,6 @@ class EnglishEntrybyte extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -270,7 +267,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

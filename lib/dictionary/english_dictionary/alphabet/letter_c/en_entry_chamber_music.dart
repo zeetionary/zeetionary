@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrychambermusic extends StatelessWidget {
@@ -33,102 +28,18 @@ class EnglishEntrychambermusic extends StatelessWidget {
         "Musicians often gather in informal settings to play chamber music for friends and colleagues.");
   }
 
-  Future<void> speakchambermusics2(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics200");
-  }
-
-  Future<void> speakchambermusics3(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics300");
-  }
-
-  Future<void> speakchambermusics4(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics400");
-  }
-
-  Future<void> speakchambermusics5(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics500");
-  }
-
-  Future<void> speakchambermusics6(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics600");
-  }
-
-  Future<void> speakchambermusics7(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics700");
-  }
-
-  Future<void> speakchambermusics8(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics800");
-  }
-
-  Future<void> speakchambermusics9(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics900");
-  }
-
-  Future<void> speakchambermusics10(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics1000");
-  }
-
-  Future<void> speakchambermusics11(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics1100");
-  }
-
-  Future<void> speakchambermusics12(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics1200");
-  }
-
-  Future<void> speakchambermusics13(String languageCode) async {
-    // DOPSUM: CHANGE speakchambermusic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchambermusics1300");
-  }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -267,8 +178,6 @@ class EnglishEntrychambermusic extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -282,7 +191,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

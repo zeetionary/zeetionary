@@ -34,8 +34,7 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He is tall, broad and muscular.");
+    await flutterTts.speak("He is tall, broad and muscular.");
   }
 
   Future<void> speakbroads3(String languageCode) async {
@@ -43,8 +42,7 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He turned to me with a broad smile.");
+    await flutterTts.speak("He turned to me with a broad smile.");
   }
 
   Future<void> speakbroads4(String languageCode) async {
@@ -52,8 +50,7 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We drove down a broad avenue lined with trees.");
+    await flutterTts.speak("We drove down a broad avenue lined with trees.");
   }
 
   Future<void> speakbroads5(String languageCode) async {
@@ -61,8 +58,8 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The wardrobe stands at one metre broad and two metres high.");
+    await flutterTts
+        .speak("The wardrobe stands at one metre broad and two metres high.");
   }
 
   Future<void> speakbroads6(String languageCode) async {
@@ -70,8 +67,8 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The course caters for a broad spectrum of interests.");
+    await flutterTts
+        .speak("The course caters for a broad spectrum of interests.");
   }
 
   Future<void> speakbroads7(String languageCode) async {
@@ -79,8 +76,8 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is broad support for the government's policies.");
+    await flutterTts
+        .speak("There is broad support for the government's policies.");
   }
 
   Future<void> speakbroads8(String languageCode) async {
@@ -88,8 +85,8 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She took a broad view of the duties of being a teacher.");
+    await flutterTts
+        .speak("She took a broad view of the duties of being a teacher.");
   }
 
   Future<void> speakbroads9(String languageCode) async {
@@ -106,8 +103,8 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The negotiators were in broad agreement on the main issues.");
+    await flutterTts
+        .speak("The negotiators were in broad agreement on the main issues.");
   }
 
   Future<void> speakbroads11(String languageCode) async {
@@ -124,8 +121,8 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The broad plains of the American West are hard to cross.");
+    await flutterTts
+        .speak("The broad plains of the American West are hard to cross.");
   }
 
   Future<void> speakbroads13(String languageCode) async {
@@ -133,8 +130,7 @@ class EnglishEntrybroad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He spoke with a broad Australian accent.");
+    await flutterTts.speak("He spoke with a broad Australian accent.");
   }
 
   Future<void> speakbroads14(String languageCode) async {
@@ -807,8 +803,6 @@ class EnglishEntrybroad extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -822,7 +816,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

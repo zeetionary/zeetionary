@@ -28,8 +28,8 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He wore a knee brace to support his injured joint.");
+    await flutterTts
+        .speak("He wore a knee brace to support his injured joint.");
   }
 
   Future<void> speakbraces2(String languageCode) async {
@@ -37,8 +37,8 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was recently fitted with a brace for his bad back.");
+    await flutterTts
+        .speak("He was recently fitted with a brace for his bad back.");
   }
 
   Future<void> speakbraces3(String languageCode) async {
@@ -46,8 +46,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My daughter has to wear a brace on her teeth.");
+    await flutterTts.speak("My daughter has to wear a brace on her teeth.");
   }
 
   Future<void> speakbraces4(String languageCode) async {
@@ -55,8 +54,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had braces on his teeth.");
+    await flutterTts.speak("He had braces on his teeth.");
   }
 
   Future<void> speakbraces5(String languageCode) async {
@@ -64,8 +62,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The braces held up his trousers.");
+    await flutterTts.speak("The braces held up his trousers.");
   }
 
   Future<void> speakbraces6(String languageCode) async {
@@ -73,8 +70,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In mathematics, a brace is used to denote a set.");
+    await flutterTts.speak("In mathematics, a brace is used to denote a set.");
   }
 
   Future<void> speakbraces7(String languageCode) async {
@@ -82,8 +78,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The farmer raised a brace of goats on his farm.");
+    await flutterTts.speak("The farmer raised a brace of goats on his farm.");
   }
 
   Future<void> speakbraces8(String languageCode) async {
@@ -91,8 +86,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "UN troops are braced for more violence.");
+    await flutterTts.speak("UN troops are braced for more violence.");
   }
 
   Future<void> speakbraces9(String languageCode) async {
@@ -100,8 +94,8 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They are bracing themselves for a long legal battle.");
+    await flutterTts
+        .speak("They are bracing themselves for a long legal battle.");
   }
 
   Future<void> speakbraces10(String languageCode) async {
@@ -109,8 +103,7 @@ class EnglishEntrybrace extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They braced themselves against the wind.");
+    await flutterTts.speak("They braced themselves against the wind.");
   }
 
   Future<void> speakbraces11(String languageCode) async {
@@ -681,8 +674,6 @@ class EnglishEntrybrace extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -696,7 +687,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

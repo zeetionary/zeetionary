@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydegree extends StatefulWidget {
@@ -340,38 +335,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("He took a degree in law then joined a law firm.");
   }
 
-  Future<void> speakdegrees16(String languageCode) async {
-    // DOPSUM: CHANGE speakdegree
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegrees1600");
-  }
-
-  Future<void> speakdegrees17(String languageCode) async {
-    // DOPSUM: CHANGE speakdegree
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegrees1700");
-  }
-
-  Future<void> speakdegrees18(String languageCode) async {
-    // DOPSUM: CHANGE speakdegree
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegrees1800");
-  }
-
-  Future<void> speakdegrees19(String languageCode) async {
-    // DOPSUM: CHANGE speakdegree
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegrees1900");
-  }
-
   Future<void> speakdegrees20(String languageCode) async {
     // DOPSUM: CHANGE speakdegree
     await flutterTts.setLanguage(languageCode);
@@ -379,22 +342,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
         .speak("Temperatures are expected to drop below 2 degrees.0");
-  }
-
-  Future<void> speakdegrees21(String languageCode) async {
-    // DOPSUM: CHANGE speakdegree
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegrees2100");
-  }
-
-  Future<void> speakdegrees22(String languageCode) async {
-    // DOPSUM: CHANGE speakdegree
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegrees2200");
   }
 
   @override
@@ -895,8 +842,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -910,7 +855,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

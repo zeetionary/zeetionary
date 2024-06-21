@@ -26,8 +26,7 @@ class EnglishEntryburrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Rabbits had burrowed under the fence.");
+    await flutterTts.speak("Rabbits had burrowed under the fence.");
   }
 
   Future<void> speakburrows2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntryburrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Earthworms burrow deep into the soil.");
+    await flutterTts.speak("Earthworms burrow deep into the soil.");
   }
 
   Future<void> speakburrows3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntryburrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He burrowed down beneath the blankets.");
+    await flutterTts.speak("He burrowed down beneath the blankets.");
   }
 
   Future<void> speakburrows4(String languageCode) async {
@@ -53,8 +50,7 @@ class EnglishEntryburrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She burrowed her face into his chest.");
+    await flutterTts.speak("She burrowed her face into his chest.");
   }
 
   Future<void> speakburrows5(String languageCode) async {
@@ -62,8 +58,8 @@ class EnglishEntryburrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was afraid that they would burrow into his past.");
+    await flutterTts
+        .speak("He was afraid that they would burrow into his past.");
   }
 
   Future<void> speakburrows6(String languageCode) async {
@@ -409,8 +405,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -424,7 +418,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

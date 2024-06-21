@@ -26,8 +26,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She put the baby to her breast.");
+    await flutterTts.speak("She put the baby to her breast.");
   }
 
   Future<void> speakbreasts2(String languageCode) async {
@@ -44,8 +43,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She had breast-augmentation surgery.");
+    await flutterTts.speak("She had breast-augmentation surgery.");
   }
 
   Future<void> speakbreasts4(String languageCode) async {
@@ -53,8 +51,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Getting breast implants entails major surgery.");
+    await flutterTts.speak("Getting breast implants entails major surgery.");
   }
 
   Future<void> speakbreasts5(String languageCode) async {
@@ -71,8 +68,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She discovered a lump in her breast.");
+    await flutterTts.speak("She discovered a lump in her breast.");
   }
 
   Future<void> speakbreasts7(String languageCode) async {
@@ -80,8 +76,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He cradled the child against his breast.");
+    await flutterTts.speak("He cradled the child against his breast.");
   }
 
   Future<void> speakbreasts8(String languageCode) async {
@@ -89,8 +84,8 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A row of medals was pinned to the breast of his coat.");
+    await flutterTts
+        .speak("A row of medals was pinned to the breast of his coat.");
   }
 
   Future<void> speakbreasts9(String languageCode) async {
@@ -98,8 +93,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The robin has a red breast.");
+    await flutterTts.speak("The robin has a red breast.");
   }
 
   Future<void> speakbreasts10(String languageCode) async {
@@ -107,8 +101,8 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I had a cold chicken breast and a salad for lunch.");
+    await flutterTts
+        .speak("I had a cold chicken breast and a salad for lunch.");
   }
 
   Future<void> speakbreasts11(String languageCode) async {
@@ -125,8 +119,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A feeling of love surged in his breast.");
+    await flutterTts.speak("A feeling of love surged in his breast.");
   }
 
   Future<void> speakbreasts13(String languageCode) async {
@@ -143,8 +136,7 @@ class EnglishEntrybreast extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I watched him breast the wave.");
+    await flutterTts.speak("I watched him breast the wave.");
   }
 
   Future<void> speakbreasts15(String languageCode) async {
@@ -768,8 +760,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -783,7 +773,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

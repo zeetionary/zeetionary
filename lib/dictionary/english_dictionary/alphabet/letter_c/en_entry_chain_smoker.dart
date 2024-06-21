@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrychainsmoker extends StatelessWidget {
@@ -33,102 +28,18 @@ class EnglishEntrychainsmoker extends StatelessWidget {
         "He used to be a chain-smoker, but he has now given up smoking.");
   }
 
-  Future<void> speakchainsmokers2(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers200");
-  }
-
-  Future<void> speakchainsmokers3(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers300");
-  }
-
-  Future<void> speakchainsmokers4(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers400");
-  }
-
-  Future<void> speakchainsmokers5(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers500");
-  }
-
-  Future<void> speakchainsmokers6(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers600");
-  }
-
-  Future<void> speakchainsmokers7(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers700");
-  }
-
-  Future<void> speakchainsmokers8(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers800");
-  }
-
-  Future<void> speakchainsmokers9(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers900");
-  }
-
-  Future<void> speakchainsmokers10(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers1000");
-  }
-
-  Future<void> speakchainsmokers11(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers1100");
-  }
-
-  Future<void> speakchainsmokers12(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers1200");
-  }
-
-  Future<void> speakchainsmokers13(String languageCode) async {
-    // DOPSUM: CHANGE speakchainsmoker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchainsmokers1300");
-  }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -262,8 +173,6 @@ class EnglishEntrychainsmoker extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -277,7 +186,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -4,11 +4,6 @@ import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydependent extends StatefulWidget {
@@ -289,94 +284,6 @@ class KurdishMeaning extends StatelessWidget {
         "The word ‘because’ forces the clause to be dependent on some other main clause.");
   }
 
-  Future<void> speakdependents9(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents900");
-  }
-
-  Future<void> speakdependents10(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1000");
-  }
-
-  Future<void> speakdependents11(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1100");
-  }
-
-  Future<void> speakdependents12(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1200");
-  }
-
-  Future<void> speakdependents13(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1300");
-  }
-
-  Future<void> speakdependents14(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1400");
-  }
-
-  Future<void> speakdependents15(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1500");
-  }
-
-  Future<void> speakdependents16(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1600");
-  }
-
-  Future<void> speakdependents17(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1700");
-  }
-
-  Future<void> speakdependents18(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1800");
-  }
-
-  Future<void> speakdependents19(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents1900");
-  }
-
   Future<void> speakdependents20(String languageCode) async {
     // DOPSUM: CHANGE speakdependent
     await flutterTts.setLanguage(languageCode);
@@ -384,22 +291,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "The festival is heavily dependent on sponsorship for its success.0");
-  }
-
-  Future<void> speakdependents21(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents2100");
-  }
-
-  Future<void> speakdependents22(String languageCode) async {
-    // DOPSUM: CHANGE speakdependent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdependents2200");
   }
 
   @override
@@ -800,8 +691,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -815,7 +704,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -35,8 +35,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cleaner put down his mop and bucket and sat down.");
+    await flutterTts
+        .speak("The cleaner put down his mop and bucket and sat down.");
   }
 
   Future<void> speakbuckets3(String languageCode) async {
@@ -44,8 +44,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The excavator's bucket scooped up the loose earth.");
+    await flutterTts
+        .speak("The excavator's bucket scooped up the loose earth.");
   }
 
   Future<void> speakbuckets4(String languageCode) async {
@@ -53,8 +53,7 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They used to drink tea by the bucketful.");
+    await flutterTts.speak("They used to drink tea by the bucketful.");
   }
 
   Future<void> speakbuckets5(String languageCode) async {
@@ -62,8 +61,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She poured the bucket of dirty water down the drain.");
+    await flutterTts
+        .speak("She poured the bucket of dirty water down the drain.");
   }
 
   Future<void> speakbuckets6(String languageCode) async {
@@ -71,8 +70,7 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was sweating buckets by the end of the race.");
+    await flutterTts.speak("He was sweating buckets by the end of the race.");
   }
 
   Future<void> speakbuckets7(String languageCode) async {
@@ -360,8 +358,6 @@ class EnglishEntrybucket extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -375,7 +371,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

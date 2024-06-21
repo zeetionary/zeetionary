@@ -26,8 +26,8 @@ class EnglishEntrybreed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many animals breed only at certain times of the year.");
+    await flutterTts
+        .speak("Many animals breed only at certain times of the year.");
   }
 
   Future<void> speakbreeds2(String languageCode) async {
@@ -35,8 +35,7 @@ class EnglishEntrybreed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The rabbits are bred for their long coats.");
+    await flutterTts.speak("The rabbits are bred for their long coats.");
   }
 
   Future<void> speakbreeds3(String languageCode) async {
@@ -53,8 +52,8 @@ class EnglishEntrybreed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Fear of failure was bred into him at an early age.");
+    await flutterTts
+        .speak("Fear of failure was bred into him at an early age.");
   }
 
   Future<void> speakbreeds5(String languageCode) async {
@@ -62,8 +61,8 @@ class EnglishEntrybreed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This breed is used for both milk and meat production.");
+    await flutterTts
+        .speak("This breed is used for both milk and meat production.");
   }
 
   Future<void> speakbreeds6(String languageCode) async {
@@ -71,8 +70,7 @@ class EnglishEntrybreed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He represents a new breed of politician.");
+    await flutterTts.speak("He represents a new breed of politician.");
   }
 
   Future<void> speakbreeds7(String languageCode) async {
@@ -80,8 +78,8 @@ class EnglishEntrybreed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It takes a special breed of person to be a surgeon.");
+    await flutterTts
+        .speak("It takes a special breed of person to be a surgeon.");
   }
 
   @override
@@ -395,8 +393,6 @@ class EnglishEntrybreed extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -410,7 +406,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -30,8 +30,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He blinked in the bright sunlight.");
+    await flutterTts.speak("He blinked in the bright sunlight.");
   }
 
   Future<void> speakblinks2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'll be back before you can blink.");
+    await flutterTts.speak("I'll be back before you can blink.");
   }
 
   Future<void> speakblinks3(String languageCode) async {
@@ -48,8 +46,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When I told him the news he didn't even blink.");
+    await flutterTts.speak("When I told him the news he didn't even blink.");
   }
 
   Future<void> speakblinks4(String languageCode) async {
@@ -57,8 +54,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Suddenly a warning light blinked.");
+    await flutterTts.speak("Suddenly a warning light blinked.");
   }
 
   Future<void> speakblinks5(String languageCode) async {
@@ -66,8 +62,7 @@ class EnglishEntryblink extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was observing her every blink.");
+    await flutterTts.speak("He was observing her every blink.");
   }
 
   Future<void> speakblinks6(String languageCode) async {
@@ -335,8 +330,6 @@ class EnglishEntryblink extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -350,7 +343,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

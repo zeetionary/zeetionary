@@ -26,8 +26,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her eyes were bright with tears.");
+    await flutterTts.speak("Her eyes were bright with tears.");
   }
 
   Future<void> speakbrights2(String languageCode) async {
@@ -35,8 +34,8 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All of these stars are bigger and brighter than our sun.");
+    await flutterTts
+        .speak("All of these stars are bigger and brighter than our sun.");
   }
 
   Future<void> speakbrights3(String languageCode) async {
@@ -53,8 +52,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The sky was still bright in the west.");
+    await flutterTts.speak("The sky was still bright in the west.");
   }
 
   Future<void> speakbrights5(String languageCode) async {
@@ -62,8 +60,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("This colour is a bit bright, isn't ?");
+    await flutterTts.speak("This colour is a bit bright, isn't ?");
   }
 
   Future<void> speakbrights6(String languageCode) async {
@@ -71,8 +68,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Leslie always wears bright colours.");
+    await flutterTts.speak("Leslie always wears bright colours.");
   }
 
   Future<void> speakbrights7(String languageCode) async {
@@ -80,8 +76,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This young musician has a bright future.");
+    await flutterTts.speak("This young musician has a bright future.");
   }
 
   Future<void> speakbrights8(String languageCode) async {
@@ -89,8 +84,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Prospects for the coming year look bright.");
+    await flutterTts.speak("Prospects for the coming year look bright.");
   }
 
   Future<void> speakbrights9(String languageCode) async {
@@ -98,8 +92,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Do you have any bright ideas?");
+    await flutterTts.speak("Do you have any bright ideas?");
   }
 
   Future<void> speakbrights10(String languageCode) async {
@@ -107,8 +100,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Thomas is an exceptionally bright boy.");
+    await flutterTts.speak("Thomas is an exceptionally bright boy.");
   }
 
   Future<void> speakbrights11(String languageCode) async {
@@ -116,8 +108,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She gave me a bright smile.");
+    await flutterTts.speak("She gave me a bright smile.");
   }
 
   Future<void> speakbrights12(String languageCode) async {
@@ -125,8 +116,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His face was bright with excitement.");
+    await flutterTts.speak("His face was bright with excitement.");
   }
 
   Future<void> speakbrights13(String languageCode) async {
@@ -134,8 +124,7 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The stars were shining bright.");
+    await flutterTts.speak("The stars were shining bright.");
   }
 
   Future<void> speakbrights14(String languageCode) async {
@@ -143,8 +132,8 @@ class EnglishEntrybright extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You can't just go around driving with your brights on.");
+    await flutterTts
+        .speak("You can't just go around driving with your brights on.");
   }
 
   Future<void> speakbrights15(String languageCode) async {
@@ -791,8 +780,6 @@ class EnglishEntrybright extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -806,7 +793,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

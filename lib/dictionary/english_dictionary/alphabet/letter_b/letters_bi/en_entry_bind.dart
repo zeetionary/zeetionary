@@ -40,8 +40,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They bound his hands together.");
+    await flutterTts.speak("They bound his hands together.");
   }
 
   Future<void> speakbinds3(String languageCode) async {
@@ -49,8 +48,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The prisoner was bound hand and foot.");
+    await flutterTts.speak("The prisoner was bound hand and foot.");
   }
 
   Future<void> speakbinds4(String languageCode) async {
@@ -75,8 +73,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had been bound to secrecy.");
+    await flutterTts.speak("He had been bound to secrecy.");
   }
 
   Future<void> speakbinds7(String languageCode) async {
@@ -84,8 +81,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Add an egg yolk to make the mixture bind.");
+    await flutterTts.speak("Add an egg yolk to make the mixture bind.");
   }
 
   Future<void> speakbinds8(String languageCode) async {
@@ -102,8 +98,8 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The edges of the carpet are bound to stop them fraying.");
+    await flutterTts
+        .speak("The edges of the carpet are bound to stop them fraying.");
   }
 
   Future<void> speakbinds10(String languageCode) async {
@@ -111,8 +107,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Borrowing money may put you in a real bind.");
+    await flutterTts.speak("Borrowing money may put you in a real bind.");
   }
 
   Future<void> speakbinds11(String languageCode) async {
@@ -598,8 +593,6 @@ class EnglishEntrybind extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -613,7 +606,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

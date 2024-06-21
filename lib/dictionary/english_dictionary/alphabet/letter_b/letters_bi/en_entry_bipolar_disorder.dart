@@ -32,8 +32,8 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "At age 13 she was diagnosed with bipolar disorder.");
+    await flutterTts
+        .speak("At age 13 she was diagnosed with bipolar disorder.");
   }
 
   Future<void> speakbipolardisorders2(String languageCode) async {
@@ -224,8 +224,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -239,7 +237,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

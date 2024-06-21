@@ -41,8 +41,8 @@ class EnglishEntrybacteria extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These beneficial bacteria naturally reside in the intestines.");
+    await flutterTts
+        .speak("These beneficial bacteria naturally reside in the intestines.");
   }
 
   Future<void> speakbacterias3(String languageCode) async {
@@ -249,8 +249,6 @@ class EnglishEntrybacteria extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -264,7 +262,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

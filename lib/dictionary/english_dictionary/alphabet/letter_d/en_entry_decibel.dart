@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydecibel extends StatefulWidget {
@@ -233,94 +228,6 @@ class KurdishMeaning extends StatelessWidget {
         "Gary’s voice rose several decibels as he finally lost patience with them.");
   }
 
-  Future<void> speakdecibels3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels300");
-  }
-
-  Future<void> speakdecibels4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels400");
-  }
-
-  Future<void> speakdecibels5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels500");
-  }
-
-  Future<void> speakdecibels6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels600");
-  }
-
-  Future<void> speakdecibels7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels700");
-  }
-
-  Future<void> speakdecibels8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels800");
-  }
-
-  Future<void> speakdecibels9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels900");
-  }
-
-  Future<void> speakdecibels10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels1000");
-  }
-
-  Future<void> speakdecibels11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels1100");
-  }
-
-  Future<void> speakdecibels12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels1200");
-  }
-
-  Future<void> speakdecibels13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecibel
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecibels1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -392,8 +299,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -407,7 +312,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

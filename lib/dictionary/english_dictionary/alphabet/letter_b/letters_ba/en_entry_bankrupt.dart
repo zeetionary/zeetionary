@@ -32,8 +32,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She lost the house after she was made bankrupt.");
+    await flutterTts.speak("She lost the house after she was made bankrupt.");
   }
 
   Future<void> speakbankrupts2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "After the war, Britain was weary and bankrupt.");
+    await flutterTts.speak("After the war, Britain was weary and bankrupt.");
   }
 
   Future<void> speakbankrupts3(String languageCode) async {
@@ -50,8 +48,8 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He believes that modern society is morally bankrupt.");
+    await flutterTts
+        .speak("He believes that modern society is morally bankrupt.");
   }
 
   Future<void> speakbankrupts4(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He later became Britain’s biggest bankrupt.");
+    await flutterTts.speak("He later became Britain’s biggest bankrupt.");
   }
 
   Future<void> speakbankrupts5(String languageCode) async {
@@ -68,8 +65,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They feared that the loss would bankrupt them.");
+    await flutterTts.speak("They feared that the loss would bankrupt them.");
   }
 
   Future<void> speakbankrupts6(String languageCode) async {
@@ -355,8 +351,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -370,7 +364,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

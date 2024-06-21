@@ -30,8 +30,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You're not blowing hard enough!");
+    await flutterTts.speak("You're not blowing hard enough!");
   }
 
   Future<void> speakblows2(String languageCode) async {
@@ -39,8 +38,8 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The policeman asked me to blow into the breathalyser.");
+    await flutterTts
+        .speak("The policeman asked me to blow into the breathalyser.");
   }
 
   Future<void> speakblows3(String languageCode) async {
@@ -48,8 +47,8 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He drew on his cigarette and blew out a stream of smoke.");
+    await flutterTts
+        .speak("He drew on his cigarette and blew out a stream of smoke.");
   }
 
   Future<void> speakblows4(String languageCode) async {
@@ -57,8 +56,8 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The birds were singing and a warm wind was blowing.");
+    await flutterTts
+        .speak("The birds were singing and a warm wind was blowing.");
   }
 
   Future<void> speakblows5(String languageCode) async {
@@ -66,8 +65,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A cold wind blew from the east.");
+    await flutterTts.speak("A cold wind blew from the east.");
   }
 
   Future<void> speakblows6(String languageCode) async {
@@ -83,8 +81,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She blew the dust off the book.");
+    await flutterTts.speak("She blew the dust off the book.");
   }
 
   Future<void> speakblows8(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The referee blew his whistle.");
+    await flutterTts.speak("The referee blew his whistle.");
   }
 
   Future<void> speakblows9(String languageCode) async {
@@ -101,8 +97,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She grabbed a tissue and loudly blew her nose.");
+    await flutterTts.speak("She grabbed a tissue and loudly blew her nose.");
   }
 
   Future<void> speakblows10(String languageCode) async {
@@ -119,8 +114,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She blew bubbles with a bubble wand.");
+    await flutterTts.speak("She blew bubbles with a bubble wand.");
   }
 
   Future<void> speakblows12(String languageCode) async {
@@ -128,8 +122,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The car spun out of control when a tyre blew.");
+    await flutterTts.speak("The car spun out of control when a tyre blew.");
   }
 
   Future<void> speakblows13(String languageCode) async {
@@ -137,8 +130,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The safe had been blown by the thieves.");
+    await flutterTts.speak("The safe had been blown by the thieves.");
   }
 
   Future<void> speakblows14(String languageCode) async {
@@ -146,8 +138,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("One mistake could blow your cover.");
+    await flutterTts.speak("One mistake could blow your cover.");
   }
 
   Future<void> speakblows15(String languageCode) async {
@@ -164,8 +155,8 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She blew her chances by arriving late for the interview.");
+    await flutterTts
+        .speak("She blew her chances by arriving late for the interview.");
   }
 
   Future<void> speakblows17(String languageCode) async {
@@ -173,8 +164,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Blow it! We've missed the bus.");
+    await flutterTts.speak("Blow it! We've missed the bus.");
   }
 
   Future<void> speakblows18(String languageCode) async {
@@ -182,8 +172,8 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm blowed if I'm going to let him treat you like that.");
+    await flutterTts
+        .speak("I'm blowed if I'm going to let him treat you like that.");
   }
 
   Future<void> speakblows19(String languageCode) async {
@@ -199,8 +189,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The two men were exchanging blows.");
+    await flutterTts.speak("The two men were exchanging blows.");
   }
 
   Future<void> speakblows21(String languageCode) async {
@@ -208,8 +197,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He landed a blow on Jim's nose.");
+    await flutterTts.speak("He landed a blow on Jim's nose.");
   }
 
   Future<void> speakblows22(String languageCode) async {
@@ -217,8 +205,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Losing his job came as a terrible blow to him.");
+    await flutterTts.speak("Losing his job came as a terrible blow to him.");
   }
 
   Future<void> speakblows23(String languageCode) async {
@@ -226,8 +213,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("It was a shattering blow to her pride.");
+    await flutterTts.speak("It was a shattering blow to her pride.");
   }
 
   Future<void> speakblows24(String languageCode) async {
@@ -235,8 +221,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The news came as a bitter blow to the staff.");
+    await flutterTts.speak("The news came as a bitter blow to the staff.");
   }
 
   Future<void> speakblows25(String languageCode) async {
@@ -244,8 +229,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Try to put the candles out in one blow.");
+    await flutterTts.speak("Try to put the candles out in one blow.");
   }
 
   Future<void> speakblows26(String languageCode) async {
@@ -253,8 +237,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Give your nose a good blow.");
+    await flutterTts.speak("Give your nose a good blow.");
   }
 
   Future<void> speakblows27(String languageCode) async {
@@ -262,8 +245,7 @@ class EnglishEntryblow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Blow! I completely forgot it.");
+    await flutterTts.speak("Blow! I completely forgot it.");
   }
 
   Future<void> speakblows28(String languageCode) async {
@@ -1178,8 +1160,6 @@ class EnglishEntryblow extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -1193,7 +1173,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

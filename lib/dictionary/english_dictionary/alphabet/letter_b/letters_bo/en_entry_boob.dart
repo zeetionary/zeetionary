@@ -30,8 +30,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a low-cut dress, revealing her boobs.");
+    await flutterTts.speak("She wore a low-cut dress, revealing her boobs.");
   }
 
   Future<void> speakboobs2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The swimsuit showcased her toned boobs.");
+    await flutterTts.speak("The swimsuit showcased her toned boobs.");
   }
 
   Future<void> speakboobs3(String languageCode) async {
@@ -48,8 +46,8 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The comedian joked about his obsession with boobs.");
+    await flutterTts
+        .speak("The comedian joked about his obsession with boobs.");
   }
 
   Future<void> speakboobs4(String languageCode) async {
@@ -57,8 +55,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dress emphasized her cleavage and boobs.");
+    await flutterTts.speak("The dress emphasized her cleavage and boobs.");
   }
 
   Future<void> speakboobs5(String languageCode) async {
@@ -66,8 +63,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You know her - blonde hair and big boobs.");
+    await flutterTts.speak("You know her - blonde hair and big boobs.");
   }
 
   Future<void> speakboobs6(String languageCode) async {
@@ -75,8 +71,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I made a bit of a boob deleting that file.");
+    await flutterTts.speak("I made a bit of a boob deleting that file.");
   }
 
   Future<void> speakboobs7(String languageCode) async {
@@ -84,8 +79,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't be such a boob; think before you act.");
+    await flutterTts.speak("Don't be such a boob; think before you act.");
   }
 
   Future<void> speakboobs8(String languageCode) async {
@@ -93,8 +87,7 @@ class EnglishEntryboob extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I boobed by forgetting the meeting.");
+    await flutterTts.speak("I boobed by forgetting the meeting.");
   }
 
   Future<void> speakboobs9(String languageCode) async {
@@ -509,8 +502,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -524,7 +515,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

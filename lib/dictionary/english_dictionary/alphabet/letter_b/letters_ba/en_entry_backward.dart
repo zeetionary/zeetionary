@@ -32,8 +32,7 @@ class EnglishEntrybackward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She left without a backward glance.");
+    await flutterTts.speak("She left without a backward glance.");
   }
 
   Future<void> speakbackwards2(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntrybackward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She's not backward in coming forward.");
+    await flutterTts.speak("She's not backward in coming forward.");
   }
 
   Future<void> speakbackwards4(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntrybackward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When he was a child, his teachers thought he was backward.");
+    await flutterTts
+        .speak("When he was a child, his teachers thought he was backward.");
   }
 
   Future<void> speakbackwards5(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntrybackward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People still think of it as a backward country.");
+    await flutterTts.speak("People still think of it as a backward country.");
   }
 
   Future<void> speakbackwards6(String languageCode) async {
@@ -85,8 +82,8 @@ class EnglishEntrybackward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In the movie they take a journey backward through time.");
+    await flutterTts
+        .speak("In the movie they take a journey backward through time.");
   }
 
   Future<void> speakbackwards8(String languageCode) async {
@@ -523,8 +520,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -538,7 +533,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

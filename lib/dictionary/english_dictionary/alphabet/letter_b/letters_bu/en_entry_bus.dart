@@ -26,8 +26,7 @@ class EnglishEntrybus extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Shall we walk or go by bus?");
+    await flutterTts.speak("Shall we walk or go by bus?");
   }
 
   Future<void> speakbuss2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybus extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I didn't want to get on the wrong bus.");
+    await flutterTts.speak("I didn't want to get on the wrong bus.");
   }
 
   Future<void> speakbuss3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybus extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many students board the school bus before 7 a.m.");
+    await flutterTts.speak("Many students board the school bus before 7 a.m.");
   }
 
   Future<void> speakbuss4(String languageCode) async {
@@ -53,8 +50,7 @@ class EnglishEntrybus extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We were bussed from the airport to our hotel.");
+    await flutterTts.speak("We were bussed from the airport to our hotel.");
   }
 
   Future<void> speakbuss5(String languageCode) async {
@@ -62,8 +58,7 @@ class EnglishEntrybus extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He buses tables to help finance his tuition.");
+    await flutterTts.speak("He buses tables to help finance his tuition.");
   }
 
   Future<void> speakbuss6(String languageCode) async {
@@ -383,8 +378,6 @@ class EnglishEntrybus extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -398,7 +391,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

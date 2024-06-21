@@ -26,8 +26,8 @@ class EnglishEntrybuffer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She often had to act as a buffer between father and son.");
+    await flutterTts
+        .speak("She often had to act as a buffer between father and son.");
   }
 
   Future<void> speakbuffers2(String languageCode) async {
@@ -61,8 +61,7 @@ class EnglishEntrybuffer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He tried to buffer her from the bad news.");
+    await flutterTts.speak("He tried to buffer her from the bad news.");
   }
 
   Future<void> speakbuffers6(String languageCode) async {
@@ -79,8 +78,7 @@ class EnglishEntrybuffer extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Efforts were made to buffer the effects.");
+    await flutterTts.speak("Efforts were made to buffer the effects.");
   }
 
   @override
@@ -393,8 +391,6 @@ class EnglishEntrybuffer extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -408,7 +404,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

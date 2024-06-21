@@ -4,11 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntryearn extends StatefulWidget {
@@ -45,7 +40,7 @@ class _EnglishEntryearnState extends State<EnglishEntryearn> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(),
                     VideoIconForTab(),
                   ],
                 ),
@@ -56,7 +51,7 @@ class _EnglishEntryearnState extends State<EnglishEntryearn> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
-              const SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const SentencesFromDatabase(),
               const YoutubeVideos(),
             ],
           ),
@@ -483,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns200earns2("en-GB" ""),
+          // earns200earns2("en-GB" ""),
           //         ),
           //         CustomIconButtonAmerican(
           //           onPressed: () => speakearns2("en-US" ""),
@@ -767,7 +762,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1200earns12
+          // earns1200earns12
           // speakearns12("en-US"""),
           //         ),
           //       ],
@@ -782,7 +777,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1300earns13
+          // earns1300earns13
           // speakearns13("en-US"""),
           //         ),
           //       ],
@@ -797,7 +792,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1400earns14
+          // earns1400earns14
           // speakearns14("en-US"""),
           //         ),
           //       ],
@@ -812,7 +807,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1500earns15
+          // earns1500earns15
           // speakearns15("en-US"""),
           //         ),
           //       ],
@@ -827,7 +822,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1600earns16
+          // earns1600earns16
           // speakearns16("en-US"""),
           //         ),
           //       ],
@@ -842,7 +837,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1700earns17
+          // earns1700earns17
           // speakearns17("en-US"""),
           //         ),
           //       ],
@@ -857,7 +852,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1800earns18
+          // earns1800earns18
           // speakearns18("en-US"""),
           //         ),
           //       ],
@@ -872,7 +867,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns1900earns19
+          // earns1900earns19
           // speakearns19("en-US"""),
           //         ),
           //       ],
@@ -887,7 +882,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns_2000earns20
+          // earns_2000earns20
           // speakearns20("en-US"""),
           //         ),
           //       ],
@@ -902,7 +897,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns2100earns21
+          // earns2100earns21
           // speakearns21("en-US"""),
           //         ),
           //       ],
@@ -917,7 +912,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakearns2200earns22
+          // earns2200earns22
           // speakearns22("en-US"""),
           //         ),
           //       ],
@@ -929,8 +924,6 @@ class KurdishMeaning extends StatelessWidget {
     );
   }
 }
-
-// DOPSUM: ENGLISH MEANING
 
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
@@ -945,7 +938,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

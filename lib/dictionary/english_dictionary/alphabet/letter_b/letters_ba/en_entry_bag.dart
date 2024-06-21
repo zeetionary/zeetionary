@@ -32,8 +32,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was carrying a heavy bag of groceries.");
+    await flutterTts.speak("He was carrying a heavy bag of groceries.");
   }
 
   Future<void> speakbags2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She tipped out the contents of her bag.");
+    await flutterTts.speak("She tipped out the contents of her bag.");
   }
 
   Future<void> speakbags3(String languageCode) async {
@@ -50,8 +48,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I packed my bags and left for the airport.");
+    await flutterTts.speak("I packed my bags and left for the airport.");
   }
 
   Future<void> speakbags4(String languageCode) async {
@@ -92,8 +89,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Get in! There's bags of room.");
+    await flutterTts.speak("Get in! There's bags of room.");
   }
 
   Future<void> speakbags9(String languageCode) async {
@@ -101,8 +97,8 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The fruit is washed, sorted and bagged at the farm.");
+    await flutterTts
+        .speak("The fruit is washed, sorted and bagged at the farm.");
   }
 
   Future<void> speakbags10(String languageCode) async {
@@ -110,8 +106,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We bagged ten fish in two hours.");
+    await flutterTts.speak("We bagged ten fish in two hours.");
   }
 
   Future<void> speakbags11(String languageCode) async {
@@ -119,8 +114,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Harkin bagged two goals in last night's win.");
+    await flutterTts.speak("Harkin bagged two goals in last night's win.");
   }
 
   Future<void> speakbags12(String languageCode) async {
@@ -128,8 +122,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sally had managed to bag the two best seats.");
+    await flutterTts.speak("Sally had managed to bag the two best seats.");
   }
 
   Future<void> speakbags13(String languageCode) async {
@@ -137,8 +130,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Stop bagging her out - she's doing her best.");
+    await flutterTts.speak("Stop bagging her out - she's doing her best.");
   }
 
   Future<void> speakbags14(String languageCode) async {
@@ -146,8 +138,8 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They decided to bag the trip because they were short of cash.");
+    await flutterTts
+        .speak("They decided to bag the trip because they were short of cash.");
   }
 
   Future<void> speakbags15(String languageCode) async {
@@ -716,8 +708,6 @@ class EnglishEntrybag extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -731,7 +721,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

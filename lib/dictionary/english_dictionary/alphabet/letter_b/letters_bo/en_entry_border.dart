@@ -30,8 +30,8 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He lives in a small town in the US, near the Canadian border.");
+    await flutterTts
+        .speak("He lives in a small town in the US, near the Canadian border.");
   }
 
   Future<void> speakborders2(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Thousands of people cross the border every day.");
+    await flutterTts.speak("Thousands of people cross the border every day.");
   }
 
   Future<void> speakborders3(String languageCode) async {
@@ -48,8 +47,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They took steps to secure the border.");
+    await flutterTts.speak("They took steps to secure the border.");
   }
 
   Future<void> speakborders4(String languageCode) async {
@@ -75,8 +73,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They fled across the border.");
+    await flutterTts.speak("They fled across the border.");
   }
 
   Future<void> speakborders7(String languageCode) async {
@@ -84,8 +81,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She drew a decorative border around the picture.");
+    await flutterTts.speak("She drew a decorative border around the picture.");
   }
 
   Future<void> speakborders8(String languageCode) async {
@@ -93,8 +89,8 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The back garden is mostly lawn with tulip borders.");
+    await flutterTts
+        .speak("The back garden is mostly lawn with tulip borders.");
   }
 
   Future<void> speakborders9(String languageCode) async {
@@ -102,8 +98,8 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Albania is bordered to the north by Serbia and Montenegro.");
+    await flutterTts
+        .speak("Albania is bordered to the north by Serbia and Montenegro.");
   }
 
   Future<void> speakborders10(String languageCode) async {
@@ -111,8 +107,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Eswatini borders South Africa and Mozambique.");
+    await flutterTts.speak("Eswatini borders South Africa and Mozambique.");
   }
 
   Future<void> speakborders11(String languageCode) async {
@@ -120,8 +115,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The large garden is bordered by a stream.");
+    await flutterTts.speak("The large garden is bordered by a stream.");
   }
 
   Future<void> speakborders12(String languageCode) async {
@@ -129,8 +123,7 @@ class EnglishEntryborder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The fields are bordered by tall trees.");
+    await flutterTts.speak("The fields are bordered by tall trees.");
   }
 
   Future<void> speakborders13(String languageCode) async {
@@ -742,8 +735,6 @@ class EnglishEntryborder extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -757,7 +748,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

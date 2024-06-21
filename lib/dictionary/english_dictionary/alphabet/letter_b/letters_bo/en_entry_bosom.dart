@@ -30,8 +30,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She pressed her baby to her bosom.");
+    await flutterTts.speak("She pressed her baby to her bosom.");
   }
 
   Future<void> speakbosoms2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dress showed the top of her bosoms.");
+    await flutterTts.speak("The dress showed the top of her bosoms.");
   }
 
   Future<void> speakbosoms3(String languageCode) async {
@@ -48,8 +46,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She clutched her baby tightly to her bosom.");
+    await flutterTts.speak("She clutched her baby tightly to her bosom.");
   }
 
   Future<void> speakbosoms4(String languageCode) async {
@@ -66,8 +63,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dress left the bosom bare.");
+    await flutterTts.speak("The dress left the bosom bare.");
   }
 
   Future<void> speakbosoms6(String languageCode) async {
@@ -75,8 +71,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her bosoms heaved as she breathed heavily.");
+    await flutterTts.speak("Her bosoms heaved as she breathed heavily.");
   }
 
   Future<void> speakbosoms7(String languageCode) async {
@@ -84,8 +79,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was slender, but with a voluptuous bosom.");
+    await flutterTts.speak("She was slender, but with a voluptuous bosom.");
   }
 
   Future<void> speakbosoms8(String languageCode) async {
@@ -93,8 +87,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She pinned a rose to her bosom.");
+    await flutterTts.speak("She pinned a rose to her bosom.");
   }
 
   Future<void> speakbosoms9(String languageCode) async {
@@ -102,8 +95,8 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Clasp your child to your bosom and give him a big kiss!");
+    await flutterTts
+        .speak("Clasp your child to your bosom and give him a big kiss!");
   }
 
   Future<void> speakbosoms10(String languageCode) async {
@@ -111,8 +104,7 @@ class EnglishEntrybosom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was living in the bosom of his family");
+    await flutterTts.speak("He was living in the bosom of his family");
   }
 
   Future<void> speakbosoms11(String languageCode) async {
@@ -624,8 +616,6 @@ class EnglishEntrybosom extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -639,7 +629,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

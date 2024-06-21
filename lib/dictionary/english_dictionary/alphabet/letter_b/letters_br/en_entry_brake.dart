@@ -28,8 +28,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("My brakes are not working properly.");
+    await flutterTts.speak("My brakes are not working properly.");
   }
 
   Future<void> speakbrakes2(String languageCode) async {
@@ -37,8 +36,8 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She slammed on the brakes to try to avoid the dog.");
+    await flutterTts
+        .speak("She slammed on the brakes to try to avoid the dog.");
   }
 
   Future<void> speakbrakes3(String languageCode) async {
@@ -46,8 +45,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "High interest rates are a brake on the economy.");
+    await flutterTts.speak("High interest rates are a brake on the economy.");
   }
 
   Future<void> speakbrakes4(String languageCode) async {
@@ -55,8 +53,7 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The truck braked to a halt.");
+    await flutterTts.speak("The truck braked to a halt.");
   }
 
   Future<void> speakbrakes5(String languageCode) async {
@@ -64,8 +61,8 @@ class EnglishEntrybrake extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had to brake hard to avoid running into the car in front.");
+    await flutterTts
+        .speak("She had to brake hard to avoid running into the car in front.");
   }
 
   Future<void> speakbrakes6(String languageCode) async {
@@ -330,8 +327,6 @@ class EnglishEntrybrake extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -345,7 +340,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

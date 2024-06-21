@@ -30,8 +30,7 @@ class EnglishEntryboil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Boil plenty of water, then add the spaghetti.");
+    await flutterTts.speak("Boil plenty of water, then add the spaghetti.");
   }
 
   Future<void> speakboils2(String languageCode) async {
@@ -55,8 +54,7 @@ class EnglishEntryboil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'll boil the kettle and make some tea.");
+    await flutterTts.speak("I'll boil the kettle and make some tea.");
   }
 
   Future<void> speakboils5(String languageCode) async {
@@ -64,8 +62,7 @@ class EnglishEntryboil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She put some potatoes on to boil.");
+    await flutterTts.speak("She put some potatoes on to boil.");
   }
 
   Future<void> speakboils6(String languageCode) async {
@@ -73,8 +70,7 @@ class EnglishEntryboil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She can scarcely boil an egg.");
+    await flutterTts.speak("She can scarcely boil an egg.");
   }
 
   Future<void> speakboils7(String languageCode) async {
@@ -99,8 +95,7 @@ class EnglishEntryboil extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The doctor lanced the boil.");
+    await flutterTts.speak("The doctor lanced the boil.");
   }
 
   Future<void> speakboils10(String languageCode) async {
@@ -572,8 +567,6 @@ class EnglishEntryboil extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -587,7 +580,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

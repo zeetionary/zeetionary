@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydesperately extends StatefulWidget {
@@ -241,156 +236,12 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("They desperately wanted a child.");
   }
 
-  Future<void> speakdesperatelys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys400");
-  }
-
-  Future<void> speakdesperatelys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys500");
-  }
-
-  Future<void> speakdesperatelys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys600");
-  }
-
-  Future<void> speakdesperatelys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys700");
-  }
-
-  Future<void> speakdesperatelys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys800");
-  }
-
-  Future<void> speakdesperatelys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys900");
-  }
-
-  Future<void> speakdesperatelys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1000");
-  }
-
-  Future<void> speakdesperatelys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1100");
-  }
-
-  Future<void> speakdesperatelys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1200");
-  }
-
-  Future<void> speakdesperatelys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1300");
-  }
-
-  Future<void> speakdesperatelys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1400");
-  }
-
-  Future<void> speakdesperatelys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1500");
-  }
-
-  Future<void> speakdesperatelys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1600");
-  }
-
-  Future<void> speakdesperatelys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1700");
-  }
-
-  Future<void> speakdesperatelys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1800");
-  }
-
-  Future<void> speakdesperatelys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys1900");
-  }
-
   Future<void> speakdesperatelys20(String languageCode) async {
     // DOPSUM: CHANGE speakdesperately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("He grew up desperately poor.0");
-  }
-
-  Future<void> speakdesperatelys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys2100");
-  }
-
-  Future<void> speakdesperatelys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperately
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperatelys2200");
   }
 
   @override
@@ -671,8 +522,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -686,7 +535,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

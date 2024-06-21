@@ -32,8 +32,7 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They decided to base the new company in New York.");
+    await flutterTts.speak("They decided to base the new company in New York.");
   }
 
   Future<void> speakbases2(String languageCode) async {
@@ -49,8 +48,7 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He felt a sharp pain at the base of his spine.");
+    await flutterTts.speak("He felt a sharp pain at the base of his spine.");
   }
 
   Future<void> speakbases4(String languageCode) async {
@@ -58,8 +56,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I spend a lot of time in Britain but Paris is still my base.");
+    await flutterTts
+        .speak("I spend a lot of time in Britain but Paris is still my base.");
   }
 
   Future<void> speakbases5(String languageCode) async {
@@ -67,8 +65,7 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "After the attack, they returned to base.");
+    await flutterTts.speak("After the attack, they returned to base.");
   }
 
   Future<void> speakbases6(String languageCode) async {
@@ -76,8 +73,7 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "These policies have a broad base of support.");
+    await flutterTts.speak("These policies have a broad base of support.");
   }
 
   Future<void> speakbases7(String languageCode) async {
@@ -85,8 +81,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This course is an opportunity to expand my knowledge base.");
+    await flutterTts
+        .speak("This course is an opportunity to expand my knowledge base.");
   }
 
   Future<void> speakbases8(String languageCode) async {
@@ -103,8 +99,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She used her family's history as a base for her novel.");
+    await flutterTts
+        .speak("She used her family's history as a base for her novel.");
   }
 
   Future<void> speakbases10(String languageCode) async {
@@ -139,8 +135,7 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He acted from base motives.");
+    await flutterTts.speak("He acted from base motives.");
   }
 
   Future<void> speakbases14(String languageCode) async {
@@ -669,8 +664,6 @@ class EnglishEntrybase extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -684,7 +677,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

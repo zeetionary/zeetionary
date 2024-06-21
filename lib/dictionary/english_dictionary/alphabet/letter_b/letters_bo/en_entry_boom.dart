@@ -30,8 +30,8 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Living standards improved rapidly during the post-war boom.");
+    await flutterTts
+        .speak("Living standards improved rapidly during the post-war boom.");
   }
 
   Future<void> speakbooms2(String languageCode) async {
@@ -39,8 +39,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This year has seen a boom in book sales.");
+    await flutterTts.speak("This year has seen a boom in book sales.");
   }
 
   Future<void> speakbooms3(String languageCode) async {
@@ -57,8 +56,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sailors adjusted the boom to catch the wind.");
+    await flutterTts.speak("Sailors adjusted the boom to catch the wind.");
   }
 
   Future<void> speakbooms5(String languageCode) async {
@@ -75,8 +73,8 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A crash of thunder boomed so loudly that the floor shook.");
+    await flutterTts
+        .speak("A crash of thunder boomed so loudly that the floor shook.");
   }
 
   Future<void> speakbooms7(String languageCode) async {
@@ -84,8 +82,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A voice boomed out from the darkness.");
+    await flutterTts.speak("A voice boomed out from the darkness.");
   }
 
   Future<void> speakbooms8(String languageCode) async {
@@ -93,8 +90,7 @@ class EnglishEntryboom extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "By the 1980s, the computer industry was booming.");
+    await flutterTts.speak("By the 1980s, the computer industry was booming.");
   }
 
   Future<void> speakbooms9(String languageCode) async {
@@ -448,8 +444,6 @@ class EnglishEntryboom extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -463,7 +457,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

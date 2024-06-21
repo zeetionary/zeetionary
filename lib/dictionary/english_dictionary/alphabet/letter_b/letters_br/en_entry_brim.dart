@@ -26,8 +26,7 @@ class EnglishEntrybrim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He filled the glass to the brim.");
+    await flutterTts.speak("He filled the glass to the brim.");
   }
 
   Future<void> speakbrims2(String languageCode) async {
@@ -35,8 +34,8 @@ class EnglishEntrybrim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt suddenly alive and full to the brim with enthusiasm.");
+    await flutterTts
+        .speak("She felt suddenly alive and full to the brim with enthusiasm.");
   }
 
   Future<void> speakbrims3(String languageCode) async {
@@ -44,8 +43,8 @@ class EnglishEntrybrim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She watched the crowd from beneath the brim of her hat.");
+    await flutterTts
+        .speak("She watched the crowd from beneath the brim of her hat.");
   }
 
   Future<void> speakbrims4(String languageCode) async {
@@ -53,8 +52,7 @@ class EnglishEntrybrim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She wore a wide-brimmed hat.");
+    await flutterTts.speak("She wore a wide-brimmed hat.");
   }
 
   Future<void> speakbrims5(String languageCode) async {
@@ -70,8 +68,8 @@ class EnglishEntrybrim extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The team were brimming with confidence before the game.");
+    await flutterTts
+        .speak("The team were brimming with confidence before the game.");
   }
 
   Future<void> speakbrims7(String languageCode) async {
@@ -358,8 +356,6 @@ class EnglishEntrybrim extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -373,7 +369,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

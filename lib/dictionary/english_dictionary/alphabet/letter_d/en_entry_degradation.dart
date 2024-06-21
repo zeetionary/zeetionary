@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydegradation extends StatefulWidget {
@@ -235,142 +230,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("Pollution causes environmental degradation in many areas.");
   }
 
-  Future<void> speakdegradations3(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations300");
-  }
-
-  Future<void> speakdegradations4(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations400");
-  }
-
-  Future<void> speakdegradations5(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations500");
-  }
-
-  Future<void> speakdegradations6(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations600");
-  }
-
-  Future<void> speakdegradations7(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations700");
-  }
-
-  Future<void> speakdegradations8(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations800");
-  }
-
-  Future<void> speakdegradations9(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations900");
-  }
-
-  Future<void> speakdegradations10(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1000");
-  }
-
-  Future<void> speakdegradations11(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1100");
-  }
-
-  Future<void> speakdegradations12(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1200");
-  }
-
-  Future<void> speakdegradations13(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1300");
-  }
-
-  Future<void> speakdegradations14(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1400");
-  }
-
-  Future<void> speakdegradations15(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1500");
-  }
-
-  Future<void> speakdegradations16(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1600");
-  }
-
-  Future<void> speakdegradations17(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1700");
-  }
-
-  Future<void> speakdegradations18(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1800");
-  }
-
-  Future<void> speakdegradations19(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations1900");
-  }
-
   Future<void> speakdegradations20(String languageCode) async {
     // DOPSUM: CHANGE speakdegradation
     await flutterTts.setLanguage(languageCode);
@@ -378,22 +237,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
         .speak("Pollution causes environmental degradation in many areas.0");
-  }
-
-  Future<void> speakdegradations21(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations2100");
-  }
-
-  Future<void> speakdegradations22(String languageCode) async {
-    // DOPSUM: CHANGE speakdegradation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdegradations2200");
   }
 
   @override
@@ -640,8 +483,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -655,7 +496,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

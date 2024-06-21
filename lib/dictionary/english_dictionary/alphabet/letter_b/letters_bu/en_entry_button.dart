@@ -26,8 +26,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "One of the buttons on his jacket was missing.");
+    await flutterTts.speak("One of the buttons on his jacket was missing.");
   }
 
   Future<void> speakbuttons2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The top button of his shirt was undone.");
+    await flutterTts.speak("The top button of his shirt was undone.");
   }
 
   Future<void> speakbuttons3(String languageCode) async {
@@ -62,8 +60,8 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Click on the back button to go back to the previous screen.");
+    await flutterTts
+        .speak("Click on the back button to go back to the previous screen.");
   }
 
   Future<void> speakbuttons6(String languageCode) async {
@@ -71,8 +69,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They all wore buttons saying ‘Stop the war’.");
+    await flutterTts.speak("They all wore buttons saying ‘Stop the war’.");
   }
 
   Future<void> speakbuttons7(String languageCode) async {
@@ -80,8 +77,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She buttoned the child into his coat.");
+    await flutterTts.speak("She buttoned the child into his coat.");
   }
 
   Future<void> speakbuttons8(String languageCode) async {
@@ -89,8 +85,7 @@ class EnglishEntrybutton extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dress buttons (up) at the back.");
+    await flutterTts.speak("The dress buttons (up) at the back.");
   }
 
   Future<void> speakbuttons9(String languageCode) async {
@@ -474,8 +469,6 @@ class EnglishEntrybutton extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -489,7 +482,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

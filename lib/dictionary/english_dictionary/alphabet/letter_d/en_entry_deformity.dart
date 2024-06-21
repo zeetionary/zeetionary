@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydeformity extends StatefulWidget {
@@ -233,142 +228,6 @@ class KurdishMeaning extends StatelessWidget {
         "Poor posture causes deformity in the natural curvature of the spine.");
   }
 
-  Future<void> speakdeformitys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys300");
-  }
-
-  Future<void> speakdeformitys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys400");
-  }
-
-  Future<void> speakdeformitys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys500");
-  }
-
-  Future<void> speakdeformitys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys600");
-  }
-
-  Future<void> speakdeformitys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys700");
-  }
-
-  Future<void> speakdeformitys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys800");
-  }
-
-  Future<void> speakdeformitys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys900");
-  }
-
-  Future<void> speakdeformitys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1000");
-  }
-
-  Future<void> speakdeformitys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1100");
-  }
-
-  Future<void> speakdeformitys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1200");
-  }
-
-  Future<void> speakdeformitys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1300");
-  }
-
-  Future<void> speakdeformitys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1400");
-  }
-
-  Future<void> speakdeformitys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1500");
-  }
-
-  Future<void> speakdeformitys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1600");
-  }
-
-  Future<void> speakdeformitys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1700");
-  }
-
-  Future<void> speakdeformitys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1800");
-  }
-
-  Future<void> speakdeformitys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys1900");
-  }
-
   Future<void> speakdeformitys20(String languageCode) async {
     // DOPSUM: CHANGE speakdeformity
     await flutterTts.setLanguage(languageCode);
@@ -376,22 +235,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "Poor posture causes deformity in the natural curvature of the spine.0");
-  }
-
-  Future<void> speakdeformitys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys2100");
-  }
-
-  Future<void> speakdeformitys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdeformity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeformitys2200");
   }
 
   @override
@@ -637,8 +480,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -652,7 +493,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

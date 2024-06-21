@@ -26,8 +26,8 @@ class EnglishEntrybumper extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cars were bumper to bumper on the road to the coast.");
+    await flutterTts
+        .speak("The cars were bumper to bumper on the road to the coast.");
   }
 
   Future<void> speakbumpers2(String languageCode) async {
@@ -35,8 +35,7 @@ class EnglishEntrybumper extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He crashed into the van, denting its bumper.");
+    await flutterTts.speak("He crashed into the van, denting its bumper.");
   }
 
   Future<void> speakbumpers3(String languageCode) async {
@@ -44,8 +43,8 @@ class EnglishEntrybumper extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Farmers have been celebrating bumper crops this year.");
+    await flutterTts
+        .speak("Farmers have been celebrating bumper crops this year.");
   }
 
   Future<void> speakbumpers4(String languageCode) async {
@@ -319,8 +318,6 @@ class EnglishEntrybumper extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -334,7 +331,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

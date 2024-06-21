@@ -32,8 +32,7 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She likes to walk around in bare feet.");
+    await flutterTts.speak("She likes to walk around in bare feet.");
   }
 
   Future<void> speakbares2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There's no carpet in the room, just bare floorboards.");
+    await flutterTts
+        .speak("There's no carpet in the room, just bare floorboards.");
   }
 
   Future<void> speakbares3(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The windows looked out onto a bare field.");
+    await flutterTts.speak("The windows looked out onto a bare field.");
   }
 
   Future<void> speakbares5(String languageCode) async {
@@ -68,8 +66,7 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Bare wires were sticking out of the cable.");
+    await flutterTts.speak("Bare wires were sticking out of the cable.");
   }
 
   Future<void> speakbares6(String languageCode) async {
@@ -77,8 +74,7 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The fridge was completely bare.");
+    await flutterTts.speak("The fridge was completely bare.");
   }
 
   Future<void> speakbares7(String languageCode) async {
@@ -86,8 +82,8 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He did the bare minimum of work but still passed the exam.");
+    await flutterTts
+        .speak("He did the bare minimum of work but still passed the exam.");
   }
 
   Future<void> speakbares8(String languageCode) async {
@@ -113,8 +109,8 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The men bared their heads as they entered the church.");
+    await flutterTts
+        .speak("The men bared their heads as they entered the church.");
   }
 
   Future<void> speakbares11(String languageCode) async {
@@ -122,8 +118,7 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The party on Saturday was bare good!");
+    await flutterTts.speak("The party on Saturday was bare good!");
   }
 
   Future<void> speakbares12(String languageCode) async {
@@ -131,8 +126,7 @@ class EnglishEntrybare extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The questions are bare difficult.");
+    await flutterTts.speak("The questions are bare difficult.");
   }
 
   Future<void> speakbares13(String languageCode) async {
@@ -599,8 +593,6 @@ class EnglishEntrybare extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -614,7 +606,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

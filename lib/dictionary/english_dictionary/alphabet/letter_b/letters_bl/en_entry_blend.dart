@@ -30,8 +30,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Blend together the eggs, sugar and flour.");
+    await flutterTts.speak("Blend together the eggs, sugar and flour.");
   }
 
   Future<void> speakblends2(String languageCode) async {
@@ -39,8 +38,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I have very little idea of how to blend colours.");
+    await flutterTts.speak("I have very little idea of how to blend colours.");
   }
 
   Future<void> speakblends3(String languageCode) async {
@@ -48,8 +46,7 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Oil does not blend with water.");
+    await flutterTts.speak("Oil does not blend with water.");
   }
 
   Future<void> speakblends4(String languageCode) async {
@@ -57,8 +54,8 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The old and new buildings blend together perfectly.");
+    await flutterTts
+        .speak("The old and new buildings blend together perfectly.");
   }
 
   Future<void> speakblends5(String languageCode) async {
@@ -66,8 +63,8 @@ class EnglishEntryblend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their music is a blend of jazz and African rhythms.");
+    await flutterTts
+        .speak("Their music is a blend of jazz and African rhythms.");
   }
 
   Future<void> speakblends6(String languageCode) async {
@@ -373,8 +370,6 @@ class EnglishEntryblend extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -388,7 +383,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

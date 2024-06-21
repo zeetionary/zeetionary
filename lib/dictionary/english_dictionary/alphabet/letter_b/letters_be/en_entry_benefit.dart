@@ -32,8 +32,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Freedom of information brings great benefits.");
+    await flutterTts.speak("Freedom of information brings great benefits.");
   }
 
   Future<void> speakbenefits2(String languageCode) async {
@@ -41,8 +40,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I've had the benefit of a good education.");
+    await flutterTts.speak("I've had the benefit of a good education.");
   }
 
   Future<void> speakbenefits3(String languageCode) async {
@@ -59,8 +57,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You may be eligible to receive benefits.");
+    await flutterTts.speak("You may be eligible to receive benefits.");
   }
 
   Future<void> speakbenefits5(String languageCode) async {
@@ -104,8 +101,8 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new tax laws will clearly benefit those on low wages.");
+    await flutterTts
+        .speak("The new tax laws will clearly benefit those on low wages.");
   }
 
   Future<void> speakbenefits10(String languageCode) async {
@@ -113,8 +110,8 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We all benefit when our young people realize their potential.");
+    await flutterTts
+        .speak("We all benefit when our young people realize their potential.");
   }
 
   Future<void> speakbenefits11(String languageCode) async {
@@ -122,8 +119,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Who exactly stands to benefit from these changes?");
+    await flutterTts.speak("Who exactly stands to benefit from these changes?");
   }
 
   Future<void> speakbenefits12(String languageCode) async {
@@ -681,8 +677,6 @@ class EnglishEntrybenefit extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -696,7 +690,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

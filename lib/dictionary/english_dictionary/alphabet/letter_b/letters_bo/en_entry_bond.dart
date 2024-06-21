@@ -30,8 +30,8 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A bond of friendship had been forged between them.");
+    await flutterTts
+        .speak("A bond of friendship had been forged between them.");
   }
 
   Future<void> speakbonds2(String languageCode) async {
@@ -48,8 +48,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The students formed strong bonds with each other.");
+    await flutterTts.speak("The students formed strong bonds with each other.");
   }
 
   Future<void> speakbonds4(String languageCode) async {
@@ -57,8 +56,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She felt a bond of affection for the other girls.");
+    await flutterTts.speak("She felt a bond of affection for the other girls.");
   }
 
   Future<void> speakbonds5(String languageCode) async {
@@ -66,8 +64,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The bonds were redeemed in 2002.");
+    await flutterTts.speak("The bonds were redeemed in 2002.");
   }
 
   Future<void> speakbonds6(String languageCode) async {
@@ -75,8 +72,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was released on £5 000 bond.");
+    await flutterTts.speak("He was released on £5 000 bond.");
   }
 
   Future<void> speakbonds7(String languageCode) async {
@@ -84,8 +80,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We had to take out a second bond on the property.");
+    await flutterTts.speak("We had to take out a second bond on the property.");
   }
 
   Future<void> speakbonds8(String languageCode) async {
@@ -93,8 +88,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Loose his bonds and set him free.");
+    await flutterTts.speak("Loose his bonds and set him free.");
   }
 
   Future<void> speakbonds9(String languageCode) async {
@@ -102,8 +96,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We entered into a solemn bond.");
+    await flutterTts.speak("We entered into a solemn bond.");
   }
 
   Future<void> speakbonds10(String languageCode) async {
@@ -111,8 +104,8 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When the glue has set, the bond formed is watertight.");
+    await flutterTts
+        .speak("When the glue has set, the bond formed is watertight.");
   }
 
   Future<void> speakbonds11(String languageCode) async {
@@ -129,8 +122,8 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This new glue bonds a variety of surfaces in seconds.");
+    await flutterTts
+        .speak("This new glue bonds a variety of surfaces in seconds.");
   }
 
   Future<void> speakbonds13(String languageCode) async {
@@ -138,8 +131,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It cannot be used to bond wood to metal.");
+    await flutterTts.speak("It cannot be used to bond wood to metal.");
   }
 
   Future<void> speakbonds14(String languageCode) async {
@@ -147,8 +139,7 @@ class EnglishEntrybond extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The atoms bond together to form a molecule.");
+    await flutterTts.speak("The atoms bond together to form a molecule.");
   }
 
   Future<void> speakbonds15(String languageCode) async {
@@ -793,8 +784,6 @@ class EnglishEntrybond extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -808,7 +797,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

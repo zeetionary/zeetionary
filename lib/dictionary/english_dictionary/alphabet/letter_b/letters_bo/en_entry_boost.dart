@@ -30,8 +30,7 @@ class EnglishEntryboost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The movie helped boost her screen career.");
+    await flutterTts.speak("The movie helped boost her screen career.");
   }
 
   Future<void> speakboosts2(String languageCode) async {
@@ -66,8 +65,8 @@ class EnglishEntryboost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The tax cuts will give a much needed boost to the economy.");
+    await flutterTts
+        .speak("The tax cuts will give a much needed boost to the economy.");
   }
 
   Future<void> speakboosts6(String languageCode) async {
@@ -75,8 +74,8 @@ class EnglishEntryboost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Winning the competition was a wonderful boost for her morale.");
+    await flutterTts
+        .speak("Winning the competition was a wonderful boost for her morale.");
   }
 
   Future<void> speakboosts7(String languageCode) async {
@@ -93,8 +92,8 @@ class EnglishEntryboost extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new software update offers a performance boost.");
+    await flutterTts
+        .speak("The new software update offers a performance boost.");
   }
 
   Future<void> speakboosts9(String languageCode) async {
@@ -532,8 +531,6 @@ class EnglishEntryboost extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -547,7 +544,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

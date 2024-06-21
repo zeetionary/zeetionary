@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydaffodil extends StatefulWidget {
@@ -225,102 +220,6 @@ class KurdishMeaning extends StatelessWidget {
         "The daffodil's vibrant yellow petals are a symbol of rebirth and new beginnings.");
   }
 
-  Future<void> speakdaffodils2(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils200");
-  }
-
-  Future<void> speakdaffodils3(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils300");
-  }
-
-  Future<void> speakdaffodils4(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils400");
-  }
-
-  Future<void> speakdaffodils5(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils500");
-  }
-
-  Future<void> speakdaffodils6(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils600");
-  }
-
-  Future<void> speakdaffodils7(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils700");
-  }
-
-  Future<void> speakdaffodils8(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils800");
-  }
-
-  Future<void> speakdaffodils9(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils900");
-  }
-
-  Future<void> speakdaffodils10(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils1000");
-  }
-
-  Future<void> speakdaffodils11(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils1100");
-  }
-
-  Future<void> speakdaffodils12(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils1200");
-  }
-
-  Future<void> speakdaffodils13(String languageCode) async {
-    // DOPSUM: CHANGE speakdaffodil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdaffodils1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -368,8 +267,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -383,7 +280,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

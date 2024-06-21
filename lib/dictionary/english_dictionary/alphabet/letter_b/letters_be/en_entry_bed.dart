@@ -32,8 +32,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'm tired—I'm going to bed.");
+    await flutterTts.speak("I'm tired—I'm going to bed.");
   }
 
   Future<void> speakbeds2(String languageCode) async {
@@ -49,8 +48,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many strange plants and fish live on the sea bed.");
+    await flutterTts.speak("Many strange plants and fish live on the sea bed.");
   }
 
   Future<void> speakbeds4(String languageCode) async {
@@ -58,8 +56,8 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have some beautiful flower beds in their garden.");
+    await flutterTts
+        .speak("They have some beautiful flower beds in their garden.");
   }
 
   Future<void> speakbeds5(String languageCode) async {
@@ -67,8 +65,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The blocks should be laid on a bed of concrete.");
+    await flutterTts.speak("The blocks should be laid on a bed of concrete.");
   }
 
   Future<void> speakbeds6(String languageCode) async {
@@ -76,8 +73,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The posts should be firmly bedded in concrete.");
+    await flutterTts.speak("The posts should be firmly bedded in concrete.");
   }
 
   Future<void> speakbeds7(String languageCode) async {
@@ -85,8 +81,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He’s been trying to bed her for weeks.");
+    await flutterTts.speak("He’s been trying to bed her for weeks.");
   }
 
   @override
@@ -400,8 +395,6 @@ class EnglishEntrybed extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -415,7 +408,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

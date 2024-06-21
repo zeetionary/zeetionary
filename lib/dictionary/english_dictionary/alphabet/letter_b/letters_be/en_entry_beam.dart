@@ -32,8 +32,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The car's headlights were on full beam.");
+    await flutterTts.speak("The car's headlights were on full beam.");
   }
 
   Future<void> speakbeams2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was suddenly caught in the full beam of a searchlight.");
+    await flutterTts
+        .speak("He was suddenly caught in the full beam of a searchlight.");
   }
 
   Future<void> speakbeams3(String languageCode) async {
@@ -59,8 +58,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The gymnast performed a somersault on the beam.");
+    await flutterTts.speak("The gymnast performed a somersault on the beam.");
   }
 
   Future<void> speakbeams5(String languageCode) async {
@@ -77,8 +75,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He beamed at the journalists.");
+    await flutterTts.speak("He beamed at the journalists.");
   }
 
   Future<void> speakbeams7(String languageCode) async {
@@ -86,8 +83,8 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Live pictures of the ceremony were beamed around the world.");
+    await flutterTts
+        .speak("Live pictures of the ceremony were beamed around the world.");
   }
 
   Future<void> speakbeams8(String languageCode) async {
@@ -95,8 +92,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The morning sun beamed down on us.");
+    await flutterTts.speak("The morning sun beamed down on us.");
   }
 
   Future<void> speakbeams9(String languageCode) async {
@@ -479,8 +475,6 @@ class EnglishEntrybeam extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -494,7 +488,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

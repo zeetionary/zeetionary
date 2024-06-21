@@ -26,8 +26,7 @@ class EnglishEntrybully extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Leave him alone, you big bully!");
+    await flutterTts.speak("Leave him alone, you big bully!");
   }
 
   Future<void> speakbullys2(String languageCode) async {
@@ -35,8 +34,8 @@ class EnglishEntrybully extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Teachers usually know who the bullies are in a class.");
+    await flutterTts
+        .speak("Teachers usually know who the bullies are in a class.");
   }
 
   Future<void> speakbullys3(String languageCode) async {
@@ -44,8 +43,7 @@ class EnglishEntrybully extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("My son is being bullied at school.");
+    await flutterTts.speak("My son is being bullied at school.");
   }
 
   Future<void> speakbullys4(String languageCode) async {
@@ -53,8 +51,7 @@ class EnglishEntrybully extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I won't be bullied into signing anything.");
+    await flutterTts.speak("I won't be bullied into signing anything.");
   }
 
   Future<void> speakbullys5(String languageCode) async {
@@ -300,8 +297,6 @@ class EnglishEntrybully extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -315,7 +310,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

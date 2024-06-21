@@ -32,8 +32,7 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Recent events had no bearing on our decision.");
+    await flutterTts.speak("Recent events had no bearing on our decision.");
   }
 
   Future<void> speakbearings2(String languageCode) async {
@@ -41,8 +40,8 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Regular exercise has a direct bearing on fitness and health.");
+    await flutterTts
+        .speak("Regular exercise has a direct bearing on fitness and health.");
   }
 
   Future<void> speakbearings3(String languageCode) async {
@@ -50,8 +49,7 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had a proud, distinguished bearing.");
+    await flutterTts.speak("She had a proud, distinguished bearing.");
   }
 
   Future<void> speakbearings4(String languageCode) async {
@@ -59,8 +57,8 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He paused at the top of the hill, trying to get his bearings.");
+    await flutterTts
+        .speak("He paused at the top of the hill, trying to get his bearings.");
   }
 
   Future<void> speakbearings5(String languageCode) async {
@@ -313,8 +311,6 @@ class EnglishEntrybearing extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -328,7 +324,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

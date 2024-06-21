@@ -26,8 +26,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Where did you buy that dress?");
+    await flutterTts.speak("Where did you buy that dress?");
   }
 
   Future<void> speakbuys2(String languageCode) async {
@@ -35,8 +34,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She had no money to buy a ticket.");
+    await flutterTts.speak("She had no money to buy a ticket.");
   }
 
   Future<void> speakbuys3(String languageCode) async {
@@ -44,8 +42,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They can't afford to buy school books.");
+    await flutterTts.speak("They can't afford to buy school books.");
   }
 
   Future<void> speakbuys4(String languageCode) async {
@@ -62,8 +59,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I bought my car second-hand.");
+    await flutterTts.speak("I bought my car second-hand.");
   }
 
   Future<void> speakbuys6(String languageCode) async {
@@ -71,8 +67,8 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He gave his children the best education that money can buy.");
+    await flutterTts
+        .speak("He gave his children the best education that money can buy.");
   }
 
   Future<void> speakbuys7(String languageCode) async {
@@ -80,8 +76,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Five pounds doesn't buy much nowadays.");
+    await flutterTts.speak("Five pounds doesn't buy much nowadays.");
   }
 
   Future<void> speakbuys8(String languageCode) async {
@@ -97,8 +92,8 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her fame was bought at the expense of her marriage.");
+    await flutterTts
+        .speak("Her fame was bought at the expense of her marriage.");
   }
 
   Future<void> speakbuys10(String languageCode) async {
@@ -106,8 +101,8 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You could say you were ill but I don't think they'd buy it.");
+    await flutterTts
+        .speak("You could say you were ill but I don't think they'd buy it.");
   }
 
   Future<void> speakbuys11(String languageCode) async {
@@ -115,8 +110,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("That jacket was a really good buy.");
+    await flutterTts.speak("That jacket was a really good buy.");
   }
 
   Future<void> speakbuys12(String languageCode) async {
@@ -124,8 +118,7 @@ class EnglishEntrybuy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The club has made some great buys this season.");
+    await flutterTts.speak("The club has made some great buys this season.");
   }
 
   Future<void> speakbuys13(String languageCode) async {
@@ -598,8 +591,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -613,7 +604,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

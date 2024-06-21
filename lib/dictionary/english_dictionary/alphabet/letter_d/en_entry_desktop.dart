@@ -3,11 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
-// scrollDirection: Axis.vertical,
-
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrydesktop extends StatefulWidget {
@@ -233,142 +228,6 @@ class KurdishMeaning extends StatelessWidget {
         "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable.");
   }
 
-  Future<void> speakdesktops3(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops300");
-  }
-
-  Future<void> speakdesktops4(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops400");
-  }
-
-  Future<void> speakdesktops5(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops500");
-  }
-
-  Future<void> speakdesktops6(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops600");
-  }
-
-  Future<void> speakdesktops7(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops700");
-  }
-
-  Future<void> speakdesktops8(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops800");
-  }
-
-  Future<void> speakdesktops9(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops900");
-  }
-
-  Future<void> speakdesktops10(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1000");
-  }
-
-  Future<void> speakdesktops11(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1100");
-  }
-
-  Future<void> speakdesktops12(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1200");
-  }
-
-  Future<void> speakdesktops13(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1300");
-  }
-
-  Future<void> speakdesktops14(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1400");
-  }
-
-  Future<void> speakdesktops15(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1500");
-  }
-
-  Future<void> speakdesktops16(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1600");
-  }
-
-  Future<void> speakdesktops17(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1700");
-  }
-
-  Future<void> speakdesktops18(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1800");
-  }
-
-  Future<void> speakdesktops19(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops1900");
-  }
-
   Future<void> speakdesktops20(String languageCode) async {
     // DOPSUM: CHANGE speakdesktop
     await flutterTts.setLanguage(languageCode);
@@ -376,22 +235,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable.0");
-  }
-
-  Future<void> speakdesktops21(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops2100");
-  }
-
-  Future<void> speakdesktops22(String languageCode) async {
-    // DOPSUM: CHANGE speakdesktop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktops2200");
   }
 
   @override
@@ -619,8 +462,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -634,7 +475,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -34,8 +34,8 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He made two brilliant saves to keep his side in the match.");
+    await flutterTts
+        .speak("He made two brilliant saves to keep his side in the match.");
   }
 
   Future<void> speakbrilliants3(String languageCode) async {
@@ -43,8 +43,8 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her performance was technically brilliant but lacked feeling.");
+    await flutterTts
+        .speak("Her performance was technically brilliant but lacked feeling.");
   }
 
   Future<void> speakbrilliants4(String languageCode) async {
@@ -52,8 +52,8 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This is a brilliant and fascinating piece of writing.");
+    await flutterTts
+        .speak("This is a brilliant and fascinating piece of writing.");
   }
 
   Future<void> speakbrilliants5(String languageCode) async {
@@ -61,8 +61,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Thanks. You've been brilliant.");
+    await flutterTts.speak("Thanks. You've been brilliant.");
   }
 
   Future<void> speakbrilliants6(String languageCode) async {
@@ -70,8 +69,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Winning that race was just brilliant.");
+    await flutterTts.speak("Winning that race was just brilliant.");
   }
 
   Future<void> speakbrilliants7(String languageCode) async {
@@ -79,8 +77,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He's a brilliant young scientist.");
+    await flutterTts.speak("He's a brilliant young scientist.");
   }
 
   Future<void> speakbrilliants8(String languageCode) async {
@@ -88,8 +85,8 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She has one of the most brilliant minds in the country.");
+    await flutterTts
+        .speak("She has one of the most brilliant minds in the country.");
   }
 
   Future<void> speakbrilliants9(String languageCode) async {
@@ -97,8 +94,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The play was a brilliant success.");
+    await flutterTts.speak("The play was a brilliant success.");
   }
 
   Future<void> speakbrilliants10(String languageCode) async {
@@ -106,8 +102,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The sky was a brilliant blue.");
+    await flutterTts.speak("The sky was a brilliant blue.");
   }
 
   Future<void> speakbrilliants11(String languageCode) async {
@@ -611,8 +606,6 @@ class EnglishEntrybrilliant extends StatelessWidget {
   }
 }
 
-// DOPSUM: ENGLISH MEANING
-
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});
 
@@ -626,7 +619,6 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 
   Future<void> startSpeaking(
       String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
 """;

@@ -102,23 +102,6 @@ class EnglishEntrybend extends StatelessWidget {
         .speak("He lost control on a bend and crashed into a tree.");
   }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -579,7 +562,7 @@ ${englishMeaningConst.text}
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Using the EnglishButtonTTS class
+
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -32,7 +32,8 @@ class EnglishEntrychallenging extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The tasks were not challenging enough for me and I got bored.");
+    await flutterTts
+        .speak("The tasks were not challenging enough for me and I got bored.");
   }
 
   Future<void> speakchallengings3(String languageCode) async {
@@ -40,13 +41,14 @@ class EnglishEntrychallenging extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dealing with challenging behaviour in school is never easy.");
+    await flutterTts
+        .speak("Dealing with challenging behaviour in school is never easy.");
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -298,7 +300,7 @@ ${englishMeaningConst.text}
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Using the EnglishButtonTTS class
+
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

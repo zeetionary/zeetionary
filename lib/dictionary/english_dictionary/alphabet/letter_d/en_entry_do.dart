@@ -907,7 +907,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("He does look tired.");
   }
-  
+
   Future<void> speakdos71(String languageCode) async {
     // DOPSUM: CHANGE speakdo
     await flutterTts.setLanguage(languageCode);
@@ -3261,7 +3261,7 @@ ${englishMeaningConst.text}
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Using the EnglishButtonTTS class
+
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

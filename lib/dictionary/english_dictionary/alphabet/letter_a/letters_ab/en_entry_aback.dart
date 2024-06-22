@@ -524,7 +524,6 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});
 

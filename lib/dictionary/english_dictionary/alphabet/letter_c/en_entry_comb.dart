@@ -85,46 +85,6 @@ class EnglishEntrycomb extends StatelessWidget {
         .speak("They combed through the files for evidence of fraud.");
   }
 
-  Future<void> speakcombs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomb
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs900");
-  }
-
-  Future<void> speakcombs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomb
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1000");
-  }
-
-  Future<void> speakcombs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomb
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1100");
-  }
-
-  Future<void> speakcombs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomb
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1200");
-  }
-
-  Future<void> speakcombs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomb
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombs1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

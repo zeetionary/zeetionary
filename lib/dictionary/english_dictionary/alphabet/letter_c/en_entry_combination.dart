@@ -79,54 +79,6 @@ class EnglishEntrycombination extends StatelessWidget {
     await flutterTts.speak("I can't remember the combination.");
   }
 
-  Future<void> speakcombinations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcombination
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombinations800");
-  }
-
-  Future<void> speakcombinations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcombination
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombinations900");
-  }
-
-  Future<void> speakcombinations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcombination
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombinations1000");
-  }
-
-  Future<void> speakcombinations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcombination
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombinations1100");
-  }
-
-  Future<void> speakcombinations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcombination
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombinations1200");
-  }
-
-  Future<void> speakcombinations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcombination
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombinations1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -71,62 +71,6 @@ class EnglishEntryconsole extends StatelessWidget {
     await flutterTts.speak("It's the only console that will run this game.");
   }
 
-  Future<void> speakconsoles7(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles700");
-  }
-
-  Future<void> speakconsoles8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles800");
-  }
-
-  Future<void> speakconsoles9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles900");
-  }
-
-  Future<void> speakconsoles10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1000");
-  }
-
-  Future<void> speakconsoles11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1100");
-  }
-
-  Future<void> speakconsoles12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1200");
-  }
-
-  Future<void> speakconsoles13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsole
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsoles1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -105,30 +105,6 @@ class EnglishEntryclap extends StatelessWidget {
         "There was a clap of thunder and then it started to pour with rain.");
   }
 
-  Future<void> speakclaps11(String languageCode) async {
-    // DOPSUM: CHANGE speakclap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaps1100");
-  }
-
-  Future<void> speakclaps12(String languageCode) async {
-    // DOPSUM: CHANGE speakclap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaps1200");
-  }
-
-  Future<void> speakclaps13(String languageCode) async {
-    // DOPSUM: CHANGE speakclap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaps1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

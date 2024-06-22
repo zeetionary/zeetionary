@@ -286,38 +286,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("His lips curved in a smile.");
   }
 
-  Future<void> speakcurves10(String languageCode) async {
-    // DOPSUM: CHANGE speakcurve
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurves1000");
-  }
-
-  Future<void> speakcurves11(String languageCode) async {
-    // DOPSUM: CHANGE speakcurve
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurves1100");
-  }
-
-  Future<void> speakcurves12(String languageCode) async {
-    // DOPSUM: CHANGE speakcurve
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurves1200");
-  }
-
-  Future<void> speakcurves13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurve
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurves1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

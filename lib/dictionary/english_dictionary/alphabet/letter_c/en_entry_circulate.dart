@@ -77,54 +77,6 @@ class EnglishEntrycirculate extends StatelessWidget {
     await flutterTts.speak("The document will be circulated to all members.");
   }
 
-  Future<void> speakcirculates8(String languageCode) async {
-    // DOPSUM: CHANGE speakcirculate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcirculates800");
-  }
-
-  Future<void> speakcirculates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcirculate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcirculates900");
-  }
-
-  Future<void> speakcirculates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcirculate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcirculates1000");
-  }
-
-  Future<void> speakcirculates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcirculate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcirculates1100");
-  }
-
-  Future<void> speakcirculates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcirculate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcirculates1200");
-  }
-
-  Future<void> speakcirculates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcirculate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcirculates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

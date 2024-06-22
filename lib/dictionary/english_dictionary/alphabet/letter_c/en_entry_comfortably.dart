@@ -41,7 +41,7 @@ class EnglishEntrycomfortably extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys300");
+    await flutterTts.speak("You should be able to live comfortably on your allowance.");
   }
 
   Future<void> speakcomfortablys4(String languageCode) async {
@@ -59,71 +59,7 @@ class EnglishEntrycomfortably extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("They are comfortably ahead in the opinion polls.");
   }
-
-  Future<void> speakcomfortablys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys600");
-  }
-
-  Future<void> speakcomfortablys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys700");
-  }
-
-  Future<void> speakcomfortablys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys800");
-  }
-
-  Future<void> speakcomfortablys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys900");
-  }
-
-  Future<void> speakcomfortablys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys1000");
-  }
-
-  Future<void> speakcomfortablys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys1100");
-  }
-
-  Future<void> speakcomfortablys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys1200");
-  }
-
-  Future<void> speakcomfortablys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomfortably
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomfortablys1300");
-  }
-
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

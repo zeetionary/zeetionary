@@ -70,62 +70,6 @@ class EnglishEntrycharity extends StatelessWidget {
         .speak("Her article showed no charity towards her former friends.");
   }
 
-  Future<void> speakcharitys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys700");
-  }
-
-  Future<void> speakcharitys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys800");
-  }
-
-  Future<void> speakcharitys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys900");
-  }
-
-  Future<void> speakcharitys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys1000");
-  }
-
-  Future<void> speakcharitys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys1100");
-  }
-
-  Future<void> speakcharitys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys1200");
-  }
-
-  Future<void> speakcharitys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcharity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharitys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

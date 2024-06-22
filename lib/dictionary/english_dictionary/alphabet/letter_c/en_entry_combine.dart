@@ -112,22 +112,6 @@ class EnglishEntrycombine extends StatelessWidget {
     await flutterTts.speak("The farmer used a combine to harvest the wheat.");
   }
 
-  Future<void> speakcombines12(String languageCode) async {
-    // DOPSUM: CHANGE speakcombine
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombines1200");
-  }
-
-  Future<void> speakcombines13(String languageCode) async {
-    // DOPSUM: CHANGE speakcombine
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcombines1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

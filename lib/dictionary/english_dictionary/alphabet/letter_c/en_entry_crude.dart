@@ -220,14 +220,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("The price of crude oil fluctuates based on supply and demand.");
   }
 
-  Future<void> speakcrudes2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes200");
-  }
-
   Future<void> speakcrudes3(String languageCode) async {
     // DOPSUM: CHANGE speakcrude
     await flutterTts.setLanguage(languageCode);
@@ -261,62 +253,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
         .speak("The country exported crude to other nations for refining.");
-  }
-
-  Future<void> speakcrudes7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes700");
-  }
-
-  Future<void> speakcrudes8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes800");
-  }
-
-  Future<void> speakcrudes9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes900");
-  }
-
-  Future<void> speakcrudes10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes1000");
-  }
-
-  Future<void> speakcrudes11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes1100");
-  }
-
-  Future<void> speakcrudes12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes1200");
-  }
-
-  Future<void> speakcrudes13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrudes1300");
   }
 
   @override

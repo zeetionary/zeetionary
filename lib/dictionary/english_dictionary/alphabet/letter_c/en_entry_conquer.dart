@@ -79,54 +79,6 @@ class EnglishEntryconquer extends StatelessWidget {
         .speak("This is a British film which could conquer the US market.");
   }
 
-  Future<void> speakconquers8(String languageCode) async {
-    // DOPSUM: CHANGE speakconquer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers800");
-  }
-
-  Future<void> speakconquers9(String languageCode) async {
-    // DOPSUM: CHANGE speakconquer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers900");
-  }
-
-  Future<void> speakconquers10(String languageCode) async {
-    // DOPSUM: CHANGE speakconquer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1000");
-  }
-
-  Future<void> speakconquers11(String languageCode) async {
-    // DOPSUM: CHANGE speakconquer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1100");
-  }
-
-  Future<void> speakconquers12(String languageCode) async {
-    // DOPSUM: CHANGE speakconquer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1200");
-  }
-
-  Future<void> speakconquers13(String languageCode) async {
-    // DOPSUM: CHANGE speakconquer
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconquers1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

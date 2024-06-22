@@ -87,46 +87,6 @@ class EnglishEntrycinema extends StatelessWidget {
     await flutterTts.speak("He was a prominent figure in Russian cinema.");
   }
 
-  Future<void> speakcinemas9(String languageCode) async {
-    // DOPSUM: CHANGE speakcinema
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcinemas900");
-  }
-
-  Future<void> speakcinemas10(String languageCode) async {
-    // DOPSUM: CHANGE speakcinema
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcinemas1000");
-  }
-
-  Future<void> speakcinemas11(String languageCode) async {
-    // DOPSUM: CHANGE speakcinema
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcinemas1100");
-  }
-
-  Future<void> speakcinemas12(String languageCode) async {
-    // DOPSUM: CHANGE speakcinema
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcinemas1200");
-  }
-
-  Future<void> speakcinemas13(String languageCode) async {
-    // DOPSUM: CHANGE speakcinema
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcinemas1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

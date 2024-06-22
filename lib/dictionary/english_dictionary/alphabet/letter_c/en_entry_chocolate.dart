@@ -75,54 +75,6 @@ class EnglishEntrychocolate extends StatelessWidget {
     await flutterTts.speak("That deep chocolate on the walls looks beautiful.");
   }
 
-  Future<void> speakchocolates8(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates800");
-  }
-
-  Future<void> speakchocolates9(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates900");
-  }
-
-  Future<void> speakchocolates10(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1000");
-  }
-
-  Future<void> speakchocolates11(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1100");
-  }
-
-  Future<void> speakchocolates12(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1200");
-  }
-
-  Future<void> speakchocolates13(String languageCode) async {
-    // DOPSUM: CHANGE speakchocolate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchocolates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

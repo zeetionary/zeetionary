@@ -84,46 +84,6 @@ class EnglishEntrycoast extends StatelessWidget {
     await flutterTts.speak("You're just coasting—it's time to work hard now.");
   }
 
-  Future<void> speakcoasts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoasts900");
-  }
-
-  Future<void> speakcoasts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoasts1000");
-  }
-
-  Future<void> speakcoasts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoasts1100");
-  }
-
-  Future<void> speakcoasts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoasts1200");
-  }
-
-  Future<void> speakcoasts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoasts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -285,38 +285,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("We got creamed in the first round.");
   }
 
-  Future<void> speakcreams10(String languageCode) async {
-    // DOPSUM: CHANGE speakcream
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreams1000");
-  }
-
-  Future<void> speakcreams11(String languageCode) async {
-    // DOPSUM: CHANGE speakcream
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreams1100");
-  }
-
-  Future<void> speakcreams12(String languageCode) async {
-    // DOPSUM: CHANGE speakcream
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreams1200");
-  }
-
-  Future<void> speakcreams13(String languageCode) async {
-    // DOPSUM: CHANGE speakcream
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreams1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

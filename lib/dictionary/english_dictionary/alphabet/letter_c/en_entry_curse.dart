@@ -286,38 +286,6 @@ class KurdishMeaning extends StatelessWidget {
         "Legend has it that the whole village had been cursed by a witch.");
   }
 
-  Future<void> speakcurses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcurse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurses1000");
-  }
-
-  Future<void> speakcurses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcurse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurses1100");
-  }
-
-  Future<void> speakcurses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcurse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurses1200");
-  }
-
-  Future<void> speakcurses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurses1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

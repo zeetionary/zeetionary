@@ -89,46 +89,6 @@ class EnglishEntrycontrary extends StatelessWidget {
         "She was such a contrary child—it was impossible to please her.");
   }
 
-  Future<void> speakcontrarys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys900");
-  }
-
-  Future<void> speakcontrarys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1000");
-  }
-
-  Future<void> speakcontrarys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1100");
-  }
-
-  Future<void> speakcontrarys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1200");
-  }
-
-  Future<void> speakcontrarys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrarys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -80,54 +80,6 @@ class EnglishEntrycompound extends StatelessWidget {
         "Most tyres are made of rubber compounded with other chemicals and materials.");
   }
 
-  Future<void> speakcompounds8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompound
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds800");
-  }
-
-  Future<void> speakcompounds9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompound
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds900");
-  }
-
-  Future<void> speakcompounds10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompound
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1000");
-  }
-
-  Future<void> speakcompounds11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompound
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1100");
-  }
-
-  Future<void> speakcompounds12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompound
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1200");
-  }
-
-  Future<void> speakcompounds13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompound
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompounds1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

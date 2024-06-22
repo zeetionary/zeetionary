@@ -81,54 +81,6 @@ class EnglishEntryconstruct extends StatelessWidget {
         "Marriage is a social construct that is found in most communities and cultures.");
   }
 
-  Future<void> speakconstructs8(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructs800");
-  }
-
-  Future<void> speakconstructs9(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructs900");
-  }
-
-  Future<void> speakconstructs10(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructs1000");
-  }
-
-  Future<void> speakconstructs11(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructs1100");
-  }
-
-  Future<void> speakconstructs12(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructs1200");
-  }
-
-  Future<void> speakconstructs13(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructs1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

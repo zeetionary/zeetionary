@@ -103,30 +103,6 @@ class EnglishEntrycomment extends StatelessWidget {
         "A spokesperson commented that levels of carbon dioxide were very high.");
   }
 
-  Future<void> speakcomments11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomments1100");
-  }
-
-  Future<void> speakcomments12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomments1200");
-  }
-
-  Future<void> speakcomments13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomments1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

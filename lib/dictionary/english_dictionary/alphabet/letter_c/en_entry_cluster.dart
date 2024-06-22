@@ -88,46 +88,6 @@ class EnglishEntrycluster extends StatelessWidget {
     await flutterTts.speak("The children clustered around their teacher.");
   }
 
-  Future<void> speakclusters9(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters900");
-  }
-
-  Future<void> speakclusters10(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1000");
-  }
-
-  Future<void> speakclusters11(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1100");
-  }
-
-  Future<void> speakclusters12(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1200");
-  }
-
-  Future<void> speakclusters13(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclusters1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

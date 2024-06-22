@@ -96,38 +96,6 @@ class EnglishEntryconsequence extends StatelessWidget {
         .speak("I'd never done anything of consequence in my life.");
   }
 
-  Future<void> speakconsequences10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsequence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1000");
-  }
-
-  Future<void> speakconsequences11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsequence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1100");
-  }
-
-  Future<void> speakconsequences12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsequence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1200");
-  }
-
-  Future<void> speakconsequences13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsequence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsequences1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

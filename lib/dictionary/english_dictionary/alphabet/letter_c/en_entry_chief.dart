@@ -114,22 +114,6 @@ class EnglishEntrychief extends StatelessWidget {
         .speak("We spoke to a former CIA chief of European operations.");
   }
 
-  Future<void> speakchiefs12(String languageCode) async {
-    // DOPSUM: CHANGE speakchief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchiefs1200");
-  }
-
-  Future<void> speakchiefs13(String languageCode) async {
-    // DOPSUM: CHANGE speakchief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchiefs1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

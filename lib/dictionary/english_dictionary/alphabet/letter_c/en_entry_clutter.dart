@@ -70,62 +70,6 @@ class EnglishEntryclutter extends StatelessWidget {
         .speak("The garage is in such a clutter that we can't find anything.");
   }
 
-  Future<void> speakclutters7(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters700");
-  }
-
-  Future<void> speakclutters8(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters800");
-  }
-
-  Future<void> speakclutters9(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters900");
-  }
-
-  Future<void> speakclutters10(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters1000");
-  }
-
-  Future<void> speakclutters11(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters1100");
-  }
-
-  Future<void> speakclutters12(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters1200");
-  }
-
-  Future<void> speakclutters13(String languageCode) async {
-    // DOPSUM: CHANGE speakclutter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclutters1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -79,54 +79,6 @@ class EnglishEntrycontradict extends StatelessWidget {
         "This version of events was contradicted by eye-witness reports.");
   }
 
-  Future<void> speakcontradicts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontradict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontradicts800");
-  }
-
-  Future<void> speakcontradicts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontradict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontradicts900");
-  }
-
-  Future<void> speakcontradicts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontradict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontradicts1000");
-  }
-
-  Future<void> speakcontradicts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontradict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontradicts1100");
-  }
-
-  Future<void> speakcontradicts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontradict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontradicts1200");
-  }
-
-  Future<void> speakcontradicts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontradict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontradicts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -87,46 +87,6 @@ class EnglishEntrycondemn extends StatelessWidget {
     await flutterTts.speak("She is condemned out of her own mouth.");
   }
 
-  Future<void> speakcondemns9(String languageCode) async {
-    // DOPSUM: CHANGE speakcondemn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns900");
-  }
-
-  Future<void> speakcondemns10(String languageCode) async {
-    // DOPSUM: CHANGE speakcondemn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1000");
-  }
-
-  Future<void> speakcondemns11(String languageCode) async {
-    // DOPSUM: CHANGE speakcondemn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1100");
-  }
-
-  Future<void> speakcondemns12(String languageCode) async {
-    // DOPSUM: CHANGE speakcondemn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1200");
-  }
-
-  Future<void> speakcondemns13(String languageCode) async {
-    // DOPSUM: CHANGE speakcondemn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcondemns1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -111,22 +111,6 @@ class EnglishEntryclick extends StatelessWidget {
     await flutterTts.speak("The door closed with a click.");
   }
 
-  Future<void> speakclicks12(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1200");
-  }
-
-  Future<void> speakclicks13(String languageCode) async {
-    // DOPSUM: CHANGE speakclick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclicks1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

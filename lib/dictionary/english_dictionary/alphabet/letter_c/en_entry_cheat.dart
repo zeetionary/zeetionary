@@ -86,46 +86,6 @@ class EnglishEntrycheat extends StatelessWidget {
         "You can use cocoa powder to make the cake rather than chocolate - it's a bit of a cheat, but nobody notices the difference.");
   }
 
-  Future<void> speakcheats9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheats900");
-  }
-
-  Future<void> speakcheats10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheats1000");
-  }
-
-  Future<void> speakcheats11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheats1100");
-  }
-
-  Future<void> speakcheats12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheats1200");
-  }
-
-  Future<void> speakcheats13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheats1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

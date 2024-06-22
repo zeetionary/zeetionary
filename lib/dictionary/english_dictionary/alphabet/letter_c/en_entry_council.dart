@@ -279,46 +279,6 @@ class KurdishMeaning extends StatelessWidget {
         "The king held a council at Nottingham from 14 to 19 October 1330.");
   }
 
-  Future<void> speakcouncils9(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils900");
-  }
-
-  Future<void> speakcouncils10(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1000");
-  }
-
-  Future<void> speakcouncils11(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1100");
-  }
-
-  Future<void> speakcouncils12(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1200");
-  }
-
-  Future<void> speakcouncils13(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncils1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

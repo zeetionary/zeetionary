@@ -85,46 +85,6 @@ class EnglishEntrychoose extends StatelessWidget {
     await flutterTts.speak("Many people choose not to marry.");
   }
 
-  Future<void> speakchooses9(String languageCode) async {
-    // DOPSUM: CHANGE speakchoose
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchooses900");
-  }
-
-  Future<void> speakchooses10(String languageCode) async {
-    // DOPSUM: CHANGE speakchoose
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchooses1000");
-  }
-
-  Future<void> speakchooses11(String languageCode) async {
-    // DOPSUM: CHANGE speakchoose
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchooses1100");
-  }
-
-  Future<void> speakchooses12(String languageCode) async {
-    // DOPSUM: CHANGE speakchoose
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchooses1200");
-  }
-
-  Future<void> speakchooses13(String languageCode) async {
-    // DOPSUM: CHANGE speakchoose
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchooses1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

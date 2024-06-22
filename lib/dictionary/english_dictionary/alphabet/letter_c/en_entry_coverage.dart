@@ -264,62 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         "The service has a coverage of 90 per cent of the UK population.");
   }
 
-  Future<void> speakcoverages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages700");
-  }
-
-  Future<void> speakcoverages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages800");
-  }
-
-  Future<void> speakcoverages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages900");
-  }
-
-  Future<void> speakcoverages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1000");
-  }
-
-  Future<void> speakcoverages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1100");
-  }
-
-  Future<void> speakcoverages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1200");
-  }
-
-  Future<void> speakcoverages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -70,62 +70,6 @@ class EnglishEntrychurn extends StatelessWidget {
         "I used to collect a few churns of milk from my brother's farm to make cheese.");
   }
 
-  Future<void> speakchurns7(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns700");
-  }
-
-  Future<void> speakchurns8(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns800");
-  }
-
-  Future<void> speakchurns9(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns900");
-  }
-
-  Future<void> speakchurns10(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns1000");
-  }
-
-  Future<void> speakchurns11(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns1100");
-  }
-
-  Future<void> speakchurns12(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns1200");
-  }
-
-  Future<void> speakchurns13(String languageCode) async {
-    // DOPSUM: CHANGE speakchurn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchurns1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

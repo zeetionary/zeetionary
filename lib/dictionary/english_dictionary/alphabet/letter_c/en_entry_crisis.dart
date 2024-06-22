@@ -261,62 +261,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("The fever has passed its crisis.");
   }
 
-  Future<void> speakcrisiss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss700");
-  }
-
-  Future<void> speakcrisiss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss800");
-  }
-
-  Future<void> speakcrisiss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss900");
-  }
-
-  Future<void> speakcrisiss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss1000");
-  }
-
-  Future<void> speakcrisiss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss1100");
-  }
-
-  Future<void> speakcrisiss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss1200");
-  }
-
-  Future<void> speakcrisiss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrisis
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrisiss1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

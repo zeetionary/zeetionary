@@ -102,30 +102,6 @@ class EnglishEntrychop extends StatelessWidget {
     await flutterTts.speak("He has the acting chops to carry a major film.");
   }
 
-  Future<void> speakchops11(String languageCode) async {
-    // DOPSUM: CHANGE speakchop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchops1100");
-  }
-
-  Future<void> speakchops12(String languageCode) async {
-    // DOPSUM: CHANGE speakchop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchops1200");
-  }
-
-  Future<void> speakchops13(String languageCode) async {
-    // DOPSUM: CHANGE speakchop
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchops1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

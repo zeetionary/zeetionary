@@ -90,46 +90,6 @@ class EnglishEntryconcentrate extends StatelessWidget {
         "These jams made with fruit juice concentrate are lower in added sugar.");
   }
 
-  Future<void> speakconcentrates9(String languageCode) async {
-    // DOPSUM: CHANGE speakconcentrate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates900");
-  }
-
-  Future<void> speakconcentrates10(String languageCode) async {
-    // DOPSUM: CHANGE speakconcentrate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1000");
-  }
-
-  Future<void> speakconcentrates11(String languageCode) async {
-    // DOPSUM: CHANGE speakconcentrate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1100");
-  }
-
-  Future<void> speakconcentrates12(String languageCode) async {
-    // DOPSUM: CHANGE speakconcentrate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1200");
-  }
-
-  Future<void> speakconcentrates13(String languageCode) async {
-    // DOPSUM: CHANGE speakconcentrate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcentrates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

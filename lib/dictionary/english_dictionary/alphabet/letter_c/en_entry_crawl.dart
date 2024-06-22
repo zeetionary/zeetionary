@@ -284,38 +284,6 @@ class KurdishMeaning extends StatelessWidget {
         "She can do the crawl, backstroke, and breaststroke, which is amazing for someone so young.");
   }
 
-  Future<void> speakcrawls10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrawl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrawls1000");
-  }
-
-  Future<void> speakcrawls11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrawl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrawls1100");
-  }
-
-  Future<void> speakcrawls12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrawl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrawls1200");
-  }
-
-  Future<void> speakcrawls13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrawl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrawls1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

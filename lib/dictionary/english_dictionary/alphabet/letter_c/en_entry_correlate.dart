@@ -262,62 +262,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Drug use is a significant correlate of crime.");
   }
 
-  Future<void> speakcorrelates7(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates700");
-  }
-
-  Future<void> speakcorrelates8(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates800");
-  }
-
-  Future<void> speakcorrelates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates900");
-  }
-
-  Future<void> speakcorrelates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates1000");
-  }
-
-  Future<void> speakcorrelates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates1100");
-  }
-
-  Future<void> speakcorrelates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates1200");
-  }
-
-  Future<void> speakcorrelates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrelates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

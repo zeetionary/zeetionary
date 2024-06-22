@@ -97,38 +97,6 @@ class EnglishEntryconvention extends StatelessWidget {
         .speak("This is forbidden under the Convention on Human Rights.");
   }
 
-  Future<void> speakconventions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1000");
-  }
-
-  Future<void> speakconventions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1100");
-  }
-
-  Future<void> speakconventions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1200");
-  }
-
-  Future<void> speakconventions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconvention
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

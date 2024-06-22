@@ -414,30 +414,6 @@ class EnglishEntrycharge extends StatelessWidget {
         "Please charge your glasses and drink a toast to the bride and groom!");
   }
 
-  Future<void> speakcharges48(String languageCode) async {
-    // DOPSUM: CHANGE speakcharge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges4800");
-  }
-
-  Future<void> speakcharges49(String languageCode) async {
-    // DOPSUM: CHANGE speakcharge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges4900");
-  }
-
-  Future<void> speakcharges50(String languageCode) async {
-    // DOPSUM: CHANGE speakcharge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharges5000");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

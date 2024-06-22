@@ -77,54 +77,6 @@ class EnglishEntryconceive extends StatelessWidget {
         .speak("Their first child was conceived on their wedding night.");
   }
 
-  Future<void> speakconceives8(String languageCode) async {
-    // DOPSUM: CHANGE speakconceive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconceives800");
-  }
-
-  Future<void> speakconceives9(String languageCode) async {
-    // DOPSUM: CHANGE speakconceive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconceives900");
-  }
-
-  Future<void> speakconceives10(String languageCode) async {
-    // DOPSUM: CHANGE speakconceive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconceives1000");
-  }
-
-  Future<void> speakconceives11(String languageCode) async {
-    // DOPSUM: CHANGE speakconceive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconceives1100");
-  }
-
-  Future<void> speakconceives12(String languageCode) async {
-    // DOPSUM: CHANGE speakconceive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconceives1200");
-  }
-
-  Future<void> speakconceives13(String languageCode) async {
-    // DOPSUM: CHANGE speakconceive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconceives1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

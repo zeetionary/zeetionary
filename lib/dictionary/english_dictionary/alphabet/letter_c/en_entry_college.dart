@@ -85,46 +85,6 @@ class EnglishEntrycollege extends StatelessWidget {
         "The history department is part of the College of Arts and Sciences.");
   }
 
-  Future<void> speakcolleges9(String languageCode) async {
-    // DOPSUM: CHANGE speakcollege
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolleges900");
-  }
-
-  Future<void> speakcolleges10(String languageCode) async {
-    // DOPSUM: CHANGE speakcollege
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolleges1000");
-  }
-
-  Future<void> speakcolleges11(String languageCode) async {
-    // DOPSUM: CHANGE speakcollege
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolleges1100");
-  }
-
-  Future<void> speakcolleges12(String languageCode) async {
-    // DOPSUM: CHANGE speakcollege
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolleges1200");
-  }
-
-  Future<void> speakcolleges13(String languageCode) async {
-    // DOPSUM: CHANGE speakcollege
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolleges1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

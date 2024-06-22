@@ -28,102 +28,18 @@ class EnglishEntrycockpit extends StatelessWidget {
         .speak("The cockpit door was securely locked during the flight.");
   }
 
-  Future<void> speakcockpits2(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits200");
-  }
-
-  Future<void> speakcockpits3(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits300");
-  }
-
-  Future<void> speakcockpits4(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits400");
-  }
-
-  Future<void> speakcockpits5(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits500");
-  }
-
-  Future<void> speakcockpits6(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits600");
-  }
-
-  Future<void> speakcockpits7(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits700");
-  }
-
-  Future<void> speakcockpits8(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits800");
-  }
-
-  Future<void> speakcockpits9(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits900");
-  }
-
-  Future<void> speakcockpits10(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits1000");
-  }
-
-  Future<void> speakcockpits11(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits1100");
-  }
-
-  Future<void> speakcockpits12(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits1200");
-  }
-
-  Future<void> speakcockpits13(String languageCode) async {
-    // DOPSUM: CHANGE speakcockpit
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcockpits1300");
-  }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

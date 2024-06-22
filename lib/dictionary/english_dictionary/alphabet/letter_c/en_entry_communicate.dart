@@ -107,30 +107,6 @@ class EnglishEntrycommunicate extends StatelessWidget {
         .speak("The disease is communicated through dirty drinking water.");
   }
 
-  Future<void> speakcommunicates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunicate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunicates1100");
-  }
-
-  Future<void> speakcommunicates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunicate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunicates1200");
-  }
-
-  Future<void> speakcommunicates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunicate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommunicates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

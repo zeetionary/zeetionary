@@ -270,54 +270,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("The level of debt crested at a massive £290 billion in 2009.");
   }
 
-  Future<void> speakcrests8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrests800");
-  }
-
-  Future<void> speakcrests9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrests900");
-  }
-
-  Future<void> speakcrests10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrests1000");
-  }
-
-  Future<void> speakcrests11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrests1100");
-  }
-
-  Future<void> speakcrests12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrests1200");
-  }
-
-  Future<void> speakcrests13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrest
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrests1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

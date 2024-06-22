@@ -90,46 +90,6 @@ class EnglishEntrycomparison extends StatelessWidget {
         "There is no published information that would allow a direct comparison with other regions or countries.");
   }
 
-  Future<void> speakcomparisons9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparison
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomparisons900");
-  }
-
-  Future<void> speakcomparisons10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparison
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomparisons1000");
-  }
-
-  Future<void> speakcomparisons11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparison
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomparisons1100");
-  }
-
-  Future<void> speakcomparisons12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparison
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomparisons1200");
-  }
-
-  Future<void> speakcomparisons13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparison
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomparisons1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

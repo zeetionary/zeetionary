@@ -72,62 +72,6 @@ class EnglishEntryconcession extends StatelessWidget {
         "The company has just won a mining concession in the north of the country.");
   }
 
-  Future<void> speakconcessions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions700");
-  }
-
-  Future<void> speakconcessions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions800");
-  }
-
-  Future<void> speakconcessions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions900");
-  }
-
-  Future<void> speakconcessions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions1000");
-  }
-
-  Future<void> speakconcessions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions1100");
-  }
-
-  Future<void> speakconcessions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions1200");
-  }
-
-  Future<void> speakconcessions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcessions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

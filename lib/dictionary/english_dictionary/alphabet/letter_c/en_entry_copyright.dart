@@ -79,54 +79,6 @@ class EnglishEntrycopyright extends StatelessWidget {
         "If a work is copyrighted by the author, the protection lasts until 70 years after his or her death.");
   }
 
-  Future<void> speakcopyrights8(String languageCode) async {
-    // DOPSUM: CHANGE speakcopyright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights800");
-  }
-
-  Future<void> speakcopyrights9(String languageCode) async {
-    // DOPSUM: CHANGE speakcopyright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights900");
-  }
-
-  Future<void> speakcopyrights10(String languageCode) async {
-    // DOPSUM: CHANGE speakcopyright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1000");
-  }
-
-  Future<void> speakcopyrights11(String languageCode) async {
-    // DOPSUM: CHANGE speakcopyright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1100");
-  }
-
-  Future<void> speakcopyrights12(String languageCode) async {
-    // DOPSUM: CHANGE speakcopyright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1200");
-  }
-
-  Future<void> speakcopyrights13(String languageCode) async {
-    // DOPSUM: CHANGE speakcopyright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcopyrights1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

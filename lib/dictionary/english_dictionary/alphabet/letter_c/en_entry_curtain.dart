@@ -314,14 +314,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("They could see nothing through the curtain of smoke.");
   }
 
-  Future<void> speakcurtains13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurtain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurtains1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

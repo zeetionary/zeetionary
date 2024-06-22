@@ -305,22 +305,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("He was created a baronet in 1715.");
   }
 
-  Future<void> speakcreates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcreate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreates1200");
-  }
-
-  Future<void> speakcreates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcreate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

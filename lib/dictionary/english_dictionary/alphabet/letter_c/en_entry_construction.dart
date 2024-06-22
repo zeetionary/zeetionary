@@ -114,22 +114,6 @@ class EnglishEntryconstruction extends StatelessWidget {
         "I don't want them to put the wrong construction on my actions.");
   }
 
-  Future<void> speakconstructions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructions1200");
-  }
-
-  Future<void> speakconstructions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconstruction
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstructions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

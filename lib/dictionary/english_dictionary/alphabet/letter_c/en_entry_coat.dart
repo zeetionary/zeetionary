@@ -77,54 +77,6 @@ class EnglishEntrycoat extends StatelessWidget {
     await flutterTts.speak("A film of dust coated the table.");
   }
 
-  Future<void> speakcoats8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoats800");
-  }
-
-  Future<void> speakcoats9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoats900");
-  }
-
-  Future<void> speakcoats10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoats1000");
-  }
-
-  Future<void> speakcoats11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoats1100");
-  }
-
-  Future<void> speakcoats12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoats1200");
-  }
-
-  Future<void> speakcoats13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoats1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

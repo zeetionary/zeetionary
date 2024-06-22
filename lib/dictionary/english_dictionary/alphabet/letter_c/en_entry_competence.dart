@@ -81,54 +81,6 @@ class EnglishEntrycompetence extends StatelessWidget {
         .speak("He reached a reasonable level of competence in his English.");
   }
 
-  Future<void> speakcompetences8(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences800");
-  }
-
-  Future<void> speakcompetences9(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences900");
-  }
-
-  Future<void> speakcompetences10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1000");
-  }
-
-  Future<void> speakcompetences11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1100");
-  }
-
-  Future<void> speakcompetences12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1200");
-  }
-
-  Future<void> speakcompetences13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetence
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetences1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -286,38 +286,6 @@ class KurdishMeaning extends StatelessWidget {
         "We are waiting for the results officials who are still crunching numbers.");
   }
 
-  Future<void> speakcrunchs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1000");
-  }
-
-  Future<void> speakcrunchs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1100");
-  }
-
-  Future<void> speakcrunchs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1200");
-  }
-
-  Future<void> speakcrunchs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -101,30 +101,6 @@ class EnglishEntrychicken extends StatelessWidget {
     await flutterTts.speak("Why won't you jump? Are you chicken?");
   }
 
-  Future<void> speakchickens11(String languageCode) async {
-    // DOPSUM: CHANGE speakchicken
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchickens1100");
-  }
-
-  Future<void> speakchickens12(String languageCode) async {
-    // DOPSUM: CHANGE speakchicken
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchickens1200");
-  }
-
-  Future<void> speakchickens13(String languageCode) async {
-    // DOPSUM: CHANGE speakchicken
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchickens1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

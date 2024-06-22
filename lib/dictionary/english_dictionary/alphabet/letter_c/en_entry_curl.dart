@@ -309,14 +309,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Decorate the cake with curls of chocolate.");
   }
 
-  Future<void> speakcurls13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurl
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurls1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -93,38 +93,6 @@ class EnglishEntryclub extends StatelessWidget {
         .speak("The victim was clubbed to death with a baseball bat.");
   }
 
-  Future<void> speakclubs10(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1000");
-  }
-
-  Future<void> speakclubs11(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1100");
-  }
-
-  Future<void> speakclubs12(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1200");
-  }
-
-  Future<void> speakclubs13(String languageCode) async {
-    // DOPSUM: CHANGE speakclub
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclubs1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

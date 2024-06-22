@@ -77,54 +77,6 @@ class EnglishEntrycoin extends StatelessWidget {
         .speak("Few people have any idea who coined the famous phrase.");
   }
 
-  Future<void> speakcoins8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoins800");
-  }
-
-  Future<void> speakcoins9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoins900");
-  }
-
-  Future<void> speakcoins10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoins1000");
-  }
-
-  Future<void> speakcoins11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoins1100");
-  }
-
-  Future<void> speakcoins12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoins1200");
-  }
-
-  Future<void> speakcoins13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoins1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

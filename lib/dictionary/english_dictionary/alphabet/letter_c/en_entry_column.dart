@@ -96,38 +96,6 @@ class EnglishEntrycolumn extends StatelessWidget {
     await flutterTts.speak("The roof is supported by four huge columns.");
   }
 
-  Future<void> speakcolumns10(String languageCode) async {
-    // DOPSUM: CHANGE speakcolumn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolumns1000");
-  }
-
-  Future<void> speakcolumns11(String languageCode) async {
-    // DOPSUM: CHANGE speakcolumn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolumns1100");
-  }
-
-  Future<void> speakcolumns12(String languageCode) async {
-    // DOPSUM: CHANGE speakcolumn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolumns1200");
-  }
-
-  Future<void> speakcolumns13(String languageCode) async {
-    // DOPSUM: CHANGE speakcolumn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcolumns1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

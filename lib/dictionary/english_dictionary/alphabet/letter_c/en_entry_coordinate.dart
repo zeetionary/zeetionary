@@ -72,62 +72,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
     await flutterTts.speak("The pilot had been given the wrong co-ordinates.");
   }
 
-  Future<void> speakcoordinates7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates700");
-  }
-
-  Future<void> speakcoordinates8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates800");
-  }
-
-  Future<void> speakcoordinates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates900");
-  }
-
-  Future<void> speakcoordinates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1000");
-  }
-
-  Future<void> speakcoordinates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1100");
-  }
-
-  Future<void> speakcoordinates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1200");
-  }
-
-  Future<void> speakcoordinates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoordinates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

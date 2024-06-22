@@ -109,22 +109,8 @@ class EnglishEntrycode extends StatelessWidget {
         "Each story was coded into one of 31 categories for domestic news, while foreign news was separately coded by country.");
   }
 
-  Future<void> speakcodes12(String languageCode) async {
-    // DOPSUM: CHANGE speakcode
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcodes1200");
-  }
-
-  Future<void> speakcodes13(String languageCode) async {
-    // DOPSUM: CHANGE speakcode
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcodes1300");
-  }
-
+  
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

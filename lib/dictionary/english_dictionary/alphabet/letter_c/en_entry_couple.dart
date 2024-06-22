@@ -269,54 +269,6 @@ class KurdishMeaning extends StatelessWidget {
         "This energy is converted into electrical energy by a machine that is coupled to the turbine.");
   }
 
-  Future<void> speakcouples8(String languageCode) async {
-    // DOPSUM: CHANGE speakcouple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouples800");
-  }
-
-  Future<void> speakcouples9(String languageCode) async {
-    // DOPSUM: CHANGE speakcouple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouples900");
-  }
-
-  Future<void> speakcouples10(String languageCode) async {
-    // DOPSUM: CHANGE speakcouple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouples1000");
-  }
-
-  Future<void> speakcouples11(String languageCode) async {
-    // DOPSUM: CHANGE speakcouple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouples1100");
-  }
-
-  Future<void> speakcouples12(String languageCode) async {
-    // DOPSUM: CHANGE speakcouple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouples1200");
-  }
-
-  Future<void> speakcouples13(String languageCode) async {
-    // DOPSUM: CHANGE speakcouple
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouples1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

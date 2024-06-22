@@ -87,46 +87,6 @@ class EnglishEntrycontemporary extends StatelessWidget {
         .speak("He was a contemporary of Freud and may have known him.");
   }
 
-  Future<void> speakcontemporarys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemporary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys900");
-  }
-
-  Future<void> speakcontemporarys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemporary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1000");
-  }
-
-  Future<void> speakcontemporarys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemporary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1100");
-  }
-
-  Future<void> speakcontemporarys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemporary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1200");
-  }
-
-  Future<void> speakcontemporarys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemporary
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemporarys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

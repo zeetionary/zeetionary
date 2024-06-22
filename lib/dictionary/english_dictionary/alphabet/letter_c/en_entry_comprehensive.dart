@@ -70,62 +70,6 @@ class EnglishEntrycomprehensive extends StatelessWidget {
     await flutterTts.speak("They went to the local comprehensive.");
   }
 
-  Future<void> speakcomprehensives7(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives700");
-  }
-
-  Future<void> speakcomprehensives8(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives800");
-  }
-
-  Future<void> speakcomprehensives9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives900");
-  }
-
-  Future<void> speakcomprehensives10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1000");
-  }
-
-  Future<void> speakcomprehensives11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1100");
-  }
-
-  Future<void> speakcomprehensives12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1200");
-  }
-
-  Future<void> speakcomprehensives13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomprehensive
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomprehensives1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

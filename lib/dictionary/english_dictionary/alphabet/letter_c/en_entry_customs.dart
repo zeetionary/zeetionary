@@ -270,54 +270,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("We had to pay customs duties on the beer.");
   }
 
-  Future<void> speakcustomss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcustoms
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustomss800");
-  }
-
-  Future<void> speakcustomss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcustoms
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustomss900");
-  }
-
-  Future<void> speakcustomss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcustoms
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustomss1000");
-  }
-
-  Future<void> speakcustomss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcustoms
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustomss1100");
-  }
-
-  Future<void> speakcustomss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcustoms
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustomss1200");
-  }
-
-  Future<void> speakcustomss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcustoms
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustomss1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

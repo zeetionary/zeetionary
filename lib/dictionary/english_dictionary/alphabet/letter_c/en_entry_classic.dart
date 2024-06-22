@@ -116,14 +116,6 @@ class EnglishEntryclassic extends StatelessWidget {
     await flutterTts.speak("Classics don't lose their style.");
   }
 
-  Future<void> speakclassics13(String languageCode) async {
-    // DOPSUM: CHANGE speakclassic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclassics1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

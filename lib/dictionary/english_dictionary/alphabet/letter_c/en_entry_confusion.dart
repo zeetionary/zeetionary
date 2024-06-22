@@ -72,62 +72,6 @@ class EnglishEntryconfusion extends StatelessWidget {
         .speak("Her unexpected arrival threw us into total confusion.");
   }
 
-  Future<void> speakconfusions7(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions700");
-  }
-
-  Future<void> speakconfusions8(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions800");
-  }
-
-  Future<void> speakconfusions9(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions900");
-  }
-
-  Future<void> speakconfusions10(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions1000");
-  }
-
-  Future<void> speakconfusions11(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions1100");
-  }
-
-  Future<void> speakconfusions12(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions1200");
-  }
-
-  Future<void> speakconfusions13(String languageCode) async {
-    // DOPSUM: CHANGE speakconfusion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconfusions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

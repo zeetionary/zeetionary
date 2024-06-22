@@ -91,46 +91,6 @@ class EnglishEntrycivil extends StatelessWidget {
         "He said that the police were perfectly civil in their questioning.");
   }
 
-  Future<void> speakcivils9(String languageCode) async {
-    // DOPSUM: CHANGE speakcivil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivils900");
-  }
-
-  Future<void> speakcivils10(String languageCode) async {
-    // DOPSUM: CHANGE speakcivil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivils1000");
-  }
-
-  Future<void> speakcivils11(String languageCode) async {
-    // DOPSUM: CHANGE speakcivil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivils1100");
-  }
-
-  Future<void> speakcivils12(String languageCode) async {
-    // DOPSUM: CHANGE speakcivil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivils1200");
-  }
-
-  Future<void> speakcivils13(String languageCode) async {
-    // DOPSUM: CHANGE speakcivil
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcivils1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

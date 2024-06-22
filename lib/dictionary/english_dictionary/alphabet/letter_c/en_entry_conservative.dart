@@ -71,62 +71,6 @@ class EnglishEntryconservative extends StatelessWidget {
     await flutterTts.speak("Senior Conservatives are opposed to the change.");
   }
 
-  Future<void> speakconservatives7(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives700");
-  }
-
-  Future<void> speakconservatives8(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives800");
-  }
-
-  Future<void> speakconservatives9(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives900");
-  }
-
-  Future<void> speakconservatives10(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1000");
-  }
-
-  Future<void> speakconservatives11(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1100");
-  }
-
-  Future<void> speakconservatives12(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1200");
-  }
-
-  Future<void> speakconservatives13(String languageCode) async {
-    // DOPSUM: CHANGE speakconservative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconservatives1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

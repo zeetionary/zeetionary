@@ -72,62 +72,6 @@ class EnglishEntrycontinuity extends StatelessWidget {
         "There is often a lack of continuity between one government and the next.");
   }
 
-  Future<void> speakcontinuitys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys700");
-  }
-
-  Future<void> speakcontinuitys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys800");
-  }
-
-  Future<void> speakcontinuitys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys900");
-  }
-
-  Future<void> speakcontinuitys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1000");
-  }
-
-  Future<void> speakcontinuitys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1100");
-  }
-
-  Future<void> speakcontinuitys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1200");
-  }
-
-  Future<void> speakcontinuitys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuitys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

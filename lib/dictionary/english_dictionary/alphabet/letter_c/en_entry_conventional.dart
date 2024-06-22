@@ -80,54 +80,6 @@ class EnglishEntryconventional extends StatelessWidget {
         "A conventional war would still cause unacceptable devastation.");
   }
 
-  Future<void> speakconventionals8(String languageCode) async {
-    // DOPSUM: CHANGE speakconventional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals800");
-  }
-
-  Future<void> speakconventionals9(String languageCode) async {
-    // DOPSUM: CHANGE speakconventional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals900");
-  }
-
-  Future<void> speakconventionals10(String languageCode) async {
-    // DOPSUM: CHANGE speakconventional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1000");
-  }
-
-  Future<void> speakconventionals11(String languageCode) async {
-    // DOPSUM: CHANGE speakconventional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1100");
-  }
-
-  Future<void> speakconventionals12(String languageCode) async {
-    // DOPSUM: CHANGE speakconventional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1200");
-  }
-
-  Future<void> speakconventionals13(String languageCode) async {
-    // DOPSUM: CHANGE speakconventional
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconventionals1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

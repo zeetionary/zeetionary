@@ -79,54 +79,6 @@ class EnglishEntryconclude extends StatelessWidget {
         .speak("A trade agreement was concluded between the two countries.");
   }
 
-  Future<void> speakconcludes8(String languageCode) async {
-    // DOPSUM: CHANGE speakconclude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcludes800");
-  }
-
-  Future<void> speakconcludes9(String languageCode) async {
-    // DOPSUM: CHANGE speakconclude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcludes900");
-  }
-
-  Future<void> speakconcludes10(String languageCode) async {
-    // DOPSUM: CHANGE speakconclude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcludes1000");
-  }
-
-  Future<void> speakconcludes11(String languageCode) async {
-    // DOPSUM: CHANGE speakconclude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcludes1100");
-  }
-
-  Future<void> speakconcludes12(String languageCode) async {
-    // DOPSUM: CHANGE speakconclude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcludes1200");
-  }
-
-  Future<void> speakconcludes13(String languageCode) async {
-    // DOPSUM: CHANGE speakconclude
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconcludes1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

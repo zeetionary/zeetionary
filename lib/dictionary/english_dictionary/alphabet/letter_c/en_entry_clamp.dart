@@ -70,62 +70,6 @@ class EnglishEntryclamp extends StatelessWidget {
         "Finding a clamp on his car, he realized he had parked illegally.");
   }
 
-  Future<void> speakclamps7(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps700");
-  }
-
-  Future<void> speakclamps8(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps800");
-  }
-
-  Future<void> speakclamps9(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps900");
-  }
-
-  Future<void> speakclamps10(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps1000");
-  }
-
-  Future<void> speakclamps11(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps1100");
-  }
-
-  Future<void> speakclamps12(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps1200");
-  }
-
-  Future<void> speakclamps13(String languageCode) async {
-    // DOPSUM: CHANGE speakclamp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclamps1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

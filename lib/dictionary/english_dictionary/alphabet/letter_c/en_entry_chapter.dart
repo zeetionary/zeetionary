@@ -78,54 +78,6 @@ class EnglishEntrychapter extends StatelessWidget {
         "He persuaded the cathedral chapter to let the college use the room for worship.");
   }
 
-  Future<void> speakchapters8(String languageCode) async {
-    // DOPSUM: CHANGE speakchapter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchapters800");
-  }
-
-  Future<void> speakchapters9(String languageCode) async {
-    // DOPSUM: CHANGE speakchapter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchapters900");
-  }
-
-  Future<void> speakchapters10(String languageCode) async {
-    // DOPSUM: CHANGE speakchapter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchapters1000");
-  }
-
-  Future<void> speakchapters11(String languageCode) async {
-    // DOPSUM: CHANGE speakchapter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchapters1100");
-  }
-
-  Future<void> speakchapters12(String languageCode) async {
-    // DOPSUM: CHANGE speakchapter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchapters1200");
-  }
-
-  Future<void> speakchapters13(String languageCode) async {
-    // DOPSUM: CHANGE speakchapter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchapters1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

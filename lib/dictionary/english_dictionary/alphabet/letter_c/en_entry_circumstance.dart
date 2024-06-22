@@ -90,46 +90,6 @@ class EnglishEntrycircumstance extends StatelessWidget {
         "The survivors ate plants and insects by force of circumstance.");
   }
 
-  Future<void> speakcircumstances9(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumstance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances900");
-  }
-
-  Future<void> speakcircumstances10(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumstance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1000");
-  }
-
-  Future<void> speakcircumstances11(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumstance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1100");
-  }
-
-  Future<void> speakcircumstances12(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumstance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1200");
-  }
-
-  Future<void> speakcircumstances13(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumstance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcircumstances1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

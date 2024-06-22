@@ -111,22 +111,6 @@ class EnglishEntrycontain extends StatelessWidget {
         .speak("He introduced repressive measures to contain the violence.");
   }
 
-  Future<void> speakcontains12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontains1200");
-  }
-
-  Future<void> speakcontains13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontains1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

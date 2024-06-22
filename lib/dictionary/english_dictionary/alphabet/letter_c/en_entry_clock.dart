@@ -117,14 +117,6 @@ class EnglishEntryclock extends StatelessWidget {
     await flutterTts.speak("He said it again, so I clocked him on the nose!");
   }
 
-  Future<void> speakclocks13(String languageCode) async {
-    // DOPSUM: CHANGE speakclock
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclocks1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

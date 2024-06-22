@@ -261,62 +261,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("A frown creased her forehead.");
   }
 
-  Future<void> speakcreases7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases700");
-  }
-
-  Future<void> speakcreases8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases800");
-  }
-
-  Future<void> speakcreases9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases900");
-  }
-
-  Future<void> speakcreases10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1000");
-  }
-
-  Future<void> speakcreases11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1100");
-  }
-
-  Future<void> speakcreases12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1200");
-  }
-
-  Future<void> speakcreases13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

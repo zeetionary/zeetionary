@@ -68,62 +68,6 @@ class EnglishEntrycling extends StatelessWidget {
         "After her mother's death, Sara clung to her aunt more than ever.");
   }
 
-  Future<void> speakclings7(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings700");
-  }
-
-  Future<void> speakclings8(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings800");
-  }
-
-  Future<void> speakclings9(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings900");
-  }
-
-  Future<void> speakclings10(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings1000");
-  }
-
-  Future<void> speakclings11(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings1100");
-  }
-
-  Future<void> speakclings12(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings1200");
-  }
-
-  Future<void> speakclings13(String languageCode) async {
-    // DOPSUM: CHANGE speakcling
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclings1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -107,30 +107,6 @@ class EnglishEntrycompetition extends StatelessWidget {
         .speak("This car consistently outperforms the competition.");
   }
 
-  Future<void> speakcompetitions11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetitions1100");
-  }
-
-  Future<void> speakcompetitions12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetitions1200");
-  }
-
-  Future<void> speakcompetitions13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompetition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompetitions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

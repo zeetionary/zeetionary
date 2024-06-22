@@ -95,38 +95,6 @@ class EnglishEntryconsent extends StatelessWidget {
     await flutterTts.speak("He reluctantly consented to the proposal.");
   }
 
-  Future<void> speakconsents10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1000");
-  }
-
-  Future<void> speakconsents11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1100");
-  }
-
-  Future<void> speakconsents12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1200");
-  }
-
-  Future<void> speakconsents13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsents1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

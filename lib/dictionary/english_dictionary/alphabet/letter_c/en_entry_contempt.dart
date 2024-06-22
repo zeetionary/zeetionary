@@ -79,54 +79,6 @@ class EnglishEntrycontempt extends StatelessWidget {
     await flutterTts.speak("He could be jailed for two years for contempt.");
   }
 
-  Future<void> speakcontempts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontempt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontempts800");
-  }
-
-  Future<void> speakcontempts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontempt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontempts900");
-  }
-
-  Future<void> speakcontempts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontempt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontempts1000");
-  }
-
-  Future<void> speakcontempts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontempt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontempts1100");
-  }
-
-  Future<void> speakcontempts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontempt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontempts1200");
-  }
-
-  Future<void> speakcontempts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontempt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontempts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

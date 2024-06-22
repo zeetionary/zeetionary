@@ -78,54 +78,6 @@ class EnglishEntryclasp extends StatelessWidget {
         "She held the child's hand in a firm clasp as they crossed the road.");
   }
 
-  Future<void> speakclasps8(String languageCode) async {
-    // DOPSUM: CHANGE speakclasp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclasps800");
-  }
-
-  Future<void> speakclasps9(String languageCode) async {
-    // DOPSUM: CHANGE speakclasp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclasps900");
-  }
-
-  Future<void> speakclasps10(String languageCode) async {
-    // DOPSUM: CHANGE speakclasp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclasps1000");
-  }
-
-  Future<void> speakclasps11(String languageCode) async {
-    // DOPSUM: CHANGE speakclasp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclasps1100");
-  }
-
-  Future<void> speakclasps12(String languageCode) async {
-    // DOPSUM: CHANGE speakclasp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclasps1200");
-  }
-
-  Future<void> speakclasps13(String languageCode) async {
-    // DOPSUM: CHANGE speakclasp
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclasps1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

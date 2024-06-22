@@ -85,46 +85,6 @@ class EnglishEntrycontemplate extends StatelessWidget {
     await flutterTts.speak("She contemplated him in silence.");
   }
 
-  Future<void> speakcontemplates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemplate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplates900");
-  }
-
-  Future<void> speakcontemplates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemplate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplates1000");
-  }
-
-  Future<void> speakcontemplates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemplate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplates1100");
-  }
-
-  Future<void> speakcontemplates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemplate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplates1200");
-  }
-
-  Future<void> speakcontemplates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontemplate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontemplates1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

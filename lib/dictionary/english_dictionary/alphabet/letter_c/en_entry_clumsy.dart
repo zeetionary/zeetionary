@@ -79,54 +79,6 @@ class EnglishEntryclumsy extends StatelessWidget {
         .speak("The complaints procedure is clumsy and time-consuming.");
   }
 
-  Future<void> speakclumsys8(String languageCode) async {
-    // DOPSUM: CHANGE speakclumsy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumsys800");
-  }
-
-  Future<void> speakclumsys9(String languageCode) async {
-    // DOPSUM: CHANGE speakclumsy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumsys900");
-  }
-
-  Future<void> speakclumsys10(String languageCode) async {
-    // DOPSUM: CHANGE speakclumsy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumsys1000");
-  }
-
-  Future<void> speakclumsys11(String languageCode) async {
-    // DOPSUM: CHANGE speakclumsy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumsys1100");
-  }
-
-  Future<void> speakclumsys12(String languageCode) async {
-    // DOPSUM: CHANGE speakclumsy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumsys1200");
-  }
-
-  Future<void> speakclumsys13(String languageCode) async {
-    // DOPSUM: CHANGE speakclumsy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumsys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

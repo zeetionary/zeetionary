@@ -78,54 +78,6 @@ class EnglishEntrycity extends StatelessWidget {
         .speak("It's the city's responsibility to maintain the pavements.");
   }
 
-  Future<void> speakcitys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcitys800");
-  }
-
-  Future<void> speakcitys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcitys900");
-  }
-
-  Future<void> speakcitys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcitys1000");
-  }
-
-  Future<void> speakcitys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcitys1100");
-  }
-
-  Future<void> speakcitys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcitys1200");
-  }
-
-  Future<void> speakcitys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcitys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -272,54 +272,6 @@ class KurdishMeaning extends StatelessWidget {
         "Two judges have refused to be cowed by pressure from the government.");
   }
 
-  Future<void> speakcows8(String languageCode) async {
-    // DOPSUM: CHANGE speakcow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcows800");
-  }
-
-  Future<void> speakcows9(String languageCode) async {
-    // DOPSUM: CHANGE speakcow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcows900");
-  }
-
-  Future<void> speakcows10(String languageCode) async {
-    // DOPSUM: CHANGE speakcow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcows1000");
-  }
-
-  Future<void> speakcows11(String languageCode) async {
-    // DOPSUM: CHANGE speakcow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcows1100");
-  }
-
-  Future<void> speakcows12(String languageCode) async {
-    // DOPSUM: CHANGE speakcow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcows1200");
-  }
-
-  Future<void> speakcows13(String languageCode) async {
-    // DOPSUM: CHANGE speakcow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcows1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

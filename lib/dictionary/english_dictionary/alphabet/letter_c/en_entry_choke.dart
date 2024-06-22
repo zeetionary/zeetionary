@@ -100,30 +100,6 @@ class EnglishEntrychoke extends StatelessWidget {
         .speak("We were the only team not to choke at the big moment.");
   }
 
-  Future<void> speakchokes11(String languageCode) async {
-    // DOPSUM: CHANGE speakchoke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchokes1100");
-  }
-
-  Future<void> speakchokes12(String languageCode) async {
-    // DOPSUM: CHANGE speakchoke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchokes1200");
-  }
-
-  Future<void> speakchokes13(String languageCode) async {
-    // DOPSUM: CHANGE speakchoke
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchokes1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

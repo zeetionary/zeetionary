@@ -70,62 +70,6 @@ class EnglishEntrycheek extends StatelessWidget {
         .speak("He's always getting into trouble for cheeking his teachers.");
   }
 
-  Future<void> speakcheeks7(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks700");
-  }
-
-  Future<void> speakcheeks8(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks800");
-  }
-
-  Future<void> speakcheeks9(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks900");
-  }
-
-  Future<void> speakcheeks10(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks1000");
-  }
-
-  Future<void> speakcheeks11(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks1100");
-  }
-
-  Future<void> speakcheeks12(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks1200");
-  }
-
-  Future<void> speakcheeks13(String languageCode) async {
-    // DOPSUM: CHANGE speakcheek
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcheeks1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -261,62 +261,6 @@ class KurdishMeaning extends StatelessWidget {
         "A failure of a hard disk can cause unrecoverable data corruption.");
   }
 
-  Future<void> speakcorruptions7(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions700");
-  }
-
-  Future<void> speakcorruptions8(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions800");
-  }
-
-  Future<void> speakcorruptions9(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions900");
-  }
-
-  Future<void> speakcorruptions10(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions1000");
-  }
-
-  Future<void> speakcorruptions11(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions1100");
-  }
-
-  Future<void> speakcorruptions12(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions1200");
-  }
-
-  Future<void> speakcorruptions13(String languageCode) async {
-    // DOPSUM: CHANGE speakcorruption
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorruptions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

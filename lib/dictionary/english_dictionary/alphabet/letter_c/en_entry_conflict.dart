@@ -108,30 +108,6 @@ class EnglishEntryconflict extends StatelessWidget {
         .speak("There are several major areas where their interests conflict.");
   }
 
-  Future<void> speakconflicts11(String languageCode) async {
-    // DOPSUM: CHANGE speakconflict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconflicts1100");
-  }
-
-  Future<void> speakconflicts12(String languageCode) async {
-    // DOPSUM: CHANGE speakconflict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconflicts1200");
-  }
-
-  Future<void> speakconflicts13(String languageCode) async {
-    // DOPSUM: CHANGE speakconflict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconflicts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

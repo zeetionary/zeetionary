@@ -76,54 +76,6 @@ class EnglishEntrycoffee extends StatelessWidget {
     await flutterTts.speak("I had two coffees while I waited.");
   }
 
-  Future<void> speakcoffees8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoffee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoffees800");
-  }
-
-  Future<void> speakcoffees9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoffee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoffees900");
-  }
-
-  Future<void> speakcoffees10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoffee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoffees1000");
-  }
-
-  Future<void> speakcoffees11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoffee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoffees1100");
-  }
-
-  Future<void> speakcoffees12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoffee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoffees1200");
-  }
-
-  Future<void> speakcoffees13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoffee
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoffees1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

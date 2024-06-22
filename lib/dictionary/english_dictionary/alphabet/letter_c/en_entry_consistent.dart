@@ -88,46 +88,6 @@ class EnglishEntryconsistent extends StatelessWidget {
     await flutterTts.speak("These findings are consistent with other studies.");
   }
 
-  Future<void> speakconsistents9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsistent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsistents900");
-  }
-
-  Future<void> speakconsistents10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsistent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsistents1000");
-  }
-
-  Future<void> speakconsistents11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsistent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsistents1100");
-  }
-
-  Future<void> speakconsistents12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsistent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsistents1200");
-  }
-
-  Future<void> speakconsistents13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsistent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsistents1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

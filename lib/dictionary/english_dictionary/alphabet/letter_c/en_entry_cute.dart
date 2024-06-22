@@ -259,62 +259,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Don't get cute with me!");
   }
 
-  Future<void> speakcutes7(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes700");
-  }
-
-  Future<void> speakcutes8(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes800");
-  }
-
-  Future<void> speakcutes9(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes900");
-  }
-
-  Future<void> speakcutes10(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes1000");
-  }
-
-  Future<void> speakcutes11(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes1100");
-  }
-
-  Future<void> speakcutes12(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes1200");
-  }
-
-  Future<void> speakcutes13(String languageCode) async {
-    // DOPSUM: CHANGE speakcute
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcutes1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

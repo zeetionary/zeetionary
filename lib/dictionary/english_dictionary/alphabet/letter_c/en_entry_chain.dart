@@ -103,30 +103,6 @@ class EnglishEntrychain extends StatelessWidget {
     await flutterTts.speak("She chained her bicycle to the gate.");
   }
 
-  Future<void> speakchains11(String languageCode) async {
-    // DOPSUM: CHANGE speakchain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchains1100");
-  }
-
-  Future<void> speakchains12(String languageCode) async {
-    // DOPSUM: CHANGE speakchain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchains1200");
-  }
-
-  Future<void> speakchains13(String languageCode) async {
-    // DOPSUM: CHANGE speakchain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchains1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

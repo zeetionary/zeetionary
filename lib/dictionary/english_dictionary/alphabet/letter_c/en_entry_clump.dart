@@ -68,62 +68,6 @@ class EnglishEntryclump extends StatelessWidget {
         .speak("As it started to rain, everyone clumped together in doorways.");
   }
 
-  Future<void> speakclumps7(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps700");
-  }
-
-  Future<void> speakclumps8(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps800");
-  }
-
-  Future<void> speakclumps9(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps900");
-  }
-
-  Future<void> speakclumps10(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps1000");
-  }
-
-  Future<void> speakclumps11(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps1100");
-  }
-
-  Future<void> speakclumps12(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps1200");
-  }
-
-  Future<void> speakclumps13(String languageCode) async {
-    // DOPSUM: CHANGE speakclump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclumps1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

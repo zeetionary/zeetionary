@@ -69,62 +69,6 @@ class EnglishEntryclaw extends StatelessWidget {
     await flutterTts.speak("She had clawed Stephen across the face.");
   }
 
-  Future<void> speakclaws7(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws700");
-  }
-
-  Future<void> speakclaws8(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws800");
-  }
-
-  Future<void> speakclaws9(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws900");
-  }
-
-  Future<void> speakclaws10(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1000");
-  }
-
-  Future<void> speakclaws11(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1100");
-  }
-
-  Future<void> speakclaws12(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1200");
-  }
-
-  Future<void> speakclaws13(String languageCode) async {
-    // DOPSUM: CHANGE speakclaw
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclaws1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

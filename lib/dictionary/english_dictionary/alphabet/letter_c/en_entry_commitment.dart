@@ -122,14 +122,6 @@ class EnglishEntrycommitment extends StatelessWidget {
     await flutterTts.speak("I don't want to take on any more commitments.");
   }
 
-  Future<void> speakcommitments13(String languageCode) async {
-    // DOPSUM: CHANGE speakcommitment
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommitments1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

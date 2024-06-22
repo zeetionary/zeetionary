@@ -118,14 +118,6 @@ class EnglishEntrychat extends StatelessWidget {
         "You can take part in a live chat with the movie's director this afternoon.");
   }
 
-  Future<void> speakchats13(String languageCode) async {
-    // DOPSUM: CHANGE speakchat
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchats1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

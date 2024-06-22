@@ -77,54 +77,6 @@ class EnglishEntryconscience extends StatelessWidget {
         .speak("How could people of conscience allow this to happen?");
   }
 
-  Future<void> speakconsciences8(String languageCode) async {
-    // DOPSUM: CHANGE speakconscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciences800");
-  }
-
-  Future<void> speakconsciences9(String languageCode) async {
-    // DOPSUM: CHANGE speakconscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciences900");
-  }
-
-  Future<void> speakconsciences10(String languageCode) async {
-    // DOPSUM: CHANGE speakconscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciences1000");
-  }
-
-  Future<void> speakconsciences11(String languageCode) async {
-    // DOPSUM: CHANGE speakconscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciences1100");
-  }
-
-  Future<void> speakconsciences12(String languageCode) async {
-    // DOPSUM: CHANGE speakconscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciences1200");
-  }
-
-  Future<void> speakconsciences13(String languageCode) async {
-    // DOPSUM: CHANGE speakconscience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsciences1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

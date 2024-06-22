@@ -96,38 +96,6 @@ class EnglishEntrycompact extends StatelessWidget {
         .speak("Cars had compacted the snow until it was like ice.");
   }
 
-  Future<void> speakcompacts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1000");
-  }
-
-  Future<void> speakcompacts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1100");
-  }
-
-  Future<void> speakcompacts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1200");
-  }
-
-  Future<void> speakcompacts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcompact
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcompacts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

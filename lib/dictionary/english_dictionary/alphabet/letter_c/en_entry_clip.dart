@@ -117,14 +117,6 @@ class EnglishEntryclip extends StatelessWidget {
     await flutterTts.speak("I clipped the picture out of the newspaper.");
   }
 
-  Future<void> speakclips13(String languageCode) async {
-    // DOPSUM: CHANGE speakclip
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclips1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

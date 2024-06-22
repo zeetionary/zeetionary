@@ -104,14 +104,6 @@ class EnglishEntryclosely extends StatelessWidget {
     await flutterTts.speak("She closely resembled her mother at the same age.");
   }
 
-  Future<void> speakcloselys11(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys1100");
-  }
-
   Future<void> speakcloselys12(String languageCode) async {
     // DOPSUM: CHANGE speakclosely
     await flutterTts.setLanguage(languageCode);
@@ -136,102 +128,6 @@ class EnglishEntryclosely extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
         .speak("He had a closely shaved head and a small, neat beard.");
-  }
-
-  Future<void> speakcloselys15(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys1500");
-  }
-
-  Future<void> speakcloselys16(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys1600");
-  }
-
-  Future<void> speakcloselys17(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys1700");
-  }
-
-  Future<void> speakcloselys18(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys1800");
-  }
-
-  Future<void> speakcloselys19(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys1900");
-  }
-
-  Future<void> speakcloselys20(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2000");
-  }
-
-  Future<void> speakcloselys21(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2100");
-  }
-
-  Future<void> speakcloselys22(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2200");
-  }
-
-  Future<void> speakcloselys23(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2300");
-  }
-
-  Future<void> speakcloselys24(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2400");
-  }
-
-  Future<void> speakcloselys25(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2500");
-  }
-
-  Future<void> speakcloselys26(String languageCode) async {
-    // DOPSUM: CHANGE speakclosely
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcloselys2600");
   }
 
   @override

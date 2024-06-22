@@ -87,46 +87,6 @@ class EnglishEntrycharter extends StatelessWidget {
     await flutterTts.speak("Cambridge University Press was chartered in 1534.");
   }
 
-  Future<void> speakcharters9(String languageCode) async {
-    // DOPSUM: CHANGE speakcharter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters900");
-  }
-
-  Future<void> speakcharters10(String languageCode) async {
-    // DOPSUM: CHANGE speakcharter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1000");
-  }
-
-  Future<void> speakcharters11(String languageCode) async {
-    // DOPSUM: CHANGE speakcharter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1100");
-  }
-
-  Future<void> speakcharters12(String languageCode) async {
-    // DOPSUM: CHANGE speakcharter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1200");
-  }
-
-  Future<void> speakcharters13(String languageCode) async {
-    // DOPSUM: CHANGE speakcharter
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharters1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

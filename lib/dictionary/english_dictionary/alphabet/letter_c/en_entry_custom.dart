@@ -310,14 +310,6 @@ class KurdishMeaning extends StatelessWidget {
         "The tool allows researchers to easily create custom software for analysing data.");
   }
 
-  Future<void> speakcustoms13(String languageCode) async {
-    // DOPSUM: CHANGE speakcustom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcustoms1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -96,38 +96,6 @@ class EnglishEntrycollection extends StatelessWidget {
         "We will have a collection for charity at the end of the concert.");
   }
 
-  Future<void> speakcollections10(String languageCode) async {
-    // DOPSUM: CHANGE speakcollection
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollections1000");
-  }
-
-  Future<void> speakcollections11(String languageCode) async {
-    // DOPSUM: CHANGE speakcollection
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollections1100");
-  }
-
-  Future<void> speakcollections12(String languageCode) async {
-    // DOPSUM: CHANGE speakcollection
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollections1200");
-  }
-
-  Future<void> speakcollections13(String languageCode) async {
-    // DOPSUM: CHANGE speakcollection
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcollections1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

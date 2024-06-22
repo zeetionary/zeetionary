@@ -69,62 +69,6 @@ class EnglishEntrycomedy extends StatelessWidget {
         "Her imaginative interpretation of the script brought out the comedy inherent in it.");
   }
 
-  Future<void> speakcomedys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys700");
-  }
-
-  Future<void> speakcomedys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys800");
-  }
-
-  Future<void> speakcomedys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys900");
-  }
-
-  Future<void> speakcomedys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys1000");
-  }
-
-  Future<void> speakcomedys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys1100");
-  }
-
-  Future<void> speakcomedys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys1200");
-  }
-
-  Future<void> speakcomedys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcomedy
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcomedys1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

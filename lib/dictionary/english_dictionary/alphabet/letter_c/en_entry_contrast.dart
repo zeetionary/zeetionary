@@ -113,22 +113,6 @@ class EnglishEntrycontrast extends StatelessWidget {
     await flutterTts.speak("Her actions contrasted sharply with her promises.");
   }
 
-  Future<void> speakcontrasts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrasts1200");
-  }
-
-  Future<void> speakcontrasts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontrast
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontrasts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

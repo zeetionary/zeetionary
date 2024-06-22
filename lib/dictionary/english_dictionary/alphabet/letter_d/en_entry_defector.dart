@@ -268,30 +268,30 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "speakdefectors200"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdefectors200"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdefectors2("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdefectors2("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
           const DividerSentences(),
           Row(
             children: [

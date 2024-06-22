@@ -72,62 +72,6 @@ class EnglishEntrycooperative extends StatelessWidget {
     await flutterTts.speak("The family business is now run as a cooperative.");
   }
 
-  Future<void> speakcooperatives7(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives700");
-  }
-
-  Future<void> speakcooperatives8(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives800");
-  }
-
-  Future<void> speakcooperatives9(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives900");
-  }
-
-  Future<void> speakcooperatives10(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives1000");
-  }
-
-  Future<void> speakcooperatives11(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives1100");
-  }
-
-  Future<void> speakcooperatives12(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives1200");
-  }
-
-  Future<void> speakcooperatives13(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcooperatives1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -113,22 +113,6 @@ class EnglishEntryconvert extends StatelessWidget {
     await flutterTts.speak("Pope Clement was a convert from paganism.");
   }
 
-  Future<void> speakconverts12(String languageCode) async {
-    // DOPSUM: CHANGE speakconvert
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconverts1200");
-  }
-
-  Future<void> speakconverts13(String languageCode) async {
-    // DOPSUM: CHANGE speakconvert
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconverts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

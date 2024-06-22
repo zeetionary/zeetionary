@@ -104,30 +104,6 @@ class EnglishEntryconstant extends StatelessWidget {
         "The mathematician used the constant \"π\" in his calculations.");
   }
 
-  Future<void> speakconstants11(String languageCode) async {
-    // DOPSUM: CHANGE speakconstant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstants1100");
-  }
-
-  Future<void> speakconstants12(String languageCode) async {
-    // DOPSUM: CHANGE speakconstant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstants1200");
-  }
-
-  Future<void> speakconstants13(String languageCode) async {
-    // DOPSUM: CHANGE speakconstant
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconstants1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

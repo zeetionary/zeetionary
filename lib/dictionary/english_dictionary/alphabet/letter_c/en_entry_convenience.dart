@@ -73,62 +73,6 @@ class EnglishEntryconvenience extends StatelessWidget {
         "The house had all the modern conveniences that were unusual at that time.");
   }
 
-  Future<void> speakconveniences7(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences700");
-  }
-
-  Future<void> speakconveniences8(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences800");
-  }
-
-  Future<void> speakconveniences9(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences900");
-  }
-
-  Future<void> speakconveniences10(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences1000");
-  }
-
-  Future<void> speakconveniences11(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences1100");
-  }
-
-  Future<void> speakconveniences12(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences1200");
-  }
-
-  Future<void> speakconveniences13(String languageCode) async {
-    // DOPSUM: CHANGE speakconvenience
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconveniences1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

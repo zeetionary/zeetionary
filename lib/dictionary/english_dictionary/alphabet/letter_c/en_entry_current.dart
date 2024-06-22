@@ -328,22 +328,6 @@ class KurdishMeaning extends StatelessWidget {
         "Ministers are worried by this current of anti-government feeling.");
   }
 
-  Future<void> speakcurrents15(String languageCode) async {
-    // DOPSUM: CHANGE speakcurrent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurrents1500");
-  }
-
-  Future<void> speakcurrents16(String languageCode) async {
-    // DOPSUM: CHANGE speakcurrent
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurrents1600");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -80,54 +80,6 @@ class EnglishEntryconsultation extends StatelessWidget {
         "There is a large collection of texts available for consultation in the library.");
   }
 
-  Future<void> speakconsultations8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsultation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsultations800");
-  }
-
-  Future<void> speakconsultations9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsultation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsultations900");
-  }
-
-  Future<void> speakconsultations10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsultation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsultations1000");
-  }
-
-  Future<void> speakconsultations11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsultation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsultations1100");
-  }
-
-  Future<void> speakconsultations12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsultation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsultations1200");
-  }
-
-  Future<void> speakconsultations13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsultation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsultations1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

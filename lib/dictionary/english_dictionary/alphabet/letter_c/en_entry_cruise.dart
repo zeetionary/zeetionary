@@ -275,46 +275,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("The home team cruised to victory.");
   }
 
-  Future<void> speakcruises9(String languageCode) async {
-    // DOPSUM: CHANGE speakcruise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcruises900");
-  }
-
-  Future<void> speakcruises10(String languageCode) async {
-    // DOPSUM: CHANGE speakcruise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcruises1000");
-  }
-
-  Future<void> speakcruises11(String languageCode) async {
-    // DOPSUM: CHANGE speakcruise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcruises1100");
-  }
-
-  Future<void> speakcruises12(String languageCode) async {
-    // DOPSUM: CHANGE speakcruise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcruises1200");
-  }
-
-  Future<void> speakcruises13(String languageCode) async {
-    // DOPSUM: CHANGE speakcruise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcruises1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

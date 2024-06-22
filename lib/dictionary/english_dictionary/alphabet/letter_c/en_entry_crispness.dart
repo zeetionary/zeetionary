@@ -262,62 +262,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("His writing lacks the crispness it once had.");
   }
 
-  Future<void> speakcrispnesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss700");
-  }
-
-  Future<void> speakcrispnesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss800");
-  }
-
-  Future<void> speakcrispnesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss900");
-  }
-
-  Future<void> speakcrispnesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss1000");
-  }
-
-  Future<void> speakcrispnesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss1100");
-  }
-
-  Future<void> speakcrispnesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss1200");
-  }
-
-  Future<void> speakcrispnesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrispness
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrispnesss1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

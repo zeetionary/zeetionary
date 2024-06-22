@@ -271,54 +271,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Homeowners will be cushioned from any tax rises.");
   }
 
-  Future<void> speakcushions8(String languageCode) async {
-    // DOPSUM: CHANGE speakcushion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcushions800");
-  }
-
-  Future<void> speakcushions9(String languageCode) async {
-    // DOPSUM: CHANGE speakcushion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcushions900");
-  }
-
-  Future<void> speakcushions10(String languageCode) async {
-    // DOPSUM: CHANGE speakcushion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcushions1000");
-  }
-
-  Future<void> speakcushions11(String languageCode) async {
-    // DOPSUM: CHANGE speakcushion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcushions1100");
-  }
-
-  Future<void> speakcushions12(String languageCode) async {
-    // DOPSUM: CHANGE speakcushion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcushions1200");
-  }
-
-  Future<void> speakcushions13(String languageCode) async {
-    // DOPSUM: CHANGE speakcushion
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcushions1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

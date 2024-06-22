@@ -262,62 +262,6 @@ class KurdishMeaning extends StatelessWidget {
         "Water was beginning to crust over with ice as temperatures dropped.");
   }
 
-  Future<void> speakcrusts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts700");
-  }
-
-  Future<void> speakcrusts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts800");
-  }
-
-  Future<void> speakcrusts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts900");
-  }
-
-  Future<void> speakcrusts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts1000");
-  }
-
-  Future<void> speakcrusts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts1100");
-  }
-
-  Future<void> speakcrusts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts1200");
-  }
-
-  Future<void> speakcrusts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrust
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrusts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

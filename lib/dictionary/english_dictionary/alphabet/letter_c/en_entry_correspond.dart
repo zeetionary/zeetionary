@@ -280,46 +280,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("I have corresponded with him in the past.");
   }
 
-  Future<void> speakcorresponds9(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrespond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds900");
-  }
-
-  Future<void> speakcorresponds10(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrespond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1000");
-  }
-
-  Future<void> speakcorresponds11(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrespond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1100");
-  }
-
-  Future<void> speakcorresponds12(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrespond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1200");
-  }
-
-  Future<void> speakcorresponds13(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrespond
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

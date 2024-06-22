@@ -78,54 +78,6 @@ class EnglishEntryconsume extends StatelessWidget {
     await flutterTts.speak("The hotel was quickly consumed by fire.");
   }
 
-  Future<void> speakconsumes8(String languageCode) async {
-    // DOPSUM: CHANGE speakconsume
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsumes800");
-  }
-
-  Future<void> speakconsumes9(String languageCode) async {
-    // DOPSUM: CHANGE speakconsume
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsumes900");
-  }
-
-  Future<void> speakconsumes10(String languageCode) async {
-    // DOPSUM: CHANGE speakconsume
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsumes1000");
-  }
-
-  Future<void> speakconsumes11(String languageCode) async {
-    // DOPSUM: CHANGE speakconsume
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsumes1100");
-  }
-
-  Future<void> speakconsumes12(String languageCode) async {
-    // DOPSUM: CHANGE speakconsume
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsumes1200");
-  }
-
-  Future<void> speakconsumes13(String languageCode) async {
-    // DOPSUM: CHANGE speakconsume
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconsumes1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

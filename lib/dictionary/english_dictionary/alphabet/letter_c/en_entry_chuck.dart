@@ -94,38 +94,6 @@ class EnglishEntrychuck extends StatelessWidget {
     await flutterTts.speak("He bought a pound of chuck to make hamburgers.");
   }
 
-  Future<void> speakchucks10(String languageCode) async {
-    // DOPSUM: CHANGE speakchuck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchucks1000");
-  }
-
-  Future<void> speakchucks11(String languageCode) async {
-    // DOPSUM: CHANGE speakchuck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchucks1100");
-  }
-
-  Future<void> speakchucks12(String languageCode) async {
-    // DOPSUM: CHANGE speakchuck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchucks1200");
-  }
-
-  Future<void> speakchucks13(String languageCode) async {
-    // DOPSUM: CHANGE speakchuck
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchucks1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

@@ -173,214 +173,32 @@ class EnglishEntrychance extends StatelessWidget {
         .speak("A chance encounter with another artist changed her life.");
   }
 
-  Future<void> speakchances19(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances1900");
-  }
-
-  Future<void> speakchances20(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2000");
-  }
-
-  Future<void> speakchances21(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2100");
-  }
-
-  Future<void> speakchances22(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2200");
-  }
-
-  Future<void> speakchances23(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2300");
-  }
-
-  Future<void> speakchances24(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2400");
-  }
-
-  Future<void> speakchances25(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2500");
-  }
-
-  Future<void> speakchances26(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2600");
-  }
-
-  Future<void> speakchances27(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2700");
-  }
-
-  Future<void> speakchances28(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2800");
-  }
-
-  Future<void> speakchances29(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances2900");
-  }
-
-  Future<void> speakchances30(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3000");
-  }
-
-  Future<void> speakchances31(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3100");
-  }
-
-  Future<void> speakchances32(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3200");
-  }
-
-  Future<void> speakchances33(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3300");
-  }
-
-  Future<void> speakchances34(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3400");
-  }
-
-  Future<void> speakchances35(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3500");
-  }
-
-  Future<void> speakchances36(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3600");
-  }
-
-  Future<void> speakchances37(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3700");
-  }
-
-  Future<void> speakchances38(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3800");
-  }
-
-  Future<void> speakchances39(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances3900");
-  }
-
-  Future<void> speakchances40(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances4000");
-  }
-
-  Future<void> speakchances41(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances4100");
-  }
-
-  Future<void> speakchances42(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances4200");
-  }
-
-  Future<void> speakchances43(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances4300");
-  }
-
-  Future<void> speakchances44(String languageCode) async {
-    // DOPSUM: CHANGE speakchance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakchances4400");
-  }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

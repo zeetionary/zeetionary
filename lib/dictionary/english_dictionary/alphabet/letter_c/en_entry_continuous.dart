@@ -115,22 +115,6 @@ class EnglishEntrycontinuous extends StatelessWidget {
         "Understanding the continuous tenses is essential for mastering English grammar.");
   }
 
-  Future<void> speakcontinuouss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuous
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuouss1200");
-  }
-
-  Future<void> speakcontinuouss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinuous
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontinuouss1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

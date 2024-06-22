@@ -78,54 +78,6 @@ class EnglishEntrycontext extends StatelessWidget {
     await flutterTts.speak("This quotation has been taken out of context.");
   }
 
-  Future<void> speakcontexts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts800");
-  }
-
-  Future<void> speakcontexts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts900");
-  }
-
-  Future<void> speakcontexts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1000");
-  }
-
-  Future<void> speakcontexts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1100");
-  }
-
-  Future<void> speakcontexts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1200");
-  }
-
-  Future<void> speakcontexts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcontext
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcontexts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

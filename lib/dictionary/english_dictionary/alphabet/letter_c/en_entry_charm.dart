@@ -94,38 +94,6 @@ class EnglishEntrycharm extends StatelessWidget {
         .speak("He charmed his mother into letting him have his own way.");
   }
 
-  Future<void> speakcharms10(String languageCode) async {
-    // DOPSUM: CHANGE speakcharm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharms1000");
-  }
-
-  Future<void> speakcharms11(String languageCode) async {
-    // DOPSUM: CHANGE speakcharm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharms1100");
-  }
-
-  Future<void> speakcharms12(String languageCode) async {
-    // DOPSUM: CHANGE speakcharm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharms1200");
-  }
-
-  Future<void> speakcharms13(String languageCode) async {
-    // DOPSUM: CHANGE speakcharm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharms1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

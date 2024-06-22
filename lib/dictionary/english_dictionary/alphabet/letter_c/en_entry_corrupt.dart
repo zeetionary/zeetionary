@@ -287,38 +287,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("The program has somehow corrupted the system files.");
   }
 
-  Future<void> speakcorrupts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrupt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1000");
-  }
-
-  Future<void> speakcorrupts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrupt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1100");
-  }
-
-  Future<void> speakcorrupts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrupt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1200");
-  }
-
-  Future<void> speakcorrupts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrupt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorrupts1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

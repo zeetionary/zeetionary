@@ -71,62 +71,6 @@ class EnglishEntrycongress extends StatelessWidget {
         .speak("They will have to go to Congress to get the money.");
   }
 
-  Future<void> speakcongresss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss700");
-  }
-
-  Future<void> speakcongresss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss800");
-  }
-
-  Future<void> speakcongresss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss900");
-  }
-
-  Future<void> speakcongresss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss1000");
-  }
-
-  Future<void> speakcongresss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss1100");
-  }
-
-  Future<void> speakcongresss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss1200");
-  }
-
-  Future<void> speakcongresss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcongress
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcongresss1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

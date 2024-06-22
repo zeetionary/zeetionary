@@ -70,62 +70,6 @@ class EnglishEntryconference extends StatelessWidget {
     await flutterTts.speak("He was in conference with his lawyers all day.");
   }
 
-  Future<void> speakconferences7(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences700");
-  }
-
-  Future<void> speakconferences8(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences800");
-  }
-
-  Future<void> speakconferences9(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences900");
-  }
-
-  Future<void> speakconferences10(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences1000");
-  }
-
-  Future<void> speakconferences11(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences1100");
-  }
-
-  Future<void> speakconferences12(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences1200");
-  }
-
-  Future<void> speakconferences13(String languageCode) async {
-    // DOPSUM: CHANGE speakconference
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakconferences1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

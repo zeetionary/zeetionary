@@ -73,62 +73,6 @@ class EnglishEntrycharacteristic extends StatelessWidget {
         "With the hospitality so characteristic of these people, they opened their house to over 50 guests.");
   }
 
-  Future<void> speakcharacteristics7(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics700");
-  }
-
-  Future<void> speakcharacteristics8(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics800");
-  }
-
-  Future<void> speakcharacteristics9(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics900");
-  }
-
-  Future<void> speakcharacteristics10(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1000");
-  }
-
-  Future<void> speakcharacteristics11(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1100");
-  }
-
-  Future<void> speakcharacteristics12(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1200");
-  }
-
-  Future<void> speakcharacteristics13(String languageCode) async {
-    // DOPSUM: CHANGE speakcharacteristic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcharacteristics1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

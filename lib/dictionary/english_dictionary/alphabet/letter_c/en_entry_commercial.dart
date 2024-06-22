@@ -96,38 +96,6 @@ class EnglishEntrycommercial extends StatelessWidget {
     await flutterTts.speak("She began her career appearing in commercials.");
   }
 
-  Future<void> speakcommercials10(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1000");
-  }
-
-  Future<void> speakcommercials11(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1100");
-  }
-
-  Future<void> speakcommercials12(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1200");
-  }
-
-  Future<void> speakcommercials13(String languageCode) async {
-    // DOPSUM: CHANGE speakcommercial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcommercials1300");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

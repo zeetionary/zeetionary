@@ -530,15 +530,9 @@ Usage: Brit, informal (N. Amer: flophouse)
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedend extends StatefulWidget {
+class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  @override
-  State<YoutubeEmbeddedend> createState() => _YoutubeEmbeddedendState();
-}
-
-class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'Ulh_79vibgQ';
   final double _startSeconds = 959;
 
@@ -616,15 +610,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwo extends StatefulWidget {
+class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  @override
-  State<YoutubeEmbeddedtwo> createState() => _YoutubeEmbeddedtwoState();
-}
-
-class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'g5YBDUJaG-I';
   final double _startSeconds = 6843;
 
@@ -782,15 +770,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatefulWidget {
+class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  @override
-  State<YoutubeEmbeddedsix> createState() => _YoutubeEmbeddedsixState();
-}
-
-class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'PUT_VID';
   final double _startSeconds = 222222222222222;
 

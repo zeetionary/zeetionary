@@ -436,15 +436,9 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedend extends StatefulWidget {
+class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  @override
-  State<YoutubeEmbeddedend> createState() => _YoutubeEmbeddedendState();
-}
-
-class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'P4l9Y5OHqpk';
   final double _startSeconds = 860;
 
@@ -522,15 +516,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwo extends StatefulWidget {
+class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  @override
-  State<YoutubeEmbeddedtwo> createState() => _YoutubeEmbeddedtwoState();
-}
-
-class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'r4wLXNydzeY';
   final double _startSeconds = 3830;
 
@@ -688,15 +676,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatefulWidget {
+class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  @override
-  State<YoutubeEmbeddedsix> createState() => _YoutubeEmbeddedsixState();
-}
-
-class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
-  late YoutubePlayerController _controller;
   final String _videoId = '77TFgWlpoc8';
   final double _startSeconds = 1019;
 

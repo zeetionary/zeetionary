@@ -528,15 +528,9 @@ Usage: N. Amer (elsewhere: draughty)
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedend extends StatefulWidget {
+class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  @override
-  State<YoutubeEmbeddedend> createState() => _YoutubeEmbeddedendState();
-}
-
-class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'jhnLtcX3bKk';
   final double _startSeconds = 270;
 
@@ -614,15 +608,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwo extends StatefulWidget {
+class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  @override
-  State<YoutubeEmbeddedtwo> createState() => _YoutubeEmbeddedtwoState();
-}
-
-class _YoutubeEmbeddedtwoState extends State<YoutubeEmbeddedtwo> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'BmPIYOceEXs';
   final double _startSeconds = 432;
 
@@ -780,15 +768,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatefulWidget {
+class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  @override
-  State<YoutubeEmbeddedsix> createState() => _YoutubeEmbeddedsixState();
-}
-
-class _YoutubeEmbeddedsixState extends State<YoutubeEmbeddedsix> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'IZ9iwaOtCZA';
   final double _startSeconds = 671;
 

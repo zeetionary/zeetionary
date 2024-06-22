@@ -882,15 +882,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatefulWidget {
+class YoutubeEmbeddedeight extends StatelessWidget {
   const YoutubeEmbeddedeight({super.key});
 
-  @override
-  State<YoutubeEmbeddedeight> createState() => _YoutubeEmbeddedeightState();
-}
-
-class _YoutubeEmbeddedeightState extends State<YoutubeEmbeddedeight> {
-  late YoutubePlayerController _controller;
   final String _videoId = '6ZCtuKvBYcw';
   final double _startSeconds = 3035;
 
@@ -928,15 +922,9 @@ class _YoutubeEmbeddedeightState extends State<YoutubeEmbeddedeight> {
   }
 }
 
-class YoutubeEmbeddednine extends StatefulWidget {
+class YoutubeEmbeddednine extends StatelessWidget {
   const YoutubeEmbeddednine({super.key});
 
-  @override
-  State<YoutubeEmbeddednine> createState() => _YoutubeEmbeddednineState();
-}
-
-class _YoutubeEmbeddednineState extends State<YoutubeEmbeddednine> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'arXJOceVJ7w';
   final double _startSeconds = 4434;
 
@@ -974,15 +962,9 @@ class _YoutubeEmbeddednineState extends State<YoutubeEmbeddednine> {
   }
 }
 
-class YoutubeEmbeddedten extends StatefulWidget {
+class YoutubeEmbeddedten extends StatelessWidget {
   const YoutubeEmbeddedten({super.key});
 
-  @override
-  State<YoutubeEmbeddedten> createState() => _YoutubeEmbeddedtenState();
-}
-
-class _YoutubeEmbeddedtenState extends State<YoutubeEmbeddedten> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'qEV9qoup2mQ';
   final double _startSeconds = 970;
 
@@ -1020,15 +1002,9 @@ class _YoutubeEmbeddedtenState extends State<YoutubeEmbeddedten> {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatefulWidget {
+class YoutubeEmbeddedeleven extends StatelessWidget {
   const YoutubeEmbeddedeleven({super.key});
 
-  @override
-  State<YoutubeEmbeddedeleven> createState() => _YoutubeEmbeddedelevenState();
-}
-
-class _YoutubeEmbeddedelevenState extends State<YoutubeEmbeddedeleven> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'V-F6zSbfJt4';
   final double _startSeconds = 28;
 

@@ -328,15 +328,9 @@ Usage: Brit (N. Amer: parking lot)
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedend extends StatefulWidget {
+class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  @override
-  State<YoutubeEmbeddedend> createState() => _YoutubeEmbeddedendState();
-}
-
-class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'G5NogCChl9Y';
   final double _startSeconds = 0;
 
@@ -694,15 +688,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddednine extends StatefulWidget {
+class YoutubeEmbeddednine extends StatelessWidget {
   const YoutubeEmbeddednine({super.key});
 
-  @override
-  State<YoutubeEmbeddednine> createState() => _YoutubeEmbeddednineState();
-}
-
-class _YoutubeEmbeddednineState extends State<YoutubeEmbeddednine> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'VAzE1JD_FYc';
   final double _startSeconds = 289;
 
@@ -740,15 +728,9 @@ class _YoutubeEmbeddednineState extends State<YoutubeEmbeddednine> {
   }
 }
 
-class YoutubeEmbeddedten extends StatefulWidget {
+class YoutubeEmbeddedten extends StatelessWidget {
   const YoutubeEmbeddedten({super.key});
 
-  @override
-  State<YoutubeEmbeddedten> createState() => _YoutubeEmbeddedtenState();
-}
-
-class _YoutubeEmbeddedtenState extends State<YoutubeEmbeddedten> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'K2F8O3aioto';
   final double _startSeconds = 633;
 
@@ -786,15 +768,9 @@ class _YoutubeEmbeddedtenState extends State<YoutubeEmbeddedten> {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatefulWidget {
+class YoutubeEmbeddedeleven extends StatelessWidget {
   const YoutubeEmbeddedeleven({super.key});
 
-  @override
-  State<YoutubeEmbeddedeleven> createState() => _YoutubeEmbeddedelevenState();
-}
-
-class _YoutubeEmbeddedelevenState extends State<YoutubeEmbeddedeleven> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'gdUnx7zQy5A';
   final double _startSeconds = 2210;
 

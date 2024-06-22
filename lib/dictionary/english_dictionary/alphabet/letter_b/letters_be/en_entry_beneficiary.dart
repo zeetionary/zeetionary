@@ -609,15 +609,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatefulWidget {
+class YoutubeEmbeddedeight extends StatelessWidget {
   const YoutubeEmbeddedeight({super.key});
 
-  @override
-  State<YoutubeEmbeddedeight> createState() => _YoutubeEmbeddedeightState();
-}
-
-class _YoutubeEmbeddedeightState extends State<YoutubeEmbeddedeight> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'JUHepuItG3I';
   final double _startSeconds = 455;
 
@@ -655,15 +649,9 @@ class _YoutubeEmbeddedeightState extends State<YoutubeEmbeddedeight> {
   }
 }
 
-class YoutubeEmbeddednine extends StatefulWidget {
+class YoutubeEmbeddednine extends StatelessWidget {
   const YoutubeEmbeddednine({super.key});
 
-  @override
-  State<YoutubeEmbeddednine> createState() => _YoutubeEmbeddednineState();
-}
-
-class _YoutubeEmbeddednineState extends State<YoutubeEmbeddednine> {
-  late YoutubePlayerController _controller;
   final String _videoId = '-_PU0cRZ9wg';
   final double _startSeconds = 676;
 
@@ -701,15 +689,9 @@ class _YoutubeEmbeddednineState extends State<YoutubeEmbeddednine> {
   }
 }
 
-class YoutubeEmbeddedten extends StatefulWidget {
+class YoutubeEmbeddedten extends StatelessWidget {
   const YoutubeEmbeddedten({super.key});
 
-  @override
-  State<YoutubeEmbeddedten> createState() => _YoutubeEmbeddedtenState();
-}
-
-class _YoutubeEmbeddedtenState extends State<YoutubeEmbeddedten> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'P0G3lYTOI0Q';
   final double _startSeconds = 179;
 
@@ -747,15 +729,9 @@ class _YoutubeEmbeddedtenState extends State<YoutubeEmbeddedten> {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatefulWidget {
+class YoutubeEmbeddedeleven extends StatelessWidget {
   const YoutubeEmbeddedeleven({super.key});
 
-  @override
-  State<YoutubeEmbeddedeleven> createState() => _YoutubeEmbeddedelevenState();
-}
-
-class _YoutubeEmbeddedelevenState extends State<YoutubeEmbeddedeleven> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'T1x_knZmZAk';
   final double _startSeconds = 6269;
 
@@ -793,15 +769,9 @@ class _YoutubeEmbeddedelevenState extends State<YoutubeEmbeddedeleven> {
   }
 }
 
-class YoutubeEmbeddedtwelve extends StatefulWidget {
+class YoutubeEmbeddedtwelve extends StatelessWidget {
   const YoutubeEmbeddedtwelve({super.key});
 
-  @override
-  State<YoutubeEmbeddedtwelve> createState() => _YoutubeEmbeddedtwelveState();
-}
-
-class _YoutubeEmbeddedtwelveState extends State<YoutubeEmbeddedtwelve> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'TA5bDK2RTBQ';
   final double _startSeconds = 3982;
 
@@ -839,16 +809,9 @@ class _YoutubeEmbeddedtwelveState extends State<YoutubeEmbeddedtwelve> {
   }
 }
 
-class YoutubeEmbeddedthirteen extends StatefulWidget {
+class YoutubeEmbeddedthirteen extends StatelessWidget {
   const YoutubeEmbeddedthirteen({super.key});
 
-  @override
-  State<YoutubeEmbeddedthirteen> createState() =>
-      _YoutubeEmbeddedthirteenState();
-}
-
-class _YoutubeEmbeddedthirteenState extends State<YoutubeEmbeddedthirteen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'rqbHkTokMBs';
   final double _startSeconds = 26;
 
@@ -886,16 +849,9 @@ class _YoutubeEmbeddedthirteenState extends State<YoutubeEmbeddedthirteen> {
   }
 }
 
-class YoutubeEmbeddeddfourteen extends StatefulWidget {
+class YoutubeEmbeddeddfourteen extends StatelessWidget {
   const YoutubeEmbeddeddfourteen({super.key});
 
-  @override
-  State<YoutubeEmbeddeddfourteen> createState() =>
-      _YoutubeEmbeddeddfourteenState();
-}
-
-class _YoutubeEmbeddeddfourteenState extends State<YoutubeEmbeddeddfourteen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'x6DRBURPlxI';
   final double _startSeconds = 2039;
 
@@ -933,15 +889,9 @@ class _YoutubeEmbeddeddfourteenState extends State<YoutubeEmbeddeddfourteen> {
   }
 }
 
-class YoutubeEmbeddedfifteen extends StatefulWidget {
+class YoutubeEmbeddedfifteen extends StatelessWidget {
   const YoutubeEmbeddedfifteen({super.key});
 
-  @override
-  State<YoutubeEmbeddedfifteen> createState() => _YoutubeEmbeddedfifteenState();
-}
-
-class _YoutubeEmbeddedfifteenState extends State<YoutubeEmbeddedfifteen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'TfOSHR6fxe8';
   final double _startSeconds = 298;
 
@@ -979,16 +929,9 @@ class _YoutubeEmbeddedfifteenState extends State<YoutubeEmbeddedfifteen> {
   }
 }
 
-class YoutubeEmbeddeddsixteen extends StatefulWidget {
+class YoutubeEmbeddeddsixteen extends StatelessWidget {
   const YoutubeEmbeddeddsixteen({super.key});
 
-  @override
-  State<YoutubeEmbeddeddsixteen> createState() =>
-      _YoutubeEmbeddeddsixteenState();
-}
-
-class _YoutubeEmbeddeddsixteenState extends State<YoutubeEmbeddeddsixteen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'l7fyqpHKARg';
   final double _startSeconds = 200;
 
@@ -1026,16 +969,9 @@ class _YoutubeEmbeddeddsixteenState extends State<YoutubeEmbeddeddsixteen> {
   }
 }
 
-class YoutubeEmbeddeddseventeen extends StatefulWidget {
+class YoutubeEmbeddeddseventeen extends StatelessWidget {
   const YoutubeEmbeddeddseventeen({super.key});
 
-  @override
-  State<YoutubeEmbeddeddseventeen> createState() =>
-      _YoutubeEmbeddeddseventeenState();
-}
-
-class _YoutubeEmbeddeddseventeenState extends State<YoutubeEmbeddeddseventeen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'zEGiWhEGrCI';
   final double _startSeconds = 355;
 
@@ -1073,16 +1009,9 @@ class _YoutubeEmbeddeddseventeenState extends State<YoutubeEmbeddeddseventeen> {
   }
 }
 
-class YoutubeEmbeddeddeighteen extends StatefulWidget {
+class YoutubeEmbeddeddeighteen extends StatelessWidget {
   const YoutubeEmbeddeddeighteen({super.key});
 
-  @override
-  State<YoutubeEmbeddeddeighteen> createState() =>
-      _YoutubeEmbeddeddeighteenState();
-}
-
-class _YoutubeEmbeddeddeighteenState extends State<YoutubeEmbeddeddeighteen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'YJ_2ABImQeU';
   final double _startSeconds = 327;
 
@@ -1120,16 +1049,9 @@ class _YoutubeEmbeddeddeighteenState extends State<YoutubeEmbeddeddeighteen> {
   }
 }
 
-class YoutubeEmbeddeddnineteen extends StatefulWidget {
+class YoutubeEmbeddeddnineteen extends StatelessWidget {
   const YoutubeEmbeddeddnineteen({super.key});
 
-  @override
-  State<YoutubeEmbeddeddnineteen> createState() =>
-      _YoutubeEmbeddeddnineteenState();
-}
-
-class _YoutubeEmbeddeddnineteenState extends State<YoutubeEmbeddeddnineteen> {
-  late YoutubePlayerController _controller;
   final String _videoId = 'bPW47MDJXlA';
   final double _startSeconds = 113;
 
@@ -1167,15 +1089,9 @@ class _YoutubeEmbeddeddnineteenState extends State<YoutubeEmbeddeddnineteen> {
   }
 }
 
-class YoutubeEmbeddedtwenty extends StatefulWidget {
+class YoutubeEmbeddedtwenty extends StatelessWidget {
   const YoutubeEmbeddedtwenty({super.key});
 
-  @override
-  State<YoutubeEmbeddedtwenty> createState() => _YoutubeEmbeddedtwentyState();
-}
-
-class _YoutubeEmbeddedtwentyState extends State<YoutubeEmbeddedtwenty> {
-  late YoutubePlayerController _controller;
   final String _videoId = '2ncp4nD5eJ0';
   final double _startSeconds = 212;
 

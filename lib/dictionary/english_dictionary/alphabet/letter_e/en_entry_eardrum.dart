@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eardrum (Derived forms: eardrums)
+- Noun: eardrum (derived forms: eardrums)
 1. The membrane in the ear that vibrates to sound (= tympanum, tympanic membrane, myringa)
 """,
   );

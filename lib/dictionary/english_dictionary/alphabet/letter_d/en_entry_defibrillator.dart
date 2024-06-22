@@ -271,165 +271,57 @@ class KurdishMeaning extends StatelessWidget {
           // defibrillators400"),
           // speakdefibrillators4
           // defibrillators4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators500"),
           // speakdefibrillators5
           // defibrillators5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators600"),
           // speakdefibrillators6
           // defibrillators6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators700"),
           // speakdefibrillators7
           // defibrillators7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators800"),
           // speakdefibrillators8
           // defibrillators8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators900"),
           // speakdefibrillators9
           // defibrillators9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1000"),
           // speakdefibrillators10
           // defibrillators10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1100"),
           // speakdefibrillators11
           // defibrillators11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1200"),
           // speakdefibrillators12
           // defibrillators12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1300"),
           // speakdefibrillators13
           // defibrillators13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1400"),
           // speakdefibrillators14
           // defibrillators14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1500"),
           // speakdefibrillators15
           // defibrillators15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1600"),
           // speakdefibrillators16
           // defibrillators16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1700"),
           // speakdefibrillators17
           // defibrillators17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1800"),
           // speakdefibrillators18
           // defibrillators18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators1900"),
           // speakdefibrillators19
           // defibrillators19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators2000"),
           // speakdefibrillators20
           // defibrillators20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators2100"),
           // speakdefibrillators21
           // defibrillators21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defibrillators2200"),
           // speakdefibrillators22
           // defibrillators22("en-US"),

@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dwindle (Derived forms: dwindling, dwindles, dwindled)
+- Verb: dwindle (derived forms: dwindling, dwindles, dwindled)
 1. Become smaller or lose substance (= dwindle away, dwindle down)
 "Her savings dwindled down";
 """,

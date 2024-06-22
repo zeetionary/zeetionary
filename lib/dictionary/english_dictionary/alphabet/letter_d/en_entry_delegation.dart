@@ -384,165 +384,57 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations500"),
           // speakdelegations5
           // delegations5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations600"),
           // speakdelegations6
           // delegations6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations700"),
           // speakdelegations7
           // delegations7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations800"),
           // speakdelegations8
           // delegations8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations900"),
           // speakdelegations9
           // delegations9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1000"),
           // speakdelegations10
           // delegations10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1100"),
           // speakdelegations11
           // delegations11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1200"),
           // speakdelegations12
           // delegations12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1300"),
           // speakdelegations13
           // delegations13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1400"),
           // speakdelegations14
           // delegations14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1500"),
           // speakdelegations15
           // delegations15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1600"),
           // speakdelegations16
           // delegations16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1700"),
           // speakdelegations17
           // delegations17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1800"),
           // speakdelegations18
           // delegations18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations1900"),
           // speakdelegations19
           // delegations19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The British delegation walked out of the discussions in protest.0"),
+          // "The British delegation walked out of the discussions in protest.0"),
           // speakdelegations20
           // delegations20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations2100"),
           // speakdelegations21
           // delegations21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delegations2200"),
           // speakdelegations22
           // delegations22("en-US"),

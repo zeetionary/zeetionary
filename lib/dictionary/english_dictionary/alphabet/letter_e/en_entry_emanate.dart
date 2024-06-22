@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەرچاوە گرتن، ڕەوان بوون
 """),
           const DefinitionKurdish(
-              text: """١. (کردار) بەرهەمهێنان یان پیشاندانی شتێک"""),
+              text: """١. (کردار) بەرھەمھێنان یان پیشاندانی شتێک"""),
           Row(
             children: [
               const Expanded(
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He emanates power and confidence."""),
                     ExampleSentenceKurdish(
-                        text: """هێز و متمانەی لێ دەبارێت."""),
+                        text: """ھێز و متمانەی لێ دەبارێت."""),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: emanate (Derived forms: emanated, emanates, emanating)
+- Verb: emanate (derived forms: emanated, emanates, emanating)
 1. Proceed or issue forth, as from a source
 "Water emanates from this hole in the ground"
  

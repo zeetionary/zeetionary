@@ -310,165 +310,57 @@ class KurdishMeaning extends StatelessWidget {
           // derailments400"),
           // speakderailments4
           // derailments4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments500"),
           // speakderailments5
           // derailments5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments600"),
           // speakderailments6
           // derailments6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments700"),
           // speakderailments7
           // derailments7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments800"),
           // speakderailments8
           // derailments8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments900"),
           // speakderailments9
           // derailments9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1000"),
           // speakderailments10
           // derailments10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1100"),
           // speakderailments11
           // derailments11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1200"),
           // speakderailments12
           // derailments12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1300"),
           // speakderailments13
           // derailments13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1400"),
           // speakderailments14
           // derailments14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1500"),
           // speakderailments15
           // derailments15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1600"),
           // speakderailments16
           // derailments16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1700"),
           // speakderailments17
           // derailments17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1800"),
           // speakderailments18
           // derailments18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments1900"),
           // speakderailments19
           // derailments19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Poor planning caused the project’s derailment.0"),
+          // "Poor planning caused the project’s derailment.0"),
           // speakderailments20
           // derailments20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments2100"),
           // speakderailments21
           // derailments21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derailments2200"),
           // speakderailments22
           // derailments22("en-US"),

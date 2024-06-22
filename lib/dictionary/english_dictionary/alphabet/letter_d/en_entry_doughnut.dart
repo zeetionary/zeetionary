@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doughnut (Derived forms: doughnuts)
+- Noun: doughnut (derived forms: doughnuts)
 1. A small ring-shaped friedcake (= donut [N. Amer], sinker [US])
  
 2. A toroidal shape (= ring, halo, annulus, anchor ring)

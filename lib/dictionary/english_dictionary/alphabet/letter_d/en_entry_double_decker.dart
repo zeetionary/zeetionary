@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: double-decker (Derived forms: double-deckers)
+- Noun: double-decker (derived forms: double-deckers)
 1. A vehicle carrying many passengers; used for public transport (= bus, autobus, coach, charabanc [Brit], jitney [N. Amer, informal], motorbus, motorcoach, omnibus, passenger vehicle)
 "he always rode the double-decker to work";
 """,

@@ -316,138 +316,48 @@ class KurdishMeaning extends StatelessWidget {
           // despondencys700"),
           // speakdespondencys7
           // despondencys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys800"),
           // speakdespondencys8
           // despondencys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys900"),
           // speakdespondencys9
           // despondencys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1000"),
           // speakdespondencys10
           // despondencys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1100"),
           // speakdespondencys11
           // despondencys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1200"),
           // speakdespondencys12
           // despondencys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1300"),
           // speakdespondencys13
           // despondencys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1400"),
           // speakdespondencys14
           // despondencys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1500"),
           // speakdespondencys15
           // despondencys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1600"),
           // speakdespondencys16
           // despondencys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1700"),
           // speakdespondencys17
           // despondencys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1800"),
           // speakdespondencys18
           // despondencys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys1900"),
           // speakdespondencys19
           // despondencys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "A mood of despondency had set in.0"),
+          // "A mood of despondency had set in.0"),
           // speakdespondencys20
           // despondencys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys2100"),
           // speakdespondencys21
           // despondencys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondencys2200"),
           // speakdespondencys22
           // despondencys22("en-US"),

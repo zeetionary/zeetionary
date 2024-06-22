@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: رزگارکردن، لە ژێر چەنگ دەرهێنان
+کوردی: رزگارکردن، لە ژێر چەنگ دەرھێنان
 """),
           const DefinitionKurdish(
               text:
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """They felt they had at last been emancipated from their father’s control."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وایان هەستکرد کە لە کۆتاییدا لە کۆنترۆڵی باوکیان ڕزگارکران."""),
+                            """وایان ھەستکرد کە لە کۆتاییدا لە کۆنترۆڵی باوکیان ڕزگارکران."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: emancipate (Derived forms: emancipated, emancipates, emancipating)
+- Verb: emancipate (derived forms: emancipated, emancipates, emancipating)
 1. Give equal rights to; of women and minorities (= liberate)
  
 2. Free from slavery or servitude (= manumit)

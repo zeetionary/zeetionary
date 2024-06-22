@@ -504,7 +504,7 @@ ${englishMeaningConst.text}
 1. Marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another (= ambidextrous, deceitful, duplicitous, Janus-faced, two-faced, double-faced, double-tongued)
 "a double-dealing double agent";
 
-- Noun: double-dealing (Derived forms: double-dealings)
+- Noun: double-dealing (derived forms: double-dealings)
 1. Acting in bad faith; deception by pretending to entertain one set of intentions while acting under the influence of another (= duplicity)
 """,
   );

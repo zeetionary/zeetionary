@@ -312,165 +312,57 @@ class KurdishMeaning extends StatelessWidget {
           // deitys400"),
           // speakdeitys4
           // deitys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys500"),
           // speakdeitys5
           // deitys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys600"),
           // speakdeitys6
           // deitys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys700"),
           // speakdeitys7
           // deitys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys800"),
           // speakdeitys8
           // deitys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys900"),
           // speakdeitys9
           // deitys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1000"),
           // speakdeitys10
           // deitys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1100"),
           // speakdeitys11
           // deitys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1200"),
           // speakdeitys12
           // deitys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1300"),
           // speakdeitys13
           // deitys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1400"),
           // speakdeitys14
           // deitys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1500"),
           // speakdeitys15
           // deitys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1600"),
           // speakdeitys16
           // deitys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1700"),
           // speakdeitys17
           // deitys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1800"),
           // speakdeitys18
           // deitys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys1900"),
           // speakdeitys19
           // deitys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Ares and Aphrodite were the ancient Greek deities of war and love.0"),
+          // "Ares and Aphrodite were the ancient Greek deities of war and love.0"),
           // speakdeitys20
           // deitys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys2100"),
           // speakdeitys21
           // deitys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deitys2200"),
           // speakdeitys22
           // deitys22("en-US"),

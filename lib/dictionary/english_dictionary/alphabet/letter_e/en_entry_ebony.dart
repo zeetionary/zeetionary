@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ھاوەڵناو) هەبوونی ڕەنگی ڕەش"""),
+          const DefinitionKurdish(text: """٢. (ھاوەڵناو) ھەبوونی ڕەنگی ڕەش"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 - Adjective: ebony
 1. Of a very dark black (= ebon)
 
-- Noun: ebony (Derived forms: ebonies)
+- Noun: ebony (derived forms: ebonies)
 1. A very dark black (= coal black, jet black, pitch black, sable, soot black)
  
 2. Hard dark-coloured heartwood of the ebony tree; used in cabinetwork and for piano keys

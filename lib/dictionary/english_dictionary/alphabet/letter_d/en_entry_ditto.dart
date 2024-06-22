@@ -536,7 +536,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ditto (Derived forms: dittoed, dittos, dittoes, dittoing)
+- Noun: ditto (derived forms: dittoed, dittos, dittoes, dittoing)
 1. A mark used to indicate the word above it should be repeated (= ditto mark)
 
 - Verb: ditto 

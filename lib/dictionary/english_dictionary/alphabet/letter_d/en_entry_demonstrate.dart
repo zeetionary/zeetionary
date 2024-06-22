@@ -650,102 +650,36 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1200"),
           // speakdemonstrates12
           // demonstrates12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1300"),
           // speakdemonstrates13
           // demonstrates13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1400"),
           // speakdemonstrates14
           // demonstrates14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1500"),
           // speakdemonstrates15
           // demonstrates15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1600"),
           // speakdemonstrates16
           // demonstrates16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1700"),
           // speakdemonstrates17
           // demonstrates17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1800"),
           // speakdemonstrates18
           // demonstrates18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates1900"),
           // speakdemonstrates19
           // demonstrates19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "These paintings demonstrate his extraordinary ability as a portrait painter.0"),
+          // "These paintings demonstrate his extraordinary ability as a portrait painter.0"),
           // speakdemonstrates20
           // demonstrates20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates2100"),
           // speakdemonstrates21
           // demonstrates21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrates2200"),
           // speakdemonstrates22
           // demonstrates22("en-US"),

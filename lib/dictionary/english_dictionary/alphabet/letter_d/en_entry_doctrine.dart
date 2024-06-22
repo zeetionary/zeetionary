@@ -566,7 +566,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doctrine (Derived forms: doctrines)
+- Noun: doctrine (derived forms: doctrines)
 1. A belief (or system of beliefs) accepted as authoritative by some group or school (= philosophy, philosophical system, school of thought, ism)
 "the doctrine of sovereign immunity originated with the maxim that the king can do no wrong";
 """,

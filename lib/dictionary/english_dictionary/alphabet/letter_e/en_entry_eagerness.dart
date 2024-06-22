@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەپەرۆشی، پەرۆشی، هۆگری، تاسە، بیهر، کەف‌وکوڵ
+کوردی: بەپەرۆشی، پەرۆشی، ھۆگری، تاسە، بیھر، کەف‌وکوڵ
 """),
           const DefinitionKurdish(
               text:

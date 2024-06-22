@@ -611,7 +611,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: documentary (Derived forms: documentaries)
+- Noun: documentary (derived forms: documentaries)
 1. A film or TV program presenting the facts about a person or event (= docudrama, documentary film, infotainment)
 
 - Adjective: documentary 

@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drawing room (Derived forms: drawing rooms)
+- Noun: drawing room (derived forms: drawing rooms)
 1. A formal room where visitors can be received and entertained (= withdrawing room)
  
 2. A private compartment on a sleeping car with three bunks and a toilet

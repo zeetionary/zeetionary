@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە وڵاتەکەی جێدەهێڵێت بۆ ئەوەی بۆ هەمیشەیی لە وڵاتێکی دیکە بژی"""),
+                  """١. (ناو) کەسێک کە وڵاتەکەی جێدەھێڵێت بۆ ئەوەی بۆ ھەمیشەیی لە وڵاتێکی دیکە بژی"""),
           Row(
             children: [
               const Expanded(
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """During the reign of Charles I there was a flood of emigrants to North America."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە ماوەی دەسەڵاتداریی چارڵسی یەکەمدا کۆچبەرێکی زۆر بۆ ئەمریکا هەبوون."""),
+                            """لە ماوەی دەسەڵاتداریی چارڵسی یەکەمدا کۆچبەرێکی زۆر بۆ ئەمریکا ھەبوون."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emigrant (Derived forms: emigrants)
+- Noun: emigrant (derived forms: emigrants)
 1. Someone who leaves one country to settle in another (= émigré, emigree, outgoer, emigré)
 """,
   );

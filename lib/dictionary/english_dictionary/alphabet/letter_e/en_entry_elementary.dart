@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرەتایی، بەرایی، دەسپێک،	سەرەکی، بنچینەیی، بنەڕەتی، بنگەهی،	ئاسان، ساکار، سادە، سانا: 
+کوردی: سەرەتایی، بەرایی، دەسپێک،	سەرەکی، بنچینەیی، بنەڕەتی، بنگەھی،	ئاسان، ساکار، سادە، سانا: 
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) قۆناغەکانی سەرەتای کۆرسێکی خوێندن"""),
@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This book contains a series of elementary exercises for learners."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کتێبەکە زنجیرەیەک ڕاهێنانی بنچینەیی بۆ فێرخوازان لەخۆ دەگرێت."""),
+                            """کتێبەکە زنجیرەیەک ڕاھێنانی بنچینەیی بۆ فێرخوازان لەخۆ دەگرێت."""),
                   ],
                 ),
               ),
@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """How could you make such an elementary mistake?"""),
                     ExampleSentenceKurdish(
-                        text: """چۆن توانیت هەڵەیەکی هێندە بنچینەیی بکەیت؟"""),
+                        text: """چۆن توانیت ھەڵەیەکی ھێندە بنچینەیی بکەیت؟"""),
                   ],
                 ),
               ),
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It's an elementary law of economics: the scarcer the commodity, the higher the price."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەوە یەکێک لە یاسا بنچینەییەکانی ئابوورییە: چەندە شتەکە کەم بێت، هێندە نرخی بەرز دەبێت."""),
+                            """ئەوە یەکێک لە یاسا بنچینەییەکانی ئابوورییە: چەندە شتەکە کەم بێت، ھێندە نرخی بەرز دەبێت."""),
                   ],
                 ),
               ),
@@ -522,7 +522,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I have an elementary knowledge of physics."""),
                     ExampleSentenceKurdish(
-                        text: """زانیاریی سەرەتایی فیزیام هەیە."""),
+                        text: """زانیاریی سەرەتایی فیزیام ھەیە."""),
                   ],
                 ),
               ),

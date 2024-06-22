@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Despite her earnest efforts, she could not find a job."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرەڕای هەوڵە بەڕستەکانی، نەیتوانی کارێک بدۆزێتەوە."""),
+                            """سەرەڕای ھەوڵە بەڕستەکانی، نەیتوانی کارێک بدۆزێتەوە."""),
                   ],
                 ),
               ),
@@ -561,7 +561,7 @@ ${englishMeaningConst.text}
  
 3. Not distracted by anything unrelated to the goal (= businesslike)
 
-- Noun: earnest (Derived forms: earnests)
+- Noun: earnest (derived forms: earnests)
 1. Something of value given by one person to another to bind a contract
 """,
   );

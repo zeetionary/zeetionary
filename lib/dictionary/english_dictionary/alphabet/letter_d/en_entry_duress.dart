@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duress (Derived forms: duresses)
+- Noun: duress (derived forms: duresses)
 1. Compulsory force or threat 
 "confessed under duress"
 """,

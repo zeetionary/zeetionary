@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dust sheet (Derived forms: dust sheets)
+- Noun: dust sheet (derived forms: dust sheets)
 1. A large piece of cloth used to cover furniture that is not in use for a long period (= dust cover)
 """,
   );

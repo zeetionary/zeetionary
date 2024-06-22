@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: double-book (Derived forms: double-books, double-booked, double-booking)
+- Verb: double-book (derived forms: double-books, double-booked, double-booking)
 1. Reserve something for two people at the same time (were only one can use it), often by mistake
 """,
   );

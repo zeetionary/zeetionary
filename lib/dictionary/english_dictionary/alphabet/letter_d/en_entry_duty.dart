@@ -975,7 +975,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duty (Derived forms: duties)
+- Noun: duty (derived forms: duties)
 1. The social force that binds you to the courses of action demanded by that force (= responsibility, obligation)
 "we must instil a sense of duty in our children"; "every right implies a responsibility; every opportunity, an obligation; every possession, a duty";
  

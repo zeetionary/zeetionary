@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: """١. (ناو) یازدەهەم"""),
+          const DefinitionKurdish(text: """١. (ناو) یازدەھەم"""),
           Row(
             children: [
               const Expanded(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: """Today is the eleventh (of May)."""),
-                    ExampleSentenceKurdish(text: """ئەمڕۆ یەزدەهەمی ئایارە."""),
+                    ExampleSentenceKurdish(text: """ئەمڕۆ یەزدەھەمی ئایارە."""),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """It's her eleventh birthday."""),
                     ExampleSentenceKurdish(
-                        text: """یازدەهەمین ساڵیادی لە دایکبوونیەتی."""),
+                        text: """یازدەھەمین ساڵیادی لە دایکبوونیەتی."""),
                   ],
                 ),
               ),
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """My office is on the eleventh floor."""),
                     ExampleSentenceKurdish(
-                        text: """ئۆفیسەکەم لە نهۆمی یازدەهەمە."""),
+                        text: """ئۆفیسەکەم لە نھۆمی یازدەھەمە."""),
                   ],
                 ),
               ),
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """It's the eleventh time that I've been to America."""),
                     ExampleSentenceKurdish(
-                        text: """ئەوە یازدەهەمین جارە کە چوومەتە ئەمریکا."""),
+                        text: """ئەوە یازدەھەمین جارە کە چوومەتە ئەمریکا."""),
                   ],
                 ),
               ),
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He finished eleventh in the race."""),
                     ExampleSentenceKurdish(
-                        text: """یازدەهەمین بووە لە پێشبڕکێیەکە."""),
+                        text: """یازدەھەمین بووە لە پێشبڕکێیەکە."""),
                   ],
                 ),
               ),
@@ -617,7 +617,7 @@ ${englishMeaningConst.text}
 - Adjective: eleventh
 1. Coming next after the tenth and just before the twelfth in position (= 11th)
 
-- Noun: eleventh (Derived forms: elevenths)
+- Noun: eleventh (derived forms: elevenths)
 1. Position 11 in a countable series of things
 """,
   );

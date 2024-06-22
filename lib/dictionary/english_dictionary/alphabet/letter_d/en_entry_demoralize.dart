@@ -313,165 +313,57 @@ class KurdishMeaning extends StatelessWidget {
           // demoralizes400"),
           // speakdemoralizes4
           // demoralizes4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes500"),
           // speakdemoralizes5
           // demoralizes5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes600"),
           // speakdemoralizes6
           // demoralizes6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes700"),
           // speakdemoralizes7
           // demoralizes7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes800"),
           // speakdemoralizes8
           // demoralizes8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes900"),
           // speakdemoralizes9
           // demoralizes9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1000"),
           // speakdemoralizes10
           // demoralizes10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1100"),
           // speakdemoralizes11
           // demoralizes11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1200"),
           // speakdemoralizes12
           // demoralizes12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1300"),
           // speakdemoralizes13
           // demoralizes13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1400"),
           // speakdemoralizes14
           // demoralizes14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1500"),
           // speakdemoralizes15
           // demoralizes15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1600"),
           // speakdemoralizes16
           // demoralizes16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1700"),
           // speakdemoralizes17
           // demoralizes17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1800"),
           // speakdemoralizes18
           // demoralizes18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes1900"),
           // speakdemoralizes19
           // demoralizes19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Many members were demoralized by the leadership’s failure to implement reforms.0"),
+          // "Many members were demoralized by the leadership’s failure to implement reforms.0"),
           // speakdemoralizes20
           // demoralizes20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes2100"),
           // speakdemoralizes21
           // demoralizes21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demoralizes2200"),
           // speakdemoralizes22
           // demoralizes22("en-US"),

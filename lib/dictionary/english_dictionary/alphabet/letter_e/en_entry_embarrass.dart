@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I didn't want to embarrass him by kissing him in front of his friends."""),
                     ExampleSentenceKurdish(
                         text:
-                            """نەمویست خەجاڵەتی بکەم بە ماچکردنی لە پێش هاوڕێکانی."""),
+                            """نەمویست خەجاڵەتی بکەم بە ماچکردنی لە پێش ھاوڕێکانی."""),
                   ],
                 ),
               ),
@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """You're embarrassing him with your compliments!"""),
                     ExampleSentenceKurdish(
-                        text: """شەرمەزاری دەکەیت بە پیاهەڵدانەکانت."""),
+                        text: """شەرمەزاری دەکەیت بە پیاھەڵدانەکانت."""),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (کردار) بوونە هۆکاری کێشە یان ناڕەحەتی بۆ کەسێک"""),
+              text: """٢. (کردار) بوونە ھۆکاری کێشە یان ناڕەحەتی بۆ کەسێک"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -591,7 +591,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embarrass (Derived forms: embarrassed, embarrasses, embarrassing)
+- Verb: embarrass (derived forms: embarrassed, embarrasses, embarrassing)
 1. Cause to be embarrassed; cause to feel self-conscious (= abash)
 "One would think that Owen's failure even to pick up the hammer at the bell-ringing contest would thoroughly embarrass him, but he laughed about it";
  

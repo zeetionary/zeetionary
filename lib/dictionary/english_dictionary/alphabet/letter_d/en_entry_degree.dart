@@ -773,66 +773,24 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // degrees1600"),
           // speakdegrees16
           // degrees16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // degrees1700"),
           // speakdegrees17
           // degrees17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // degrees1800"),
           // speakdegrees18
           // degrees18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // degrees1900"),
           // speakdegrees19
           // degrees19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Temperatures are expected to drop below 2 degrees.0"),
+          // "Temperatures are expected to drop below 2 degrees.0"),
           // speakdegrees20
           // degrees20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // degrees2100"),
           // speakdegrees21
           // degrees21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // degrees2200"),
           // speakdegrees22
           // degrees22("en-US"),

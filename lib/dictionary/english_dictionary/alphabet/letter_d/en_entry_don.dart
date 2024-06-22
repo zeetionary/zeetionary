@@ -568,11 +568,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: don (Derived forms: dons, donning, donned)
+- Verb: don (derived forms: dons, donning, donned)
 1. Put clothing on one's body (= wear, put on, get into, assume)
 "The princess donned a long blue dress";
 
-- Noun: don (Derived forms: dons)
+- Noun: don (derived forms: dons)
 1. [Brit] Teacher at a university or college (especially at Cambridge or Oxford) (= preceptor [Brit])
  
 2. The head of an organized crime family (= father)

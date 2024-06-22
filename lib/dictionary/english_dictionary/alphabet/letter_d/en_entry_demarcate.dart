@@ -311,165 +311,57 @@ class KurdishMeaning extends StatelessWidget {
           // demarcates400"),
           // speakdemarcates4
           // demarcates4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates500"),
           // speakdemarcates5
           // demarcates5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates600"),
           // speakdemarcates6
           // demarcates6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates700"),
           // speakdemarcates7
           // demarcates7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates800"),
           // speakdemarcates8
           // demarcates8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates900"),
           // speakdemarcates9
           // demarcates9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1000"),
           // speakdemarcates10
           // demarcates10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1100"),
           // speakdemarcates11
           // demarcates11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1200"),
           // speakdemarcates12
           // demarcates12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1300"),
           // speakdemarcates13
           // demarcates13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1400"),
           // speakdemarcates14
           // demarcates14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1500"),
           // speakdemarcates15
           // demarcates15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1600"),
           // speakdemarcates16
           // demarcates16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1700"),
           // speakdemarcates17
           // demarcates17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1800"),
           // speakdemarcates18
           // demarcates18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates1900"),
           // speakdemarcates19
           // demarcates19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The police demarcated the city into eighteen geographical divisions.0"),
+          // "The police demarcated the city into eighteen geographical divisions.0"),
           // speakdemarcates20
           // demarcates20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates2100"),
           // speakdemarcates21
           // demarcates21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demarcates2200"),
           // speakdemarcates22
           // demarcates22("en-US"),

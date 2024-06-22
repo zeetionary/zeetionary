@@ -396,156 +396,54 @@ class KurdishMeaning extends StatelessWidget {
           // democracys500"),
           // speakdemocracys5
           // democracys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys600"),
           // speakdemocracys6
           // democracys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys700"),
           // speakdemocracys7
           // democracys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys800"),
           // speakdemocracys8
           // democracys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys900"),
           // speakdemocracys9
           // democracys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1000"),
           // speakdemocracys10
           // democracys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1100"),
           // speakdemocracys11
           // democracys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1200"),
           // speakdemocracys12
           // democracys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1300"),
           // speakdemocracys13
           // democracys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1400"),
           // speakdemocracys14
           // democracys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1500"),
           // speakdemocracys15
           // democracys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1600"),
           // speakdemocracys16
           // democracys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1700"),
           // speakdemocracys17
           // democracys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1800"),
           // speakdemocracys18
           // democracys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys1900"),
           // speakdemocracys19
           // democracys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The early 1990s saw the spread of democracy in Eastern Europe.0"),
+          // "The early 1990s saw the spread of democracy in Eastern Europe.0"),
           // speakdemocracys20
           // democracys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys2100"),
           // speakdemocracys21
           // democracys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democracys2200"),
           // speakdemocracys22
           // democracys22("en-US"),

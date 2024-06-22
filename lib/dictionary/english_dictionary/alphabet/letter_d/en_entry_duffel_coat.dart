@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duffel coat (Derived forms: duffel coats)
+- Noun: duffel coat (derived forms: duffel coats)
 1. A warm coat made of duffel; usually has a hood and fastens with toggles (= duffle coat)
 """,
   );

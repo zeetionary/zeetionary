@@ -312,165 +312,57 @@ class KurdishMeaning extends StatelessWidget {
           // deformitys400"),
           // speakdeformitys4
           // deformitys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys500"),
           // speakdeformitys5
           // deformitys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys600"),
           // speakdeformitys6
           // deformitys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys700"),
           // speakdeformitys7
           // deformitys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys800"),
           // speakdeformitys8
           // deformitys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys900"),
           // speakdeformitys9
           // deformitys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1000"),
           // speakdeformitys10
           // deformitys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1100"),
           // speakdeformitys11
           // deformitys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1200"),
           // speakdeformitys12
           // deformitys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1300"),
           // speakdeformitys13
           // deformitys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1400"),
           // speakdeformitys14
           // deformitys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1500"),
           // speakdeformitys15
           // deformitys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1600"),
           // speakdeformitys16
           // deformitys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1700"),
           // speakdeformitys17
           // deformitys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1800"),
           // speakdeformitys18
           // deformitys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys1900"),
           // speakdeformitys19
           // deformitys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Poor posture causes deformity in the natural curvature of the spine.0"),
+          // "Poor posture causes deformity in the natural curvature of the spine.0"),
           // speakdeformitys20
           // deformitys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys2100"),
           // speakdeformitys21
           // deformitys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deformitys2200"),
           // speakdeformitys22
           // deformitys22("en-US"),

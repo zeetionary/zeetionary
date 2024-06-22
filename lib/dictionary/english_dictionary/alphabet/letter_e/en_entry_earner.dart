@@ -368,11 +368,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەخێوکەر، نان‌پەیداکەر، بەدەس‌هێنەر، بەدەس‌خەر،	خێردەرەوە، بەقازانج،	کاری پڕداهات
+کوردی: بەخێوکەر، نان‌پەیداکەر، بەدەس‌ھێنەر، بەدەس‌خەر،	خێردەرەوە، بەقازانج،	کاری پڕداھات
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە پارە بەدەست دەهێنێت بۆ کارێک کە دەیکات"""),
+                  """١. (ناو) کەسێک کە پارە بەدەست دەھێنێت بۆ کارێک کە دەیکات"""),
           Row(
             children: [
               const Expanded(
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The survey revealed that top earners in the country tended to be men."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕاپرسییەکە دەریخست کە زۆرترین بەدەست‌هێنەران وا باوبوو پیاوان بن."""),
+                            """ڕاپرسییەکە دەریخست کە زۆرترین بەدەست‌ھێنەران وا باوبوو پیاوان بن."""),
                   ],
                 ),
               ),
@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Tourism is the country's biggest foreign currency earner."""),
                     ExampleSentenceKurdish(
                         text:
-                            """گەشتیاری گەورەترین قازانج‌هێنەری دراوی بیانی وڵاتەکەیە."""),
+                            """گەشتیاری گەورەترین قازانج‌ھێنەری دراوی بیانی وڵاتەکەیە."""),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earner (Derived forms: earners)
+- Noun: earner (derived forms: earners)
 1. Someone who earn wages in return for their labour (= wage earner)
 """,
   );

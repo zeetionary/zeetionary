@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کارۆتیسی، کارۆمەگناتیسی، ئێلیکترۆمەگناتیک
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە خاسیەتی کارەبایی و موگناتیزی هەیە"""),
+              text: """١. (ھاوەڵناو) کە خاسیەتی کارەبایی و موگناتیزی ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             """An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field."""),
                     ExampleSentenceKurdish(
                         text:
-                            """شەپۆلی کارۆموگناتیسی بەرهەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی."""),
+                            """شەپۆلی کارۆموگناتیسی بەرھەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی."""),
                   ],
                 ),
               ),

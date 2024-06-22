@@ -376,10 +376,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆژهەڵاتی، بەرەو ڕۆژهەڵات
+کوردی: ڕۆژھەڵاتی، بەرەو ڕۆژھەڵات
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) لە ڕۆژهەڵات یان بەرەو ڕۆژهەڵات"""),
+              text: """١. (ھاوەڵناو) لە ڕۆژھەڵات یان بەرەو ڕۆژھەڵات"""),
           Row(
             children: [
               const Expanded(
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """They were travelling in an easterly direction."""),
                     ExampleSentenceKurdish(
-                        text: """بە ئاراستەی ڕۆژهەڵات گەشتیان دەکرد."""),
+                        text: """بە ئاراستەی ڕۆژھەڵات گەشتیان دەکرد."""),
                   ],
                 ),
               ),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The town is in the most easterly part of the country."""),
                     ExampleSentenceKurdish(
-                        text: """شارۆچکەکە لە ئەوپەڕی ڕۆژهەڵاتی وڵاتەکەیە."""),
+                        text: """شارۆچکەکە لە ئەوپەڕی ڕۆژھەڵاتی وڵاتەکەیە."""),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵناو) بایەک کە لە ڕۆژهەڵاتەوە دێت"""),
+              text: """٢. (ھاوەڵناو) بایەک کە لە ڕۆژھەڵاتەوە دێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The migrating falcons were blown off course by easterly winds."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بازە کۆچکەرەکان لە ڕێڕەویان لادران بەهۆی بای ڕۆژهەڵاتەوە."""),
+                            """بازە کۆچکەرەکان لە ڕێڕەویان لادران بەھۆی بای ڕۆژھەڵاتەوە."""),
                   ],
                 ),
               ),
@@ -561,7 +561,7 @@ ${englishMeaningConst.text}
 2. From the east; used especially of winds (= eastern)
 "the winds are easterly";
 
-- Noun: easterly (Derived forms: easterlies)
+- Noun: easterly (derived forms: easterlies)
 1. A wind from the east (= east wind, easter)
 
 - Adverb: easterly 

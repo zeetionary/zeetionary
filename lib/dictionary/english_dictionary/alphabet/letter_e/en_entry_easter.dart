@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """I get two weeks off school at Easter."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە ئیستەر دوو هەفتە مۆڵەتی قوتابخانەم وەردەگرم."""),
+                            """لە ئیستەر دوو ھەفتە مۆڵەتی قوتابخانەم وەردەگرم."""),
                   ],
                 ),
               ),
@@ -588,10 +588,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: easter (Derived forms: easters)
+- Noun: easter (derived forms: easters)
 1. A wind from the east (= east wind, easterly)
 
-- Noun: Easter (Derived forms: Easters)
+- Noun: Easter (derived forms: Easters)
 1. A Christian celebration of the Resurrection of Christ; celebrated on the Sunday following the first full moon after the vernal equinox
 """,
   );

@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dispel (Derived forms: dispels, dispelling, dispelled)
+- Verb: dispel (derived forms: dispels, dispelling, dispelled)
 1. Force to go away; used both with concrete and metaphoric meanings (= chase away, drive out, turn back, drive away, drive off, run off)
 "dispel doubts";
  

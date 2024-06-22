@@ -391,11 +391,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سۆز، هەست، ورووژان، هەژان، هەژین، هارۆژان، بزوان، شێوان، شڵەژاوی، تێکچوون
+کوردی: سۆز، ھەست، ورووژان، ھەژان، ھەژین، ھارۆژان، بزوان، شێوان، شڵەژاوی، تێکچوون
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەستێکی بەهێزی وەک خۆشەویستی، ڕق، تووڕەیی، هتد"""),
+                  """١. (ناو) ھەستێکی بەھێزی وەک خۆشەویستی، ڕق، تووڕەیی، ھتد"""),
           Row(
             children: [
               const Expanded(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They expressed mixed emotions at the news."""),
                     ExampleSentenceKurdish(
-                        text: """هەستی تێکەڵاوی بۆ هەواڵەکە دەربڕی."""),
+                        text: """ھەستی تێکەڵاوی بۆ ھەواڵەکە دەربڕی."""),
                   ],
                 ),
               ),
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: """Fear is a normal human emotion."""),
-                    ExampleSentenceKurdish(text: """ترس هەستی ئاسایی مرۆڤە."""),
+                    ExampleSentenceKurdish(text: """ترس ھەستی ئاسایی مرۆڤە."""),
                   ],
                 ),
               ),
@@ -461,7 +461,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The decision was based on emotion rather than rational thought."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بڕیارەکە پشتی بە هەست و سۆز بەست نەک بیرکردنەوەی ئاقڵانە."""),
+                            """بڕیارەکە پشتی بە ھەست و سۆز بەست نەک بیرکردنەوەی ئاقڵانە."""),
                   ],
                 ),
               ),
@@ -489,7 +489,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Mary was overcome with emotion."""),
                     ExampleSentenceKurdish(
-                        text: """ماری پڕ لە هەست و سۆز بوو."""),
+                        text: """ماری پڕ لە ھەست و سۆز بوو."""),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He lost control of his emotions."""),
                     ExampleSentenceKurdish(
-                        text: """کۆنترۆڵی هەستەکانی لەدەستدا."""),
+                        text: """کۆنترۆڵی ھەستەکانی لەدەستدا."""),
                   ],
                 ),
               ),
@@ -618,7 +618,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emotion (Derived forms: emotions)
+- Noun: emotion (derived forms: emotions)
 1. Any strong feeling
 "an upsurge of emotion"
 """,

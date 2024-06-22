@@ -336,165 +336,57 @@ class KurdishMeaning extends StatelessWidget {
           // depreciates400"),
           // speakdepreciates4
           // depreciates4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates500"),
           // speakdepreciates5
           // depreciates5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates600"),
           // speakdepreciates6
           // depreciates6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates700"),
           // speakdepreciates7
           // depreciates7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates800"),
           // speakdepreciates8
           // depreciates8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates900"),
           // speakdepreciates9
           // depreciates9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1000"),
           // speakdepreciates10
           // depreciates10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1100"),
           // speakdepreciates11
           // depreciates11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1200"),
           // speakdepreciates12
           // depreciates12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1300"),
           // speakdepreciates13
           // depreciates13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1400"),
           // speakdepreciates14
           // depreciates14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1500"),
           // speakdepreciates15
           // depreciates15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1600"),
           // speakdepreciates16
           // depreciates16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1700"),
           // speakdepreciates17
           // depreciates17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1800"),
           // speakdepreciates18
           // depreciates18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates1900"),
           // speakdepreciates19
           // depreciates19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Shares continued to depreciate on the stock markets today.0"),
+          // "Shares continued to depreciate on the stock markets today.0"),
           // speakdepreciates20
           // depreciates20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates2100"),
           // speakdepreciates21
           // depreciates21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depreciates2200"),
           // speakdepreciates22
           // depreciates22("en-US"),

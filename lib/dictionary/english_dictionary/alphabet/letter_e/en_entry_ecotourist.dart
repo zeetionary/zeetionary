@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She became an ecotourist to support conservation efforts."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بوو بە ژینگەگەڕوان بۆ پشتگیری هەوڵەکانی ژینگەپارێزی."""),
+                            """بوو بە ژینگەگەڕوان بۆ پشتگیری ھەوڵەکانی ژینگەپارێزی."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ecotourism (Derived forms: ecotourisms)
+- Noun: ecotourism (derived forms: ecotourisms)
 1. Tourism to exotic or threatened ecosystems to observe wildlife or to help preserve nature
 """,
   );

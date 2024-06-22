@@ -407,7 +407,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disorientation (Derived forms: disorientations)
+- Noun: disorientation (derived forms: disorientations)
 1. A wild delusion (especially one induced by a hallucinogenic drug) (= freak out [informal], freak-out [informal])
  
 2. Confusion (usually transient) about where you are and how to proceed; uncertainty as to direction

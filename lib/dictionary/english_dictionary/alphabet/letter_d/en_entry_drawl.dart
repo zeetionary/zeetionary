@@ -531,10 +531,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drawl (Derived forms: drawls)
+- Noun: drawl (derived forms: drawls)
 1. A slow speech pattern with prolonged vowels
 
-- Verb: drawl (Derived forms: drawled, drawling, drawls)
+- Verb: drawl (derived forms: drawled, drawling, drawls)
 1. Lengthen and slow down or draw out
 "drawl one's vowels"
 """,

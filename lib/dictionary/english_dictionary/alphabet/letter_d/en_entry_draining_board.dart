@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: draining board (Derived forms: draining boards)
+- Noun: draining board (derived forms: draining boards)
 1. A board beside a kitchen sink and inclined to drain into the sink (= drainboard)
 """,
   );

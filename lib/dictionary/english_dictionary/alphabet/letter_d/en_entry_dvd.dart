@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: DVD (Derived forms: DVDs)
+- Noun: DVD (derived forms: DVDs)
 1. A digital recording (as of a movie) on an optical disk that can be played on a computer or a television set (= videodisk, videodisc, Digital Video Disc)
 """,
   );

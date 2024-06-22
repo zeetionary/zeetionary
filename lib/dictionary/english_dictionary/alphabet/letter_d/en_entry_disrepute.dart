@@ -400,7 +400,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disrepute (Derived forms: disreputes)
+- Noun: disrepute (derived forms: disreputes)
 1. The state of being held in low esteem (= discredit)
 "because of the scandal the school has fallen into disrepute";
 """,

@@ -657,12 +657,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٥. (ھاوەڵکار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dirtys1300"),
           // speakdirtys13
           // dirtys13("en-US"),

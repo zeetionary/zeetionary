@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duchy (Derived forms: duchies)
+- Noun: duchy (derived forms: duchies)
 1. The domain controlled by a duke or duchess (= dukedom)
 """,
   );

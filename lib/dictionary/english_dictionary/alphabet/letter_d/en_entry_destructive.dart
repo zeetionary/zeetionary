@@ -393,138 +393,48 @@ class KurdishMeaning extends StatelessWidget {
           // destructives700"),
           // speakdestructives7
           // destructives7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives800"),
           // speakdestructives8
           // destructives8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives900"),
           // speakdestructives9
           // destructives9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1000"),
           // speakdestructives10
           // destructives10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1100"),
           // speakdestructives11
           // destructives11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1200"),
           // speakdestructives12
           // destructives12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1300"),
           // speakdestructives13
           // destructives13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1400"),
           // speakdestructives14
           // destructives14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1500"),
           // speakdestructives15
           // destructives15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1600"),
           // speakdestructives16
           // destructives16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1700"),
           // speakdestructives17
           // destructives17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1800"),
           // speakdestructives18
           // destructives18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives1900"),
           // speakdestructives19
           // destructives19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "It was a very short-sighted and ultimately destructive plan.0"),
+          // "It was a very short-sighted and ultimately destructive plan.0"),
           // speakdestructives20
           // destructives20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives2100"),
           // speakdestructives21
           // destructives21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destructives2200"),
           // speakdestructives22
           // destructives22("en-US"),

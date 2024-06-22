@@ -988,56 +988,26 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dulls1800
           // speakdulls18
           // dulls18("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dulls1900
           // speakdulls19
           // dulls19("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dulls_2000
           // speakdulls20
           // dulls20("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dulls2100
           // speakdulls21
           // dulls21("en-US"""),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dulls2200
           // speakdulls22
           // dulls22("en-US"""),
@@ -1086,7 +1056,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dull (Derived forms: dullest, duller)
+- Adjective: dull (derived forms: dullest, duller)
 1. Lacking in liveliness or animation (= hebetudinous [rare])
 "he was so dull at parties"; "a dull political campaign"; "a large dull impassive man"; "dull days with nothing to do"; "how dull and dreary the world is"; "fell back into one of her dull moods";
  
@@ -1123,7 +1093,7 @@ ${englishMeaningConst.text}
 12. Darkened with overcast (= leaden)
 "a dull sky";
 
-- Verb: dull (Derived forms: dulling, dulls, dulled)
+- Verb: dull (derived forms: dulling, dulls, dulled)
 1. Make dull in appearance
 "Age had dulled the surface"
  

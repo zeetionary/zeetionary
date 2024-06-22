@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاگادارکەرەوە، هۆشیارکەرەوە، هۆشداری‌دەر، وریاکەرەوە
+کوردی: ئاگادارکەرەوە، ھۆشیارکەرەوە، ھۆشداری‌دەر، وریاکەرەوە
 """),
           const DefinitionKurdish(
               text:
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The sensors provide early warning of the approach of enemy troops."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەستەوەرەکان ئاماژەی سەرەتایی نزیکبوونەوەی هێزەکانی دوژمنیان دابەدەستەوە."""),
+                            """ھەستەوەرەکان ئاماژەی سەرەتایی نزیکبوونەوەی ھێزەکانی دوژمنیان دابەدەستەوە."""),
                   ],
                 ),
               ),

@@ -521,12 +521,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dyke (Derived forms: dykes)
+- Noun: dyke (derived forms: dykes)
 1. [offensive] A lesbian who is noticeably masculine
  
 2. A barrier constructed to contain the flow of water or to keep out the sea (= dam, dike)
 
-- Verb: dyke (Derived forms: dyking, dykes, dyked)
+- Verb: dyke (derived forms: dyking, dykes, dyked)
 1. Enclose with a dike (= dike)
 "dyke the land to protect it from water";
 """,

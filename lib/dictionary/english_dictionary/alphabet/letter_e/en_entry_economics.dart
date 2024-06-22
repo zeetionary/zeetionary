@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The economics of the project are very encouraging."""),
                     ExampleSentenceKurdish(
-                        text: """ئابووریی پڕۆژەکە زۆر هیواپێدەرە."""),
+                        text: """ئابووریی پڕۆژەکە زۆر ھیواپێدەرە."""),
                   ],
                 ),
               ),

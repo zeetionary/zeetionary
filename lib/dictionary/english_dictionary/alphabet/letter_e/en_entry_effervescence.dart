@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵقوڵان، هەڵچوون، قڵپە(کردن)، تۆقلەهەڵدان، کەف‌کردن، کوڵ‌ڕێژی، گازداربوون، فیشقەکردن، کوڵەکوڵ،	تین‌وگوڕ، کەف‌وکوڵ، گڕوپف، جۆش‌وخرۆش
+کوردی: ھەڵقوڵان، ھەڵچوون، قڵپە(کردن)، تۆقلەھەڵدان، کەف‌کردن، کوڵ‌ڕێژی، گازداربوون، فیشقەکردن، کوڵەکوڵ،	تین‌وگوڕ، کەف‌وکوڵ، گڕوپف، جۆش‌وخرۆش
 """),
           const DefinitionKurdish(text: """١. (ناو) بەجۆش و پڕ لە وزە"""),
           Row(
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The wine has a light effervescence."""),
                     ExampleSentenceKurdish(
-                        text: """شەرابەکە کەف‌کردنێکی ڕۆشنی هەیە."""),
+                        text: """شەرابەکە کەف‌کردنێکی ڕۆشنی ھەیە."""),
                   ],
                 ),
               ),
@@ -514,7 +514,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: effervescence (Derived forms: effervescences)
+- Noun: effervescence (derived forms: effervescences)
 1. The process of bubbling as gas escapes
  
 2. The property of giving off bubbles (= bubbliness, frothiness)

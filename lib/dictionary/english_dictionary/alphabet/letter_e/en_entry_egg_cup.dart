@@ -358,11 +358,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جێ‌هێلکە، کاسە یان قاپی هێلکە
+کوردی: جێ‌ھێلکە، کاسە یان قاپی ھێلکە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کوپێکی بچووک بۆ هەڵگرتنی هێلکەیەکی کوڵاو کە دەیخۆیت"""),
+                  """١. (ناو) کوپێکی بچووک بۆ ھەڵگرتنی ھێلکەیەکی کوڵاو کە دەیخۆیت"""),
           Row(
             children: [
               const Expanded(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She placed the boiled egg in the egg cup."""),
                     ExampleSentenceKurdish(
-                        text: """هێلکە کوڵاوەکەی خستە سەر جێ‌هێلکەکە."""),
+                        text: """ھێلکە کوڵاوەکەی خستە سەر جێ‌ھێلکەکە."""),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: egg cup (Derived forms: egg cups, eggcups)
+- Noun: egg cup (derived forms: egg cups, eggcups)
 1. Dishware consisting of a small cup for serving a boiled egg (= eggcup)
 """,
   );

@@ -342,176 +342,60 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defenders400"),
           // speakdefenders4
-          // defenders4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders4
           // defenders500"),
           // speakdefenders5
-          // defenders5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders5
           // defenders600"),
           // speakdefenders6
-          // defenders6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders6
           // defenders700"),
           // speakdefenders7
-          // defenders7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders7
           // defenders800"),
           // speakdefenders8
-          // defenders8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders8
           // defenders900"),
           // speakdefenders9
-          // defenders9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders9
           // defenders1000"),
           // speakdefenders10
-          // defenders10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders10
           // defenders1100"),
           // speakdefenders11
-          // defenders11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders11
           // defenders1200"),
           // speakdefenders12
-          // defenders12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders12
           // defenders1300"),
           // speakdefenders13
-          // defenders13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders13
           // defenders1400"),
           // speakdefenders14
-          // defenders14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders14
           // defenders1500"),
           // speakdefenders15
-          // defenders15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders15
           // defenders1600"),
           // speakdefenders16
-          // defenders16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders16
           // defenders1700"),
           // speakdefenders17
-          // defenders17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders17
           // defenders1800"),
           // speakdefenders18
-          // defenders18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders18
           // defenders1900"),
           // speakdefenders19
-          // defenders19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "She is a defender of women’s rights.0"),
+          // defenders19
+          // "She is a defender of women’s rights.0"),
           // speakdefenders20
-          // defenders20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders20
           // defenders2100"),
           // speakdefenders21
-          // defenders21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defenders21
           // defenders2200"),
           // speakdefenders22
           // defenders22("en-US"),

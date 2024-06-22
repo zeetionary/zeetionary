@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dressing table (Derived forms: dressing tables)
+- Noun: dressing table (derived forms: dressing tables)
 1. Low table with mirror or mirrors where one sits while dressing or applying makeup (= dresser, vanity, toilet table)
 """,
   );

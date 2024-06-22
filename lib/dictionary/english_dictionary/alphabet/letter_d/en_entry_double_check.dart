@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: double-check (Derived forms: double-checks, double-checking, double-checked)
+- Verb: double-check (derived forms: double-checks, double-checking, double-checked)
 1. Check once more to be absolutely sure
 "The problem is that these members may not double-check facts"
 """,

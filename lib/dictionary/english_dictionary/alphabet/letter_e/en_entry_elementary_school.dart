@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elementary school (Derived forms: elementary schools)
+- Noun: elementary school (derived forms: elementary schools)
 1. A school for young children; usually the first 6 or 8 grades (= grade school [N. Amer], grammar school, primary school)
 """,
   );

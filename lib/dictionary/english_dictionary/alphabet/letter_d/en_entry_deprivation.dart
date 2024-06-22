@@ -348,165 +348,57 @@ class KurdishMeaning extends StatelessWidget {
           // deprivations400"),
           // speakdeprivations4
           // deprivations4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations500"),
           // speakdeprivations5
           // deprivations5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations600"),
           // speakdeprivations6
           // deprivations6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations700"),
           // speakdeprivations7
           // deprivations7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations800"),
           // speakdeprivations8
           // deprivations8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations900"),
           // speakdeprivations9
           // deprivations9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1000"),
           // speakdeprivations10
           // deprivations10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1100"),
           // speakdeprivations11
           // deprivations11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1200"),
           // speakdeprivations12
           // deprivations12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1300"),
           // speakdeprivations13
           // deprivations13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1400"),
           // speakdeprivations14
           // deprivations14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1500"),
           // speakdeprivations15
           // deprivations15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1600"),
           // speakdeprivations16
           // deprivations16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1700"),
           // speakdeprivations17
           // deprivations17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1800"),
           // speakdeprivations18
           // deprivations18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations1900"),
           // speakdeprivations19
           // deprivations19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "They used sleep deprivation as a form of torture.0"),
+          // "They used sleep deprivation as a form of torture.0"),
           // speakdeprivations20
           // deprivations20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations2100"),
           // speakdeprivations21
           // deprivations21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deprivations2200"),
           // speakdeprivations22
           // deprivations22("en-US"),

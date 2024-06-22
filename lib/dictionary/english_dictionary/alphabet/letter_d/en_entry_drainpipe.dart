@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drainpipe (Derived forms: drainpipes)
+- Noun: drainpipe (derived forms: drainpipes)
 1. A pipe through which liquid is carried away (= drain, waste pipe)
 "we had to call a plumber to clear out the blockage in the drainpipe";
 """,

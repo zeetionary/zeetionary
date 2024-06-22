@@ -313,165 +313,57 @@ class KurdishMeaning extends StatelessWidget {
           // desecrations400"),
           // speakdesecrations4
           // desecrations4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations500"),
           // speakdesecrations5
           // desecrations5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations600"),
           // speakdesecrations6
           // desecrations6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations700"),
           // speakdesecrations7
           // desecrations7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations800"),
           // speakdesecrations8
           // desecrations8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations900"),
           // speakdesecrations9
           // desecrations9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1000"),
           // speakdesecrations10
           // desecrations10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1100"),
           // speakdesecrations11
           // desecrations11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1200"),
           // speakdesecrations12
           // desecrations12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1300"),
           // speakdesecrations13
           // desecrations13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1400"),
           // speakdesecrations14
           // desecrations14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1500"),
           // speakdesecrations15
           // desecrations15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1600"),
           // speakdesecrations16
           // desecrations16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1700"),
           // speakdesecrations17
           // desecrations17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1800"),
           // speakdesecrations18
           // desecrations18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations1900"),
           // speakdesecrations19
           // desecrations19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "People were horrified at the desecration of the cemetery.0"),
+          // "People were horrified at the desecration of the cemetery.0"),
           // speakdesecrations20
           // desecrations20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations2100"),
           // speakdesecrations21
           // desecrations21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desecrations2200"),
           // speakdesecrations22
           // desecrations22("en-US"),

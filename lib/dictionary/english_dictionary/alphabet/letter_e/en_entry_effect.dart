@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کاریگەری، کارتێ‌کردن، کار، شوێن‌دانان، باندۆر،	ئەنجام، پێئاژۆ، ئاکام،	هۆکرد،	واتا، چەمک، نێوەرۆک، کاکڵ، کرۆک،	ئیفێکت، شت‌ومەک، کەل‌وپەل، بارگەوبنە، ئەسپاپ
+کوردی: کاریگەری، کارتێ‌کردن، کار، شوێن‌دانان، باندۆر،	ئەنجام، پێئاژۆ، ئاکام،	ھۆکرد،	واتا، چەمک، نێوەرۆک، کاکڵ، کرۆک،	ئیفێکت، شت‌ومەک، کەل‌وپەل، بارگەوبنە، ئەسپاپ
 """),
           const DefinitionKurdish(text: """١. (ناو) کاریگەری"""),
           Row(
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Her tears had no effect on him."""),
                     ExampleSentenceKurdish(
-                        text: """فرمێسکەکانی هیچ کاریگەرییان لەسەری نەبوو."""),
+                        text: """فرمێسکەکانی ھیچ کاریگەرییان لەسەری نەبوو."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Modern farming methods can have an adverse effect on the environment."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕێگا سەردەمییەکانی جووتیاری کاریگەریی خراپیان لەسەر ژینگە هەیە."""),
+                            """ڕێگا سەردەمییەکانی جووتیاری کاریگەریی خراپیان لەسەر ژینگە ھەیە."""),
                   ],
                 ),
               ),
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Her criticisms had the effect of discouraging him completely."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕەخنەکانی کاریگەریی دابەزاندنی ورەی بە تەواوی هەبوو."""),
+                            """ڕەخنەکانی کاریگەریی دابەزاندنی ورەی بە تەواوی ھەبوو."""),
                   ],
                 ),
               ),
@@ -605,7 +605,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I tried to persuade him, but with no effect."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەوڵم دا ڕازی بکەم بەڵام بەبێ هیچ کاریگەرییەک."""),
+                            """ھەوڵم دا ڕازی بکەم بەڵام بەبێ ھیچ کاریگەرییەک."""),
                   ],
                 ),
               ),
@@ -625,7 +625,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) وێنایەک یان دەنگێک کە کەسێک هەوڵ دەدات درووستی بکات"""),
+                  """٢. (ناو) وێنایەک یان دەنگێک کە کەسێک ھەوڵ دەدات درووستی بکات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -665,7 +665,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He only behaves like that for effect (= in order to impress people)."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تەنها بۆ کارتێ‌کردن بەو شێوەیە ڕەفتار دەکات."""),
+                            """تەنھا بۆ کارتێ‌کردن بەو شێوەیە ڕەفتار دەکات."""),
                   ],
                 ),
               ),
@@ -695,7 +695,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I found that by adding white I could achieve the desired effect."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زانیم کە بە زیادکردنی سپی دەمتوانی کاریگەریی خوازراو بەدەست بهێنم."""),
+                            """زانیم کە بە زیادکردنی سپی دەمتوانی کاریگەریی خوازراو بەدەست بھێنم."""),
                   ],
                 ),
               ),
@@ -726,7 +726,7 @@ class KurdishMeaning extends StatelessWidget {
                             """These drugs can sometimes effect miraculous cures."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەرمانەکە هەندێک جار دەکرێت ببێتە هۆکاری چارەسەری مۆجیزاوی."""),
+                            """دەرمانەکە ھەندێک جار دەکرێت ببێتە ھۆکاری چارەسەری مۆجیزاوی."""),
                   ],
                 ),
               ),
@@ -756,7 +756,7 @@ class KurdishMeaning extends StatelessWidget {
                             """As a political party they are trying to effect a change in the way that we think about our environment."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەک پارتێکی سیاسی هەوڵ دەدەن گۆڕانێک درووست بکەن لەوەی کە بیر لە ژینگەکەمان دەکەینەوە."""),
+                            """وەک پارتێکی سیاسی ھەوڵ دەدەن گۆڕانێک درووست بکەن لەوەی کە بیر لە ژینگەکەمان دەکەینەوە."""),
                   ],
                 ),
               ),
@@ -845,7 +845,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: effect (Derived forms: effects)
+- Noun: effect (derived forms: effects)
 1. A phenomenon that follows and is caused by some previous phenomenon (= consequence, outcome, result, event, issue, upshot)
 "the magnetic effect was greater when the rod was lengthwise";
  
@@ -863,7 +863,7 @@ ${englishMeaningConst.text}
 6. A symptom caused by an illness or a drug
 "the effects of sleep loss"; "the effect of the anaesthetic"
 
-- Verb: effect (Derived forms: effects, effecting, effected)
+- Verb: effect (derived forms: effects, effecting, effected)
 1. Produce (= effectuate, set up)
 "The scientists effect a shock wave";
  

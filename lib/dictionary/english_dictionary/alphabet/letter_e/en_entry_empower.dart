@@ -368,11 +368,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: هێز پێدان، ئیختیار پێدان
+// کوردی: ھێز پێدان، ئیختیار پێدان
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) پێدانی هێز یان دەسەڵات بە کەسێک بۆ کردنی شتێک"""),
+                  """١. (کردار) پێدانی ھێز یان دەسەڵات بە کەسێک بۆ کردنی شتێک"""),
           Row(
             children: [
               const Expanded(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The movement actively empowered women and gave them confidence in themselves."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بزووتنەوەکە نەسرەوتووانە هێز و متمانەی لە خۆیاندا بە ژنان دەدا."""),
+                            """بزووتنەوەکە نەسرەوتووانە ھێز و متمانەی لە خۆیاندا بە ژنان دەدا."""),
                   ],
                 ),
               ),
@@ -522,7 +522,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: empower (Derived forms: empowered, empowering, empowers)
+- Verb: empower (derived forms: empowered, empowering, empowers)
 1. Give or delegate power or authority to (= authorise [Brit], authorize)
 "She empowered her assistant to sign the papers";
  

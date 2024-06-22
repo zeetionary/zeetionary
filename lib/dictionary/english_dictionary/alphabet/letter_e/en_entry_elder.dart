@@ -440,7 +440,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Her parents and elder sister stayed behind in Poland when she came to America."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دایک و باوکی و خوشکە گەورەکەی لە پۆڵەندا مانەوە کە ئەو هات بۆ ئەمریکا."""),
+                            """دایک و باوکی و خوشکە گەورەکەی لە پۆڵەندا مانەوە کە ئەو ھات بۆ ئەمریکا."""),
                   ],
                 ),
               ),
@@ -468,7 +468,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He always looked up to his elder brothers."""),
                     ExampleSentenceKurdish(
-                        text: """هەمیشە چاوی لە برا گەورەکانی دەکرد.""",
+                        text: """ھەمیشە چاوی لە برا گەورەکانی دەکرد.""",
                         note: "واتە لە کارەکانیدا وەک ئەوانی دەکرد"),
                   ],
                 ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He always had an uneasy relationship with his elder daughter."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەمیشە پەیوەندییەکی ناجێگیری هەبوو لەگەڵ کچە گەورەکەیدا."""),
+                            """ھەمیشە پەیوەندییەکی ناجێگیری ھەبوو لەگەڵ کچە گەورەکەیدا."""),
                   ],
                 ),
               ),
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Of the two brothers Harvey is the elder."""),
                     ExampleSentenceKurdish(
-                        text: """لە نێوان دوو براکەدا هارڤی بەتەمەنەکەیە."""),
+                        text: """لە نێوان دوو براکەدا ھارڤی بەتەمەنەکەیە."""),
                   ],
                 ),
               ),
@@ -577,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵناو) لە پێش ناو بەکاردێت بۆ ناساندنی ئەو کەسەی کە گەورەترە و هەمان ناوی لەگەڵ کەسێکی دیکە هەیە"""),
+                  """٣. (ھاوەڵناو) لە پێش ناو بەکاردێت بۆ ناساندنی ئەو کەسەی کە گەورەترە و ھەمان ناوی لەگەڵ کەسێکی دیکە ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -589,7 +589,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The elder Pitt's policies strengthened the British Empire."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پیتە گەورەکە ئیمپراتۆریەتیی بەریتانی بەهێزکرد."""),
+                            """پیتە گەورەکە ئیمپراتۆریەتیی بەریتانی بەھێزکرد."""),
                   ],
                 ),
               ),
@@ -609,7 +609,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ناو) ئەو کەسانەی دەسەڵات، ئەزموون، و تەمەنی زیاتریان هەیە"""),
+                  """٤. (ناو) ئەو کەسانەی دەسەڵات، ئەزموون، و تەمەنی زیاتریان ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -621,7 +621,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Children have no respect for their elders nowadays."""),
                     ExampleSentenceKurdish(
                         text:
-                            """منداڵان ئێستا هیچ ڕێزیان نییە بۆ گەورەکانیان."""),
+                            """منداڵان ئێستا ھیچ ڕێزیان نییە بۆ گەورەکانیان."""),
                   ],
                 ),
               ),
@@ -772,7 +772,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elder (Derived forms: elders)
+- Noun: elder (derived forms: elders)
 1. A person who is older than you are (= senior, oldie [informal])
  
 2. Any of numerous shrubs or small trees of temperate and subtropical Northern Hemisphere having white flowers and berrylike fruit (= elderberry bush)

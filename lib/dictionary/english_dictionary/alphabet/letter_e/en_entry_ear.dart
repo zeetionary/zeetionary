@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گوێ، گۆ، گۆهـ، گوێچکە،	بیستن، هەستی بیستن، توانایی لێک‌کردنەوەی دەنگەکان (بەتایبەت موزیک)،	گوێ‌دان، سەرنج، وردبوونەوە، گوێ‌پێدان،	قوڵف، دەسک، هەنگڵ
+کوردی: گوێ، گۆ، گۆھـ، گوێچکە،	بیستن، ھەستی بیستن، توانایی لێک‌کردنەوەی دەنگەکان (بەتایبەت موزیک)،	گوێ‌دان، سەرنج، وردبوونەوە، گوێ‌پێدان،	قوڵف، دەسک، ھەنگڵ
 """),
           const DefinitionKurdish(text: """١. (ناو) گوێ"""),
           Row(
@@ -553,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) هەبوونی ئەو جۆرە گوێیەی کە باسکراوە"""),
+              text: """٢. (ناو) ھەبوونی ئەو جۆرە گوێیەی کە باسکراوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """She has always had an ear for languages."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەمیشە توانای گوێپێدانی باشی بۆ زمان هەبووە."""),
+                            """ھەمیشە توانای گوێپێدانی باشی بۆ زمان ھەبووە."""),
                   ],
                 ),
               ),
@@ -717,7 +717,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ear (Derived forms: ears)
+- Noun: ear (derived forms: ears)
 1. The sense organ for hearing and equilibrium (= lug [Brit, informal], earhole [informal], lughole [Brit, informal])
  
 2. Good hearing

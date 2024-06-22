@@ -323,138 +323,48 @@ class KurdishMeaning extends StatelessWidget {
           // detectives700"),
           // speakdetectives7
           // detectives7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives800"),
           // speakdetectives8
           // detectives8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives900"),
           // speakdetectives9
           // detectives9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1000"),
           // speakdetectives10
           // detectives10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1100"),
           // speakdetectives11
           // detectives11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1200"),
           // speakdetectives12
           // detectives12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1300"),
           // speakdetectives13
           // detectives13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1400"),
           // speakdetectives14
           // detectives14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1500"),
           // speakdetectives15
           // detectives15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1600"),
           // speakdetectives16
           // detectives16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1700"),
           // speakdetectives17
           // detectives17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1800"),
           // speakdetectives18
           // detectives18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives1900"),
           // speakdetectives19
           // detectives19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Sherlock Holmes was Conan Doyle's fictional detective.0"),
+          // "Sherlock Holmes was Conan Doyle's fictional detective.0"),
           // speakdetectives20
           // detectives20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives2100"),
           // speakdetectives21
           // detectives21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detectives2200"),
           // speakdetectives22
           // detectives22("en-US"),

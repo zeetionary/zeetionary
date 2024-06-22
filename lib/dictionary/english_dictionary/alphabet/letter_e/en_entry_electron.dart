@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) تەنێکی زۆر بچووک کە باری کارەبایی نەرێنی هەیە و لە هەموو ئەتۆمێکدا هەیە"""),
+                  """١. (ناو) تەنێکی زۆر بچووک کە باری کارەبایی نەرێنی ھەیە و لە ھەموو ئەتۆمێکدا ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Electrons flow through a wire to create electricity."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەلیکترۆن بە وایەردا دەچێت بۆ بەرهەمهێنانی کارەبا."""),
+                            """ئەلیکترۆن بە وایەردا دەچێت بۆ بەرھەمھێنانی کارەبا."""),
                   ],
                 ),
               ),
@@ -518,7 +518,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electron (Derived forms: electrons)
+- Noun: electron (derived forms: electrons)
 1. An elementary particle that orbits the nucleus in atoms and is responsible for the flow of electricity; negative charge of 1.60217649x10^-19 coulombs and mass 9.109382x10^-31 kg (= negatron)
 """,
   );

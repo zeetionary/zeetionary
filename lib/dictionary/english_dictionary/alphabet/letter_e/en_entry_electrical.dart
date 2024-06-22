@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I think it's got an electrical fault."""),
                     ExampleSentenceKurdish(
-                        text: """پێموایە کێشەیەکی کارەبایی هەیە."""),
+                        text: """پێموایە کێشەیەکی کارەبایی ھەیە."""),
                   ],
                 ),
               ),
@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There is a 25% discount on all electrical goods until the end of the week."""),
                     ExampleSentenceKurdish(
-                        text: """داشکاندنی ٢٥٪ هەیە تاوەکو کۆتایی هەفتەکە."""),
+                        text: """داشکاندنی ٢٥٪ ھەیە تاوەکو کۆتایی ھەفتەکە."""),
                   ],
                 ),
               ),

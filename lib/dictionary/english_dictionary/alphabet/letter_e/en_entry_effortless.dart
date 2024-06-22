@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌ئەرک، بێ‌زەحمەت، بێ‌گێرەوکێشە، خۆش، ئاسان، سانا، سادە، بێ‌ڕەنج، ئاسوودە
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە پێویستی بە هەوڵێکی کەمە"""),
+              text: """١. (ھاوەڵناو) کە پێویستی بە ھەوڵێکی کەمە"""),
           Row(
             children: [
               const Expanded(

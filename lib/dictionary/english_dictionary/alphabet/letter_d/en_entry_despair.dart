@@ -419,138 +419,48 @@ class KurdishMeaning extends StatelessWidget {
           // despairs700"),
           // speakdespairs7
           // despairs7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs800"),
           // speakdespairs8
           // despairs8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs900"),
           // speakdespairs9
           // despairs9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1000"),
           // speakdespairs10
           // despairs10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1100"),
           // speakdespairs11
           // despairs11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1200"),
           // speakdespairs12
           // despairs12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1300"),
           // speakdespairs13
           // despairs13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1400"),
           // speakdespairs14
           // despairs14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1500"),
           // speakdespairs15
           // despairs15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1600"),
           // speakdespairs16
           // despairs16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1700"),
           // speakdespairs17
           // despairs17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1800"),
           // speakdespairs18
           // despairs18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs1900"),
           // speakdespairs19
           // despairs19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "He gave up the struggle in despair.0"),
+          // "He gave up the struggle in despair.0"),
           // speakdespairs20
           // despairs20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs2100"),
           // speakdespairs21
           // despairs21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despairs2200"),
           // speakdespairs22
           // despairs22("en-US"),

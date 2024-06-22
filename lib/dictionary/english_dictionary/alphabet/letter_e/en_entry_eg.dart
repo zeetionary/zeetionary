@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
             text: """١. (کورتکراوە) کورتکراوەیە بە واتای for example""",
-            note: "لە لاتینی 'exempli gratia' ــەوە هاتووە",
+            note: "لە لاتینی 'exempli gratia' ــەوە ھاتووە",
           ),
           Row(
             children: [

@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dockland (Derived forms: docklands)
+- Noun: dockland (derived forms: docklands)
 Usage: Brit
 1. An area of a city with waterways that has, or used to have, docks
 """,

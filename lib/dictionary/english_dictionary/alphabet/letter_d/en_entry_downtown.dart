@@ -609,7 +609,7 @@ Usage: N. Amer
 1. Of or located in the lower part of a town, or in the business center
 "downtown Manhattan"; "delinquents roaming the downtown streets"
 
-- Noun: downtown (Derived forms: downtowns)
+- Noun: downtown (derived forms: downtowns)
 Usage: N. Amer
 1. The central area or commercial center of a town or city (= business district)
 "the heart of Birmingham's downtown";
@@ -618,7 +618,7 @@ Usage: N. Amer
 Usage: N. Amer
 1. Toward or in the lower or central part of town
 
-- Noun: down town (Derived forms: downtowns)
+- Noun: down town (derived forms: downtowns)
 Usage: N. Amer
 1. The center of a city (= civic center [US], municipal center [US], civic centre [Brit, Cdn], municipal centre [Brit, Cdn])
 """,

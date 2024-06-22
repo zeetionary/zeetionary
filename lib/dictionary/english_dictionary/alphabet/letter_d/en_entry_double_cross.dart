@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: double-cross (Derived forms: double-crosses, double-crossing, double-crossed)
+- Verb: double-cross (derived forms: double-crosses, double-crossing, double-crossed)
 1. Betray by double-dealing
 """,
   );

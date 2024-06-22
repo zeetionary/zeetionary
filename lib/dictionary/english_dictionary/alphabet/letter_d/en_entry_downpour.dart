@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: downpour (Derived forms: downpours)
+- Noun: downpour (derived forms: downpours)
 1. A heavy rain (= cloudburst, deluge, waterspout, torrent, pelter, soaker, gullywasher [US, informal])
 "The clouds broke after the heavy downpour"; 
 """,

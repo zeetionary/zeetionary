@@ -602,7 +602,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: doom (Derived forms: doomed, dooming, dooms)
+- Verb: doom (derived forms: doomed, dooming, dooms)
 1. Decree or designate beforehand (= destine, fate, designate)
  
 2. (law) pronounce a sentence on (somebody) in a court of law (= sentence, condemn)
@@ -611,7 +611,7 @@ ${englishMeaningConst.text}
 3. Make certain of the failure or destruction of
 "This decision will doom me to lose my position"
 
-- Noun: doom (Derived forms: dooms)
+- Noun: doom (derived forms: dooms)
 1. An unpleasant or disastrous destiny (= doomsday, day of reckoning, end of the world)
 "everyone was aware of the approaching doom but was helpless to avoid it";
 """,

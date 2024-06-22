@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dormitory (Derived forms: dormitories)
+- Noun: dormitory (derived forms: dormitories)
 1. A college or university building containing living quarters for students (= dorm, residence hall, hall, student residence)
  
 2. A large sleeping room containing several beds (= dormitory room, dorm room)

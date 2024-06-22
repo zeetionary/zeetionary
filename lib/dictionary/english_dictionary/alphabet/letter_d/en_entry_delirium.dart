@@ -312,165 +312,57 @@ class KurdishMeaning extends StatelessWidget {
           // deliriums400"),
           // speakdeliriums4
           // deliriums4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums500"),
           // speakdeliriums5
           // deliriums5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums600"),
           // speakdeliriums6
           // deliriums6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums700"),
           // speakdeliriums7
           // deliriums7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums800"),
           // speakdeliriums8
           // deliriums8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums900"),
           // speakdeliriums9
           // deliriums9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1000"),
           // speakdeliriums10
           // deliriums10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1100"),
           // speakdeliriums11
           // deliriums11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1200"),
           // speakdeliriums12
           // deliriums12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1300"),
           // speakdeliriums13
           // deliriums13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1400"),
           // speakdeliriums14
           // deliriums14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1500"),
           // speakdeliriums15
           // deliriums15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1600"),
           // speakdeliriums16
           // deliriums16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1700"),
           // speakdeliriums17
           // deliriums17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1800"),
           // speakdeliriums18
           // deliriums18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums1900"),
           // speakdeliriums19
           // deliriums19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "I've never seen such delirium at a football game before.0"),
+          // "I've never seen such delirium at a football game before.0"),
           // speakdeliriums20
           // deliriums20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums2100"),
           // speakdeliriums21
           // deliriums21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriums2200"),
           // speakdeliriums22
           // deliriums22("en-US"),

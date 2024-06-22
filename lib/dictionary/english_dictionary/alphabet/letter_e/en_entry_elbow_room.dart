@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: شوێن یان جێگای تیاهەڵسووڕان
+// کوردی: شوێن یان جێگای تیاھەڵسووڕان
 // """),
           const DefinitionKurdish(
               text: """١. (ناو) شوێنی پێویست کە تێیدا بجوڵێیت و ڕێ بکەیت"""),
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The tiny toilet compartment gives you hardly any elbow room."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ژوورۆچکەی تەوالێتە خنجیلانەکە بە ئەستەم هیچ دەرفەتی تیاهەڵسوورانی پێ‌دەدایت."""),
+                            """ژوورۆچکەی تەوالێتە خنجیلانەکە بە ئەستەم ھیچ دەرفەتی تیاھەڵسوورانی پێ‌دەدایت."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elbow room (Derived forms: elbow rooms)
+- Noun: elbow room (derived forms: elbow rooms)
 1. Space for movement (= room, way)
 "hardly enough elbow room to turn around";
 """,

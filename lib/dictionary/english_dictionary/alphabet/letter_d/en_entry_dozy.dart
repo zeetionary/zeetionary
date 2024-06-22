@@ -562,7 +562,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dozy (Derived forms: dozier, doziest)
+- Adjective: dozy (derived forms: dozier, doziest)
 1. Half asleep (= drowsy, drowsing, dopey, dopy)
 "it seemed a pity to disturb the dozy professor"; "a tired dozy child";
  

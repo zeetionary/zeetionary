@@ -374,11 +374,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکتر، هەڤدوو، یەمنۆ، یەوبنا، یەوبینان
+کوردی: یەکتر، ھەڤدوو، یەمنۆ، یەوبنا، یەوبینان
 """),
           const DefinitionKurdish(
               text:
-                  """١. (جێناو) وەک بەرکاری کردارێک بەکاردێت بۆ گوتنی ئەوەی کە هەر ئەندامێکی گرووپێک شتێک بە ئەوانی دیکە یان بۆیان دەکات"""),
+                  """١. (جێناو) وەک بەرکاری کردارێک بەکاردێت بۆ گوتنی ئەوەی کە ھەر ئەندامێکی گرووپێک شتێک بە ئەوانی دیکە یان بۆیان دەکات"""),
           Row(
             children: [
               const Expanded(

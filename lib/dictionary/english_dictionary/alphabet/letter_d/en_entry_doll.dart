@@ -594,7 +594,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doll (Derived forms: dolls)
+- Noun: doll (derived forms: dolls)
 1. A small replica of a person; used as a toy (= dolly)
  
 2. [informal] A (young) woman regarded as being sexually attractive (= wench [archaic, informal], skirt [informal], chick [informal], bird [informal], dolly bird [informal], bit of skirt [informal], bit of fluff [informal])

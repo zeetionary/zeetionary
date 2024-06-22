@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He has always emphatically denied the allegations."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەمیشە بە بێ‌ئەملاوئەولا نکۆڵی لە تۆمەتەکان کردووە."""),
+                            """ھەمیشە بە بێ‌ئەملاوئەولا نکۆڵی لە تۆمەتەکان کردووە."""),
                   ],
                 ),
               ),

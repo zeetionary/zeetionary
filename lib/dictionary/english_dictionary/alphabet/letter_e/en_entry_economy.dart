@@ -442,11 +442,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئابووری،	دەست‌پێوەگرتن، ماڵداری،	ڕێکخستە یان سیستمی ئابووری،	(وەک ئاوەڵناو) خێردەرەوە، پڕداهات، بەقازانج، بەخێر
+کوردی: ئابووری،	دەست‌پێوەگرتن، ماڵداری،	ڕێکخستە یان سیستمی ئابووری،	(وەک ئاوەڵناو) خێردەرەوە، پڕداھات، بەقازانج، بەخێر
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) پەیوەندی نێوان بەرهەمهێنان، بازرگانی، و پارەی بەردەست لە وڵات یان هەرێمێک"""),
+                  """١. (ناو) پەیوەندی نێوان بەرھەمھێنان، بازرگانی، و پارەی بەردەست لە وڵات یان ھەرێمێک"""),
           Row(
             children: [
               const Expanded(
@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The world economy is still suffering from the effects of the pandemic."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئابووری جیهان هێشتا دەناڵێنێت بەدەست پەتا جیانییەکەوە."""),
+                            """ئابووری جیھان ھێشتا دەناڵێنێت بەدەست پەتا جیانییەکەوە."""),
                   ],
                 ),
               ),
@@ -626,7 +626,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) بەکارهێنانی سەرچاوەکان بەشێوەیەک کە لە بەفیڕۆدان دوور دەبێت"""),
+                  """٣. (ناو) بەکارھێنانی سەرچاوەکان بەشێوەیەک کە لە بەفیڕۆدان دوور دەبێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -638,7 +638,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It's a false economy to buy cheap clothes (= it seems cheaper but it is not really since they do not last very long)."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ماڵدارییەکی هەڵەیە کە جلوبەرگی هەرزان بکڕیت."""),
+                            """ماڵدارییەکی ھەڵەیە کە جلوبەرگی ھەرزان بکڕیت."""),
                   ],
                 ),
               ),
@@ -668,7 +668,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The company has improved the fuel economy of all its vehicles."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کۆمپانیاکە دەست‌پێوەگرتنی سووتەمەنی لە هەموو ئۆتۆمبێلەکانیدا بەهێز کردووە."""),
+                            """کۆمپانیاکە دەست‌پێوەگرتنی سووتەمەنی لە ھەموو ئۆتۆمبێلەکانیدا بەھێز کردووە."""),
                   ],
                 ),
               ),
@@ -745,7 +745,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٦. (ناو) بەکارهێنانی کەمترین لە شتێک"""),
+              text: """٦. (ناو) بەکارھێنانی کەمترین لە شتێک"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -845,7 +845,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: economy (Derived forms: economies)
+- Noun: economy (derived forms: economies)
 1. The system of production and distribution and consumption (= economic system)
  
 2. The efficient use of resources

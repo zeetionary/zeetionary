@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diving board (Derived forms: diving boards)
+- Noun: diving board (derived forms: diving boards)
 1. A springboard from which swimmers can dive
 """,
   );

@@ -487,7 +487,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drop-down menu (Derived forms: drop-down menus)
+- Noun: drop-down menu (derived forms: drop-down menus)
 1. A menu of options that appears below the item when the computer user clicks on it
 """,
   );

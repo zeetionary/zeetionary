@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) لە پێگەیەکی خانەدانی بەرز لە بەریتانیا؛ ئەو خاکەی کە خانەدانێکی بەرز لە بەریتانیا هەیەتی"""),
+                  """١. (ناو) لە پێگەیەکی خانەدانی بەرز لە بەریتانیا؛ ئەو خاکەی کە خانەدانێکی بەرز لە بەریتانیا ھەیەتی"""),
           Row(
             children: [
               const Expanded(
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earldom (Derived forms: earldoms)
+- Noun: earldom (derived forms: earldoms)
 1. The dignity or rank or position of an earl or countess
  
 2. The domain controlled by an earl, count or countess

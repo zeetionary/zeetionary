@@ -412,10 +412,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کاریگەر، کارلێ‌کەر، یەکاویەک، کارا، کارتێ‌کەر، شوێن‌دانەر، بەباندۆر،	کاری، بەئەنجام، کاریگەر، ئەنجام‌دەرەوە،	بەرچاو، سەرنج‌ڕاکێش، بال‌کێش،	ڕاستەقینە، واقعی، هەیی، کردارەکی، بەکردەوە،	پڕئیفێکت،	کاری، گونجاو بۆ کار،	جێبەجێ‌کراو (قانوون) 
+کوردی: کاریگەر، کارلێ‌کەر، یەکاویەک، کارا، کارتێ‌کەر، شوێن‌دانەر، بەباندۆر،	کاری، بەئەنجام، کاریگەر، ئەنجام‌دەرەوە،	بەرچاو، سەرنج‌ڕاکێش، بال‌کێش،	ڕاستەقینە، واقعی، ھەیی، کردارەکی، بەکردەوە،	پڕئیفێکت،	کاری، گونجاو بۆ کار،	جێبەجێ‌کراو (قانوون) 
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە ئەنجامی خوازراو بەدەست دەهێنێت"""),
+              text: """١. (ھاوەڵناو) کە ئەنجامی خوازراو بەدەست دەھێنێت"""),
           Row(
             children: [
               const Expanded(
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Some people believe that violence is an effective way of protesting."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەندێک کەس باوەڕیان وایە توندوتیژی ڕێگایەکی کاریگەری ناڕەزایی دەربڕینە."""),
+                            """ھەندێک کەس باوەڕیان وایە توندوتیژی ڕێگایەکی کاریگەری ناڕەزایی دەربڕینە."""),
                   ],
                 ),
               ),
@@ -486,7 +486,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I admire the effective use of colour in her paintings."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرسامی بەکارهێنانی کاریگەری ڕەنگم لە تابلۆکانیدا."""),
+                            """سەرسامی بەکارھێنانی کاریگەری ڕەنگم لە تابلۆکانیدا."""),
                   ],
                 ),
               ),
@@ -576,7 +576,7 @@ class KurdishMeaning extends StatelessWidget {
                             """In spite of what they are told, parents have no effective choice of schools."""),
                     ExampleSentenceKurdish(
                       text:
-                          """سەرەڕای ئەوەی پێیان دەگوترێت، دایبابان هیچ هەڵبژاردەیەکی کردارەکی قوتابخانەیان نییە.""",
+                          """سەرەڕای ئەوەی پێیان دەگوترێت، دایبابان ھیچ ھەڵبژاردەیەکی کردارەکی قوتابخانەیان نییە.""",
                       note: "واتە ناتوانن بەدڵی خۆیان قوتابخانە",
                     ),
                   ],

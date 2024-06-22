@@ -581,13 +581,13 @@ ${englishMeaningConst.text}
 2. (telecommunication) allowing communication in opposite directions simultaneously
 "duplex system"; "duplex telephony"
 
-- Noun: duplex (Derived forms: duplexes)
+- Noun: duplex (derived forms: duplexes)
 Usage: N. Amer
 1. A house with two units sharing a common wall (= duplex house [N. Amer], semidetached house)
  
 2. An apartment having rooms on two floors that are connected by a staircase (= duplex apartment [N. Amer])
 
-- Verb: duplex (Derived forms: duplexing, duplexes, duplexed)
+- Verb: duplex (derived forms: duplexing, duplexes, duplexed)
 Usage: N. Amer
 1. Change into a duplex
 """,

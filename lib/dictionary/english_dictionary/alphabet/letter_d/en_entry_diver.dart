@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diver (Derived forms: divers)
+- Noun: diver (derived forms: divers)
 1. Someone who works underwater (= frogman, underwater diver)
  
 2. Someone who dives (into water) (= plunger)

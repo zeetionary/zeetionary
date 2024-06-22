@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dust bowl (Derived forms: dust bowls)
+- Noun: dust bowl (derived forms: dust bowls)
 1. A region subject to dust storms; especially the central region of United States subject to dust storms in the 1930s
 """,
   );

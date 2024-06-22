@@ -392,11 +392,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پڕداهات، خێردەرەوە، بەقازانج،	دەسپێوەگر، نادەسبڵاو،	کورت، پوخت (قسە)
+کوردی: پڕداھات، خێردەرەوە، بەقازانج،	دەسپێوەگر، نادەسبڵاو،	کورت، پوخت (قسە)
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) پێدانی بەها یان خزمەتگوزاری باش بە لەبەربەرچاوگرتنی ئەو کات و پارەیەی تەرخانکراوە"""),
+                  """١. (ھاوەڵناو) پێدانی بەھا یان خزمەتگوزاری باش بە لەبەربەرچاوگرتنی ئەو کات و پارەیەی تەرخانکراوە"""),
           Row(
             children: [
               const Expanded(
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
                             """People were urged to be economical with water as a drought was declared."""),
                     ExampleSentenceKurdish(
                         text:
-                            """خەڵکی هاندەدرێن دەسپێوەگر بن بە ئاو کە وشکەساڵی ڕاگەیەندرا."""),
+                            """خەڵکی ھاندەدرێن دەسپێوەگر بن بە ئاو کە وشکەساڵی ڕاگەیەندرا."""),
                   ],
                 ),
               ),
@@ -525,7 +525,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """He was economical in all areas of his life."""),
                     ExampleSentenceKurdish(
-                        text: """نادەسبڵاو بوو لە هەموو لایەنەکانی ژیانی."""),
+                        text: """نادەسبڵاو بوو لە ھەموو لایەنەکانی ژیانی."""),
                   ],
                 ),
               ),

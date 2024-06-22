@@ -308,165 +308,57 @@ class KurdishMeaning extends StatelessWidget {
           // deodorants400"),
           // speakdeodorants4
           // deodorants4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants500"),
           // speakdeodorants5
           // deodorants5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants600"),
           // speakdeodorants6
           // deodorants6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants700"),
           // speakdeodorants7
           // deodorants7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants800"),
           // speakdeodorants8
           // deodorants8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants900"),
           // speakdeodorants9
           // deodorants9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1000"),
           // speakdeodorants10
           // deodorants10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1100"),
           // speakdeodorants11
           // deodorants11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1200"),
           // speakdeodorants12
           // deodorants12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1300"),
           // speakdeodorants13
           // deodorants13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1400"),
           // speakdeodorants14
           // deodorants14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1500"),
           // speakdeodorants15
           // deodorants15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1600"),
           // speakdeodorants16
           // deodorants16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1700"),
           // speakdeodorants17
           // deodorants17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1800"),
           // speakdeodorants18
           // deodorants18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants1900"),
           // speakdeodorants19
           // deodorants19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Most people apply deodorant to their armpits.0"),
+          // "Most people apply deodorant to their armpits.0"),
           // speakdeodorants20
           // deodorants20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants2100"),
           // speakdeodorants21
           // deodorants21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deodorants2200"),
           // speakdeodorants22
           // deodorants22("en-US"),

@@ -269,165 +269,57 @@ class KurdishMeaning extends StatelessWidget {
           // derogatorys400"),
           // speakderogatorys4
           // derogatorys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys500"),
           // speakderogatorys5
           // derogatorys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys600"),
           // speakderogatorys6
           // derogatorys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys700"),
           // speakderogatorys7
           // derogatorys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys800"),
           // speakderogatorys8
           // derogatorys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys900"),
           // speakderogatorys9
           // derogatorys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1000"),
           // speakderogatorys10
           // derogatorys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1100"),
           // speakderogatorys11
           // derogatorys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1200"),
           // speakderogatorys12
           // derogatorys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1300"),
           // speakderogatorys13
           // derogatorys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1400"),
           // speakderogatorys14
           // derogatorys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1500"),
           // speakderogatorys15
           // derogatorys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1600"),
           // speakderogatorys16
           // derogatorys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1700"),
           // speakderogatorys17
           // derogatorys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1800"),
           // speakderogatorys18
           // derogatorys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys1900"),
           // speakderogatorys19
           // derogatorys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys2000"),
           // speakderogatorys20
           // derogatorys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys2100"),
           // speakderogatorys21
           // derogatorys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // derogatorys2200"),
           // speakderogatorys22
           // derogatorys22("en-US"),

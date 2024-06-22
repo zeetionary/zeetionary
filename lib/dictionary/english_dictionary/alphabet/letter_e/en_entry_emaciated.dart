@@ -359,11 +359,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لاواز، کز، داڵگۆشت، ڕەقەڵ، بێ‌هێز، بێ‌گیان، سست، پێچوو، بنێس
+کوردی: لاواز، کز، داڵگۆشت، ڕەقەڵ، بێ‌ھێز، بێ‌گیان، سست، پێچوو، بنێس
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) زۆر لەڕ و لاواز، زۆرجار بەهۆی نەخۆشی یان کەمخواردن"""),
+                  """١. (ھاوەڵناو) زۆر لەڕ و لاواز، زۆرجار بەھۆی نەخۆشی یان کەمخواردن"""),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He was thirty, but looked fifty, with pale skin, hopeless eyes and an emaciated body, covered in sores."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سی ساڵان بوو، بەڵام لە پەنجا دەچوو بە پێستی ڕەنگ‌پەڕیو، چاوی چاوانی بێ‌هیوا و جەستەیەکی لەڕ کە بە پڕبوو لە شینبوونەوە."""),
+                            """سی ساڵان بوو، بەڵام لە پەنجا دەچوو بە پێستی ڕەنگ‌پەڕیو، چاوی چاوانی بێ‌ھیوا و جەستەیەکی لەڕ کە بە پڕبوو لە شینبوونەوە."""),
                   ],
                 ),
               ),

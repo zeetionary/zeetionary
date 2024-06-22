@@ -368,11 +368,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (گیانەوەرناسی) هەڵۆ، ئەیلۆ، کورت، هەرۆ، داڵ
+کوردی: (گیانەوەرناسی) ھەڵۆ، ئەیلۆ، کورت، ھەرۆ، داڵ
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) گەورەترین باڵندەی ڕاوکەر کە دەنووکێکی تیژی چەماوەی هەیە لەگەڵ بینایی زۆر بەهێز"""),
+                  """١. (ناو) گەورەترین باڵندەی ڕاوکەر کە دەنووکێکی تیژی چەماوەی ھەیە لەگەڵ بینایی زۆر بەھێز"""),
           Row(
             children: [
               const Expanded(
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eagle (Derived forms: eagles)
+- Noun: eagle (derived forms: eagles)
 1. Any of various large keen-sighted diurnal birds of prey noted for their broad wings and strong soaring flight (= bird of Jove)
  
 2. (golf) a score of two strokes under par on a hole
@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 4. An emblem representing power
 "the Roman eagle"
 
-- Verb: eagle (Derived forms: eagling, eagled, eagles)
+- Verb: eagle (derived forms: eagling, eagled, eagles)
 1. (golf) shoot two strokes under par (= double birdie)
 "She eagled the hole";
 """,

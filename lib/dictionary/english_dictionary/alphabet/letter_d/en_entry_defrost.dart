@@ -346,165 +346,57 @@ class KurdishMeaning extends StatelessWidget {
           // defrosts400"),
           // speakdefrosts4
           // defrosts4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts500"),
           // speakdefrosts5
           // defrosts5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts600"),
           // speakdefrosts6
           // defrosts6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts700"),
           // speakdefrosts7
           // defrosts7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts800"),
           // speakdefrosts8
           // defrosts8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts900"),
           // speakdefrosts9
           // defrosts9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1000"),
           // speakdefrosts10
           // defrosts10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1100"),
           // speakdefrosts11
           // defrosts11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1200"),
           // speakdefrosts12
           // defrosts12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1300"),
           // speakdefrosts13
           // defrosts13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1400"),
           // speakdefrosts14
           // defrosts14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1500"),
           // speakdefrosts15
           // defrosts15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1600"),
           // speakdefrosts16
           // defrosts16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1700"),
           // speakdefrosts17
           // defrosts17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1800"),
           // speakdefrosts18
           // defrosts18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts1900"),
           // speakdefrosts19
           // defrosts19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Make sure you defrost the chicken completely before cooking.0"),
+          // "Make sure you defrost the chicken completely before cooking.0"),
           // speakdefrosts20
           // defrosts20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts2100"),
           // speakdefrosts21
           // defrosts21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defrosts2200"),
           // speakdefrosts22
           // defrosts22("en-US"),

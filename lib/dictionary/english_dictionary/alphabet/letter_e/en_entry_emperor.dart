@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It is the tomb of Emperor Qin Shi Huang, emperor of China."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەوە گۆڕی ئیمپراتۆر چین شی هوانگە، ئیپراتۆری چین."""),
+                            """ئەوە گۆڕی ئیمپراتۆر چین شی ھوانگە، ئیپراتۆری چین."""),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emperor (Derived forms: emperors)
+- Noun: emperor (derived forms: emperors)
 1. The male ruler of an empire
  
 2. Red table grape of California

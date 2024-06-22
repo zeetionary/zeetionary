@@ -548,7 +548,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elegance (Derived forms: elegances)
+- Noun: elegance (derived forms: elegances)
 1. A refined quality of gracefulness and good taste (= elegancy [archaic])
 "she conveys an aura of elegance and gentility";
  

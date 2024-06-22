@@ -536,7 +536,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duplication (Derived forms: duplications)
+- Noun: duplication (derived forms: duplications)
 1. A copy that corresponds to an original exactly (= duplicate)
 "he made a duplication for the files";
  

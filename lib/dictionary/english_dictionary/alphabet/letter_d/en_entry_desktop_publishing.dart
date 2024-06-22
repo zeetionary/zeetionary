@@ -281,138 +281,48 @@ class KurdishMeaning extends StatelessWidget {
           // desktoppublishings700"),
           // speakdesktoppublishings7
           // desktoppublishings7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings800"),
           // speakdesktoppublishings8
           // desktoppublishings8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings900"),
           // speakdesktoppublishings9
           // desktoppublishings9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1000"),
           // speakdesktoppublishings10
           // desktoppublishings10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1100"),
           // speakdesktoppublishings11
           // desktoppublishings11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1200"),
           // speakdesktoppublishings12
           // desktoppublishings12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1300"),
           // speakdesktoppublishings13
           // desktoppublishings13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1400"),
           // speakdesktoppublishings14
           // desktoppublishings14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1500"),
           // speakdesktoppublishings15
           // desktoppublishings15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1600"),
           // speakdesktoppublishings16
           // desktoppublishings16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1700"),
           // speakdesktoppublishings17
           // desktoppublishings17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1800"),
           // speakdesktoppublishings18
           // desktoppublishings18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings1900"),
           // speakdesktoppublishings19
           // desktoppublishings19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings2000"),
           // speakdesktoppublishings20
           // desktoppublishings20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings2100"),
           // speakdesktoppublishings21
           // desktoppublishings21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktoppublishings2200"),
           // speakdesktoppublishings22
           // desktoppublishings22("en-US"),

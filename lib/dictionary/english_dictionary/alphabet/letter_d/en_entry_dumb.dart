@@ -734,7 +734,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dumb (Derived forms: dumbest, dumber)
+- Adjective: dumb (derived forms: dumbest, dumber)
 1. Taking more than usual time to learn or understand; lacking intellectual acuity (= dense, dim [informal], dull, obtuse, slow)
 "dumb officials make some really dumb decisions";
  
@@ -748,7 +748,7 @@ ${englishMeaningConst.text}
  
 5. Devoid of good sense or judgment (= foolish, daft [Brit, informal], stupid, imbecilic, imbecile)
 
-- Verb: dumb (Derived forms: dumbed, dumbs, dumbing)
+- Verb: dumb (derived forms: dumbed, dumbs, dumbing)
 1. Make simpler and less intellectually challenging (in a negative sense) (= dumb down)
 """,
   );

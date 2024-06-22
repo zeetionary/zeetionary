@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dog collar (Derived forms: dog collars)
+- Noun: dog collar (derived forms: dog collars)
 1. A collar for a dog
  
 2. A stiff white collar with no opening in the front; a distinctive symbol of the clergy (= clerical collar, Roman collar)

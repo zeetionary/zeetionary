@@ -669,7 +669,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dollar (Derived forms: dollars)
+- Noun: dollar (derived forms: dollars)
 1. The basic monetary unit in many countries; equal to 100 cents
  
 2. A piece of paper money worth one dollar (= dollar bill, one dollar bill, buck [informal], clam [US, informal], single [US, informal])

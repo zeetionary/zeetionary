@@ -599,10 +599,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: doze (Derived forms: dozed, dozing, dozes)
+- Verb: doze (derived forms: dozed, dozing, dozes)
 1. Have a short sleep, esp. during the day (= nap, catnap, catch a wink [informal], kip [Brit, informal], snooze, drowse, zizz [Brit, informal])
 
-- Noun: doze (Derived forms: dozes)
+- Noun: doze (derived forms: dozes)
 1. A light fitful sleep (= drowse)
 """,
   );

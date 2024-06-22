@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The site contains information not found elsewhere."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سایتەکە وەها زانیارییەک لەخۆدەگرێت کە لە شوێنی دیکە نادۆزرێنەوە."""),
+                            """سایتەکە وەھا زانیارییەک لەخۆدەگرێت کە لە شوێنی دیکە نادۆزرێنەوە."""),
                   ],
                 ),
               ),

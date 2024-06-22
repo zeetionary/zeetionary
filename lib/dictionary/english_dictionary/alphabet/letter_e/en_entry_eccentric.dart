@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نائاسایی، ڕیزپەڕ، سەیر، سەیروسەمەرە،	(بیرکاری) ناهاوناوەند، لە دەرەوەی ناوەند، مرۆی سەیر یان نائاسایی، شێتۆکە
+کوردی: نائاسایی، ڕیزپەڕ، سەیر، سەیروسەمەرە،	(بیرکاری) ناھاوناوەند، لە دەرەوەی ناوەند، مرۆی سەیر یان نائاسایی، شێتۆکە
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە خەڵکی بە نامۆ دایدەنێن"""),
@@ -524,7 +524,7 @@ ${englishMeaningConst.text}
 2. Conspicuously or grossly unconventional or unusual (= bizarre, freakish, freaky [informal], flaky [informal], flakey [informal], gonzo [N. Amer, informal], off-the-wall [informal], outlandish, outré)
 "famed for his eccentric spelling";
 
-- Noun: eccentric (Derived forms: eccentrics)
+- Noun: eccentric (derived forms: eccentrics)
 1. A person with an unusual or odd personality (= eccentric person, flake [N. Amer, informal], oddball [informal], geek [informal], dag [Austral, NZ, informal])
  
 2. A person of a specified kind (usually with many eccentricities) (= character, type, case)

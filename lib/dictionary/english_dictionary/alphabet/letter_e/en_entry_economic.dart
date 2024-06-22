@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئابووری، سەربە ئابووری،	سەربە بازرگانی یان پیشەسازی،	بەخێر، خێردەرەوە، پڕداهات، بەقازانج، بەسوود، پڕسوود
+کوردی: ئابووری، سەربە ئابووری،	سەربە بازرگانی یان پیشەسازی،	بەخێر، خێردەرەوە، پڕداھات، بەقازانج، بەسوود، پڕسوود
 """),
           const DefinitionKurdish(
               text:
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """There will be no quick economic recovery."""),
                     ExampleSentenceKurdish(
-                        text: """هیچ بووژانەوەیەکی خێرای ئابووری ڕوونادات."""),
+                        text: """ھیچ بووژانەوەیەکی خێرای ئابووری ڕوونادات."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کە هێندە قازانج دەکات تاوەکو بەردەوام ببێت"""),
+                  """٢. (ھاوەڵناو) کە ھێندە قازانج دەکات تاوەکو بەردەوام ببێت"""),
           // const DividerSentences(),
           Row(
             children: [

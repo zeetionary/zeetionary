@@ -368,10 +368,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بڵاوبوونەوە، دەرچوون، بەلاڤی، دەرکردن، دانەدەرەوە، دەردان، دەرچواندن، خستنەدەرەوە، دەرپەڕین، دەرپەڕینەدەرەوە، دەرهاویشتن، ناردن، چوونەدەرێ،	ئاوهاتنەوە، ئاو، تۆماو
+کوردی: بڵاوبوونەوە، دەرچوون، بەلاڤی، دەرکردن، دانەدەرەوە، دەردان، دەرچواندن، خستنەدەرەوە، دەرپەڕین، دەرپەڕینەدەرەوە، دەرھاویشتن، ناردن، چوونەدەرێ،	ئاوھاتنەوە، ئاو، تۆماو
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) بەرهەمهێنان یان دەردانی ڕۆشنایی، گەرمی، هتد"""),
+              text: """١. (ناو) بەرھەمھێنان یان دەردانی ڕۆشنایی، گەرمی، ھتد"""),
           Row(
             children: [
               const Expanded(
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) گاس، گەرمی، ڕۆشنایی، هتد کە دەردرێتە هەواوەوە"""),
+                  """٢. (ناو) گاس، گەرمی، ڕۆشنایی، ھتد کە دەردرێتە ھەواوەوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The government has pledged to clean up industrial emissions."""),
                     ExampleSentenceKurdish(
                         text:
-                            """حکومەت بەڵێنی داوە دەردانی پیشەسازی نەهێڵێت."""),
+                            """حکومەت بەڵێنی داوە دەردانی پیشەسازی نەھێڵێت."""),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emission (Derived forms: emissions)
+- Noun: emission (derived forms: emissions)
 1. The act of emitting; causing to flow forth (= emanation)
  
 2. A substance that is emitted or released (= discharge)

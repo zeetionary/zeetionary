@@ -459,7 +459,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یا، یان، ئان،	هەریەک (لەو دوانە)، یەکێ لە دوان، یەکێک، یەکێ، هەریەک، هەرکام، هەر، یش، ژی،	هیچ‌یەک، هیچ‌کام (ئەگەر کارەکە نەرێنی بێ)،	یان... یان، ها... ها
+کوردی: یا، یان، ئان،	ھەریەک (لەو دوانە)، یەکێ لە دوان، یەکێک، یەکێ، ھەریەک، ھەرکام، ھەر، یش، ژی،	ھیچ‌یەک، ھیچ‌کام (ئەگەر کارەکە نەرێنی بێ)،	یان... یان، ھا... ھا
 """),
           const DefinitionKurdish(
               text:
@@ -472,7 +472,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """You can park on either side of the street."""),
                     ExampleSentenceKurdish(
-                        text: """دەتوانیت لە هەر لایەکی شەقامەکە بوەستیت."""),
+                        text: """دەتوانیت لە ھەر لایەکی شەقامەکە بوەستیت."""),
                   ],
                 ),
               ),
@@ -502,7 +502,7 @@ class KurdishMeaning extends StatelessWidget {
                             """You can keep one of the photos. Either of them—whichever you like."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەتوانیت یەکێک لە وێنەکان هەڵبژێریت. یەکێکیان ـ هەرکامیان حەزت لێیە."""),
+                            """دەتوانیت یەکێک لە وێنەکان ھەڵبژێریت. یەکێکیان ـ ھەرکامیان حەزت لێیە."""),
                   ],
                 ),
               ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Either candidate would be ideal for the job."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەر یەکێک لە بەربژێرەکان گونجاو دەبێت بۆ کارەکە."""),
+                            """ھەر یەکێک لە بەربژێرەکان گونجاو دەبێت بۆ کارەکە."""),
                   ],
                 ),
               ),
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
                             """You can get there by train or bus - either way/in either case it'll take an hour."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەتوانیت بە شەمەندەفەر یان پاس بچیت ـ هەر کامیان بێت یەک کاتژمێری پێ دەچێت."""),
+                            """دەتوانیت بە شەمەندەفەر یان پاس بچیت ـ ھەر کامیان بێت یەک کاتژمێری پێ دەچێت."""),
                   ],
                 ),
               ),
@@ -611,7 +611,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (دیارخەر، جێناو) دوو شت هەردووکیان"""),
+              text: """٢. (دیارخەر، جێناو) دوو شت ھەردووکیان"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -621,7 +621,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The offices on either side were empty."""),
                     ExampleSentenceKurdish(
-                        text: """ئۆفیسەکانی هەردوولا بەتاڵ بوون."""),
+                        text: """ئۆفیسەکانی ھەردوولا بەتاڵ بوون."""),
                   ],
                 ),
               ),
@@ -650,7 +650,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There's a door at either end of the corridor."""),
                     ExampleSentenceKurdish(
-                        text: """دەرگایەک لە هەردوو کۆتایی ڕاڕەوەکە هەیە."""),
+                        text: """دەرگایەک لە ھەردوو کۆتایی ڕاڕەوەکە ھەیە."""),
                   ],
                 ),
               ),
@@ -670,7 +670,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵکار) لە دوای ڕستەی نەرێ بەکاردێت بۆ گوتنی 'هەروەها'"""),
+                  """٣. (ھاوەڵکار) لە دوای ڕستەی نەرێ بەکاردێت بۆ گوتنی 'ھەروەھا'"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -680,7 +680,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Pete can't go and I can't either."""),
                     ExampleSentenceKurdish(
-                        text: """پیت ناتوانێت بچێت و هەروەها منیش."""),
+                        text: """پیت ناتوانێت بچێت و ھەروەھا منیش."""),
                   ],
                 ),
               ),
@@ -727,7 +727,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٤. (ھاوەڵکار) بۆ پیشاندانی دو هەڵبژاردە"""),
+              text: """٤. (ھاوەڵکار) بۆ پیشاندانی دو ھەڵبژاردە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -738,7 +738,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Well, I think she's either Czech or Slovak."""),
                     ExampleSentenceKurdish(
-                        text: """ها، پێموایە یان چیکییە یان سلۆڤاکییە."""),
+                        text: """ھا، پێموایە یان چیکییە یان سلۆڤاکییە."""),
                   ],
                 ),
               ),
@@ -828,7 +828,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I know a good Italian restaurant. It's not far from here, either."""),
                     ExampleSentenceKurdish(
                         text:
-                            """چێشتخانەیەکی باشی ئیتالی دەزانم. و هەروەها لێرەشەوە دوور نییە."""),
+                            """چێشتخانەیەکی باشی ئیتالی دەزانم. و ھەروەھا لێرەشەوە دوور نییە."""),
                   ],
                 ),
               ),
@@ -847,12 +847,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers1400eithers14
           // speakeithers14("en-US"""),
           //         ),
@@ -862,12 +856,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers1500eithers15
           // speakeithers15("en-US"""),
           //         ),
@@ -877,12 +865,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers1600eithers16
           // speakeithers16("en-US"""),
           //         ),
@@ -892,12 +874,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers1700eithers17
           // speakeithers17("en-US"""),
           //         ),
@@ -907,12 +883,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers1800eithers18
           // speakeithers18("en-US"""),
           //         ),
@@ -922,12 +892,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers1900eithers19
           // speakeithers19("en-US"""),
           //         ),
@@ -937,12 +901,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers_2000eithers20
           // speakeithers20("en-US"""),
           //         ),
@@ -952,12 +910,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers2100eithers21
           // speakeithers21("en-US"""),
           //         ),
@@ -967,12 +919,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eithers2200eithers22
           // speakeithers22("en-US"""),
           //         ),

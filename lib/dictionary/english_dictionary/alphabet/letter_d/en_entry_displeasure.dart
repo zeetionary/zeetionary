@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: displeasure (Derived forms: displeasures)
+- Noun: displeasure (derived forms: displeasures)
 1. The feeling of being displeased or annoyed or dissatisfied with someone or something
 """,
   );

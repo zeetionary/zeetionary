@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەرکێشان، هەڵێنجان، دەرهێنان
+کوردی: دەرکێشان، ھەڵێنجان، دەرھێنان
 """),
           const DefinitionKurdish(
               text:
@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I could elicit no response from him."""),
                     ExampleSentenceKurdish(
-                        text: """نەمتوانی هیچ وەڵامێکی لێ دەرکێشم."""),
+                        text: """نەمتوانی ھیچ وەڵامێکی لێ دەرکێشم."""),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: elicit (Derived forms: elicits, eliciting, elicited)
+- Verb: elicit (derived forms: elicits, eliciting, elicited)
 1. Call forth (emotions, feelings, and responses) (= arouse, enkindle [literary], kindle, evoke, fire, raise, provoke)
 "elicit pity";
  

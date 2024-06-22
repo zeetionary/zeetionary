@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duckling (Derived forms: ducklings)
+- Noun: duckling (derived forms: ducklings)
 1. Flesh of a young domestic duck
  
 2. Young duck

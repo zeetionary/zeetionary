@@ -565,7 +565,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dusty (Derived forms: dustier, dustiest)
+- Adjective: dusty (derived forms: dustier, dustiest)
 1. Covered with a layer of dust (= dust-covered)
 "a dusty pile of books";
  

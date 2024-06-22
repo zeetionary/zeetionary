@@ -834,7 +834,7 @@ ${englishMeaningConst.text}
 5. Produced in a particular country
 "domestic wine"; "domestic oil"
 
-- Noun: domestic (Derived forms: domestics)
+- Noun: domestic (derived forms: domestics)
 1. A servant who is paid to perform menial tasks around the household (= domestic help, house servant)
  
 2. [Brit, informal] A domestic dispute, esp. involving a loud argument or violence

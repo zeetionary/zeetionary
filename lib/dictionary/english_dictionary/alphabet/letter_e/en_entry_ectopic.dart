@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This results in formation of ectopic bone around the hip."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەمە دەبێت هۆکاری درووستبوونی ئێسکی جێگۆڕاو لە نزیکی سمت."""),
+                            """ئەمە دەبێت ھۆکاری درووستبوونی ئێسکی جێگۆڕاو لە نزیکی سمت."""),
                   ],
                 ),
               ),

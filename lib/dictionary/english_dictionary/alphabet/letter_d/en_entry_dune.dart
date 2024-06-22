@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dune (Derived forms: dunes)
+- Noun: dune (derived forms: dunes)
 1. A ridge of sand created by the wind; found in deserts or near lakes and oceans (= sand dune)
 """,
   );

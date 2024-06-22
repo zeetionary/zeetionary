@@ -570,7 +570,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: donor (Derived forms: donors)
+- Noun: donor (derived forms: donors)
 1. Person who makes a gift of property (= giver, presenter, bestower, conferrer, donator)
  
 2. (medicine) someone who gives blood, tissue or an organ to be used in another person (the host)

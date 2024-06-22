@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """He had an eerie feeling that he was not alone."""),
                     ExampleSentenceKurdish(
-                        text: """هەستی ترسێنەری ئەوەی هەبوو کە تەنها نییە."""),
+                        text: """ھەستی ترسێنەری ئەوەی ھەبوو کە تەنھا نییە."""),
                   ],
                 ),
               ),
@@ -514,7 +514,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: eerie (Derived forms: eerier, eeriest)
+- Adjective: eerie (derived forms: eerier, eeriest)
 1. Suggestive of the supernatural; mysterious (= spooky [informal])
 "an eerie feeling of déjà vu";
  

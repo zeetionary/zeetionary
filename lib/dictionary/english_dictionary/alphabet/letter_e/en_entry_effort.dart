@@ -479,11 +479,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: حەول، ئەرک، تەقەلا، هەوڵ، داکۆکی، تێکۆشان، کۆشە، کۆششت، پەلە، خەبات، بزاڤ، ئەخت‌وچار، کردوکۆش، زەحمەت، ڕەنج، کاری سەخت، کاری گران،	ئاکامی تێکۆشان، بەرهەم، ئەنجامی حەول و تەقەلا
+کوردی: حەول، ئەرک، تەقەلا، ھەوڵ، داکۆکی، تێکۆشان، کۆشە، کۆششت، پەلە، خەبات، بزاڤ، ئەخت‌وچار، کردوکۆش، زەحمەت، ڕەنج، کاری سەخت، کاری گران،	ئاکامی تێکۆشان، بەرھەم، ئەنجامی حەول و تەقەلا
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەوڵێک بۆ کردنی شتێک، بەتایبەتی کە کردنی سەختە"""),
+                  """١. (ناو) ھەوڵێک بۆ کردنی شتێک، بەتایبەتی کە کردنی سەختە"""),
           Row(
             children: [
               const Expanded(
@@ -492,7 +492,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The project was a team effort."""),
                     ExampleSentenceKurdish(
-                        text: """پڕۆژەکە هەوڵی تیمێک بوو."""),
+                        text: """پڕۆژەکە ھەوڵی تیمێک بوو."""),
                   ],
                 ),
               ),
@@ -522,7 +522,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I didn't really feel like going out, but I am glad I made the effort."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە ڕاستیدا حەزم بە چوونە دەرەوە نەبوو، بەڵام خۆشحاڵم کە هەوڵم دا."""),
+                            """لە ڕاستیدا حەزم بە چوونە دەرەوە نەبوو، بەڵام خۆشحاڵم کە ھەوڵم دا."""),
                   ],
                 ),
               ),
@@ -554,7 +554,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     """Please make an effort to be on time."""),
                             ExampleSentenceKurdish(
-                                text: """تکایە هەوڵ بدە لە کاتی خۆیدا بە."""),
+                                text: """تکایە ھەوڵ بدە لە کاتی خۆیدا بە."""),
                           ],
                         ),
                       ),
@@ -584,7 +584,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """We need to make a concerted effort to finish on time."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """دەبێت هەوڵێکی هاوبەش بدەین کە لە کاتی خۆیدا تەواوی بکەین."""),
+                                    """دەبێت ھەوڵێکی ھاوبەش بدەین کە لە کاتی خۆیدا تەواوی بکەین."""),
                           ],
                         ),
                       ),
@@ -614,7 +614,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """You need to focus your efforts on critical areas first."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """دەبێت سەرەتا سەرنجی هەوڵەکانت بخەیتە سەر لایەنە گرنگەکان."""),
+                                    """دەبێت سەرەتا سەرنجی ھەوڵەکانت بخەیتە سەر لایەنە گرنگەکان."""),
                           ],
                         ),
                       ),
@@ -644,7 +644,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """I'm glad to hear that many of you support our efforts."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """خۆشحاڵم کە دەبیستم زۆرێکتان پاڵپشتی هەوڵەکانمانن."""),
+                                    """خۆشحاڵم کە دەبیستم زۆرێکتان پاڵپشتی ھەوڵەکانمانن."""),
                           ],
                         ),
                       ),
@@ -674,7 +674,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """The company has laid off 150 workers in an effort to save money."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """کۆمپانیاکە ١٥٠ کرێکاری دەرکردووە لە هەوڵێکدا بۆ گەڕاندنەوەی پارە."""),
+                                    """کۆمپانیاکە ١٥٠ کرێکاری دەرکردووە لە ھەوڵێکدا بۆ گەڕاندنەوەی پارە."""),
                           ],
                         ),
                       ),
@@ -704,7 +704,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """Despite our best efforts, we didn't manage to win the game."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """سەرەڕای باشترین هەوڵەکانمان، نەمانتوانی یارییەکە ببەینەوە."""),
+                                    """سەرەڕای باشترین ھەوڵەکانمان، نەمانتوانی یارییەکە ببەینەوە."""),
                           ],
                         ),
                       ),
@@ -734,7 +734,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """He failed in his efforts to give up smoking."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """لە هەوڵەکانی بۆ وازهێنان لە جگەرەکێشان شکستی هێنا."""),
+                                    """لە ھەوڵەکانی بۆ وازھێنان لە جگەرەکێشان شکستی ھێنا."""),
                           ],
                         ),
                       ),
@@ -798,7 +798,7 @@ class KurdishMeaning extends StatelessWidget {
                             """A great deal of time and effort has gone into making this event a success."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەوڵێکی زۆری کات و وزە دراوە بۆ سەرخستنی ئەم بۆنەیە."""),
+                            """ھەوڵێکی زۆری کات و وزە دراوە بۆ سەرخستنی ئەم بۆنەیە."""),
                   ],
                 ),
               ),
@@ -828,7 +828,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It's a long climb to the top, but well worth the effort."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تا سەرەوە سەرکەوتنێکی درێژە، بەڵام شایەنی هەوڵەکەیە."""),
+                            """تا سەرەوە سەرکەوتنێکی درێژە، بەڵام شایەنی ھەوڵەکەیە."""),
                   ],
                 ),
               ),
@@ -857,7 +857,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The task required almost no effort."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەرکەکە بەنزیکەیی پێویستی بە هیچ وزەیەک نەبوو."""),
+                            """ئەرکەکە بەنزیکەیی پێویستی بە ھیچ وزەیەک نەبوو."""),
                   ],
                 ),
               ),
@@ -888,7 +888,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The United Nations’ peacekeeping effort reduced violence in the region."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەوڵی ئاشتی‌پارێزی نەتەوە یەکگرتووەکان توندوتیژی لە هەرێمەکە کەمکردەوە."""),
+                            """ھەوڵی ئاشتی‌پارێزی نەتەوە یەکگرتووەکان توندوتیژی لە ھەرێمەکە کەمکردەوە."""),
                   ],
                 ),
               ),
@@ -907,7 +907,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٤. (ناو) ئەنجامی هەوڵی کردنی شتێک"""),
+              text: """٤. (ناو) ئەنجامی ھەوڵی کردنی شتێک"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -998,7 +998,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: effort (Derived forms: efforts)
+- Noun: effort (derived forms: efforts)
 1. Earnest and conscientious activity intended to do or accomplish something (= attempt, endeavor [US], endeavour [Brit, Cdn], try)
 "made an effort to cover all the reading material";
  

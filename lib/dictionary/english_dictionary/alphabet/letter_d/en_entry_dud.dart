@@ -573,7 +573,7 @@ ${englishMeaningConst.text}
 1. Failing to detonate; especially not charged with an active explosive
 "he stepped on a dud mine"
 
-- Noun: dud (Derived forms: duds)
+- Noun: dud (derived forms: duds)
 1. Someone who is unsuccessful (= flop [informal], washout, clunker [N. Amer, informal])
  
 2. An explosion that fails to occur (= misfire)

@@ -410,10 +410,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سۆزی، سۆزەکی، سۆزداری، بەسۆز، هەست‌بزوێن، ورووژێنەر، بزوێنەر
+کوردی: سۆزی، سۆزەکی، سۆزداری، بەسۆز، ھەست‌بزوێن، ورووژێنەر، بزوێنەر
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) پەوەندیدار بە هەستەکانی مرۆڤ"""),
+              text: """١. (ھاوەڵناو) پەوەندیدار بە ھەستەکانی مرۆڤ"""),
           Row(
             children: [
               const Expanded(
@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The emotional impact of the film is powerful and lasting."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کاریگەریی سۆزداری فیلمەکە بەهێز و درێژخایەنە."""),
+                            """کاریگەریی سۆزداری فیلمەکە بەھێز و درێژخایەنە."""),
                   ],
                 ),
               ),
@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He clearly feels an emotional connection to the place."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بە ئاشکرا هەست بە پەیوەندییەکی سۆزەکی دەکات بە شوێنەکەوە."""),
+                            """بە ئاشکرا ھەست بە پەیوەندییەکی سۆزەکی دەکات بە شوێنەکەوە."""),
                   ],
                 ),
               ),
@@ -504,7 +504,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کە وا لە خەڵکی دەکات هەستی بەهێز دەرببڕن"""),
+                  """٢. (ھاوەڵناو) کە وا لە خەڵکی دەکات ھەستی بەھێز دەرببڕن"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The anniversary of the accident was very emotional for him."""),
                     ExampleSentenceKurdish(
-                        text: """ساڵیادی ڕووداوەکە زۆر هەست‌بزوێن بوو بۆی."""),
+                        text: """ساڵیادی ڕووداوەکە زۆر ھەست‌بزوێن بوو بۆی."""),
                   ],
                 ),
               ),
@@ -563,7 +563,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵناو) بۆ کەسێکە کە هەست و سۆزی زۆر پیشان دەدات"""),
+                  """٣. (ھاوەڵناو) بۆ کەسێکە کە ھەست و سۆزی زۆر پیشان دەدات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -602,7 +602,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """He tends to get emotional on these occasions."""),
                     ExampleSentenceKurdish(
-                        text: """وەهایە کە لەم بۆنانەدا بەسۆز دەبێت."""),
+                        text: """وەھایە کە لەم بۆنانەدا بەسۆز دەبێت."""),
                   ],
                 ),
               ),

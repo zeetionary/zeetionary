@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) بەکارهێنانی تەکنەلۆژیای ئێلیکترۆنیکی"""),
+              text: """٢. (ناو) بەکارھێنانی تەکنەلۆژیای ئێلیکترۆنیکی"""),
           // const DividerSentences(),
           Row(
             children: [

@@ -570,7 +570,7 @@ ${englishMeaningConst.text}
 - Adjective: downhill 
 1. Sloping down rather steeply (= declivitous, downward-sloping)
 
-- Noun: downhill (Derived forms: downhills)
+- Noun: downhill (derived forms: downhills)
 1. The downward slope of a hill
  
 2. A ski race down a trail

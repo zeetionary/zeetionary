@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گوێ‌هەڵخەر، گوێ‌داگرتوو، خۆلێگر، خۆگر
+کوردی: گوێ‌ھەڵخەر، گوێ‌داگرتوو، خۆلێگر، خۆگر
 """),
           const DefinitionKurdish(
               text:
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Doris mouthed the words, looking towards the door for fear of eavesdroppers."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دۆریس وشەکانی دەدرکاند و سەیری دەرگاکەی دەکرد لە ترسی گوێ‌هەڵخەران."""),
+                            """دۆریس وشەکانی دەدرکاند و سەیری دەرگاکەی دەکرد لە ترسی گوێ‌ھەڵخەران."""),
                   ],
                 ),
               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eavesdropper (Derived forms: eavesdroppers)
+- Noun: eavesdropper (derived forms: eavesdroppers)
 1. A secret listener to private conversations
 """,
   );

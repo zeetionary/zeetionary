@@ -269,165 +269,57 @@ class KurdishMeaning extends StatelessWidget {
           // delightfullys400"),
           // speakdelightfullys4
           // delightfullys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys500"),
           // speakdelightfullys5
           // delightfullys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys600"),
           // speakdelightfullys6
           // delightfullys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys700"),
           // speakdelightfullys7
           // delightfullys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys800"),
           // speakdelightfullys8
           // delightfullys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys900"),
           // speakdelightfullys9
           // delightfullys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1000"),
           // speakdelightfullys10
           // delightfullys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1100"),
           // speakdelightfullys11
           // delightfullys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1200"),
           // speakdelightfullys12
           // delightfullys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1300"),
           // speakdelightfullys13
           // delightfullys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1400"),
           // speakdelightfullys14
           // delightfullys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1500"),
           // speakdelightfullys15
           // delightfullys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1600"),
           // speakdelightfullys16
           // delightfullys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1700"),
           // speakdelightfullys17
           // delightfullys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1800"),
           // speakdelightfullys18
           // delightfullys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys1900"),
           // speakdelightfullys19
           // delightfullys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys2000"),
           // speakdelightfullys20
           // delightfullys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys2100"),
           // speakdelightfullys21
           // delightfullys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delightfullys2200"),
           // speakdelightfullys22
           // delightfullys22("en-US"),

@@ -377,9 +377,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شاگەشکەیی، سەرخۆشی گەشکەلێ‌هاتن، شادی، خۆشی، سەرمەستی، مەستی، حاڵ، لەخۆبوونەوە، حاڵ‌لێهاتن، وڕینە، ڕاوان، درەمانی مەستێنەر، مەستێنە، درەمانی شاگەشکە، خۆشی‌هێن
+کوردی: شاگەشکەیی، سەرخۆشی گەشکەلێ‌ھاتن، شادی، خۆشی، سەرمەستی، مەستی، حاڵ، لەخۆبوونەوە، حاڵ‌لێھاتن، وڕینە، ڕاوان، درەمانی مەستێنەر، مەستێنە، درەمانی شاگەشکە، خۆشی‌ھێن
 """),
-          const DefinitionKurdish(text: """١. (ناو) هەست و خۆشییەکی زۆر"""),
+          const DefinitionKurdish(text: """١. (ناو) ھەست و خۆشییەکی زۆر"""),
           Row(
             children: [
               const Expanded(
@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He had never felt such ecstasy as he did that night."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەرگیز هەستی بە خۆشییەکی وەک ئەوەی ئەو شەوە نەکردبوو."""),
+                            """ھەرگیز ھەستی بە خۆشییەکی وەک ئەوەی ئەو شەوە نەکردبوو."""),
                   ],
                 ),
               ),
@@ -438,14 +438,14 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """٢. (ناو) دۆخێک کە تێیدا کەسێک دەگات بەوپەڕی هەستەکانی، لە ڕێگەی نوێژ یان قووڵ‌بوونەوە، کە دەیگەیەنێت بە ئەوپەڕی کەسایەتی خۆی"""),
+          // const DefinitionKurdish(text: """٢. (ناو) دۆخێک کە تێیدا کەسێک دەگات بەوپەڕی ھەستەکانی، لە ڕێگەی نوێژ یان قووڵ‌بوونەوە، کە دەیگەیەنێت بە ئەوپەڕی کەسایەتی خۆی"""),
           // // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """She received visions and ecstasies, sharing in the saint's sufferings.ecstasys3
+          // """She received visions and ecstasies, sharing in the saint's sufferings.ecstasys3
           // speakecstasys3
           // ecstasys400ecstasys4
           // speakecstasys4
@@ -535,7 +535,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ecstasy (Derived forms: ecstasies)
+- Noun: ecstasy (derived forms: ecstasies)
 1. A state of being carried away by overwhelming emotion (= rapture, transport, exaltation, raptus)
 "listening to sweet music in a perfect ecstasy";
  

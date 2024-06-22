@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: distaste (Derived forms: distastes)
+- Noun: distaste (derived forms: distastes)
 1. A feeling of intense dislike (= antipathy, aversion, disrelish [archaic])
 "a puritanic distaste for alcohol";
 """,

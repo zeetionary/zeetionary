@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) پەیکەری کەسێکی بەناوبانگ، خودا، هتد؛ بووکەڵەیەک یان شتێک کە کەسێک بە ناشرینی پیشان دەدات"""),
+                  """١. (ناو) پەیکەری کەسێکی بەناوبانگ، خودا، ھتد؛ بووکەڵەیەک یان شتێک کە کەسێک بە ناشرینی پیشان دەدات"""),
           Row(
             children: [
               const Expanded(
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Crowds marched through the streets carrying burning effigies of the president."""),
                     ExampleSentenceKurdish(
                         text:
-                            """جەماوەرەکە بە شەقامەکاندا ڕێپێوانیان بوو بە هەڵگرتنی بووکەڵەی ئاگرتێبەردراوی سەرۆکەوە."""),
+                            """جەماوەرەکە بە شەقامەکاندا ڕێپێوانیان بوو بە ھەڵگرتنی بووکەڵەی ئاگرتێبەردراوی سەرۆکەوە."""),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: effigy (Derived forms: effigies)
+- Noun: effigy (derived forms: effigies)
 1. A representation of a person (especially in the form of sculpture) (= image, simulacrum)
 "the coin bears an effigy of Lincoln";
 """,

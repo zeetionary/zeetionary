@@ -518,7 +518,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embarkation (Derived forms: embarkations)
+- Noun: embarkation (derived forms: embarkations)
 1. The act of passengers and crew getting aboard a ship or aircraft (= boarding, embarkment)
 """,
   );

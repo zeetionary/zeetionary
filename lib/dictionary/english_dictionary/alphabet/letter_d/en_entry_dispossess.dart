@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dispossess (Derived forms: dispossessing, dispossesses, dispossessed)
+- Verb: dispossess (derived forms: dispossessing, dispossesses, dispossessed)
 1. Deprive of the possession of real estate 
 "This farmer was dispossessed without knowing what complaints had been levied against him"
 """,

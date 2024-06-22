@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dovecot (Derived forms: dovecots)
+- Noun: dovecot (derived forms: dovecots)
 1. A birdhouse for pigeons (= dovecote, columbarium, columbary)
 """,
   );

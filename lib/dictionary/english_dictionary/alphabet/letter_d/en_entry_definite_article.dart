@@ -317,165 +317,57 @@ class KurdishMeaning extends StatelessWidget {
           // definitearticles400"),
           // speakdefinitearticles4
           // definitearticles4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles500"),
           // speakdefinitearticles5
           // definitearticles5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles600"),
           // speakdefinitearticles6
           // definitearticles6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles700"),
           // speakdefinitearticles7
           // definitearticles7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles800"),
           // speakdefinitearticles8
           // definitearticles8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles900"),
           // speakdefinitearticles9
           // definitearticles9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1000"),
           // speakdefinitearticles10
           // definitearticles10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1100"),
           // speakdefinitearticles11
           // definitearticles11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1200"),
           // speakdefinitearticles12
           // definitearticles12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1300"),
           // speakdefinitearticles13
           // definitearticles13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1400"),
           // speakdefinitearticles14
           // definitearticles14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1500"),
           // speakdefinitearticles15
           // definitearticles15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1600"),
           // speakdefinitearticles16
           // definitearticles16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1700"),
           // speakdefinitearticles17
           // definitearticles17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1800"),
           // speakdefinitearticles18
           // definitearticles18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles1900"),
           // speakdefinitearticles19
           // definitearticles19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Remember to use the definite article before 'radio' in sentences like 'I was listening to the radio'.0"),
+          // "Remember to use the definite article before 'radio' in sentences like 'I was listening to the radio'.0"),
           // speakdefinitearticles20
           // definitearticles20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles2100"),
           // speakdefinitearticles21
           // definitearticles21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitearticles2200"),
           // speakdefinitearticles22
           // definitearticles22("en-US"),

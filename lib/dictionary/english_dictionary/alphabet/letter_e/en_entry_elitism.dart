@@ -359,11 +359,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئێلیتیسیزم، هەڵبژاردەگەری، حکومەتی نوخبە یان هەڵبژاردە
+کوردی: ئێلیتیسیزم، ھەڵبژاردەگەری، حکومەتی نوخبە یان ھەڵبژاردە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) شێوازێکی بەڕێوەبردنی سیستەمێک، کۆمەڵگایەک، هتد کە تێیدا تەنها کەمینەیەک دەسەڵاتیان هەیە"""),
+                  """١. (ناو) شێوازێکی بەڕێوەبردنی سیستەمێک، کۆمەڵگایەک، ھتد کە تێیدا تەنھا کەمینەیەک دەسەڵاتیان ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Many people believe that private education encourages elitism."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆر کەس باوەڕیان وایە خوێندنی تایبەت هاندەری هەڵبژاردەگەرییە."""),
+                            """زۆر کەس باوەڕیان وایە خوێندنی تایبەت ھاندەری ھەڵبژاردەگەرییە."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elitism (Derived forms: elitisms)
+- Noun: elitism (derived forms: elitisms)
 1. The attitude that society should be governed by an elite group of individuals (= élitism [Brit])
 """,
   );

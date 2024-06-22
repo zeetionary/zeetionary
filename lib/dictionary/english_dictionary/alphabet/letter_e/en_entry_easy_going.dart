@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """I wish I had such easy-going parents!"""),
                     ExampleSentenceKurdish(
                         text:
-                            """خۆزگە دەخوازم کە دایببای وەها لێبوردەم هەبا."""),
+                            """خۆزگە دەخوازم کە دایببای وەھا لێبوردەم ھەبا."""),
                   ],
                 ),
               ),
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His friends described him as an easy-going person."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هاوڕێکانی وەک کەسێکی نەرم‌ونیان باسیان کرد."""),
+                            """ھاوڕێکانی وەک کەسێکی نەرم‌ونیان باسیان کرد."""),
                   ],
                 ),
               ),
@@ -447,7 +447,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Normally he had an easy-going manner."""),
                     ExampleSentenceKurdish(
-                        text: """بەشێوەی ئاسایی هەڵسوکەوتی لەسەرەخۆی بوو."""),
+                        text: """بەشێوەی ئاسایی ھەڵسوکەوتی لەسەرەخۆی بوو."""),
                   ],
                 ),
               ),

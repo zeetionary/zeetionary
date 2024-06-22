@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: edging (Derived forms: edgings)
+- Noun: edging (derived forms: edgings)
 1. Border consisting of anything placed on the edge to finish something (such as a fringe on clothing or on a rug)
 """,
   );

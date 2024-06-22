@@ -314,165 +314,57 @@ class KurdishMeaning extends StatelessWidget {
           // depriveofs400"),
           // speakdepriveofs4
           // depriveofs4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs500"),
           // speakdepriveofs5
           // depriveofs5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs600"),
           // speakdepriveofs6
           // depriveofs6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs700"),
           // speakdepriveofs7
           // depriveofs7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs800"),
           // speakdepriveofs8
           // depriveofs8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs900"),
           // speakdepriveofs9
           // depriveofs9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1000"),
           // speakdepriveofs10
           // depriveofs10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1100"),
           // speakdepriveofs11
           // depriveofs11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1200"),
           // speakdepriveofs12
           // depriveofs12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1300"),
           // speakdepriveofs13
           // depriveofs13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1400"),
           // speakdepriveofs14
           // depriveofs14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1500"),
           // speakdepriveofs15
           // depriveofs15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1600"),
           // speakdepriveofs16
           // depriveofs16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1700"),
           // speakdepriveofs17
           // depriveofs17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1800"),
           // speakdepriveofs18
           // depriveofs18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs1900"),
           // speakdepriveofs19
           // depriveofs19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Why should you deprive yourself of such simple pleasures?0"),
+          // "Why should you deprive yourself of such simple pleasures?0"),
           // speakdepriveofs20
           // depriveofs20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs2100"),
           // speakdepriveofs21
           // depriveofs21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depriveofs2200"),
           // speakdepriveofs22
           // depriveofs22("en-US"),

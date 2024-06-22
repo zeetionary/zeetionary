@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دۆخی تەنگەتاوی، باری نائاسایی،	ڕووداو، قەومین، بوویەر
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) دۆخێک کە پێویستیی بە مامەڵەی دەستبەجێ هەیە"""),
+              text: """١. (ناو) دۆخێک کە پێویستیی بە مامەڵەی دەستبەجێ ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This is a medical emergency needing urgent treatment with antibiotics."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەمە بارێکی لەناکاوی پزیشکییە کە پێویستیی بە چارەسەری بەپەلە هەیە بە دژە بەکتریا."""),
+                            """ئەمە بارێکی لەناکاوی پزیشکییە کە پێویستیی بە چارەسەری بەپەلە ھەیە بە دژە بەکتریا."""),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This door should only be used in an emergency."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەم دەرگایە دەبێت تەنها لە باری لەناکاودا بەکاربێت."""),
+                            """ئەم دەرگایە دەبێت تەنھا لە باری لەناکاودا بەکاربێت."""),
                   ],
                 ),
               ),
@@ -555,7 +555,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emergency (Derived forms: emergencies)
+- Noun: emergency (derived forms: emergencies)
 1. A sudden unforeseen crisis (usually involving danger) that requires immediate action (= exigency, pinch, exigence)
 "he never knew what to do in an emergency";
  

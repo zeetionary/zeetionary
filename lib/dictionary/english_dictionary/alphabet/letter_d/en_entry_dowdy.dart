@@ -526,14 +526,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dowdy (Derived forms: dowdier, dowdiest)
+- Adjective: dowdy (derived forms: dowdier, dowdiest)
 1. Lacking in smartness or taste
 "a dowdy grey outfit"; "a clean and sunny but completely dowdy room"
  
 2. Primly out of date (= frumpy, frumpish)
 "nothing so dowdy as last year's gambling game";
 
-- Noun: dowdy (Derived forms: dowdies)
+- Noun: dowdy (derived forms: dowdies)
 1. Deep-dish apple dessert covered with a rich crust (= pandowdy)
 
 - Noun: Dowdy

@@ -922,30 +922,12 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "I have to say in her defence that she knew nothing about it beforehand.0"),
+          // "I have to say in her defence that she knew nothing about it beforehand.0"),
           // speakdefences20
           // defences20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defences2100"),
           // speakdefences21
           // defences21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defences2200"),
           // speakdefences22
           // defences22("en-US"),

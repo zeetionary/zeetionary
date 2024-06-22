@@ -392,10 +392,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆ، خود، من،	خۆپەرستی، خۆخوازی، خۆبینی، هەرخۆیی، خۆپێ‌زلی،	ڕێزلەخۆنان، نرخ‌بۆخۆدانان
+کوردی: خۆ، خود، من،	خۆپەرستی، خۆخوازی، خۆبینی، ھەرخۆیی، خۆپێ‌زلی،	ڕێزلەخۆنان، نرخ‌بۆخۆدانان
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) هەستکردن بە بەها و گرنگی خۆت"""),
+              text: """١. (ناو) ھەستکردن بە بەھا و گرنگی خۆت"""),
           Row(
             children: [
               const Expanded(
@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He has the biggest ego of anyone I've ever met."""),
                     ExampleSentenceKurdish(
                         text:
-                            """خۆخوازیی زۆرترینی هەیە لە نێو ئەوانەی کە دیومە."""),
+                            """خۆخوازیی زۆرترینی ھەیە لە نێو ئەوانەی کە دیومە."""),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It was a huge blow to his ego to find out he was so unpopular."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لێدانێکی گەورە بوو لە خۆپەرستیی کە زانی هێندە لەبەرچاوکەوتوو بوو."""),
+                            """لێدانێکی گەورە بوو لە خۆپەرستیی کە زانی ھێندە لەبەرچاوکەوتوو بوو."""),
                   ],
                 ),
               ),
@@ -495,7 +495,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She likes to mix with people who flatter her ego."""),
                     ExampleSentenceKurdish(
                         text:
-                            """حەز دەکات تێکەڵ بەو کەسانە بێت کە بە شان و باڵی خۆپێ‌زلیی هەڵدەدەن."""),
+                            """حەز دەکات تێکەڵ بەو کەسانە بێت کە بە شان و باڵی خۆپێ‌زلیی ھەڵدەدەن."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) ئەو بەشەی مێشک کە بەرپرسە بۆ هەستکردن بەوەی کە کێیت"""),
+                  """٢. (ناو) ئەو بەشەی مێشک کە بەرپرسە بۆ ھەستکردن بەوەی کە کێیت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -527,7 +527,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Freud introduced the idea that a part of the ego is unconscious."""),
                     ExampleSentenceKurdish(
                         text:
-                            """فرۆید ئەو بیرۆکەیەی هێنایە بوون کە بەشێک لە خود نائاگایە."""),
+                            """فرۆید ئەو بیرۆکەیەی ھێنایە بوون کە بەشێک لە خود نائاگایە."""),
                   ],
                 ),
               ),
@@ -628,7 +628,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ego (Derived forms: egos)
+- Noun: ego (derived forms: egos)
 1. An inflated feeling of pride in your superiority to others (= egotism, self-importance)
  
 2. Your consciousness of your own identity (= self)

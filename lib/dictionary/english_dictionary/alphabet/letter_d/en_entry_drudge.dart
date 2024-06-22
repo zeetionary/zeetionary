@@ -498,12 +498,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drudge (Derived forms: drudges)
+- Noun: drudge (derived forms: drudges)
 1. One who works hard at boring tasks (= hack, hacker [informal])
  
 2. A labourer who is obliged to do menial work (= peon [N. Amer], navvy [Brit, informal], galley slave [informal])
 
-- Verb: drudge (Derived forms: drudging, drudges, drudged)
+- Verb: drudge (derived forms: drudging, drudges, drudged)
 1. Work hard (= labor [US], labour [Brit, Cdn], toil, fag [informal], travail [literary], grind [informal], dig [US, informal], moil [N. Amer])
 "Lexicographers drudge all day long";
 """,

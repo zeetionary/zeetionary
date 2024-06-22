@@ -272,165 +272,57 @@ class KurdishMeaning extends StatelessWidget {
           // denationalizations400"),
           // speakdenationalizations4
           // denationalizations4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations500"),
           // speakdenationalizations5
           // denationalizations5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations600"),
           // speakdenationalizations6
           // denationalizations6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations700"),
           // speakdenationalizations7
           // denationalizations7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations800"),
           // speakdenationalizations8
           // denationalizations8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations900"),
           // speakdenationalizations9
           // denationalizations9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1000"),
           // speakdenationalizations10
           // denationalizations10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1100"),
           // speakdenationalizations11
           // denationalizations11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1200"),
           // speakdenationalizations12
           // denationalizations12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1300"),
           // speakdenationalizations13
           // denationalizations13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1400"),
           // speakdenationalizations14
           // denationalizations14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1500"),
           // speakdenationalizations15
           // denationalizations15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1600"),
           // speakdenationalizations16
           // denationalizations16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1700"),
           // speakdenationalizations17
           // denationalizations17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1800"),
           // speakdenationalizations18
           // denationalizations18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations1900"),
           // speakdenationalizations19
           // denationalizations19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations2000"),
           // speakdenationalizations20
           // denationalizations20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations2100"),
           // speakdenationalizations21
           // denationalizations21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizations2200"),
           // speakdenationalizations22
           // denationalizations22("en-US"),

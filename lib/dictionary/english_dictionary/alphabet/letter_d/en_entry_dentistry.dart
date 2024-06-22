@@ -267,165 +267,57 @@ class KurdishMeaning extends StatelessWidget {
           // dentistrys400"),
           // speakdentistrys4
           // dentistrys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys500"),
           // speakdentistrys5
           // dentistrys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys600"),
           // speakdentistrys6
           // dentistrys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys700"),
           // speakdentistrys7
           // dentistrys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys800"),
           // speakdentistrys8
           // dentistrys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys900"),
           // speakdentistrys9
           // dentistrys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1000"),
           // speakdentistrys10
           // dentistrys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1100"),
           // speakdentistrys11
           // dentistrys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1200"),
           // speakdentistrys12
           // dentistrys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1300"),
           // speakdentistrys13
           // dentistrys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1400"),
           // speakdentistrys14
           // dentistrys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1500"),
           // speakdentistrys15
           // dentistrys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1600"),
           // speakdentistrys16
           // dentistrys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1700"),
           // speakdentistrys17
           // dentistrys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1800"),
           // speakdentistrys18
           // dentistrys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys1900"),
           // speakdentistrys19
           // dentistrys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys2000"),
           // speakdentistrys20
           // dentistrys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys2100"),
           // speakdentistrys21
           // dentistrys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dentistrys2200"),
           // speakdentistrys22
           // dentistrys22("en-US"),

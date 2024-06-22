@@ -331,176 +331,60 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defencelesss400"),
           // speakdefencelesss4
-          // defencelesss4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss4
           // defencelesss500"),
           // speakdefencelesss5
-          // defencelesss5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss5
           // defencelesss600"),
           // speakdefencelesss6
-          // defencelesss6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss6
           // defencelesss700"),
           // speakdefencelesss7
-          // defencelesss7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss7
           // defencelesss800"),
           // speakdefencelesss8
-          // defencelesss8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss8
           // defencelesss900"),
           // speakdefencelesss9
-          // defencelesss9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss9
           // defencelesss1000"),
           // speakdefencelesss10
-          // defencelesss10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss10
           // defencelesss1100"),
           // speakdefencelesss11
-          // defencelesss11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss11
           // defencelesss1200"),
           // speakdefencelesss12
-          // defencelesss12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss12
           // defencelesss1300"),
           // speakdefencelesss13
-          // defencelesss13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss13
           // defencelesss1400"),
           // speakdefencelesss14
-          // defencelesss14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss14
           // defencelesss1500"),
           // speakdefencelesss15
-          // defencelesss15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss15
           // defencelesss1600"),
           // speakdefencelesss16
-          // defencelesss16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss16
           // defencelesss1700"),
           // speakdefencelesss17
-          // defencelesss17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss17
           // defencelesss1800"),
           // speakdefencelesss18
-          // defencelesss18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss18
           // defencelesss1900"),
           // speakdefencelesss19
-          // defencelesss19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "How could anyone steal from a poor defenceless old lady?0"),
+          // defencelesss19
+          // "How could anyone steal from a poor defenceless old lady?0"),
           // speakdefencelesss20
-          // defencelesss20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss20
           // defencelesss2100"),
           // speakdefencelesss21
-          // defencelesss21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defencelesss21
           // defencelesss2200"),
           // speakdefencelesss22
           // defencelesss22("en-US"),

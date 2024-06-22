@@ -342,165 +342,57 @@ class KurdishMeaning extends StatelessWidget {
           // deplorables400"),
           // speakdeplorables4
           // deplorables4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables500"),
           // speakdeplorables5
           // deplorables5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables600"),
           // speakdeplorables6
           // deplorables6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables700"),
           // speakdeplorables7
           // deplorables7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables800"),
           // speakdeplorables8
           // deplorables8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables900"),
           // speakdeplorables9
           // deplorables9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1000"),
           // speakdeplorables10
           // deplorables10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1100"),
           // speakdeplorables11
           // deplorables11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1200"),
           // speakdeplorables12
           // deplorables12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1300"),
           // speakdeplorables13
           // deplorables13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1400"),
           // speakdeplorables14
           // deplorables14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1500"),
           // speakdeplorables15
           // deplorables15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1600"),
           // speakdeplorables16
           // deplorables16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1700"),
           // speakdeplorables17
           // deplorables17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1800"),
           // speakdeplorables18
           // deplorables18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables1900"),
           // speakdeplorables19
           // deplorables19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "They were living in the most deplorable conditions.0"),
+          // "They were living in the most deplorable conditions.0"),
           // speakdeplorables20
           // deplorables20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables2100"),
           // speakdeplorables21
           // deplorables21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deplorables2200"),
           // speakdeplorables22
           // deplorables22("en-US"),

@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """All ecologies on earth are heavily shaped by human activity."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو جۆرەکانی ژینگەناسی تەواو کاریگەرن بە چالاکی مرۆڤ."""),
+                            """ھەموو جۆرەکانی ژینگەناسی تەواو کاریگەرن بە چالاکی مرۆڤ."""),
                   ],
                 ),
               ),
@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She hopes to study ecology at college."""),
                     ExampleSentenceKurdish(
-                        text: """بە هیوایە ژینگەناسی بخوێنێت لە کۆلێژ."""),
+                        text: """بە ھیوایە ژینگەناسی بخوێنێت لە کۆلێژ."""),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ecology (Derived forms: ecologies)
+- Noun: ecology (derived forms: ecologies)
 1. The environment as it relates to living organisms
 "it changed the ecology of the island"
  

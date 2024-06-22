@@ -536,7 +536,7 @@ ${englishMeaningConst.text}
 2. Filled with melancholy and despondency (= gloomy, grim, blue [informal], depressed, dispirited, down, downhearted, down in the mouth, low, low-spirited)
 "downcast after his defeat";
 
-- Noun: downcast (Derived forms: downcasts)
+- Noun: downcast (derived forms: downcasts)
 1. A ventilation shaft through which air enters a mine
 """,
   );

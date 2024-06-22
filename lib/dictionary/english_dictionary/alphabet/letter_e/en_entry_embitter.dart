@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) واکردنی ئەوەی کەسێک هەست بە تووڕەیی و نیگەرانی بکات سەبارەت بە شتێک بۆ ماوەیەکی زۆر"""),
+                  """١. (کردار) واکردنی ئەوەی کەسێک ھەست بە تووڕەیی و نیگەرانی بکات سەبارەت بە شتێک بۆ ماوەیەکی زۆر"""),
           Row(
             children: [
               const Expanded(
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embitter (Derived forms: embitters, embittering, embittered)
+- Verb: embitter (derived forms: embitters, embittering, embittered)
 1. Cause to be bitter or resentful (= envenom [archaic], acerbate)
 "These injustices embittered her even more";
 """,

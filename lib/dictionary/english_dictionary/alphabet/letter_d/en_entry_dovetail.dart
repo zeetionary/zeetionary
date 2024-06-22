@@ -567,10 +567,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dovetail (Derived forms: dovetails)
+- Noun: dovetail (derived forms: dovetails)
 1. A mortise joint formed by interlocking tenons and mortises (= dovetail joint)
 
-- Verb: dovetail (Derived forms: dovetails, dovetailing, dovetailed)
+- Verb: dovetail (derived forms: dovetails, dovetailing, dovetailed)
 1. Fit together tightly, as if by means of a dovetail
 """,
   );

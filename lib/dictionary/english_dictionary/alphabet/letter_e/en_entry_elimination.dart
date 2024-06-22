@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لابردن، خستنەلا، سڕینەوە، نەهێشتن، تیابردن، خاشەبڕکردن، پاکتاوکردن، بنبڕکردن، لەنێوبردن، هەڵگرتن، هەڵتەکاندن،	کوشتن،	دوورخستنەوە، دەرکردن، خستنەدەرەوە، دەرپەڕاندن
+کوردی: لابردن، خستنەلا، سڕینەوە، نەھێشتن، تیابردن، خاشەبڕکردن، پاکتاوکردن، بنبڕکردن، لەنێوبردن، ھەڵگرتن، ھەڵتەکاندن،	کوشتن،	دوورخستنەوە، دەرکردن، خستنەدەرەوە، دەرپەڕاندن
 """),
           const DefinitionKurdish(
               text: """١. (ناو) سڕینەوە یان بە تەواوی ڕزگاربوون لە شتێک"""),
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There were three eliminations in the first round of the competition."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سێ دەرکردن هەبوو لە یەکەم قۆناغی پاڵەوانێتییەکە."""),
+                            """سێ دەرکردن ھەبوو لە یەکەم قۆناغی پاڵەوانێتییەکە."""),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The elimination of his opponents became his strategy for solidifying his grip on power."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لەناوبردنی دوژمنەکانی بوو بە ستراتیژیی بۆ بەهێزکردنی کۆنتڕۆڵی دەسەڵاتی."""),
+                            """لەناوبردنی دوژمنەکانی بوو بە ستراتیژیی بۆ بەھێزکردنی کۆنتڕۆڵی دەسەڵاتی."""),
                   ],
                 ),
               ),
@@ -555,7 +555,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elimination (Derived forms: eliminations)
+- Noun: elimination (derived forms: eliminations)
 1. The act of removing or getting rid of something (= riddance)
  
 2. The bodily process of discharging waste matter (= evacuation, excretion, excreting, voiding)

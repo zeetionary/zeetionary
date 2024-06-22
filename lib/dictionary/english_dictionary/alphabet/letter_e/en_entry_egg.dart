@@ -450,10 +450,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (زیندەناسی) هێلکە، گەرا، زەبەقوون، خا، هێک،	(زیندەناسی) هێلکۆکە، خانەی زاوزێی مێیینەی گیانەوەران و ڕووەکەکان
+کوردی: (زیندەناسی) ھێلکە، گەرا، زەبەقوون، خا، ھێک،	(زیندەناسی) ھێلکۆکە، خانەی زاوزێی مێیینەی گیانەوەران و ڕووەکەکان
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) هێلکەیەک کە بێچووی تێدایە"""),
+              text: """١. (ناو) ھێلکەیەک کە بێچووی تێدایە"""),
           Row(
             children: [
               const Expanded(
@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The female sits on the eggs until they hatch."""),
                     ExampleSentenceKurdish(
                         text:
-                            """مێینەکە لەسەر هێلکەکان کڕدەکەوێت تاوەکو هەڵدێن."""),
+                            """مێینەکە لەسەر ھێلکەکان کڕدەکەوێت تاوەکو ھەڵدێن."""),
                   ],
                 ),
               ),
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The fish lay thousands of eggs at one time."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ماسییەکان هەزاران هێلکە لە یەک کاتدا دەنێنەوە."""),
+                            """ماسییەکان ھەزاران ھێلکە لە یەک کاتدا دەنێنەوە."""),
                   ],
                 ),
               ),
@@ -522,7 +522,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Many reptiles bury their eggs."""),
                     ExampleSentenceKurdish(
-                        text: """زۆر خشۆک هێلکەکانیان دەنێژن."""),
+                        text: """زۆر خشۆک ھێلکەکانیان دەنێژن."""),
                   ],
                 ),
               ),
@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The males stay and guard the eggs."""),
                     ExampleSentenceKurdish(
-                        text: """نێرەکان دەمێننەوە هێلکەکان دەپارێزن."""),
+                        text: """نێرەکان دەمێننەوە ھێلکەکان دەپارێزن."""),
                   ],
                 ),
               ),
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) هێلکەیەک کە دەخوردرێت"""),
+          const DefinitionKurdish(text: """٢. (ناو) ھێلکەیەک کە دەخوردرێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -578,7 +578,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """You've got some egg on your shirt."""),
                     ExampleSentenceKurdish(
-                        text: """هەندێک هێلکە بە جلەکەتەوەیە."""),
+                        text: """ھەندێک ھێلکە بە جلەکەتەوەیە."""),
                   ],
                 ),
               ),
@@ -606,7 +606,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Crack two eggs into the mixture."""),
                     ExampleSentenceKurdish(
-                        text: """دوو هێلکە بشکێنە ناو تێکەڵەکە."""),
+                        text: """دوو ھێلکە بشکێنە ناو تێکەڵەکە."""),
                   ],
                 ),
               ),
@@ -636,7 +636,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Separate the eggs, putting the whites to one side."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هێلکەکان جیابکەرەوە و سپێنەکان بخە لایەکەوە."""),
+                            """ھێلکەکان جیابکەرەوە و سپێنەکان بخە لایەکەوە."""),
                   ],
                 ),
               ),
@@ -666,7 +666,7 @@ class KurdishMeaning extends StatelessWidget {
                             """How do you like your eggs - fried or boiled?"""),
                     ExampleSentenceKurdish(
                         text:
-                            """حەز دەکەیت هێلکەکانت چۆن بن ـ برژاو یان کوڵاو؟"""),
+                            """حەز دەکەیت ھێلکەکانت چۆن بن ـ برژاو یان کوڵاو؟"""),
                   ],
                 ),
               ),
@@ -696,7 +696,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Mix the butter with the sugar and then add the egg."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کەرەکە لەگەڵ شەکر تێکەڵ بکە و دواتر هێلکەکە زیاد بکە."""),
+                            """کەرەکە لەگەڵ شەکر تێکەڵ بکە و دواتر ھێلکەکە زیاد بکە."""),
                   ],
                 ),
               ),
@@ -725,7 +725,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Crack three eggs into a bowl and mix them together."""),
                     ExampleSentenceKurdish(
-                        text: """سێ هێلکە بشکێنە ناو جامێک و تێکەڵیان بکە."""),
+                        text: """سێ ھێلکە بشکێنە ناو جامێک و تێکەڵیان بکە."""),
                   ],
                 ),
               ),
@@ -755,7 +755,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The male sperm fertilizes the female egg."""),
                     ExampleSentenceKurdish(
-                        text: """سپێرمی نێرینەکە هێلکەی مێینەکە دەپیتێنێت."""),
+                        text: """سپێرمی نێرینەکە ھێلکەی مێینەکە دەپیتێنێت."""),
                   ],
                 ),
               ),
@@ -784,7 +784,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Many women conceive through the use of a donor egg."""),
                     ExampleSentenceKurdish(
-                        text: """زۆر ژن منداڵیان دەبێت بە هێلکەی بەخشراو."""),
+                        text: """زۆر ژن منداڵیان دەبێت بە ھێلکەی بەخشراو."""),
                   ],
                 ),
               ),
@@ -871,12 +871,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: egg (Derived forms: eggs)
+- Noun: egg (derived forms: eggs)
 1. Animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds
  
 2. Oval reproductive body of a fowl (especially a hen) used as food (= eggs)
 
-- Verb: egg (Derived forms: eggs, egged, egging)
+- Verb: egg (derived forms: eggs, egged, egging)
 1. Throw eggs at
  
 2. (cooking) coat with beaten egg

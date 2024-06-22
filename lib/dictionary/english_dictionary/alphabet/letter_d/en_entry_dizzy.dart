@@ -602,14 +602,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dizzy (Derived forms: dizzier, dizziest)
+- Adjective: dizzy (derived forms: dizzier, dizziest)
 1. Having or causing a whirling sensation; liable to falling (= giddy, woozy [informal], vertiginous)
 "had a dizzy spell"; "a dizzy pinnacle";
  
 2. Lacking seriousness; given to frivolity (= airheaded, empty-headed, featherbrained, giddy, light-headed, lightheaded, silly)
 "a dizzy blonde";
 
-- Verb: dizzy (Derived forms: dizzied, dizzying, dizzies)
+- Verb: dizzy (derived forms: dizzied, dizzying, dizzies)
 1. Make dizzy or giddy
 "a dizzying pace"
 """,

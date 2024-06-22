@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """Her footsteps echoed in the empty room."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەنگاوەکانی دەنگیان دەدایەوە لە ژوورە بەتاڵەکەدا."""),
+                            """ھەنگاوەکانی دەنگیان دەدایەوە لە ژوورە بەتاڵەکەدا."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The call echoed off the walls of the cave."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هاوارکردنەکە دژ بە دیوارەکانی ئەشکەوتەکە دەنگی دایەوە."""),
+                            """ھاوارکردنەکە دژ بە دیوارەکانی ئەشکەوتەکە دەنگی دایەوە."""),
                   ],
                 ),
               ),
@@ -567,7 +567,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The street echoed with the cries of children."""),
                     ExampleSentenceKurdish(
                         text:
-                            """شەقامەکان بە هاواری منداڵان دەنگی دەدایەوە."""),
+                            """شەقامەکان بە ھاواری منداڵان دەنگی دەدایەوە."""),
                   ],
                 ),
               ),
@@ -599,7 +599,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This is a view echoed by many on the right of the party."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەمە دیدێکە زۆرێک لە ڕاستڕەوانی پارتەکە لەگەڵی هاوڕان."""),
+                            """ئەمە دیدێکە زۆرێک لە ڕاستڕەوانی پارتەکە لەگەڵی ھاوڕان."""),
                   ],
                 ),
               ),
@@ -628,7 +628,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """They had ideas which seem to echo our own."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ژمارەیەک بیرۆکەیان هەبوو کە وادیاربوو لەگەڵ ئەوانەی ئێمە بگونجێن."""),
+                            """ژمارەیەک بیرۆکەیان ھەبوو کە وادیاربوو لەگەڵ ئەوانەی ئێمە بگونجێن."""),
                   ],
                 ),
               ),
@@ -658,7 +658,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There was an echo on the phone and I couldn't hear clearly."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەنگدانەوەیەک هەبوو لەسەر تەلەفۆنەکە و نەمدەتوانی بەباشی ببیستم."""),
+                            """دەنگدانەوەیەک ھەبوو لەسەر تەلەفۆنەکە و نەمدەتوانی بەباشی ببیستم."""),
                   ],
                 ),
               ),
@@ -705,7 +705,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٥. (ناو) شتێک کە شتێکی دیکەت بەبیردەهێنێتەوە"""),
+              text: """٥. (ناو) شتێک کە شتێکی دیکەت بەبیردەھێنێتەوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -717,7 +717,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Yesterday's crash has grim echoes of previous disasters."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پێکدادانەکە وەبیرهێنەرەوەی خەمناکی کارەساتەکانی پێشووترە."""),
+                            """پێکدادانەکە وەبیرھێنەرەوەی خەمناکی کارەساتەکانی پێشووترە."""),
                   ],
                 ),
               ),
@@ -838,7 +838,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: echo (Derived forms: echoed, echoing, echoes)
+- Verb: echo (derived forms: echoed, echoing, echoes)
 1. To say again or imitate (= repeat)
 "followers echoing the cries of their leaders";
  
@@ -848,7 +848,7 @@ ${englishMeaningConst.text}
 3. Bring to mind (= recall)
 "His words echoed John F. Kennedy";
 
-- Noun: echo (Derived forms: echoes)
+- Noun: echo (derived forms: echoes)
 1. The repetition of a sound resulting from reflection of the sound waves (= reverberation, sound reflection, replication)
 "she could hear echoes of her own footsteps";
  

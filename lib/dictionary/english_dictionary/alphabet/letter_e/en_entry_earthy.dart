@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) پەیوەندیدار بە جەستە، سێکس، هتد بەشێوەیەکی کراوە و ڕاستەوخۆ کە هەندێک کەس ڕەنگە بێ‌شەرمی یان جێگەی شەرمی ببینن """),
+                  """١. (ھاوەڵناو) پەیوەندیدار بە جەستە، سێکس، ھتد بەشێوەیەکی کراوە و ڕاستەوخۆ کە ھەندێک کەس ڕەنگە بێ‌شەرمی یان جێگەی شەرمی ببینن """),
           Row(
             children: [
               const Expanded(
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She has an earthy sense of humour."""),
                     ExampleSentenceKurdish(
-                        text: """حەزی بێ‌شەرمانەی گاڵتەوگەپی هەیە."""),
+                        text: """حەزی بێ‌شەرمانەی گاڵتەوگەپی ھەیە."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: earthy (Derived forms: earthiest, earthier)
+- Adjective: earthy (derived forms: earthiest, earthier)
 1. Of or consisting of or resembling earth
 "it had an earthy smell"; "only a little earthy bank separates me from the edge of the ocean"
  

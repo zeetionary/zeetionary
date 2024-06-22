@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: down payment (Derived forms: down payments)
+- Noun: down payment (derived forms: down payments)
 1. A partial payment made at the time of purchase; the balance to be paid later (= deposit)
 """,
   );

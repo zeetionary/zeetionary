@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          //           ExampleSentenceEnglish(text: "I didn't think it was in my DNA to get on stage and sing like that."),
+          // "I didn't think it was in my DNA to get on stage and sing like that."),
           //           ExampleSentenceKurdish(text: "پێم وانییە کە لە ناسنامەم بوو ."),
           //         ],
           //       ),
@@ -546,7 +546,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: DNA (Derived forms: DNAs)
+- Noun: DNA (derived forms: DNAs)
 1. (biochemistry) a long linear polymer found in the nucleus of a cell and formed from nucleotides and shaped like a double helix; associated with the transmission of genetic information (= deoxyribonucleic acid, desoxyribonucleic acid)
 "DNA is the king of molecules";
 """,

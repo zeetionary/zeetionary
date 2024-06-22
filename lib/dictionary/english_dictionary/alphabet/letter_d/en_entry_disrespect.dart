@@ -501,14 +501,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disrespect (Derived forms: disrespects)
+- Noun: disrespect (derived forms: disrespects)
 1. An expression of lack of respect (= discourtesy)
  
 2. A disrespectful mental attitude
  
 3. A manner that is generally disrespectful and contemptuous (= contempt)
 
-- Verb: disrespect (Derived forms: disrespects, disrespecting, disrespected)
+- Verb: disrespect (derived forms: disrespects, disrespecting, disrespected)
 1. Show a lack of respect for
  
 2. Have little or no respect for; hold in contempt (= disesteem)

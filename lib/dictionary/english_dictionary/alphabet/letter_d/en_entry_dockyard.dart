@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dockyard (Derived forms: dockyards)
+- Noun: dockyard (derived forms: dockyards)
 1. An establishment on the waterfront where vessels are built or fitted out or repaired
 """,
   );

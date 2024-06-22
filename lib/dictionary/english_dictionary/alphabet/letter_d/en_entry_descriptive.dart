@@ -308,165 +308,57 @@ class KurdishMeaning extends StatelessWidget {
           // descriptives400"),
           // speakdescriptives4
           // descriptives4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives500"),
           // speakdescriptives5
           // descriptives5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives600"),
           // speakdescriptives6
           // descriptives6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives700"),
           // speakdescriptives7
           // descriptives7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives800"),
           // speakdescriptives8
           // descriptives8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives900"),
           // speakdescriptives9
           // descriptives9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1000"),
           // speakdescriptives10
           // descriptives10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1100"),
           // speakdescriptives11
           // descriptives11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1200"),
           // speakdescriptives12
           // descriptives12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1300"),
           // speakdescriptives13
           // descriptives13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1400"),
           // speakdescriptives14
           // descriptives14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1500"),
           // speakdescriptives15
           // descriptives15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1600"),
           // speakdescriptives16
           // descriptives16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1700"),
           // speakdescriptives17
           // descriptives17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1800"),
           // speakdescriptives18
           // descriptives18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives1900"),
           // speakdescriptives19
           // descriptives19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The terms are descriptive of strong emotion.0"),
+          // "The terms are descriptive of strong emotion.0"),
           // speakdescriptives20
           // descriptives20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives2100"),
           // speakdescriptives21
           // descriptives21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // descriptives2200"),
           // speakdescriptives22
           // descriptives22("en-US"),

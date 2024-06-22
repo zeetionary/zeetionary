@@ -512,7 +512,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eater (Derived forms: eaters)
+- Noun: eater (derived forms: eaters)
 1. Someone who consumes food for nourishment (= feeder)
  
 2. Any green goods that are good to eat

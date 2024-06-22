@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earthworm (Derived forms: earthworms)
+- Noun: earthworm (derived forms: earthworms)
 1. Terrestrial worm that burrows into and helps aerate soil; often surfaces when the ground is cool or wet; used as bait by anglers (= angleworm, fishworm, fishing worm, wiggler, nightwalker [N. Amer], nightcrawler [N. Amer], crawler, dew worm, red worm, earth worm)
 """,
   );

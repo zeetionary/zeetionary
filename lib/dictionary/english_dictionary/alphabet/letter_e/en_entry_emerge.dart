@@ -459,7 +459,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەرکەوتن، هاتنەدەر، سەرهەڵدان
+کوردی: دەرکەوتن، ھاتنەدەر، سەرھەڵدان
 """),
           const DefinitionKurdish(text: """١. (کردار) دەرکەوتن"""),
           Row(
@@ -501,7 +501,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """She finally emerged from her room at noon."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لەکۆتاییدا لە نیوەڕۆدا لە ژوورەکەی هاتە دەرەوە."""),
+                            """لەکۆتاییدا لە نیوەڕۆدا لە ژوورەکەی ھاتە دەرەوە."""),
                   ],
                 ),
               ),
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The swimmer emerged from the lake."""),
                     ExampleSentenceKurdish(
-                        text: """مەلەوانەکە لە دەریاچەکە هاتە دەرەوە."""),
+                        text: """مەلەوانەکە لە دەریاچەکە ھاتە دەرەوە."""),
                   ],
                 ),
               ),
@@ -557,7 +557,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He emerged from the shadows."""),
                     ExampleSentenceKurdish(
-                        text: """لە تاریکییەکە هاتە دەرەوە."""),
+                        text: """لە تاریکییەکە ھاتە دەرەوە."""),
                   ],
                 ),
               ),
@@ -587,7 +587,7 @@ class KurdishMeaning extends StatelessWidget {
                             """No new evidence emerged during the investigation."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هیچ بەڵگەی تازە لە ماوەی لێکۆڵینەوەکە نەزاندرا."""),
+                            """ھیچ بەڵگەی تازە لە ماوەی لێکۆڵینەوەکە نەزاندرا."""),
                   ],
                 ),
               ),
@@ -694,7 +694,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (کردار) دەستکردن بە هەبوون"""),
+          const DefinitionKurdish(text: """٣. (کردار) دەستکردن بە ھەبوون"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -706,7 +706,7 @@ class KurdishMeaning extends StatelessWidget {
                             """After the elections opposition groups began to emerge."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە دوای هەڵبژاردنەکان گرووپی ئۆپۆزسیۆن دەستیان کرد بە درووست بوون."""),
+                            """لە دوای ھەڵبژاردنەکان گرووپی ئۆپۆزسیۆن دەستیان کرد بە درووست بوون."""),
                   ],
                 ),
               ),
@@ -824,7 +824,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The world is slowly emerging from recession."""),
                     ExampleSentenceKurdish(
-                        text: """جیهان بە هێواشی لە قەیرانەکە دەردەچێت."""),
+                        text: """جیھان بە ھێواشی لە قەیرانەکە دەردەچێت."""),
                   ],
                 ),
               ),
@@ -843,12 +843,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges1400emerges14
           // speakemerges14("en-US"""),
           //         ),
@@ -858,12 +852,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges1500emerges15
           // speakemerges15("en-US"""),
           //         ),
@@ -873,12 +861,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges1600emerges16
           // speakemerges16("en-US"""),
           //         ),
@@ -888,12 +870,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges1700emerges17
           // speakemerges17("en-US"""),
           //         ),
@@ -903,12 +879,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges1800emerges18
           // speakemerges18("en-US"""),
           //         ),
@@ -918,12 +888,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges1900emerges19
           // speakemerges19("en-US"""),
           //         ),
@@ -933,12 +897,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges_2000emerges20
           // speakemerges20("en-US"""),
           //         ),
@@ -948,12 +906,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges2100emerges21
           // speakemerges21("en-US"""),
           //         ),
@@ -963,12 +915,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // emerges2200emerges22
           // speakemerges22("en-US"""),
           //         ),
@@ -1021,7 +967,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: emerge (Derived forms: emerged, emerging, emerges)
+- Verb: emerge (derived forms: emerged, emerging, emerges)
 1. Come out into view, as from concealment
 "Suddenly, the proprietor emerged from his office"
  

@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) بەکارهێنانی کات، پارە، هتد ـی کەمتر لەوەی بەشێوەی ئاسایی بەکاری دەهێنیت"""),
+                  """١. (کردار) بەکارھێنانی کات، پارە، ھتد ـی کەمتر لەوەی بەشێوەی ئاسایی بەکاری دەھێنیت"""),
           Row(
             children: [
               const Expanded(
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """You could economize on food by not eating in restaurants all the time."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەتوانیت لەلایەنی خواردنەوە دەسپێوەگری بکەیت بەوەی هەمیشە لە چێشتخانەکان نان نەخۆیت."""),
+                            """دەتوانیت لەلایەنی خواردنەوە دەسپێوەگری بکەیت بەوەی ھەمیشە لە چێشتخانەکان نان نەخۆیت."""),
                   ],
                 ),
               ),
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """A lot of companies are trying to economize by not taking on new staff."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆر کۆمپانیا هەوڵ دەدەن نادەستبڵاو بن بەوەی ستافی تازە نەهێنن."""),
+                            """زۆر کۆمپانیا ھەوڵ دەدەن نادەستبڵاو بن بەوەی ستافی تازە نەھێنن."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: economize (Derived forms: economizes, economizing, economized)
+- Verb: economize (derived forms: economizes, economizing, economized)
 1. Use cautiously and frugally (= conserve, husband, economise [Brit])
 "I try to economize my spare time";
  

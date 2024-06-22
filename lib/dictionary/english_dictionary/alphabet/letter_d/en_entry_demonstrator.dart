@@ -457,147 +457,51 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators700"),
           // speakdemonstrators7
           // demonstrators7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators800"),
           // speakdemonstrators8
           // demonstrators8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators900"),
           // speakdemonstrators9
           // demonstrators9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1000"),
           // speakdemonstrators10
           // demonstrators10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1100"),
           // speakdemonstrators11
           // demonstrators11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1200"),
           // speakdemonstrators12
           // demonstrators12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1300"),
           // speakdemonstrators13
           // demonstrators13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1400"),
           // speakdemonstrators14
           // demonstrators14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1500"),
           // speakdemonstrators15
           // demonstrators15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1600"),
           // speakdemonstrators16
           // demonstrators16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1700"),
           // speakdemonstrators17
           // demonstrators17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1800"),
           // speakdemonstrators18
           // demonstrators18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators1900"),
           // speakdemonstrators19
           // demonstrators19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Demonstrators clashed with government soldiers in the country's capital yesterday.0"),
+          // "Demonstrators clashed with government soldiers in the country's capital yesterday.0"),
           // speakdemonstrators20
           // demonstrators20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators2100"),
           // speakdemonstrators21
           // demonstrators21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // demonstrators2200"),
           // speakdemonstrators22
           // demonstrators22("en-US"),

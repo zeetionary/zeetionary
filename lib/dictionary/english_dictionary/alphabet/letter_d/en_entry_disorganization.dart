@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disorganization (Derived forms: disorganizations)
+- Noun: disorganization (derived forms: disorganizations)
 1. A condition in which an orderly system has been disrupted (= disorganisation [Brit], disarrangement)
  
 2. The disturbance of a systematic arrangement causing disorder and confusion (= disorganisation [Brit])

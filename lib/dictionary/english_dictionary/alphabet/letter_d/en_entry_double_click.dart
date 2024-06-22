@@ -503,7 +503,7 @@ ${englishMeaningConst.text}
 - Noun: double click
 1. (computing) the action of pushing the button on a mouse twice in quick succession in order to select and activate a particular item in a user interface
 
-- Verb: double-click (Derived forms: double-clicks, double-clicked, double-clicking)
+- Verb: double-click (derived forms: double-clicks, double-clicked, double-clicking)
 1. (computing) to push the same button on a mouse twice in quick succession
 "You may have to double-click icons to open the programs"
 """,

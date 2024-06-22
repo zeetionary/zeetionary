@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: displease (Derived forms: displeasing, displeased, displeases)
+- Verb: displease (derived forms: displeasing, displeased, displeases)
 1. Give displeasure to
 "Have you done anything to displease him by asking him why he has done so?"
 """,

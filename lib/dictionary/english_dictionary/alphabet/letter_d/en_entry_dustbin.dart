@@ -563,7 +563,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dustbin (Derived forms: dustbins)
+- Noun: dustbin (derived forms: dustbins)
 Usage: Brit, Cdn (US: trash can)
 1. A bin that holds rubbish until it is collected (= ashcan [N. Amer], trash can [N. Amer], garbage can [N. Amer], wastebin [Brit], ash bin [N. Amer], ash-bin [N. Amer], ashbin [N. Amer], trash barrel [N. Amer], trash bin [N. Amer], rubbish bin [Brit])
 """,

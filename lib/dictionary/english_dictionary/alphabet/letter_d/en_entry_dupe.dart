@@ -566,10 +566,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dupe (Derived forms: dupes)
+- Noun: dupe (derived forms: dupes)
 1. A person who is tricked or swindled (= victim)
 
-- Verb: dupe (Derived forms: duped, dupes, duping)
+- Verb: dupe (derived forms: duped, dupes, duping)
 1. Fool or hoax (= gull, slang [archaic, informal], befool [archaic], cod [Brit, informal], fool, put on, take in, put one over [informal], put one across [informal])
 "The immigrant was duped because he trusted everyone"; 
 """,

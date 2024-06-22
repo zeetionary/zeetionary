@@ -566,7 +566,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drinker (Derived forms: drinkers)
+- Noun: drinker (derived forms: drinkers)
 1. A person who drinks liquids
  
 2. A person who drinks alcoholic beverages (especially to excess) (= imbiber, toper, juicer, sponge [informal], soak [informal])

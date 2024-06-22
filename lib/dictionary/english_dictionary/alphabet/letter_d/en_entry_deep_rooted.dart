@@ -296,13 +296,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The custom has become a deep-rooted tradition."),
+          // "The custom has become a deep-rooted tradition."),
           // speakdeeprooteds2
           // deeprooteds2("en-US"),
         ],

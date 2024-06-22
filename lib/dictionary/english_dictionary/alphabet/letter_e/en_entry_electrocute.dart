@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: electrocute (Derived forms: electrocuted, electrocutes, electrocuting)
+- Verb: electrocute (derived forms: electrocuted, electrocutes, electrocuting)
 1. Kill by electric shock
 "She dropped the hair dryer into the bathtub and was instantly electrocuted"
  

@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئێلیکتریستی، برق، کارەبا، تەوژمی ئێلیکتریسیتە،	وروژان، هەژان، بزوان
+کوردی: ئێلیکتریستی، برق، کارەبا، تەوژمی ئێلیکتریسیتە،	وروژان، ھەژان، بزوان
 """),
           const DefinitionKurdish(text: """١. (ناو) کارەبا"""),
           Row(
@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The wind farm will generate enough electricity for some 30 000 homes."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وێستگە باییەکە کارەبای پێویست بۆ ٣٠٠٠٠ ماڵ بەرهەم دەهێنێت."""),
+                            """وێستگە باییەکە کارەبای پێویست بۆ ٣٠٠٠٠ ماڵ بەرھەم دەھێنێت."""),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                             """No progress was made towards harnessing electricity as an energy source."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هیچ بەرەوپێشچوون ئەنجام نەدرا لە بەکارهێنانی کارەبا وەک سەرچاوەی وزە."""),
+                            """ھیچ بەرەوپێشچوون ئەنجام نەدرا لە بەکارھێنانی کارەبا وەک سەرچاوەی وزە."""),
                   ],
                 ),
               ),
@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """All the houses now have electricity."""),
                     ExampleSentenceKurdish(
-                        text: """تەواوی لە ئێستادا کارەبایان هەیە."""),
+                        text: """تەواوی لە ئێستادا کارەبایان ھەیە."""),
                   ],
                 ),
               ),
@@ -587,7 +587,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electricity (Derived forms: electricities)
+- Noun: electricity (derived forms: electricities)
 1. A physical phenomenon associated with stationary or moving electrons and protons
  
 2. Energy made available by the flow of electric charge through a conductor (= electrical energy, power, leccy [Brit, informal])

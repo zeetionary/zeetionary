@@ -421,156 +421,54 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defensives600"),
           // speakdefensives6
-          // defensives6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives6
           // defensives700"),
           // speakdefensives7
-          // defensives7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives7
           // defensives800"),
           // speakdefensives8
-          // defensives8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives8
           // defensives900"),
           // speakdefensives9
-          // defensives9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives9
           // defensives1000"),
           // speakdefensives10
-          // defensives10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives10
           // defensives1100"),
           // speakdefensives11
-          // defensives11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives11
           // defensives1200"),
           // speakdefensives12
-          // defensives12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives12
           // defensives1300"),
           // speakdefensives13
-          // defensives13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives13
           // defensives1400"),
           // speakdefensives14
-          // defensives14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives14
           // defensives1500"),
           // speakdefensives15
-          // defensives15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives15
           // defensives1600"),
           // speakdefensives16
-          // defensives16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives16
           // defensives1700"),
           // speakdefensives17
-          // defensives17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives17
           // defensives1800"),
           // speakdefensives18
-          // defensives18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives18
           // defensives1900"),
           // speakdefensives19
-          // defensives19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Troops took up a defensive position around the town.0"),
+          // defensives19
+          // "Troops took up a defensive position around the town.0"),
           // speakdefensives20
-          // defensives20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives20
           // defensives2100"),
           // speakdefensives21
-          // defensives21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensives21
           // defensives2200"),
           // speakdefensives22
           // defensives22("en-US"),

@@ -321,138 +321,48 @@ class KurdishMeaning extends StatelessWidget {
           // desktops700"),
           // speakdesktops7
           // desktops7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops800"),
           // speakdesktops8
           // desktops8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops900"),
           // speakdesktops9
           // desktops9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1000"),
           // speakdesktops10
           // desktops10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1100"),
           // speakdesktops11
           // desktops11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1200"),
           // speakdesktops12
           // desktops12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1300"),
           // speakdesktops13
           // desktops13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1400"),
           // speakdesktops14
           // desktops14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1500"),
           // speakdesktops15
           // desktops15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1600"),
           // speakdesktops16
           // desktops16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1700"),
           // speakdesktops17
           // desktops17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1800"),
           // speakdesktops18
           // desktops18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops1900"),
           // speakdesktops19
           // desktops19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable.0"),
+          // "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable.0"),
           // speakdesktops20
           // desktops20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops2100"),
           // speakdesktops21
           // desktops21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desktops2200"),
           // speakdesktops22
           // desktops22("en-US"),

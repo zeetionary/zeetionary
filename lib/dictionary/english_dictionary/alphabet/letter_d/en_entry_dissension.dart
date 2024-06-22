@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dissension (Derived forms: dissensions)
+- Noun: dissension (derived forms: dissensions)
 1. Disagreement among those expected to cooperate (= discord)
  
 2. A conflict of people's opinions, actions or characters (= disagreement, dissonance)

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ژمارەیەک سمبولی سەر کیبۆرد کە هەستێک دەردەبڕن، بۆ نموونە :-) ڕوخسارێکی دڵخۆشە"""),
+                  """١. (ناو) ژمارەیەک سمبولی سەر کیبۆرد کە ھەستێک دەردەبڕن، بۆ نموونە :-) ڕوخسارێکی دڵخۆشە"""),
           Row(
             children: [
               const Expanded(
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emoticon (Derived forms: emoticons)
+- Noun: emoticon (derived forms: emoticons)
 1. A representation of a facial expression (as a smile or frown) created by typing a sequence of characters in sending email
 ":-(and :-) are emoticons"
 """,

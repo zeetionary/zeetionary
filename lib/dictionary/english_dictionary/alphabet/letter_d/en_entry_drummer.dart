@@ -495,7 +495,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drummer (Derived forms: drummers)
+- Noun: drummer (derived forms: drummers)
 1. Someone who plays a drum
  
 2. [N. Amer, informal] A salesman who travels to call on customers (= traveling salesman [US], travelling salesman [Brit, Cdn], commercial traveler [US], commercial traveller [Brit, Cdn], roadman, bagman)

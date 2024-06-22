@@ -504,7 +504,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاسان، سانا، ساکار، بێ‌زەحمەت، خۆش، بێ‌ئەرک،	ئاسوودە، تەناهـ، بێ‌دەردی‌سەر، بێ‌گێرەوکێشە، نانیگەران، خەیاڵ‌تەخت، بێ‌خەیاڵ، بێ‌خەم، لە ئاسایش‌دا،	مفتە،	(هەڵس‌وکەوت و هتد) خۆمانە، سادە،	نەرم، نەرم‌ونیان (خوو و خدە)
+کوردی: ئاسان، سانا، ساکار، بێ‌زەحمەت، خۆش، بێ‌ئەرک،	ئاسوودە، تەناھـ، بێ‌دەردی‌سەر، بێ‌گێرەوکێشە، نانیگەران، خەیاڵ‌تەخت، بێ‌خەیاڵ، بێ‌خەم، لە ئاسایش‌دا،	مفتە،	(ھەڵس‌وکەوت و ھتد) خۆمانە، سادە،	نەرم، نەرم‌ونیان (خوو و خدە)
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) ئاسان"""),
           Row(
@@ -607,7 +607,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text: """The tool is quick and easy to use."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """ئامرازەکە خێرا و ئاسانە بۆ بەکارهێنان."""),
+                                    """ئامرازەکە خێرا و ئاسانە بۆ بەکارھێنان."""),
                           ],
                         ),
                       ),
@@ -667,7 +667,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """There are no easy answers in cases like this."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """هیچ وەڵامێکی ئاسان نییە لە دۆخێکی وەهادا."""),
+                                    """ھیچ وەڵامێکی ئاسان نییە لە دۆخێکی وەھادا."""),
                           ],
                         ),
                       ),
@@ -697,7 +697,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """Doing all that while injured isn't exactly easy."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """کردنی هەموو ئەوە لە کاتی برینداریدا تەواو ئاسان نییە."""),
+                                    """کردنی ھەموو ئەوە لە کاتی برینداریدا تەواو ئاسان نییە."""),
                           ],
                         ),
                       ),
@@ -820,7 +820,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """I don't feel easy about letting the kids go out alone."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """هەست بە ئاسوودەیی ناکەم ڕێگا بدەم منداڵەکان بە تەنها بچنە دەرەوە."""),
+                                    """ھەست بە ئاسوودەیی ناکەم ڕێگا بدەم منداڵەکان بە تەنھا بچنە دەرەوە."""),
                           ],
                         ),
                       ),
@@ -848,7 +848,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: """I've had a very easy day at work."""),
                             ExampleSentenceKurdish(
-                                text: """ڕۆژێکی ئاسانم هەبوو لە کار."""),
+                                text: """ڕۆژێکی ئاسانم ھەبوو لە کار."""),
                           ],
                         ),
                       ),
@@ -878,7 +878,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """I'll agree to anything for an easy life."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """ڕازیم بە هەر شتێک بۆ ژیانێکی ئاسان."""),
+                                    """ڕازیم بە ھەر شتێک بۆ ژیانێکی ئاسان."""),
                           ],
                         ),
                       ),
@@ -907,7 +907,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text: """I felt a bit easier after that."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """کەمێک هەستم بە ئاسوودەیی کرد لە دوای ئەوە."""),
+                                    """کەمێک ھەستم بە ئاسوودەیی کرد لە دوای ئەوە."""),
                           ],
                         ),
                       ),
@@ -986,7 +986,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ھاوەڵناو) خۆش و هاوڕێیانە"""),
+          const DefinitionKurdish(text: """٤. (ھاوەڵناو) خۆش و ھاوڕێیانە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -995,7 +995,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: """He had an easy manner."""),
                     ExampleSentenceKurdish(
-                        text: """هەڵسوکەوتی هاوڕێیانەی هەبووە."""),
+                        text: """ھەڵسوکەوتی ھاوڕێیانەی ھەبووە."""),
                   ],
                 ),
               ),
@@ -1128,7 +1128,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: easy (Derived forms: easiest, easier)
+- Adjective: easy (derived forms: easiest, easier)
 1. Posing no difficulty; requiring little effort
 "an easy job"; "an easy problem"; "an easy victory"; "the house is easy to heat"; "satisfied with easy answers"; "took the easy way out of his dilemma"
  

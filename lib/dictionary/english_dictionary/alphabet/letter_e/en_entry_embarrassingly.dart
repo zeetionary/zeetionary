@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Embarrassingly, I'd never heard of Rihanna."""),
                     ExampleSentenceKurdish(
                         text:
-                            """شەرمهێنەرانە، هەرگیز لەسەر ڕێهانام نەبیستبوو."""),
+                            """شەرمھێنەرانە، ھەرگیز لەسەر ڕێھانام نەبیستبوو."""),
                   ],
                 ),
               ),

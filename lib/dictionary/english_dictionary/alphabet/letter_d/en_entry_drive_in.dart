@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drive-in (Derived forms: drive-ins)
+- Noun: drive-in (derived forms: drive-ins)
 1. Any installation designed to accommodate patrons in their automobiles
 """,
   );

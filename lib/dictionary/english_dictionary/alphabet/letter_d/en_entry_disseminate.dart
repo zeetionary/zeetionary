@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disseminate (Derived forms: disseminates, disseminating, disseminated)
+- Verb: disseminate (derived forms: disseminates, disseminating, disseminated)
 1. Cause to become widely known (= circulate, circularize, circularise [Brit], distribute, propagate, broadcast, spread, diffuse, disperse, pass around)
 "disseminate a rumour";
 """,

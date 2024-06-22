@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The two men managed to elude the police for six weeks."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دوو پیاوەکە توانییان بۆ شەش هەفتە خۆیان لە پۆلیس بدزنەوە."""),
+                            """دوو پیاوەکە توانییان بۆ شەش ھەفتە خۆیان لە پۆلیس بدزنەوە."""),
                   ],
                 ),
               ),
@@ -458,7 +458,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (کردار) کە شتێک وادەکات نەتوانی بەدەستی بهێنیت، یان ئەوەی کە بیرت بکەوێتەوە یان لێی تێ بگەیت"""),
+                  """٢. (کردار) کە شتێک وادەکات نەتوانی بەدەستی بھێنیت، یان ئەوەی کە بیرت بکەوێتەوە یان لێی تێ بگەیت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -469,7 +469,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """He was extremely tired but sleep eluded him."""),
                     ExampleSentenceKurdish(
-                        text: """تەواو ماندوو بوو بەڵام خەوی نەدەهات."""),
+                        text: """تەواو ماندوو بوو بەڵام خەوی نەدەھات."""),
                   ],
                 ),
               ),
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Winning this championship was a prize that had always eluded him."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بردنەوەی ئەم پاڵەوانێتییە ئامانجێک بوو کە هەرگیز بە دەستی نەهێنابوو."""),
+                            """بردنەوەی ئەم پاڵەوانێتییە ئامانجێک بوو کە ھەرگیز بە دەستی نەھێنابوو."""),
                   ],
                 ),
               ),
@@ -630,7 +630,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: elude (Derived forms: eluded, eludes, eluding)
+- Verb: elude (derived forms: eluded, eludes, eluding)
 1. Escape, either physically or mentally (= evade, bilk [archaic])
 "The thief eluded the police";
  

@@ -485,7 +485,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elder statesman (Derived forms: elder statesmen)
+- Noun: elder statesman (derived forms: elder statesmen)
 1. Any influential person whose advice is highly respected
  
 2. An elderly statesman whose advice is sought be government leaders

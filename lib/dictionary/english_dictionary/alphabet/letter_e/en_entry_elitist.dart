@@ -375,11 +375,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵبژاردەگەر، ئێلیتیست
+کوردی: ھەڵبژاردەگەر، ئێلیتیست
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) ڕێکخستنی سیستەمیک، دامەزراوەیەک، هتد بەشێوەیەک کە کەمینەیەک دەسەڵاتیان هەیە"""),
+                  """١. (ھاوەڵناو) ڕێکخستنی سیستەمیک، دامەزراوەیەک، ھتد بەشێوەیەک کە کەمینەیەک دەسەڵاتیان ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Universities are becoming far less elitist."""),
                     ExampleSentenceKurdish(
-                      text: """زانکۆکان دەبن بە هەڵبژاردەگەری زۆر کەمتر.""",
+                      text: """زانکۆکان دەبن بە ھەڵبژاردەگەری زۆر کەمتر.""",
                       note:
                           "واتا خوێندکاران لە چینە جیاوازەکانەوە ڕوویان تێدەگەن",
                     ),
@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) هەستکردن بەوەی باشتریت چونکە بەشێکی لە کەمینەیەکی باڵادەست"""),
+                  """٢. (ھاوەڵناو) ھەستکردن بەوەی باشتریت چونکە بەشێکی لە کەمینەیەکی باڵادەست"""),
           const DividerSentences(),
           Row(
             children: [
@@ -454,7 +454,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She rejected suggestions that she and her husband were elitists, out of touch with working men and women."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕەتیکردەوە کە خۆی و هاوسەرەکەی ئیلیتیست بن و بێ ئاگا بن لە پیاوان و ژنانی کارکەر."""),
+                            """ڕەتیکردەوە کە خۆی و ھاوسەرەکەی ئیلیتیست بن و بێ ئاگا بن لە پیاوان و ژنانی کارکەر."""),
                   ],
                 ),
               ),
@@ -559,7 +559,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elitist (Derived forms: élitists, elitists)
+- Noun: elitist (derived forms: élitists, elitists)
 1. Someone who believes in rule by an elite group (= élitist [Brit])
 """,
   );

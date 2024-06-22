@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: easel (Derived forms: easels)
+- Noun: easel (derived forms: easels)
 1. An upright tripod for displaying something (usually an artist's canvas)
 """,
   );

@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """It all turned out to be an elaborate hoax."""),
                     ExampleSentenceKurdish(
-                        text: """هەمووی وا دەرچوو کە فێڵێکی ئاڵۆز بێت."""),
+                        text: """ھەمووی وا دەرچوو کە فێڵێکی ئاڵۆز بێت."""),
                   ],
                 ),
               ),
@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He said he was resigning but did not elaborate on his reasons."""),
                     ExampleSentenceKurdish(
                         text:
-                            """گوتی دەستلەکاردەکێشێتەوە، بەڵام هۆکارەکەی ڕووننەکردەوە."""),
+                            """گوتی دەستلەکاردەکێشێتەوە، بەڵام ھۆکارەکەی ڕووننەکردەوە."""),
                   ],
                 ),
               ),
@@ -533,7 +533,7 @@ class KurdishMeaning extends StatelessWidget {
                             """They refused to elaborate on the reasons for their decision."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕەتیان کردەوە هۆکارەکانیان بۆ بڕیارەکە ڕوونبکەنەوە."""),
+                            """ڕەتیان کردەوە ھۆکارەکانیان بۆ بڕیارەکە ڕوونبکەنەوە."""),
                   ],
                 ),
               ),
@@ -553,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (کردار) گەڵاڵەکردنی پلانێک، بیرۆکەیەک، هتد و وا بکەیت کە ئاڵۆز یان پڕ وردەکاری بێت"""),
+                  """٣. (کردار) گەڵاڵەکردنی پلانێک، بیرۆکەیەک، ھتد و وا بکەیت کە ئاڵۆز یان پڕ وردەکاری بێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -671,7 +671,7 @@ ${englishMeaningConst.text}
 2. Developed or executed with care and in minute detail (= detailed, elaborated)
 "the elaborate register of the inhabitants prevented tax evasion";
 
-- Verb: elaborate (Derived forms: elaborated, elaborating, elaborates)
+- Verb: elaborate (derived forms: elaborated, elaborating, elaborates)
 1. Describe and explain in detail (= lucubrate [archaic], expatiate, exposit, enlarge, flesh out, expand, expound, dilate)
 "She elaborated on the main ideas in her dissertation";
  

@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duchess (Derived forms: duchesses)
+- Noun: duchess (derived forms: duchesses)
 1. The wife of a duke or a woman holding ducal title in her own right
 """,
   );

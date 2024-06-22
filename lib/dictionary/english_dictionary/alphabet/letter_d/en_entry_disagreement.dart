@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "The comparison shows considerable disagreement between theory and practice."),
+          // "The comparison shows considerable disagreement between theory and practice."),
           // speakdisagreements5
           // disagreements5("en-US"),
           // disagreements600"),

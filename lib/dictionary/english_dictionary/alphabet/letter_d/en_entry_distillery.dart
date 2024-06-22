@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: distillery (Derived forms: distilleries)
+- Noun: distillery (derived forms: distilleries)
 1. A plant and works where alcoholic drinks are made by distillation (= still)
 """,
   );

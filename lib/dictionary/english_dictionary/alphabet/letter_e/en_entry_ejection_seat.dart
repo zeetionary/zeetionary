@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: کورسی هاویشتن یان خستنەدەرەوە (فڕۆکە)
+// کوردی: کورسی ھاویشتن یان خستنەدەرەوە (فڕۆکە)
 // """),
           const DefinitionKurdish(
               text:
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The pilot was saved by the ejector seat."""),
                     ExampleSentenceKurdish(
                         text:
-                            """فڕۆکەوانەکە بەهۆی کورسییە هاوێژەرەکەوە ڕزگاری بوو."""),
+                            """فڕۆکەوانەکە بەھۆی کورسییە ھاوێژەرەکەوە ڕزگاری بوو."""),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ejection seat (Derived forms: ejection seats)
+- Noun: ejection seat (derived forms: ejection seats)
 Usage: N. Amer (elsewhere: ejector seat)
 1. A pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute (= ejector seat [Brit], capsule)
 """,

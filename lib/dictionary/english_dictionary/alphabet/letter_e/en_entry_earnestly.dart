@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He hopes school officials will continue to work earnestly to ensure the rights of their minority students."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هیوای وابوو بەرپرسانی قوتابخانە بە شێلگیرانە کار بکەن بێ‌وچان بۆ دڵنیاییکردنەوە لە مافی خوێندکارە کەمینەکان."""),
+                            """ھیوای وابوو بەرپرسانی قوتابخانە بە شێلگیرانە کار بکەن بێ‌وچان بۆ دڵنیاییکردنەوە لە مافی خوێندکارە کەمینەکان."""),
                   ],
                 ),
               ),

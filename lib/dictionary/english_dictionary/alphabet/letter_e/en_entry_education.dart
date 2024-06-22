@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەروەردە، فێرکاری، فێربوون، ڕاهێنان، ئامۆژ،	خوێندن، وانەدانەوە، وانە (دەرس)وتنەوە،	ڕۆشنبیری، ڕووناکبیری، فەرهەنگ
+کوردی: پەروەردە، فێرکاری، فێربوون، ڕاھێنان، ئامۆژ،	خوێندن، وانەدانەوە، وانە (دەرس)وتنەوە،	ڕۆشنبیری، ڕووناکبیری، فەرھەنگ
 """),
           const DefinitionKurdish(
               text: """١. (ناو) پڕۆسەی پەروەردە و فێرکردن لە قوتابخانە"""),
@@ -577,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There should be closer links between education and industry."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەبێت پەیوەندیی نزیکتر هەبێت لە نێوان کەرتی پەروەردە و پیشەسازی."""),
+                            """دەبێت پەیوەندیی نزیکتر ھەبێت لە نێوان کەرتی پەروەردە و پیشەسازی."""),
                   ],
                 ),
               ),
@@ -607,7 +607,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He has a degree in education."""),
                     ExampleSentenceKurdish(
-                        text: """بڕوانامەی لە پەروەردەدا هەیە."""),
+                        text: """بڕوانامەی لە پەروەردەدا ھەیە."""),
                   ],
                 ),
               ),
@@ -704,7 +704,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: education (Derived forms: educations)
+- Noun: education (derived forms: educations)
 1. The activities of educating or instructing; activities that impart knowledge or skill (= instruction, teaching, pedagogy, didactics, educational activity)
 "he received no formal education";
  

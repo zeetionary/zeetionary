@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پێ‌شیاو، لێوەشاو، بەرحەق، پێکەوتوو، پێ‌ڕەوا، شیاو، شیاوی هەڵبژاردن، گونجاو، بەجێ، لێوەشاو,	گونجاو بۆ ژن‌ومێردایەتی
+کوردی: پێ‌شیاو، لێوەشاو، بەرحەق، پێکەوتوو، پێ‌ڕەوا، شیاو، شیاوی ھەڵبژاردن، گونجاو، بەجێ، لێوەشاو,	گونجاو بۆ ژن‌ومێردایەتی
 """),
           const DefinitionKurdish(
               text:

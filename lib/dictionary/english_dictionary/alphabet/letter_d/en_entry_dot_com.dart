@@ -536,7 +536,7 @@ ${englishMeaningConst.text}
 1. Of or relating to an internet company
 "a dot-com outfit in San Francisco"
 
-- Noun: dot-com (Derived forms: dot-coms)
+- Noun: dot-com (derived forms: dot-coms)
 1. A company that operates its business primarily on the internet using a URL that ends in '.com' (= dot com, dot com company)
 """,
   );

@@ -568,7 +568,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drainage (Derived forms: drainages)
+- Noun: drainage (derived forms: drainages)
 1. Emptying something accomplished by allowing liquid to run out of it
  
 2. A system of drains

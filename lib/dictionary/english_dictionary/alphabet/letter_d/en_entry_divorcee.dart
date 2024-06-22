@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: divorcee (Derived forms: divorcées, divorcees)
+- Noun: divorcee (derived forms: divorcées, divorcees)
 1. A divorced woman or a woman who is separated from her husband (= grass widow, divorcée)
 "The King abdicated when he married a divorcee";
 """,

@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 - Adjective: drinkable 
 1. Suitable for drinking (= potable)
 
-- Noun: drinkable (Derived forms: drinkables)
+- Noun: drinkable (derived forms: drinkables)
 1. Any liquid suitable for drinking (= beverage, drink, potable)
 """,
   );

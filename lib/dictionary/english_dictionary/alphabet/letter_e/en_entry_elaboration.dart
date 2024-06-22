@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) گەڵاڵەکردنی پلان، بیرۆکە، هتد ـی ئاڵۆز یان پڕ وردەکاری"""),
+                  """٢. (ناو) گەڵاڵەکردنی پلان، بیرۆکە، ھتد ـی ئاڵۆز یان پڕ وردەکاری"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -522,7 +522,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elaboration (Derived forms: elaborations)
+- Noun: elaboration (derived forms: elaborations)
 1. Addition of extra material, illustration or clarifying detail (= amplification)
 "an elaboration of the sketch followed";
  

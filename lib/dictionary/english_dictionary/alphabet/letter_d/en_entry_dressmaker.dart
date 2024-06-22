@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dressmaker (Derived forms: dressmakers)
+- Noun: dressmaker (derived forms: dressmakers)
 1. Someone who makes or mends dresses (= modiste, needlewoman, seamstress, sempstress)
 """,
   );

@@ -448,7 +448,7 @@ ${englishMeaningConst.text}
 2. Designed to be disposed of after use
 "disposable paper cups"
 
-- Noun: disposable (Derived forms: disposables)
+- Noun: disposable (derived forms: disposables)
 1. An item that can be disposed of after it has been used
 """,
   );

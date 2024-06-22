@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dormouse (Derived forms: dormice)
+- Noun: dormouse (derived forms: dormice)
 1. Small furry-tailed squirrel-like Old World rodent that becomes torpid in cold weather
 """,
   );

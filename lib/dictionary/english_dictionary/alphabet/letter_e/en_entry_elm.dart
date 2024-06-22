@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: وزم، بزوو، بزی، ڕەشەدار، دارەڕەش
 // """),
           const DefinitionKurdish(
-              text: """١. (ناو) دارێکی بەرز کە گەڵای فراوانی هەیە"""),
+              text: """١. (ناو) دارێکی بەرز کە گەڵای فراوانی ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elm (Derived forms: elms)
+- Noun: elm (derived forms: elms)
 1. Any of various trees of the genus Ulmus: important timber or shade trees (= elm tree)
  
 2. Hard tough wood of an elm tree; used for e.g. implements and furniture (= elmwood)

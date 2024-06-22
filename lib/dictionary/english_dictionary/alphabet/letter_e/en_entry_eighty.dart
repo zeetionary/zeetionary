@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                             """They've invited eighty (guests) to the wedding."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەشتا میوانیان بانگهێشتی هاسەرگیرییەکە کردووە."""),
+                            """ھەشتا میوانیان بانگھێشتی ھاسەرگیرییەکە کردووە."""),
                   ],
                 ),
               ),
@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
                             """We had eighty applicants for the job, but we've whittled them down to six."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەشتا داواکارمان بۆ کارەکە هەبوو، بەڵام بۆ شەش کەس کەممان کردوونە."""),
+                            """ھەشتا داواکارمان بۆ کارەکە ھەبوو، بەڵام بۆ شەش کەس کەممان کردوونە."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 - Adjective: eighty
 1. Being ten more than seventy (= 80, lxxx, fourscore [archaic])
 
-2- Noun: eighty (Derived forms: eighties)
+2- Noun: eighty (derived forms: eighties)
 1. The cardinal number that is the product of ten and eight (= 80, LXXX, fourscore [archaic])
 """,
   );

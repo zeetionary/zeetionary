@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گڵێنە، قاپ‌وکەوچکی (لە)گڵێنە، هێرباری گڵینەیی
+کوردی: گڵێنە، قاپ‌وکەوچکی (لە)گڵێنە، ھێرباری گڵینەیی
 """),
           const DefinitionKurdish(
               text: """١. (ناو) شتێک کە لە قوڕی زۆر ڕەقکراو درووست دەکرێت"""),
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The production of earthenware in Japan goes back many centuries."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بەرهەمهێننای قاپ‌وکەوچکی گڵێنە لە ژاپۆن بۆ چەندین سەدە دەگەڕێتەوە."""),
+                            """بەرھەمھێننای قاپ‌وکەوچکی گڵێنە لە ژاپۆن بۆ چەندین سەدە دەگەڕێتەوە."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earthenware (Derived forms: earthenwares)
+- Noun: earthenware (derived forms: earthenwares)
 1. Ceramic ware made of porous clay fired at low heat
 "earthenware pottery is breakable"
 """,

@@ -494,7 +494,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drudgery (Derived forms: drudgeries)
+- Noun: drudgery (derived forms: drudgeries)
 1. Hard monotonous routine work (= plodding, grind, donkeywork [Brit, informal])
 "he spent his life in tiresome drudgery";
 """,

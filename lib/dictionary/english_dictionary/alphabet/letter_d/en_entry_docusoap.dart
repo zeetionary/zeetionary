@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: docusoap (Derived forms: docusoaps)
+- Noun: docusoap (derived forms: docusoaps)
 1. A type of reality television program in the style of a documentary but with some sort of apparent plot
 """,
   );

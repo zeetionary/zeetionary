@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doorway (Derived forms: doorways)
+- Noun: doorway (derived forms: doorways)
 1. The entrance (the space in a wall) through which you enter or leave a room or building; the space that a door can close (= door, room access, threshold)
 "he stuck his head in the doorway";
 """,

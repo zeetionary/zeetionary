@@ -358,11 +358,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەنگدەر، کەسێ کە مافی هەڵبژاردنی هەبێ، هەڵبژێر
+کوردی: دەنگدەر، کەسێ کە مافی ھەڵبژاردنی ھەبێ، ھەڵبژێر
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە مافی دەنگدانی هەیە لە هەڵبژاردنێکدا"""),
+                  """١. (ناو) کەسێک کە مافی دەنگدانی ھەیە لە ھەڵبژاردنێکدا"""),
           Row(
             children: [
               const Expanded(
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Not all the registered electors actually voted."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو دەنگدەرانی تۆمارکراو نەبوون کە لە ڕاستیدا دەنگیان دا."""),
+                            """ھەموو دەنگدەرانی تۆمارکراو نەبوون کە لە ڕاستیدا دەنگیان دا."""),
                   ],
                 ),
               ),
@@ -482,11 +482,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elector (Derived forms: electors)
+- Noun: elector (derived forms: electors)
 1. A citizen who has a legal right to vote (= voter)
 "an unlisted elector";
 
-- Noun: Elector (Derived forms: Electors)
+- Noun: Elector (derived forms: Electors)
 1. Any of the German princes who were entitled to vote in the election of new emperor of the Holy Roman Empire
 """,
   );

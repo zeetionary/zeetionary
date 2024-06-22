@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: مادی، نامەعنەوی، نامانایی، نائاسمانی، دنیایی،	باوەڕپێکراو، لەکردن‌هاتوو
+کوردی: مادی، نامەعنەوی، نامانایی، نائاسمانی، دنیایی،	باوەڕپێکراو، لەکردن‌ھاتوو
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە ژیانی سەر زەوی"""),
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She often spoke about the sorrows of this earthly life."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆرجار باسی لە نەهامەتییەکان ژیانی ئەم سەر زەوییە دەکرد."""),
+                            """زۆرجار باسی لە نەھامەتییەکان ژیانی ئەم سەر زەوییە دەکرد."""),
                   ],
                 ),
               ),
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ئەگەری هەیە"""),
+          const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ئەگەری ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There's no earthly reason why you shouldn't go."""),
                     ExampleSentenceKurdish(
-                        text: """هیچ هۆکارێکی باوەڕپێکراو نەبوو کە نەچیت."""),
+                        text: """ھیچ ھۆکارێکی باوەڕپێکراو نەبوو کە نەچیت."""),
                   ],
                 ),
               ),
@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He didn't have an earthly chance of getting the job."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هیچ شانسێکی ڕێتێچووی نەبوو کە کارەکە وەربگرێت."""),
+                            """ھیچ شانسێکی ڕێتێچووی نەبوو کە کارەکە وەربگرێت."""),
                   ],
                 ),
               ),
@@ -591,7 +591,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: earthly (Derived forms: earthlier, earthliest)
+- Adjective: earthly (derived forms: earthlier, earthliest)
 1. Of or belonging to or characteristic of this earth as distinguished from heaven
 "earthly beings"; "believed that our earthly life is all that matters"; "earthly love"; "our earthly home"
 """,

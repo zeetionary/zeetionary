@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: downspout (Derived forms: downspouts)
+- Noun: downspout (derived forms: downspouts)
 Usage: N. Amer (elsewhere: downpipe)
 1. A pipe that takes rainwater from a roof to a drain in the ground (= downpipe [Brit])
 """,

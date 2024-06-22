@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dumper truck (Derived forms: dumper trucks)
+- Noun: dumper truck (derived forms: dumper trucks)
 Usage: Brit (N. Amer: dump truck)
 1. Truck whose contents can be emptied without handling; the front end of the platform can be pneumatically raised so that the load is discharged by gravity (= dump truck [N. Amer], dumper, tipper truck, tipper lorry, tip truck, tipper)
 """,

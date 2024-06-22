@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disparity (Derived forms: disparities)
+- Noun: disparity (derived forms: disparities)
 1. Inequality or difference in some respect
 "there is a disparity between man's aspirations and his accomplishments"
 """,

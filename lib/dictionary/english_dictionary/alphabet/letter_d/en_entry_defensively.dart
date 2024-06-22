@@ -348,176 +348,59 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defensivelys400"),
           // speakdefensivelys4
-          // defensivelys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys4
           // defensivelys500"),
           // speakdefensivelys5
-          // defensivelys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys5
           // defensivelys600"),
           // speakdefensivelys6
-          // defensivelys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys6
           // defensivelys700"),
           // speakdefensivelys7
-          // defensivelys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys7
           // defensivelys800"),
           // speakdefensivelys8
-          // defensivelys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys8
           // defensivelys900"),
           // speakdefensivelys9
-          // defensivelys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys9
           // defensivelys1000"),
           // speakdefensivelys10
-          // defensivelys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys10
           // defensivelys1100"),
           // speakdefensivelys11
-          // defensivelys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys11
           // defensivelys1200"),
           // speakdefensivelys12
-          // defensivelys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys12
           // defensivelys1300"),
           // speakdefensivelys13
-          // defensivelys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys13
           // defensivelys1400"),
           // speakdefensivelys14
-          // defensivelys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys14
           // defensivelys1500"),
           // speakdefensivelys15
-          // defensivelys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys15
           // defensivelys1600"),
           // speakdefensivelys16
-          // defensivelys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys16
           // defensivelys1700"),
           // speakdefensivelys17
-          // defensivelys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys17
           // defensivelys1800"),
           // speakdefensivelys18
-          // defensivelys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys18
           // defensivelys1900"),
           // speakdefensivelys19
-          // defensivelys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The English fought defensively while the Normans repeatedly charged.0"),
+          // defensivelys19
           // speakdefensivelys20
-          // defensivelys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys20
           // defensivelys2100"),
           // speakdefensivelys21
-          // defensivelys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defensivelys21
           // defensivelys2200"),
           // speakdefensivelys22
           // defensivelys22("en-US"),

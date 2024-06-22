@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The invasion force was ready to embark."""),
                     ExampleSentenceKurdish(
-                        text: """هێزە هێرشکارەکە ئامادە بوو بۆ بەڕێکەوتن."""),
+                        text: """ھێزە ھێرشکارەکە ئامادە بوو بۆ بەڕێکەوتن."""),
                   ],
                 ),
               ),
@@ -550,7 +550,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embark (Derived forms: embarked, embarking, embarks)
+- Verb: embark (derived forms: embarked, embarking, embarks)
 1. Go on board (= ship)
  
 2. Set out on (an enterprise or subject of study) (= enter)

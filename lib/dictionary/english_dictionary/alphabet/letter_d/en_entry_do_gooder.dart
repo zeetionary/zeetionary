@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: do-gooder (Derived forms: do-gooders) 
+- Noun: do-gooder (derived forms: do-gooders) 
 1. Someone devoted to the promotion of human welfare and to social reforms (= humanitarian, improver)
 """,
   );

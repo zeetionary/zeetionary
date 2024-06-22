@@ -469,12 +469,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر ماندوو، بەجۆش، ھتد بەھۆی ھەستێکی تایبەتەوە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // drunks400"),
           // speakdrunks4
           // drunks4("en-US"),

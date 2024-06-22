@@ -359,11 +359,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: ڕەدووکەوتن، هەڵگیران
+// کوردی: ڕەدووکەوتن، ھەڵگیران
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەڵهاتن لەگەڵ کەسێک بۆ ئەوەی بە نهێنی هاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
+                  """١. (ناو) ھەڵھاتن لەگەڵ کەسێک بۆ ئەوەی بە نھێنی ھاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """News of their elopement did not spread until the following morning."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەواڵی هەڵهاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە."""),
+                            """ھەواڵی ھەڵھاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elopement (Derived forms: elopements)
+- Noun: elopement (derived forms: elopements)
 1. The act of running away with a lover (usually to get married)
 """,
   );

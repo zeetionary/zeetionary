@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) جێهێشتنی وڵاتەکەت بۆ ئەوەی بۆ هەمیشەیی لە وڵاتێکی دیکە بژیت"""),
+                  """١. (ناو) جێھێشتنی وڵاتەکەت بۆ ئەوەی بۆ ھەمیشەیی لە وڵاتێکی دیکە بژیت"""),
           Row(
             children: [
               const Expanded(
@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There should be new rules for emigrations and refugees."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەبێت یاسای تازە بۆ کۆچکردن و ئاوارەکان هەبێت."""),
+                            """دەبێت یاسای تازە بۆ کۆچکردن و ئاوارەکان ھەبێت."""),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emigration (Derived forms: emigrations)
+- Noun: emigration (derived forms: emigrations)
 1. Migration from a place (especially migration from your native country in order to settle in another) (= out-migration, expatriation)
 "a drain of young talent by emigration";
 """,

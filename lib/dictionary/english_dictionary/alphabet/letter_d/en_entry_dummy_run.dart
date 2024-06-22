@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dummy run (Derived forms: dummy runs)
+- Noun: dummy run (derived forms: dummy runs)
 Usage: Brit, informal 
 1. A trial of something to see if or how it works (= trial, trial run, test, tryout)
 """,

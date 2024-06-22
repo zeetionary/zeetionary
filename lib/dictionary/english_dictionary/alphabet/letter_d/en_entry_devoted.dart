@@ -355,7 +355,7 @@ class KurdishMeaning extends StatelessWidget {
           // devoteds900"),
           // speakdevoteds9
           // devoteds9("en-US"),
-          //           ExampleSentenceEnglish(text: "// speakdevoteds1000000000000000000000000000000000"),
+          // "// speakdevoteds1000000000000000000000000000000000"),
           // speakdevoteds10
           // devoteds10("en-US"),
           // devoteds1100"),

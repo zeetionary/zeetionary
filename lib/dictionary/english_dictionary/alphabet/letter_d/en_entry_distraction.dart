@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: distraction (Derived forms: distractions)
+- Noun: distraction (derived forms: distractions)
 1. Mental turmoil
 "he drives me to distraction"
  

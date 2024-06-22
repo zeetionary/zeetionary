@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (کردار) سەرنجڕاکێشتر کردنی چیرۆک بە زیادکردنی وردەکاری کە مەرج نییە هەموو کات ڕاست بێت"""),
+                  """٢. (کردار) سەرنجڕاکێشتر کردنی چیرۆک بە زیادکردنی وردەکاری کە مەرج نییە ھەموو کات ڕاست بێت"""),
           // const DividerSentences(),
           const AlsoEnglishckb(
               word: "ھەروەھا: embroider"), // english-embroider/embellish
@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His account of his travels was embellished with details of famous people he met."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بەسەرهاتی گەشتەکانی سەرنجڕاکێش کرابوو بە گێڕانەوەی کەسانی بەناوبانگ کە بینیبووی."""),
+                            """بەسەرھاتی گەشتەکانی سەرنجڕاکێش کرابوو بە گێڕانەوەی کەسانی بەناوبانگ کە بینیبووی."""),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embellish (Derived forms: embellishing, embellishes, embellished)
+- Verb: embellish (derived forms: embellishing, embellishes, embellished)
 1. Make appear better or greater (in power, wealth, quality, etc.) than reality (= embroider, pad, lard, aggrandize, aggrandise [Brit], blow up, dramatize, dramatise [Brit])
 "He is free to embellish the image of his mother";
  

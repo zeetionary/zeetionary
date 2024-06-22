@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) هەبوونی توانای بەکارهێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
+                  """١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
           Row(
             children: [
               const Expanded(
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵناو) کە توانای دەربڕینی هەستێکی هەیە"""),
+              text: """٢. (ھاوەڵناو) کە توانای دەربڕینی ھەستێکی ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [

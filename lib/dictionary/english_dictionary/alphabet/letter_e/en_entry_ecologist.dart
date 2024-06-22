@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The ecologist studied the rainforest's biodiversity."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ژینگەناسەکە لێکۆڵینەوەی لە هەمەچەشنیی دارستانە باراناوییەکە دەکرد."""),
+                            """ژینگەناسەکە لێکۆڵینەوەی لە ھەمەچەشنیی دارستانە باراناوییەکە دەکرد."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ecologist (Derived forms: ecologists)
+- Noun: ecologist (derived forms: ecologists)
 1. A biologist who studies the relation between organisms and their environment
 """,
   );

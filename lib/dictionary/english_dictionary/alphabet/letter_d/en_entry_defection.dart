@@ -298,182 +298,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // defections300"),
-          // speakdefections3
-          // defections3("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections400"),
-          // speakdefections4
-          // defections4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections500"),
-          // speakdefections5
-          // defections5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections600"),
-          // speakdefections6
-          // defections6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections700"),
-          // speakdefections7
-          // defections7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections800"),
-          // speakdefections8
-          // defections8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections900"),
-          // speakdefections9
-          // defections9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1000"),
-          // speakdefections10
-          // defections10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1100"),
-          // speakdefections11
-          // defections11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1200"),
-          // speakdefections12
-          // defections12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1300"),
-          // speakdefections13
-          // defections13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1400"),
-          // speakdefections14
-          // defections14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1500"),
-          // speakdefections15
-          // defections15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1600"),
-          // speakdefections16
-          // defections16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1700"),
-          // speakdefections17
-          // defections17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1800"),
-          // speakdefections18
-          // defections18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections1900"),
-          // speakdefections19
-          // defections19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Recent changes in policy have resulted in large-scale defection from the party.0"),
-          // speakdefections20
-          // defections20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections2100"),
-          // speakdefections21
-          // defections21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // defections2200"),
-          // speakdefections22
-          // defections22("en-US"),
         ],
       ),
     );
@@ -506,7 +330,7 @@ ${englishMeaningConst.text}
     });
   }
 
-// Function to stop TTS
+  // Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -516,7 +340,7 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
+  // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: defection (derived forms: defections)

@@ -495,7 +495,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dungeon (Derived forms: dungeons)
+- Noun: dungeon (derived forms: dungeons)
 1. The main tower within the walls of a medieval castle or fortress (= keep, donjon)
  
 2. A dark cell (usually underground) where prisoners can be confined

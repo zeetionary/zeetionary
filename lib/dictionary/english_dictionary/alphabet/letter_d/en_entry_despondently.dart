@@ -318,138 +318,48 @@ class KurdishMeaning extends StatelessWidget {
           // despondentlys700"),
           // speakdespondentlys7
           // despondentlys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys800"),
           // speakdespondentlys8
           // despondentlys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys900"),
           // speakdespondentlys9
           // despondentlys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1000"),
           // speakdespondentlys10
           // despondentlys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1100"),
           // speakdespondentlys11
           // despondentlys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1200"),
           // speakdespondentlys12
           // despondentlys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1300"),
           // speakdespondentlys13
           // despondentlys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1400"),
           // speakdespondentlys14
           // despondentlys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1500"),
           // speakdespondentlys15
           // despondentlys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1600"),
           // speakdespondentlys16
           // despondentlys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1700"),
           // speakdespondentlys17
           // despondentlys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1800"),
           // speakdespondentlys18
           // despondentlys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys1900"),
           // speakdespondentlys19
           // despondentlys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "She turned despondently from the window.0"),
+          // "She turned despondently from the window.0"),
           // speakdespondentlys20
           // despondentlys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys2100"),
           // speakdespondentlys21
           // despondentlys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // despondentlys2200"),
           // speakdespondentlys22
           // despondentlys22("en-US"),

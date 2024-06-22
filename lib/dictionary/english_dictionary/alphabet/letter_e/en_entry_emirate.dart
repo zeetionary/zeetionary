@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
 // کوردی: پلەوپایەی میرنشین، پۆستی میرنشین
-// 2	میرنشین، میرگەهـ
+// 2	میرنشین، میرگەھـ
 // 3	سەردەم یان سەروبەندی میرنشینی، ماوەی میرنشینی
 // """),
           // const DefinitionKurdish(text: """١. (ناو) پێگەی"""),
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The emirate has its own legal system."""),
                     ExampleSentenceKurdish(
-                        text: """ئیمارەتەکە سیستەمی یاسایی خۆی هەیە."""),
+                        text: """ئیمارەتەکە سیستەمی یاسایی خۆی ھەیە."""),
                   ],
                 ),
               ),
@@ -528,7 +528,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emirate (Derived forms: emirates)
+- Noun: emirate (derived forms: emirates)
 1. The domain controlled by an emir
  
 2. The office of an emir

@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بووم‌ناسی‌یانە، مەڵبەندناسی‌یانە، سەربە یا پێوەندی بە ژینگەناسی‌یەوە هەیە،	ژینگەپارێز، بووم‌پارێز
+کوردی: بووم‌ناسی‌یانە، مەڵبەندناسی‌یانە، سەربە یا پێوەندی بە ژینگەناسی‌یەوە ھەیە،	ژینگەپارێز، بووم‌پارێز
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە ژینگە یان ژینگەناسی"""),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             """We risk upsetting the ecological balance of the area."""),
                     ExampleSentenceKurdish(
                         text:
-                            """مەترسی تێکدانی هاوسەنگی ژینگەیی ناوچەکە درووست دەکەین."""),
+                            """مەترسی تێکدانی ھاوسەنگی ژینگەیی ناوچەکە درووست دەکەین."""),
                   ],
                 ),
               ),

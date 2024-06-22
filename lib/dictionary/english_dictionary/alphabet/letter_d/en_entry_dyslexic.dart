@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) پەیوەندیدار بە هەبوونی کێشەی خوێندنەوە و نووسین"""),
+                  """١. (ھاوەڵناو) پەیوەندیدار بە ھەبوونی کێشەی خوێندنەوە و نووسین"""),
           Row(
             children: [
               const Expanded(

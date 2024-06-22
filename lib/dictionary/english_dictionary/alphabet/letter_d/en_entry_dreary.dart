@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dreary (Derived forms: drearier, dreariest)
+- Adjective: dreary (derived forms: drearier, dreariest)
 1. Lacking in liveliness, charm or surprise (= drab)
 "a series of dreary dinner parties";
  

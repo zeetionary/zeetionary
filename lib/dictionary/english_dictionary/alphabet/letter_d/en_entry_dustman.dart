@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dustman (Derived forms: dustmen)
+- Noun: dustman (derived forms: dustmen)
 Usage: Brit (N. Amer: garbage collector)
 1. Someone employed to collect and dispose of refuse (= garbage man [N. Amer], garbageman [N. Amer], garbage collector [N. Amer], garbage carter [N. Amer], garbage hauler [N. Amer], refuse collector, garbo [Austral, informal], bin man [Brit, informal], binman [Brit, informal], trashman [N. Amer])
 """,

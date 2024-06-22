@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێوەشاوەیی، توانایی، بەکاری، کارایی، بەکارهاتوویی، هاتوویی، تواناداری،	ئەنجام‌دانەوە، باش‌کارکردوویی، کاردانەوە، بەهرەدانەوە
+کوردی: لێوەشاوەیی، توانایی، بەکاری، کارایی، بەکارھاتوویی، ھاتوویی، تواناداری،	ئەنجام‌دانەوە، باش‌کارکردوویی، کاردانەوە، بەھرەدانەوە
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کردنی شتێک بەبێ بەفیڕۆدان"""),
@@ -557,7 +557,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) پەیوەندیی نێوان ئەو وزەیەی کە دەچێتە ناو ئامێرێک یان بزوێنەرێک، و ئەو ڕێژەیەی کە بەرهەمی دەهێنێت"""),
+                  """٣. (ناو) پەیوەندیی نێوان ئەو وزەیەی کە دەچێتە ناو ئامێرێک یان بزوێنەرێک، و ئەو ڕێژەیەی کە بەرھەمی دەھێنێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -668,7 +668,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: efficiency (Derived forms: efficiencies)
+- Noun: efficiency (derived forms: efficiencies)
 1. The ratio of the output to the input of any system
  
 2. Skilfulness in avoiding wasted time and effort

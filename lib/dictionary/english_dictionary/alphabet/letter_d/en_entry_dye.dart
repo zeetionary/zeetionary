@@ -597,10 +597,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dye (Derived forms: dyes)
+- Noun: dye (derived forms: dyes)
 1. A usually soluble substance for staining or colouring e.g. fabrics or hair (= dyestuff)
 
-- Verb: dye (Derived forms: dyed, dyeing, dyes)
+- Verb: dye (derived forms: dyed, dyeing, dyes)
 1. Colour with dye
 "Please dye these shoes"
  

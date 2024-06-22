@@ -359,11 +359,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لاوازی، کزی، بێ‌هێزی، پێچوون، سستی، بێ‌گیانی، پێچوویی، بنێسی
+کوردی: لاوازی، کزی، بێ‌ھێزی، پێچوون، سستی، بێ‌گیانی، پێچوویی، بنێسی
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) لەڕی و لاوازی و زۆر، زۆرجار بەهۆی نەخۆشی یان کەمخواردن"""),
+                  """١. (ھاوەڵناو) لەڕی و لاوازی و زۆر، زۆرجار بەھۆی نەخۆشی یان کەمخواردن"""),
           Row(
             children: [
               const Expanded(
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emaciation (Derived forms: emaciations)
+- Noun: emaciation (derived forms: emaciations)
 1. Extreme leanness (usually caused by starvation or disease) (= bonyness, boniness, gauntness, maceration)
 """,
   );

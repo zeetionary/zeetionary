@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داینەمۆ، دینام،	نافەرمی مرۆی بەکار، هەڵسووڕ، چالاک، پڕجم‌وجۆڵ، پڕوزە، کارخۆر
+کوردی: داینەمۆ، دینام،	نافەرمی مرۆی بەکار، ھەڵسووڕ، چالاک، پڕجم‌وجۆڵ، پڕوزە، کارخۆر
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ئامێرێک کە وزەی میکانیکی دەکات بە کارەبا"""),
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) کەسێک کە وزەی زۆری هەیە"""),
+          const DefinitionKurdish(text: """٢. (ناو) کەسێک کە وزەی زۆری ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dynamo (Derived forms: dynamos)
+- Noun: dynamo (derived forms: dynamos)
 1. Generator consisting of a coil (the armature) that rotates between the poles of an electromagnet (the field magnet) causing a current to flow in the armature
 """,
   );

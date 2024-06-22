@@ -444,7 +444,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disqualification (Derived forms: disqualifications)
+- Noun: disqualification (derived forms: disqualifications)
 1. Unfitness that bars you from participation
  
 2. The act of preventing someone from participating by finding them unqualified

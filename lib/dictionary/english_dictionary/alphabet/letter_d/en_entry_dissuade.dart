@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dissuade (Derived forms: dissuaded, dissuading, dissuades)
+- Verb: dissuade (derived forms: dissuaded, dissuading, dissuades)
 1. Turn away from by persuasion (= deter)
 "Negative campaigning will only dissuade people";
 """,

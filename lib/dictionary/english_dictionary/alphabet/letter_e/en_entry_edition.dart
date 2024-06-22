@@ -412,11 +412,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چاپ، بڵاوبوونەوە، وەشان،	پیاچوونەوە، چاوپیاخشاندنەوە، بەسەرداچوون،	ڕۆژنامە، کۆڤار و هتد،	تیراژ،	بەش، ئاڵقە، پشک، بەرنامە
+کوردی: چاپ، بڵاوبوونەوە، وەشان،	پیاچوونەوە، چاوپیاخشاندنەوە، بەسەرداچوون،	ڕۆژنامە، کۆڤار و ھتد،	تیراژ،	بەش، ئاڵقە، پشک، بەرنامە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەو شێوەیەی کە ڕۆژنامەیەک، گۆڤارێک، هتد پێی بڵاودەکرێتەوە"""),
+                  """١. (ناو) ئەو شێوەیەی کە ڕۆژنامەیەک، گۆڤارێک، ھتد پێی بڵاودەکرێتەوە"""),
           Row(
             children: [
               const Expanded(
@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The regional editions of the paper contain specific information for that area."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەشانەکە هەرێمییەکانی ڕۆژنامەکە زانیاری بۆ ئەو ناوچەیە تێدایە."""),
+                            """وەشانەکە ھەرێمییەکانی ڕۆژنامەکە زانیاری بۆ ئەو ناوچەیە تێدایە."""),
                   ],
                 ),
               ),
@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The dictionary is now in its tenth edition."""),
                     ExampleSentenceKurdish(
-                        text: """فەرهەنگەکە ئێستا لە چاپی دەیەمە."""),
+                        text: """فەرھەنگەکە ئێستا لە چاپی دەیەمە."""),
                   ],
                 ),
               ),
@@ -600,7 +600,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ناو) تەواوی ئەو کۆپییانەی کتێبێک، ڕۆژنامەیەک، گۆڤارێک، هتد کە بە یەکجار بڵاودەکرێتەوە"""),
+                  """٤. (ناو) تەواوی ئەو کۆپییانەی کتێبێک، ڕۆژنامەیەک، گۆڤارێک، ھتد کە بە یەکجار بڵاودەکرێتەوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -709,7 +709,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: edition (Derived forms: editions)
+- Noun: edition (derived forms: editions)
 1. The form in which a text (especially a printed book) is published
  
 2. All of the identical copies of something offered to the public at the same time

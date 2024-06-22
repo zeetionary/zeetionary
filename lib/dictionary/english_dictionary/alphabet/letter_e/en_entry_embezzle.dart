@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) دزینی پارەیەک کە بەرپرسی بۆی یان هی خاوەن کارەکەت"""),
+                  """١. (کردار) دزینی پارەیەک کە بەرپرسی بۆی یان ھی خاوەن کارەکەت"""),
           Row(
             children: [
               const Expanded(
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embezzle (Derived forms: embezzling, embezzles, embezzled)
+- Verb: embezzle (derived forms: embezzling, embezzles, embezzled)
 1. Appropriate (as property entrusted to one's care) fraudulently to one's own use (= defalcate, peculate, misappropriate, malversate)
 "The accountant embezzled thousands of dollars while working for the wealthy family";
 """,

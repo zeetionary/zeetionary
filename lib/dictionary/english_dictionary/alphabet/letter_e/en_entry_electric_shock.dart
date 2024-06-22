@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) تەزووی کارەبایی لەناکاو کە بە جەستەدا تێدەپەڕێت و دەبێتە هۆکاری ئازار یان هەندێک جار مەرگ"""),
+                  """١. (ناو) تەزووی کارەبایی لەناکاو کە بە جەستەدا تێدەپەڕێت و دەبێتە ھۆکاری ئازار یان ھەندێک جار مەرگ"""),
           Row(
             children: [
               const Expanded(
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electric shock (Derived forms: electric shocks)
+- Noun: electric shock (derived forms: electric shocks)
 1. The use of electricity to administer punishment or torture
 "they used cattle prods to administer electric shocks"
  

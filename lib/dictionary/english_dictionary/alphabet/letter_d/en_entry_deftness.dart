@@ -312,165 +312,57 @@ class KurdishMeaning extends StatelessWidget {
           // deftnesss400"),
           // speakdeftnesss4
           // deftnesss4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss500"),
           // speakdeftnesss5
           // deftnesss5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss600"),
           // speakdeftnesss6
           // deftnesss6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss700"),
           // speakdeftnesss7
           // deftnesss7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss800"),
           // speakdeftnesss8
           // deftnesss8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss900"),
           // speakdeftnesss9
           // deftnesss9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1000"),
           // speakdeftnesss10
           // deftnesss10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1100"),
           // speakdeftnesss11
           // deftnesss11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1200"),
           // speakdeftnesss12
           // deftnesss12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1300"),
           // speakdeftnesss13
           // deftnesss13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1400"),
           // speakdeftnesss14
           // deftnesss14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1500"),
           // speakdeftnesss15
           // deftnesss15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1600"),
           // speakdeftnesss16
           // deftnesss16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1700"),
           // speakdeftnesss17
           // deftnesss17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1800"),
           // speakdeftnesss18
           // deftnesss18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss1900"),
           // speakdeftnesss19
           // deftnesss19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The Government has already shown a deftness that has surprised politicians in both parties.0"),
+          // "The Government has already shown a deftness that has surprised politicians in both parties.0"),
           // speakdeftnesss20
           // deftnesss20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss2100"),
           // speakdeftnesss21
           // deftnesss21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deftnesss2200"),
           // speakdeftnesss22
           // deftnesss22("en-US"),

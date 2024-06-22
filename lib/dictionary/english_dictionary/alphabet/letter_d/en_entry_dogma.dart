@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dogma (Derived forms: dogmata, dogmas)
+- Noun: dogma (derived forms: dogmata, dogmas)
 1. A religious doctrine that is proclaimed as true without proof (= tenet)
  
 2. A doctrine or code of beliefs accepted as authoritative

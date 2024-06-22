@@ -359,11 +359,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کاریگەر، کاری، کارا، بەکارهاتوو، بەئەنجام، ئەنجام‌دەرەوە،	(ماف) بەبایەخ، باوەڕمەند
+کوردی: کاریگەر، کاری، کارا، بەکارھاتوو، بەئەنجام، ئەنجام‌دەرەوە،	(ماف) بەبایەخ، باوەڕمەند
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) شتێک کە ئەو ئەنجامە بەدەست دەهێنێت کە ئامانج بوو"""),
+                  """١. (ھاوەڵناو) شتێک کە ئەو ئەنجامە بەدەست دەھێنێت کە ئامانج بوو"""),
           Row(
             children: [
               const Expanded(

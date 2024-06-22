@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                             """These invasions almost led to the collapse of the Roman Empire."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەم داگیرکارییانە خەریک بوو ببن بە هۆکاری ڕووخانی ئیمپراتۆرییەتی ڕۆم."""),
+                            """ئەم داگیرکارییانە خەریک بوو ببن بە ھۆکاری ڕووخانی ئیمپراتۆرییەتی ڕۆم."""),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The Japanese empire was quickly dismantled."""),
                     ExampleSentenceKurdish(
-                        text: """ئیمپراتۆرییەتی ژاپۆن زوو هەڵوەشێندرایەوە."""),
+                        text: """ئیمپراتۆرییەتی ژاپۆن زوو ھەڵوەشێندرایەوە."""),
                   ],
                 ),
               ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The mighty empire finally crumbled."""),
                     ExampleSentenceKurdish(
-                        text: """ئیمپراتۆرییەتە بەهێزەکە لەکۆتاییدا ڕووخا."""),
+                        text: """ئیمپراتۆرییەتە بەھێزەکە لەکۆتاییدا ڕووخا."""),
                   ],
                 ),
               ),
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
                             """All the businessmen jealously guarded their own little empires."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو بازرگانەکان بە تەماحەوە ئیمپراتۆرییەتە بچووکەکانی خۆیان دەپاراست."""),
+                            """ھەموو بازرگانەکان بە تەماحەوە ئیمپراتۆرییەتە بچووکەکانی خۆیان دەپاراست."""),
                   ],
                 ),
               ),
@@ -630,7 +630,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: empire (Derived forms: empires)
+- Noun: empire (derived forms: empires)
 1. The domain ruled by an emperor or empress; the region over which imperial dominion is exercised (= imperium)
  
 2. A group of countries under a single authority

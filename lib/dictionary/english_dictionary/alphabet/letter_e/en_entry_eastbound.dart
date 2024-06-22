@@ -359,9 +359,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرەو ڕۆژهەڵات، ڕوو لە ڕۆژهەڵات، ڕێبواری بەرەو ڕۆژهەڵات
+کوردی: بەرەو ڕۆژھەڵات، ڕوو لە ڕۆژھەڵات، ڕێبواری بەرەو ڕۆژھەڵات
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) بەرەو ڕۆژهەڵات"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) بەرەو ڕۆژھەڵات"""),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             """A flight eastbound causes more severe jetlag than flying west."""),
                     ExampleSentenceKurdish(
                         text:
-                            """گەشتێک بۆ ڕۆژهەڵات زیاتر دەبێتە هۆی ماندوویی فڕینی توند وەک لە گەشتێک بۆ ڕۆژئاوا."""),
+                            """گەشتێک بۆ ڕۆژھەڵات زیاتر دەبێتە ھۆی ماندوویی فڕینی توند وەک لە گەشتێک بۆ ڕۆژئاوا."""),
                   ],
                 ),
               ),

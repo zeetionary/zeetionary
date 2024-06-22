@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doorstep (Derived forms: doorsteps)
+- Noun: doorstep (derived forms: doorsteps)
 1. The sill of a door; a horizontal piece of wood or stone that forms the bottom of a doorway and offers support when passing through a doorway (= doorsill, threshold)
  
 2. [Brit, informal] Thick bread slice
@@ -538,7 +538,7 @@ ${englishMeaningConst.text}
 3. One's immediate neighbourhood
 "she lives on your doorstep"
 
-- Verb: doorstep (Derived forms: doorsteps, doorstepping, doorstepped)
+- Verb: doorstep (derived forms: doorsteps, doorstepping, doorstepped)
 Usage: Brit
 1. Catch someone for an unexpected interview by waiting outside their house
 """,

@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They left port on the ebb tide."""),
                     ExampleSentenceKurdish(
-                        text: """لەگەڵ داشکانەکەدا بەندەرەکەیان جێهێشت."""),
+                        text: """لەگەڵ داشکانەکەدا بەندەرەکەیان جێھێشت."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Her strength began to ebb."""),
                     ExampleSentenceKurdish(
-                        text: """هێزی دەستی بە لاوازبوون کرد."""),
+                        text: """ھێزی دەستی بە لاوازبوون کرد."""),
                   ],
                 ),
               ),
@@ -616,12 +616,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ebb (Derived forms: ebbs)
+- Noun: ebb (derived forms: ebbs)
 1. A gradual decline (in size, strength, power or number) (= ebbing, wane)
  
 2. The outward flow of the tide (= reflux)
 
-- Verb: ebb (Derived forms: ebbs, ebbing, ebbed)
+- Verb: ebb (derived forms: ebbs, ebbing, ebbed)
 1. Flow back or recede (= ebb away, ebb down, ebb out, ebb off)
 "the tides ebbed at noon";
  

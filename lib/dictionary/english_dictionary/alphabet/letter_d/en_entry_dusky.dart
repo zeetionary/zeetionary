@@ -565,7 +565,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dusky (Derived forms: duskier, duskiest)
+- Adjective: dusky (derived forms: duskier, duskiest)
 1. Lighted by or as if by twilight (= twilight, twilit)
 "The dusky night rides down the sky/And ushers in the morn";
  

@@ -541,7 +541,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) دەمی تیژی چەقۆ، شمشێر، هتد"""),
+              text: """٢. (ناو) دەمی تیژی چەقۆ، شمشێر، ھتد"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -551,7 +551,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Be careful—it has a sharp edge."""),
                     ExampleSentenceKurdish(
-                        text: """وریابە ـ دەمێکی تیژی هەیە."""),
+                        text: """وریابە ـ دەمێکی تیژی ھەیە."""),
                   ],
                 ),
               ),
@@ -582,7 +582,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """They had brought the country to the edge of disaster."""),
                     ExampleSentenceKurdish(
-                        text: """وڵاتەکەیان هێنابووە ئاستی کارەسات."""),
+                        text: """وڵاتەکەیان ھێنابووە ئاستی کارەسات."""),
                   ],
                 ),
               ),
@@ -638,7 +638,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Their training gave them an extra edge."""),
                     ExampleSentenceKurdish(
-                        text: """ڕاهێنانەکەیان لەپێشینەیی زیاتری پێدان."""),
+                        text: """ڕاھێنانەکەیان لەپێشینەیی زیاتری پێدان."""),
                   ],
                 ),
               ),
@@ -656,7 +656,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (ناو) خاسیەتێکی بەهێز"""),
+          const DefinitionKurdish(text: """٥. (ناو) خاسیەتێکی بەھێز"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -668,7 +668,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Her show now has a hard political edge to it."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بەرنامەکەی ئێستا خاسیەتێکی بەهێزی سیاسیی پێوەیە."""),
+                            """بەرنامەکەی ئێستا خاسیەتێکی بەھێزی سیاسیی پێوەیە."""),
                   ],
                 ),
               ),
@@ -753,7 +753,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Emily edged her chair forward."""),
                     ExampleSentenceKurdish(
-                        text: """ئێمیڵی کورسییەکەی هێنایە پێشەوە."""),
+                        text: """ئێمیڵی کورسییەکەی ھێنایە پێشەوە."""),
                   ],
                 ),
               ),
@@ -830,12 +830,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges1400edges14
           // speakedges14("en-US"""),
           //         ),
@@ -845,12 +839,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges1500edges15
           // speakedges15("en-US"""),
           //         ),
@@ -860,12 +848,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges1600edges16
           // speakedges16("en-US"""),
           //         ),
@@ -875,12 +857,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges1700edges17
           // speakedges17("en-US"""),
           //         ),
@@ -890,12 +866,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges1800edges18
           // speakedges18("en-US"""),
           //         ),
@@ -905,12 +875,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges1900edges19
           // speakedges19("en-US"""),
           //         ),
@@ -920,12 +884,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges_2000edges20
           // speakedges20("en-US"""),
           //         ),
@@ -935,12 +893,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges2100edges21
           // speakedges21("en-US"""),
           //         ),
@@ -950,12 +902,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // edges2200edges22
           // speakedges22("en-US"""),
           //         ),
@@ -1008,7 +954,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: edge (Derived forms: edges)
+- Noun: edge (derived forms: edges)
 1. The boundary of a surface (= border)
  
 2. A line determining the limits of an area (= boundary, bound)
@@ -1027,7 +973,7 @@ ${englishMeaningConst.text}
  
 7. The thin cutting side of a blade
 
-- Verb: edge (Derived forms: edging, edges, edged)
+- Verb: edge (derived forms: edging, edges, edged)
 1. Advance slowly, as if by inches (= inch)
 "He edged towards the car";
  

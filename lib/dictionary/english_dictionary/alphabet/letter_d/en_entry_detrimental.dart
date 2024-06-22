@@ -321,138 +321,48 @@ class KurdishMeaning extends StatelessWidget {
           // detrimentals700"),
           // speakdetrimentals7
           // detrimentals7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals800"),
           // speakdetrimentals8
           // detrimentals8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals900"),
           // speakdetrimentals9
           // detrimentals9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1000"),
           // speakdetrimentals10
           // detrimentals10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1100"),
           // speakdetrimentals11
           // detrimentals11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1200"),
           // speakdetrimentals12
           // detrimentals12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1300"),
           // speakdetrimentals13
           // detrimentals13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1400"),
           // speakdetrimentals14
           // detrimentals14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1500"),
           // speakdetrimentals15
           // detrimentals15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1600"),
           // speakdetrimentals16
           // detrimentals16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1700"),
           // speakdetrimentals17
           // detrimentals17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1800"),
           // speakdetrimentals18
           // detrimentals18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals1900"),
           // speakdetrimentals19
           // detrimentals19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "This move could be seriously detrimental to the economy.0"),
+          // "This move could be seriously detrimental to the economy.0"),
           // speakdetrimentals20
           // detrimentals20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals2100"),
           // speakdetrimentals21
           // detrimentals21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detrimentals2200"),
           // speakdetrimentals22
           // detrimentals22("en-US"),

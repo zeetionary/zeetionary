@@ -344,165 +344,57 @@ class KurdishMeaning extends StatelessWidget {
           // delicatelys400"),
           // speakdelicatelys4
           // delicatelys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys500"),
           // speakdelicatelys5
           // delicatelys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys600"),
           // speakdelicatelys6
           // delicatelys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys700"),
           // speakdelicatelys7
           // delicatelys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys800"),
           // speakdelicatelys8
           // delicatelys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys900"),
           // speakdelicatelys9
           // delicatelys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1000"),
           // speakdelicatelys10
           // delicatelys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1100"),
           // speakdelicatelys11
           // delicatelys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1200"),
           // speakdelicatelys12
           // delicatelys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1300"),
           // speakdelicatelys13
           // delicatelys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1400"),
           // speakdelicatelys14
           // delicatelys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1500"),
           // speakdelicatelys15
           // delicatelys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1600"),
           // speakdelicatelys16
           // delicatelys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1700"),
           // speakdelicatelys17
           // delicatelys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1800"),
           // speakdelicatelys18
           // delicatelys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys1900"),
           // speakdelicatelys19
           // delicatelys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "He stepped delicately over the broken glass.0"),
+          // "He stepped delicately over the broken glass.0"),
           // speakdelicatelys20
           // delicatelys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys2100"),
           // speakdelicatelys21
           // delicatelys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // delicatelys2200"),
           // speakdelicatelys22
           // delicatelys22("en-US"),

@@ -563,7 +563,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dripping (Derived forms: drippings)
+- Noun: dripping (derived forms: drippings)
 1. A liquid (as water) that flows in drops (as from the eaves of house) (= drippage)
 
 2. The sound of a liquid falling drop by drop (= drip)

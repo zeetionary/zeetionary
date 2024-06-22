@@ -316,165 +316,57 @@ class KurdishMeaning extends StatelessWidget {
           // deputizes400"),
           // speakdeputizes4
           // deputizes4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes500"),
           // speakdeputizes5
           // deputizes5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes600"),
           // speakdeputizes6
           // deputizes6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes700"),
           // speakdeputizes7
           // deputizes7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes800"),
           // speakdeputizes8
           // deputizes8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes900"),
           // speakdeputizes9
           // deputizes9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1000"),
           // speakdeputizes10
           // deputizes10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1100"),
           // speakdeputizes11
           // deputizes11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1200"),
           // speakdeputizes12
           // deputizes12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1300"),
           // speakdeputizes13
           // deputizes13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1400"),
           // speakdeputizes14
           // deputizes14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1500"),
           // speakdeputizes15
           // deputizes15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1600"),
           // speakdeputizes16
           // deputizes16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1700"),
           // speakdeputizes17
           // deputizes17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1800"),
           // speakdeputizes18
           // deputizes18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes1900"),
           // speakdeputizes19
           // deputizes19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.0"),
+          // "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.0"),
           // speakdeputizes20
           // deputizes20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes2100"),
           // speakdeputizes21
           // deputizes21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deputizes2200"),
           // speakdeputizes22
           // deputizes22("en-US"),

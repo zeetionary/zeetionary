@@ -404,12 +404,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disquiet (Derived forms: disquiets)
+- Noun: disquiet (derived forms: disquiets)
 1. A feeling of mild anxiety about possible developments (= anxiousness)
  
 2. The trait of seeming ill at ease (= unease, uneasiness)
 
-- Verb: disquiet (Derived forms: disquiets, disquieting, disquieted)
+- Verb: disquiet (derived forms: disquiets, disquieting, disquieted)
 1. Disturb in mind or make uneasy or cause to be worried or alarmed (= perturb, unhinge, trouble, cark, distract, disorder)
 "She was rather disquieted by the news that her father was seriously ill";
 """,

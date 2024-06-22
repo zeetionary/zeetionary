@@ -535,7 +535,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: drowsy (Derived forms: drowsier, drowsiest)
+- Adjective: drowsy (derived forms: drowsier, drowsiest)
 1. Half asleep (= drowsing, dozy, dopey, dopy)
 "made drowsy by the long ride"; "it seemed a pity to disturb the drowsy professor";
  

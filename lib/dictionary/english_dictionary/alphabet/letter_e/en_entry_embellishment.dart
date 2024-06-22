@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Good pasta needs very little embellishment."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پاستای باش پێویستیی بە ڕازاندنەوەی کەم هەیە."""),
+                            """پاستای باش پێویستیی بە ڕازاندنەوەی کەم ھەیە."""),
                   ],
                 ),
               ),
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She's an actress whose beauty needs no Hollywood embellishment."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەکتەرێکە کە پێویستی بە هیچ ڕازاندنەوەیەکی هۆڵیوود نییە."""),
+                            """ئەکتەرێکە کە پێویستی بە ھیچ ڕازاندنەوەیەکی ھۆڵیوود نییە."""),
                   ],
                 ),
               ),
@@ -441,7 +441,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) زیادکردنی وردەکاری بۆ چیرۆک کە وا دەکات سەرنجڕاکێش بێت، ئەگەرچی مەرج بییە هەموو کات ڕاست بن"""),
+                  """٢. (ناو) زیادکردنی وردەکاری بۆ چیرۆک کە وا دەکات سەرنجڕاکێش بێت، ئەگەرچی مەرج بییە ھەموو کات ڕاست بن"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -557,7 +557,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embellishment (Derived forms: embellishments)
+- Noun: embellishment (derived forms: embellishments)
 1. Elaboration of an interpretation by the use of decorative (sometimes fictitious) detail (= embroidery)
 "the mystery has been heightened by many embellishments in subsequent retellings";
  

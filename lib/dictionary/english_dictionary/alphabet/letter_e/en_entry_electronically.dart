@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵکار) بە شێوەیەکی ئێلیکترۆنیکی؛ بەوەی کە لە زۆر بەشی بچووک پێکهاتووە کە تەزوویەکی کارەبای بچووک کۆنترۆڵ و ئاراستە دەکەن"""),
+                  """١. (ھاوەڵکار) بە شێوەیەکی ئێلیکترۆنیکی؛ بەوەی کە لە زۆر بەشی بچووک پێکھاتووە کە تەزوویەکی کارەبای بچووک کۆنترۆڵ و ئاراستە دەکەن"""),
           Row(
             children: [
               const Expanded(
@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The data is all processed electronically these days."""),
                     ExampleSentenceKurdish(
                         text:
-                            """داتا ئەم ڕۆژانە هەمووی بە شێوەیەکی ئێلیکترۆنیکی کاری پێدەکرێت."""),
+                            """داتا ئەم ڕۆژانە ھەمووی بە شێوەیەکی ئێلیکترۆنیکی کاری پێدەکرێت."""),
                   ],
                 ),
               ),

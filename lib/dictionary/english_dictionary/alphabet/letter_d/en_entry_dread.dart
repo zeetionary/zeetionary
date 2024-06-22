@@ -664,11 +664,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dread (Derived forms: dreaded, dreads, dreading)
+- Verb: dread (derived forms: dreaded, dreads, dreading)
 1. Be afraid or scared of; be frightened of (= fear)
 "I dread the winters in Moscow";
 
-- Noun: dread (Derived forms: dreads)
+- Noun: dread (derived forms: dreads)
 1. Fearful expectation or anticipation (= apprehension, apprehensiveness, misgiving)
 "the student looked around the examination room with dread";
 

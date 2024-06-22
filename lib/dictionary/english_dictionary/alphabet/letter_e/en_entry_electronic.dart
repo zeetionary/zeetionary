@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە لە زۆر بەشی بچووک پێکهاتووە کە تەزوویەکی کارەبای بچووک کۆنترۆڵ و ئاراستە دەکەن"""),
+                  """١. (ھاوەڵناو) کە لە زۆر بەشی بچووک پێکھاتووە کە تەزوویەکی کارەبای بچووک کۆنترۆڵ و ئاراستە دەکەن"""),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             """If my kids want fancy electronic gadgets, they have to earn the money for them."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەگەر منداڵەکانم ئامێری ئەلیکترۆنی جوانیان دەوێت، دەبێت پارە بەدەست بهێنن بۆی."""),
+                            """ئەگەر منداڵەکانم ئامێری ئەلیکترۆنی جوانیان دەوێت، دەبێت پارە بەدەست بھێنن بۆی."""),
                   ],
                 ),
               ),

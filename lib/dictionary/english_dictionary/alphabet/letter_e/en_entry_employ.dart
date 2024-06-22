@@ -455,7 +455,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His company currently employs 135 workers in total."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کۆمپانیاکەی لە ئێستادا بە گشطی ١٣٥ کرێکاری هەیە."""),
+                            """کۆمپانیاکەی لە ئێستادا بە گشطی ١٣٥ کرێکاری ھەیە."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Twenty eight per cent of the workforce is employed in agriculture."""),
                     ExampleSentenceKurdish(
                         text:
-                            """٢٨ لە سەدی دەستی کار لە کشتووکاڵ کاریان هەیە."""),
+                            """٢٨ لە سەدی دەستی کار لە کشتووکاڵ کاریان ھەیە."""),
                   ],
                 ),
               ),
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (کردار) بەکارهێنانی شتێک بۆ مەبەستێکی دیاریکراو"""),
+              text: """٢. (کردار) بەکارھێنانی شتێک بۆ مەبەستێکی دیاریکراو"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -546,7 +546,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He criticized the repressive methods employed by the country's government."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرکۆنەی ڕێگا سەرکوتکەرەکانی کرد کە لەلایەن حکومەتی وڵاتەکەوە بەکارهات."""),
+                            """سەرکۆنەی ڕێگا سەرکوتکەرەکانی کرد کە لەلایەن حکومەتی وڵاتەکەوە بەکارھات."""),
                   ],
                 ),
               ),
@@ -576,7 +576,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The police had to employ force to enter the building."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پۆلیس پێویست بوو هێز بەکارببات بۆ چوونە ناو بیناکەوە."""),
+                            """پۆلیس پێویست بوو ھێز بەکارببات بۆ چوونە ناو بیناکەوە."""),
                   ],
                 ),
               ),
@@ -606,7 +606,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This phrase is routinely employed to describe the president's style of government."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەم دەستەواژە زۆرجار بەکاردەهێندرێت بۆ باسکردنی شێوازی بەڕێوەبردنی سەرۆک."""),
+                            """ئەم دەستەواژە زۆرجار بەکاردەھێندرێت بۆ باسکردنی شێوازی بەڕێوەبردنی سەرۆک."""),
                   ],
                 ),
               ),
@@ -625,12 +625,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs800employs8
           // speakemploys8("en-US"""),
           //         ),
@@ -640,12 +634,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs900employs9
           // speakemploys9("en-US"""),
           //         ),
@@ -655,12 +643,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs_1000employs10
           // speakemploys10("en-US"""),
           //         ),
@@ -670,12 +652,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1100employs11
           // speakemploys11("en-US"""),
           //         ),
@@ -685,12 +661,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1200employs12
           // speakemploys12("en-US"""),
           //         ),
@@ -700,12 +670,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1300employs13
           // speakemploys13("en-US"""),
           //         ),
@@ -715,12 +679,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1400employs14
           // speakemploys14("en-US"""),
           //         ),
@@ -730,12 +688,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1500employs15
           // speakemploys15("en-US"""),
           //         ),
@@ -745,12 +697,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1600employs16
           // speakemploys16("en-US"""),
           //         ),
@@ -760,12 +706,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1700employs17
           // speakemploys17("en-US"""),
           //         ),
@@ -775,12 +715,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1800employs18
           // speakemploys18("en-US"""),
           //         ),
@@ -790,12 +724,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs1900employs19
           // speakemploys19("en-US"""),
           //         ),
@@ -805,12 +733,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs_2000employs20
           // speakemploys20("en-US"""),
           //         ),
@@ -820,12 +742,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs2100employs21
           // speakemploys21("en-US"""),
           //         ),
@@ -835,12 +751,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // employs2200employs22
           // speakemploys22("en-US"""),
           //         ),
@@ -893,14 +803,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: employ (Derived forms: employed, employs, employing)
+- Verb: employ (derived forms: employed, employs, employing)
 1. Put into service; make work for a particular purpose or use as designed (= use, utilize, utilise [Brit], apply)
 "employ your head!";
  
 2. Start in a job or pay to do a particular piece of work (= hire, engage)
 "How many people has she employed?";
 
-- Noun: employ (Derived forms: employs)
+- Noun: employ (derived forms: employs)
 1. The state of being employed or having a job (= employment)
 "he was in the employ of the city";
 """,

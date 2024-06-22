@@ -556,7 +556,7 @@ ${englishMeaningConst.text}
 1. (of a person) advanced in years, old (= aged, older, senior)
 "elderly residents could remember the construction of the first skyscraper";
 
-- Noun: elderly (Derived forms: elderlies)
+- Noun: elderly (derived forms: elderlies)
 1. People who are old collectively (= aged)
 "special arrangements were available for the elderly";
 """,

@@ -368,11 +368,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیڕی، جیرئاسایی، کەژئاسایی، نەرمی، بگۆڕی، جۆری، لەگۆڕان‌هاتوویی
+کوردی: جیڕی، جیرئاسایی، کەژئاسایی، نەرمی، بگۆڕی، جۆری، لەگۆڕان‌ھاتوویی
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەبوونی خاسیەتی لاستیکییەتی؛ ئەوەی کە ڕابکێشرێت و بگەڕێتەوە دۆخی ئاسایی خۆی"""),
+                  """١. (ناو) ھەبوونی خاسیەتی لاستیکییەتی؛ ئەوەی کە ڕابکێشرێت و بگەڕێتەوە دۆخی ئاسایی خۆی"""),
           Row(
             children: [
               const Expanded(
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There is some elasticity in our plans - nothing has been firmly decided yet."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەندێک لەگۆڕان‌هاتوویی لە پلانەکانماندا هەیە ـ هێشتا هیچ بە تەواوی بڕیاری لێ‌نەدراوە."""),
+                            """ھەندێک لەگۆڕان‌ھاتوویی لە پلانەکانماندا ھەیە ـ ھێشتا ھیچ بە تەواوی بڕیاری لێ‌نەدراوە."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elasticity (Derived forms: elasticities)
+- Noun: elasticity (derived forms: elasticities)
 1. The tendency of a body to return to its original shape after it has been stretched or compressed (= snap)
 "the waistband had lost its elasticity";
 """,

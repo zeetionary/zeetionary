@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئێلیکتریک، کارەبایی، برقی،	ورووژێنەر، بزوێنەر، هەژێنەر
+کوردی: ئێلیکتریک، کارەبایی، برقی،	ورووژێنەر، بزوێنەر، ھەژێنەر
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە کارەبا"""),
@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵناو) پڕ لە جۆش‌وخرۆشی؛ بەجۆشهێنەر"""),
+              text: """٢. (ھاوەڵناو) پڕ لە جۆش‌وخرۆشی؛ بەجۆشھێنەر"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: """The atmosphere was electric."""),
-                    ExampleSentenceKurdish(text: """کەشەکە هەژێنەر بوو."""),
+                    ExampleSentenceKurdish(text: """کەشەکە ھەژێنەر بوو."""),
                   ],
                 ),
               ),
@@ -472,7 +472,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The news had an electric effect on the waiting crowd."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەواڵەکە کاریگەرییەکی بەجۆشهێنەری لەسەر جەماوەرە چاوەڕوانەکە هەبوو."""),
+                            """ھەواڵەکە کاریگەرییەکی بەجۆشھێنەری لەسەر جەماوەرە چاوەڕوانەکە ھەبوو."""),
                   ],
                 ),
               ),
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ناو) سیستەمی وایەری کارەبایی بینایەک، هتد"""),
+              text: """٣. (ناو) سیستەمی وایەری کارەبایی بینایەک، ھتد"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -501,7 +501,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """There's a problem with the electrics."""),
                     ExampleSentenceKurdish(
-                        text: """کێشەیەک لە کارەباییەکەدا هەیە."""),
+                        text: """کێشەیەک لە کارەباییەکەدا ھەیە."""),
                   ],
                 ),
               ),
@@ -666,7 +666,7 @@ ${englishMeaningConst.text}
 3. Affected by emotion as if by electricity; thrilling (= galvanic, galvanizing, galvanising [Brit])
 "gave an electric reading of the play";
 
-- Noun: electric (Derived forms: electrics)
+- Noun: electric (derived forms: electrics)
 1. A car that is powered by electricity (= electric automobile, electric car)
 """,
   );

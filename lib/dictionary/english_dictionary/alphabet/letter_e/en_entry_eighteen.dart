@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
 - Adjective: eighteen
 1. Being one more than seventeen (= 18, xviii)
 
-- Noun: eighteen (Derived forms: eighteens)
+- Noun: eighteen (derived forms: eighteens)
 1. The cardinal number that is the sum of seventeen and one (= 18, XVIII)
 """,
   );

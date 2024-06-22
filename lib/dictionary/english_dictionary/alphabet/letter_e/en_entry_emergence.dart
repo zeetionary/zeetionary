@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پەیدابوون، دەرکەوتن، هاتنەڕوو، سەرهەڵدان، هاتنەدەرێ، ئاشکرابوون، ڕوون‌بوونەوە، وەدیارکەوتن،	پێکهاتن، ڕەخسان، پەیدابوون، دەرکەوتن، سەرهەڵدان،	(گوڵ، خونچە و هتد) پشکوتن، گوڵ‌کردن، دەمەترەک
+کوردی: پەیدابوون، دەرکەوتن، ھاتنەڕوو، سەرھەڵدان، ھاتنەدەرێ، ئاشکرابوون، ڕوون‌بوونەوە، وەدیارکەوتن،	پێکھاتن، ڕەخسان، پەیدابوون، دەرکەوتن، سەرھەڵدان،	(گوڵ، خونچە و ھتد) پشکوتن، گوڵ‌کردن، دەمەترەک
 """),
           const DefinitionKurdish(text: """١. (ناو) دەرکەوتنی شتێک"""),
           Row(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) دەستکردن بە هەبوون یان ئەوەی پێ بزاندرێت"""),
+              text: """٢. (ناو) دەستکردن بە ھەبوون یان ئەوەی پێ بزاندرێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Language has not always kept up with the emergence of new types of family."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زمان هەمیشە بەردەوام نەبوو لەگەڵ دەرکەوتنی جۆری تازەی خێزان."""),
+                            """زمان ھەمیشە بەردەوام نەبوو لەگەڵ دەرکەوتنی جۆری تازەی خێزان."""),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emergence (Derived forms: emergences)
+- Noun: emergence (derived forms: emergences)
 1. The gradual beginning or coming forth (= outgrowth, growth)
 "figurines presage the emergence of sculpture in Greece";
  

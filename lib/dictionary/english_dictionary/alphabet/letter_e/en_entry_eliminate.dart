@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Credit cards eliminate the need to carry a lot of cash."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کرێدیت کارد ئەو پێویستییە ناهێڵن کە ڕێژەیەکی زۆر کاش هەڵبگریت."""),
+                            """کرێدیت کارد ئەو پێویستییە ناھێڵن کە ڕێژەیەکی زۆر کاش ھەڵبگریت."""),
                   ],
                 ),
               ),
@@ -463,7 +463,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This diet claims to eliminate toxins from the body."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەم ژەمە خواردنە بانگەشەی ئەوە دەکات کە زەهراو لە جەستە دەربکات."""),
+                            """ئەم ژەمە خواردنە بانگەشەی ئەوە دەکات کە زەھراو لە جەستە دەربکات."""),
                   ],
                 ),
               ),
@@ -511,7 +511,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (کردار) وەستان لەوەی کە بیربکەیتەوە کەسێک/شتێک ڕەنگە بەرپرس بێت بۆ شتێک یان هەڵببژێردرێت"""),
+                  """٢. (کردار) وەستان لەوەی کە بیربکەیتەوە کەسێک/شتێک ڕەنگە بەرپرس بێت بۆ شتێک یان ھەڵببژێردرێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -523,7 +523,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The police have eliminated two suspects from their investigation."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پۆلیس وازیان لە دوو گومانلێکراو هێناوە لە لێکۆڵینەوەکەیان."""),
+                            """پۆلیس وازیان لە دوو گومانلێکراو ھێناوە لە لێکۆڵینەوەکەیان."""),
                   ],
                 ),
               ),
@@ -552,7 +552,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Malaria was eliminated as a cause of death."""),
                     ExampleSentenceKurdish(
-                        text: """مەلاریا وەک هۆکارێکی مردن نەهێڵدرا."""),
+                        text: """مەلاریا وەک ھۆکارێکی مردن نەھێڵدرا."""),
                   ],
                 ),
               ),
@@ -584,7 +584,7 @@ class KurdishMeaning extends StatelessWidget {
                             """All the English teams were eliminated in the early stages of the competition."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو تیمە ئینگلیزییەکان لە قۆناغەکانی سەرەتای پاڵەوانێتییەکە دەرکردران."""),
+                            """ھەموو تیمە ئینگلیزییەکان لە قۆناغەکانی سەرەتای پاڵەوانێتییەکە دەرکردران."""),
                   ],
                 ),
               ),
@@ -661,12 +661,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates900eliminates9
           // speakeliminates9("en-US"""),
           //         ),
@@ -676,12 +670,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates_1000eliminates10
           // speakeliminates10("en-US"""),
           //         ),
@@ -691,12 +679,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1100eliminates11
           // speakeliminates11("en-US"""),
           //         ),
@@ -706,12 +688,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1200eliminates12
           // speakeliminates12("en-US"""),
           //         ),
@@ -721,12 +697,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1300eliminates13
           // speakeliminates13("en-US"""),
           //         ),
@@ -736,12 +706,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1400eliminates14
           // speakeliminates14("en-US"""),
           //         ),
@@ -751,12 +715,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1500eliminates15
           // speakeliminates15("en-US"""),
           //         ),
@@ -766,12 +724,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1600eliminates16
           // speakeliminates16("en-US"""),
           //         ),
@@ -781,12 +733,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1700eliminates17
           // speakeliminates17("en-US"""),
           //         ),
@@ -796,12 +742,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1800eliminates18
           // speakeliminates18("en-US"""),
           //         ),
@@ -811,12 +751,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates1900eliminates19
           // speakeliminates19("en-US"""),
           //         ),
@@ -826,12 +760,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates_2000eliminates20
           // speakeliminates20("en-US"""),
           //         ),
@@ -841,12 +769,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates2100eliminates21
           // speakeliminates21("en-US"""),
           //         ),
@@ -856,12 +778,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eliminates2200eliminates22
           // speakeliminates22("en-US"""),
           //         ),
@@ -914,7 +830,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: eliminate (Derived forms: eliminating, eliminated, eliminates)
+- Verb: eliminate (derived forms: eliminating, eliminated, eliminates)
 1. Terminate, end, or take out (= extinguish, get rid of, do away with)
 "Let's eliminate the course on Akkadian hieroglyphics"; "eliminate my debts";
  

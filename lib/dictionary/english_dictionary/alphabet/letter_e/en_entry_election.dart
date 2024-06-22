@@ -449,9 +449,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵبژاردن(ـەکان)، دەنگ‌دان، هەڵبژاردن، هەڵبژار
+کوردی: ھەڵبژاردن(ـەکان)، دەنگ‌دان، ھەڵبژاردن، ھەڵبژار
 """),
-          const DefinitionKurdish(text: """١. (ناو) هەڵبژاردن"""),
+          const DefinitionKurdish(text: """١. (ناو) ھەڵبژاردن"""),
           Row(
             children: [
               const Expanded(
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The prime minister is about to call (= announce) an election."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرۆک وەزیران نزیکە لە ڕاگەیاندنی هەڵبژاردن."""),
+                            """سەرۆک وەزیران نزیکە لە ڕاگەیاندنی ھەڵبژاردن."""),
                   ],
                 ),
               ),
@@ -490,7 +490,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Elections will be held later this year."""),
                     ExampleSentenceKurdish(
-                        text: """هەڵبژاردن لە کۆتایی ئەمساڵدا بەڕێوەدەچێت."""),
+                        text: """ھەڵبژاردن لە کۆتایی ئەمساڵدا بەڕێوەدەچێت."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
                             """How many candidates are standing for election?"""),
                     ExampleSentenceKurdish(
                         text:
-                            """چەند بەربژێر ڕکابەری لە هەڵبژاردنەکە  دەکەن؟"""),
+                            """چەند بەربژێر ڕکابەری لە ھەڵبژاردنەکە  دەکەن؟"""),
                   ],
                 ),
               ),
@@ -548,7 +548,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Education is a key election issue."""),
                     ExampleSentenceKurdish(
-                        text: """پەروەردە بابەتێکی سەرەکیی هەڵبژاردنە."""),
+                        text: """پەروەردە بابەتێکی سەرەکیی ھەڵبژاردنە."""),
                   ],
                 ),
               ),
@@ -577,7 +577,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """Elections are scheduled for November."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەڵبژاردن بۆ مانگی تشرینی دووەم بڕیاری لێ‌دراوە."""),
+                            """ھەڵبژاردن بۆ مانگی تشرینی دووەم بڕیاری لێ‌دراوە."""),
                   ],
                 ),
               ),
@@ -606,7 +606,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Membership of the committee is by election."""),
                     ExampleSentenceKurdish(
-                        text: """ئەندامییەتی لە لیژنەکە بە هەڵبژاردنە."""),
+                        text: """ئەندامییەتی لە لیژنەکە بە ھەڵبژاردنە."""),
                   ],
                 ),
               ),
@@ -634,7 +634,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The election turnout in 2018 was high."""),
                     ExampleSentenceKurdish(
-                        text: """بەژداری هەڵبژاردن لە ٢٠١٨ بەرز بوو."""),
+                        text: """بەژداری ھەڵبژاردن لە ٢٠١٨ بەرز بوو."""),
                   ],
                 ),
               ),
@@ -664,7 +664,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The party swept German elections in November."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پارتەکە هەڵبژاردنەکانی ئەڵمانیای بردەوە لە تشرینی دووەم."""),
+                            """پارتەکە ھەڵبژاردنەکانی ئەڵمانیای بردەوە لە تشرینی دووەم."""),
                   ],
                 ),
               ),
@@ -694,7 +694,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The prime minister may decide to call an early election."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرۆک وەزیران ڕەنگە هەڵبژاردنی پێشوەختە ڕابگەیەنێت."""),
+                            """سەرۆک وەزیران ڕەنگە ھەڵبژاردنی پێشوەختە ڕابگەیەنێت."""),
                   ],
                 ),
               ),
@@ -724,7 +724,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The violence in the country will not derail the elections."""),
                     ExampleSentenceKurdish(
                         text:
-                            """توندوتیژی لە وڵاتەکە هەڵبژاردنەکان بەلاڕێدا نابت."""),
+                            """توندوتیژی لە وڵاتەکە ھەڵبژاردنەکان بەلاڕێدا نابت."""),
                   ],
                 ),
               ),
@@ -743,7 +743,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) هەڵبژێردراو بە هەڵبژاردن"""),
+              text: """٢. (ناو) ھەڵبژێردراو بە ھەڵبژاردن"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -755,7 +755,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Her election will mark a new beginning for the country."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەڵبژاردنی سەرەتایەکی تازە بۆ وڵاتەکە دیاری دەکات."""),
+                            """ھەڵبژاردنی سەرەتایەکی تازە بۆ وڵاتەکە دیاری دەکات."""),
                   ],
                 ),
               ),
@@ -783,7 +783,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """We welcome his election as president."""),
                     ExampleSentenceKurdish(
-                        text: """پێشوازی لە هەڵبژاردنی وەک سەرۆک دەکەین."""),
+                        text: """پێشوازی لە ھەڵبژاردنی وەک سەرۆک دەکەین."""),
                   ],
                 ),
               ),
@@ -870,7 +870,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: election (Derived forms: elections)
+- Noun: election (derived forms: elections)
 1. A vote to select the winner of a position or political office (= poll)
 "the results of the election will be announced tonight";
  

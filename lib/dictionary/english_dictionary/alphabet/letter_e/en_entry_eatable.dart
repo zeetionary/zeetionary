@@ -358,10 +358,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆراکی، لەخواردن‌هاتوو، خواردەنی، دەخورێ
+کوردی: خۆراکی، لەخواردن‌ھاتوو، خواردەنی، دەخورێ
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە هێندە باشە تاوەکو بخوردرێت"""),
+              text: """١. (ھاوەڵناو) کە ھێندە باشە تاوەکو بخوردرێت"""),
           Row(
             children: [
               const Expanded(
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The fruit was ripe and eatable."""),
                     ExampleSentenceKurdish(
-                        text: """میوەکە گەییو و لەخواردن‌هاتوو بوو."""),
+                        text: """میوەکە گەییو و لەخواردن‌ھاتوو بوو."""),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 - Adjective: eatable 
 1. Suitable for use as food (= edible, comestible)
 
-- Noun: eatable (Derived forms: eatables)
+- Noun: eatable (derived forms: eatables)
 1. Any substance that can be used as food (= comestible, edible, pabulum, victual, victuals, vittle [archaic])
 """,
   );

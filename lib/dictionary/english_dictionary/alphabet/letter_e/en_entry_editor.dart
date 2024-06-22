@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە بەرپرسی ڕۆژنامەیەک، گۆڤارێک، هتد ــە یان بەشێکە لە بەشی بەڕێوەبردن کە بڕیار دەدەن چی بڵاوبکرێتەوە"""),
+                  """١. (ناو) کەسێک کە بەرپرسی ڕۆژنامەیەک، گۆڤارێک، ھتد ــە یان بەشێکە لە بەشی بەڕێوەبردن کە بڕیار دەدەن چی بڵاوبکرێتەوە"""),
           Row(
             children: [
               const Expanded(
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) کەسێک کە کتێبێک یان نووسراوی دیکە بۆ بڵاوکردنەوە ئامادە دەکات، بۆ نموونە بە ڕاستکردنەوەی هەڵە و باشترکردنی"""),
+                  """٢. (ناو) کەسێک کە کتێبێک یان نووسراوی دیکە بۆ بڵاوکردنەوە ئامادە دەکات، بۆ نموونە بە ڕاستکردنەوەی ھەڵە و باشترکردنی"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Kazan hired him as cameraman, editor and producer for ‘The Visitors’."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کازان بەکرێی گرت وەک وێنەگر، مۆنتاژگەر و بەرهەمهێنەر بۆ فیلی 'The Visitors'."""),
+                            """کازان بەکرێی گرت وەک وێنەگر، مۆنتاژگەر و بەرھەمھێنەر بۆ فیلی 'The Visitors'."""),
                   ],
                 ),
               ),
@@ -672,7 +672,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: editor (Derived forms: editors)
+- Noun: editor (derived forms: editors)
 1. A person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine) (= editor in chief)
  
 2. (computing) a program designed to perform such editorial functions as rearrangement, modification or deletion of data (= editor program)

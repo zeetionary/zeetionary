@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داهات، دەرامەت، دەسکەوت، قازانج، خێر
+کوردی: داھات، دەرامەت، دەسکەوت، قازانج، خێر
 """),
           const DefinitionKurdish(
               text:
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Levels of earnings are still rising."""),
                     ExampleSentenceKurdish(
-                        text: """ئاستی قازانج هێشتا لە بەرزبوونەوەیە."""),
+                        text: """ئاستی قازانج ھێشتا لە بەرزبوونەوەیە."""),
                   ],
                 ),
               ),
@@ -466,7 +466,7 @@ class KurdishMeaning extends StatelessWidget {
                             """You must declare all earnings to the tax office."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەبێت هەموو قازانجێکت ئاشکرا بکەیت لە ئۆفیسی باجدان."""),
+                            """دەبێت ھەموو قازانجێکت ئاشکرا بکەیت لە ئۆفیسی باجدان."""),
                   ],
                 ),
               ),
@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The company's earnings per share have fallen to 29p."""),
                     ExampleSentenceKurdish(
                         text:
-                            """قازانجی کۆمپانیەکە بۆ هەر پشکێک بۆ ٢٩ پێنس دابەزیوە."""),
+                            """قازانجی کۆمپانیەکە بۆ ھەر پشکێک بۆ ٢٩ پێنس دابەزیوە."""),
                   ],
                 ),
               ),
@@ -526,7 +526,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Whisky accounts for a large percentage of Scotland's export earnings."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ویسکی پێکهێنەری بەشێکی زۆر لە ڕێژەی سەدی هەناردەی سکۆتلەندا پێکدێنێت."""),
+                            """ویسکی پێکھێنەری بەشێکی زۆر لە ڕێژەی سەدی ھەناردەی سکۆتلەندا پێکدێنێت."""),
                   ],
                 ),
               ),

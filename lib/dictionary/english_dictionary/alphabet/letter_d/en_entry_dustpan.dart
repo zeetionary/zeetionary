@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dustpan (Derived forms: dustpans)
+- Noun: dustpan (derived forms: dustpans)
 1. A short-handled receptacle into which dust can be swept
  
 2. The quantity that a dustpan will hold (= dustpanful)

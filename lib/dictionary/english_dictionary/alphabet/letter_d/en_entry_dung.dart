@@ -533,7 +533,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dung (Derived forms: dunged, dungs, dunging)
+- Noun: dung (derived forms: dunged, dungs, dunging)
 1. Faecal matter of animals (= droppings, muck, scat)
 
 - Verb: dung 

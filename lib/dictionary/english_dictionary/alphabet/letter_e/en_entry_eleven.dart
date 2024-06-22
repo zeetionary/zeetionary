@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There are only eleven of these rare animals left."""),
                     ExampleSentenceKurdish(
-                        text: """تەنها یازدە لەم ئاژەڵە دەگمەنانە ماون."""),
+                        text: """تەنھا یازدە لەم ئاژەڵە دەگمەنانە ماون."""),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Twenty people were invited but only eleven turned up."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بیست کەس بانگهێشت کران، بەڵام تەنها یازدە هاتن."""),
+                            """بیست کەس بانگھێشت کران، بەڵام تەنھا یازدە ھاتن."""),
                   ],
                 ),
               ),
@@ -579,7 +579,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ژمارە) تیمێکی یازدە یاریزانی بۆ تۆپی پێ، کریکیت یان هۆکی"""),
+                  """٢. (ژمارە) تیمێکی یازدە یاریزانی بۆ تۆپی پێ، کریکیت یان ھۆکی"""),
           const DividerSentences(),
           Row(
             children: [
@@ -589,7 +589,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She was chosen for the first eleven."""),
                     ExampleSentenceKurdish(
-                        text: """بۆ یەکەم یازدە یاریزان هەڵبژێردرا."""),
+                        text: """بۆ یەکەم یازدە یاریزان ھەڵبژێردرا."""),
                   ],
                 ),
               ),
@@ -689,7 +689,7 @@ ${englishMeaningConst.text}
 - Adjective: eleven
 1. Being one more than ten (= 11, xi)
 
-- Noun: eleven (Derived forms: elevens)
+- Noun: eleven (derived forms: elevens)
 1. The cardinal number that is the sum of ten and one (= 11, XI)
  
 2. A team that plays football (= football team)

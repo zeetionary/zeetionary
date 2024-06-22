@@ -493,7 +493,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dove (Derived forms: doves)
+- Noun: dove (derived forms: doves)
 1. Any of numerous small pigeons
  
 2. Someone who prefers negotiations to armed conflict in the conduct of foreign relations (= peacenik)

@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dosshouse (Derived forms: dosshouses)
+- Noun: dosshouse (derived forms: dosshouses)
 Usage: Brit, informal (N. Amer: flophouse)
 1. A cheap lodging house (= flophouse [N. Amer, informal])
 """,

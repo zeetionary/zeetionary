@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: docker (Derived forms: dockers)
+- Noun: docker (derived forms: dockers)
 Usage: Brit (N. Amer: longshoreman)
 1. A labourer who loads and unloads vessels in a port (= stevedore, loader, longshoreman [N. Amer], dockhand, dock worker, dockworker, dock-walloper, lumper, wharfie [Austral, NZ, informal])
 """,

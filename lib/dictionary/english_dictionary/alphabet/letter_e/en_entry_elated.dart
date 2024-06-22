@@ -366,11 +366,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆشحاڵ، سەرخۆش، خۆش، شاد، گەش، بەکەیف، کەیف‌ساز، هەژیو
+کوردی: خۆشحاڵ، سەرخۆش، خۆش، شاد، گەش، بەکەیف، کەیف‌ساز، ھەژیو
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش بەهۆی ئەوەی کە شتێکی باش روویداوە"""),
+                  """١. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش بەھۆی ئەوەی کە شتێکی باش روویداوە"""),
           Row(
             children: [
               const Expanded(

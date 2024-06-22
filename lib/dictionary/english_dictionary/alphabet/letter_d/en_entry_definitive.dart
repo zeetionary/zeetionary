@@ -347,165 +347,57 @@ class KurdishMeaning extends StatelessWidget {
           // definitives400"),
           // speakdefinitives4
           // definitives4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives500"),
           // speakdefinitives5
           // definitives5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives600"),
           // speakdefinitives6
           // definitives6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives700"),
           // speakdefinitives7
           // definitives7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives800"),
           // speakdefinitives8
           // definitives8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives900"),
           // speakdefinitives9
           // definitives9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1000"),
           // speakdefinitives10
           // definitives10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1100"),
           // speakdefinitives11
           // definitives11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1200"),
           // speakdefinitives12
           // definitives12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1300"),
           // speakdefinitives13
           // definitives13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1400"),
           // speakdefinitives14
           // definitives14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1500"),
           // speakdefinitives15
           // definitives15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1600"),
           // speakdefinitives16
           // definitives16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1700"),
           // speakdefinitives17
           // definitives17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1800"),
           // speakdefinitives18
           // definitives18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives1900"),
           // speakdefinitives19
           // definitives19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Clearly, this study can not provide a definitive answer.0"),
+          // "Clearly, this study can not provide a definitive answer.0"),
           // speakdefinitives20
           // definitives20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives2100"),
           // speakdefinitives21
           // definitives21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // definitives2200"),
           // speakdefinitives22
           // definitives22("en-US"),

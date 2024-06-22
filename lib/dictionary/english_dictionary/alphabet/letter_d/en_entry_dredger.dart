@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dredger (Derived forms: dredgers)
+- Noun: dredger (derived forms: dredgers)
 1. A barge (or a vessel resembling a barge) that is used for dredging
 """,
   );

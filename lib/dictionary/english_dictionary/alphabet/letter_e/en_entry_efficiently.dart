@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """If markets fail or do not work efficiently, government has a role to play."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەگەر بازاڕەکان شکست بهێنن یان کاریگەرانە کار نەکەن، حکومەت ئەرکیەتی ڕۆڵ ببینێت."""),
+                            """ئەگەر بازاڕەکان شکست بھێنن یان کاریگەرانە کار نەکەن، حکومەت ئەرکیەتی ڕۆڵ ببینێت."""),
                   ],
                 ),
               ),

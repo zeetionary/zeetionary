@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) بڕیاردانی ئەوەی کە شتێک بۆ مەبەستێکی تایبەتی بەکاردێت، یان گوتنی ئەوەی کە شتێک بەسەر کەسێک/شتێکدا دێت لە داهاتوودا"""),
+                  """١. (کردار) بڕیاردانی ئەوەی کە شتێک بۆ مەبەستێکی تایبەتی بەکاردێت، یان گوتنی ئەوەی کە شتێک بەسەر کەسێک/شتێکدا دێت لە داھاتوودا"""),
           Row(
             children: [
               const Expanded(
@@ -467,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She was earmarked early as a possible champion."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەر لە سەرەتاوە وەک یەکێک لە پاڵەوانەکان دیاریکرابوو."""),
+                            """ھەر لە سەرەتاوە وەک یەکێک لە پاڵەوانەکان دیاریکرابوو."""),
                   ],
                 ),
               ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The incident has all the earmarks of a terrorist attack."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕووداوەکە هەموو نیشانەکانی هێرشی تیرۆریستی هەبوو."""),
+                            """ڕووداوەکە ھەموو نیشانەکانی ھێرشی تیرۆریستی ھەبوو."""),
                   ],
                 ),
               ),
@@ -632,11 +632,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: earmark (Derived forms: earmarked, earmarking, earmarks)
+- Verb: earmark (derived forms: earmarked, earmarking, earmarks)
 1. Give or assign a resource to a particular person or cause (= allow, appropriate, set aside, reserve)
 "I will earmark this money for your research";
 
-- Noun: earmark (Derived forms: earmarks)
+- Noun: earmark (derived forms: earmarks)
 1. Identification mark on the ear of a domestic animal
  
 2. A distinctive characteristic or attribute of someone or something (= hallmark, trademark, stylemark)

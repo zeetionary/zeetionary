@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electrocution (Derived forms: electrocutions)
+- Noun: electrocution (derived forms: electrocutions)
 1. Execution by electricity (= burning)
  
 2. Killing by electric shock

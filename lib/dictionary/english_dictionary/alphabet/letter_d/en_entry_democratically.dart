@@ -351,165 +351,57 @@ class KurdishMeaning extends StatelessWidget {
           // democraticallys400"),
           // speakdemocraticallys4
           // democraticallys4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys500"),
           // speakdemocraticallys5
           // democraticallys5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys600"),
           // speakdemocraticallys6
           // democraticallys6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys700"),
           // speakdemocraticallys7
           // democraticallys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys800"),
           // speakdemocraticallys8
           // democraticallys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys900"),
           // speakdemocraticallys9
           // democraticallys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1000"),
           // speakdemocraticallys10
           // democraticallys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1100"),
           // speakdemocraticallys11
           // democraticallys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1200"),
           // speakdemocraticallys12
           // democraticallys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1300"),
           // speakdemocraticallys13
           // democraticallys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1400"),
           // speakdemocraticallys14
           // democraticallys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1500"),
           // speakdemocraticallys15
           // democraticallys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1600"),
           // speakdemocraticallys16
           // democraticallys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1700"),
           // speakdemocraticallys17
           // democraticallys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1800"),
           // speakdemocraticallys18
           // democraticallys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys1900"),
           // speakdemocraticallys19
           // democraticallys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The decision was taken democratically.0"),
+          // "The decision was taken democratically.0"),
           // speakdemocraticallys20
           // democraticallys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys2100"),
           // speakdemocraticallys21
           // democraticallys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democraticallys2200"),
           // speakdemocraticallys22
           // democraticallys22("en-US"),

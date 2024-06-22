@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەریەک لەو جەمسەرانەی لێیەوە کارەبا دەچێتە باتری یان ئامێرێکی کارەبایی"""),
+                  """١. (ناو) ھەریەک لەو جەمسەرانەی لێیەوە کارەبا دەچێتە باتری یان ئامێرێکی کارەبایی"""),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The battery has a positive and a negative electrode."""),
                     ExampleSentenceKurdish(
                         text:
-                            """باترییەکە ئێلیکترۆدێکی ئەرێنی و نەرێنی هەیە."""),
+                            """باترییەکە ئێلیکترۆدێکی ئەرێنی و نەرێنی ھەیە."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electrode (Derived forms: electrodes)
+- Noun: electrode (derived forms: electrodes)
 1. A conductor used to make electrical contact with some part of a circuit
 """,
   );

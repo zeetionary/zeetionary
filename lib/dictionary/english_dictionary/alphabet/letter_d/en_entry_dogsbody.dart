@@ -499,13 +499,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dogsbody (Derived forms: dogsbodies)
+- Noun: dogsbody (derived forms: dogsbodies)
 Usage: Brit, informal
 1. A worker who has to do all the unpleasant or boring jobs that no one else wants to do
 
 - Verb: dogsbody 
 Usage: Brit
-1. Act as a dogsbody (Derived forms: dogsbodied, dogsbodies, dogsbodying)
+1. Act as a dogsbody (derived forms: dogsbodied, dogsbodies, dogsbodying)
 """,
   );
 

@@ -551,7 +551,7 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          //           ExampleSentenceEnglish(text: """He was accused of dummying a penalty.
+          // """He was accused of dummying a penalty.
           // speakdummys6
           // dummys6("en-US"""),
           // dummys700
@@ -647,7 +647,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dummy (Derived forms: dummies)
+- Noun: dummy (derived forms: dummies)
 1. A person who does not talk (= silent person)
  
 2. [informal] An ignorant or foolish person (= dumbbell [informal], dope [informal], boob [informal], booby, pinhead [informal], div [Brit, informal], poon [Austral, informal], divvy [Brit, informal])
@@ -664,7 +664,7 @@ ${englishMeaningConst.text}
 1. Having the appearance of being real but lacking capacity to function
 "a dummy corporation"
 
-- Verb: dummy (Derived forms: dummying, dummies, dummied)
+- Verb: dummy (derived forms: dummying, dummies, dummied)
 1. Make a mock-up or prototype version of something (= dummy up)
 "dummy up the books that are to be published";
 """,

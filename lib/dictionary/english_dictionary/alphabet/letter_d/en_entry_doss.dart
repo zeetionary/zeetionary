@@ -600,12 +600,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: doss (Derived forms: dossing, dosses, dossed)
+- Verb: doss (derived forms: dossing, dosses, dossed)
 Usage: Brit, informal
 1. Sleep in a convenient place (= doss down [Brit, informal], crash [informal], crash out [informal])
 "You can doss here, though it's not very comfortable";
 
-- Noun: doss (Derived forms: dosses)
+- Noun: doss (derived forms: dosses)
 Usage: Brit, informal
 1. Any undertaking that is easy to do (= cinch [informal], breeze [informal], picnic [informal], snap [informal], duck soup [N. Amer, informal], child's play [informal], pushover, walkover, piece of cake [informal])
 """,

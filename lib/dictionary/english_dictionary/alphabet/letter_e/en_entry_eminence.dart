@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eminence (Derived forms: eminences)
+- Noun: eminence (derived forms: eminences)
 1. High status importance owing to marked superiority (= distinction, preeminence, note)
 "a scholar of great eminence";
  

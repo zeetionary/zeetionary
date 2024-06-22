@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The Earl of Essex led troops in battle."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئێرڵی ئێسێکس ڕابەرایەتی هێزەکانی کرد لە جەنگدا."""),
+                            """ئێرڵی ئێسێکس ڕابەرایەتی ھێزەکانی کرد لە جەنگدا."""),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earl (Derived forms: earls)
+- Noun: earl (derived forms: earls)
 1. A British peer ranking below a marquess and above a viscount
 """,
   );

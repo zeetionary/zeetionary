@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dumpy (Derived forms: dumpiest, dumpier)
+- Adjective: dumpy (derived forms: dumpiest, dumpier)
 1. Short and thick; as e.g. having short legs and heavy musculature (= chunky, low-set, squat, squatty, stumpy)
 "a dumpy little dumpling of a woman";
  

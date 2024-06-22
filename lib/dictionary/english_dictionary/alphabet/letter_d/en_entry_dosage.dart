@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dosage (Derived forms: dosages)
+- Noun: dosage (derived forms: dosages)
 1. The quantity of an active agent (substance or radiation) taken in or absorbed at any one time (= dose)
  
 2. A measured portion of medicine taken at any one time (= dose)

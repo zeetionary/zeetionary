@@ -318,138 +318,48 @@ class KurdishMeaning extends StatelessWidget {
           // dessertspoons700"),
           // speakdessertspoons7
           // dessertspoons7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons800"),
           // speakdessertspoons8
           // dessertspoons8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons900"),
           // speakdessertspoons9
           // dessertspoons9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1000"),
           // speakdessertspoons10
           // dessertspoons10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1100"),
           // speakdessertspoons11
           // dessertspoons11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1200"),
           // speakdessertspoons12
           // dessertspoons12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1300"),
           // speakdessertspoons13
           // dessertspoons13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1400"),
           // speakdessertspoons14
           // dessertspoons14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1500"),
           // speakdessertspoons15
           // dessertspoons15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1600"),
           // speakdessertspoons16
           // dessertspoons16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1700"),
           // speakdessertspoons17
           // dessertspoons17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1800"),
           // speakdessertspoons18
           // dessertspoons18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons1900"),
           // speakdessertspoons19
           // dessertspoons19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Add one dessertspoon of sugar.0"),
+          // "Add one dessertspoon of sugar.0"),
           // speakdessertspoons20
           // dessertspoons20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons2100"),
           // speakdessertspoons21
           // dessertspoons21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // dessertspoons2200"),
           // speakdessertspoons22
           // dessertspoons22("en-US"),

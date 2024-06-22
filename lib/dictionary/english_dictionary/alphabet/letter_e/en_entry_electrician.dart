@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electrician (Derived forms: electricians)
+- Noun: electrician (derived forms: electricians)
 1. A person who installs or repairs electrical or telephone lines (= lineman [N. Amer], linesman, sparky [Brit, informal])
  
 2. Someone trained to install, maintain and repair electrical equipment or wiring

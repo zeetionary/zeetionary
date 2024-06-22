@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: double bass (Derived forms: double basses)
+- Noun: double bass (derived forms: double basses)
 1. Largest and lowest member of the violin family (= bass fiddle, bass viol, bull fiddle, contrabass, string bass)
 """,
   );

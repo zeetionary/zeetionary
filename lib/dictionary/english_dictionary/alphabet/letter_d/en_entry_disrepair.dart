@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disrepair (Derived forms: disrepairs)
+- Noun: disrepair (derived forms: disrepairs)
 1. In need of repairs; in need of repair
 "a condition of disrepair"
 """,

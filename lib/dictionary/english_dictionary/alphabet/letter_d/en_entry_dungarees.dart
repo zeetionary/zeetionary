@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dungaree (Derived forms: dungarees)
+- Noun: dungaree (derived forms: dungarees)
 1. A coarse durable twill-weave cotton fabric (= denim, jean)
 """,
   );

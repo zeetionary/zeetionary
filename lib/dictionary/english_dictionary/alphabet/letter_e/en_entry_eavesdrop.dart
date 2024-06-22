@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: eavesdrop (Derived forms: eavesdrops, eavesdropped, eavesdropping)
+- Verb: eavesdrop (derived forms: eavesdrops, eavesdropped, eavesdropping)
 1. Listen without the speaker's knowledge (= listen in, earwig [Brit, informal])
 "the jealous man was eavesdropping on his wife's conversations";
 """,

@@ -635,11 +635,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: download (Derived forms: downloading, downloads, downloaded)
+- Verb: download (derived forms: downloading, downloads, downloaded)
 1. Transfer a file or program from a central computer to a smaller computer or to a computer at a remote location
 "The file you download is usually an installation program"
 
-- Noun: download (Derived forms: downloads)
+- Noun: download (derived forms: downloads)
 1. The act or process of transferring a file to the local computer over a network
 
 2. A file that has been downloaded

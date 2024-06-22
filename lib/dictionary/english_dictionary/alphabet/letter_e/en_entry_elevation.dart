@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرزکردنەوە، بردنەسەرەوە، ژووربوونەوە، باڵابوونەوە، چوونەسەرەوە، بەرزبوونەوە، هەڵکشان،	بەرزی، بڵیندی،	تەپۆڵکە، گرد، زورک، بڵیندایی، جێگای بەرز، بەرزایی (بەتایبەت لە ئاستی دەریاوە)،	نەخشەی لایەکی خانووبەرە،	گۆشە (چەک‌وچۆڵ)
+کوردی: بەرزکردنەوە، بردنەسەرەوە، ژووربوونەوە، باڵابوونەوە، چوونەسەرەوە، بەرزبوونەوە، ھەڵکشان،	بەرزی، بڵیندی،	تەپۆڵکە، گرد، زورک، بڵیندایی، جێگای بەرز، بەرزایی (بەتایبەت لە ئاستی دەریاوە)،	نەخشەی لایەکی خانووبەرە،	گۆشە (چەک‌وچۆڵ)
 """),
           const DefinitionKurdish(text: """١. (ناو) وەرگرتنی پێگەی بەرزتر"""),
           Row(
@@ -594,7 +594,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elevation (Derived forms: elevations)
+- Noun: elevation (derived forms: elevations)
 1. The event of something being raised upward (= lift, raising)
 "an elevation of the temperature in the afternoon";
  

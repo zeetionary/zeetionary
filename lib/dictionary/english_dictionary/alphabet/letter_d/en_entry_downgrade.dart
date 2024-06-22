@@ -497,10 +497,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: downgrade (Derived forms: downgraded, downgrading, downgrades)
+- Verb: downgrade (derived forms: downgraded, downgrading, downgrades)
 1. Rate lower; lower in value or esteem
 
-- Noun: downgrade (Derived forms: downgrades)
+- Noun: downgrade (derived forms: downgrades)
 1. The property possessed by a slope or surface that descends
 """,
   );

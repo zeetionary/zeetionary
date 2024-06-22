@@ -560,7 +560,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embroider (Derived forms: embroidered, embroiders, embroidering)
+- Verb: embroider (derived forms: embroidered, embroiders, embroidering)
 1. Decorate with needlework (= broider)
  
 2. Make appear better or greater (in power, wealth, quality, etc.) than reality (= pad, lard, embellish, aggrandize, aggrandise [Brit], blow up, dramatize, dramatise [Brit])

@@ -368,11 +368,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەنگدەران، هەڵبژێران
+کوردی: دەنگدەران، ھەڵبژێران
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) دەنگدەرانی ناوچەیەک کە مافی دەنگدانیان هەیە و وەک یەک گرووپ سەیر دەکرێن"""),
+                  """١. (ناو) دەنگدەرانی ناوچەیەک کە مافی دەنگدانیان ھەیە و وەک یەک گرووپ سەیر دەکرێن"""),
           Row(
             children: [
               const Expanded(
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Only 60 per cent of the electorate voted in the last election."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تەنها ٦٠ لە سەدی دەنگدەران لە هەڵبژاردنی پێشوو دەنگیان دا."""),
+                            """تەنھا ٦٠ لە سەدی دەنگدەران لە ھەڵبژاردنی پێشوو دەنگیان دا."""),
                   ],
                 ),
               ),
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His statements are likely to cost him dearly among the general electorate."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لێدوانەکانی ئەگەری هەیە زۆر بکەوێت لەسەری لەناو دەنگدەرە گشتییەکاندا."""),
+                            """لێدوانەکانی ئەگەری ھەیە زۆر بکەوێت لەسەری لەناو دەنگدەرە گشتییەکاندا."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electorate (Derived forms: electorates)
+- Noun: electorate (derived forms: electorates)
 1. The body of enfranchised citizens; those qualified to vote
  
 2. [Austral, NZ] The body of voters who elect a representative for their area (= constituency)

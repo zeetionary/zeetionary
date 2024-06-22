@@ -530,11 +530,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dusk (Derived forms: dusks)
+- Noun: dusk (derived forms: dusks)
 1. The time of day immediately following sunset (= twilight, gloaming, gloam [archaic], nightfall, evenfall, fall, crepuscule, crepuscle)
 "he loved the dusk";
 
-- Verb: dusk (Derived forms: dusked, dusks, dusking)
+- Verb: dusk (derived forms: dusked, dusks, dusking)
 1. Become dusk
 """,
   );

@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The acid causes the cells to elongate by increasing the uptake of water."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ترشەڵۆکەکە دەبێتە هۆکاری ئەوەی کە خانەکان درێژببنەوە بە زیادکردنی هەڵمژینی ئاو."""),
+                            """ترشەڵۆکەکە دەبێتە ھۆکاری ئەوەی کە خانەکان درێژببنەوە بە زیادکردنی ھەڵمژینی ئاو."""),
                   ],
                 ),
               ),
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) هەبوونی شێوەیەک کە درێژترە وەک لەوەی پان بێت"""),
+                  """٢. (ھاوەڵناو) ھەبوونی شێوەیەک کە درێژترە وەک لەوەی پان بێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -523,7 +523,7 @@ ${englishMeaningConst.text}
 2. Having notably more length than width; being long and slender (= elongated)
 "an elongate tail tapering to a point";
 
-- Verb: elongate (Derived forms: elongating, elongated, elongates)
+- Verb: elongate (derived forms: elongating, elongated, elongates)
 1. Make long or longer by pulling and stretching (= stretch)
 "elongate the fabric";
 """,

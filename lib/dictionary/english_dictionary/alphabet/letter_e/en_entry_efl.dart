@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Which bookshop has the largest selection of EFL materials?"""),
                     ExampleSentenceKurdish(
                         text:
-                            """چی کتێبفرۆشێک زۆرترین هەڵبژاردەی بابەتی EFL ــی هەیە."""),
+                            """چی کتێبفرۆشێک زۆرترین ھەڵبژاردەی بابەتی EFL ــی ھەیە."""),
                   ],
                 ),
               ),

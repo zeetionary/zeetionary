@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو، کردار) جووڵەی هەوا، تۆز، یان ئاو لە بازنەدا؛ دەرکردنی جووڵەیەکی لەم شێوەیە"""),
+                  """١. (ناو، کردار) جووڵەی ھەوا، تۆز، یان ئاو لە بازنەدا؛ دەرکردنی جووڵەیەکی لەم شێوەیە"""),
           Row(
             children: [
               const Expanded(
@@ -514,10 +514,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eddy (Derived forms: eddies)
+- Noun: eddy (derived forms: eddies)
 1. A miniature whirlpool or whirlwind resulting when the current of a fluid doubles back on itself (= twist)
 
-- Verb: eddy (Derived forms: eddied, eddies, eddying)
+- Verb: eddy (derived forms: eddied, eddies, eddying)
 1. Flow in a circular current, of liquids (= purl, whirlpool, swirl, whirl)
 
 - Noun: Eddy 

@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هێز و ورە کە وادەکات شتی تازە ڕووبدات یان شت سەرکەوتوو بێت"""),
+                  """١. (ناو) ھێز و ورە کە وادەکات شتی تازە ڕووبدات یان شت سەرکەوتوو بێت"""),
           Row(
             children: [
               const Expanded(
@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          //           ExampleSentenceEnglish(text: """She has a freshness and dynamism about her.
+          // """She has a freshness and dynamism about her.
           // speakdynamisms2
           // dynamisms2("en-US"""),
           // dynamisms300
@@ -507,7 +507,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dynamism (Derived forms: dynamisms)
+- Noun: dynamism (derived forms: dynamisms)
 1. Any of the various theories or doctrines or philosophical systems that attempt to explain the phenomena of the universe in terms of some immanent force or energy
  
 2. Active strength of body or mind (= vigor [US], vigour [Brit, Cdn], heartiness)

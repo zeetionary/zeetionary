@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەتاسە، بەگوڕ، بەپەرۆش، لەشەوق، سەرگەرم، بێ‌ئۆقرە، ئارام‌لێ‌هەڵگیراو، چاوەڕوان
+کوردی: بەتاسە، بەگوڕ، بەپەرۆش، لەشەوق، سەرگەرم، بێ‌ئۆقرە، ئارام‌لێ‌ھەڵگیراو، چاوەڕوان
 """),
           const DefinitionKurdish(
               text:
@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Everyone in the class seemed eager to learn."""),
                     ExampleSentenceKurdish(
-                        text: """هەموان لە پۆلەکەدا بەتاسەی فێربوون بوون."""),
+                        text: """ھەموان لە پۆلەکەدا بەتاسەی فێربوون بوون."""),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ ${englishMeaningConst.text}
 1. Having a strong or impatient wish to do something (= keen)
 "eager to learn"; "eager for success"; "eager helpers"; "an eager look";
 
-- Noun: eager (Derived forms: eagers)
+- Noun: eager (derived forms: eagers)
 Usage: UK, dialect
 1. A high wave (often dangerous) caused by tidal flow (as by colliding tidal currents or in a narrow estuary) (= tidal bore, bore, eagre [UK, dialect], aegir [non-standard])
 """,

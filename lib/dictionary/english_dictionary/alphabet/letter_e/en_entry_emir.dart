@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """As a senior advisor, he has a degree of influence over the emir."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەک ڕاوێژکارێکی باڵا، هەندێک کاریگەری لەسەر ئەمیرەکە هەیە."""),
+                            """وەک ڕاوێژکارێکی باڵا، ھەندێک کاریگەری لەسەر ئەمیرەکە ھەیە."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emir (Derived forms: emirs)
+- Noun: emir (derived forms: emirs)
 1. An independent ruler or chieftain (especially in Africa or Arabia) (= amir, emeer, ameer)
 """,
   );

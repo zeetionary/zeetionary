@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: """١. (ژمارەی پلەیی) هەشتەم"""),
+          const DefinitionKurdish(text: """١. (ژمارەی پلەیی) ھەشتەم"""),
           Row(
             children: [
               const Expanded(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: """Today is the eighth of May."""),
-                    ExampleSentenceKurdish(text: """ئەمڕۆ هەشتەمی ئایارە."""),
+                    ExampleSentenceKurdish(text: """ئەمڕۆ ھەشتەمی ئایارە."""),
                   ],
                 ),
               ),
@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """It's her eighth birthday."""),
                     ExampleSentenceKurdish(
-                        text: """هەشتەم ساڵیادی لەدایکبوونیەتی."""),
+                        text: """ھەشتەم ساڵیادی لەدایکبوونیەتی."""),
                   ],
                 ),
               ),
@@ -456,7 +456,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """My office is on the eighth floor."""),
                     ExampleSentenceKurdish(
-                        text: """ئۆفیسەکەم لە نهۆمی هەشتەمە."""),
+                        text: """ئۆفیسەکەم لە نھۆمی ھەشتەمە."""),
                   ],
                 ),
               ),
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """It's the eighth time that I've been to America."""),
                     ExampleSentenceKurdish(
-                        text: """ئەوە هەشتەم جارە چوومەتە ئەمریکا."""),
+                        text: """ئەوە ھەشتەم جارە چوومەتە ئەمریکا."""),
                   ],
                 ),
               ),
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He finished eighth in the race."""),
                     ExampleSentenceKurdish(
-                        text: """هەشتەم بوو لە پێشبڕکێکەدا."""),
+                        text: """ھەشتەم بوو لە پێشبڕکێکەدا."""),
                   ],
                 ),
               ),
@@ -617,7 +617,7 @@ ${englishMeaningConst.text}
 - Adjective: eighth  
 1. Coming next after the seventh and just before the ninth in position (= 8th)
 
-- Noun: eighth (Derived forms: eighths)
+- Noun: eighth (derived forms: eighths)
 1. Position eight in a countable series of things
  
 2. One part in eight equal parts (= one-eighth)

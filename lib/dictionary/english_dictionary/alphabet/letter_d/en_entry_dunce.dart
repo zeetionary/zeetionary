@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dunce (Derived forms: dunces)
+- Noun: dunce (derived forms: dunces)
 1. A stupid person; used to express a low opinion of someone's intelligence (= dunderhead [informal], numskull [informal], blockhead [informal], bonehead [informal], lunkhead [N. Amer], hammerhead [informal], knucklehead [informal], loggerhead [archaic], muttonhead [informal], dumbass [N. Amer], chowderhead [N. Amer, informal], chucklehead [informal], lamebrain [informal], pea brain [informal], numbskull [informal], bubblehead [informal], dumbhead [N. Amer, informal], clunk [N. Amer, informal], twonk [Brit, informal], dumbo [informal], lunk [N. Amer, informal])
 """,
   );

@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆخوازی، خۆویستی، خۆبینی، هەرخۆبینی، خۆپەسندی، خوبەزل‌زانی، خوپەرستی، خۆگەری
+کوردی: خۆخوازی، خۆویستی، خۆبینی، ھەرخۆبینی، خۆپەسندی، خوبەزل‌زانی، خوپەرستی، خۆگەری
 """),
           const DefinitionKurdish(
               text:
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His egoism prevented him from really loving anyone but himself."""),
                     ExampleSentenceKurdish(
                         text:
-                            """خوبەزل‌زانییەکەی ڕێگای لێ دەگرت لەوەی هیچ کەسی دیکەی خۆشبوێت جگە لە خۆی."""),
+                            """خوبەزل‌زانییەکەی ڕێگای لێ دەگرت لەوەی ھیچ کەسی دیکەی خۆشبوێت جگە لە خۆی."""),
                   ],
                 ),
               ),
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Finding herself world-famous by the time she was 18 only encouraged the actress's egotism."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەوەی کە خۆت بە ناوبانگی جیهانییەوە بینییەوە کە ١٨ ساڵ بوو تەنها هاندەری خۆبەزلزانی ئەکتەرەکە بوو."""),
+                            """ئەوەی کە خۆت بە ناوبانگی جیھانییەوە بینییەوە کە ١٨ ساڵ بوو تەنھا ھاندەری خۆبەزلزانی ئەکتەرەکە بوو."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: egoism (Derived forms: egoisms)
+- Noun: egoism (derived forms: egoisms)
 1. (ethics) the theory that the pursuit of your own welfare is the basis of morality
  
 2. Concern for your own interests and welfare (= egocentrism, self-interest, self-concern, self-centeredness [US], egocentricity, self-centredness [Brit, Cdn])

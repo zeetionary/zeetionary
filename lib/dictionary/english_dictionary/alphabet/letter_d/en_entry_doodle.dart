@@ -531,10 +531,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doodle (Derived forms: doodles)
+- Noun: doodle (derived forms: doodles)
 1. An aimless drawing (= scribble, scrabble)
 
-- Verb: doodle (Derived forms: doodling, doodled, doodles)
+- Verb: doodle (derived forms: doodling, doodled, doodles)
 1. Make a doodle; draw aimlessly
 """,
   );

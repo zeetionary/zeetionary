@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نائاسایێتی، ڕیزپەڕێتی،	ناهاوناوەندێتی، ناهاونێوەندی، لەناوەند دەرچوون (بیرکاری)
+کوردی: نائاسایێتی، ڕیزپەڕێتی،	ناھاوناوەندێتی، ناھاونێوەندی، لەناوەند دەرچوون (بیرکاری)
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ڕەفتاری نامۆ و ناسرووشتی"""),
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
                             """As a teacher, she had a reputation for eccentricity."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەک مامۆستایەک ناوبانگی هەبوو بۆ نائاسایێتی."""),
+                            """وەک مامۆستایەک ناوبانگی ھەبوو بۆ نائاسایێتی."""),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """We all have our little eccentricities."""),
                     ExampleSentenceKurdish(
-                        text: """هەموومان خووی نامۆی خۆمان هەیە."""),
+                        text: """ھەموومان خووی نامۆی خۆمان ھەیە."""),
                   ],
                 ),
               ),
@@ -554,7 +554,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eccentricity (Derived forms: eccentricities)
+- Noun: eccentricity (derived forms: eccentricities)
 1. Strange and unconventional behaviour (= kookiness [informal])
  
 2. (geometry) a ratio describing the shape of a conic section; the ratio of the distance between the foci to the length of the major axis

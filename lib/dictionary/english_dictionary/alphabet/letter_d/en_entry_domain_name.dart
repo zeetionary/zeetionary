@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: domain name (Derived forms: domain names)
+- Noun: domain name (derived forms: domain names)
 1. (computing) strings of letters and numbers (separated by periods) that are used to name organizations and computers and addresses on the internet
 "domain names are organized hierarchically with the more generic parts to the right"
 """,

@@ -533,12 +533,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dry rot (Derived forms: dry rots)
+- Noun: dry rot (derived forms: dry rots)
 1. A crumbling and drying of timber, bulbs, potatoes or fruit caused by a fungus
  
 2. A fungus causing dry rot
 
-- Verb: dry-rot (Derived forms: dry-rotting, dry-rots, dry-rotted)
+- Verb: dry-rot (derived forms: dry-rotting, dry-rots, dry-rotted)
 1. Affect or be affected with dry rot
 """,
   );

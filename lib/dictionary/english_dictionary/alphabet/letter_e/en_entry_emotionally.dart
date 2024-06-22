@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لەباری سۆزداری‌یەوە، لە ڕووی سۆزەوە
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵکار) کە پەیوەندیدارە بە هەستەکانی خەڵکییەوە"""),
+              text: """١. (ھاوەڵکار) کە پەیوەندیدارە بە ھەستەکانی خەڵکییەوە"""),
           Row(
             children: [
               const Expanded(
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """I try not to become emotionally involved."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەوڵ دەدەم لەلایەنی سۆزداری‌یەوە تێوەنەگلێم."""),
+                            """ھەوڵ دەدەم لەلایەنی سۆزداری‌یەوە تێوەنەگلێم."""),
                   ],
                 ),
               ),
@@ -437,7 +437,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵکار) کە وەها لە خەڵکی دەکات هەست بە سۆزی زۆر بکەن"""),
+                  """٢. (ھاوەڵکار) کە وەھا لە خەڵکی دەکات ھەست بە سۆزی زۆر بکەن"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The interviewer had not realized that was an emotionally charged issue (= causing strong feelings) in this community."""),
                     ExampleSentenceKurdish(
                         text:
-                            """چاوپێکەوتن‌کارەکە نەیزانی کە ئەوە بابەتێکی هەست‌بزوێن لەم کۆمەڵگەیەدا."""),
+                            """چاوپێکەوتن‌کارەکە نەیزانی کە ئەوە بابەتێکی ھەست‌بزوێن لەم کۆمەڵگەیەدا."""),
                   ],
                 ),
               ),

@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
 1. First in order of birth (= firstborn)
 "the eldest child";
 
-- Noun: eldest (Derived forms: eldests)
+- Noun: eldest (derived forms: eldests)
 1. The offspring who came first in the order of birth (= firstborn)
 """,
   );

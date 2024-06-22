@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dissection (Derived forms: dissections)
+- Noun: dissection (derived forms: dissections)
 1. Cutting so as to separate into pieces
  
 2. A minute and critical analysis

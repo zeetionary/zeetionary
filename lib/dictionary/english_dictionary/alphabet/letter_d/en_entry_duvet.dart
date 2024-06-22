@@ -533,7 +533,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duvet (Derived forms: duvets)
+- Noun: duvet (derived forms: duvets)
 Usage: Brit
 1. A soft quilt usually filled with the down of the eider (= eiderdown, continental quilt)
 """,

@@ -370,7 +370,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dissemination (Derived forms: disseminations)
+- Noun: dissemination (derived forms: disseminations)
 1. The opening of a subject to widespread discussion and debate (= airing, public exposure, spreading)
  
 2. The property of being diffused or dispersed (= diffusion)

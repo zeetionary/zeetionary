@@ -511,7 +511,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dressing gown (Derived forms: dressing gowns)
+- Noun: dressing gown (derived forms: dressing gowns)
 1. A robe worn before dressing or while lounging (= robe-de-chambre, lounging robe)
 """,
   );

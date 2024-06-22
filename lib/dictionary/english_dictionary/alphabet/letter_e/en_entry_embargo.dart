@@ -467,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There is a complete embargo on taking photographs in court."""),
                     ExampleSentenceKurdish(
                         text:
-                            """قەدەغەی تەواو هەیە لەسەر وێنەگرتن لە دادگادا."""),
+                            """قەدەغەی تەواو ھەیە لەسەر وێنەگرتن لە دادگادا."""),
                   ],
                 ),
               ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There have been calls to embargo all arms shipments to the region."""),
                     ExampleSentenceKurdish(
                         text:
-                            """داواکراوە هەموو ناردنێکی چەک بۆ هەرێمەکە قەدەغە بکرێت ."""),
+                            """داواکراوە ھەموو ناردنێکی چەک بۆ ھەرێمەکە قەدەغە بکرێت ."""),
                   ],
                 ),
               ),
@@ -530,7 +530,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The report is strictly embargoed for publication until Friday."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕاپۆرتەکە بە توندی قەدەغەکراوە بۆ بڵاوکردنەوە تاوەکو هەینی."""),
+                            """ڕاپۆرتەکە بە توندی قەدەغەکراوە بۆ بڵاوکردنەوە تاوەکو ھەینی."""),
                   ],
                 ),
               ),
@@ -549,12 +549,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos600embargos6
           // speakembargos6("en-US"""),
           //         ),
@@ -564,12 +558,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos700embargos7
           // speakembargos7("en-US"""),
           //         ),
@@ -579,12 +567,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos800embargos8
           // speakembargos8("en-US"""),
           //         ),
@@ -594,12 +576,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos900embargos9
           // speakembargos9("en-US"""),
           //         ),
@@ -609,12 +585,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos_1000embargos10
           // speakembargos10("en-US"""),
           //         ),
@@ -624,12 +594,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1100embargos11
           // speakembargos11("en-US"""),
           //         ),
@@ -639,12 +603,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1200embargos12
           // speakembargos12("en-US"""),
           //         ),
@@ -654,12 +612,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1300embargos13
           // speakembargos13("en-US"""),
           //         ),
@@ -669,12 +621,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1400embargos14
           // speakembargos14("en-US"""),
           //         ),
@@ -684,12 +630,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1500embargos15
           // speakembargos15("en-US"""),
           //         ),
@@ -699,12 +639,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1600embargos16
           // speakembargos16("en-US"""),
           //         ),
@@ -714,12 +648,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1700embargos17
           // speakembargos17("en-US"""),
           //         ),
@@ -729,12 +657,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1800embargos18
           // speakembargos18("en-US"""),
           //         ),
@@ -744,12 +666,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos1900embargos19
           // speakembargos19("en-US"""),
           //         ),
@@ -759,12 +675,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos_2000embargos20
           // speakembargos20("en-US"""),
           //         ),
@@ -774,12 +684,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos2100embargos21
           // speakembargos21("en-US"""),
           //         ),
@@ -789,12 +693,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // embargos2200embargos22
           // speakembargos22("en-US"""),
           //         ),
@@ -847,10 +745,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embargo (Derived forms: embargoes)
+- Noun: embargo (derived forms: embargoes)
 1. A government order imposing a trade barrier (= trade embargo, trade stoppage)
 
-- Verb: embargo (Derived forms: embargoed, embargoes, embargoing)
+- Verb: embargo (derived forms: embargoed, embargoes, embargoing)
 1. Ban the publication of (documents), as for security or copyright reasons
 "embargoed publications"
  

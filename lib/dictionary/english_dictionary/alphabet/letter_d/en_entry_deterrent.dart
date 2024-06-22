@@ -360,138 +360,48 @@ class KurdishMeaning extends StatelessWidget {
           // deterrents700"),
           // speakdeterrents7
           // deterrents7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents800"),
           // speakdeterrents8
           // deterrents8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents900"),
           // speakdeterrents9
           // deterrents9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1000"),
           // speakdeterrents10
           // deterrents10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1100"),
           // speakdeterrents11
           // deterrents11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1200"),
           // speakdeterrents12
           // deterrents12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1300"),
           // speakdeterrents13
           // deterrents13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1400"),
           // speakdeterrents14
           // deterrents14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1500"),
           // speakdeterrents15
           // deterrents15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1600"),
           // speakdeterrents16
           // deterrents16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1700"),
           // speakdeterrents17
           // deterrents17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1800"),
           // speakdeterrents18
           // deterrents18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents1900"),
           // speakdeterrents19
           // deterrents19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The bodies of executed criminals were hung on the city gates as a deterrent.0"),
+          // "The bodies of executed criminals were hung on the city gates as a deterrent.0"),
           // speakdeterrents20
           // deterrents20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents2100"),
           // speakdeterrents21
           // deterrents21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deterrents2200"),
           // speakdeterrents22
           // deterrents22("en-US"),

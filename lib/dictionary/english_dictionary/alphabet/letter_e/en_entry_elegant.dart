@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She's got the most elegant writing style."""),
                     ExampleSentenceKurdish(
-                        text: """جوانترین ستایلی نووسینی هەیە."""),
+                        text: """جوانترین ستایلی نووسینی ھەیە."""),
                   ],
                 ),
               ),

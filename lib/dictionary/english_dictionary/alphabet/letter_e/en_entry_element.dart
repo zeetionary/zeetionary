@@ -496,7 +496,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: توخم، ڕەگەز،	بنچینە، بنگەهـ، بنەما، ماک، بنەڕەت، بەشی سەرەکی، بەش، پار، پارچە، پشک،	کەمێ، نەختێ، بڕێ، نیسکێ، چکێ،	تایبەتمەندی،	ئێلێمێنت (کەل‌وپەلی ئێلیکتریکی)،	بوار، مەڵبەندی سروشتی، هێزەکانی سروشت، هەریەک لە چوارماکە (ئاو، ئاور، خاک و هەوا)، سەرەتاکان، بنەماکان، بنچینەکان،	ئاووهەوا، هەوا (ناخۆش)،	گروپ، کۆمەڵ، دەستە
+کوردی: توخم، ڕەگەز،	بنچینە، بنگەھـ، بنەما، ماک، بنەڕەت، بەشی سەرەکی، بەش، پار، پارچە، پشک،	کەمێ، نەختێ، بڕێ، نیسکێ، چکێ،	تایبەتمەندی،	ئێلێمێنت (کەل‌وپەلی ئێلیکتریکی)،	بوار، مەڵبەندی سروشتی، ھێزەکانی سروشت، ھەریەک لە چوارماکە (ئاو، ئاور، خاک و ھەوا)، سەرەتاکان، بنەماکان، بنچینەکان،	ئاووھەوا، ھەوا (ناخۆش)،	گروپ، کۆمەڵ، دەستە
 """),
           const DefinitionKurdish(
               text:
@@ -510,7 +510,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There are three important elements to consider."""),
                     ExampleSentenceKurdish(
-                        text: """سێ لایەنی گرنگ هەیە بۆ لەبەرچاوگرتن."""),
+                        text: """سێ لایەنی گرنگ ھەیە بۆ لەبەرچاوگرتن."""),
                   ],
                 ),
               ),
@@ -687,7 +687,7 @@ class KurdishMeaning extends StatelessWidget {
                             """All outdoor activities carry an element of risk."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو کارەکانی دەرەوە کەمێک مەترسییان تێدایە."""),
+                            """ھەموو کارەکانی دەرەوە کەمێک مەترسییان تێدایە."""),
                   ],
                 ),
               ),
@@ -717,7 +717,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There appears to be an element of truth in his story."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وا دەردەکەوێت کەمێک ڕاستی لەم چیرۆکەدا هەبێت."""),
+                            """وا دەردەکەوێت کەمێک ڕاستی لەم چیرۆکەدا ھەبێت."""),
                   ],
                 ),
               ),
@@ -746,7 +746,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There is a considerable element of danger in her job."""),
                     ExampleSentenceKurdish(
-                        text: """ڕێژەی بەرچاوی مەترسی لە کارەکەیدا هەیە."""),
+                        text: """ڕێژەی بەرچاوی مەترسی لە کارەکەیدا ھەیە."""),
                   ],
                 ),
               ),
@@ -776,7 +776,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Different atoms of the same element are called isotopes."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەتۆمی جیاوازی هەمان توخم پێی دوگەترێت ئایزۆتۆپ."""),
+                            """ئەتۆمی جیاوازی ھەمان توخم پێی دوگەترێت ئایزۆتۆپ."""),
                   ],
                 ),
               ),
@@ -806,7 +806,7 @@ class KurdishMeaning extends StatelessWidget {
                             """All chemical substances, whether elements, compounds or mixtures, are made up of three types of particles."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو مادەیەکی کیمیایی، چی توخمەکان، داڕشتەکان یان تێکەڵەکان، لە سێ تەنۆلکە پێکهاتوون."""),
+                            """ھەموو مادەیەکی کیمیایی، چی توخمەکان، داڕشتەکان یان تێکەڵەکان، لە سێ تەنۆلکە پێکھاتوون."""),
                   ],
                 ),
               ),
@@ -826,7 +826,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ناو) یەکێک لە چوار مادەی خاک، هەوا، ئاگر یان ئاو کە خەڵکی باوەڕیان وابوو هەموو شتێکی دیکەی لێ درووست بووە"""),
+                  """٤. (ناو) یەکێک لە چوار مادەی خاک، ھەوا، ئاگر یان ئاو کە خەڵکی باوەڕیان وابوو ھەموو شتێکی دیکەی لێ درووست بووە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -838,7 +838,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Each element was thought to balance the natural world."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەر هێزێک باوەڕ وابوو کە هاوسەنگی جیهانی سرووشتی ڕادەگرێت."""),
+                            """ھەر ھێزێک باوەڕ وابوو کە ھاوسەنگی جیھانی سرووشتی ڕادەگرێت."""),
                   ],
                 ),
               ),
@@ -857,7 +857,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٥. (ناو) کەشووهەوا، بەتایبەتی کەشووهەوای خراپ"""),
+              text: """٥. (ناو) کەشووھەوا، بەتایبەتی کەشووھەوای خراپ"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -869,7 +869,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The place was completely exposed to the elements."""),
                     ExampleSentenceKurdish(
                         text:
-                            """شوێنەکە بە تەواوی بەرکەوتە بە کەشووهەوا بوو."""),
+                            """شوێنەکە بە تەواوی بەرکەوتە بە کەشووھەوا بوو."""),
                   ],
                 ),
               ),
@@ -899,7 +899,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Are we going to brave the elements and go for a walk?"""),
                     ExampleSentenceKurdish(
                         text:
-                            """زاڵ ببین بەسەر کەشووهەواکەدا و بچینە پیاسەیەک."""),
+                            """زاڵ ببین بەسەر کەشووھەواکەدا و بچینە پیاسەیەک."""),
                   ],
                 ),
               ),
@@ -961,7 +961,7 @@ class KurdishMeaning extends StatelessWidget {
                             """These ideas are not just the province of a fringe element in the party."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەم دیدانە تەنها ئەوە نییە کاری گرووپێکی کەمینەی پارتەکە بێت."""),
+                            """ئەم دیدانە تەنھا ئەوە نییە کاری گرووپێکی کەمینەی پارتەکە بێت."""),
                   ],
                 ),
               ),
@@ -1067,7 +1067,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: element (Derived forms: elements)
+- Noun: element (derived forms: elements)
 1. An abstract part of something (= component, constituent, factor, ingredient)
 "the grammatical elements of a sentence";
  

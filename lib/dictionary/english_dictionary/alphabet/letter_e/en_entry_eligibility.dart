@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەوەی کە بتوانیت شتێکت هەبێت یان بیکەیت بەهۆی ئەوەی مەرجەکانی کردنیت تێدایە یان لە تەمەنی گونجاودایت"""),
+                  """١. (ناو) ئەوەی کە بتوانیت شتێکت ھەبێت یان بیکەیت بەھۆی ئەوەی مەرجەکانی کردنیت تێدایە یان لە تەمەنی گونجاودایت"""),
           Row(
             children: [
               const Expanded(
@@ -384,7 +384,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Marriage to a national gave automatic eligibility for citizenship."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هاوسەرگیری لەگەڵ هاونیشتیمانییەک پێ‌ڕەوایی خۆکارانەی بۆ ناسنامە پێدا."""),
+                            """ھاوسەرگیری لەگەڵ ھاونیشتیمانییەک پێ‌ڕەوایی خۆکارانەی بۆ ناسنامە پێدا."""),
                   ],
                 ),
               ),
@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She assessed each of her students to determine their eligibility to take the higher exam."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەر یەکێک لە خوێندکارەکانی هەڵسەنگاند بۆ دیاریکردنی شیاوییان بۆ وەرگرتنی تاقیکردنەوەی ئاستی باڵاتر."""),
+                            """ھەر یەکێک لە خوێندکارەکانی ھەڵسەنگاند بۆ دیاریکردنی شیاوییان بۆ وەرگرتنی تاقیکردنەوەی ئاستی باڵاتر."""),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eligibility (Derived forms: eligibilities)
+- Noun: eligibility (derived forms: eligibilities)
 1. The quality or state of being eligible
 "eligibility of a candidate for office"; "eligibility for a loan"
 """,

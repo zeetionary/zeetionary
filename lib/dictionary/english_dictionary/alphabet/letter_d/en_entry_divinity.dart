@@ -568,7 +568,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: divinity (Derived forms: divinities)
+- Noun: divinity (derived forms: divinities)
 1. Any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force (= deity, god, immortal)
  
 2. The quality of being divine

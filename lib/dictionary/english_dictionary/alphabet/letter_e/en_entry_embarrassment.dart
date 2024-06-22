@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ناڕەحەتی، نیگەرانی، دڵەڕاوکێ، شەرم، خەجاڵەتی، پەشۆکاوی، شڵەژاوی، تاساوی، سەرسامی، شێواوی، شپرزەیی، ناڕێک‌وپێکی، مایەی سەرشۆڕی، مایەی شەرمەزاری یان ناڕەحەتی، مڵۆزم، مایەی گرفتاری یان دەردەسەری
 """),
-          const DefinitionKurdish(text: """١. (ناو) هەست بە شەرمکردن"""),
+          const DefinitionKurdish(text: """١. (ناو) ھەست بە شەرمکردن"""),
           Row(
             children: [
               const Expanded(
@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Much to her embarrassment, she realized that everybody had been listening to her singing."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بە جێگای زۆری شەرمەزاریی، زانی کە هەموان گوێیان لێی بوو کە گۆرانی دەگوت."""),
+                            """بە جێگای زۆری شەرمەزاریی، زانی کە ھەموان گوێیان لێی بوو کە گۆرانی دەگوت."""),
                   ],
                 ),
               ),
@@ -492,7 +492,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Helen changed the subject to save me the embarrassment of replying."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هێلین بابەتەکەی گۆڕی بۆ ئەوەی ڕزگارم بکات لە شەرمەزاری وەڵامدانەوە."""),
+                            """ھێلین بابەتەکەی گۆڕی بۆ ئەوەی ڕزگارم بکات لە شەرمەزاری وەڵامدانەوە."""),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """I felt some embarrassment as we shook hands."""),
                     ExampleSentenceKurdish(
-                        text: """هەستم بە شەرمەزاری کرد کە تەوقەمان کرد."""),
+                        text: """ھەستم بە شەرمەزاری کرد کە تەوقەمان کرد."""),
                   ],
                 ),
               ),
@@ -611,7 +611,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The agreement was made in secret to avoid public embarrassment."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕێکەوتنەکە بە نهێنی کرا بۆ دووربوون لە خەجاڵەتی لای خەڵک."""),
+                            """ڕێکەوتنەکە بە نھێنی کرا بۆ دووربوون لە خەجاڵەتی لای خەڵک."""),
                   ],
                 ),
               ),
@@ -737,7 +737,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embarrassment (Derived forms: embarrassments)
+- Noun: embarrassment (derived forms: embarrassments)
 1. The shame you feel when your inadequacy or guilt is made public
  
 2. The state of being embarrassed (usually by some financial inadequacy)

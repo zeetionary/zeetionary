@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dodger (Derived forms: dodgers)
+- Noun: dodger (derived forms: dodgers)
 Usage: informal
 1. A shifty deceptive person (= fox, slyboots [informal])
  

@@ -529,13 +529,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dole (Derived forms: doles)
+- Noun: dole (derived forms: doles)
 Usage: Brit, informal
 1.Money received from the state (= pogy [Cdn, informal], pogey [Cdn, informal])
  
 2. [Brit, archaic, informal] A share of money, food or clothing that has been charitably given
 
-- Verb: dole (Derived forms: doling, doled, doles)
+- Verb: dole (derived forms: doling, doled, doles)
 1. Give or provide in small portions (= distribute, administer, mete out, deal, parcel out, lot, dispense, deal out, dish out, allot, dole out, mete)
 "dole out some money";
 """,

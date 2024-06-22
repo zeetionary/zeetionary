@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: """١. (ژمارەی پلەیی) هەژدەیەم"""),
+          const DefinitionKurdish(text: """١. (ژمارەی پلەیی) ھەژدەیەم"""),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She celebrated her eighteenth birthday with friends."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لەگەڵ هاوڕێیانی هەژدەیەم ساڵیادی لەدایکبوونی گێڕا."""),
+                            """لەگەڵ ھاوڕێیانی ھەژدەیەم ساڵیادی لەدایکبوونی گێڕا."""),
                   ],
                 ),
               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 - Adjective: eighteenth
 1. Coming next after the seventeenth in position (= 18th)
 
-- Noun: eighteenth (Derived forms: eighteenths)
+- Noun: eighteenth (derived forms: eighteenths)
 1. Position 18 in a countable series of things
 """,
   );

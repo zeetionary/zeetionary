@@ -311,176 +311,60 @@ class KurdishMeaning extends StatelessWidget {
           // defendants300"),
           // speakdefendants3
           // defendants3("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // defendants400"),
           // speakdefendants4
-          // defendants4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants4
           // defendants500"),
           // speakdefendants5
-          // defendants5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants5
           // defendants600"),
           // speakdefendants6
-          // defendants6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants6
           // defendants700"),
           // speakdefendants7
-          // defendants7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants7
           // defendants800"),
           // speakdefendants8
-          // defendants8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants8
           // defendants900"),
           // speakdefendants9
-          // defendants9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants9
           // defendants1000"),
           // speakdefendants10
-          // defendants10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants10
           // defendants1100"),
           // speakdefendants11
-          // defendants11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants11
           // defendants1200"),
           // speakdefendants12
-          // defendants12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants12
           // defendants1300"),
           // speakdefendants13
-          // defendants13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants13
           // defendants1400"),
           // speakdefendants14
-          // defendants14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants14
           // defendants1500"),
           // speakdefendants15
-          // defendants15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants15
           // defendants1600"),
           // speakdefendants16
-          // defendants16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants16
           // defendants1700"),
           // speakdefendants17
-          // defendants17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants17
           // defendants1800"),
           // speakdefendants18
-          // defendants18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants18
           // defendants1900"),
           // speakdefendants19
-          // defendants19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The jury found the defendant guilty on all counts.0"),
+          // defendants19
+          // "The jury found the defendant guilty on all counts.0"),
           // speakdefendants20
-          // defendants20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants20
           // defendants2100"),
           // speakdefendants21
-          // defendants21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // defendants21
           // defendants2200"),
           // speakdefendants22
           // defendants22("en-US"),

@@ -270,165 +270,57 @@ class KurdishMeaning extends StatelessWidget {
           // depositaccounts400"),
           // speakdepositaccounts4
           // depositaccounts4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts500"),
           // speakdepositaccounts5
           // depositaccounts5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts600"),
           // speakdepositaccounts6
           // depositaccounts6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts700"),
           // speakdepositaccounts7
           // depositaccounts7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts800"),
           // speakdepositaccounts8
           // depositaccounts8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts900"),
           // speakdepositaccounts9
           // depositaccounts9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1000"),
           // speakdepositaccounts10
           // depositaccounts10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1100"),
           // speakdepositaccounts11
           // depositaccounts11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1200"),
           // speakdepositaccounts12
           // depositaccounts12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1300"),
           // speakdepositaccounts13
           // depositaccounts13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1400"),
           // speakdepositaccounts14
           // depositaccounts14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1500"),
           // speakdepositaccounts15
           // depositaccounts15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1600"),
           // speakdepositaccounts16
           // depositaccounts16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1700"),
           // speakdepositaccounts17
           // depositaccounts17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1800"),
           // speakdepositaccounts18
           // depositaccounts18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts1900"),
           // speakdepositaccounts19
           // depositaccounts19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts2000"),
           // speakdepositaccounts20
           // depositaccounts20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts2100"),
           // speakdepositaccounts21
           // depositaccounts21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // depositaccounts2200"),
           // speakdepositaccounts22
           // depositaccounts22("en-US"),

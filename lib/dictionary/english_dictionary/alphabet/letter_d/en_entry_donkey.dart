@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: donkey (Derived forms: donkeys)
+- Noun: donkey (derived forms: donkeys)
 1. Domestic beast of burden descended from the African wild ass; patient but stubborn (= domestic ass, Equus asinus, ass, moke [Brit, informal])
  
 2. [informal] A stupid incompetent person (= dimwit [informal], nitwit [informal], half-wit [informal], doofus [N. Amer, informal], numpty [UK, informal], nelly [informal], nellie [informal], dingleberry [US, informal], noodle [informal], yo-yo [N. Amer, informal], dufus [N. Amer, informal], simp [N. Amer, informal])

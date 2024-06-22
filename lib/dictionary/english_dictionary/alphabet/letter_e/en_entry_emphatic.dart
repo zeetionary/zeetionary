@@ -385,11 +385,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێبڕاو، پتەو، بەهێز، تۆکمە، دووپات‌کراوە، شێلگیر، (لەسەر)سوور، پێداگر،	ئاشکرا، دیار، ڕوون، بەرچاو، یەکلایی‌کراوە، مسۆگەر
+کوردی: لێبڕاو، پتەو، بەھێز، تۆکمە، دووپات‌کراوە، شێلگیر، (لەسەر)سوور، پێداگر،	ئاشکرا، دیار، ڕوون، بەرچاو، یەکلایی‌کراوە، مسۆگەر
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) لێدوانێک، وەڵامێک، هتد کە سەرنجی لەسەر دانراوە بۆ ئەوەی بگوترێت گرنگە"""),
+                  """١. (ھاوەڵناو) لێدوانێک، وەڵامێک، ھتد کە سەرنجی لەسەر دانراوە بۆ ئەوەی بگوترێت گرنگە"""),
           Row(
             children: [
               const Expanded(
@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The minister has issued an emphatic rejection of the accusation."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەزیرەکە ڕەتکردنەوەی بەهێزی تۆمەتەکەی ڕاگەیاندووە."""),
+                            """وەزیرەکە ڕەتکردنەوەی بەھێزی تۆمەتەکەی ڕاگەیاندووە."""),
                   ],
                 ),
               ),

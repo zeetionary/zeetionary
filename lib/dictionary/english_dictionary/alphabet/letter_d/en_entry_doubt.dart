@@ -768,13 +768,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doubt (Derived forms: doubts)
+- Noun: doubt (derived forms: doubts)
 1. The state of being unsure of something (= uncertainty, incertitude, dubiety, doubtfulness, dubiousness)
  
 2. Uncertainty about the truth, factuality or existence of something (= dubiousness, doubtfulness, question)
 "the doubt of his claim";
 
-- Verb: doubt (Derived forms: doubts, doubting, doubted)
+- Verb: doubt (derived forms: doubts, doubting, doubted)
 1. Consider unlikely
 "I doubt that she will accept his proposal of marriage"
  

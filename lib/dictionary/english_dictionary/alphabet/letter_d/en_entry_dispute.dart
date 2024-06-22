@@ -609,7 +609,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dispute (Derived forms: disputed, disputes, disputing)
+- Verb: dispute (derived forms: disputed, disputes, disputing)
 1. Question the truth or validity of; take exception to (= challenge, gainsay)
 "She disputed his claims";
  
@@ -620,7 +620,7 @@ ${englishMeaningConst.text}
  
 4. [archaic] Stand up or offer resistance to somebody or something (= resist, hold out, withstand, stand firm)
 
-- Noun: dispute (Derived forms: disputes)
+- Noun: dispute (derived forms: disputes)
 1. A disagreement or argument about something important (= difference, difference of opinion, conflict)
 "he had a dispute with his wife";
  

@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dispersal (Derived forms: dispersals)
+- Noun: dispersal (derived forms: dispersals)
 1. The act of dispersing or diffusing something (= dispersion, dissemination, diffusion)
 "the dispersal of the troops";
 """,

@@ -571,7 +571,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: distillation (Derived forms: distillations)
+- Noun: distillation (derived forms: distillations)
 1. The process of purifying a liquid by boiling it and condensing its vapours (= distillment)
  
 2. A purified liquid produced by condensation from a vapour during distilling; the product of distilling (= distillate)

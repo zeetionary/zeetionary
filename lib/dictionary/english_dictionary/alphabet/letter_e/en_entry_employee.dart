@@ -387,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The firm has over 500 employees."""),
                     ExampleSentenceKurdish(
-                        text: """کۆمپانیاکە زیاتر لە ٥٠٠ کارمەندی هەیە."""),
+                        text: """کۆمپانیاکە زیاتر لە ٥٠٠ کارمەندی ھەیە."""),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The company has worked to attract skilled employees."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کۆمپانیاکە هەوڵی داوە کارمەندی شارەزا ڕابکێشێت."""),
+                            """کۆمپانیاکە ھەوڵی داوە کارمەندی شارەزا ڕابکێشێت."""),
                   ],
                 ),
               ),
@@ -551,7 +551,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: employee (Derived forms: employees)
+- Noun: employee (derived forms: employees)
 1. A worker who is hired to perform a job (= employe [US])
 """,
   );

@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Economically, the centre of Spain has lost its dominant role."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لەلایەنی ئابوورییەوە، ناوەڕاستی ئیسپانیا ڕۆڵی بەهێزی خۆی لەدەستداوە."""),
+                            """لەلایەنی ئابوورییەوە، ناوەڕاستی ئیسپانیا ڕۆڵی بەھێزی خۆی لەدەستداوە."""),
                   ],
                 ),
               ),
@@ -489,7 +489,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵکار) بەشێوەیەک کە بەها یان خزمەتگوزاری باش دەدات بەدەستەوە بە لەبەرچاوگرتنی ئەو کات یان پارەیەی کە تەرخانکراوە"""),
+                  """٢. (ھاوەڵکار) بەشێوەیەک کە بەھا یان خزمەتگوزاری باش دەدات بەدەستەوە بە لەبەرچاوگرتنی ئەو کات یان پارەیەی کە تەرخانکراوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵکار) بەشێوەیەک کە زیاتر کە پێویستی شتێک بەکارناهێنێت"""),
+                  """٣. (ھاوەڵکار) بەشێوەیەک کە زیاتر کە پێویستی شتێک بەکارناھێنێت"""),
           // const DividerSentences(),
           Row(
             children: [

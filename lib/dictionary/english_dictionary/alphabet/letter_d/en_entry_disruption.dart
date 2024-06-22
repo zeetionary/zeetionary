@@ -401,7 +401,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disruption (Derived forms: disruptions)
+- Noun: disruption (derived forms: disruptions)
 1. An act of delaying or interrupting the continuity (= break, interruption, gap)
 "it was presented without commercial disruptions";
  

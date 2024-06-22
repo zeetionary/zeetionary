@@ -391,138 +391,48 @@ class KurdishMeaning extends StatelessWidget {
           // desirabilitys700"),
           // speakdesirabilitys7
           // desirabilitys7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys800"),
           // speakdesirabilitys8
           // desirabilitys8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys900"),
           // speakdesirabilitys9
           // desirabilitys9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1000"),
           // speakdesirabilitys10
           // desirabilitys10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1100"),
           // speakdesirabilitys11
           // desirabilitys11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1200"),
           // speakdesirabilitys12
           // desirabilitys12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1300"),
           // speakdesirabilitys13
           // desirabilitys13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1400"),
           // speakdesirabilitys14
           // desirabilitys14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1500"),
           // speakdesirabilitys15
           // desirabilitys15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1600"),
           // speakdesirabilitys16
           // desirabilitys16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1700"),
           // speakdesirabilitys17
           // desirabilitys17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1800"),
           // speakdesirabilitys18
           // desirabilitys18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys1900"),
           // speakdesirabilitys19
           // desirabilitys19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Too much emphasis is placed on the desirability of being thin.0"),
+          // "Too much emphasis is placed on the desirability of being thin.0"),
           // speakdesirabilitys20
           // desirabilitys20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys2100"),
           // speakdesirabilitys21
           // desirabilitys21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desirabilitys2200"),
           // speakdesirabilitys22
           // desirabilitys22("en-US"),

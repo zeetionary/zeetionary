@@ -604,7 +604,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: donation (Derived forms: donations)
+- Noun: donation (derived forms: donations)
 1. A voluntary gift (as of money, service or ideas) made to some worthwhile cause (= contribution)
  
 2. Act of giving in common with others for a common purpose especially to a charity (= contribution)

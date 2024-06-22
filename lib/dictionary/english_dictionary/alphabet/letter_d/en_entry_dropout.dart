@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dropout (Derived forms: dropouts)
+- Noun: dropout (derived forms: dropouts)
 1. Someone who quits school before graduation
  
 2. Someone who withdraws from a social group or environment

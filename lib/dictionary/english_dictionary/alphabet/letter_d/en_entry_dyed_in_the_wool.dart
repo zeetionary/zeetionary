@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) هەبوونی بیروڕای بەهێز کە هەرگیز ناگۆڕدرێن"""),
+                  """١. (ھاوەڵناو) ھەبوونی بیروڕای بەھێز کە ھەرگیز ناگۆڕدرێن"""),
           Row(
             children: [
               const Expanded(
@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He's a dyed-in-the-wool traditionalist where cooking is concerned - he doesn't allow any modern gadgets in the kitchen."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کە دێتە سەر بابی خواردن نەریتخوازێکی سەرسەختە کە ڕێگا بە هیچ ئامرازێکی سەردەمیانە نادات لە چێشتخانەدا."""),
+                            """کە دێتە سەر بابی خواردن نەریتخوازێکی سەرسەختە کە ڕێگا بە ھیچ ئامرازێکی سەردەمیانە نادات لە چێشتخانەدا."""),
                   ],
                 ),
               ),

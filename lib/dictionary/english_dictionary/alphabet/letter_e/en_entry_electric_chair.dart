@@ -518,7 +518,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: electric chair (Derived forms: electric chairs)
+- Noun: electric chair (derived forms: electric chairs)
 1. An instrument of execution by electrocution; resembles an ordinary seat for one person (= chair, death chair, hot seat)
 "the murderer was sentenced to die in the electric chair";
 """,

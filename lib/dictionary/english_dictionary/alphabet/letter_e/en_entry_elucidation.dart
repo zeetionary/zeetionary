@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elucidation (Derived forms: elucidations)
+- Noun: elucidation (derived forms: elucidations)
 1. An act of explaining that serves to clear up and cast light on
  
 2. An interpretation that removes obstacles to understanding (= clarification, illumination, éclaircissement [literary])

@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: گیان پێدان بە، هێنانە بەر زەین
+// کوردی: گیان پێدان بە، ھێنانە بەر زەین
 // """),
           const DefinitionKurdish(
               text: """١. (کردار) وێناکردن یان دەربڕینی بیرۆکە یان خاسیەتێک"""),
@@ -552,7 +552,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embody (Derived forms: embodied, embodies, embodying)
+- Verb: embody (derived forms: embodied, embodies, embodying)
 1. Represent in bodily form (= incarnate, body forth, substantiate)
 "He embodies all that is evil wrong with the system";
  

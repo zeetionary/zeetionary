@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) نەخۆشییەک لە ڕیخۆڵەدا کە دەبێتە هۆکاری سکچوون لەگەڵ خوێندا"""),
+                  """١. (ناو) نەخۆشییەک لە ڕیخۆڵەدا کە دەبێتە ھۆکاری سکچوون لەگەڵ خوێندا"""),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Dysentery often spreads through contaminated water."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زگەشۆرە خوێنی زۆرجار بەهۆی ئاوی پیس دەگوازرێتەوە."""),
+                            """زگەشۆرە خوێنی زۆرجار بەھۆی ئاوی پیس دەگوازرێتەوە."""),
                   ],
                 ),
               ),
@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dysentery (Derived forms: dysenteries)
+- Noun: dysentery (derived forms: dysenteries)
 1. An infection of the intestines marked by severe diarrhoea
 """,
   );

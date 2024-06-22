@@ -369,10 +369,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕەنج‌کێشی، گیان‌دەرهاتن، کۆڵەمەرگی، کاری سەخت و گران
+کوردی: ڕەنج‌کێشی، گیان‌دەرھاتن، کۆڵەمەرگی، کاری سەخت و گران
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) ئەو هەوڵەی کە پێویستە لە کاری جەستەییدا"""),
+              text: """١. (ناو) ئەو ھەوڵەی کە پێویستە لە کاری جەستەییدا"""),
           Row(
             children: [
               const Expanded(
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Using the right tool can save a lot of elbow grease."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بەکارهێنانی کەرەستەی گونجاو دەکرێت زۆر هێزی بازوو بگەڕێنێتەوە."""),
+                            """بەکارھێنانی کەرەستەی گونجاو دەکرێت زۆر ھێزی بازوو بگەڕێنێتەوە."""),
                   ],
                 ),
               ),
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The polish needs a certain amount of elbow grease to apply."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پاککردنەوەکە پێویستی بە ڕێژەیەکی دیاریکراو لە هێز و بازووە."""),
+                            """پاککردنەوەکە پێویستی بە ڕێژەیەکی دیاریکراو لە ھێز و بازووە."""),
                   ],
                 ),
               ),

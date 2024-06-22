@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
                             """We used to be friendly with some people who worked at the Swedish Embassy."""),
                     ExampleSentenceKurdish(
                         text:
-                            """جاران هاوڕێ بووین لەگەڵ هەندێک کەس کە لەگەڵ شاندی سوید کاریان دەکرد."""),
+                            """جاران ھاوڕێ بووین لەگەڵ ھەندێک کەس کە لەگەڵ شاندی سوید کاریان دەکرد."""),
                   ],
                 ),
               ),
@@ -557,7 +557,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embassy (Derived forms: embassies)
+- Noun: embassy (derived forms: embassies)
 1. A diplomatic building where ambassadors live or work
  
 2. An ambassador and his entourage collectively

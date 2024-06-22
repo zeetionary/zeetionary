@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """He felt a slight pain in his earlobe."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەستی بە کەمێک ئازار دەکرد لە نەرمێنەی گوێی."""),
+                            """ھەستی بە کەمێک ئازار دەکرد لە نەرمێنەی گوێی."""),
                   ],
                 ),
               ),
@@ -514,7 +514,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earlobe (Derived forms: earlobes, ear lobes)
+- Noun: earlobe (derived forms: earlobes, ear lobes)
 1. The fleshy pendulous part of the external human ear (= ear lobe)
 """,
   );

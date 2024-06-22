@@ -550,7 +550,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: elucidate (Derived forms: elucidated, elucidates, elucidating)
+- Verb: elucidate (derived forms: elucidated, elucidates, elucidating)
 1. Make clear and (more) comprehensible (= clarify, clear up)
 "elucidate the mystery surrounding her death";
  

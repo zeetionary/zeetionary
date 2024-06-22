@@ -358,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێهەڵسوون، خەملاندن، ڕازاندنەوە
+کوردی: تێھەڵسوون، خەملاندن، ڕازاندنەوە
 """),
           const DefinitionKurdish(
               text:
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The hotel's name was embossed on the stationery."""),
                     ExampleSentenceKurdish(
-                        text: """ناوی هوتێلەکە تێهەڵسوابوو لەسەر پەڕاوەکە."""),
+                        text: """ناوی ھوتێلەکە تێھەڵسوابوو لەسەر پەڕاوەکە."""),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: emboss (Derived forms: embosses, embossed, embossing)
+- Verb: emboss (derived forms: embosses, embossed, embossing)
 1. Mark, mould or decorate a surface with a raised design or symbol (= boss, stamp)
 "embossed stationery";
 """,

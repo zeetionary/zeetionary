@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The commission consisted of fifteen eminent political figures."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لیژنەکە لە پازدە کەسایەتیی سیاسی ڕێزلێ‌گیراو پێکهاتبوو."""),
+                            """لیژنەکە لە پازدە کەسایەتیی سیاسی ڕێزلێ‌گیراو پێکھاتبوو."""),
                   ],
                 ),
               ),

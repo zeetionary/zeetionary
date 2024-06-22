@@ -536,7 +536,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dress rehearsal (Derived forms: dress rehearsals)
+- Noun: dress rehearsal (derived forms: dress rehearsals)
 1. A full uninterrupted rehearsal in costumes shortly before the first performance
 """,
   );

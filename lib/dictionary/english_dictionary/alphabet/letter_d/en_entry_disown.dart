@@ -434,7 +434,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disown (Derived forms: disowns, disowned, disowning)
+- Verb: disown (derived forms: disowns, disowned, disowning)
 1. Prevent deliberately (as by making a will) from inheriting (= disinherit)
 "You cannot disown a child simply by failing to mention that child in your will";
  

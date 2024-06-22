@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duo (Derived forms: dui, duos)
+- Noun: duo (derived forms: dui, duos)
 1. Two items of the same kind (= couple, pair, twosome, twain, brace, span, yoke, couplet, distich, duet, dyad, duad)
  
 2. Two performers or singers who perform together (= duet, duette)

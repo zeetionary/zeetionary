@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: distributor (Derived forms: distributors)
+- Noun: distributor (derived forms: distributors)
 1. Someone who markets merchandise (= distributer)
  
 2. A person with authority to allot or deal out or apportion (= allocator)

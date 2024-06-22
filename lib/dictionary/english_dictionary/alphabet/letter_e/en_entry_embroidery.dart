@@ -547,7 +547,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embroidery (Derived forms: embroideries)
+- Noun: embroidery (derived forms: embroideries)
 1. Elaboration of an interpretation by the use of decorative (sometimes fictitious) detail (= embellishment)
 "the mystery has been heightened by many embroideries in subsequent retellings";
  

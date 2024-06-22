@@ -528,7 +528,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drumstick (Derived forms: drumsticks)
+- Noun: drumstick (derived forms: drumsticks)
 1. The lower joint of the leg of a fowl
  
 2. A stick used for playing a drum

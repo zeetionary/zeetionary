@@ -561,7 +561,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disuse (Derived forms: disuses)
+- Noun: disuse (derived forms: disuses)
 1. The state of something that has been unused and neglected (= neglect)
 "the house was in a terrible state of disuse";
 """,

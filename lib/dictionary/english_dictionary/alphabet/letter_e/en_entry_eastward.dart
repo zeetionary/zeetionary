@@ -374,9 +374,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرەو ڕۆژهەڵات، ڕوو لە ڕۆژهەڵات، ڕۆژهەڵاتی
+کوردی: بەرەو ڕۆژھەڵات، ڕوو لە ڕۆژھەڵات، ڕۆژھەڵاتی
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) بەرەو ڕۆژهەڵات"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) بەرەو ڕۆژھەڵات"""),
           Row(
             children: [
               const Expanded(
@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He was going in an eastward direction."""),
                     ExampleSentenceKurdish(
-                        text: """بە ئاراستەی ڕۆژهەڵات دەچوون."""),
+                        text: """بە ئاراستەی ڕۆژھەڵات دەچوون."""),
                   ],
                 ),
               ),
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵکار) بە ئاراستەی ڕۆژهەڵات"""),
+              text: """٢. (ھاوەڵکار) بە ئاراستەی ڕۆژھەڵات"""),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: eastwards زیاتر لە بەریتانیا"),
           Row(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The storm is moving slowly eastwards."""),
                     ExampleSentenceKurdish(
-                        text: """زریانەکە بەهێواشی بەرەو ڕۆژهەڵات دەچێت."""),
+                        text: """زریانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچێت."""),
                   ],
                 ),
               ),
@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They marched eastward towards the capital."""),
                     ExampleSentenceKurdish(
-                        text: """بەرەو ڕۆژهەڵات بۆ پایتەخت ڕۆشتن."""),
+                        text: """بەرەو ڕۆژھەڵات بۆ پایتەخت ڕۆشتن."""),
                   ],
                 ),
               ),

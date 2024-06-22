@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Some debates in Parliament are shown live and are outside editorial control."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەندێک دیبەیتی پەرلەمان بە ڕاستەوخۆ پیشان دەدرێن و لە دەرەوەی دەسەڵاتی سەرنووسەرانن."""),
+                            """ھەندێک دیبەیتی پەرلەمان بە ڕاستەوخۆ پیشان دەدرێن و لە دەرەوەی دەسەڵاتی سەرنووسەرانن."""),
                   ],
                 ),
               ),
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The paper follows an editorial policy that puts great emphasis on foreign news."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕۆژنامەکە پابەندی سیاسەتێکی سەرنووسەری دەبێت کە گرنگی زۆر دەدات بە هەواڵی بیانی."""),
+                            """ڕۆژنامەکە پابەندی سیاسەتێکی سەرنووسەری دەبێت کە گرنگی زۆر دەدات بە ھەواڵی بیانی."""),
                   ],
                 ),
               ),
@@ -596,7 +596,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: editorial (Derived forms: editorials)
+- Noun: editorial (derived forms: editorials)
 1. An article giving opinions or perspectives (= column, newspaper column)
 
 - Adjective: editorial

@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئانیشکە، ئانیشک، هەرەژنە، کونارشک، زەنگە، میرک، مرک، لاشاخ
+کوردی: ئانیشکە، ئانیشک، ھەرەژنە، کونارشک، زەنگە، میرک، مرک، لاشاخ
 """),
           const DefinitionKurdish(
               text:
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I banged my elbow on the table as I got up."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئانیشکمم کێشا بە مێزەکەدا کە هەستامە سەر پێ."""),
+                            """ئانیشکمم کێشا بە مێزەکەدا کە ھەستامە سەر پێ."""),
                   ],
                 ),
               ),
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """His friend elbowed him aside and stepped forward."""),
                     ExampleSentenceKurdish(
-                        text: """هاوڕێکەی پاڵی نایە کەنارەوە و چووە پێشەوە."""),
+                        text: """ھاوڕێکەی پاڵی نایە کەنارەوە و چووە پێشەوە."""),
                   ],
                 ),
               ),
@@ -690,7 +690,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elbow (Derived forms: elbows)
+- Noun: elbow (derived forms: elbows)
 1. Hinge joint between the forearm and upper arm and the corresponding joint in the forelimb of a quadruped (= elbow joint, human elbow, cubitus, cubital joint, articulatio cubiti)
  
 2. A sharp bend in a road or river
@@ -702,7 +702,7 @@ ${englishMeaningConst.text}
  
 5. The joint of a mammal or bird that corresponds to the human elbow
 
-- Verb: elbow (Derived forms: elbowing, elbows, elbowed)
+- Verb: elbow (derived forms: elbowing, elbows, elbowed)
 1. Push one's way with the elbows
  
 2. Shove one's elbow into another person's ribs

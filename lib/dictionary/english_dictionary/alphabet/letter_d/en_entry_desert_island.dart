@@ -278,138 +278,48 @@ class KurdishMeaning extends StatelessWidget {
           // desertislands700"),
           // speakdesertislands7
           // desertislands7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands800"),
           // speakdesertislands8
           // desertislands8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands900"),
           // speakdesertislands9
           // desertislands9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1000"),
           // speakdesertislands10
           // desertislands10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1100"),
           // speakdesertislands11
           // desertislands11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1200"),
           // speakdesertislands12
           // desertislands12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1300"),
           // speakdesertislands13
           // desertislands13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1400"),
           // speakdesertislands14
           // desertislands14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1500"),
           // speakdesertislands15
           // desertislands15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1600"),
           // speakdesertislands16
           // desertislands16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1700"),
           // speakdesertislands17
           // desertislands17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1800"),
           // speakdesertislands18
           // desertislands18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands1900"),
           // speakdesertislands19
           // desertislands19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands2000"),
           // speakdesertislands20
           // desertislands20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands2100"),
           // speakdesertislands21
           // desertislands21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // desertislands2200"),
           // speakdesertislands22
           // desertislands22("en-US"),

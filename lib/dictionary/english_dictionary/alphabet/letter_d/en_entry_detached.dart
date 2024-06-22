@@ -430,138 +430,48 @@ class KurdishMeaning extends StatelessWidget {
           // detacheds700"),
           // speakdetacheds7
           // detacheds7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds800"),
           // speakdetacheds8
           // detacheds8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds900"),
           // speakdetacheds9
           // detacheds9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1000"),
           // speakdetacheds10
           // detacheds10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1100"),
           // speakdetacheds11
           // detacheds11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1200"),
           // speakdetacheds12
           // detacheds12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1300"),
           // speakdetacheds13
           // detacheds13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1400"),
           // speakdetacheds14
           // detacheds14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1500"),
           // speakdetacheds15
           // detacheds15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1600"),
           // speakdetacheds16
           // detacheds16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1700"),
           // speakdetacheds17
           // detacheds17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1800"),
           // speakdetacheds18
           // detacheds18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds1900"),
           // speakdetacheds19
           // detacheds19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "She seemed a bit detached, as if her mind were on other things.0"),
+          // "She seemed a bit detached, as if her mind were on other things.0"),
           // speakdetacheds20
           // detacheds20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds2100"),
           // speakdetacheds21
           // detacheds21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // detacheds2200"),
           // speakdetacheds22
           // detacheds22("en-US"),

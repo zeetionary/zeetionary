@@ -529,10 +529,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dry dock (Derived forms: dry docks)
+- Noun: dry dock (derived forms: dry docks)
 1. A large dock from which water can be pumped out; used for building ships or for repairing a ship below its waterline (= drydock, graving dock)
 
-- Verb: drydock (Derived forms: drydocked, drydocks, drydocking, dry-docking, dry-docked, dry-docks)
+- Verb: drydock (derived forms: drydocked, drydocks, drydocking, dry-docking, dry-docked, dry-docks)
 1. Manoeuvre (a ship) into a drydock (= dry-dock)
 """,
   );

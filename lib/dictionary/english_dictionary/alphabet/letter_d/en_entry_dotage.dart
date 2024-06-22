@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dotage (Derived forms: dotages)
+- Noun: dotage (derived forms: dotages)
 1. Mental infirmity as a consequence of old age; sometimes shown by foolish infatuations (= second childhood, senility)
 """,
   );

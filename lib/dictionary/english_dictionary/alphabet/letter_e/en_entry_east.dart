@@ -476,18 +476,18 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: ڕۆژهەڵات، خۆرهەڵات، بەشی ڕۆژهەڵاتی وڵات، ناوچە یان شارێ
+// کوردی: ڕۆژھەڵات، خۆرھەڵات، بەشی ڕۆژھەڵاتی وڵات، ناوچە یان شارێ
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ڕۆژهەڵات؛ زۆرجار ئەو ئاراستەیەیە کە خۆر لێیەوە هەڵدێت"""),
+                  """١. (ناو) ڕۆژھەڵات؛ زۆرجار ئەو ئاراستەیەیە کە خۆر لێیەوە ھەڵدێت"""),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: """Which way is east?"""),
-                    ExampleSentenceKurdish(text: """کام لایە ڕۆژهەڵاتە؟"""),
+                    ExampleSentenceKurdish(text: """کام لایە ڕۆژھەڵاتە؟"""),
                   ],
                 ),
               ),
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """A gale was blowing from the east."""),
                     ExampleSentenceKurdish(
-                        text: """ڕەشەبایەک لە ڕۆژهەڵاتەوە هەڵی دەکرد."""),
+                        text: """ڕەشەبایەک لە ڕۆژھەڵاتەوە ھەڵی دەکرد."""),
                   ],
                 ),
               ),
@@ -533,7 +533,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The points of the compass are north, south, east, and west."""),
                     ExampleSentenceKurdish(
                         text:
-                            """خاڵەکانی قیبلەنما لە باکوور، باشوور، ڕۆژهەڵات، و ڕۆژئاوا پێکدێن."""),
+                            """خاڵەکانی قیبلەنما لە باکوور، باشوور، ڕۆژھەڵات، و ڕۆژئاوا پێکدێن."""),
                   ],
                 ),
               ),
@@ -563,7 +563,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Most of the country, except the east, is rural."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆرێک لە وڵاتەکە، جگە لە ڕۆژهەڵات، دەشتنشینە."""),
+                            """زۆرێک لە وڵاتەکە، جگە لە ڕۆژھەڵات، دەشتنشینە."""),
                   ],
                 ),
               ),
@@ -593,7 +593,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -603,7 +603,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Her home is in the east of France."""),
                     ExampleSentenceKurdish(
-                        text: """ماڵی لە ڕۆژهەڵاتی فەرەنسایە."""),
+                        text: """ماڵی لە ڕۆژھەڵاتی فەرەنسایە."""),
                   ],
                 ),
               ),
@@ -622,7 +622,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) ڕۆژهەڵاتی وڵاتێک، شارێک، هتد"""),
+              text: """٢. (ناو) ڕۆژھەڵاتی وڵاتێک، شارێک، ھتد"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -634,7 +634,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The east of the country is especially popular with tourists."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕۆژهەڵاتی وڵاتەکە زیاتر لای گەشتیاران باوە."""),
+                            """ڕۆژھەڵاتی وڵاتەکە زیاتر لای گەشتیاران باوە."""),
                   ],
                 ),
               ),
@@ -652,7 +652,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -664,7 +664,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Around 2 000 teachers from around the East of England attended the conference."""),
                     ExampleSentenceKurdish(
                         text:
-                            """نزیکەی ٢٠٠٠ مامۆستا لە ڕۆژهەڵاتی ئینگلتەراوە بەژداری کۆنفرانسەکەیان."""),
+                            """نزیکەی ٢٠٠٠ مامۆستا لە ڕۆژھەڵاتی ئینگلتەراوە بەژداری کۆنفرانسەکەیان."""),
                   ],
                 ),
               ),
@@ -682,7 +682,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -694,7 +694,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I was born in the East, but now live in San Francisco."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە ڕۆژهەڵات (ــی ئەمریکا) لەدایکبووم، بەڵام ئێستا لە سانفرانسیسکۆ دەژیم."""),
+                            """لە ڕۆژھەڵات (ــی ئەمریکا) لەدایکبووم، بەڵام ئێستا لە سانفرانسیسکۆ دەژیم."""),
                   ],
                 ),
               ),
@@ -712,7 +712,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -724,7 +724,7 @@ class KurdishMeaning extends StatelessWidget {
                             """House prices in the east have risen significantly over the last five years."""),
                     ExampleSentenceKurdish(
                         text:
-                            """نرخی خانوو لە ڕۆژهەڵات زۆر بەرزبووە لە پێنج ساڵی ڕابردوودا."""),
+                            """نرخی خانوو لە ڕۆژھەڵات زۆر بەرزبووە لە پێنج ساڵی ڕابردوودا."""),
                   ],
                 ),
               ),
@@ -744,7 +744,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) وڵاتانی ڕۆژهەڵاتی ئاسیا، بەتایبەتی چین، ژاپۆن، و هندستان"""),
+                  """٣. (ناو) وڵاتانی ڕۆژھەڵاتی ئاسیا، بەتایبەتی چین، ژاپۆن، و ھندستان"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -756,7 +756,7 @@ class KurdishMeaning extends StatelessWidget {
                             """European traders started trading with the East in the 15th century."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بازرگانانی ڕۆژئاوا دەستیان کرد بە بازرگانی لەگەڵ ڕۆژهەڵات لە سەدەی ١٥ ــدا."""),
+                            """بازرگانانی ڕۆژئاوا دەستیان کرد بە بازرگانی لەگەڵ ڕۆژھەڵات لە سەدەی ١٥ ــدا."""),
                   ],
                 ),
               ),
@@ -775,7 +775,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٤. (هاوەڵناو) لە ڕۆژهەڵات یان بەرەو ڕۆژهەڵات"""),
+              text: """٤. (ھاوەڵناو) لە ڕۆژھەڵات یان بەرەو ڕۆژھەڵات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -785,7 +785,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They live on the east coast."""),
                     ExampleSentenceKurdish(
-                        text: """لە کەناری ڕۆژهەڵات دەژین."""),
+                        text: """لە کەناری ڕۆژھەڵات دەژین."""),
                   ],
                 ),
               ),
@@ -803,7 +803,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -813,7 +813,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They live on the city's east side."""),
                     ExampleSentenceKurdish(
-                        text: """لە لای ڕۆژهەڵاتی شارەکە دەژین."""),
+                        text: """لە لای ڕۆژھەڵاتی شارەکە دەژین."""),
                   ],
                 ),
               ),
@@ -831,7 +831,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (هاوەڵکار) بەرەو ڕۆژهەڵات"""),
+          const DefinitionKurdish(text: """٥. (ھاوەڵکار) بەرەو ڕۆژھەڵات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -840,7 +840,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: """The house faces east."""),
                     ExampleSentenceKurdish(
-                        text: """خانووەکە ڕووی لە ڕۆژهەڵاتە."""),
+                        text: """خانووەکە ڕووی لە ڕۆژھەڵاتە."""),
                   ],
                 ),
               ),
@@ -858,7 +858,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -868,7 +868,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The storm is expected to head east."""),
                     ExampleSentenceKurdish(
-                        text: """زریانەکە پێشبینی دەکرێت بۆ ڕۆژهەڵات بچێت."""),
+                        text: """زریانەکە پێشبینی دەکرێت بۆ ڕۆژھەڵات بچێت."""),
                   ],
                 ),
               ),
@@ -886,7 +886,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٦. (هاوەڵکار) نزیکتر لە ڕۆژهەڵات"""),
+          const DefinitionKurdish(text: """٦. (ھاوەڵکار) نزیکتر لە ڕۆژھەڵات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -896,7 +896,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They live five miles east of Oxford."""),
                     ExampleSentenceKurdish(
-                        text: """پێنج میل لە ڕۆژهەڵاتی ئۆکسفۆردەوە دەژین."""),
+                        text: """پێنج میل لە ڕۆژھەڵاتی ئۆکسفۆردەوە دەژین."""),
                   ],
                 ),
               ),
@@ -914,13 +914,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts1600easts16
           // speakeasts16("en-US"""),
           //         ),
@@ -929,13 +923,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts1700easts17
           // speakeasts17("en-US"""),
           //         ),
@@ -944,13 +932,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts1800easts18
           // speakeasts18("en-US"""),
           //         ),
@@ -959,13 +941,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts1900easts19
           // speakeasts19("en-US"""),
           //         ),
@@ -974,13 +950,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts_2000easts20
           // speakeasts20("en-US"""),
           //         ),
@@ -989,13 +959,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts2100easts21
           // speakeasts21("en-US"""),
           //         ),
@@ -1004,13 +968,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // easts2200easts22
           // speakeasts22("en-US"""),
           //         ),
@@ -1063,7 +1021,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: east (Derived forms: easts)
+- Noun: east (derived forms: easts)
 1. The cardinal compass point that is at 90 degrees (= due east, eastward, E)
  
 2. The direction corresponding to the eastward cardinal compass point

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئابووریناس ئابووریزان، زانای ئابووری
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) کەسێک کە شارەزایی لە ئابووری هەیە"""),
+              text: """١. (ناو) کەسێک کە شارەزایی لە ئابووری ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Many economists are predicting the economy will improve."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆر ئابووریناس پێشبینی ئەوە دەکەن کە ئابووری بەهێز دەبێت."""),
+                            """زۆر ئابووریناس پێشبینی ئەوە دەکەن کە ئابووری بەھێز دەبێت."""),
                   ],
                 ),
               ),
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: economist (Derived forms: economists)
+- Noun: economist (derived forms: economists)
 1. An expert in the science of economics (= economic expert)
 """,
   );

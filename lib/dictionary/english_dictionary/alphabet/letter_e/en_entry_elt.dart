@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The university offers an ELT certification program."""),
                     ExampleSentenceKurdish(
-                        text: """زانکۆکە پڕۆگرامێکی بڕوانامەی ELT هەیە."""),
+                        text: """زانکۆکە پڕۆگرامێکی بڕوانامەی ELT ھەیە."""),
                   ],
                 ),
               ),

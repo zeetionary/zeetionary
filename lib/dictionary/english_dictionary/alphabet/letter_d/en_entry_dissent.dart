@@ -542,7 +542,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dissent (Derived forms: dissents, dissenting, dissented)
+- Noun: dissent (derived forms: dissents, dissenting, dissented)
 1. (law) the difference of one judge's opinion from that of the majority
 "he expressed his dissent in a contrary opinion"
  

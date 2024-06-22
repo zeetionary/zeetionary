@@ -495,7 +495,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dustcart (Derived forms: dustcarts)
+- Noun: dustcart (derived forms: dustcarts)
 Usage: Brit (N. Amer: garbage truck)
 1. A truck for collecting domestic refuse (= garbage truck [N. Amer])
 "in Britain a dustcart is called a dustcart";

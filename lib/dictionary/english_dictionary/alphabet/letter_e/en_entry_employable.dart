@@ -358,10 +358,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شیاوی دامەزران، گونجاو بۆ دامەزران، بۆ دامەزران دەبێ، لەدامەزران‌هاتوو
+کوردی: شیاوی دامەزران، گونجاو بۆ دامەزران، بۆ دامەزران دەبێ، لەدامەزران‌ھاتوو
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) هەبوونی مەرجەکانی وەرگرتن بۆ کارێک"""),
+              text: """١. (ھاوەڵناو) ھەبوونی مەرجەکانی وەرگرتن بۆ کارێک"""),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Computer skills make you far more employable."""),
                     ExampleSentenceKurdish(
                         text:
-                            """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌هاتوو ببیت."""),
+                            """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌ھاتوو ببیت."""),
                   ],
                 ),
               ),
@@ -484,7 +484,7 @@ ${englishMeaningConst.text}
 - Adjective: employable 
 1. Physically and mentally capable of working at a regular job and available
 
-- Noun: employable (Derived forms: employables)
+- Noun: employable (derived forms: employables)
 1. A person who is qualified and ready to work
 """,
   );

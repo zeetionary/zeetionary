@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: domestic science (Derived forms: domestic sciences)
+- Noun: domestic science (derived forms: domestic sciences)
 1. Theory and practice of homemaking (= home economics, home ec, household arts)
 """,
   );

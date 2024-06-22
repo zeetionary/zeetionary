@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) هەڵهاتن لەگەڵ کەسێک بۆ ئەوەی بە نهێنی هاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
+                  """١. (کردار) ھەڵھاتن لەگەڵ کەسێک بۆ ئەوەی بە نھێنی ھاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
           Row(
             children: [
               const Expanded(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She eloped with an Army officer."""),
                     ExampleSentenceKurdish(
-                        text: """لەگەڵ ئەفسەرێکی سوپا هەڵهات."""),
+                        text: """لەگەڵ ئەفسەرێکی سوپا ھەڵھات."""),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: elope (Derived forms: eloped, eloping, elopes)
+- Verb: elope (derived forms: eloped, eloping, elopes)
 1. Run away secretly with one's beloved (= run off)
 "The young couple eloped and got married in Las Vegas";
 """,

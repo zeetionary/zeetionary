@@ -537,7 +537,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dual carriageway (Derived forms: dual carriageways)
+- Noun: dual carriageway (derived forms: dual carriageways)
 Usage: Brit (N. Amer: divided highway)
 1. A highway divided down the middle by a barrier that separates traffic going in different directions (= divided highway [N. Amer])
 "in Britain they call a dual carriageway a dual carriageway";

@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) فێرکردنی کەسێک بۆ ماوەیەک لە قوتابخانە، زانکۆ، هتد"""),
+                  """١. (کردار) فێرکردنی کەسێک بۆ ماوەیەک لە قوتابخانە، زانکۆ، ھتد"""),
           Row(
             children: [
               const Expanded(
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
                             """All their children have been educated privately."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو منداڵەکانیان بەشێوەیەکی تایبەتی پەروەردە کراون."""),
+                            """ھەموو منداڵەکانیان بەشێوەیەکی تایبەتی پەروەردە کراون."""),
                   ],
                 ),
               ),
@@ -537,7 +537,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Children need to be educated on the dangers of drug-taking."""),
                     ExampleSentenceKurdish(
                         text:
-                            """منداڵان دەبێت ئاگادار بکرێنەوە سەبارەت بە زیانەکانی کێشانی مادەی هۆشبەر."""),
+                            """منداڵان دەبێت ئاگادار بکرێنەوە سەبارەت بە زیانەکانی کێشانی مادەی ھۆشبەر."""),
                   ],
                 ),
               ),
@@ -586,12 +586,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates700educates7
           // speakeducates7("en-US"""),
           //         ),
@@ -601,12 +595,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates800educates8
           // speakeducates8("en-US"""),
           //         ),
@@ -616,12 +604,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates900educates9
           // speakeducates9("en-US"""),
           //         ),
@@ -631,12 +613,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates_1000educates10
           // speakeducates10("en-US"""),
           //         ),
@@ -646,12 +622,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1100educates11
           // speakeducates11("en-US"""),
           //         ),
@@ -661,12 +631,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1200educates12
           // speakeducates12("en-US"""),
           //         ),
@@ -676,12 +640,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1300educates13
           // speakeducates13("en-US"""),
           //         ),
@@ -691,12 +649,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1400educates14
           // speakeducates14("en-US"""),
           //         ),
@@ -706,12 +658,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1500educates15
           // speakeducates15("en-US"""),
           //         ),
@@ -721,12 +667,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1600educates16
           // speakeducates16("en-US"""),
           //         ),
@@ -736,12 +676,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1700educates17
           // speakeducates17("en-US"""),
           //         ),
@@ -751,12 +685,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1800educates18
           // speakeducates18("en-US"""),
           //         ),
@@ -766,12 +694,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates1900educates19
           // speakeducates19("en-US"""),
           //         ),
@@ -781,12 +703,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates_2000educates20
           // speakeducates20("en-US"""),
           //         ),
@@ -796,12 +712,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates2100educates21
           // speakeducates21("en-US"""),
           //         ),
@@ -811,12 +721,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // educates2200educates22
           // speakeducates22("en-US"""),
           //         ),
@@ -869,7 +773,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: educate (Derived forms: educating, educates, educated)
+- Verb: educate (derived forms: educating, educates, educated)
 1. Give an education to
 "We must educate our youngsters better"
  

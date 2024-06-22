@@ -412,10 +412,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دامەزران، ڕاگرتن، دامەزراندن، خستنەسەرکار، خستنەکار، بەکارهێنان،	خزمەت، ڕاژە،	کار، پیشە، ئەرک
+کوردی: دامەزران، ڕاگرتن، دامەزراندن، خستنەسەرکار، خستنەکار، بەکارھێنان،	خزمەت، ڕاژە،	کار، پیشە، ئەرک
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) کار، بەتایبەتی کە بۆ بەدەستهێنانی پارەیە"""),
+              text: """١. (ناو) کار، بەتایبەتی کە بۆ بەدەستھێنانی پارەیە"""),
           Row(
             children: [
               const Expanded(
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) دۆخێک کە تێیدا کەسێک کاری هەیە"""),
+              text: """٢. (ناو) دۆخێک کە تێیدا کەسێک کاری ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -547,7 +547,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The latest employment figures show a fall in the number of people who are out of work."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تازەترین ئامارەکانی کارداری کەمبوون لە ژمارەی ئەو کەسانە پیشان دەدات کە کاریان هەیە."""),
+                            """تازەترین ئامارەکانی کارداری کەمبوون لە ژمارەی ئەو کەسانە پیشان دەدات کە کاریان ھەیە."""),
                   ],
                 ),
               ),
@@ -595,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ناو) بەکارهێنانی شتێک"""),
+          const DefinitionKurdish(text: """٤. (ناو) بەکارھێنانی شتێک"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -607,7 +607,7 @@ class KurdishMeaning extends StatelessWidget {
                             """How can you justify the employment of capital punishment?"""),
                     ExampleSentenceKurdish(
                         text:
-                            """چۆن دەتوانیت پاساو بهێنیتەوە بۆ بەکارهێنانی سزای مەرگ؟"""),
+                            """چۆن دەتوانیت پاساو بھێنیتەوە بۆ بەکارھێنانی سزای مەرگ؟"""),
                   ],
                 ),
               ),
@@ -704,7 +704,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: employment (Derived forms: employments)
+- Noun: employment (derived forms: employments)
 1. The state of being employed or having a job (= employ)
 "they are looking for employment";
  

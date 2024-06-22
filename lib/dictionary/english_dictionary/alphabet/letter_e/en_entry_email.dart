@@ -433,7 +433,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I will be on vacation for a week in November, with no access to email."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تشرینی دووەم بۆ هەفتەیەک لە گەشت دەبم، بەبێت دەستگەشتن بە ئیمەیڵ."""),
+                            """تشرینی دووەم بۆ ھەفتەیەک لە گەشت دەبم، بەبێت دەستگەشتن بە ئیمەیڵ."""),
                   ],
                 ),
               ),
@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Each of the rooms has internet and email access."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەر یەکێک لە ژوورەکان ئینتەرنێت بەکارهێنانی ئیمەیڵیان هەیە."""),
+                            """ھەر یەکێک لە ژوورەکان ئینتەرنێت بەکارھێنانی ئیمەیڵیان ھەیە."""),
                   ],
                 ),
               ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
                             """We've been exchanging emails over the past few weeks."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بۆ چەند هەفتەی ڕابردوو ئیمەیڵمان گۆڕیوەتەوە."""),
+                            """بۆ چەند ھەفتەی ڕابردوو ئیمەیڵمان گۆڕیوەتەوە."""),
                   ],
                 ),
               ),
@@ -553,7 +553,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """I got an email from Andrew last week."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەفتەی ڕابردوو ئیمەیڵێکم لە ئەندرووەوە پێگەشت."""),
+                            """ھەفتەی ڕابردوو ئیمەیڵێکم لە ئەندرووەوە پێگەشت."""),
                   ],
                 ),
               ),
@@ -736,11 +736,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: email (Derived forms: emails, e-mails)
+- Noun: email (derived forms: emails, e-mails)
 1. (computing) a system of electronic message communication via network, esp. the Internet; a message or messages sent or received this way (= electronic mail, e-mail, mail)
 "you cannot send packages by email";
 
-- Verb: email (Derived forms: emailed, emails, emailing, e-mails, e-mailing, e-mailed)
+- Verb: email (derived forms: emailed, emails, emailing, e-mails, e-mailing, e-mailed)
 1. (computing) communicate electronically on the computer (= e-mail, mail)
 "she emailed me the good news";
 """,

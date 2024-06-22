@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The plan, as yet, only exists in embryonic form."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پلانەکە، لە ئێستادا، تەنها لە شێوەی سەرەتاییە."""),
+                            """پلانەکە، لە ئێستادا، تەنھا لە شێوەی سەرەتاییە."""),
                   ],
                 ),
               ),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The project is still fairly embryonic."""),
                     ExampleSentenceKurdish(
-                        text: """پڕۆژەکە هێستا تا ڕادەیەک لە دەسپێکە."""),
+                        text: """پڕۆژەکە ھێستا تا ڕادەیەک لە دەسپێکە."""),
                   ],
                 ),
               ),

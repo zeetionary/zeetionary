@@ -359,10 +359,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: سەربە هەڵبژاردن یان هەڵبژێران، سەربە دەنگدەران
+// کوردی: سەربە ھەڵبژاردن یان ھەڵبژێران، سەربە دەنگدەران
 // """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) پەیوەندیدار بە هەڵبژاردن"""),
+              text: """١. (ھاوەڵناو) پەیوەندیدار بە ھەڵبژاردن"""),
           Row(
             children: [
               const Expanded(
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The committee endorses electoral reforms for fairer elections."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لیژنەکە پشتگیری چاکسازی هەڵبژاردن دەکات بۆ هەڵبژاردنی دادەپەروەرانەتر."""),
+                            """لیژنەکە پشتگیری چاکسازی ھەڵبژاردن دەکات بۆ ھەڵبژاردنی دادەپەروەرانەتر."""),
                   ],
                 ),
               ),

@@ -367,10 +367,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجار بەسۆز، سۆزدەربڕانە،	دەرپەڕیو، سەرڕێژکردوو، دەروەڕێژ، هەڵقوڵیو، فیشقەکردوو
+کوردی: یەکجار بەسۆز، سۆزدەربڕانە،	دەرپەڕیو، سەرڕێژکردوو، دەروەڕێژ، ھەڵقوڵیو، فیشقەکردوو
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) پیشاندانی هەست و سۆزی زۆر"""),
+              text: """١. (ھاوەڵناو) پیشاندانی ھەست و سۆزی زۆر"""),
           Row(
             children: [
               const Expanded(
@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
                             """They gave us such an effusive welcome it was quite embarrassing."""),
                     ExampleSentenceKurdish(
                         text:
-                            """خێراتنێکی هێندە سۆزدەربڕانەیان پێماندا کە تەواو شەرمەزاری کردین."""),
+                            """خێراتنێکی ھێندە سۆزدەربڕانەیان پێماندا کە تەواو شەرمەزاری کردین."""),
                   ],
                 ),
               ),

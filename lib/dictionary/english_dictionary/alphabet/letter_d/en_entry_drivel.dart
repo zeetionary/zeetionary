@@ -564,12 +564,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drivel (Derived forms: drivels)
+- Noun: drivel (derived forms: drivels)
 1. A worthless message (= garbage)
  
 2. Saliva spilling from the mouth (= drool, dribble, slobber)
 
-- Verb: drivel (Derived forms: drivels, drivelling, driveled, driveling, drivelled)
+- Verb: drivel (derived forms: drivels, drivelling, driveled, driveling, drivelled)
 1. Let saliva drivel from the mouth (= drool, slabber [dialect], slaver, slobber, dribble)
 """,
   );

@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The system can be connected to virtually any type of electrically controlled device."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سیستەمەکە دەکرێت پەیوەست بکرێت بە نزیکەیی هەموو جۆرە ئامێرێکی کۆنترۆڵکراو بەکارەبا."""),
+                            """سیستەمەکە دەکرێت پەیوەست بکرێت بە نزیکەیی ھەموو جۆرە ئامێرێکی کۆنترۆڵکراو بەکارەبا."""),
                   ],
                 ),
               ),

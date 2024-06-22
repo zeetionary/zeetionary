@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵکار) کە ئەگەری زۆری هەیە"""),
+              text: """٢. (ھاوەڵکار) کە ئەگەری زۆری ھەیە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Are you sure you locked the gate? You could easily have forgotten."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دڵنیایت دەروازەکەت قوفڵ کرد؟ ئەگەری زۆر هەیە بیرت چووبێت."""),
+                            """دڵنیایت دەروازەکەت قوفڵ کرد؟ ئەگەری زۆر ھەیە بیرت چووبێت."""),
                   ],
                 ),
               ),

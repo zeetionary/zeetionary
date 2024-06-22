@@ -564,7 +564,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: drab (Derived forms: drabber, drabbest)
+- Adjective: drab (derived forms: drabber, drabbest)
 1. Lacking in liveliness, charm or surprise (= dreary)
 "her drab personality"; "life was drab compared with the more exciting life style overseas";
  
@@ -576,7 +576,7 @@ ${englishMeaningConst.text}
 4. Causing dejection (= blue [informal], dark, dingy, disconsolate, dismal, gloomy, grim, sorry, drear, dreary)
 "a drab day";
 
-- Noun: drab (Derived forms: drabs)
+- Noun: drab (derived forms: drabs)
 1. A dull greyish to yellowish or light olive brown (= olive drab)
 """,
   );

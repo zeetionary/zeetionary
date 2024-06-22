@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """I had always admired the intense earnestness of his character."""),
                     ExampleSentenceKurdish(
-                        text: """هەمیشە سەرسامی بەتینیی کەسایەتیی بووم."""),
+                        text: """ھەمیشە سەرسامی بەتینیی کەسایەتیی بووم."""),
                   ],
                 ),
               ),

@@ -611,7 +611,7 @@ ${englishMeaningConst.text}
 3. Most frequent or very common (= prevailing, prevalent, predominant, rife)
 "dominant winds";
 
-- Noun: dominant (Derived forms: dominants)
+- Noun: dominant (derived forms: dominants)
 1. (music) the fifth note of the diatonic scale
  
 2. An allele that produces the same phenotype whether its paired allele is identical or different (= dominant allele)

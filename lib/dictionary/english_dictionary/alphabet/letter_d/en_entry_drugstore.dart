@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drugstore (Derived forms: drugstores)
+- Noun: drugstore (derived forms: drugstores)
 Usage: N. Amer (elsewhere: pharmacy)
 1. A retail shop where medicine and other articles are sold (= apothecary's shop [archaic], chemist's [Brit], chemist's shop [Brit], pharmacy, chemist [Brit])
 """,

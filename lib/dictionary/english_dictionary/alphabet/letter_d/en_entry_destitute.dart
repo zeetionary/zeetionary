@@ -387,138 +387,48 @@ class KurdishMeaning extends StatelessWidget {
           // destitutes700"),
           // speakdestitutes7
           // destitutes7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes800"),
           // speakdestitutes8
           // destitutes8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes900"),
           // speakdestitutes9
           // destitutes9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1000"),
           // speakdestitutes10
           // destitutes10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1100"),
           // speakdestitutes11
           // destitutes11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1200"),
           // speakdestitutes12
           // destitutes12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1300"),
           // speakdestitutes13
           // destitutes13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1400"),
           // speakdestitutes14
           // destitutes14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1500"),
           // speakdestitutes15
           // destitutes15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1600"),
           // speakdestitutes16
           // destitutes16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1700"),
           // speakdestitutes17
           // destitutes17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1800"),
           // speakdestitutes18
           // destitutes18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes1900"),
           // speakdestitutes19
           // destitutes19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "The war left her completely destitute.0"),
+          // "The war left her completely destitute.0"),
           // speakdestitutes20
           // destitutes20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes2100"),
           // speakdestitutes21
           // destitutes21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutes2200"),
           // speakdestitutes22
           // destitutes22("en-US"),

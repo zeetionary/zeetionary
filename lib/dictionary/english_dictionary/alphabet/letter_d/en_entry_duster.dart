@@ -495,7 +495,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duster (Derived forms: dusters)
+- Noun: duster (derived forms: dusters)
 1. A piece of cloth used for dusting (= dustcloth, dustrag)
  
 2. [US] A windstorm that lifts up clouds of dust or sand (= dust storm, sandstorm, sirocco, scirocco)

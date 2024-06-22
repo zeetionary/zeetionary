@@ -368,10 +368,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سەرخۆشی، شادی، گەشی، هەژان، بەکەیفی، خۆشحاڵی، گوڕ
+کوردی: سەرخۆشی، شادی، گەشی، ھەژان، بەکەیفی، خۆشحاڵی، گوڕ
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) هەستی دڵخۆشی و بەجۆشی زۆر"""),
+              text: """١. (ناو) ھەستی دڵخۆشی و بەجۆشی زۆر"""),
           Row(
             children: [
               const Expanded(
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She felt a great sense of elation as she started on the journey."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەستی بە شادییەکی زۆر کرد کە گەشتەکەی دەست پێکرد."""),
+                            """ھەستی بە شادییەکی زۆر کرد کە گەشتەکەی دەست پێکرد."""),
                   ],
                 ),
               ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elation (Derived forms: elations)
+- Noun: elation (derived forms: elations)
 1. An exhilarating psychological state of pride and optimism; an absence of depression
  
 2. A feeling of joy and pride (= high spirits, lightness)

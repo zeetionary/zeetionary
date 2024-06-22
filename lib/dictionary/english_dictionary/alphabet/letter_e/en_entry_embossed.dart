@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) هەبوونی ڕوویەک کە بە دیزاینی بەرزبوو یان نووسین ڕازێندراوە"""),
+                  """١. (ھاوەڵناو) ھەبوونی ڕوویەک کە بە دیزاینی بەرزبوو یان نووسین ڕازێندراوە"""),
           Row(
             children: [
               const Expanded(
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """He admired the embossed leather wallet."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرسامی جزدانە چەرمە نەخش‌تێ‌هەڵسوواوەکە بوو."""),
+                            """سەرسامی جزدانە چەرمە نەخش‌تێ‌ھەڵسوواوەکە بوو."""),
                   ],
                 ),
               ),

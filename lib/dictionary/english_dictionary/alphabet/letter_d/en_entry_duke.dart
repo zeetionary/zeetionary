@@ -530,7 +530,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duke (Derived forms: dukes)
+- Noun: duke (derived forms: dukes)
 1. A British peer of the highest rank
  
 2. A nobleman (in various countries) of high rank

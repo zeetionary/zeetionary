@@ -376,10 +376,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (کەسێکی) خۆخواز، خۆبین، هەرخۆبین، خۆپەرست
+کوردی: (کەسێکی) خۆخواز، خۆبین، ھەرخۆبین، خۆپەرست
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کەسێک کە تەنها بیر لە خۆی دەکاتەوە"""),
+              text: """١. (ھاوەڵناو) کەسێک کە تەنھا بیر لە خۆی دەکاتەوە"""),
           Row(
             children: [
               const Expanded(
@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Young children are usually egocentric because they haven’t learnt other forms of behaviour."""),
                     ExampleSentenceKurdish(
                         text:
-                            """منداڵانی گەنج بە تەواوی خۆپەرستن چونکە هێشتا شێوازەکانی دیکەی ڕەفتارکردن فێرنەبوونە."""),
+                            """منداڵانی گەنج بە تەواوی خۆپەرستن چونکە ھێشتا شێوازەکانی دیکەی ڕەفتارکردن فێرنەبوونە."""),
                   ],
                 ),
               ),
@@ -555,7 +555,7 @@ ${englishMeaningConst.text}
 1. Limited to or caring only about yourself and your own needs (= egoistic [Brit], egoistical, self-centered [US], self-centred [Brit, Cdn])
 "They are of the opinion that man is egocentric by nature";
 
-- Noun: egocentric ) (Derived forms: egocentrics)
+- Noun: egocentric ) (derived forms: egocentrics)
 1. A self-centred person with little regard for others (= egoist)
 """,
   );

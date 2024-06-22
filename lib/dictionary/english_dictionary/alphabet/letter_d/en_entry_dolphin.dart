@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dolphin (Derived forms: dolphins)
+- Noun: dolphin (derived forms: dolphins)
 1. Large slender food and game fish widely distributed in warm seas (especially around Hawaii) (= dolphinfish, mahimahi)
  
 2. Any of various small toothed whales with a beaklike snout; larger than porpoises

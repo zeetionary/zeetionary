@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dopey (Derived forms: dopiest, dopier)
+- Adjective: dopey (derived forms: dopiest, dopier)
 1. Having or revealing stupidity (= anserine, dopy, foolish, goosey, goosy, gooselike, jerky)
 "a dopey answer";
  

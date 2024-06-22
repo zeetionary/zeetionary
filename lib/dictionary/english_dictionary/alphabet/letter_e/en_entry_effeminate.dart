@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He's got a very effeminate manner/voice."""),
                     ExampleSentenceKurdish(
-                        text: """هەڵسوکەوتی/دەنگی ژنانەی هەیە."""),
+                        text: """ھەڵسوکەوتی/دەنگی ژنانەی ھەیە."""),
                   ],
                 ),
               ),

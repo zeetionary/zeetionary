@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It can be embarrassing for children to tell complete strangers about such incidents."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەکرێت جێگای شەرم بێت بۆ منداڵان کە ڕووداوی وەها بە کەسانی تەواو نامۆ بڵێن."""),
+                            """دەکرێت جێگای شەرم بێت بۆ منداڵان کە ڕووداوی وەھا بە کەسانی تەواو نامۆ بڵێن."""),
                   ],
                 ),
               ),
@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It was so embarrassing having to sing in public."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆر شەرمهێنەر بوو کە پێویست بوو لە شوێنی گشتی گۆرانی بڵێم."""),
+                            """زۆر شەرمھێنەر بوو کە پێویست بوو لە شوێنی گشتی گۆرانی بڵێم."""),
                   ],
                 ),
               ),
@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
                             """My mother's presence made the situation even more embarrassing."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئامادەیی دایکم دۆخەکەی زیاتر شەرمهێنەر کرد."""),
+                            """ئامادەیی دایکم دۆخەکەی زیاتر شەرمھێنەر کرد."""),
                   ],
                 ),
               ),
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The report is likely to prove highly embarrassing to the government."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕاپۆرتەکە ئەگەری هەیە زۆر تاسێنەر بێت بۆ حکومەت."""),
+                            """ڕاپۆرتەکە ئەگەری ھەیە زۆر تاسێنەر بێت بۆ حکومەت."""),
                   ],
                 ),
               ),

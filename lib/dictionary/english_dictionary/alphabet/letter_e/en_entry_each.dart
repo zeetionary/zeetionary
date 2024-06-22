@@ -390,11 +390,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەر، هەریەک، هەریەکەیان، هەرکام، وریەو، بەهەریەک، دەنکی، یەکی، هەریەک، هەرکام
+کوردی: ھەر، ھەریەک، ھەریەکەیان، ھەرکام، وریەو، بەھەریەک، دەنکی، یەکی، ھەریەک، ھەرکام
 """),
           const DefinitionKurdish(
               text:
-                  """١. (دیارخەر، جێناو، ھاوەڵکار) بۆ ناوهێنانی هەموو ئەو کەس و شتانەی سەر بە گرووپێکن، کە یەک بە یەک بیریان لێ دەکەیتەوە"""),
+                  """١. (دیارخەر، جێناو، ھاوەڵکار) بۆ ناوھێنانی ھەموو ئەو کەس و شتانەی سەر بە گرووپێکن، کە یەک بە یەک بیریان لێ دەکەیتەوە"""),
           Row(
             children: [
               const Expanded(
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Each answer is worth 20 points."""),
                     ExampleSentenceKurdish(
-                        text: """هەر وەڵامێک ٢٠ نمرەی لەسەرە."""),
+                        text: """ھەر وەڵامێک ٢٠ نمرەی لەسەرە."""),
                   ],
                 ),
               ),
@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Each of the answers is worth 20 points."""),
                     ExampleSentenceKurdish(
-                        text: """هەریەکێک لە وەڵامەکان ٢٠ نمرەی لەسەرە."""),
+                        text: """ھەریەکێک لە وەڵامەکان ٢٠ نمرەی لەسەرە."""),
                   ],
                 ),
               ),
@@ -460,7 +460,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The answers are worth 20 points each."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەڵامەکان ٢٠ نمرەیان لەسەرە بۆ هەر یەکێکیان."""),
+                            """وەڵامەکان ٢٠ نمرەیان لەسەرە بۆ ھەر یەکێکیان."""),
                   ],
                 ),
               ),
@@ -488,7 +488,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """We each have our own car."""),
                     ExampleSentenceKurdish(
-                        text: """هەر یەکێکمان ئۆتۆمبێلی خۆمان هەیە."""),
+                        text: """ھەر یەکێکمان ئۆتۆمبێلی خۆمان ھەیە."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(text: """They lost £40 each."""),
                     ExampleSentenceKurdish(
-                        text: """هەر یەکێکیان ٤٠ پاوەندی زەرەرکرد."""),
+                        text: """ھەر یەکێکیان ٤٠ پاوەندی زەرەرکرد."""),
                   ],
                 ),
               ),

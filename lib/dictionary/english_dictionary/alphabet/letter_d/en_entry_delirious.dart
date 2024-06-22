@@ -379,165 +379,57 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss500"),
           // speakdeliriouss5
           // deliriouss5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss600"),
           // speakdeliriouss6
           // deliriouss6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss700"),
           // speakdeliriouss7
           // deliriouss7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss800"),
           // speakdeliriouss8
           // deliriouss8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss900"),
           // speakdeliriouss9
           // deliriouss9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1000"),
           // speakdeliriouss10
           // deliriouss10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1100"),
           // speakdeliriouss11
           // deliriouss11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1200"),
           // speakdeliriouss12
           // deliriouss12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1300"),
           // speakdeliriouss13
           // deliriouss13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1400"),
           // speakdeliriouss14
           // deliriouss14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1500"),
           // speakdeliriouss15
           // deliriouss15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1600"),
           // speakdeliriouss16
           // deliriouss16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1700"),
           // speakdeliriouss17
           // deliriouss17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1800"),
           // speakdeliriouss18
           // deliriouss18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss1900"),
           // speakdeliriouss19
           // deliriouss19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "By the time she was rescued, she was delirious with cold and fear.0"),
+          // "By the time she was rescued, she was delirious with cold and fear.0"),
           // speakdeliriouss20
           // deliriouss20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss2100"),
           // speakdeliriouss21
           // deliriouss21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deliriouss2200"),
           // speakdeliriouss22
           // deliriouss22("en-US"),

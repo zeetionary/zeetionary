@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: displacement (Derived forms: displacements)
+- Noun: displacement (derived forms: displacements)
 1. Act of taking the place of another especially using underhanded tactics (= supplanting)
  
 2. An event in which something is displaced without rotation

@@ -1034,7 +1034,7 @@ ${englishMeaningConst.text}
  
 6. Expected to give birth on the stated date
 
-- Noun: due (Derived forms: dues)
+- Noun: due (derived forms: dues)
 1. That which is deserved or owed
 "give the devil his due"
  

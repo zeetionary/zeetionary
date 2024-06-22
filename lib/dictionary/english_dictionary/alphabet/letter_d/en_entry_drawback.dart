@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drawback (Derived forms: drawbacks)
+- Noun: drawback (derived forms: drawbacks)
 1. The quality of being a hindrance
 "he pointed out all the drawbacks to my plan"
 """,

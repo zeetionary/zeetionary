@@ -358,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دیوارە، دیوارەخۆڵ، دیوارچن، بەردچن، (خۆڵ)هەڵدراوە، لاگیرە، کۆماخۆڵی ئەم‌بەر و ئەوبەری ڕێگاوبان
+کوردی: دیوارە، دیوارەخۆڵ، دیوارچن، بەردچن، (خۆڵ)ھەڵدراوە، لاگیرە، کۆماخۆڵی ئەم‌بەر و ئەوبەری ڕێگاوبان
 """),
           const DefinitionKurdish(
               text:
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embankment (Derived forms: embankments)
+- Noun: embankment (derived forms: embankments)
 1. A long artificial mound of stone or earth; built to hold back water or to support a road or as protection
 """,
   );

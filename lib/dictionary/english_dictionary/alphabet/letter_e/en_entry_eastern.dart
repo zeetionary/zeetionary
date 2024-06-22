@@ -377,11 +377,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕۆژهەڵات، خۆرهەڵات
+کوردی: ڕۆژھەڵات، خۆرھەڵات
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە دەکەوێتە ڕۆژهەڵات یان ڕووی لە ڕۆژهەڵاتە"""),
+                  """١. (ھاوەڵناو) کە دەکەوێتە ڕۆژھەڵات یان ڕووی لە ڕۆژھەڵاتە"""),
           Row(
             children: [
               const Expanded(
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """There has been flooding in eastern parts of the city."""),
                     ExampleSentenceKurdish(
-                        text: """لافاو لە ڕۆژهەڵاتی شارەکە بووە."""),
+                        text: """لافاو لە ڕۆژھەڵاتی شارەکە بووە."""),
                   ],
                 ),
               ),
@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The eastern part of the country is very mountainous."""),
                     ExampleSentenceKurdish(
-                        text: """بەشی ڕۆژهەڵاتی وڵاتەکە زۆر شاخاوییە."""),
+                        text: """بەشی ڕۆژھەڵاتی وڵاتەکە زۆر شاخاوییە."""),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Buddhism and other Eastern (= Asian) religions fascinate me."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بودیزم و ئایینە ڕۆژهەڵاتییەکانی دیکە سەرنجم ڕادەکێشن."""),
+                            """بودیزم و ئایینە ڕۆژھەڵاتییەکانی دیکە سەرنجم ڕادەکێشن."""),
                   ],
                 ),
               ),

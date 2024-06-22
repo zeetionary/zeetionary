@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dissident (Derived forms: dissidents)
+- Adjective: dissident (derived forms: dissidents)
 1. Characterized by departure from accepted beliefs or standards (= heretical, heterodox)
 "dissident beliefs";
  

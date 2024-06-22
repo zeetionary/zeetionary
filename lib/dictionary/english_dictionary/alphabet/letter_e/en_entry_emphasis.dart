@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (زمانەوانی) هێز، زەبر،	دووبارەکردنەوە، جەخت‌کردن، (لەسەر)سووربوون، پێداگرتن، پێداگیری، گرنگایەتی، سەرنجی تایبەتی، بایەخ، دیاربوون
+کوردی: (زمانەوانی) ھێز، زەبر،	دووبارەکردنەوە، جەخت‌کردن، (لەسەر)سووربوون، پێداگرتن، پێداگیری، گرنگایەتی، سەرنجی تایبەتی، بایەخ، دیاربوون
 """),
           const DefinitionKurdish(
               text: """١. (ناو) گرنگی تایبەت کە بە شتێک دەدرێت"""),
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Since the elections there has been a greater emphasis on education."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لەوەتەی هەڵبژاردنەکانەوە گرنگییەکی تایبەت بە پەروەردە دراوە."""),
+                            """لەوەتەی ھەڵبژاردنەکانەوە گرنگییەکی تایبەت بە پەروەردە دراوە."""),
                   ],
                 ),
               ),
@@ -503,7 +503,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Both subjects should be given equal emphasis."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەردوو بابەتەکە دەبێت سەرنجی یەکسانیان پێ بدرێت."""),
+                            """ھەردوو بابەتەکە دەبێت سەرنجی یەکسانیان پێ بدرێت."""),
                   ],
                 ),
               ),
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """You're placing the emphasis on the wrong syllable."""),
                     ExampleSentenceKurdish(
-                        text: """زەبر لەسەر بڕگەیەکی هەڵە دادەنێیت."""),
+                        text: """زەبر لەسەر بڕگەیەکی ھەڵە دادەنێیت."""),
                   ],
                 ),
               ),
@@ -562,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He put extra emphasis on the word ‘never’."""),
                     ExampleSentenceKurdish(
-                        text: """زەبری زیاتری خستە سەر وشەی 'هەرگیز'."""),
+                        text: """زەبری زیاتری خستە سەر وشەی 'ھەرگیز'."""),
                   ],
                 ),
               ),
@@ -661,7 +661,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emphasis (Derived forms: emphases)
+- Noun: emphasis (derived forms: emphases)
 1. Special importance or significance (= accent)
 "the red light gave the central figure increased emphasis";
  

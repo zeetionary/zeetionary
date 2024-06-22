@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێکی زۆر زیرەک کە تەنها حەزی بە خوێندنەوەیە"""),
+                  """١. (ناو) کەسێکی زۆر زیرەک کە تەنھا حەزی بە خوێندنەوەیە"""),
           Row(
             children: [
               const Expanded(
@@ -482,7 +482,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: egghead (Derived forms: eggheads)
+- Noun: egghead (derived forms: eggheads)
 1. An intellectual; a very studious and academic person
 "in spite of her love of reading she denied being an egghead"
 """,

@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هێلکەیی، هێلکەئاسا،	ڕستەیێ کە وشە هاوتاکەی لابرابێ، (ڕستە) هاووشەلابراو،	کورتە، پوختە
+کوردی: ھێلکەیی، ھێلکەئاسا،	ڕستەیێ کە وشە ھاوتاکەی لابرابێ، (ڕستە) ھاووشەلابراو،	کورتە، پوختە
 """),
           const DefinitionKurdish(
               text:
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His message was written in a deliberately elliptical style."""),
                     ExampleSentenceKurdish(
                         text:
-                            """نامەکەی بە ئەنقەست بە ستایلێکی هاووشەلابراو نووسرابوو."""),
+                            """نامەکەی بە ئەنقەست بە ستایلێکی ھاووشەلابراو نووسرابوو."""),
                   ],
                 ),
               ),
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵناو) هەبوونی شێوە هێلکەیی"""),
+              text: """٢. (ھاوەڵناو) ھەبوونی شێوە ھێلکەیی"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """She bought an elliptical mirror for her room."""),
                     ExampleSentenceKurdish(
-                        text: """ئاوێنەیی هێلکەیی بۆ ژوورەکەی کڕی."""),
+                        text: """ئاوێنەیی ھێلکەیی بۆ ژوورەکەی کڕی."""),
                   ],
                 ),
               ),

@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dissertation (Derived forms: dissertations)
+- Noun: dissertation (derived forms: dissertations)
 1. A treatise advancing a new point of view resulting from research; usually a requirement for an advanced academic degree (= thesis)
  
 2. A lengthy lecture on a subject

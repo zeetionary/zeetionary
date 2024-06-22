@@ -536,7 +536,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dragon (Derived forms: dragons)
+- Noun: dragon (derived forms: dragons)
 1. A creature of Teutonic mythology; usually represented as breathing fire and having a reptilian body and sometimes wings (= European dragon, firedrake)
  
 2. [informal] A fiercely vigilant and unpleasant woman

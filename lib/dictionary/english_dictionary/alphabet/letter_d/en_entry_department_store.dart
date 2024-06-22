@@ -270,165 +270,57 @@ class KurdishMeaning extends StatelessWidget {
           // departmentstores400"),
           // speakdepartmentstores4
           // departmentstores4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores500"),
           // speakdepartmentstores5
           // departmentstores5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores600"),
           // speakdepartmentstores6
           // departmentstores6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores700"),
           // speakdepartmentstores7
           // departmentstores7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores800"),
           // speakdepartmentstores8
           // departmentstores8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores900"),
           // speakdepartmentstores9
           // departmentstores9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1000"),
           // speakdepartmentstores10
           // departmentstores10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1100"),
           // speakdepartmentstores11
           // departmentstores11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1200"),
           // speakdepartmentstores12
           // departmentstores12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1300"),
           // speakdepartmentstores13
           // departmentstores13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1400"),
           // speakdepartmentstores14
           // departmentstores14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1500"),
           // speakdepartmentstores15
           // departmentstores15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1600"),
           // speakdepartmentstores16
           // departmentstores16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1700"),
           // speakdepartmentstores17
           // departmentstores17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1800"),
           // speakdepartmentstores18
           // departmentstores18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores1900"),
           // speakdepartmentstores19
           // departmentstores19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores2000"),
           // speakdepartmentstores20
           // departmentstores20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores2100"),
           // speakdepartmentstores21
           // departmentstores21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // departmentstores2200"),
           // speakdepartmentstores22
           // departmentstores22("en-US"),

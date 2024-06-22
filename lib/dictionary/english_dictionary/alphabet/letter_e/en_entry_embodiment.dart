@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نموونە، هێما،	وێناکردن، هێنانەپێش‌چاو، هێنانەبەرچاو، گیان‌بەبەرداکران، لەشگری،	لەخۆگرتن، تیابوون،	تێخستن، خستنەنێو
+کوردی: نموونە، ھێما،	وێناکردن، ھێنانەپێش‌چاو، ھێنانەبەرچاو، گیان‌بەبەرداکران، لەشگری،	لەخۆگرتن، تیابوون،	تێخستن، خستنەنێو
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کەسێک یان شتێک کە نموونەیەکی تەواوی شتێکە"""),
@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """He is the embodiment of the young successful businessman."""),
                     ExampleSentenceKurdish(
-                        text: """هێمای بازرگانی گەنجی سەرکەوتووە."""),
+                        text: """ھێمای بازرگانی گەنجی سەرکەوتووە."""),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embodiment (Derived forms: embodiments)
+- Noun: embodiment (derived forms: embodiments)
 1. A new personification of a familiar idea (= incarnation, avatar)
 "the embodiment of hope";
  

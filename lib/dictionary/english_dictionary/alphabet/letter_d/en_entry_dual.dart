@@ -574,7 +574,7 @@ ${englishMeaningConst.text}
 3. A grammatical number category referring to two items or units as opposed to one item (singular) or more than two items (plural)
 "ancient Greek had the dual form but it has merged with the plural form in modern Greek"
 
-- Noun: dual (Derived forms: duals)
+- Noun: dual (derived forms: duals)
 1. Of an item that is one of a pair, the other item in the pair
 """,
   );

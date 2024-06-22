@@ -391,138 +391,48 @@ class KurdishMeaning extends StatelessWidget {
           // deteriorates700"),
           // speakdeteriorates7
           // deteriorates7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates800"),
           // speakdeteriorates8
           // deteriorates8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates900"),
           // speakdeteriorates9
           // deteriorates9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1000"),
           // speakdeteriorates10
           // deteriorates10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1100"),
           // speakdeteriorates11
           // deteriorates11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1200"),
           // speakdeteriorates12
           // deteriorates12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1300"),
           // speakdeteriorates13
           // deteriorates13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1400"),
           // speakdeteriorates14
           // deteriorates14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1500"),
           // speakdeteriorates15
           // deteriorates15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1600"),
           // speakdeteriorates16
           // deteriorates16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1700"),
           // speakdeteriorates17
           // deteriorates17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1800"),
           // speakdeteriorates18
           // deteriorates18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates1900"),
           // speakdeteriorates19
           // deteriorates19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "They had to cope with deteriorating weather conditions.0"),
+          // "They had to cope with deteriorating weather conditions.0"),
           // speakdeteriorates20
           // deteriorates20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates2100"),
           // speakdeteriorates21
           // deteriorates21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorates2200"),
           // speakdeteriorates22
           // deteriorates22("en-US"),

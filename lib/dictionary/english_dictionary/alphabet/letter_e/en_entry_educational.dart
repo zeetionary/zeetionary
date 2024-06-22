@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """She has no formal educational qualifications."""),
                     ExampleSentenceKurdish(
-                        text: """هیچ لێوەشاوەیی خوێندنی فەرمی نییە."""),
+                        text: """ھیچ لێوەشاوەیی خوێندنی فەرمی نییە."""),
                   ],
                 ),
               ),
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """She fought for educational opportunities for women."""),
                     ExampleSentenceKurdish(
-                        text: """جەنگا بۆ هەلی خوێندن بۆ ژنان."""),
+                        text: """جەنگا بۆ ھەلی خوێندن بۆ ژنان."""),
                   ],
                 ),
               ),

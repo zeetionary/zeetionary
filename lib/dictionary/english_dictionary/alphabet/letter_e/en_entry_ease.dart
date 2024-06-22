@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاسوودەیی، ئاسایش، ئاسایشت، حەساوەیی، بێکاری،	ئاسانی،	ئارام‌بوونەوە، هێدی‌بوونەوە
+کوردی: ئاسوودەیی، ئاسایش، ئاسایشت، حەساوەیی، بێکاری،	ئاسانی،	ئارام‌بوونەوە، ھێدی‌بوونەوە
 """),
           const DefinitionKurdish(text: """١. (ناو) ئاسانی"""),
           Row(
@@ -546,7 +546,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This computer is popular for its good design and ease of use."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەم کۆمپیوتەرە ناسراوە بۆ دیزاینەکەی و ئاسانی بەکارهێنانی."""),
+                            """ئەم کۆمپیوتەرە ناسراوە بۆ دیزاینەکەی و ئاسانی بەکارھێنانی."""),
                   ],
                 ),
               ),
@@ -667,7 +667,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """The plan should ease traffic congestion in the town."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """پلانەکە دەبێت قەرەباڵغی هاتووچۆ لەسەر شەقامەکان سووک بکات."""),
+                                    """پلانەکە دەبێت قەرەباڵغی ھاتووچۆ لەسەر شەقامەکان سووک بکات."""),
                           ],
                         ),
                       ),
@@ -780,7 +780,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٥. (کردار) جوڵان بەهێواشی و وریایی"""),
+              text: """٥. (کردار) جوڵان بەھێواشی و وریایی"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -790,7 +790,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """He eased slowly forwards."""),
                     ExampleSentenceKurdish(
-                        text: """بەهێواشی بۆ پێشەوە هەنگاوی نا."""),
+                        text: """بەھێواشی بۆ پێشەوە ھەنگاوی نا."""),
                   ],
                 ),
               ),
@@ -920,12 +920,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases1600eases16
           // speakeases16("en-US"""),
           //         ),
@@ -935,12 +929,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases1700eases17
           // speakeases17("en-US"""),
           //         ),
@@ -950,12 +938,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases1800eases18
           // speakeases18("en-US"""),
           //         ),
@@ -965,12 +947,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases1900eases19
           // speakeases19("en-US"""),
           //         ),
@@ -980,12 +956,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases_2000eases20
           // speakeases20("en-US"""),
           //         ),
@@ -995,12 +965,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases2100eases21
           // speakeases21("en-US"""),
           //         ),
@@ -1010,12 +974,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eases2200eases22
           // speakeases22("en-US"""),
           //         ),
@@ -1068,7 +1026,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: ease (Derived forms: easing, eases, eased)
+- Verb: ease (derived forms: easing, eases, eased)
 1. Move gently or carefully
 "He eased himself into the chair"
  
@@ -1081,7 +1039,7 @@ ${englishMeaningConst.text}
 4. Lessen the intensity of or calm (= still, allay, relieve)
 "The news eased my conscience";
 
-- Noun: ease (Derived forms: eases)
+- Noun: ease (derived forms: eases)
 1. Freedom from difficulty, hardship or effort (= easiness, simplicity, simpleness)
 "he rose through the ranks with apparent ease"; "they put it into containers for ease of transportation";
  

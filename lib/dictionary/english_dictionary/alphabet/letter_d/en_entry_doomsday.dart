@@ -533,7 +533,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doomsday (Derived forms: doomsdays)
+- Noun: doomsday (derived forms: doomsdays)
 1. (New Testament) day at the end of time following Armageddon when God will decree the fates of all individual humans according to the good and evil of their earthly lives (= Judgment Day, Judgement Day, Day of Judgment, Day of Judgement, Doomsday, Last Judgment, Last Judgement, Last Day, eschaton, day of reckoning, crack of doom, end of the world)
  
 2. An unpleasant or disastrous destiny (= doom, day of reckoning, end of the world)

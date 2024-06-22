@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) جێهێشتنی وڵاتەکەت و ڕۆشتن بۆ ژیانکردن لە وڵاتێکی دیکە بۆ هەمیشەیی"""),
+                  """١. (کردار) جێھێشتنی وڵاتەکەت و ڕۆشتن بۆ ژیانکردن لە وڵاتێکی دیکە بۆ ھەمیشەیی"""),
           Row(
             children: [
               const Expanded(
@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The family left Czechoslovakia in 1968 and emigrated to America."""),
                     ExampleSentenceKurdish(
                         text:
-                            """خێزانەکە لە ١٩٦٨ چیکۆسلۆڤاکیایان جێهێشت و کۆچیان بۆ ئەمریکا کرد."""),
+                            """خێزانەکە لە ١٩٦٨ چیکۆسلۆڤاکیایان جێھێشت و کۆچیان بۆ ئەمریکا کرد."""),
                   ],
                 ),
               ),
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Many people who emigrated experienced poverty and racism when they arrived."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زۆر کەس کە کۆچیان کرد بە بە هەژاری و ڕەگەزپەرستیدا تێپەڕین کە گەشتن."""),
+                            """زۆر کەس کە کۆچیان کرد بە بە ھەژاری و ڕەگەزپەرستیدا تێپەڕین کە گەشتن."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: emigrate (Derived forms: emigrated, emigrates, emigrating)
+- Verb: emigrate (derived forms: emigrated, emigrates, emigrating)
 1. Leave one's country of residence for a new one
 "Many people had to emigrate during the Nazi period"
 """,

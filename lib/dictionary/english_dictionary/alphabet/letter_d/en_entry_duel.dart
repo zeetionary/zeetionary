@@ -569,12 +569,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duel (Derived forms: duels)
+- Noun: duel (derived forms: duels)
 1. A prearranged fight with deadly weapons by two people (accompanied by seconds) in order to settle a quarrel over a point of honour (= affaire d'honneur)
  
 2. Any struggle between two skilful opponents (individuals or groups)
 
-- Verb: duel (Derived forms: duelling, duels, duelled, dueling, dueled)
+- Verb: duel (derived forms: duelling, duels, duelled, dueling, dueled)
 1. Fight a duel, as over one's honour or a woman
 "In the 19th century, men often dueled over small matters"
 """,

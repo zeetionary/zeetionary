@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She snuggled beneath the eiderdown."""),
                     ExampleSentenceKurdish(
-                        text: """خۆی هەكدایە ژێر لێفەکەی."""),
+                        text: """خۆی ھەكدایە ژێر لێفەکەی."""),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eiderdown (Derived forms: eiderdowns)
+- Noun: eiderdown (derived forms: eiderdowns)
 1. A soft quilt usually filled with the down of the eider (= duvet [Brit], continental quilt)
  
 2. Down of the eider duck

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) پارچە دارێک کە ئاگری پێوە نییە بەڵام هێشتا سوور و گەرمە"""),
+                  """١. (ناو) پارچە دارێک کە ئاگری پێوە نییە بەڵام ھێشتا سوور و گەرمە"""),
           Row(
             children: [
               const Expanded(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Only the embers of the fire remained."""),
                     ExampleSentenceKurdish(
-                        text: """تەنها پۆڵووی ئاگرەکە مایەوە."""),
+                        text: """تەنھا پۆڵووی ئاگرەکە مایەوە."""),
                   ],
                 ),
               ),
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ember (Derived forms: embers)
+- Noun: ember (derived forms: embers)
 1. A hot fragment of wood or coal that is left from a fire and is glowing or smouldering (= coal)
 """,
   );

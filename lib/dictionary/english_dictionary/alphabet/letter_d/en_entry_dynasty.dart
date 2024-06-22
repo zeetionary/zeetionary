@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) زنجیرە سەرکردەی وڵاتێک کە هەموویان سەر بە یەک بنەماڵەن"""),
+                  """١. (ناو) زنجیرە سەرکردەی وڵاتێک کە ھەموویان سەر بە یەک بنەماڵەن"""),
           Row(
             children: [
               const Expanded(
@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Eventually the dynasty was overthrown, and the country became a Republic."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لەکۆتاییدا شانشینەکە هەڵوەشێنرایەوە وڵاتەکە بوو بە کۆمارێک."""),
+                            """لەکۆتاییدا شانشینەکە ھەڵوەشێنرایەوە وڵاتەکە بوو بە کۆمارێک."""),
                   ],
                 ),
               ),
@@ -573,7 +573,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dynasty (Derived forms: dynasties)
+- Noun: dynasty (derived forms: dynasties)
 1. A sequence of powerful leaders in the same family
 """,
   );

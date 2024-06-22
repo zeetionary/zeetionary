@@ -321,138 +321,48 @@ class KurdishMeaning extends StatelessWidget {
           // deteriorations700"),
           // speakdeteriorations7
           // deteriorations7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations800"),
           // speakdeteriorations8
           // deteriorations8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations900"),
           // speakdeteriorations9
           // deteriorations9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1000"),
           // speakdeteriorations10
           // deteriorations10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1100"),
           // speakdeteriorations11
           // deteriorations11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1200"),
           // speakdeteriorations12
           // deteriorations12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1300"),
           // speakdeteriorations13
           // deteriorations13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1400"),
           // speakdeteriorations14
           // deteriorations14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1500"),
           // speakdeteriorations15
           // deteriorations15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1600"),
           // speakdeteriorations16
           // deteriorations16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1700"),
           // speakdeteriorations17
           // deteriorations17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1800"),
           // speakdeteriorations18
           // deteriorations18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations1900"),
           // speakdeteriorations19
           // deteriorations19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "When we arrived, we were appalled at her deterioration.0"),
+          // "When we arrived, we were appalled at her deterioration.0"),
           // speakdeteriorations20
           // deteriorations20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations2100"),
           // speakdeteriorations21
           // deteriorations21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // deteriorations2200"),
           // speakdeteriorations22
           // deteriorations22("en-US"),

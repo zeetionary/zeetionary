@@ -377,10 +377,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەرهاویشتن، هاویشتن، خستنەدەرەوە، دەرخستن، دەرپەڕاندن، دەرکردن، فڕێدان، دانەدەرەوە، دەردان
+کوردی: دەرھاویشتن، ھاویشتن، خستنەدەرەوە، دەرخستن، دەرپەڕاندن، دەرکردن، فڕێدان، دانەدەرەوە، دەردان
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) زۆرکردن لە کەسێک کە شوێنێک جێبهێڵێت"""),
+              text: """١. (ناو) زۆرکردن لە کەسێک کە شوێنێک جێبھێڵێت"""),
           Row(
             children: [
               const Expanded(
@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) فڕێدانە دەرەوەی کەسێک لەناکاو و بە هێزێکی زۆرەوە"""),
+                  """٢. (ناو) فڕێدانە دەرەوەی کەسێک لەناکاو و بە ھێزێکی زۆرەوە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The volcano's ejection of hot rocks and ash created a massive cloud in the sky."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەردانی بەردی گەرم و خۆڵەمێش لەلایەن گڕکانەکەوە پەڵە هەورێکی زەبەلاحی لە ئاسماندا درووست کرد."""),
+                            """دەردانی بەردی گەرم و خۆڵەمێش لەلایەن گڕکانەکەوە پەڵە ھەورێکی زەبەلاحی لە ئاسماندا درووست کرد."""),
                   ],
                 ),
               ),
@@ -559,7 +559,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ejection (Derived forms: ejections)
+- Noun: ejection (derived forms: ejections)
 1. The act of expelling, projecting or ejecting (= expulsion, projection, forcing out)
  
 2. The act of forcing out someone or something (= exclusion, expulsion, riddance)

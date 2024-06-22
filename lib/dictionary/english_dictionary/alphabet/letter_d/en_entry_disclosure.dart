@@ -317,7 +317,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "The newspaper made damaging disclosures of management incompetence."),
+          // "The newspaper made damaging disclosures of management incompetence."),
           // speakdisclosures3
           // disclosures3("en-US"),
           // disclosures400"),

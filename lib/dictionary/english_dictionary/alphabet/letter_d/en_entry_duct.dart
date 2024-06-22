@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duct (Derived forms: ducts)
+- Noun: duct (derived forms: ducts)
 1. A bodily passage or tube lined with epithelial cells and conveying a secretion or other substance (= epithelial duct, canal, channel)
 "the tear duct was obstructed";
  

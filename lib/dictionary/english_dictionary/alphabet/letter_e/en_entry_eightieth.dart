@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          const DefinitionKurdish(text: """١. (ژمارەی پلەیی) هەشتایەم"""),
+          const DefinitionKurdish(text: """١. (ژمارەی پلەیی) ھەشتایەم"""),
           Row(
             children: [
               const Expanded(
@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """They finished eightieth out of a hundred."""),
                     ExampleSentenceKurdish(
-                        text: """لە کۆی سەد کەس هەشتایەم بوو."""),
+                        text: """لە کۆی سەد کەس ھەشتایەم بوو."""),
                   ],
                 ),
               ),
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 - Adjective: eightieth
 1. The ordinal number of eighty in counting order (= 80th)
 
-- Noun: eightieth (Derived forms: eightieths)
+- Noun: eightieth (derived forms: eightieths)
 1. Position 80 in a countable series of things
 """,
   );

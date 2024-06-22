@@ -595,7 +595,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drawer (Derived forms: drawers)
+- Noun: drawer (derived forms: drawers)
 1. A boxlike container in a piece of furniture; made so as to slide in and out
  
 2. The person who writes a check or draft instructing the drawee to pay someone else

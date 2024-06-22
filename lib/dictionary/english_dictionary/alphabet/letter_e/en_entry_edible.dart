@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆراکی، لەخواردن‌هاتوو، خواردەنی، دەخورێ
+کوردی: خۆراکی، لەخواردن‌ھاتوو، خواردەنی، دەخورێ
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بۆ خواردن دەشێت"""),
           Row(
@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The food at the hotel was barely edible."""),
                     ExampleSentenceKurdish(
-                        text: """خواردنی هوتێلەکە بە ئەستەم دەخورا."""),
+                        text: """خواردنی ھوتێلەکە بە ئەستەم دەخورا."""),
                   ],
                 ),
               ),
@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The vegetables were old but still looked edible."""),
                     ExampleSentenceKurdish(
                         text:
-                            """میوەکان کۆن بەڵام هێشتا لەخواردن‌هاتوو بوون."""),
+                            """میوەکان کۆن بەڵام ھێشتا لەخواردن‌ھاتوو بوون."""),
                   ],
                 ),
               ),
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 - Adjective: edible 
 1. Suitable for use as food (= comestible, eatable)
 
-- Noun: edible (Derived forms: edibles)
+- Noun: edible (derived forms: edibles)
 1. Any substance that can be used as food (= comestible, eatable, pabulum, victual, victuals, vittle [archaic])
 """,
   );

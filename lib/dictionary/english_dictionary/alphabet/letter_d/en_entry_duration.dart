@@ -567,7 +567,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duration (Derived forms: durations)
+- Noun: duration (derived forms: durations)
 1. The period of time during which something continues (= continuance)
  
 2. The property of enduring or continuing in time (= continuance)

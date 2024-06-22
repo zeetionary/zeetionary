@@ -567,7 +567,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dwell (Derived forms: dwells, dwelled, dwelling, dwelt)
+- Verb: dwell (derived forms: dwells, dwelled, dwelling, dwelt)
 1. Think moodily or anxiously about something (= brood)
  
 2. Originate (in) (= consist, lie, lie in)

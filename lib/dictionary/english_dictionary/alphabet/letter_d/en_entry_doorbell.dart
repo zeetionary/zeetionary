@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doorbell (Derived forms: doorbells)
+- Noun: doorbell (derived forms: doorbells)
 1. A push button at an outer door that gives a ringing or buzzing signal when pushed (= bell, buzzer)
 """,
   );

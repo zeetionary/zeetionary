@@ -400,7 +400,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disprove (Derived forms: disproves, disproving, disproven, disproved)
+- Verb: disprove (derived forms: disproves, disproving, disproven, disproved)
 1. Prove to be false (= confute)
 "The physicist disproved his colleagues' theories";
 """,

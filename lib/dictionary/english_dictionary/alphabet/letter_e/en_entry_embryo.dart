@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئاژەڵێکی یان ڕووەکێک لە سەرەتای دەستپێکی کە لە قۆناغە زۆر سەرەتاییەکانی گەشەکردندایە لە پێش لەدایکبوون، یان پێش ئەوەی لە هێلکە یان تۆوەکەی دەربچێت، بەتایبەتی هێلکەی مرۆڤ لە هەشت هەفتەی یەکەمی دوای پیتاندن"""),
+                  """١. (ناو) ئاژەڵێکی یان ڕووەکێک لە سەرەتای دەستپێکی کە لە قۆناغە زۆر سەرەتاییەکانی گەشەکردندایە لە پێش لەدایکبوون، یان پێش ئەوەی لە ھێلکە یان تۆوەکەی دەربچێت، بەتایبەتی ھێلکەی مرۆڤ لە ھەشت ھەفتەی یەکەمی دوای پیتاندن"""),
           Row(
             children: [
               const Expanded(
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) لە هەرە سەرەتاکانی گەشەکردندا"""),
+              text: """٢. (ناو) لە ھەرە سەرەتاکانی گەشەکردندا"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: embryo (Derived forms: embryos)
+- Noun: embryo (derived forms: embryos)
 1. An animal organism in the early stages of growth and differentiation that in higher forms merge into foetal stages but in lower forms terminate in commencement of larval life (= conceptus, fertilized egg, fertilised egg [Brit])
  
 2. (botany) a minute rudimentary plant contained within a seed or an archegonium

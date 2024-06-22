@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: embalm (Derived forms: embalmed, embalming, embalms)
+- Verb: embalm (derived forms: embalmed, embalming, embalms)
 1. Preserve a dead body
 "The undersigned acknowledges that the authorization encompasses permission to embalm at the Funeral Home facility"
 """,

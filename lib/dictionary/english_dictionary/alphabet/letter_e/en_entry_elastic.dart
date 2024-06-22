@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جیڕ، جیراسا، کەژئاسا، کەژی، کێشی دێ، ئێلاستیک، نەرم، جۆر، لەگۆڕان‌هاتوو، بگۆڕ
+کوردی: جیڕ، جیراسا، کەژئاسا، کەژی، کێشی دێ، ئێلاستیک، نەرم، جۆر، لەگۆڕان‌ھاتوو، بگۆڕ
 """),
           const DefinitionKurdish(text: """١. (ناو) مادەی لاستیک"""),
           Row(
@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This skirt needs some new elastic in the waist."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تەنوورەکەدا لە کەمەردا پێویستیی بە هەندێک لە لاستیک هەیە."""),
+                            """تەنوورەکەدا لە کەمەردا پێویستیی بە ھەندێک لە لاستیک ھەیە."""),
                   ],
                 ),
               ),
@@ -492,7 +492,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The demand for the product is elastic."""),
                     ExampleSentenceKurdish(
-                        text: """ئەڵماسی بەرهەمەکە بگۆڕە."""),
+                        text: """ئەڵماسی بەرھەمەکە بگۆڕە."""),
                   ],
                 ),
               ),
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Our plans are fairly elastic."""),
                     ExampleSentenceKurdish(
-                        text: """پلانەکانمان کەمێک لەگۆڕان‌هاتوون."""),
+                        text: """پلانەکانمان کەمێک لەگۆڕان‌ھاتوون."""),
                   ],
                 ),
               ),
@@ -630,7 +630,7 @@ ${englishMeaningConst.text}
  
 3. (physics) describes a collision or scattering that involves no loss of particle energy
 
-- Noun: elastic (Derived forms: elastics)
+- Noun: elastic (derived forms: elastics)
 1. A narrow band of elastic rubber used to hold things (such as papers) together (= rubber band, elastic band)
  
 2. A fabric made of yarns containing an elastic material

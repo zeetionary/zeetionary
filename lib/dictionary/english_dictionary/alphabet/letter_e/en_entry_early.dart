@@ -557,7 +557,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: زوو، پێش‌وەخت، زووتر لەوەختی خۆی، زووتر،	لەسەرەتادا،	سەرەتاکان، دەسپێک، هەوەڵین، هەوەڵ‌جار، یەکەمین، سەرەتا،	کۆن، باستانی، زوو،	بەزوویی، دەسبەجێ (وەڵام)
+کوردی: زوو، پێش‌وەخت، زووتر لەوەختی خۆی، زووتر،	لەسەرەتادا،	سەرەتاکان، دەسپێک، ھەوەڵین، ھەوەڵ‌جار، یەکەمین، سەرەتا،	کۆن، باستانی، زوو،	بەزوویی، دەسبەجێ (وەڵام)
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرەتای شتێک"""),
           Row(
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The project is still in the early stages."""),
                     ExampleSentenceKurdish(
-                        text: """پڕۆژەکە هێشتا لە قۆناغەکانی سەرەتایەتی."""),
+                        text: """پڕۆژەکە ھێشتا لە قۆناغەکانی سەرەتایەتی."""),
                   ],
                 ),
               ),
@@ -659,7 +659,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """The ruling overturned the court’s earlier decision."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """بڕیارەکە بڕیاری سەرەتای دادگاکەی هەڵوەشاندەوە."""),
+                                    """بڕیارەکە بڕیاری سەرەتای دادگاکەی ھەڵوەشاندەوە."""),
                           ],
                         ),
                       ),
@@ -783,7 +783,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """You're early! I wasn't expecting you till seven."""),
                     ExampleSentenceKurdish(
-                        text: """زوو هاتوویت! تاوەکو حەوت چاوەڕێم نەدەکردی."""),
+                        text: """زوو ھاتوویت! تاوەکو حەوت چاوەڕێم نەدەکردی."""),
                   ],
                 ),
               ),
@@ -811,7 +811,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The bus was ten minutes early."""),
                     ExampleSentenceKurdish(
-                        text: """پاسەکە ١٠ خولەک زوو هات."""),
+                        text: """پاسەکە ١٠ خولەک زوو ھات."""),
                   ],
                 ),
               ),
@@ -869,7 +869,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I'm sorry I'm a bit early."""),
                     ExampleSentenceKurdish(
-                        text: """ببوورە کەمێک زوو هاتووم."""),
+                        text: """ببوورە کەمێک زوو ھاتووم."""),
                   ],
                 ),
               ),
@@ -930,7 +930,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The gallery has an unrivalled collection of early twentieth-century art."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پێشانگاکە کۆکراوەیەکی بێ‌وێنەی هونەری سەرەتای سەدەی بیستی هەیە."""),
+                            """پێشانگاکە کۆکراوەیەکی بێ‌وێنەی ھونەری سەرەتای سەدەی بیستی ھەیە."""),
                   ],
                 ),
               ),
@@ -1093,7 +1093,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٥. (ھاوەڵکار) پێش کاتی هەمیشەیی یان دیاریکراو"""),
+              text: """٥. (ھاوەڵکار) پێش کاتی ھەمیشەیی یان دیاریکراو"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -1105,7 +1105,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Why don't you go home early if you're not feeling well?"""),
                     ExampleSentenceKurdish(
                         text:
-                            """بۆچی زووتر ناچیتە ماڵەوە ئەگەر هەست بە باشی ناکەیت؟"""),
+                            """بۆچی زووتر ناچیتە ماڵەوە ئەگەر ھەست بە باشی ناکەیت؟"""),
                   ],
                 ),
               ),
@@ -1163,7 +1163,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The bus came five minutes early."""),
                     ExampleSentenceKurdish(
-                        text: """پاسەکە پێنج خولەک زووتر هات."""),
+                        text: """پاسەکە پێنج خولەک زووتر ھات."""),
                   ],
                 ),
               ),
@@ -1368,7 +1368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: early (Derived forms: earlier, earliest)
+- Adjective: early (derived forms: earlier, earliest)
 1. At or near the beginning of a period of time or course of events or before the usual or expected time
 "early morning"; "an early warning"; "early diagnosis"; "an early death"; "took early retirement"; "an early spring"; "early varieties of peas and tomatoes mature before most standard varieties"
  

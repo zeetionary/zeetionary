@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drake (Derived forms: drakes)
+- Noun: drake (derived forms: drakes)
 1. Adult male of a wild or domestic duck
 """,
   );

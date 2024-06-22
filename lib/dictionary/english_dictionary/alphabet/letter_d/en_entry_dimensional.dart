@@ -317,7 +317,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "I would say all the characters are strong, dimensional, fully-imagined women."),
+          // "I would say all the characters are strong, dimensional, fully-imagined women."),
           //           ExampleSentenceKurdish(text: "پێموایە ھەموو کارەکتەرەکان بەھێز، ."),
           //         ],
           //       ),

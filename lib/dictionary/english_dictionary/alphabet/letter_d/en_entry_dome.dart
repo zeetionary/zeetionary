@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dome (Derived forms: domes)
+- Noun: dome (derived forms: domes)
 1. A concave shape whose distinguishing characteristic is that the concavity faces downward
  
 2. [informal] The upper part of the human body or the front part of the body in animals; contains the face and brains (= head, caput [technical], bean [informal], bonce [Brit, informal], noodle [informal], noggin [informal], nob [informal], napper [Brit, informal], skull [informal], nut [informal])

@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dumpling (Derived forms: dumplings)
+- Noun: dumpling (derived forms: dumplings)
 1. Small balls or strips of boiled or steamed dough (= dumplings)
  
 2. Dessert made by baking fruit wrapped in pastry

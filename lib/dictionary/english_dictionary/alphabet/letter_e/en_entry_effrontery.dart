@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕووداری، بێ‌شەرمی، بێ‌حەیایی، بێ‌ئابڕوویی، ڕووشەیی، ڕووهەڵماڵراوی
+کوردی: ڕووداری، بێ‌شەرمی، بێ‌حەیایی، بێ‌ئابڕوویی، ڕووشەیی، ڕووھەڵماڵراوی
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ڕەفتاری بێ‌ڕێزی و بێشەرمانە"""),
@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He had the effrontery to accuse me of lying!"""),
                     ExampleSentenceKurdish(
                         text:
-                            """بێ‌ئابڕوویی ئەوەی هەبوو کە بە درۆکردن تاوانبارم بکات."""),
+                            """بێ‌ئابڕوویی ئەوەی ھەبوو کە بە درۆکردن تاوانبارم بکات."""),
                   ],
                 ),
               ),
@@ -512,7 +512,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: effrontery (Derived forms: effronteries)
+- Noun: effrontery (derived forms: effronteries)
 1. Audacious (even arrogant) behaviour that you have no right to (= presumption, presumptuousness, assumption)
 "he despised them for their effrontery";
 """,

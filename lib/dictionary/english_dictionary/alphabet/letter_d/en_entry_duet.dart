@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duet (Derived forms: duets)
+- Noun: duet (derived forms: duets)
 1. Two items of the same kind (= couple, pair, twosome, twain, brace, span, yoke, couplet, distich, duo, dyad, duad)
  
 2. Two performers or singers who perform together (= duette, duo)
@@ -512,7 +512,7 @@ ${englishMeaningConst.text}
  
 5. (ballet) a dance for two people (usually a ballerina and a danseur noble) (= pas de deux)
 
-- Verb: duet (Derived forms: duetted, duetting, duets)
+- Verb: duet (derived forms: duetted, duetting, duets)
 1. Play a duet
 """,
   );

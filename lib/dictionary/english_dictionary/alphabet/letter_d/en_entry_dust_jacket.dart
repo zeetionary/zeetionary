@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dust jacket (Derived forms: dust jackets)
+- Noun: dust jacket (derived forms: dust jackets)
 1. A paper jacket for a book; a jacket on which promotional information is usually printed (= book jacket, dust cover, dust wrapper)
 """,
   );

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کێکێکی درێژ کە بە هەویری شل درووست دەکرێت و ناوەکەی پڕ دەکرێت لە کرێم چکلێت لە بانی دادەندرێت"""),
+                  """١. (ناو) کێکێکی درێژ کە بە ھەویری شل درووست دەکرێت و ناوەکەی پڕ دەکرێت لە کرێم چکلێت لە بانی دادەندرێت"""),
           Row(
             children: [
               const Expanded(
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eclair (Derived forms: eclairs)
+- Noun: eclair (derived forms: eclairs)
 1. Oblong cream puff
 """,
   );

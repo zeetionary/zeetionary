@@ -359,12 +359,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: سۆزەکی، بەسۆز، هەست‌بزوێن، بزوێنەر، ورووژێنەر
+کوردی: سۆزەکی، بەسۆز، ھەست‌بزوێن، بزوێنەر، ورووژێنەر
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
           // const AlsoEnglishckb(word: "ھەروەھا: emotional"),
           AlsoEnglishckblink(
-            textBeforeLink: "هەروەها: ",
+            textBeforeLink: "ھەروەھا: ",
             linkText: 'emotional',
             textAfterLink: '.',
             onTap: () {
@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Animal experimentation is a highly emotive issue."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لێکۆڵینەوە لەسەر ئاژەڵان بابەتێکی تەواو هەست‌بزوێنە."""),
+                            """لێکۆڵینەوە لەسەر ئاژەڵان بابەتێکی تەواو ھەست‌بزوێنە."""),
                   ],
                 ),
               ),

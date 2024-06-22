@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: drafty (Derived forms: draftier, draftiest)
+- Adjective: drafty (derived forms: draftier, draftiest)
 Usage: N. Amer (elsewhere: draughty)
 1. Not airtight, having moving (esp. cold) air from outside (= draughty [Brit, Cdn])
 "Their room was drafty";

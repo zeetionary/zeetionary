@@ -537,7 +537,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dugout (Derived forms: dugouts)
+- Noun: dugout (derived forms: dugouts)
 1. Either of two low shelters on either side of a baseball diamond where the players and coaches sit during the game
  
 2. A fortification of earth; mostly or entirely below ground (= bunker)

@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: easy chair (Derived forms: easy chairs)
+- Noun: easy chair (derived forms: easy chairs)
 1. A comfortable upholstered armchair (= lounge chair, overstuffed chair)
 """,
   );

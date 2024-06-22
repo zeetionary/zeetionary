@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """These eco-friendly businesses help recycle your old stuff."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بازرگانییە ژینگە دۆستەکان یارمەتی دووبارە بەکارهێنانەوەی شتەکۆنەکانت دەدەن."""),
+                            """بازرگانییە ژینگە دۆستەکان یارمەتی دووبارە بەکارھێنانەوەی شتەکۆنەکانت دەدەن."""),
                   ],
                 ),
               ),

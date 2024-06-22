@@ -458,10 +458,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گۆی زەوی، عەرز، زەمین، زەوی، هەرد، خۆڵ، گڵ، خاک، ئاخ، خاک‌وخۆڵ، وشکانی، وشکایی، بەژ،	دانیشتووانی سەرعەرز،	کون، کولانە، بوودڕ، لانە، هێلانە
+کوردی: گۆی زەوی، عەرز، زەمین، زەوی، ھەرد، خۆڵ، گڵ، خاک، ئاخ، خاک‌وخۆڵ، وشکانی، وشکایی، بەژ،	دانیشتووانی سەرعەرز،	کون، کولانە، بوودڕ، لانە، ھێلانە
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) هەسارەکەمان؛ هەسارەی زەوی"""),
+              text: """١. (ناو) ھەسارەکەمان؛ ھەسارەی زەوی"""),
           Row(
             children: [
               const Expanded(
@@ -498,7 +498,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I must be the happiest person on earth!"""),
                     ExampleSentenceKurdish(
-                        text: """دەبێت دڵخۆشترین بم لە جیهاندا."""),
+                        text: """دەبێت دڵخۆشترین بم لە جیھاندا."""),
                   ],
                 ),
               ),
@@ -531,7 +531,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """No one knows what happens to us after we leave this earth."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """کەس نازانێت چیمان بەسەر دێت کە زەوی جێدەهێڵین."""),
+                                    """کەس نازانێت چیمان بەسەر دێت کە زەوی جێدەھێڵین."""),
                           ],
                         ),
                       ),
@@ -624,7 +624,7 @@ class KurdishMeaning extends StatelessWidget {
                             """After a week at sea, it was good to feel the earth beneath our feet again."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە دوای هەفتەیەک لە دەریادا، خۆش بوو کە دووبارە هەست بە خاک بکەین لە ژێر پێماندا."""),
+                            """لە دوای ھەفتەیەک لە دەریادا، خۆش بوو کە دووبارە ھەست بە خاک بکەین لە ژێر پێماندا."""),
                   ],
                 ),
               ),
@@ -654,7 +654,7 @@ class KurdishMeaning extends StatelessWidget {
                             """You could feel the earth shake as the truck came closer."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەتتوانی هەست بە خاکەکە بکەیت کە دەلەرزێتەوە کە بارهەڵگرەکە نزیکبوویەوە."""),
+                            """دەتتوانی ھەست بە خاکەکە بکەیت کە دەلەرزێتەوە کە بارھەڵگرەکە نزیکبوویەوە."""),
                   ],
                 ),
               ),
@@ -848,12 +848,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) حەشارگەی ژێر زەوی ئاژەڵێک، بەتایبەتی ڕێوی"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // earths1400earths14
           // speakearths14
           // speakearths1500earths15
@@ -922,7 +916,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earth (Derived forms: earths)
+- Noun: earth (derived forms: earths)
 1. The 3rd planet from the sun; the planet we live on (= Earth, world, globe)
 "the Earth moves around the sun";
  
@@ -941,7 +935,7 @@ ${englishMeaningConst.text}
  
 7. [archaic] Once thought to be one of four elements composing the universe (Empedocles), associated with the humour black bile
 
-- Verb: earth (Derived forms: earths, earthing, earthed)
+- Verb: earth (derived forms: earths, earthing, earthed)
 1. Hide in the earth like a hunted animal
  
 2. [Brit] Connect to the earth

@@ -540,7 +540,7 @@ ${englishMeaningConst.text}
 2. Used of fabrics that do not require ironing (= permanent-press)
 "drip-dry shirts for travel";
 
-- Verb: drip-dry (Derived forms: drip-drying, drip-dries, drip-dried)
+- Verb: drip-dry (derived forms: drip-drying, drip-dries, drip-dried)
 1. Dry by hanging up wet
 """,
   );

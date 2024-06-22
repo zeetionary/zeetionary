@@ -518,8 +518,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -546,8 +544,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           Column(
             children: [
               MyExpansionTile(
@@ -979,58 +975,18 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // doctors1800"),
           // speakdoctors18
           // doctors18("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // doctors1900"),
           // speakdoctors19
           // doctors19("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // doctors_2000"),
           // speakdoctors20
           // doctors20("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // doctors2100"),
           // speakdoctors21
           // doctors21("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // doctors2200"),
           // speakdoctors22
           // doctors22("en-US"),
@@ -1079,7 +1035,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doctor (Derived forms: doctors)
+- Noun: doctor (derived forms: doctors)
 1. A licensed medical practitioner (= doc [informal], physician, MD, Dr., medico [informal])
 "I felt so bad I went to see my doctor";
  
@@ -1089,7 +1045,7 @@ ${englishMeaningConst.text}
 3. A game in which children take the roles of physician, nurse or patient and pretend they are at the doctor's
 "the children explored each other's bodies by playing the game of doctor"
 
-- Verb: doctor (Derived forms: doctors, doctored, doctoring)
+- Verb: doctor (derived forms: doctors, doctored, doctoring)
 1. Alter and make impure, as with the intention to deceive (= sophisticate, doctor up)
 "doctor up rose water with geraniol";
  
@@ -1097,7 +1053,7 @@ ${englishMeaningConst.text}
  
 3. [informal] Restore by replacing a part or putting together what is torn or broken (= repair, mend, fix, bushel [US], furbish up, restore, touch on)
 
-- Noun: Doctor (Derived forms: Doctors)
+- Noun: Doctor (derived forms: Doctors)
 1. (Roman Catholic Church) a title conferred on 33 saints who distinguished themselves through the orthodoxy of their theological teaching (= Doctor of the Church)
 "the Doctors of the Church greatly influenced Christian thought down to the late Middle Ages";
 """,

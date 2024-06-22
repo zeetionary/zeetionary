@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هێما، نیشانە، دروشم، بەرژەنگ
+کوردی: ھێما، نیشانە، دروشم، بەرژەنگ
 """),
           const DefinitionKurdish(
               text:
@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: """The dove is an emblem of peace."""),
-                    ExampleSentenceKurdish(text: """کۆتر هێمای ئاشتییە."""),
+                    ExampleSentenceKurdish(text: """کۆتر ھێمای ئاشتییە."""),
                   ],
                 ),
               ),
@@ -515,7 +515,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emblem (Derived forms: emblems)
+- Noun: emblem (derived forms: emblems)
 1. Special design or visual object representing a quality, type, group, etc.
  
 2. A visible symbol representing an abstract idea (= allegory)

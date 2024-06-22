@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ماسییەک کە لە ئاوی سازگاردا دەژی و شێوەی وەک مارە. ژمارەیەک جۆری هەیە و هەندێکیان بۆ خواردن بەکاردێن"""),
+                  """١. (ناو) ماسییەک کە لە ئاوی سازگاردا دەژی و شێوەی وەک مارە. ژمارەیەک جۆری ھەیە و ھەندێکیان بۆ خواردن بەکاردێن"""),
           Row(
             children: [
               const Expanded(
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eel (Derived forms: eels)
+- Noun: eel (derived forms: eels)
 1. Voracious snakelike marine or freshwater fishes with smooth slimy usually scaleless skin and having a continuous vertical fin but no ventral fins
  
 2. The fatty flesh of eel; an elongate fish found in fresh water in Europe and America; large eels are usually smoked or pickled

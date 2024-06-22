@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: drifter (Derived forms: drifters)
+- Noun: drifter (derived forms: drifters)
 1. A wanderer who has no established residence or visible means of support (= vagrant, floater, vagabond, clochard)
 """,
   );

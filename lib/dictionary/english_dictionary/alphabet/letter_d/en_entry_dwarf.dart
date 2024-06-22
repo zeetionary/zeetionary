@@ -643,14 +643,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dwarf (Derived forms: dwarfs, dwarfing, dwarfed)
+- Verb: dwarf (derived forms: dwarfs, dwarfing, dwarfed)
 1. Make appear small by comparison (= shadow, overshadow)
 "This year's debt dwarfs that of last year";
  
 2. Check the growth of
 "the lack of sunlight dwarfed these pines"
 
-- Noun: dwarf (Derived forms: dwarves)
+- Noun: dwarf (derived forms: dwarves)
 1. A person who is markedly small (= midget, nanus)
  
 2. A legendary creature resembling a tiny old man; lives in the depths of the earth and guards buried treasure (= gnome)

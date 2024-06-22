@@ -321,138 +321,48 @@ class KurdishMeaning extends StatelessWidget {
           // destitutions700"),
           // speakdestitutions7
           // destitutions7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions800"),
           // speakdestitutions8
           // destitutions8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions900"),
           // speakdestitutions9
           // destitutions9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1000"),
           // speakdestitutions10
           // destitutions10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1100"),
           // speakdestitutions11
           // destitutions11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1200"),
           // speakdestitutions12
           // destitutions12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1300"),
           // speakdestitutions13
           // destitutions13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1400"),
           // speakdestitutions14
           // destitutions14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1500"),
           // speakdestitutions15
           // destitutions15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1600"),
           // speakdestitutions16
           // destitutions16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1700"),
           // speakdestitutions17
           // destitutions17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1800"),
           // speakdestitutions18
           // destitutions18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions1900"),
           // speakdestitutions19
           // destitutions19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "Destitution has become a major problem in the capital.0"),
+          // "Destitution has become a major problem in the capital.0"),
           // speakdestitutions20
           // destitutions20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions2100"),
           // speakdestitutions21
           // destitutions21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // destitutions2200"),
           // speakdestitutions22
           // destitutions22("en-US"),

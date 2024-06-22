@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             """There are only eight of these rare animals left."""),
                     ExampleSentenceKurdish(
                         text:
-                            """تەنها هەشت دانە لەم ئاژەڵانە دەگمەنانە ماونەتەوە."""),
+                            """تەنھا ھەشت دانە لەم ئاژەڵانە دەگمەنانە ماونەتەوە."""),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Ten people were invited but only eight turned up."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دە کەس بانگهێشتکران، بەڵام تەنها هەشت هاتن."""),
+                            """دە کەس بانگھێشتکران، بەڵام تەنھا ھەشت ھاتن."""),
                   ],
                 ),
               ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Can you lend me eight dollars?"""),
                     ExampleSentenceKurdish(
-                        text: """دەتوانیت هەشت دۆلارم بە قەرز پێ بدەیت؟"""),
+                        text: """دەتوانیت ھەشت دۆلارم بە قەرز پێ بدەیت؟"""),
                   ],
                 ),
               ),
@@ -503,7 +503,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: """Look at page eight."""),
-                    ExampleSentenceKurdish(text: """سەیری لاپەڕە هەشت."""),
+                    ExampleSentenceKurdish(text: """سەیری لاپەڕە ھەشت."""),
                   ],
                 ),
               ),
@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: """Eight and one is nine."""),
-                    ExampleSentenceKurdish(text: """هەشت و یەک دەکەنە نۆ."""),
+                    ExampleSentenceKurdish(text: """ھەشت و یەک دەکەنە نۆ."""),
                   ],
                 ),
               ),
@@ -555,7 +555,7 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: """Two eights is sixteen."""),
-                    ExampleSentenceKurdish(text: """دوو هەشتی شازدە دەکات."""),
+                    ExampleSentenceKurdish(text: """دوو ھەشتی شازدە دەکات."""),
                   ],
                 ),
               ),
@@ -584,7 +584,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Shall we meet at eight (= at eight o'clock), then?"""),
                     ExampleSentenceKurdish(
-                        text: """کەواتە لە هەشت یەکدی ببینین؟"""),
+                        text: """کەواتە لە ھەشت یەکدی ببینین؟"""),
                   ],
                 ),
               ),
@@ -684,7 +684,7 @@ ${englishMeaningConst.text}
 - Adjective: eight 
 1. Being one more than seven (= 8, viii)
 
-- Noun: eight (Derived forms: eights)
+- Noun: eight (derived forms: eights)
 1. The cardinal number that is the sum of seven and one (= 8, VIII, eighter, eighter from Decatur, octad, ogdoad, octonary)
  
 2. One of four playing cards in a deck with eight pips on the face (= eight-spot)

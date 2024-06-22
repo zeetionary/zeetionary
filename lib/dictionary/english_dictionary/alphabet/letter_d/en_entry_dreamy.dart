@@ -665,7 +665,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dreamy (Derived forms: dreamiest, dreamier)
+- Adjective: dreamy (derived forms: dreamiest, dreamier)
 1. Like a dream in mood or nature (= moony, woolgathering)
 "a dreamy moment";
  

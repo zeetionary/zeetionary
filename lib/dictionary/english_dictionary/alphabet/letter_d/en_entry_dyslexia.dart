@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """Many successful people have dyslexia."""),
                     ExampleSentenceKurdish(
-                        text: """زۆر لە کەسانی سەرکەوتوو دیسلێکسیایان هەیە."""),
+                        text: """زۆر لە کەسانی سەرکەوتوو دیسلێکسیایان ھەیە."""),
                   ],
                 ),
               ),
@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dyslexia (Derived forms: dyslexias)
+- Noun: dyslexia (derived forms: dyslexias)
 1. Impaired ability to learn to read
 """,
   );

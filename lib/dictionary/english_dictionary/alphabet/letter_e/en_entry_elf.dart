@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) لە چیرۆکدا گیانلەبەرێکی بچووکە بە تیژەوە کە هێزی سیحراوی هەیە"""),
+                  """١. (ناو) لە چیرۆکدا گیانلەبەرێکی بچووکە بە تیژەوە کە ھێزی سیحراوی ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """In some stories, elves possess magical abilities and can cast spells or communicate with nature."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە ژمارەیەک چیرۆکدا، ئێلفەکان توانای سیحرئاسایان هەیە و جادوو دەکەن یان قسە لەگەڵ سرووشت دەکەن."""),
+                            """لە ژمارەیەک چیرۆکدا، ئێلفەکان توانای سیحرئاسایان ھەیە و جادوو دەکەن یان قسە لەگەڵ سرووشت دەکەن."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elf (Derived forms: elves)
+- Noun: elf (derived forms: elves)
 1. (folklore) fairies that are somewhat mischievous (= hob, gremlin, pixie, pixy, brownie, imp)
 
 - Noun: ELF

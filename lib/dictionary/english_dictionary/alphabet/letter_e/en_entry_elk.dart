@@ -486,7 +486,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elk (Derived forms: elk, elks)
+- Noun: elk (derived forms: elk, elks)
 1. [Brit] Large northern deer with enormous flattened antlers in the male (= moose [N. Amer], Alces alces)
  
 2. [N. Amer] Large North American deer with large much-branched antlers in the male (= wapiti, American elk, Cervus elaphus canadensis)

@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dukedom (Derived forms: dukedoms)
+- Noun: dukedom (derived forms: dukedoms)
 1. The dignity, rank or position of a duke
  
 2. The domain controlled by a duke or duchess (= duchy)

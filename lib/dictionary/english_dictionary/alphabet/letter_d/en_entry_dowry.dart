@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dowry (Derived forms: dowries)
+- Noun: dowry (derived forms: dowries)
 1. Money or property brought by a woman to her husband at marriage (= dowery, dower, portion)
 """,
   );

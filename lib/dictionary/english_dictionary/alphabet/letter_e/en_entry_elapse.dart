@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Four years had elapsed since he left college and still he hadn't found a job."""),
                     ExampleSentenceKurdish(
                         text:
-                            """چوار ساڵ تێپەڕی بوو لەوەتەی کۆلێژی تەواو کردبوو و هێشتا کارێکی نەدۆزیبووەوە."""),
+                            """چوار ساڵ تێپەڕی بوو لەوەتەی کۆلێژی تەواو کردبوو و ھێشتا کارێکی نەدۆزیبووەوە."""),
                   ],
                 ),
               ),
@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: elapse (Derived forms: elapses, elapsed, elapsing)
+- Verb: elapse (derived forms: elapses, elapsed, elapsing)
 1. Become later by the passage of a given amount of time (= lapse, pass, slip by, glide by, slip away, go by, slide by, go along)
 "three years elapsed";
 """,

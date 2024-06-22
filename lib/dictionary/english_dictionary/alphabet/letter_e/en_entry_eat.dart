@@ -438,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: خواردن، دەکار کردن، بەکار هێنان
+// کوردی: خواردن، دەکار کردن، بەکار ھێنان
 // """),
           const DefinitionKurdish(text: """١. (کردار) خواردن"""),
           Row(
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: """Would you like something to eat?"""),
                             ExampleSentenceKurdish(
-                                text: """حەزت بە هیچە بیخۆیت؟"""),
+                                text: """حەزت بە ھیچە بیخۆیت؟"""),
                           ],
                         ),
                       ),
@@ -592,7 +592,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: """Do you have anything to eat?"""),
                             ExampleSentenceKurdish(
-                                text: """هیچت هەیە بۆ خواردن؟"""),
+                                text: """ھیچت ھەیە بۆ خواردن؟"""),
                           ],
                         ),
                       ),
@@ -622,7 +622,7 @@ class KurdishMeaning extends StatelessWidget {
                                     """Everyone happily ate the huge meal."""),
                             ExampleSentenceKurdish(
                                 text:
-                                    """هەموان بەدڵخۆشی ژەمە گەورەکەیان خوارد."""),
+                                    """ھەموان بەدڵخۆشی ژەمە گەورەکەیان خوارد."""),
                           ],
                         ),
                       ),
@@ -650,7 +650,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: """He'd barely eaten any breakfast."""),
                             ExampleSentenceKurdish(
-                                text: """بە ئەستەم هیچ نانی بەیانی خوارد."""),
+                                text: """بە ئەستەم ھیچ نانی بەیانی خوارد."""),
                           ],
                         ),
                       ),
@@ -678,7 +678,7 @@ class KurdishMeaning extends StatelessWidget {
                             ExampleSentenceEnglish(
                                 text: """I'm trying to eat more healthily."""),
                             ExampleSentenceKurdish(
-                                text: """هەوڵدەدەم زیاتر تەندرووستانە بخۆم."""),
+                                text: """ھەوڵدەدەم زیاتر تەندرووستانە بخۆم."""),
                           ],
                         ),
                       ),
@@ -738,7 +738,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """I never eat in the school cafeteria."""),
                     ExampleSentenceKurdish(
-                        text: """هەرگیز لە کافتریای قوتابخانە نانم نەخوارد."""),
+                        text: """ھەرگیز لە کافتریای قوتابخانە نانم نەخوارد."""),
                   ],
                 ),
               ),
@@ -757,12 +757,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1200eats12
           // speakeats12("en-US"""),
           //         ),
@@ -772,12 +766,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1300eats13
           // speakeats13("en-US"""),
           //         ),
@@ -787,12 +775,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1400eats14
           // speakeats14("en-US"""),
           //         ),
@@ -802,12 +784,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1500eats15
           // speakeats15("en-US"""),
           //         ),
@@ -817,12 +793,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1600eats16
           // speakeats16("en-US"""),
           //         ),
@@ -832,12 +802,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1700eats17
           // speakeats17("en-US"""),
           //         ),
@@ -847,12 +811,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1800eats18
           // speakeats18("en-US"""),
           //         ),
@@ -862,12 +820,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats1900eats19
           // speakeats19("en-US"""),
           //         ),
@@ -877,12 +829,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats_2000eats20
           // speakeats20("en-US"""),
           //         ),
@@ -892,12 +838,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats2100eats21
           // speakeats21("en-US"""),
           //         ),
@@ -907,12 +847,6 @@ class KurdishMeaning extends StatelessWidget {
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // eats2200eats22
           // speakeats22("en-US"""),
           //         ),
@@ -965,7 +899,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: eat (Derived forms: ate, eating, eaten, eats)
+- Verb: eat (derived forms: ate, eating, eaten, eats)
 1. Take in solid food
 "She was eating a banana"; "What did you eat for dinner last night?"
  

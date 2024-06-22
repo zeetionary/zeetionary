@@ -568,7 +568,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: distrust (Derived forms: distrusted, distrusting, distrusts)
+- Verb: distrust (derived forms: distrusted, distrusting, distrusts)
 1. Regard as untrustworthy; regard with suspicion; have no faith or confidence in (= mistrust, suspect)
 "she distrusts her stepmother";
 

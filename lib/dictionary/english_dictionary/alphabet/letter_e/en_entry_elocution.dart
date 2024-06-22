@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هونەری وتاردان، هونەری دەربڕین، زمان‌پاراوی، شێوەی دەربڕین، خۆش‌ڕاوێژی
+کوردی: ھونەری وتاردان، ھونەری دەربڕین، زمان‌پاراوی، شێوەی دەربڕین، خۆش‌ڕاوێژی
 """),
           const DefinitionKurdish(
               text:
@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Classes in elocution helped him reduce his accent."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وانەی هونەری وتاردان یارمەتیدا ئەکسێنتەکەی کەم بکاتەوە."""),
+                            """وانەی ھونەری وتاردان یارمەتیدا ئەکسێنتەکەی کەم بکاتەوە."""),
                   ],
                 ),
               ),
@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elocution (Derived forms: elocutions)
+- Noun: elocution (derived forms: elocutions)
 1. An expert manner of speaking involving control of voice and gesture
 """,
   );

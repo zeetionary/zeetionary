@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) بەردێکی سەوزی گران‌بەهایە"""),
+              text: """٢. (ناو) بەردێکی سەوزی گران‌بەھایە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She wore a ring with a large emerald to the party."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەڵقەیەکی بە زمڕوتێکی گەورەوە لەپەنجە کرد بۆ ئاهەنگەکە."""),
+                            """ئەڵقەیەکی بە زمڕوتێکی گەورەوە لەپەنجە کرد بۆ ئاھەنگەکە."""),
                   ],
                 ),
               ),
@@ -552,7 +552,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emerald (Derived forms: emeralds)
+- Noun: emerald (derived forms: emeralds)
 1. A green transparent form of beryl; highly valued as a gemstone
  
 2. A transparent piece of emerald that has been cut and polished and is valued as a precious gem

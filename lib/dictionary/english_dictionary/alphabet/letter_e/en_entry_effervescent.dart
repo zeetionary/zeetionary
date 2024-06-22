@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵچوو، فیشقەکردوو، قڵپن، بەکوڵ‌هاتوو، قوڵت‌هەڵڕشتوو، کوڵ‌ڕێژ، کەف‌کردوو، هەڵقوڵاو، هەڵقوڵیو، گازدار،	بەکوڵ، بەتین‌وگوڕ، بەجۆش‌وخرۆش
+کوردی: ھەڵچوو، فیشقەکردوو، قڵپن، بەکوڵ‌ھاتوو، قوڵت‌ھەڵڕشتوو، کوڵ‌ڕێژ، کەف‌کردوو، ھەڵقوڵاو، ھەڵقوڵیو، گازدار،	بەکوڵ، بەتین‌وگوڕ، بەجۆش‌وخرۆش
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەجۆش و پڕ لە وزە"""),
           Row(
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She takes effervescent Vitamin C supplements every morning."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەموو بەیانییەک قزەبەخشی ڤیتامین C ـی کەف‌کردوو دەخوات."""),
+                            """ھەموو بەیانییەک قزەبەخشی ڤیتامین C ـی کەف‌کردوو دەخوات."""),
                   ],
                 ),
               ),

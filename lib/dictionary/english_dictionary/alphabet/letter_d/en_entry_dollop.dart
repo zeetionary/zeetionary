@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dollop (Derived forms: dollops)
+- Noun: dollop (derived forms: dollops)
 1. A small measure (usually of food)
 
 - Verb: dollop 

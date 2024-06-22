@@ -411,11 +411,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (فیزیک) سەربە هێزی بزواندن یان جووڵاندن، سەربە هێزی گەڕێنەر، داینەمیک، دینامیک،	چالاک، بەکار، بەگوڕ، پڕوزە، پڕجم‌وجۆڵ، کار و کردەوە، ڕووداو و ڕەوت و پڕۆسەیێ دەردەبڕێ، کردەوەیی ،	(موسیقا) سەربەو ئاستە دەنگەی کە ئامێرێ یان دەنگێ بەرهەمی دێنێ،	جم‌وجۆڵ، بەجم‌وجۆڵی، پڕوزەیی، دینامیک،	هێزی بزواندن یان جووڵاندن، هێزی جووڵێنەر
+کوردی: (فیزیک) سەربە ھێزی بزواندن یان جووڵاندن، سەربە ھێزی گەڕێنەر، داینەمیک، دینامیک،	چالاک، بەکار، بەگوڕ، پڕوزە، پڕجم‌وجۆڵ، کار و کردەوە، ڕووداو و ڕەوت و پڕۆسەیێ دەردەبڕێ، کردەوەیی ،	(موسیقا) سەربەو ئاستە دەنگەی کە ئامێرێ یان دەنگێ بەرھەمی دێنێ،	جم‌وجۆڵ، بەجم‌وجۆڵی، پڕوزەیی، دینامیک،	ھێزی بزواندن یان جووڵاندن، ھێزی جووڵێنەر
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کەسێکی کە هێزی زۆر و کەسایەتی بەهێزی هەیە"""),
+                  """١. (ھاوەڵناو) کەسێکی کە ھێزی زۆر و کەسایەتی بەھێزی ھەیە"""),
           Row(
             children: [
               const Expanded(
@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """She has a dynamic personality."""),
                     ExampleSentenceKurdish(
-                        text: """کەسایەتییەکی پڕوزەی هەیە."""),
+                        text: """کەسایەتییەکی پڕوزەی ھەیە."""),
                   ],
                 ),
               ),
@@ -474,7 +474,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) پڕۆسەیەک، ڕێککەوتنێک، یان سیستەمێک کە هەمیشە دەگۆڕێت و پەرەدەسەنێت"""),
+                  """٢. (ھاوەڵناو) پڕۆسەیەک، ڕێککەوتنێک، یان سیستەمێک کە ھەمیشە دەگۆڕێت و پەرەدەسەنێت"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -534,7 +534,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ھاوەڵناو) هێزێک کە جوڵە درووست دەکات"""),
+              text: """٣. (ھاوەڵناو) ھێزێک کە جوڵە درووست دەکات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -546,7 +546,7 @@ class KurdishMeaning extends StatelessWidget {
                             """A dynamic force can accelerate a car forward."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هێزێکی جوڵێنەر دەکرێت ئۆتۆمبێل بۆ پێشەوە بجوڵێنێت."""),
+                            """ھێزێکی جوڵێنەر دەکرێت ئۆتۆمبێل بۆ پێشەوە بجوڵێنێت."""),
                   ],
                 ),
               ),
@@ -596,7 +596,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٥. (ناو) زانستی ئەو هێزانەی جووڵە درووست دەکەن"""),
+              text: """٥. (ناو) زانستی ئەو ھێزانەی جووڵە درووست دەکەن"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -608,7 +608,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Scientists study fluid dynamics to understand ocean currents."""),
                     ExampleSentenceKurdish(
                         text:
-                            """زاناکان لە هێزی جووڵێنەر شلە دەکۆڵنەوە بۆ تێگەشتن لە شەپۆلەکانی زەریا."""),
+                            """زاناکان لە ھێزی جووڵێنەر شلە دەکۆڵنەوە بۆ تێگەشتن لە شەپۆلەکانی زەریا."""),
                   ],
                 ),
               ),
@@ -711,7 +711,7 @@ ${englishMeaningConst.text}
  
 4. Able to change and adapt; changing constantly
 
-- Noun: dynamic (Derived forms: dynamics)
+- Noun: dynamic (derived forms: dynamics)
 1. An efficient incentive (= moral force)
 "they hoped it would act as a spiritual dynamic on all churches";
  

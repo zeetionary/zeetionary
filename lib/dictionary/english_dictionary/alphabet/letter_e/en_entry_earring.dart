@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گوارە، گار، گوهار، گوهارک، ئاڵقەی گوێ
+کوردی: گوارە، گار، گوھار، گوھارک، ئاڵقەی گوێ
 """),
           const DefinitionKurdish(
               text: """١. (ناو) خشڵێک کە لە گوێ دەبەسترێت"""),
@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earring (Derived forms: earrings)
+- Noun: earring (derived forms: earrings)
 1. Jewellery to ornament the ear; usually clipped to the earlobe or fastened through a hole in the lobe
 """,
   );

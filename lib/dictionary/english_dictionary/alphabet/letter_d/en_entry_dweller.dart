@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dweller (Derived forms: dwellers)
+- Noun: dweller (derived forms: dwellers)
 1. A person who inhabits a particular place (= inhabitant, habitant, denizen, indweller)
 """,
   );

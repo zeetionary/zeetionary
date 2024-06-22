@@ -392,67 +392,67 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          //           ExampleSentenceEnglish(text: "downtoearthths200"),
+          // "downtoearthths200"),
           // downtoearthths2
           //           onPressed: () => downtoearthths2("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths300"),
+          // "downtoearthths300"),
           // downtoearthths3
           //           onPressed: () => downtoearthths3("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths400"),
+          // "downtoearthths400"),
           // downtoearthths4
           //           onPressed: () => downtoearthths4("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths500"),
+          // "downtoearthths500"),
           // downtoearthths5
           //           onPressed: () => downtoearthths5("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths600"),
+          // "downtoearthths600"),
           // downtoearthths6
           //           onPressed: () => downtoearthths6("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths700"),
+          // "downtoearthths700"),
           // downtoearthths7
           //           onPressed: () => downtoearthths7("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths800"),
+          // "downtoearthths800"),
           // downtoearthths8
           //           onPressed: () => downtoearthths8("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths900"),
+          // "downtoearthths900"),
           // downtoearthths9
           //           onPressed: () => downtoearthths9("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths_1000"),
+          // "downtoearthths_1000"),
           // downtoearthths10
           //           onPressed: () => downtoearthths10("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1100"),
+          // "downtoearthths1100"),
           // downtoearthths11
           //           onPressed: () => downtoearthths11("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1200"),
+          // "downtoearthths1200"),
           // downtoearthths12
           //           onPressed: () => downtoearthths12("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1300"),
+          // "downtoearthths1300"),
           // downtoearthths13
           //           onPressed: () => downtoearthths13("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1400"),
+          // "downtoearthths1400"),
           // downtoearthths14
           //           onPressed: () => downtoearthths14("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1500"),
+          // "downtoearthths1500"),
           // downtoearthths15
           //           onPressed: () => downtoearthths15("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1600"),
+          // "downtoearthths1600"),
           // downtoearthths16
           //           onPressed: () => downtoearthths16("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1700"),
+          // "downtoearthths1700"),
           // downtoearthths17
           //           onPressed: () => downtoearthths17("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1800"),
+          // "downtoearthths1800"),
           // downtoearthths18
           //           onPressed: () => downtoearthths18("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths1900"),
+          // "downtoearthths1900"),
           // downtoearthths19
           //           onPressed: () => downtoearthths19("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths_2000"),
+          // "downtoearthths_2000"),
           // downtoearthths20
           //           onPressed: () => downtoearthths20("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths2100"),
+          // "downtoearthths2100"),
           // downtoearthths21
           //           onPressed: () => downtoearthths21("en-US"),
-          //           ExampleSentenceEnglish(text: "downtoearthths2200"),
+          // "downtoearthths2200"),
           // downtoearthths22
           //           onPressed: () => downtoearthths22("en-US"),
         ],

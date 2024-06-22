@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disunity (Derived forms: disunities)
+- Noun: disunity (derived forms: disunities)
 1. Lack of unity (usually resulting from dissension)
 """,
   );

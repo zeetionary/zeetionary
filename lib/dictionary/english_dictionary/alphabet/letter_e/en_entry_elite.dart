@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵبژێراوان، هەڵبژاردە، سەرتۆپ
+کوردی: ھەڵبژێراوان، ھەڵبژاردە، سەرتۆپ
 """),
           const DefinitionKurdish(
               text:
@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
                             """A powerful and corrupt elite has bled this country dry."""),
                     ExampleSentenceKurdish(
                         text:
-                            """هەڵبژاردەیەکی گەندەڵ و بەدەسەڵاتی ئەم وڵاتەیان دۆشیوە."""),
+                            """ھەڵبژاردەیەکی گەندەڵ و بەدەسەڵاتی ئەم وڵاتەیان دۆشیوە."""),
                   ],
                 ),
               ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
                             """His research ought to have secured him a place in academia's elite."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لێکۆڵینەوەکەی دەبوو پێگەیەکی لەناو هەڵبژێردراوانی ئەکادیمیا بۆ بەدەست هێنابا."""),
+                            """لێکۆڵینەوەکەی دەبوو پێگەیەکی لەناو ھەڵبژێردراوانی ئەکادیمیا بۆ بەدەست ھێنابا."""),
                   ],
                 ),
               ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) گرووپێک خەڵک کە زۆرترین توانایان هەیە لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
+                  """٢. (ناو) گرووپێک خەڵک کە زۆرترین توانایان ھەیە لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -543,7 +543,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The company's future rested on the decisions of an elite group of senior officials."""),
                     ExampleSentenceKurdish(
                         text:
-                            """داهاتووی کۆمپانیاکە دەوەستایە سەر گرووپێکی دەستەبژێر لە بەرپرسانی باڵا."""),
+                            """داھاتووی کۆمپانیاکە دەوەستایە سەر گرووپێکی دەستەبژێر لە بەرپرسانی باڵا."""),
                   ],
                 ),
               ),
@@ -563,7 +563,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ھاوەڵناو) هەبوونی زۆرترین توانا لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
+                  """٤. (ھاوەڵناو) ھەبوونی زۆرترین توانا لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                             """As an elite athlete for Spain, the tournament was his oppurtunity to shine."""),
                     ExampleSentenceKurdish(
                         text:
-                            """وەک وەرزشکاریکی کارامە بۆ ئیسپانیا، پاڵەوانێتییەکە هەلی بوو بۆ دەرکەوتن."""),
+                            """وەک وەرزشکاریکی کارامە بۆ ئیسپانیا، پاڵەوانێتییەکە ھەلی بوو بۆ دەرکەوتن."""),
                   ],
                 ),
               ),
@@ -674,7 +674,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elite (Derived forms: elites)
+- Noun: elite (derived forms: elites)
 1. A group or class of persons enjoying superior intellectual or social or economic status (= elite group, élite [Brit])
 
 - Adjective: elite

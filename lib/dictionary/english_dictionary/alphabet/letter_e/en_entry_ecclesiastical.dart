@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کلێسەیی، کلیسایی، گونجاو بۆ بەکارهێنان لە کلێسەدا
+کوردی: کلێسەیی، کلیسایی، گونجاو بۆ بەکارھێنان لە کلێسەدا
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە کڵێسای مەسیحی"""),
@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """The town has many ecclesiastical buildings."""),
                     ExampleSentenceKurdish(
-                        text: """شارۆچکەکە ژمارەیەک بینای کڵێسای هەیە."""),
+                        text: """شارۆچکەکە ژمارەیەک بینای کڵێسای ھەیە."""),
                   ],
                 ),
               ),

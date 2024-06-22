@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 - Adjective: down-and-out
 1. Lacking resources (or any prospect of resources)
 
-- Noun: down-and-out (Derived forms: down-and-outs)
+- Noun: down-and-out (derived forms: down-and-outs)
 1. A person who is destitute
 "he tried to help the down-and-out"
 """,

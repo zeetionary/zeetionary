@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بوومەلەرزە، عەردهەژیان، بیبەلەرز، بوولەرە، زەمین‌لەرزە
+کوردی: بوومەلەرزە، عەردھەژیان، بیبەلەرز، بوولەرە، زەمین‌لەرزە
 """),
           const DefinitionKurdish(text: """١. (ناو) بوومەلەرزە"""),
           Row(
@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                             """It was the biggest earthquake ever recorded in the US."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ئەوە بەهێزترین بوومەلەرزە بوو کە لە ئەمریکا تۆمار کرابێت."""),
+                            """ئەوە بەھێزترین بوومەلەرزە بوو کە لە ئەمریکا تۆمار کرابێت."""),
                   ],
                 ),
               ),
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The area has not experienced a major earthquake in more than 700 years."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ناوچەکە بۆ ٧٠٠ ساڵ دەبێت بوومەلەرزەی بەهێزی بەخۆوە نەدیوە."""),
+                            """ناوچەکە بۆ ٧٠٠ ساڵ دەبێت بوومەلەرزەی بەھێزی بەخۆوە نەدیوە."""),
                   ],
                 ),
               ),
@@ -624,7 +624,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earthquake (Derived forms: earthquakes)
+- Noun: earthquake (derived forms: earthquakes)
 1. Shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity (= quake, temblor, seism)
  
 2. A disturbance that is extremely disruptive

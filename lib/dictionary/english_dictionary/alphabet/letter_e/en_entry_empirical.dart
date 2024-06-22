@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                             """This theory needs to be backed up with solid empirical data/evidence."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بیردۆزەکە دەبێت پشتگیری بکرێت بە زانیاری/بەڵگەی بەهێزی تاقی‌کاری‌یانە."""),
+                            """بیردۆزەکە دەبێت پشتگیری بکرێت بە زانیاری/بەڵگەی بەھێزی تاقی‌کاری‌یانە."""),
                   ],
                 ),
               ),
@@ -413,7 +413,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Empirical studies show that some forms of alternative medicine are extremely effective."""),
                     ExampleSentenceKurdish(
                         text:
-                            """توێژینەوەی تاقی‌کاری‌یانە ئەوە پیشان دەدات هەندێک چارەسەری ڕووەکی/دەرزی ئاژنین تەواو کاریگەرن."""),
+                            """توێژینەوەی تاقی‌کاری‌یانە ئەوە پیشان دەدات ھەندێک چارەسەری ڕووەکی/دەرزی ئاژنین تەواو کاریگەرن."""),
                   ],
                 ),
               ),

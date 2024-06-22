@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
                             """I’m feeling a bit edgy about the exam tomorrow."""),
                     ExampleSentenceKurdish(
                         text:
-                            """کەمێک هەست بە شڵەژاوی دەکەم سەبارەت بە تاقیکردنەوەکەی سبەی."""),
+                            """کەمێک ھەست بە شڵەژاوی دەکەم سەبارەت بە تاقیکردنەوەکەی سبەی."""),
                   ],
                 ),
               ),
@@ -516,7 +516,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: edgy (Derived forms: edgier, edgiest)
+- Adjective: edgy (derived forms: edgier, edgiest)
 1. Being in a tense state (= high-strung, highly strung, jittery, jumpy, nervy, overstrung, restive, uptight [informal], squirrelly [N. Amer, informal])
 "edgy parents are sensitive themselves";
 """,

@@ -358,11 +358,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: هێلکەیی،	لابردن، پەڕاندن
+// کوردی: ھێلکەیی،	لابردن، پەڕاندن
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) شێوە هێلکەییەک کە وەک بازنەیەک وایە کە لە دوو لای بەرامبەرەوە پەستێندرابێت"""),
+                  """١. (ناو) شێوە ھێلکەییەک کە وەک بازنەیەک وایە کە لە دوو لای بەرامبەرەوە پەستێندرابێت"""),
           Row(
             children: [
               const Expanded(
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: """The planet's orbit is an ellipse."""),
                     ExampleSentenceKurdish(
-                        text: """خولگەی هەسارەکە هێلکەییە."""),
+                        text: """خولگەی ھەسارەکە ھێلکەییە."""),
                   ],
                 ),
               ),

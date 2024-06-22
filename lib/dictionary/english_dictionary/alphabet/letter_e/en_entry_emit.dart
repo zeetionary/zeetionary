@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) دەردانی شتێک، بۆ نموونە ڕۆشنایی، گەرمی، هتد"""),
+                  """١. (کردار) دەردانی شتێک، بۆ نموونە ڕۆشنایی، گەرمی، ھتد"""),
           Row(
             children: [
               const Expanded(
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: emit (Derived forms: emits, emitted, emitting)
+- Verb: emit (derived forms: emits, emitted, emitting)
 1. Expel (gases or odours) (= breathe, pass off)
  
 2. Give off, send forth, or discharge; as of light, heat, or radiation, vapour, etc. (= give out, give off)

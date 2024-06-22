@@ -366,10 +366,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆخواز، خۆبین، هەرخۆبین، خۆپەسند، خۆپەرست، خۆگەر
+کوردی: خۆخواز، خۆبین، ھەرخۆبین، خۆپەسند، خۆپەرست، خۆگەر
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) کەسێکی خۆپەرست کە تەنها گرنگی بە خۆی دەدات"""),
+              text: """١. (ناو) کەسێکی خۆپەرست کە تەنھا گرنگی بە خۆی دەدات"""),
           Row(
             children: [
               const Expanded(
@@ -514,7 +514,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: egoist (Derived forms: egoists)
+- Noun: egoist (derived forms: egoists)
 1. A conceited and self-centred person (= egotist, swellhead [N. Amer, informal])
  
 2. A self-centred person with little regard for others (= egocentric)

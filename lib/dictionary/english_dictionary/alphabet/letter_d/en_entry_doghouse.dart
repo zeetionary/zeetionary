@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: doghouse (Derived forms: doghouses, dog houses)
+- Noun: doghouse (derived forms: doghouses, dog houses)
 1. Outbuilding that serves as a shelter for a dog (= kennel, dog house)
  
 2. An idiomatic term for being in disfavour

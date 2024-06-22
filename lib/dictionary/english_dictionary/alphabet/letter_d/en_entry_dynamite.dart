@@ -383,9 +383,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دینامیت، داینەمیت (تەقەمەنی‌یەکی بەهێز)،	شتی مەترسی‌دار، شتی خراپ
+کوردی: دینامیت، داینەمیت (تەقەمەنی‌یەکی بەھێز)،	شتی مەترسی‌دار، شتی خراپ
 """),
-          const DefinitionKurdish(text: """١. (ناو) تەقەمەنییەکی بەهێز"""),
+          const DefinitionKurdish(text: """١. (ناو) تەقەمەنییەکی بەھێز"""),
           Row(
             children: [
               const Expanded(
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
                             """They used five tons of dynamite to blow up the rock."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پێنج تەن دینامیتیان بەکارهێنا بۆ تەقاندنەوەی بەردەکە."""),
+                            """پێنج تەن دینامیتیان بەکارھێنا بۆ تەقاندنەوەی بەردەکە."""),
                   ],
                 ),
               ),
@@ -416,7 +416,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) شتێک کە ئەگەری هەیە کاردانەوەی توندوتیژی لێبکەوێتەوە یان کێشەی زۆر درووست بکات"""),
+                  """٢. (ناو) شتێک کە ئەگەری ھەیە کاردانەوەی توندوتیژی لێبکەوێتەوە یان کێشەی زۆر درووست بکات"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -485,7 +485,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """The rebels had dynamited the railway line."""),
                     ExampleSentenceKurdish(
                         text:
-                            """یاخیبووەکان هێڵی شەمەندەفەرەکەیان بە دینامیت تەقاندەوە."""),
+                            """یاخیبووەکان ھێڵی شەمەندەفەرەکەیان بە دینامیت تەقاندەوە."""),
                   ],
                 ),
               ),
@@ -601,7 +601,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dynamite (Derived forms: dynamites)
+- Noun: dynamite (derived forms: dynamites)
 1. An explosive containing nitrate sensitized with nitroglycerin absorbed on wood pulp
  
 2. Something that could be very dangerous or controversial
@@ -609,7 +609,7 @@ ${englishMeaningConst.text}
  
 3. [informal] Someone or something very impressive or exciting
 
-- Verb: dynamite (Derived forms: dynamiting, dynamites, dynamited)
+- Verb: dynamite (derived forms: dynamiting, dynamites, dynamited)
 1. Blow up with dynamite
 "The rock was dynamited"
 """,

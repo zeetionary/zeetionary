@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """An earache kept him awake all night."""),
                     ExampleSentenceKurdish(
                         text:
-                            """گوێ‌ئێشەیەک بۆ تەواوی شەوەکە بە بێداری هێشتییەوە."""),
+                            """گوێ‌ئێشەیەک بۆ تەواوی شەوەکە بە بێداری ھێشتییەوە."""),
                   ],
                 ),
               ),
@@ -513,7 +513,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: earache (Derived forms: earaches)
+- Noun: earache (derived forms: earaches)
 1. An ache localized in the middle or inner ear (= otalgia)
 """,
   );

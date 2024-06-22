@@ -875,7 +875,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dump (Derived forms: dumped, dumping, dumps)
+- Verb: dump (derived forms: dumped, dumping, dumps)
 1. Throw away as refuse
 "No dumping in these woods!"
  
@@ -895,7 +895,7 @@ ${englishMeaningConst.text}
  
 7. (computing) copy data from memory to disk, or from one storage device to another esp. for backup
 
-- Noun: dump (Derived forms: dumps)
+- Noun: dump (derived forms: dumps)
 1. A piece of land where waste materials are dumped (= garbage dump [N. Amer], trash dump [N. Amer], rubbish dump [Brit], wasteyard, waste-yard, dumpsite [N. Amer], tip [Brit])
  
 2. (computing) a copy of the contents of a computer storage device; sometimes used in debugging programs

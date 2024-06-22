@@ -414,7 +414,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Emancipation gave them the freedom they longed for."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ڕزگاربوون ئەو ئازادییەی پێدان کە هیوایان بۆ دەخواست."""),
+                            """ڕزگاربوون ئەو ئازادییەی پێدان کە ھیوایان بۆ دەخواست."""),
                   ],
                 ),
               ),
@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emancipation (Derived forms: emancipations)
+- Noun: emancipation (derived forms: emancipations)
 1. Freeing someone from the control of another person or from legal or political restrictions
 """,
   );

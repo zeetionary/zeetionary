@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: downfall (Derived forms: downfalls)
+- Noun: downfall (derived forms: downfalls)
 1. Failure that results in a loss of position or reputation (= ruin, ruination)
  
 2. The falling to earth of any form of water (rain, snow, hail, sleet or mist) (= precipitation)

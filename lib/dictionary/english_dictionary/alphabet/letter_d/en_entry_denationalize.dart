@@ -271,165 +271,57 @@ class KurdishMeaning extends StatelessWidget {
           // denationalizes400"),
           // speakdenationalizes4
           // denationalizes4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes500"),
           // speakdenationalizes5
           // denationalizes5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes600"),
           // speakdenationalizes6
           // denationalizes6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes700"),
           // speakdenationalizes7
           // denationalizes7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes800"),
           // speakdenationalizes8
           // denationalizes8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes900"),
           // speakdenationalizes9
           // denationalizes9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1000"),
           // speakdenationalizes10
           // denationalizes10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1100"),
           // speakdenationalizes11
           // denationalizes11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1200"),
           // speakdenationalizes12
           // denationalizes12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1300"),
           // speakdenationalizes13
           // denationalizes13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1400"),
           // speakdenationalizes14
           // denationalizes14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1500"),
           // speakdenationalizes15
           // denationalizes15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1600"),
           // speakdenationalizes16
           // denationalizes16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1700"),
           // speakdenationalizes17
           // denationalizes17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1800"),
           // speakdenationalizes18
           // denationalizes18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes1900"),
           // speakdenationalizes19
           // denationalizes19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes2000"),
           // speakdenationalizes20
           // denationalizes20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes2100"),
           // speakdenationalizes21
           // denationalizes21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // denationalizes2200"),
           // speakdenationalizes22
           // denationalizes22("en-US"),

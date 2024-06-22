@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک یان کۆمپانیایەک کە کارمەندی هەیە کاری بۆ دەکەن"""),
+                  """١. (ناو) کەسێک یان کۆمپانیایەک کە کارمەندی ھەیە کاری بۆ دەکەن"""),
           Row(
             children: [
               const Expanded(
@@ -553,7 +553,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: employer (Derived forms: employers)
+- Noun: employer (derived forms: employers)
 1. A person or firm that employs workers
 "The employer wants to cut back health benefits"
 """,

@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Voters will elect a new president on 30 March next year."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەنگدەران سەرۆکێکی تازە هەڵدەبژێرن لە ٣٠ ـی ئاداری ساڵی داهاتوو."""),
+                            """دەنگدەران سەرۆکێکی تازە ھەڵدەبژێرن لە ٣٠ ـی ئاداری ساڵی داھاتوو."""),
                   ],
                 ),
               ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -461,7 +461,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """What changes will he make if he gets elected?"""),
                     ExampleSentenceKurdish(
-                        text: """چی گۆڕانکارییەک دەکات ئەگەر هەڵبژێردرێت؟"""),
+                        text: """چی گۆڕانکارییەک دەکات ئەگەر ھەڵبژێردرێت؟"""),
                   ],
                 ),
               ),
@@ -479,7 +479,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -491,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
                             """She became the first black woman to be elected to the Senate."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بوو بە یەکەم ژنی ڕەشپێست کە بۆ ئەنجوومەنی پیران هەڵبژێردرێت."""),
+                            """بوو بە یەکەم ژنی ڕەشپێست کە بۆ ئەنجوومەنی پیران ھەڵبژێردرێت."""),
                   ],
                 ),
               ),
@@ -509,7 +509,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
                         text: """He was elected (as) MP for Oxford East."""),
                     ExampleSentenceKurdish(
                         text:
-                            """بە ئەندام پەرلەمان هەڵبژێردرا بۆ ڕۆژهەڵاتی ئۆکسفۆرد."""),
+                            """بە ئەندام پەرلەمان ھەڵبژێردرا بۆ ڕۆژھەڵاتی ئۆکسفۆرد."""),
                   ],
                 ),
               ),
@@ -538,7 +538,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           Row(
             children: [
@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The party first elected her leader in 2017."""),
                     ExampleSentenceKurdish(
                         text:
-                            """پارتەکە بۆ یەکەمجار سەرۆکەکەی لە ٢٠١٧ هەڵبژارد."""),
+                            """پارتەکە بۆ یەکەمجار سەرۆکەکەی لە ٢٠١٧ ھەڵبژارد."""),
                   ],
                 ),
               ),
@@ -580,7 +580,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Increasing numbers of people elect to work from home nowadays."""),
                     ExampleSentenceKurdish(
                         text:
-                            """ژمارەی زیاتر لە خەڵکی ئەوە هەڵدەبژێرن کە لە ماڵەوە کار بکەن ئێستا."""),
+                            """ژمارەی زیاتر لە خەڵکی ئەوە ھەڵدەبژێرن کە لە ماڵەوە کار بکەن ئێستا."""),
                   ],
                 ),
               ),
@@ -600,7 +600,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (هاوەڵناو) کەسێک کە بۆ کارێک هەڵبژێردراوە بەڵام هێشتا دەست بەکار نەبووە"""),
+                  """٣. (ھاوەڵناو) کەسێک کە بۆ کارێک ھەڵبژێردراوە بەڵام ھێشتا دەست بەکار نەبووە"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -612,7 +612,7 @@ class KurdishMeaning extends StatelessWidget {
                             """The president elect has been preparing to take office in January."""),
                     ExampleSentenceKurdish(
                         text:
-                            """سەرۆکی هەڵبژێردراو ئامادەکاری کردووە بۆ دەستبەکاربوون لە کانوونی دووەم."""),
+                            """سەرۆکی ھەڵبژێردراو ئامادەکاری کردووە بۆ دەستبەکاربوون لە کانوونی دووەم."""),
                   ],
                 ),
               ),
@@ -632,7 +632,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (هاوەڵناو) کەسانێک کە هەڵبژێردراون بۆ خاسیەتێکی دیاریکراو"""),
+                  """٤. (ھاوەڵناو) کەسانێک کە ھەڵبژێردراون بۆ خاسیەتێکی دیاریکراو"""),
           // const DividerSentences(),
           Row(
             children: [
@@ -644,7 +644,7 @@ class KurdishMeaning extends StatelessWidget {
                             """He was convinced he was among the elect, the wise, those who would shape the future."""),
                     ExampleSentenceKurdish(
                         text:
-                            """باوەڕی وابوو کە لە ناوهەڵبژێراوان، ئاقڵان، و ئەو کەسانەیە کە داهاتوو دیاری دەکەن."""),
+                            """باوەڕی وابوو کە لە ناوھەڵبژێراوان، ئاقڵان، و ئەو کەسانەیە کە داھاتوو دیاری دەکەن."""),
                   ],
                 ),
               ),
@@ -662,13 +662,7 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects900elects9
           // speakelects9("en-US"""),
           //         ),
@@ -677,13 +671,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects_1000elects10
           // speakelects10("en-US"""),
           //         ),
@@ -692,13 +680,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1100elects11
           // speakelects11("en-US"""),
           //         ),
@@ -707,13 +689,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1200elects12
           // speakelects12("en-US"""),
           //         ),
@@ -722,13 +698,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1300elects13
           // speakelects13("en-US"""),
           //         ),
@@ -737,13 +707,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1400elects14
           // speakelects14("en-US"""),
           //         ),
@@ -752,13 +716,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1500elects15
           // speakelects15("en-US"""),
           //         ),
@@ -767,13 +725,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1600elects16
           // speakelects16("en-US"""),
           //         ),
@@ -782,13 +734,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1700elects17
           // speakelects17("en-US"""),
           //         ),
@@ -797,13 +743,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1800elects18
           // speakelects18("en-US"""),
           //         ),
@@ -812,13 +752,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects1900elects19
           // speakelects19("en-US"""),
           //         ),
@@ -827,13 +761,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects_2000elects20
           // speakelects20("en-US"""),
           //         ),
@@ -842,13 +770,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects2100elects21
           // speakelects21("en-US"""),
           //         ),
@@ -857,13 +779,7 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // elects2200elects22
           // speakelects22("en-US"""),
           //         ),
@@ -916,14 +832,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: elect (Derived forms: elected, elects, electing)
+- Verb: elect (derived forms: elected, elects, electing)
 1. Select by a vote for an office or membership
 "We elected him chairman of the board"
  
 2. Choose
 "I elected to have my funds deposited automatically"
 
-- Noun: elect (Derived forms: elects)
+- Noun: elect (derived forms: elects)
 1. An exclusive group of people (= chosen)
 "one of the elect who have power inside the government";
 

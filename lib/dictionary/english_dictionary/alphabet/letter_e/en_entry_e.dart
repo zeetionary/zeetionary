@@ -513,7 +513,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: e (Derived forms: es)
+- Noun: e (derived forms: es)
 1. The 5th letter of the Roman alphabet (= E)
  
 2. The base of the natural system of logarithms; approximately equal to 2.718282...

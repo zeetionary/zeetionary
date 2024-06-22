@@ -496,7 +496,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: double chin (Derived forms: double chins)
+- Noun: double chin (derived forms: double chins)
 1. A fold of fatty tissue under the chin (= buccula)
 """,
   );

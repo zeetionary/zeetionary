@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) فیل؛ ئاژەڵێکی زۆر گەورە کە پێستێکی خۆڵەمێشی ئەستوور و گوێچکەیەکی گەورە و دوو عاجی هەیە لەگەڵ لووتێکی درێژدا. فیل دوو جۆری هەیە کە فیلی ئەفریقی و فیلی ئاسیاییە."""),
+                  """١. (ناو) فیل؛ ئاژەڵێکی زۆر گەورە کە پێستێکی خۆڵەمێشی ئەستوور و گوێچکەیەکی گەورە و دوو عاجی ھەیە لەگەڵ لووتێکی درێژدا. فیل دوو جۆری ھەیە کە فیلی ئەفریقی و فیلی ئاسیاییە."""),
           Row(
             children: [
               const Expanded(
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
                             """Measures must be taken to protect the world's depleted elephant population."""),
                     ExampleSentenceKurdish(
                         text:
-                            """دەبێت هەنگاو بنردرێت بۆ پاراستنی ژمارەی کەمبووی فیل لە جیهاندا."""),
+                            """دەبێت ھەنگاو بنردرێت بۆ پاراستنی ژمارەی کەمبووی فیل لە جیھاندا."""),
                   ],
                 ),
               ),
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                             """In the past eight years, the elephant population in Africa has been halved."""),
                     ExampleSentenceKurdish(
                         text:
-                            """لە هەشت ساڵی ڕابردوودا دانیشتووانی فیل ئەفریقا نیوە کراوە."""),
+                            """لە ھەشت ساڵی ڕابردوودا دانیشتووانی فیل ئەفریقا نیوە کراوە."""),
                   ],
                 ),
               ),
@@ -555,7 +555,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: elephant (Derived forms: elephants)
+- Noun: elephant (derived forms: elephants)
 1. A very large mammal of the order Proboscidea, having a trunk, and two large ivory tusks jutting from the upper jaw
  
 2. The symbol of the Republican Party; introduced in cartoons by Thomas Nast in 1874

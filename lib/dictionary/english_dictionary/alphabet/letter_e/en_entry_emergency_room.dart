@@ -483,7 +483,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: emergency room (Derived forms: emergency rooms)
+- Noun: emergency room (derived forms: emergency rooms)
 Usage: N. Amer
 1. Emergency department in a hospital or clinic, staffed and equipped to provide emergency care to people requiring immediate medical treatment (= ER [N. Amer], A&E [Brit], accident and emergency [Brit], emergency [N. Amer], casualty [Brit])
 """,

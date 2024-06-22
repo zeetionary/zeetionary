@@ -347,165 +347,57 @@ class KurdishMeaning extends StatelessWidget {
           // democrats400"),
           // speakdemocrats4
           // democrats4("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats500"),
           // speakdemocrats5
           // democrats5("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats600"),
           // speakdemocrats6
           // democrats6("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats700"),
           // speakdemocrats7
           // democrats7("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats800"),
           // speakdemocrats8
           // democrats8("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats900"),
           // speakdemocrats9
           // democrats9("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1000"),
           // speakdemocrats10
           // democrats10("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1100"),
           // speakdemocrats11
           // democrats11("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1200"),
           // speakdemocrats12
           // democrats12("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1300"),
           // speakdemocrats13
           // democrats13("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1400"),
           // speakdemocrats14
           // democrats14("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1500"),
           // speakdemocrats15
           // democrats15("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1600"),
           // speakdemocrats16
           // democrats16("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1700"),
           // speakdemocrats17
           // democrats17("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1800"),
           // speakdemocrats18
           // democrats18("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats1900"),
           // speakdemocrats19
           // democrats19("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "He identifies as a democrat and supports free speech.0"),
+          // "He identifies as a democrat and supports free speech.0"),
           // speakdemocrats20
           // democrats20("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats2100"),
           // speakdemocrats21
           // democrats21("en-US"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
           // democrats2200"),
           // speakdemocrats22
           // democrats22("en-US"),

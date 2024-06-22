@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) توانای بەکارهێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
+                  """١. (ناو) توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
           Row(
             children: [
               const Expanded(
@@ -518,7 +518,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eloquence (Derived forms: eloquences)
+- Noun: eloquence (derived forms: eloquences)
 1. Powerful and effective language (= fluency, smoothness)
 "his eloquence attracted a large congregation";
 """,

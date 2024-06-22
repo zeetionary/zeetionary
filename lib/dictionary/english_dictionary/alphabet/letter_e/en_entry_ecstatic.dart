@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆشی‌هێنەر، بەشەوق‌هێنەر، بەگوڕخەر، خۆش، بەگوڕ، بەپەرۆش، ورووژاو، هەژیو، سەرخۆش، سەرمەست، شاگەشکە، حاڵ‌پێهێن
+کوردی: خۆشی‌ھێنەر، بەشەوق‌ھێنەر، بەگوڕخەر، خۆش، بەگوڕ، بەپەرۆش، ورووژاو، ھەژیو، سەرخۆش، سەرمەست، شاگەشکە، حاڵ‌پێھێن
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش"""),
           Row(
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             """Martin was not exactly ecstatic at the news."""),
                     ExampleSentenceKurdish(
-                        text: """مارتن تەواو دڵخۆش نەبوو بە هەواڵەکە."""),
+                        text: """مارتن تەواو دڵخۆش نەبوو بە ھەواڵەکە."""),
                   ],
                 ),
               ),

@@ -478,7 +478,7 @@ class _YoutubeEmbeddedendState extends State<YoutubeEmbeddedend> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeVideosContainer(
+      body: YouTubeVideosContainerEnd(
         controller: _controller,
         onReloadVideo: _reloadVideo,
       ),

@@ -259,214 +259,81 @@ class EnglishEntryconsideration extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "After a few moments' consideration, he began to speak."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە دوای ماوەیەک لە وردبوونەوە، دەستی بە قسەکردن کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "After a few moments' consideration, he began to speak.",
+                                    kurdishText:
+                                        "لە دوای ماوەیەک لە وردبوونەوە، دەستی بە قسەکردن کرد.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "There needs to be a consideration of the legal issues involved."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەبێت تێ‌ڕوانینی بابەتە یاساییەکان ھەبن کە دێنە ئاراوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "There needs to be a consideration of the legal issues involved.",
+                                    kurdishText:
+                                        "دەبێت تێ‌ڕوانینی بابەتە یاساییەکان ھەبن کە دێنە ئاراوە.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The proposals are currently under consideration (= being discussed)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پێشنیازەکان لە ئێستادا لە ژێر گفتوگۆدان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The proposals are currently under consideration (= being discussed).",
+                                    kurdishText:
+                                        "پێشنیازەکان لە ئێستادا لە ژێر گفتوگۆدان.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He pointed out several problems that required more detailed consideration."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئاماژەی بە ژمارەیەک کێشە کرد کە پێویستیان بە تێرامانی ورد ھەبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He pointed out several problems that required more detailed consideration.",
+                                    kurdishText:
+                                        "ئاماژەی بە ژمارەیەک کێشە کرد کە پێویستیان بە تێرامانی ورد ھەبوو.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A tribunal has decided the case needs further consideration."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دادگایەک بڕیاری داوە کەیسەکە پێویستی بە وردبوونەوەی زیاتر ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A tribunal has decided the case needs further consideration.",
+                                    kurdishText:
+                                        "دادگایەک بڕیاری داوە کەیسەکە پێویستی بە وردبوونەوەی زیاتر ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Both options require thoughtful consideration of the costs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەردوو ھەڵبژاردەکە پێویستیان بە ڕەچاوکردنی وردی تێچوو ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Both options require thoughtful consideration of the costs.",
+                                    kurdishText:
+                                        "ھەردوو ھەڵبژاردەکە پێویستیان بە ڕەچاوکردنی وردی تێچوو ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations8("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We will give your proposals serious consideration."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرنجی ورد دەدەین بە پێشنیازەکانت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiderations9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiderations9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We will give your proposals serious consideration.",
+                                    kurdishText:
+                                        "سەرنجی ورد دەدەین بە پێشنیازەکانت.",
+                                    onPressedBritish: () =>
+                                        speakconsiderations9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiderations9("en-US"),
                                   ),
                                 ],
                               ),

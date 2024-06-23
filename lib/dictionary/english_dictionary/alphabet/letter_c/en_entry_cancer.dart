@@ -214,68 +214,28 @@ class EnglishEntrycancer extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Smokers face an increased risk of developing lung cancer."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەسانی جگەرەکێش ڕووبەڕووی مەترسیی زیاتری شێرپەنجەی سنگ دەبنەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcancers3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcancers3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The drug can lower the risk of breast cancer."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەرمانەکە مەترسیی شێرپەنجەی مەمک کەمدەکاتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcancers4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcancers4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Smokers face an increased risk of developing lung cancer.",
+                                    kurdishText:
+                                        "کەسانی جگەرەکێش ڕووبەڕووی مەترسیی زیاتری شێرپەنجەی سنگ دەبنەوە.",
+                                    onPressedBritish: () =>
+                                        speakcancers3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcancers3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The drug can lower the risk of breast cancer.",
+                            kurdishText:
+                                "دەرمانەکە مەترسیی شێرپەنجەی مەمک کەمدەکاتەوە.",
+                            onPressedBritish: () => speakcancers4("en-GB"),
+                            onPressedAmerican: () => speakcancers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

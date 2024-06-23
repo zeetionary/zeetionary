@@ -214,64 +214,26 @@ class EnglishEntrycinema extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These young directors in the 1960s and 1970s revolutionized cinema."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم دەرھێنەرە گەنجانەی ١٩٦٠ـەکان و ١٩٧٠ـیەکان شۆڕشیان لە سینەمادا دەستپێکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcinemas7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcinemas7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "These young directors in the 1960s and 1970s revolutionized cinema.",
+                                    kurdishText:
+                                        "ئەم دەرھێنەرە گەنجانەی ١٩٦٠ـەکان و ١٩٧٠ـیەکان شۆڕشیان لە سینەمادا دەستپێکرد.",
+                                    onPressedBritish: () =>
+                                        speakcinemas7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcinemas7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was a prominent figure in Russian cinema."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەسایەتییەکی دیار بوو لە سینەمای ڕووسیادا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcinemas8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcinemas8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was a prominent figure in Russian cinema.",
+                                    kurdishText:
+                                        "کەسایەتییەکی دیار بوو لە سینەمای ڕووسیادا.",
+                                    onPressedBritish: () =>
+                                        speakcinemas8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcinemas8("en-US"),
                                   ),
                                 ],
                               ),

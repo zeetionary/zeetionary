@@ -190,97 +190,55 @@ class EnglishEntrycab extends StatelessWidget {
                           const DefinitionKurdish(text: """
 ١. (ناو) تەکسی"""),
                           SentencesRow(
-  englishText: "I'll call you a cab.",
-                                    kurdishText:
-                                            "پەیوەندی بە تەکسییەکەوە دەکەم بۆت.", // cab
-                                            onPressedBritish: () => speakcabs1("en-GB"),
-onPressedAmerican: () => speakcabs1("en-US"),
+                            englishText: "I'll call you a cab.",
+                            kurdishText:
+                                "پەیوەندی بە تەکسییەکەوە دەکەم بۆت.", // cab
+                            onPressedBritish: () => speakcabs1("en-GB"),
+                            onPressedAmerican: () => speakcabs1("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
-  englishText: "Let's take a cab.",
-                                    kurdishText: "با تەکسییەک بگرین.",
-                                    onPressedBritish: () => speakcabs2("en-GB"),
-onPressedAmerican: () => speakcabs2("en-US"),
+                            englishText: "Let's take a cab.",
+                            kurdishText: "با تەکسییەک بگرین.",
+                            onPressedBritish: () => speakcabs2("en-GB"),
+                            onPressedAmerican: () => speakcabs2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The cab pulled up and they got out."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەکسییەکە وەستا و دابەزین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcabs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcabs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I left my umbrella in the back of the cab."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چەترەکەم لە پشتەوەی تەکسییەکە جێھێشت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcabs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcabs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The cab pulled up and they got out.",
+                                    kurdishText: "تەکسییەکە وەستا و دابەزین.",
+                                    onPressedBritish: () => speakcabs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcabs3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I left my umbrella in the back of the cab.",
+                            kurdishText:
+                                "چەترەکەم لە پشتەوەی تەکسییەکە جێھێشت.",
+                            onPressedBritish: () => speakcabs4("en-GB"),
+                            onPressedAmerican: () => speakcabs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشی پێشەوەی بارھەڵگرێک، پاسێک، شەمەندەفەرێک، ھتد کە شۆفێرەکە تێیدا دادەنیشێت"),
                           SentencesRow(
-  englishText:
-                                            "The captain remained in the cab of the ship for most part of the journey.",
-                                    kurdishText:
-                                            "کاپتنەکە لە کابی کەشتییەکەدا مایەوە بۆ زۆرینەی ماوەی گەشتەکە.",
-                                    onPressedBritish: () => speakcabs5("en-GB"),
-onPressedAmerican: () => speakcabs5("en-US"),
+                            englishText:
+                                "The captain remained in the cab of the ship for most part of the journey.",
+                            kurdishText:
+                                "کاپتنەکە لە کابی کەشتییەکەدا مایەوە بۆ زۆرینەی ماوەی گەشتەکە.",
+                            onPressedBritish: () => speakcabs5("en-GB"),
+                            onPressedAmerican: () => speakcabs5("en-US"),
                           ),
                         ],
                       ),

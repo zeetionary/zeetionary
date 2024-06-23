@@ -514,68 +514,27 @@ class EnglishEntrycatch extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The dog caught the stick in its mouth."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەگەکە دارەکەی بە دەمی گرتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcatchs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcatchs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I threw the bag in the air and she caught it."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "جانتاکەم فڕێدایە حەوا و گرتییەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcatchs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcatchs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The dog caught the stick in its mouth.",
+                                    kurdishText:
+                                        "سەگەکە دارەکەی بە دەمی گرتەوە.",
+                                    onPressedBritish: () =>
+                                        speakcatchs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcatchs3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I threw the bag in the air and she caught it.",
+                            kurdishText: "جانتاکەم فڕێدایە حەوا و گرتییەوە.",
+                            onPressedBritish: () => speakcatchs4("en-GB"),
+                            onPressedAmerican: () => speakcatchs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -754,68 +713,27 @@ class EnglishEntrycatch extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was caught with bomb-making equipment in his home."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گیردرا بە کەرەستەی درووستکردنی بۆمبەوە لە ماڵەکەیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcatchs23("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcatchs23("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "You've caught me at a bad time (= at a time when I am busy)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لەکاتێکی خراپ ھاتوویت بۆ لام."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcatchs24("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcatchs24("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was caught with bomb-making equipment in his home.",
+                                    kurdishText:
+                                        "گیردرا بە کەرەستەی درووستکردنی بۆمبەوە لە ماڵەکەیدا.",
+                                    onPressedBritish: () =>
+                                        speakcatchs23("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcatchs23("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "You've caught me at a bad time (= at a time when I am busy).",
+                            kurdishText: "لەکاتێکی خراپ ھاتوویت بۆ لام.",
+                            onPressedBritish: () => speakcatchs24("en-GB"),
+                            onPressedAmerican: () => speakcatchs24("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -840,68 +758,28 @@ class EnglishEntrycatch extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The illness can be treated provided it's caught (= discovered) early enough."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نەخۆشییەکە دەکرێت چارەسەر بکرێت ئەگەر بەپێی پێویست زوو پێی بزانرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcatchs27("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcatchs27("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Bye for now! I'll catch you later (= speak to you again later)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خوات لەگەڵ بۆ ئێستا! دواتر دەتبینمەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcatchs28("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcatchs28("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The illness can be treated provided it's caught (= discovered) early enough.",
+                                    kurdishText:
+                                        "نەخۆشییەکە دەکرێت چارەسەر بکرێت ئەگەر بەپێی پێویست زوو پێی بزانرێت.",
+                                    onPressedBritish: () =>
+                                        speakcatchs27("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcatchs27("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Bye for now! I'll catch you later (= speak to you again later).",
+                            kurdishText:
+                                "خوات لەگەڵ بۆ ئێستا! دواتر دەتبینمەوە.",
+                            onPressedBritish: () => speakcatchs28("en-GB"),
+                            onPressedAmerican: () => speakcatchs28("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

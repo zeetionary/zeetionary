@@ -315,123 +315,47 @@ class EnglishEntrycomplete extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "You've made my life complete."),
-                                            ExampleSentenceKurdish(
-                                                text: "ژیانمت کامڵ کردووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "You've made my life complete.",
+                                    kurdishText: "ژیانمت کامڵ کردووە.",
+                                    onPressedBritish: () =>
+                                        speakcompletes3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "No trip to Moscow would be complete without a visit to Lenin's tomb."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیچ سەردانێک بۆ مۆسکۆ تەواو نییە بەبێ سەردانی گۆڕی لینین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "No trip to Moscow would be complete without a visit to Lenin's tomb.",
+                                    kurdishText:
+                                        "ھیچ سەردانێک بۆ مۆسکۆ تەواو نییە بەبێ سەردانی گۆڕی لینین.",
+                                    onPressedBritish: () =>
+                                        speakcompletes4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Our complete range of carpets is on display in our showroom."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواوی جۆرەکانی مافوورەکانمان پیشاندراون لە ژووری نمایشەکەمان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Our complete range of carpets is on display in our showroom.",
+                                    kurdishText:
+                                        "تەواوی جۆرەکانی مافوورەکانمان پیشاندراون لە ژووری نمایشەکەمان.",
+                                    onPressedBritish: () =>
+                                        speakcompletes5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The report comes complete with (= including) diagrams and colour photographs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕاپۆرتەکە بە تەواوی ھێڵکاری و وێنەی ڕەنگاوڕەنگی لەگەڵە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The report comes complete with (= including) diagrams and colour photographs.",
+                                    kurdishText:
+                                        "ڕاپۆرتەکە بە تەواوی ھێڵکاری و وێنەی ڕەنگاوڕەنگی لەگەڵە.",
+                                    onPressedBritish: () =>
+                                        speakcompletes6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes6("en-US"),
                                   ),
                                 ],
                               ),
@@ -485,181 +409,66 @@ class EnglishEntrycomplete extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was a complete stranger to me."),
-                                            ExampleSentenceKurdish(
-                                                text: "تەواو نامۆ بوو لام."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was a complete stranger to me.",
+                                    kurdishText: "تەواو نامۆ بوو لام.",
+                                    onPressedBritish: () =>
+                                        speakcompletes12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "He is a complete fool!"),
-                                            ExampleSentenceKurdish(
-                                                text: "گەمژەیەکی تەواوە!"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "He is a complete fool!",
+                                    kurdishText: "گەمژەیەکی تەواوە!",
+                                    onPressedBritish: () =>
+                                        speakcompletes13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes13("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The army remains in complete control of the country."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سوپا لە کۆنترۆڵی تەواوی وڵاتەکەدایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The army remains in complete control of the country.",
+                                    kurdishText:
+                                        "سوپا لە کۆنترۆڵی تەواوی وڵاتەکەدایە.",
+                                    onPressedBritish: () =>
+                                        speakcompletes14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes14("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I felt a complete idiot."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەستم بە گەوجێتییەکی تەواو کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "I felt a complete idiot.",
+                                    kurdishText:
+                                        "ھەستم بە گەوجێتییەکی تەواو کرد.",
+                                    onPressedBritish: () =>
+                                        speakcompletes15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes15("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "You are talking complete and utter rubbish."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "قسەی تەواو و سەراپا بێ‌نرخ دەکەیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes16("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes16("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "You are talking complete and utter rubbish.",
+                                    kurdishText:
+                                        "قسەی تەواو و سەراپا بێ‌نرخ دەکەیت.",
+                                    onPressedBritish: () =>
+                                        speakcompletes16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes16("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The whole thing has been a complete waste of time."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەموو شتەکە تەواو بەفیڕۆدانی کات بووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompletes17("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompletes17("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The whole thing has been a complete waste of time.",
+                                    kurdishText:
+                                        "ھەموو شتەکە تەواو بەفیڕۆدانی کات بووە.",
+                                    onPressedBritish: () =>
+                                        speakcompletes17("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompletes17("en-US"),
                                   ),
                                 ],
                               ),

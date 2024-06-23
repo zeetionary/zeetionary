@@ -216,94 +216,37 @@ class EnglishEntrycelebrate extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "How do people celebrate New Year in your country?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خەڵکی چۆن سەری ساڵ پیرۆز دەکەن لە وڵاتەکەت؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcelebrates3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcelebrates3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "How do people celebrate New Year in your country?",
+                                    kurdishText:
+                                        "خەڵکی چۆن سەری ساڵ پیرۆز دەکەن لە وڵاتەکەت؟",
+                                    onPressedBritish: () =>
+                                        speakcelebrates3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcelebrates3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He made the trip home to celebrate Christmas with his family."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گەشتەکەی بۆ ماڵەوە ئەنجامدا بۆ پیرۆزکردنی کریسمس لەگەڵ خێزانەکەی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcelebrates4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcelebrates4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He made the trip home to celebrate Christmas with his family.",
+                                    kurdishText:
+                                        "گەشتەکەی بۆ ماڵەوە ئەنجامدا بۆ پیرۆزکردنی کریسمس لەگەڵ خێزانەکەی.",
+                                    onPressedBritish: () =>
+                                        speakcelebrates4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcelebrates4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Children’s Day has been celebrated in Japan for hundreds of years."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕۆژی منداڵان بۆ سەدان ساڵە لە ژاپۆن پیرۆز دەکرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcelebrates6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcelebrates6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Children’s Day has been celebrated in Japan for hundreds of years.",
+                                    kurdishText:
+                                        "ڕۆژی منداڵان بۆ سەدان ساڵە لە ژاپۆن پیرۆز دەکرێت.",
+                                    onPressedBritish: () =>
+                                        speakcelebrates6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcelebrates6("en-US"),
                                   ),
                                 ],
                               ),

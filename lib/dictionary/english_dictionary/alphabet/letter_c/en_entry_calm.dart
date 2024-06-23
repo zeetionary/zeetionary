@@ -316,69 +316,31 @@ class EnglishEntrycalm extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her voice was surprisingly calm."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەنگی بەشێوەیەکی سەرنجڕاکێش ھێمن بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Her voice was surprisingly calm.",
+kurdishText:
+                                                    "دەنگی بەشێوەیەکی سەرنجڕاکێش ھێمن بوو.",
+  onPressedBritish: () =>
                                                 speakcalms3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalms3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The city is calm again (= free from trouble and fighting) after yesterday's riots."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە دوای ئاڵۆزییەکانی دوێنێ شارەکە دووبارە ئارامە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "The city is calm again (= free from trouble and fighting) after yesterday's riots.",
+kurdishText:
+                                                    "لە دوای ئاڵۆزییەکانی دوێنێ شارەکە دووبارە ئارامە.",
+  onPressedBritish: () =>
                                                 speakcalms4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalms4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
+                          ],
+),
+],
+),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -441,38 +403,15 @@ class EnglishEntrycalm extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Calm had been restored to the capital."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئارامی گەڕێندرایەوە بۆ پایتەخت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Calm had been restored to the capital.",
+kurdishText:
+                                                    "ئارامی گەڕێندرایەوە بۆ پایتەخت.",
+  onPressedBritish: () =>
                                                 speakcalms11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalms11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -503,6 +442,10 @@ class EnglishEntrycalm extends StatelessWidget {
                             onPressedBritish: () => speakcalms14("en-GB"),
                             onPressedAmerican: () => speakcalms14("en-US"),
                           ),
+                          ],
+),
+],
+),
                         ],
                       ),
                     ),

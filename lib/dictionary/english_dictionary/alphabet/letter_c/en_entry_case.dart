@@ -517,94 +517,37 @@ class EnglishEntrycase extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "What should be done in such cases?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چی دەبێت بکردرێت لە دۆخێکی وەھادا؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcases3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcases3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "What should be done in such cases?",
+                                    kurdishText:
+                                        "چی دەبێت بکردرێت لە دۆخێکی وەھادا؟",
+                                    onPressedBritish: () =>
+                                        speakcases3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The company only dismisses its employees in cases of gross misconduct."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کۆمپانیاکە کارمەندانی دەردەکات تەنھا لە دۆخی ھەڵەی زەقدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcases4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcases4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The company only dismisses its employees in cases of gross misconduct.",
+                                    kurdishText:
+                                        "کۆمپانیاکە کارمەندانی دەردەکات تەنھا لە دۆخی ھەڵەی زەقدا.",
+                                    onPressedBritish: () =>
+                                        speakcases4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "In the case of banks, the law can limit activities."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە حاڵەتی بانکەکاندا، یاسا دەکرێت چالاکییەکان سنووردار بکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcases5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcases5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "In the case of banks, the law can limit activities.",
+                                    kurdishText:
+                                        "لە حاڵەتی بانکەکاندا، یاسا دەکرێت چالاکییەکان سنووردار بکات.",
+                                    onPressedBritish: () =>
+                                        speakcases5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases5("en-US"),
                                   ),
                                 ],
                               ),
@@ -653,34 +596,15 @@ class EnglishEntrycase extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Don't underestimate the power of the pen, or in this case, the power of the keyboard."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، ھێزی تەختەکلیل."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcases10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcases10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Don't underestimate the power of the pen, or in this case, the power of the keyboard.",
+                                    kurdishText:
+                                        "ھێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، ھێزی تەختەکلیل.",
+                                    onPressedBritish: () =>
+                                        speakcases10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases10("en-US"),
                                   ),
                                 ],
                               ),
@@ -750,148 +674,128 @@ class EnglishEntrycase extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He successfully argued the case for accepting the agreement."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرکەوتووانە پشتگیری دۆزی پەسەندکردنی ڕێککەوتنەکەی کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcases17("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcases17("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He successfully argued the case for accepting the agreement.",
+                                    kurdishText:
+                                        "سەرکەوتووانە پشتگیری دۆزی پەسەندکردنی ڕێککەوتنەکەی کرد.",
+                                    onPressedBritish: () =>
+                                        speakcases17("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases17("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They try to make the case that this war is necessary."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcases18("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcases18("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They try to make the case that this war is necessary.",
+                                    kurdishText:
+                                        "ھەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە.",
+                                    onPressedBritish: () =>
+                                        speakcases18("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases18("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٧. (ناو) شتێک کە شتی تێدا ھەڵدەگریت بۆ پاراستنی یان ھەڵگرتنی"),
+                                  SentencesRow(
+                                    englishText:
+                                        "The museum was full of stuffed animals in glass cases.",
+                                    kurdishText:
+                                        "مۆزەخانەکە پڕ بوو لە ئاژەڵی منداڵان لەناو پارێزەری شووشەدا.",
+                                    onPressedBritish: () =>
+                                        speakcases19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases19("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "He put the binoculars back in their carrying case.",
+                                    kurdishText:
+                                        "دووربینەکەی خستە بەرگە ھەڵگرەکەی.",
+                                    onPressedBritish: () =>
+                                        speakcases20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases20("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text: "٨. (ناو) جانتای سەفەرکردن"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Let me carry your case for you.",
+                                    kurdishText: "با جانتایەکەت بۆ ھەڵبگرم.",
+                                    onPressedBritish: () =>
+                                        speakcases21("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases21("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "They put their cases in the boot and drove off.",
+                                    kurdishText:
+                                        "جانتاکانیان خستە سندووقی ئۆتۆمبێلەکە و ڕۆشتن.",
+                                    onPressedBritish: () =>
+                                        speakcases22("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases22("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text: "٩. (ناو) حاڵەتی نەخۆشی"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Over 130 000 cases of cholera were reported in 2016.",
+                                    kurdishText:
+                                        "سەروو ١٣٠٠٠٠ حاڵەتی کۆلێرا لە ساڵی ٢٠١٦ تۆمارکران.",
+                                    onPressedBritish: () =>
+                                        speakcases23("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases23("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "The most serious cases were treated at the scene of the accident.",
+                                    kurdishText:
+                                        "خراپترین حاڵەتەکان لە شوێنی ڕووداوەکە چارەسەرکران.",
+                                    onPressedBritish: () =>
+                                        speakcases24("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases24("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٠. (ناو) کەسێک کە باوەڕوایە چارەسەری تایبەتی بووێت"),
+                                  SentencesRow(
+                                    englishText: "He's a hopeless case.",
+                                    kurdishText: "کەسێکی بێ‌ھیوایە.",
+                                    onPressedBritish: () =>
+                                        speakcases25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases25("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١١. (ناو) شێوەی ناوێک، ھاوەڵناوێک، یان جێناوێک کە پەیوەندیی لەگەڵ وشەیەکی دیکە پیشان دەدات"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Latin nouns have case, number and gender.",
+                                    kurdishText:
+                                        "ناوە لاتینییەکان دۆخ و ژمارە و ڕەگەزیان ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcases26("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcases26("en-US"),
                                   ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) شتێک کە شتی تێدا ھەڵدەگریت بۆ پاراستنی یان ھەڵگرتنی"),
-                          SentencesRow(
-                            englishText:
-                                "The museum was full of stuffed animals in glass cases.",
-                            kurdishText:
-                                "مۆزەخانەکە پڕ بوو لە ئاژەڵی منداڵان لەناو پارێزەری شووشەدا.",
-                            onPressedBritish: () => speakcases19("en-GB"),
-                            onPressedAmerican: () => speakcases19("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "He put the binoculars back in their carrying case.",
-                            kurdishText: "دووربینەکەی خستە بەرگە ھەڵگرەکەی.",
-                            onPressedBritish: () => speakcases20("en-GB"),
-                            onPressedAmerican: () => speakcases20("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٨. (ناو) جانتای سەفەرکردن"),
-                          SentencesRow(
-                            englishText: "Let me carry your case for you.",
-                            kurdishText: "با جانتایەکەت بۆ ھەڵبگرم.",
-                            onPressedBritish: () => speakcases21("en-GB"),
-                            onPressedAmerican: () => speakcases21("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "They put their cases in the boot and drove off.",
-                            kurdishText:
-                                "جانتاکانیان خستە سندووقی ئۆتۆمبێلەکە و ڕۆشتن.",
-                            onPressedBritish: () => speakcases22("en-GB"),
-                            onPressedAmerican: () => speakcases22("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٩. (ناو) حاڵەتی نەخۆشی"),
-                          SentencesRow(
-                            englishText:
-                                "Over 130 000 cases of cholera were reported in 2016.",
-                            kurdishText:
-                                "سەروو ١٣٠٠٠٠ حاڵەتی کۆلێرا لە ساڵی ٢٠١٦ تۆمارکران.",
-                            onPressedBritish: () => speakcases23("en-GB"),
-                            onPressedAmerican: () => speakcases23("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The most serious cases were treated at the scene of the accident.",
-                            kurdishText:
-                                "خراپترین حاڵەتەکان لە شوێنی ڕووداوەکە چارەسەرکران.",
-                            onPressedBritish: () => speakcases24("en-GB"),
-                            onPressedAmerican: () => speakcases24("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١٠. (ناو) کەسێک کە باوەڕوایە چارەسەری تایبەتی بووێت"),
-                          SentencesRow(
-                            englishText: "He's a hopeless case.",
-                            kurdishText: "کەسێکی بێ‌ھیوایە.",
-                            onPressedBritish: () => speakcases25("en-GB"),
-                            onPressedAmerican: () => speakcases25("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١١. (ناو) شێوەی ناوێک، ھاوەڵناوێک، یان جێناوێک کە پەیوەندیی لەگەڵ وشەیەکی دیکە پیشان دەدات"),
-                          SentencesRow(
-                            englishText:
-                                "Latin nouns have case, number and gender.",
-                            kurdishText:
-                                "ناوە لاتینییەکان دۆخ و ژمارە و ڕەگەزیان ھەیە.",
-                            onPressedBritish: () => speakcases26("en-GB"),
-                            onPressedAmerican: () => speakcases26("en-US"),
                           ),
                         ],
                       ),

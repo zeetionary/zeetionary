@@ -216,98 +216,37 @@ class EnglishEntrycareer extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He enjoyed a long and distinguished career as a historian."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وەک مێژووناسێک پیشەیەکی درێژ و سەرکەوتووانەی ھەبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "He enjoyed a long and distinguished career as a historian.",
+kurdishText:
+                                                    "وەک مێژووناسێک پیشەیەکی درێژ و سەرکەوتووانەی ھەبوو.",
+  onPressedBritish: () =>
                                                 speakcareers3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcareers3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She has been concentrating on her career."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرنجی خستووەتە سەر کارەکەی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "She has been concentrating on her career.",
+kurdishText:
+                                                    "سەرنجی خستووەتە سەر کارەکەی.",
+  onPressedBritish: () =>
                                                 speakcareers4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcareers4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We wish our graduates every success in whatever career path they have chosen."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرکەوتنی تەواو بۆ دەرچوانمان دەخوازین لە ھەر کارێک کە ھەڵیانبژاردووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "We wish our graduates every success in whatever career path they have chosen.",
+kurdishText:
+                                                    "سەرکەوتنی تەواو بۆ دەرچوانمان دەخوازین لە ھەر کارێک کە ھەڵیانبژاردووە.",
+  onPressedBritish: () =>
                                                 speakcareers5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcareers5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -350,6 +289,10 @@ class EnglishEntrycareer extends StatelessWidget {
                             onPressedBritish: () => speakcareers9("en-GB"),
                             onPressedAmerican: () => speakcareers9("en-US"),
                           ),
+                          ],
+),
+],
+),
                         ],
                       ),
                     ),

@@ -175,68 +175,28 @@ class EnglishEntrycomparison extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The two situations bear no comparison (= they are not at all similar)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "با بۆ بەراوردکاری بیانخەینە تەنیشت یەکدی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomparisons3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomparisons3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The similarity between the two invites comparison."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لێکچووی نێوان ئەو دووە جێگەی بەراوردکارییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomparisons4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomparisons4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The two situations bear no comparison (= they are not at all similar).",
+                                    kurdishText:
+                                        "با بۆ بەراوردکاری بیانخەینە تەنیشت یەکدی.",
+                                    onPressedBritish: () =>
+                                        speakcomparisons3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcomparisons3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The similarity between the two invites comparison.",
+                            kurdishText:
+                                "لێکچووی نێوان ئەو دووە جێگەی بەراوردکارییە.",
+                            onPressedBritish: () => speakcomparisons4("en-GB"),
+                            onPressedAmerican: () => speakcomparisons4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

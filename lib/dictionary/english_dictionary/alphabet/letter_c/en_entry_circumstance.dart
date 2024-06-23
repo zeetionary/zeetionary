@@ -184,68 +184,30 @@ class EnglishEntrycircumstance extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The company reserves the right to cancel this agreement in certain circumstances."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کۆمپانیاکە بە مافی خۆی دەزانێت ئەم ڕێککەوتنە ھەڵبوەشێنێتەوە لە دۆخی دیاریکراودا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcircumstances3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcircumstances3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I know I can trust her in any circumstance."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەزانم دەتوانم متمانەی پێبکەم لە ھەر دۆخێکدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcircumstances4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcircumstances4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The company reserves the right to cancel this agreement in certain circumstances.",
+                                    kurdishText:
+                                        "کۆمپانیاکە بە مافی خۆی دەزانێت ئەم ڕێککەوتنە ھەڵبوەشێنێتەوە لە دۆخی دیاریکراودا.",
+                                    onPressedBritish: () =>
+                                        speakcircumstances3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcircumstances3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I know I can trust her in any circumstance.",
+                            kurdishText:
+                                "دەزانم دەتوانم متمانەی پێبکەم لە ھەر دۆخێکدا.",
+                            onPressedBritish: () =>
+                                speakcircumstances4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcircumstances4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

@@ -248,64 +248,26 @@ class EnglishEntrycomment extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He said nothing when asked to comment on the allegations."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیچی نەوت کە پرسیاری لێکرا سەرنج بدات لەسەر تۆمەتەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomments9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomments9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He said nothing when asked to comment on the allegations.",
+                                    kurdishText:
+                                        "ھیچی نەوت کە پرسیاری لێکرا سەرنج بدات لەسەر تۆمەتەکان.",
+                                    onPressedBritish: () =>
+                                        speakcomments9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcomments9("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A spokesperson commented that levels of carbon dioxide were very high."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وتەبێژێک لێدوانی ئەوەی دا کە ڕێژەی دووەم ئۆکسیدی کاربۆن زۆر بەرزە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomments10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomments10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A spokesperson commented that levels of carbon dioxide were very high.",
+                                    kurdishText:
+                                        "وتەبێژێک لێدوانی ئەوەی دا کە ڕێژەی دووەم ئۆکسیدی کاربۆن زۆر بەرزە.",
+                                    onPressedBritish: () =>
+                                        speakcomments10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcomments10("en-US"),
                                   ),
                                 ],
                               ),

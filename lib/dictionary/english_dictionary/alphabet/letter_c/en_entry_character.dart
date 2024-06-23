@@ -261,68 +261,28 @@ class EnglishEntrycharacter extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The two lead actors inhabit their characters fully."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دوو ئەکتەرە سەرەکییەکە بە تەواوی ڕۆدەچنە ناو کارەکتەرەکانیان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharacters3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharacters3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The main character is played by Nicole Kidman."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کارەکتەری سەرەکی لەلایەن نیکۆڵ کیدمانەوە ڕۆڵی دەبینرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharacters4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharacters4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The two lead actors inhabit their characters fully.",
+                                    kurdishText:
+                                        "دوو ئەکتەرە سەرەکییەکە بە تەواوی ڕۆدەچنە ناو کارەکتەرەکانیان.",
+                                    onPressedBritish: () =>
+                                        speakcharacters3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcharacters3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The main character is played by Nicole Kidman.",
+                            kurdishText:
+                                "کارەکتەری سەرەکی لەلایەن نیکۆڵ کیدمانەوە ڕۆڵی دەبینرێت.",
+                            onPressedBritish: () => speakcharacters4("en-GB"),
+                            onPressedAmerican: () => speakcharacters4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

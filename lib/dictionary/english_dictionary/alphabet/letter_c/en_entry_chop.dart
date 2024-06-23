@@ -187,68 +187,28 @@ class EnglishEntrychop extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Chop the carrots up into small pieces."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گێزەرەکان وردبکە بۆ پارچەی بچووکتر."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchops3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchops3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The country was chopped up into small administrative areas."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "(بەکارھێنانی خوازراوی) وڵاتەکە دابەشکرا بۆ ژمارەیەک لە ناوچەی بەڕێوبەرایەتی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchops4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchops4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Chop the carrots up into small pieces.",
+                                    kurdishText:
+                                        "گێزەرەکان وردبکە بۆ پارچەی بچووکتر.",
+                                    onPressedBritish: () =>
+                                        speakchops3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchops3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The country was chopped up into small administrative areas.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) وڵاتەکە دابەشکرا بۆ ژمارەیەک لە ناوچەی بەڕێوبەرایەتی.",
+                            onPressedBritish: () => speakchops4("en-GB"),
+                            onPressedAmerican: () => speakchops4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

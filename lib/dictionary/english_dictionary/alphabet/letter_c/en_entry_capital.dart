@@ -219,68 +219,28 @@ class EnglishEntrycapital extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She liked the fast pace of life in the capital."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حەزی لە ژیانی خێرای پایتەخت بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcapitals3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcapitals3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Paris is known as the fashion capital of the world."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "(بەکارھێنانی خوازراوی) پاریس وەک پایتەختی فاشنی جیھان ناسراوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcapitals4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcapitals4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She liked the fast pace of life in the capital.",
+                                    kurdishText:
+                                        "حەزی لە ژیانی خێرای پایتەخت بوو.",
+                                    onPressedBritish: () =>
+                                        speakcapitals3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapitals3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Paris is known as the fashion capital of the world.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) پاریس وەک پایتەختی فاشنی جیھان ناسراوە.",
+                            onPressedBritish: () => speakcapitals4("en-GB"),
+                            onPressedAmerican: () => speakcapitals4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

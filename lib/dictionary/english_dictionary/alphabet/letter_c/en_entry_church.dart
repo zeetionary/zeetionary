@@ -206,126 +206,49 @@ class EnglishEntrychurch extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The church is dedicated to St Paul."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کڵێساکە بۆ قەشە پاوڵ تەرخانکراوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchurchs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchurchs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The church is dedicated to St Paul.",
+                                    kurdishText:
+                                        "کڵێساکە بۆ قەشە پاوڵ تەرخانکراوە.",
+                                    onPressedBritish: () =>
+                                        speakchurchs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchurchs3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The church was consecrated in 1250."),
-                                            ExampleSentenceKurdish(
-                                              text: "کڵێساکە لە ١٢٥٠ پیرۆزکرا.",
-                                              note:
-                                                  "پیرۆزکردنی کڵێسا ئەوەیە کە بە فەرمی ڕادەگەیەنرێت کە تەنھا بینایەک نییە و کڵێسایەکی پیرۆزە و دەکرێت بۆ کاری ئایینی بەکاربێت.",
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchurchs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchurchs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The church was consecrated in 1250.",
+                                    kurdishText: "کڵێساکە لە ١٢٥٠ پیرۆزکرا.",
+                                    kurdishNote:
+                                        "پیرۆزکردنی کڵێسا ئەوەیە کە بە فەرمی ڕادەگەیەنرێت کە تەنھا بینایەک نییە و کڵێسایەکی پیرۆزە و دەکرێت بۆ کاری ئایینی بەکاربێت.",
+                                    onPressedBritish: () =>
+                                        speakchurchs4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchurchs4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She sings in the church choir."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە کۆچڕی کڵێساکە گۆرانی دەڵێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchurchs5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchurchs5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She sings in the church choir.",
+                                    kurdishText:
+                                        "لە کۆچڕی کڵێساکە گۆرانی دەڵێت.",
+                                    onPressedBritish: () =>
+                                        speakchurchs5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchurchs5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We are hiring the church hall for the party."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھۆڵی کڵێساکە بۆ ئاھەنگەکە بەکرێ دەگرین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchurchs6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchurchs6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We are hiring the church hall for the party.",
+                                    kurdishText:
+                                        "ھۆڵی کڵێساکە بۆ ئاھەنگەکە بەکرێ دەگرین.",
+                                    onPressedBritish: () =>
+                                        speakchurchs6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchurchs6("en-US"),
                                   ),
                                 ],
                               ),

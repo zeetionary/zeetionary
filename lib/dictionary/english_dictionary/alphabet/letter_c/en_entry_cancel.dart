@@ -236,34 +236,15 @@ class EnglishEntrycancel extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The US has agreed to cancel debts (= say that they no longer need to be paid) totalling £10 million."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەمریکا ڕازی بووە قەرزی ١٠ ملیۆن پاوەند سفر بکاتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcancels5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcancels5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The US has agreed to cancel debts (= say that they no longer need to be paid) totalling £10 million.",
+                                    kurdishText:
+                                        "ئەمریکا ڕازی بووە قەرزی ١٠ ملیۆن پاوەند سفر بکاتەوە.",
+                                    onPressedBritish: () =>
+                                        speakcancels5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcancels5("en-US"),
                                   ),
                                 ],
                               ),

@@ -165,94 +165,36 @@ class EnglishEntrycoin extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The first English gold coin was struck in 1255."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "یەکەم سکەی ئینگلیزی ساڵی ١٢٥٥ لێدرا/لە قاڵب درا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoins3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoins3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The first English gold coin was struck in 1255.",
+                                    kurdishText:
+                                        "یەکەم سکەی ئینگلیزی ساڵی ١٢٥٥ لێدرا/لە قاڵب درا.",
+                                    onPressedBritish: () =>
+                                        speakcoins3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcoins3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Very few old 5p coins are still in circulation."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕێژەیەکی کەم لە سکەی ٥ پێنسی ھێشتا لە بازاڕدان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoins4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoins4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Very few old 5p coins are still in circulation.",
+                                    kurdishText:
+                                        "ڕێژەیەکی کەم لە سکەی ٥ پێنسی ھێشتا لە بازاڕدان.",
+                                    onPressedBritish: () =>
+                                        speakcoins4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcoins4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The date on the coin is 1789."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەرواری سەر سکەکە ١٧٨٩ ـیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoins6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoins6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The date on the coin is 1789.",
+                                    kurdishText: "بەرواری سەر سکەکە ١٧٨٩ ـیە.",
+                                    onPressedBritish: () =>
+                                        speakcoins6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcoins6("en-US"),
                                   ),
                                 ],
                               ),

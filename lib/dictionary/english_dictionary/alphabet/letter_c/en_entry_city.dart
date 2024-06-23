@@ -164,68 +164,28 @@ class EnglishEntrycity extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Riots occurred in all the major cities."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئاژاوە لە ھەموو شارە گرنگەکان ڕوویدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcitys3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcitys3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Mexico City has a population of more than 20 million people."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مەکسیکۆ سیتی دانیشتووانی زیاتر لە ٢٠ ملیۆنی ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcitys4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcitys4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Riots occurred in all the major cities.",
+                                    kurdishText:
+                                        "ئاژاوە لە ھەموو شارە گرنگەکان ڕوویدا.",
+                                    onPressedBritish: () =>
+                                        speakcitys3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcitys3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Mexico City has a population of more than 20 million people.",
+                            kurdishText:
+                                "مەکسیکۆ سیتی دانیشتووانی زیاتر لە ٢٠ ملیۆنی ھەیە.",
+                            onPressedBritish: () => speakcitys4("en-GB"),
+                            onPressedAmerican: () => speakcitys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

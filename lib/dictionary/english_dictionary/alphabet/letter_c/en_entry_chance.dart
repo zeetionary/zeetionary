@@ -260,94 +260,37 @@ class EnglishEntrychance extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "There's a good chance that he'll be back in time."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەگەرێکی باش ھەیە کە لە کاتی خۆیدا بگەڕێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchances3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchances3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "There's a good chance that he'll be back in time.",
+                                    kurdishText:
+                                        "ئەگەرێکی باش ھەیە کە لە کاتی خۆیدا بگەڕێتەوە.",
+                                    onPressedBritish: () =>
+                                        speakchances3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchances3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "What chance is there of anybody being found alive?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چەندە شانس ھەیە کە ھیچ کەسێک بە زیندووی بدۆزرێتەوە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchances4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchances4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "What chance is there of anybody being found alive?",
+                                    kurdishText:
+                                        "چەندە شانس ھەیە کە ھیچ کەسێک بە زیندووی بدۆزرێتەوە؟",
+                                    onPressedBritish: () =>
+                                        speakchances4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchances4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We believe the plan has a good chance for success."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "باوەڕمان وایە پلانەکە ئەگەری زۆری سەرکەوتنی ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchances5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchances5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We believe the plan has a good chance for success.",
+                                    kurdishText:
+                                        "باوەڕمان وایە پلانەکە ئەگەری زۆری سەرکەوتنی ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakchances5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchances5("en-US"),
                                   ),
                                 ],
                               ),
@@ -377,64 +320,25 @@ class EnglishEntrychance extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This is your big chance (= opportunity for success)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەمە دەرفەتە مەزنەکەتە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchances8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchances8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This is your big chance (= opportunity for success).",
+                                    kurdishText: "ئەمە دەرفەتە مەزنەکەتە.",
+                                    onPressedBritish: () =>
+                                        speakchances8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchances8("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Please give me a chance to explain."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تکایە دەرفەتێکم پێبدە بۆ ڕوونکردنەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchances9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchances9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Please give me a chance to explain.",
+                                    kurdishText:
+                                        "تکایە دەرفەتێکم پێبدە بۆ ڕوونکردنەوە.",
+                                    onPressedBritish: () =>
+                                        speakchances9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchances9("en-US"),
                                   ),
                                 ],
                               ),

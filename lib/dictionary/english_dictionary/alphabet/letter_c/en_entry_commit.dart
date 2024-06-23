@@ -261,94 +261,37 @@ class EnglishEntrycommit extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He denied conspiring to commit robberies in April last year."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نکۆڵی لە پلاندانان بۆ ئەنجامدانی تاڵانکاری لە نیسانی ساڵی پار کردبێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommits3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommits3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He denied conspiring to commit robberies in April last year.",
+                                    kurdishText:
+                                        "نکۆڵی لە پلاندانان بۆ ئەنجامدانی تاڵانکاری لە نیسانی ساڵی پار کردبێت.",
+                                    onPressedBritish: () =>
+                                        speakcommits3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommits3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was punished for a murder he did not commit."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سزادرا بۆ کوشتنێک کە ئەنجامی نەدابوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommits4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommits4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was punished for a murder he did not commit.",
+                                    kurdishText:
+                                        "سزادرا بۆ کوشتنێک کە ئەنجامی نەدابوو.",
+                                    onPressedBritish: () =>
+                                        speakcommits4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommits4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Was she capable of committing a crime?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "توانای ئەنجامدانی تاوانی ھەبوو؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommits5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommits5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Was she capable of committing a crime?",
+                                    kurdishText:
+                                        "توانای ئەنجامدانی تاوانی ھەبوو؟",
+                                    onPressedBritish: () =>
+                                        speakcommits5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommits5("en-US"),
                                   ),
                                 ],
                               ),

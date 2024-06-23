@@ -174,68 +174,28 @@ class EnglishEntrychapter extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Have you read the chapter on the legal system?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەو بەشەت خوێندووتەوە کە لەسەر سیستەمی داراییە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchapters4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchapters4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I read the first few chapters and then got bored."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چەند بەشی سەرەتام خوێندەوە و دواتر بێزار بووم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchapters5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchapters5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Have you read the chapter on the legal system?",
+                                    kurdishText:
+                                        "ئەو بەشەت خوێندووتەوە کە لەسەر سیستەمی داراییە؟",
+                                    onPressedBritish: () =>
+                                        speakchapters4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchapters4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I read the first few chapters and then got bored.",
+                            kurdishText:
+                                "چەند بەشی سەرەتام خوێندەوە و دواتر بێزار بووم.",
+                            onPressedBritish: () => speakchapters5("en-GB"),
+                            onPressedAmerican: () => speakchapters5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

@@ -486,128 +486,48 @@ class EnglishEntrycan extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He couldn't answer the question."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نەیتوانی وەڵامی پرسیارەکە بداتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "He couldn't answer the question.",
+kurdishText:
+                                                    "نەیتوانی وەڵامی پرسیارەکە بداتەوە.",
+  onPressedBritish: () =>
                                                 speakcans3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcans3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The stadium can be emptied in four minutes."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "یاریگاکە دەکرێت لە چوار خولەکدا بەتاڵ بکرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "The stadium can be emptied in four minutes.",
+kurdishText:
+                                                    "یاریگاکە دەکرێت لە چوار خولەکدا بەتاڵ بکرێت.",
+  onPressedBritish: () =>
                                                 speakcans4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcans4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I can't promise anything, but I'll do what I can."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ناتوانم بەڵێن بدەم، بەڵام ھەرچی بتوانم دەیکەم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "I can't promise anything, but I'll do what I can.",
+kurdishText:
+                                                    "ناتوانم بەڵێن بدەم، بەڵام ھەرچی بتوانم دەیکەم.",
+  onPressedBritish: () =>
                                                 speakcans5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcans5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Please let us know if you cannot attend the meeting."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تکایە ئاگادارمان بکەوە ئەگەر ناتوانی بەژداری کۆبوونەوەکە بکەیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Please let us know if you cannot attend the meeting.",
+kurdishText:
+                                                    "تکایە ئاگادارمان بکەوە ئەگەر ناتوانی بەژداری کۆبوونەوەکە بکەیت.",
+  onPressedBritish: () =>
                                                 speakcans6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcans6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -737,38 +657,19 @@ class EnglishEntrycan extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Where can she have put it?"),
-                                            ExampleSentenceKurdish(
-                                                text: "دەبێت لە کوێی دانابێت؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Where can she have put it?",
+kurdishText: "دەبێت لە کوێی دانابێت؟",
+  onPressedBritish: () =>
                                                 speakcans21("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcans21("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
+                          ],
+),
+],
+),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -877,6 +778,10 @@ class EnglishEntrycan extends StatelessWidget {
                             onPressedBritish: () => speakcans32("en-GB"),
                             onPressedAmerican: () => speakcans32("en-US"),
                           ),
+                          ],
+),
+],
+),
                         ],
                       ),
                     ),

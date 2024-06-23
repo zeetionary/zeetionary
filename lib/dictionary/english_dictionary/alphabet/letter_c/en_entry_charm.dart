@@ -179,68 +179,28 @@ class EnglishEntrycharm extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The area is a little run-down, but that's just part of its charm."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ناوچەکە کەمێک شپرزەیە، بەڵام ئەوە بەشێکە لە جوانییەکەی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharms3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharms3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The town still retains a lot of its old-world charm."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شارۆچکەکە ھێشتا ژمارەیەکی زۆر لە جوانییە کۆنەکەی پاراستووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharms4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharms4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The area is a little run-down, but that's just part of its charm.",
+                                    kurdishText:
+                                        "ناوچەکە کەمێک شپرزەیە، بەڵام ئەوە بەشێکە لە جوانییەکەی.",
+                                    onPressedBritish: () =>
+                                        speakcharms3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcharms3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The town still retains a lot of its old-world charm.",
+                            kurdishText:
+                                "شارۆچکەکە ھێشتا ژمارەیەکی زۆر لە جوانییە کۆنەکەی پاراستووە.",
+                            onPressedBritish: () => speakcharms4("en-GB"),
+                            onPressedAmerican: () => speakcharms4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

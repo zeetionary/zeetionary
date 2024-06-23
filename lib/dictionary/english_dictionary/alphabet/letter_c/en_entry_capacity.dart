@@ -236,138 +236,91 @@ class EnglishEntrycapacity extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The mountain walk is well within the capacity of most fit people."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕێگای گەشتن بە زۆرباش لە توانای زۆر کەسی تەندرووست دایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcapacitys5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcapacitys5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The mountain walk is well within the capacity of most fit people.",
+                                    kurdishText:
+                                        "ڕێگای گەشتن بە زۆرباش لە توانای زۆر کەسی تەندرووست دایە.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "His capacity for learning languages astonished me."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "توانای لە فێربوونی زمانەکانی دیکەدا سەرسامی کردم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcapacitys6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcapacitys6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "His capacity for learning languages astonished me.",
+                                    kurdishText:
+                                        "توانای لە فێربوونی زمانەکانی دیکەدا سەرسامی کردم.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These questions are beyond the capacity of most students."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم پرسیارانە لە دەرەوەی توانای زۆرینەی خوێندکارانن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcapacitys7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcapacitys7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "These questions are beyond the capacity of most students.",
+                                    kurdishText:
+                                        "ئەم پرسیارانە لە دەرەوەی توانای زۆرینەی خوێندکارانن.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys7("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (ناو) پێگە یان ئەرکی فەرمیی کەسێک"),
+                                  SentencesRow(
+                                    englishText:
+                                        "She was acting in her capacity as manager.",
+                                    kurdishText:
+                                        "لە ئەرکەکەیدا وەک سەرپەرشتیار کاری دەکرد.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys8("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "In my capacity as president, I would like to thank Jack for his hard work.",
+                                    kurdishText:
+                                        "لە پێگەم وەک سەرۆک، دەمەوێت سوپاسی جاک بکەم بۆ کاری قورسی.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys9("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٤. (ناو) ئەو بڕەی کە کارگەیەک، ئامێرێک، ھتد بەرھەمی دێنێت، یان ھێز و توانای بزوێنەرێک"),
+                                  SentencesRow(
+                                    englishText:
+                                        "The factory is working at (full) capacity.",
+                                    kurdishText:
+                                        "کارگەکە بەوپەڕی توانای کاردەکات.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys10("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "The larger cars have bigger capacity engines (= the engines are bigger and more powerful).",
+                                    kurdishText:
+                                        "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcapacitys11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcapacitys11("en-US"),
                                   ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) پێگە یان ئەرکی فەرمیی کەسێک"),
-                          SentencesRow(
-                            englishText:
-                                "She was acting in her capacity as manager.",
-                            kurdishText:
-                                "لە ئەرکەکەیدا وەک سەرپەرشتیار کاری دەکرد.",
-                            onPressedBritish: () => speakcapacitys8("en-GB"),
-                            onPressedAmerican: () => speakcapacitys8("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "In my capacity as president, I would like to thank Jack for his hard work.",
-                            kurdishText:
-                                "لە پێگەم وەک سەرۆک، دەمەوێت سوپاسی جاک بکەم بۆ کاری قورسی.",
-                            onPressedBritish: () => speakcapacitys9("en-GB"),
-                            onPressedAmerican: () => speakcapacitys9("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) ئەو بڕەی کە کارگەیەک، ئامێرێک، ھتد بەرھەمی دێنێت، یان ھێز و توانای بزوێنەرێک"),
-                          SentencesRow(
-                            englishText:
-                                "The factory is working at (full) capacity.",
-                            kurdishText: "کارگەکە بەوپەڕی توانای کاردەکات.",
-                            onPressedBritish: () => speakcapacitys10("en-GB"),
-                            onPressedAmerican: () => speakcapacitys10("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The larger cars have bigger capacity engines (= the engines are bigger and more powerful).",
-                            kurdishText:
-                                "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان ھەیە.",
-                            onPressedBritish: () => speakcapacitys11("en-GB"),
-                            onPressedAmerican: () => speakcapacitys11("en-US"),
                           ),
                         ],
                       ),

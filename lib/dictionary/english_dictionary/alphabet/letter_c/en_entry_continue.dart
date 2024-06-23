@@ -322,214 +322,79 @@ class EnglishEntrycontinue extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Fighting continued for four years."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شەڕکردن بۆ چوار ساڵ بەردەوام بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Fighting continued for four years.",
+                                    kurdishText:
+                                        "شەڕکردن بۆ چوار ساڵ بەردەوام بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontinues3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The rain will continue into the evening."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بارانەکە تاوەکو شەو بەردەوام دەبێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The rain will continue into the evening.",
+                                    kurdishText:
+                                        "بارانەکە تاوەکو شەو بەردەوام دەبێت.",
+                                    onPressedBritish: () =>
+                                        speakcontinues4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Unions declared that the strike would continue indefinitely."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەندیکاکان ڕایانگەیاند مانگرتنەکە تا کاتێکی نادیار بەردەوام دەبێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Unions declared that the strike would continue indefinitely.",
+                                    kurdishText:
+                                        "سەندیکاکان ڕایانگەیاند مانگرتنەکە تا کاتێکی نادیار بەردەوام دەبێت.",
+                                    onPressedBritish: () =>
+                                        speakcontinues5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Life continued on as normal."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ژیان بەشێوەیەکی ئاسایی بەردەوام بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Life continued on as normal.",
+                                    kurdishText:
+                                        "ژیان بەشێوەیەکی ئاسایی بەردەوام بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontinues6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The tradition continues to this day."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نەریتەکە تا ئەم ڕۆژە بەردەوامە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The tradition continues to this day.",
+                                    kurdishText:
+                                        "نەریتەکە تا ئەم ڕۆژە بەردەوامە.",
+                                    onPressedBritish: () =>
+                                        speakcontinues7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The violence continues unabated."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "توندوتیژییەکە بێ دامرکان بەردەوامە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The violence continues unabated.",
+                                    kurdishText:
+                                        "توندوتیژییەکە بێ دامرکان بەردەوامە.",
+                                    onPressedBritish: () =>
+                                        speakcontinues8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues8("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The economy is continuing to grow."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئابووری بەردەوامە لە گەشە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The economy is continuing to grow.",
+                                    kurdishText: "ئابووری بەردەوامە لە گەشە.",
+                                    onPressedBritish: () =>
+                                        speakcontinues9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues9("en-US"),
                                   ),
                                 ],
                               ),
@@ -558,184 +423,69 @@ class EnglishEntrycontinue extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We will continue to work closely with our international partners on this."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەردەوام دەبین لە کارکردن لە نزیکەوە لەسەر ئەمە لەگەڵ ھاوپەیمانە نێودەوڵەتییەکانمان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We will continue to work closely with our international partners on this.",
+                                    kurdishText:
+                                        "بەردەوام دەبین لە کارکردن لە نزیکەوە لەسەر ئەمە لەگەڵ ھاوپەیمانە نێودەوڵەتییەکانمان.",
+                                    onPressedBritish: () =>
+                                        speakcontinues12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He continued to ignore everything I was saying."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەردەوام بوو لە پشتگوێ خستنی ھەر شتێک من دەموت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He continued to ignore everything I was saying.",
+                                    kurdishText:
+                                        "بەردەوام بوو لە پشتگوێ خستنی ھەر شتێک من دەموت.",
+                                    onPressedBritish: () =>
+                                        speakcontinues13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues13("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She moved to New York to continue her studies."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چوو بۆ نیویۆرک بۆ درێژەدان بە خوێندنەکەی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She moved to New York to continue her studies.",
+                                    kurdishText:
+                                        "چوو بۆ نیویۆرک بۆ درێژەدان بە خوێندنەکەی.",
+                                    onPressedBritish: () =>
+                                        speakcontinues14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues14("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He continued his work in secret."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە نھێنی لە کارەکەی بەردەوام بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He continued his work in secret.",
+                                    kurdishText:
+                                        "بە نھێنی لە کارەکەی بەردەوام بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontinues15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues15("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Are you going to continue with the project?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەردەوام دەبیت لە پڕۆژەکە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues16("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues16("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Are you going to continue with the project?",
+                                    kurdishText: "بەردەوام دەبیت لە پڕۆژەکە؟",
+                                    onPressedBritish: () =>
+                                        speakcontinues16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues16("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She wanted to continue working after the baby was born."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەیویست بەردەوام بێت لە کارکردن لە دوای لەدایکبوونی منداڵەکەی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinues17("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinues17("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She wanted to continue working after the baby was born.",
+                                    kurdishText:
+                                        "دەیویست بەردەوام بێت لە کارکردن لە دوای لەدایکبوونی منداڵەکەی.",
+                                    onPressedBritish: () =>
+                                        speakcontinues17("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinues17("en-US"),
                                   ),
                                 ],
                               ),

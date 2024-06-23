@@ -158,68 +158,28 @@ class EnglishEntryclutter extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Try not to clutter your head with trivia."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "(بەکارھێنانی خوازراوی) ھەوڵ بدە مێشکت بە شتی زیادە سەرقاڵ نەکەیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclutters3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclutters3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I don't want all these boxes cluttering up the place."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نامەوێت ھەموو ئەم سندووقانە شوێنەکە شپرزە بکەن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclutters4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclutters4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Try not to clutter your head with trivia.",
+                                    kurdishText:
+                                        "(بەکارھێنانی خوازراوی) ھەوڵ بدە مێشکت بە شتی زیادە سەرقاڵ نەکەیت.",
+                                    onPressedBritish: () =>
+                                        speakclutters3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclutters3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I don't want all these boxes cluttering up the place.",
+                            kurdishText:
+                                "نامەوێت ھەموو ئەم سندووقانە شوێنەکە شپرزە بکەن.",
+                            onPressedBritish: () => speakclutters4("en-GB"),
+                            onPressedAmerican: () => speakclutters4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

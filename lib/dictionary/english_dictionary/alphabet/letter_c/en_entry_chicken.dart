@@ -212,68 +212,28 @@ class EnglishEntrychicken extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Fry four chicken joints in a pan with some mushrooms and garlic."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕانە مریشکەکانت لەگەڵ ھەندێک قارچک و سیر ببرژێنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchickens6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchickens6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'll have a steak - no, make that chicken."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پارچە گۆشتێکم دەوێت، نا بیکە مریشکێک."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchickens7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchickens7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Fry four chicken joints in a pan with some mushrooms and garlic.",
+                                    kurdishText:
+                                        "ڕانە مریشکەکانت لەگەڵ ھەندێک قارچک و سیر ببرژێنە.",
+                                    onPressedBritish: () =>
+                                        speakchickens6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchickens6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I'll have a steak - no, make that chicken.",
+                            kurdishText:
+                                "پارچە گۆشتێکم دەوێت، نا بیکە مریشکێک.",
+                            onPressedBritish: () => speakchickens7("en-GB"),
+                            onPressedAmerican: () => speakchickens7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

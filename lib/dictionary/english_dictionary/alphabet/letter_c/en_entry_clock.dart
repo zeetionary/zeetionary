@@ -202,123 +202,44 @@ class EnglishEntryclock extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The clock is right/wrong."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کاتژمێرەکە ڕاستە/ھەڵەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclocks3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclocks3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "The clock is right/wrong.",
+                                    kurdishText: "کاتژمێرەکە ڕاستە/ھەڵەیە.",
+                                    onPressedBritish: () =>
+                                        speakclocks3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclocks3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "My clock said 9.02."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کاتژمێرەکەم ٩.٠٢ دەخوێندەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclocks4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclocks4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "My clock said 9.02.",
+                                    kurdishText: "کاتژمێرەکەم ٩.٠٢ دەخوێندەوە.",
+                                    onPressedBritish: () =>
+                                        speakclocks4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclocks4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It was ten past six by the kitchen clock."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "١٠ خولەک لایدابوو لە شەش بەپێی کاتژمێری چێشتخانەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclocks5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclocks5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It was ten past six by the kitchen clock.",
+                                    kurdishText:
+                                        "١٠ خولەک لایدابوو لە شەش بەپێی کاتژمێری چێشتخانەکە.",
+                                    onPressedBritish: () =>
+                                        speakclocks5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclocks5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The sound of a clock ticking somewhere in the house kept him awake."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەنگی کاتژمێرێک کە لە شوێنێکی ماڵەکەدا چرکەی داھات بە بێداری ھێشتبوویەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclocks6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclocks6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The sound of a clock ticking somewhere in the house kept him awake.",
+                                    kurdishText:
+                                        "دەنگی کاتژمێرێک کە لە شوێنێکی ماڵەکەدا چرکەی داھات بە بێداری ھێشتبوویەوە.",
+                                    onPressedBritish: () =>
+                                        speakclocks6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclocks6("en-US"),
                                   ),
                                 ],
                               ),

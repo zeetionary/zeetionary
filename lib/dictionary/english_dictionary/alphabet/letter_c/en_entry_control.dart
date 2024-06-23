@@ -493,124 +493,48 @@ class EnglishEntrycontrol extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A military junta seized control of the country."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حکومەتە سەربازییەکە کۆنترۆڵی وڵاتەکەی کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A military junta seized control of the country.",
+                                    kurdishText:
+                                        "حکومەتە سەربازییەکە کۆنترۆڵی وڵاتەکەی کرد.",
+                                    onPressedBritish: () =>
+                                        speakcontrols4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The founders eventually regained control of the company."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دامەزرێنەرەکان لەکۆتاییدا کۆنترۆڵی کۆمپانیاکەیان بەدەستھێنایەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The founders eventually regained control of the company.",
+                                    kurdishText:
+                                        "دامەزرێنەرەکان لەکۆتاییدا کۆنترۆڵی کۆمپانیاکەیان بەدەستھێنایەوە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The city is in the control of enemy forces."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شارەکە لە کۆنترۆڵی ھێزەکانی دوژمندایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The city is in the control of enemy forces.",
+                                    kurdishText:
+                                        "شارەکە لە کۆنترۆڵی ھێزەکانی دوژمندایە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The area remains under international control."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ناوچەکە لەژێر کۆنترۆڵی نێودەوڵەتیدایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The area remains under international control.",
+                                    kurdishText:
+                                        "ناوچەکە لەژێر کۆنترۆڵی نێودەوڵەتیدایە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols7("en-US"),
                                   ),
                                 ],
                               ),
@@ -640,153 +564,58 @@ class EnglishEntrycontrol extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The event has been cancelled due to circumstances beyond our control."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بۆنەکە ھەڵوەشێندراوەتەوە بەھۆی دۆخێکی بەدەر لە کۆنترۆڵ."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The event has been cancelled due to circumstances beyond our control.",
+                                    kurdishText:
+                                        "بۆنەکە ھەڵوەشێندراوەتەوە بەھۆی دۆخێکی بەدەر لە کۆنترۆڵ.",
+                                    onPressedBritish: () =>
+                                        speakcontrols14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols14("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She lost control of her car on the ice."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کۆنترۆڵی ئۆتۆمبێلەکەی لەسەر شەختەکەدا لەدەستدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She lost control of her car on the ice.",
+                                    kurdishText:
+                                        "کۆنترۆڵی ئۆتۆمبێلەکەی لەسەر شەختەکەدا لەدەستدا.",
+                                    onPressedBritish: () =>
+                                        speakcontrols10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols10("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He got so angry he lost control (= shouted and said or did things he would not normally do)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھێندە تووڕە بوو کۆنترۆڵی لەدەستدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He got so angry he lost control (= shouted and said or did things he would not normally do).",
+                                    kurdishText:
+                                        "ھێندە تووڕە بوو کۆنترۆڵی لەدەستدا.",
+                                    onPressedBritish: () =>
+                                        speakcontrols11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols11("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The situation is under control."),
-                                            ExampleSentenceKurdish(
-                                                text: "دۆخەکە لەژێر کۆنترۆڵە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The situation is under control.",
+                                    kurdishText: "دۆخەکە لەژێر کۆنترۆڵە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The aim is to give people more control over their own lives."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئامانجەکە ئەوەیە کۆنترۆڵی زیاتر بەسەر ژیانی خۆیاندا بدەین بە خەڵکی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The aim is to give people more control over their own lives.",
+                                    kurdishText:
+                                        "ئامانجەکە ئەوەیە کۆنترۆڵی زیاتر بەسەر ژیانی خۆیاندا بدەین بە خەڵکی.",
+                                    onPressedBritish: () =>
+                                        speakcontrols13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols13("en-US"),
                                   ),
                                 ],
                               ),
@@ -816,124 +645,48 @@ class EnglishEntrycontrol extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The government has imposed strict controls on new building."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حکومەت کۆنترۆڵی توندی بەسەر بیناسازی تازەدا سەپاندووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols17("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols17("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The government has imposed strict controls on new building.",
+                                    kurdishText:
+                                        "حکومەت کۆنترۆڵی توندی بەسەر بیناسازی تازەدا سەپاندووە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols17("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols17("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The country has tightened its border controls."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وڵاتەکە کۆنترۆڵی سنوورەکانی توندکردووەتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols18("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols18("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The country has tightened its border controls.",
+                                    kurdishText:
+                                        "وڵاتەکە کۆنترۆڵی سنوورەکانی توندکردووەتەوە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols18("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols18("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "New crime control measures have failed."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەنگاوە تازەکانی کۆنترۆڵی تاوان شکستیان ھێناوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols19("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols19("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "New crime control measures have failed.",
+                                    kurdishText:
+                                        "ھەنگاوە تازەکانی کۆنترۆڵی تاوان شکستیان ھێناوە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols19("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A new advance has been made in the control of malaria."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەرەوپێشچوونێکی تازە ئەنجامدراوە لە کۆنترۆڵکردنی مەلاریادا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols20("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols20("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A new advance has been made in the control of malaria.",
+                                    kurdishText:
+                                        "بەرەوپێشچوونێکی تازە ئەنجامدراوە لە کۆنترۆڵکردنی مەلاریادا.",
+                                    onPressedBritish: () =>
+                                        speakcontrols20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols20("en-US"),
                                   ),
                                 ],
                               ),
@@ -985,124 +738,48 @@ class EnglishEntrycontrol extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Can't you control your children?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ناتوانیت منداڵەکان کۆنترۆڵ بکەیت؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols25("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols25("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Can't you control your children?",
+                                    kurdishText:
+                                        "ناتوانیت منداڵەکان کۆنترۆڵ بکەیت؟",
+                                    onPressedBritish: () =>
+                                        speakcontrols25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols25("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We want to control our own destiny (= decide what happens to us)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەمانەوێت چارەنووسی خۆمان کۆنترۆڵ بکەین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols26("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols26("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We want to control our own destiny (= decide what happens to us).",
+                                    kurdishText:
+                                        "دەمانەوێت چارەنووسی خۆمان کۆنترۆڵ بکەین.",
+                                    onPressedBritish: () =>
+                                        speakcontrols26("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols26("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Government forces have proved incapable of controlling the rebels."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیزەکانی حکومەت بێتوانا بوونە لە کۆنترۆڵکردنی یاخیبووەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols27("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols27("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Government forces have proved incapable of controlling the rebels.",
+                                    kurdishText:
+                                        "ھیزەکانی حکومەت بێتوانا بوونە لە کۆنترۆڵکردنی یاخیبووەکان.",
+                                    onPressedBritish: () =>
+                                        speakcontrols27("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols27("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The National Bank is directly controlled by the government."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بانکە نیشتیمانییەکە ڕاستەوخۆ لەلایەن حکومەتەوە کۆنترۆڵ دەکرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols28("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols28("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The National Bank is directly controlled by the government.",
+                                    kurdishText:
+                                        "بانکە نیشتیمانییەکە ڕاستەوخۆ لەلایەن حکومەتەوە کۆنترۆڵ دەکرێت.",
+                                    onPressedBritish: () =>
+                                        speakcontrols28("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols28("en-US"),
                                   ),
                                 ],
                               ),
@@ -1142,94 +819,37 @@ class EnglishEntrycontrol extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Try to control your breathing."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەوڵ بدە ھەناسەدانت کۆنترۆڵ بکەیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols32("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols32("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Try to control your breathing.",
+                                    kurdishText:
+                                        "ھەوڵ بدە ھەناسەدانت کۆنترۆڵ بکەیت.",
+                                    onPressedBritish: () =>
+                                        speakcontrols32("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols32("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They built a reservoir to control the flow of water."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "عەماراوێکیان درووستکرد بۆ کۆنترۆڵی چۆڕانی ئاوەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols33("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols33("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They built a reservoir to control the flow of water.",
+                                    kurdishText:
+                                        "عەماراوێکیان درووستکرد بۆ کۆنترۆڵی چۆڕانی ئاوەکە.",
+                                    onPressedBritish: () =>
+                                        speakcontrols33("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols33("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Parents should control what their kids watch on television."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دایکان و باوکان دەبێت کۆنترۆڵی ئەوە بکەن منداڵەکانیان سەیری چی دەکەن لەسەر تەلەفیزیۆن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontrols34("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontrols34("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Parents should control what their kids watch on television.",
+                                    kurdishText:
+                                        "دایکان و باوکان دەبێت کۆنترۆڵی ئەوە بکەن منداڵەکانیان سەیری چی دەکەن لەسەر تەلەفیزیۆن.",
+                                    onPressedBritish: () =>
+                                        speakcontrols34("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontrols34("en-US"),
                                   ),
                                 ],
                               ),

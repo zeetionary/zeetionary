@@ -237,94 +237,37 @@ class EnglishEntrycircle extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He had dark circles around his eyes from lack of sleep."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بازنەی ڕەشی لە دەوری چاوەکانی ھەبوو بەھۆی کەمی خەوەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcircles4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcircles4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He had dark circles around his eyes from lack of sleep.",
+                                    kurdishText:
+                                        "بازنەی ڕەشی لە دەوری چاوەکانی ھەبوو بەھۆی کەمی خەوەوە.",
+                                    onPressedBritish: () =>
+                                        speakcircles4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcircles4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The sharks were swimming in circles around her."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بازنەکان بە بازنەیەک بە دەوریدا مەلەیان دەکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcircles5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcircles5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The sharks were swimming in circles around her.",
+                                    kurdishText:
+                                        "بازنەکان بە بازنەیەک بە دەوریدا مەلەیان دەکرد.",
+                                    onPressedBritish: () =>
+                                        speakcircles5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcircles5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The planets move in circles around the sun."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەسارەکان لە بازنەدا بە دەوری خۆردا دەسووڕێنەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcircles6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcircles6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The planets move in circles around the sun.",
+                                    kurdishText:
+                                        "ھەسارەکان لە بازنەدا بە دەوری خۆردا دەسووڕێنەوە.",
+                                    onPressedBritish: () =>
+                                        speakcircles6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcircles6("en-US"),
                                   ),
                                 ],
                               ),

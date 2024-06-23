@@ -292,68 +292,28 @@ class EnglishEntryclimb extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "As they climbed higher, the air became cooler."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کە زیاتر سەرکەوتن، کەشەکە ساردتر بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimbs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimbs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He climbed up and inspected the damage to the roof."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چووە سەرەوە و زیانی سەربانەکەی پشکنی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimbs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimbs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "As they climbed higher, the air became cooler.",
+                                    kurdishText:
+                                        "کە زیاتر سەرکەوتن، کەشەکە ساردتر بوو.",
+                                    onPressedBritish: () =>
+                                        speakclimbs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimbs3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "He climbed up and inspected the damage to the roof.",
+                            kurdishText:
+                                "چووە سەرەوە و زیانی سەربانەکەی پشکنی.",
+                            onPressedBritish: () => speakclimbs4("en-GB"),
+                            onPressedAmerican: () => speakclimbs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -388,67 +348,26 @@ class EnglishEntryclimb extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "Can you climb down?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەتوانیت دابەزیتە خوارەوە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimbs8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimbs8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He climbed into the truck and drove off."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چووە سەر بارھەڵگرەکە و بۆ دوور لێیخوڕی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimbs9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimbs9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Can you climb down?",
+                                    kurdishText: "دەتوانیت دابەزیتە خوارەوە؟",
+                                    onPressedBritish: () =>
+                                        speakclimbs8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimbs8("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "He climbed into the truck and drove off.",
+                            kurdishText:
+                                "چووە سەر بارھەڵگرەکە و بۆ دوور لێیخوڕی.",
+                            onPressedBritish: () => speakclimbs9("en-GB"),
+                            onPressedAmerican: () => speakclimbs9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -473,68 +392,28 @@ class EnglishEntryclimb extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Prices have climbed sharply in recent months."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە چەند مانگی ڕابردوودا نرخەکان بە خێرایی بەرزبوونەتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimbs12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimbs12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The dollar has been climbing all week."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواوی ھەفتەکە نرخی دۆلار بەرزبووەتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimbs13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimbs13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Prices have climbed sharply in recent months.",
+                                    kurdishText:
+                                        "لە چەند مانگی ڕابردوودا نرخەکان بە خێرایی بەرزبوونەتەوە.",
+                                    onPressedBritish: () =>
+                                        speakclimbs12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimbs12("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The dollar has been climbing all week.",
+                            kurdishText:
+                                "تەواوی ھەفتەکە نرخی دۆلار بەرزبووەتەوە.",
+                            onPressedBritish: () => speakclimbs13("en-GB"),
+                            onPressedAmerican: () => speakclimbs13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

@@ -224,94 +224,36 @@ class EnglishEntrycheap extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Cycling is a cheap way to get around."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پاسکیلسواری ڕێگایەکی ھەرزانە بۆ ھاتوچۆ."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcheaps3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcheaps3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Cycling is a cheap way to get around.",
+                                    kurdishText:
+                                        "پاسکیلسواری ڕێگایەکی ھەرزانە بۆ ھاتوچۆ.",
+                                    onPressedBritish: () =>
+                                        speakcheaps3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcheaps3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A good education is not cheap."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خوێندنی باش ھەرزان نییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcheaps4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcheaps4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A good education is not cheap.",
+                                    kurdishText: "خوێندنی باش ھەرزان نییە.",
+                                    onPressedBritish: () =>
+                                        speakcheaps4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcheaps4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Electricity is relatively cheap in Ireland."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کارەبا تاڕادەیەک ھەرزانە لە ئێرلەندا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcheaps5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcheaps5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Electricity is relatively cheap in Ireland.",
+                                    kurdishText:
+                                        "کارەبا تاڕادەیەک ھەرزانە لە ئێرلەندا.",
+                                    onPressedBritish: () =>
+                                        speakcheaps5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcheaps5("en-US"),
                                   ),
                                 ],
                               ),

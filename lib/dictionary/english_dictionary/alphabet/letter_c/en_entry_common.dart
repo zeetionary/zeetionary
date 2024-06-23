@@ -265,124 +265,48 @@ class EnglishEntrycommon extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Heart disease was the most common cause of death in those aged over 85."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نەخۆشی دڵ باوترین ھۆکاری مردن بوو لە کەسانی تەمەن سەروو ٨٥ ساڵدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Heart disease was the most common cause of death in those aged over 85.",
+                                    kurdishText:
+                                        "نەخۆشی دڵ باوترین ھۆکاری مردن بوو لە کەسانی تەمەن سەروو ٨٥ ساڵدا.",
+                                    onPressedBritish: () =>
+                                        speakcommons3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The disease is very common in young horses."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم نەخۆشییە زۆر باوە لەناو بەچکە ئەسپدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The disease is very common in young horses.",
+                                    kurdishText:
+                                        "ئەم نەخۆشییە زۆر باوە لەناو بەچکە ئەسپدا.",
+                                    onPressedBritish: () =>
+                                        speakcommons4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Allergies to milk are quite common in childhood."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەستیاری بە شیر زۆر باوە لە منداڵیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Allergies to milk are quite common in childhood.",
+                                    kurdishText:
+                                        "ھەستیاری بە شیر زۆر باوە لە منداڵیدا.",
+                                    onPressedBritish: () =>
+                                        speakcommons5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Stomach pain is very common in children."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئازاری گەدە زۆر باوە لە منداڵاندا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Stomach pain is very common in children.",
+                                    kurdishText:
+                                        "ئازاری گەدە زۆر باوە لە منداڵاندا.",
+                                    onPressedBritish: () =>
+                                        speakcommons6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons6("en-US"),
                                   ),
                                 ],
                               ),
@@ -412,64 +336,26 @@ class EnglishEntrycommon extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This decision was taken for the common good (= the advantage of everyone)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم بڕیارە بۆ چاکەی ھەموان درا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This decision was taken for the common good (= the advantage of everyone).",
+                                    kurdishText:
+                                        "ئەم بڕیارە بۆ چاکەی ھەموان درا.",
+                                    onPressedBritish: () =>
+                                        speakcommons9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons9("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This attitude is common to most young men in the armed services."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم ھەڵسوکەوتە گشتییە لەناو زۆرینەی پیاوانی گەنجی سوپادا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This attitude is common to most young men in the armed services.",
+                                    kurdishText:
+                                        "ئەم ھەڵسوکەوتە گشتییە لەناو زۆرینەی پیاوانی گەنجی سوپادا.",
+                                    onPressedBritish: () =>
+                                        speakcommons10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons10("en-US"),
                                   ),
                                 ],
                               ),
@@ -500,64 +386,26 @@ class EnglishEntrycommon extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It's only common decency to let her know what's happening (= people would expect it)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەوە تەنھا دابودەستووری چاوەڕواکراوە کە پێی بڵێیت چی ڕوودەدات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It's only common decency to let her know what's happening (= people would expect it).",
+                                    kurdishText:
+                                        "ئەوە تەنھا دابودەستووری چاوەڕواکراوە کە پێی بڵێیت چی ڕوودەدات.",
+                                    onPressedBritish: () =>
+                                        speakcommons13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons13("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This was the staple food of the common people."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەمە خواردنی سەرەکی خەڵکی بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommons14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommons14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This was the staple food of the common people.",
+                                    kurdishText:
+                                        "ئەمە خواردنی سەرەکی خەڵکی بوو.",
+                                    onPressedBritish: () =>
+                                        speakcommons14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommons14("en-US"),
                                   ),
                                 ],
                               ),

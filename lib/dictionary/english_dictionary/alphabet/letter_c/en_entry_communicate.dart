@@ -194,154 +194,59 @@ class EnglishEntrycommunicate extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Candidates must be able to communicate effectively."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەربژێران دەبێت بە کاریگەری گفتوگۆ بکەن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunicates3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunicates3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Candidates must be able to communicate effectively.",
+                                    kurdishText:
+                                        "بەربژێران دەبێت بە کاریگەری گفتوگۆ بکەن.",
+                                    onPressedBritish: () =>
+                                        speakcommunicates3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunicates3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Dolphins use sound to communicate with each other."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دۆڵفینەکان دەنگ بەکاردێنن بۆ گفتوگۆکردن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunicates4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunicates4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Dolphins use sound to communicate with each other.",
+                                    kurdishText:
+                                        "دۆڵفینەکان دەنگ بەکاردێنن بۆ گفتوگۆکردن.",
+                                    onPressedBritish: () =>
+                                        speakcommunicates4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunicates4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "In times of uncertainty, a leader must be able to communicate a message of hope."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە ماوەی دڵەخورپەدا، سەرکردە دەبێت پەیامێکی ھیوا ببەخشێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunicates5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunicates5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "In times of uncertainty, a leader must be able to communicate a message of hope.",
+                                    kurdishText:
+                                        "لە ماوەی دڵەخورپەدا، سەرکردە دەبێت پەیامێکی ھیوا ببەخشێت.",
+                                    onPressedBritish: () =>
+                                        speakcommunicates5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunicates5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Language evolved as a means of communicating information between individuals."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زمان پەرەی سەند وەک ئامرازێکی ئاڵوگۆڕی زانیاری لە نێوان کەسەکاندا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunicates6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunicates6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Language evolved as a means of communicating information between individuals.",
+                                    kurdishText:
+                                        "زمان پەرەی سەند وەک ئامرازێکی ئاڵوگۆڕی زانیاری لە نێوان کەسەکاندا.",
+                                    onPressedBritish: () =>
+                                        speakcommunicates6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunicates6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was eager to communicate his ideas to the group."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەپەرۆش بوو بیرۆکەکانی بدات بە گرووپەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunicates7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunicates7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was eager to communicate his ideas to the group.",
+                                    kurdishText:
+                                        "بەپەرۆش بوو بیرۆکەکانی بدات بە گرووپەکە.",
+                                    onPressedBritish: () =>
+                                        speakcommunicates7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunicates7("en-US"),
                                   ),
                                 ],
                               ),

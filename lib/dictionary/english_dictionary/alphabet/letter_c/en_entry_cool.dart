@@ -426,92 +426,33 @@ class EnglishEntrycool extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "It's a cool movie."),
-                                            ExampleSentenceKurdish(
-                                                text: "فیلمێکی خۆشە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcools9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcools9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "It's a cool movie.",
+                                    kurdishText: "فیلمێکی خۆشە.",
+                                    onPressedBritish: () =>
+                                        speakcools9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcools9("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She has lots of cool ideas."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زۆر بیرۆکەی جوانی ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcools10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcools10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "She has lots of cool ideas.",
+                                    kurdishText: "زۆر بیرۆکەی جوانی ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcools10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcools10("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I think their new song's really cool."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پێموایە گۆرانییە تازەکەیان زۆر خۆشە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcools11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcools11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I think their new song's really cool.",
+                                    kurdishText:
+                                        "پێموایە گۆرانییە تازەکەیان زۆر خۆشە.",
+                                    onPressedBritish: () =>
+                                        speakcools11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcools11("en-US"),
                                   ),
                                 ],
                               ),

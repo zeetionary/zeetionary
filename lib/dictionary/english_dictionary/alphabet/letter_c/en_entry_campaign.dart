@@ -217,68 +217,28 @@ class EnglishEntrycampaign extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She led the campaign for parliamentary reform."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرکردایەتی ھەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcampaigns3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcampaigns3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She led a successful campaign against the closure of the library."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcampaigns4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcampaigns4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She led the campaign for parliamentary reform.",
+                                    kurdishText:
+                                        "سەرکردایەتی ھەڵمەتی چاکسازیی پەرلەمانی دەکرد.",
+                                    onPressedBritish: () =>
+                                        speakcampaigns3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcampaigns3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "She led a successful campaign against the closure of the library.",
+                            kurdishText:
+                                "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە.",
+                            onPressedBritish: () => speakcampaigns4("en-GB"),
+                            onPressedAmerican: () => speakcampaigns4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

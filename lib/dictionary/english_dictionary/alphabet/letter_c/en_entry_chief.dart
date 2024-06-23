@@ -201,195 +201,108 @@ class EnglishEntrychief extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her chief rival for the gold medal is Jones of the USA."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕکابەری سەرەکیی بۆ مەدالیای زێڕ جۆن بوو لە ئەمریکاوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchiefs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchiefs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Her chief rival for the gold medal is Jones of the USA.",
+                                    kurdishText:
+                                        "ڕکابەری سەرەکیی بۆ مەدالیای زێڕ جۆن بوو لە ئەمریکاوە.",
+                                    onPressedBritish: () =>
+                                        speakchiefs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchiefs3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The lion is the zebra's chief enemy."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شێر دوژمنی سەرەکیی کەرەکێوییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchiefs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchiefs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The lion is the zebra's chief enemy.",
+                                    kurdishText:
+                                        "شێر دوژمنی سەرەکیی کەرەکێوییە.",
+                                    onPressedBritish: () =>
+                                        speakchiefs4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchiefs4("en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) باڵترین لە پێگەدا"),
-                          SentencesRow(
-                            englishText:
-                                "The new police chief has really made his presence felt.",
-                            kurdishText:
-                                "بەڕێوبەرە تازەکەی پۆلیس جێ‌دەستی خۆی پیشانداوە.",
-                            onPressedBritish: () => speakchiefs5("en-GB"),
-                            onPressedAmerican: () => speakchiefs5("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "He was a Zulu chief.",
-                            kurdishText: "سەرۆکی (تیرەی) زولو بوو.",
-                            onPressedBritish: () => speakchiefs6("en-GB"),
-                            onPressedAmerican: () => speakchiefs6("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) کەسێک کە پلەی بەرزە یان بەرزترین پلەی ھەیە لە کۆمپانیایەک یان دامەزراوەیەک"),
-                          SentencesRow(
-                            englishText:
-                                "She is Washington bureau chief for The New York Times.",
-                            kurdishText:
-                                "کاربەدەستی بەشی واشنتۆنە بۆ ڕۆژنامەی نیویۆرک تایمز.",
-                            onPressedBritish: () => speakchiefs7("en-GB"),
-                            onPressedAmerican: () => speakchiefs7("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "He served as chief of police between 2002 and 2009.",
-                            kurdishText:
-                                "وەک بەڕێوبەری پۆلیس کاربەدەست بوو لە ٢٠٠٢ بۆ ٢٠٠٩.",
-                            onPressedBritish: () => speakchiefs8("en-GB"),
-                            onPressedAmerican: () => speakchiefs8("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text: "٢. (ھاوەڵناو) باڵترین لە پێگەدا"),
+                                  SentencesRow(
+                                    englishText:
+                                        "The new police chief has really made his presence felt.",
+                                    kurdishText:
+                                        "بەڕێوبەرە تازەکەی پۆلیس جێ‌دەستی خۆی پیشانداوە.",
+                                    onPressedBritish: () =>
+                                        speakchiefs5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchiefs5("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "He was a Zulu chief.",
+                                    kurdishText: "سەرۆکی (تیرەی) زولو بوو.",
+                                    onPressedBritish: () =>
+                                        speakchiefs6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchiefs6("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (ناو) کەسێک کە پلەی بەرزە یان بەرزترین پلەی ھەیە لە کۆمپانیایەک یان دامەزراوەیەک"),
+                                  SentencesRow(
+                                    englishText:
+                                        "She is Washington bureau chief for The New York Times.",
+                                    kurdishText:
+                                        "کاربەدەستی بەشی واشنتۆنە بۆ ڕۆژنامەی نیویۆرک تایمز.",
+                                    onPressedBritish: () =>
+                                        speakchiefs7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchiefs7("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "He served as chief of police between 2002 and 2009.",
+                                    kurdishText:
+                                        "وەک بەڕێوبەری پۆلیس کاربەدەست بوو لە ٢٠٠٢ بۆ ٢٠٠٩.",
+                                    onPressedBritish: () =>
+                                        speakchiefs8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchiefs8("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was appointed chief of the Fire Department."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وەک بەرپرسی بەشی ئاگرکوژێنەوە دانرا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          SentencesRow(
+                                            englishText:
+                                                "He was appointed chief of the Fire Department.",
+                                            kurdishText:
+                                                "وەک بەرپرسی بەشی ئاگرکوژێنەوە دانرا.",
+                                            onPressedBritish: () =>
                                                 speakchiefs9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchiefs9("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Security chiefs are keeping their men on full alert after the bomb threat."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەرپرسانی ئەمنی پیاوەکانیان لەوپەڕی ئامادەباشی ھێشتووەتەوە لە دوای ھەڕەشەی بۆمبەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "Security chiefs are keeping their men on full alert after the bomb threat.",
+                                            kurdishText:
+                                                "بەرپرسانی ئەمنی پیاوەکانیان لەوپەڕی ئامادەباشی ھێشتووەتەوە لە دوای ھەڕەشەی بۆمبەکە.",
+                                            onPressedBritish: () =>
                                                 speakchiefs10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchiefs10("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We spoke to a former CIA chief of European operations."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دواین لەگەڵ بەرپرسێکی پێشووتری سی‌ئای‌ئەی بۆ ئۆپەراسیۆنەکانی ئەورووپا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "We spoke to a former CIA chief of European operations.",
+                                            kurdishText:
+                                                "دواین لەگەڵ بەرپرسێکی پێشووتری سی‌ئای‌ئەی بۆ ئۆپەراسیۆنەکانی ئەورووپا.",
+                                            onPressedBritish: () =>
                                                 speakchiefs11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchiefs11("en-US"),
                                           ),
                                         ],

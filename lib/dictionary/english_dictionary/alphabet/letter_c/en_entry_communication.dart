@@ -192,124 +192,48 @@ class EnglishEntrycommunication extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We are in regular communication by email."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە پەیوەندی بەردەوامداین بە ئیمەیڵ."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunications3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunications3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We are in regular communication by email.",
+                                    kurdishText:
+                                        "لە پەیوەندی بەردەوامداین بە ئیمەیڵ.",
+                                    onPressedBritish: () =>
+                                        speakcommunications3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunications3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I haven't had any communication with him for several years."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بۆ چەندین ساڵە ھیچ گفتوگۆم لەگەڵیدا نەبووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunications4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunications4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I haven't had any communication with him for several years.",
+                                    kurdishText:
+                                        "بۆ چەندین ساڵە ھیچ گفتوگۆم لەگەڵیدا نەبووە.",
+                                    onPressedBritish: () =>
+                                        speakcommunications4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunications4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Letters are their only means of communication."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نامە تەنھا ئامرازی گفتوگۆیانە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunications5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunications5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Letters are their only means of communication.",
+                                    kurdishText:
+                                        "نامە تەنھا ئامرازی گفتوگۆیانە.",
+                                    onPressedBritish: () =>
+                                        speakcommunications5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunications5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We are in regular communication with the kidnappers."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە گفتوگۆی بەردەوامداین لەگەڵ ڕفێنەرەکاندا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunications6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunications6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We are in regular communication with the kidnappers.",
+                                    kurdishText:
+                                        "لە گفتوگۆی بەردەوامداین لەگەڵ ڕفێنەرەکاندا.",
+                                    onPressedBritish: () =>
+                                        speakcommunications6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunications6("en-US"),
                                   ),
                                 ],
                               ),

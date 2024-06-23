@@ -271,94 +271,37 @@ class EnglishEntryconnect extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The rooms on this floor connect."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ژوورەکانی ئەم نھۆمە تێکەڵ دەبن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnects3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnects3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The rooms on this floor connect.",
+                                    kurdishText:
+                                        "ژوورەکانی ئەم نھۆمە تێکەڵ دەبن.",
+                                    onPressedBritish: () =>
+                                        speakconnects3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnects3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A corridor connects his office with the main building."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕێڕەوێک ئۆفیسەکەی بە بینا سەرەکییەکەوە دەبەستێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnects4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnects4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A corridor connects his office with the main building.",
+                                    kurdishText:
+                                        "ڕێڕەوێک ئۆفیسەکەی بە بینا سەرەکییەکەوە دەبەستێتەوە.",
+                                    onPressedBritish: () =>
+                                        speakconnects4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnects4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The canal was built to connect the city with the port."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەناڵەکە درووستکرا بۆ گرێدانی شارەکە بە بەندەرەکەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnects5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnects5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The canal was built to connect the city with the port.",
+                                    kurdishText:
+                                        "کەناڵەکە درووستکرا بۆ گرێدانی شارەکە بە بەندەرەکەوە.",
+                                    onPressedBritish: () =>
+                                        speakconnects5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnects5("en-US"),
                                   ),
                                 ],
                               ),

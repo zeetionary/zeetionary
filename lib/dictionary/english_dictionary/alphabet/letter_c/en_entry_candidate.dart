@@ -220,68 +220,28 @@ class EnglishEntrycandidate extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The party is fielding more candidates than ever before."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پارتەکە زیاتر لە ھەر کاتێکی دیکە بەربژێر دەپاڵێوێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcandidates3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcandidates3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Our organization is putting up five candidates in the elections."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دامەزراوەکە چوار کاندید بەربژێر دەکات لە ھەڵبژاردنەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcandidates4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcandidates4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The party is fielding more candidates than ever before.",
+                                    kurdishText:
+                                        "پارتەکە زیاتر لە ھەر کاتێکی دیکە بەربژێر دەپاڵێوێت.",
+                                    onPressedBritish: () =>
+                                        speakcandidates3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcandidates3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Our organization is putting up five candidates in the elections.",
+                            kurdishText:
+                                "دامەزراوەکە چوار کاندید بەربژێر دەکات لە ھەڵبژاردنەکان.",
+                            onPressedBritish: () => speakcandidates4("en-GB"),
+                            onPressedAmerican: () => speakcandidates4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

@@ -219,99 +219,43 @@ class EnglishEntrycalculate extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Use the formula to calculate the volume of the container."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھاوکێشەکە بەکاربھێنە بۆ دۆزینەوەی قەبارەی دەفرەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Use the formula to calculate the volume of the container.",
+kurdishText:
+                                                    "ھاوکێشەکە بەکاربھێنە بۆ دۆزینەوەی قەبارەی دەفرەکە.",
+  onPressedBritish: () =>
                                                 speakcalculates3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalculates3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "You'll need to calculate how much time the assignment will take."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "You'll need to calculate how much time the assignment will take.",
+kurdishText:
+                                                    "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت.",
+  onPressedBritish: () =>
                                                 speakcalculates4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalculates4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The sum involved was calculated at £82 million."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "The sum involved was calculated at £82 million.",
+kurdishText:
+                                                    "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا.",
+  onPressedBritish: () =>
                                                 speakcalculates5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalculates5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
+                          ],
+),
+],
+),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -337,34 +281,15 @@ class EnglishEntrycalculate extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I tried to calculate how much time it would take me to get there."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "I tried to calculate how much time it would take me to get there.",
+kurdishText:
+                                                    "ھەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ.",
+  onPressedBritish: () =>
                                                 speakcalculates8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcalculates8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                 ],
                               ),

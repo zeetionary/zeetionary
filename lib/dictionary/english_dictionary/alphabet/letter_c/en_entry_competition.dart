@@ -196,94 +196,37 @@ class EnglishEntrycompetition extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "There will be a painting competition for children of different age groups."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕکابەرییەک دەبێت بۆ منداڵانی تەمەنە جیاوازەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompetitions3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompetitions3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "There will be a painting competition for children of different age groups.",
+                                    kurdishText:
+                                        "ڕکابەرییەک دەبێت بۆ منداڵانی تەمەنە جیاوازەکان.",
+                                    onPressedBritish: () =>
+                                        speakcompetitions3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompetitions3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We're going to have a competition to see who can swim the fastest."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پێشبڕکێیەکمان دەبێت بۆ زانینی ئەوەی کێ خێراترین مەلە دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompetitions4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompetitions4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We're going to have a competition to see who can swim the fastest.",
+                                    kurdishText:
+                                        "پێشبڕکێیەکمان دەبێت بۆ زانینی ئەوەی کێ خێراترین مەلە دەکات.",
+                                    onPressedBritish: () =>
+                                        speakcompetitions4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompetitions4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The competition is open to all readers of the magazine."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕکابەرییەکە کراوەیە بۆ ھەموو خوێنەرانی گۆڤارەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompetitions5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompetitions5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The competition is open to all readers of the magazine.",
+                                    kurdishText:
+                                        "ڕکابەرییەکە کراوەیە بۆ ھەموو خوێنەرانی گۆڤارەکە.",
+                                    onPressedBritish: () =>
+                                        speakcompetitions5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompetitions5("en-US"),
                                   ),
                                 ],
                               ),

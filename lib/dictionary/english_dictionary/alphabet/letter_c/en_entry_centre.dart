@@ -315,68 +315,28 @@ class EnglishEntrycentre extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The statue is in the very centre of the temple."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پەیکەرەکە لە ناوەندی پەرستگاکەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcentres3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcentres3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Aristotle believed that the Earth was at the centre of the universe."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەرستۆ باوەڕی وابوو زەوی لە چەقی گەردوونە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcentres4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcentres4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The statue is in the very centre of the temple.",
+                                    kurdishText:
+                                        "پەیکەرەکە لە ناوەندی پەرستگاکەیە.",
+                                    onPressedBritish: () =>
+                                        speakcentres3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcentres3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Aristotle believed that the Earth was at the centre of the universe.",
+                            kurdishText:
+                                "ئەرستۆ باوەڕی وابوو زەوی لە چەقی گەردوونە.",
+                            onPressedBritish: () => speakcentres4("en-GB"),
+                            onPressedAmerican: () => speakcentres4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

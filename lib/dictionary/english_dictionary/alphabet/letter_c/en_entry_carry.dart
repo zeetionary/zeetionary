@@ -514,68 +514,28 @@ class EnglishEntrycarry extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She carried her baby in her arms."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵەکەیی لە باوەشیدا ھەڵگرتبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcarrys3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcarrys3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These books are too heavy for me to carry."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم کتێبانە زۆر قوورسن بۆم کە ھەڵیان بگرم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcarrys4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcarrys4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She carried her baby in her arms.",
+                                    kurdishText:
+                                        "منداڵەکەیی لە باوەشیدا ھەڵگرتبوو.",
+                                    onPressedBritish: () =>
+                                        speakcarrys3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcarrys3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "These books are too heavy for me to carry.",
+                            kurdishText:
+                                "ئەم کتێبانە زۆر قوورسن بۆم کە ھەڵیان بگرم.",
+                            onPressedBritish: () => speakcarrys4("en-GB"),
+                            onPressedAmerican: () => speakcarrys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

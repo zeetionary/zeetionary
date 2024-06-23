@@ -515,68 +515,28 @@ class EnglishEntrycare extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "With proper care, the plants may last for fifty years."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە چاودێریی باشەوە، ڕووەکەکان ڕەنگە بۆ پەنجا ساڵ بژین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcares3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcares3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The children were left in the care of a neighbour."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵەکان لەژێر چاودێریی دراوسێیەک جێھێڵدران."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcares4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcares4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "With proper care, the plants may last for fifty years.",
+                                    kurdishText:
+                                        "بە چاودێریی باشەوە، ڕووەکەکان ڕەنگە بۆ پەنجا ساڵ بژین.",
+                                    onPressedBritish: () =>
+                                        speakcares3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcares3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The children were left in the care of a neighbour.",
+                            kurdishText:
+                                "منداڵەکان لەژێر چاودێریی دراوسێیەک جێھێڵدران.",
+                            onPressedBritish: () => speakcares4("en-GB"),
+                            onPressedAmerican: () => speakcares4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -672,68 +632,27 @@ class EnglishEntrycare extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She cares deeply about environmental issues."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواو گرنگی دەدات بە کێشە ژینگەییەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcares14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcares14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I don't really care about how much it costs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گرنگ نییە لام چەندە تێچووی ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcares15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcares15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She cares deeply about environmental issues.",
+                                    kurdishText:
+                                        "تەواو گرنگی دەدات بە کێشە ژینگەییەکان.",
+                                    onPressedBritish: () =>
+                                        speakcares14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcares14("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I don't really care about how much it costs.",
+                            kurdishText: "گرنگ نییە لام چەندە تێچووی ھەیە.",
+                            onPressedBritish: () => speakcares15("en-GB"),
+                            onPressedAmerican: () => speakcares15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

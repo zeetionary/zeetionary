@@ -209,38 +209,15 @@ class EnglishEntrycake extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I blew out the candles on my birthday cake."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مۆمەکانی سەر کێکی لەدایکبوونەکەم کوژاندەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcakes3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcakes3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I blew out the candles on my birthday cake.",
+                                    kurdishText:
+                                        "مۆمەکانی سەر کێکی لەدایکبوونەکەم کوژاندەوە.",
+                                    onPressedBritish: () =>
+                                        speakcakes3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcakes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -261,6 +238,10 @@ class EnglishEntrycake extends StatelessWidget {
                             onPressedBritish: () => speakcakes5("en-GB"),
                             onPressedAmerican: () => speakcakes5("en-US"),
                           ),
+                          ],
+),
+],
+),
                         ],
                       ),
                     ),

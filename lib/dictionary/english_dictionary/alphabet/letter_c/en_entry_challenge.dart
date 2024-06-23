@@ -219,68 +219,28 @@ class EnglishEntrychallenge extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Destruction of the environment is one of the most serious challenges we face."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لەناوبردنی ژینگە یەکێکە لەو سەختییە دژوارانەی کە ڕووبەڕووی دەبینەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchallenges3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchallenges3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The greatest challenge facing the region is unemployment."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گەورەترین دژواری ژە ڕووبەڕووی ھەرێمەکە بووەتەوە بێ‌کارییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchallenges4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchallenges4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Destruction of the environment is one of the most serious challenges we face.",
+                                    kurdishText:
+                                        "لەناوبردنی ژینگە یەکێکە لەو سەختییە دژوارانەی کە ڕووبەڕووی دەبینەوە.",
+                                    onPressedBritish: () =>
+                                        speakchallenges3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchallenges3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The greatest challenge facing the region is unemployment.",
+                            kurdishText:
+                                "گەورەترین دژواری ژە ڕووبەڕووی ھەرێمەکە بووەتەوە بێ‌کارییە.",
+                            onPressedBritish: () => speakchallenges4("en-GB"),
+                            onPressedAmerican: () => speakchallenges4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

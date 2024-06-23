@@ -292,94 +292,35 @@ class EnglishEntrycolour extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her hair is a reddish-brown colour."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "قژی ڕەنگێکی قاوەیی سوورباوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcolours3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcolours3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Her hair is a reddish-brown colour.",
+                                    kurdishText: "قژی ڕەنگێکی قاوەیی سوورباوە.",
+                                    onPressedBritish: () =>
+                                        speakcolours3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcolours3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The stage lights changed colour from red to blue."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لایتەکانی ئەم ستەیجە ڕەنگیان گۆڕی لە سوورەوە بۆ شین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcolours4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcolours4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The stage lights changed colour from red to blue.",
+                                    kurdishText:
+                                        "لایتەکانی ئەم ستەیجە ڕەنگیان گۆڕی لە سوورەوە بۆ شین.",
+                                    onPressedBritish: () =>
+                                        speakcolours4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcolours4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Dark colours suit you best."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕەنگە تاریکەکانت زیاترین لێدێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcolours5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcolours5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Dark colours suit you best.",
+                                    kurdishText:
+                                        "ڕەنگە تاریکەکانت زیاترین لێدێت.",
+                                    onPressedBritish: () =>
+                                        speakcolours5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcolours5("en-US"),
                                   ),
                                 ],
                               ),

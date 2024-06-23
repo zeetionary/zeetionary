@@ -350,94 +350,37 @@ class EnglishEntryclaim extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Scientists are claiming a major breakthrough in the fight against cancer."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زاناکان بانگەشەی پەرەسەندنێکی گەورە دەکەن لە جەنگی دژ بە شێرپەنجە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Scientists are claiming a major breakthrough in the fight against cancer.",
+                                    kurdishText:
+                                        "زاناکان بانگەشەی پەرەسەندنێکی گەورە دەکەن لە جەنگی دژ بە شێرپەنجە.",
+                                    onPressedBritish: () =>
+                                        speakclaims3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It was claimed that some doctors were working 80 hours a week."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بانگەشەی ئەوە دەکرا ھەندێک پزیشک ٨٠ کاتژمێر لە ھەفتەیەکدا کاردەکەن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It was claimed that some doctors were working 80 hours a week.",
+                                    kurdishText:
+                                        "بانگەشەی ئەوە دەکرا ھەندێک پزیشک ٨٠ کاتژمێر لە ھەفتەیەکدا کاردەکەن.",
+                                    onPressedBritish: () =>
+                                        speakclaims4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Some critics claimed that the play was too complicated."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەندێک ڕەخنەگر بانگەشەی ئەوەیان کرد کە شانۆکە زۆر ئاڵۆز بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Some critics claimed that the play was too complicated.",
+                                    kurdishText:
+                                        "ھەندێک ڕەخنەگر بانگەشەی ئەوەیان کرد کە شانۆکە زۆر ئاڵۆز بوو.",
+                                    onPressedBritish: () =>
+                                        speakclaims5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims5("en-US"),
                                   ),
                                 ],
                               ),
@@ -489,64 +432,26 @@ class EnglishEntryclaim extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She claimed damages from the company for the injury she had suffered."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "داوای پارەی قەرەبووی لە کۆمپانیاکە کرد بۆ ئەو برینەی تووشی بووبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She claimed damages from the company for the injury she had suffered.",
+                                    kurdishText:
+                                        "داوای پارەی قەرەبووی لە کۆمپانیاکە کرد بۆ ئەو برینەی تووشی بووبوو.",
+                                    onPressedBritish: () =>
+                                        speakclaims10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims10("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She is entitled to claim a deduction for travel costs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مافی ئەوەی ھەیە داوای داشکان بۆ تێچووی ھاتووچۆ بکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She is entitled to claim a deduction for travel costs.",
+                                    kurdishText:
+                                        "مافی ئەوەی ھەیە داوای داشکان بۆ تێچووی ھاتووچۆ بکات.",
+                                    onPressedBritish: () =>
+                                        speakclaims11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims11("en-US"),
                                   ),
                                 ],
                               ),
@@ -637,94 +542,37 @@ class EnglishEntryclaim extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Claims of corruption within the police force were denied."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بانگەشەی گەندەڵی لەناو ھێزی پۆلیس نکۆڵی لێکرا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims20("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims20("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Claims of corruption within the police force were denied.",
+                                    kurdishText:
+                                        "بانگەشەی گەندەڵی لەناو ھێزی پۆلیس نکۆڵی لێکرا.",
+                                    onPressedBritish: () =>
+                                        speakclaims20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims20("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "There are conflicting claims about the cause of the fire."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لێدوانی دژبەیەک ھەیە لەسەر ھۆکاری ئاگرەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims21("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims21("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "There are conflicting claims about the cause of the fire.",
+                                    kurdishText:
+                                        "لێدوانی دژبەیەک ھەیە لەسەر ھۆکاری ئاگرەکە.",
+                                    onPressedBritish: () =>
+                                        speakclaims21("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims21("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We have heard claims like this many times before."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لێدوانی وەک ئەمەمان زۆر جارانی دیکە بیستووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims22("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims22("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We have heard claims like this many times before.",
+                                    kurdishText:
+                                        "لێدوانی وەک ئەمەمان زۆر جارانی دیکە بیستووە.",
+                                    onPressedBritish: () =>
+                                        speakclaims22("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims22("en-US"),
                                   ),
                                 ],
                               ),
@@ -755,34 +603,15 @@ class EnglishEntryclaim extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The court denied their claim for compensation."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دادگا داخوازییەکەیان بۆ قەرەبوو ڕەتکردەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclaims25("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclaims25("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The court denied their claim for compensation.",
+                                    kurdishText:
+                                        "دادگا داخوازییەکەیان بۆ قەرەبوو ڕەتکردەوە.",
+                                    onPressedBritish: () =>
+                                        speakclaims25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclaims25("en-US"),
                                   ),
                                 ],
                               ),

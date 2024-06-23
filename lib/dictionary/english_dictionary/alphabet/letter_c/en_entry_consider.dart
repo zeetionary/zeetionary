@@ -242,184 +242,68 @@ class EnglishEntryconsider extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Let us consider the facts."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "با ڕاستییەکان ھەڵبسەنگێنین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Let us consider the facts.",
+                                    kurdishText: "با ڕاستییەکان ھەڵبسەنگێنین.",
+                                    onPressedBritish: () =>
+                                        speakconsiders3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We are considering various possibilities."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ژمارەیەک ئەگەر لەبەرچاو دەگرین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We are considering various possibilities.",
+                                    kurdishText:
+                                        "ژمارەیەک ئەگەر لەبەرچاو دەگرین.",
+                                    onPressedBritish: () =>
+                                        speakconsiders4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Have you considered starting your own business?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بیرت لە دەستپێکردنی بازرگانی خۆت کردووەتەوە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Have you considered starting your own business?",
+                                    kurdishText:
+                                        "بیرت لە دەستپێکردنی بازرگانی خۆت کردووەتەوە؟",
+                                    onPressedBritish: () =>
+                                        speakconsiders5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was considering what to do next."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بیری لەوە دەکردەوە دواتر چی بکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was considering what to do next.",
+                                    kurdishText:
+                                        "بیری لەوە دەکردەوە دواتر چی بکات.",
+                                    onPressedBritish: () =>
+                                        speakconsiders6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We are considering her for the job of designer."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەڵیدەسەنگێنین بۆ کاری دیزاینەری."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We are considering her for the job of designer.",
+                                    kurdishText:
+                                        "ھەڵیدەسەنگێنین بۆ کاری دیزاینەری.",
+                                    onPressedBritish: () =>
+                                        speakconsiders7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We're considering buying a new car."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەینەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We're considering buying a new car.",
+                                    kurdishText:
+                                        "بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەینەوە.",
+                                    onPressedBritish: () =>
+                                        speakconsiders8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders8("en-US"),
                                   ),
                                 ],
                               ),
@@ -455,124 +339,48 @@ class EnglishEntryconsider extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She is widely considered to be the greatest player ever."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە بەرفراوانی وەک باشترین یاریزانی ھەمیشەیی دادەنرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She is widely considered to be the greatest player ever.",
+                                    kurdishText:
+                                        "بە بەرفراوانی وەک باشترین یاریزانی ھەمیشەیی دادەنرێت.",
+                                    onPressedBritish: () =>
+                                        speakconsiders12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Who do you consider to be responsible for the accident?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کێ بە بەرپرسیار دەبینیت بۆ ڕووداوەکە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Who do you consider to be responsible for the accident?",
+                                    kurdishText:
+                                        "کێ بە بەرپرسیار دەبینیت بۆ ڕووداوەکە؟",
+                                    onPressedBritish: () =>
+                                        speakconsiders13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders13("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He considers himself an expert on the subject."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خۆی بە شارەزا لە بابەتەکەدا دادەنێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He considers himself an expert on the subject.",
+                                    kurdishText:
+                                        "خۆی بە شارەزا لە بابەتەکەدا دادەنێت.",
+                                    onPressedBritish: () =>
+                                        speakconsiders14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders14("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They will take any steps they consider necessary."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەر ھەنگاوێک دەنێن کە بە پێویستی ببینن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconsiders15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconsiders15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They will take any steps they consider necessary.",
+                                    kurdishText:
+                                        "ھەر ھەنگاوێک دەنێن کە بە پێویستی ببینن.",
+                                    onPressedBritish: () =>
+                                        speakconsiders15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconsiders15("en-US"),
                                   ),
                                 ],
                               ),

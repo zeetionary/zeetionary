@@ -234,105 +234,52 @@ class EnglishEntrycompany extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Company profits were 5 per cent lower than last year."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "قازانجەکانی کۆمپانیا پێنج لە سەد کەمتربوو وەک لە ساڵی پار."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompanys4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompanys4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Company profits were 5 per cent lower than last year.",
+                                    kurdishText:
+                                        "قازانجەکانی کۆمپانیا پێنج لە سەد کەمتربوو وەک لە ساڵی پار.",
+                                    onPressedBritish: () =>
+                                        speakcompanys4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompanys4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He has shares in several companies."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پشكی لە ژمارەیەک کۆمپانیا ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompanys5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompanys5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He has shares in several companies.",
+                                    kurdishText:
+                                        "پشكی لە ژمارەیەک کۆمپانیا ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcompanys5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompanys5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She's been working for the same company for 15 years."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بۆ ١٥ ساڵە بۆ ھەمان کۆمپانیا کاردەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompanys6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompanys6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She's been working for the same company for 15 years.",
+                                    kurdishText:
+                                        "بۆ ١٥ ساڵە بۆ ھەمان کۆمپانیا کاردەکات.",
+                                    onPressedBritish: () =>
+                                        speakcompanys6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompanys6("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "She joined the company in 2009.",
+                                    kurdishText:
+                                        "لە ساڵی ٢٠٠٩ چووە کۆمپانیاکە.",
+                                    onPressedBritish: () =>
+                                        speakcompanys7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompanys7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "She joined the company in 2009.",
-                            kurdishText: "لە ساڵی ٢٠٠٩ چووە کۆمپانیاکە.",
-                            onPressedBritish: () => speakcompanys7("en-GB"),
-                            onPressedAmerican: () => speakcompanys7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

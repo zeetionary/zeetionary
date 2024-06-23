@@ -203,124 +203,48 @@ class EnglishEntrycontinuous extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She was in continuous employment until the age of sixty-five."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لەسەر کاری بەردەوام بووە تاوەکو تەمەنی ٦٥ ساڵی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinuouss3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinuouss3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She was in continuous employment until the age of sixty-five.",
+                                    kurdishText:
+                                        "لەسەر کاری بەردەوام بووە تاوەکو تەمەنی ٦٥ ساڵی.",
+                                    onPressedBritish: () =>
+                                        speakcontinuouss3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinuouss3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He watched television as if it was one continuous programme."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەیری تەلەفیزیۆن دەکرد وەک ئەوەی یەک پڕۆگرامی بەردەوام بێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinuouss4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinuouss4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He watched television as if it was one continuous programme.",
+                                    kurdishText:
+                                        "سەیری تەلەفیزیۆن دەکرد وەک ئەوەی یەک پڕۆگرامی بەردەوام بێت.",
+                                    onPressedBritish: () =>
+                                        speakcontinuouss4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinuouss4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I could hear a faint continuous noise."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گوێم لە خشەخشێکی بەردەوام کز دەبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinuouss5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinuouss5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I could hear a faint continuous noise.",
+                                    kurdishText:
+                                        "گوێم لە خشەخشێکی بەردەوام کز دەبوو.",
+                                    onPressedBritish: () =>
+                                        speakcontinuouss5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinuouss5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It was a week of almost continuous sunshine."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەفتەیەکی نەبڕاوە لە تیشکی خۆر بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontinuouss6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontinuouss6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It was a week of almost continuous sunshine.",
+                                    kurdishText:
+                                        "ھەفتەیەکی نەبڕاوە لە تیشکی خۆر بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontinuouss6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontinuouss6("en-US"),
                                   ),
                                 ],
                               ),

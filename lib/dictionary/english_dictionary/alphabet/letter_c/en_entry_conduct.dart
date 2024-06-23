@@ -244,161 +244,64 @@ class EnglishEntryconduct extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Police conducted a thorough search of the building."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پۆلیس گەڕانێکی تەواوی بیناکەی ئەنجامدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconducts3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconducts3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Police conducted a thorough search of the building.",
+                                    kurdishText:
+                                        "پۆلیس گەڕانێکی تەواوی بیناکەی ئەنجامدا.",
+                                    onPressedBritish: () =>
+                                        speakconducts3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconducts3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Education was conducted separately for males and females."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خوێندن بە جیایی بۆ پیاوان و ژنان ئەنجام دەدرا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconducts4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconducts4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Education was conducted separately for males and females.",
+                                    kurdishText:
+                                        "خوێندن بە جیایی بۆ پیاوان و ژنان ئەنجام دەدرا.",
+                                    onPressedBritish: () =>
+                                        speakconducts4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconducts4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We regularly conduct safety inspections."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زوو زوو پشکنینی سەلامەتی ئەنجام دەدەین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconducts5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconducts5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We regularly conduct safety inspections.",
+                                    kurdishText:
+                                        "زوو زوو پشکنینی سەلامەتی ئەنجام دەدەین.",
+                                    onPressedBritish: () =>
+                                        speakconducts5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconducts5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "People have criticized the way she conducted her election campaign."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خەڵکی سەرکۆنەی شێوازی ئەنجامدانی کەمپینی ھەڵبژاردنەکەی ئەویان کردووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconducts6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconducts6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerDefinition(),
-                                  const DefinitionKurdish(
-                                      text:
-                                          "٢. (کردار) سەرپەرشتیکردنی کۆمەڵە کەسێک کە گۆرانی دەڵێن یان میوزیک دەژەنن"),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The orchestra was conducted by Mira Shapur."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئۆرکێستراکە لەلایەن میرا شاپوورەوە بەڕێوەدەبرا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconducts7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconducts7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "People have criticized the way she conducted her election campaign.",
+                                    kurdishText:
+                                        "خەڵکی سەرکۆنەی شێوازی ئەنجامدانی کەمپینی ھەڵبژاردنەکەی ئەویان کردووە.",
+                                    onPressedBritish: () =>
+                                        speakconducts6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconducts6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) سەرپەرشتیکردنی کۆمەڵە کەسێک کە گۆرانی دەڵێن یان میوزیک دەژەنن"),
+                          SentencesRow(
+                            englishText:
+                                "The orchestra was conducted by Mira Shapur.",
+                            kurdishText:
+                                "ئۆرکێستراکە لەلایەن میرا شاپوورەوە بەڕێوەدەبرا.",
+                            onPressedBritish: () => speakconducts7("en-GB"),
+                            onPressedAmerican: () => speakconducts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

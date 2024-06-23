@@ -172,94 +172,36 @@ class EnglishEntryconfident extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Going to university has made her more confident."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چوونە زانکۆ لەخۆڕادیتووتری کردووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconfidents3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconfidents3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Going to university has made her more confident.",
+                                    kurdishText:
+                                        "چوونە زانکۆ لەخۆڕادیتووتری کردووە.",
+                                    onPressedBritish: () =>
+                                        speakconfidents3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconfidents3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He's becoming more confident as he gets older."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لەخۆڕادیتووتر دەبێت کە بەتەمەنتر دەبێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconfidents4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconfidents4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He's becoming more confident as he gets older.",
+                                    kurdishText:
+                                        "لەخۆڕادیتووتر دەبێت کە بەتەمەنتر دەبێت.",
+                                    onPressedBritish: () =>
+                                        speakconfidents4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconfidents4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She gradually grew more confident."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەم کەم لەخۆڕادیتووتر بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconfidents5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconfidents5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She gradually grew more confident.",
+                                    kurdishText: "کەم کەم لەخۆڕادیتووتر بوو.",
+                                    onPressedBritish: () =>
+                                        speakconfidents5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconfidents5("en-US"),
                                   ),
                                 ],
                               ),

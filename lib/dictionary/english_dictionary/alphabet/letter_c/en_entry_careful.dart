@@ -208,97 +208,36 @@ class EnglishEntrycareful extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He's been careful to avoid significant debt."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە ئاگایە لەوەی لە قەرزی زۆر بە دوور بێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "He's been careful to avoid significant debt.",
+kurdishText:
+                                                    "بە ئاگایە لەوەی لە قەرزی زۆر بە دوور بێت.",
+  onPressedBritish: () =>
                                                 speakcarefuls3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcarefuls3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Be careful what you say."),
-                                            ExampleSentenceKurdish(
-                                                text: "ئاگادار بە چی دەڵێیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Be careful what you say.",
+kurdishText: "ئاگادار بە چی دەڵێیت.",
+  onPressedBritish: () =>
                                                 speakcarefuls4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcarefuls4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Be particularly careful when swimming in the lake."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواو ئاگادار بە کە لە دەریاچەکە مەلە دەکەیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Be particularly careful when swimming in the lake.",
+kurdishText:
+                                                    "تەواو ئاگادار بە کە لە دەریاچەکە مەلە دەکەیت.",
+  onPressedBritish: () =>
                                                 speakcarefuls5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakcarefuls5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -320,6 +259,10 @@ class EnglishEntrycareful extends StatelessWidget {
                             onPressedBritish: () => speakcarefuls7("en-GB"),
                             onPressedAmerican: () => speakcarefuls7("en-US"),
                           ),
+                          ],
+),
+],
+),
                         ],
                       ),
                     ),

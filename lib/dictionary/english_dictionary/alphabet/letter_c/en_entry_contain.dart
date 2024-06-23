@@ -199,124 +199,48 @@ class EnglishEntrycontain extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "His account contained an element of truth."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گێڕانەوەکەی ھەندێک ڕاستی تێدا بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontains3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontains3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "His account contained an element of truth.",
+                                    kurdishText:
+                                        "گێڕانەوەکەی ھەندێک ڕاستی تێدا بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontains3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontains3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The stories contained within these pages are highly enjoyable."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەو چیرۆکانەی لەم پەڕانەدان زۆر بەچێژن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontains4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontains4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The stories contained within these pages are highly enjoyable.",
+                                    kurdishText:
+                                        "ئەو چیرۆکانەی لەم پەڕانەدان زۆر بەچێژن.",
+                                    onPressedBritish: () =>
+                                        speakcontains4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontains4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her statement contained one or two inaccuracies."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لێدوانەکەی یەک یان دوو نادرووستی تێدا بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontains5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontains5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Her statement contained one or two inaccuracies.",
+                                    kurdishText:
+                                        "لێدوانەکەی یەک یان دوو نادرووستی تێدا بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontains5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontains5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These cells contain genes and proteins that interact with one another."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم خانانە جین و پڕۆتین لەخۆدەگرن کە کارلێک لەگەڵ یەکدی دەکەن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontains6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontains6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "These cells contain genes and proteins that interact with one another.",
+                                    kurdishText:
+                                        "ئەم خانانە جین و پڕۆتین لەخۆدەگرن کە کارلێک لەگەڵ یەکدی دەکەن.",
+                                    onPressedBritish: () =>
+                                        speakcontains6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontains6("en-US"),
                                   ),
                                 ],
                               ),

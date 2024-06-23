@@ -149,68 +149,28 @@ class EnglishEntrycoal extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These men had spent their lives breathing coal dust."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم پیاوانە ژیانیان بەسەر بردووە بە ھەڵمژینی تۆزی خەڵووز."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoals3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoals3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Plans were being drawn up for the privatization of the coal industry."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پلان دادەنرا بۆ بەتایبەتیکردنی پیشەسازی خەڵووز."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoals4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoals4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "These men had spent their lives breathing coal dust.",
+                                    kurdishText:
+                                        "ئەم پیاوانە ژیانیان بەسەر بردووە بە ھەڵمژینی تۆزی خەڵووز.",
+                                    onPressedBritish: () =>
+                                        speakcoals3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcoals3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Plans were being drawn up for the privatization of the coal industry.",
+                            kurdishText:
+                                "پلان دادەنرا بۆ بەتایبەتیکردنی پیشەسازی خەڵووز.",
+                            onPressedBritish: () => speakcoals4("en-GB"),
+                            onPressedAmerican: () => speakcoals4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

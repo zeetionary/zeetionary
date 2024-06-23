@@ -363,154 +363,58 @@ class EnglishEntryclean extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It is your responsibility to keep the room clean and tidy."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەوە ئەرکی تۆیە کە ژوورەکان بە پاکی و ڕێکوپێکی بھێڵیتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It is your responsibility to keep the room clean and tidy.",
+                                    kurdishText:
+                                        "ئەوە ئەرکی تۆیە کە ژوورەکان بە پاکی و ڕێکوپێکی بھێڵیتەوە.",
+                                    onPressedBritish: () =>
+                                        speakcleans3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The hotel was spotlessly (= extremely) clean."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھوتێلەکە تەواو پاک بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The hotel was spotlessly (= extremely) clean.",
+                                    kurdishText: "ھوتێلەکە تەواو پاک بوو.",
+                                    onPressedBritish: () =>
+                                        speakcleans4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I scrubbed the floor to get it clean."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زەوییەکەم سڕی بۆ ئەوەی خاوێن بێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I scrubbed the floor to get it clean.",
+                                    kurdishText:
+                                        "زەوییەکەم سڕی بۆ ئەوەی خاوێن بێتەوە.",
+                                    onPressedBritish: () =>
+                                        speakcleans5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It's almost clean. I just have to wipe the table."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خەریکە تەواو پاک دەبێت. تەنھا پێویستە مێزەکە بسڕم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It's almost clean. I just have to wipe the table.",
+                                    kurdishText:
+                                        "خەریکە تەواو پاک دەبێت. تەنھا پێویستە مێزەکە بسڕم.",
+                                    onPressedBritish: () =>
+                                        speakcleans6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "You're supposed to keep your room clean."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چاوەڕێی ئەوەت لێ دەکرێت ژوورەکەت خاوێن ڕابگریت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "You're supposed to keep your room clean.",
+                                    kurdishText:
+                                        "چاوەڕێی ئەوەت لێ دەکرێت ژوورەکەت خاوێن ڕابگریت.",
+                                    onPressedBritish: () =>
+                                        speakcleans7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans7("en-US"),
                                   ),
                                 ],
                               ),
@@ -691,63 +595,24 @@ class EnglishEntryclean extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He gently cleaned the wound and dressed it."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەوریاییەوە برینەکەی پاککردەوە و پێچای."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans25("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans25("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He gently cleaned the wound and dressed it.",
+                                    kurdishText:
+                                        "بەوریاییەوە برینەکەی پاککردەوە و پێچای.",
+                                    onPressedBritish: () =>
+                                        speakcleans25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans25("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Have you cleaned your teeth?"),
-                                            ExampleSentenceKurdish(
-                                                text: "ددانت خاوێنکردووەتەوە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcleans26("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcleans26("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Have you cleaned your teeth?",
+                                    kurdishText: "ددانت خاوێنکردووەتەوە؟",
+                                    onPressedBritish: () =>
+                                        speakcleans26("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcleans26("en-US"),
                                   ),
                                 ],
                               ),

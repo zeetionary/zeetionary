@@ -167,68 +167,30 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Personal characteristics, such as age and sex are taken into account."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خاسیەتی کەسی وەک تەمەن و ڕەگەز لەبەرچاو دەگیرێن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharacteristics3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharacteristics3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The need to communicate is a key characteristic of human society."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پێویستی گفتوگۆکردن خاسیەتێکی گرنگی کۆمەڵگەی مرۆڤە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharacteristics4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharacteristics4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Personal characteristics, such as age and sex are taken into account.",
+                                    kurdishText:
+                                        "خاسیەتی کەسی وەک تەمەن و ڕەگەز لەبەرچاو دەگیرێن.",
+                                    onPressedBritish: () =>
+                                        speakcharacteristics3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcharacteristics3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The need to communicate is a key characteristic of human society.",
+                            kurdishText:
+                                "پێویستی گفتوگۆکردن خاسیەتێکی گرنگی کۆمەڵگەی مرۆڤە.",
+                            onPressedBritish: () =>
+                                speakcharacteristics4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakcharacteristics4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

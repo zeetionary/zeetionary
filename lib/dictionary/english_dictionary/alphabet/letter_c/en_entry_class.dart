@@ -381,64 +381,25 @@ class EnglishEntryclass extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He came top of the class."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "باشترینی پۆلەکە بوو لە ئینگلیزیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "He came top of the class.",
+                                    kurdishText:
+                                        "باشترینی پۆلەکە بوو لە ئینگلیزیدا.",
+                                    onPressedBritish: () =>
+                                        speakclasss3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The whole class was/were told to stay behind after school."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواوی پۆلەکە پێی وترا لە دوای قوتابخانە بمێننەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The whole class was/were told to stay behind after school.",
+                                    kurdishText:
+                                        "تەواوی پۆلەکە پێی وترا لە دوای قوتابخانە بمێننەوە.",
+                                    onPressedBritish: () =>
+                                        speakclasss4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss4("en-US"),
                                   ),
                                 ],
                               ),
@@ -465,63 +426,23 @@ class EnglishEntryclass extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "See me after class."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە دوای وانەکە وەرە بۆ لام."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "See me after class.",
+                                    kurdishText: "لە دوای وانەکە وەرە بۆ لام.",
+                                    onPressedBritish: () =>
+                                        speakclasss7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She works hard in class (= during the class)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زۆر ھەوڵ دەدات لە خوێندندا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She works hard in class (= during the class).",
+                                    kurdishText: "زۆر ھەوڵ دەدات لە خوێندندا.",
+                                    onPressedBritish: () =>
+                                        speakclasss8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss8("en-US"),
                                   ),
                                 ],
                               ),
@@ -592,314 +513,231 @@ class EnglishEntryclass extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The government defends the interests of the capitalist class."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حکومەت بەرگری لە بەرژەوەندییەکانی چینی سەرمایەدار دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The government defends the interests of the capitalist class.",
+                                    kurdishText:
+                                        "حکومەت بەرگری لە بەرژەوەندییەکانی چینی سەرمایەدار دەکات.",
+                                    onPressedBritish: () =>
+                                        speakclasss15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss15("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Nowadays, there are not so many clear distinctions between classes"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لەم ڕۆژانەدا، ھێندە جیاوازی زۆر لە نێوان چینەکاندا نییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss16("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss16("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Nowadays, there are not so many clear distinctions between classes",
+                                    kurdishText:
+                                        "لەم ڕۆژانەدا، ھێندە جیاوازی زۆر لە نێوان چینەکاندا نییە.",
+                                    onPressedBritish: () =>
+                                        speakclasss16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss16("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She belongs to a lower social class than him."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەر بە چینێکی نزمترە وەک لە ئەو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclasss17("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclasss17("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She belongs to a lower social class than him.",
+                                    kurdishText:
+                                        "سەر بە چینێکی نزمترە وەک لە ئەو.",
+                                    onPressedBritish: () =>
+                                        speakclasss17("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss17("en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٦. (ناو) شێوازی دابەشکردنی خەڵکی بۆ چینی کۆمەڵایەتی و  ئابووری"),
-                          SentencesRow(
-                            englishText:
-                                "The old class system is not appropriate in a modern age.",
-                            kurdishText:
-                                "سیستەمە کۆنە چینایەتییەکە گونجاو نییە بۆ ئەم چاخە سەردەمییە.",
-                            onPressedBritish: () => speakclasss18("en-GB"),
-                            onPressedAmerican: () => speakclasss18("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She recognises class as an important concept.",
-                            kurdishText: "چینایەتی وەک چەمکێکی گرنگ دەبینێت.",
-                            onPressedBritish: () => speakclasss19("en-GB"),
-                            onPressedAmerican: () => speakclasss19("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) ئاستەکانی فڕۆکەی گەشتیاری کە بەردەستن بۆ گەشتیاران و لە ڕووی ئاسوودەییەوە جیاوازن"),
-                          SentencesRow(
-                            englishText: "He always travels business class.",
-                            kurdishText: "ھەمیشە لە کلاسی بازرگانی گەشت دەکات.",
-                            onPressedBritish: () => speakclasss20("en-GB"),
-                            onPressedAmerican: () => speakclasss20("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٨. (ناو) ژمارەیەک خەڵک، ئاژەڵ، یان شت کە ھەمان خاسیەتییان ھەیە"),
-                          SentencesRow(
-                            englishText:
-                                "It was good accommodation for a hotel of this class.",
-                            kurdishText:
-                                "شوێنی مانەوەی باش بوو بۆ ھوتێلێک لەم ئاستەدا.",
-                            onPressedBritish: () => speakclasss21("en-GB"),
-                            onPressedAmerican: () => speakclasss21("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Dickens was in a different class from (= was much better than) most of his contemporaries.",
-                            kurdishText:
-                                "دیکنز لە ئاستێکی جیاوازتر بوو وەک لە ھاوسەردەمەکانی.",
-                            onPressedBritish: () => speakclasss22("en-GB"),
-                            onPressedAmerican: () => speakclasss22("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "As a jazz singer she's in a class of her own (= better than most others).",
-                            kurdishText:
-                                "وەک گۆرانیبێژێکی جاز لە ئاستی تایبەت بە خۆیدا بوو.",
-                            onPressedBritish: () => speakclasss23("en-GB"),
-                            onPressedAmerican: () => speakclasss23("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "It is the most reliable model in its class.",
-                            kurdishText: "باشترن جۆرە لا ئاستەکەی خۆیدا.",
-                            onPressedBritish: () => speakclasss24("en-GB"),
-                            onPressedAmerican: () => speakclasss24("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٩. (ناو) یەکێک لە گرووپەکانی ڕکابەرییەک"),
-                          SentencesRow(
-                            englishText:
-                                "He came first in his class at every event.",
-                            kurdishText:
-                                "لە ھەموو بۆنەیەکدا لە گرووپەکەیدا یەکەم بوو.",
-                            onPressedBritish: () => speakclasss25("en-GB"),
-                            onPressedAmerican: () => speakclasss25("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١٠. (ناو) خاسیەتێکی باش یان شارەزاییەکی ئاست بەرز کە سەرنجڕاکێشە"),
-                          SentencesRow(
-                            englishText:
-                                "There's a real touch of class about this team.",
-                            kurdishText:
-                                "خاسیەتێکی تەواوی تایبەت ھەبوو لەم تیمەدا.",
-                            onPressedBritish: () => speakclasss26("en-GB"),
-                            onPressedAmerican: () => speakclasss26("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "He's got real class.",
-                            kurdishText: "پۆزی خۆی ھەیە.",
-                            onPressedBritish: () => speakclasss27("en-GB"),
-                            onPressedAmerican: () => speakclasss27("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١١. (کردار) پۆلێن کردن؛ بیرکردنەوە لە/دابەشکردنی کەسێک یان شتێک بەسەر جۆرێکی دیاریکراودا"),
-                          SentencesRow(
-                            englishText:
-                                "Immigrant workers were classed as aliens.",
-                            kurdishText:
-                                "کرێکارانی پەنابەر وەک بیانی مامەڵەیان لەگەڵ دەکرا.",
-                            onPressedBritish: () => speakclasss28("en-GB"),
-                            onPressedAmerican: () => speakclasss28("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "I wouldn't have classed you as a Shakespeare fan.",
-                            kurdishText:
-                                "وەک ھەوادارێکی شکسپیر دام‌نەدەنایت (بەڵام دیارە ھەڵەبووم).",
-                            onPressedBritish: () => speakclasss29("en-GB"),
-                            onPressedAmerican: () => speakclasss29("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "One in five people in the country are classed as poor.",
-                            kurdishText:
-                                "لە پێنج کەسدا لە وڵاتەکە یەکێک بە ھەژار دادەنرێت.",
-                            onPressedBritish: () => speakclasss30("en-GB"),
-                            onPressedAmerican: () => speakclasss30("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٦. (ناو) شێوازی دابەشکردنی خەڵکی بۆ چینی کۆمەڵایەتی و  ئابووری"),
+                                  SentencesRow(
+                                    englishText:
+                                        "The old class system is not appropriate in a modern age.",
+                                    kurdishText:
+                                        "سیستەمە کۆنە چینایەتییەکە گونجاو نییە بۆ ئەم چاخە سەردەمییە.",
+                                    onPressedBritish: () =>
+                                        speakclasss18("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss18("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "She recognises class as an important concept.",
+                                    kurdishText:
+                                        "چینایەتی وەک چەمکێکی گرنگ دەبینێت.",
+                                    onPressedBritish: () =>
+                                        speakclasss19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss19("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٧. (ناو) ئاستەکانی فڕۆکەی گەشتیاری کە بەردەستن بۆ گەشتیاران و لە ڕووی ئاسوودەییەوە جیاوازن"),
+                                  SentencesRow(
+                                    englishText:
+                                        "He always travels business class.",
+                                    kurdishText:
+                                        "ھەمیشە لە کلاسی بازرگانی گەشت دەکات.",
+                                    onPressedBritish: () =>
+                                        speakclasss20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss20("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٨. (ناو) ژمارەیەک خەڵک، ئاژەڵ، یان شت کە ھەمان خاسیەتییان ھەیە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "It was good accommodation for a hotel of this class.",
+                                    kurdishText:
+                                        "شوێنی مانەوەی باش بوو بۆ ھوتێلێک لەم ئاستەدا.",
+                                    onPressedBritish: () =>
+                                        speakclasss21("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss21("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "Dickens was in a different class from (= was much better than) most of his contemporaries.",
+                                    kurdishText:
+                                        "دیکنز لە ئاستێکی جیاوازتر بوو وەک لە ھاوسەردەمەکانی.",
+                                    onPressedBritish: () =>
+                                        speakclasss22("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss22("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "As a jazz singer she's in a class of her own (= better than most others).",
+                                    kurdishText:
+                                        "وەک گۆرانیبێژێکی جاز لە ئاستی تایبەت بە خۆیدا بوو.",
+                                    onPressedBritish: () =>
+                                        speakclasss23("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss23("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "It is the most reliable model in its class.",
+                                    kurdishText:
+                                        "باشترن جۆرە لا ئاستەکەی خۆیدا.",
+                                    onPressedBritish: () =>
+                                        speakclasss24("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss24("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٩. (ناو) یەکێک لە گرووپەکانی ڕکابەرییەک"),
+                                  SentencesRow(
+                                    englishText:
+                                        "He came first in his class at every event.",
+                                    kurdishText:
+                                        "لە ھەموو بۆنەیەکدا لە گرووپەکەیدا یەکەم بوو.",
+                                    onPressedBritish: () =>
+                                        speakclasss25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss25("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٠. (ناو) خاسیەتێکی باش یان شارەزاییەکی ئاست بەرز کە سەرنجڕاکێشە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "There's a real touch of class about this team.",
+                                    kurdishText:
+                                        "خاسیەتێکی تەواوی تایبەت ھەبوو لەم تیمەدا.",
+                                    onPressedBritish: () =>
+                                        speakclasss26("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss26("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "He's got real class.",
+                                    kurdishText: "پۆزی خۆی ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakclasss27("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss27("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١١. (کردار) پۆلێن کردن؛ بیرکردنەوە لە/دابەشکردنی کەسێک یان شتێک بەسەر جۆرێکی دیاریکراودا"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Immigrant workers were classed as aliens.",
+                                    kurdishText:
+                                        "کرێکارانی پەنابەر وەک بیانی مامەڵەیان لەگەڵ دەکرا.",
+                                    onPressedBritish: () =>
+                                        speakclasss28("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss28("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "I wouldn't have classed you as a Shakespeare fan.",
+                                    kurdishText:
+                                        "وەک ھەوادارێکی شکسپیر دام‌نەدەنایت (بەڵام دیارە ھەڵەبووم).",
+                                    onPressedBritish: () =>
+                                        speakclasss29("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss29("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "One in five people in the country are classed as poor.",
+                                    kurdishText:
+                                        "لە پێنج کەسدا لە وڵاتەکە یەکێک بە ھەژار دادەنرێت.",
+                                    onPressedBritish: () =>
+                                        speakclasss30("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclasss30("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Prisoners classed as illiterate were given a basic education."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەو زیندانییانەی کە بە نەخوێندەوار دادەنران خوێندنی سەرەتاییان پێدرا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          SentencesRow(
+                                            englishText:
+                                                "Prisoners classed as illiterate were given a basic education.",
+                                            kurdishText:
+                                                "ئەو زیندانییانەی کە بە نەخوێندەوار دادەنران خوێندنی سەرەتاییان پێدرا.",
+                                            onPressedBritish: () =>
                                                 speakclasss31("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakclasss31("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'm 17, but I'm still classed as a child when I travel by bus."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەمەنم ١٧ ساڵە، بەڵام بە منداڵ دادەنرێم کە بە پاس گەشت دەکەم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "I'm 17, but I'm still classed as a child when I travel by bus.",
+                                            kurdishText:
+                                                "تەمەنم ١٧ ساڵە، بەڵام بە منداڵ دادەنرێم کە بە پاس گەشت دەکەم.",
+                                            onPressedBritish: () =>
                                                 speakclasss32("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakclasss32("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I would class her among the top ten American novelists."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە ڕیزی دە باشترین ڕۆماننووسە ئەمریکییەکان دایدەنێم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "I would class her among the top ten American novelists.",
+                                            kurdishText:
+                                                "لە ڕیزی دە باشترین ڕۆماننووسە ئەمریکییەکان دایدەنێم.",
+                                            onPressedBritish: () =>
                                                 speakclasss33("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakclasss33("en-US"),
                                           ),
                                         ],

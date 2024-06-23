@@ -223,124 +223,48 @@ class EnglishEntrycommunity extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Our aim is to serve the community."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئامانجمان خزمەتکردنی کۆمەڵگاکەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunitys4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunitys4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Our aim is to serve the community.",
+                                    kurdishText:
+                                        "ئامانجمان خزمەتکردنی کۆمەڵگاکەیە.",
+                                    onPressedBritish: () =>
+                                        speakcommunitys4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunitys4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The local community was shocked by the murders."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کۆمەڵگا خۆجێیەکە شۆک بوون بە کوشتنەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunitys5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunitys5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The local community was shocked by the murders.",
+                                    kurdishText:
+                                        "کۆمەڵگا خۆجێیەکە شۆک بوون بە کوشتنەکان.",
+                                    onPressedBritish: () =>
+                                        speakcommunitys5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunitys5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The library is open to all members of the community."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "قوتابخانەکە کراوەیە بۆ ھەموو ئەندامانی کۆمەڵگاکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunitys6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunitys6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The library is open to all members of the community.",
+                                    kurdishText:
+                                        "قوتابخانەکە کراوەیە بۆ ھەموو ئەندامانی کۆمەڵگاکە.",
+                                    onPressedBritish: () =>
+                                        speakcommunitys6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunitys6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He urged the international community to take decisive action to stop the conflict."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "داوای لە کۆمەڵگای نێودەوڵەتی کرد ھەنگاو بنێن بۆ وەستاندنی پێکدادانەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommunitys7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommunitys7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He urged the international community to take decisive action to stop the conflict.",
+                                    kurdishText:
+                                        "داوای لە کۆمەڵگای نێودەوڵەتی کرد ھەنگاو بنێن بۆ وەستاندنی پێکدادانەکە.",
+                                    onPressedBritish: () =>
+                                        speakcommunitys7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommunitys7("en-US"),
                                   ),
                                 ],
                               ),

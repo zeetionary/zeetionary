@@ -441,252 +441,156 @@ class EnglishEntrycause extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Smoking is the leading cause of lung cancer."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "جگەرەکێشان ھۆکاری سەرەکیی شێرپەنجەی سییەکانە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcauses3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcauses3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Smoking is the leading cause of lung cancer.",
+                                    kurdishText:
+                                        "جگەرەکێشان ھۆکاری سەرەکیی شێرپەنجەی سییەکانە.",
+                                    onPressedBritish: () =>
+                                        speakcauses3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Drinking and driving is one of the most common causes of traffic accidents"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خواردنەوە و شۆفێری‌کردن یەکێکە لە باوترین ھۆکارەکانی ڕووداوەکانی ھاتووچۆ."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcauses4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcauses4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Drinking and driving is one of the most common causes of traffic accidents",
+                                    kurdishText:
+                                        "خواردنەوە و شۆفێری‌کردن یەکێکە لە باوترین ھۆکارەکانی ڕووداوەکانی ھاتووچۆ.",
+                                    onPressedBritish: () =>
+                                        speakcauses4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It was impossible to determine the cause of death."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەستەم بوو ھۆکاری مردنەکە دیاری بکرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcauses5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcauses5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It was impossible to determine the cause of death.",
+                                    kurdishText:
+                                        "ئەستەم بوو ھۆکاری مردنەکە دیاری بکرێت.",
+                                    onPressedBritish: () =>
+                                        speakcauses5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses5("en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ھۆکارێک کە دەبێتەھۆی ھەستێک یان ھەڵسوکەوتێک"),
-                          SentencesRow(
-                            englishText: "There is no cause for concern.",
-                            kurdishText: "ھیچ ھۆیەک نییە بۆ نیگەرانی.",
-                            onPressedBritish: () => speakcauses6("en-GB"),
-                            onPressedAmerican: () => speakcauses6("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The food was excellent—I had no cause for complaint.",
-                            kurdishText:
-                                "خواردنەکە ناوازە بوو، ھیچ بیانووم نەبوو بۆ گازندە.",
-                            onPressedBritish: () => speakcauses7("en-GB"),
-                            onPressedAmerican: () => speakcauses7("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) دامەزراوەیەک یان بیرۆکەیەک کە خەڵکی پشتگیری دەکەن یان شەڕی بۆ دەکەن"),
-                          SentencesRow(
-                            englishText:
-                                "She has long championed the cause of civil liberties.",
-                            kurdishText:
-                                "ماوەیەکی درێژە شەڕی کردووە بۆ دۆزی ئازادییە مەدەنییەکان.",
-                            onPressedBritish: () => speakcauses8("en-GB"),
-                            onPressedAmerican: () => speakcauses8("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She has taken up the cause of animal rights.",
-                            kurdishText:
-                                "پەیوەندی کردووە بە دۆزی مافی ئاژەڵانەوە.",
-                            onPressedBritish: () => speakcauses9("en-GB"),
-                            onPressedAmerican: () => speakcauses9("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The different groups support a common cause.",
-                            kurdishText:
-                                "گرووپە جیاوازەکان پشتگیری دۆزێکی ھاوبەش دەکەن.",
-                            onPressedBritish: () => speakcauses10("en-GB"),
-                            onPressedAmerican: () => speakcauses10("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) واکردن لەوەی شتێک ڕووبدات یان کەسێک شتێک بکات"),
-                          SentencesRow(
-                            englishText: "Do they know what caused the fire?",
-                            kurdishText: "دەزانیت چی بوو بەھۆی ئاگرەکە؟",
-                            onPressedBritish: () => speakcauses11("en-GB"),
-                            onPressedAmerican: () => speakcauses11("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Are you causing trouble again?",
-                            kurdishText: "دووبارە کێشە دەنێیتەوە؟",
-                            onPressedBritish: () => speakcauses12("en-GB"),
-                            onPressedAmerican: () => speakcauses12("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (ناو) ھۆکارێک کە دەبێتەھۆی ھەستێک یان ھەڵسوکەوتێک"),
+                                  SentencesRow(
+                                    englishText:
+                                        "There is no cause for concern.",
+                                    kurdishText: "ھیچ ھۆیەک نییە بۆ نیگەرانی.",
+                                    onPressedBritish: () =>
+                                        speakcauses6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses6("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "The food was excellent—I had no cause for complaint.",
+                                    kurdishText:
+                                        "خواردنەکە ناوازە بوو، ھیچ بیانووم نەبوو بۆ گازندە.",
+                                    onPressedBritish: () =>
+                                        speakcauses7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses7("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (ناو) دامەزراوەیەک یان بیرۆکەیەک کە خەڵکی پشتگیری دەکەن یان شەڕی بۆ دەکەن"),
+                                  SentencesRow(
+                                    englishText:
+                                        "She has long championed the cause of civil liberties.",
+                                    kurdishText:
+                                        "ماوەیەکی درێژە شەڕی کردووە بۆ دۆزی ئازادییە مەدەنییەکان.",
+                                    onPressedBritish: () =>
+                                        speakcauses8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses8("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "She has taken up the cause of animal rights.",
+                                    kurdishText:
+                                        "پەیوەندی کردووە بە دۆزی مافی ئاژەڵانەوە.",
+                                    onPressedBritish: () =>
+                                        speakcauses9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses9("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "The different groups support a common cause.",
+                                    kurdishText:
+                                        "گرووپە جیاوازەکان پشتگیری دۆزێکی ھاوبەش دەکەن.",
+                                    onPressedBritish: () =>
+                                        speakcauses10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses10("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٤. (کردار) واکردن لەوەی شتێک ڕووبدات یان کەسێک شتێک بکات"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Do they know what caused the fire?",
+                                    kurdishText:
+                                        "دەزانیت چی بوو بەھۆی ئاگرەکە؟",
+                                    onPressedBritish: () =>
+                                        speakcauses11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses11("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "Are you causing trouble again?",
+                                    kurdishText: "دووبارە کێشە دەنێیتەوە؟",
+                                    onPressedBritish: () =>
+                                        speakcauses12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcauses12("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Doctors say her condition is causing some concern."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پزیشکەکان دەڵێن دۆخەکەی جێگەی کەمێک نیگەرانییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          SentencesRow(
+                                            englishText:
+                                                "Doctors say her condition is causing some concern.",
+                                            kurdishText:
+                                                "پزیشکەکان دەڵێن دۆخەکەی جێگەی کەمێک نیگەرانییە.",
+                                            onPressedBritish: () =>
                                                 speakcauses13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakcauses13("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Recently there have been several deaths caused by dangerous driving."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تازەگی ژمارەیەک گیان‌لەدەستدان بەھۆی شۆفێریکردنی مەترسیدارەوە ھەبووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "Recently there have been several deaths caused by dangerous driving.",
+                                            kurdishText:
+                                                "تازەگی ژمارەیەک گیان‌لەدەستدان بەھۆی شۆفێریکردنی مەترسیدارەوە ھەبووە.",
+                                            onPressedBritish: () =>
                                                 speakcauses14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakcauses14("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The drought is causing problems for many farmers."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وشکە‌ساڵییەکە بووە بە کێشە بۆ ژمارەیەکی زۆر جوتیار."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "The drought is causing problems for many farmers.",
+                                            kurdishText:
+                                                "وشکە‌ساڵییەکە بووە بە کێشە بۆ ژمارەیەکی زۆر جوتیار.",
+                                            onPressedBritish: () =>
                                                 speakcauses15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakcauses15("en-US"),
                                           ),
                                         ],

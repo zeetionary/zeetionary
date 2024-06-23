@@ -145,65 +145,24 @@ class EnglishEntrycharming extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "What a charming name."),
-                                            ExampleSentenceKurdish(
-                                                text: "چی ناوێکی جوانە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharmings3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharmings3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "What a charming street this is."),
-                                            ExampleSentenceKurdish(
-                                                text: "چی شەقامێکی دڵبەرە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcharmings4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcharmings4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "What a charming name.",
+                                    kurdishText: "چی ناوێکی جوانە.",
+                                    onPressedBritish: () =>
+                                        speakcharmings3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcharmings3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText: "What a charming street this is.",
+                            kurdishText: "چی شەقامێکی دڵبەرە.",
+                            onPressedBritish: () => speakcharmings4("en-GB"),
+                            onPressedAmerican: () => speakcharmings4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

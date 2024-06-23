@@ -239,124 +239,48 @@ class EnglishEntrycommission extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The defendant will be brought to trial before a military commission."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گومانلێ‌کراوەکە ھێنرایە پێش کۆمسیۆنێکی سەربازی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommissions3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommissions3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The defendant will be brought to trial before a military commission.",
+                                    kurdishText:
+                                        "گومانلێ‌کراوەکە ھێنرایە پێش کۆمسیۆنێکی سەربازی.",
+                                    onPressedBritish: () =>
+                                        speakcommissions3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommissions3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She was also a member of the commission on religious education."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەروەھا ئەندانی کۆمسیۆنی پەروەردەی ئایینی بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommissions4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommissions4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She was also a member of the commission on religious education.",
+                                    kurdishText:
+                                        "ھەروەھا ئەندانی کۆمسیۆنی پەروەردەی ئایینی بوو.",
+                                    onPressedBritish: () =>
+                                        speakcommissions4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommissions4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The government appointed an independent commission to investigate the causes of the disaster."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حکومەت کۆمسیۆنێکی سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە ھۆکاری ڕووداوەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommissions5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommissions5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The government appointed an independent commission to investigate the causes of the disaster.",
+                                    kurdishText:
+                                        "حکومەت کۆمسیۆنێکی سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە ھۆکاری ڕووداوەکە.",
+                                    onPressedBritish: () =>
+                                        speakcommissions5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommissions5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The government has set up a joint commission to consider the problem."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حکومەت کۆمسیۆنی ھاوبەشێ پێکھێناوە بۆ لێکۆڵینەوە لە کارەساتەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommissions6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommissions6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The government has set up a joint commission to consider the problem.",
+                                    kurdishText:
+                                        "حکومەت کۆمسیۆنی ھاوبەشێ پێکھێناوە بۆ لێکۆڵینەوە لە کارەساتەکە.",
+                                    onPressedBritish: () =>
+                                        speakcommissions6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommissions6("en-US"),
                                   ),
                                 ],
                               ),

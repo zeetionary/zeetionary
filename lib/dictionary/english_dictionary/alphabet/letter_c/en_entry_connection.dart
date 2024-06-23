@@ -260,124 +260,48 @@ class EnglishEntryconnection extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He denied any connection to the scam."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نکۆڵی لە ھەر پەیوەندییەک بە ساختەکارییەکەوە کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnections3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnections3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He denied any connection to the scam.",
+                                    kurdishText:
+                                        "نکۆڵی لە ھەر پەیوەندییەک بە ساختەکارییەکەوە کرد.",
+                                    onPressedBritish: () =>
+                                        speakconnections3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnections3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "His death had no connection with drugs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مردنەکەی ھیچ پەیوەندی بە مادەی ھۆشبەرەوە نەبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnections4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnections4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "His death had no connection with drugs.",
+                                    kurdishText:
+                                        "مردنەکەی ھیچ پەیوەندی بە مادەی ھۆشبەرەوە نەبوو.",
+                                    onPressedBritish: () =>
+                                        speakconnections4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnections4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She did not make the connection between her diet and her poor health."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەندرووستی خراپیی نەبەستەوە بە خواردنی ڕۆژانەیی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnections5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnections5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She did not make the connection between her diet and her poor health.",
+                                    kurdishText:
+                                        "تەندرووستی خراپیی نەبەستەوە بە خواردنی ڕۆژانەیی.",
+                                    onPressedBritish: () =>
+                                        speakconnections5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnections5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She wanted to sever all her connections with the company."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ویستی ھەموو پەیوەندییەکی بە کۆمپانیاکەوە بپچڕێنێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconnections6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconnections6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She wanted to sever all her connections with the company.",
+                                    kurdishText:
+                                        "ویستی ھەموو پەیوەندییەکی بە کۆمپانیاکەوە بپچڕێنێت.",
+                                    onPressedBritish: () =>
+                                        speakconnections6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconnections6("en-US"),
                                   ),
                                 ],
                               ),

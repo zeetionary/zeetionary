@@ -506,124 +506,48 @@ class EnglishEntrycondition extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Congress can impose strict conditions on the bank."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کۆنگرێس دەتوانێت مەرجی سەخت بەسەر بانکەکەدا بسەپێنێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconditions19("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconditions19("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Congress can impose strict conditions on the bank.",
+                                    kurdishText:
+                                        "کۆنگرێس دەتوانێت مەرجی سەخت بەسەر بانکەکەدا بسەپێنێت.",
+                                    onPressedBritish: () =>
+                                        speakconditions19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconditions19("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They have agreed to a ceasefire provided their conditions are met."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە ئاگربەست ڕازیبوونە ئەگەر مەرجەکانیان بەدیبھێندرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconditions20("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconditions20("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They have agreed to a ceasefire provided their conditions are met.",
+                                    kurdishText:
+                                        "بە ئاگربەست ڕازیبوونە ئەگەر مەرجەکانیان بەدیبھێندرێت.",
+                                    onPressedBritish: () =>
+                                        speakconditions20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconditions20("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He denied being in breach of bail conditions."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕەتیکردەوە مەرجەکانی کەفالەتەکەی شکاندبێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconditions21("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconditions21("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He denied being in breach of bail conditions.",
+                                    kurdishText:
+                                        "ڕەتیکردەوە مەرجەکانی کەفالەتەکەی شکاندبێت.",
+                                    onPressedBritish: () =>
+                                        speakconditions21("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconditions21("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The UN has imposed strict conditions on the ceasefire."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نەتەوە یەکگرتووەکان مەرجی توندی سەپاند بەسەر ئاگربەستەکەدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconditions22("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconditions22("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The UN has imposed strict conditions on the ceasefire.",
+                                    kurdishText:
+                                        "نەتەوە یەکگرتووەکان مەرجی توندی سەپاند بەسەر ئاگربەستەکەدا.",
+                                    onPressedBritish: () =>
+                                        speakconditions22("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconditions22("en-US"),
                                   ),
                                 ],
                               ),

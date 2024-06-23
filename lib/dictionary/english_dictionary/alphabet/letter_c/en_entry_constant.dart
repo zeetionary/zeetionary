@@ -189,159 +189,64 @@ class EnglishEntryconstant extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Doctors are under constant pressure to treat more and more patients."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پزیشکان لە ژێر فشاری بەردەوامن بۆ چارەسەری نەخۆشی زیاتر و زیاتر."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Doctors are under constant pressure to treat more and more patients.",
+kurdishText:
+                                                    "پزیشکان لە ژێر فشاری بەردەوامن بۆ چارەسەری نەخۆشی زیاتر و زیاتر.",
+  onPressedBritish: () =>
                                                 speakconstants3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakconstants3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Babies need constant attention."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵان پێویستییان بە گرنگیپێدانی بەردەوامە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Babies need constant attention.",
+kurdishText:
+                                                    "منداڵان پێویستییان بە گرنگیپێدانی بەردەوامە.",
+  onPressedBritish: () =>
                                                 speakconstants4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakconstants4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This entrance is in constant use."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەروازەکە لە بەکارھێنانی بەردەوامدایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "This entrance is in constant use.",
+kurdishText:
+                                                    "دەروازەکە لە بەکارھێنانی بەردەوامدایە.",
+  onPressedBritish: () =>
                                                 speakconstants5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakconstants5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her constant chatter was beginning to annoy him."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چەنەدانی بەردەوامی خەریک بوو دەستی بە بێزارکردنی دەکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Her constant chatter was beginning to annoy him.",
+kurdishText:
+                                                    "چەنەدانی بەردەوامی خەریک بوو دەستی بە بێزارکردنی دەکرد.",
+  onPressedBritish: () =>
                                                 speakconstants6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakconstants6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her daughter is a constant source of worry to her."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کچەکەی سەرچاوەی نیگەرانی بەردەوامە بۆی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "Her daughter is a constant source of worry to her.",
+kurdishText:
+                                                    "کچەکەی سەرچاوەی نیگەرانی بەردەوامە بۆی.",
+  onPressedBritish: () =>
                                                 speakconstants7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+  onPressedAmerican: () =>
                                                 speakconstants7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
                           ),
+                          ],
+),
+],
+),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ھاوەڵناو) نەگۆڕ"),
                           SentencesRow(

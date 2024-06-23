@@ -210,94 +210,37 @@ class EnglishEntrycommitment extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He questioned the government's commitment to public services."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گومانی خستە سەر پابەندی حکومەت بە خزمەتگوزارییە گشتییەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommitments3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommitments3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He questioned the government's commitment to public services.",
+                                    kurdishText:
+                                        "گومانی خستە سەر پابەندی حکومەت بە خزمەتگوزارییە گشتییەکان.",
+                                    onPressedBritish: () =>
+                                        speakcommitments3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommitments3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We're looking for a firm commitment from both sides."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە ھیوای پابەندی پتەوین لە ھەردوو لایەنەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommitments4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommitments4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We're looking for a firm commitment from both sides.",
+                                    kurdishText:
+                                        "بە ھیوای پابەندی پتەوین لە ھەردوو لایەنەوە.",
+                                    onPressedBritish: () =>
+                                        speakcommitments4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommitments4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They reaffirmed their commitment to work for peace."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پابەندبوونیان بە کارکردن بۆ ئاشتی دووپاتکردەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommitments5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommitments5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They reaffirmed their commitment to work for peace.",
+                                    kurdishText:
+                                        "پابەندبوونیان بە کارکردن بۆ ئاشتی دووپاتکردەوە.",
+                                    onPressedBritish: () =>
+                                        speakcommitments5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommitments5("en-US"),
                                   ),
                                 ],
                               ),
@@ -327,64 +270,26 @@ class EnglishEntrycommitment extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A career as an actor requires one hundred per cent commitment."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کارکردن وەک ئەکتەرێک پێویستی بە پابەندی سەد لە سەدە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommitments8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommitments8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A career as an actor requires one hundred per cent commitment.",
+                                    kurdishText:
+                                        "کارکردن وەک ئەکتەرێک پێویستی بە پابەندی سەد لە سەدە.",
+                                    onPressedBritish: () =>
+                                        speakcommitments8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommitments8("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She was criticized for her lack of commitment."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕەخنەی لێ گیردرا بۆ کەمی خۆتەرخانکردنی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcommitments9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcommitments9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She was criticized for her lack of commitment.",
+                                    kurdishText:
+                                        "ڕەخنەی لێ گیردرا بۆ کەمی خۆتەرخانکردنی.",
+                                    onPressedBritish: () =>
+                                        speakcommitments9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcommitments9("en-US"),
                                   ),
                                 ],
                               ),

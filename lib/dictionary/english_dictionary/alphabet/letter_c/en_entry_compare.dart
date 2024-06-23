@@ -249,154 +249,59 @@ class EnglishEntrycompare extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "How can you compare the two things? They are so different!"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چۆن دوو شتەکە بەراورد دەکەیت؟ زۆر جیاوازن!"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "How can you compare the two things? They are so different!",
+                                    kurdishText:
+                                        "چۆن دوو شتەکە بەراورد دەکەیت؟ زۆر جیاوازن!",
+                                    onPressedBritish: () =>
+                                        speakcompares3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We compared the results of our study with those of other studies."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەنجامی توێژینەوەکەمان لەگەڵ ئەوانەی توێژینەوەکانی دیکە بەراورد کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We compared the results of our study with those of other studies.",
+                                    kurdishText:
+                                        "ئەنجامی توێژینەوەکەمان لەگەڵ ئەوانەی توێژینەوەکانی دیکە بەراورد کرد.",
+                                    onPressedBritish: () =>
+                                        speakcompares4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "My own problems seem insignificant compared with other people's."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کێشەکانی من بێ‌بایەخ دەردەکەون بەراورد بەوانەی کەسانی دیکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "My own problems seem insignificant compared with other people's.",
+                                    kurdishText:
+                                        "کێشەکانی من بێ‌بایەخ دەردەکەون بەراورد بەوانەی کەسانی دیکە.",
+                                    onPressedBritish: () =>
+                                        speakcompares5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Standards in healthcare have improved enormously compared to 40 years ago."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ستانداردی کەرتی تەندرووستی باشتربووە بەراورد بە ٤٠ ساڵی ڕابردوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Standards in healthcare have improved enormously compared to 40 years ago.",
+                                    kurdishText:
+                                        "ستانداردی کەرتی تەندرووستی باشتربووە بەراورد بە ٤٠ ساڵی ڕابردوو.",
+                                    onPressedBritish: () =>
+                                        speakcompares6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "About a third of American adults are obese compared with 24 per cent of Britons."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نزیکەی یەک لە سەدی پێگەشتووانی ئەمریکا کێشیان زۆرە بەروارد بە ٢٤ لە سەدی بەریتانییەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "About a third of American adults are obese compared with 24 per cent of Britons.",
+                                    kurdishText:
+                                        "نزیکەی یەک لە سەدی پێگەشتووانی ئەمریکا کێشیان زۆرە بەروارد بە ٢٤ لە سەدی بەریتانییەکان.",
+                                    onPressedBritish: () =>
+                                        speakcompares7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares7("en-US"),
                                   ),
                                 ],
                               ),
@@ -426,124 +331,48 @@ class EnglishEntrycompare extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The region's wines compare well with those from elsewhere in Germany."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شەرابەکانی ھەرێمەکە باشن بەراورد بە ئەوانەی دیکەی شوێنەکانی دیکەی ئەڵمانیا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The region's wines compare well with those from elsewhere in Germany.",
+                                    kurdishText:
+                                        "شەرابەکانی ھەرێمەکە باشن بەراورد بە ئەوانەی دیکەی شوێنەکانی دیکەی ئەڵمانیا.",
+                                    onPressedBritish: () =>
+                                        speakcompares10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares10("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Few things compare with the joy of walking on a bright spring morning."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەم شت بەراورد دەکرێن بە پیاسەیەکی بەیانیانی ڕۆشنی بەھار."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Few things compare with the joy of walking on a bright spring morning.",
+                                    kurdishText:
+                                        "کەم شت بەراورد دەکرێن بە پیاسەیەکی بەیانیانی ڕۆشنی بەھار.",
+                                    onPressedBritish: () =>
+                                        speakcompares11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares11("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These mountains do not compare with the Himalayas."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم چیایانە بەراورد ناکرێن بە زنجیرەکانی ھێمالایا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "These mountains do not compare with the Himalayas.",
+                                    kurdishText:
+                                        "ئەم چیایانە بەراورد ناکرێن بە زنجیرەکانی ھێمالایا.",
+                                    onPressedBritish: () =>
+                                        speakcompares12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Nothing compares with the sight of your child swimming for the first time."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیچ بەراورد نابێت بە بینینی منداڵەکەت کە بۆ یەکەمجار مەلە دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcompares13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcompares13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Nothing compares with the sight of your child swimming for the first time.",
+                                    kurdishText:
+                                        "ھیچ بەراورد نابێت بە بینینی منداڵەکەت کە بۆ یەکەمجار مەلە دەکات.",
+                                    onPressedBritish: () =>
+                                        speakcompares13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcompares13("en-US"),
                                   ),
                                 ],
                               ),

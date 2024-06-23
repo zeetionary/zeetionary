@@ -207,182 +207,67 @@ class EnglishEntrychair extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He sighed and leaned back in his chair."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەناسەیەکی ھەڵکێشا و پاڵیدا بە کورسییەکەیەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchairs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchairs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He sighed and leaned back in his chair.",
+                                    kurdishText:
+                                        "ھەناسەیەکی ھەڵکێشا و پاڵیدا بە کورسییەکەیەوە.",
+                                    onPressedBritish: () =>
+                                        speakchairs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchairs3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A cat was asleep on the chair."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پشیلەیەک نووستبوو لەسەر کورسییەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchairs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchairs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A cat was asleep on the chair.",
+                                    kurdishText:
+                                        "پشیلەیەک نووستبوو لەسەر کورسییەکە.",
+                                    onPressedBritish: () =>
+                                        speakchairs4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchairs4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A chair stood facing the window."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کورسییەک ڕوو لە پەنجەرەکە دانرابوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchairs5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchairs5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A chair stood facing the window.",
+                                    kurdishText:
+                                        "کورسییەک ڕوو لە پەنجەرەکە دانرابوو.",
+                                    onPressedBritish: () =>
+                                        speakchairs5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchairs5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Come in and take a chair (= sit down)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وەرە ژوورەوە و دابنیشە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchairs6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchairs6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Come in and take a chair (= sit down).",
+                                    kurdishText: "وەرە ژوورەوە و دابنیشە.",
+                                    onPressedBritish: () =>
+                                        speakchairs6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchairs6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "He gave her his chair."),
-                                            ExampleSentenceKurdish(
-                                                text: "کورسییەکەیی پێدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchairs7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchairs7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "He gave her his chair.",
+                                    kurdishText: "کورسییەکەیی پێدا.",
+                                    onPressedBritish: () =>
+                                        speakchairs7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchairs7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Lisa heard a chair scraping the floor."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لیزا گوێی لە کورسییەک بوو بە زاوییەکەدا دەخشا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchairs8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchairs8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Lisa heard a chair scraping the floor.",
+                                    kurdishText:
+                                        "لیزا گوێی لە کورسییەک بوو بە زاوییەکەدا دەخشا.",
+                                    onPressedBritish: () =>
+                                        speakchairs8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchairs8("en-US"),
                                   ),
                                 ],
                               ),

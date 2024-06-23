@@ -186,68 +186,28 @@ class EnglishEntrychoke extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Very small toys can choke a baby."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "یاریی منداڵانی زۆر بچووک دەکرێت قوڕگی منداڵ بگرن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchokes3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchokes3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The fumes from the burning tyres made her choke."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دووکەڵی تایە سووتاوەکان تەنگەنەفەسی کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchokes4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchokes4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Very small toys can choke a baby.",
+                                    kurdishText:
+                                        "یاریی منداڵانی زۆر بچووک دەکرێت قوڕگی منداڵ بگرن.",
+                                    onPressedBritish: () =>
+                                        speakchokes3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchokes3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The fumes from the burning tyres made her choke.",
+                            kurdishText:
+                                "دووکەڵی تایە سووتاوەکان تەنگەنەفەسی کرد.",
+                            onPressedBritish: () => speakchokes4("en-GB"),
+                            onPressedAmerican: () => speakchokes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

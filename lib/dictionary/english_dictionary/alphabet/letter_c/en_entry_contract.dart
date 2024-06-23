@@ -235,94 +235,37 @@ class EnglishEntrycontract extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I was on a three-year contract that expired last week."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گرێدراو بە گرێبەستێکی سێ ساڵە بووم کە ھەفتەی ڕابردوو تەواو بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontracts3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontracts3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I was on a three-year contract that expired last week.",
+                                    kurdishText:
+                                        "گرێدراو بە گرێبەستێکی سێ ساڵە بووم کە ھەفتەی ڕابردوو تەواو بوو.",
+                                    onPressedBritish: () =>
+                                        speakcontracts3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontracts3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She is under contract to (= has a contract to work for) a major American computer firm."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گرێبەستی لەگەڵ کۆمپانیایەکی گەورەی کۆمپیوتەری ئەمریکی ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontracts4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontracts4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She is under contract to (= has a contract to work for) a major American computer firm.",
+                                    kurdishText:
+                                        "گرێبەستی لەگەڵ کۆمپانیایەکی گەورەی کۆمپیوتەری ئەمریکی ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcontracts4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontracts4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Under the terms of the contract the job should have been finished yesterday."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەپێی بەندەکانی ڕێککەوتنەکە کارەکە دەبوو دوێنێ تەواوبایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcontracts5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcontracts5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Under the terms of the contract the job should have been finished yesterday.",
+                                    kurdishText:
+                                        "بەپێی بەندەکانی ڕێککەوتنەکە کارەکە دەبوو دوێنێ تەواوبایە.",
+                                    onPressedBritish: () =>
+                                        speakcontracts5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcontracts5("en-US"),
                                   ),
                                 ],
                               ),

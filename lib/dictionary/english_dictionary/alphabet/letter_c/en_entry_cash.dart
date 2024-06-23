@@ -211,34 +211,15 @@ class EnglishEntrycash extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Payments can be made by card or in cash."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پارەدان دەکرێت بە کارد یان کاش بێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcashs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcashs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Payments can be made by card or in cash.",
+                                    kurdishText:
+                                        "پارەدان دەکرێت بە کارد یان کاش بێت.",
+                                    onPressedBritish: () =>
+                                        speakcashs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcashs3("en-US"),
                                   ),
                                 ],
                               ),

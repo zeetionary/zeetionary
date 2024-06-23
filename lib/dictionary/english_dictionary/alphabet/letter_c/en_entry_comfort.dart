@@ -243,64 +243,26 @@ class EnglishEntrycomfort extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They had enough money to live in comfort in their old age."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پارەی پێویستییان ھەبوو کە لە ئاسوودەییدا بژین لە تەمەنی پیرییاندا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomforts3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomforts3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They had enough money to live in comfort in their old age.",
+                                    kurdishText:
+                                        "پارەی پێویستییان ھەبوو کە لە ئاسوودەییدا بژین لە تەمەنی پیرییاندا.",
+                                    onPressedBritish: () =>
+                                        speakcomforts3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcomforts3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I dress for comfort rather than elegance."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بۆ ئاسوودەیی جل دەپۆشم نەک بۆ جوانی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomforts4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomforts4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I dress for comfort rather than elegance.",
+                                    kurdishText:
+                                        "بۆ ئاسوودەیی جل دەپۆشم نەک بۆ جوانی.",
+                                    onPressedBritish: () =>
+                                        speakcomforts4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcomforts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -338,34 +300,14 @@ class EnglishEntrycomfort extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I drew comfort from his words."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دڵنەواییم وەرگرت لە قسەکانی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcomforts8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcomforts8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I drew comfort from his words.",
+                                    kurdishText: "دڵنەواییم وەرگرت لە قسەکانی.",
+                                    onPressedBritish: () =>
+                                        speakcomforts8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcomforts8("en-US"),
                                   ),
                                 ],
                               ),

@@ -311,68 +311,27 @@ class EnglishEntrycollect extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She's gone to collect her son from school."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕۆشتووە بۆ ھێنانەوەی منداڵەکەی لە قوتابخانە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcollects12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcollects12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Someone will be at the airport to collect you."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کەسێک لە فڕۆکەخانە ھەڵتدەگرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcollects11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcollects11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She's gone to collect her son from school.",
+                                    kurdishText:
+                                        "ڕۆشتووە بۆ ھێنانەوەی منداڵەکەی لە قوتابخانە.",
+                                    onPressedBritish: () =>
+                                        speakcollects12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcollects12("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Someone will be at the airport to collect you.",
+                            kurdishText: "کەسێک لە فڕۆکەخانە ھەڵتدەگرێت.",
+                            onPressedBritish: () => speakcollects11("en-GB"),
+                            onPressedAmerican: () => speakcollects11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

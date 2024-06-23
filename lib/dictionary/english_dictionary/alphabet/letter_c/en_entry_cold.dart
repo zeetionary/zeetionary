@@ -231,66 +231,26 @@ class EnglishEntrycold extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Hurry up—your dinner's getting cold."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خێراکە، نانی ئێوارە سارد دەبێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcolds3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcolds3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "Isn't it cold today?"),
-                                            ExampleSentenceKurdish(
-                                                text: "سارد نییە ئەمڕۆ؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcolds4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcolds4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Hurry up—your dinner's getting cold.",
+                                    kurdishText:
+                                        "خێراکە، نانی ئێوارە سارد دەبێتەوە.",
+                                    onPressedBritish: () =>
+                                        speakcolds3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcolds3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText: "Isn't it cold today?",
+                            kurdishText: "سارد نییە ئەمڕۆ؟",
+                            onPressedBritish: () => speakcolds4("en-GB"),
+                            onPressedAmerican: () => speakcolds4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

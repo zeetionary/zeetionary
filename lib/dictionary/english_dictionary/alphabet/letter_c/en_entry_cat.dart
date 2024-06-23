@@ -212,94 +212,32 @@ class EnglishEntrycat extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The cat miaowed pitifully."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پشیلەکە داماوانە میاواندی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcats3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcats3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "The cat miaowed pitifully.",
+                                    kurdishText: "پشیلەکە داماوانە میاواندی.",
+                                    onPressedBritish: () => speakcats3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcats3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The cat was in constant pain so they had it put down."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پشیلەکە لە ئازاری بەردەوام بوو بۆیە کۆتاییان پێھێنا (کوشتیان بە ڕێگەی دەرزی تەندرووستی)."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcats4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcats4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The cat was in constant pain so they had it put down.",
+                                    kurdishText:
+                                        "پشیلەکە لە ئازاری بەردەوام بوو بۆیە کۆتاییان پێھێنا (کوشتیان بە ڕێگەی دەرزی تەندرووستی).",
+                                    onPressedBritish: () => speakcats4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcats4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They didn't want kittens, so they had their cat spayed."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەچکەپشیلەیان نەویست، بۆیە پشیلەکەیان نەزۆککرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcats5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcats5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They didn't want kittens, so they had their cat spayed.",
+                                    kurdishText:
+                                        "بەچکەپشیلەیان نەویست، بۆیە پشیلەکەیان نەزۆککرد.",
+                                    onPressedBritish: () => speakcats5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcats5("en-US"),
                                   ),
                                 ],
                               ),

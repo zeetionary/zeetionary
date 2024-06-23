@@ -198,195 +198,111 @@ class EnglishEntryclimate extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Most climate scientists believe the earth will warm several more degrees in coming decades."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زۆرێک لە زانایانی ئاو و ھەوا باوەڕیان وایە زەوی چەند پلەیەکی دیکە گەرم دەبێت لە چەند دەیەی دادێدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimates4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimates4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Most climate scientists believe the earth will warm several more degrees in coming decades.",
+                                    kurdishText:
+                                        "زۆرێک لە زانایانی ئاو و ھەوا باوەڕیان وایە زەوی چەند پلەیەکی دیکە گەرم دەبێت لە چەند دەیەی دادێدا.",
+                                    onPressedBritish: () =>
+                                        speakclimates4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimates4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It is a region with diverse soils and climate."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەرێمێکە بە خاک و ئاو و ھەوای جیاوازەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclimates3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclimates3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It is a region with diverse soils and climate.",
+                                    kurdishText:
+                                        "ھەرێمێکە بە خاک و ئاو و ھەوای جیاوازەوە.",
+                                    onPressedBritish: () =>
+                                        speakclimates3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimates3("en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ناوچەیەک کە ئاو و ھەوای دیاریکراوی ھەیە"),
-                          SentencesRow(
-                            englishText: "Little grows in such a dry climate.",
-                            kurdishText: "کەم شت دەڕوێت لە کەشێکی وەھا وشکدا.",
-                            onPressedBritish: () => speakclimates5("en-GB"),
-                            onPressedAmerican: () => speakclimates5("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "They wanted to move to a warmer climate.",
-                            kurdishText: "دەیانویست کۆچ بکەن بۆ کەشێکی گەرمتر.",
-                            onPressedBritish: () => speakclimates6("en-GB"),
-                            onPressedAmerican: () => speakclimates6("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) کەشێک یان دۆخێک کە لە شوێنێکدا بوونی ھەیە"),
-                          SentencesRow(
-                            englishText:
-                                "We need to create a climate in which business can prosper.",
-                            kurdishText:
-                                "پێویستە کەشێک درووست بکەین کە تێیدا بازرگانییەکان دەتوانن گەشە بکەن.",
-                            onPressedBritish: () => speakclimates7("en-GB"),
-                            onPressedAmerican: () => speakclimates7("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "They hope this will provide the right climate for social change.",
-                            kurdishText:
-                                "ھیواخوازن ئەمە کەشی لەبار بڕەخسێنێت بۆ گۆڕانی کۆمەڵایەتی.",
-                            onPressedBritish: () => speakclimates8("en-GB"),
-                            onPressedAmerican: () => speakclimates8("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (ناو) ناوچەیەک کە ئاو و ھەوای دیاریکراوی ھەیە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Little grows in such a dry climate.",
+                                    kurdishText:
+                                        "کەم شت دەڕوێت لە کەشێکی وەھا وشکدا.",
+                                    onPressedBritish: () =>
+                                        speakclimates5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimates5("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "They wanted to move to a warmer climate.",
+                                    kurdishText:
+                                        "دەیانویست کۆچ بکەن بۆ کەشێکی گەرمتر.",
+                                    onPressedBritish: () =>
+                                        speakclimates6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimates6("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (ناو) کەشێک یان دۆخێک کە لە شوێنێکدا بوونی ھەیە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "We need to create a climate in which business can prosper.",
+                                    kurdishText:
+                                        "پێویستە کەشێک درووست بکەین کە تێیدا بازرگانییەکان دەتوانن گەشە بکەن.",
+                                    onPressedBritish: () =>
+                                        speakclimates7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimates7("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "They hope this will provide the right climate for social change.",
+                                    kurdishText:
+                                        "ھیواخوازن ئەمە کەشی لەبار بڕەخسێنێت بۆ گۆڕانی کۆمەڵایەتی.",
+                                    onPressedBritish: () =>
+                                        speakclimates8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclimates8("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Such a move seems unlikely in the current political climate."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەنگاوێکی وەھا ڕێی تێ ناچێت لە کەشی سیاسی ئێستادا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          SentencesRow(
+                                            englishText:
+                                                "Such a move seems unlikely in the current political climate.",
+                                            kurdishText:
+                                                "ھەنگاوێکی وەھا ڕێی تێ ناچێت لە کەشی سیاسی ئێستادا.",
+                                            onPressedBritish: () =>
                                                 speakclimates9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakclimates9("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The new policies have created a climate of fear."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سیاسەتە تازەکان کەشێکیان لە ترس درووستکردووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "The new policies have created a climate of fear.",
+                                            kurdishText:
+                                                "سیاسەتە تازەکان کەشێکیان لە ترس درووستکردووە.",
+                                            onPressedBritish: () =>
                                                 speakclimates10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakclimates10("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Terrorism creates a climate of fear."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەرۆریزم کەشێکی تۆقێنەر درووست دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "Terrorism creates a climate of fear.",
+                                            kurdishText:
+                                                "تەرۆریزم کەشێکی تۆقێنەر درووست دەکات.",
+                                            onPressedBritish: () =>
                                                 speakclimates11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakclimates11("en-US"),
                                           ),
                                         ],

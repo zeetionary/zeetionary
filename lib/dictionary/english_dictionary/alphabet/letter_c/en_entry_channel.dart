@@ -242,64 +242,26 @@ class EnglishEntrychannel extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Lily surfed the channels on the television."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لیلی بە کەناڵەکانی تەلەفیزیۆنەکەدا دەگەڕا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchannels3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchannels3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Lily surfed the channels on the television.",
+                                    kurdishText:
+                                        "لیلی بە کەناڵەکانی تەلەفیزیۆنەکەدا دەگەڕا.",
+                                    onPressedBritish: () =>
+                                        speakchannels3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchannels3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This channel broadcasts 24 hours a day."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم کەناڵە ٢٤ کاتژمێر لە ڕۆژێکدا پەخش دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchannels4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchannels4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This channel broadcasts 24 hours a day.",
+                                    kurdishText:
+                                        "ئەم کەناڵە ٢٤ کاتژمێر لە ڕۆژێکدا پەخش دەکات.",
+                                    onPressedBritish: () =>
+                                        speakchannels4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchannels4("en-US"),
                                   ),
                                 ],
                               ),
@@ -341,34 +303,15 @@ class EnglishEntrychannel extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Journalists always have indirect channels for getting information."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕۆژنامەنووسان ھەمیشە ڕێگای ناڕاستەوخۆیان ھەیە بۆ وەرگرتنی زانیاری."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchannels8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchannels8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Journalists always have indirect channels for getting information.",
+                                    kurdishText:
+                                        "ڕۆژنامەنووسان ھەمیشە ڕێگای ناڕاستەوخۆیان ھەیە بۆ وەرگرتنی زانیاری.",
+                                    onPressedBritish: () =>
+                                        speakchannels8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchannels8("en-US"),
                                   ),
                                 ],
                               ),
@@ -438,64 +381,26 @@ class EnglishEntrychannel extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Money for the project will be channelled through local government."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پارە بۆ پڕۆژەکە لە ڕێگەی حکومەتی خۆجێییەوە تەرخان دەکرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchannels14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchannels14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Money for the project will be channelled through local government.",
+                                    kurdishText:
+                                        "پارە بۆ پڕۆژەکە لە ڕێگەی حکومەتی خۆجێییەوە تەرخان دەکرێت.",
+                                    onPressedBritish: () =>
+                                        speakchannels14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchannels14("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "A sensor channels the light signal along an fibre."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەستەوەرێک شەپۆلە ڕووناکییەکە بە فایبەرێکدا دەنێرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchannels15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchannels15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "A sensor channels the light signal along an fibre.",
+                                    kurdishText:
+                                        "ھەستەوەرێک شەپۆلە ڕووناکییەکە بە فایبەرێکدا دەنێرێت.",
+                                    onPressedBritish: () =>
+                                        speakchannels15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchannels15("en-US"),
                                   ),
                                 ],
                               ),

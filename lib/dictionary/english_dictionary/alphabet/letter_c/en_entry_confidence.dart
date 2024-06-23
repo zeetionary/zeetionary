@@ -253,97 +253,38 @@ class EnglishEntryconfidence extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He believes his reforms will restore confidence in the financial markets."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "باوەڕی وایە چاکسازییەکانی متمانە بۆ بازاڕی ئابووری دەگێڕنەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconfidences3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconfidences3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He believes his reforms will restore confidence in the financial markets.",
+                                    kurdishText:
+                                        "باوەڕی وایە چاکسازییەکانی متمانە بۆ بازاڕی ئابووری دەگێڕنەوە.",
+                                    onPressedBritish: () =>
+                                        speakconfidences3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconfidences3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The survey revealed a lack of confidence in the government."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕاپرسییەکە کەمی متمانەی بۆ حکومەت دەرخست."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconfidences4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconfidences4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She has the utmost confidence in her students' abilities."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "باوەڕی تەواوی بە توانای خوێندکارانی ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakconfidences5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakconfidences5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The survey revealed a lack of confidence in the government.",
+                                    kurdishText:
+                                        "ڕاپرسییەکە کەمی متمانەی بۆ حکومەت دەرخست.",
+                                    onPressedBritish: () =>
+                                        speakconfidences4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconfidences4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          SentencesRow(
+                            englishText:
+                                "She has the utmost confidence in her students' abilities.",
+                            kurdishText:
+                                "باوەڕی تەواوی بە توانای خوێندکارانی ھەیە.",
+                            onPressedBritish: () => speakconfidences5("en-GB"),
+                            onPressedAmerican: () => speakconfidences5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

@@ -363,422 +363,306 @@ class EnglishEntrycheck extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Be sure to check labels for specific information."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەیری نووسراوەکان بکە بۆ زانیاری دیاریکراو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchecks3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchecks3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Be sure to check labels for specific information.",
+                                    kurdishText:
+                                        "سەیری نووسراوەکان بکە بۆ زانیاری دیاریکراو.",
+                                    onPressedBritish: () =>
+                                        speakchecks3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Check the engine oil level regularly."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئاستی ڕۆنی مەکینەکە زووزوو بپشکنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchecks4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchecks4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Check the engine oil level regularly.",
+                                    kurdishText:
+                                        "ئاستی ڕۆنی مەکینەکە زووزوو بپشکنە.",
+                                    onPressedBritish: () =>
+                                        speakchecks4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks4("en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) سەیرکردنی شتێک یان ڕاسپاردنی کەسێک بۆ زانینی ئەوەی کە کەسێک/شتێک ئامادەیە، درووستە، یان ڕاستە، یان ئەوە شتێک بەو شێوەیە کە باوەڕت وایە"),
-                          SentencesRow(
-                            englishText:
-                                "We were interrupted by a waiter checking to see if everything was OK.",
-                            kurdishText:
-                                "پچڕێندراین لەلایەن گارسۆنێکەوە بۆ ئەوەی دڵنیایی بکاتەوە ھەموو شتێک درووست بوو.",
-                            onPressedBritish: () => speakchecks5("en-GB"),
-                            onPressedAmerican: () => speakchecks5("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Hang on—I just need to check my email.",
-                            kurdishText:
-                                "بوەستە، تەنھا پێویستە سەیری ئیمەیڵەکەم بکەم.",
-                            onPressedBritish: () => speakchecks6("en-GB"),
-                            onPressedAmerican: () => speakchecks6("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (کردار) سەیرکردنی شتێک یان ڕاسپاردنی کەسێک بۆ زانینی ئەوەی کە کەسێک/شتێک ئامادەیە، درووستە، یان ڕاستە، یان ئەوە شتێک بەو شێوەیە کە باوەڕت وایە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "We were interrupted by a waiter checking to see if everything was OK.",
+                                    kurdishText:
+                                        "پچڕێندراین لەلایەن گارسۆنێکەوە بۆ ئەوەی دڵنیایی بکاتەوە ھەموو شتێک درووست بوو.",
+                                    onPressedBritish: () =>
+                                        speakchecks5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks5("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "Hang on—I just need to check my email.",
+                                    kurdishText:
+                                        "بوەستە، تەنھا پێویستە سەیری ئیمەیڵەکەم بکەم.",
+                                    onPressedBritish: () =>
+                                        speakchecks6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks6("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She's constantly checking her phone—it drives me mad."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەردەوام سەیری موبایلەکەی دەکات، ئەوە شێتم دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          SentencesRow(
+                                            englishText:
+                                                "She's constantly checking her phone—it drives me mad.",
+                                            kurdishText:
+                                                "بەردەوام سەیری موبایلەکەی دەکات، ئەوە شێتم دەکات.",
+                                            onPressedBritish: () =>
                                                 speakchecks7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchecks7("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Check our website for details."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بڕوانە وێبسایتەکەمان بۆ وردەکارییەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "Check our website for details.",
+                                            kurdishText:
+                                                "بڕوانە وێبسایتەکەمان بۆ وردەکارییەکان.",
+                                            onPressedBritish: () =>
                                                 speakchecks8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchecks8("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Go and check (that) I’ve locked the windows."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بچۆ و دڵنیایی بکەرەوە کە پەنجەرەکانم قفڵکردووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "Go and check (that) I’ve locked the windows.",
+                                            kurdishText:
+                                                "بچۆ و دڵنیایی بکەرەوە کە پەنجەرەکانم قفڵکردووە.",
+                                            onPressedBritish: () =>
                                                 speakchecks9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchecks9("en-US"),
                                           ),
                                         ],
                                       ),
                                     ],
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) دانانی نیشانەی (✓) لە تەنیشت شتێک لە لیستێکدا، وەڵامێک، ھتد"),
-                          SentencesRow(
-                            englishText:
-                                "Check the box next to the right answer.",
-                            kurdishText: "حەوتک لە خشتەی وەڵامی ڕاست بدە.",
-                            onPressedBritish: () => speakchecks10("en-GB"),
-                            onPressedAmerican: () => speakchecks10("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) کۆنترۆڵکردنی شتێک، وەستاندنی شتێک لە زیادبوون یان خراپبوون"),
-                          SentencesRow(
-                            englishText:
-                                "The government is determined to check the growth of public spending.",
-                            kurdishText:
-                                "حکومەت سوورە لەسەر ڕێگری لە گەشەی خەرجی گشتی.",
-                            onPressedBritish: () => speakchecks11("en-GB"),
-                            onPressedAmerican: () => speakchecks11("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "You can try theis to checks the growth of bacteria.",
-                            kurdishText:
-                                "دەتوانیت ئەمە تاقیبکەیتەوە بۆ ڕێگری لە تەشەنەی بەکتریا.",
-                            onPressedBritish: () => speakchecks12("en-GB"),
-                            onPressedAmerican: () => speakchecks12("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (کردار) وەستاندنی خۆت لە وتن یان کردنی شتێک، یان پیشاندانی ھەستێکی دیاریکراو"),
-                          SentencesRow(
-                            englishText:
-                                "She made no effort to check her tears and just let them run down her face.",
-                            kurdishText:
-                                "ھیچ ھەوڵێکی نەدا ڕێگری لە فرمێسکەکانی بکات و ڕێگەیدا بە ڕووخساریدا بێنە خوارەوە.",
-                            onPressedBritish: () => speakchecks13("en-GB"),
-                            onPressedAmerican: () => speakchecks13("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She wanted to tell him the whole truth but she checked herself—it wasn't the right moment.",
-                            kurdishText:
-                                "ویستی ھەموو ڕاستییەکانی پێ بڵێت بەڵام خۆی کۆنترۆڵ کرد، ئەوە کاتە گونجاوەکە نەبوو.",
-                            onPressedBritish: () => speakchecks14("en-GB"),
-                            onPressedAmerican: () => speakchecks14("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٦. (ناو) پشکنینی شتێک  بۆ ئەوەی بزانیت سەلامەتە، پارێزراوە، یان لە دۆخێکی باشدایە"),
-                          SentencesRow(
-                            englishText: "Could you give the tyres a check?",
-                            kurdishText: "دەتوانیت پشکنینێکی تایەکان بکەیت؟",
-                            onPressedBritish: () => speakchecks15("en-GB"),
-                            onPressedAmerican: () => speakchecks15("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "I went for a health check before going on the trip.",
-                            kurdishText:
-                                "چووم بۆ پشکنینێکی تەندرووستی پێش ئەوەی بۆ گەشتەکە بچم.",
-                            onPressedBritish: () => speakchecks16("en-GB"),
-                            onPressedAmerican: () => speakchecks16("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'll just have a quick check to see if the letter's arrived yet."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەنھا پشکنینێکی خێرا دەکەم بۆ ئەوەی بزانم نامەکە گەشتووە تا ئێستا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchecks17("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchecks17("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (کردار) دانانی نیشانەی (✓) لە تەنیشت شتێک لە لیستێکدا، وەڵامێک، ھتد"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Check the box next to the right answer.",
+                                    kurdishText:
+                                        "حەوتک لە خشتەی وەڵامی ڕاست بدە.",
+                                    onPressedBritish: () =>
+                                        speakchecks10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks10("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٤. (کردار) کۆنترۆڵکردنی شتێک، وەستاندنی شتێک لە زیادبوون یان خراپبوون"),
+                                  SentencesRow(
+                                    englishText:
+                                        "The government is determined to check the growth of public spending.",
+                                    kurdishText:
+                                        "حکومەت سوورە لەسەر ڕێگری لە گەشەی خەرجی گشتی.",
+                                    onPressedBritish: () =>
+                                        speakchecks11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks11("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
+                                  SentencesRow(
+                                    englishText:
+                                        "You can try theis to checks the growth of bacteria.",
+                                    kurdishText:
+                                        "دەتوانیت ئەمە تاقیبکەیتەوە بۆ ڕێگری لە تەشەنەی بەکتریا.",
+                                    onPressedBritish: () =>
+                                        speakchecks12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks12("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٥. (کردار) وەستاندنی خۆت لە وتن یان کردنی شتێک، یان پیشاندانی ھەستێکی دیاریکراو"),
+                                  SentencesRow(
+                                    englishText:
+                                        "She made no effort to check her tears and just let them run down her face.",
+                                    kurdishText:
+                                        "ھیچ ھەوڵێکی نەدا ڕێگری لە فرمێسکەکانی بکات و ڕێگەیدا بە ڕووخساریدا بێنە خوارەوە.",
+                                    onPressedBritish: () =>
+                                        speakchecks13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks13("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "She wanted to tell him the whole truth but she checked herself—it wasn't the right moment.",
+                                    kurdishText:
+                                        "ویستی ھەموو ڕاستییەکانی پێ بڵێت بەڵام خۆی کۆنترۆڵ کرد، ئەوە کاتە گونجاوەکە نەبوو.",
+                                    onPressedBritish: () =>
+                                        speakchecks14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks14("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٦. (ناو) پشکنینی شتێک  بۆ ئەوەی بزانیت سەلامەتە، پارێزراوە، یان لە دۆخێکی باشدایە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Could you give the tyres a check?",
+                                    kurdishText:
+                                        "دەتوانیت پشکنینێکی تایەکان بکەیت؟",
+                                    onPressedBritish: () =>
+                                        speakchecks15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks15("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "I went for a health check before going on the trip.",
+                                    kurdishText:
+                                        "چووم بۆ پشکنینێکی تەندرووستی پێش ئەوەی بۆ گەشتەکە بچم.",
+                                    onPressedBritish: () =>
+                                        speakchecks16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks16("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She had a thorough check of the room, but nothing had been taken."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پشکنینێکی تەواوی ژوورەکەی کرد، بەڵام ھیچ نەبردرابوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchecks18("en-GB"),
+                                          SentencesRow(
+                                            englishText:
+                                                "I'll just have a quick check to see if the letter's arrived yet.",
+                                            kurdishText:
+                                                "تەنھا پشکنینێکی خێرا دەکەم بۆ ئەوەی بزانم نامەکە گەشتووە تا ئێستا.",
+                                            onPressedBritish: () =>
+                                                speakchecks17("en-GB"),
+                                            onPressedAmerican: () =>
+                                                speakchecks17("en-US"),
                                           ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "She had a thorough check of the room, but nothing had been taken.",
+                                            kurdishText:
+                                                "پشکنینێکی تەواوی ژوورەکەی کرد، بەڵام ھیچ نەبردرابوو.",
+                                            onPressedBritish: () =>
+                                                speakchecks18("en-GB"),
+                                            onPressedAmerican: () =>
                                                 speakchecks18("en-US"),
                                           ),
                                         ],
                                       ),
                                     ],
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) لێکۆڵینەوە بۆ دۆزینەوەی زانیاری لەسەر کەسێک/شتێک"),
-                          SentencesRow(
-                            englishText:
-                                "Security checks were causing long delays at border crossings.",
-                            kurdishText:
-                                "پشکنینی سەلامەتی دەبوونە ھۆکاری دواکەوتنی درێژخایەن لە خاڵە سنوورییەکان.",
-                            onPressedBritish: () => speakchecks19("en-GB"),
-                            onPressedAmerican: () => speakchecks19("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The police ran a check on the registration number of the car.",
-                            kurdishText:
-                                "پۆلیس پشکنینێکی ژمارەی تۆماری ئۆتۆمبێلەکەی کرد.",
-                            onPressedBritish: () => speakchecks20("en-GB"),
-                            onPressedAmerican: () => speakchecks20("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٧. (ناو) لێکۆڵینەوە بۆ دۆزینەوەی زانیاری لەسەر کەسێک/شتێک"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Security checks were causing long delays at border crossings.",
+                                    kurdishText:
+                                        "پشکنینی سەلامەتی دەبوونە ھۆکاری دواکەوتنی درێژخایەن لە خاڵە سنوورییەکان.",
+                                    onPressedBritish: () =>
+                                        speakchecks19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks19("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "The police ran a check on the registration number of the car.",
+                                    kurdishText:
+                                        "پۆلیس پشکنینێکی ژمارەی تۆماری ئۆتۆمبێلەکەی کرد.",
+                                    onPressedBritish: () =>
+                                        speakchecks20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks20("en-US"),
+                                  ),
+                                  Column(
                                     children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Was any check made on Mr Morris when he applied for the post?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیچ لێکۆڵینەوەیەک لە بەڕێز مۆریس کرا کە داخوازینامەی بۆ پێگەکە پێشکەشکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
+                                      MyExpansionTile(
                                         children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                          SentencesRow(
+                                            englishText:
+                                                "Was any check made on Mr Morris when he applied for the post?",
+                                            kurdishText:
+                                                "ھیچ لێکۆڵینەوەیەک لە بەڕێز مۆریس کرا کە داخوازینامەی بۆ پێگەکە پێشکەشکرد.",
+                                            onPressedBritish: () =>
                                                 speakchecks21("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+                                            onPressedAmerican: () =>
                                                 speakchecks21("en-US"),
+                                          ),
+                                          const DividerDefinition(),
+                                          const DefinitionKurdish(
+                                              text:
+                                                  "٢٢. (ناو) نیشانەی (✓)  کە دادەنرێت لە پێش شتێک لە لیستێکدا بۆ ئەوەی وا پیشان بدرێت کە ئەنجام‌دراوە"),
+                                          SentencesRow(
+                                            englishText:
+                                                "The teacher put a check next to his name.",
+                                            kurdishText:
+                                                "مامۆستاکە حەوتکێکی دانا لە تەنیشت ناوەکەی.",
+                                            onPressedBritish: () =>
+                                                speakchecks22("en-GB"),
+                                            onPressedAmerican: () =>
+                                                speakchecks22("en-US"),
+                                          ),
+                                          const DividerSentences(),
+                                          SentencesRow(
+                                            englishText:
+                                                "Place a check beside each characteristic that you feel that you possess.",
+                                            kurdishText:
+                                                "حەوتکێک لە تەنیشت ھەر خاسیەتێک دابنە کە پێت وایە ھەتە.",
+                                            onPressedBritish: () =>
+                                                speakchecks23("en-GB"),
+                                            onPressedAmerican: () =>
+                                                speakchecks23("en-US"),
                                           ),
                                         ],
                                       ),
                                     ],
                                   ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٩. (ناو) لە چێشتخانەدا پارچە کاغەزێکە کە نرخی ئەو خواردن و خواردنەوانەی لەسەر نووسراوە کە داوات کردووە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "I paid the check for the dinner.",
+                                    kurdishText:
+                                        "پارەی حسابەکەم دا بۆ نانی ئێوارە.",
+                                    onPressedBritish: () =>
+                                        speakchecks24("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks24("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "Can I have the check, please?",
+                                    kurdishText:
+                                        "بێزەحمەت، دەتوانیت حسابەکەم بۆ بێنیت؟",
+                                    onPressedBritish: () =>
+                                        speakchecks25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchecks25("en-US"),
+                                  ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢٢. (ناو) نیشانەی (✓)  کە دادەنرێت لە پێش شتێک لە لیستێکدا بۆ ئەوەی وا پیشان بدرێت کە ئەنجام‌دراوە"),
-                          SentencesRow(
-                            englishText:
-                                "The teacher put a check next to his name.",
-                            kurdishText:
-                                "مامۆستاکە حەوتکێکی دانا لە تەنیشت ناوەکەی.",
-                            onPressedBritish: () => speakchecks22("en-GB"),
-                            onPressedAmerican: () => speakchecks22("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Place a check beside each characteristic that you feel that you possess.",
-                            kurdishText:
-                                "حەوتکێک لە تەنیشت ھەر خاسیەتێک دابنە کە پێت وایە ھەتە.",
-                            onPressedBritish: () => speakchecks23("en-GB"),
-                            onPressedAmerican: () => speakchecks23("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٩. (ناو) لە چێشتخانەدا پارچە کاغەزێکە کە نرخی ئەو خواردن و خواردنەوانەی لەسەر نووسراوە کە داوات کردووە"),
-                          SentencesRow(
-                            englishText: "I paid the check for the dinner.",
-                            kurdishText: "پارەی حسابەکەم دا بۆ نانی ئێوارە.",
-                            onPressedBritish: () => speakchecks24("en-GB"),
-                            onPressedAmerican: () => speakchecks24("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Can I have the check, please?",
-                            kurdishText:
-                                "بێزەحمەت، دەتوانیت حسابەکەم بۆ بێنیت؟",
-                            onPressedBritish: () => speakchecks25("en-GB"),
-                            onPressedAmerican: () => speakchecks25("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "١٠. (ناو) چەکی بانکی"),

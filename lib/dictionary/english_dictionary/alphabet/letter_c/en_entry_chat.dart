@@ -205,68 +205,26 @@ class EnglishEntrychat extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Within minutes of being introduced they were chatting away like old friends."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە ماوەی چەند خولەکێکی یەکترناسیدا، وەک کۆنە ھاوڕێ گفتوگۆیان دەکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchats3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchats3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "What were you chatting about?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لەسەر چی گفتوگۆتان بوو؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakchats4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakchats4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Within minutes of being introduced they were chatting away like old friends.",
+                                    kurdishText:
+                                        "لە ماوەی چەند خولەکێکی یەکترناسیدا، وەک کۆنە ھاوڕێ گفتوگۆیان دەکرد.",
+                                    onPressedBritish: () =>
+                                        speakchats3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakchats3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText: "What were you chatting about?",
+                            kurdishText: "لەسەر چی گفتوگۆتان بوو؟",
+                            onPressedBritish: () => speakchats4("en-GB"),
+                            onPressedAmerican: () => speakchats4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

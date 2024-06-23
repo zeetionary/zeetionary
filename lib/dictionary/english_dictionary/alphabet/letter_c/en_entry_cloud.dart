@@ -255,68 +255,28 @@ class EnglishEntrycloud extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It was scorching and there wasn't a cloud in the sky."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زۆر گەرم بوو و ھیچ ھەورێک لە ئاسماندا نەبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclouds3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclouds3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The plane was flying in cloud most of the way."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "فڕۆکەکە زۆرینەی ماوەکە لە ناو ھەوردا گەشتی دەکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakclouds4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakclouds4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It was scorching and there wasn't a cloud in the sky.",
+                                    kurdishText:
+                                        "زۆر گەرم بوو و ھیچ ھەورێک لە ئاسماندا نەبوو.",
+                                    onPressedBritish: () =>
+                                        speakclouds3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakclouds3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The plane was flying in cloud most of the way.",
+                            kurdishText:
+                                "فڕۆکەکە زۆرینەی ماوەکە لە ناو ھەوردا گەشتی دەکرد.",
+                            onPressedBritish: () => speakclouds4("en-GB"),
+                            onPressedAmerican: () => speakclouds4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

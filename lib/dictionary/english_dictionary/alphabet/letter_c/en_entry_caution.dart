@@ -217,34 +217,15 @@ class EnglishEntrycaution extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The utmost caution must be exercised when handling explosives."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەوپەڕی وریایی دەبێت بگیردرێتەبەر لەکاتی مامەڵە لەگەڵ تەقەمەنیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcautions3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcautions3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The utmost caution must be exercised when handling explosives.",
+                                    kurdishText:
+                                        "ئەوپەڕی وریایی دەبێت بگیردرێتەبەر لەکاتی مامەڵە لەگەڵ تەقەمەنیدا.",
+                                    onPressedBritish: () =>
+                                        speakcautions3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcautions3("en-US"),
                                   ),
                                 ],
                               ),

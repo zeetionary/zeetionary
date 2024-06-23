@@ -212,68 +212,27 @@ class EnglishEntrycertain extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'm certain we'll think of something."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دڵنیام شتێک بە خەیاڵماندا دێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcertains3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcertains3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Are you absolutely certain about this?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواو دڵنیایت لەسەر ئەمە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcertains4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcertains4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I'm certain we'll think of something.",
+                                    kurdishText:
+                                        "دڵنیام شتێک بە خەیاڵماندا دێت.",
+                                    onPressedBritish: () =>
+                                        speakcertains3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcertains3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Are you absolutely certain about this?",
+                            kurdishText: "تەواو دڵنیایت لەسەر ئەمە؟",
+                            onPressedBritish: () => speakcertains4("en-GB"),
+                            onPressedAmerican: () => speakcertains4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
@@ -298,68 +257,28 @@ class EnglishEntrycertain extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He seemed certain to be defeated in the election."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "یەکلایی‌یەوەبوو کە لە ھەڵبژاردنەکە دەدۆڕێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcertains7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcertains7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The death toll was almost certain to rise."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕێژەی مردن مسۆگەر بوو کە بەرزدەبێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcertains8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcertains8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He seemed certain to be defeated in the election.",
+                                    kurdishText:
+                                        "یەکلایی‌یەوەبوو کە لە ھەڵبژاردنەکە دەدۆڕێت.",
+                                    onPressedBritish: () =>
+                                        speakcertains7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcertains7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "The death toll was almost certain to rise.",
+                            kurdishText:
+                                "ڕێژەی مردن مسۆگەر بوو کە بەرزدەبێتەوە.",
+                            onPressedBritish: () => speakcertains8("en-GB"),
+                            onPressedAmerican: () => speakcertains8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

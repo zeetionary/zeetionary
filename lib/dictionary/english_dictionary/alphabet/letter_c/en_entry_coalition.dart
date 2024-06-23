@@ -142,64 +142,26 @@ class EnglishEntrycoalition extends StatelessWidget {
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They didn't rule out coalition with the Social Democrats."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەگەری ھاوپەیمانییان لەگەڵ سۆشیال دیموکراتەکان نەخستەلاوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoalitions3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoalitions3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They didn't rule out coalition with the Social Democrats.",
+                                    kurdishText:
+                                        "ئەگەری ھاوپەیمانییان لەگەڵ سۆشیال دیموکراتەکان نەخستەلاوە.",
+                                    onPressedBritish: () =>
+                                        speakcoalitions3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcoalitions3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "By forming a coalition, the rebels and the opposition parties defeated the government."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە درووستکردنی ھاوپەیمانییەک یاخیبووان و پارتە ئۆپۆزسیۆنەکان شکستیان بە حکومەت ھێنا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakcoalitions4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakcoalitions4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "By forming a coalition, the rebels and the opposition parties defeated the government.",
+                                    kurdishText:
+                                        "بە درووستکردنی ھاوپەیمانییەک یاخیبووان و پارتە ئۆپۆزسیۆنەکان شکستیان بە حکومەت ھێنا.",
+                                    onPressedBritish: () =>
+                                        speakcoalitions4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcoalitions4("en-US"),
                                   ),
                                 ],
                               ),
